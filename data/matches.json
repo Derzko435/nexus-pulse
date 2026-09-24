@@ -1,0 +1,82 @@
+{
+  "updatedAt": "2026-09-24T22:00:00+03:00",
+  "source": "curated",
+  "note": "Статический снимок. Обновляется скриптом / вручную — live API часто блокируется CORS.",
+  "matches": [
+    {
+      "id": "cs2-pgl-1",
+      "game": "CS2",
+      "teamA": "NaVi",
+      "teamB": "Vitality",
+      "scoreA": 1,
+      "scoreB": 1,
+      "status": "live",
+      "event": "PGL Major Qual",
+      "startsAt": "2026-09-24T20:00:00+03:00",
+      "links": {
+        "liquipedia": "https://liquipedia.net/counterstrike/Main_Page",
+        "hltv": "https://www.hltv.org/matches"
+      }
+    },
+    {
+      "id": "val-vct-1",
+      "game": "Valorant",
+      "teamA": "Sentinels",
+      "teamB": "FNATIC",
+      "scoreA": 0,
+      "scoreB": 0,
+      "status": "upcoming",
+      "event": "VCT Champions",
+      "startsAt": "2026-09-25T18:00:00+03:00",
+      "links": {
+        "liquipedia": "https://liquipedia.net/valorant/VCT/2026/Champions",
+        "hltv": "https://www.vlr.gg/"
+      }
+    },
+    {
+      "id": "dota-ti-1",
+      "game": "Dota 2",
+      "teamA": "Team Spirit",
+      "teamB": "Team Liquid",
+      "scoreA": 2,
+      "scoreB": 0,
+      "status": "finished",
+      "event": "Road to TI",
+      "startsAt": "2026-09-23T17:00:00+03:00",
+      "links": {
+        "liquipedia": "https://liquipedia.net/dota2/The_International",
+        "hltv": "https://www.dotabuff.com/esports"
+      }
+    },
+    {
+      "id": "lol-lec-1",
+      "game": "LoL",
+      "teamA": "G2 Esports",
+      "teamB": "Fnatic",
+      "scoreA": 0,
+      "scoreB": 0,
+      "status": "upcoming",
+      "event": "LEC Worlds Qual",
+      "startsAt": "2026-09-26T19:00:00+03:00",
+      "links": {
+        "liquipedia": "https://liquipedia.net/leagueoflegends/LEC/2026_Season",
+        "hltv": "https://lolesports.com/"
+      }
+    },
+    {
+      "id": "r6-inv-1",
+      "game": "R6 Siege",
+      "teamA": "w7m",
+      "teamB": "FaZe",
+      "scoreA": 0,
+      "scoreB": 0,
+      "status": "upcoming",
+      "event": "Six Invitational Warmup",
+      "startsAt": "2026-10-18T16:00:00+03:00",
+      "links": {
+        "liquipedia": "https://liquipedia.net/rainbowsix/Six_Invitational",
+        "hltv": "https://siege.gg/"
+      }
+    }
+  ]
+}

@@ -52,6 +52,9 @@
         <li><a href="#glossary" data-i18n="nav.glossary">Словарь</a></li>
         <li><a href="#esports" data-i18n="nav.esports">Киберспорт</a></li>
         <li><a href="#deals" data-i18n="nav.deals">Скидки</a></li>
+        <li><a href="#freebies">Халява</a></li>
+        <li><a href="#lfg">LFG</a></li>
+        <li><a href="#checklists">Чеклисты</a></li>
         <li><a href="#tools" data-i18n="nav.tools">Инструменты</a></li>
         <li><a href="#news" data-i18n="nav.news">Новости</a></li>
         <li><a href="#community" class="nav-cta" id="navDiscord" data-i18n="nav.discord">Discord</a></li>
@@ -76,7 +79,7 @@
           <ul class="hero-stats">
             <li><strong id="statGames">75+</strong><span data-i18n="hero.statGames">игр в каталоге</span></li>
             <li><strong id="statGuides">30</strong><span data-i18n="hero.statGuides">гайдов</span></li>
-            <li><strong id="statTools">5</strong><span data-i18n="hero.statTools">интерактивных тула</span></li>
+            <li><strong id="statTools">12</strong><span data-i18n="hero.statTools">интерактивных тула</span></li>
           </ul>
         </div>
         <div class="hero-visual" aria-hidden="true">
@@ -124,6 +127,7 @@
             </div>
           </div>
         </div>
+        <div class="streams-of-day glass" id="streamsOfDay" aria-label="Стримы дня"></div>
       </div>
     </section>
 
@@ -190,6 +194,29 @@
           <div class="search-wrap">
             <input type="search" id="gameSearch" data-i18n-placeholder="games.search" placeholder="Поиск игры…" aria-label="Поиск игр" />
           </div>
+          <div class="filter-chips extra-filters" id="extraFilters" role="group" aria-label="Доп. фильтры">
+            <span class="filter-group-label">Оплата</span>
+            <button type="button" class="chip active" data-xgroup="monetization" data-xfilter="all">Все</button>
+            <button type="button" class="chip" data-xgroup="monetization" data-xfilter="f2p">F2P</button>
+            <button type="button" class="chip" data-xgroup="monetization" data-xfilter="buy">Купить</button>
+            <button type="button" class="chip" data-xgroup="monetization" data-xfilter="subscription">Подписка</button>
+            <button type="button" class="chip" data-xgroup="monetization" data-xfilter="p2w">P2W</button>
+            <span class="filter-group-label">Steam Deck</span>
+            <button type="button" class="chip active" data-xgroup="deck" data-xfilter="all">Любой</button>
+            <button type="button" class="chip" data-xgroup="deck" data-xfilter="verified">Verified</button>
+            <button type="button" class="chip" data-xgroup="deck" data-xfilter="playable">Playable</button>
+            <button type="button" class="chip" data-xgroup="deck" data-xfilter="unsupported">Unsupported</button>
+            <button type="button" class="chip" data-xgroup="deck" data-xfilter="unknown">Unknown</button>
+            <span class="filter-group-label">Crossplay</span>
+            <button type="button" class="chip active" data-xgroup="crossplay" data-xfilter="all">Любой</button>
+            <button type="button" class="chip" data-xgroup="crossplay" data-xfilter="yes">Да</button>
+            <button type="button" class="chip" data-xgroup="crossplay" data-xfilter="no">Нет</button>
+            <span class="filter-group-label">Режим</span>
+            <button type="button" class="chip active" data-xgroup="singleplayer" data-xfilter="all">Любой</button>
+            <button type="button" class="chip" data-xgroup="singleplayer" data-xfilter="yes">Solo</button>
+            <button type="button" class="chip" data-xgroup="singleplayer" data-xfilter="no">Multi</button>
+          </div>
+          <label class="hide-owned"><input type="checkbox" id="hideOwnedChk" /> Скрыть уже имеющиеся (Steam/ручной список)</label>
         </div>
         <div class="cards-grid" id="gamesGrid"></div>
         <p class="empty-state" id="gamesEmpty" hidden data-i18n="games.empty">Ничего не найдено. Сбрось фильтры или попробуй другой запрос.</p>
@@ -257,6 +284,15 @@
             <div class="highlights-grid" id="highlightsGrid"></div>
           </div>
         </div>
+        <div class="matches-block" style="margin-top:1.5rem">
+          <div class="section-head" style="margin-bottom:.75rem">
+            <div>
+              <h3 style="margin:0">Матчи · live / upcoming</h3>
+              <p class="section-desc" id="matchesNote">Данные из data/matches.json</p>
+            </div>
+          </div>
+          <div class="matches-grid" id="matchesLive"></div>
+        </div>
       </div>
     </section>
 
@@ -274,6 +310,23 @@
           <div class="ticker-track" id="dealsTicker"></div>
         </div>
         <div class="cards-grid deals-grid" id="dealsGrid"></div>
+        <div class="alert-fired glass" id="alertFiredPanel" style="margin-top:1.25rem;padding:1rem 1.2rem">
+          <div class="section-head" style="margin-bottom:.5rem" id="alertFiredHead" hidden>
+            <h3 style="margin:0">Сработавшие алерты</h3>
+            <button type="button" class="btn btn-ghost btn-sm" id="alertCopyDiscord">Скопировать сообщение для Discord</button>
+          </div>
+          <ul id="alertFiredList" hidden></ul>
+          <div class="alert-settings" style="margin-top:1rem;display:grid;gap:.5rem">
+            <label class="field"><span>Discord webhook (только localStorage, не коммитить)</span>
+              <input type="url" id="discordWebhookInput" placeholder="https://discord.com/api/webhooks/…" autocomplete="off" />
+            </label>
+            <div style="display:flex;gap:.5rem;flex-wrap:wrap">
+              <button type="button" class="btn btn-ghost btn-sm" id="discordWebhookSave">Сохранить webhook</button>
+              <button type="button" class="btn btn-ghost btn-sm" id="notifyPermBtn">Разрешить уведомления браузера</button>
+            </div>
+            <p class="tool-desc">Webhook из браузера часто блокируется CORS — надёжнее локальный бот. Кнопка «Скопировать» всегда работает.</p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -388,6 +441,149 @@
             <button class="btn btn-ghost btn-sm" id="clearWishlist" type="button" data-i18n="tools.clearWish">Очистить избранное</button>
           </div>
         </div>
+
+        <div class="tool-card glass ping-map-card" id="pingMapCard" style="margin-top:1.25rem">
+          <div class="mood-head">
+            <h3>Карта пинга · игровые сервисы</h3>
+            <p class="tool-desc">RTT до публичных HTTPS-эндпоинтов (Valve CDN / Riot / Epic / Blizzard / Cloudflare). Это приближение, не игровой сервер матчмейкинга. При ошибке CORS — смотри Cloudflare-пинг из теста скорости.</p>
+          </div>
+          <button type="button" class="btn btn-primary btn-sm" id="pingRefreshBtn">Обновить</button>
+          <ul class="ping-map-list" id="pingMapList"></ul>
+        </div>
+
+        <div class="tool-card glass pc-builder-card tool-card-wide" id="pcBuilder" style="margin-top:1.25rem">
+          <div class="mood-head">
+            <h3>Калькулятор PC-сборки + совместимость с каталогом</h3>
+            <p class="tool-desc">Выбери CPU / GPU / RAM / накопитель. Оценка сборки и список игр: «Потянет / На минимуме / Не потянет» (SPECS + эвристика demand). Клик по игре → префилл FPS-калькулятора.</p>
+          </div>
+          <div class="pc-build-grid">
+            <label class="field"><span>CPU</span><select id="pcCpu"></select></label>
+            <label class="field"><span>GPU</span><select id="pcGpu"></select></label>
+            <label class="field"><span>RAM</span><select id="pcRam"></select></label>
+            <label class="field"><span>Накопитель</span><select id="pcStorage"></select></label>
+          </div>
+          <div class="pc-build-actions">
+            <p class="result-big" style="margin:0">Скор: <span id="pcBuildScore">—</span><small>/100</small></p>
+            <button type="button" class="btn btn-primary" id="pcBuildCalc">Пересчитать</button>
+            <button type="button" class="btn btn-ghost" id="pcBuildSave">Сохранить сборку</button>
+          </div>
+          <div class="pc-compat" id="pcCompatList"></div>
+        </div>
+
+        <div class="tools-grid tools-grid-2" style="margin-top:1.25rem">
+          <div class="tool-card glass" id="nickGenCard">
+            <h3>Ник + аватар <small class="muted">(AI-стиль · процедурный)</small></h3>
+            <p class="tool-desc">Без внешнего AI API — словари слогов и canvas-аватар. Фильтры стиля:</p>
+            <div class="mood-chips" id="nickStyleChips" role="group">
+              <button type="button" class="chip mood-chip active" data-nick-style="cyberpunk">Cyberpunk</button>
+              <button type="button" class="chip mood-chip" data-nick-style="fantasy">Fantasy</button>
+              <button type="button" class="chip mood-chip" data-nick-style="shooter">Shooter</button>
+              <button type="button" class="chip mood-chip" data-nick-style="cozy">Cozy</button>
+              <button type="button" class="chip mood-chip" data-nick-style="space">Space</button>
+            </div>
+            <p class="nick-out">Ник: <strong id="nickOutput">—</strong></p>
+            <canvas id="nickAvatar" width="256" height="256" aria-label="Аватар"></canvas>
+            <div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-top:.75rem">
+              <button type="button" class="btn btn-primary" id="nickGenBtn">Сгенерировать</button>
+              <button type="button" class="btn btn-ghost" id="nickCopyBtn">Копировать ник</button>
+              <button type="button" class="btn btn-ghost" id="nickDlBtn">Скачать PNG</button>
+            </div>
+          </div>
+
+          <div class="tool-card glass" id="steamImportCard">
+            <h3>Импорт библиотеки Steam / Epic</h3>
+            <p class="tool-desc">SteamID64 или vanity. Пробуем публичный XML через CORS-прокси; если блокировка — отметь игры вручную. Epic: только display name + ручной список (нет публичного API без OAuth).</p>
+            <label class="field"><span>SteamID64 / vanity / URL</span>
+              <input type="text" id="steamIdInput" placeholder="7656119… или nickname" autocomplete="off" />
+            </label>
+            <button type="button" class="btn btn-primary" id="steamImportBtn">Импортировать Steam</button>
+            <p class="tool-desc" id="steamImportStatus"></p>
+            <label class="field"><span>Epic display name (заметка)</span>
+              <input type="text" id="epicNameInput" placeholder="DisplayName" autocomplete="off" />
+            </label>
+            <button type="button" class="btn btn-ghost btn-sm" id="epicNameSave">Сохранить имя Epic</button>
+            <label class="field" style="margin-top:.75rem"><span>Ручная отметка «есть в библиотеке»</span>
+              <input type="search" id="steamManualSearch" placeholder="Поиск в каталоге…" />
+            </label>
+            <div class="owned-checklist" id="steamManualList"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="freebies">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Халява</p>
+            <h2>Календарь бесплатных игр</h2>
+            <p class="section-desc">Epic / Steam / GOG / Prime — кураторский список + <code>data/freebies.json</code>. Скрипт <code>scripts/update_freebies.py</code> пытается обновить из публичных источников.</p>
+          </div>
+          <p class="pulse-updated" id="freebiesUpdated">Обновлено: —</p>
+        </div>
+        <div class="cards-grid freebies-grid" id="freebiesGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="lfg">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Поиск тимы</p>
+            <h2>LFG · мини-лента</h2>
+            <p class="section-desc">Полная сеть игроков требует бэкенд. Сейчас: локальная карточка + демо-лента + Discord <strong>#поиск-тимы</strong>.</p>
+          </div>
+        </div>
+        <div class="lfg-layout">
+          <div class="tool-card glass lfg-form">
+            <h3>Твоя карточка</h3>
+            <label class="field"><span>Игра</span>
+              <select id="lfgGame">
+                <option>CS2</option><option>Valorant</option><option>Dota 2</option>
+                <option>LoL</option><option>Apex Legends</option><option>Lethal Company</option>
+                <option>Другое</option>
+              </select>
+            </label>
+            <label class="field"><span>Ранг</span><input id="lfgRank" type="text" placeholder="Gold / DMG / Archon…" /></label>
+            <label class="field"><span>Прайм-тайм</span><input id="lfgPrime" type="text" placeholder="20:00–23:00 МСК" /></label>
+            <label class="check-row"><input type="checkbox" id="lfgMic" checked /> Есть микрофон</label>
+            <label class="field"><span>Заметка</span><textarea id="lfgNote" rows="3" placeholder="Ищу дуо на ранкид…"></textarea></label>
+            <div style="display:flex;gap:.5rem;flex-wrap:wrap">
+              <button type="button" class="btn btn-primary" id="lfgSaveBtn">Сохранить локально</button>
+              <button type="button" class="btn btn-ghost" id="lfgDiscordBtn">Написать в Discord</button>
+            </div>
+          </div>
+          <div>
+            <h3>Локальная лента</h3>
+            <div class="lfg-feed" id="lfgFeed"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="checklists">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Прогресс</p>
+            <h2>Чеклисты и бэклог</h2>
+            <p class="section-desc">Интерактивный чеклист новичка и трекер бэклога — всё в localStorage.</p>
+          </div>
+        </div>
+        <div class="checklist-layout">
+          <div class="tool-card glass">
+            <h3>Чеклист новичка <span id="checklistProgress">0%</span></h3>
+            <div id="beginnerChecklist" class="beginner-checklist"></div>
+          </div>
+          <div class="tool-card glass">
+            <h3>Бэклог-трекер</h3>
+            <div class="backlog-add">
+              <select id="backlogGameSelect"></select>
+              <button type="button" class="btn btn-primary btn-sm" id="backlogAddBtn">Добавить</button>
+            </div>
+            <div id="backlogList" class="backlog-list"></div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -455,6 +651,9 @@
         <a href="#glossary" data-i18n="nav.glossary">Словарь</a>
         <a href="#esports" data-i18n="nav.esports">Киберспорт</a>
         <a href="#deals" data-i18n="nav.deals">Скидки</a>
+        <a href="#freebies">Халява</a>
+        <a href="#lfg">LFG</a>
+        <a href="#checklists">Чеклисты</a>
         <a href="#tools" data-i18n="nav.tools">Инструменты</a>
         <a href="#news" data-i18n="nav.news">Новости</a>
         <a href="#community">Discord</a>
@@ -483,5 +682,6 @@
 
   <button class="to-top" id="toTop" aria-label="Наверх" type="button">↑</button>
   <script src="app.js"></script>
+  <script src="features-extra.js"></script>
 </body>
 </html>

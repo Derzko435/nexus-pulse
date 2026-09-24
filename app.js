@@ -286,6 +286,7 @@ const DISCORD_INVITE_URL = "https://discord.gg/c7UHcM2UR";
   const CPU_MULT = { budget: 0.85, mid: 1.0, high: 1.1, ultra: 1.15 };
   const BASE_FPS = 95;
   const WISH_KEY = "nexus_pulse_wishlist";
+  let lastNetworkLatency = null;
   const LANG_KEY = "nexus_pulse_lang";
   const MONTHS_RU = ["янв", "фев", "мар", "апр", "май", "июн", "июл", "авг", "сен", "окт", "ноя", "дек"];
   const FIRST_CLASS = ["ru", "en", "uk", "de", "es", "fr", "pt", "pl", "tr", "zh", "ja", "ko"];
@@ -983,6 +984,8 @@ const DISCORD_INVITE_URL = "https://discord.gg/c7UHcM2UR";
         rate.textContent = t("speed." + rating.key);
         rate.className = "speed-rating " + rating.cls;
       }
+      lastNetworkLatency = latency;
+      if (window.NexusPulse) window.NexusPulse.lastLatency = latency;
     } catch (e) {
       console.warn("[NEXUS PULSE] speed test failed:", e);
       if (err) { err.hidden = false; err.textContent = t("speed.err"); }
@@ -1299,7 +1302,7 @@ const DISCORD_INVITE_URL = "https://discord.gg/c7UHcM2UR";
     const tools = $("#statTools");
     if (g) g.textContent = String(GAMES.length) + "+";
     if (guides) guides.textContent = String(GUIDES.length) + "+";
-    if (tools) tools.textContent = "5";
+    if (tools) tools.textContent = "12";
   }
 
   /* ---------- Init ---------- */
@@ -1357,6 +1360,36 @@ const DISCORD_INVITE_URL = "https://discord.gg/c7UHcM2UR";
       if (deal) { e.preventDefault(); deal.click(); }
     }
   });
+
+
+  /* ---------- Bridge for features-extra.js ---------- */
+  window.NexusPulse = {
+    GAMES,
+    SPECS,
+    GPU_MULT,
+    CPU_MULT,
+    BASE_FPS,
+    DISCORD_INVITE_URL,
+    estimateFps,
+    renderGames,
+    renderDeals,
+    renderWishlist,
+    fillToolSelects,
+    getWishlist,
+    setWishlist,
+    openContentModal,
+    closeContentModal,
+    updateHeroStats,
+    t,
+    get lastLatency() { return lastNetworkLatency; },
+    set lastLatency(v) { lastNetworkLatency = v; },
+    get activeGenre() { return activeGenre; },
+    set activeGenre(v) { activeGenre = v; },
+    get searchQuery() { return searchQuery; },
+    set searchQuery(v) { searchQuery = v; },
+    $,
+    $$,
+  };
 
   loadDeals();
 })();

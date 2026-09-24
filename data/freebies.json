@@ -1,0 +1,55 @@
+{
+  "updatedAt": "2026-09-24T21:00:00+03:00",
+  "source": "curated+script",
+  "note": "Кураторский фолбэк. Скрипт scripts/update_freebies.py пытается обновить из публичных источников.",
+  "items": [
+    {
+      "id": "epic-2026-09-25",
+      "store": "Epic Games",
+      "title": "Control Ultimate Edition",
+      "until": "2026-10-02",
+      "claimUrl": "https://store.epicgames.com/ru/free-games",
+      "note": "Еженедельная раздача Epic"
+    },
+    {
+      "id": "epic-2026-09-25b",
+      "store": "Epic Games",
+      "title": "Idle Champions of the Forgotten Realms",
+      "until": "2026-10-02",
+      "claimUrl": "https://store.epicgames.com/ru/free-games",
+      "note": "Вторая слот-раздача недели"
+    },
+    {
+      "id": "steam-weekend-2026-09",
+      "store": "Steam",
+      "title": "Weekend Free-to-Play: selected demos",
+      "until": "2026-09-28",
+      "claimUrl": "https://store.steampowered.com/genre/Free%20to%20Play/",
+      "note": "Демо и F2P-витрина Steam (не всегда полноценная игра)"
+    },
+    {
+      "id": "gog-2026-09",
+      "store": "GOG",
+      "title": "GOG Giveaway spotlight",
+      "until": "2026-09-30",
+      "claimUrl": "https://www.gog.com/en/games?priceRange=0,0&discounted=true",
+      "note": "Проверяй актуальный giveaway на GOG"
+    },
+    {
+      "id": "prime-2026-09",
+      "store": "Prime Gaming",
+      "title": "Prime Gaming monthly drop",
+      "until": "2026-09-30",
+      "claimUrl": "https://gaming.amazon.com/",
+      "note": "Требуется подписка Amazon Prime"
+    },
+    {
+      "id": "steam-f2p-always",
+      "store": "Steam",
+      "title": "Counter-Strike 2 / Dota 2 / Warframe",
+      "until": "2099-12-31",
+      "claimUrl": "https://store.steampowered.com/genre/Free%20to%20Play/",
+      "note": "Постоянно бесплатные хиты"
+    }
+  ]
+}
