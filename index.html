@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="NEXUS PULSE — игровой портал: каталог игр, новые интересные игры, пульс дня, календарь релизов, гайды, киберспорт, скидки, тест скорости и Discord-комьюнити." />
+  <title>NEXUS PULSE — Игровой портал для настоящих геймеров</title>
+  <link rel="icon" type="image/png" href="assets/nexus-pulse-icon.png">
+  <link rel="apple-touch-icon" href="assets/nexus-pulse-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow" aria-hidden="true"></div>
+  <div id="google_translate_element" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Главная навигация">
+      <a href="#top" class="logo">
+        <span class="logo-mark"><img src="assets/nexus-pulse-icon.png" alt="NEXUS PULSE" width="36" height="36"></span>
+        <span class="logo-text">NEXUS<span>PULSE</span></span>
+      </a>
+      <div class="nav-right">
+        <div class="lang-switcher">
+          <button type="button" class="lang-toggle" id="langToggle" aria-expanded="false" aria-haspopup="true" aria-label="Language">
+            <span class="lang-globe" aria-hidden="true">🌐</span>
+            <span id="langCurrent">Русский</span>
+          </button>
+          <div class="lang-panel glass" id="langPanel" hidden>
+            <p class="lang-panel-title" data-i18n="lang.label">Язык</p>
+            <input type="search" id="langSearch" data-i18n-placeholder="lang.search" placeholder="Поиск языка…" autocomplete="off" />
+            <p class="lang-group-label" data-i18n="lang.popular">Популярные</p>
+            <div class="lang-list" id="langPopular"></div>
+            <p class="lang-group-label" data-i18n="lang.all">Все языки</p>
+            <div class="lang-list lang-list-all" id="langAll"></div>
+          </div>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="Открыть меню" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#games" data-i18n="nav.games">Игры</a></li>
+        <li><a href="#pulse" data-i18n="nav.pulse">Пульс</a></li>
+        <li><a href="#new-games" data-i18n="nav.newGames">Новинки</a></li>
+        <li><a href="#calendar" data-i18n="nav.calendar">Релизы</a></li>
+        <li><a href="#guides" data-i18n="nav.guides">Гайды</a></li>
+        <li><a href="#facts" data-i18n="nav.facts">Факты</a></li>
+        <li><a href="#glossary" data-i18n="nav.glossary">Словарь</a></li>
+        <li><a href="#esports" data-i18n="nav.esports">Киберспорт</a></li>
+        <li><a href="#deals" data-i18n="nav.deals">Скидки</a></li>
+        <li><a href="#tools" data-i18n="nav.tools">Инструменты</a></li>
+        <li><a href="#news" data-i18n="nav.news">Новости</a></li>
+        <li><a href="#community" class="nav-cta" id="navDiscord" data-i18n="nav.discord">Discord</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="hero.eyebrow">Игровой хаб · 2026</p>
+          <h1><span data-i18n="hero.title">Каталог. Инструменты.</span><br /><span class="gradient-text" data-i18n="hero.title2">Ранкед без хаоса.</span></h1>
+          <p class="hero-lead" data-i18n="hero.lead">
+            75 игр, ежедневный пульс, релизы и патчи, 30 гайдов, скидки, тест скорости и подбор игры под настроение —
+            всё в одном месте.
+          </p>
+          <div class="hero-actions">
+            <a href="#tools" class="btn btn-primary" data-i18n="hero.ctaTools">Открыть инструменты</a>
+            <a href="#community" class="btn btn-ghost" id="heroDiscordBtn" data-i18n="hero.ctaDiscord">В Discord</a>
+          </div>
+          <ul class="hero-stats">
+            <li><strong id="statGames">75+</strong><span data-i18n="hero.statGames">игр в каталоге</span></li>
+            <li><strong id="statGuides">30</strong><span data-i18n="hero.statGuides">гайдов</span></li>
+            <li><strong id="statTools">5</strong><span data-i18n="hero.statTools">интерактивных тула</span></li>
+          </ul>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-card glass">
+            <div class="pulse-ring"></div>
+            <div class="hero-hud">
+              <div class="hud-row"><span>STATUS</span><span class="ok">ONLINE</span></div>
+              <div class="hud-row"><span>FPS EST</span><span>144+</span></div>
+              <div class="hud-row"><span>LATENCY</span><span>12 ms</span></div>
+              <div class="hud-bar"><i style="--w:78%"></i></div>
+              <p class="hud-label">NEXUS CORE · READY</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="pulse">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-i18n="pulse.eyebrow">Ежедневно</p>
+            <h2 data-i18n="pulse.title">Пульс дня</h2>
+            <p class="section-desc" data-i18n="pulse.desc">Во что играть сегодня, тренды и горячие советы.</p>
+          </div>
+          <p class="pulse-updated" id="pulseUpdated">Обновлено: —</p>
+        </div>
+        <div class="pulse-layout">
+          <article class="pulse-gotd glass" id="gameOfTheDay">
+            <p class="pulse-kicker" data-i18n="pulse.gotd">Игра дня</p>
+            <h3 id="gotdTitle">—</h3>
+            <p class="gotd-genre" id="gotdGenre"></p>
+            <p class="gotd-reason" id="gotdReason"></p>
+            <p class="gotd-tip" id="gotdTip"></p>
+            <div class="platforms" id="gotdPlatforms"></div>
+          </article>
+          <div class="pulse-side">
+            <div class="pulse-trending glass">
+              <h3 data-i18n="pulse.trending">Тренды сегодня</h3>
+              <ol id="trendingList"></ol>
+            </div>
+            <div class="pulse-tips glass">
+              <h3 data-i18n="pulse.tips">Горячие советы</h3>
+              <ul id="tipsList"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="calendar">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-i18n="cal.eyebrow">Расписание</p>
+            <h2 data-i18n="cal.title">Календарь релизов и патчей</h2>
+            <p class="section-desc" data-i18n="cal.desc">Ближайшие релизы и свежие патчи — даты, платформы, короткие заметки.</p>
+          </div>
+        </div>
+        <div class="calendar-layout">
+          <div class="cal-col glass">
+            <h3 data-i18n="cal.releases">Скоро выходит</h3>
+            <ul class="cal-list" id="releasesList"></ul>
+          </div>
+          <div class="cal-col glass">
+            <h3 data-i18n="cal.patches">Патчи · сегодня и недавно</h3>
+            <ul class="cal-list" id="patchesList"></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section" id="new-games">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-i18n="newGames.eyebrow">В фокусе</p>
+            <h2 data-i18n="newGames.title">Новые интересные игры</h2>
+            <p class="section-desc" data-i18n="newGames.desc">Свежие релизы, инди-находки, возвращения и ранний доступ — ежедневная подборка.</p>
+          </div>
+          <p class="pulse-updated" id="newGamesUpdated" data-i18n-prefix="newGames.updated">Обновлено: —</p>
+        </div>
+        <div class="new-games-grid" id="newGamesGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="games">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-i18n="games.eyebrow">Каталог</p>
+            <h2 data-i18n="games.title">Топ игр</h2>
+            <p class="section-desc" data-i18n="games.desc">Фильтруй по жанру, ищи по названию, сохраняй в избранное.</p>
+          </div>
+        </div>
+        <div class="filters glass">
+          <div class="filter-chips" id="genreFilters" role="group" aria-label="Жанры">
+            <button class="chip active" data-genre="all" data-i18n="games.all">Все</button>
+            <button class="chip" data-genre="RPG">RPG</button>
+            <button class="chip" data-genre="FPS">FPS</button>
+            <button class="chip" data-genre="киберспорт">Киберспорт</button>
+            <button class="chip" data-genre="стратегия">Стратегия</button>
+            <button class="chip" data-genre="инди">Инди</button>
+            <button class="chip" data-genre="хоррор">Хоррор</button>
+            <button class="chip" data-genre="гонки">Гонки</button>
+            <button class="chip" data-genre="симуляторы">Симуляторы</button>
+            <button class="chip" data-genre="экшен">Экшен</button>
+            <button class="chip" data-genre="MMO">MMO</button>
+          </div>
+          <div class="search-wrap">
+            <input type="search" id="gameSearch" data-i18n-placeholder="games.search" placeholder="Поиск игры…" aria-label="Поиск игр" />
+          </div>
+        </div>
+        <div class="cards-grid" id="gamesGrid"></div>
+        <p class="empty-state" id="gamesEmpty" hidden data-i18n="games.empty">Ничего не найдено. Сбрось фильтры или попробуй другой запрос.</p>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="guides">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-i18n="guides.eyebrow">Практика</p>
+            <h2 data-i18n="guides.title">Гайды и советы</h2>
+            <p class="section-desc" data-i18n="guides.desc">30 практических гайдов: FPS-настройки, ранкид, боссы, экономика, чеклисты новичков.</p>
+          </div>
+        </div>
+        <div class="cards-grid guides-grid" id="guidesGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="facts">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-i18n="facts.eyebrow">Любопытно</p>
+            <h2 data-i18n="facts.title">Факты и лайфхаки</h2>
+            <p class="section-desc" data-i18n="facts.desc">Короткие факты и приёмы, которые делают гейминг умнее.</p>
+          </div>
+        </div>
+        <div class="fact-card glass">
+          <p class="fact-text" id="factText">—</p>
+          <button type="button" class="btn btn-ghost btn-sm" id="factNext" data-i18n="facts.next">Ещё факт</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="glossary">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-i18n="glossary.eyebrow">Словарь</p>
+            <h2 data-i18n="glossary.title">Словарь геймера</h2>
+            <p class="section-desc" data-i18n="glossary.desc">Tilt, ping, smurf и другие слова, без которых чат не читается.</p>
+          </div>
+        </div>
+        <div class="glossary-grid" id="glossaryGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="esports">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-i18n="esports.eyebrow">Киберспорт</p>
+            <h2 data-i18n="esports.title">Турниры и хайлайты</h2>
+            <p class="section-desc" data-i18n="esports.desc">Ближайшие ивенты и игроки, за которыми стоит следить.</p>
+          </div>
+        </div>
+        <div class="esports-layout">
+          <div class="tournaments glass">
+            <h3 data-i18n="esports.tournaments">Ближайшие турниры</h3>
+            <ul id="tournamentsList"></ul>
+          </div>
+          <div class="highlights">
+            <h3 data-i18n="esports.players">Команды и игроки</h3>
+            <div class="highlights-grid" id="highlightsGrid"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="deals">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-i18n="deals.eyebrow">Скидки</p>
+            <h2 data-i18n="deals.title">Горячие предложения</h2>
+            <p class="section-desc" data-i18n="deals.desc">Сейлы обновляются чаще остального контента (deals.json).</p>
+          </div>
+          <p class="pulse-updated" id="dealsUpdated" data-i18n-prefix="deals.updated">Скидки обновлены: —</p>
+        </div>
+        <div class="deals-ticker glass" aria-live="polite">
+          <div class="ticker-track" id="dealsTicker"></div>
+        </div>
+        <div class="cards-grid deals-grid" id="dealsGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="tools">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-i18n="tools.eyebrow">Инструменты</p>
+            <h2 data-i18n="tools.title">Практические тулы</h2>
+            <p class="section-desc" data-i18n="tools.desc">Подбор игры под настроение, FPS, системные требования, тест скорости и избранное.</p>
+          </div>
+        </div>
+
+        <div class="tool-card glass mood-picker" id="moodPicker">
+          <div class="mood-head">
+            <h3 data-i18n="mood.title">Подбор игры под настроение и время</h3>
+            <p class="tool-desc" data-i18n="mood.desc">Выбери настроение, длительность сессии и соло/мультиплеер — получи 3 рекомендации из каталога.</p>
+          </div>
+          <div class="mood-steps">
+            <div class="mood-step">
+              <p class="mood-label" data-i18n="mood.moodLabel">Настроение</p>
+              <div class="mood-chips" id="moodChips" role="group" aria-label="Настроение">
+                <button type="button" class="chip mood-chip active" data-mood="chill" data-i18n="mood.chill">Расслабиться</button>
+                <button type="button" class="chip mood-chip" data-mood="compete" data-i18n="mood.compete">Посоревноваться</button>
+                <button type="button" class="chip mood-chip" data-mood="story" data-i18n="mood.story">Сюжет / погружение</button>
+                <button type="button" class="chip mood-chip" data-mood="horror" data-i18n="mood.horror">Пощекотать нервы</button>
+                <button type="button" class="chip mood-chip" data-mood="coop" data-i18n="mood.coop">С друзьями</button>
+                <button type="button" class="chip mood-chip" data-mood="grind" data-i18n="mood.grind">Погриндзить</button>
+              </div>
+            </div>
+            <div class="mood-step">
+              <p class="mood-label" data-i18n="mood.timeLabel">Сколько времени</p>
+              <div class="mood-chips" id="timeChips" role="group" aria-label="Время">
+                <button type="button" class="chip mood-chip active" data-time="short" data-i18n="mood.short">15–30 мин</button>
+                <button type="button" class="chip mood-chip" data-time="hour" data-i18n="mood.hour">~1 час</button>
+                <button type="button" class="chip mood-chip" data-time="long" data-i18n="mood.long">2+ часа</button>
+                <button type="button" class="chip mood-chip" data-time="binge" data-i18n="mood.binge">Весь вечер</button>
+              </div>
+            </div>
+            <div class="mood-step">
+              <p class="mood-label" data-i18n="mood.modeLabel">Режим</p>
+              <div class="mood-chips" id="modeChips" role="group" aria-label="Режим">
+                <button type="button" class="chip mood-chip active" data-mode="any" data-i18n="mood.any">Не важно</button>
+                <button type="button" class="chip mood-chip" data-mode="solo" data-i18n="mood.solo">Соло</button>
+                <button type="button" class="chip mood-chip" data-mode="multi" data-i18n="mood.multi">Мультиплеер</button>
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-primary" id="moodPickBtn" type="button" data-i18n="mood.run">Подобрать игры</button>
+          <div class="mood-results" id="moodResults" hidden></div>
+        </div>
+
+        <div class="tools-grid tools-grid-4">
+          <div class="tool-card glass">
+            <h3 data-i18n="tools.fps">Оценка FPS</h3>
+            <p class="tool-desc" data-i18n="tools.fpsDesc">Выбери игру и уровень железа — получи ориентировочный FPS.</p>
+            <label class="field"><span data-i18n="tools.game">Игра</span><select id="fpsGame"></select></label>
+            <label class="field"><span data-i18n="tools.gpu">Уровень GPU</span>
+              <select id="fpsGpu">
+                <option value="budget">Бюджет (GTX 1650 / RX 6500)</option>
+                <option value="mid" selected>Средний (RTX 4060 / RX 7600)</option>
+                <option value="high">Высокий (RTX 4070 Ti / RX 7800 XT)</option>
+                <option value="ultra">Топ (RTX 4090 / RX 7900 XTX)</option>
+              </select>
+            </label>
+            <label class="field"><span data-i18n="tools.cpu">Уровень CPU</span>
+              <select id="fpsCpu">
+                <option value="budget">Бюджет</option>
+                <option value="mid" selected>Средний</option>
+                <option value="high">Высокий</option>
+                <option value="ultra">Топ</option>
+              </select>
+            </label>
+            <button class="btn btn-primary" id="fpsCalcBtn" type="button" data-i18n="tools.calc">Рассчитать</button>
+            <div class="tool-result" id="fpsResult" hidden>
+              <p class="result-big"><span id="fpsValue">—</span> <small>FPS</small></p>
+              <p class="result-note" id="fpsNote"></p>
+            </div>
+          </div>
+
+          <div class="tool-card glass">
+            <h3 data-i18n="tools.specs">Системные требования</h3>
+            <p class="tool-desc" data-i18n="tools.specsDesc">Сравни минимальные и рекомендованные спеки игры.</p>
+            <label class="field"><span data-i18n="tools.game">Игра</span><select id="specsGame"></select></label>
+            <button class="btn btn-primary" id="specsBtn" type="button" data-i18n="tools.showSpecs">Показать требования</button>
+            <div class="specs-compare" id="specsResult" hidden>
+              <div class="spec-col"><h4 data-i18n="tools.min">Минимальные</h4><ul id="specsMin"></ul></div>
+              <div class="spec-col"><h4 data-i18n="tools.rec">Рекомендованные</h4><ul id="specsRec"></ul></div>
+            </div>
+          </div>
+
+          <div class="tool-card glass speed-card">
+            <h3 data-i18n="speed.title">Тест скорости</h3>
+            <p class="tool-desc" data-i18n="speed.desc">Скачивание чанков с CDN + замер пинга. Оценка пригодности для онлайна.</p>
+            <button class="btn btn-primary" id="speedBtn" type="button" data-i18n="speed.run">Проверить скорость</button>
+            <p class="speed-progress" id="speedProgress" hidden></p>
+            <p class="speed-error" id="speedError" hidden></p>
+            <div class="speed-result" id="speedResult" hidden>
+              <div class="speed-metrics">
+                <div><span class="speed-label" data-i18n="speed.download">Загрузка</span><strong><span id="speedDownload">—</span> Mbps</strong></div>
+                <div><span class="speed-label" data-i18n="speed.latency">Пинг</span><strong><span id="speedLatency">—</span> ms</strong></div>
+              </div>
+              <p class="speed-rate-wrap"><span data-i18n="speed.rating">Для онлайна</span>: <span class="speed-rating" id="speedRating">—</span></p>
+            </div>
+          </div>
+
+          <div class="tool-card glass wishlist-card">
+            <h3 data-i18n="tools.wish">Избранное</h3>
+            <p class="tool-desc" data-i18n="tools.wishDesc">Сохраняй игры сердечком в каталоге — список хранится в браузере.</p>
+            <ul class="wishlist" id="wishlist"></ul>
+            <p class="empty-state small" id="wishlistEmpty" data-i18n="tools.wishEmpty">Пока пусто. Добавь игры из каталога ↑</p>
+            <button class="btn btn-ghost btn-sm" id="clearWishlist" type="button" data-i18n="tools.clearWish">Очистить избранное</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="news">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-i18n="news.eyebrow">Лента</p>
+            <h2 data-i18n="news.title">Новости гейминга</h2>
+            <p class="section-desc" data-i18n="news.desc">Свежие заголовки из ежедневного фида.</p>
+          </div>
+        </div>
+        <div class="news-grid" id="newsGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="community">
+      <div class="container">
+        <div class="community glass">
+          <div class="community-copy">
+            <p class="eyebrow" data-i18n="community.eyebrow">Комьюнити</p>
+            <h2 data-i18n="community.title">Залетай в Discord NEXUS PULSE</h2>
+            <p data-i18n="community.lead">Мета, клипы, поиск тимы и гайды. Залетай по инвайту — сервер уже открыт.</p>
+            <ul class="channel-preview" aria-label="Каналы сервера">
+              <li><span class="ch-hash">#</span>общий</li>
+              <li><span class="ch-hash">#</span>новости</li>
+              <li><span class="ch-hash">#</span>поиск-тимы</li>
+              <li><span class="ch-hash">#</span>гайды</li>
+              <li><span class="ch-hash">#</span>скидки</li>
+              <li><span class="ch-hash">#</span>скриншоты</li>
+              <li><span class="ch-hash">#</span>голос-лобби</li>
+            </ul>
+            <a href="#" class="btn btn-primary discord-cta" id="discordCta" target="_blank" rel="noopener noreferrer" data-i18n="community.join">Присоединиться</a>
+          </div>
+          <div class="community-visual" aria-hidden="true">
+            <div class="discord-mock">
+              <div class="dm-header">NEXUS PULSE · #общий</div>
+              <div class="dm-msg"><b>RazerFox</b> кто на ранкид CS2?</div>
+              <div class="dm-msg"><b>NeonKat</b> скинул гайд по мыши в #гайды</div>
+              <div class="dm-msg"><b>PulseBot</b> турнир стартует через 2ч 🔥</div>
+              <div class="dm-msg"><b>VoidRunner</b> собираем 5-ку в #поиск-тимы</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#top" class="logo">
+          <span class="logo-mark"><img src="assets/nexus-pulse-icon.png" alt="NEXUS PULSE" width="36" height="36"></span>
+          <span class="logo-text">NEXUS<span>PULSE</span></span>
+        </a>
+        <p>Игровой портал для тех, кто играет серьёзно.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Навигация в подвале">
+        <a href="#games" data-i18n="nav.games">Игры</a>
+        <a href="#pulse" data-i18n="nav.pulse">Пульс</a>
+        <a href="#new-games" data-i18n="nav.newGames">Новинки</a>
+        <a href="#calendar" data-i18n="nav.calendar">Релизы</a>
+        <a href="#guides" data-i18n="nav.guides">Гайды</a>
+        <a href="#facts" data-i18n="nav.facts">Факты</a>
+        <a href="#glossary" data-i18n="nav.glossary">Словарь</a>
+        <a href="#esports" data-i18n="nav.esports">Киберспорт</a>
+        <a href="#deals" data-i18n="nav.deals">Скидки</a>
+        <a href="#tools" data-i18n="nav.tools">Инструменты</a>
+        <a href="#news" data-i18n="nav.news">Новости</a>
+        <a href="#community">Discord</a>
+      </nav>
+      <div class="footer-socials">
+        <a href="https://discord.gg/c7UHcM2UR" class="discord-cta" id="footerDiscord" aria-label="Discord" target="_blank" rel="noopener noreferrer">Discord</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 NEXUS PULSE</p>
+      <p class="privacy">Пульс/календарь — <code>data/daily.json</code>. Скидки — <code>data/deals.json</code> (обновляются чаще). Персональные данные формой не собираются.</p>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Наверх" type="button">↑</button>
+  <script src="app.js"></script>
+</body>
+</html>
