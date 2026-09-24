@@ -39,6 +39,11 @@ jobs:
             python scripts/update_steam_profiles.py || echo "steam profiles skipped/failed"
           fi
 
+
+      # Discord LFG snapshot (data/lfg_snapshot.json) is intentionally NOT run here:
+      # Actions has no Discord bot token. Box routines should call:
+      #   python scripts/discord_post.py snapshot-lfg
+      # then commit/sync the JSON into the deploy tree when desired.
       - name: Commit data/*.json if changed
         run: |
           git config user.name "github-actions[bot]"

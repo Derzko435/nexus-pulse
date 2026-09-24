@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
-"""NEXUS PULSE Discord bot helper — channels, alerts, LFG, freebies.
+"""NEXUS PULSE Discord bot helper — channels, alerts, LFG, freebies, snapshot.
 
 Token from DISCORD_BOT_TOKEN or /home/box/.config/discord-bot-token.
 Never prints the token.
+
+Box routine (not GitHub Actions — no Discord secret there):
+  python scripts/discord_post.py snapshot-lfg
 """
 from __future__ import annotations
 
@@ -18,6 +21,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CHANNELS_FILE = ROOT / "data" / "discord_channels.json"
 FREEBIES_FILE = ROOT / "data" / "freebies.json"
+LFG_SNAPSHOT_FILE = ROOT / "data" / "lfg_snapshot.json"
+LFG_CHANNEL_ID_DEFAULT = "1552736838555402431"
 CACHE_DIR = Path("/home/box/.cache/nexus-pulse")
 TOKEN_FILE = Path("/home/box/.config/discord-bot-token")
 
@@ -274,6 +279,142 @@ def cmd_post_freebies(token: str, _args: argparse.Namespace) -> None:
     print(f"Posted freebies ({len(items)} items) to #{ANNOUNCE_CHANNEL} ({cid})")
 
 
+def parse_lfg_fields(content: str) -> dict:
+    """Best-effort extract game/rank/prime/mic/note from free-form LFG text."""
+    text = (content or "").strip()
+    low = text.lower()
+    game = ""
+    patterns = [
+        ("CS2", r"\bcs\s*2\b|\bcounter[- ]?strike\b|\bcsgo\b"),
+        ("Valorant", r"\bvalorant\b|\bvalo\b"),
+        ("Dota 2", r"\bdota\b"),
+        ("LoL", r"\blol\b|\bleague\b|\bleague of legends\b"),
+        ("Apex Legends", r"\bapex\b"),
+        ("Overwatch 2", r"\boverwatch\b|\bow2\b"),
+        ("Lethal Company", r"\blethal\b"),
+        ("GTA V", r"\bgta\b"),
+        ("Minecraft", r"\bminecraft\b|\bmc\b"),
+        ("Rust", r"\brust\b"),
+        ("Fortnite", r"\bfortnite\b"),
+        ("PUBG", r"\bpubg\b"),
+        ("Rainbow Six", r"\br6\b|\brainbow\b"),
+        ("Warzone", r"\bwarzone\b|\bcod\b"),
+    ]
+    import re
+    for name, pat in patterns:
+        if re.search(pat, low):
+            game = name
+            break
+
+    rank = ""
+    # common: "ранг: X" / "rank: X" / "DMG" etc after game
+    m = re.search(r"(?:ранг|rank)\s*[:\-–]?\s*([\w\s.+]{1,24})", text, re.I)
+    if m:
+        rank = m.group(1).strip()[:40]
+    prime = ""
+    m = re.search(r"(?:прайм|prime|время|time)\s*[:\-–]?\s*([^\n|]{2,40})", text, re.I)
+    if m:
+        prime = m.group(1).strip()[:60]
+    mic = None
+    if re.search(r"(?:без\s*мик|no\s*mic|безмикро)", low):
+        mic = False
+    elif re.search(r"(?:\bмик\b|\bmic\b|микрофон)", low):
+        mic = True
+
+    note = text
+    if game and len(text) > 80:
+        note = text
+    return {
+        "game": game or "",
+        "rank": rank,
+        "prime": prime,
+        "mic": bool(mic) if mic is not None else False,
+        "note": note[:280],
+    }
+
+
+def cmd_snapshot_lfg(token: str, _args: argparse.Namespace) -> None:
+    """Fetch recent #поиск-тимы messages → data/lfg_snapshot.json (box routine).
+
+    GitHub Actions typically has no Discord bot token — run this on the box:
+      python scripts/discord_post.py snapshot-lfg
+    """
+    ch = load_channels()
+    cid = ch.get("channel_lfg") or LFG_CHANNEL_ID_DEFAULT
+    messages = api("GET", f"/channels/{cid}/messages?limit=15", token)
+    if not isinstance(messages, list):
+        raise SystemExit("Unexpected messages response")
+
+    items = []
+    for msg in messages:
+        author = msg.get("author") or {}
+        if author.get("bot"):
+            # still allow bot-posted LFG embeds if they look like LFG
+            embeds = msg.get("embeds") or []
+            if not embeds:
+                continue
+            emb = embeds[0]
+            title = emb.get("title") or ""
+            if not title.upper().startswith("LFG"):
+                continue
+            fields = {f.get("name"): f.get("value") for f in (emb.get("fields") or []) if f.get("name")}
+            nick = fields.get("Ник") or fields.get("Nick") or author.get("username") or "Bot"
+            content = (emb.get("description") or title or "").strip()
+            game = title.replace("LFG ·", "").replace("LFG · ", "").replace("LFG", "").strip() or ""
+            items.append(
+                {
+                    "id": str(msg.get("id")),
+                    "nick": nick,
+                    "content": content[:280],
+                    "game": game[:40],
+                    "rank": (fields.get("Ранг") or fields.get("Rank") or "")[:40],
+                    "prime": (fields.get("Прайм") or fields.get("Prime") or "")[:60],
+                    "mic": str(fields.get("Мик") or fields.get("Mic") or "").lower() in {"да", "yes", "true", "1"},
+                    "note": content[:280],
+                    "ts": msg.get("timestamp") or "",
+                    "url": f"https://discord.com/channels/{GUILD_ID}/{cid}/{msg.get('id')}",
+                }
+            )
+            continue
+
+        content = (msg.get("content") or "").strip()
+        if not content:
+            continue
+        parsed = parse_lfg_fields(content)
+        nick = author.get("global_name") or author.get("username") or "Игрок"
+        items.append(
+            {
+                "id": str(msg.get("id")),
+                "nick": nick,
+                "content": content[:280],
+                "game": parsed["game"],
+                "rank": parsed["rank"],
+                "prime": parsed["prime"],
+                "mic": parsed["mic"],
+                "note": parsed["note"] if parsed["game"] else content[:280],
+                "ts": msg.get("timestamp") or "",
+                "url": f"https://discord.com/channels/{GUILD_ID}/{cid}/{msg.get('id')}",
+            }
+        )
+        if len(items) >= 10:
+            break
+
+    # Prefer 5–10 newest user items (API returns newest first)
+    items = items[:10]
+    payload = {
+        "updatedAt": datetime.now(MSK).isoformat(timespec="seconds"),
+        "channel": LFG_CHANNEL,
+        "items": items,
+    }
+    LFG_SNAPSHOT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    LFG_SNAPSHOT_FILE.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    print(f"Wrote {LFG_SNAPSHOT_FILE} · {len(items)} items (channel #{LFG_CHANNEL})")
+
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="NEXUS PULSE Discord poster")
     sub = parser.add_subparsers(dest="cmd", required=True)
@@ -296,6 +437,11 @@ def main() -> int:
 
     sub.add_parser("post-freebies")
 
+    p_snap = sub.add_parser(
+        "snapshot-lfg",
+        help="Fetch #поиск-тимы → data/lfg_snapshot.json (run on box; Actions has no Discord token)",
+    )
+
     args = parser.parse_args()
     token = load_token()
 
@@ -307,6 +453,8 @@ def main() -> int:
         cmd_post_lfg(token, args)
     elif args.cmd == "post-freebies":
         cmd_post_freebies(token, args)
+    elif args.cmd == "snapshot-lfg":
+        cmd_snapshot_lfg(token, args)
     return 0
 
 

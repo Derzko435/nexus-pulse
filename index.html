@@ -555,12 +555,19 @@
           <div>
             <p class="eyebrow">Поиск тимы</p>
             <h2>LFG · мини-лента</h2>
-            <p class="section-desc">Локальная карточка + демо-лента. Кнопка Discord копирует текст и открывает инвайт. Серверные посты бота в канал <strong>#поиск-тимы</strong> идут через updater на боксе (браузер безопасно не держит токен бота).</p>
+            <p class="section-desc">Локальная карточка + live-лента из Discord (#поиск-тимы) через <code>data/lfg_snapshot.json</code>. Кнопка Discord копирует текст и открывает канал. Серверные посты бота — через updater на боксе (браузер не держит токен).</p>
           </div>
         </div>
         <div class="lfg-layout">
           <div class="tool-card glass lfg-form">
-            <h3>Твоя карточка</h3>
+            <h3>Твоя карточка <span id="lfgSelfRankHint" class="lfg-self-rank muted"></span></h3>
+            <label class="field lfg-nick-row"><span>Ник</span>
+              <div class="nick-inline">
+                <input id="lfgNick" type="text" placeholder="Твой ник" maxlength="20" />
+                <button type="button" class="btn btn-ghost btn-icon" id="lfgNickDice" title="Случайный ник">🎲</button>
+              </div>
+            </label>
+            <canvas id="lfgNickAvatar" width="64" height="64" class="lfg-avatar" hidden></canvas>
             <label class="field"><span>Игра</span>
               <select id="lfgGame">
                 <option>CS2</option><option>Valorant</option><option>Dota 2</option>
@@ -579,7 +586,7 @@
             <p class="tool-desc" style="margin-top:.75rem">После сохранения payload пишется в localStorage. Live-пост в Discord делает routine на боксе (<code>discord_post.py post-lfg</code>), не страница в браузере.</p>
           </div>
           <div>
-            <h3>Локальная лента</h3>
+            <h3>Лента LFG <small class="muted">(Discord + ты)</small></h3>
             <div class="lfg-feed" id="lfgFeed"></div>
           </div>
         </div>
@@ -591,8 +598,8 @@
         <div class="section-head">
           <div>
             <p class="eyebrow">Прогресс</p>
-            <h2>Чеклисты и бэклог</h2>
-            <p class="section-desc">Интерактивный чеклист новичка и трекер бэклога — всё в localStorage.</p>
+            <h2>Чеклисты и бэклог <span id="nexusRankBadge" class="nexus-rank-badge" title="Ранг NEXUS по чеклисту и бэклогу">Tilt-пропердол 🧼</span></h2>
+            <p class="section-desc">Интерактивный чеклист новичка и трекер бэклога — всё в localStorage. Ранг считается из % чеклиста и пройденного бэклога.</p>
           </div>
         </div>
         <div class="checklist-layout">

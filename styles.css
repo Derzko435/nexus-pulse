@@ -1437,3 +1437,113 @@ button.guide-card { appearance: none; }
 
 /* ---- Backup card ---- */
 .backup-card h3 { margin-top: 0; }
+
+/* ---- Nick inline (LFG dice) ---- */
+.nick-inline {
+  display: flex;
+  gap: .45rem;
+  align-items: center;
+}
+.nick-inline input {
+  flex: 1;
+  min-width: 0;
+}
+.btn-icon {
+  min-width: 2.5rem;
+  padding: .45rem .6rem;
+  font-size: 1.1rem;
+  line-height: 1;
+}
+.lfg-nick-row { margin-bottom: .35rem; }
+#lfgNickAvatar.lfg-avatar {
+  margin: .35rem 0 .65rem;
+  width: 56px;
+  height: 56px;
+}
+
+/* ---- Upgrade PC link on catalog cards ---- */
+.upgrade-pc-link {
+  display: inline-block;
+  margin: .35rem .85rem .75rem;
+  font-size: .78rem;
+  font-weight: 600;
+  color: var(--cyan, #00f5ff);
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(0, 245, 255, .45);
+}
+.upgrade-pc-link:hover {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+/* ---- Share friend banner ---- */
+.share-friend-banner {
+  grid-column: 1 / -1;
+  padding: .75rem 1rem;
+  border-radius: var(--radius-sm, 10px);
+  border: 1px solid rgba(0, 245, 255, .4);
+  background: linear-gradient(135deg, rgba(0, 245, 255, .12), rgba(139, 92, 255, .14));
+  color: #e8fbff;
+  font-weight: 600;
+  margin-bottom: .25rem;
+}
+.upgrade-gpu-tip {
+  grid-column: 1 / -1;
+  margin: 0 0 .5rem;
+  padding: .55rem .85rem;
+  border-radius: 8px;
+  background: rgba(255, 200, 87, .1);
+  border: 1px solid rgba(255, 200, 87, .35);
+  font-size: .9rem;
+}
+.compat-row-focus,
+li.compat-row-focus {
+  background: rgba(0, 245, 255, .12);
+  border-radius: 6px;
+  outline: 1px solid rgba(0, 245, 255, .35);
+  padding-left: .35rem !important;
+  padding-right: .35rem !important;
+}
+
+/* ---- NEXUS rank badge ---- */
+.nexus-rank-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: .25rem;
+  margin-left: .5rem;
+  padding: .2rem .65rem;
+  font-size: .78rem;
+  font-weight: 700;
+  vertical-align: middle;
+  border-radius: 999px;
+  background: rgba(139, 92, 255, .2);
+  border: 1px solid rgba(139, 92, 255, .45);
+  color: #e9d5ff;
+  white-space: nowrap;
+}
+.lfg-self-rank { font-size: .85rem; font-weight: 500; }
+.lfg-rank-inline {
+  display: block;
+  margin-top: .15rem;
+  font-size: .78rem;
+  color: var(--muted, #9aa4b2);
+  font-weight: 500;
+}
+
+/* ---- LFG Discord live pill ---- */
+.lfg-discord-pill {
+  display: inline-block;
+  margin-left: .4rem;
+  padding: .1rem .45rem;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+  border-radius: 999px;
+  background: #5865f2;
+  color: #fff;
+  vertical-align: middle;
+}
+.lfg-card.lfg-live {
+  border-color: rgba(88, 101, 242, .45);
+}

@@ -584,7 +584,39 @@
     }
   }
 
-  function renderBuildCompat(NP) {
+  function getFocusGameId() {
+    try { return sessionStorage.getItem("nexus_pulse_focus_game") || ""; } catch { return ""; }
+  }
+  function setFocusGameId(id) {
+    try {
+      if (id) sessionStorage.setItem("nexus_pulse_focus_game", id);
+      else sessionStorage.removeItem("nexus_pulse_focus_game");
+    } catch { /* ignore */ }
+  }
+  function neededGpuTierForGame(NP, game) {
+    const spec = NP.SPECS && NP.SPECS[game.id];
+    if (spec) {
+      const rec = parseGpuTier((spec.rec || []).find((x) => /^GPU/i.test(x)));
+      const min = parseGpuTier((spec.min || []).find((x) => /^GPU/i.test(x)));
+      return Math.max(rec || 0, min || 0, 1);
+    }
+    const need = game.demand || 1;
+    if (need >= 0.95) return 5;
+    if (need >= 0.8) return 4;
+    if (need >= 0.6) return 3;
+    if (need >= 0.4) return 2;
+    return 1;
+  }
+  function suggestNextGpu(currentId, needTier) {
+    const sorted = PARTS.gpu.slice().sort((a, b) => a.tier - b.tier);
+    const cur = PARTS.gpu.find((p) => p.id === currentId);
+    const curTier = cur ? cur.tier : 0;
+    if (curTier >= needTier) return null;
+    return sorted.find((p) => p.tier > curTier) || sorted.find((p) => p.tier >= needTier) || null;
+  }
+
+  function renderBuildCompat(NP, opts) {
+    opts = opts || {};
     const build = {
       cpu: $("#pcCpu")?.value,
       gpu: $("#pcGpu")?.value,
@@ -606,23 +638,57 @@
     };
     const host = $("#pcCompatList");
     if (!host) return;
+
+    const params = new URLSearchParams(location.search);
+    const fromShare =
+      !!opts.fromShare ||
+      params.get("share") === "1" ||
+      !!(params.get("cpu") || params.get("gpu"));
+    const focusId = opts.focusGame || getFocusGameId();
+    const focusGame = focusId ? NP.GAMES.find((g) => g.id === focusId) : null;
+
+    let tipHtml = "";
+    if (focusGame) {
+      const needTier = neededGpuTierForGame(NP, focusGame);
+      const next = suggestNextGpu(build.gpu, needTier);
+      const curGpu = PARTS.gpu.find((p) => p.id === build.gpu);
+      if (next && (!curGpu || curGpu.tier < needTier)) {
+        tipHtml = `<p class="upgrade-gpu-tip">Для <strong>${focusGame.title}</strong>: попробуй GPU уровнем выше → <button type="button" class="linkish" data-set-gpu="${next.id}">${next.name}</button></p>`;
+      } else if (focusGame) {
+        tipHtml = `<p class="upgrade-gpu-tip">Фокус: <strong>${focusGame.title}</strong> — смотри строку в списках ниже.</p>`;
+      }
+    }
+
+    const banner = fromShare
+      ? `<div class="share-friend-banner" id="shareFriendBanner">Сборка по ссылке · вот что потянет этот ПК · скор <strong>${score}</strong>/100</div>`
+      : "";
+
     const block = (title, arr, cls) => `
       <div class="compat-group ${cls}">
         <h4>${title} <small>(${arr.length})</small></h4>
         <ul>${arr
           .slice(0, 40)
-          .map(
-            (r) => `<li>
+          .map((r) => {
+            const hi = focusId && r.game.id === focusId ? " compat-row-focus" : "";
+            return `<li class="${hi.trim()}" data-compat-game="${r.game.id}">
             <button type="button" class="linkish" data-prefill-fps="${r.game.id}" data-fps-gpu="${PARTS.gpu.find((p) => p.id === build.gpu)?.fpsKey || "mid"}">${r.game.title}</button>
             <span class="compat-fps">~${r.fps} FPS</span>
-          </li>`
-          )
+          </li>`;
+          })
           .join("")}${arr.length > 40 ? `<li class="muted">…и ещё ${arr.length - 40}</li>` : ""}</ul>
       </div>`;
     host.innerHTML =
+      banner +
+      tipHtml +
       block("Потянет", groups.ok, "compat-ok") +
       block("На минимуме", groups.min, "compat-min") +
       block("Не потянет", groups.no, "compat-no");
+
+    if (fromShare || focusId) {
+      try {
+        host.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      } catch { /* ignore */ }
+    }
   }
 
   function wirePcBuilder(NP) {
@@ -654,15 +720,29 @@
       if (gpu) q.set("gpu", gpu);
       if (ram) q.set("ram", ram);
       if (res) q.set("res", res);
+      q.set("share", "1");
+      const cpuP = PARTS.cpu.find((p) => p.id === cpu);
+      const gpuP = PARTS.gpu.find((p) => p.id === gpu);
+      const ramP = PARTS.ram.find((p) => p.id === ram);
+      if (cpuP) q.set("cpuName", cpuP.name);
+      if (gpuP) q.set("gpuName", gpuP.name);
+      if (ramP) q.set("ramName", ramP.name);
       const base =
         location.hostname.includes("github.io")
           ? "https://derzko435.github.io/nexus-pulse/"
           : location.origin + location.pathname.replace(/index\.html$/i, "");
       const url = base.replace(/\/?$/, "/") + "?" + q.toString() + "#tools";
       navigator.clipboard?.writeText(url).then(
-        () => toast("Ссылка на сборку скопирована"),
-        () => toast(url)
+        () => toast("Ссылка на сборку скопирована · Кинь ссылку в Discord"),
+        () => toast(url + " · Кинь ссылку в Discord")
       );
+    });
+    $("#pcCompatList")?.addEventListener("click", (e) => {
+      const setGpu = e.target.closest("[data-set-gpu]");
+      if (!setGpu) return;
+      if ($("#pcGpu")) $("#pcGpu").value = setGpu.dataset.setGpu;
+      renderBuildCompat(NP, { focusGame: getFocusGameId() });
+      toast("GPU обновлён: " + (PARTS.gpu.find((p) => p.id === setGpu.dataset.setGpu)?.name || setGpu.dataset.setGpu));
     });
     $("#pcBuildCalc")?.addEventListener("click", run);
     $("#pcCompatList")?.addEventListener("click", (e) => {
@@ -1402,17 +1482,85 @@ const NICK_BANKS = {
     return "cyberpunk";
   }
 
-  function renderLfg() {
+  function readLfgNick() {
+    const input = $("#lfgNick");
+    const v = (input?.value || "").trim();
+    if (v) return v.slice(0, 20);
+    const nickEl = $("#nickOutput");
+    if (nickEl && nickEl.textContent && nickEl.textContent !== "—") return nickEl.textContent.trim();
+    return "Player";
+  }
+
+  function refreshLfgNickAvatar(nick, game) {
+    const canvas = $("#lfgNickAvatar");
+    if (!canvas || !nick) return;
+    canvas.hidden = false;
+    drawAvatar(canvas, nick, lfgStyleForGame(game || $("#lfgGame")?.value));
+  }
+
+  let _lfgLiveCache = null;
+  let _lfgLiveLoading = false;
+
+  async function fetchLfgSnapshot() {
+    if (_lfgLiveLoading) return _lfgLiveCache;
+    _lfgLiveLoading = true;
+    try {
+      const res = await fetch("./data/lfg_snapshot.json?t=" + Date.now(), { cache: "no-store" });
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      _lfgLiveCache = await res.json();
+    } catch (e) {
+      console.warn("[lfg snapshot]", e);
+      if (!_lfgLiveCache) _lfgLiveCache = { items: [] };
+    } finally {
+      _lfgLiveLoading = false;
+    }
+    return _lfgLiveCache;
+  }
+
+  function renderLfgCards(liveItems) {
     const self = lsGet(KEYS.lfgSelf, null);
     const feed = $("#lfgFeed");
     if (!feed) return;
-    const cards = self ? [Object.assign({ nick: "Ты", _self: true }, self), ...LFG_DEMO] : LFG_DEMO;
+    const rankInfo = computeNexusRank();
+    const hint = $("#lfgSelfRankHint");
+    if (hint) {
+      hint.textContent = self ? ("· ранг: " + rankInfo.label) : "";
+    }
+    const live = Array.isArray(liveItems) ? liveItems : [];
+    const cards = [];
+    if (self) {
+      cards.push(
+        Object.assign({}, self, {
+          nick: self.nick || "Ты",
+          _self: true,
+          _rankLabel: rankInfo.label,
+        })
+      );
+    }
+    live.forEach((it) => {
+      cards.push({
+        nick: it.nick || "Игрок",
+        game: it.game || "—",
+        rank: it.rank || "",
+        prime: it.prime || "",
+        mic: !!it.mic,
+        note: it.note || it.content || "",
+        _live: true,
+        url: it.url || "",
+      });
+    });
+    if (!live.length) {
+      LFG_DEMO.forEach((d) => cards.push(Object.assign({}, d)));
+    }
     feed.innerHTML = cards
       .map(
-        (c, i) => `<article class="lfg-card glass ${c._self ? "lfg-self" : ""}">
+        (c, i) => `<article class="lfg-card glass ${c._self ? "lfg-self" : ""} ${c._live ? "lfg-live" : ""}">
         <div class="lfg-top">
           <canvas class="lfg-avatar" width="64" height="64" data-lfg-av="${i}" aria-hidden="true"></canvas>
-          <div class="lfg-top-text"><strong>${c.nick || "Игрок"}</strong> · ${c.game}</div>
+          <div class="lfg-top-text"><strong>${c._self ? (c.nick || "Ты") : (c.nick || "Игрок")}</strong> · ${c.game || "—"}
+            ${c._live ? '<span class="lfg-discord-pill" title="Из Discord">Discord</span>' : ""}
+            ${c._self && c._rankLabel ? `<span class="lfg-rank-inline">Твоя карточка · ранг: ${c._rankLabel}</span>` : ""}
+          </div>
         </div>
         <div class="lfg-meta">Ранг: ${c.rank || "—"} · Прайм: ${c.prime || "—"} · Мик: ${c.mic ? "да" : "нет"}</div>
         <p>${c.note || ""}</p>
@@ -1427,6 +1575,13 @@ const NICK_BANKS = {
     });
   }
 
+  function renderLfg() {
+    renderLfgCards((_lfgLiveCache && _lfgLiveCache.items) || []);
+    fetchLfgSnapshot().then((snap) => {
+      renderLfgCards((snap && snap.items) || []);
+    });
+  }
+
   function wireLfg() {
     const self = lsGet(KEYS.lfgSelf, null);
     if (self) {
@@ -1435,56 +1590,98 @@ const NICK_BANKS = {
       if ($("#lfgPrime")) $("#lfgPrime").value = self.prime || "";
       if ($("#lfgMic")) $("#lfgMic").checked = !!self.mic;
       if ($("#lfgNote")) $("#lfgNote").value = self.note || "";
+      if ($("#lfgNick") && self.nick) $("#lfgNick").value = self.nick;
+      if (self.nick) refreshLfgNickAvatar(self.nick, self.game);
     }
     renderLfg();
+    $("#lfgNickDice")?.addEventListener("click", () => {
+      const style = lfgStyleForGame($("#lfgGame")?.value);
+      const nick = genNick(style);
+      if ($("#lfgNick")) $("#lfgNick").value = nick;
+      refreshLfgNickAvatar(nick, $("#lfgGame")?.value);
+      toast("Ник: " + nick);
+    });
+    $("#lfgNick")?.addEventListener("input", () => {
+      const n = ($("#lfgNick").value || "").trim();
+      if (n) refreshLfgNickAvatar(n, $("#lfgGame")?.value);
+    });
+    $("#lfgGame")?.addEventListener("change", () => {
+      const n = ($("#lfgNick")?.value || "").trim();
+      if (n) refreshLfgNickAvatar(n, $("#lfgGame")?.value);
+    });
     $("#lfgSaveBtn")?.addEventListener("click", () => {
-      const nickEl = $("#nickOutput");
       const card = {
         game: $("#lfgGame")?.value || "CS2",
         rank: $("#lfgRank")?.value || "",
         prime: $("#lfgPrime")?.value || "",
         mic: !!$("#lfgMic")?.checked,
         note: $("#lfgNote")?.value || "",
-        nick: (nickEl && nickEl.textContent && nickEl.textContent !== "—") ? nickEl.textContent : "Player",
+        nick: readLfgNick(),
         ts: Date.now(),
       };
       lsSet(KEYS.lfgSelf, card);
       lsSet(KEYS.lfgPending, card);
+      refreshLfgNickAvatar(card.nick, card.game);
       renderLfg();
+      updateNexusRankUI();
       toast("Карточка LFG сохранена · серверный пост бота — через updater на боксе");
     });
     $("#lfgDiscordBtn")?.addEventListener("click", () => {
-      const nickEl = $("#nickOutput");
-      const card = Object.assign(
-        {
-          game: $("#lfgGame")?.value || "CS2",
-          rank: $("#lfgRank")?.value || "",
-          prime: $("#lfgPrime")?.value || "",
-          mic: !!$("#lfgMic")?.checked,
-          note: $("#lfgNote")?.value || "",
-          nick: (nickEl && nickEl.textContent && nickEl.textContent !== "—") ? nickEl.textContent : "Player",
-          ts: Date.now(),
-        },
-        lsGet(KEYS.lfgSelf, null) || {}
-      );
-      // refresh fields from form (form wins)
-      card.game = $("#lfgGame")?.value || card.game;
-      card.rank = $("#lfgRank")?.value || card.rank;
-      card.prime = $("#lfgPrime")?.value || card.prime;
+      const card = Object.assign({}, lsGet(KEYS.lfgSelf, null) || {});
+      card.game = $("#lfgGame")?.value || card.game || "CS2";
+      card.rank = $("#lfgRank")?.value || card.rank || "";
+      card.prime = $("#lfgPrime")?.value || card.prime || "";
       card.mic = !!$("#lfgMic")?.checked;
-      card.note = $("#lfgNote")?.value || card.note;
+      card.note = $("#lfgNote")?.value || card.note || "";
+      card.nick = readLfgNick();
       card.ts = Date.now();
       lsSet(KEYS.lfgSelf, card);
       lsSet(KEYS.lfgPending, card);
-      const text = `LFG · ${card.game} · ${card.rank || "?"} · ${card.prime || "?"} · mic:${card.mic ? "yes" : "no"}\n${card.note || ""}\n#поиск-тимы`;
+      const text = `LFG · ${card.nick} · ${card.game} · ${card.rank || "?"} · ${card.prime || "?"} · mic:${card.mic ? "yes" : "no"}\n${card.note || ""}\n#поиск-тимы`;
       navigator.clipboard?.writeText(text).then(
         () => toast("Скопировано + открываю канал #поиск-тимы"),
         () => toast("Открываю #поиск-тимы (буфер недоступен)")
       );
       renderLfg();
+      updateNexusRankUI();
       const deep = "https://discord.com/channels/1552735502266794204/1552736838555402431";
       window.open(deep, "_blank", "noopener,noreferrer");
     });
+  }
+
+  /* ============================================================
+   * NEXUS profile ranks (fun)
+   * ============================================================ */
+  function computeNexusRank() {
+    const doneSet = new Set(lsGet(KEYS.checklist, []));
+    const checklistPct = CHECKLIST_ITEMS.length
+      ? Math.round((doneSet.size / CHECKLIST_ITEMS.length) * 100)
+      : 0;
+    const backlog = lsGet(KEYS.backlog, []);
+    const backlogDonePct = backlog.length
+      ? Math.round((backlog.filter((r) => r.status === "done").length / backlog.length) * 100)
+      : 0;
+    const score = Math.round(0.6 * checklistPct + 0.4 * backlogDonePct);
+    let label;
+    if (score >= 100) label = "NEXUS GOD 👑";
+    else if (score >= 70) label = "Имба-сессионщик 🔥";
+    else if (score >= 30) label = "Трайхард-киберкотлет ⚡";
+    else if (score >= 1) label = "Уверенный подпивас 🍺";
+    else label = "Tilt-пропердол 🧼";
+    return { score, checklistPct, backlogDonePct, label };
+  }
+
+  function updateNexusRankUI() {
+    const info = computeNexusRank();
+    const badge = $("#nexusRankBadge");
+    if (badge) {
+      badge.textContent = info.label;
+      badge.title = `Ранг NEXUS · score ${info.score} (чеклист ${info.checklistPct}% · бэклог done ${info.backlogDonePct}%)`;
+    }
+    const hint = $("#lfgSelfRankHint");
+    if (hint && lsGet(KEYS.lfgSelf, null)) {
+      hint.textContent = "· ранг: " + info.label;
+    }
   }
 
   /* ============================================================
@@ -1513,6 +1710,7 @@ const NICK_BANKS = {
     const pct = Math.round((done.size / CHECKLIST_ITEMS.length) * 100);
     const p = $("#checklistProgress");
     if (p) p.textContent = pct + "%";
+    updateNexusRankUI();
   }
 
   function wireChecklist() {
@@ -1564,6 +1762,7 @@ const NICK_BANKS = {
         </div>`;
       })
       .join("");
+    updateNexusRankUI();
   }
 
   function wireBacklog(NP) {
@@ -1576,6 +1775,7 @@ const NICK_BANKS = {
       list.push({ id, status: "backlog", progress: 0 });
       setBacklog(list);
       renderBacklog(NP);
+      updateNexusRankUI();
     });
     $("#backlogList")?.addEventListener("input", (e) => {
       const row = e.target.closest("[data-bl]");
@@ -1591,12 +1791,14 @@ const NICK_BANKS = {
       }
       if (e.target.matches("[data-bl-status]")) item.status = e.target.value;
       setBacklog(list);
+      updateNexusRankUI();
     });
     $("#backlogList")?.addEventListener("click", (e) => {
       if (!e.target.closest("[data-bl-del]")) return;
       const row = e.target.closest("[data-bl]");
       setBacklog(getBacklog().filter((r) => r.id !== row.dataset.bl));
       renderBacklog(NP);
+      updateNexusRankUI();
     });
   }
 
@@ -1713,6 +1915,7 @@ const NICK_BANKS = {
   function injectCompatBadges(NP) {
     const build = lsGet(KEYS.build, null);
     $$("#gamesGrid .game-card .compat-badge").forEach((el) => el.remove());
+    $$("#gamesGrid .game-card .upgrade-pc-link").forEach((el) => el.remove());
     if (!build || !build.cpu || !build.gpu) return;
     $$("#gamesGrid .game-card").forEach((card) => {
       const id = card.dataset.id;
@@ -1725,6 +1928,32 @@ const NICK_BANKS = {
       b.textContent = c.badge || c.label;
       b.title = "Совместимость с сохранённой PC-сборкой";
       cover.appendChild(b);
+      const weak = c.status === "no" || c.status === "min" || /Слабо|Впритык|Не потянет/i.test(c.badge || c.label || "");
+      if (weak) {
+        const a = document.createElement("a");
+        a.href = "#tools";
+        a.className = "upgrade-pc-link";
+        a.dataset.upgradeGame = id;
+        a.textContent = "Апгрейднуть ПК";
+        a.addEventListener("click", (e) => {
+          e.preventDefault();
+          setFocusGameId(id);
+          document.getElementById("tools")?.scrollIntoView({ behavior: "smooth", block: "start" });
+          // prefill FPS + highlight in compat
+          const fpsGame = $("#fpsGame");
+          if (fpsGame) fpsGame.value = id;
+          const gpu = PARTS.gpu.find((p) => p.id === ($("#pcGpu")?.value || build.gpu));
+          const fpsGpu = $("#fpsGpu");
+          if (fpsGpu && gpu) fpsGpu.value = gpu.fpsKey || "mid";
+          $("#fpsCalcBtn")?.click();
+          renderBuildCompat(NP, { focusGame: id });
+          const row = document.querySelector(`[data-compat-game="${id}"]`);
+          row?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+          toast("Подбери GPU под " + (g.title || id));
+        });
+        const body = card.querySelector(".card-body") || card;
+        body.appendChild(a);
+      }
     });
   }
 
@@ -1832,6 +2061,8 @@ const NICK_BANKS = {
     const gpu = params.get("gpu");
     const ram = params.get("ram");
     const res = params.get("res");
+    const shareFlag = params.get("share") === "1";
+    if (!cpu && !gpu && !ram && !shareFlag) return;
     if (!cpu && !gpu && !ram) return;
     if (cpu && $("#pcCpu")) $("#pcCpu").value = cpu;
     if (gpu && $("#pcGpu")) $("#pcGpu").value = gpu;
@@ -1845,18 +2076,25 @@ const NICK_BANKS = {
       res: $("#pcRes")?.value || undefined,
       savedAt: new Date().toISOString(),
       fromShare: true,
+      cpuName: params.get("cpuName") || undefined,
+      gpuName: params.get("gpuName") || undefined,
+      ramName: params.get("ramName") || undefined,
     };
     lsSet(KEYS.build, build);
-    renderBuildCompat(NP);
+    renderBuildCompat(NP, { fromShare: true });
     injectCompatBadges(NP);
     const tools = document.getElementById("tools");
     if (tools) {
       tools.scrollIntoView({ behavior: "smooth", block: "start" });
     }
+    const compat = document.getElementById("pcCompatList");
+    if (compat) {
+      setTimeout(() => compat.scrollIntoView({ behavior: "smooth", block: "nearest" }), 250);
+    }
     if (location.hash !== "#tools") {
       try { history.replaceState(null, "", location.pathname + location.search + "#tools"); } catch { /* ignore */ }
     }
-    toast("Сборка загружена по ссылке");
+    toast("Сборка друга загружена — смотри список игр ниже");
   }
 
   /* ============================================================
@@ -1926,6 +2164,7 @@ const NICK_BANKS = {
     applyBuildFromQuery(NP);
     NP.renderGames();
     injectCompatBadges(NP);
+    updateNexusRankUI();
     if (NP.updateHeroStats) {
       const tools = $("#statTools");
       if (tools) tools.textContent = "12";
