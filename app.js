@@ -434,7 +434,47 @@ const DISCORD_INVITE_URL = "https://discord.gg/c7UHcM2UR";
     catch { return []; }
   }
   function setWishlist(ids) { localStorage.setItem(WISH_KEY, JSON.stringify(ids)); }
-  function formatRub(n) { return Number(n).toLocaleString("ru-RU") + " ₽"; }
+
+  function formatRub(n) {
+    const v = Number(n);
+    if (!Number.isFinite(v)) return "—";
+    return v.toLocaleString("ru-RU") + " ₽";
+  }
+  function dealNewPrice(d) {
+    const v = d && (d.neu ?? d.new ?? d.price);
+    return Number(v);
+  }
+  function storeSearchUrl(title, store) {
+    const q = encodeURIComponent(title || "");
+    const s = String(store || "").toLowerCase();
+    if (s.includes("steam")) return `https://store.steampowered.com/search/?term=${q}`;
+    if (s.includes("epic")) return `https://store.epicgames.com/en-US/browse?q=${q}`;
+    if (s.includes("play")) return `https://store.playstation.com/search/${q}`;
+    if (s.includes("xbox")) return `https://www.xbox.com/en-US/search?q=${q}`;
+    if (s.includes("nintendo")) return `https://www.nintendo.com/search/#q=${q}&p=1&tab=software`;
+    return `https://www.google.com/search?q=${q}+${encodeURIComponent(store || "game")}+sale`;
+  }
+  function openContentModal({ kicker, title, bodyHtml, actionsHtml }) {
+    const modal = $("#contentModal");
+    if (!modal) return;
+    const k = $("#modalKicker");
+    const tEl = $("#modalTitle");
+    const body = $("#modalBody");
+    const actions = $("#modalActions");
+    if (k) k.textContent = kicker || "";
+    if (tEl) tEl.textContent = title || "";
+    if (body) body.innerHTML = bodyHtml || "";
+    if (actions) actions.innerHTML = actionsHtml || "";
+    modal.hidden = false;
+    document.body.style.overflow = "hidden";
+    $("#contentModal .np-modal-close")?.focus();
+  }
+  function closeContentModal() {
+    const modal = $("#contentModal");
+    if (!modal) return;
+    modal.hidden = true;
+    document.body.style.overflow = "";
+  }
   function formatIsoDateRu(iso) {
     if (!iso) return "—";
     const m = String(iso).match(/^(\d{4})-(\d{2})-(\d{2})/);
@@ -568,13 +608,31 @@ const DISCORD_INVITE_URL = "https://discord.gg/c7UHcM2UR";
   function renderGuides() {
     const el = $("#guidesGrid");
     if (!el) return;
-    el.innerHTML = GUIDES.map((g) => `
-      <article class="guide-card glass">
+    el.innerHTML = GUIDES.map((g, i) => `
+      <button type="button" class="guide-card glass" data-guide-index="${i}" aria-label="Открыть гайд: ${g.title}">
         <span class="guide-tag">${g.tag}</span>
         <h3>${g.title}</h3>
-        <p>${g.text}</p>
+        <p class="guide-preview">${g.text}</p>
         <div class="guide-meta">⏱ ${g.time}</div>
-      </article>`).join("");
+        <span class="guide-open">Открыть гайд →</span>
+      </button>`).join("");
+  }
+
+  function openGuide(index) {
+    const g = GUIDES[index];
+    if (!g) return;
+    const steps = String(g.text || "").split(/(?<=\.)\s+/).filter(Boolean);
+    const bodyHtml = `
+      <p>${g.text}</p>
+      <p><strong>Краткий чеклист</strong></p>
+      <ul>${steps.map((s) => `<li>${s}</li>`).join("")}</ul>
+      <p>Время на прочтение: ${g.time}. Тема: ${g.tag}.</p>`;
+    openContentModal({
+      kicker: "Гайд · " + g.tag,
+      title: g.title,
+      bodyHtml,
+      actionsHtml: `<button type="button" class="primary" data-close-modal>Понятно</button>`,
+    });
   }
 
   let factIndex = Math.floor(Math.random() * FACTS.length);
@@ -653,7 +711,12 @@ const DISCORD_INVITE_URL = "https://discord.gg/c7UHcM2UR";
       <li><div><span class="trend-title">${t.title}</span><span class="trend-note">${t.note || ""}</span></div>
       <span class="trend-heat">${t.heat ?? "—"}°</span></li>`).join("");
     const tips = $("#tipsList");
-    if (tips) tips.innerHTML = (daily.tips || []).map((x) => `<li>${x}</li>`).join("");
+    if (tips) tips.innerHTML = (daily.tips || []).map((x, i) => `
+      <li class="tip-item" data-tip-index="${i}" tabindex="0" role="button" aria-label="Открыть совет">
+        <span class="tip-text">${x}</span>
+        <span class="tip-open">Открыть →</span>
+      </li>`).join("");
+    tips.dataset.tips = JSON.stringify(daily.tips || []);
     const updated = $("#pulseUpdated");
     if (updated) updated.textContent = `Обновлено: ${formatIsoDateRu(daily.date)}`;
   }
@@ -682,24 +745,45 @@ const DISCORD_INVITE_URL = "https://discord.gg/c7UHcM2UR";
     }
     const ticker = $("#dealsTicker");
     if (ticker) {
-      const items = list.map((d) =>
-        `<span class="ticker-item">${d.title}${d.store ? ` · ${d.store}` : ""}: <b>−${d.pct}%</b> · ${formatRub(d.neu)}</span>`);
+      const items = list.map((d) => {
+        const neu = dealNewPrice(d);
+        const pct = Number(d.pct);
+        const pctLabel = Number.isFinite(pct) ? `−${pct}%` : "SALE";
+        return `<span class="ticker-item">${d.title}${d.store ? ` · ${d.store}` : ""}: <b>${pctLabel}</b> · ${formatRub(neu)}</span>`;
+      });
       ticker.innerHTML = [...items, ...items].join("");
     }
     const grid = $("#dealsGrid");
-    if (grid) grid.innerHTML = list.map((d) => `
-      <article class="deal-card">
+    if (grid) {
+      grid.innerHTML = list.map((d, i) => {
+        const neu = dealNewPrice(d);
+        const old = Number(d.old);
+        const pct = Number(d.pct);
+        const pctLabel = Number.isFinite(pct) ? `−${pct}%` : "SALE";
+        const save = (Number.isFinite(old) && Number.isFinite(neu) && old > neu)
+          ? `Экономия ${formatRub(old - neu)}`
+          : "";
+        const href = storeSearchUrl(d.title, d.store);
+        return `
+      <article class="deal-card" data-deal-index="${i}" data-deal-url="${href}" role="link" tabindex="0" aria-label="Открыть скидку: ${d.title}">
         <div class="card-cover" style="--c1:#102018;--c2:#183828">
-          <span class="badge">${d.store || "SALE"}</span>−${d.pct}%
+          <span class="deal-store-badge">${d.store || "SALE"}</span>
+          <span class="deal-pct">${pctLabel}</span>
         </div>
         <div class="card-body">
           <h3>${d.title}</h3>
           <div class="deal-prices">
-            <span class="price-old">${formatRub(d.old)}</span>
-            <span class="price-new">${formatRub(d.neu)}</span>
+            <span class="price-old">${formatRub(old)}</span>
+            <span class="price-new">${formatRub(neu)}</span>
+            <span class="discount-badge">${pctLabel}</span>
           </div>
+          ${save ? `<div class="deal-save">${save}</div>` : ""}
+          <div class="deal-open">Открыть в ${d.store || "магазине"} →</div>
         </div>
-      </article>`).join("");
+      </article>`;
+      }).join("");
+      grid.dataset.deals = JSON.stringify(list);
+    }
   }
 
   function renderNews(news) {
@@ -1229,5 +1313,48 @@ const DISCORD_INVITE_URL = "https://discord.gg/c7UHcM2UR";
   renderWishlist();
   wireMoodPicker();
   loadDaily();
+
+  document.addEventListener("click", (e) => {
+    const closeEl = e.target.closest("[data-close-modal]");
+    if (closeEl) { closeContentModal(); return; }
+
+    const guideBtn = e.target.closest("[data-guide-index]");
+    if (guideBtn) {
+      openGuide(Number(guideBtn.dataset.guideIndex));
+      return;
+    }
+
+    const tip = e.target.closest("[data-tip-index]");
+    if (tip) {
+      const list = $("#tipsList");
+      let tips = [];
+      try { tips = JSON.parse(list?.dataset.tips || "[]"); } catch { tips = []; }
+      const text = tips[Number(tip.dataset.tipIndex)] || tip.querySelector(".tip-text")?.textContent || "";
+      openContentModal({
+        kicker: "Горячий совет",
+        title: "Совет дня",
+        bodyHtml: `<p>${text}</p><p>Сохрани себе или кинь тиммейтам в Discord #гайды.</p>`,
+        actionsHtml: `<button type="button" class="primary" data-close-modal>Закрыть</button>`,
+      });
+      return;
+    }
+
+    const deal = e.target.closest("[data-deal-url]");
+    if (deal) {
+      const url = deal.dataset.dealUrl;
+      if (url) window.open(url, "_blank", "noopener,noreferrer");
+    }
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeContentModal();
+    if (e.key === "Enter" || e.key === " ") {
+      const tip = e.target.closest?.("[data-tip-index]");
+      if (tip) { e.preventDefault(); tip.click(); }
+      const deal = e.target.closest?.("[data-deal-url]");
+      if (deal) { e.preventDefault(); deal.click(); }
+    }
+  });
+
   loadDeals();
 })();

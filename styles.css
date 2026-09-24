@@ -436,7 +436,7 @@ h3 { font-size: 1.1rem; }
 }
 .ticker-item b { color: var(--ok); }
 .deal-card .card-body { display: flex; flex-direction: column; gap: .35rem; }
-.deal-prices { display: flex; align-items: baseline; gap: .6rem; }
+.deal-prices { display: flex; align-items: baseline; gap: .6rem; flex-wrap: wrap; }
 .price-old { text-decoration: line-through; color: var(--muted); font-size: .85rem; }
 .price-new { font-family: var(--font-display); color: var(--ok); font-size: 1.15rem; }
 .discount-badge {
@@ -941,4 +941,94 @@ body { top: 0 !important; }
   }
   .tools-grid-4 { grid-template-columns: 1fr; }
   .lang-panel { right: -.5rem; }
+}
+
+
+/* Deal cards fixed layout */
+.deal-card { cursor: pointer; }
+.deal-card .card-cover {
+  display: flex; align-items: center; justify-content: center;
+  flex-direction: column; gap: .35rem;
+}
+.deal-card .deal-pct {
+  font-family: var(--font-display); font-size: 1.6rem; letter-spacing: .04em;
+  color: var(--ok); text-shadow: 0 0 18px rgba(61,255,154,.35);
+}
+.deal-card .deal-store-badge {
+  position: absolute; top: .7rem; left: .7rem;
+  background: rgba(0,0,0,.45); border: 1px solid var(--border);
+  padding: .2rem .55rem; border-radius: 999px; font-size: .7rem;
+  font-family: var(--font-body); letter-spacing: 0; color: rgba(255,255,255,.9);
+}
+.deal-card .deal-save {
+  margin-top: .15rem; font-size: .78rem; color: var(--muted);
+}
+.deal-card .deal-open {
+  margin-top: .55rem; font-size: .8rem; color: var(--cyan); font-weight: 600;
+}
+
+/* Guides openable */
+.guide-card {
+  cursor: pointer; display: flex; flex-direction: column; gap: .35rem;
+  text-align: left; width: 100%;
+  font: inherit; color: inherit;
+}
+button.guide-card { appearance: none; }
+.guide-card .guide-preview {
+  margin: 0; color: var(--muted); font-size: .9rem;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.guide-card .guide-open {
+  margin-top: .35rem; font-size: .8rem; color: var(--cyan); font-weight: 600;
+}
+
+/* Tips clickable */
+.pulse-tips li.tip-item {
+  cursor: pointer; transition: color .15s, background .15s;
+  border-radius: 8px; padding-left: 1.1rem; margin: 0 -.25rem; padding-right: .4rem;
+}
+.pulse-tips li.tip-item:hover { color: var(--text); background: rgba(0,245,255,.05); }
+.pulse-tips li.tip-item .tip-open {
+  display: block; margin-top: .25rem; font-size: .75rem; color: var(--cyan);
+}
+
+/* Content modal */
+.np-modal[hidden] { display: none !important; }
+.np-modal {
+  position: fixed; inset: 0; z-index: 1200;
+  display: grid; place-items: center; padding: 1.25rem;
+}
+.np-modal-backdrop {
+  position: absolute; inset: 0; background: rgba(4, 8, 18, .72);
+  backdrop-filter: blur(6px);
+}
+.np-modal-dialog {
+  position: relative; z-index: 1;
+  width: min(560px, 100%); max-height: min(80vh, 720px);
+  overflow: auto; padding: 1.5rem 1.6rem 1.35rem;
+  border-radius: var(--radius); border: 1px solid var(--border-strong);
+  box-shadow: 0 24px 60px rgba(0,0,0,.45);
+}
+.np-modal-close {
+  position: absolute; top: .7rem; right: .8rem;
+  width: 36px; height: 36px; border-radius: 50%;
+  border: 1px solid var(--border); background: rgba(0,0,0,.35);
+  color: var(--text); font-size: 1.35rem; cursor: pointer; line-height: 1;
+}
+.np-modal-kicker {
+  margin: 0 0 .35rem; font-size: .75rem; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--violet); font-weight: 700;
+}
+.np-modal-dialog h3 { margin: 0 0 .85rem; font-size: 1.25rem; }
+.np-modal-body { color: var(--muted); font-size: .95rem; line-height: 1.55; }
+.np-modal-body p { margin: 0 0 .75rem; }
+.np-modal-body p:last-child { margin-bottom: 0; }
+.np-modal-body ul { margin: .4rem 0 0; padding-left: 1.15rem; }
+.np-modal-body li { margin: .25rem 0; }
+.np-modal-actions { margin-top: 1.1rem; display: flex; gap: .6rem; flex-wrap: wrap; }
+.np-modal-actions a, .np-modal-actions button.primary {
+  display: inline-flex; align-items: center; gap: .35rem;
+  padding: .65rem 1rem; border-radius: 10px; font-weight: 600; font-size: .9rem;
+  background: linear-gradient(135deg, var(--cyan), var(--violet));
+  color: #041018; border: 0; text-decoration: none; cursor: pointer;
 }
