@@ -1,101 +1,146 @@
 {
-  "updatedAt": "2026-09-24T20:54:33+03:00",
+  "updatedAt": "2026-09-24T23:11:13+03:00",
+  "source": "steam-specials-ru",
   "deals": [
     {
-      "id": "d5",
-      "title": "Total War: Warhammer III",
+      "id": "steam-678960",
+      "title": "CODE VEIN",
       "store": "Steam",
-      "old": 2499,
-      "neu": 500,
-      "pct": 80
+      "old": 2099,
+      "neu": 209,
+      "pct": 90,
+      "url": "https://store.steampowered.com/app/678960/?curator_clanid=0",
+      "steamAppId": "678960"
     },
     {
-      "id": "d1",
-      "title": "Cyberpunk 2077 + Phantom Liberty",
+      "id": "steam-1084160",
+      "title": "Jagged Alliance 3",
       "store": "Steam",
-      "old": 3499,
-      "neu": 1050,
-      "pct": 70
+      "old": 1999,
+      "neu": 199,
+      "pct": 90,
+      "url": "https://store.steampowered.com/app/1084160/?curator_clanid=0",
+      "steamAppId": "1084160"
     },
     {
-      "id": "d21",
-      "title": "Horizon Forbidden West",
-      "store": "PlayStation",
-      "old": 4990,
-      "neu": 1497,
-      "pct": 70
-    },
-    {
-      "id": "d11",
-      "title": "Resident Evil 4 Remake",
+      "id": "steam-246420",
+      "title": "Kingdom Rush  - Tower Defense",
       "store": "Steam",
-      "old": 3499,
-      "neu": 1155,
-      "pct": 67
+      "old": 460,
+      "neu": 46,
+      "pct": 90,
+      "url": "https://store.steampowered.com/app/246420/",
+      "steamAppId": "246420"
     },
     {
-      "id": "d20",
-      "title": "Alan Wake 2",
-      "store": "Epic",
-      "old": 3499,
-      "neu": 1400,
-      "pct": 60
-    },
-    {
-      "id": "d3",
-      "title": "Elden Ring + Shadow of the Erdtree",
+      "id": "steam-582660",
+      "title": "Black Desert",
       "store": "Steam",
-      "old": 5499,
-      "neu": 2200,
-      "pct": 60
+      "old": 350,
+      "neu": 35,
+      "pct": 90,
+      "url": "https://store.steampowered.com/app/582660/?curator_clanid=0",
+      "steamAppId": "582660"
     },
     {
-      "id": "d13",
-      "title": "Hollow Knight",
+      "id": "steam-617290",
+      "title": "Remnant: From the Ashes",
       "store": "Steam",
-      "old": 599,
-      "neu": 240,
-      "pct": 60
+      "old": 1297,
+      "neu": 194,
+      "pct": 85,
+      "url": "https://store.steampowered.com/app/617290/?curator_clanid=0",
+      "steamAppId": "617290"
     },
     {
-      "id": "d8",
-      "title": "God of War Ragnarök",
-      "store": "PlayStation",
-      "old": 6990,
-      "neu": 3495,
-      "pct": 50
+      "id": "steam-640820",
+      "title": "Pathfinder: Kingmaker — Enhanced Plus Edition",
+      "store": "Steam",
+      "old": 1079,
+      "neu": 194,
+      "pct": 82,
+      "url": "https://store.steampowered.com/app/640820/?curator_clanid=0",
+      "steamAppId": "640820"
     },
     {
-      "id": "d22",
-      "title": "Halo Infinite Campaign",
-      "store": "Xbox",
+      "id": "steam-1222140",
+      "title": "Detroit: Become Human",
+      "store": "Steam",
       "old": 2999,
-      "neu": 1500,
-      "pct": 50
+      "neu": 599,
+      "pct": 80,
+      "url": "https://store.steampowered.com/app/1222140/?curator_clanid=0",
+      "steamAppId": "1222140"
     },
     {
-      "id": "d4",
-      "title": "Hades II",
-      "store": "Epic",
-      "old": 1299,
-      "neu": 779,
-      "pct": 40
-    },
-    {
-      "id": "d19",
-      "title": "Black Myth: Wukong",
+      "id": "steam-1282100",
+      "title": "REMNANT II",
       "store": "Steam",
-      "old": 3999,
-      "neu": 2599,
-      "pct": 35
+      "old": 2869,
+      "neu": 573,
+      "pct": 80,
+      "url": "https://store.steampowered.com/app/1282100/?curator_clanid=0",
+      "steamAppId": "1282100"
     },
     {
-      "id": "d10",
-      "title": "Zelda: Tears of the Kingdom",
-      "store": "Nintendo",
-      "old": 5999,
-      "neu": 4799,
-      "pct": 20
+      "id": "steam-599140",
+      "title": "Graveyard Keeper",
+      "store": "Steam",
+      "old": 710,
+      "neu": 142,
+      "pct": 80,
+      "url": "https://store.steampowered.com/app/599140/?curator_clanid=0",
+      "steamAppId": "599140"
+    },
+    {
+      "id": "steam-227300",
+      "title": "Euro Truck Simulator 2",
+      "store": "Steam",
+      "old": 1249,
+      "neu": 312,
+      "pct": 75,
+      "url": "https://store.steampowered.com/app/227300/",
+      "steamAppId": "227300"
+    },
+    {
+      "id": "steam-270880",
+      "title": "American Truck Simulator",
+      "store": "Steam",
+      "old": 1249,
+      "neu": 312,
+      "pct": 75,
+      "url": "https://store.steampowered.com/app/270880/?curator_clanid=0",
+      "steamAppId": "270880"
+    },
+    {
+      "id": "steam-400750",
+      "title": "Call to Arms - Gates of Hell: Ostfront",
+      "store": "Steam",
+      "old": 1200,
+      "neu": 300,
+      "pct": 75,
+      "url": "https://store.steampowered.com/app/400750/?curator_clanid=0",
+      "steamAppId": "400750"
+    },
+    {
+      "id": "steam-281990",
+      "title": "Stellaris",
+      "store": "Steam",
+      "old": 3049,
+      "neu": 914,
+      "pct": 70,
+      "url": "https://store.steampowered.com/app/281990/?curator_clanid=0",
+      "steamAppId": "281990"
+    },
+    {
+      "id": "steam-2186680",
+      "title": "Warhammer 40,000: Rogue Trader",
+      "store": "Steam",
+      "old": 1599,
+      "neu": 479,
+      "pct": 70,
+      "url": "https://store.steampowered.com/app/2186680/",
+      "steamAppId": "2186680"
     }
   ]
 }

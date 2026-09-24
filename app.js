@@ -225,16 +225,17 @@ const DISCORD_INVITE_URL = "https://discord.gg/c7UHcM2UR";
   };
 
   const FALLBACK_DEALS = {
-    updatedAt: "2026-09-24T20:00:00+03:00",
+    updatedAt: "2026-09-24T23:11:13+03:00",
+    source: "steam-specials-ru",
     deals: [
-      { id: "d1", title: "Cyberpunk 2077 + Phantom Liberty", store: "Steam", old: 3499, neu: 1049, pct: 70 },
-      { id: "d6", title: "DOOM Eternal Deluxe", store: "Steam", old: 1999, neu: 399, pct: 80 },
-      { id: "d5", title: "Total War: Warhammer III", store: "Steam", old: 2499, neu: 624, pct: 75 },
-      { id: "d7", title: "Red Dead Redemption 2", store: "Steam", old: 2999, neu: 899, pct: 70 },
-      { id: "d9", title: "Forza Horizon 5 Premium", store: "Xbox", old: 4999, neu: 1999, pct: 60 },
-      { id: "d8", title: "God of War Ragnarök", store: "PlayStation", old: 6990, neu: 3495, pct: 50 },
-      { id: "d11", title: "Resident Evil 4 Remake", store: "Steam", old: 3499, neu: 1399, pct: 60 },
-      { id: "d4", title: "Hades II", store: "Epic", old: 1299, neu: 779, pct: 40 },
+      {"id": "steam-678960", "title": "CODE VEIN", "store": "Steam", "old": 2099, "neu": 209, "pct": 90, "url": "https://store.steampowered.com/app/678960/?curator_clanid=0", "steamAppId": "678960"},
+      {"id": "steam-1084160", "title": "Jagged Alliance 3", "store": "Steam", "old": 1999, "neu": 199, "pct": 90, "url": "https://store.steampowered.com/app/1084160/?curator_clanid=0", "steamAppId": "1084160"},
+      {"id": "steam-246420", "title": "Kingdom Rush  - Tower Defense", "store": "Steam", "old": 460, "neu": 46, "pct": 90, "url": "https://store.steampowered.com/app/246420/", "steamAppId": "246420"},
+      {"id": "steam-582660", "title": "Black Desert", "store": "Steam", "old": 350, "neu": 35, "pct": 90, "url": "https://store.steampowered.com/app/582660/?curator_clanid=0", "steamAppId": "582660"},
+      {"id": "steam-617290", "title": "Remnant: From the Ashes", "store": "Steam", "old": 1297, "neu": 194, "pct": 85, "url": "https://store.steampowered.com/app/617290/?curator_clanid=0", "steamAppId": "617290"},
+      {"id": "steam-640820", "title": "Pathfinder: Kingmaker — Enhanced Plus Edition", "store": "Steam", "old": 1079, "neu": 194, "pct": 82, "url": "https://store.steampowered.com/app/640820/?curator_clanid=0", "steamAppId": "640820"},
+      {"id": "steam-1222140", "title": "Detroit: Become Human", "store": "Steam", "old": 2999, "neu": 599, "pct": 80, "url": "https://store.steampowered.com/app/1222140/?curator_clanid=0", "steamAppId": "1222140"},
+      {"id": "steam-1282100", "title": "REMNANT II", "store": "Steam", "old": 2869, "neu": 573, "pct": 80, "url": "https://store.steampowered.com/app/1282100/?curator_clanid=0", "steamAppId": "1282100"},
     ],
   };
 
@@ -444,7 +445,8 @@ const DISCORD_INVITE_URL = "https://discord.gg/c7UHcM2UR";
     const v = d && (d.neu ?? d.new ?? d.price);
     return Number(v);
   }
-  function storeSearchUrl(title, store) {
+  function storeSearchUrl(title, store, steamAppId) {
+    if (steamAppId) return `https://store.steampowered.com/app/${steamAppId}/`;
     const q = encodeURIComponent(title || "");
     const s = String(store || "").toLowerCase();
     if (s.includes("steam")) return `https://store.steampowered.com/search/?term=${q}`;
@@ -763,7 +765,7 @@ const DISCORD_INVITE_URL = "https://discord.gg/c7UHcM2UR";
         const save = (Number.isFinite(old) && Number.isFinite(neu) && old > neu)
           ? `Экономия ${formatRub(old - neu)}`
           : "";
-        const href = storeSearchUrl(d.title, d.store);
+        const href = d.url || storeSearchUrl(d.title, d.store, d.steamAppId);
         return `
       <article class="deal-card" data-deal-index="${i}" data-deal-url="${href}" role="link" tabindex="0" aria-label="Открыть скидку: ${d.title}">
         <div class="card-cover" style="--c1:#102018;--c2:#183828">
