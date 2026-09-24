@@ -1,0 +1,52 @@
+name: Refresh portal data JSON
+on:
+  schedule:
+    - cron: "26 */2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Update ping targets + Steam catalog snapshot
+        run: python scripts/update_ping_baseline.py
+
+      - name: Update freebies (if script present)
+        run: |
+          if [ -f scripts/update_freebies.py ]; then
+            python scripts/update_freebies.py || echo "update_freebies failed (non-fatal)"
+          fi
+
+      - name: Optional Steam profiles (needs STEAM_API_KEY secret)
+        env:
+          STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
+          STEAM_PROFILE_IDS: ${{ vars.STEAM_PROFILE_IDS }}
+        run: |
+          if [ -f scripts/update_steam_profiles.py ]; then
+            python scripts/update_steam_profiles.py || echo "steam profiles skipped/failed"
+          fi
+
+      - name: Commit data/*.json if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/*.json || true
+          if git diff --cached --quiet; then
+            echo "No data JSON changes"
+          else
+            git commit -m "chore(data): refresh ping/steam/freebies JSON"
+            git push
+          fi

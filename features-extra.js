@@ -295,6 +295,11 @@
       bell.dataset.alertTitle = d.title;
       bell.dataset.alertId = d.id;
       bell.dataset.targetPct = String(Math.max(10, Number(d.pct) || 50));
+      if (d.steamAppId) {
+        bell.dataset.steamAppId = d.steamAppId;
+        card.dataset.steamAppId = d.steamAppId;
+      }
+      if (d.image) card.dataset.dealImage = d.image;
       bell.title = "Алерт на скидку";
       bell.textContent = "🔔";
       cover.appendChild(bell);
@@ -363,19 +368,45 @@
     maybePostWebhook(fired);
   }
 
+  function dealThumb(deal) {
+    if (!deal) return null;
+    if (deal.image) return deal.image;
+    if (deal.header_image) return deal.header_image;
+    const id = deal.steamAppId || (String(deal.id || "").match(/(\d{3,})/) || [])[1];
+    if (id) return `https://cdn.cloudflare.steamstatic.com/steam/apps/${id}/header.jpg`;
+    return null;
+  }
+
   async function maybePostWebhook(fired) {
     const url = (localStorage.getItem(KEYS.webhook) || "").trim();
     if (!url || !fired.length) return;
-    const embeds = fired.slice(0, 5).map((f) => ({
-      title: f.deal.title,
-      description: `Скидка −${f.deal.pct}% · ${f.deal.store || ""}\n[Открыть](${f.deal.url || "#"})`,
-      color: 0x00f5ff,
-    }));
+    const embeds = fired.slice(0, 5).map((f) => {
+      const d = f.deal || {};
+      const thumb = dealThumb(d);
+      const embed = {
+        title: d.title || "Скидка",
+        url: d.url || undefined,
+        color: 0x00f5ff,
+        fields: [
+          { name: "Старая цена", value: d.old != null ? String(d.old) + " ₽" : "—", inline: true },
+          { name: "Новая цена", value: d.neu != null ? String(d.neu) + " ₽" : "—", inline: true },
+          { name: "Скидка %", value: d.pct != null ? "−" + d.pct + "%" : "—", inline: true },
+          { name: "Магазин", value: d.store || "—", inline: true },
+        ],
+        footer: { text: "NEXUS PULSE" },
+      };
+      if (thumb) {
+        embed.thumbnail = { url: thumb };
+        embed.image = { url: thumb };
+      }
+      return embed;
+    });
+    const pingLine = "🔥 NEXUS PULSE · сработали ценовые алерты (" + fired.length + ")";
     try {
       await fetch(url, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ content: "NEXUS PULSE · сработали алерты", embeds }),
+        body: JSON.stringify({ content: pingLine, embeds }),
       });
       toast("Webhook: попытка отправки (может блокироваться CORS)");
     } catch {
@@ -500,8 +531,30 @@
     const fpsKey = gpu.fpsKey || "mid";
     const cpuKey = cpu.tier >= 4 ? "high" : cpu.tier >= 3 ? "mid" : "budget";
     const fps = NP.estimateFps(game.id, fpsKey, cpuKey);
+    const power = (gpu.score / 100) * 0.7 + (cpu.score / 100) * 0.2 + (ram.score / 100) * 0.1;
+    const need = game.demand || 1;
+    let badge = "Потянет";
+    let badgeClass = "compat-badge-ok";
+    if (status === "ok") {
+      if (power >= need * 1.15 || (gpu.tier >= 4 && fps >= 90)) {
+        badge = "На ультрах";
+        badgeClass = "compat-badge-ultra";
+      } else if (power >= need * 0.95 || fps >= 70) {
+        badge = "Потянет на высоких";
+        badgeClass = "compat-badge-high";
+      } else {
+        badge = "Потянет";
+        badgeClass = "compat-badge-ok";
+      }
+    } else if (status === "min") {
+      badge = "Впритык";
+      badgeClass = "compat-badge-tight";
+    } else {
+      badge = "Слабо";
+      badgeClass = "compat-badge-weak";
+    }
     const labels = { ok: "Потянет", min: "На минимуме", no: "Не потянет" };
-    return { status, label: labels[status], fps };
+    return { status, label: labels[status], fps, badge, badgeClass, power };
   }
 
   function fillPartSelects() {
@@ -522,6 +575,7 @@
       if ($("#pcGpu") && saved.gpu) $("#pcGpu").value = saved.gpu;
       if ($("#pcRam") && saved.ram) $("#pcRam").value = saved.ram;
       if ($("#pcStorage") && saved.storage) $("#pcStorage").value = saved.storage;
+      if ($("#pcRes") && saved.res) $("#pcRes").value = saved.res;
     } else {
       if ($("#pcCpu")) $("#pcCpu").value = "r5_7600";
       if ($("#pcGpu")) $("#pcGpu").value = "rtx4060";
@@ -583,10 +637,32 @@
         gpu: $("#pcGpu")?.value,
         ram: $("#pcRam")?.value,
         storage: $("#pcStorage")?.value,
+        res: $("#pcRes")?.value || undefined,
         savedAt: new Date().toISOString(),
       };
       lsSet(KEYS.build, build);
       toast("Сборка сохранена в браузере");
+      if (window.NexusPulse) injectCompatBadges(window.NexusPulse);
+    });
+    $("#pcBuildShare")?.addEventListener("click", () => {
+      const cpu = $("#pcCpu")?.value || "";
+      const gpu = $("#pcGpu")?.value || "";
+      const ram = $("#pcRam")?.value || "";
+      const res = $("#pcRes")?.value || "";
+      const q = new URLSearchParams();
+      if (cpu) q.set("cpu", cpu);
+      if (gpu) q.set("gpu", gpu);
+      if (ram) q.set("ram", ram);
+      if (res) q.set("res", res);
+      const base =
+        location.hostname.includes("github.io")
+          ? "https://derzko435.github.io/nexus-pulse/"
+          : location.origin + location.pathname.replace(/index\.html$/i, "");
+      const url = base.replace(/\/?$/, "/") + "?" + q.toString() + "#tools";
+      navigator.clipboard?.writeText(url).then(
+        () => toast("Ссылка на сборку скопирована"),
+        () => toast(url)
+      );
     });
     $("#pcBuildCalc")?.addEventListener("click", run);
     $("#pcCompatList")?.addEventListener("click", (e) => {
@@ -1010,14 +1086,16 @@ const NICK_BANKS = {
   /* ============================================================
    * 3) Ping map
    * ============================================================ */
-  const PING_TARGETS = [
-    { id: "cloudflare", name: "Cloudflare", url: "https://speed.cloudflare.com/__down?bytes=0", kind: "fetch" },
+  const PING_TARGETS_FALLBACK = [
+    { id: "cloudflare", name: "Cloudflare", url: "https://www.cloudflare.com/favicon.ico", kind: "img" },
     { id: "steam", name: "Steam CDN", url: "https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg", kind: "img" },
-    { id: "riot", name: "Riot (approx)", url: "https://authenticate.riotgames.com/favicon.ico", kind: "img" },
+    { id: "riot", name: "Riot", url: "https://authenticate.riotgames.com/favicon.ico", kind: "img" },
     { id: "epic", name: "Epic", url: "https://static-assets-prod.unrealengine.com/account-portal/static/favicon.ico", kind: "img" },
     { id: "blizzard", name: "Blizzard", url: "https://www.blizzard.com/favicon.ico", kind: "img" },
     { id: "google", name: "Google (ref)", url: "https://www.google.com/favicon.ico", kind: "img" },
   ];
+  let PING_TARGETS = PING_TARGETS_FALLBACK.slice();
+  let steamCatalogSnapshot = null;
 
   function pingColor(ms) {
     if (ms == null || !Number.isFinite(ms)) return "ping-err";
@@ -1091,12 +1169,41 @@ const NICK_BANKS = {
     }
   }
 
+  async function loadPingTargets() {
+    try {
+      const res = await fetch("./data/ping_targets.json", { cache: "no-store" });
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      const data = await res.json();
+      if (Array.isArray(data.targets) && data.targets.length) {
+        PING_TARGETS = data.targets.map((t) => ({
+          id: t.id,
+          name: t.name,
+          url: t.url,
+          kind: t.kind || "img",
+        }));
+      }
+    } catch (e) {
+      console.warn("[ping_targets]", e);
+      PING_TARGETS = PING_TARGETS_FALLBACK.slice();
+    }
+  }
+
+  async function loadSteamCatalogSnapshot() {
+    try {
+      const res = await fetch("./data/steam_catalog_snapshot.json", { cache: "no-store" });
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      steamCatalogSnapshot = await res.json();
+    } catch (e) {
+      console.warn("[steam_catalog]", e);
+      steamCatalogSnapshot = null;
+    }
+  }
+
   function wirePingMap() {
     $("#pingRefreshBtn")?.addEventListener("click", () => {
       runPingMap();
     });
-    // delay slightly so speed test globals may exist
-    setTimeout(runPingMap, 400);
+    loadPingTargets().then(() => setTimeout(runPingMap, 200));
   }
 
   /* ============================================================
@@ -1122,13 +1229,22 @@ const NICK_BANKS = {
     return owned;
   }
 
+  const STEAM_PROXY_FALLBACK = "https://api.allorigins.win/raw?url=";
+
+  async function fetchTextDirectThenProxy(url) {
+    try {
+      const res = await fetch(url, { cache: "no-store", mode: "cors" });
+      if (res.ok) return await res.text();
+    } catch { /* CORS / network — try single fallback proxy */ }
+    const proxied = STEAM_PROXY_FALLBACK + encodeURIComponent(url);
+    const res2 = await fetch(proxied, { cache: "no-store" });
+    if (!res2.ok) throw new Error("HTTP " + res2.status + " (direct+proxy)");
+    return await res2.text();
+  }
+
   async function resolveVanity(vanity) {
-    // Best-effort via allorigins + community XML redirect is hard; try profile XML path
     const url = `https://steamcommunity.com/id/${encodeURIComponent(vanity)}/?xml=1`;
-    const proxied = `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`;
-    const res = await fetch(proxied, { cache: "no-store" });
-    if (!res.ok) throw new Error("vanity HTTP " + res.status);
-    const text = await res.text();
+    const text = await fetchTextDirectThenProxy(url);
     const m = text.match(/<steamID64>(\d+)<\/steamID64>/i);
     if (!m) throw new Error("steamID64 not found");
     return m[1];
@@ -1136,10 +1252,7 @@ const NICK_BANKS = {
 
   async function fetchSteamGamesXml(steamid64) {
     const url = `https://steamcommunity.com/profiles/${steamid64}/games?tab=all&xml=1`;
-    const proxied = `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`;
-    const res = await fetch(proxied, { cache: "no-store" });
-    if (!res.ok) throw new Error("games HTTP " + res.status);
-    const text = await res.text();
+    const text = await fetchTextDirectThenProxy(url);
     if (/privacy|Private|не доступен|This profile is private/i.test(text) && !/<game>/i.test(text)) {
       throw new Error("Профиль или список игр закрыт");
     }
@@ -1184,7 +1297,7 @@ const NICK_BANKS = {
         if (status) status.textContent = "Введи SteamID64 или vanity.";
         return;
       }
-      if (status) status.textContent = "Загрузка через публичный прокси…";
+      if (status) status.textContent = "Пробуем прямой запрос, затем один fallback-прокси… Метаданные популярных игр — из data/steam_catalog_snapshot.json (GitHub Actions).";
       try {
         let id = raw;
         if (!/^\d{15,20}$/.test(raw)) {
@@ -1211,8 +1324,8 @@ const NICK_BANKS = {
         console.warn(err);
         if (status)
           status.textContent =
-            "Импорт не удался (" + (err.message || err) + "). Отметь игры вручную ниже — браузер/CORS/прокси часто блокируют.";
-        toast("Steam import недоступен — используй ручной список");
+            "Авто-импорт не удался (" + (err.message || err) + "). Нужен публичный профиль Steam; полный авто-импорт часто блокируется CORS. Основной способ — ручной чеклист ниже.";
+        toast("Авто-импорт Steam недоступен — отметь игры вручную");
       }
     });
 
@@ -1282,6 +1395,13 @@ const NICK_BANKS = {
     { game: "Lethal Company", rank: "casual", prime: "вечером", mic: true, note: "Моды ок, квота или смерть", nick: "PulseBot" },
   ];
 
+  function lfgStyleForGame(game) {
+    const g = String(game || "").toLowerCase();
+    if (/cs2|valorant|apex|cod|r6|overwatch|ow2/.test(g)) return "shooter";
+    if (/dota|lol|wow|ffxiv|eso|destiny/.test(g)) return "fantasy";
+    return "cyberpunk";
+  }
+
   function renderLfg() {
     const self = lsGet(KEYS.lfgSelf, null);
     const feed = $("#lfgFeed");
@@ -1289,13 +1409,22 @@ const NICK_BANKS = {
     const cards = self ? [Object.assign({ nick: "Ты", _self: true }, self), ...LFG_DEMO] : LFG_DEMO;
     feed.innerHTML = cards
       .map(
-        (c) => `<article class="lfg-card glass ${c._self ? "lfg-self" : ""}">
-        <div class="lfg-top"><strong>${c.nick || "Игрок"}</strong> · ${c.game}</div>
+        (c, i) => `<article class="lfg-card glass ${c._self ? "lfg-self" : ""}">
+        <div class="lfg-top">
+          <canvas class="lfg-avatar" width="64" height="64" data-lfg-av="${i}" aria-hidden="true"></canvas>
+          <div class="lfg-top-text"><strong>${c.nick || "Игрок"}</strong> · ${c.game}</div>
+        </div>
         <div class="lfg-meta">Ранг: ${c.rank || "—"} · Прайм: ${c.prime || "—"} · Мик: ${c.mic ? "да" : "нет"}</div>
         <p>${c.note || ""}</p>
       </article>`
       )
       .join("");
+    $$("#lfgFeed .lfg-avatar").forEach((canvas) => {
+      const i = Number(canvas.dataset.lfgAv);
+      const c = cards[i];
+      if (!c) return;
+      drawAvatar(canvas, c.nick || "Player", lfgStyleForGame(c.game));
+    });
   }
 
   function wireLfg() {
@@ -1349,12 +1478,12 @@ const NICK_BANKS = {
       lsSet(KEYS.lfgPending, card);
       const text = `LFG · ${card.game} · ${card.rank || "?"} · ${card.prime || "?"} · mic:${card.mic ? "yes" : "no"}\n${card.note || ""}\n#поиск-тимы`;
       navigator.clipboard?.writeText(text).then(
-        () => toast("Скопировано — открываю Discord"),
-        () => toast("Открываю Discord (буфер недоступен)")
+        () => toast("Скопировано + открываю канал #поиск-тимы"),
+        () => toast("Открываю #поиск-тимы (буфер недоступен)")
       );
       renderLfg();
-      const url = window.NexusPulse?.DISCORD_INVITE_URL || "https://discord.gg/c7UHcM2UR";
-      window.open(url, "_blank", "noopener,noreferrer");
+      const deep = "https://discord.com/channels/1552735502266794204/1552736838555402431";
+      window.open(deep, "_blank", "noopener,noreferrer");
     });
   }
 
@@ -1579,6 +1708,158 @@ const NICK_BANKS = {
   }
 
   /* ============================================================
+   * Compatibility badges on game cards
+   * ============================================================ */
+  function injectCompatBadges(NP) {
+    const build = lsGet(KEYS.build, null);
+    $$("#gamesGrid .game-card .compat-badge").forEach((el) => el.remove());
+    if (!build || !build.cpu || !build.gpu) return;
+    $$("#gamesGrid .game-card").forEach((card) => {
+      const id = card.dataset.id;
+      const g = NP.GAMES.find((x) => x.id === id);
+      if (!g) return;
+      const c = compatForGame(NP, g, build);
+      const cover = card.querySelector(".card-cover") || card;
+      const b = document.createElement("span");
+      b.className = "compat-badge " + (c.badgeClass || "compat-badge-ok");
+      b.textContent = c.badge || c.label;
+      b.title = "Совместимость с сохранённой PC-сборкой";
+      cover.appendChild(b);
+    });
+  }
+
+  /* ============================================================
+   * Export / Import nexus_backup.json
+   * ============================================================ */
+  const BACKUP_PREFIX = "nexus_pulse_";
+  const KNOWN_BACKUP_KEYS = [
+    KEYS.build, KEYS.owned, KEYS.epicOwned, KEYS.epicName, KEYS.alerts,
+    KEYS.webhook, KEYS.lfgSelf, KEYS.lfgPending, KEYS.checklist, KEYS.backlog,
+    KEYS.hideOwned, "nexus_pulse_wishlist", "nexus_pulse_lang",
+  ];
+
+  function collectBackupPayload() {
+    const data = {};
+    // Prefer known keys + any nexus_pulse_* in localStorage
+    const keys = new Set(KNOWN_BACKUP_KEYS);
+    try {
+      for (let i = 0; i < localStorage.length; i++) {
+        const k = localStorage.key(i);
+        if (k && k.startsWith(BACKUP_PREFIX)) keys.add(k);
+      }
+    } catch { /* ignore */ }
+    keys.forEach((k) => {
+      try {
+        const v = localStorage.getItem(k);
+        if (v != null) data[k] = v;
+      } catch { /* ignore */ }
+    });
+    return {
+      version: 1,
+      exportedAt: new Date().toISOString(),
+      app: "NEXUS PULSE",
+      data,
+    };
+  }
+
+  function applyBackupPayload(payload, mode) {
+    if (!payload || typeof payload !== "object" || !payload.data) {
+      throw new Error("Неверный формат nexus_backup.json");
+    }
+    const entries = Object.entries(payload.data);
+    if (mode === "replace") {
+      const toRemove = [];
+      for (let i = 0; i < localStorage.length; i++) {
+        const k = localStorage.key(i);
+        if (k && k.startsWith(BACKUP_PREFIX)) toRemove.push(k);
+      }
+      toRemove.forEach((k) => localStorage.removeItem(k));
+    }
+    entries.forEach(([k, v]) => {
+      if (!k || !String(k).startsWith(BACKUP_PREFIX)) return;
+      localStorage.setItem(k, typeof v === "string" ? v : JSON.stringify(v));
+    });
+  }
+
+  function wireBackup(NP) {
+    $("#backupExportBtn")?.addEventListener("click", () => {
+      const payload = collectBackupPayload();
+      const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = "nexus_backup.json";
+      a.click();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+      toast("Экспортировано ключей: " + Object.keys(payload.data).length);
+    });
+    $("#backupImportBtn")?.addEventListener("click", () => {
+      $("#backupImportFile")?.click();
+    });
+    $("#backupImportFile")?.addEventListener("change", async (e) => {
+      const file = e.target.files && e.target.files[0];
+      e.target.value = "";
+      if (!file) return;
+      try {
+        const text = await file.text();
+        const payload = JSON.parse(text);
+        if (!confirm("Импортировать nexus_backup.json в этот браузер?")) return;
+        const mode = confirm("OK = полная замена всех nexus_pulse_* ключей" + "\n" + "Отмена = слияние (merge поверх)");
+        applyBackupPayload(payload, mode ? "replace" : "merge");
+        // reload UI bits
+        try {
+          fillPartSelects();
+          renderBuildCompat(NP);
+          renderOwnedChecklist(NP);
+          renderLfg();
+          renderChecklist();
+          if (typeof wireBacklog === "function") { /* noop */ }
+          if (NP.renderWishlist) NP.renderWishlist();
+          NP.renderGames();
+          injectCompatBadges(NP);
+        } catch (err) {
+          console.warn(err);
+        }
+        toast("Импорт завершён — UI обновлён");
+      } catch (err) {
+        toast("Импорт не удался: " + (err.message || err));
+      }
+    });
+  }
+
+  function applyBuildFromQuery(NP) {
+    const params = new URLSearchParams(location.search);
+    const cpu = params.get("cpu");
+    const gpu = params.get("gpu");
+    const ram = params.get("ram");
+    const res = params.get("res");
+    if (!cpu && !gpu && !ram) return;
+    if (cpu && $("#pcCpu")) $("#pcCpu").value = cpu;
+    if (gpu && $("#pcGpu")) $("#pcGpu").value = gpu;
+    if (ram && $("#pcRam")) $("#pcRam").value = ram;
+    if (res && $("#pcRes")) $("#pcRes").value = res;
+    const build = {
+      cpu: $("#pcCpu")?.value,
+      gpu: $("#pcGpu")?.value,
+      ram: $("#pcRam")?.value,
+      storage: $("#pcStorage")?.value,
+      res: $("#pcRes")?.value || undefined,
+      savedAt: new Date().toISOString(),
+      fromShare: true,
+    };
+    lsSet(KEYS.build, build);
+    renderBuildCompat(NP);
+    injectCompatBadges(NP);
+    const tools = document.getElementById("tools");
+    if (tools) {
+      tools.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+    if (location.hash !== "#tools") {
+      try { history.replaceState(null, "", location.pathname + location.search + "#tools"); } catch { /* ignore */ }
+    }
+    toast("Сборка загружена по ссылке");
+  }
+
+  /* ============================================================
    * Hook renderGames / renderDeals
    * ============================================================ */
   function patchRenderHooks(NP) {
@@ -1599,6 +1880,7 @@ const NICK_BANKS = {
       const empty = $("#gamesEmpty");
       if (empty) empty.hidden = left > 0;
       decorateGameCards(NP);
+      injectCompatBadges(NP);
     };
 
     if (typeof NP.renderDeals === "function") {
@@ -1633,13 +1915,17 @@ const NICK_BANKS = {
     wireNickGen();
     wirePingMap();
     wireSteamImport(NP);
+    wireBackup(NP);
+    loadSteamCatalogSnapshot();
     loadFreebies();
     wireLfg();
     wireChecklist();
     wireBacklog(NP);
     watchGotd();
     loadMatches();
+    applyBuildFromQuery(NP);
     NP.renderGames();
+    injectCompatBadges(NP);
     if (NP.updateHeroStats) {
       const tools = $("#statTools");
       if (tools) tools.textContent = "12";

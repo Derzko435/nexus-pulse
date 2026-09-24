@@ -7,6 +7,11 @@
   <title>NEXUS PULSE — Игровой портал для настоящих геймеров</title>
   <link rel="icon" type="image/png" href="assets/nexus-pulse-icon.png">
   <link rel="apple-touch-icon" href="assets/nexus-pulse-icon.png">
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#00f5ff" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="NEXUS PULSE" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -461,11 +466,19 @@
             <label class="field"><span>GPU</span><select id="pcGpu"></select></label>
             <label class="field"><span>RAM</span><select id="pcRam"></select></label>
             <label class="field"><span>Накопитель</span><select id="pcStorage"></select></label>
+            <label class="field"><span>Разрешение</span>
+              <select id="pcRes">
+                <option value="1080">1080p</option>
+                <option value="1440">1440p</option>
+                <option value="2160">4K</option>
+              </select>
+            </label>
           </div>
           <div class="pc-build-actions">
             <p class="result-big" style="margin:0">Скор: <span id="pcBuildScore">—</span><small>/100</small></p>
             <button type="button" class="btn btn-primary" id="pcBuildCalc">Пересчитать</button>
             <button type="button" class="btn btn-ghost" id="pcBuildSave">Сохранить сборку</button>
+            <button type="button" class="btn btn-ghost" id="pcBuildShare">Поделиться сборкой</button>
           </div>
           <div class="pc-compat" id="pcCompatList"></div>
         </div>
@@ -493,7 +506,7 @@
 
           <div class="tool-card glass" id="steamImportCard">
             <h3>Импорт библиотеки Steam / Epic</h3>
-            <p class="tool-desc">SteamID64 или vanity. Пробуем публичный XML через CORS-прокси; если блокировка — отметь игры вручную. Epic: только display name + ручной список (нет публичного API без OAuth).</p>
+            <p class="tool-desc">Ручной чеклист — основной способ. Авто-импорт: публичный профиль Steam, прямой запрос XML, при CORS — один fallback-прокси (может не сработать). Метаданные популярных Steam-игр подтягиваются из <code>data/steam_catalog_snapshot.json</code> (обновляет GitHub Actions). Epic: display name + ручной список.</p>
             <label class="field"><span>SteamID64 / vanity / URL</span>
               <input type="text" id="steamIdInput" placeholder="7656119… или nickname" autocomplete="off" />
             </label>
@@ -507,6 +520,16 @@
               <input type="search" id="steamManualSearch" placeholder="Поиск в каталоге…" />
             </label>
             <div class="owned-checklist" id="steamManualList"></div>
+          </div>
+        </div>
+
+        <div class="tool-card glass backup-card tool-card-wide" id="profileBackupCard" style="margin-top:1.25rem">
+          <h3>Резервная копия профиля</h3>
+          <p class="tool-desc">Экспорт / импорт всех локальных данных NEXUS PULSE (<code>nexus_backup.json</code>): сборка ПК, библиотека, алерты, LFG, чеклисты, wishlist, язык и др.</p>
+          <div style="display:flex;gap:.5rem;flex-wrap:wrap">
+            <button type="button" class="btn btn-primary" id="backupExportBtn">Экспортировать данные профиля</button>
+            <button type="button" class="btn btn-ghost" id="backupImportBtn">Импортировать</button>
+            <input type="file" id="backupImportFile" accept="application/json,.json" hidden />
           </div>
         </div>
       </div>
@@ -685,5 +708,14 @@
   <button class="to-top" id="toTop" aria-label="Наверх" type="button">↑</button>
   <script src="app.js"></script>
   <script src="features-extra.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", function () {
+        navigator.serviceWorker.register("./service-worker.js").catch(function (err) {
+          console.warn("[NEXUS PULSE] SW register:", err);
+        });
+      });
+    }
+  </script>
 </body>
 </html>

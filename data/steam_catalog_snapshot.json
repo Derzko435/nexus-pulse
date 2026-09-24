@@ -1,0 +1,562 @@
+{
+  "updatedAt": "2026-09-24T23:35:42+03:00",
+  "source": "steam-store-appdetails",
+  "count": 34,
+  "apps": [
+    {
+      "appid": "730",
+      "name": "Counter-Strike 2",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg",
+      "genres": [],
+      "is_free": true,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Легендарный тактический шутер. Premier, Faceit, скейл.",
+      "catalogId": "cs2",
+      "curated": true
+    },
+    {
+      "appid": "570",
+      "name": "Dota 2",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
+      "genres": [],
+      "is_free": true,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "MOBA от Valve. Патчи, турниры, кастомки.",
+      "catalogId": "dota2",
+      "curated": true
+    },
+    {
+      "appid": "252950",
+      "name": "Rocket League",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/252950/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": "rocket",
+      "curated": true
+    },
+    {
+      "appid": "1172470",
+      "name": "Apex Legends",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172470/header.jpg",
+      "genres": [],
+      "is_free": true,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": "apex",
+      "curated": true
+    },
+    {
+      "appid": "1245620",
+      "name": "ELDEN RING",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Souls-like от FromSoftware. Открытый мир Лимгрейва.",
+      "catalogId": "elden",
+      "curated": true
+    },
+    {
+      "appid": "1086940",
+      "name": "Baldur's Gate 3",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Эпическая RPG от Larian. Кооп и огромный сюжет.",
+      "catalogId": "bg3",
+      "curated": true
+    },
+    {
+      "appid": "292030",
+      "name": "The Witcher 3: Wild Hunt",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Классика RPG. Дикая Охота и дополнения.",
+      "catalogId": "witcher3",
+      "curated": true
+    },
+    {
+      "appid": "1091500",
+      "name": "Cyberpunk 2077",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Night City, киберпанк, Phantom Liberty.",
+      "catalogId": "cp2077",
+      "curated": true
+    },
+    {
+      "appid": "1174180",
+      "name": "Red Dead Redemption 2",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": "rdr2",
+      "curated": true
+    },
+    {
+      "appid": "271590",
+      "name": "Grand Theft Auto V Legacy",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/header.jpg?t=1765387725",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 96,
+      "short_description": "Grand Theft Auto V для PC позволяет игрокам исследовать знаменитый мир Лос-Сантоса и округа Блэйн в разрешении до 4k и выше с частотой 60 кадров в секунду.",
+      "catalogId": "gtav"
+    },
+    {
+      "appid": "367520",
+      "name": "Hollow Knight",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": "hollow",
+      "curated": true
+    },
+    {
+      "appid": "1145360",
+      "name": "Hades",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": "hades",
+      "curated": true
+    },
+    {
+      "appid": "413150",
+      "name": "Stardew Valley",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/413150/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Уютная фермерская песочница.",
+      "catalogId": "stardew",
+      "curated": true
+    },
+    {
+      "appid": "739630",
+      "name": "Phasmophobia",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/c227a2855aba60f3657bc0c3a46515b8c41fb2b6/header.jpg?t=1789487643",
+      "genres": [
+        "Экшены",
+        "Инди",
+        "Ранний доступ"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Phasmophobia is a 4 player online co-op psychological horror. Paranormal activity is on the rise and it’s up to you and your team to use all the ghost-hunting equipment at your disposal in order to gather as much evidence as you can.",
+      "catalogId": "phasmo"
+    },
+    {
+      "appid": "1966720",
+      "name": "Lethal Company",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966720/header.jpg?t=1775380053",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Ранний доступ"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A co-op horror about scavenging at abandoned moons to sell scrap to the Company.",
+      "catalogId": "lethal"
+    },
+    {
+      "appid": "782330",
+      "name": "DOOM Eternal",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/782330/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": "doom",
+      "curated": true
+    },
+    {
+      "appid": "814380",
+      "name": "Sekiro™: Shadows Die Twice",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": "sekiro",
+      "curated": true
+    },
+    {
+      "appid": "2379780",
+      "name": "Balatro",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2379780/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Покерный рогалик с джокерами.",
+      "catalogId": "balatro",
+      "curated": true
+    },
+    {
+      "appid": "2358720",
+      "name": "Steam App 2358720",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2358720/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": "blackmyth",
+      "curated": true
+    },
+    {
+      "appid": "1888160",
+      "name": "ARMORED CORE™ VI FIRES OF RUBICON™",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888160/header.jpg?t=1748630736",
+      "genres": [
+        "Экшены"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 86,
+      "short_description": "Новый боевик, в котором концепция серии ARMORED CORE получила современное развитие за счёт знаний, накопленных компанией FromSoftware за время разработки игр этого жанра.",
+      "catalogId": "arma"
+    },
+    {
+      "appid": "678960",
+      "name": "CODE VEIN",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/678960/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
+    },
+    {
+      "appid": "1282100",
+      "name": "REMNANT II",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1282100/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
+    },
+    {
+      "appid": "1222140",
+      "name": "Detroit: Become Human",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/header.jpg?t=1667468479",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 80,
+      "short_description": "В Detroit: Become Human в ваших руках окажутся судьбы как человечества, так и андроидов. Каждый сделанный вами выбор повлияет на исход игры, в которой реализован одним из самых замысловатых и разветвленных сюжетов из когда-либо созданных в игровой индустрии."
+    },
+    {
+      "appid": "227300",
+      "name": "Euro Truck Simulator 2",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/227300/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
+    },
+    {
+      "appid": "281990",
+      "name": "Stellaris",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/281990/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
+    },
+    {
+      "appid": "1084160",
+      "name": "Steam App 1084160",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1084160/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
+    },
+    {
+      "appid": "246420",
+      "name": "Kingdom Rush  - Tower Defense",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246420/header.jpg?t=1787155436",
+      "genres": [
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Приготовьтесь к увлекательному приключению, в котором вам с помощью башен и заклинаний предстоит защитить свое королевство от полчищ орков, троллей, злых колдунов и других мерзких тварей!Сражайтесь в лесах, горах и пустынях, меняя оборонительную стратегию под условия с помощью разных улучшений и способностей башен!"
+    },
+    {
+      "appid": "582660",
+      "name": "Steam App 582660",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/582660/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
+    },
+    {
+      "appid": "617290",
+      "name": "Steam App 617290",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/617290/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
+    },
+    {
+      "appid": "640820",
+      "name": "Steam App 640820",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/640820/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
+    },
+    {
+      "appid": "599140",
+      "name": "Steam App 599140",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/599140/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
+    },
+    {
+      "appid": "270880",
+      "name": "Steam App 270880",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/270880/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
+    },
+    {
+      "appid": "400750",
+      "name": "Steam App 400750",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/400750/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
+    },
+    {
+      "appid": "2186680",
+      "name": "Steam App 2186680",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2186680/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
+    }
+  ]
+}

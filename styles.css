@@ -1378,3 +1378,62 @@ button.guide-card { appearance: none; }
   }
   .ping-bar { grid-column: 1 / -1; }
 }
+
+/* ---- Compatibility badges on game cards ---- */
+.compat-badge {
+  position: absolute;
+  left: .55rem;
+  top: .55rem;
+  z-index: 2;
+  font-size: .62rem;
+  font-weight: 700;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  padding: .2rem .45rem;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: rgba(0, 0, 0, .55);
+  backdrop-filter: blur(6px);
+  max-width: 70%;
+  line-height: 1.2;
+}
+.compat-badge-ultra {
+  color: #00f5ff;
+  border-color: rgba(0, 245, 255, .55);
+  box-shadow: 0 0 10px rgba(0, 245, 255, .25);
+}
+.compat-badge-high {
+  color: #3dff9a;
+  border-color: rgba(61, 255, 154, .45);
+}
+.compat-badge-ok {
+  color: #86efac;
+  border-color: rgba(134, 239, 172, .35);
+}
+.compat-badge-tight {
+  color: #ffc857;
+  border-color: rgba(255, 200, 87, .45);
+}
+.compat-badge-weak {
+  color: #ff4d6d;
+  border-color: rgba(255, 77, 109, .45);
+}
+
+/* ---- LFG avatars ---- */
+.lfg-top {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+}
+.lfg-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  border: 1px solid rgba(0, 245, 255, .35);
+  background: #050d1a;
+}
+.lfg-top-text { min-width: 0; }
+
+/* ---- Backup card ---- */
+.backup-card h3 { margin-top: 0; }
