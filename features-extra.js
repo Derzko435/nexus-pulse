@@ -23,6 +23,7 @@
     alerts: "nexus_pulse_price_alerts",
     webhook: "nexus_pulse_discord_webhook",
     lfgSelf: "nexus_pulse_lfg_self",
+    lfgPending: "nexus_pulse_lfg_pending_post",
     checklist: "nexus_pulse_checklist",
     backlog: "nexus_pulse_backlog",
     hideOwned: "nexus_pulse_hide_owned",
@@ -353,7 +354,7 @@
           .map((f) => `🔥 **${f.deal.title}** −${f.deal.pct}% (${f.deal.store || ""})\n${f.deal.url || ""}`)
           .join("\n\n");
         navigator.clipboard?.writeText(text).then(
-          () => toast("Сообщение для Discord скопировано"),
+          () => toast("Скопировано — вставь в Discord #анонсы (live-посты также идут с бота на боксе)"),
           () => toast("Не удалось скопировать")
         );
       };
@@ -611,42 +612,105 @@
   /* ============================================================
    * 2) Nickname + avatar generator
    * ============================================================ */
-  const NICK_BANKS = {
+const NICK_BANKS = {
     cyberpunk: {
-      pre: ["Neo", "Chrome", "Null", "Volt", "Glitch", "Cyber", "Nova", "Hex", "Pulse", "Zero"],
-      mid: ["", "byte", "wire", "net", "core", "hack", "shade", "drift"],
-      suf: ["Runner", "Fox", "Ghost", "Kat", "Ronin", "Punk", "Protocol", "77", "X", "404"],
+      pre: ["Neo","Chrome","Null","Volt","Glitch","Cyber","Nova","Hex","Pulse","Zero","Neon","Byte","Circuit","Phantom","Static","Vapor","Pixel","Shadow","Drift","Blade","Synth","Grid","Echo","Razor"],
+      mid: ["","byte","wire","net","core","hack","shade","drift","flux","node"],
+      suf: ["Runner","Fox","Ghost","Kat","Ronin","Punk","Protocol","X","404","Wave","Shift","Link","Ops","Core","Spark","Noir","Edge","Prime","Unit","Wire"],
     },
     fantasy: {
-      pre: ["Ash", "Storm", "Moon", "Iron", "Shadow", "Ember", "Frost", "Thorn", "Silver", "Dawn"],
-      mid: ["", "blade", "song", "born", "heart", "bane", "walker"],
-      suf: ["Warden", "Mage", "Knight", "Seer", "Drake", "Rune", "Vale", "IX"],
+      pre: ["Ash","Storm","Moon","Iron","Shadow","Ember","Frost","Thorn","Silver","Dawn","Rune","Wolf","Drake","Oak","Crystal","Night","Sky","Flame","Stone","Mist","Arcane","Wild","Bright","Hollow"],
+      mid: ["","blade","song","born","heart","bane","walker","forge","wind"],
+      suf: ["Warden","Mage","Knight","Seer","Drake","Rune","Vale","IX","Sage","Blade","Guard","Born","Fang","Spark","Crest","Keeper","Vow","Hunt","Shade","Forge"],
     },
     shooter: {
-      pre: ["Aim", "Frag", "Clutch", "Rush", "Snap", "Ace", "Tilt", "Ping", "Smoke", "Flash"],
-      mid: ["", "shot", "peek", "strafe", "flick"],
-      suf: ["God", "King", "One", "Ops", "TTV", "Pro", "9", "HQ"],
+      pre: ["Aim","Frag","Clutch","Rush","Snap","Ace","Tilt","Ping","Smoke","Flash","Bolt","Scope","Blitz","Strike","Recoil","Trigger","Peak","Swift","Silent","Rapid","Sharp","Blast","Zero","Viper"],
+      mid: ["","shot","peek","strafe","flick","tap","spray"],
+      suf: ["God","King","One","Ops","TTV","Pro","HQ","Aim","Star","Shot","Lock","Fire","Drop","Zone","Elite","Ace","Rush","Peek","Snap","Line"],
     },
     cozy: {
-      pre: ["Soft", "Tea", "Sunny", "Berry", "Cloud", "Pebble", "Mochi", "Maple", "Cozy", "Honey"],
-      mid: ["", "bloom", "nest", "glow", "leaf"],
-      suf: ["Cat", "Fox", "Bean", "Farm", "Tea", "Bun", "Star"],
+      pre: ["Soft","Tea","Sunny","Berry","Cloud","Pebble","Mochi","Maple","Cozy","Honey","Cocoa","Daisy","Warm","Gentle","Peach","Mint","Cotton","Bloom","Lazy","Sugar","Amber","Olive","Cream","Petal"],
+      mid: ["","bloom","nest","glow","leaf","brew","soft"],
+      suf: ["Cat","Fox","Bean","Farm","Tea","Bun","Star","Paws","Nest","Glow","Joy","Hug","Kit","Bloom","Dove","Moss","Pine","Dawn","Sip","Home"],
     },
     space: {
-      pre: ["Orion", "Nova", "Astro", "Lunar", "Cosmo", "Quark", "Solar", "Nebula", "Orbit", "Ion"],
-      mid: ["", "star", "void", "warp", "pulse"],
-      suf: ["Pilot", "Drifter", "X", "Prime", "One", "Station", "42"],
+      pre: ["Orion","Nova","Astro","Lunar","Cosmo","Quark","Solar","Nebula","Orbit","Ion","Stellar","Comet","Pulsar","Zenith","Aether","Void","Galaxy","Meteor","Photon","Helio","Aurora","Titan","Orbit","Sigma"],
+      mid: ["","star","void","warp","pulse","ray","orbit"],
+      suf: ["Pilot","Drifter","X","Prime","One","Station","42","Craft","Wing","Trail","Nova","Core","Jump","Path","Light","Scan","Dock","Flux","Arc","Sky"],
+    },
+    pro: {
+      pre: ["Ace","Clutch","Prime","Elite","Rapid","Clean","Sharp","Focus","True","Swift","Peak","Solid","Crisp","Hyper","Meta","Rank","Ladder","Final","Crown","Pulse","Nova","Storm","Blitz","Viper"],
+      mid: ["","shot","play","aim","frag","combo"],
+      suf: ["Aim","Play","Star","One","Pro","GG","Ops","Line","Form","Mode","Core","Edge","Rise","Lock","Flow","Spark","Zone","Wave","Shot","Ace"],
     },
   };
+
+  const OFFENSIVE = /\b(nazi|hitler|rape|slave|killall|suicide|nigg|fag|retard|pedo|sex|porn|slut|whore|kys)\b/i;
+
+  function seedRng(str) {
+    let h = 2166136261 >>> 0;
+    for (let i = 0; i < str.length; i++) {
+      h ^= str.charCodeAt(i);
+      h = Math.imul(h, 16777619);
+    }
+    return () => {
+      h ^= h << 13; h >>>= 0;
+      h ^= h >>> 17; h >>>= 0;
+      h ^= h << 5; h >>>= 0;
+      return (h >>> 0) / 4294967296;
+    };
+  }
+
+  function leetSwap(s, rnd) {
+    const map = { e: "3", a: "4", i: "1", o: "0", E: "3", A: "4", I: "1", O: "0" };
+    let out = "";
+    let swapped = 0;
+    for (const ch of s) {
+      if (map[ch] && rnd() < 0.45 && swapped < 2) {
+        out += map[ch];
+        swapped++;
+      } else out += ch;
+    }
+    return out;
+  }
 
   function genNick(style) {
     const b = NICK_BANKS[style] || NICK_BANKS.cyberpunk;
     const pick = (arr) => arr[Math.floor(Math.random() * arr.length)];
-    const mid = pick(b.mid);
-    let nick = pick(b.pre) + (mid ? mid.charAt(0).toUpperCase() + mid.slice(1) : "") + pick(b.suf);
-    if (Math.random() < 0.35) nick += String(Math.floor(Math.random() * 90) + 10);
-    if (Math.random() < 0.2) nick = nick.replace(/(.{3})/, "$1_");
-    return nick.slice(0, 18);
+    const midRaw = pick(b.mid);
+    const mid = midRaw ? midRaw.charAt(0).toUpperCase() + midRaw.slice(1) : "";
+    let base = pick(b.pre) + mid + pick(b.suf);
+    // trim if too long before pattern wrap
+    if (base.length > 14) base = pick(b.pre) + pick(b.suf);
+
+    const patterns = [
+      () => base,
+      () => "xX" + base.slice(0, 12) + "Xx",
+      () => base.slice(0, 12) + "_TTV",
+      () => base.slice(0, 14) + "GG",
+      () => "i" + base.slice(0, 15),
+      () => "The" + base.slice(0, 13),
+      () => base.slice(0, 14) + "TV",
+      () => (pick(b.pre) + "." + pick(b.suf)).toLowerCase().slice(0, 18),
+      () => base.slice(0, 15) + "z",
+      () => leetSwap(base.slice(0, 16), Math.random),
+      () => base.slice(0, 14) + String(7 + Math.floor(Math.random() * 20)).padStart(2, "0"), // 07–26
+      () => base.slice(0, 12) + "_" + String(10 + Math.floor(Math.random() * 90)),
+    ];
+    // weighted toward readable plain / TTV / year / The / i
+    const weights = [22, 6, 10, 8, 8, 8, 6, 7, 5, 8, 10, 6];
+    let r = Math.random() * weights.reduce((a, c) => a + c, 0);
+    let idx = 0;
+    for (let i = 0; i < weights.length; i++) {
+      r -= weights[i];
+      if (r <= 0) { idx = i; break; }
+    }
+    let nick = patterns[idx]();
+    // rare global leet (~15%) if not already leet pattern
+    if (idx !== 9 && Math.random() < 0.15) nick = leetSwap(nick, Math.random);
+    nick = nick.replace(/[^a-zA-Z0-9._]/g, "").slice(0, 20);
+    if (!nick || OFFENSIVE.test(nick)) nick = pick(b.pre) + pick(b.suf);
+    return nick.slice(0, 20);
   }
 
   function drawAvatar(canvas, nick, style) {
@@ -654,50 +718,259 @@
     const ctx = canvas.getContext("2d");
     const w = canvas.width;
     const h = canvas.height;
+    const rnd = seedRng(String(nick || "NP") + "|" + String(style || "cyberpunk"));
     const palettes = {
-      cyberpunk: ["#0a1628", "#00f5ff", "#ff2bd6"],
-      fantasy: ["#1a1028", "#8b5cff", "#ffc857"],
-      shooter: ["#101810", "#3dff9a", "#ff4d6d"],
-      cozy: ["#1a1810", "#ffc857", "#3dff9a"],
-      space: ["#080818", "#00f5ff", "#8b5cff"],
+      cyberpunk: ["#050d1a", "#00f5ff", "#ff2bd6", "#7c3aed", "#0ea5e9"],
+      fantasy: ["#12081c", "#8b5cff", "#ffc857", "#c084fc", "#f472b6"],
+      shooter: ["#0a120c", "#3dff9a", "#ff4d6d", "#22c55e", "#fbbf24"],
+      cozy: ["#15120c", "#ffc857", "#86efac", "#fdba74", "#f9a8d4"],
+      space: ["#050510", "#00f5ff", "#8b5cff", "#38bdf8", "#a78bfa"],
+      pro: ["#0b0f14", "#f59e0b", "#e2e8f0", "#38bdf8", "#22c55e"],
     };
-    const [c0, c1, c2] = palettes[style] || palettes.cyberpunk;
-    const g = ctx.createLinearGradient(0, 0, w, h);
-    g.addColorStop(0, c0);
-    g.addColorStop(0.55, c1);
-    g.addColorStop(1, c2);
-    ctx.fillStyle = g;
+    const pal = palettes[style] || palettes.cyberpunk;
+    const [bg, c1, c2, c3, c4] = pal;
+    const templates = ["radial", "stripes", "lowpoly", "circuit", "starfield", "hex", "vignette", "blobs"];
+    const tmpl = templates[Math.floor(rnd() * templates.length)];
+
+    // base fill
+    ctx.fillStyle = bg;
     ctx.fillRect(0, 0, w, h);
-    // shapes
-    ctx.globalAlpha = 0.35;
-    for (let i = 0; i < 6; i++) {
-      ctx.beginPath();
-      const x = Math.random() * w;
-      const y = Math.random() * h;
-      const r = 20 + Math.random() * 60;
-      ctx.fillStyle = i % 2 ? c1 : c2;
-      if (i % 3 === 0) {
-        ctx.rect(x, y, r, r);
-        ctx.fill();
-      } else {
-        ctx.arc(x, y, r / 2, 0, Math.PI * 2);
+
+    function glowCircle(x, y, r, color, a) {
+      const g = ctx.createRadialGradient(x, y, 0, x, y, r);
+      g.addColorStop(0, color);
+      g.addColorStop(1, "rgba(0,0,0,0)");
+      ctx.globalAlpha = a;
+      ctx.fillStyle = g;
+      ctx.fillRect(0, 0, w, h);
+      ctx.globalAlpha = 1;
+    }
+
+    if (tmpl === "radial") {
+      glowCircle(w * 0.35, h * 0.35, w * 0.7, c1, 0.55);
+      glowCircle(w * 0.75, h * 0.7, w * 0.55, c2, 0.45);
+      glowCircle(w * 0.5, h * 0.5, w * 0.4, c3, 0.25);
+    } else if (tmpl === "stripes") {
+      const g = ctx.createLinearGradient(0, 0, w, h);
+      g.addColorStop(0, bg);
+      g.addColorStop(0.5, c1);
+      g.addColorStop(1, c2);
+      ctx.fillStyle = g;
+      ctx.fillRect(0, 0, w, h);
+      ctx.save();
+      ctx.translate(w / 2, h / 2);
+      ctx.rotate(-0.55);
+      for (let i = -6; i < 8; i++) {
+        ctx.fillStyle = i % 2 ? c3 : c4;
+        ctx.globalAlpha = 0.22;
+        ctx.fillRect(-w, i * 28 - 10, w * 2, 14);
+      }
+      ctx.restore();
+      ctx.globalAlpha = 1;
+    } else if (tmpl === "lowpoly") {
+      for (let i = 0; i < 14; i++) {
+        const cols = [c1, c2, c3, c4];
+        ctx.beginPath();
+        const x0 = rnd() * w, y0 = rnd() * h;
+        ctx.moveTo(x0, y0);
+        ctx.lineTo(rnd() * w, rnd() * h);
+        ctx.lineTo(rnd() * w, rnd() * h);
+        ctx.closePath();
+        ctx.fillStyle = cols[i % cols.length];
+        ctx.globalAlpha = 0.18 + rnd() * 0.25;
         ctx.fill();
       }
+      ctx.globalAlpha = 1;
+      glowCircle(w / 2, h / 2, w * 0.45, c1, 0.3);
+    } else if (tmpl === "circuit") {
+      glowCircle(w * 0.2, h * 0.2, w * 0.5, c1, 0.35);
+      ctx.strokeStyle = c1;
+      ctx.lineWidth = 1.5;
+      ctx.globalAlpha = 0.55;
+      for (let i = 0; i < 10; i++) {
+        let x = rnd() * w, y = rnd() * h;
+        ctx.beginPath();
+        ctx.moveTo(x, y);
+        for (let s = 0; s < 4; s++) {
+          if (rnd() > 0.5) x += (rnd() - 0.3) * 80;
+          else y += (rnd() - 0.3) * 80;
+          ctx.lineTo(x, y);
+        }
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.arc(x, y, 3, 0, Math.PI * 2);
+        ctx.fillStyle = c2;
+        ctx.fill();
+      }
+      ctx.globalAlpha = 1;
+    } else if (tmpl === "starfield") {
+      glowCircle(w * 0.6, h * 0.4, w * 0.6, c3, 0.4);
+      for (let i = 0; i < 80; i++) {
+        const x = rnd() * w, y = rnd() * h, r = rnd() * 1.8 + 0.3;
+        ctx.fillStyle = rnd() > 0.7 ? c1 : "#fff";
+        ctx.globalAlpha = 0.35 + rnd() * 0.6;
+        ctx.beginPath();
+        ctx.arc(x, y, r, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      ctx.globalAlpha = 1;
+    } else if (tmpl === "hex") {
+      glowCircle(w / 2, h / 2, w * 0.55, c1, 0.35);
+      const size = 18 + rnd() * 8;
+      ctx.strokeStyle = c1;
+      ctx.lineWidth = 1.2;
+      for (let row = -1; row < h / (size * 1.5) + 1; row++) {
+        for (let col = -1; col < w / (size * 1.75) + 1; col++) {
+          const cx = col * size * 1.75 + (row % 2 ? size * 0.875 : 0);
+          const cy = row * size * 1.5;
+          ctx.globalAlpha = 0.15 + ((col + row) % 5) * 0.05;
+          ctx.beginPath();
+          for (let k = 0; k < 6; k++) {
+            const a = (Math.PI / 3) * k + Math.PI / 6;
+            const px = cx + size * Math.cos(a);
+            const py = cy + size * Math.sin(a);
+            if (k === 0) ctx.moveTo(px, py);
+            else ctx.lineTo(px, py);
+          }
+          ctx.closePath();
+          ctx.stroke();
+          if ((col + row) % 4 === 0) {
+            ctx.fillStyle = c2;
+            ctx.globalAlpha = 0.12;
+            ctx.fill();
+          }
+        }
+      }
+      ctx.globalAlpha = 1;
+    } else if (tmpl === "vignette") {
+      const g = ctx.createRadialGradient(w / 2, h / 2, w * 0.15, w / 2, h / 2, w * 0.72);
+      g.addColorStop(0, c1);
+      g.addColorStop(0.45, c3);
+      g.addColorStop(1, bg);
+      ctx.fillStyle = g;
+      ctx.fillRect(0, 0, w, h);
+      ctx.strokeStyle = c2;
+      ctx.globalAlpha = 0.5;
+      ctx.lineWidth = 6;
+      ctx.beginPath();
+      ctx.arc(w / 2, h / 2, w * 0.42, 0, Math.PI * 2);
+      ctx.stroke();
+      ctx.globalAlpha = 1;
+    } else {
+      // soft blob mesh
+      for (let i = 0; i < 8; i++) {
+        glowCircle(rnd() * w, rnd() * h, 40 + rnd() * 70, [c1, c2, c3, c4][i % 4], 0.35);
+      }
     }
-    ctx.globalAlpha = 1;
+
+    // grain
+    const img = ctx.getImageData(0, 0, w, h);
+    const data = img.data;
+    for (let i = 0; i < data.length; i += 4) {
+      const n = (rnd() - 0.5) * 18;
+      data[i] = Math.max(0, Math.min(255, data[i] + n));
+      data[i + 1] = Math.max(0, Math.min(255, data[i + 1] + n));
+      data[i + 2] = Math.max(0, Math.min(255, data[i + 2] + n));
+    }
+    ctx.putImageData(img, 0, 0);
+
+    // emblem (geometric)
+    drawEmblem(ctx, w, h, style, c1, c2, rnd);
+
+    // soft glow behind initials
+    glowCircle(w / 2, h / 2, 58, c1, 0.35);
+    ctx.fillStyle = "rgba(0,0,0,.4)";
+    ctx.beginPath();
+    ctx.arc(w / 2, h / 2, 48, 0, Math.PI * 2);
+    ctx.fill();
+
     const initials = (nick || "NP")
       .replace(/[^a-zA-Zа-яА-Я0-9]/g, "")
       .slice(0, 2)
       .toUpperCase() || "NP";
-    ctx.fillStyle = "rgba(0,0,0,.35)";
-    ctx.beginPath();
-    ctx.arc(w / 2, h / 2, 52, 0, Math.PI * 2);
-    ctx.fill();
-    ctx.fillStyle = "#fff";
-    ctx.font = "bold 42px Orbitron, Manrope, sans-serif";
     ctx.textAlign = "center";
     ctx.textBaseline = "middle";
-    ctx.fillText(initials, w / 2, h / 2 + 2);
+    ctx.font = "bold 44px Orbitron, Manrope, sans-serif";
+    ctx.letterSpacing = "0.08em";
+    ctx.shadowColor = "rgba(0,0,0,.65)";
+    ctx.shadowBlur = 8;
+    ctx.shadowOffsetY = 2;
+    ctx.fillStyle = "#fff";
+    // slight letter spacing via two chars
+    if (initials.length === 2) {
+      ctx.fillText(initials[0], w / 2 - 14, h / 2 + 2);
+      ctx.fillText(initials[1], w / 2 + 14, h / 2 + 2);
+    } else {
+      ctx.fillText(initials, w / 2, h / 2 + 2);
+    }
+    ctx.shadowBlur = 0;
+    ctx.shadowOffsetY = 0;
+  }
+
+  function drawEmblem(ctx, w, h, style, c1, c2, rnd) {
+    ctx.save();
+    ctx.translate(w * 0.78, h * 0.22);
+    const s = 22;
+    ctx.globalAlpha = 0.85;
+    ctx.strokeStyle = c1;
+    ctx.fillStyle = c2;
+    ctx.lineWidth = 2;
+    const kind = style || "cyberpunk";
+    if (kind === "cyberpunk") {
+      // hexagon
+      ctx.beginPath();
+      for (let k = 0; k < 6; k++) {
+        const a = (Math.PI / 3) * k + Math.PI / 6;
+        const px = s * Math.cos(a), py = s * Math.sin(a);
+        if (k === 0) ctx.moveTo(px, py); else ctx.lineTo(px, py);
+      }
+      ctx.closePath();
+      ctx.globalAlpha = 0.25; ctx.fill();
+      ctx.globalAlpha = 0.9; ctx.stroke();
+    } else if (kind === "fantasy") {
+      // sword
+      ctx.beginPath();
+      ctx.moveTo(0, -s); ctx.lineTo(4, -s + 8); ctx.lineTo(4, 8); ctx.lineTo(-4, 8); ctx.lineTo(-4, -s + 8);
+      ctx.closePath();
+      ctx.globalAlpha = 0.35; ctx.fill();
+      ctx.globalAlpha = 0.95; ctx.stroke();
+      ctx.beginPath(); ctx.moveTo(-10, 6); ctx.lineTo(10, 6); ctx.stroke();
+      ctx.beginPath(); ctx.moveTo(0, 8); ctx.lineTo(0, 16); ctx.stroke();
+    } else if (kind === "shooter") {
+      // crosshair
+      ctx.beginPath(); ctx.arc(0, 0, s * 0.7, 0, Math.PI * 2); ctx.stroke();
+      ctx.beginPath(); ctx.moveTo(-s, 0); ctx.lineTo(-4, 0); ctx.moveTo(4, 0); ctx.lineTo(s, 0);
+      ctx.moveTo(0, -s); ctx.lineTo(0, -4); ctx.moveTo(0, 4); ctx.lineTo(0, s); ctx.stroke();
+    } else if (kind === "cozy") {
+      // leaf
+      ctx.beginPath();
+      ctx.moveTo(0, -s);
+      ctx.quadraticCurveTo(s, 0, 0, s);
+      ctx.quadraticCurveTo(-s, 0, 0, -s);
+      ctx.closePath();
+      ctx.globalAlpha = 0.3; ctx.fill();
+      ctx.globalAlpha = 0.95; ctx.stroke();
+      ctx.beginPath(); ctx.moveTo(0, -s + 4); ctx.lineTo(0, s - 4); ctx.stroke();
+    } else if (kind === "space") {
+      // planet + ring
+      ctx.beginPath(); ctx.arc(0, 0, s * 0.55, 0, Math.PI * 2);
+      ctx.globalAlpha = 0.3; ctx.fill();
+      ctx.globalAlpha = 0.95; ctx.stroke();
+      ctx.beginPath();
+      ctx.ellipse(0, 0, s, s * 0.35, -0.4, 0, Math.PI * 2);
+      ctx.stroke();
+    } else {
+      // trophy / cup (pro)
+      ctx.beginPath();
+      ctx.moveTo(-10, -12); ctx.lineTo(10, -12); ctx.lineTo(8, 4); ctx.quadraticCurveTo(0, 12, -8, 4);
+      ctx.closePath();
+      ctx.globalAlpha = 0.35; ctx.fill();
+      ctx.globalAlpha = 0.95; ctx.stroke();
+      ctx.beginPath(); ctx.moveTo(0, 10); ctx.lineTo(0, 16); ctx.moveTo(-8, 16); ctx.lineTo(8, 16); ctx.stroke();
+      ctx.beginPath(); ctx.arc(-12, -6, 5, -1.2, 1.2); ctx.stroke();
+      ctx.beginPath(); ctx.arc(12, -6, 5, Math.PI - 1.2, Math.PI + 1.2); ctx.stroke();
+    }
+    ctx.restore();
   }
 
   function wireNickGen() {
@@ -1036,30 +1309,50 @@
     }
     renderLfg();
     $("#lfgSaveBtn")?.addEventListener("click", () => {
+      const nickEl = $("#nickOutput");
       const card = {
         game: $("#lfgGame")?.value || "CS2",
         rank: $("#lfgRank")?.value || "",
         prime: $("#lfgPrime")?.value || "",
         mic: !!$("#lfgMic")?.checked,
         note: $("#lfgNote")?.value || "",
+        nick: (nickEl && nickEl.textContent && nickEl.textContent !== "—") ? nickEl.textContent : "Player",
+        ts: Date.now(),
       };
       lsSet(KEYS.lfgSelf, card);
+      lsSet(KEYS.lfgPending, card);
       renderLfg();
-      toast("Карточка LFG сохранена локально");
+      toast("Карточка LFG сохранена · серверный пост бота — через updater на боксе");
     });
     $("#lfgDiscordBtn")?.addEventListener("click", () => {
-      const card = lsGet(KEYS.lfgSelf, null) || {
-        game: $("#lfgGame")?.value,
-        rank: $("#lfgRank")?.value,
-        prime: $("#lfgPrime")?.value,
-        mic: !!$("#lfgMic")?.checked,
-        note: $("#lfgNote")?.value,
-      };
+      const nickEl = $("#nickOutput");
+      const card = Object.assign(
+        {
+          game: $("#lfgGame")?.value || "CS2",
+          rank: $("#lfgRank")?.value || "",
+          prime: $("#lfgPrime")?.value || "",
+          mic: !!$("#lfgMic")?.checked,
+          note: $("#lfgNote")?.value || "",
+          nick: (nickEl && nickEl.textContent && nickEl.textContent !== "—") ? nickEl.textContent : "Player",
+          ts: Date.now(),
+        },
+        lsGet(KEYS.lfgSelf, null) || {}
+      );
+      // refresh fields from form (form wins)
+      card.game = $("#lfgGame")?.value || card.game;
+      card.rank = $("#lfgRank")?.value || card.rank;
+      card.prime = $("#lfgPrime")?.value || card.prime;
+      card.mic = !!$("#lfgMic")?.checked;
+      card.note = $("#lfgNote")?.value || card.note;
+      card.ts = Date.now();
+      lsSet(KEYS.lfgSelf, card);
+      lsSet(KEYS.lfgPending, card);
       const text = `LFG · ${card.game} · ${card.rank || "?"} · ${card.prime || "?"} · mic:${card.mic ? "yes" : "no"}\n${card.note || ""}\n#поиск-тимы`;
       navigator.clipboard?.writeText(text).then(
-        () => toast("Текст LFG скопирован — вставь в Discord #поиск-тимы"),
-        () => {}
+        () => toast("Скопировано — открываю Discord"),
+        () => toast("Открываю Discord (буфер недоступен)")
       );
+      renderLfg();
       const url = window.NexusPulse?.DISCORD_INVITE_URL || "https://discord.gg/c7UHcM2UR";
       window.open(url, "_blank", "noopener,noreferrer");
     });

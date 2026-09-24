@@ -1,36 +1,52 @@
 {
-  "updatedAt": "2026-09-24T21:00:00+03:00",
-  "source": "curated+script",
-  "note": "Кураторский фолбэк. Скрипт scripts/update_freebies.py пытается обновить из публичных источников.",
+  "updatedAt": "2026-09-24T23:29:14+03:00",
+  "source": "epic-promotions-api+curated",
+  "note": "Epic Free Games API (RU) + кураторский Steam/GOG/Prime.",
   "items": [
     {
-      "id": "epic-2026-09-25",
+      "id": "epic-7c14bf0cffdd43be968fdcf28e5af653",
       "store": "Epic Games",
-      "title": "Control Ultimate Edition",
-      "until": "2026-10-02",
-      "claimUrl": "https://store.epicgames.com/ru/free-games",
-      "note": "Еженедельная раздача Epic"
+      "title": "Astrea Six Sided Oracles",
+      "until": "2026-10-01",
+      "claimUrl": "https://store.epicgames.com/ru/p/astrea-six-sided-oracles-33c949",
+      "note": "Текущая раздача Epic"
     },
     {
-      "id": "epic-2026-09-25b",
+      "id": "epic-6d99eae44d724baf84d6261a7a0f05d2",
       "store": "Epic Games",
-      "title": "Idle Champions of the Forgotten Realms",
-      "until": "2026-10-02",
-      "claimUrl": "https://store.epicgames.com/ru/free-games",
-      "note": "Вторая слот-раздача недели"
+      "title": "Mechabellum",
+      "until": "2026-10-01",
+      "claimUrl": "https://store.epicgames.com/ru/p/mechabellum-88a843",
+      "note": "Текущая раздача Epic"
     },
     {
-      "id": "steam-weekend-2026-09",
+      "id": "epic-7ae00c3e89174012b175cc73b4737723",
+      "store": "Epic Games",
+      "title": "System Shock 2: 25th Anniversary Remaster",
+      "until": "2026-10-08",
+      "claimUrl": "https://store.epicgames.com/ru/p/system-shock-2-25th-anniversary-remaster-cb94d9",
+      "note": "Скоро бесплатно на Epic"
+    },
+    {
+      "id": "epic-af4c34934afe4db0870b8a1d82dceb94",
+      "store": "Epic Games",
+      "title": "BURIED STARS",
+      "until": "2026-10-08",
+      "claimUrl": "https://store.epicgames.com/ru/p/buried-stars-d7c88c",
+      "note": "Скоро бесплатно на Epic"
+    },
+    {
+      "id": "steam-f2p-always",
       "store": "Steam",
-      "title": "Weekend Free-to-Play: selected demos",
-      "until": "2026-09-28",
+      "title": "Counter-Strike 2 / Dota 2 / Warframe",
+      "until": "2099-12-31",
       "claimUrl": "https://store.steampowered.com/genre/Free%20to%20Play/",
-      "note": "Демо и F2P-витрина Steam (не всегда полноценная игра)"
+      "note": "Постоянно бесплатные хиты"
     },
     {
-      "id": "gog-2026-09",
+      "id": "gog-giveaway-2026-09",
       "store": "GOG",
-      "title": "GOG Giveaway spotlight",
+      "title": "GOG Giveaway / free spotlight",
       "until": "2026-09-30",
       "claimUrl": "https://www.gog.com/en/games?priceRange=0,0&discounted=true",
       "note": "Проверяй актуальный giveaway на GOG"
@@ -42,14 +58,6 @@
       "until": "2026-09-30",
       "claimUrl": "https://gaming.amazon.com/",
       "note": "Требуется подписка Amazon Prime"
-    },
-    {
-      "id": "steam-f2p-always",
-      "store": "Steam",
-      "title": "Counter-Strike 2 / Dota 2 / Warframe",
-      "until": "2099-12-31",
-      "claimUrl": "https://store.steampowered.com/genre/Free%20to%20Play/",
-      "note": "Постоянно бесплатные хиты"
     }
   ]
 }

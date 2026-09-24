@@ -324,7 +324,7 @@
               <button type="button" class="btn btn-ghost btn-sm" id="discordWebhookSave">Сохранить webhook</button>
               <button type="button" class="btn btn-ghost btn-sm" id="notifyPermBtn">Разрешить уведомления браузера</button>
             </div>
-            <p class="tool-desc">Webhook из браузера часто блокируется CORS — надёжнее локальный бот. Кнопка «Скопировать» всегда работает.</p>
+            <p class="tool-desc">Webhook опционален (CORS часто режет браузер). «Скопировать» всегда работает. Live-посты скидок и халявы в Discord <strong>#анонсы</strong> публикует бот на боксе через <code>scripts/discord_post.py</code> — токен бота в браузере не хранится.</p>
           </div>
         </div>
       </div>
@@ -480,6 +480,7 @@
               <button type="button" class="chip mood-chip" data-nick-style="shooter">Shooter</button>
               <button type="button" class="chip mood-chip" data-nick-style="cozy">Cozy</button>
               <button type="button" class="chip mood-chip" data-nick-style="space">Space</button>
+              <button type="button" class="chip mood-chip" data-nick-style="pro">Pro</button>
             </div>
             <p class="nick-out">Ник: <strong id="nickOutput">—</strong></p>
             <canvas id="nickAvatar" width="256" height="256" aria-label="Аватар"></canvas>
@@ -517,7 +518,7 @@
           <div>
             <p class="eyebrow">Халява</p>
             <h2>Календарь бесплатных игр</h2>
-            <p class="section-desc">Epic / Steam / GOG / Prime — кураторский список + <code>data/freebies.json</code>. Скрипт <code>scripts/update_freebies.py</code> пытается обновить из публичных источников.</p>
+            <p class="section-desc">Epic Free Games API + кураторский Steam/GOG/Prime → <code>data/freebies.json</code>. Обновление: <code>scripts/update_freebies.py</code>; анонсы в Discord — бот на боксе.</p>
           </div>
           <p class="pulse-updated" id="freebiesUpdated">Обновлено: —</p>
         </div>
@@ -531,7 +532,7 @@
           <div>
             <p class="eyebrow">Поиск тимы</p>
             <h2>LFG · мини-лента</h2>
-            <p class="section-desc">Полная сеть игроков требует бэкенд. Сейчас: локальная карточка + демо-лента + Discord <strong>#поиск-тимы</strong>.</p>
+            <p class="section-desc">Локальная карточка + демо-лента. Кнопка Discord копирует текст и открывает инвайт. Серверные посты бота в канал <strong>#поиск-тимы</strong> идут через updater на боксе (браузер безопасно не держит токен бота).</p>
           </div>
         </div>
         <div class="lfg-layout">
@@ -552,6 +553,7 @@
               <button type="button" class="btn btn-primary" id="lfgSaveBtn">Сохранить локально</button>
               <button type="button" class="btn btn-ghost" id="lfgDiscordBtn">Написать в Discord</button>
             </div>
+            <p class="tool-desc" style="margin-top:.75rem">После сохранения payload пишется в localStorage. Live-пост в Discord делает routine на боксе (<code>discord_post.py post-lfg</code>), не страница в браузере.</p>
           </div>
           <div>
             <h3>Локальная лента</h3>
