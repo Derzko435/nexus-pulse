@@ -12,7 +12,8 @@ Delivery modes
 
 Dedupe state: data/discord_posted.json (ids only, committed to the repo).
 First run for a feed (no state) = seed: everything is marked as seen and only the
-freshest few items (default 3) are posted.
+freshest few items (default 3) are posted. Later runs post at most 5 new items per
+feed (news/videos: 3); older overflow is marked seen instead of queuing up.
 
   python scripts/discord_feeds.py --mode auto [--only news,deals] [--dry-run]
   python scripts/discord_feeds.py --require-mode webhook   # skip unless feedMode == webhook
@@ -41,6 +42,7 @@ SITE = "https://derzko435.github.io/nexus-pulse/"
 LOGO = SITE + "assets/nexus-pulse-icon.png"
 BRAND_NAME = "NEXUS PULSE"
 MAX_PER_RUN = 5
+PER_FEED_MAX = {"news": 3, "videos": 3}  # busy feeds: fewer posts per run
 SEED_COUNT = 3
 KEEP_IDS = 500
 MATCH_PINGS_PER_DAY = 3
@@ -455,7 +457,7 @@ def run(args) -> int:
         seen = set(posted.get(feed) or [])
         seeding = feed not in posted or args.seed
         new = [c for c in cands if c["key"] not in seen]
-        limit = SEED_COUNT if seeding else MAX_PER_RUN
+        limit = SEED_COUNT if seeding else PER_FEED_MAX.get(feed, MAX_PER_RUN)
         chosen = new[-limit:]
         skipped = [c for c in new if c not in chosen]
         print(f"{feed}: {len(cands)} items, {len(new)} new, posting {len(chosen)}{' (seed)' if seeding else ''}")
@@ -504,8 +506,8 @@ def run(args) -> int:
                 print(f"{feed}: send failed: {str(exc)[:200]}")
                 errors += 1
                 break
-        # everything not chosen this run is considered seen only while seeding
-        for c in (skipped if seeding else []):
+        # older overflow is dropped (marked seen) so the channel never gets a backlog flood
+        for c in skipped:
             posted.setdefault(feed, []).append(c["key"])
         posted.setdefault(feed, [])
         posted[feed] = list(dict.fromkeys(posted[feed]))[-KEEP_IDS:]
