@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T16:56:28+03:00",
+  "updatedAt": "2026-09-25T17:07:14+03:00",
   "source": "github-actions-ping-baseline",
   "disclaimer": "Runner RTT is NOT end-user latency. Client measures live RTT via img/favicon from the browser.",
   "targets": [
@@ -64,49 +64,49 @@
     {
       "id": "cloudflare",
       "status": 200,
-      "runner_rtt_ms": 83.4,
+      "runner_rtt_ms": 102.6,
       "ok": true,
       "error": null
     },
     {
       "id": "steam",
       "status": 200,
-      "runner_rtt_ms": 172.8,
+      "runner_rtt_ms": 225.8,
       "ok": true,
       "error": null
     },
     {
       "id": "steam_store",
       "status": 200,
-      "runner_rtt_ms": 75.2,
+      "runner_rtt_ms": 211.3,
       "ok": true,
       "error": null
     },
     {
       "id": "riot",
       "status": 404,
-      "runner_rtt_ms": 151.4,
+      "runner_rtt_ms": 141.4,
       "ok": false,
       "error": "Not Found"
     },
     {
       "id": "epic",
       "status": 200,
-      "runner_rtt_ms": 97.9,
+      "runner_rtt_ms": 215.3,
       "ok": true,
       "error": null
     },
     {
       "id": "blizzard",
       "status": 404,
-      "runner_rtt_ms": 606.8,
+      "runner_rtt_ms": 572.3,
       "ok": false,
       "error": "Not Found"
     },
     {
       "id": "google",
       "status": 200,
-      "runner_rtt_ms": 30.0,
+      "runner_rtt_ms": 57.6,
       "ok": true,
       "error": null
     }
