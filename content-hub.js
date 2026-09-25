@@ -193,7 +193,7 @@
   function iframeHtml(st, title) {
     const src = embedSrc(st);
     if (!src) return "";
-    return `<div class="np-player"><iframe src="${esc(src)}" title="${esc(title || "Трансляция")}" allow="autoplay; fullscreen; picture-in-picture; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>`;
+    return `<div class="np-player"><iframe src="${esc(src)}" title="${esc(title || "Трансляция")}" allow="autoplay; fullscreen; picture-in-picture; encrypted-media; keyboard-map" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>`;
   }
   function streamLabel(st) {
     const lang = st.lang === "ru" ? " · RU" : st.lang === "en" ? " · EN" : st.lang ? " · " + st.lang.toUpperCase() : "";
