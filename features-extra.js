@@ -359,7 +359,7 @@
           .map((f) => `🔥 **${f.deal.title}** −${f.deal.pct}% (${f.deal.store || ""})\n${f.deal.url || ""}`)
           .join("\n\n");
         navigator.clipboard?.writeText(text).then(
-          () => toast("Скопировано — вставь в Discord #анонсы (live-посты также идут с бота на боксе)"),
+          () => toast("Скопировано — вставь в Discord"),
           () => toast("Не удалось скопировать")
         );
       };
@@ -403,14 +403,14 @@
     });
     const pingLine = "🔥 NEXUS PULSE · сработали ценовые алерты (" + fired.length + ")";
     try {
-      await fetch(url, {
+      const res = await fetch(url, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ content: pingLine, embeds }),
       });
-      toast("Webhook: попытка отправки (может блокироваться CORS)");
+      toast(res.ok ? "Алерт отправлен в Discord" : "Не удалось отправить в Discord — нажми «Скопировать»");
     } catch {
-      toast("Webhook не дошёл (CORS). Лучше локальный бот + «Скопировать».");
+      toast("Не удалось отправить в Discord — нажми «Скопировать»");
     }
   }
 
@@ -422,15 +422,15 @@
       const v = (input?.value || "").trim();
       if (v) localStorage.setItem(KEYS.webhook, v);
       else localStorage.removeItem(KEYS.webhook);
-      toast(v ? "Webhook сохранён только в этом браузере" : "Webhook очищен");
+      toast(v ? "Webhook сохранён" : "Webhook удалён");
     });
     $("#notifyPermBtn")?.addEventListener("click", async () => {
       if (!("Notification" in window)) {
-        toast("Notification API недоступен");
+        toast("Браузер не поддерживает уведомления");
         return;
       }
       const p = await Notification.requestPermission();
-      toast("Разрешение уведомлений: " + p);
+      toast(p === "granted" ? "Уведомления включены" : p === "denied" ? "Уведомления заблокированы в браузере" : "Уведомления не включены");
     });
   }
 
@@ -639,11 +639,13 @@
     const host = $("#pcCompatList");
     if (!host) return;
 
-    const params = new URLSearchParams(location.search);
+    const shared = readSharedBuild();
     const fromShare =
       !!opts.fromShare ||
-      params.get("share") === "1" ||
-      !!(params.get("cpu") || params.get("gpu"));
+      !!(shared &&
+        (!shared.cpu || shared.cpu === build.cpu) &&
+        (!shared.gpu || shared.gpu === build.gpu) &&
+        (!shared.ram || shared.ram === build.ram));
     const focusId = opts.focusGame || getFocusGameId();
     const focusGame = focusId ? NP.GAMES.find((g) => g.id === focusId) : null;
 
@@ -684,11 +686,100 @@
       block("На минимуме", groups.min, "compat-min") +
       block("Не потянет", groups.no, "compat-no");
 
-    if (fromShare || focusId) {
+    if (opts.focusGame) {
       try {
         host.scrollIntoView({ behavior: "smooth", block: "nearest" });
       } catch { /* ignore */ }
     }
+  }
+
+  /* ---------- Share build via GET params ---------- */
+  const RES_VALUES = ["1080", "1440", "2160"];
+  // Build loaded from a friend's link: used for catalog badges without overwriting the user's saved build
+  let shareBuildOverride = null;
+
+  function currentBuild() {
+    return {
+      cpu: $("#pcCpu")?.value || "",
+      gpu: $("#pcGpu")?.value || "",
+      ram: $("#pcRam")?.value || "",
+      storage: $("#pcStorage")?.value || "",
+      res: $("#pcRes")?.value || "",
+    };
+  }
+
+  function buildShareUrl(build) {
+    const b = build || currentBuild();
+    const q = new URLSearchParams();
+    if (b.cpu) q.set("cpu", b.cpu);
+    if (b.gpu) q.set("gpu", b.gpu);
+    if (b.ram) q.set("ram", b.ram);
+    if (b.res) q.set("res", b.res);
+    q.set("share", "1");
+    const base = (location.origin + location.pathname.replace(/index\.html$/i, "")).replace(/\/?$/, "/");
+    return base + "?" + q.toString() + "#tools";
+  }
+
+  function readSharedBuild() {
+    const params = new URLSearchParams(location.search);
+    const pick = (list, v) => (v && list.some((p) => p.id === v) ? v : "");
+    const shared = {
+      cpu: pick(PARTS.cpu, params.get("cpu")),
+      gpu: pick(PARTS.gpu, params.get("gpu")),
+      ram: pick(PARTS.ram, params.get("ram")),
+      res: RES_VALUES.includes(params.get("res") || "") ? params.get("res") : "",
+    };
+    return shared.cpu || shared.gpu || shared.ram ? shared : null;
+  }
+
+  function copyText(text) {
+    if (navigator.clipboard && window.isSecureContext) {
+      return navigator.clipboard.writeText(text).then(() => true, () => legacyCopy(text));
+    }
+    return Promise.resolve(legacyCopy(text));
+  }
+  function legacyCopy(text) {
+    try {
+      const ta = document.createElement("textarea");
+      ta.value = text;
+      ta.setAttribute("readonly", "");
+      ta.style.cssText = "position:fixed;left:-9999px;top:0;opacity:0";
+      document.body.appendChild(ta);
+      ta.select();
+      const ok = document.execCommand("copy");
+      ta.remove();
+      return !!ok;
+    } catch {
+      return false;
+    }
+  }
+
+  function isMobileDevice() {
+    return (
+      (window.matchMedia && window.matchMedia("(pointer: coarse)").matches) ||
+      /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent || "")
+    );
+  }
+
+  async function shareBuild() {
+    const b = currentBuild();
+    const url = buildShareUrl(b);
+    const cpuP = PARTS.cpu.find((p) => p.id === b.cpu);
+    const gpuP = PARTS.gpu.find((p) => p.id === b.gpu);
+    const ramP = PARTS.ram.find((p) => p.id === b.ram);
+    const score = scoreBuild(b);
+    const text = `Моя сборка: ${[cpuP?.name, gpuP?.name, ramP?.name].filter(Boolean).join(" · ")} — скор ${score}/100. Смотри, что она потянет:`;
+    if (typeof navigator.share === "function" && isMobileDevice()) {
+      try {
+        await navigator.share({ title: "NEXUS PULSE · сборка ПК", text, url });
+        return;
+      } catch (e) {
+        if (e && e.name === "AbortError") return; // user closed the share sheet
+      }
+    }
+    const ok = await copyText(url);
+    if (ok) toast("Ссылка на сборку скопирована — кинь её другу");
+    else window.prompt("Скопируй ссылку на сборку:", url);
   }
 
   function wirePcBuilder(NP) {
@@ -707,36 +798,11 @@
         savedAt: new Date().toISOString(),
       };
       lsSet(KEYS.build, build);
-      toast("Сборка сохранена в браузере");
+      shareBuildOverride = null;
+      toast("Сборка сохранена");
       if (window.NexusPulse) injectCompatBadges(window.NexusPulse);
     });
-    $("#pcBuildShare")?.addEventListener("click", () => {
-      const cpu = $("#pcCpu")?.value || "";
-      const gpu = $("#pcGpu")?.value || "";
-      const ram = $("#pcRam")?.value || "";
-      const res = $("#pcRes")?.value || "";
-      const q = new URLSearchParams();
-      if (cpu) q.set("cpu", cpu);
-      if (gpu) q.set("gpu", gpu);
-      if (ram) q.set("ram", ram);
-      if (res) q.set("res", res);
-      q.set("share", "1");
-      const cpuP = PARTS.cpu.find((p) => p.id === cpu);
-      const gpuP = PARTS.gpu.find((p) => p.id === gpu);
-      const ramP = PARTS.ram.find((p) => p.id === ram);
-      if (cpuP) q.set("cpuName", cpuP.name);
-      if (gpuP) q.set("gpuName", gpuP.name);
-      if (ramP) q.set("ramName", ramP.name);
-      const base =
-        location.hostname.includes("github.io")
-          ? "https://derzko435.github.io/nexus-pulse/"
-          : location.origin + location.pathname.replace(/index\.html$/i, "");
-      const url = base.replace(/\/?$/, "/") + "?" + q.toString() + "#tools";
-      navigator.clipboard?.writeText(url).then(
-        () => toast("Ссылка на сборку скопирована · Кинь ссылку в Discord"),
-        () => toast(url + " · Кинь ссылку в Discord")
-      );
-    });
+    $("#pcBuildShare")?.addEventListener("click", () => shareBuild());
     $("#pcCompatList")?.addEventListener("click", (e) => {
       const setGpu = e.target.closest("[data-set-gpu]");
       if (!setGpu) return;
@@ -871,7 +937,7 @@ const NICK_BANKS = {
 
   function drawAvatar(canvas, nick, style) {
     if (!canvas) return;
-    const ctx = canvas.getContext("2d");
+    const ctx = canvas.getContext("2d", { willReadFrequently: true });
     const w = canvas.width;
     const h = canvas.height;
     const rnd = seedRng(String(nick || "NP") + "|" + String(style || "cyberpunk"));
@@ -1030,14 +1096,18 @@ const NICK_BANKS = {
     }
     ctx.putImageData(img, 0, 0);
 
+    // small avatars (LFG) get bigger initials and no corner emblem so they stay readable at 48–56px
+    const compact = canvas.classList.contains("lfg-avatar");
+    const k = w / 256;
+
     // emblem (geometric)
-    drawEmblem(ctx, w, h, style, c1, c2, rnd);
+    if (!compact) drawEmblem(ctx, w, h, style, c1, c2, rnd);
 
     // soft glow behind initials
-    glowCircle(w / 2, h / 2, 58, c1, 0.35);
-    ctx.fillStyle = "rgba(0,0,0,.4)";
+    glowCircle(w / 2, h / 2, (compact ? 120 : 58) * k, c1, 0.35);
+    ctx.fillStyle = compact ? "rgba(0,0,0,.45)" : "rgba(0,0,0,.4)";
     ctx.beginPath();
-    ctx.arc(w / 2, h / 2, 48, 0, Math.PI * 2);
+    ctx.arc(w / 2, h / 2, (compact ? 96 : 48) * k, 0, Math.PI * 2);
     ctx.fill();
 
     const initials = (nick || "NP")
@@ -1046,18 +1116,19 @@ const NICK_BANKS = {
       .toUpperCase() || "NP";
     ctx.textAlign = "center";
     ctx.textBaseline = "middle";
-    ctx.font = "bold 44px Orbitron, Manrope, sans-serif";
+    ctx.font = `bold ${Math.round((compact ? 92 : 44) * k)}px Orbitron, Manrope, sans-serif`;
     ctx.letterSpacing = "0.08em";
     ctx.shadowColor = "rgba(0,0,0,.65)";
     ctx.shadowBlur = 8;
     ctx.shadowOffsetY = 2;
     ctx.fillStyle = "#fff";
     // slight letter spacing via two chars
+    const dx = (compact ? 30 : 14) * k;
     if (initials.length === 2) {
-      ctx.fillText(initials[0], w / 2 - 14, h / 2 + 2);
-      ctx.fillText(initials[1], w / 2 + 14, h / 2 + 2);
+      ctx.fillText(initials[0], w / 2 - dx, h / 2 + 2 * k);
+      ctx.fillText(initials[1], w / 2 + dx, h / 2 + 2 * k);
     } else {
-      ctx.fillText(initials, w / 2, h / 2 + 2);
+      ctx.fillText(initials, w / 2, h / 2 + 2 * k);
     }
     ctx.shadowBlur = 0;
     ctx.shadowOffsetY = 0;
@@ -1377,7 +1448,7 @@ const NICK_BANKS = {
         if (status) status.textContent = "Введи SteamID64 или vanity.";
         return;
       }
-      if (status) status.textContent = "Пробуем прямой запрос, затем один fallback-прокси… Метаданные популярных игр — из data/steam_catalog_snapshot.json (GitHub Actions).";
+      if (status) status.textContent = "Загружаем библиотеку Steam…";
       try {
         let id = raw;
         if (!/^\d{15,20}$/.test(raw)) {
@@ -1398,21 +1469,21 @@ const NICK_BANKS = {
         renderOwnedChecklist(NP);
         NP.renderGames();
         if (status)
-          status.textContent = `Steam: найдено ${titles.length} игр, совпало с каталогом: ${matched.size}. Профиль должен быть публичным.`;
+          status.textContent = `Steam: найдено ${titles.length} игр, из них в каталоге: ${matched.size}.`;
         toast("Импорт Steam: +" + matched.size + " из каталога");
       } catch (err) {
         console.warn(err);
         if (status)
           status.textContent =
-            "Авто-импорт не удался (" + (err.message || err) + "). Нужен публичный профиль Steam; полный авто-импорт часто блокируется CORS. Основной способ — ручной чеклист ниже.";
-        toast("Авто-импорт Steam недоступен — отметь игры вручную");
+            "Не удалось загрузить библиотеку. Проверь, что профиль Steam открыт, или отметь игры вручную ниже.";
+        toast("Импорт Steam не удался — отметь игры вручную");
       }
     });
 
     $("#epicNameSave")?.addEventListener("click", () => {
       const n = ($("#epicNameInput")?.value || "").trim();
       lsSet(KEYS.epicName, n);
-      toast(n ? "Epic display name сохранён локально" : "Очищено");
+      toast(n ? "Ник Epic сохранён" : "Ник Epic удалён");
     });
     const en = lsGet(KEYS.epicName, "");
     if ($("#epicNameInput") && en) $("#epicNameInput").value = en;
@@ -1434,10 +1505,21 @@ const NICK_BANKS = {
     ],
   };
 
+  function formatStampRu(iso) {
+    const d = iso ? new Date(iso) : null;
+    if (!d || isNaN(d)) return "—";
+    return d.toLocaleString("ru-RU", { day: "numeric", month: "long", hour: "2-digit", minute: "2-digit" });
+  }
+  function formatDayRu(iso) {
+    const d = iso ? new Date(iso + (String(iso).length === 10 ? "T12:00:00" : "")) : null;
+    if (!d || isNaN(d)) return iso || "";
+    return d.toLocaleDateString("ru-RU", { day: "numeric", month: "long" });
+  }
+
   function renderFreebies(payload) {
     const grid = $("#freebiesGrid");
     const updated = $("#freebiesUpdated");
-    if (updated) updated.textContent = "Обновлено: " + (payload.updatedAt || "—");
+    if (updated) updated.textContent = "Обновлено: " + formatStampRu(payload.updatedAt);
     if (!grid) return;
     const items = payload.items || [];
     grid.innerHTML = items
@@ -1446,7 +1528,7 @@ const NICK_BANKS = {
         return `<article class="freebie-card glass">
           <div class="freebie-store">${it.store || ""}</div>
           <h3>${it.title}</h3>
-          <p class="freebie-until">${forever ? "Постоянно F2P / витрина" : "До " + it.until}</p>
+          <p class="freebie-until">${forever ? "Бесплатно всегда" : "До " + formatDayRu(it.until)}</p>
           ${it.note ? `<p class="freebie-note">${it.note}</p>` : ""}
           <a class="btn btn-primary btn-sm" href="${it.claimUrl}" target="_blank" rel="noopener">Забрать</a>
         </article>`;
@@ -1468,18 +1550,15 @@ const NICK_BANKS = {
   /* ============================================================
    * 8) LFG mini-tinder
    * ============================================================ */
-  const LFG_DEMO = [
-    { game: "CS2", rank: "DMG", prime: "20:00–23:00 МСК", mic: true, note: "Ищу 5-ку на премьер, без тильта", nick: "RazerFox" },
-    { game: "Valorant", rank: "Gold 2", prime: "18:00–21:00 МСК", mic: true, note: "Дуо на анрейт / дедлок мейн", nick: "NeonKat" },
-    { game: "Dota 2", rank: "Archon", prime: "выходные", mic: false, note: "Саппорт 4/5, можно без микро", nick: "VoidRunner" },
-    { game: "Lethal Company", rank: "casual", prime: "вечером", mic: true, note: "Моды ок, квота или смерть", nick: "PulseBot" },
-  ];
-
   function lfgStyleForGame(game) {
     const g = String(game || "").toLowerCase();
     if (/cs2|valorant|apex|cod|r6|overwatch|ow2/.test(g)) return "shooter";
     if (/dota|lol|wow|ffxiv|eso|destiny/.test(g)) return "fantasy";
     return "cyberpunk";
+  }
+
+  function escHtml(v) {
+    return String(v == null ? "" : v).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   }
 
   function readLfgNick() {
@@ -1491,11 +1570,32 @@ const NICK_BANKS = {
     return "Player";
   }
 
+  /** Current (possibly unsaved) values of the LFG form. */
+  function readLfgForm() {
+    return {
+      game: $("#lfgGame")?.value || "CS2",
+      rank: $("#lfgRank")?.value || "",
+      prime: $("#lfgPrime")?.value || "",
+      mic: !!$("#lfgMic")?.checked,
+      note: $("#lfgNote")?.value || "",
+      nick: ($("#lfgNick")?.value || "").trim().slice(0, 20),
+    };
+  }
+
+  function lfgFormDiffersFromSaved(form, saved) {
+    if (!saved) return true;
+    return ["game", "rank", "prime", "note", "nick"].some((k) => (form[k] || "") !== (saved[k] || "")) || !!form.mic !== !!saved.mic;
+  }
+
+  /** Draws the avatar preview next to the nick field (same nick + style as the feed card). */
   function refreshLfgNickAvatar(nick, game) {
     const canvas = $("#lfgNickAvatar");
-    if (!canvas || !nick) return;
+    if (!canvas) return;
     canvas.hidden = false;
-    drawAvatar(canvas, nick, lfgStyleForGame(game || $("#lfgGame")?.value));
+    const n = (nick || "").trim();
+    canvas.classList.toggle("is-empty", !n);
+    drawAvatar(canvas, n || "NP", lfgStyleForGame(game || $("#lfgGame")?.value));
+    canvas.setAttribute("aria-label", n ? "Аватар " + n : "Аватар карточки");
   }
 
   let _lfgLiveCache = null;
@@ -1518,22 +1618,27 @@ const NICK_BANKS = {
   }
 
   function renderLfgCards(liveItems) {
-    const self = lsGet(KEYS.lfgSelf, null);
+    const saved = lsGet(KEYS.lfgSelf, null);
+    const form = readLfgForm();
     const feed = $("#lfgFeed");
     if (!feed) return;
     const rankInfo = computeNexusRank();
     const hint = $("#lfgSelfRankHint");
     if (hint) {
-      hint.textContent = self ? ("· ранг: " + rankInfo.label) : "";
+      hint.textContent = saved ? ("· ранг: " + rankInfo.label) : "";
     }
     const live = Array.isArray(liveItems) ? liveItems : [];
     const cards = [];
-    if (self) {
+    // Self card = live preview of the form (falls back to saved card)
+    const selfNick = form.nick || (saved && saved.nick) || "";
+    if (selfNick || saved) {
+      const base = form.nick ? form : Object.assign({}, saved || {}, { game: form.game });
       cards.push(
-        Object.assign({}, self, {
-          nick: self.nick || "Ты",
+        Object.assign({}, base, {
+          nick: selfNick || "Ты",
           _self: true,
-          _rankLabel: rankInfo.label,
+          _draft: lfgFormDiffersFromSaved(form, saved),
+          _rankLabel: saved ? rankInfo.label : "",
         })
       );
     }
@@ -1549,24 +1654,28 @@ const NICK_BANKS = {
         url: it.url || "",
       });
     });
-    if (!live.length) {
-      LFG_DEMO.forEach((d) => cards.push(Object.assign({}, d)));
-    }
-    feed.innerHTML = cards
-      .map(
-        (c, i) => `<article class="lfg-card glass ${c._self ? "lfg-self" : ""} ${c._live ? "lfg-live" : ""}">
+    const emptyHtml = live.length
+      ? ""
+      : `<p class="empty-state small lfg-empty">${cards.length ? "Пока здесь только ты — нажми «Написать в Discord», чтобы тебя увидели." : "В ленте пока пусто — заполни карточку и нажми «Написать в Discord»."}</p>`;
+    feed.innerHTML =
+      cards
+        .map((c, i) => {
+          const selfTag = c._self
+            ? `<span class="lfg-rank-inline">Твоя карточка${c._draft ? " · не сохранена" : ""}${c._rankLabel ? " · ранг: " + escHtml(c._rankLabel) : ""}</span>`
+            : "";
+          return `<article class="lfg-card glass ${c._self ? "lfg-self" : ""} ${c._live ? "lfg-live" : ""}"${c._self ? ' id="lfgSelfCard"' : ""}>
         <div class="lfg-top">
-          <canvas class="lfg-avatar" width="64" height="64" data-lfg-av="${i}" aria-hidden="true"></canvas>
-          <div class="lfg-top-text"><strong>${c._self ? (c.nick || "Ты") : (c.nick || "Игрок")}</strong> · ${c.game || "—"}
+          <canvas class="lfg-avatar" width="256" height="256" data-lfg-av="${i}" aria-hidden="true"></canvas>
+          <div class="lfg-top-text"><strong class="lfg-card-nick">${escHtml(c.nick || "Игрок")}</strong> · ${escHtml(c.game || "—")}
             ${c._live ? '<span class="lfg-discord-pill" title="Из Discord">Discord</span>' : ""}
-            ${c._self && c._rankLabel ? `<span class="lfg-rank-inline">Твоя карточка · ранг: ${c._rankLabel}</span>` : ""}
+            ${selfTag}
           </div>
         </div>
-        <div class="lfg-meta">Ранг: ${c.rank || "—"} · Прайм: ${c.prime || "—"} · Мик: ${c.mic ? "да" : "нет"}</div>
-        <p>${c.note || ""}</p>
-      </article>`
-      )
-      .join("");
+        <div class="lfg-meta">Ранг: ${escHtml(c.rank || "—")} · Прайм: ${escHtml(c.prime || "—")} · Мик: ${c.mic ? "да" : "нет"}</div>
+        ${c.note ? `<p>${escHtml(c.note)}</p>` : ""}
+      </article>`;
+        })
+        .join("") + emptyHtml;
     $$("#lfgFeed .lfg-avatar").forEach((canvas) => {
       const i = Number(canvas.dataset.lfgAv);
       const c = cards[i];
@@ -1582,66 +1691,60 @@ const NICK_BANKS = {
     });
   }
 
+  /** Live preview: avatar next to the nick + self card in the feed, without saving. */
+  function updateLfgPreview() {
+    const form = readLfgForm();
+    const saved = lsGet(KEYS.lfgSelf, null);
+    refreshLfgNickAvatar(form.nick || (saved && saved.nick) || "", form.game);
+    renderLfgCards((_lfgLiveCache && _lfgLiveCache.items) || []);
+  }
+
   function wireLfg() {
     const self = lsGet(KEYS.lfgSelf, null);
     if (self) {
-      if ($("#lfgGame")) $("#lfgGame").value = self.game || "";
+      if ($("#lfgGame")) $("#lfgGame").value = self.game || "CS2";
       if ($("#lfgRank")) $("#lfgRank").value = self.rank || "";
       if ($("#lfgPrime")) $("#lfgPrime").value = self.prime || "";
       if ($("#lfgMic")) $("#lfgMic").checked = !!self.mic;
       if ($("#lfgNote")) $("#lfgNote").value = self.note || "";
       if ($("#lfgNick") && self.nick) $("#lfgNick").value = self.nick;
-      if (self.nick) refreshLfgNickAvatar(self.nick, self.game);
     }
+    refreshLfgNickAvatar((self && self.nick) || "", (self && self.game) || $("#lfgGame")?.value);
     renderLfg();
+    // redraw once web fonts are ready so initials use Orbitron in both preview and feed
+    try { document.fonts?.ready.then(() => updateLfgPreview()); } catch { /* ignore */ }
     $("#lfgNickDice")?.addEventListener("click", () => {
       const style = lfgStyleForGame($("#lfgGame")?.value);
       const nick = genNick(style);
       if ($("#lfgNick")) $("#lfgNick").value = nick;
-      refreshLfgNickAvatar(nick, $("#lfgGame")?.value);
-      toast("Ник: " + nick);
+      updateLfgPreview();
     });
-    $("#lfgNick")?.addEventListener("input", () => {
-      const n = ($("#lfgNick").value || "").trim();
-      if (n) refreshLfgNickAvatar(n, $("#lfgGame")?.value);
+    ["#lfgNick", "#lfgRank", "#lfgPrime", "#lfgNote"].forEach((sel) => {
+      $(sel)?.addEventListener("input", updateLfgPreview);
     });
-    $("#lfgGame")?.addEventListener("change", () => {
-      const n = ($("#lfgNick")?.value || "").trim();
-      if (n) refreshLfgNickAvatar(n, $("#lfgGame")?.value);
+    ["#lfgGame", "#lfgMic"].forEach((sel) => {
+      $(sel)?.addEventListener("change", updateLfgPreview);
     });
     $("#lfgSaveBtn")?.addEventListener("click", () => {
-      const card = {
-        game: $("#lfgGame")?.value || "CS2",
-        rank: $("#lfgRank")?.value || "",
-        prime: $("#lfgPrime")?.value || "",
-        mic: !!$("#lfgMic")?.checked,
-        note: $("#lfgNote")?.value || "",
-        nick: readLfgNick(),
-        ts: Date.now(),
-      };
+      const card = Object.assign(readLfgForm(), { nick: readLfgNick(), ts: Date.now() });
+      if ($("#lfgNick")) $("#lfgNick").value = card.nick;
       lsSet(KEYS.lfgSelf, card);
       lsSet(KEYS.lfgPending, card);
       refreshLfgNickAvatar(card.nick, card.game);
       renderLfg();
       updateNexusRankUI();
-      toast("Карточка LFG сохранена · серверный пост бота — через updater на боксе");
+      toast("Карточка сохранена");
     });
     $("#lfgDiscordBtn")?.addEventListener("click", () => {
-      const card = Object.assign({}, lsGet(KEYS.lfgSelf, null) || {});
-      card.game = $("#lfgGame")?.value || card.game || "CS2";
-      card.rank = $("#lfgRank")?.value || card.rank || "";
-      card.prime = $("#lfgPrime")?.value || card.prime || "";
-      card.mic = !!$("#lfgMic")?.checked;
-      card.note = $("#lfgNote")?.value || card.note || "";
-      card.nick = readLfgNick();
-      card.ts = Date.now();
+      const card = Object.assign(readLfgForm(), { nick: readLfgNick(), ts: Date.now() });
+      if ($("#lfgNick")) $("#lfgNick").value = card.nick;
       lsSet(KEYS.lfgSelf, card);
       lsSet(KEYS.lfgPending, card);
       const text = `LFG · ${card.nick} · ${card.game} · ${card.rank || "?"} · ${card.prime || "?"} · mic:${card.mic ? "yes" : "no"}\n${card.note || ""}\n#поиск-тимы`;
-      navigator.clipboard?.writeText(text).then(
-        () => toast("Скопировано + открываю канал #поиск-тимы"),
-        () => toast("Открываю #поиск-тимы (буфер недоступен)")
+      copyText(text).then((ok) =>
+        toast(ok ? "Текст скопирован — вставь его в #поиск-тимы" : "Открываю #поиск-тимы")
       );
+      refreshLfgNickAvatar(card.nick, card.game);
       renderLfg();
       updateNexusRankUI();
       const deep = "https://discord.com/channels/1552735502266794204/1552736838555402431";
@@ -1842,7 +1945,7 @@ const NICK_BANKS = {
       (title.includes("Valorant") ? CURATED_CHANNELS.Valorant : null) ||
       CURATED_CHANNELS.default;
     host.innerHTML = `
-      <p class="streams-note">Стримы по игре дня${title && title !== "—" ? `: <strong>${title}</strong>` : ""}. Twitch Helix требует ключ — здесь глубокие ссылки поиска (без live API).</p>
+      <p class="streams-note">Стримы по игре дня${title && title !== "—" ? `: <strong>${title}</strong>` : ""}</p>
       <div class="streams-actions">
         <a class="btn btn-primary btn-sm" target="_blank" rel="noopener" href="https://www.twitch.tv/search?term=${q}">Стримы Twitch</a>
         <a class="btn btn-ghost btn-sm" target="_blank" rel="noopener" href="https://www.youtube.com/results?search_query=${q}+live">YouTube</a>
@@ -1877,8 +1980,6 @@ const NICK_BANKS = {
 
   function renderMatches(payload) {
     const host = $("#matchesLive");
-    const note = $("#matchesNote");
-    if (note) note.textContent = payload.note || "Данные из data/matches.json (обновляется скриптом).";
     if (!host) return;
     const list = payload.matches || [];
     host.innerHTML = list
@@ -1913,7 +2014,7 @@ const NICK_BANKS = {
    * Compatibility badges on game cards
    * ============================================================ */
   function injectCompatBadges(NP) {
-    const build = lsGet(KEYS.build, null);
+    const build = shareBuildOverride || lsGet(KEYS.build, null);
     $$("#gamesGrid .game-card .compat-badge").forEach((el) => el.remove());
     $$("#gamesGrid .game-card .upgrade-pc-link").forEach((el) => el.remove());
     if (!build || !build.cpu || !build.gpu) return;
@@ -1926,7 +2027,7 @@ const NICK_BANKS = {
       const b = document.createElement("span");
       b.className = "compat-badge " + (c.badgeClass || "compat-badge-ok");
       b.textContent = c.badge || c.label;
-      b.title = "Совместимость с сохранённой PC-сборкой";
+      b.title = shareBuildOverride ? "Совместимость со сборкой по ссылке" : "Совместимость с твоей сборкой";
       cover.appendChild(b);
       const weak = c.status === "no" || c.status === "min" || /Слабо|Впритык|Не потянет/i.test(c.badge || c.label || "");
       if (weak) {
@@ -1993,7 +2094,7 @@ const NICK_BANKS = {
 
   function applyBackupPayload(payload, mode) {
     if (!payload || typeof payload !== "object" || !payload.data) {
-      throw new Error("Неверный формат nexus_backup.json");
+      throw new Error("файл не похож на резервную копию NEXUS PULSE");
     }
     const entries = Object.entries(payload.data);
     if (mode === "replace") {
@@ -2019,7 +2120,7 @@ const NICK_BANKS = {
       a.download = "nexus_backup.json";
       a.click();
       setTimeout(() => URL.revokeObjectURL(a.href), 2000);
-      toast("Экспортировано ключей: " + Object.keys(payload.data).length);
+      toast("Резервная копия сохранена");
     });
     $("#backupImportBtn")?.addEventListener("click", () => {
       $("#backupImportFile")?.click();
@@ -2031,8 +2132,8 @@ const NICK_BANKS = {
       try {
         const text = await file.text();
         const payload = JSON.parse(text);
-        if (!confirm("Импортировать nexus_backup.json в этот браузер?")) return;
-        const mode = confirm("OK = полная замена всех nexus_pulse_* ключей" + "\n" + "Отмена = слияние (merge поверх)");
+        if (!confirm("Загрузить данные из резервной копии?")) return;
+        const mode = confirm("OK — заменить текущие данные" + "\n" + "Отмена — объединить с текущими");
         applyBackupPayload(payload, mode ? "replace" : "merge");
         // reload UI bits
         try {
@@ -2048,53 +2149,38 @@ const NICK_BANKS = {
         } catch (err) {
           console.warn(err);
         }
-        toast("Импорт завершён — UI обновлён");
+        toast("Данные восстановлены");
       } catch (err) {
-        toast("Импорт не удался: " + (err.message || err));
+        toast("Импорт не удался: " + (err instanceof SyntaxError ? "файл повреждён" : err.message || err));
       }
     });
   }
 
   function applyBuildFromQuery(NP) {
     const params = new URLSearchParams(location.search);
-    const cpu = params.get("cpu");
-    const gpu = params.get("gpu");
-    const ram = params.get("ram");
-    const res = params.get("res");
-    const shareFlag = params.get("share") === "1";
-    if (!cpu && !gpu && !ram && !shareFlag) return;
-    if (!cpu && !gpu && !ram) return;
-    if (cpu && $("#pcCpu")) $("#pcCpu").value = cpu;
-    if (gpu && $("#pcGpu")) $("#pcGpu").value = gpu;
-    if (ram && $("#pcRam")) $("#pcRam").value = ram;
-    if (res && $("#pcRes")) $("#pcRes").value = res;
-    const build = {
-      cpu: $("#pcCpu")?.value,
-      gpu: $("#pcGpu")?.value,
-      ram: $("#pcRam")?.value,
-      storage: $("#pcStorage")?.value,
-      res: $("#pcRes")?.value || undefined,
-      savedAt: new Date().toISOString(),
-      fromShare: true,
-      cpuName: params.get("cpuName") || undefined,
-      gpuName: params.get("gpuName") || undefined,
-      ramName: params.get("ramName") || undefined,
-    };
-    lsSet(KEYS.build, build);
+    const hasParams = params.has("cpu") || params.has("gpu") || params.has("ram");
+    const shared = readSharedBuild();
+    if (!shared) {
+      if (hasParams) toast("Ссылка на сборку повреждена — показываем твою сборку");
+      return;
+    }
+    if (shared.cpu && $("#pcCpu")) $("#pcCpu").value = shared.cpu;
+    if (shared.gpu && $("#pcGpu")) $("#pcGpu").value = shared.gpu;
+    if (shared.ram && $("#pcRam")) $("#pcRam").value = shared.ram;
+    if (shared.res && $("#pcRes")) $("#pcRes").value = shared.res;
+    shareBuildOverride = Object.assign(currentBuild(), { fromShare: true });
     renderBuildCompat(NP, { fromShare: true });
     injectCompatBadges(NP);
-    const tools = document.getElementById("tools");
-    if (tools) {
-      tools.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
-    const compat = document.getElementById("pcCompatList");
-    if (compat) {
-      setTimeout(() => compat.scrollIntoView({ behavior: "smooth", block: "nearest" }), 250);
-    }
     if (location.hash !== "#tools") {
       try { history.replaceState(null, "", location.pathname + location.search + "#tools"); } catch { /* ignore */ }
     }
-    toast("Сборка друга загружена — смотри список игр ниже");
+    const compat = document.getElementById("pcBuilder") || document.getElementById("tools");
+    if (compat) {
+      setTimeout(() => {
+        try { compat.scrollIntoView({ behavior: "smooth", block: "start" }); } catch { /* ignore */ }
+      }, 300);
+    }
+    toast("Сборка друга загружена — смотри, что она потянет");
   }
 
   /* ============================================================
@@ -2139,6 +2225,74 @@ const NICK_BANKS = {
       } catch { /* ignore */ }
     }, 800);
   }
+
+  /* ============================================================
+   * PWA install button
+   * ============================================================ */
+  function isStandaloneApp() {
+    try {
+      return (
+        window.matchMedia("(display-mode: standalone)").matches ||
+        window.matchMedia("(display-mode: fullscreen)").matches ||
+        window.matchMedia("(display-mode: minimal-ui)").matches ||
+        window.navigator.standalone === true
+      );
+    } catch {
+      return false;
+    }
+  }
+
+  function isIOSDevice() {
+    const ua = navigator.userAgent || "";
+    return /iPad|iPhone|iPod/.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  }
+
+  function wireInstall() {
+    const btn = $("#installBtn");
+    if (!btn) return;
+    let deferred = window.__npInstallPrompt || null;
+    const ios = isIOSDevice();
+    const sync = () => {
+      btn.hidden = isStandaloneApp() || !(deferred || ios);
+    };
+    window.addEventListener("beforeinstallprompt", (e) => {
+      e.preventDefault();
+      deferred = e;
+      window.__npInstallPrompt = e;
+      sync();
+    });
+    window.addEventListener("appinstalled", () => {
+      deferred = null;
+      window.__npInstallPrompt = null;
+      sync();
+      toast("NEXUS PULSE установлен");
+    });
+    try {
+      window.matchMedia("(display-mode: standalone)").addEventListener("change", sync);
+    } catch { /* old Safari */ }
+    btn.addEventListener("click", async () => {
+      if (deferred) {
+        const evt = deferred;
+        deferred = null;
+        window.__npInstallPrompt = null;
+        try {
+          await evt.prompt();
+          const choice = await evt.userChoice;
+          if (choice && choice.outcome === "dismissed") toast("Установку можно повторить позже");
+        } catch (e) {
+          console.warn("[NEXUS PULSE] install prompt:", e);
+        }
+        sync();
+        return;
+      }
+      if (ios) {
+        toast("Поделиться → На экран «Домой»", 6000);
+      }
+    });
+    sync();
+  }
+
+  wireInstall();
 
   /* ---------- Init ---------- */
   waitForNexus((NP) => {

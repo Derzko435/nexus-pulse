@@ -5,17 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="NEXUS PULSE — игровой портал: каталог игр, новые интересные игры, пульс дня, календарь релизов, гайды, киберспорт, скидки, тест скорости и Discord-комьюнити." />
   <title>NEXUS PULSE — Игровой портал для настоящих геймеров</title>
-  <link rel="icon" type="image/png" href="assets/nexus-pulse-icon.png">
-  <link rel="apple-touch-icon" href="assets/nexus-pulse-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/icon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
   <link rel="manifest" href="manifest.json" />
   <meta name="theme-color" content="#00f5ff" />
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-title" content="NEXUS PULSE" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
+  <script>
+    window.addEventListener("beforeinstallprompt", function (e) { e.preventDefault(); window.__npInstallPrompt = e; });
+  </script>
 </head>
 <body>
   <div class="bg-grid" aria-hidden="true"></div>
@@ -29,6 +33,9 @@
         <span class="logo-text">NEXUS<span>PULSE</span></span>
       </a>
       <div class="nav-right">
+        <button type="button" class="btn btn-primary btn-sm install-btn" id="installBtn" hidden aria-label="Установить NEXUS PULSE">
+          <span aria-hidden="true">⬇</span><span class="install-label" data-i18n="pwa.install">Установить</span><span class="install-brand"> NEXUS PULSE</span>
+        </button>
         <div class="lang-switcher">
           <button type="button" class="lang-toggle" id="langToggle" aria-expanded="false" aria-haspopup="true" aria-label="Language">
             <span class="lang-globe" aria-hidden="true">🌐</span>
@@ -221,7 +228,7 @@
             <button type="button" class="chip" data-xgroup="singleplayer" data-xfilter="yes">Solo</button>
             <button type="button" class="chip" data-xgroup="singleplayer" data-xfilter="no">Multi</button>
           </div>
-          <label class="hide-owned"><input type="checkbox" id="hideOwnedChk" /> Скрыть уже имеющиеся (Steam/ручной список)</label>
+          <label class="hide-owned"><input type="checkbox" id="hideOwnedChk" /> Скрыть игры из моей библиотеки</label>
         </div>
         <div class="cards-grid" id="gamesGrid"></div>
         <p class="empty-state" id="gamesEmpty" hidden data-i18n="games.empty">Ничего не найдено. Сбрось фильтры или попробуй другой запрос.</p>
@@ -292,8 +299,7 @@
         <div class="matches-block" style="margin-top:1.5rem">
           <div class="section-head" style="margin-bottom:.75rem">
             <div>
-              <h3 style="margin:0">Матчи · live / upcoming</h3>
-              <p class="section-desc" id="matchesNote">Данные из data/matches.json</p>
+              <h3 style="margin:0">Матчи: live и ближайшие</h3>
             </div>
           </div>
           <div class="matches-grid" id="matchesLive"></div>
@@ -307,7 +313,7 @@
           <div>
             <p class="eyebrow" data-i18n="deals.eyebrow">Скидки</p>
             <h2 data-i18n="deals.title">Горячие предложения</h2>
-            <p class="section-desc" data-i18n="deals.desc">Сейлы обновляются чаще остального контента (deals.json).</p>
+            <p class="section-desc" data-i18n="deals.desc">Скидки обновляются несколько раз в день.</p>
           </div>
           <p class="pulse-updated" id="dealsUpdated" data-i18n-prefix="deals.updated">Скидки обновлены: —</p>
         </div>
@@ -322,14 +328,15 @@
           </div>
           <ul id="alertFiredList" hidden></ul>
           <div class="alert-settings" style="margin-top:1rem;display:grid;gap:.5rem">
-            <label class="field"><span>Discord webhook (только localStorage, не коммитить)</span>
+            <h3 style="margin:0">Алерты на скидки</h3>
+            <p class="tool-desc">Жми 🔔 на карточке игры или скидки — уведомим, когда цена упадёт.</p>
+            <label class="field"><span>Discord webhook для алертов (необязательно)</span>
               <input type="url" id="discordWebhookInput" placeholder="https://discord.com/api/webhooks/…" autocomplete="off" />
             </label>
             <div style="display:flex;gap:.5rem;flex-wrap:wrap">
               <button type="button" class="btn btn-ghost btn-sm" id="discordWebhookSave">Сохранить webhook</button>
-              <button type="button" class="btn btn-ghost btn-sm" id="notifyPermBtn">Разрешить уведомления браузера</button>
+              <button type="button" class="btn btn-ghost btn-sm" id="notifyPermBtn">Включить уведомления</button>
             </div>
-            <p class="tool-desc">Webhook опционален (CORS часто режет браузер). «Скопировать» всегда работает. Live-посты скидок и халявы в Discord <strong>#анонсы</strong> публикует бот на боксе через <code>scripts/discord_post.py</code> — токен бота в браузере не хранится.</p>
           </div>
         </div>
       </div>
@@ -425,7 +432,7 @@
 
           <div class="tool-card glass speed-card">
             <h3 data-i18n="speed.title">Тест скорости</h3>
-            <p class="tool-desc" data-i18n="speed.desc">Скачивание чанков с CDN + замер пинга. Оценка пригодности для онлайна.</p>
+            <p class="tool-desc" data-i18n="speed.desc">Скорость загрузки и пинг — подходит ли сеть для онлайна.</p>
             <button class="btn btn-primary" id="speedBtn" type="button" data-i18n="speed.run">Проверить скорость</button>
             <p class="speed-progress" id="speedProgress" hidden></p>
             <p class="speed-error" id="speedError" hidden></p>
@@ -440,7 +447,7 @@
 
           <div class="tool-card glass wishlist-card">
             <h3 data-i18n="tools.wish">Избранное</h3>
-            <p class="tool-desc" data-i18n="tools.wishDesc">Сохраняй игры сердечком в каталоге — список хранится в браузере.</p>
+            <p class="tool-desc" data-i18n="tools.wishDesc">Сохраняй игры сердечком в каталоге.</p>
             <ul class="wishlist" id="wishlist"></ul>
             <p class="empty-state small" id="wishlistEmpty" data-i18n="tools.wishEmpty">Пока пусто. Добавь игры из каталога ↑</p>
             <button class="btn btn-ghost btn-sm" id="clearWishlist" type="button" data-i18n="tools.clearWish">Очистить избранное</button>
@@ -450,7 +457,7 @@
         <div class="tool-card glass ping-map-card" id="pingMapCard" style="margin-top:1.25rem">
           <div class="mood-head">
             <h3>Карта пинга · игровые сервисы</h3>
-            <p class="tool-desc">RTT до публичных HTTPS-эндпоинтов (Valve CDN / Riot / Epic / Blizzard / Cloudflare). Это приближение, не игровой сервер матчмейкинга. При ошибке CORS — смотри Cloudflare-пинг из теста скорости.</p>
+            <p class="tool-desc">Примерный пинг до Steam, Riot, Epic, Blizzard и Cloudflare.</p>
           </div>
           <button type="button" class="btn btn-primary btn-sm" id="pingRefreshBtn">Обновить</button>
           <ul class="ping-map-list" id="pingMapList"></ul>
@@ -458,8 +465,8 @@
 
         <div class="tool-card glass pc-builder-card tool-card-wide" id="pcBuilder" style="margin-top:1.25rem">
           <div class="mood-head">
-            <h3>Калькулятор PC-сборки + совместимость с каталогом</h3>
-            <p class="tool-desc">Выбери CPU / GPU / RAM / накопитель. Оценка сборки и список игр: «Потянет / На минимуме / Не потянет» (SPECS + эвристика demand). Клик по игре → префилл FPS-калькулятора.</p>
+            <h3>Калькулятор PC-сборки</h3>
+            <p class="tool-desc">Собери ПК и смотри, какие игры из каталога он потянет. Клик по игре — оценка FPS.</p>
           </div>
           <div class="pc-build-grid">
             <label class="field"><span>CPU</span><select id="pcCpu"></select></label>
@@ -485,8 +492,8 @@
 
         <div class="tools-grid tools-grid-2" style="margin-top:1.25rem">
           <div class="tool-card glass" id="nickGenCard">
-            <h3>Ник + аватар <small class="muted">(AI-стиль · процедурный)</small></h3>
-            <p class="tool-desc">Без внешнего AI API — словари слогов и canvas-аватар. Фильтры стиля:</p>
+            <h3>Ник + аватар</h3>
+            <p class="tool-desc">Выбери стиль:</p>
             <div class="mood-chips" id="nickStyleChips" role="group">
               <button type="button" class="chip mood-chip active" data-nick-style="cyberpunk">Cyberpunk</button>
               <button type="button" class="chip mood-chip" data-nick-style="fantasy">Fantasy</button>
@@ -506,17 +513,17 @@
 
           <div class="tool-card glass" id="steamImportCard">
             <h3>Импорт библиотеки Steam / Epic</h3>
-            <p class="tool-desc">Ручной чеклист — основной способ. Авто-импорт: публичный профиль Steam, прямой запрос XML, при CORS — один fallback-прокси (может не сработать). Метаданные популярных Steam-игр подтягиваются из <code>data/steam_catalog_snapshot.json</code> (обновляет GitHub Actions). Epic: display name + ручной список.</p>
+            <p class="tool-desc">Импортируй публичный профиль Steam или отметь игры вручную.</p>
             <label class="field"><span>SteamID64 / vanity / URL</span>
               <input type="text" id="steamIdInput" placeholder="7656119… или nickname" autocomplete="off" />
             </label>
             <button type="button" class="btn btn-primary" id="steamImportBtn">Импортировать Steam</button>
             <p class="tool-desc" id="steamImportStatus"></p>
-            <label class="field"><span>Epic display name (заметка)</span>
+            <label class="field"><span>Ник в Epic Games</span>
               <input type="text" id="epicNameInput" placeholder="DisplayName" autocomplete="off" />
             </label>
-            <button type="button" class="btn btn-ghost btn-sm" id="epicNameSave">Сохранить имя Epic</button>
-            <label class="field" style="margin-top:.75rem"><span>Ручная отметка «есть в библиотеке»</span>
+            <button type="button" class="btn btn-ghost btn-sm" id="epicNameSave">Сохранить ник Epic</button>
+            <label class="field" style="margin-top:.75rem"><span>Отметь игры, которые у тебя есть</span>
               <input type="search" id="steamManualSearch" placeholder="Поиск в каталоге…" />
             </label>
             <div class="owned-checklist" id="steamManualList"></div>
@@ -525,9 +532,9 @@
 
         <div class="tool-card glass backup-card tool-card-wide" id="profileBackupCard" style="margin-top:1.25rem">
           <h3>Резервная копия профиля</h3>
-          <p class="tool-desc">Экспорт / импорт всех локальных данных NEXUS PULSE (<code>nexus_backup.json</code>): сборка ПК, библиотека, алерты, LFG, чеклисты, wishlist, язык и др.</p>
+          <p class="tool-desc">Сохрани сборку, библиотеку, алерты, LFG, чеклисты и избранное в файл — и перенеси на другое устройство.</p>
           <div style="display:flex;gap:.5rem;flex-wrap:wrap">
-            <button type="button" class="btn btn-primary" id="backupExportBtn">Экспортировать данные профиля</button>
+            <button type="button" class="btn btn-primary" id="backupExportBtn">Экспортировать</button>
             <button type="button" class="btn btn-ghost" id="backupImportBtn">Импортировать</button>
             <input type="file" id="backupImportFile" accept="application/json,.json" hidden />
           </div>
@@ -541,7 +548,7 @@
           <div>
             <p class="eyebrow">Халява</p>
             <h2>Календарь бесплатных игр</h2>
-            <p class="section-desc">Epic Free Games API + кураторский Steam/GOG/Prime → <code>data/freebies.json</code>. Обновление: <code>scripts/update_freebies.py</code>; анонсы в Discord — бот на боксе.</p>
+            <p class="section-desc">Бесплатные раздачи Epic Games, Steam, GOG и Prime Gaming.</p>
           </div>
           <p class="pulse-updated" id="freebiesUpdated">Обновлено: —</p>
         </div>
@@ -554,20 +561,20 @@
         <div class="section-head">
           <div>
             <p class="eyebrow">Поиск тимы</p>
-            <h2>LFG · мини-лента</h2>
-            <p class="section-desc">Локальная карточка + live-лента из Discord (#поиск-тимы) через <code>data/lfg_snapshot.json</code>. Кнопка Discord копирует текст и открывает канал. Серверные посты бота — через updater на боксе (браузер не держит токен).</p>
+            <h2>LFG · лента</h2>
+            <p class="section-desc">Заполни карточку и найди тиму в Discord-канале #поиск-тимы.</p>
           </div>
         </div>
         <div class="lfg-layout">
           <div class="tool-card glass lfg-form">
             <h3>Твоя карточка <span id="lfgSelfRankHint" class="lfg-self-rank muted"></span></h3>
-            <label class="field lfg-nick-row"><span>Ник</span>
+            <div class="field lfg-nick-row"><label for="lfgNick">Ник</label>
               <div class="nick-inline">
-                <input id="lfgNick" type="text" placeholder="Твой ник" maxlength="20" />
-                <button type="button" class="btn btn-ghost btn-icon" id="lfgNickDice" title="Случайный ник">🎲</button>
+                <canvas id="lfgNickAvatar" width="256" height="256" class="lfg-avatar lfg-nick-preview" role="img" aria-label="Аватар карточки"></canvas>
+                <input id="lfgNick" type="text" placeholder="Твой ник" maxlength="20" autocomplete="off" />
+                <button type="button" class="btn btn-ghost btn-icon" id="lfgNickDice" title="Случайный ник" aria-label="Случайный ник">🎲</button>
               </div>
-            </label>
-            <canvas id="lfgNickAvatar" width="64" height="64" class="lfg-avatar" hidden></canvas>
+            </div>
             <label class="field"><span>Игра</span>
               <select id="lfgGame">
                 <option>CS2</option><option>Valorant</option><option>Dota 2</option>
@@ -580,13 +587,12 @@
             <label class="check-row"><input type="checkbox" id="lfgMic" checked /> Есть микрофон</label>
             <label class="field"><span>Заметка</span><textarea id="lfgNote" rows="3" placeholder="Ищу дуо на ранкид…"></textarea></label>
             <div style="display:flex;gap:.5rem;flex-wrap:wrap">
-              <button type="button" class="btn btn-primary" id="lfgSaveBtn">Сохранить локально</button>
+              <button type="button" class="btn btn-primary" id="lfgSaveBtn">Сохранить</button>
               <button type="button" class="btn btn-ghost" id="lfgDiscordBtn">Написать в Discord</button>
             </div>
-            <p class="tool-desc" style="margin-top:.75rem">После сохранения payload пишется в localStorage. Live-пост в Discord делает routine на боксе (<code>discord_post.py post-lfg</code>), не страница в браузере.</p>
           </div>
           <div>
-            <h3>Лента LFG <small class="muted">(Discord + ты)</small></h3>
+            <h3>Лента LFG</h3>
             <div class="lfg-feed" id="lfgFeed"></div>
           </div>
         </div>
@@ -599,7 +605,7 @@
           <div>
             <p class="eyebrow">Прогресс</p>
             <h2>Чеклисты и бэклог <span id="nexusRankBadge" class="nexus-rank-badge" title="Ранг NEXUS по чеклисту и бэклогу">Tilt-пропердол 🧼</span></h2>
-            <p class="section-desc">Интерактивный чеклист новичка и трекер бэклога — всё в localStorage. Ранг считается из % чеклиста и пройденного бэклога.</p>
+            <p class="section-desc">Чеклист новичка и трекер бэклога. Ранг растёт вместе с прогрессом.</p>
           </div>
         </div>
         <div class="checklist-layout">
@@ -696,7 +702,7 @@
     </div>
     <div class="container footer-bottom">
       <p>© 2026 NEXUS PULSE</p>
-      <p class="privacy">Пульс/календарь — <code>data/daily.json</code>. Скидки — <code>data/deals.json</code> (обновляются чаще). Персональные данные формой не собираются.</p>
+      <p class="privacy">Персональные данные не собираются.</p>
     </div>
   </footer>
 

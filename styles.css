@@ -114,6 +114,8 @@ button, input, select, textarea {
   transition: .25s;
 }
 
+[hidden] { display: none !important; }
+
 /* ===== Buttons ===== */
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: .5rem;
@@ -1455,11 +1457,17 @@ button.guide-card { appearance: none; }
   line-height: 1;
 }
 .lfg-nick-row { margin-bottom: .35rem; }
-#lfgNickAvatar.lfg-avatar {
-  margin: .35rem 0 .65rem;
+#lfgNickAvatar.lfg-avatar,
+.lfg-nick-preview {
+  display: block;
+  margin: 0;
   width: 56px;
   height: 56px;
+  box-shadow: 0 0 14px rgba(0, 245, 255, .25);
+  transition: opacity .2s;
 }
+.lfg-nick-preview.is-empty { opacity: .55; }
+.lfg-nick-row > label { display: block; color: var(--muted); font-weight: 600; }
 
 /* ---- Upgrade PC link on catalog cards ---- */
 .upgrade-pc-link {
@@ -1546,4 +1554,37 @@ li.compat-row-focus {
 }
 .lfg-card.lfg-live {
   border-color: rgba(88, 101, 242, .45);
+}
+
+/* ---- PWA install button ---- */
+.install-btn {
+  padding: .45rem .85rem;
+  font-size: .8rem;
+  border-radius: 999px;
+  white-space: nowrap;
+  gap: .4rem;
+}
+.install-btn[hidden] { display: none !important; }
+@media (max-width: 600px) {
+  .install-btn .install-brand { display: none; }
+  .install-btn { padding: .4rem .7rem; }
+  /* make room for the install button: globe-only language toggle */
+  .nav-right:has(.install-btn:not([hidden])) #langCurrent { display: none; }
+  .nav-right:has(.install-btn:not([hidden])) { gap: .4rem; }
+}
+@media (max-width: 440px) {
+  /* narrow phones: keep the logo mark, drop the wordmark while the install button is shown */
+  .nav:has(.install-btn:not([hidden])) .logo-text { display: none; }
+}
+@media (max-width: 300px) {
+  .install-btn .install-label { display: none; }
+}
+
+/* ---- LFG feed empty state / self card ---- */
+.lfg-empty { margin: .25rem 0 0; }
+
+/* prevent grid children from overflowing narrow screens */
+.tools-grid-2 > *, .lfg-layout > *, .checklist-layout > *, .pc-build-grid > * { min-width: 0; }
+@media (max-width: 960px) {
+  .pc-build-grid, .pc-compat, .tools-grid-2, .lfg-layout, .checklist-layout { grid-template-columns: minmax(0, 1fr); }
 }

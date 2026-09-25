@@ -314,7 +314,7 @@ const DISCORD_INVITE_URL = "https://discord.gg/c7UHcM2UR";
       "glossary.eyebrow": "Словарь", "glossary.title": "Словарь геймера", "glossary.desc": "Tilt, ping, smurf и другие слова из чата.",
       "esports.eyebrow": "Киберспорт", "esports.title": "Турниры и хайлайты", "esports.desc": "Ближайшие ивенты и игроки.",
       "esports.tournaments": "Ближайшие турниры", "esports.players": "Команды и игроки",
-      "deals.eyebrow": "Скидки", "deals.title": "Горячие предложения", "deals.desc": "Сейлы обновляются чаще остального контента (deals.json).", "deals.updated": "Скидки обновлены:",
+      "deals.eyebrow": "Скидки", "deals.title": "Горячие предложения", "deals.desc": "Скидки обновляются несколько раз в день.", "deals.updated": "Скидки обновлены:",
       "tools.eyebrow": "Инструменты", "tools.title": "Практические тулы", "tools.desc": "Подбор игры под настроение, FPS, системные требования, тест скорости и избранное.",
       "mood.title": "Подбор игры под настроение и время",
       "mood.desc": "Настроение + длительность + соло/мультиплеер → 3 рекомендации из каталога.",
@@ -329,17 +329,18 @@ const DISCORD_INVITE_URL = "https://discord.gg/c7UHcM2UR";
       "tools.game": "Игра", "tools.gpu": "Уровень GPU", "tools.cpu": "Уровень CPU", "tools.calc": "Рассчитать",
       "tools.specs": "Системные требования", "tools.specsDesc": "Сравни минимальные и рекомендованные спеки игры.",
       "tools.showSpecs": "Показать требования", "tools.min": "Минимальные", "tools.rec": "Рекомендованные",
-      "tools.wish": "Избранное", "tools.wishDesc": "Сохраняй игры сердечком — список в браузере.",
+      "tools.wish": "Избранное", "tools.wishDesc": "Сохраняй игры сердечком в каталоге.",
       "tools.wishEmpty": "Пока пусто. Добавь игры из каталога ↑", "tools.clearWish": "Очистить избранное",
-      "speed.title": "Тест скорости", "speed.desc": "Скачивание чанков с CDN + замер пинга. Оценка для онлайна.",
+      "speed.title": "Тест скорости", "speed.desc": "Скорость загрузки и пинг — подходит ли сеть для онлайна.",
       "speed.run": "Проверить скорость", "speed.again": "Проверить снова", "speed.progress": "Идёт замер…",
       "speed.download": "Загрузка", "speed.latency": "Пинг", "speed.rating": "Для онлайна",
-      "speed.err": "Не удалось измерить сеть. Проверь доступ к CDN или блокировщик.",
+      "speed.err": "Не удалось измерить скорость. Проверь подключение или отключи блокировщик.",
       "speed.excellent": "Отлично", "speed.ok": "Нормально", "speed.weak": "Слабо для онлайн",
-      "news.eyebrow": "Лента", "news.title": "Новости гейминга", "news.desc": "Свежие заголовки из ежедневного фида.",
+      "news.eyebrow": "Лента", "news.title": "Новости гейминга", "news.desc": "Свежие заголовки дня.",
       "community.eyebrow": "Комьюнити", "community.title": "Залетай в Discord NEXUS PULSE",
       "community.lead": "Мета, клипы, поиск тимы и гайды. Залетай по инвайту — сервер уже открыт.", "community.join": "Присоединиться",
       "lang.label": "Язык", "lang.popular": "Популярные", "lang.all": "Все языки", "lang.search": "Поиск языка…",
+      "pwa.install": "Установить",
     },
     en: {
       "nav.games": "Games", "nav.pulse": "Pulse", "nav.newGames": "New picks", "nav.calendar": "Releases", "nav.guides": "Guides",
@@ -363,7 +364,7 @@ const DISCORD_INVITE_URL = "https://discord.gg/c7UHcM2UR";
       "glossary.eyebrow": "Glossary", "glossary.title": "Gamer glossary", "glossary.desc": "Tilt, ping, smurf and other chat essentials.",
       "esports.eyebrow": "Esports", "esports.title": "Tournaments & highlights", "esports.desc": "Upcoming events and players to watch.",
       "esports.tournaments": "Upcoming tournaments", "esports.players": "Teams & players",
-      "deals.eyebrow": "Deals", "deals.title": "Hot offers", "deals.desc": "Sales refresh more often than other content (deals.json).", "deals.updated": "Deals updated:",
+      "deals.eyebrow": "Deals", "deals.title": "Hot offers", "deals.desc": "Deals refresh several times a day.", "deals.updated": "Deals updated:",
       "tools.eyebrow": "Tools", "tools.title": "Practical tools", "tools.desc": "Mood-based game picker, FPS, system specs, speed test and wishlist.",
       "mood.title": "Pick a game by mood & time",
       "mood.desc": "Mood + session length + solo/multiplayer → 3 catalog recommendations.",
@@ -378,24 +379,25 @@ const DISCORD_INVITE_URL = "https://discord.gg/c7UHcM2UR";
       "tools.game": "Game", "tools.gpu": "GPU tier", "tools.cpu": "CPU tier", "tools.calc": "Calculate",
       "tools.specs": "System requirements", "tools.specsDesc": "Compare minimum and recommended specs.",
       "tools.showSpecs": "Show requirements", "tools.min": "Minimum", "tools.rec": "Recommended",
-      "tools.wish": "Wishlist", "tools.wishDesc": "Heart games in the catalog — stored in your browser.",
+      "tools.wish": "Wishlist", "tools.wishDesc": "Heart games in the catalog to save them.",
       "tools.wishEmpty": "Empty for now. Add games from the catalog ↑", "tools.clearWish": "Clear wishlist",
-      "speed.title": "Speed test", "speed.desc": "Download CDN chunks + latency. Gaming suitability rating.",
+      "speed.title": "Speed test", "speed.desc": "Download speed and ping — is your connection good for online play.",
       "speed.run": "Test speed", "speed.again": "Test again", "speed.progress": "Measuring…",
       "speed.download": "Download", "speed.latency": "Ping", "speed.rating": "For online play",
-      "speed.err": "Could not measure network. Check CDN access or blockers.",
+      "speed.err": "Could not measure speed. Check your connection or disable ad blockers.",
       "speed.excellent": "Excellent", "speed.ok": "Okay", "speed.weak": "Weak for online",
-      "news.eyebrow": "Feed", "news.title": "Gaming news", "news.desc": "Fresh headlines from the daily feed.",
+      "news.eyebrow": "Feed", "news.title": "Gaming news", "news.desc": "Today's fresh headlines.",
       "community.eyebrow": "Community", "community.title": "Join NEXUS PULSE Discord",
       "community.lead": "Meta, clips, LFG and guides. Invite is live — jump in.", "community.join": "Join",
       "lang.label": "Language", "lang.popular": "Popular", "lang.all": "All languages", "lang.search": "Search language…",
+      "pwa.install": "Install",
     },
   };
 
   ["uk", "de", "es", "fr", "pt", "pl", "tr", "zh", "ja", "ko"].forEach((code) => {
     I18N[code] = Object.assign({}, I18N.en);
   });
-  Object.assign(I18N.uk, { "nav.games": "Ігри", "nav.pulse": "Пульс", "nav.guides": "Гайди", "nav.deals": "Знижки", "nav.tools": "Інструменти", "nav.facts": "Факти", "nav.glossary": "Словник", "hero.ctaTools": "Відкрити інструменти", "pulse.title": "Пульс дня", "games.title": "Топ ігор", "speed.title": "Тест швидкості", "speed.run": "Перевірити швидкість", "speed.again": "Перевірити знову", "deals.updated": "Знижки оновлено:", "lang.label": "Мова", "nav.newGames": "Новинки", "newGames.title": "Нові цікаві ігри", "newGames.updated": "Оновлено:" });
+  Object.assign(I18N.uk, { "nav.games": "Ігри", "nav.pulse": "Пульс", "nav.guides": "Гайди", "nav.deals": "Знижки", "nav.tools": "Інструменти", "nav.facts": "Факти", "nav.glossary": "Словник", "hero.ctaTools": "Відкрити інструменти", "pulse.title": "Пульс дня", "games.title": "Топ ігор", "speed.title": "Тест швидкості", "speed.run": "Перевірити швидкість", "speed.again": "Перевірити знову", "deals.updated": "Знижки оновлено:", "lang.label": "Мова", "nav.newGames": "Новинки", "newGames.title": "Нові цікаві ігри", "newGames.updated": "Оновлено:", "pwa.install": "Встановити" });
   Object.assign(I18N.de, { "nav.games": "Spiele", "nav.pulse": "Puls", "nav.guides": "Guides", "nav.deals": "Angebote", "nav.tools": "Tools", "nav.facts": "Fakten", "nav.glossary": "Glossar", "hero.ctaTools": "Tools öffnen", "pulse.title": "Puls des Tages", "games.title": "Top-Spiele", "speed.title": "Speedtest", "speed.run": "Geschwindigkeit prüfen", "speed.again": "Erneut prüfen", "deals.updated": "Angebote aktualisiert:", "lang.label": "Sprache", "nav.newGames": "Neuheiten", "newGames.title": "Neue spannende Spiele", "newGames.updated": "Aktualisiert:" });
   Object.assign(I18N.es, { "nav.games": "Juegos", "nav.pulse": "Pulso", "nav.guides": "Guías", "nav.deals": "Ofertas", "nav.tools": "Herramientas", "nav.facts": "Datos", "nav.glossary": "Glosario", "hero.ctaTools": "Abrir herramientas", "pulse.title": "Pulso del día", "games.title": "Top juegos", "speed.title": "Test de velocidad", "speed.run": "Probar velocidad", "speed.again": "Probar de nuevo", "deals.updated": "Ofertas actualizadas:", "lang.label": "Idioma", "nav.newGames": "Novedades", "newGames.title": "Juegos nuevos e interesantes", "newGames.updated": "Actualizado:" });
   Object.assign(I18N.fr, { "nav.games": "Jeux", "nav.pulse": "Pulse", "nav.guides": "Guides", "nav.deals": "Promos", "nav.tools": "Outils", "nav.facts": "Faits", "nav.glossary": "Glossaire", "hero.ctaTools": "Ouvrir les outils", "pulse.title": "Pulse du jour", "games.title": "Top jeux", "speed.title": "Test de débit", "speed.run": "Tester la vitesse", "speed.again": "Retester", "deals.updated": "Promos mises à jour :", "lang.label": "Langue", "nav.newGames": "Nouveautés", "newGames.title": "Nouveaux jeux intéressants", "newGames.updated": "Mis à jour :" });
