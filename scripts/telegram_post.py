@@ -6,7 +6,8 @@ Posts NEW items from the site's data/*.json: news, discounts −50%+, giveaways,
 Dedupe state: data/telegram_posted.json. First run per feed = seed (only the freshest item).
 Per run: ≤ 6 messages total, ≤ 2 news.
 
-  env TELEGRAM_BOT_TOKEN   bot token from @BotFather (never printed)
+  env TELEGRAM_BOT_TOKEN   bot token from @BotFather (never printed);
+                           box fallback: /home/box/.config/telegram-bot-token
   env TELEGRAM_CHANNEL     @channel (or data/site_config.json → telegram.channel)
   python scripts/telegram_post.py [--runner box|actions] [--dry-run] [--only news,deals]
 
@@ -223,6 +224,10 @@ def main() -> int:
     a = ap.parse_args()
     cfg = (dg.read_json("site_config.json").get("telegram") or {}) if CONFIG_FILE.is_file() else {}
     token = (os.environ.get("TELEGRAM_BOT_TOKEN") or "").strip()
+    if not token:
+        token_file = Path("/home/box/.config/telegram-bot-token")
+        if token_file.is_file():
+            token = token_file.read_text(encoding="utf-8").strip()
     chat = (os.environ.get("TELEGRAM_CHANNEL") or cfg.get("channel") or "").strip()
     if not a.dry_run and (not token or not chat):
         print("telegram: no token / channel configured — skip")

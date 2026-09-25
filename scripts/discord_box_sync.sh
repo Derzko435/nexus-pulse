@@ -40,7 +40,7 @@ fi
 
 # Telegram (only when a token + channel are configured on the box)
 if [ -f /home/box/.config/telegram-bot-token ]; then
-  TELEGRAM_BOT_TOKEN="$(cat /home/box/.config/telegram-bot-token)" python3 scripts/telegram_post.py --runner box || echo "[warn] telegram failed"
+  python3 scripts/telegram_post.py --runner box || echo "[warn] telegram failed"
 fi
 
 # LFG snapshot for the site feed: keep only real changes (not a new timestamp)
