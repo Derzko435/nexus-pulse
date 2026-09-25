@@ -134,7 +134,13 @@ Google Fonts: **Orbitron** (заголовки) + **Manrope** (текст).
 | Auto-feed: news, deals ≥50%, freebies, esports, patches, videos, releases, game of the day | `scripts/discord_feeds.py` — bot mode on the box (`scripts/discord_box_sync.sh`) or webhook mode in Actions (`.github/workflows/discord-feeds.yml`, secret `DISCORD_WEBHOOKS_JSON`) | hourly (box) / after each data refresh (Actions) |
 | Dedupe state | `data/discord_posted.json` (ids only) | — |
 | Scheduled events for top matches | `discord_post.py sync-events` (box) | hourly |
-| Reaction role-picker in #🎭роли | `discord_post.py sync-roles` (box) | hourly |
+| Reaction role-picker in #🎭роли | live by the 24/7 bot; `discord_post.py sync-roles` (box) as fallback while the bot is down | real time / hourly |
+| 24/7 bot: `/цена /скидки /раздачи /сборка /пинг /матчи /лфг /роль /ранг /топ /помощь`, XP levels (Новичок/Игрок/Ветеран/Легенда), auto voice rooms («➕ Создать комнату»), welcome card, game-night event start/finish | `scripts/discord_bot.py`, supervised by `scripts/discord_bot_run.sh` (box, no systemd); watchdog `discord_bot_run.sh ensure` in the hourly routine; state in `/home/box/.cache/nexus-pulse/` | always on |
+| AutoMod (spam, mat/insults, scam, foreign invites, mention flood, Discord presets) | `discord_post.py setup-automod` → `scripts/discord_automod.py` | hourly (idempotent) |
+| Friday poll «Во что играем в выходные?», Sunday «Итоги недели», Saturday 20:00 «Игровой вечер» event | `discord_post.py weekly` → `scripts/discord_weekly.py` (state `weekly` in `data/discord_posted.json`) | hourly check |
+| Full setup again when the bot gets new permissions / intents | `discord_post.py perms-signature` compared in `discord_box_sync.sh` | automatic |
+| Telegram channel autopost (news, deals ≥50%, giveaways, big matches, game of the day, weekly digest) | `scripts/telegram_post.py` (state `data/telegram_posted.json`); box: token file `/home/box/.config/telegram-bot-token`; Actions: `.github/workflows/telegram-post.yml` (secret `TELEGRAM_BOT_TOKEN`, variable `TELEGRAM_CHANNEL`) — which one runs is chosen by `data/site_config.json` → `telegram.runner` | hourly (box) / every 3 h (Actions) |
+| Telegram button on the site | appears when `data/site_config.json` → `telegram.channel` is set | — |
 | Switch feed to webhooks | `discord_post.py setup-webhooks` (needs Manage Webhooks) → sets `feedMode: "webhook"` | once |
 
 The bot token is never stored in GitHub; webhook URLs live only in the repo secret.

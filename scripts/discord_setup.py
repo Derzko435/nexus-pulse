@@ -80,7 +80,9 @@ CHANNELS = [
     ("dota2", "1552771415382695969", "🐉dota2", "cat_games", "Dota 2", None, 0),
     ("other_games", "1552771418280955904", "🕹другие-игры", "cat_games", "Minecraft, Fortnite, Apex, GTA, Rust и всё остальное", None, 0),
 
+    ("voice_create", None, "➕ Создать комнату", "cat_voice", None, None, 2),  # bot: personal rooms
     ("voice_lobby", "1552735502711652466", "🔊голос-лобби", "cat_voice", None, None, 2),
+    ("voice_gamenight", None, "🔊 Игровой вечер", "cat_voice", None, None, 2),  # weekly event
     ("voice_duo", "1552771422655614976", "🎧дуо", "cat_voice", None, None, 2),
     ("voice_squad", "1552771432642248795", "👥сквад", "cat_voice", None, None, 2),
     ("voice_raid", "1552771437562175610", "⚔рейд", "cat_voice", None, None, 2),
@@ -108,6 +110,14 @@ NOTIFY_ROLES = [
     ("role_n_matches", "🔔 Матчи", 0xFFB020, "🏆", ["feed_esports"]),
 ]
 
+# XP levels (bot): min level → role; only the highest reached role is kept
+LEVEL_ROLES = [
+    ("role_lvl_1", "Новичок", 0x9AA4B2, 1),
+    ("role_lvl_5", "Игрок", 0x3DFF9A, 5),
+    ("role_lvl_15", "Ветеран", 0x00D1FF, 15),
+    ("role_lvl_30", "Легенда", 0xFFB020, 30),
+]
+
 DESCRIPTION = ("Игровое комьюнити NEXUS PULSE: поиск тимы, новости, халява, скидки и "
                "киберспорт — всё автоматически каждый день. CS2 · Dota 2 · Valorant и не только.")
 
@@ -122,8 +132,9 @@ def norm(name: str) -> str:
 
 
 class Setup:
-    def __init__(self, bot: Bot, check_only: bool = False):
+    def __init__(self, bot: Bot, check_only: bool = False, announce: bool = False):
         self.bot = bot
+        self.announce = announce
         self.check_only = check_only
         self.notes: list[str] = []
         self.missing: set[str] = set()
@@ -151,7 +162,9 @@ class Setup:
         self.have = have
         self.log("Bot permissions: " + ", ".join(f"{k}={'yes' if v else 'NO'}" for k, v in have.items()))
         have["PIN_MESSAGES"] = bool(self.perms & PERM["PIN_MESSAGES"])
-        for k in ("MANAGE_GUILD", "MANAGE_WEBHOOKS", "MANAGE_EVENTS", "PIN_MESSAGES"):
+        have["MOVE_MEMBERS"] = bool(self.perms & PERM["MOVE_MEMBERS"])
+        have["MODERATE_MEMBERS"] = bool(self.perms & PERM["MODERATE_MEMBERS"])
+        for k in ("MANAGE_GUILD", "MANAGE_WEBHOOKS", "MANAGE_EVENTS", "PIN_MESSAGES", "MOVE_MEMBERS", "MODERATE_MEMBERS"):
             if not have[k]:
                 self.missing.add(k)
 
@@ -289,6 +302,16 @@ class Setup:
                     self.notes.append(f"role {name} edit failed {e.code}")
             self.role_ids[key] = r["id"]
             self.ids[key] = r["id"]
+        for key, name, color, _lvl in LEVEL_ROLES:
+            r = by_id.get(self.saved.get(key, "")) or by_name.get(name)
+            if not r:
+                if self.check_only or not self.can("MANAGE_ROLES"):
+                    self.log(f"[skip] role {name}")
+                    continue
+                r = self.api("POST", f"/guilds/{GUILD_ID}/roles", {"name": name, "color": color, "hoist": False, "mentionable": False, "permissions": "0"}, reason="NEXUS PULSE levels")
+                self.log(f"+ role {name}")
+            self.role_ids[key] = r["id"]
+            self.ids[key] = r["id"]
 
     # ------------------------------------------------ messages
     def bot_messages(self, channel_id: str, limit: int = 50) -> list[dict]:
@@ -408,10 +431,12 @@ class Setup:
 
         self.upsert("lfg-howto", self.ids["lfg"], [{
             "title": "🔎 Как быстро найти тиму",
-            "description": "Пиши одним сообщением:\n**игра · ранг · платформа · время (МСК) · микрофон**\n"
+            "description": "**Самый быстрый способ — команда `/лфг`**: выбери игру, ранг, режим и время — "
+                           "бот оформит карточку с кнопкой «✋ Я в деле», и откликнувшиеся сразу появятся в списке.\n\n"
+                           "Можно и просто сообщением:\n**игра · ранг · платформа · время (МСК) · микрофон**\n"
                            "Пример: `CS2 · Premier 12k · PC · 21:00–00:00 · мик есть`\n\n"
                            f"Карточку можно собрать и на сайте: {SITE}#lfg\n"
-                           "Нашлись? Залетайте в 🎧дуо / 👥сквад / ⚔рейд.",
+                           "Нашлись? Жми **➕ Создать комнату** — получите свой голосовой канал.",
             "color": 0x8B5CFF,
         }], pin=True)
 
@@ -427,6 +452,32 @@ class Setup:
                 f"• 🤝 {self.ch('intro')} и 📸 {self.ch('clips')} — знакомься и хвастайся моментами\n"
                 "• 🏆 Большие матчи появляются в **Событиях** сервера\n\n"
                 f"Зови друзей: {invite}\nСайт: {SITE}"
+            ),
+            "url": SITE, "color": BRAND, "thumbnail": {"url": LOGO},
+        }])
+
+    def announce_bot(self) -> None:
+        """One-time «new features» post in #анонсы (created only with --announce-bot, then just kept current)."""
+        if self.check_only:
+            return
+        key = "bot-2026-09"
+        exists = any(any((e.get("footer") or {}).get("text") == f"{MARK} · {key}" for e in m.get("embeds") or [])
+                     for m in self.bot_messages(self.ids["announcements"]))
+        if not exists and not self.announce:
+            return
+        self.upsert(key, self.ids["announcements"], [{
+            "title": "🤖 У сервера появился свой бот",
+            "description": (
+                "Теперь всё работает само, 24/7:\n"
+                f"• 🔎 **`/лфг`** — карточка поиска тимы в {self.ch('lfg')} с кнопкой «✋ Я в деле»\n"
+                "• 💰 **`/цена`**, **`/скидки`**, **`/раздачи`**, **`/матчи`** — всё с сайта прямо в чате\n"
+                "• 🖥 **`/сборка`** и 📡 **`/пинг`** — конструктор ПК и карта пинга\n"
+                "• 🎖 **Уровни за общение**: Новичок → Игрок → Ветеран → Легенда · **`/ранг`**, **`/топ`**\n"
+                "• 🔊 Зайди в **➕ Создать комнату** — получишь личный голосовой канал\n"
+                "• 🗳 По пятницам — опрос «Во что играем в выходные?», в субботу в 20:00 — **Игровой вечер** в Событиях, "
+                "по воскресеньям — «Итоги недели»\n"
+                "• 🛡 Автомодерация: без спама, скама и чужой рекламы\n\n"
+                "Все команды — **`/помощь`**. Хорошей игры! 🎮"
             ),
             "url": SITE, "color": BRAND, "thumbnail": {"url": LOGO},
         }])
@@ -483,15 +534,23 @@ class Setup:
             patch["verification_level"] = 1
         if g.get("explicit_content_filter", 0) < 2:
             patch["explicit_content_filter"] = 2
-        patch["rules_channel_id"] = self.ids["rules"]
-        patch["public_updates_channel_id"] = self.ids["mod"]
+        mod_ok = True
+        try:
+            self.api("GET", f"/channels/{self.ids['mod']}")
+        except DiscordError:
+            mod_ok = False  # hidden from the bot → cannot be the Community updates channel
         feats = list(g.get("features") or [])
-        if "COMMUNITY" not in feats:
-            feats.append("COMMUNITY")
-        patch["features"] = feats
+        if mod_ok:
+            patch["rules_channel_id"] = self.ids["rules"]
+            patch["public_updates_channel_id"] = self.ids["mod"]
+            if "COMMUNITY" not in feats:
+                feats.append("COMMUNITY")
+            patch["features"] = feats
+        else:
+            self.notes.append("Community skipped: the bot cannot see #🛡модерация (give the bot role access to it)")
         try:
             self.api("PATCH", f"/guilds/{GUILD_ID}", patch, reason="NEXUS PULSE community")
-            self.log("~ guild: description, system/rules channels, Community")
+            self.log("~ guild: description, system channel" + (", rules channel, Community" if mod_ok else ""))
         except DiscordError as e:
             self.notes.append(f"guild patch failed {e.code}: {e.body[:200]}")
             patch.pop("features", None)
@@ -506,6 +565,8 @@ class Setup:
             self.log("~ widget enabled")
         except DiscordError as e:
             self.notes.append(f"widget failed {e.code}")
+        if not mod_ok and "COMMUNITY" not in (g.get("features") or []):
+            return  # welcome screen + onboarding need Community
         # welcome screen (Community only)
         try:
             self.api("PATCH", f"/guilds/{GUILD_ID}/welcome-screen", {
@@ -578,6 +639,7 @@ class Setup:
         out.setdefault("feedMode", "bot")
         out["feeds"] = {k.replace("feed_", ""): self.ids[k] for k in FEED_KEYS if k in self.ids}
         out["reactionRoles"] = {e: self.role_ids[k] for k, _n, _c, e, _ch in GAME_ROLES + NOTIFY_ROLES if k in self.role_ids}
+        out["levelRoles"] = {str(lvl): self.role_ids[k] for k, _n, _c, lvl in LEVEL_ROLES if k in self.role_ids}
         out["updatedAt"] = now_iso()
         CHANNELS_FILE.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
@@ -589,13 +651,14 @@ class Setup:
         if not self.check_only:
             self.save()
         self.ensure_messages()
+        self.announce_bot()
         self.cleanup_duplicate_alerts()
         self.ensure_guild_settings()
         if not self.check_only:
             self.save()
         if self.missing:
             need = (PERM["MANAGE_GUILD"] | PERM["MANAGE_WEBHOOKS"] | PERM["MANAGE_EVENTS"]
-                    | PERM["CREATE_EVENTS"] | PERM["PIN_MESSAGES"])
+                    | PERM["CREATE_EVENTS"] | PERM["PIN_MESSAGES"] | PERM["MOVE_MEMBERS"] | PERM["MODERATE_MEMBERS"])
             base = int(self.bot_role["permissions"]) if self.bot_role else 0
             self.log(f"MISSING permissions: {', '.join(sorted(self.missing))}")
             self.log("Re-invite URL: https://discord.com/oauth2/authorize?client_id=" + CLIENT_ID
@@ -607,8 +670,9 @@ class Setup:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--check", action="store_true")
+    ap.add_argument("--announce-bot", action="store_true", help="post the one-time bot features announcement")
     args = ap.parse_args()
-    Setup(Bot(), check_only=args.check).run()
+    Setup(Bot(), check_only=args.check, announce=args.announce_bot).run()
     return 0
 
 

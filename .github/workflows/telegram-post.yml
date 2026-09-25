@@ -1,0 +1,43 @@
+name: Telegram autopost
+# Mirrors the site feeds into the Telegram channel (scripts/telegram_post.py).
+# Runs only when the secret TELEGRAM_BOT_TOKEN exists AND data/site_config.json has
+# telegram.runner == "actions" (default "box": the box routine posts instead) — never both.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "25 5-20/3 * * *"   # every 3 h, 08:25–23:25 MSK
+
+permissions:
+  contents: write
+
+concurrency:
+  group: telegram-post
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Post new items to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL: ${{ vars.TELEGRAM_CHANNEL }}
+        run: python scripts/telegram_post.py --runner actions
+      - name: Commit posted state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/telegram_posted.json 2>/dev/null || true
+          if git diff --cached --quiet; then echo "Nothing new posted"; exit 0; fi
+          git commit -m "chore(telegram): posted state [skip ci]"
+          for i in 1 2 3 4 5; do
+            git pull --rebase --autostash origin main && git push origin HEAD:main && break
+            echo "push attempt $i failed, retrying"; sleep $((i * 10))
+          done

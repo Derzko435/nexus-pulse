@@ -1773,12 +1773,28 @@ const NICK_BANKS = {
       mic: !!$("#lfgMic")?.checked,
       note: $("#lfgNote")?.value || "",
       nick: ($("#lfgNick")?.value || "").trim().slice(0, 20),
+      mode: ($("#lfgMode")?.value || "").trim().slice(0, 40),
+      region: $("#lfgRegion")?.value || "",
+      contact: ($("#lfgContact")?.value || "").trim().slice(0, 40),
     };
+  }
+
+  /** Ready-to-paste LFG post for #поиск-тимы (the bot turns it into a card when it can read it). */
+  function lfgPostText(card) {
+    const one = (v) => String(v || "").replace(/\s+/g, " ").trim();
+    const row = (pairs) => pairs.filter((p) => one(p[1])).map((p) => p[0] + ": " + one(p[1])).join(" · ");
+    const lines = ["🔎 Ищу тиму · " + one(card.game || "Игра")];
+    const r1 = row([["Ранг", card.rank], ["Режим", card.mode], ["Регион", card.region]]);
+    const r2 = row([["Время", card.prime], ["Голос", card.mic ? "да" : "нет"]]);
+    const r3 = row([["Discord", card.contact || card.nick]]);
+    [r1, r2, r3].forEach((r) => r && lines.push(r));
+    if (one(card.note)) lines.push("Комментарий: " + one(card.note).slice(0, 300));
+    return lines.join("\n");
   }
 
   function lfgFormDiffersFromSaved(form, saved) {
     if (!saved) return true;
-    return ["game", "rank", "prime", "note", "nick"].some((k) => (form[k] || "") !== (saved[k] || "")) || !!form.mic !== !!saved.mic;
+    return ["game", "rank", "prime", "note", "nick", "mode", "region", "contact"].some((k) => (form[k] || "") !== (saved[k] || "")) || !!form.mic !== !!saved.mic;
   }
 
   /** Draws the avatar preview next to the nick field (same nick + style as the feed card). */
@@ -1850,7 +1866,7 @@ const NICK_BANKS = {
     });
     const emptyHtml = live.length
       ? ""
-      : `<p class="empty-state small lfg-empty">${cards.length ? "Пока здесь только ты — нажми «Написать в Discord», чтобы тебя увидели." : "В ленте пока пусто — заполни карточку и нажми «Написать в Discord»."}</p>`;
+      : `<p class="empty-state small lfg-empty">${cards.length ? "Пока здесь только ты — нажми «Опубликовать в Discord», чтобы тебя увидели." : "В ленте пока пусто — заполни карточку и нажми «Опубликовать в Discord»."}</p>`;
     feed.innerHTML =
       cards
         .map((c, i) => {
@@ -1865,7 +1881,7 @@ const NICK_BANKS = {
             ${selfTag}
           </div>
         </div>
-        <div class="lfg-meta">Ранг: ${escHtml(c.rank || "—")} · Прайм: ${escHtml(c.prime || "—")} · Мик: ${c.mic ? "да" : "нет"}</div>
+        <div class="lfg-meta">Ранг: ${escHtml(c.rank || "—")} · Время: ${escHtml(c.prime || "—")} · Мик: ${c.mic ? "да" : "нет"}${c.mode ? " · " + escHtml(c.mode) : ""}${c.region ? " · " + escHtml(c.region) : ""}</div>
         ${c.note ? `<p>${escHtml(c.note)}</p>` : ""}
       </article>`;
         })
@@ -1902,6 +1918,9 @@ const NICK_BANKS = {
       if ($("#lfgMic")) $("#lfgMic").checked = !!self.mic;
       if ($("#lfgNote")) $("#lfgNote").value = self.note || "";
       if ($("#lfgNick") && self.nick) $("#lfgNick").value = self.nick;
+      if ($("#lfgMode")) $("#lfgMode").value = self.mode || "";
+      if ($("#lfgRegion") && self.region) $("#lfgRegion").value = self.region;
+      if ($("#lfgContact")) $("#lfgContact").value = self.contact || "";
     }
     refreshLfgNickAvatar((self && self.nick) || "", (self && self.game) || $("#lfgGame")?.value);
     renderLfg();
@@ -1913,10 +1932,10 @@ const NICK_BANKS = {
       if ($("#lfgNick")) $("#lfgNick").value = nick;
       updateLfgPreview();
     });
-    ["#lfgNick", "#lfgRank", "#lfgPrime", "#lfgNote"].forEach((sel) => {
+    ["#lfgNick", "#lfgRank", "#lfgPrime", "#lfgNote", "#lfgMode", "#lfgContact"].forEach((sel) => {
       $(sel)?.addEventListener("input", updateLfgPreview);
     });
-    ["#lfgGame", "#lfgMic"].forEach((sel) => {
+    ["#lfgGame", "#lfgMic", "#lfgRegion"].forEach((sel) => {
       $(sel)?.addEventListener("change", updateLfgPreview);
     });
     $("#lfgSaveBtn")?.addEventListener("click", () => {
@@ -1934,9 +1953,9 @@ const NICK_BANKS = {
       if ($("#lfgNick")) $("#lfgNick").value = card.nick;
       lsSet(KEYS.lfgSelf, card);
       lsSet(KEYS.lfgPending, card);
-      const text = `LFG · ${card.nick} · ${card.game} · ${card.rank || "?"} · ${card.prime || "?"} · mic:${card.mic ? "yes" : "no"}\n${card.note || ""}\n#поиск-тимы`;
+      const text = lfgPostText(card);
       copyText(text).then((ok) =>
-        toast(ok ? "Текст скопирован — вставь его в #поиск-тимы" : "Открываю #поиск-тимы")
+        toast(ok ? "Заявка скопирована — вставь её в канал и отправь" : "Открываю канал «поиск-тимы»")
       );
       refreshLfgNickAvatar(card.nick, card.game);
       renderLfg();

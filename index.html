@@ -680,18 +680,26 @@
             <label class="field"><span>Игра</span>
               <select id="lfgGame">
                 <option>CS2</option><option>Valorant</option><option>Dota 2</option>
-                <option>LoL</option><option>Apex Legends</option><option>Lethal Company</option>
+                <option>LoL</option><option>Apex Legends</option><option>Fortnite</option>
+                <option>Minecraft</option><option>PUBG</option><option>GTA Online</option>
+                <option>Rust</option><option>Overwatch 2</option><option>Lethal Company</option>
                 <option>Другое</option>
               </select>
             </label>
             <label class="field"><span>Ранг</span><input id="lfgRank" type="text" placeholder="Gold / DMG / Archon…" /></label>
-            <label class="field"><span>Прайм-тайм</span><input id="lfgPrime" type="text" placeholder="20:00–23:00 МСК" /></label>
+            <label class="field"><span>Режим</span><input id="lfgMode" type="text" maxlength="40" placeholder="Ранкед, фан, турнир…" /></label>
+            <label class="field"><span>Регион</span>
+              <select id="lfgRegion"><option>RU / СНГ</option><option>EU</option><option>Любой</option></select>
+            </label>
+            <label class="field"><span>Когда играем</span><input id="lfgPrime" type="text" placeholder="20:00–23:00 МСК" /></label>
+            <label class="field"><span>Ник в Discord</span><input id="lfgContact" type="text" maxlength="40" placeholder="Чтобы тебе могли написать" autocomplete="off" /></label>
             <label class="check-row"><input type="checkbox" id="lfgMic" checked /> Есть микрофон</label>
-            <label class="field"><span>Заметка</span><textarea id="lfgNote" rows="3" placeholder="Ищу дуо на ранкид…"></textarea></label>
+            <label class="field"><span>Комментарий</span><textarea id="lfgNote" rows="3" placeholder="Ищу дуо на ранкед…"></textarea></label>
             <div style="display:flex;gap:.5rem;flex-wrap:wrap">
-              <button type="button" class="btn btn-primary" id="lfgSaveBtn">Сохранить</button>
-              <button type="button" class="btn btn-ghost" id="lfgDiscordBtn">Написать в Discord</button>
+              <button type="button" class="btn btn-primary" id="lfgDiscordBtn">Опубликовать в Discord</button>
+              <button type="button" class="btn btn-ghost" id="lfgSaveBtn">Сохранить</button>
             </div>
+            <p class="muted small lfg-hint">Заявка скопируется — вставь её в канал «поиск-тимы» и отправь. А прямо в Discord можно набрать <b>/лфг</b>: бот сделает карточку с кнопкой «Я в деле».</p>
           </div>
           <div>
             <h3>Лента LFG</h3>

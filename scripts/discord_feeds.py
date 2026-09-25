@@ -515,12 +515,13 @@ def run(args) -> int:
     if args.dry_run:
         print(f"dry-run: {total} messages would be sent")
         return 0
-    new_state = {
+    new_state = dict(state)  # keep other keys (e.g. "weekly" from discord_weekly.py)
+    new_state.update({
         "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
         "updatedAt": now_msk().isoformat(timespec="seconds") if total else state.get("updatedAt", now_msk().isoformat(timespec="seconds")),
         "posted": posted,
         "matchPings": pings,
-    }
+    })
     old_cmp = {k: v for k, v in state.items() if k != "updatedAt"}
     new_cmp = {k: v for k, v in new_state.items() if k != "updatedAt"}
     if old_cmp != new_cmp:

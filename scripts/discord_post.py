@@ -12,6 +12,9 @@ Box routine (not GitHub Actions — the bot token never goes to GitHub):
   bash scripts/discord_box_sync.sh              # all of the above + commit posted state
 
 Server setup (idempotent):   python scripts/discord_post.py setup-server
+AutoMod rules (idempotent):  python scripts/discord_post.py setup-automod
+Weekly activity (hourly):    python scripts/discord_post.py weekly
+24/7 bot:                    bash scripts/discord_bot_run.sh start|ensure|status
 Switch feeds to webhooks:    python scripts/discord_post.py setup-webhooks  (needs Manage Webhooks)
 """
 from __future__ import annotations
@@ -260,21 +263,24 @@ def cmd_snapshot_lfg(token: str, _args: argparse.Namespace) -> None:
                 continue
             emb = embeds[0]
             title = emb.get("title") or ""
-            if not title.upper().startswith("LFG"):
+            if not title.upper().startswith("LFG") or "(собрано)" in title:
                 continue
             fields = {f.get("name"): f.get("value") for f in (emb.get("fields") or []) if f.get("name")}
             nick = fields.get("Ник") or fields.get("Nick") or author.get("username") or "Bot"
             content = (emb.get("description") or title or "").strip()
             game = title.replace("LFG ·", "").replace("LFG · ", "").replace("LFG", "").strip() or ""
+            extra = " · ".join(v for v in (fields.get("Режим"), fields.get("Регион")) if v and v != "—")
+            if extra:
+                content = f"{content} ({extra})" if content else extra
             items.append(
                 {
                     "id": str(msg.get("id")),
                     "nick": nick,
                     "content": content[:280],
                     "game": game[:40],
-                    "rank": (fields.get("Ранг") or fields.get("Rank") or "")[:40],
-                    "prime": (fields.get("Прайм") or fields.get("Prime") or "")[:60],
-                    "mic": str(fields.get("Мик") or fields.get("Mic") or "").lower() in {"да", "yes", "true", "1"},
+                    "rank": (fields.get("Ранг") or fields.get("Rank") or "").replace("—", "")[:40],
+                    "prime": (fields.get("Прайм") or fields.get("Время") or fields.get("Prime") or "").replace("—", "")[:60],
+                    "mic": str(fields.get("Мик") or fields.get("Голос") or fields.get("Mic") or "").lower() in {"да", "yes", "true", "1"},
                     "note": content[:280],
                     "ts": msg.get("timestamp") or "",
                     "url": f"https://discord.com/channels/{GUILD_ID}/{cid}/{msg.get('id')}",
@@ -341,6 +347,10 @@ def cmd_sync_roles(token: str, _args: argparse.Namespace) -> None:
     cid, mapping = ch.get("roles"), ch.get("reactionRoles") or {}
     if not cid or not mapping:
         raise SystemExit("roles channel / reactionRoles missing — run setup-server first")
+    import fcntl
+    ROLES_STATE.parent.mkdir(parents=True, exist_ok=True)
+    lock = open(ROLES_STATE.with_name("reaction_roles.lock"), "w")  # shared with the 24/7 bot
+    fcntl.flock(lock, fcntl.LOCK_EX)
     me = bot.api("GET", "/users/@me")
     msgs = [m for m in (bot.api("GET", f"/channels/{cid}/messages?limit=20") or [])
             if m["author"]["id"] == me["id"] and any("NEXUS PULSE · roles-" in ((e.get("footer") or {}).get("text") or "") for e in m.get("embeds") or [])]
@@ -377,6 +387,8 @@ def cmd_sync_roles(token: str, _args: argparse.Namespace) -> None:
             granted.discard(uid)
         state[role_id] = sorted(granted)
     _save(ROLES_STATE, state)
+    fcntl.flock(lock, fcntl.LOCK_UN)
+    lock.close()
     print(f"reaction roles: +{added} / -{removed}")
 
 
@@ -525,6 +537,31 @@ def cmd_setup_webhooks(token: str, args: argparse.Namespace) -> None:
 
 
 
+def cmd_perms_signature(token: str, _args: argparse.Namespace) -> None:
+    """Print a signature of what the bot can do (guild perms + #🛡модерация access + app intents).
+    The box routine re-runs setup-server / setup-automod when it changes."""
+    bot = Bot(token)
+    perms, _info = bot.guild_permissions()
+    mod = load_channels().get("mod")
+    mod_ok = 0
+    if mod:
+        try:
+            bot.api("GET", f"/channels/{mod}")
+            mod_ok = 1
+        except DiscordError:
+            pass
+    flags = int((bot.api("GET", "/applications/@me") or {}).get("flags") or 0) & ((0b11 << 14) | (0b11 << 18))
+    print(f"{perms}:{mod_ok}:{flags}")
+
+
+def bot_alive(max_age: int = 300) -> bool:
+    try:
+        hb = json.loads((CACHE_DIR / "bot_heartbeat.json").read_text(encoding="utf-8"))
+        return datetime.now().timestamp() - int(hb.get("ts") or 0) < max_age
+    except Exception:  # noqa: BLE001
+        return False
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="NEXUS PULSE Discord poster")
     sub = parser.add_subparsers(dest="cmd", required=True)
@@ -555,12 +592,25 @@ def main() -> int:
     p_wh = sub.add_parser("setup-webhooks", help="Create feed webhooks + GitHub secret, feedMode → webhook")
     p_wh.add_argument("--repo", default="Derzko435/nexus-pulse")
 
+    sub.add_parser("setup-automod", help="Native AutoMod rules (idempotent; needs Manage Server)")
+    p_wk = sub.add_parser("weekly", help="Friday poll / Sunday digest / Saturday game night (box routine)")
+    p_wk.add_argument("--dry-run", action="store_true")
+    sub.add_parser("perms-signature", help="print bot capability signature (box routine)")
+    sub.add_parser("bot-alive", help="exit 0 if the 24/7 bot heartbeat is fresh")
+
     p_snap = sub.add_parser(
         "snapshot-lfg",
         help="Fetch #поиск-тимы → data/lfg_snapshot.json (run on box; Actions has no Discord token)",
     )
 
     args = parser.parse_args()
+    if args.cmd in ("setup-automod", "weekly"):
+        import subprocess
+        script = "discord_automod.py" if args.cmd == "setup-automod" else "discord_weekly.py"
+        extra = ["--dry-run"] if getattr(args, "dry_run", False) else []
+        return subprocess.run([sys.executable, str(ROOT / "scripts" / script), *extra], check=False).returncode
+    if args.cmd == "bot-alive":
+        return 0 if bot_alive() else 1
     if args.cmd == "setup-server":
         import subprocess
         return subprocess.run([sys.executable, str(ROOT / "scripts" / "discord_setup.py")], check=False).returncode
@@ -582,6 +632,8 @@ def main() -> int:
         cmd_sync_events(token, args)
     elif args.cmd == "post-feeds":
         cmd_post_feeds(token, args)
+    elif args.cmd == "perms-signature":
+        cmd_perms_signature(token, args)
     elif args.cmd == "setup-webhooks":
         cmd_setup_webhooks(token, args)
     return 0

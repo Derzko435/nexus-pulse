@@ -1,0 +1,7 @@
+{
+  "about": "Site-wide switches. telegram.channel: public channel @name — the Telegram button appears on the site and scripts/telegram_post.py posts there. runner: box | actions.",
+  "telegram": {
+    "channel": "",
+    "runner": "box"
+  }
+}

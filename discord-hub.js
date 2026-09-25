@@ -98,7 +98,27 @@
     });
   }
 
+  /* Кнопка Telegram-канала — только когда канал указан в data/site_config.json */
+  async function telegramButton() {
+    const cfg = await getJson("./data/site_config.json");
+    const tg = (cfg && cfg.telegram) || {};
+    const m = String(tg.channel || "").trim().match(/^@?([A-Za-z][\w]{4,31})$/);
+    if (!m || document.querySelector(".tg-cta")) return;
+    const url = "https://t.me/" + m[1];
+    $$("#discordCta").forEach((cta) => {
+      const a = document.createElement("a");
+      a.className = "btn btn-ghost tg-cta";
+      a.href = url;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      a.textContent = "Telegram-канал";
+      a.style.marginLeft = ".5rem";
+      cta.insertAdjacentElement("afterend", a);
+    });
+  }
+
   function init() {
+    setTimeout(() => telegramButton().catch(() => null), 1500);
     if (!inviteUrl()) return;
     const run = () => loadStats().then(render).catch(() => null);
     // не мешаем первой отрисовке страницы
