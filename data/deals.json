@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T16:03:40+03:00",
+  "updatedAt": "2026-09-25T19:00:27+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -19,7 +19,7 @@
       "old": 1999,
       "neu": 199,
       "pct": 90,
-      "url": "https://store.steampowered.com/app/1084160/",
+      "url": "https://store.steampowered.com/app/1084160/?curator_clanid=0",
       "steamAppId": "1084160"
     },
     {
@@ -93,6 +93,16 @@
       "steamAppId": "599140"
     },
     {
+      "id": "steam-1288320",
+      "title": "Way of the Hunter",
+      "store": "Steam",
+      "old": 1280,
+      "neu": 320,
+      "pct": 75,
+      "url": "https://store.steampowered.com/app/1288320/?curator_clanid=0",
+      "steamAppId": "1288320"
+    },
+    {
       "id": "steam-227300",
       "title": "Euro Truck Simulator 2",
       "store": "Steam",
@@ -121,16 +131,6 @@
       "pct": 75,
       "url": "https://store.steampowered.com/app/400750/?curator_clanid=0",
       "steamAppId": "400750"
-    },
-    {
-      "id": "steam-1593030",
-      "title": "Terra Nil",
-      "store": "Steam",
-      "old": 899,
-      "neu": 224,
-      "pct": 75,
-      "url": "https://store.steampowered.com/app/1593030/?curator_clanid=0",
-      "steamAppId": "1593030"
     },
     {
       "id": "steam-281990",
