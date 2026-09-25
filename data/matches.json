@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-25T21:13:37+03:00",
+ "updatedAt": "2026-09-25T22:35:08+03:00",
  "source": "bo3.gg",
  "matches": [
   {
@@ -10,7 +10,7 @@
    "teamB": "EYEBALLERS",
    "logoA": "https://files.bo3.gg/uploads/team/22218/image/webp-239b86baa849b6da4911c1df5e5a3220.webp",
    "logoB": "https://files.bo3.gg/uploads/team/3254/image/webp-0cb971f64329d464365ebe3bdeaacea9.webp",
-   "scoreA": 0,
+   "scoreA": 1,
    "scoreB": 1,
    "bo": 3,
    "status": "live",
@@ -36,8 +36,8 @@
    "teamB": "Team Yandex",
    "logoA": "https://files.bo3.gg/uploads/team/15143/image/webp-235f54dc6e1d478c8536240a49197cc4.webp",
    "logoB": "https://files.bo3.gg/uploads/team/20951/image/webp-102aceac7404bd2093f9b559afcad7b6.webp",
-   "scoreA": 0,
-   "scoreB": 0,
+   "scoreA": 1,
+   "scoreB": 1,
    "bo": 3,
    "status": "live",
    "event": "PGL Wallachia Season 9",
@@ -95,7 +95,7 @@
    "status": "upcoming",
    "event": "1win Private Club 1",
    "tier": "A",
-   "startsAt": "2026-09-25T23:30:00+03:00",
+   "startsAt": "2026-09-26T00:00:00+03:00",
    "streams": [
     {
      "type": "twitch",
@@ -106,6 +106,33 @@
     }
    ],
    "url": "https://bo3.gg/matches/gamerlegion-vs-k27-25-09-2026"
+  },
+  {
+   "id": "bo3-130318",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Xtreme Gaming",
+   "teamB": "GamerLegion",
+   "logoA": "https://files.bo3.gg/uploads/team/15776/image/webp-10e9cfcdcbb4a0192c4b328975ad6292.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/22027/image/webp-f42950afee48713daf40592585696801.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PGL Wallachia Season 9",
+   "tier": "S",
+   "startsAt": "2026-09-26T10:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl_dota2",
+     "lang": "en",
+     "official": true,
+     "label": "pgl_dota2",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/xtreme-gaming-dota2-vs-gamerlegion-dota2-26-09-2026"
   },
   {
    "id": "bo3-129829",
@@ -169,33 +196,6 @@
    "startsAt": "2026-09-26T12:00:00+03:00",
    "streams": [],
    "url": "https://bo3.gg/lol/matches/9gaming-vs-cybercore-esports-26-09-2026"
-  },
-  {
-   "id": "bo3-130318",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Xtreme Gaming",
-   "teamB": "GamerLegion",
-   "logoA": "https://files.bo3.gg/uploads/team/15776/image/webp-10e9cfcdcbb4a0192c4b328975ad6292.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/22027/image/webp-f42950afee48713daf40592585696801.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "PGL Wallachia Season 9",
-   "tier": "S",
-   "startsAt": "2026-09-26T13:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl_dota2",
-     "lang": "en",
-     "official": true,
-     "label": "pgl_dota2",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/xtreme-gaming-dota2-vs-gamerlegion-dota2-26-09-2026"
   },
   {
    "id": "bo3-129365",
