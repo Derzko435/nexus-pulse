@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T23:11:13+03:00",
+  "updatedAt": "2026-09-25T16:03:40+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -19,7 +19,7 @@
       "old": 1999,
       "neu": 199,
       "pct": 90,
-      "url": "https://store.steampowered.com/app/1084160/?curator_clanid=0",
+      "url": "https://store.steampowered.com/app/1084160/",
       "steamAppId": "1084160"
     },
     {
@@ -123,6 +123,16 @@
       "steamAppId": "400750"
     },
     {
+      "id": "steam-1593030",
+      "title": "Terra Nil",
+      "store": "Steam",
+      "old": 899,
+      "neu": 224,
+      "pct": 75,
+      "url": "https://store.steampowered.com/app/1593030/?curator_clanid=0",
+      "steamAppId": "1593030"
+    },
+    {
       "id": "steam-281990",
       "title": "Stellaris",
       "store": "Steam",
@@ -131,16 +141,6 @@
       "pct": 70,
       "url": "https://store.steampowered.com/app/281990/?curator_clanid=0",
       "steamAppId": "281990"
-    },
-    {
-      "id": "steam-2186680",
-      "title": "Warhammer 40,000: Rogue Trader",
-      "store": "Steam",
-      "old": 1599,
-      "neu": 479,
-      "pct": 70,
-      "url": "https://store.steampowered.com/app/2186680/",
-      "steamAppId": "2186680"
     }
   ]
 }
