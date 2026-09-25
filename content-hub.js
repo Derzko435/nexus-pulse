@@ -170,6 +170,11 @@
   function actions(list) {
     return `<div class="npv-actions">${list.filter(Boolean).join("")}<button type="button" class="btn btn-ghost btn-sm" data-npv-close>Закрыть</button></div>`;
   }
+  function discordLink(label) {
+    const u = String((window.NexusPulse && window.NexusPulse.DISCORD_INVITE_URL) || "");
+    return /^https:\/\/discord\.gg\/[\w-]+$/.test(u)
+      ? `<a class="btn btn-discord btn-sm" href="${esc(u)}" target="_blank" rel="noopener noreferrer">💬 ${esc(label)}</a>` : "";
+  }
   function extLink(url, label) {
     const u = safeUrl(url);
     return u ? `<a class="btn btn-primary btn-sm" href="${esc(u)}" target="_blank" rel="noopener noreferrer">${esc(label)} ↗</a>` : "";
@@ -230,7 +235,7 @@
       <h3 id="npvTitle">${esc(n.title)}</h3>
       <div class="npv-body">${blocksHtml(n.body)}</div>
       <p class="npv-source">Источник: ${esc(n.source)}. Полная версия материала — на сайте издания.</p>
-      ${actions([extLink(n.url, "Читать в источнике")])}`, { wide: true });
+      ${actions([extLink(n.url, "Читать в источнике"), discordLink("Обсудить в Discord")])}`, { wide: true });
   }
 
   /* ---------------- 2. Releases / patches ---------------- */
@@ -690,6 +695,21 @@
     await Promise.all(Object.values(jobs).map((p) => p.catch(() => null)));
   }
 
+  // deep links from Discord posts: #news=<id>, #video=<id>, #patch=<id>, #release=<appid>
+  function openFromHash() {
+    const m = location.hash.match(/^#(news|video|patch|release)=([\w-]{1,64})$/);
+    if (!m) return;
+    const [, kind, id] = m;
+    const sec = { news: "#news", video: "#videos", patch: "#calendar", release: "#calendar" }[kind];
+    $(sec)?.scrollIntoView();
+    setTimeout(() => {
+      if (kind === "news") openNews(id);
+      else if (kind === "video") openVideo(id);
+      else if (kind === "patch") openPatch(id);
+      else openRelease(id);
+    }, 250);
+  }
+
   function init() {
     renderGuides();
     const sg = $("#statGuides");
@@ -698,7 +718,8 @@
     renderVideos();
     const grid = $("#gamesGrid");
     if (grid) new MutationObserver(() => decorateCatalog()).observe(grid, { childList: true });
-    loadAll();
+    loadAll().then(openFromHash);
+    window.addEventListener("hashchange", openFromHash);
     // статусы матчей зависят от текущего времени — пересчитываем раз в минуту
     setInterval(renderMatches, 60000);
     const m = location.hash.match(/^#guide=([\w-]+)/);

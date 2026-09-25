@@ -41,10 +41,9 @@ jobs:
           fi
 
 
-      # Discord LFG snapshot (data/lfg_snapshot.json) is intentionally NOT run here:
-      # Actions has no Discord bot token. Box routines should call:
-      #   python scripts/discord_post.py snapshot-lfg
-      # then commit/sync the JSON into the deploy tree when desired.
+      # Discord LFG snapshot / roles / events are box routines (bot token stays on the box):
+      #   bash scripts/discord_box_sync.sh   (see scripts/discord_post.py)
+      # Discord feed posting from Actions uses webhooks → discord-feeds.yml (dispatched below).
       - name: Commit data/*.json if changed
         env:
           GH_TOKEN: ${{ github.token }}
@@ -60,3 +59,8 @@ jobs:
             git push
             gh workflow run pages.yml --ref main || echo "::warning::could not trigger pages deploy"
           fi
+
+      - name: Post fresh freebies to Discord
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run discord-feeds.yml --ref main || echo "::warning::could not trigger discord feed"

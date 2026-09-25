@@ -122,18 +122,8 @@ def curated_extras() -> list[dict]:
 
 
 def maybe_discord_post() -> None:
-    if not CHANNELS.is_file():
-        print("[update_freebies] no discord_channels.json — skip Discord", file=sys.stderr)
-        return
-    script = ROOT / "scripts" / "discord_post.py"
-    try:
-        subprocess.run(
-            [sys.executable, str(script), "post-freebies"],
-            check=False,
-            timeout=60,
-        )
-    except Exception as exc:  # noqa: BLE001
-        print(f"[update_freebies] discord post best-effort failed: {exc}", file=sys.stderr)
+    """Discord posting moved to the auto-feed (#🎁раздачи, deduped): scripts/discord_feeds.py."""
+    return
 
 
 def main() -> int:

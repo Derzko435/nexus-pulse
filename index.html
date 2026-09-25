@@ -36,6 +36,7 @@
         <button type="button" class="btn btn-primary btn-sm install-btn" id="installBtn" hidden aria-label="Установить NEXUS PULSE">
           <span aria-hidden="true">⬇</span><span class="install-label" data-i18n="pwa.install">Установить</span><span class="install-brand"> NEXUS PULSE</span>
         </button>
+        <a href="#community" class="btn btn-discord btn-sm discord-cta header-discord" id="headerDiscord" aria-label="Зайти в Discord NEXUS PULSE"><svg class="dc-logo" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="currentColor" d="M20.3 4.4A19.6 19.6 0 0 0 15.4 3l-.6 1.3a18 18 0 0 0-5.6 0L8.6 3a19.5 19.5 0 0 0-4.9 1.5C.6 9.1-.3 13.6.1 18.1a19.7 19.7 0 0 0 6 3l1.3-2a12.7 12.7 0 0 1-2-1l.5-.4a14 14 0 0 0 12.2 0l.5.4-2 1 1.3 2a19.6 19.6 0 0 0 6-3c.5-5.2-.8-9.7-3.6-13.7ZM8 15.4c-1.2 0-2.2-1.1-2.2-2.4S6.8 10.6 8 10.6s2.2 1.1 2.2 2.4-1 2.4-2.2 2.4Zm8 0c-1.2 0-2.2-1.1-2.2-2.4s1-2.4 2.2-2.4 2.2 1.1 2.2 2.4-1 2.4-2.2 2.4Z"/></svg><span class="hd-label">Discord</span><span class="dc-online-badge" data-dc-online hidden></span></a>
         <div class="lang-switcher">
           <button type="button" class="lang-toggle" id="langToggle" aria-expanded="false" aria-haspopup="true" aria-label="Language">
             <span class="lang-globe" aria-hidden="true">🌐</span>
@@ -317,6 +318,11 @@
             </div>
           </div>
           <div id="matchesLive" class="matches-groups"></div>
+        </div>
+        <div class="dc-strip glass">
+          <span class="dc-strip-icon" aria-hidden="true"><svg class="dc-logo" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="currentColor" d="M20.3 4.4A19.6 19.6 0 0 0 15.4 3l-.6 1.3a18 18 0 0 0-5.6 0L8.6 3a19.5 19.5 0 0 0-4.9 1.5C.6 9.1-.3 13.6.1 18.1a19.7 19.7 0 0 0 6 3l1.3-2a12.7 12.7 0 0 1-2-1l.5-.4a14 14 0 0 0 12.2 0l.5.4-2 1 1.3 2a19.6 19.6 0 0 0 6-3c.5-5.2-.8-9.7-3.6-13.7ZM8 15.4c-1.2 0-2.2-1.1-2.2-2.4S6.8 10.6 8 10.6s2.2 1.1 2.2 2.4-1 2.4-2.2 2.4Zm8 0c-1.2 0-2.2-1.1-2.2-2.4s1-2.4 2.2-2.4 2.2 1.1 2.2 2.4-1 2.4-2.2 2.4Z"/></svg></span>
+          <div class="dc-strip-text"><strong>Большие матчи — вместе в Discord</strong><span>Напоминания о лайвах топ-турниров, события сервера и чат, где болеют вместе. Включи роль 🔔 Матчи.</span></div>
+          <a href="#community" class="btn btn-discord btn-sm discord-cta">Зайти в Discord</a>
         </div>
 
         <div class="esports-layout">
@@ -601,6 +607,11 @@
           <p class="pulse-updated" id="freebiesUpdated">Обновлено: —</p>
         </div>
         <div class="cards-grid freebies-grid" id="freebiesGrid"></div>
+        <div class="dc-strip glass">
+          <span class="dc-strip-icon" aria-hidden="true"><svg class="dc-logo" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="currentColor" d="M20.3 4.4A19.6 19.6 0 0 0 15.4 3l-.6 1.3a18 18 0 0 0-5.6 0L8.6 3a19.5 19.5 0 0 0-4.9 1.5C.6 9.1-.3 13.6.1 18.1a19.7 19.7 0 0 0 6 3l1.3-2a12.7 12.7 0 0 1-2-1l.5-.4a14 14 0 0 0 12.2 0l.5.4-2 1 1.3 2a19.6 19.6 0 0 0 6-3c.5-5.2-.8-9.7-3.6-13.7ZM8 15.4c-1.2 0-2.2-1.1-2.2-2.4S6.8 10.6 8 10.6s2.2 1.1 2.2 2.4-1 2.4-2.2 2.4Zm8 0c-1.2 0-2.2-1.1-2.2-2.4s1-2.4 2.2-2.4 2.2 1.1 2.2 2.4-1 2.4-2.2 2.4Z"/></svg></span>
+          <div class="dc-strip-text"><strong>Не пропускай халяву</strong><span>Новые бесплатные игры приходят в Discord сразу, как только появляются. Роль 🔔 Раздачи — и ты узнаешь первым.</span></div>
+          <a href="#community" class="btn btn-discord btn-sm discord-cta">Зайти в Discord</a>
+        </div>
       </div>
     </section>
 
@@ -644,6 +655,11 @@
             <div class="lfg-feed" id="lfgFeed"></div>
           </div>
         </div>
+        <div class="dc-strip glass">
+          <span class="dc-strip-icon" aria-hidden="true"><svg class="dc-logo" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="currentColor" d="M20.3 4.4A19.6 19.6 0 0 0 15.4 3l-.6 1.3a18 18 0 0 0-5.6 0L8.6 3a19.5 19.5 0 0 0-4.9 1.5C.6 9.1-.3 13.6.1 18.1a19.7 19.7 0 0 0 6 3l1.3-2a12.7 12.7 0 0 1-2-1l.5-.4a14 14 0 0 0 12.2 0l.5.4-2 1 1.3 2a19.6 19.6 0 0 0 6-3c.5-5.2-.8-9.7-3.6-13.7ZM8 15.4c-1.2 0-2.2-1.1-2.2-2.4S6.8 10.6 8 10.6s2.2 1.1 2.2 2.4-1 2.4-2.2 2.4Zm8 0c-1.2 0-2.2-1.1-2.2-2.4s1-2.4 2.2-2.4 2.2 1.1 2.2 2.4-1 2.4-2.2 2.4Z"/></svg></span>
+          <div class="dc-strip-text"><strong>Тиммейты ждут в Discord</strong><span>Канал #поиск-тимы, голосовые комнаты на дуо, сквад и рейд, роли по играм — собери пати за пару минут.</span></div>
+          <a href="#community" class="btn btn-discord btn-sm discord-cta">Найти тиму</a>
+        </div>
       </div>
     </section>
 
@@ -685,6 +701,11 @@
         </div>
         <div class="news-grid" id="newsGrid"></div>
         <div class="more-wrap"><button type="button" class="btn btn-ghost btn-sm" id="newsMore" hidden>Показать ещё новости</button></div>
+        <div class="dc-strip glass">
+          <span class="dc-strip-icon" aria-hidden="true"><svg class="dc-logo" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="currentColor" d="M20.3 4.4A19.6 19.6 0 0 0 15.4 3l-.6 1.3a18 18 0 0 0-5.6 0L8.6 3a19.5 19.5 0 0 0-4.9 1.5C.6 9.1-.3 13.6.1 18.1a19.7 19.7 0 0 0 6 3l1.3-2a12.7 12.7 0 0 1-2-1l.5-.4a14 14 0 0 0 12.2 0l.5.4-2 1 1.3 2a19.6 19.6 0 0 0 6-3c.5-5.2-.8-9.7-3.6-13.7ZM8 15.4c-1.2 0-2.2-1.1-2.2-2.4S6.8 10.6 8 10.6s2.2 1.1 2.2 2.4-1 2.4-2.2 2.4Zm8 0c-1.2 0-2.2-1.1-2.2-2.4s1-2.4 2.2-2.4 2.2 1.1 2.2 2.4-1 2.4-2.2 2.4Z"/></svg></span>
+          <div class="dc-strip-text"><strong>Новости обсуждаем в Discord</strong><span>Свежие новости, патчи и видео сами приходят в ленту сервера — заходи обсудить.</span></div>
+          <a href="#community" class="btn btn-discord btn-sm discord-cta">Зайти в Discord</a>
+        </div>
       </div>
     </section>
 
@@ -694,25 +715,45 @@
           <div class="community-copy">
             <p class="eyebrow" data-i18n="community.eyebrow">Комьюнити</p>
             <h2 data-i18n="community.title">Залетай в Discord NEXUS PULSE</h2>
-            <p data-i18n="community.lead">Мета, клипы, поиск тимы и гайды. Залетай по инвайту — сервер уже открыт.</p>
+            <p data-i18n="community.lead">Халява, скидки, большие матчи и поиск тимы — в одном месте. Лента на сервере обновляется сама каждый день.</p>
+            <ul class="dc-perks">
+              <li><span aria-hidden="true">🎁</span><span><b>Халява первой</b> — бесплатные игры Epic и не только, как только появились</span></li>
+              <li><span aria-hidden="true">🏆</span><span><b>Большие матчи</b> — расписание, лайвы и события сервера</span></li>
+              <li><span aria-hidden="true">🔎</span><span><b>Тиммейты</b> — поиск пати, голосовые каналы и роли по играм</span></li>
+              <li><span aria-hidden="true">📡</span><span><b>Автолента</b> — новости, патчи, релизы, видео и игра дня</span></li>
+            </ul>
             <ul class="channel-preview" aria-label="Каналы сервера">
               <li><span class="ch-hash">#</span>общий</li>
-              <li><span class="ch-hash">#</span>новости</li>
               <li><span class="ch-hash">#</span>поиск-тимы</li>
-              <li><span class="ch-hash">#</span>гайды</li>
+              <li><span class="ch-hash">#</span>раздачи</li>
               <li><span class="ch-hash">#</span>скидки</li>
-              <li><span class="ch-hash">#</span>скриншоты</li>
-              <li><span class="ch-hash">#</span>голос-лобби</li>
+              <li><span class="ch-hash">#</span>киберспорт</li>
+              <li><span class="ch-hash">#</span>скриншоты-клипы</li>
+              <li><span class="ch-hash">#</span>знакомства</li>
+              <li><span class="ch-hash">🔊</span>сквад</li>
             </ul>
             <a href="#" class="btn btn-primary discord-cta" id="discordCta" target="_blank" rel="noopener noreferrer" data-i18n="community.join">Присоединиться</a>
           </div>
-          <div class="community-visual" aria-hidden="true">
-            <div class="discord-mock">
-              <div class="dm-header">NEXUS PULSE · #общий</div>
-              <div class="dm-msg"><b>RazerFox</b> кто на ранкид CS2?</div>
-              <div class="dm-msg"><b>NeonKat</b> скинул гайд по мыши в #гайды</div>
-              <div class="dm-msg"><b>PulseBot</b> турнир стартует через 2ч 🔥</div>
-              <div class="dm-msg"><b>VoidRunner</b> собираем 5-ку в #поиск-тимы</div>
+          <div class="community-visual">
+            <div class="dc-card" id="discordLive">
+              <div class="dc-card-banner" aria-hidden="true"></div>
+              <div class="dc-card-head">
+                <img class="dc-icon" id="dcIcon" src="assets/nexus-pulse-icon.png" alt="" width="64" height="64" loading="lazy">
+                <div class="dc-card-title">
+                  <p class="dc-name" id="dcName">NEXUS PULSE</p>
+                  <p class="dc-stats" aria-live="polite"><span class="dc-dot" aria-hidden="true"></span><span id="dcOnline">Сервер открыт</span><span id="dcMembers"></span></p>
+                </div>
+              </div>
+              <p class="dc-card-label">Лента сервера</p>
+              <ul class="dc-feed">
+              <li><span class="dc-ch-emoji" aria-hidden="true">🎁</span><span class="dc-ch-name">раздачи</span><span class="dc-ch-note">бесплатные игры</span></li>
+              <li><span class="dc-ch-emoji" aria-hidden="true">💸</span><span class="dc-ch-name">скидки</span><span class="dc-ch-note">от −50% в Steam</span></li>
+              <li><span class="dc-ch-emoji" aria-hidden="true">🏆</span><span class="dc-ch-name">киберспорт</span><span class="dc-ch-note">матчи и лайвы</span></li>
+              <li><span class="dc-ch-emoji" aria-hidden="true">📰</span><span class="dc-ch-name">новости</span><span class="dc-ch-note">главное за день</span></li>
+              <li><span class="dc-ch-emoji" aria-hidden="true">🎮</span><span class="dc-ch-name">игра-дня</span><span class="dc-ch-note">во что залипнуть</span></li>
+              </ul>
+              <a href="#" class="btn btn-discord btn-block discord-cta dc-join" id="dcJoin" target="_blank" rel="noopener noreferrer"><svg class="dc-logo" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="currentColor" d="M20.3 4.4A19.6 19.6 0 0 0 15.4 3l-.6 1.3a18 18 0 0 0-5.6 0L8.6 3a19.5 19.5 0 0 0-4.9 1.5C.6 9.1-.3 13.6.1 18.1a19.7 19.7 0 0 0 6 3l1.3-2a12.7 12.7 0 0 1-2-1l.5-.4a14 14 0 0 0 12.2 0l.5.4-2 1 1.3 2a19.6 19.6 0 0 0 6-3c.5-5.2-.8-9.7-3.6-13.7ZM8 15.4c-1.2 0-2.2-1.1-2.2-2.4S6.8 10.6 8 10.6s2.2 1.1 2.2 2.4-1 2.4-2.2 2.4Zm8 0c-1.2 0-2.2-1.1-2.2-2.4s1-2.4 2.2-2.4 2.2 1.1 2.2 2.4-1 2.4-2.2 2.4Z"/></svg>Зайти в Discord</a>
+              <p class="dc-note">Бесплатно · займёт 10 секунд</p>
             </div>
           </div>
         </div>
@@ -748,7 +789,7 @@
         <a href="#community">Discord</a>
       </nav>
       <div class="footer-socials">
-        <a href="https://discord.gg/c7UHcM2UR" class="discord-cta" id="footerDiscord" aria-label="Discord" target="_blank" rel="noopener noreferrer">Discord</a>
+        <a href="https://discord.gg/7JvfzNrt4x" class="btn btn-discord btn-sm discord-cta" id="footerDiscord" aria-label="Зайти в Discord NEXUS PULSE" target="_blank" rel="noopener noreferrer"><svg class="dc-logo" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="currentColor" d="M20.3 4.4A19.6 19.6 0 0 0 15.4 3l-.6 1.3a18 18 0 0 0-5.6 0L8.6 3a19.5 19.5 0 0 0-4.9 1.5C.6 9.1-.3 13.6.1 18.1a19.7 19.7 0 0 0 6 3l1.3-2a12.7 12.7 0 0 1-2-1l.5-.4a14 14 0 0 0 12.2 0l.5.4-2 1 1.3 2a19.6 19.6 0 0 0 6-3c.5-5.2-.8-9.7-3.6-13.7ZM8 15.4c-1.2 0-2.2-1.1-2.2-2.4S6.8 10.6 8 10.6s2.2 1.1 2.2 2.4-1 2.4-2.2 2.4Zm8 0c-1.2 0-2.2-1.1-2.2-2.4s1-2.4 2.2-2.4 2.2 1.1 2.2 2.4-1 2.4-2.2 2.4Z"/></svg>Зайти в Discord</a>
       </div>
     </div>
     <div class="container footer-bottom">
@@ -774,6 +815,7 @@
   <script src="features-extra.js"></script>
   <script src="guides-content.js"></script>
   <script src="content-hub.js"></script>
+  <script src="discord-hub.js"></script>
   <script>
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", function () {

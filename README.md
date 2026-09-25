@@ -62,7 +62,7 @@ python3 -m http.server 8080
 Инвайт задаётся **в одном месте** — константа в начале `app.js`:
 
 ```js
-const DISCORD_INVITE_URL = "https://discord.gg/c7UHcM2UR";
+const DISCORD_INVITE_URL = "https://discord.gg/7JvfzNrt4x";
 ```
 
 - Пусто или `#` → кнопки disabled / «Скоро».  
@@ -123,3 +123,16 @@ python3 scripts/update_deals.py --count 14
 ## Шрифты
 
 Google Fonts: **Orbitron** (заголовки) + **Manrope** (текст).
+
+## Discord automation
+
+| What | Where | When |
+|---|---|---|
+| Server structure, roles, rules/welcome messages, invite (idempotent) | `python scripts/discord_post.py setup-server` (box) | on demand |
+| Auto-feed: news, deals ≥50%, freebies, esports, patches, videos, releases, game of the day | `scripts/discord_feeds.py` — bot mode on the box (`scripts/discord_box_sync.sh`) or webhook mode in Actions (`.github/workflows/discord-feeds.yml`, secret `DISCORD_WEBHOOKS_JSON`) | hourly (box) / after each data refresh (Actions) |
+| Dedupe state | `data/discord_posted.json` (ids only) | — |
+| Scheduled events for top matches | `discord_post.py sync-events` (box) | hourly |
+| Reaction role-picker in #🎭роли | `discord_post.py sync-roles` (box) | hourly |
+| Switch feed to webhooks | `discord_post.py setup-webhooks` (needs Manage Webhooks) → sets `feedMode: "webhook"` | once |
+
+The bot token is never stored in GitHub; webhook URLs live only in the repo secret.

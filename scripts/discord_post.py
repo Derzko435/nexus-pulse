@@ -4,8 +4,15 @@
 Token from DISCORD_BOT_TOKEN or /home/box/.config/discord-bot-token.
 Never prints the token.
 
-Box routine (not GitHub Actions — no Discord secret there):
+Box routine (not GitHub Actions — the bot token never goes to GitHub):
   python scripts/discord_post.py snapshot-lfg
+  python scripts/discord_post.py sync-roles     # reaction role-picker in #🎭роли
+  python scripts/discord_post.py sync-events    # Discord scheduled events for top matches
+  python scripts/discord_post.py post-feeds     # auto-feed via bot (only while feedMode == "bot")
+  bash scripts/discord_box_sync.sh              # all of the above + commit posted state
+
+Server setup (idempotent):   python scripts/discord_post.py setup-server
+Switch feeds to webhooks:    python scripts/discord_post.py setup-webhooks  (needs Manage Webhooks)
 """
 from __future__ import annotations
 
@@ -17,6 +24,9 @@ import urllib.error
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from discord_api import Bot, DiscordError  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 CHANNELS_FILE = ROOT / "data" / "discord_channels.json"
@@ -30,9 +40,14 @@ GUILD_ID = "1552735502266794204"
 API = "https://discord.com/api/v10"
 MSK = timezone(timedelta(hours=3), name="MSK")
 
-CATEGORY_NAME = "ИГРЫ"
-LFG_CHANNEL = "поиск-тимы"
-ANNOUNCE_CHANNEL = "анонсы"
+CATEGORY_NAME = "🎮 ИГРЫ"
+LFG_CHANNEL = "🔎поиск-тимы"
+ANNOUNCE_CHANNEL = "📢анонсы"
+SITE = "https://derzko435.github.io/nexus-pulse/"
+LOGO = SITE + "assets/nexus-pulse-icon.png"
+EVENTS_STATE = CACHE_DIR / "discord_events.json"
+ROLES_STATE = CACHE_DIR / "reaction_roles.json"
+WEBHOOK_FEEDS = ["news", "deals", "freebies", "esports", "patches", "videos", "releases", "gotd"]
 
 
 def load_token() -> str:
@@ -45,24 +60,10 @@ def load_token() -> str:
 
 
 def api(method: str, path: str, token: str, body: dict | None = None) -> dict | list | None:
-    data = None
-    headers = {
-        "Authorization": f"Bot {token}",
-        "User-Agent": "NexusPulseBot/1.0",
-        "Content-Type": "application/json",
-    }
-    if body is not None:
-        data = json.dumps(body).encode("utf-8")
-    req = urllib.request.Request(API + path, data=data, headers=headers, method=method)
     try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            raw = resp.read()
-            if not raw:
-                return None
-            return json.loads(raw.decode("utf-8"))
-    except urllib.error.HTTPError as e:
-        err = e.read().decode("utf-8", "replace")
-        raise SystemExit(f"Discord API {method} {path} → {e.code}: {err[:500]}") from e
+        return Bot(token).api(method, path, body)
+    except DiscordError as e:
+        raise SystemExit(str(e)) from None
 
 
 def load_channels() -> dict:
@@ -71,89 +72,39 @@ def load_channels() -> dict:
     return {}
 
 
-def save_channels(data: dict) -> None:
-    CHANNELS_FILE.parent.mkdir(parents=True, exist_ok=True)
-    # ids only — no secrets
-    clean = {k: str(v) for k, v in data.items() if v is not None}
-    CHANNELS_FILE.write_text(json.dumps(clean, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-
-
 def ensure_channels(token: str) -> dict:
+    """Resolve LFG / announcements channel ids (by saved id first, then by name).
+
+    Full server structure is managed by scripts/discord_setup.py (setup-server).
+    """
+    saved = load_channels()
     channels = api("GET", f"/guilds/{GUILD_ID}/channels", token)
     if not isinstance(channels, list):
         raise SystemExit("Unexpected channels response")
+    by_id = {c["id"]: c for c in channels}
 
-    by_name: dict[str, dict] = {}
-    categories: dict[str, dict] = {}
-    for ch in channels:
-        name = ch.get("name") or ""
-        if ch.get("type") == 4:
-            categories[name] = ch
-        else:
-            by_name[name] = ch
+    def norm(n: str) -> str:
+        import re
+        return re.sub(r"[^0-9a-zа-яё-]", "", (n or "").lower())
 
-    cat = categories.get(CATEGORY_NAME)
-    if not cat:
-        cat = api(
-            "POST",
-            f"/guilds/{GUILD_ID}/channels",
-            token,
-            {"name": CATEGORY_NAME, "type": 4, "reason": "NEXUS PULSE setup"},
-        )
-        print(f"Created category {CATEGORY_NAME}")
-    cat_id = str(cat["id"])
+    def find(key: str, name: str) -> str | None:
+        cid = saved.get(key)
+        if cid and cid in by_id:
+            return cid
+        for c in channels:
+            if c.get("type") == 0 and norm(c.get("name")) == norm(name):
+                return c["id"]
+        return None
 
-    def ensure_text(name: str) -> str:
-        existing = by_name.get(name)
-        if existing:
-            # move under category if needed
-            if str(existing.get("parent_id") or "") != cat_id and name == LFG_CHANNEL:
-                try:
-                    api(
-                        "PATCH",
-                        f"/channels/{existing['id']}",
-                        token,
-                        {"parent_id": cat_id},
-                    )
-                except SystemExit as exc:
-                    print(f"[warn] could not reparent #{name}: {exc}", file=sys.stderr)
-            return str(existing["id"])
-        created = api(
-            "POST",
-            f"/guilds/{GUILD_ID}/channels",
-            token,
-            {
-                "name": name,
-                "type": 0,
-                "parent_id": cat_id,
-                "topic": "NEXUS PULSE · auto",
-                "reason": "NEXUS PULSE setup",
-            },
-        )
-        print(f"Created text channel #{name}")
-        return str(created["id"])
-
-    # Prefer existing анонсы anywhere; create under ИГРЫ if missing
-    announce = by_name.get(ANNOUNCE_CHANNEL)
-    if announce:
-        announce_id = str(announce["id"])
-    else:
-        announce_id = ensure_text(ANNOUNCE_CHANNEL)
-
-    lfg_id = ensure_text(LFG_CHANNEL)
-
-    out = {
-        "guild_id": GUILD_ID,
-        "category_games": cat_id,
-        "channel_lfg": lfg_id,
-        "channel_announcements": announce_id,
-        "channel_lfg_name": LFG_CHANNEL,
-        "channel_announcements_name": ANNOUNCE_CHANNEL,
-        "updatedAt": datetime.now(MSK).isoformat(timespec="seconds"),
-    }
-    save_channels(out)
-    print(json.dumps({k: out[k] for k in ("channel_lfg", "channel_announcements", "category_games")}, ensure_ascii=False))
-    return out
+    lfg = find("channel_lfg", LFG_CHANNEL) or LFG_CHANNEL_ID_DEFAULT
+    ann = find("channel_announcements", ANNOUNCE_CHANNEL)
+    if not ann:
+        raise SystemExit("announcements channel not found — run: python scripts/discord_post.py setup-server")
+    saved.update({"guild_id": GUILD_ID, "channel_lfg": lfg, "channel_announcements": ann,
+                  "updatedAt": datetime.now(MSK).isoformat(timespec="seconds")})
+    CHANNELS_FILE.write_text(json.dumps(saved, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(json.dumps({"channel_lfg": lfg, "channel_announcements": ann}, ensure_ascii=False))
+    return saved
 
 
 def post_message(token: str, channel_id: str, content: str = "", embeds: list | None = None) -> dict:
@@ -166,14 +117,27 @@ def post_message(token: str, channel_id: str, content: str = "", embeds: list | 
 
 
 def cmd_post_alert(token: str, args: argparse.Namespace) -> None:
+    """Manual price alert → #💸скидки (deduped: same title+pct is posted once per 7 days)."""
     ch = load_channels()
-    cid = ch.get("channel_announcements")
+    cid = (ch.get("feeds") or {}).get("deals") or ch.get("channel_announcements")
     if not cid:
         ch = ensure_channels(token)
         cid = ch["channel_announcements"]
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    stamp = CACHE_DIR / "price_alerts_posted.json"
+    try:
+        seen = json.loads(stamp.read_text(encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        seen = {}
+    key = f"{args.title.strip().lower()}|{args.pct}"
+    cutoff = (datetime.now(MSK) - timedelta(days=7)).isoformat()
+    seen = {k: v for k, v in seen.items() if v >= cutoff}
+    if key in seen:
+        print(f"Alert already posted {seen[key]} — skip")
+        return
     embed = {
         "title": f"🔥 {args.title}",
-        "description": f"Скидка **−{args.pct}%** · {args.store or 'store'}",
+        "description": f"Скидка **−{args.pct}%** · {args.store or 'store'}\n[Все скидки на NEXUS PULSE →]({SITE}#deals)",
         "url": args.url or None,
         "color": 0x00F5FF,
         "footer": {"text": "NEXUS PULSE · price alert"},
@@ -182,7 +146,9 @@ def cmd_post_alert(token: str, args: argparse.Namespace) -> None:
     if not embed["url"]:
         embed.pop("url")
     post_message(token, cid, embeds=[embed])
-    print(f"Posted alert to #{ANNOUNCE_CHANNEL} ({cid})")
+    seen[key] = datetime.now(MSK).isoformat(timespec="seconds")
+    stamp.write_text(json.dumps(seen, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    print(f"Posted alert ({cid})")
 
 
 def cmd_post_lfg(token: str, args: argparse.Namespace) -> None:
@@ -211,72 +177,11 @@ def cmd_post_lfg(token: str, args: argparse.Namespace) -> None:
     print(f"Posted LFG to #{LFG_CHANNEL} ({cid})")
 
 
-def freebies_fingerprint(payload: dict) -> str:
-    items = payload.get("items") or []
-    parts = []
-    for it in items:
-        parts.append(f"{it.get('id')}|{it.get('title')}|{it.get('until')}|{it.get('store')}")
-    return "\n".join(sorted(parts))
-
-
 def cmd_post_freebies(token: str, _args: argparse.Namespace) -> None:
-    if not FREEBIES_FILE.is_file():
-        raise SystemExit(f"Missing {FREEBIES_FILE}")
-    payload = json.loads(FREEBIES_FILE.read_text(encoding="utf-8"))
-    items = payload.get("items") or []
-    CACHE_DIR.mkdir(parents=True, exist_ok=True)
-    stamp = CACHE_DIR / "freebies_last_posted.json"
-    fp = freebies_fingerprint(payload)
-    if stamp.is_file():
-        try:
-            prev = json.loads(stamp.read_text(encoding="utf-8"))
-            if prev.get("fingerprint") == fp:
-                print("Freebies unchanged — skip Discord post")
-                return
-        except Exception:  # noqa: BLE001
-            pass
-
-    ch = load_channels()
-    cid = ch.get("channel_announcements")
-    if not cid:
-        ch = ensure_channels(token)
-        cid = ch["channel_announcements"]
-
-    lines = []
-    for it in items[:12]:
-        until = it.get("until") or "—"
-        url = it.get("claimUrl") or ""
-        title = it.get("title") or "?"
-        store = it.get("store") or ""
-        if url:
-            lines.append(f"• **{title}** ({store}) до {until}\n  {url}")
-        else:
-            lines.append(f"• **{title}** ({store}) до {until}")
-    desc = "\n".join(lines) if lines else "Список пуст"
-    if len(desc) > 3900:
-        desc = desc[:3900] + "…"
-    embed = {
-        "title": "🎁 Халява · бесплатные игры",
-        "description": desc,
-        "color": 0x3DFF9A,
-        "footer": {"text": f"NEXUS PULSE · {payload.get('source', 'freebies')}"},
-        "timestamp": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-    }
-    post_message(token, cid, embeds=[embed])
-    stamp.write_text(
-        json.dumps(
-            {
-                "fingerprint": fp,
-                "postedAt": datetime.now(MSK).isoformat(timespec="seconds"),
-                "count": len(items),
-            },
-            ensure_ascii=False,
-            indent=2,
-        )
-        + "\n",
-        encoding="utf-8",
-    )
-    print(f"Posted freebies ({len(items)} items) to #{ANNOUNCE_CHANNEL} ({cid})")
+    """Deprecated: freebies are posted by the auto-feed (#🎁раздачи, deduped)."""
+    import subprocess
+    subprocess.run([sys.executable, str(ROOT / "scripts" / "discord_feeds.py"), "--mode", "bot",
+                    "--require-mode", "bot", "--only", "freebies"], check=False, timeout=120)
 
 
 def parse_lfg_fields(content: str) -> dict:
@@ -414,6 +319,211 @@ def cmd_snapshot_lfg(token: str, _args: argparse.Namespace) -> None:
     print(f"Wrote {LFG_SNAPSHOT_FILE} · {len(items)} items (channel #{LFG_CHANNEL})")
 
 
+# ---------------------------------------------------------------- reaction roles
+def _load(path: Path, default):
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        return default
+
+
+def _save(path: Path, data) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+
+
+def cmd_sync_roles(token: str, _args: argparse.Namespace) -> None:
+    """Reaction role-picker without a gateway bot: poll reactions on the #🎭роли messages
+    and add/remove the matching roles. Only removes roles this command granted itself."""
+    from urllib.parse import quote
+    bot = Bot(token)
+    ch = load_channels()
+    cid, mapping = ch.get("roles"), ch.get("reactionRoles") or {}
+    if not cid or not mapping:
+        raise SystemExit("roles channel / reactionRoles missing — run setup-server first")
+    me = bot.api("GET", "/users/@me")
+    msgs = [m for m in (bot.api("GET", f"/channels/{cid}/messages?limit=20") or [])
+            if m["author"]["id"] == me["id"] and any("NEXUS PULSE · roles-" in ((e.get("footer") or {}).get("text") or "") for e in m.get("embeds") or [])]
+    state = _load(ROLES_STATE, {})
+    added = removed = 0
+    for emoji, role_id in mapping.items():
+        users: set[str] = set()
+        for m in msgs:
+            if not any((r.get("emoji") or {}).get("name") == emoji for r in m.get("reactions") or []):
+                continue
+            after = "0"
+            while True:
+                page = bot.api("GET", f"/channels/{cid}/messages/{m['id']}/reactions/{quote(emoji)}?limit=100&after={after}") or []
+                users |= {u["id"] for u in page if not u.get("bot")}
+                if len(page) < 100:
+                    break
+                after = page[-1]["id"]
+        granted = set(state.get(role_id) or [])
+        for uid in sorted(users - granted):
+            try:
+                bot.api("PUT", f"/guilds/{GUILD_ID}/members/{uid}/roles/{role_id}", reason="reaction role")
+                granted.add(uid)
+                added += 1
+            except DiscordError as e:
+                print(f"[warn] add role failed ({e.code})", file=sys.stderr)
+        for uid in sorted(granted - users):
+            try:
+                bot.api("DELETE", f"/guilds/{GUILD_ID}/members/{uid}/roles/{role_id}", reason="reaction removed")
+                removed += 1
+            except DiscordError as e:
+                if e.code != 404:
+                    print(f"[warn] remove role failed ({e.code})", file=sys.stderr)
+                    continue
+            granted.discard(uid)
+        state[role_id] = sorted(granted)
+    _save(ROLES_STATE, state)
+    print(f"reaction roles: +{added} / -{removed}")
+
+
+# ---------------------------------------------------------------- scheduled events
+def cmd_sync_events(token: str, args: argparse.Namespace) -> None:
+    """Create Discord scheduled events (external) for the next top-tier matches from
+    data/matches.json; keep them in sync (start/finish/cancel). Needs CREATE_EVENTS."""
+    bot = Bot(token)
+    data = _load(ROOT / "data" / "matches.json", {})
+    matches = {m["id"]: m for m in data.get("matches") or [] if m.get("id") and m.get("startsAt") and m.get("teamA")}
+    now = datetime.now(timezone.utc)
+    state = _load(EVENTS_STATE, {})  # match_id -> event_id
+    events = {e["id"]: e for e in bot.api("GET", f"/guilds/{GUILD_ID}/scheduled-events") or []}
+    me = bot.api("GET", "/users/@me")
+    games = {"cs2": "CS2", "dota2": "Dota 2", "valorant": "Valorant", "lol": "LoL"}
+
+    def times(m):
+        st = datetime.fromisoformat(m["startsAt"]).astimezone(timezone.utc)
+        try:
+            bo = int(m.get("bo") or 3)
+        except ValueError:
+            bo = 3
+        return st, st + timedelta(minutes=45 + 55 * bo)
+
+    def iso(d):
+        return d.strftime("%Y-%m-%dT%H:%M:%S.000Z")
+
+    changed = 0
+    # 1) update / close events we created
+    for mid, eid in list(state.items()):
+        ev = events.get(eid)
+        if not ev:
+            state.pop(mid)
+            continue
+        m = matches.get(mid)
+        st_ev = ev["status"]  # 1 scheduled, 2 active, 3 completed, 4 canceled
+        end_ev = datetime.fromisoformat(ev["scheduled_end_time"].replace("Z", "+00:00"))
+        try:
+            if m and m.get("status") == "live" and st_ev == 1:
+                bot.api("PATCH", f"/guilds/{GUILD_ID}/scheduled-events/{eid}", {"status": 2}); changed += 1
+            elif (m and m.get("status") == "finished") or (not m and now > end_ev):
+                if st_ev == 2:
+                    bot.api("PATCH", f"/guilds/{GUILD_ID}/scheduled-events/{eid}", {"status": 3}); changed += 1
+                elif st_ev == 1:
+                    bot.api("PATCH", f"/guilds/{GUILD_ID}/scheduled-events/{eid}", {"status": 4}); changed += 1
+                state.pop(mid)
+            elif m and m.get("status") == "upcoming" and st_ev == 1:
+                st, en = times(m)
+                if iso(st) != ev["scheduled_start_time"].replace("+00:00", ".000Z")[:24] and st > now:
+                    bot.api("PATCH", f"/guilds/{GUILD_ID}/scheduled-events/{eid}",
+                            {"scheduled_start_time": iso(st), "scheduled_end_time": iso(en)}); changed += 1
+        except DiscordError as e:
+            print(f"[warn] event {eid} update failed ({e.code})", file=sys.stderr)
+            if e.code in (404, 400):
+                state.pop(mid, None)
+
+    # 2) create events for the next top matches (keep ~N upcoming)
+    want = args.count
+    active_upcoming = sum(1 for eid in state.values() if events.get(eid, {}).get("status") == 1)
+    cands = sorted(
+        [m for m in matches.values() if m.get("status") == "upcoming" and m.get("tier") == "S"
+         and times(m)[0] > now + timedelta(minutes=10) and times(m)[0] < now + timedelta(days=7)
+         and m["id"] not in state],
+        key=lambda m: m["startsAt"])
+    existing_names = {e["name"] for e in events.values() if (e.get("creator_id") == me["id"])}
+    for m in cands:
+        if active_upcoming >= want:
+            break
+        st, en = times(m)
+        game = games.get(m.get("gameKey"), m.get("game") or "")
+        name = f"🏆 {m['teamA']} vs {m['teamB']} · {game}"[:100]
+        if name in existing_names:
+            continue
+        body = {
+            "name": name,
+            "description": (f"{m.get('event') or ''} · BO{m.get('bo') or '?'}\n"
+                            f"Смотри трансляцию и следи за счётом на NEXUS PULSE: {SITE}#esports\n"
+                            f"Обсуждаем в чате сервера 💬")[:1000],
+            "privacy_level": 2,
+            "entity_type": 3,
+            "entity_metadata": {"location": f"{SITE}#esports"[:100]},
+            "scheduled_start_time": iso(st),
+            "scheduled_end_time": iso(en),
+        }
+        try:
+            ev = bot.api("POST", f"/guilds/{GUILD_ID}/scheduled-events", body, reason="NEXUS PULSE match event")
+            state[m["id"]] = ev["id"]
+            active_upcoming += 1
+            changed += 1
+            print(f"+ event: {name} @ {st.astimezone(MSK):%d.%m %H:%M} MSK")
+        except DiscordError as e:
+            print(f"[warn] create event failed ({e.code}): {e.body[:200]}", file=sys.stderr)
+            break
+    _save(EVENTS_STATE, state)
+    print(f"events: {changed} changes, tracking {len(state)}")
+
+
+# ---------------------------------------------------------------- feeds / webhooks
+def cmd_post_feeds(_token: str, args: argparse.Namespace) -> None:
+    import subprocess
+    cmd = [sys.executable, str(ROOT / "scripts" / "discord_feeds.py"), "--mode", "bot", "--require-mode", "bot"]
+    if args.only:
+        cmd += ["--only", args.only]
+    raise SystemExit(subprocess.run(cmd, check=False, timeout=600).returncode)
+
+
+def cmd_setup_webhooks(token: str, args: argparse.Namespace) -> None:
+    """Create one «NEXUS PULSE» webhook per feed channel, store the mapping as the GitHub
+    secret DISCORD_WEBHOOKS_JSON (never printed) and switch feedMode → webhook."""
+    import base64
+    import subprocess
+    import urllib.request
+    bot = Bot(token)
+    ch = load_channels()
+    feeds = ch.get("feeds") or {}
+    avatar = None
+    try:
+        req = urllib.request.Request(LOGO, headers={"User-Agent": "NexusPulse/1.0"})
+        raw = urllib.request.urlopen(req, timeout=20).read()
+        avatar = "data:image/png;base64," + base64.b64encode(raw).decode()
+    except Exception:  # noqa: BLE001
+        pass
+    hooks = {}
+    for feed in WEBHOOK_FEEDS:
+        cid = feeds.get(feed)
+        if not cid:
+            continue
+        try:
+            existing = [w for w in bot.api("GET", f"/channels/{cid}/webhooks") or [] if w.get("name") == "NEXUS PULSE" and w.get("token")]
+            w = existing[0] if existing else bot.api("POST", f"/channels/{cid}/webhooks", {"name": "NEXUS PULSE", "avatar": avatar}, reason="NEXUS PULSE auto-feed")
+        except DiscordError as e:
+            raise SystemExit(f"webhook for {feed} failed ({e.code}) — does the bot have Manage Webhooks?") from None
+        hooks[feed] = f"https://discord.com/api/webhooks/{w['id']}/{w['token']}"
+    print(f"webhooks ready: {', '.join(hooks)}")
+    env = dict(os.environ)
+    if not env.get("GH_TOKEN") and Path("/home/box/.config/gh-token").is_file():
+        env["GH_TOKEN"] = Path("/home/box/.config/gh-token").read_text().strip()
+    r = subprocess.run(["gh", "secret", "set", "DISCORD_WEBHOOKS_JSON", "--repo", args.repo],
+                       input=json.dumps(hooks), text=True, env=env, capture_output=True)
+    if r.returncode != 0:
+        raise SystemExit("gh secret set failed: " + r.stderr.strip()[:200])
+    print(f"GitHub secret DISCORD_WEBHOOKS_JSON set in {args.repo}")
+    ch["feedMode"] = "webhook"
+    CHANNELS_FILE.write_text(json.dumps(ch, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print('feedMode = "webhook" in data/discord_channels.json — commit & push it so Actions takes over')
+
+
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="NEXUS PULSE Discord poster")
@@ -435,7 +545,15 @@ def main() -> int:
     p_lfg.add_argument("--note", default="")
     p_lfg.add_argument("--nick", default="Player")
 
-    sub.add_parser("post-freebies")
+    sub.add_parser("post-freebies", help="(deprecated) → auto-feed #🎁раздачи")
+    sub.add_parser("setup-server", help="Idempotent server setup (scripts/discord_setup.py)")
+    sub.add_parser("sync-roles", help="Reaction role-picker → roles (box routine)")
+    p_ev = sub.add_parser("sync-events", help="Scheduled events for top matches (box routine)")
+    p_ev.add_argument("--count", type=int, default=3)
+    p_feed = sub.add_parser("post-feeds", help="Auto-feed via bot (only while feedMode == bot)")
+    p_feed.add_argument("--only", default="")
+    p_wh = sub.add_parser("setup-webhooks", help="Create feed webhooks + GitHub secret, feedMode → webhook")
+    p_wh.add_argument("--repo", default="Derzko435/nexus-pulse")
 
     p_snap = sub.add_parser(
         "snapshot-lfg",
@@ -443,6 +561,9 @@ def main() -> int:
     )
 
     args = parser.parse_args()
+    if args.cmd == "setup-server":
+        import subprocess
+        return subprocess.run([sys.executable, str(ROOT / "scripts" / "discord_setup.py")], check=False).returncode
     token = load_token()
 
     if args.cmd == "ensure-channels":
@@ -455,6 +576,14 @@ def main() -> int:
         cmd_post_freebies(token, args)
     elif args.cmd == "snapshot-lfg":
         cmd_snapshot_lfg(token, args)
+    elif args.cmd == "sync-roles":
+        cmd_sync_roles(token, args)
+    elif args.cmd == "sync-events":
+        cmd_sync_events(token, args)
+    elif args.cmd == "post-feeds":
+        cmd_post_feeds(token, args)
+    elif args.cmd == "setup-webhooks":
+        cmd_setup_webhooks(token, args)
     return 0
 
 

@@ -1,0 +1,54 @@
+name: Discord auto-feed
+# Posts NEW items from data/*.json into the Discord feed channels via webhooks
+# (secret DISCORD_WEBHOOKS_JSON). No bot token in GitHub.
+# Runs only when data/discord_channels.json has "feedMode": "webhook";
+# until then the box routine (scripts/discord_box_sync.sh) posts with the bot.
+on:
+  workflow_dispatch:
+  # dispatched by daily-content.yml and refresh-data.yml after their data refresh
+  schedule:
+    - cron: "12 5,11,17 * * *"   # fallback 08:12 / 14:12 / 20:12 MSK (deals, game of the day)
+  push:
+    branches: [main]
+    paths:
+      - "data/deals.json"        # box routine pushes deals several times a day
+
+permissions:
+  contents: write
+
+concurrency:
+  group: discord-feeds
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Post new items to Discord
+        env:
+          DISCORD_WEBHOOKS_JSON: ${{ secrets.DISCORD_WEBHOOKS_JSON }}
+        run: python scripts/discord_feeds.py --mode webhook --require-mode webhook
+
+      - name: Commit posted state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/discord_posted.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Nothing new posted"
+            exit 0
+          fi
+          git commit -m "chore(discord): posted state"
+          for i in 1 2 3 4 5; do
+            git pull --rebase --autostash origin main && git push origin HEAD:main && break
+            echo "push attempt $i failed, retrying"; sleep $((i * 10))
+          done

@@ -1,7 +1,7 @@
 /* NEXUS PULSE — интерактив портала */
 
 /** Единственное место для Discord-инвайта. Пусто / "#" → кнопки в состоянии «Скоро». */
-const DISCORD_INVITE_URL = "https://discord.gg/c7UHcM2UR";
+const DISCORD_INVITE_URL = "https://discord.gg/7JvfzNrt4x";
 
 (function () {
   "use strict";
@@ -301,7 +301,7 @@ const DISCORD_INVITE_URL = "https://discord.gg/c7UHcM2UR";
       "speed.excellent": "Отлично", "speed.ok": "Нормально", "speed.weak": "Слабо для онлайн",
       "news.eyebrow": "Лента", "news.title": "Новости гейминга", "news.desc": "Свежие заголовки дня.",
       "community.eyebrow": "Комьюнити", "community.title": "Залетай в Discord NEXUS PULSE",
-      "community.lead": "Мета, клипы, поиск тимы и гайды. Залетай по инвайту — сервер уже открыт.", "community.join": "Присоединиться",
+      "community.lead": "Халява, скидки, большие матчи и поиск тимы — в одном месте. Лента на сервере обновляется сама каждый день.", "community.join": "Присоединиться",
       "lang.label": "Язык", "lang.popular": "Популярные", "lang.all": "Все языки", "lang.search": "Поиск языка…",
       "pwa.install": "Установить",
     },
@@ -351,7 +351,7 @@ const DISCORD_INVITE_URL = "https://discord.gg/c7UHcM2UR";
       "speed.excellent": "Excellent", "speed.ok": "Okay", "speed.weak": "Weak for online",
       "news.eyebrow": "Feed", "news.title": "Gaming news", "news.desc": "Today's fresh headlines.",
       "community.eyebrow": "Community", "community.title": "Join NEXUS PULSE Discord",
-      "community.lead": "Meta, clips, LFG and guides. Invite is live — jump in.", "community.join": "Join",
+      "community.lead": "Freebies, deals, big matches and team finder in one place. The server feed updates itself every day.", "community.join": "Join",
       "lang.label": "Language", "lang.popular": "Popular", "lang.all": "All languages", "lang.search": "Search language…",
       "pwa.install": "Install",
     },

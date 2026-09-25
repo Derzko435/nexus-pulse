@@ -184,27 +184,9 @@ def main() -> None:
     for d in payload["deals"][:5]:
         print(f"  −{d['pct']}%  {d['neu']}₽ (было {d['old']}₽)  {d['title']}")
 
-    # best-effort Discord announce for top deal
-    try:
-        ch = ROOT / "data" / "discord_channels.json"
-        bot = ROOT / "scripts" / "discord_post.py"
-        if ch.is_file() and bot.is_file() and payload["deals"]:
-            d0 = payload["deals"][0]
-            subprocess.run(
-                [
-                    sys.executable,
-                    str(bot),
-                    "post-alert",
-                    "--title", str(d0.get("title") or "Deal"),
-                    "--pct", str(d0.get("pct") or 0),
-                    "--store", str(d0.get("store") or "Steam"),
-                    "--url", str(d0.get("url") or ""),
-                ],
-                check=False,
-                timeout=45,
-            )
-    except Exception as exc:  # noqa: BLE001
-        print(f"[update_deals] discord post skipped: {exc}")
+    # Discord: notable deals are posted by the auto-feed (#💸скидки, deduped via
+    # data/discord_posted.json) — scripts/discord_feeds.py / discord_box_sync.sh.
+    # The old per-run "post-alert" here re-posted the same top deal every run.
 
     # sanity: Cyberpunk must not appear unless truly discounted
     for d in payload["deals"]:
