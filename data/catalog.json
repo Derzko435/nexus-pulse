@@ -1,0 +1,1034 @@
+{
+ "updatedAt": "2026-09-25T16:32:17+03:00",
+ "ids": [
+  "acvalhalla",
+  "alanwake2",
+  "aoe4",
+  "apex",
+  "assetto",
+  "balatro",
+  "bg3",
+  "celeste",
+  "cities",
+  "civ6",
+  "ck3",
+  "codmw",
+  "cp2077",
+  "cs2",
+  "deadspace",
+  "destiny2",
+  "diablo4",
+  "dirt",
+  "doom",
+  "dota2",
+  "elden",
+  "eso",
+  "ets2",
+  "f1_24",
+  "farming",
+  "ffxiv",
+  "fortnite",
+  "forza5",
+  "gow",
+  "gt7",
+  "gtav",
+  "gw2",
+  "hades",
+  "hades2",
+  "halo",
+  "hogwarts",
+  "hoi4",
+  "hollow",
+  "ibeam",
+  "lethal",
+  "lol",
+  "lostark",
+  "mhwilds",
+  "msfs",
+  "newworld",
+  "nfs",
+  "outerwilds",
+  "outlast",
+  "ow2",
+  "persona5",
+  "phasmo",
+  "poe2",
+  "r6",
+  "rdr2",
+  "re4",
+  "reVillage",
+  "rimworld",
+  "rocket",
+  "sekiro",
+  "skyrim",
+  "snowrunner",
+  "spiderman2",
+  "stardew",
+  "stellaris",
+  "throne",
+  "titanfall2",
+  "totalwar",
+  "totk",
+  "ultrakill",
+  "valorant",
+  "vampire",
+  "witcher3",
+  "wow",
+  "wukong",
+  "xcom2"
+ ],
+ "games": {
+  "cp2077": {
+   "name": "Cyberpunk 2077",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/e9047d8ec47ae3d94bb8b464fb0fc9e9972b4ac7/header.jpg?t=1784714077",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/590e0988a2fb79f44d3e31e41fd4949eb76abc41/capsule_231x87.jpg?t=1784714077",
+   "desc": "Cyberpunk 2077 — приключенческая ролевая игра с открытым миром, действие которой происходит в футуристическом мегаполисе Найт-Сити, где выше всего ценятся власть, роскошь и модификации тела.",
+   "url": "https://store.steampowered.com/app/1091500/",
+   "appid": 1091500,
+   "genres": [
+    "Ролевые игры"
+   ],
+   "release": "9 дек. 2020 г."
+  },
+  "elden": {
+   "name": "ELDEN RING",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/f0b19c231f86fa0e633ff88a1a63459443017728/header_alt_assets_3.jpg?t=1790290043",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/65b8e40dc6ffab9cf53bf26f05023a199118a6a8/capsule_231x87_alt_assets_3.jpg?t=1790290043",
+   "desc": "НОВЫЙ ФЭНТЕЗИЙНЫЙ РОЛЕВОЙ БОЕВИК. Восстань, погасшая душа! Междуземье ждёт своего повелителя. Пусть благодать приведёт тебя к Кольцу Элден.",
+   "url": "https://store.steampowered.com/app/1245620/",
+   "appid": 1245620,
+   "genres": [
+    "Экшены",
+    "Ролевые игры"
+   ],
+   "release": "24 фев. 2022 г."
+  },
+  "bg3": {
+   "name": "Baldur's Gate 3",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg?t=1777363040",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/3dd81008e9c385caf68152450c22353f6a8abec9/capsule_231x87.jpg?t=1777363040",
+   "desc": "Соберите отряд и вернитесь в Забытые Королевства. Вас ждет история о дружбе и предательстве, выживании и самопожертвовании, о сладком зове абсолютной власти.",
+   "url": "https://store.steampowered.com/app/1086940/",
+   "appid": 1086940,
+   "genres": [
+    "Приключенческие игры",
+    "Ролевые игры",
+    "Стратегии"
+   ],
+   "release": "3 авг. 2023 г."
+  },
+  "witcher3": {
+   "name": "Ведьмак 3: Дикая Охота — Полное издание",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/8ebe6a60c3c894cfb0f0c0b7c959a229799fb6b4/header_alt_assets_4_russian.jpg?t=1788333513",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/a42205f6278dd06b1e8e5f45bf55e2fc3d11a590/capsule_231x87_alt_assets_4_russian.jpg?t=1788333513",
+   "desc": "Вы — Геральт из Ривии, наемный убийца чудовищ. Вы путешествуете по миру, в котором бушует война и на каждом шагу подстерегают чудовища. Вам предстоит выполнить заказ и найти Цири — Дитя Предназначения, живое оружие, способное изменить облик этого мира.",
+   "url": "https://store.steampowered.com/app/292030/",
+   "appid": 292030,
+   "genres": [
+    "Ролевые игры"
+   ],
+   "release": "18 мая. 2015 г."
+  },
+  "rdr2": {
+   "name": "Red Dead Redemption 2",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1759502961",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_231x87.jpg?t=1759502961",
+   "desc": "Артур Морган и другие подручные Датча ван дер Линде вынуждены пуститься в бега. Их преследуют федеральные агенты и охотники за головами. Чтобы выжить, банде придется участвовать в кражах, грабежах и перестрелках в самом сердце Америки.",
+   "url": "https://store.steampowered.com/app/1174180/",
+   "appid": 1174180,
+   "genres": [
+    "Экшены",
+    "Приключенческие игры"
+   ],
+   "release": "5 дек. 2019 г."
+  },
+  "gtav": {
+   "name": "Grand Theft Auto V Legacy",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/header.jpg?t=1765387725",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/capsule_231x87.jpg?t=1765387725",
+   "desc": "Grand Theft Auto V для PC позволяет игрокам исследовать знаменитый мир Лос-Сантоса и округа Блэйн в разрешении до 4k и выше с частотой 60 кадров в секунду.",
+   "url": "https://store.steampowered.com/app/271590/",
+   "appid": 271590,
+   "genres": [
+    "Экшены",
+    "Приключенческие игры"
+   ],
+   "release": "13 апр. 2015 г."
+  },
+  "skyrim": {
+   "name": "The Elder Scrolls V: Skyrim Special Edition",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/header.jpg?t=1786648247",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/capsule_231x87.jpg?t=1786648247",
+   "desc": "В игре The Elder Scrolls V: Skyrim Special Edition, получившей более 200 наград «Игра года», вас ждет удивительный мир, воссозданный с потрясающей детализацией. В издание Special Edition вошли базовая игра и дополнения, добавляющие в нее ряд новых возможностей.",
+   "url": "https://store.steampowered.com/app/489830/",
+   "appid": 489830,
+   "genres": [
+    "Ролевые игры"
+   ],
+   "release": "27 окт. 2016 г."
+  },
+  "ffxiv": {
+   "name": "FINAL FANTASY XIV Online",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/39210/header.jpg?t=1782870674",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/39210/2e45b2f419d0beed57ba1ff1d80a13d31f947d54/capsule_231x87.jpg?t=1782870674",
+   "desc": "",
+   "url": "https://store.steampowered.com/app/39210/",
+   "appid": 39210,
+   "genres": [
+    "Многопользовательские игры",
+    "Ролевые игры"
+   ],
+   "release": "18 фев. 2014 г."
+  },
+  "wukong": {
+   "name": "Black Myth: Wukong",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg?t=1760601605",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/b7f722ddd5e23503f598586aa3700dd4d827bb2d/capsule_231x87.jpg?t=1760601605",
+   "desc": "Black Myth: Wukong — ролевой боевик по мотивам китайской мифологии. Став Избранным, вы отправитесь в приключение, полное испытаний и чудес, в котором вам предстоит приподнять завесу тайны над великой легендой.",
+   "url": "https://store.steampowered.com/app/2358720/",
+   "appid": 2358720,
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Ролевые игры"
+   ],
+   "release": "19 авг. 2024 г."
+  },
+  "persona5": {
+   "name": "Persona 5 Royal",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg?t=1783356822",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/capsule_231x87.jpg?t=1783356822",
+   "desc": "Возглавьте отряд Призрачных Похитителей в красивой, отмеченной наградами пошаговой ролевой игре. Исследуйте подземелья, обдумывайте стратегию боя и проводите слияние персон. Живите в Токио, сражайтесь с тенями, проникайте в головы бесчестных негодяев и меняйте мир к лучшему!",
+   "url": "https://store.steampowered.com/app/1687950/",
+   "appid": 1687950,
+   "genres": [
+    "Ролевые игры"
+   ],
+   "release": "20 окт. 2022 г."
+  },
+  "diablo4": {
+   "name": "Diablo® IV",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/80f21a42e378b93e8fbb68ee43103be8ab84891b/header.jpg?t=1789491624",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/7086c858ce766d047bf357515805eda229d966b0/capsule_231x87.jpg?t=1789491624",
+   "desc": "Вступите в бой за Санктуарий в знаменитой экшн-RPG Diablo® IV. Погрузитесь в получившую признание игроков сюжетную кампанию и исследуйте новый сезонный контент.",
+   "url": "https://store.steampowered.com/app/2344520/",
+   "appid": 2344520,
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Казуальные игры",
+    "Многопользовательские игры"
+   ],
+   "release": "17 окт. 2023 г."
+  },
+  "poe2": {
+   "name": "Path of Exile 2",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2694490/24eeddcbda17903f03d819588757e40845f8115f/header.jpg?t=1787697213",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2694490/bae62b5ac9eeb900458e3f6c089bf5df3eb923c9/capsule_231x87.jpg?t=1787697213",
+   "desc": "Path of Exile 2 – Action RPG следующего поколения от Grinding Gear Games, с совместным режимом до шести игроков. Спустя годы после событий оригинальной Path of Exile, вы возвратитесь в мрачный мир Рэкласта и будете искать способ положить конец разрастающейся порче.",
+   "url": "https://store.steampowered.com/app/2694490/",
+   "appid": 2694490,
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Многопользовательские игры",
+    "Ролевые игры"
+   ],
+   "release": "6 дек. 2024 г."
+  },
+  "cs2": {
+   "name": "Counter-Strike 2",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/162664aa5da85f418105350c5d67ca565f6c3713/header.jpg?t=1789251637",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/942c04efaa5bc87afb6f2a97dbf17ac614c8a84d/capsule_231x87.jpg?t=1789251637",
+   "desc": "Более двух десятилетий Counter-Strike служит примером первоклассной соревновательной игры, путь развития которой определяют миллионы игроков со всего мира. Теперь пришло время нового этапа — Counter-Strike 2.",
+   "url": "https://store.steampowered.com/app/730/",
+   "appid": 730,
+   "genres": [
+    "Экшены",
+    "Бесплатные"
+   ],
+   "release": "21 авг. 2012 г."
+  },
+  "dota2": {
+   "name": "Dota 2",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/header.jpg?t=1769535998",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/capsule_231x87.jpg?t=1769535998",
+   "desc": "Ежедневно миллионы игроков по всему миру сражаются от лица одного из более сотни героев Dota 2, и даже после тысячи часов в ней есть чему научиться. Благодаря регулярным обновлениям игра живёт своей жизнью: геймплей, возможности и герои постоянно преображаются.",
+   "url": "https://store.steampowered.com/app/570/",
+   "appid": 570,
+   "genres": [
+    "Экшены",
+    "Стратегии",
+    "Бесплатные"
+   ],
+   "release": "9 июл. 2013 г."
+  },
+  "rocket": {
+   "name": "Rocket League®",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/d56cf9d01073d893677fb9e7e257b79fd7939ee3/header.jpg?t=1789756890",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/cb96e5338e74348cfc4640bc56f7bce313fcf7c3/capsule_231x87_alt_assets_17.jpg?t=1789756890",
+   "desc": "Встречайте долгожданное продолжение Supersonic Acrobatic Rocket-Powered Battle-Cars — всеми любимого основанного на физике сочетания футбола и гонок!",
+   "url": "https://store.steampowered.com/app/252950/",
+   "appid": 252950,
+   "genres": [
+    "Экшены",
+    "Инди",
+    "Гонки",
+    "Спорт"
+   ],
+   "release": "6 июл. 2015 г."
+  },
+  "r6": {
+   "name": "Tom Clancy's Rainbow Six Siege",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/6b69a8d5ac8d0542bba5c735a8bcc5bb33cda42e/header_alt_assets_25.jpg?t=1790108602",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/5f8c6eeafaf6c3c6e9a24e7ae13a194fb87f8fb0/capsule_231x87_alt_assets_25.jpg?t=1790108602",
+   "desc": "Tom Clancy's Rainbow Six Осада – элитный тактический командный шутер, где побеждает сторона, которая лучше продумает и исполнит свой план.",
+   "url": "https://store.steampowered.com/app/359550/",
+   "appid": 359550,
+   "genres": [
+    "Экшены",
+    "Бесплатные"
+   ],
+   "release": "1 дек. 2015 г."
+  },
+  "apex": {
+   "name": "Apex Legends™",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/60fcaedb88ccf94df30281533d828b86c6ffb9b6/header_alt_assets_5.jpg?t=1790164440",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/0132a533f4429b907ba767a30215723170baa7c9/capsule_231x87_alt_assets_5.jpg?t=1790164440",
+   "desc": "Apex Legends — удостоенный наградами бесплатный геройский шутер от Respawn Entertainment. Освойте все тонкости игры за легендарных персонажей, число которых продолжает расти, и используйте их мощные умения в стратегии своего отряда. Это новое слово в геройских шутерах и «королевских битвах».",
+   "url": "https://store.steampowered.com/app/1172470/",
+   "appid": 1172470,
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Бесплатные"
+   ],
+   "release": "4 ноя. 2020 г."
+  },
+  "ow2": {
+   "name": "Overwatch®",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/7baa151c768868f1fe1d3aeea2467fa1a35fb531/header_alt_assets_22.jpg?t=1788890347",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/1d0e99bc9ed84abe67862f3176be3ce56018e9b1/capsule_231x87_alt_assets_22.jpg?t=1788890347",
+   "desc": "Overwatch®: БУДУЩЕЕ, ЗА КОТОРОЕ СТОИТ БОРОТЬСЯ! Overwatch® — непрерывно развивающаяся бесплатная динамичная командная игра с постоянной поддержкой в ярком мире будущего, где каждый матч представляет собой поистине потрясающий бой 5 на 5 или 6 на 6.",
+   "url": "https://store.steampowered.com/app/2357570/",
+   "appid": 2357570,
+   "genres": [
+    "Экшены",
+    "Бесплатные"
+   ],
+   "release": "10 авг. 2023 г."
+  },
+  "doom": {
+   "name": "DOOM Eternal",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/782330/feaf8293bcd2d078422faa547bc0d707c08f606e/header.jpg?t=1783432602",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/782330/be02ce48d58d1eae221b25096a54771764238af9/capsule_231x87.jpg?t=1783432602",
+   "desc": "Армии ада вторглись на Землю. Станьте Палачом Рока и убейте демонов во всех измерениях, чтобы спасти человечество. Они боятся только… тебя.",
+   "url": "https://store.steampowered.com/app/782330/",
+   "appid": 782330,
+   "genres": [
+    "Экшены"
+   ],
+   "release": "19 мар. 2020 г."
+  },
+  "halo": {
+   "name": "Halo Infinite",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1240440/2262ffb4f1659df1c1cbf2c70af40560b4fa12e4/header.jpg?t=1774464322",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1240440/9d64f5027f08e849ed1369f98b22326e2377b2b7/capsule_231x87.jpg?t=1774464322",
+   "desc": "Halo — одна из самых культовых саг за всю историю игр — продолжает расти и развиваться! Вас ждут грандиозная кампания с открытым миром и бесплатный многопользовательский режим.",
+   "url": "https://store.steampowered.com/app/1240440/",
+   "appid": 1240440,
+   "genres": [
+    "Экшены",
+    "Бесплатные"
+   ],
+   "release": "15 ноя. 2021 г."
+  },
+  "codmw": {
+   "name": "Call of Duty®: Modern Warfare® III",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2519060/header.jpg?t=1753807280",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2519060/capsule_231x87.jpg?t=1753807280",
+   "desc": "В прямом продолжении игры Call of Duty®: Modern Warfare® II капитан Прайс и ОТГ-141 противостоят величайшей угрозе.",
+   "url": "https://store.steampowered.com/app/2519060/",
+   "appid": 2519060,
+   "genres": [
+    "Экшены"
+   ],
+   "release": "10 ноя. 2023 г."
+  },
+  "destiny2": {
+   "name": "Destiny 2",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/0ccf0dc0a8c4ec078db7ab99ddc820b2fa884441/header.jpg?t=1781815889",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/953a00adc58cc0758102a5026dda6f2a76a5a6a1/capsule_231x87.jpg?t=1781815889",
+   "desc": "Исследуйте тайны Солнечной системы и наслаждайтесь динамичным шутером от первого лица в Destiny 2. Разблокируйте мощные способности и собирайте уникальное снаряжение, выполняя сюжетные задания в совместных и состязательных режимах.",
+   "url": "https://store.steampowered.com/app/1085660/",
+   "appid": 1085660,
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Бесплатные"
+   ],
+   "release": "1 окт. 2019 г."
+  },
+  "titanfall2": {
+   "name": "Titanfall® 2",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1237970/header.jpg?t=1779987598",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1237970/capsule_231x87.jpg?t=1779987598",
+   "desc": "Включает весь контент Эксклюзивного цифрового издания, набор «Ключ на старт» для ускоренного развития и разблокировки предметов, а также особую боевую раскраску Underground для карабина R-201.",
+   "url": "https://store.steampowered.com/app/1237970/",
+   "appid": 1237970,
+   "genres": [
+    "Экшены"
+   ],
+   "release": "18 июн. 2020 г."
+  },
+  "ultrakill": {
+   "name": "ULTRAKILL",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1229490/header.jpg?t=1783942574",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1229490/capsule_231x87.jpg?t=1783942574",
+   "desc": "ULTRAKILL — это динамичный и чрезвычайно жестокий ретро-шутер от первого лица, в котором сочетаются система подсчета очков, основанная на мастерстве игрока, характерная для экшенов, и настоящая кровавая бойня, вдохновленная лучшими шутерами 90-х годов.",
+   "url": "https://store.steampowered.com/app/1229490/",
+   "appid": 1229490,
+   "genres": [
+    "Экшены",
+    "Инди",
+    "Ранний доступ"
+   ],
+   "release": "3 сен. 2020 г."
+  },
+  "civ6": {
+   "name": "Sid Meier’s Civilization® VI",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/header.jpg?t=1784651829",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/capsule_231x87.jpg?t=1784651829",
+   "desc": "Сыграйте за одного из 20 лидеров – например за Петра Великого, российского императора.",
+   "url": "https://store.steampowered.com/app/289070/",
+   "appid": 289070,
+   "genres": [
+    "Стратегии"
+   ],
+   "release": "20 окт. 2016 г."
+  },
+  "aoe4": {
+   "name": "Age of Empires IV: Anniversary Edition",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466860/header.jpg?t=1780854334",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466860/capsule_231x87.jpg?t=1780854334",
+   "desc": "Уже целый год отмеченная наградами и ставшая бестселлером стратегия Age of Empires IV радует миллионы фанатов серии по всему миру. Новое юбилейное издание перенесет вас в эпицентр великих исторических сражений, навсегда изменивших судьбу мира.",
+   "url": "https://store.steampowered.com/app/1466860/",
+   "appid": 1466860,
+   "genres": [
+    "Стратегии"
+   ],
+   "release": "28 окт. 2021 г."
+  },
+  "xcom2": {
+   "name": "XCOM® 2",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268500/header.jpg?t=1772813016",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268500/capsule_231x87.jpg?t=1772813016",
+   "desc": "XCOM2 - это продолжение признанной игроками и критиками стратегии XCOM: Enemy Unknown. Двадцать лет минуло с тех пор, как человечество проиграло войну с захватчиками из другого мира, и на Земле теперь царит новый порядок. После лет работы в подполье, остаткам XCOM предстоит восстать из пепла и сокрушить врага.",
+   "url": "https://store.steampowered.com/app/268500/",
+   "appid": 268500,
+   "genres": [
+    "Стратегии"
+   ],
+   "release": "4 фев. 2016 г."
+  },
+  "totalwar": {
+   "name": "Total War: WARHAMMER III",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/header.jpg?t=1790321531",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_231x87.jpg?t=1790321531",
+   "desc": "Драматический финал трилогии Total War: WARHAMMER уже здесь. Соберите войска и войдите в Царство Хаоса — обитель невообразимых ужасов, где будет решаться судьба всего мира. Обуздаете ли вы своих демонов… или же возглавите их?",
+   "url": "https://store.steampowered.com/app/1142710/",
+   "appid": 1142710,
+   "genres": [
+    "Экшены",
+    "Стратегии"
+   ],
+   "release": "16 фев. 2022 г."
+  },
+  "ck3": {
+   "name": "Crusader Kings III",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/8a7e814d13f8e73c0d40471f585ece908f9be282/header.jpg?t=1785862913",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/969346b7534d84360e80d8997c3f58636140893f/capsule_231x87.jpg?t=1785862913",
+   "desc": "Любовь, война, интриги и величие. Определите наследие своего знатного рода в безграничной глобальной стратегии Crusader Kings III. Смерть — это только начало вашего пути по истории выбранной династии в этой полной неожиданностей и славы симуляции Средних веков.",
+   "url": "https://store.steampowered.com/app/1158310/",
+   "appid": 1158310,
+   "genres": [
+    "Ролевые игры",
+    "Симуляторы",
+    "Стратегии"
+   ],
+   "release": "1 сен. 2020 г."
+  },
+  "stellaris": {
+   "name": "Stellaris",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/25d064cea0721f8fc17627f40efbf1c9d2ba2adb/header_alt_assets_14_russian.jpg?t=1790161815",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/7cd8aeb421d6d6935dbb547e59fcfdbd0f8a0fdc/capsule_231x87_alt_assets_14_russian.jpg?t=1790161815",
+   "desc": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны.",
+   "url": "https://store.steampowered.com/app/281990/",
+   "appid": 281990,
+   "genres": [
+    "Симуляторы",
+    "Стратегии"
+   ],
+   "release": "9 мая. 2016 г."
+  },
+  "hoi4": {
+   "name": "Hearts of Iron IV",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/67bbd0057627fc2244793bcdd09260c2539499cf/header.jpg?t=1787738793",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/08a0a8f6c28071017611aa39b835c193a27f2518/capsule_231x87.jpg?t=1787738793",
+   "desc": "",
+   "url": "https://store.steampowered.com/app/394360/",
+   "appid": 394360,
+   "genres": [
+    "Симуляторы",
+    "Стратегии"
+   ],
+   "release": "6 июн. 2016 г."
+  },
+  "rimworld": {
+   "name": "RimWorld",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/76e0613b8197327299d5dbabb0a7fd7828a689a2/header.jpg?t=1782756789",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/a805ac5e3ceb54a2d7d3e1c1049907f1ef8bbb89/capsule_231x87.jpg?t=1782756789",
+   "desc": "Научно-фантастический симулятор колонии с интеллектуальным AI-рассказчиком. Создаёт истории, моделируя психологию, экологию, стрельбу, ближний бой, климат, биомы, дипломатию, межличностные отношения, искусство, медицину, торговлю и многое другое.",
+   "url": "https://store.steampowered.com/app/294100/",
+   "appid": 294100,
+   "genres": [
+    "Инди",
+    "Симуляторы",
+    "Стратегии"
+   ],
+   "release": "17 окт. 2018 г."
+  },
+  "hollow": {
+   "name": "Hollow Knight",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/3c3489495136b26b34f8a9543c7f5645b99d388c/header.jpg?t=1776125684",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/fba7289f4c7e90ae9c0caa87e4225f3f9111d7dd/capsule_231x87.jpg?t=1776125684",
+   "desc": "Hollow Knight – это эпическое приключение в огромном разрушенном королевстве, полном насекомых и героев. Исследуйте извилистые пещеры, сражайтесь с порчеными тварями и заводите дружбу со странными жуками – все это в классической двухмерной ручной рисовке.",
+   "url": "https://store.steampowered.com/app/367520/",
+   "appid": 367520,
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Инди"
+   ],
+   "release": "24 фев. 2017 г."
+  },
+  "hades": {
+   "name": "Hades",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg?t=1758127023",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/capsule_231x87.jpg?t=1758127023",
+   "desc": "Бросьте вызов богу мёртвых и прорубите себе путь из Подземного мира в игре в жанрах «рогалик» и «данжен-кроулер» от создателей Bastion, Transistor и Pyre.",
+   "url": "https://store.steampowered.com/app/1145360/",
+   "appid": 1145360,
+   "genres": [
+    "Экшены",
+    "Инди",
+    "Ролевые игры"
+   ],
+   "release": "17 сен. 2020 г."
+  },
+  "celeste": {
+   "name": "Celeste",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/header.jpg?t=1714089525",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/capsule_231x87.jpg?t=1714089525",
+   "desc": "В платформере от создателей TowerFall Мэдлин сражается со своими демонами на пути к вершине горы Селеста. Преодолевай сотни хорошо продуманных сложностей, отыскивай тайники и постигай загадку горы.",
+   "url": "https://store.steampowered.com/app/504230/",
+   "appid": 504230,
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Инди"
+   ],
+   "release": "25 янв. 2018 г."
+  },
+  "stardew": {
+   "name": "Stardew Valley",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1786554168",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_231x87.jpg?t=1786554168",
+   "desc": "Вам досталась старая дедушкина ферма в долине Стардью. С горстью монет в кармане и старыми инструментами в руках вы начинаете новую жизнь. Сможете ли вы превратить пустырь в цветущий сад?",
+   "url": "https://store.steampowered.com/app/413150/",
+   "appid": 413150,
+   "genres": [
+    "Инди",
+    "Ролевые игры",
+    "Симуляторы"
+   ],
+   "release": "26 фев. 2016 г."
+  },
+  "hades2": {
+   "name": "Hades II",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/91ac334a2c137d08968ccc0bc474a02579602100/header.jpg?t=1779901265",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/10c9138570a8d7ac9144f601ab0f2ccbc820337e/capsule_231x87.jpg?t=1779901265",
+   "desc": "Обуздайте тёмную магию и выйдите за пределы подземного мира, чтобы бросить вызов титану времени, в этом захватывающем продолжении титулованной игры в жанре rogue-like.",
+   "url": "https://store.steampowered.com/app/1145350/",
+   "appid": 1145350,
+   "genres": [
+    "Экшены",
+    "Инди",
+    "Ролевые игры"
+   ],
+   "release": "25 сен. 2025 г."
+  },
+  "balatro": {
+   "name": "Balatro",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2379780/7a85430784e4d613cdb0547414d8cf16ffa45747/header.jpg?t=1788961800",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2379780/554b5f66f60e80b43f910cba21d23af16ed897be/capsule_231x87.jpg?t=1788961800",
+   "desc": "Покерная игра-«рогалик». Balatro — гипнотически увлекательная игра с построением колод, где можно использовать нестандартные покерные комбинации, находить джокеров в решающие моменты и запускать забойные, возмутительно мощные комбо.",
+   "url": "https://store.steampowered.com/app/2379780/",
+   "appid": 2379780,
+   "genres": [
+    "Казуальные игры",
+    "Инди",
+    "Стратегии"
+   ],
+   "release": "20 фев. 2024 г."
+  },
+  "vampire": {
+   "name": "Vampire Survivors",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1794680/2e4de652ebe9d4136a989571d207cd0b0e019985/header_alt_assets_10.jpg?t=1787911678",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1794680/26465bc17b952b298b4acd52a97852f2a6e5d408/capsule_231x87_alt_assets_10.jpg?t=1787911678",
+   "desc": "Пачками косить порождений ночи и дожить до рассвета! Vampire Survivors — казуальная игра в стиле готического хоррора с элементами упрощенного рогалика. Здесь каждое ваше решение может вызвать лавину последствий для орд монстров, с которыми вам предстоит столкнуться.",
+   "url": "https://store.steampowered.com/app/1794680/",
+   "appid": 1794680,
+   "genres": [
+    "Экшены",
+    "Казуальные игры",
+    "Инди",
+    "Ролевые игры"
+   ],
+   "release": "20 окт. 2022 г."
+  },
+  "outerwilds": {
+   "name": "Outer Wilds",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/079ae4a7ff4b5875adc5c63c4c0b84e5a3e6966b/header.jpg?t=1785424341",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/c3b501a7177b6c902c69565366d4c5f4b82f23fe/capsule_231x87.jpg?t=1785424341",
+   "desc": "Outer Wilds — высоко оценённая критиками, завоевавшая множество наград приключенческая игра с открытым миром, посвящённая загадкам солнечной системы во временной петле и получившая в 2019 году звание «Игры года» от Giant Bomb, Polygon, Eurogamer и The Guardian.",
+   "url": "https://store.steampowered.com/app/753640/",
+   "appid": 753640,
+   "genres": [
+    "Экшены",
+    "Приключенческие игры"
+   ],
+   "release": "18 июн. 2020 г."
+  },
+  "re4": {
+   "name": "Resident Evil 4",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg?t=1772502922",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_231x87.jpg?t=1772502922",
+   "desc": "Выжить — это лишь первый шаг. Resident Evil 4, настоящий гигант индустрии, возрождается. Вас ждут обновленный игровой процесс, переработанный сюжет и крайне детализированная графика. Вновь переживите кошмар, полностью изменивший жанр ужасов.",
+   "url": "https://store.steampowered.com/app/2050650/",
+   "appid": 2050650,
+   "genres": [
+    "Экшены",
+    "Приключенческие игры"
+   ],
+   "release": "23 мар. 2023 г."
+  },
+  "reVillage": {
+   "name": "Resident Evil Village",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1196590/header.jpg?t=1776927117",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1196590/capsule_231x87.jpg?t=1776927117",
+   "desc": "Испытайте survival horror, каким его еще не видели, в 8-й части легендарной серии — Resident Evil Village. Проработанная до мелочей графика, напряженная игра от первого лица и превосходное повествование сделают ужас как никогда реальным и неотвратимым.",
+   "url": "https://store.steampowered.com/app/1196590/",
+   "appid": 1196590,
+   "genres": [
+    "Экшены"
+   ],
+   "release": "6 мая. 2021 г."
+  },
+  "phasmo": {
+   "name": "Phasmophobia",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/c227a2855aba60f3657bc0c3a46515b8c41fb2b6/header.jpg?t=1789487643",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/0268c77668d5643d3f2c19e67e92e252fdfe6c7f/capsule_231x87.jpg?t=1789487643",
+   "desc": "",
+   "url": "https://store.steampowered.com/app/739630/",
+   "appid": 739630,
+   "genres": [
+    "Экшены",
+    "Инди",
+    "Ранний доступ"
+   ],
+   "release": "18 сен. 2020 г."
+  },
+  "outlast": {
+   "name": "The Outlast Trials",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/65fbdba4ad0f1a7ed7a362a086c87042fa40fadc/header_alt_assets_3.jpg?t=1784123708",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/115ccc74cf2a3951184659a5f953c8db1a48e499/capsule_231x87_alt_assets_3.jpg?t=1784123708",
+   "desc": "",
+   "url": "https://store.steampowered.com/app/1304930/",
+   "appid": 1304930,
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Инди"
+   ],
+   "release": "5 мар. 2024 г."
+  },
+  "deadspace": {
+   "name": "Dead Space",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1693980/header.jpg?t=1777396576",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1693980/capsule_231x87.jpg?t=1777396576",
+   "desc": "Классический научно-популярный хоррор с элементами выживания возвращается: игра была воссоздана с нуля и предлагает ещё глубже погрузиться в обволакивающую атмосферу мёртвого космоса. Ремейк обладает усовершенствованной графикой, звуком и игровым процессом, и при этом сохраняет канву оригинала.",
+   "url": "https://store.steampowered.com/app/1693980/",
+   "appid": 1693980,
+   "genres": [
+    "Экшены",
+    "Приключенческие игры"
+   ],
+   "release": "27 янв. 2023 г."
+  },
+  "lethal": {
+   "name": "Lethal Company",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966720/header.jpg?t=1775380053",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966720/capsule_231x87.jpg?t=1775380053",
+   "desc": "",
+   "url": "https://store.steampowered.com/app/1966720/",
+   "appid": 1966720,
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Инди",
+    "Ранний доступ"
+   ],
+   "release": "23 окт. 2023 г."
+  },
+  "forza5": {
+   "name": "Forza Horizon 5",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg?t=1788546569",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_231x87.jpg?t=1788546569",
+   "desc": "Исследуйте яркие пейзажи Мексики в открытом мире с безграничным, захватывающим движением на лучших в мире автомобилях.",
+   "url": "https://store.steampowered.com/app/1551360/",
+   "appid": 1551360,
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Гонки",
+    "Симуляторы"
+   ],
+   "release": "8 ноя. 2021 г."
+  },
+  "f1_24": {
+   "name": "F1® 24",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2488620/header.jpg?t=1788548633",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2488620/capsule_231x87.jpg?t=1788548633",
+   "desc": "Выезжайте на старт и попадите в 20-ку. Станьте величайшим пилотом в EA SPORTS™ F1® 24, официальной видеоигре чемпионата мира FIA Formula One World Championship™ 2024.",
+   "url": "https://store.steampowered.com/app/2488620/",
+   "appid": 2488620,
+   "genres": [
+    "Гонки",
+    "Спорт"
+   ],
+   "release": "31 мая. 2024 г."
+  },
+  "dirt": {
+   "name": "DiRT Rally 2.0",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690790/7a10c1ff13373845ff5c0bc4fc2421838043601e/header.jpg?t=1789553676",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690790/capsule_231x87.jpg?t=1789553676",
+   "desc": "В игре DiRT Rally 2.0 вам предстоит проложить путь через культовые места для ралли во всех уголках мира. В вашем распоряжении будут самые мощные внедорожники на свете, однако малейшая ошибка может привести к завершению этапа.",
+   "url": "https://store.steampowered.com/app/690790/",
+   "appid": 690790,
+   "genres": [
+    "Гонки",
+    "Симуляторы",
+    "Спорт"
+   ],
+   "release": "25 фев. 2019 г."
+  },
+  "nfs": {
+   "name": "Need for Speed™ Unbound",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1846380/eacea0635efb7af9054f6b299060fee32404ace7/header.jpg?t=1777394467",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1846380/47534db1bb0532e01853242282f85ddfd37dee1a/capsule_231x87.jpg?t=1777394467",
+   "desc": "Покорите вершину без шума и пыли. Перехитрите копов и участвуйте в еженедельных квалификационных заездах, чтобы добраться до Гранд-заезда — главной уличной гонки. Заполните свой гараж уникальными модифицированными машинами и покажите на улицах класс.",
+   "url": "https://store.steampowered.com/app/1846380/",
+   "appid": 1846380,
+   "genres": [
+    "Экшены",
+    "Гонки"
+   ],
+   "release": "1 дек. 2022 г."
+  },
+  "assetto": {
+   "name": "Assetto Corsa Competizione",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/805550/header.jpg?t=1766404577",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/805550/capsule_231x87.jpg?t=1766404577",
+   "desc": "Assetto Corsa Competizione — новая видеоигра, выпущенная самим чемпионатом GT World Challenge. Выдающееся качество симуляции позволяет прочувствовать атмосферу гонок FIA GT3 и вступить в борьбу против официальных пилотов на автомобилях и трассах реального чемпионата.",
+   "url": "https://store.steampowered.com/app/805550/",
+   "appid": 805550,
+   "genres": [
+    "Гонки",
+    "Симуляторы",
+    "Спорт"
+   ],
+   "release": "29 мая. 2019 г."
+  },
+  "msfs": {
+   "name": "Microsoft Flight Simulator (2020) 40th Anniversary Edition",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1250410/header.jpg?t=1787671433",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1250410/capsule_231x87.jpg?t=1787671433",
+   "desc": "Спасибо поклонникам! Microsoft Flight Simulator Game of the Year Edition добавляет в игру 5 самолётов, 8 созданных вручную аэропортов, 6 экскурсионных полётов, новые курсы и обновления системы погоды. Издание бесплатно для владельцев основной игры. Небо зовёт!",
+   "url": "https://store.steampowered.com/app/1250410/",
+   "appid": 1250410,
+   "genres": [
+    "Симуляторы"
+   ],
+   "release": "25 авг. 2026 г."
+  },
+  "ets2": {
+   "name": "Euro Truck Simulator 2",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/4f6ff00d3732ed0da2e28a4e7182f0036df8ab90/header_alt_assets_8.jpg?t=1790001194",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/d250b9e96478beaa1b8b46c3b1f4b7ec3b2523d0/capsule_231x87_alt_assets_8.jpg?t=1790001194",
+   "desc": "Станьте королем европейских дорог — водителем грузовика, который доставляет важные грузы на немалые расстояния! Вас ждут десятки городов Великобритании, Бельгии, Германии, Италии, Нидерландов, Польши и не только. Испытайте свои умения, выносливость и скорость.",
+   "url": "https://store.steampowered.com/app/227300/",
+   "appid": 227300,
+   "genres": [
+    "Инди",
+    "Симуляторы"
+   ],
+   "release": "12 окт. 2012 г."
+  },
+  "farming": {
+   "name": "Farming Simulator 25",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2300320/c2a205133d23cd24faf3c152d972a1d0177661b8/header.jpg?t=1788874602",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2300320/f56e9279a16ad2f6a0532a7ef72042d7428c00c7/capsule_231x87.jpg?t=1788874602",
+   "desc": "Игра «Симулятор фермы 25» приглашает в приятную сельскую жизнь, в одиночку или в совместной игре. Хозяин здесь вы!",
+   "url": "https://store.steampowered.com/app/2300320/",
+   "appid": 2300320,
+   "genres": [
+    "Симуляторы"
+   ],
+   "release": "12 ноя. 2024 г."
+  },
+  "cities": {
+   "name": "Cities: Skylines II",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/d2840bf1821ead1f60f54054f3f5fdc2fa524215/header_alt_assets_7_russian.jpg?t=1789487974",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/33f44464ccd8b1a645b1dee04dd1fea9d573b7fa/capsule_231x87_alt_assets_7_russian.jpg?t=1789487974",
+   "desc": "Выстройте с нуля процветающий мегаполис в реалистичном симуляторе с живой экономикой и невероятно глубокой проработкой мира.",
+   "url": "https://store.steampowered.com/app/949230/",
+   "appid": 949230,
+   "genres": [
+    "Симуляторы"
+   ],
+   "release": "24 окт. 2023 г."
+  },
+  "ibeam": {
+   "name": "BeamNG.drive",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/284160/17f8af1312bc48e6cd90e5fb639d4981682af260/header.jpg?t=1785357623",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/284160/727b938bf07eaf615baf2d9bb6ffebca1fa8b5d5/capsule_231x87.jpg?t=1785357623",
+   "desc": "Основанный на физике мягких объектов автомобильный симулятор, способный практически на всё.",
+   "url": "https://store.steampowered.com/app/284160/",
+   "appid": 284160,
+   "genres": [
+    "Гонки",
+    "Симуляторы",
+    "Ранний доступ"
+   ],
+   "release": "29 мая. 2015 г."
+  },
+  "snowrunner": {
+   "name": "SnowRunner",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1465360/header.jpg?t=1788339013",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1465360/capsule_231x87.jpg?t=1788339013",
+   "desc": "Встречайте новое поколение гонок по бездорожью! Вас ждут суровые просторы, мощные машины и десятки сложных заданий, которые можно выполнять в одиночку или в команде до 4 игроков!",
+   "url": "https://store.steampowered.com/app/1465360/",
+   "appid": 1465360,
+   "genres": [
+    "Приключенческие игры",
+    "Симуляторы"
+   ],
+   "release": "17 мая. 2021 г."
+  },
+  "gow": {
+   "name": "God of War Рагнарёк",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322010/header.jpg?t=1776465233",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322010/capsule_231x87.jpg?t=1776465233",
+   "desc": "Кратос и Атрей отправляются на поиски ответов в преддверии неотвратимо надвигающегося Рагнарёка. Теперь игра доступна и на PC.",
+   "url": "https://store.steampowered.com/app/2322010/",
+   "appid": 2322010,
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Ролевые игры"
+   ],
+   "release": "19 сен. 2024 г."
+  },
+  "spiderman2": {
+   "name": "Marvel Человек-Паук 2",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/header.jpg?t=1763569811",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/379bd114fe5c23850555d1eb67fa8ac996bf702b/capsule_231x87.jpg?t=1763569811",
+   "desc": "Достичь большего. Вместе. Невероятная сила симбиота становится серьезным вызовом для Питера Паркера и Майлза Моралеса. В этой части знаменитой франшизы им предстоит искать баланс между личной жизнью, дружбой и долгом, призывающим помогать людям.",
+   "url": "https://store.steampowered.com/app/2651280/",
+   "appid": 2651280,
+   "genres": [
+    "Экшены",
+    "Приключенческие игры"
+   ],
+   "release": "30 янв. 2025 г."
+  },
+  "sekiro": {
+   "name": "Sekiro™: Shadows Die Twice - GOTY Edition",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/header.jpg?t=1762888662",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/capsule_231x87.jpg?t=1762888662",
+   "desc": "Игра года - The Game Awards 2019 Лучший боевик 2019 г. - IGN Составляйте и воплощайте собственные планы мести в удостоенном множества наград боевике от студии FromSoftware, создавшей Bloodborne и серию Dark Souls. Отомстите врагам. Верните свою честь. Освойте искусство убивать.",
+   "url": "https://store.steampowered.com/app/814380/",
+   "appid": 814380,
+   "genres": [
+    "Экшены",
+    "Приключенческие игры"
+   ],
+   "release": "21 мар. 2019 г."
+  },
+  "mhwilds": {
+   "name": "Monster Hunter Wilds",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/header.jpg?t=1787549555",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/970508d58e4f11f6f9ff3e2921b7eec558a50af8/capsule_231x87.jpg?t=1787549555",
+   "desc": "Неистовая стихия дикой природы — не для слабых духом. Окружающий мир может измениться в мгновение ока! Это история о монстрах и людях, а также о том, как они пытаются гармонично сосуществовать в двойственном мире. В Monster Hunter Wilds вас ждет поистине незабываемая охота!",
+   "url": "https://store.steampowered.com/app/2246340/",
+   "appid": 2246340,
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Ролевые игры"
+   ],
+   "release": "27 фев. 2025 г."
+  },
+  "hogwarts": {
+   "name": "Хогвартс. Наследие",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/be2971b1023bccb04f993887d70ef4d2060262cf/header.jpg?t=1790097140",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/4617336bf98ab04289173328838f18303673457f/capsule_231x87.jpg?t=1790097140",
+   "desc": "«Хогвартс. Наследие» – это ролевая игра с открытым миром. Теперь вы можете контролировать свои действия и стать центральным героем собственных приключений в волшебном мире.",
+   "url": "https://store.steampowered.com/app/990080/",
+   "appid": 990080,
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Ролевые игры"
+   ],
+   "release": "10 фев. 2023 г."
+  },
+  "acvalhalla": {
+   "name": "Assassin's Creed Valhalla",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2208920/header.jpg?t=1786637382",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2208920/capsule_231x87.jpg?t=1786637382",
+   "desc": "Assassin’s Creed Вальгалла – экшн-приключение, героя которого взрастили на легендах о битвах и воинской славе. Исследуйте динамичный открытый мир Англии темных веков. Совершайте набеги и развивайте поселение, чтобы заслужить место среди богов в Вальгалле.",
+   "url": "https://store.steampowered.com/app/2208920/",
+   "appid": 2208920,
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Ролевые игры"
+   ],
+   "release": "6 дек. 2022 г."
+  },
+  "gw2": {
+   "name": "Guild Wars 2®",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1284210/header.jpg?t=1782483330",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1284210/d926406bac23005d2d4a2bbe2d6faee3494f0544/capsule_231x87.jpg?t=1782483330",
+   "desc": "",
+   "url": "https://store.steampowered.com/app/1284210/",
+   "appid": 1284210,
+   "genres": [
+    "Приключенческие игры",
+    "Многопользовательские игры",
+    "Ролевые игры",
+    "Бесплатные"
+   ],
+   "release": "23 авг. 2022 г."
+  },
+  "eso": {
+   "name": "The Elder Scrolls® Online",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/306130/465cc6917d2ed89c364ebfca85da07f79a2abfd6/header.jpg?t=1788444143",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/306130/b70c25a51268b6ae7200c16136abfc35c4263833/capsule_231x87.jpg?t=1788444143",
+   "desc": "Любая легенда где-то берет начало, и в The Elder Scrolls Online она начинается с вас. Присоединяйтесь к миллионам игроков в этой многопользовательской ролевой игре и исследуйте огромный живой мир TES.",
+   "url": "https://store.steampowered.com/app/306130/",
+   "appid": 306130,
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Многопользовательские игры",
+    "Ролевые игры"
+   ],
+   "release": "22 мая. 2017 г."
+  },
+  "lostark": {
+   "name": "Lost Ark",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1599340/header.jpg?t=1763571534",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1599340/capsule_231x87.jpg?t=1763571534",
+   "desc": "",
+   "url": "https://store.steampowered.com/app/1599340/",
+   "appid": 1599340,
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Многопользовательские игры",
+    "Ролевые игры"
+   ],
+   "release": "11 фев. 2022 г."
+  },
+  "newworld": {
+   "name": "New World: Aeternum",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1063730/bd98bbdc4fdf388d07afa6ec8d781cb863bccfb0/header.jpg?t=1768500124",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1063730/2fe94eba6734521fbd4f44fb23ea66cb79376067/capsule_231x87.jpg?t=1768500124",
+   "desc": "",
+   "url": "https://store.steampowered.com/app/1063730/",
+   "appid": 1063730,
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Многопользовательские игры",
+    "Ролевые игры"
+   ],
+   "release": "28 сен. 2021 г."
+  },
+  "throne": {
+   "name": "Throne and Liberty",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2429640/497cc638fa3186f1aeefddaff89eaaf6f0c2e7dd/header.jpg?t=1787851215",
+   "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2429640/dd04319d8cdd4b7321f8ebdf9c040bad6799d461/capsule_231x87.jpg?t=1787851215",
+   "desc": "",
+   "url": "https://store.steampowered.com/app/2429640/",
+   "appid": 2429640,
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Многопользовательские игры",
+    "Ролевые игры"
+   ],
+   "release": "1 окт. 2024 г."
+  },
+  "valorant": {
+   "desc": "Тактический шутер 5 на 5 от Riot Games: у каждого агента свои способности, но решают точная стрельба, экономика раундов и командная игра.",
+   "url": "https://playvalorant.com/ru-ru/",
+   "img": "./assets/games/valorant.png",
+   "fit": "contain"
+  },
+  "lol": {
+   "desc": "Командная MOBA 5 на 5: выбираешь чемпиона, фармишь линию, сносишь башни и вместе с командой рушишь вражеский Нексус.",
+   "url": "https://www.leagueoflegends.com/ru-ru/",
+   "img": "./assets/games/lol.png",
+   "fit": "contain"
+  },
+  "fortnite": {
+   "desc": "Бесплатная королевская битва от Epic Games на 100 игроков со строительством, постоянными сезонами, коллаборациями и творческими режимами.",
+   "url": "https://www.fortnite.com/?lang=ru",
+   "img": "https://cms-assets.unrealengine.com/cm6l5gfpm05kr07my04cqgy2x/cmfo4y74z03yw07ohsjgs0qj7"
+  },
+  "alanwake2": {
+   "desc": "Сюжетный хоррор от Remedy: писатель Алан Уэйк и агент ФБР Сага Андерсон распутывают кошмар, где реальность переписывается по рукописи.",
+   "url": "https://www.alanwake.com/",
+   "img": "https://www.alanwake.com/wp-content/uploads/2023/05/aw2-standard.png"
+  },
+  "gt7": {
+   "desc": "Автосимулятор Polyphony Digital для PlayStation: сотни реальных машин, тюнинг, лицензии, карьера и сетевые гонки с честной физикой.",
+   "url": "https://www.gran-turismo.com/ru/gt7/",
+   "img": "https://image.api.playstation.com/vulcan/ap/rnd/202109/1321/yQv1bEL3MXZbNW6l4RMYgUd2.png?w=960"
+  },
+  "totk": {
+   "desc": "Продолжение Breath of the Wild для Nintendo Switch: небесные острова, подземелья и способности Линка, позволяющие собирать из предметов что угодно.",
+   "url": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-tears-of-the-kingdom-switch/",
+   "img": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000063714/fb30eab428df3fc993b41c76e20f72e4d76d49734d17d31996b5ab61c414b117"
+  },
+  "wow": {
+   "desc": "Легендарная MMORPG Blizzard: прокачка, подземелья, рейды, эпохальные ключи и PvP в мире Азерота, который развивается с каждым дополнением.",
+   "url": "https://worldofwarcraft.blizzard.com/",
+   "img": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltb5a24e5ab1e2cfb0/6a88e3589b942efdb6f74110/wow-thumbnail-homepage.jpg"
+  }
+ }
+}

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="NEXUS PULSE — игровой портал: каталог игр, новые интересные игры, пульс дня, календарь релизов, гайды, киберспорт, скидки, тест скорости и Discord-комьюнити." />
+  <meta name="description" content="NEXUS PULSE — игровой портал: новости игр каждый день, каталог, новинки, календарь релизов и патчей, подробные гайды, матчи и трансляции киберспорта, видео, скидки и Discord-комьюнити." />
   <title>NEXUS PULSE — Игровой портал для настоящих геймеров</title>
   <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/icon-192.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
@@ -63,6 +63,7 @@
         <li><a href="#facts" data-i18n="nav.facts">Факты</a></li>
         <li><a href="#glossary" data-i18n="nav.glossary">Словарь</a></li>
         <li><a href="#esports" data-i18n="nav.esports">Киберспорт</a></li>
+        <li><a href="#videos" data-i18n="nav.videos">Видео</a></li>
         <li><a href="#deals" data-i18n="nav.deals">Скидки</a></li>
         <li><a href="#freebies">Халява</a></li>
         <li><a href="#lfg">LFG</a></li>
@@ -149,17 +150,18 @@
           <div>
             <p class="eyebrow" data-i18n="cal.eyebrow">Расписание</p>
             <h2 data-i18n="cal.title">Календарь релизов и патчей</h2>
-            <p class="section-desc" data-i18n="cal.desc">Ближайшие релизы и свежие патчи — даты, платформы, короткие заметки.</p>
+            <p class="section-desc" data-i18n="cal.desc">Ближайшие релизы в Steam и свежие обновления популярных игр.</p>
           </div>
         </div>
         <div class="calendar-layout">
           <div class="cal-col glass">
             <h3 data-i18n="cal.releases">Скоро выходит</h3>
-            <ul class="cal-list" id="releasesList"></ul>
+            <ul class="cal-list cal-list-rich" id="releasesList"></ul>
+            <button type="button" class="btn btn-ghost btn-sm cal-more" id="releasesMore" hidden>Показать все релизы</button>
           </div>
           <div class="cal-col glass">
             <h3 data-i18n="cal.patches">Патчи · сегодня и недавно</h3>
-            <ul class="cal-list" id="patchesList"></ul>
+            <ul class="cal-list cal-list-rich" id="patchesList"></ul>
           </div>
         </div>
       </div>
@@ -172,7 +174,7 @@
           <div>
             <p class="eyebrow" data-i18n="newGames.eyebrow">В фокусе</p>
             <h2 data-i18n="newGames.title">Новые интересные игры</h2>
-            <p class="section-desc" data-i18n="newGames.desc">Свежие релизы, инди-находки, возвращения и ранний доступ — ежедневная подборка.</p>
+            <p class="section-desc" data-i18n="newGames.desc">Самые популярные игры, вышедшие за последние недели.</p>
           </div>
           <p class="pulse-updated" id="newGamesUpdated" data-i18n-prefix="newGames.updated">Обновлено: —</p>
         </div>
@@ -241,7 +243,7 @@
           <div>
             <p class="eyebrow" data-i18n="guides.eyebrow">Практика</p>
             <h2 data-i18n="guides.title">Гайды и советы</h2>
-            <p class="section-desc" data-i18n="guides.desc">30 практических гайдов: FPS-настройки, ранкид, боссы, экономика, чеклисты новичков.</p>
+            <p class="section-desc" data-i18n="guides.desc">30 подробных гайдов: FPS и Windows, настройки игр, советы новичкам и разбор частых ошибок.</p>
           </div>
         </div>
         <div class="cards-grid guides-grid" id="guidesGrid"></div>
@@ -282,13 +284,44 @@
         <div class="section-head">
           <div>
             <p class="eyebrow" data-i18n="esports.eyebrow">Киберспорт</p>
-            <h2 data-i18n="esports.title">Турниры и хайлайты</h2>
-            <p class="section-desc" data-i18n="esports.desc">Ближайшие ивенты и игроки, за которыми стоит следить.</p>
+            <h2 data-i18n="esports.title">Турниры, матчи и трансляции</h2>
+            <p class="section-desc" data-i18n="esports.desc">Расписание матчей по московскому времени и официальные трансляции прямо на сайте.</p>
           </div>
+          <p class="pulse-updated" id="matchesUpdated"></p>
         </div>
+
+        <div class="watch-block glass" id="watchBlock">
+          <div class="watch-head">
+            <h3 data-i18n="esports.watch">Смотреть трансляцию</h3>
+            <p class="tool-desc">Выбери официальный канал турнира или нажми «Смотреть» у матча — эфир запустится здесь.</p>
+          </div>
+          <div class="watch-chips" id="watchChannels" role="group" aria-label="Каналы трансляций"></div>
+          <div class="watch-player" id="watchPlayer">
+            <button type="button" class="watch-poster" id="watchPoster" aria-label="Запустить трансляцию">
+              <span class="watch-play" aria-hidden="true">▶</span>
+              <span class="watch-poster-text">Нажми, чтобы включить эфир</span>
+            </button>
+          </div>
+          <p class="watch-now" id="watchNow"></p>
+        </div>
+
+        <div class="matches-block">
+          <div class="matches-head">
+            <h3 data-i18n="esports.matches">Матчи</h3>
+            <div class="filter-chips" id="matchFilters" role="group" aria-label="Игра">
+              <button type="button" class="chip active" data-mgame="all">Все</button>
+              <button type="button" class="chip" data-mgame="cs2">CS2</button>
+              <button type="button" class="chip" data-mgame="dota2">Dota 2</button>
+              <button type="button" class="chip" data-mgame="valorant">Valorant</button>
+              <button type="button" class="chip" data-mgame="lol">LoL</button>
+            </div>
+          </div>
+          <div id="matchesLive" class="matches-groups"></div>
+        </div>
+
         <div class="esports-layout">
           <div class="tournaments glass">
-            <h3 data-i18n="esports.tournaments">Ближайшие турниры</h3>
+            <h3 data-i18n="esports.tournaments">Турниры</h3>
             <ul id="tournamentsList"></ul>
           </div>
           <div class="highlights">
@@ -296,14 +329,29 @@
             <div class="highlights-grid" id="highlightsGrid"></div>
           </div>
         </div>
-        <div class="matches-block" style="margin-top:1.5rem">
-          <div class="section-head" style="margin-bottom:.75rem">
-            <div>
-              <h3 style="margin:0">Матчи: live и ближайшие</h3>
-            </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="videos">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-i18n="videos.eyebrow">Смотреть</p>
+            <h2 data-i18n="videos.title">Видео и стримы</h2>
+            <p class="section-desc" data-i18n="videos.desc">Свежие ролики про игры, киберспорт и ИИ — смотри прямо здесь.</p>
           </div>
-          <div class="matches-grid" id="matchesLive"></div>
+          <p class="pulse-updated" id="videosUpdated"></p>
         </div>
+        <div class="filter-chips video-tabs" id="videoTabs" role="group" aria-label="Категории видео">
+          <button type="button" class="chip active" data-vcat="all">Все</button>
+          <button type="button" class="chip" data-vcat="games">Игры</button>
+          <button type="button" class="chip" data-vcat="esports">Киберспорт</button>
+          <button type="button" class="chip" data-vcat="ai">ИИ и технологии</button>
+          <button type="button" class="chip" data-vcat="ru">На русском</button>
+          <button type="button" class="chip" data-vcat="streams">Стримы</button>
+        </div>
+        <div class="video-grid" id="videoGrid"></div>
+        <div class="more-wrap"><button type="button" class="btn btn-ghost btn-sm" id="videosMore" hidden>Показать ещё</button></div>
       </div>
     </section>
 
@@ -631,10 +679,12 @@
           <div>
             <p class="eyebrow" data-i18n="news.eyebrow">Лента</p>
             <h2 data-i18n="news.title">Новости гейминга</h2>
-            <p class="section-desc" data-i18n="news.desc">Свежие заголовки из ежедневного фида.</p>
+            <p class="section-desc" data-i18n="news.desc">Главные игровые новости дня — с картинками и полным текстом.</p>
           </div>
+          <p class="pulse-updated" id="newsUpdated"></p>
         </div>
         <div class="news-grid" id="newsGrid"></div>
+        <div class="more-wrap"><button type="button" class="btn btn-ghost btn-sm" id="newsMore" hidden>Показать ещё новости</button></div>
       </div>
     </section>
 
@@ -688,6 +738,7 @@
         <a href="#facts" data-i18n="nav.facts">Факты</a>
         <a href="#glossary" data-i18n="nav.glossary">Словарь</a>
         <a href="#esports" data-i18n="nav.esports">Киберспорт</a>
+        <a href="#videos" data-i18n="nav.videos">Видео</a>
         <a href="#deals" data-i18n="nav.deals">Скидки</a>
         <a href="#freebies">Халява</a>
         <a href="#lfg">LFG</a>
@@ -721,6 +772,8 @@
   <button class="to-top" id="toTop" aria-label="Наверх" type="button">↑</button>
   <script src="app.js"></script>
   <script src="features-extra.js"></script>
+  <script src="guides-content.js"></script>
+  <script src="content-hub.js"></script>
   <script>
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", function () {

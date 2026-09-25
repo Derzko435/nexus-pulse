@@ -1,0 +1,89 @@
+name: Daily content (news, releases, patches, matches, videos, catalog)
+on:
+  schedule:
+    # 06:17 Moscow time (03:17 UTC): full refresh of every section
+    - cron: "17 3 * * *"
+    # every 3 hours at :47 — matches, news and videos stay fresh during the day
+    - cron: "47 */3 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "full or light"
+        required: false
+        default: "full"
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: daily-content
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install --quiet beautifulsoup4
+
+      - name: Decide mode
+        id: mode
+        run: |
+          MODE=full
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "${{ github.event.schedule }}" = "47 */3 * * *" ]; then MODE=light; fi
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ -n "${{ inputs.mode }}" ]; then MODE="${{ inputs.mode }}"; fi
+          echo "mode=$MODE" >> "$GITHUB_OUTPUT"
+          echo "Mode: $MODE"
+
+      - name: Matches and tournaments
+        run: python scripts/update_matches.py || echo "::warning::matches update failed (last good data kept)"
+
+      - name: Gaming news
+        run: python scripts/update_news.py || echo "::warning::news update failed (last good data kept)"
+
+      - name: Videos
+        run: python scripts/update_videos.py || echo "::warning::videos update failed (last good data kept)"
+
+      - name: Release calendar and new games
+        if: steps.mode.outputs.mode == 'full'
+        run: python scripts/update_releases.py || echo "::warning::releases update failed (last good data kept)"
+
+      - name: Patch notes
+        if: steps.mode.outputs.mode == 'full'
+        run: python scripts/update_patches.py || echo "::warning::patches update failed (last good data kept)"
+
+      - name: Catalog pictures and descriptions
+        if: steps.mode.outputs.mode == 'full'
+        run: python scripts/update_catalog.py || echo "::warning::catalog update failed (last good data kept)"
+
+      - name: Commit and push if data changed
+        id: push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/news.json data/releases.json data/new_games.json data/patches.json data/matches.json data/videos.json data/catalog.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No content changes"
+            echo "pushed=0" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "chore(content): daily refresh $(TZ=Europe/Moscow date '+%Y-%m-%d %H:%M') MSK"
+          for i in 1 2 3 4 5; do
+            git pull --rebase --autostash origin main && git push origin HEAD:main && break
+            echo "push attempt $i failed, retrying"; sleep $((i * 10))
+          done
+          echo "pushed=1" >> "$GITHUB_OUTPUT"
+
+      - name: Redeploy the site
+        if: steps.push.outputs.pushed == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref main || echo "::warning::could not trigger pages deploy"

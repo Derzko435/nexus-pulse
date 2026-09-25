@@ -153,14 +153,8 @@ const DISCORD_INVITE_URL = "https://discord.gg/c7UHcM2UR";
     { term: "Boost", def: "Накрутка ранга с более сильным игроком (часто против правил)." },
   ];
 
-  const TOURNAMENTS = [
-    { date: "28 сен", name: "PGL Major Copenhagen Qual", game: "CS2", prize: "$500K" },
-    { date: "02 окт", name: "The International Road to", game: "Dota 2", prize: "$1.5M" },
-    { date: "05 окт", name: "VCT Champions Playoffs", game: "Valorant", prize: "$2.2M" },
-    { date: "12 окт", name: "LEC Worlds Qualifiers", game: "LoL", prize: "Слоты Worlds" },
-    { date: "18 окт", name: "BLAST Premier Fall Final", game: "CS2", prize: "$425K" },
-    { date: "25 окт", name: "Six Invitational Warmup", game: "R6 Siege", prize: "$250K" },
-  ];
+  // Реальные турниры подгружает content-hub.js (обновляются ежедневно)
+  const TOURNAMENTS = [];
 
   const HIGHLIGHTS = [
     { nick: "s1mple*", team: "Легенда CS · хайлайты года", initials: "S1", c1: "#00f5ff", c2: "#8b5cff" },
@@ -190,37 +184,6 @@ const DISCORD_INVITE_URL = "https://discord.gg/c7UHcM2UR";
       "Сегодня вечером пинг к EU ниже обычного — хорошее окно для ranked.",
       "Не забывай обновлять GPU-драйверы перед крупными патчами.",
       "В Discord #поиск-тимы уже собирают 5-ки на CS2 после 21:00 MSK.",
-    ],
-    patches: [
-      { game: "Counter-Strike 2", date: "2026-09-24", label: "сегодня", platforms: ["PC"], note: "Усилен античит, фикс дыма на Ancient, баланс Desert Eagle." },
-      { game: "Dota 2", date: "2026-09-23", label: "вчера", platforms: ["PC"], note: "7.39e: нерф мид-саппортов, бафф Carry-темплейтов." },
-      { game: "Valorant", date: "2026-09-22", label: "22 сен", platforms: ["PC"], note: "Хотфикс способностей агента: убран дабл-триггер ульты." },
-      { game: "Apex Legends", date: "2026-09-21", label: "21 сен", platforms: ["PC", "PS5", "Xbox"], note: "Баланс оружия: R-301 ↓, Wingman ↑ в mid-range." },
-    ],
-    releases: [
-      { title: "Hollow Knight: Silksong", date: "2026-09-26", platforms: ["PC", "Switch", "PS5", "Xbox"], note: "Долгожданный сиквел — метроидвания нового поколения." },
-      { title: "Mafia: The Old Country", date: "2026-10-03", platforms: ["PC", "PS5", "Xbox"], note: "Истоки мафии, новая катсцена-кампания." },
-      { title: "Monster Hunter Wilds — Title Update 2", date: "2026-10-10", platforms: ["PC", "PS5", "Xbox"], note: "Новый монстр, оружие и сезонный ивент." },
-      { title: "GTFO: Descent", date: "2026-10-17", platforms: ["PC"], note: "Кооп-хоррор: новый рунд и перманентные апгрейды." },
-      { title: "Path of Exile 2 — Early Access Wave 3", date: "2026-10-24", platforms: ["PC", "PS5"], note: "Новые классы и эндгейм-маппинг." },
-    ],
-    news: [
-      { date: "24 сен 2026", title: "Valve обновила античит в CS2: что изменилось для ранкеда", text: "Короткий разбор новых детектов и влияния на паб.", c1: "#1a3010", c2: "#304010" },
-      { date: "23 сен 2026", title: "RTX 50-й серии: первые независимые бенчи в 1440p", text: "Сравниваем с 40-й линейкой в киберспорте и AAA.", c1: "#101828", c2: "#182848" },
-      { date: "22 сен 2026", title: "The International: сетка и фавориты по коэффициентам", text: "Кого ставят букмекеры и почему это ещё ничего не значит.", c1: "#281018", c2: "#401820" },
-      { date: "21 сен 2026", title: "Инди-неделя: 5 релизов, которые стоит попробовать", text: "От мрачных метроидваний до уютных симов.", c1: "#181028", c2: "#281840" },
-      { date: "20 сен 2026", title: "Как стримерам не сгореть: режим и оборудование", text: "Практический чеклист от комьюнити NEXUS PULSE.", c1: "#102028", c2: "#183040" },
-      { date: "19 сен 2026", title: "Steam Deck OLED vs ROG Ally: что брать геймеру", text: "Автономия, Windows-игры и реальный комфорт в поездках.", c1: "#201810", c2: "#382818" },
-    ],
-    newInterestingGames: [
-      { title: "Hollow Knight: Silksong", genre: "инди / метроидвания", platforms: ["PC", "Switch", "PS5", "Xbox"], blurb: "Долгожданный сиквел наконец здесь — быстрее, плотнее и с новым героем.", tag: "новинка", date: "2026-09-24", c1: "#1a1030", c2: "#3a1858" },
-      { title: "Path of Exile 2", genre: "ARPG", platforms: ["PC", "PS5"], blurb: "Волна раннего доступа: новые классы и эндгейм, ради которого стоит зайти.", tag: "ранний доступ", date: "2026-09-19", c1: "#201010", c2: "#402018" },
-      { title: "Blue Prince", genre: "пазл / рогалик", platforms: ["PC", "PS5", "Xbox"], blurb: "Особняк, который перестраивается каждый день — самая обсуждаемая головоломка года.", tag: "инди-находка", date: "2026-06-26", c1: "#102028", c2: "#183848" },
-      { title: "Split Fiction", genre: "кооп / экшен", platforms: ["PC", "PS5", "Xbox"], blurb: "Кооп от создателей It Takes Two — идеальный вечер вдвоём на диване.", tag: "новинка", date: "2026-08-25", c1: "#281018", c2: "#482028" },
-      { title: "Peak", genre: "кооп / инди", platforms: ["PC"], blurb: "Кооп-скалолазание с физикой хаоса — коротко, смешно, идеально для стрима.", tag: "инди-находка", date: "2026-09-14", c1: "#102030", c2: "#184060" },
-      { title: "Kingdom Come: Deliverance II", genre: "RPG", platforms: ["PC", "PS5", "Xbox"], blurb: "Средневековье без магии: реалистичный RPG, к которому возвращаются спустя месяцы.", tag: "возвращение", date: "2026-05-27", c1: "#201810", c2: "#3a2818" },
-      { title: "Hades II", genre: "рогалик", platforms: ["PC"], blurb: "Супергил доводит ранний доступ — Мелиноя и новые регионы уже на высоте.", tag: "ранний доступ", date: "2026-08-15", c1: "#181028", c2: "#301848" },
-      { title: "Balatro", genre: "рогалик / карты", platforms: ["PC", "Switch", "PS5", "Xbox"], blurb: "Покерный рогалик, к которому возвращаются «на одну партию» — и пропадают на час.", tag: "возвращение", date: "2026-03-08", c1: "#281018", c2: "#401820" },
     ],
   };
 
@@ -407,6 +370,39 @@ const DISCORD_INVITE_URL = "https://discord.gg/c7UHcM2UR";
   Object.assign(I18N.zh, { "nav.games": "游戏", "nav.pulse": "今日脉搏", "nav.guides": "攻略", "nav.deals": "优惠", "nav.tools": "工具", "nav.facts": "冷知识", "nav.glossary": "术语", "hero.ctaTools": "打开工具", "pulse.title": "今日脉搏", "games.title": "热门游戏", "speed.title": "网速测试", "speed.run": "开始测试", "speed.again": "重新测试", "deals.updated": "优惠更新于：", "lang.label": "语言", "nav.newGames": "新作", "newGames.title": "新趣游戏", "newGames.updated": "更新于：" });
   Object.assign(I18N.ja, { "nav.games": "ゲーム", "nav.pulse": "本日のパルス", "nav.guides": "ガイド", "nav.deals": "セール", "nav.tools": "ツール", "nav.facts": "豆知識", "nav.glossary": "用語集", "hero.ctaTools": "ツールを開く", "pulse.title": "本日のパルス", "games.title": "人気ゲーム", "speed.title": "速度テスト", "speed.run": "速度を測定", "speed.again": "再測定", "deals.updated": "セール更新：", "lang.label": "言語", "nav.newGames": "新作", "newGames.title": "注目の新作ゲーム", "newGames.updated": "更新：" });
   Object.assign(I18N.ko, { "nav.games": "게임", "nav.pulse": "오늘의 펄스", "nav.guides": "가이드", "nav.deals": "할인", "nav.tools": "도구", "nav.facts": "팩트", "nav.glossary": "용어집", "hero.ctaTools": "도구 열기", "pulse.title": "오늘의 펄스", "games.title": "인기 게임", "speed.title": "속도 테스트", "speed.run": "속도 측정", "speed.again": "다시 측정", "deals.updated": "할인 업데이트:", "lang.label": "언어", "nav.newGames": "신작", "newGames.title": "새로운 흥미로운 게임", "newGames.updated": "업데이트:" });
+
+  /* Ключи новых разделов: новости, видео, трансляции */
+  Object.assign(I18N.ru, {
+    "nav.videos": "Видео", "videos.eyebrow": "Смотреть", "videos.title": "Видео и стримы",
+    "videos.desc": "Свежие ролики про игры, киберспорт и ИИ — смотри прямо здесь.",
+    "news.desc": "Главные игровые новости дня — с картинками и полным текстом.",
+    "esports.title": "Турниры, матчи и трансляции", "esports.desc": "Расписание матчей по московскому времени и официальные трансляции прямо на сайте.",
+    "esports.tournaments": "Турниры", "esports.watch": "Смотреть трансляцию", "esports.matches": "Матчи",
+    "cal.desc": "Ближайшие релизы в Steam и свежие обновления популярных игр.",
+    "newGames.desc": "Самые популярные игры, вышедшие за последние недели.",
+    "guides.desc": "30 подробных гайдов: FPS и Windows, настройки игр, советы новичкам и разбор частых ошибок.",
+  });
+  const NP_EN_NEW = {
+    "nav.videos": "Videos", "videos.eyebrow": "Watch", "videos.title": "Videos & streams",
+    "videos.desc": "Fresh videos about games, esports and AI — watch right here.",
+    "news.desc": "Top gaming news of the day — with pictures and full text.",
+    "esports.title": "Tournaments, matches & streams", "esports.desc": "Match schedule in Moscow time and official broadcasts right on the site.",
+    "esports.tournaments": "Tournaments", "esports.watch": "Watch the broadcast", "esports.matches": "Matches",
+    "cal.desc": "Upcoming Steam releases and fresh updates for popular games.",
+    "newGames.desc": "The most popular games released in recent weeks.",
+    "guides.desc": "30 detailed guides: FPS & Windows, game settings, beginner tips and common mistakes.",
+  };
+  ["en", "de", "es", "fr", "pt", "pl", "tr", "zh", "ja", "ko"].forEach((code) => Object.assign(I18N[code], NP_EN_NEW));
+  Object.assign(I18N.uk, NP_EN_NEW, {
+    "nav.videos": "Відео", "videos.eyebrow": "Дивитися", "videos.title": "Відео та стріми",
+    "videos.desc": "Свіжі ролики про ігри, кіберспорт і ШІ — дивись просто тут.",
+    "news.desc": "Головні ігрові новини дня — з картинками та повним текстом.",
+    "esports.title": "Турніри, матчі та трансляції", "esports.desc": "Розклад матчів за московським часом і офіційні трансляції просто на сайті.",
+    "esports.tournaments": "Турніри", "esports.watch": "Дивитися трансляцію", "esports.matches": "Матчі",
+    "cal.desc": "Найближчі релізи в Steam і свіжі оновлення популярних ігор.",
+    "newGames.desc": "Найпопулярніші ігри, що вийшли за останні тижні.",
+    "guides.desc": "30 докладних гайдів: FPS і Windows, налаштування ігор, поради новачкам і типові помилки.",
+  });
 
   const WORLD_LANGS = [
     ["af","Afrikaans"],["sq","Shqip"],["am","አማርኛ"],["ar","العربية"],["hy","Հայերեն"],["az","Azərbaycan"],
@@ -596,9 +592,14 @@ const DISCORD_INVITE_URL = "https://discord.gg/c7UHcM2UR";
     $$("#genreFilters .chip").forEach((c) => c.classList.remove("active"));
     btn.classList.add("active");
     activeGenre = btn.dataset.genre;
-    renderGames();
+    rerenderGames();
   });
-  $("#gameSearch")?.addEventListener("input", (e) => { searchQuery = e.target.value; renderGames(); });
+  $("#gameSearch")?.addEventListener("input", (e) => { searchQuery = e.target.value; rerenderGames(); });
+  // features-extra.js оборачивает renderGames (доп. фильтры, бейджи) — вызываем обёртку, если она есть
+  function rerenderGames() {
+    const np = window.NexusPulse;
+    if (np && typeof np.renderGames === "function") np.renderGames(); else renderGames();
+  }
   $("#gamesGrid")?.addEventListener("click", (e) => {
     const btn = e.target.closest("[data-fav]");
     if (!btn) return;
@@ -606,7 +607,7 @@ const DISCORD_INVITE_URL = "https://discord.gg/c7UHcM2UR";
     let wish = getWishlist();
     wish = wish.includes(id) ? wish.filter((x) => x !== id) : wish.concat(id);
     setWishlist(wish);
-    renderGames();
+    rerenderGames();
     renderWishlist();
   });
 
@@ -806,10 +807,8 @@ const DISCORD_INVITE_URL = "https://discord.gg/c7UHcM2UR";
   }
 
   function applyDaily(daily) {
+    // Календарь, новинки и новости рендерит content-hub.js из ежедневно обновляемых файлов
     renderPulse(daily);
-    renderCalendar(daily);
-    renderNewGames(daily);
-    renderNews(daily.news);
   }
 
   async function loadDaily() {

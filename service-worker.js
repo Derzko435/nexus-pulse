@@ -1,5 +1,5 @@
 /* NEXUS PULSE service worker */
-const VERSION = "v3-2026-09-25";
+const VERSION = "v4-2026-09-25";
 const SHELL_CACHE = "nexus-pulse-shell-" + VERSION;
 const DATA_CACHE = "nexus-pulse-data-" + VERSION;
 const FONT_CACHE = "nexus-pulse-fonts-v1";
@@ -11,6 +11,8 @@ const SHELL = [
   "./styles.css",
   "./app.js",
   "./features-extra.js",
+  "./guides-content.js",
+  "./content-hub.js",
   "./manifest.json",
   "./assets/nexus-pulse-icon.png",
   "./assets/icons/icon-192.png",
@@ -28,6 +30,12 @@ const DATA = [
   "./data/lfg_snapshot.json",
   "./data/ping_targets.json",
   "./data/steam_catalog_snapshot.json",
+  "./data/news.json",
+  "./data/releases.json",
+  "./data/new_games.json",
+  "./data/patches.json",
+  "./data/videos.json",
+  "./data/catalog.json",
 ];
 
 self.addEventListener("install", (event) => {

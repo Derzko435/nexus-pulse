@@ -2314,7 +2314,8 @@ const NICK_BANKS = {
     wireChecklist();
     wireBacklog(NP);
     watchGotd();
-    loadMatches();
+    // Матчи, турниры и трансляции рендерит content-hub.js (void loadMatches — оставлено для совместимости)
+    void loadMatches;
     applyBuildFromQuery(NP);
     NP.renderGames();
     injectCompatBadges(NP);
