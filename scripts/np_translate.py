@@ -40,6 +40,9 @@ KEEP_NAMES = [
 ]
 
 
+ZW_RE = re.compile("[\u200b\u200c\u200d\u2060\ufeff]")
+
+
 def _h(s: str) -> str:
     return hashlib.sha1(s.encode("utf-8")).hexdigest()[:16]
 
@@ -48,6 +51,9 @@ class Translator:
     def __init__(self) -> None:
         raw = read_json(CACHE_FILE, {}) or {}
         self.cache: dict = raw.get("items") or {}
+        for v in self.cache.values():
+            if isinstance(v, list) and v and isinstance(v[0], str):
+                v[0] = ZW_RE.sub("", v[0])
         self.today = datetime.now(MSK).date().isoformat()
         self.dirty = False
         self.provider_ok = True  # flips to False after repeated failures → stop hammering
@@ -81,6 +87,7 @@ class Translator:
 
     @staticmethod
     def _restore(s: str, keep: list[str]) -> str:
+        s = ZW_RE.sub("", s)  # Google sometimes inserts zero-width spaces
         for i, name in enumerate(keep):
             s = re.sub(rf"NPX\s*{i}\s*Q", name, s, flags=re.I)
         return s
