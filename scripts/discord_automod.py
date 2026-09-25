@@ -8,7 +8,7 @@
 Rules are matched by name («NP · …») and updated in place, never duplicated.
 Needs MANAGE_GUILD; timeouts are added only when the bot has MODERATE_MEMBERS
 (the hourly box routine re-runs this whenever the bot's permissions change).
-Alerts go to #🛡модерация (falls back to no alert channel if the bot can't see it).
+Alerts go to #🛡модерация if the bot can see it, else to the bot-visible #🔒служебное.
 The bot role, «Админ» and «Модератор» are exempt (members with Manage Server are
 always exempt by Discord itself), so the auto-feed is never blocked.
 """
@@ -110,17 +110,23 @@ def main() -> int:
         return 3
     can_timeout = bool(perms & PERM["MODERATE_MEMBERS"])
     ch = load_channels()
-    alert = ch.get("mod")
-    if alert:
+    alert = None
+    for key in ("mod", "staff"):  # #🛡модерация if the bot can see it, else the bot's #🔒служебное
+        cid = ch.get(key)
+        if not cid:
+            continue
         try:
-            bot.api("GET", f"/channels/{alert}")
+            bot.api("GET", f"/channels/{cid}")
+            alert = cid
+            break
         except DiscordError:
-            print("automod: bot cannot see #🛡модерация — alerts disabled until the bot role gets access there")
-            alert = None
+            continue
+    if not alert:
+        print("automod: no staff channel visible to the bot — alerts off (run setup-server)")
     me = info["me"]
     exempt_roles = [r["id"] for r in info["roles"]
                     if r["name"] in ("Админ", "Модератор") or (r.get("managed") and (r.get("tags") or {}).get("bot_id") == me["id"])]
-    exempt_channels = [c for c in [ch.get("mod")] if c]
+    exempt_channels = [c for c in [ch.get("mod"), ch.get("staff")] if c]
     existing = {r["name"]: r for r in bot.api("GET", f"/guilds/{GUILD_ID}/auto-moderation/rules") or []}
     created = updated = same = 0
     for rule in build_rules(ch, alert, can_timeout):

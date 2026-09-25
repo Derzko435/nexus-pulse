@@ -538,7 +538,8 @@ def cmd_setup_webhooks(token: str, args: argparse.Namespace) -> None:
 
 
 def cmd_perms_signature(token: str, _args: argparse.Namespace) -> None:
-    """Print a signature of what the bot can do (guild perms + #🛡модерация access + app intents).
+    """Print a signature of what the bot can do (guild perms + staff channel access + app intents +
+    Community on/off).
     The box routine re-runs setup-server / setup-automod when it changes."""
     bot = Bot(token)
     perms, _info = bot.guild_permissions()
@@ -551,7 +552,16 @@ def cmd_perms_signature(token: str, _args: argparse.Namespace) -> None:
         except DiscordError:
             pass
     flags = int((bot.api("GET", "/applications/@me") or {}).get("flags") or 0) & ((0b11 << 14) | (0b11 << 18))
-    print(f"{perms}:{mod_ok}:{flags}")
+    community = int("COMMUNITY" in ((bot.api("GET", f"/guilds/{GUILD_ID}") or {}).get("features") or []))
+    staff = load_channels().get("staff")
+    staff_ok = 0
+    if staff:
+        try:
+            bot.api("GET", f"/channels/{staff}")
+            staff_ok = 1
+        except DiscordError:
+            pass
+    print(f"{perms}:{mod_ok}:{flags}:{community}:{staff_ok}")
 
 
 def bot_alive(max_age: int = 300) -> bool:

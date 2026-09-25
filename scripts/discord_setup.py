@@ -56,6 +56,8 @@ CHANNELS = [
     ("giveaways", None, "🎉розыгрыши", "cat_info", "Розыгрыши и ивенты сервера. Включи 🔔 Раздачи в #🎭роли", RO, 0),
     ("guides", "1552736872860749845", "📚гайды", "cat_info", "Гайды и полезные ссылки · больше на derzko435.github.io/nexus-pulse", None, 0),
     ("mod", None, "🛡модерация", "cat_info", "Канал для команды сервера", PRIVATE, 0),
+    # bot-visible staff channel: Discord Community updates, safety alerts, AutoMod alerts
+    ("staff", None, "🔒служебное", "cat_info", "Служебный канал: уведомления Discord, безопасность и автомодерация", PRIVATE, 0),
 
     # the original «новости» channel (only had a bot post) became the news feed
     ("feed_news", "1552736799762415776", "📰новости", "cat_feed", "Игровые новости дня — автоматически с сайта NEXUS PULSE", RO, 0),
@@ -534,23 +536,38 @@ class Setup:
             patch["verification_level"] = 1
         if g.get("explicit_content_filter", 0) < 2:
             patch["explicit_content_filter"] = 2
-        mod_ok = True
-        try:
-            self.api("GET", f"/channels/{self.ids['mod']}")
-        except DiscordError:
-            mod_ok = False  # hidden from the bot → cannot be the Community updates channel
+        # Community updates + safety alerts go to a staff channel the bot can see:
+        # #🔒служебное (created by the bot), or #🛡модерация if the bot has access there
+        staff = None
+        for key in ("staff", "mod"):
+            if not self.ids.get(key):
+                continue
+            try:
+                self.api("GET", f"/channels/{self.ids[key]}")
+                staff = self.ids[key]
+                break
+            except DiscordError:
+                continue
         feats = list(g.get("features") or [])
-        if mod_ok:
-            patch["rules_channel_id"] = self.ids["rules"]
-            patch["public_updates_channel_id"] = self.ids["mod"]
-            if "COMMUNITY" not in feats:
-                feats.append("COMMUNITY")
+        community = "COMMUNITY" in feats
+        admin = self.can("ADMINISTRATOR")
+        patch["rules_channel_id"] = self.ids["rules"]
+        if staff:
+            patch["safety_alerts_channel_id"] = staff
+            if community or admin:
+                patch["public_updates_channel_id"] = staff  # only settable on Community servers
+        if not community and admin and staff:
+            feats.append("COMMUNITY")
             patch["features"] = feats
-        else:
-            self.notes.append("Community skipped: the bot cannot see #🛡модерация (give the bot role access to it)")
+        elif not community:
+            # Discord lets only ADMINISTRATOR turn Community on; the owner does it once in
+            # Server Settings → Enable Community. The box routine notices it and finishes the setup.
+            self.notes.append("Community is off: enabling it needs Administrator — owner: Server Settings → "
+                              "Enable Community (rules: #📜правила, updates: #🔒служебное); the rest is automatic")
+        mod_ok = community or ("features" in patch)
         try:
             self.api("PATCH", f"/guilds/{GUILD_ID}", patch, reason="NEXUS PULSE community")
-            self.log("~ guild: description, system channel" + (", rules channel, Community" if mod_ok else ""))
+            self.log("~ guild: description, system/rules/safety channels" + (", Community" if mod_ok else ""))
         except DiscordError as e:
             self.notes.append(f"guild patch failed {e.code}: {e.body[:200]}")
             patch.pop("features", None)
@@ -565,7 +582,7 @@ class Setup:
             self.log("~ widget enabled")
         except DiscordError as e:
             self.notes.append(f"widget failed {e.code}")
-        if not mod_ok and "COMMUNITY" not in (g.get("features") or []):
+        if not mod_ok:
             return  # welcome screen + onboarding need Community
         # welcome screen (Community only)
         try:
