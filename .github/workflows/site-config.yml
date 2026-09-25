@@ -1,0 +1,44 @@
+name: Apply site config (verification tags)
+# Runs when data/site_config.json is edited: puts Yandex / Google / Bing verification
+# meta tags into index.html, refreshes share pages + sitemap and redeploys the site.
+# (Yandex Metrika is read by the site itself from data/site_config.json — no rebuild needed.)
+on:
+  push:
+    branches: [main]
+    paths:
+      - data/site_config.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: site-config
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build verification tags, share pages, sitemap
+        run: python scripts/build_site_meta.py
+      - name: Commit and redeploy
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html sitemap.xml robots.txt data/share_index.json 2>/dev/null || true
+          git add -A s/ 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Nothing to change"
+          else
+            git commit -m "chore(site): apply site_config.json"
+            for i in 1 2 3; do git pull --rebase --autostash origin main && git push origin HEAD:main && break; sleep $((i * 10)); done
+          fi
+          gh workflow run pages.yml --ref main || echo "::warning::could not trigger pages deploy"

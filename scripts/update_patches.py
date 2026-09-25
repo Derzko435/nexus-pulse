@@ -21,6 +21,11 @@ from np_common import (
     iso_from_ts, log, now_msk_iso, og_image, safe_url, write_json_if_good,
 )
 
+try:
+    from np_translate import Translator
+except Exception:  # noqa: BLE001 — translation is optional, never breaks the update
+    Translator = None  # type: ignore
+
 OUT = DATA / "patches.json"
 MAX_AGE_DAYS = 150
 
@@ -75,7 +80,7 @@ def bbcode_to_blocks(text: str, max_blocks: int = 60, max_chars: int = 9000) -> 
         elif line.startswith("\u0001L"):
             kind, line = "li", line[2:]
         line = clean_text(line)
-        if not line:
+        if not line or not re.search(r"[0-9A-Za-zА-Яа-яЁё]", line):
             continue
         if kind == "p" and re.match(r"^[-•–]\s+", line):
             kind, line = "li", re.sub(r"^[-•–]\s+", "", line)
@@ -186,6 +191,43 @@ def riot_patch(gid: str, name: str, base: str, path: str, cat: str) -> dict | No
     }
 
 
+def translate_items(items: list[dict]) -> None:
+    """English patch notes → Russian (machine translation, cached). Original link is kept.
+    If the translation is incomplete the item stays in English (no half-translated notes)."""
+    if Translator is None:
+        return
+    try:
+        tr = Translator()
+    except Exception as e:  # noqa: BLE001
+        log(f"[translate-fail] init: {e}")
+        return
+    for it in items:
+        if it.get("lang") != "en":
+            continue
+        src = [it.get("title") or "", it.get("summary") or ""] + [b["x"] for b in it.get("body") or []]
+        need = [s for s in src if tr.needs(s)]
+        try:
+            ru = tr.many(src)
+        except Exception as e:  # noqa: BLE001
+            log(f"[translate-fail] {it['game']}: {e}")
+            continue
+        changed = sum(1 for a, b in zip(src, ru) if a != b)
+        if need and changed >= len(need) * 0.9:
+            it["titleOriginal"] = it.get("title")
+            it["title"], it["summary"] = ru[0], ru[1]
+            for b, x in zip(it.get("body") or [], ru[2:]):
+                b["x"] = x
+            it["lang"] = "ru"
+            it["translated"] = True
+            log(f"[translate] {it['game']}: {changed}/{len(need)} strings")
+        else:
+            log(f"[translate-keep-en] {it['game']}: only {changed}/{len(need)} strings translated")
+    try:
+        tr.save()
+    except Exception as e:  # noqa: BLE001
+        log(f"[translate-fail] save: {e}")
+
+
 def main() -> int:
     out = []
     for gid, name, base, path, cat in RIOT:
@@ -206,6 +248,7 @@ def main() -> int:
             log(f"[steam-fail] {name}: {e}")
         time.sleep(0.6)
     out.sort(key=lambda x: x.get("date") or "", reverse=True)
+    translate_items(out)
     write_json_if_good(OUT, {"updatedAt": now_msk_iso(), "items": out}, "items", 4)
     return 0
 

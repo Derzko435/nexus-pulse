@@ -53,62 +53,30 @@ CURATED_STEAM_APPS = [
 ]
 
 PING_TARGETS = [
-    {
-        "id": "cloudflare",
-        "name": "Cloudflare",
-        "url": "https://www.cloudflare.com/favicon.ico",
-        "kind": "img",
-        "region_hint": "anycast",
-        "note": "CDN anycast — browser img RTT",
-    },
-    {
-        "id": "steam",
-        "name": "Steam CDN",
-        "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg",
-        "kind": "img",
-        "region_hint": "steamstatic",
-        "note": "Valve CDN via Cloudflare",
-    },
-    {
-        "id": "steam_store",
-        "name": "Steam Store",
-        "url": "https://store.steampowered.com/favicon.ico",
-        "kind": "img",
-        "region_hint": "valve",
-        "note": "Store edge",
-    },
-    {
-        "id": "riot",
-        "name": "Riot",
-        "url": "https://authenticate.riotgames.com/favicon.ico",
-        "kind": "img",
-        "region_hint": "riot",
-        "note": "Approx Valorant/LoL auth edge",
-    },
-    {
-        "id": "epic",
-        "name": "Epic",
-        "url": "https://static-assets-prod.unrealengine.com/account-portal/static/favicon.ico",
-        "kind": "img",
-        "region_hint": "epic",
-        "note": "Epic / Unreal static",
-    },
-    {
-        "id": "blizzard",
-        "name": "Blizzard",
-        "url": "https://www.blizzard.com/favicon.ico",
-        "kind": "img",
-        "region_hint": "blizzard",
-        "note": "Battle.net portal",
-    },
-    {
-        "id": "google",
-        "name": "Google (ref)",
-        "url": "https://www.google.com/favicon.ico",
-        "kind": "img",
-        "region_hint": "ref",
-        "note": "Reference latency only",
-    },
+    # kind: img (картинка), cors (fetch с CORS), nocors (fetch no-cors, ответ не читается — только время).
+    # Все адреса отвечают 200/204, поэтому в консоли браузера нет ошибок загрузки.
+    {"id": "cloudflare", "name": "Cloudflare", "hint": "ближайший узел CDN",
+     "url": "https://www.cloudflare.com/favicon.ico", "kind": "img", "region_hint": "anycast"},
+    {"id": "steam", "name": "Steam · загрузки", "hint": "CDN Valve",
+     "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/730/capsule_sm_120.jpg", "kind": "img", "region_hint": "steamstatic"},
+    {"id": "steam_store", "name": "Steam · магазин", "hint": "store.steampowered.com",
+     "url": "https://store.steampowered.com/favicon.ico", "kind": "img", "region_hint": "valve"},
+    # Riot: веб-сервисы Riot закрыты для замера картинкой (ORB), поэтому — fetch no-cors к странице входа,
+    # а игровые серверы Valorant в Европе — дата-центры AWS Франкфурт и Стокгольм (эндпоинт /ping региона).
+    {"id": "riot", "name": "Riot · вход в аккаунт", "hint": "League of Legends, Valorant",
+     "url": "https://authenticate.riotgames.com/", "kind": "nocors", "region_hint": "riot"},
+    {"id": "riot_fra", "name": "Valorant · Франкфурт", "hint": "дата-центр игровых серверов",
+     "url": "https://dynamodb.eu-central-1.amazonaws.com/ping", "kind": "cors", "region_hint": "aws-eu-central-1"},
+    {"id": "riot_sto", "name": "Valorant · Стокгольм", "hint": "дата-центр игровых серверов",
+     "url": "https://dynamodb.eu-north-1.amazonaws.com/ping", "kind": "cors", "region_hint": "aws-eu-north-1"},
+    # Blizzard: европейский Battle.net (eu.actual.battle.net) размещён в Google Cloud europe-west4 (Нидерланды).
+    # Сам он на запросы браузера отвечает 403, поэтому меряем открытый /api/ping того же региона (gcping.com).
+    {"id": "blizzard", "name": "Blizzard · Battle.net EU", "hint": "дата-центр в Нидерландах",
+     "url": "https://europe-west4-5tkroniexa-ez.a.run.app/api/ping", "kind": "cors", "region_hint": "gcp-europe-west4"},
+    {"id": "epic", "name": "Epic Games", "hint": "лаунчер и магазин",
+     "url": "https://static-assets-prod.unrealengine.com/account-portal/static/favicon.ico", "kind": "img", "region_hint": "epic"},
+    {"id": "google", "name": "Google", "hint": "для сравнения",
+     "url": "https://www.google.com/favicon.ico", "kind": "img", "region_hint": "ref"},
 ]
 
 
@@ -152,8 +120,8 @@ def write_ping_targets() -> None:
         "updatedAt": now_iso(),
         "source": "github-actions-ping-baseline",
         "disclaimer": (
-            "Runner RTT is NOT end-user latency. "
-            "Client measures live RTT via img/favicon from the browser."
+            "Runner RTT is NOT end-user latency. The browser measures live RTT itself: "
+            "one warm-up request (DNS/TCP/TLS), then the median of several requests over the open connection."
         ),
         "targets": PING_TARGETS,
         "runnerReachability": reachability,

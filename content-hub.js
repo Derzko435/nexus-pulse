@@ -228,43 +228,89 @@
   }
   function openNews(id) {
     const n = NEWS.find((x) => x.id === id);
-    if (!n) return;
+    if (!n) {
+      getJson("share_index.json").then((d) => {
+        const a = ((d && d.news) || []).find((x) => x.id === id);
+        if (a) openArchivedNews(a);
+      }).catch(() => {});
+      return;
+    }
     openViewer(`
       ${imgUrl(n.image) ? `<div class="npv-hero">${img(n.image, n.title, "npv-hero-img")}</div>` : ""}
       <p class="npv-kicker">${esc(n.source)} · ${esc(fmtNewsDate(n.date))} МСК</p>
       <h3 id="npvTitle">${esc(n.title)}</h3>
       <div class="npv-body">${blocksHtml(n.body)}</div>
       <p class="npv-source">Источник: ${esc(n.source)}. Полная версия материала — на сайте издания.</p>
-      ${actions([extLink(n.url, "Читать в источнике"), discordLink("Обсудить в Discord")])}`, { wide: true });
+      ${actions([extLink(n.url, "Читать в источнике"), shareBtn("news", n.id, n.title), discordLink("Обсудить в Discord")])}`, { wide: true });
+  }
+  // Кнопка «Поделиться»: ссылка на страницу-превью /s/news/<id>.html (красивая карточка в мессенджерах)
+  function shareBtn(kind, id, title) {
+    if (!/^[\w-]{1,64}$/.test(String(id || ""))) return "";
+    return `<button type="button" class="btn btn-ghost btn-sm" data-np-share="${esc(kind)}" data-id="${esc(id)}" data-title="${esc(title || "")}">↗ Поделиться</button>`;
+  }
+  // Новость, которой уже нет в ленте (ссылка из мессенджера): показываем сохранённую карточку
+  function openArchivedNews(a) {
+    openViewer(`
+      ${imgUrl(a.image) ? `<div class="npv-hero">${img(a.image, a.title, "npv-hero-img")}</div>` : ""}
+      <p class="npv-kicker">${esc(a.source || "")}${a.date ? " · " + esc(fmtNewsDate(a.date)) + " МСК" : ""}</p>
+      <h3 id="npvTitle">${esc(a.title)}</h3>
+      <div class="npv-body"><p>${esc(a.summary || "")}</p></div>
+      <p class="npv-source">Источник: ${esc(a.source || "")}. Полная версия материала — на сайте издания.</p>
+      ${actions([extLink(a.url, "Читать в источнике"), shareBtn("news", a.id, a.title)])}`, { wide: true });
   }
 
   /* ---------------- 2. Releases / patches ---------------- */
-  let RELEASES = [], PATCHES = [], releasesAll = false;
+  let RELEASES = [], PATCHES = [], releasesAll = false, releasePlat = "all";
+  const PLAT_BADGE = { PC: "ПК", PlayStation: "PS", Xbox: "Xbox", Switch: "Switch" };
+  function relKey(r) { return String(r.appid || r.id || ""); }
+  function relMatches(r, plat) {
+    if (plat === "all") return true;
+    if (plat === "Epic") return (r.stores || []).includes("Epic");
+    return (r.platforms || ["PC"]).includes(plat);
+  }
+  function platBadges(r) {
+    const pl = (r.platforms || ["PC"]).filter((p) => PLAT_BADGE[p]);
+    const b = pl.map((p) => `<span class="plat-badge plat-${esc(p.toLowerCase())}">${esc(PLAT_BADGE[p])}</span>`);
+    if ((r.stores || []).includes("Epic")) b.push('<span class="plat-badge plat-epic">Epic</span>');
+    return b.length ? `<span class="plat-badges">${b.join("")}</span>` : "";
+  }
   function renderReleases() {
     const ul = $("#releasesList");
     if (!ul) return;
     const t = todayKey();
-    const list = RELEASES.filter((r) => isoDayKey(r.date) >= t);
+    const upcoming = RELEASES.filter((r) => isoDayKey(r.date) >= t);
+    const list = upcoming.filter((r) => relMatches(r, releasePlat));
     const shown = releasesAll ? list : list.slice(0, 8);
     ul.innerHTML = shown.map((r) => `
-      <li class="cal-rich np-clickable" tabindex="0" role="button" data-release="${esc(r.appid)}" aria-label="Подробнее: ${esc(r.title)}">
+      <li class="cal-rich np-clickable" tabindex="0" role="button" data-release="${esc(relKey(r))}" aria-label="Подробнее: ${esc(r.title)}">
         <div class="cal-thumb">${img(r.image, "", "cover-img")}</div>
         <div class="cal-body">
           <div class="cal-when"><span class="cal-date-chip">${esc(fmtDay(r.date))}</span>${relDay(r.date) ? `<span class="cal-label">${esc(relDay(r.date))}</span>` : ""}</div>
           <strong>${esc(r.title)}</strong>
+          ${platBadges(r)}
           <p class="cal-note">${esc((r.genres || []).join(" · "))}${r.price ? ` · ${esc(r.price)}` : ""}</p>
         </div>
-      </li>`).join("") || `<li class="cal-empty">Скоро здесь появятся ближайшие релизы.</li>`;
+      </li>`).join("") || `<li class="cal-empty">${upcoming.length ? "Для этой платформы ближайших релизов пока нет." : "Скоро здесь появятся ближайшие релизы."}</li>`;
     const more = $("#releasesMore");
     if (more) {
       more.hidden = list.length <= 8;
       more.textContent = releasesAll ? "Свернуть" : `Показать все релизы (${list.length})`;
     }
   }
+  function storeLinks(r) {
+    const L = r.links || {};
+    const out = [];
+    if (L.steam) out.push(extLink(L.steam, "Страница в Steam"));
+    if (L.epic) out.push(extLink(L.epic, "Epic Games Store"));
+    if (!out.length && L.wiki) out.push(extLink(L.wiki, "Об игре"));
+    if (!out.length && r.url) out.push(extLink(r.url, "Страница в Steam"));
+    return out;
+  }
   function openRelease(appid) {
-    const r = RELEASES.find((x) => String(x.appid) === String(appid)) || NEWGAMES.find((x) => String(x.appid) === String(appid));
+    const r = RELEASES.find((x) => relKey(x) === String(appid)) || NEWGAMES.find((x) => relKey(x) === String(appid));
     if (!r) return;
     const isNew = NEWGAMES.includes(r);
+    const plats = (r.platforms || ["PC"]).map((p) => (p === "PC" ? "ПК" : p));
     openViewer(`
       ${imgUrl(r.image) ? `<div class="npv-hero npv-hero-wide">${img(r.image, r.title, "npv-hero-img")}</div>` : ""}
       <p class="npv-kicker">${isNew ? "Новинка" : "Релиз"} · ${esc(fmtDay(r.date, true))}</p>
@@ -275,12 +321,14 @@
           <li><b>Дата выхода:</b> ${esc(fmtDay(r.date, true))}</li>
           ${(r.genres || []).length ? `<li><b>Жанр:</b> ${esc(r.genres.join(", "))}</li>` : ""}
           ${r.developer ? `<li><b>Разработчик:</b> ${esc(r.developer)}</li>` : ""}
-          <li><b>Платформы:</b> ${esc((r.platforms || ["PC"]).join(", "))}</li>
+          <li><b>Платформы:</b> ${esc(plats.join(", "))}</li>
+          ${(r.stores || []).length ? `<li><b>Магазины на ПК:</b> ${esc(r.stores.join(", "))}</li>` : ""}
           ${r.price ? `<li><b>Цена в Steam:</b> ${esc(r.price)}</li>` : ""}
           ${r.reviews ? `<li><b>Отзывов в Steam:</b> ${esc(Number(r.reviews).toLocaleString("ru-RU"))}</li>` : ""}
         </ul>
+        ${window.NPPriceHistory && r.links && r.links.steam ? window.NPPriceHistory.block(String(r.appid)) : ""}
       </div>
-      ${actions([extLink(r.url, "Страница в Steam")])}`);
+      ${actions(storeLinks(r))}`);
   }
   const CATALOG_IDS = { cs2: "cs2", dota2: "dota2", apex: "apex", r6: "r6", ow2: "ow2", destiny2: "destiny2", poe2: "poe2", valorant: "valorant", lol: "lol" };
   function renderPatches() {
@@ -308,6 +356,7 @@
       <p class="npv-kicker">Обновление · ${esc(p.game)} · ${esc(fmtDay(p.date, true))}</p>
       <h3 id="npvTitle">${esc(p.title)}</h3>
       ${p.lang === "en" ? `<p class="npv-note">Официальное описание изменений от разработчиков (на английском языке).</p>` : ""}
+      ${p.translated ? `<p class="npv-note">Официальное описание изменений в автоматическом переводе на русский. Оригинал — по кнопке ниже.</p>` : ""}
       <div class="npv-body npv-notes">${blocksHtml(p.body)}</div>
       ${actions([extLink(p.url, "Открыть оригинал")])}`, { wide: true });
   }
@@ -318,11 +367,12 @@
     const grid = $("#newGamesGrid");
     if (!grid) return;
     grid.innerHTML = NEWGAMES.map((g) => `
-      <article class="new-game-card np-clickable" tabindex="0" role="button" data-release="${esc(g.appid)}" aria-label="Подробнее: ${esc(g.title)}">
+      <article class="new-game-card np-clickable" tabindex="0" role="button" data-release="${esc(relKey(g))}" aria-label="Подробнее: ${esc(g.title)}">
         <div class="card-cover new-cover">${img(g.image, "", "cover-img")}<span class="new-game-tag">${esc(g.price === "Бесплатно" ? "бесплатно" : "новинка")}</span></div>
         <div class="card-body">
           <h3>${esc(g.title)}</h3>
           <p class="new-game-genre">${esc((g.genres || []).join(" · "))}</p>
+          ${platBadges(g)}
           <p class="new-game-blurb">${esc(g.desc)}</p>
           <div class="new-game-meta">
             <span class="new-game-price">${esc(g.price || "")}</span>
@@ -390,6 +440,7 @@
           ${genres ? `<li><b>Жанры:</b> ${esc(genres)}</li>` : ""}
           ${info.release ? `<li><b>Дата выхода:</b> ${esc(info.release)}</li>` : ""}
         </ul>
+        ${window.NPPriceHistory && info.appid ? window.NPPriceHistory.block(String(info.appid)) : ""}
       </div>
       ${actions([extLink(info.url, info.appid ? "Страница в Steam" : "Официальный сайт")])}`);
   }
@@ -668,6 +719,13 @@
     if (e.target.closest("#newsMore")) { newsShown += 12; renderNews(); return; }
     if (e.target.closest("#videosMore")) { videosShown += 12; renderVideos(); return; }
     if (e.target.closest("#releasesMore")) { releasesAll = !releasesAll; renderReleases(); return; }
+    const rp = e.target.closest("[data-rplat]");
+    if (rp) {
+      releasePlat = rp.dataset.rplat;
+      $$("#releaseFilters [data-rplat]").forEach((c) => { const on = c === rp; c.classList.toggle("active", on); c.setAttribute("aria-pressed", String(on)); });
+      renderReleases();
+      return;
+    }
     activate(e);
   });
   document.addEventListener("keydown", (e) => {
@@ -696,10 +754,21 @@
   }
 
   // deep links from Discord posts: #news=<id>, #video=<id>, #patch=<id>, #release=<appid>
-  function openFromHash() {
+  // share pages: index.html?news=<id> (also ?video= ?patch= ?release=)
+  function deepLink() {
     const m = location.hash.match(/^#(news|video|patch|release)=([\w-]{1,64})$/);
+    if (m) return [m[1], m[2]];
+    const q = new URLSearchParams(location.search);
+    for (const k of ["news", "video", "patch", "release"]) {
+      const v = q.get(k);
+      if (v && /^[\w-]{1,64}$/.test(v)) return [k, v];
+    }
+    return null;
+  }
+  function openFromHash() {
+    const m = deepLink();
     if (!m) return;
-    const [, kind, id] = m;
+    const [kind, id] = m;
     const sec = { news: "#news", video: "#videos", patch: "#calendar", release: "#calendar" }[kind];
     $(sec)?.scrollIntoView();
     setTimeout(() => {

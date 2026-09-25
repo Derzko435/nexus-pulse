@@ -144,3 +144,16 @@ Google Fonts: **Orbitron** (заголовки) + **Manrope** (текст).
 | Switch feed to webhooks | `discord_post.py setup-webhooks` (needs Manage Webhooks) → sets `feedMode: "webhook"` | once |
 
 The bot token is never stored in GitHub; webhook URLs live only in the repo secret.
+
+## Автоматика контента, превью ссылок и SEO
+
+| Что | Где | Когда |
+|---|---|---|
+| Патч-ноуты Steam на русском (машинный перевод, кэш по хэшу — повторно не переводится; при сбое остаётся оригинал, ссылка на оригинал сохраняется) | `scripts/np_translate.py` (бесплатные Google-эндпоинты без ключа + `deep-translator` как запасной), кэш `data/translations.json` | ежедневный пайплайн `daily-content.yml` |
+| Релизы и новинки: Steam + PlayStation / Xbox / Switch (Википедия, «List of video games released in <год>», только игры со своей статьёй и мировой датой) + Epic Games Store (публичный каталог «Скоро выйдет») — бейджи платформ и фильтр в календаре | `scripts/update_releases.py` → `data/releases.json`, `data/new_games.json` | ежедневно 06:17 МСК |
+| История цен Steam (только изменения, ~180 дней) — мини-графики в «Отслеживаю цены» и в карточке игры | `scripts/update_price_history.py` → `data/price_history.json`, `price-history.js` | каждые 2 ч (`refresh-data.yml`) |
+| Карта пинга: Riot (страница входа + дата-центры Valorant Франкфурт/Стокгольм), Blizzard (регион Battle.net EU), Steam, Epic — замер из браузера: прогрев соединения + медиана | `scripts/update_ping_baseline.py` → `data/ping_targets.json`, `features-extra.js` | — |
+| Превью ссылок: Open Graph/Twitter на главной, страницы `s/news/<id>.html` (до 200 шт., старые удаляются) и `s/build.html`; `index.html?news=<id>` открывает новость | `scripts/build_site_meta.py`, `assets/og-image.png`, `assets/og-build.png`, `404.html` | каждые 3 ч вместе с новостями |
+| `sitemap.xml`, `robots.txt`, canonical, JSON-LD WebSite + SearchAction (`?q=` открывает поиск) | `scripts/build_site_meta.py`, `index.html` | каждые 3 ч |
+| Подтверждение Яндекс Вебмастер / Google Search Console / Bing | вставить код в `data/site_config.json` → `yandexVerification` / `googleVerification` / `bingVerification`; workflow `site-config.yml` сам добавит meta-теги и передеплоит сайт | при изменении файла |
+| Яндекс Метрика + цели `discord_join`, `watchlist_add`, `share`, `search_open`, `pwa_install`, `pwa_install_click` | `data/site_config.json` → `yandexMetrikaId` (пусто — счётчик не грузится), `site-extras.js` | сразу |

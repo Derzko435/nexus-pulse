@@ -299,7 +299,7 @@
       (appid ? `https://store.steampowered.com/app/${appid}/` : `https://store.steampowered.com/search/?term=${encodeURIComponent(it.title || "")}`);
     const img = it.image || (cat && (cat.capsule || cat.img)) ||
       (appid ? `https://cdn.cloudflare.steamstatic.com/steam/apps/${appid}/capsule_231x87.jpg` : "");
-    return { deal, price, old, pct, store, target, discounted, hitTarget, matched: discounted || hitTarget, url, img, regular: it.regular || null };
+    return { deal, price, old, pct, store, target, discounted, hitTarget, matched: discounted || hitTarget, url, img, regular: it.regular || null, appid };
   }
 
   function priceHtml(st) {
@@ -328,6 +328,8 @@
     if (p) p.innerHTML = priceHtml(st);
     const f = li.querySelector(".wl-flag-slot");
     if (f) f.innerHTML = badgeHtml(st);
+    const h = li.querySelector(".wl-hist");
+    if (h) h.innerHTML = st.appid && window.NPPriceHistory ? window.NPPriceHistory.row(st.appid, st.store === "Steam" || !st.store ? st.price : null) : "";
     return st;
   }
 
@@ -369,6 +371,7 @@
           <a class="wl-title" href="${escHtml(st.url)}" target="_blank" rel="noopener noreferrer">${escHtml(it.title)}</a>
           <div class="wl-price"></div>
           <div class="wl-flag-slot"></div>
+          <div class="wl-hist"></div>
         </div>
         <label class="wl-target">
           <span>Хочу за</span>
@@ -433,6 +436,7 @@
     setWatch(list);
     markNotified(it); // уже идущую скидку не дублируем уведомлением
     toast("🔔 Добавлено в «Отслеживаю цены»: " + it.title);
+    if (window.npGoal) window.npGoal("watchlist_add");
     renderWatchlist();
     // один раз предлагаем включить уведомления — сразу после осознанного действия
     if (typeof Notification !== "undefined" && Notification.permission === "default" && !localStorage.getItem(WATCH_ASKED)) {
@@ -574,6 +578,8 @@
   function wireWatchlist() {
     try { localStorage.removeItem("nexus_pulse_discord_webhook"); } catch { /* ignore */ }
     const ul = $("#wlList");
+    // история цен подгружается отдельно — перерисовываем мини-графики, когда она пришла
+    document.addEventListener("np:price-history", () => renderWatchlist());
     ul?.addEventListener("click", (e) => {
       const rm = e.target.closest(".wl-remove");
       if (!rm) return;
@@ -911,7 +917,8 @@
     if (b.res) q.set("res", b.res);
     q.set("share", "1");
     const base = (location.origin + location.pathname.replace(/index\.html$/i, "")).replace(/\/?$/, "/");
-    return base + "?" + q.toString() + "#tools";
+    // страница-превью с картинкой для мессенджеров; людей она сразу переводит на сайт со сборкой
+    return base + "s/build.html?" + q.toString();
   }
 
   function readSharedBuild() {
@@ -963,6 +970,7 @@
     const ramP = PARTS.ram.find((p) => p.id === b.ram);
     const score = scoreBuild(b);
     const text = `Моя сборка: ${[cpuP?.name, gpuP?.name, ramP?.name].filter(Boolean).join(" · ")} — скор ${score}/100. Смотри, что она потянет:`;
+    if (window.npGoal) window.npGoal("share", { what: "build" });
     if (typeof navigator.share === "function" && isMobileDevice()) {
       try {
         await navigator.share({ title: "NEXUS PULSE · сборка ПК", text, url });
@@ -1432,15 +1440,19 @@ const NICK_BANKS = {
    * 3) Ping map
    * ============================================================ */
   const PING_TARGETS_FALLBACK = [
-    { id: "cloudflare", name: "Cloudflare", url: "https://www.cloudflare.com/favicon.ico", kind: "img" },
-    { id: "steam", name: "Steam CDN", url: "https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg", kind: "img" },
-    { id: "riot", name: "Riot", url: "https://authenticate.riotgames.com/favicon.ico", kind: "img" },
-    { id: "epic", name: "Epic", url: "https://static-assets-prod.unrealengine.com/account-portal/static/favicon.ico", kind: "img" },
-    { id: "blizzard", name: "Blizzard", url: "https://www.blizzard.com/favicon.ico", kind: "img" },
-    { id: "google", name: "Google (ref)", url: "https://www.google.com/favicon.ico", kind: "img" },
+    { id: "cloudflare", name: "Cloudflare", hint: "ближайший узел CDN", url: "https://www.cloudflare.com/favicon.ico", kind: "img" },
+    { id: "steam", name: "Steam · загрузки", hint: "CDN Valve", url: "https://cdn.cloudflare.steamstatic.com/steam/apps/730/capsule_sm_120.jpg", kind: "img" },
+    { id: "steam_store", name: "Steam · магазин", hint: "store.steampowered.com", url: "https://store.steampowered.com/favicon.ico", kind: "img" },
+    { id: "riot", name: "Riot · вход в аккаунт", hint: "League of Legends, Valorant", url: "https://authenticate.riotgames.com/", kind: "nocors" },
+    { id: "riot_fra", name: "Valorant · Франкфурт", hint: "дата-центр игровых серверов", url: "https://dynamodb.eu-central-1.amazonaws.com/ping", kind: "cors" },
+    { id: "riot_sto", name: "Valorant · Стокгольм", hint: "дата-центр игровых серверов", url: "https://dynamodb.eu-north-1.amazonaws.com/ping", kind: "cors" },
+    { id: "blizzard", name: "Blizzard · Battle.net EU", hint: "дата-центр в Нидерландах", url: "https://europe-west4-5tkroniexa-ez.a.run.app/api/ping", kind: "cors" },
+    { id: "epic", name: "Epic Games", hint: "лаунчер и магазин", url: "https://static-assets-prod.unrealengine.com/account-portal/static/favicon.ico", kind: "img" },
+    { id: "google", name: "Google", hint: "для сравнения", url: "https://www.google.com/favicon.ico", kind: "img" },
   ];
   let PING_TARGETS = PING_TARGETS_FALLBACK.slice();
   let steamCatalogSnapshot = null;
+  let pingRunning = false;
 
   function pingColor(ms) {
     if (ms == null || !Number.isFinite(ms)) return "ping-err";
@@ -1449,68 +1461,106 @@ const NICK_BANKS = {
     return "ping-bad";
   }
 
+  const PING_TIMEOUT = 4000;
+  const bust = (url) => url + (url.includes("?") ? "&" : "?") + "_np=" + Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
+
+  /** Один замер: время до полного ответа (картинка загрузилась / fetch завершился). null — нет ответа. */
   function measureImg(url) {
     return new Promise((resolve) => {
-      const t0 = performance.now();
       const img = new Image();
-      const done = (ok) => resolve(ok ? performance.now() - t0 : null);
-      img.onload = () => done(true);
-      img.onerror = () => done(true); // opaque / blocked still may fire; treat as timed
-      img.src = url + (url.includes("?") ? "&" : "?") + "_np=" + Date.now() + Math.random();
-      setTimeout(() => done(false), 4000);
+      let done = false;
+      const t0 = performance.now();
+      const fin = (ok) => {
+        if (done) return;
+        done = true;
+        img.onload = img.onerror = null;
+        resolve(ok ? performance.now() - t0 : null);
+      };
+      img.onload = () => fin(true);
+      img.onerror = () => fin(false);
+      img.referrerPolicy = "no-referrer";
+      img.src = bust(url);
+      setTimeout(() => fin(false), PING_TIMEOUT);
     });
   }
 
-  async function measureFetch(url) {
+  async function measureFetch(url, mode) {
+    const ctl = typeof AbortController === "function" ? new AbortController() : null;
+    const timer = setTimeout(() => ctl && ctl.abort(), PING_TIMEOUT);
     const t0 = performance.now();
     try {
-      await fetch(url + (url.includes("?") ? "&" : "?") + "_np=" + Date.now(), {
+      const res = await fetch(bust(url), {
+        mode: mode === "cors" ? "cors" : "no-cors",
         cache: "no-store",
-        mode: "cors",
+        credentials: "omit",
+        referrerPolicy: "no-referrer",
+        signal: ctl ? ctl.signal : undefined,
       });
+      if (mode === "cors" && !res.ok) return null;
+      if (mode === "cors") await res.text();
       return performance.now() - t0;
     } catch {
-      try {
-        await fetch(url, { cache: "no-store", mode: "no-cors" });
-        return performance.now() - t0;
-      } catch {
-        return null;
-      }
+      return null;
+    } finally {
+      clearTimeout(timer);
     }
+  }
+
+  function measureOnce(t) {
+    return t.kind === "img" ? measureImg(t.url) : measureFetch(t.url, t.kind === "cors" ? "cors" : "nocors");
+  }
+
+  /** Честный замер: первый запрос прогревает соединение (DNS + TCP + TLS) и не учитывается,
+      затем берём медиану нескольких запросов по уже открытому соединению ≈ время отклика сервера. */
+  async function measureTarget(t) {
+    const warm = await measureOnce(t);
+    if (warm == null) {
+      // вторая попытка — вдруг сеть «проснулась» не сразу
+      if ((await measureOnce(t)) == null) return null;
+    }
+    const samples = [];
+    for (let i = 0; i < 4; i++) {
+      const ms = await measureOnce(t);
+      if (ms != null) samples.push(ms);
+    }
+    if (!samples.length) return null;
+    samples.sort((a, b) => a - b);
+    return samples[Math.floor((samples.length - 1) / 2)];
+  }
+
+  function escPing(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   }
 
   async function runPingMap() {
     const list = $("#pingMapList");
-    if (!list) return;
+    if (!list || pingRunning) return;
+    pingRunning = true;
+    const btn = $("#pingRefreshBtn");
+    if (btn) btn.disabled = true;
     list.innerHTML = PING_TARGETS.map(
-      (t) => `<li data-ping="${t.id}"><span class="ping-name">${t.name}</span>
+      (t) => `<li data-ping="${escPing(t.id)}"><span class="ping-name">${escPing(t.name)}${t.hint ? `<small>${escPing(t.hint)}</small>` : ""}</span>
         <span class="ping-bar"><i style="width:10%"></i></span>
         <span class="ping-ms">…</span></li>`
     ).join("");
-    for (const t of PING_TARGETS) {
-      let samples = [];
-      for (let i = 0; i < 3; i++) {
-        const ms = t.kind === "fetch" ? await measureFetch(t.url) : await measureImg(t.url);
-        if (ms != null) samples.push(ms);
+    try {
+      for (const t of PING_TARGETS) {
+        const li = list.querySelector(`[data-ping="${CSS.escape(t.id)}"]`);
+        if (li) li.classList.add("ping-run");
+        let ms = await measureTarget(t);
+        if (ms == null && t.id === "cloudflare" && window.NexusPulse?.lastLatency != null) {
+          ms = window.NexusPulse.lastLatency;
+        }
+        if (!li) continue;
+        const msEl = li.querySelector(".ping-ms");
+        const bar = li.querySelector(".ping-bar i");
+        li.className = pingColor(ms);
+        if (msEl) msEl.textContent = ms != null ? Math.round(ms) + " мс" : "недоступно";
+        if (bar) bar.style.width = ms != null ? Math.max(8, Math.min(100, 100 - ms / 2)) + "%" : "0%";
       }
-      let ms = samples.length
-        ? samples.sort((a, b) => a - b)[Math.floor(samples.length / 2)]
-        : null;
-      // fallback: last Cloudflare speed latency
-      if (ms == null && t.id === "cloudflare" && window.NexusPulse?.lastLatency != null) {
-        ms = window.NexusPulse.lastLatency;
-      }
-      const li = list.querySelector(`[data-ping="${t.id}"]`);
-      if (!li) continue;
-      const msEl = li.querySelector(".ping-ms");
-      const bar = li.querySelector(".ping-bar i");
-      const cls = pingColor(ms);
-      li.className = cls;
-      if (msEl) msEl.textContent = ms != null ? Math.round(ms) + " ms" : "ошибка";
-      if (bar && ms != null) {
-        const pct = Math.max(8, Math.min(100, 100 - ms / 2));
-        bar.style.width = pct + "%";
-      }
+    } finally {
+      pingRunning = false;
+      if (btn) btn.disabled = false;
     }
   }
 
@@ -1520,15 +1570,12 @@ const NICK_BANKS = {
       if (!res.ok) throw new Error("HTTP " + res.status);
       const data = await res.json();
       if (Array.isArray(data.targets) && data.targets.length) {
-        PING_TARGETS = data.targets.map((t) => ({
-          id: t.id,
-          name: t.name,
-          url: t.url,
-          kind: t.kind || "img",
-        }));
+        PING_TARGETS = data.targets
+          .filter((t) => t && t.id && /^https:\/\//.test(t.url || ""))
+          .map((t) => ({ id: t.id, name: t.name, hint: t.hint || "", url: t.url, kind: t.kind || "img" }));
+        if (!PING_TARGETS.length) PING_TARGETS = PING_TARGETS_FALLBACK.slice();
       }
     } catch (e) {
-      console.warn("[ping_targets]", e);
       PING_TARGETS = PING_TARGETS_FALLBACK.slice();
     }
   }
@@ -1548,7 +1595,17 @@ const NICK_BANKS = {
     $("#pingRefreshBtn")?.addEventListener("click", () => {
       runPingMap();
     });
-    loadPingTargets().then(() => setTimeout(runPingMap, 200));
+    // замер запускается, когда карточка появилась на экране (не нагружаем сеть при открытии сайта)
+    const card = $("#pingMapCard");
+    const start = () => loadPingTargets().then(() => setTimeout(runPingMap, 150));
+    if (card && "IntersectionObserver" in window) {
+      const io = new IntersectionObserver((entries) => {
+        if (entries.some((en) => en.isIntersecting)) { io.disconnect(); start(); }
+      }, { rootMargin: "200px" });
+      io.observe(card);
+    } else {
+      start();
+    }
   }
 
   /* ============================================================

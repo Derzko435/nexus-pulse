@@ -1,418 +1,402 @@
 {
- "updatedAt": "2026-09-25T16:41:03+03:00",
+ "updatedAt": "2026-09-25T20:45:48+03:00",
  "items": [
   {
    "id": "cs2",
    "game": "Counter-Strike 2",
    "catalogId": "cs2",
-   "title": "Counter-Strike 2 Update",
+   "title": "Обновление Counter-Strike 2",
    "date": "2026-09-25T00:51:38+03:00",
    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg",
-   "summary": "Added a better description of the rules to the loading screen.",
+   "summary": "Добавлено лучшее описание правил на экран загрузки.",
    "body": [
     {
      "t": "p",
-     "x": "\\"
+     "x": "Добавлено лучшее описание правил на экран загрузки."
     },
     {
      "t": "p",
-     "x": "Added a better description of the rules to the loading screen."
+     "x": "Скорректированы правила определения того, когда следует пинать игроков из-за повреждения команды."
     },
     {
      "t": "p",
-     "x": "Adjusted rules for determining when to kick players due to team damage."
+     "x": "Различные настройки обрезки."
     },
     {
      "t": "p",
-     "x": "Various clipping adjustments."
+     "x": "Исправлен случай, когда можно было немного ускорить бесшумную перезарядку, нажав кнопку перезарядки, прежде чем удерживать ее."
     },
     {
      "t": "p",
-     "x": "\\"
+     "x": "Исправлен случай, когда можно было использовать бесшумную перезарядку, чтобы стрелять из дробовиков быстрее, чем обычно."
     },
     {
      "t": "p",
-     "x": "Fixed a case where it was possible to get a slightly faster silent reload by tapping the reload button before holding it."
-    },
-    {
-     "t": "p",
-     "x": "Fixed a case where it was possible to use silent reload to fire shotguns faster than normal."
-    },
-    {
-     "t": "p",
-     "x": "\\"
-    },
-    {
-     "t": "p",
-     "x": "Fixed a case where the AK-47 inspect animation sometimes popped."
+     "x": "Исправлен случай, когда анимация осмотра АК-47 иногда выскакивала."
     }
    ],
-   "lang": "en",
+   "lang": "ru",
    "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498222773",
    "source": "Steam",
    "platforms": [
     "PC"
-   ]
+   ],
+   "titleOriginal": "Counter-Strike 2 Update",
+   "translated": true
   },
   {
    "id": "apex",
    "game": "Apex Legends",
    "catalogId": "apex",
-   "title": "Apex Legends: Latest Updates - 09/24/2026",
-   "date": "2026-09-24T20:26:25+03:00",
+   "title": "Apex Legends: последнее обновление — 24 сентября 2026 г. — 14:00 по тихоокеанскому времени.",
+   "date": "2026-09-24T23:56:47+03:00",
    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172470/header.jpg",
-   "summary": "In response to community feedback, we're making a couple of adjustments to the Street Fighter 6 collab Wildcard event.",
+   "summary": "Нам известно о проблеме в системах PS5, которая приводит к ошибкам в голосовых репликах, отличных от английского. Мы активно над этим работаем и надеемся вскоре получить больше информации.",
    "body": [
     {
+     "t": "h",
+     "x": "⚠️РАСЛЕДОВАНИЕ:"
+    },
+    {
      "t": "p",
-     "x": "In response to community feedback, we're making a couple of adjustments to the Street Fighter 6 collab Wildcard event."
+     "x": "Нам известно о проблеме в системах PS5, которая приводит к ошибкам в голосовых репликах, отличных от английского. Мы активно над этим работаем и надеемся вскоре получить больше информации."
     },
     {
      "t": "h",
-     "x": "🛠️ADJUSTED:"
-    },
-    {
-     "t": "li",
-     "x": "Blocking with drain Fighter Gauge more quickly."
+     "x": "Обновление от 25 сентября 2026 г., 9 утра по тихоокеанскому времени:"
     },
     {
      "t": "p",
-     "x": "Dev note: Some feedback suggested that the Block mechanic felt overtuned and made shooting feel useless, noting that Apex is a shooter, first. This change will allow you to more reliably break a player out of blocking after doing enough damage.)"
-    },
-    {
-     "t": "li",
-     "x": "Fighter Mode will no longer be extended by doing damage while in Fighter Mode."
+     "x": "✅Эта проблема устранена."
     },
     {
      "t": "p",
-     "x": "Dev note: We've seen instances of players staying in Fighter Mode for tremendously long periods of time, which leads to a feeling like the entire lobby is in Fighter mode for the entire match."
-    },
-    {
-     "t": "li",
-     "x": "Core Wildcard is returning alongside Apex K.O."
-    },
-    {
-     "t": "p",
-     "x": "Dev note: We see this feedback from the community often whenever we do Wildcard events. While there potential complications by allowing two instances of Wildcard to exist simultaneously, we feel this approach will be most beneficial to players when the Event varies too far from the Wildcard design ethos. We will continue to closely monitor match data and community feedback."
+     "x": "Если это затронуло вас, перезапустите игру после загрузки нашего небольшого клиентского патча. Благодарим вас за терпение, пока мы работали над исправлением."
     }
    ],
-   "lang": "en",
-   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498222239",
+   "lang": "ru",
+   "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498222669",
    "source": "Steam",
    "platforms": [
     "PC"
-   ]
+   ],
+   "titleOriginal": "Apex Legends: Latest Update - 09/24/2026 - 2:00pm PT",
+   "translated": true
   },
   {
    "id": "helldivers2",
    "game": "Helldivers 2",
    "catalogId": null,
-   "title": "Devoid of Liberty: 7.1.1",
+   "title": "Лишенный свободы: 7.1.1",
    "date": "2026-09-24T12:00:23+03:00",
    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/553850/header.jpg",
-   "summary": "Hotfix aimed at resolving some crashes for players when using terminals, or users with superwide windows.",
+   "summary": "Исправление, направленное на устранение некоторых сбоев у игроков при использовании терминалов или пользователей со сверхширокими окнами.",
    "body": [
     {
      "t": "p",
-     "x": "Hotfix aimed at resolving some crashes for players when using terminals, or users with superwide windows."
+     "x": "Исправление, направленное на устранение некоторых сбоев у игроков при использовании терминалов или пользователей со сверхширокими окнами."
     },
     {
      "t": "h",
-     "x": "🔧 Fixes"
+     "x": "🔧 Исправления"
     },
     {
      "t": "p",
-     "x": "Crash Fixes"
+     "x": "Исправления сбоев"
     },
     {
      "t": "p",
-     "x": "Fixed crash that could occur in Fullscreen when opening terminals."
+     "x": "Исправлен сбой, который мог произойти в полноэкранном режиме при открытии терминалов."
     },
     {
      "t": "p",
-     "x": "Fixed crash that could occur with superwide windows."
+     "x": "Исправлен сбой, который мог произойти при использовании сверхшироких окон."
     },
     {
      "t": "p",
-     "x": "🧠 Known Issues"
+     "x": "🧠 Известные проблемы"
     }
    ],
-   "lang": "en",
+   "lang": "ru",
    "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498220713",
    "source": "Steam",
    "platforms": [
     "PC"
-   ]
+   ],
+   "titleOriginal": "Devoid of Liberty: 7.1.1",
+   "translated": true
   },
   {
    "id": "rivals",
    "game": "Marvel Rivals",
    "catalogId": null,
-   "title": "Marvel Rivals Version 20260924 Patch Notes",
+   "title": "Примечания к патчу версии 20260924 Marvel Rivals",
    "date": "2026-09-24T09:54:04+03:00",
    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
-   "summary": "We're thrilled to announce the upcoming patch drops on September 24th, 2026, at 09 : 00 : 00 (UTC)! No server downtime; just patch and play!",
+   "summary": "Мы рады объявить о выходе предстоящего обновления 24 сентября 2026 года в 09:00:00 (UTC)! Отсутствие простоев сервера; просто патчи и играй!",
    "body": [
     {
      "t": "p",
-     "x": "Greetings, Rivals!"
+     "x": "Приветствую, соперники!"
     },
     {
      "t": "p",
-     "x": "We're thrilled to announce the upcoming patch drops on September 24th, 2026, at 09 : 00 : 00 (UTC)! No server downtime; just patch and play!"
+     "x": "Мы рады объявить о выходе предстоящего обновления 24 сентября 2026 года в 09:00:00 (UTC)! Отсутствие простоев сервера; просто патчи и играй!"
     },
     {
      "t": "h",
-     "x": "Here's what's coming your way:"
+     "x": "Вот что вас ждет:"
     },
     {
      "t": "h",
-     "x": "All-New Content"
+     "x": "Совершенно новый контент"
     },
     {
      "t": "h",
-     "x": "New In Store"
+     "x": "Новое в магазине"
     },
     {
      "t": "li",
-     "x": "Mantis - Morning Dew Bundle"
+     "x": "Богомол — Набор «Утренняя роса»"
     },
     {
      "t": "li",
-     "x": "Daredevil - Dare-Dragon Bundle"
+     "x": "Сорвиголова — набор «Сорвиголова-Дракон»"
     },
     {
      "t": "p",
-     "x": "Limited Time: September 25th, 2026, 02 : 00 : 00 to October 23rd, 2026, 02 : 00 : 00 (UTC)"
+     "x": "Ограниченное время: с 25 сентября 2026 г., 02:00:00 по 23 октября 2026 г., 02:00:00 (UTC)."
     },
     {
      "t": "li",
-     "x": "Thor - King Thor Bundle"
+     "x": "Тор — комплект «Король Тор»"
     },
     {
      "t": "li",
-     "x": "Morning Dew - Emoji Bundle"
+     "x": "Утренняя роса — набор смайлов"
     },
     {
      "t": "li",
-     "x": "Mantis - Morning Dew Chroma Dreamy Dew/Sunny Snooze and Ultimate Ability VFX"
+     "x": "Богомол — цветовая схема «Утренняя роса», «Мечтательная роса», «Солнечный сон» и визуальные эффекты «Ультимативная способность»."
     },
     {
      "t": "li",
-     "x": "Jeff the Land Shark - Breakfin'"
+     "x": "Джефф Сухопутная Акула - Breakfin'"
     },
     {
      "t": "p",
-     "x": "Available From: September 25th, 2026, at 2 : 00 : 00 (UTC)"
+     "x": "Доступно с: 25 сентября 2026 г., 2:00:00 (UTC)."
     },
     {
      "t": "h",
-     "x": "LAST SPLASH: SWIMSUIT SPECIAL COSTUMES LEAVING SOON"
+     "x": "ПОСЛЕДНИЙ Всплеск: СПЕЦИАЛЬНЫЕ КОСТЮМЫ ДЛЯ КУПАЛЬНИКОВ СКОРО ВЫХОДЯТ"
     },
     {
      "t": "p",
-     "x": "Sun, surf, and saving the Chronoverse! The summer memories we've forged alongside our favorite heroes have been nothing short of marvelous. Thank you, Rivals, for your incredible love and support for the Swimsuit Special series! As the seasons shift and this beach party winds down, these exclusive summer looks will be leaving the store in two waves:"
+     "x": "Солнце, серфинг и спасение Хроновселенной! Летние воспоминания, которые мы создали вместе с нашими любимыми героями, были просто чудесными. Спасибо, Rivals, за вашу невероятную любовь и поддержку серии Swimsuit Special! По мере того, как времена года меняются и пляжная вечеринка подходит к концу, эти эксклюзивные летние образы покинут магазин двумя волнами:"
     },
     {
      "t": "h",
-     "x": "Wave 1 Departures:"
+     "x": "Отправления волны 1:"
     },
     {
      "t": "p",
-     "x": "Emma Frost - White Wave Queen, Doctor Strange - Nautical Mystic, Daredevil - Sonar Savior, Black Widow - Aquatic Assassin, Captain America - Seaside Sentinel, Lady Loki - Seaside Siren, and White Fox - Coastal Kumiho."
+     "x": "Эмма Фрост — Королева Белых Волн, Доктор Стрэндж — Морской Мистик, Сорвиголова — Сонарный Спаситель, Чёрная Вдова — Водный Убийца, Капитан Америка — Приморский Страж, Леди Локи — Приморская Сирена и Белый Лис — Прибрежный Кумихо."
     },
     {
      "t": "p",
-     "x": "These costumes will no longer be available for purchase after October 16th, 2026, 02 : 00 : 00 (UTC)."
+     "x": "Эти костюмы больше не будут доступны для покупки после 16 октября 2026 г., 02:00:00 (UTC)."
     },
     {
      "t": "h",
-     "x": "Wave 2 Departures:"
+     "x": "Отправления волны 2:"
     },
     {
      "t": "p",
-     "x": "Magik - Soul Surfer, Scarlet Witch - Seaside Sorceress, and Storm - Sacred Skies."
+     "x": "Мэджик — Серфер душ, Алая Ведьма — Морская волшебница и Шторм — Священное небо."
     },
     {
      "t": "p",
-     "x": "These costumes will no longer be available for purchase after November 20th, 2026, 02 : 00 : 00 (UTC)."
+     "x": "Эти костюмы больше не будут доступны для покупки после 20 ноября 2026 г., 02:00:00 (UTC)."
     },
     {
      "t": "p",
-     "x": "Additionally, Krakoan Reels Vol.2 will officially conclude on October 15th, 2026, 09 : 00 : 00 (UTC)."
+     "x": "Кроме того, Krakoan Reels Vol.2 официально завершится 15 октября 2026 года в 09:00:00 (UTC)."
     },
     {
      "t": "p",
-     "x": "Every party has to end eventually. Don't miss your chance to secure your favorite swimsuit styles before they dive back into the vault! Let the heat of summer ride with you into your next epic battle!"
+     "x": "Любая вечеринка рано или поздно заканчивается. Не упустите свой шанс сохранить свои любимые модели купальников, прежде чем они вернутся в хранилище! Пусть летняя жара сопровождает вас в вашей следующей эпической битве!"
     },
     {
      "t": "h",
-     "x": "New Map: God Quarry"
+     "x": "Новая карта: Карьер Бога"
     },
     {
      "t": "p",
-     "x": "The God Butcher twisted the hallowed parliament of pantheons, Omnipotence City, into a roving citadel of despair, ultimately crashing it into the very Cradle of Creation. This legendary nexus, existing in a dimension beyond space and time to chronicle the triumphs of heroes, now teeters on the precipice of the Abyss. Soon, the sacred halls where deities once whispered their dying confessions will become the epicenter of their absolute annihilation. As the Godbomb edges closer to completion, Gorr's vision of an era belonging strictly to mortals seems just one step away. But the God Butcher never expected his final obstacle to be the very mortals he claims to be fighting for."
+     "x": "Бог-Мясник превратил священный парламент пантеонов, Город Всемогущества, в бродячую цитадель отчаяния, в конечном итоге врезав его в самую Колыбель Творения. Эта легендарная связь, существующая в измерении за пределами пространства и времени и ведущая хронику триумфов героев, теперь балансирует на краю Бездны. Вскоре священные залы, где божества когда-то нашептывали свои предсмертные исповеди, станут эпицентром их абсолютного уничтожения. По мере того, как «Божественная бомба» приближается к завершению, видение Горра об эпохе, принадлежащей исключительно смертным, кажется всего в одном шаге. Но Бог-Мясник никогда не ожидал, что его последним препятствием станут те самые смертные, за которых он, по его словам, сражается."
     },
     {
      "t": "p",
-     "x": "The God Quarry arrives as a Domination map. After the update, a limited-time Quick Match mode solely for this new map will also be available."
+     "x": "Карьер Бога появляется как карта Доминирования. После обновления также будет доступен ограниченный по времени режим быстрой игры исключительно для этой новой карты."
     },
     {
      "t": "p",
-     "x": "Limited-Time Quick Match Period: September 24th, 2026, 09 : 00 : 00 to September 29th, 2026, 08 : 59 : 00 (UTC)"
+     "x": "Ограниченный по времени период быстрых матчей: с 24 сентября 2026 г., 09:00:00 по 29 сентября 2026 г., 08:59:00 (UTC)."
     },
     {
      "t": "h",
-     "x": "Galacta's Gift Vol.3"
+     "x": "Дар Галакты, том 3"
     },
     {
      "t": "p",
-     "x": "The long-awaited Costume Coin is finally making a glorious return! The Exchange Store is also receiving a massive update, adding a large batch of costumes for a limited time."
+     "x": "Долгожданная монета костюма наконец-то возвращается! Магазин Exchange также получил масштабное обновление, в которое в течение ограниченного времени будет добавлена ​​большая партия костюмов."
     },
     {
      "t": "p",
-     "x": "Event Period: September 24th, 2026, 09 : 00 : 00 to November 13th, 2026, 09 : 00 : 00 (UTC)"
+     "x": "Период проведения мероприятия: с 24 сентября 2026 г., 09:00:00 по 13 ноября 2026 г., 09:00:00 (UTC)"
     },
     {
      "t": "h",
-     "x": "Fixes and Optimizations"
+     "x": "Исправления и оптимизации"
     },
     {
      "t": "h",
-     "x": "Other"
+     "x": "Другой"
     },
     {
      "t": "p",
-     "x": "Devil Dinosaur's KO Cutoff: Fixed an issue where the Lord icon was misaligned in the KO feed. Moon Girl has straightened out her prehistoric pal's UI, dino dominance is back on track!"
+     "x": "Прерывание нокаутом Дьявольского Динозавра: исправлена ​​ошибка, из-за которой значок Лорда в ленте нокаутов смещался. Лунная Девушка исправила пользовательский интерфейс своего доисторического приятеля, доминирование динозавров снова в строю!"
     },
     {
      "t": "p",
-     "x": "The Marvel Rivals universe is ever-evolving; we have plenty more surprises and changes in store. Stay tuned to our official announcements for more!"
+     "x": "Вселенная Marvel Rivals постоянно развивается; нас ждет еще много сюрпризов и изменений. Следите за нашими официальными объявлениями, чтобы узнать больше!"
     }
    ],
-   "lang": "en",
+   "lang": "ru",
    "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498220444",
    "source": "Steam",
    "platforms": [
     "PC"
-   ]
+   ],
+   "titleOriginal": "Marvel Rivals Version 20260924 Patch Notes",
+   "translated": true
   },
   {
    "id": "r6",
    "game": "Rainbow Six Siege",
    "catalogId": "r6",
-   "title": "Y11S3.1 PATCH NOTES",
+   "title": "Y11S3.1 ПРИМЕЧАНИЯ ПО ОБНОВЛЕНИЮ",
    "date": "2026-09-23T12:41:20+03:00",
    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/359550/header.jpg",
-   "summary": "See everything included in the Y11S3.1 update.",
+   "summary": "Ознакомьтесь со всем, что включено в обновление Y11S3.1.",
    "body": [
     {
      "t": "p",
-     "x": "See everything included in the Y11S3.1 update."
+     "x": "Ознакомьтесь со всем, что включено в обновление Y11S3.1."
     },
     {
      "t": "h",
-     "x": "REFINEMENT CHANGES"
+     "x": "ИЗМЕНЕНИЯ УТОЧНЕНИЯ"
     },
     {
      "t": "p",
-     "x": "These are small adjustments that don’t aim to alter an Operator’s overall power level or flexibility. Instead, they focus on polishing gameplay details, improving consistency, and enhancing quality-of-life without shifting the meta. Our goal is to maintain a steady stream of these refinements alongside major updates, helping the game evolve and improve at a constant pace."
+     "x": "Это небольшие изменения, которые не направлены на изменение общего уровня мощности или гибкости Оператора. Вместо этого они сосредотачиваются на доработке деталей игрового процесса, улучшении последовательности и повышении качества жизни без изменения мета. Наша цель — поддерживать постоянный поток этих усовершенствований наряду с крупными обновлениями, помогая игре развиваться и совершенствоваться постоянными темпами."
     },
     {
      "t": "h",
-     "x": "BUCK"
+     "x": "БАК"
     },
     {
      "t": "p",
-     "x": "This allows Buck to maintain his presence for longer, enabling more consistent vertical play and extended utility usage throughout the round."
+     "x": "Это позволяет Баку дольше сохранять свое присутствие, обеспечивая более последовательную вертикальную игру и расширенное использование полезных функций на протяжении всего раунда."
     },
     {
      "t": "p",
-     "x": "SKELETON KEY"
+     "x": "ОТСКОЧНЫЙ КЛЮЧ"
     },
     {
      "t": "p",
-     "x": "Total ammo increased to 36 (was 31)."
+     "x": "Общий боезапас увеличен до 36 (было 31)."
     },
     {
      "t": "h",
-     "x": "CASTLE"
+     "x": "ЗАМОК"
     },
     {
      "t": "p",
-     "x": "This increases the time and commitment required to clear Castle’s barricades, improving their role in slowing Attacker advances and reinforcing defensive positions."
+     "x": "Это увеличивает время и усилия, необходимые для зачистки баррикад Касла, повышая их роль в замедлении продвижения атакующих и укреплении оборонительных позиций."
     },
     {
      "t": "p",
-     "x": "ARMOR PANEL"
+     "x": "БРОНИРОВАННАЯ ПАНЕЛЬ"
     },
     {
      "t": "p",
-     "x": "Increased melee hits to destroy the Armor Panel increased to 10 (was 9)."
+     "x": "Увеличение количества ударов в ближнем бою для разрушения панели брони увеличено до 10 (было 9)."
     },
     {
      "t": "h",
-     "x": "FENRIR"
+     "x": "ФЕНРИР"
     },
     {
      "t": "p",
-     "x": "We want to improve the responsiveness of his gadget when triggering zones. This allows Fenrir to influence engagements more quickly, improving his ability to react to Attacker presence and apply pressure in dynamic situations."
+     "x": "Мы хотим улучшить отзывчивость его гаджета при срабатывании зон. Это позволяет Фенриру быстрее влиять на сражения, улучшая его способность реагировать на присутствие атакующего и оказывать давление в динамичных ситуациях."
     },
     {
      "t": "p",
-     "x": "F-NATT DREAD MINE"
+     "x": "F-NATT МОЯ УЖАСА"
     },
     {
      "t": "p",
-     "x": "Reduced the time it takes for gas to reach maximum range to 1.9 seconds (was 2 seconds)."
+     "x": "Уменьшено время, необходимое газу для достижения максимальной дальности, до 1,9 секунды (было 2 секунды)."
     },
     {
      "t": "h",
-     "x": "MAESTRO"
+     "x": "МАЭСТРО"
     },
     {
      "t": "p",
-     "x": "We aim to improve the consistency of his gadget over time."
+     "x": "Мы стремимся со временем улучшить стабильность его гаджета."
     },
     {
      "t": "p",
-     "x": "EVIL EYE"
+     "x": "ДРУГОЙ ГЛАЗ"
     },
     {
      "t": "p",
-     "x": "Increased the battery life to 9 seconds (was 8 seconds)."
+     "x": "Увеличено время автономной работы до 9 секунд (было 8 секунд)."
     },
     {
      "t": "h",
-     "x": "THERMITE"
+     "x": "ТЕРМИТ"
     },
     {
      "t": "p",
-     "x": "This change improves the lethality of Thermite’s charges when activated in contested areas, increasing the risk for Defenders playing close to reinforced surfaces."
+     "x": "Это изменение повышает смертоносность зарядов Термита при активации на оспариваемых территориях, увеличивая риск для защитников, играющих вблизи укрепленных поверхностей."
     },
     {
      "t": "p",
-     "x": "EXOTHERMIC CHARGE"
+     "x": "ЭКЗОТЕРМИЧЕСКИЙ ЗАРЯД"
     },
     {
      "t": "p",
-     "x": "Increased damage to 220 hp (was 200 hp)."
+     "x": "Увеличен урон до 220 хп (было 200 хп)."
     },
     {
      "t": "h",
-     "x": "SLEDGE"
+     "x": "САНКИ"
     },
     {
      "t": "p",
-     "x": "We want to improve Sledge’s responsiveness when using his gadget, allowing him to apply destruction more fluidly."
+     "x": "Мы хотим улучшить реакцию Следжа при использовании его гаджета, чтобы он мог более плавно наносить разрушения."
     },
     {
      "t": "p",
-     "x": "BREACHING HAMMER"
+     "x": "РАЗБИВАЮЩИЙ МОЛОТОК"
     },
     {
      "t": "p",
-     "x": "Reduced time to swing Sledge's Breaching Hammer to 0.8 seconds (was 1 second)."
+     "x": "Время на взмах «Разрушающего молота» Кувалды уменьшено до 0,8 секунды (было 1 секунда)."
     },
     {
      "t": "h",
@@ -420,143 +404,145 @@
     },
     {
      "t": "p",
-     "x": "This buff improves consistency in close-quarters engagements, allowing the M1014 to better fulfill its role without extending its effective range."
+     "x": "Это усиление повышает стабильность в ближнем бою, позволяя M1014 лучше выполнять свою роль без увеличения эффективной дальности действия."
     },
     {
      "t": "p",
-     "x": "BASE STATS"
+     "x": "БАЗОВАЯ СТАТИСТИКА"
     },
     {
      "t": "p",
-     "x": "Increased damage to 30 hp (was 28 hp)."
+     "x": "Увеличен урон до 30 хп (было 28 хп)."
     },
     {
      "t": "p",
-     "x": "OPERATORS AFFECTED"
+     "x": "ЗАСТРАХОВАННЫЕ ОПЕРАТОРЫ"
     },
     {
      "t": "p",
-     "x": "Ace"
+     "x": "Туз"
     },
     {
      "t": "p",
-     "x": "Castle"
+     "x": "Замок"
     },
     {
      "t": "p",
-     "x": "Pulse"
+     "x": "Пульс"
     },
     {
      "t": "p",
-     "x": "Thermite"
+     "x": "Термит"
     },
     {
      "t": "h",
-     "x": "SPAS-15"
+     "x": "СПАС-15"
     },
     {
      "t": "p",
-     "x": "This adjustment increases its effectiveness in close-range fights, making it a more competitive shotgun choice while preserving clear range limitations."
+     "x": "Эта настройка повышает его эффективность в боях на ближней дистанции, делая его более конкурентоспособным выбором, сохраняя при этом четкие ограничения по дальности."
     },
     {
      "t": "p",
-     "x": "BASE STATS"
+     "x": "БАЗОВАЯ СТАТИСТИКА"
     },
     {
      "t": "p",
-     "x": "Increased damage to 26 hp (was 24 hp)."
+     "x": "Увеличен урон до 26 хп (было 24 хп)."
     },
     {
      "t": "p",
-     "x": "OPERATORS AFFECTED"
+     "x": "ЗАСТРАХОВАННЫЕ ОПЕРАТОРЫ"
     },
     {
      "t": "p",
-     "x": "Caveira"
+     "x": "Кавейра"
     },
     {
      "t": "p",
-     "x": "Thunderbird"
+     "x": "Тандерберд"
     },
     {
      "t": "h",
-     "x": "BUG FIXES"
+     "x": "ИСПРАВЛЕНИЯ ОШИБОК"
     },
     {
      "t": "h",
-     "x": "GAMEPLAY"
+     "x": "ГЕЙМПЛЕЙ"
     },
     {
      "t": "p",
-     "x": "Fixed - \"Remove Horus Lance to perform action\" tip appears randomly during match."
+     "x": "Исправлено — подсказка «Уберите Копье Хоруса, чтобы выполнить действие» случайно появлялась во время матча."
     },
     {
      "t": "p",
-     "x": "Fixed - Attacker spawn locations aren't aligned or scaled properly on the tactical map for House map."
+     "x": "Исправлено — места появления атакующих не выровнены и не масштабированы должным образом на тактической карте карты Дома."
     },
     {
      "t": "p",
-     "x": "Fixed - Camera shows a blank screen during the end of the round at Basement bombsite on the Villa map."
+     "x": "Исправлено — камера показывала пустой экран в конце раунда на месте взрыва в подвале на карте виллы."
     },
     {
      "t": "p",
-     "x": "Fixed - Compass location shows 2F Break Room when entering 2F Manager's Office from 2F Administration Office on the Consulate map."
+     "x": "Исправлено — при входе в офис менеджера на 2-м этаже из административного офиса на 2-м этаже на карте консульства компас показывал «Комнату отдыха на 2-м этаже»."
     },
     {
      "t": "p",
-     "x": "Fixed - Question mark icon appears instead of Operator icon in kill feed during Team Deathmatch."
+     "x": "Исправлено — во время командного боя насмерть вместо значка оператора в ленте убийств появлялся значок вопросительного знака."
     },
     {
      "t": "h",
-     "x": "OPERATORS"
+     "x": "ОПЕРАТОРЫ"
     },
     {
      "t": "p",
-     "x": "Fixed - Montagne's Le Roc Shield auto-retracts when hit with Noor's Horus Lance."
+     "x": "Исправлено — Щит Ле Рока Монтани автоматически убирался при попадании в него Копья Хоруса Нура."
     },
     {
      "t": "p",
-     "x": "Fixed - Operators can remove Noor's Horus Lance while holding a secondary gadget."
+     "x": "Исправлено — операторы могли снять «Копье Хоруса» Нура, держа в руках дополнительный гаджет."
     },
     {
      "t": "p",
-     "x": "Fixed - Shield Operators can't throw devices if they are hit by Noor's Horus Lance."
+     "x": "Исправлено — Операторы щита не могли бросать устройства, если в них попало «Копье Хоруса» Нура."
     },
     {
      "t": "p",
-     "x": "Fixed - Shield Operators don't take damage from Noor's Horus Lance if they press the embedded Horus Lance against a wall."
+     "x": "Исправлено — Операторы щита не получали урон от «Копья Хоруса» Нура, если прижимали встроенное «Копье Гора» к стене."
     },
     {
      "t": "p",
-     "x": "Fixed - Players can swap to a secondary gadget while affected by Noor's Horus Lance."
+     "x": "Исправлено — игроки могли переключиться на дополнительный гаджет, находясь под действием «Копья Хоруса» Нура."
     },
     {
      "t": "p",
-     "x": "Fixed - Flames from Noor's Horus Lance go in the wrong direction when on Blackbeard's H.U.L.L Adaptable Shield while Blackbeard is rappelling."
+     "x": "Исправлено: пламя от «Копья Хоруса» Нура двигалось в неправильном направлении, когда Черная Борода находился на адаптивном щите КОРПУСА во время спуска Черной Бороды по веревке."
     },
     {
      "t": "p",
-     "x": "Fixed - Ying's Candela doesn't deploy if hit with flames from Noor's Horus Lance."
+     "x": "Исправлено — Кандела Инь не разворачивалась, если на нее попадало пламя от Копья Хоруса Нура."
     },
     {
      "t": "p",
-     "x": "Fixed - Montagne's Le Roc Shield can't be retracted if crouching while removing Noor's Horus Lance."
+     "x": "Исправлено — Щит Ле Рока Монтани нельзя было убрать, если он присел и снял Копье Хоруса Нура."
     },
     {
      "t": "p",
-     "x": "Fixed - Operators can immediately remove Noor's Horus Lance from the shield on their back by cancelling the animation."
+     "x": "Исправлено — операторы могли немедленно снять «Копье Гора» Нура со щита на спине, отменив анимацию."
     },
     {
      "t": "p",
      "x": "Полный список изменений — по ссылке на источник."
     }
    ],
-   "lang": "en",
+   "lang": "ru",
    "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498217908",
    "source": "Steam",
    "platforms": [
     "PC"
-   ]
+   ],
+   "titleOriginal": "Y11S3.1 PATCH NOTES",
+   "translated": true
   },
   {
    "id": "lol",
@@ -1202,481 +1188,489 @@
    "id": "dota2",
    "game": "Dota 2",
    "catalogId": "dota2",
-   "title": "7.41f Gameplay Patch",
+   "title": "Обновление игрового процесса 7.41f",
    "date": "2026-09-15T21:44:25+03:00",
    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
-   "summary": "Patch 7.41f is out now and you can check out the patch notes here.",
+   "summary": "Патч 7.41f уже вышел, и вы можете ознакомиться с примечаниями к патчу здесь.",
    "body": [
     {
      "t": "p",
-     "x": "Patch 7.41f is out now and you can check out the patch notes here."
+     "x": "Патч 7.41f уже вышел, и вы можете ознакомиться с примечаниями к патчу здесь."
     },
     {
      "t": "h",
-     "x": "In addition, we've recently addressed the following issues:"
+     "x": "Кроме того, недавно мы решили следующие проблемы:"
     },
     {
      "t": "li",
-     "x": "Fixed spot on map near the top Roshan Pit where a hero could hide within the geometry of the cave"
+     "x": "Исправлено место на карте возле верхней ямы Рошана, где герой мог спрятаться в геометрии пещеры."
     },
     {
      "t": "li",
-     "x": "Fixed being able to mark items for sale that are normally unsellable during their initial sellback period"
+     "x": "Исправлена ​​возможность помечать для продажи предметы, которые обычно не продаются в течение первоначального периода обратной продажи."
     },
     {
      "t": "li",
-     "x": "Fixed Tranquil Boots not going on cooldown when disassembled from stash"
+     "x": "Исправлена ​​ошибка, из-за которой Tranquil Boots не перезагружались, если их разобрали из тайника."
     },
     {
      "t": "li",
-     "x": "Fixed Bane's Nightmare removing vision from debuff immune targets"
+     "x": "Исправлена ​​ошибка, из-за которой «Кошмар Бэйна» снимал обзор с целей с иммунитетом к дебаффам."
     },
     {
      "t": "li",
-     "x": "Fixed Bounty Hunter's Big Game Hunter not granting any bonus gold"
+     "x": "Исправлена ​​ошибка, из-за которой Охотник за крупной дичью у охотника за головами не давал бонусного золота."
     },
     {
      "t": "li",
-     "x": "Fixed Elder Titan's Astral Spirit being able to Echo Stomp while being recalled"
+     "x": "Исправлена ​​ошибка, из-за которой Астральный Дух Старшего Титана мог использовать «Эхо-топот» во время призыва."
     },
     {
      "t": "li",
-     "x": "Fixed Lone Druid's Spirit Bear remaining under the control of the original player when swapping heroes"
+     "x": "Исправлена ​​ошибка, из-за которой Spirit Bear Lone Druid оставался под контролем исходного игрока при смене героев."
     },
     {
      "t": "li",
-     "x": "Fixed interaction between Lina's Level 25 Critical Talent and other sources of critical strike"
+     "x": "Исправлено взаимодействие между критическим талантом Лины 25-го уровня и другими источниками критического удара."
     },
     {
      "t": "li",
-     "x": "Fixed Spirit Breaker's Planar Pocket redirecting Alchemist's Aghanim's Scepter and Moon Shard's Consume"
+     "x": "Исправлена ​​ошибка, из-за которой планарный карман Spirit Breaker перенаправлял Aghanim's Scepter и Moon Shard's Consume."
     },
     {
      "t": "li",
-     "x": "Fixed interactions between Spirit Breaker's Planar Pocket and Linken's Sphere"
+     "x": "Исправлено взаимодействие между Планарным карманом Spirit Breaker и Сферой Линкена."
     },
     {
      "t": "li",
-     "x": "Fixed Timbersaw's Flamethrower revealing the hero on the minimap"
+     "x": "Исправлен огнемет Timbersaw, показывающий героя на мини-карте."
     }
    ],
-   "lang": "en",
+   "lang": "ru",
    "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262705400",
    "source": "Steam",
    "platforms": [
     "PC"
-   ]
+   ],
+   "titleOriginal": "7.41f Gameplay Patch",
+   "translated": true
   },
   {
    "id": "rust",
    "game": "Rust",
    "catalogId": null,
-   "title": "BREACH AND CLEAR",
+   "title": "НАРУШЕНИЕ И ОЧИСТКА",
    "date": "2026-09-03T20:26:33+03:00",
    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/252490/header.jpg",
-   "summary": "Monument blockers are a new obstacle we're adding to monuments with red keycard puzzle rooms. They’re intended to slow down early access to the loot at these monuments. They require a significant amount of damage to…",
+   "summary": "Блокировщики памятников — это новое препятствие, которое мы добавляем к памятникам с комнатами-головоломками с красными карточками. Они призваны замедлить ранний доступ к добыче в этих памятниках. Они требуют значительного ущерба…",
    "body": [
     {
      "t": "h",
-     "x": "MONUMENT BLOCKERS"
+     "x": "БЛОКИРОВКИ ПАМЯТНИКОВ"
     },
     {
      "t": "p",
-     "x": "Monument blockers are a new obstacle we're adding to monuments with red keycard puzzle rooms. They’re intended to slow down early access to the loot at these monuments. They require a significant amount of damage to destroy but once destroyed they won't respawn. You may also find a handful of weaker monument blockers which can be destroyed by melee."
+     "x": "Блокировщики памятников — это новое препятствие, которое мы добавляем к памятникам с комнатами-головоломками с красными карточками. Они призваны замедлить ранний доступ к добыче в этих памятниках. Для их уничтожения требуется значительный урон, но после уничтожения они не возродятся. Вы также можете найти несколько более слабых блокировщиков памятников, которые можно уничтожить в ближнем бою."
     },
     {
      "t": "p",
-     "x": "We don't think this will have an enormous impact on progression speed but it might make the early wipe a little more interesting for the first joiners."
+     "x": "Мы не думаем, что это окажет огромное влияние на скорость прогресса, но может сделать раннее уничтожение немного более интересным для новичков."
     },
     {
      "t": "p",
-     "x": "In the event they aren’t destroyed within the first 24 hours, they will start to decay."
+     "x": "Если их не уничтожить в течение первых 24 часов, они начнут разлагаться."
     },
     {
      "t": "h",
-     "x": "UPKEEP GROUP SCALING"
+     "x": "МАСШТАБИРОВАНИЕ ГРУПП ОБСЛУЖИВАНИЯ"
     },
     {
      "t": "p",
-     "x": "Starting this month Tool Cupboards will now apply an additional upkeep tax based on the number of players that are in a base. When calculating that number we consider a few things:"
+     "x": "Начиная с этого месяца, в шкафах для инструментов будет взиматься дополнительный налог на содержание в зависимости от количества игроков, находящихся на базе. При расчете этого числа мы учитываем несколько вещей:"
     },
     {
      "t": "p",
-     "x": "Any players directly authed on the TC"
+     "x": "Любые игроки, авторизованные непосредственно на TC."
     },
     {
      "t": "p",
-     "x": "Any players that have been deauthed from the TC in the last 24 hours"
+     "x": "Любые игроки, которые были отключены от TC за последние 24 часа."
     },
     {
      "t": "p",
-     "x": "Any players that are authed on a code lock in the base (including guest code access)"
+     "x": "Любые игроки, авторизованные по кодовому замку в базе (включая доступ к гостевому коду)"
     },
     {
      "t": "p",
-     "x": "Any players that were deauthed from a code lock in the last 24 hours"
+     "x": "Любые игроки, авторизация которых была отключена от кодового замка за последние 24 часа."
     },
     {
      "t": "h",
-     "x": "The upkeep rates are tiered based on number of players:"
+     "x": "Ставки содержания распределяются по уровням в зависимости от количества игроков:"
     },
     {
      "t": "p",
-     "x": "First 4 players incur no tax"
+     "x": "Первые 4 игрока не облагаются налогом."
     },
     {
      "t": "p",
-     "x": "Next 6 players incur 2% tax per player"
+     "x": "Следующие 6 игроков облагаются налогом в размере 2% за каждого игрока."
     },
     {
      "t": "p",
-     "x": "Subsequent players incur 4% tax per player"
+     "x": "Последующие игроки облагаются налогом в размере 4% за каждого игрока."
     },
     {
      "t": "p",
-     "x": "This means a TC with 6 players authed will have +4% upkeep, a TC with 12 players will have +20% upkeep. There is a maximum tax amount of 300%. You can see the current tax rate being applied by hovering over the upkeep cost while the TC is open."
+     "x": "Это означает, что TC с 6 авторизованными игроками будет иметь +4% к содержанию, TC с 12 игроками — +20% к содержанию. Максимальная сумма налога составляет 300%. Вы можете увидеть текущую применяемую налоговую ставку, наведя указатель мыши на стоимость содержания, пока открыт TC."
     },
     {
      "t": "p",
-     "x": "Large player groups are a tricky game balance problem to tackle as they essentially bypass most difficulty mechanics in the game via sheer numbers. We don't want to make this an unviable playstyle - Rust is a sandbox best played with friends and we believe you should be able to play it as you see fit."
+     "x": "Большие группы игроков представляют собой сложную проблему игрового баланса, поскольку они, по сути, обходят большинство сложных механик игры за счет простого числа. Мы не хотим делать этот стиль игры нежизнеспособным: Rust — это песочница, в которую лучше всего играть с друзьями, и мы считаем, что вы должны иметь возможность играть в нее так, как считаете нужным."
     },
     {
      "t": "p",
-     "x": "We're hoping this adds an interesting problem for large groups to solve that doesn't come at the expense of small groups and solos as we believe these groups don't really have many interesting gameplay problems to tackle."
+     "x": "Мы надеемся, что это добавит интересную проблему для больших групп, которую придется решать не за счет небольших групп и одиночек, поскольку мы считаем, что у этих групп на самом деле не так много интересных игровых проблем, которые нужно решать."
     },
     {
      "t": "p",
-     "x": "As usual, we'll monitor this over time and make adjustments as necessary. Server owners will find a set of ConVars in the Decay class that can be used to modify these behaviours, including disabling it entirely."
+     "x": "Как обычно, мы будем следить за этим с течением времени и при необходимости вносить коррективы. Владельцы серверов найдут набор ConVars в классе Decay, который можно использовать для изменения этого поведения, включая его полное отключение."
     },
     {
      "t": "h",
-     "x": "HQM NODE AND COLLECTABLE"
+     "x": "УЗЕЛ HQM И КОЛЛЕКЦИОННЫЙ"
     },
     {
      "t": "p",
-     "x": "High quality metal ore nodes and collectables can now be found across the island. They're extremely scarce, but you'll have more luck finding the HQM node in the Jungle."
+     "x": "Теперь по всему острову можно найти высококачественные узлы металлической руды и предметы коллекционирования. Их крайне мало, но вам больше повезет найти узел HQM в джунглях."
     },
     {
      "t": "h",
-     "x": "MARKETPLACE POWER"
+     "x": "РЫНОЧНАЯ ВЛАСТЬ"
     },
     {
      "t": "p",
-     "x": "The Drone marketplace is now connected to last months Power Plant system, requiring the server to keep the power plant up and running in order to operate drone deliveries. The marketplace now has a built in power level that slowly increases when 4 or more fuses are active in the Power Plant."
+     "x": "Торговая площадка дронов теперь подключена к системе Power Plant, выпущенной в прошлом месяце, поэтому сервер должен поддерживать работоспособность электростанции для осуществления доставки дронами. На рынке теперь есть встроенный уровень мощности, который медленно увеличивается, когда на электростанции активны 4 или более предохранителей."
     },
     {
      "t": "p",
-     "x": "Once the battery hits 50% it can start accepting purchases. As long as at least one fuse is inserted into the Power Plant the battery won't decrease, but if it drops below 50% then the marketplace will deactivate again."
+     "x": "Как только заряд батареи достигнет 50%, он сможет начать принимать покупки. Пока в электростанцию ​​вставлен хотя бы один предохранитель, заряд батареи не уменьшится, но если он упадет ниже 50%, то торговая площадка снова отключится."
     },
     {
      "t": "p",
-     "x": "You can see the current charge level from the marketplace map screen."
+     "x": "Вы можете увидеть текущий уровень заряда на экране карты рынка."
     },
     {
      "t": "h",
-     "x": "MEDICAL HONEY BANDAGE"
+     "x": "МЕДИЦИНСКАЯ МЕДОВАЯ БАНДАЖ"
     },
     {
      "t": "p",
-     "x": "The Medical Honey Bandage is a brand-new healing item on the Workbench Level 1. Designed to bridge the gap between the regular Bandage and Medical Syringe, it gives aspiring beekeepers another way to put their honey reserves to good use. Players with thriving bee farms often end up with more honey than they know what to do with, so we hope this new item makes the surplus feel a little sweeter."
+     "x": "Медицинская медовая повязка — это совершенно новый лечебный предмет на уровне верстака 1. Созданная для устранения разрыва между обычной повязкой и медицинским шприцем, она дает начинающим пчеловодам еще один способ эффективно использовать свои запасы меда. У игроков с процветающими пчелиными фермами часто оказывается больше меда, чем они знают, что с ним делать, поэтому мы надеемся, что этот новый предмет сделает излишки немного слаще."
     },
     {
      "t": "h",
-     "x": "ATTACK HELI/HAB CONDITIONAL ARMOUR"
+     "x": "АТАКУЮЩИЙ ВЕРТОЛЕТ/ЖАБ УСЛОВНАЯ БРОНЕ"
     },
     {
      "t": "p",
-     "x": "We’ve heard your feedback - the Attack Helicopter is too difficult to counter."
+     "x": "Мы услышали ваши отзывы — ударному вертолету слишком сложно противостоять."
     },
     {
      "t": "p",
-     "x": "Attack helicopters' existing cockpit armour will now fall off in stages as it becomes damaged, exposing both the pilot and gunner. Pilots will now have to be more careful with how close they fly to the sun."
+     "x": "Существующая броня кабины ударных вертолетов теперь будет постепенно отваливаться по мере повреждения, подвергая опасности как пилота, так и стрелка. Пилотам теперь придется быть более осторожными с тем, насколько близко они подлетают к Солнцу."
     },
     {
      "t": "p",
-     "x": "Attack heli armour conditions"
+     "x": "Условия брони атакующего вертолета"
     },
     {
      "t": "p",
-     "x": "80% Left panel - 680hp"
+     "x": "80% Левая панель - 680л.с."
     },
     {
      "t": "p",
-     "x": "70% Right panel - 595hp"
+     "x": "70% Правая панель - 595л.с."
     },
     {
      "t": "p",
-     "x": "60% Front panel - 510hp"
+     "x": "60% Передняя панель - 510л.с."
     },
     {
      "t": "p",
-     "x": "We can't forget about the armoured HABs though, these will also have conditional armour."
+     "x": "Однако нельзя забывать и о бронированных HAB, они тоже будут иметь условное бронирование."
     },
     {
      "t": "p",
-     "x": "Armoured HAB armour conditions"
+     "x": "Условия бронирования бронированного HAB"
     },
     {
      "t": "p",
-     "x": "90% Left panel - 2250hp"
+     "x": "90% Левая панель - 2250л.с."
     },
     {
      "t": "p",
-     "x": "80% Right panel - 2000hp"
+     "x": "80% Правая панель - 2000л.с."
     },
     {
      "t": "p",
-     "x": "70% Back panel - 1750hp"
+     "x": "70% Задняя панель - 1750л.с."
     },
     {
      "t": "p",
-     "x": "60% Front panel - 1500hp"
+     "x": "60% Передняя панель - 1500л.с."
     },
     {
      "t": "p",
-     "x": "We'll being monitoring your feedback as always."
+     "x": "Мы, как всегда, будем следить за вашими отзывами."
     },
     {
      "t": "h",
-     "x": "MODULAR CAR HANDLING IMPROVEMENTS"
+     "x": "МОДУЛЬНЫЕ УЛУЧШЕНИЯ УПРАВЛЕНИЯ АВТОМОБИЛЕМ"
     },
     {
      "t": "p",
-     "x": "We've given a little bit of love to how modular cars handle. The steering, turning and suspension have all been tweaked to feel better. We have hopefully also improved how well they drive for players with higher latency."
+     "x": "Мы немного полюбили управление модульными автомобилями. Рулевое управление, повороты и подвеска были изменены, чтобы чувствовать себя лучше. Мы надеемся, что мы также улучшили качество управления для игроков с более высокой задержкой."
     },
     {
      "t": "p",
-     "x": "As well as that, we have also added a handbrake mechanic, you can activate it by pressing your CTRL key. Now you will be able to do hairpin turns, take tighter corners, drift, and even do some doughnuts."
+     "x": "Кроме того, мы также добавили механику ручного тормоза, вы можете активировать ее, нажав клавишу CTRL. Теперь вы сможете делать крутые повороты, проходить крутые повороты, дрифтовать и даже делать пончики."
     },
     {
      "t": "h",
-     "x": "RADWATER SPRINKLER BUFF"
+     "x": "РАДИАЦИОННЫЙ СПРИНКЛЕР БУФФ"
     },
     {
      "t": "p",
-     "x": "Yes: we are buffing Radwater again. This time we've given it a large buff when used in Sprinklers, specifically against those with armour."
+     "x": "Да: мы снова усиливаем Радуотер. На этот раз мы значительно усилили его при использовании в разбрызгивателях, особенно против тех, кто имеет броню."
     },
     {
      "t": "p",
-     "x": "Radwater will now seep through more armour types, causing significant radiation to those in full kits, or lower radiation protection gear. Hazmats are still an effective counter."
+     "x": "Радуотер теперь будет просачиваться сквозь большее количество типов брони, вызывая значительное облучение у тех, кто находится в полной экипировке или в снаряжении с более низкой радиационной защитой. Хазматы по-прежнему являются эффективным средством борьбы."
     },
     {
      "t": "h",
-     "x": "SAM SITE BUFFED VS. DRONES"
+     "x": "УЛУЧШЕННЫЙ САЙТ СЭМА VS. ДРОНЫ"
     },
     {
      "t": "p",
-     "x": "The SAM site will now do a much better job of destroying hostile drones."
+     "x": "ЗРК теперь будет гораздо лучше справляться с уничтожением вражеских дронов."
     },
     {
      "t": "p",
-     "x": "Missiles will fly faster vs drones and have a larger detonation fuse area, meaning drones get taken down much more reliably."
+     "x": "Ракеты будут летать быстрее дронов и иметь большую площадь детонационного взрывателя, а это означает, что дроны будут сбиты гораздо надежнее."
     },
     {
      "t": "h",
-     "x": "NOTABLE CHANGES"
+     "x": "ЗАМЕЧАТЕЛЬНЫЕ ИЗМЕНЕНИЯ"
     },
     {
      "t": "p",
-     "x": "We've made several smaller balance changes across the board this month, some addressing community pain points."
+     "x": "В этом месяце мы внесли несколько небольших изменений в баланс, некоторые из которых направлены на устранение болевых точек сообщества."
     },
     {
      "t": "p",
-     "x": "Heavy Plate Helmet"
+     "x": "Тяжелый латный шлем"
     },
     {
      "t": "p",
-     "x": "The heavy plate helmet now suppresses noise when worn. We've also increased the crafting costs."
+     "x": "Тяжелый пластинчатый шлем теперь подавляет шум при ношении. Мы также увеличили стоимость крафта."
     },
     {
      "t": "p",
-     "x": "Heavy Plate Armour"
+     "x": "Тяжелая латная броня"
     },
     {
      "t": "p",
-     "x": "Players wearing the Heavy Plate Jacket or Pants will now make noise when moving, audible to other players."
+     "x": "Игроки, носящие тяжелую латную куртку или штаны, теперь будут издавать шум при движении, который будет слышен другим игрокам."
     },
     {
      "t": "p",
-     "x": "Swamp Trees"
+     "x": "Болотные деревья"
     },
     {
      "t": "p",
-     "x": "The wood harvest from swamp trees has been significantly increased to be in line with other types of trees."
+     "x": "Заготовка древесины с болотных деревьев была значительно увеличена, чтобы соответствовать другим типам деревьев."
     },
     {
      "t": "p",
-     "x": "Semi-Pistol"
+     "x": "Полупистолет"
     },
     {
      "t": "p",
-     "x": "The damage falloff has been increased, meaning less damage at range. We've also increase the crafting cost."
+     "x": "Снижение урона было увеличено, что означает меньший урон на расстоянии. Мы также увеличили стоимость крафта."
     },
     {
      "t": "p",
-     "x": "Pies"
+     "x": "Пироги"
     },
     {
      "t": "p",
      "x": "Полный список изменений — по ссылке на источник."
     }
    ],
-   "lang": "en",
+   "lang": "ru",
    "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842846814444168",
    "source": "Steam",
    "platforms": [
     "PC"
-   ]
+   ],
+   "titleOriginal": "BREACH AND CLEAR",
+   "translated": true
   },
   {
    "id": "poe2",
    "game": "Path of Exile 2",
    "catalogId": "poe2",
-   "title": "Path of Exile 2: Forbidden Rites Patch Notes and Item Filter Information",
+   "title": "Path of Exile 2: Примечания к обновлению Forbidden Rites и информация о фильтре предметов",
    "date": "2026-09-03T01:54:35+03:00",
    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2694490/header.jpg",
-   "summary": "The patch notes for Path of Exile 2: Forbidden Rites, launching September 4th at 1PM PDT are now available.",
+   "summary": "Примечания к патчу для Path of Exile 2: Forbidden Rites, который выйдет 4 сентября в 13:00 по тихоокеанскому времени, уже доступны.",
    "body": [
     {
      "t": "p",
-     "x": "The patch notes for Path of Exile 2: Forbidden Rites, launching September 4th at 1PM PDT are now available."
+     "x": "Примечания к патчу для Path of Exile 2: Forbidden Rites, который выйдет 4 сентября в 13:00 по тихоокеанскому времени, уже доступны."
     },
     {
      "t": "p",
-     "x": "Click here to check them out."
+     "x": "Нажмите здесь, чтобы проверить их."
     },
     {
      "t": "p",
-     "x": "We’ve also prepared Item Filter information you may need for this event."
+     "x": "Мы также подготовили информацию о фильтре предметов, которая может вам понадобиться для этого мероприятия."
     },
     {
      "t": "h",
-     "x": "New Items"
+     "x": "Новые предметы"
     },
     {
      "t": "p",
-     "x": "Item class: Augment"
+     "x": "Класс предмета: Улучшение"
     },
     {
      "t": "li",
-     "x": "Jiquani's Soul Core of Automation"
+     "x": "Душевное ядро ​​автоматизации Jiquani"
     },
     {
      "t": "li",
-     "x": "Jiquani's Soul Core of Malediction"
+     "x": "Ядро проклятия души Джикуани"
     },
     {
      "t": "li",
-     "x": "Jiquani's Soul Core of Targeting"
+     "x": "Ядро души Джикуани нацеливания"
     },
     {
      "t": "li",
-     "x": "Jiquani's Soul Core of Rallying"
+     "x": "Душевное ядро ​​сплочения Джикуани"
     },
     {
      "t": "li",
-     "x": "Jiquani's Soul Core of Radiance"
+     "x": "Ядро сияния души Джикуани"
     },
     {
      "t": "li",
-     "x": "Jiquani's Soul Core of Severing"
+     "x": "Ядро души Джикуани, разрушающее"
     },
     {
      "t": "li",
-     "x": "Jiquani's Soul Core of Rippling"
+     "x": "Ядро пульсации души Джикуани"
     },
     {
      "t": "li",
-     "x": "Jiquani's Soul Core of Quaking"
+     "x": "Ядро души Джикуани, трясущееся"
     },
     {
      "t": "li",
-     "x": "Jiquani's Soul Core of Munitions"
+     "x": "Ядро боеприпасов души Джикуани"
     },
     {
      "t": "li",
-     "x": "Jiquani's Soul Core of Snares"
+     "x": "Ядро ловушек души Джиквани"
     },
     {
      "t": "li",
-     "x": "Jiquani's Soul Core of Abundance"
+     "x": "Ядро изобилия души Джикуани"
     },
     {
      "t": "li",
-     "x": "Jiquani's Soul Core of Squalls"
+     "x": "Ядро шквалов души Джикуани"
     },
     {
      "t": "li",
-     "x": "Jiquani's Soul Core of Thundering"
+     "x": "Громовое ядро ​​души Джикуани"
     },
     {
      "t": "li",
-     "x": "Atziri's Soul Core of Devotion"
+     "x": "Душевное ядро ​​преданности Азири"
     },
     {
      "t": "li",
-     "x": "Atziri's Soul Core of Vitality"
+     "x": "Ядро жизненной силы души Азири"
     },
     {
      "t": "li",
-     "x": "Atziri's Soul Core of Alacrity"
+     "x": "Ядро рвения души Атзири"
     },
     {
      "t": "li",
-     "x": "Atziri's Soul Core of Inoculation"
+     "x": "Ядро прививки души Азири"
     },
     {
      "t": "p",
-     "x": "Item class: Map Fragments"
+     "x": "Класс предмета: Фрагменты карты"
     },
     {
      "t": "li",
-     "x": "Sacred Bloom"
+     "x": "Священное цветение"
     },
     {
      "t": "p",
-     "x": "Item class: Tablet"
+     "x": "Класс предмета: Таблетка"
     },
     {
      "t": "li",
-     "x": "Expedition Tablet"
+     "x": "Табличка экспедиции"
     }
    ],
-   "lang": "en",
+   "lang": "ru",
    "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842846814441691",
    "source": "Steam",
    "platforms": [
     "PC"
-   ]
+   ],
+   "titleOriginal": "Path of Exile 2: Forbidden Rites Patch Notes and Item Filter Information",
+   "translated": true
   },
   {
    "id": "destiny2",
    "game": "Destiny 2",
    "catalogId": "destiny2",
-   "title": "Destiny 2: Monument of Triumph Update",
+   "title": "Destiny 2: Обновление Монумента Триумфа",
    "date": "2026-06-09T20:00:09+03:00",
    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1085660/header.jpg",
-   "summary": "The Destiny 2: Monument of Triumph Update is available to all players. A new set of Triumphs guides you across Destiny 2 activities, turning familiar moments into a personal journey with new rewards to earn.",
+   "summary": "Обновление Destiny 2: Монумент Триумфа доступно всем игрокам. Новый набор Триумфов проведет вас через задания Destiny 2, превратив знакомые моменты в личное путешествие с новыми наградами.",
    "body": [
     {
      "t": "p",
-     "x": "The Destiny 2: Monument of Triumph Update is available to all players. A new set of Triumphs guides you across Destiny 2 activities, turning familiar moments into a personal journey with new rewards to earn."
+     "x": "Обновление Destiny 2: Монумент Триумфа доступно всем игрокам. Новый набор Триумфов проведет вас через задания Destiny 2, превратив знакомые моменты в личное путешествие с новыми наградами."
     },
     {
      "t": "p",
-     "x": "Pantheon returns with rotating raid bosses and modifiers, Sparrow Racing League makes its D2 debut with classic tracks and new maps, Distortions send you back to key destinations, Heavy Metal adds the Cabal Behemoth and vehicle mayhem, and a unified Director brings activities into one place."
+     "x": "Пантеон возвращается с меняющимися рейдовыми боссами и модификаторами, Sparrow Racing League дебютирует в D2 с классическими трассами и новыми картами, Искажения отправляют вас обратно в ключевые пункты назначения, Хэви-метал добавляет Кабал-Бегемота и хаос на транспортных средствах, а единый директор объединяет все действия в одном месте."
     },
     {
      "t": "p",
-     "x": "New subclass updates, armor set bonuses, and access to past Season artifacts give you more ways to refine your buildcrafting as you chase those goals."
+     "x": "Новые обновления подклассов, бонусы от комплектов брони и доступ к артефактам прошлых сезонов дают вам больше возможностей совершенствовать свои постройки по мере достижения этих целей."
     }
    ],
-   "lang": "en",
+   "lang": "ru",
    "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1834602721202516",
    "source": "Steam",
    "platforms": [
     "PC"
-   ]
+   ],
+   "titleOriginal": "Destiny 2: Monument of Triumph Update",
+   "translated": true
   }
  ]
 }

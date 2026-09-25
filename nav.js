@@ -313,6 +313,7 @@
     input.value = "";
     renderResults();
     setTimeout(() => input.focus(), 0);
+    if (window.npGoal) window.npGoal("search_open");
   }
   function closeSearch() {
     if (!dlg || dlg.hidden) return;

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Страница не найдена — NEXUS PULSE</title>
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/png" href="/nexus-pulse/assets/icons/icon-192.png">
+<style>
+html,body{margin:0;height:100%;background:#07090f;color:#e8eefc;font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{min-height:100%;display:grid;place-items:center;text-align:center;padding:24px;box-sizing:border-box}
+a.btn{display:inline-block;margin-top:.5rem;padding:.7rem 1.3rem;border-radius:12px;background:linear-gradient(90deg,#00f5ff,#8b5cff);color:#07090f;font-weight:800;text-decoration:none}
+img{width:72px;height:72px;border-radius:16px}
+</style>
+<script>
+  // Старая ссылка «Поделиться» на новость → открываем новость на сайте (если она ещё есть в архиве)
+  (function () {
+    var m = location.pathname.match(/\/s\/news\/([\w-]{1,64})\.html$/);
+    var base = location.pathname.indexOf("/nexus-pulse/") === 0 ? "/nexus-pulse/" : "/";
+    if (m) location.replace(base + "?news=" + m[1]);
+  })();
+</script>
+</head>
+<body>
+<main><div>
+<img src="/nexus-pulse/assets/icons/icon-192.png" alt="NEXUS PULSE">
+<h1 style="font-size:1.4rem">Такой страницы нет</h1>
+<p>Возможно, ссылка устарела. Всё самое свежее — на главной.</p>
+<a class="btn" href="/nexus-pulse/">На главную NEXUS PULSE</a>
+</div></main>
+</body>
+</html>

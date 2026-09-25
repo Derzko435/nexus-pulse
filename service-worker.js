@@ -1,5 +1,5 @@
 /* NEXUS PULSE service worker */
-const VERSION = "v7-2026-09-25";
+const VERSION = "v8-2026-09-25";
 const SHELL_CACHE = "nexus-pulse-shell-" + VERSION;
 const DATA_CACHE = "nexus-pulse-data-" + VERSION;
 const FONT_CACHE = "nexus-pulse-fonts-v1";
@@ -15,6 +15,8 @@ const SHELL = [
   "./content-hub.js",
   "./discord-hub.js",
   "./nav.js",
+  "./price-history.js",
+  "./site-extras.js",
   "./manifest.json",
   "./assets/nexus-pulse-icon.png",
   "./assets/icons/icon-192.png",
@@ -39,6 +41,8 @@ const DATA = [
   "./data/videos.json",
   "./data/catalog.json",
   "./data/prices.json",
+  "./data/price_history.json",
+  "./data/site_config.json",
 ];
 
 self.addEventListener("install", (event) => {
@@ -110,7 +114,9 @@ self.addEventListener("fetch", (event) => {
         try {
           const preload = await event.preloadResponse;
           const res = preload || (await fetch(req));
-          if (res && res.ok) {
+          // only the main page is kept as the offline shell (not share pages under /s/)
+          const isShell = /\/(index\.html)?$/.test(url.pathname);
+          if (res && res.ok && isShell) {
             const cache = await caches.open(SHELL_CACHE);
             cache.put("./index.html", res.clone());
           }

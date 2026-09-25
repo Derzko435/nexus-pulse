@@ -378,7 +378,7 @@ const DISCORD_INVITE_URL = "https://discord.gg/7JvfzNrt4x";
     "news.desc": "Главные игровые новости дня — с картинками и полным текстом.",
     "esports.title": "Турниры, матчи и трансляции", "esports.desc": "Расписание матчей по московскому времени и официальные трансляции прямо на сайте.",
     "esports.tournaments": "Турниры", "esports.watch": "Смотреть трансляцию", "esports.matches": "Матчи",
-    "cal.desc": "Ближайшие релизы в Steam и свежие обновления популярных игр.",
+    "cal.desc": "Ближайшие релизы на ПК, PlayStation, Xbox и Switch и свежие обновления популярных игр.",
     "newGames.desc": "Самые популярные игры, вышедшие за последние недели.",
     "guides.desc": "30 подробных гайдов: FPS и Windows, настройки игр, советы новичкам и разбор частых ошибок.",
   });
@@ -388,7 +388,7 @@ const DISCORD_INVITE_URL = "https://discord.gg/7JvfzNrt4x";
     "news.desc": "Top gaming news of the day — with pictures and full text.",
     "esports.title": "Tournaments, matches & streams", "esports.desc": "Match schedule in Moscow time and official broadcasts right on the site.",
     "esports.tournaments": "Tournaments", "esports.watch": "Watch the broadcast", "esports.matches": "Matches",
-    "cal.desc": "Upcoming Steam releases and fresh updates for popular games.",
+    "cal.desc": "Upcoming releases on PC, PlayStation, Xbox and Switch plus fresh updates for popular games.",
     "newGames.desc": "The most popular games released in recent weeks.",
     "guides.desc": "30 detailed guides: FPS & Windows, game settings, beginner tips and common mistakes.",
   };
@@ -399,7 +399,7 @@ const DISCORD_INVITE_URL = "https://discord.gg/7JvfzNrt4x";
     "news.desc": "Головні ігрові новини дня — з картинками та повним текстом.",
     "esports.title": "Турніри, матчі та трансляції", "esports.desc": "Розклад матчів за московським часом і офіційні трансляції просто на сайті.",
     "esports.tournaments": "Турніри", "esports.watch": "Дивитися трансляцію", "esports.matches": "Матчі",
-    "cal.desc": "Найближчі релізи в Steam і свіжі оновлення популярних ігор.",
+    "cal.desc": "Найближчі релізи на ПК, PlayStation, Xbox і Switch та свіжі оновлення популярних ігор.",
     "newGames.desc": "Найпопулярніші ігри, що вийшли за останні тижні.",
     "guides.desc": "30 докладних гайдів: FPS і Windows, налаштування ігор, поради новачкам і типові помилки.",
   });

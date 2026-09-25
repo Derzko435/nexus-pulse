@@ -32,7 +32,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install --quiet beautifulsoup4
+        run: pip install --quiet beautifulsoup4 deep-translator
 
       - name: Decide mode
         id: mode
@@ -64,12 +64,17 @@ jobs:
         if: steps.mode.outputs.mode == 'full'
         run: python scripts/update_catalog.py || echo "::warning::catalog update failed (last good data kept)"
 
+      - name: Share pages, sitemap, verification tags
+        run: python scripts/build_site_meta.py || echo "::warning::share pages / sitemap update failed"
+
       - name: Commit and push if data changed
         id: push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/news.json data/releases.json data/new_games.json data/patches.json data/matches.json data/videos.json data/catalog.json 2>/dev/null || true
+          git add data/translations.json data/share_index.json sitemap.xml robots.txt index.html 2>/dev/null || true
+          git add -A s/ 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No content changes"
             echo "pushed=0" >> "$GITHUB_OUTPUT"

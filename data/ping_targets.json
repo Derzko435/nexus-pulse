@@ -1,112 +1,142 @@
 {
-  "updatedAt": "2026-09-25T17:07:14+03:00",
+  "updatedAt": "2026-09-25T20:56:43+03:00",
   "source": "github-actions-ping-baseline",
-  "disclaimer": "Runner RTT is NOT end-user latency. Client measures live RTT via img/favicon from the browser.",
+  "disclaimer": "Runner RTT is NOT end-user latency. The browser measures live RTT itself: one warm-up request (DNS/TCP/TLS), then the median of several requests over the open connection.",
   "targets": [
     {
       "id": "cloudflare",
       "name": "Cloudflare",
+      "hint": "ближайший узел CDN",
       "url": "https://www.cloudflare.com/favicon.ico",
       "kind": "img",
-      "region_hint": "anycast",
-      "note": "CDN anycast — browser img RTT"
+      "region_hint": "anycast"
     },
     {
       "id": "steam",
-      "name": "Steam CDN",
-      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg",
+      "name": "Steam · загрузки",
+      "hint": "CDN Valve",
+      "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/730/capsule_sm_120.jpg",
       "kind": "img",
-      "region_hint": "steamstatic",
-      "note": "Valve CDN via Cloudflare"
+      "region_hint": "steamstatic"
     },
     {
       "id": "steam_store",
-      "name": "Steam Store",
+      "name": "Steam · магазин",
+      "hint": "store.steampowered.com",
       "url": "https://store.steampowered.com/favicon.ico",
       "kind": "img",
-      "region_hint": "valve",
-      "note": "Store edge"
+      "region_hint": "valve"
     },
     {
       "id": "riot",
-      "name": "Riot",
-      "url": "https://authenticate.riotgames.com/favicon.ico",
-      "kind": "img",
-      "region_hint": "riot",
-      "note": "Approx Valorant/LoL auth edge"
+      "name": "Riot · вход в аккаунт",
+      "hint": "League of Legends, Valorant",
+      "url": "https://authenticate.riotgames.com/",
+      "kind": "nocors",
+      "region_hint": "riot"
     },
     {
-      "id": "epic",
-      "name": "Epic",
-      "url": "https://static-assets-prod.unrealengine.com/account-portal/static/favicon.ico",
-      "kind": "img",
-      "region_hint": "epic",
-      "note": "Epic / Unreal static"
+      "id": "riot_fra",
+      "name": "Valorant · Франкфурт",
+      "hint": "дата-центр игровых серверов",
+      "url": "https://dynamodb.eu-central-1.amazonaws.com/ping",
+      "kind": "cors",
+      "region_hint": "aws-eu-central-1"
+    },
+    {
+      "id": "riot_sto",
+      "name": "Valorant · Стокгольм",
+      "hint": "дата-центр игровых серверов",
+      "url": "https://dynamodb.eu-north-1.amazonaws.com/ping",
+      "kind": "cors",
+      "region_hint": "aws-eu-north-1"
     },
     {
       "id": "blizzard",
-      "name": "Blizzard",
-      "url": "https://www.blizzard.com/favicon.ico",
+      "name": "Blizzard · Battle.net EU",
+      "hint": "дата-центр в Нидерландах",
+      "url": "https://europe-west4-5tkroniexa-ez.a.run.app/api/ping",
+      "kind": "cors",
+      "region_hint": "gcp-europe-west4"
+    },
+    {
+      "id": "epic",
+      "name": "Epic Games",
+      "hint": "лаунчер и магазин",
+      "url": "https://static-assets-prod.unrealengine.com/account-portal/static/favicon.ico",
       "kind": "img",
-      "region_hint": "blizzard",
-      "note": "Battle.net portal"
+      "region_hint": "epic"
     },
     {
       "id": "google",
-      "name": "Google (ref)",
+      "name": "Google",
+      "hint": "для сравнения",
       "url": "https://www.google.com/favicon.ico",
       "kind": "img",
-      "region_hint": "ref",
-      "note": "Reference latency only"
+      "region_hint": "ref"
     }
   ],
   "runnerReachability": [
     {
       "id": "cloudflare",
       "status": 200,
-      "runner_rtt_ms": 102.6,
+      "runner_rtt_ms": 76.3,
       "ok": true,
       "error": null
     },
     {
       "id": "steam",
       "status": 200,
-      "runner_rtt_ms": 225.8,
+      "runner_rtt_ms": 215.9,
       "ok": true,
       "error": null
     },
     {
       "id": "steam_store",
       "status": 200,
-      "runner_rtt_ms": 211.3,
+      "runner_rtt_ms": 340.9,
       "ok": true,
       "error": null
     },
     {
       "id": "riot",
-      "status": 404,
-      "runner_rtt_ms": 141.4,
-      "ok": false,
-      "error": "Not Found"
+      "status": 200,
+      "runner_rtt_ms": 192.8,
+      "ok": true,
+      "error": null
     },
     {
-      "id": "epic",
+      "id": "riot_fra",
       "status": 200,
-      "runner_rtt_ms": 215.3,
+      "runner_rtt_ms": 283.1,
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "riot_sto",
+      "status": 200,
+      "runner_rtt_ms": 341.7,
       "ok": true,
       "error": null
     },
     {
       "id": "blizzard",
-      "status": 404,
-      "runner_rtt_ms": 572.3,
-      "ok": false,
-      "error": "Not Found"
+      "status": 200,
+      "runner_rtt_ms": 261.3,
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "epic",
+      "status": 200,
+      "runner_rtt_ms": 92.5,
+      "ok": true,
+      "error": null
     },
     {
       "id": "google",
       "status": 200,
-      "runner_rtt_ms": 57.6,
+      "runner_rtt_ms": 100.0,
       "ok": true,
       "error": null
     }

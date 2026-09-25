@@ -28,6 +28,9 @@ jobs:
       - name: Update Steam prices for the watchlist
         run: python scripts/update_prices.py || echo "::warning::prices update failed (last good data kept)"
 
+      - name: Price history (daily points, only changes)
+        run: python scripts/update_price_history.py || echo "::warning::price history update failed (last good data kept)"
+
       - name: Update freebies (if script present)
         run: |
           if [ -f scripts/update_freebies.py ]; then
@@ -57,7 +60,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No data JSON changes"
           else
-            git commit -m "chore(data): refresh ping/steam/prices/freebies JSON"
+            git commit -m "chore(data): refresh ping/steam/prices/price history/freebies JSON"
             git pull --rebase origin main || true
             git push
             gh workflow run pages.yml --ref main || echo "::warning::could not trigger pages deploy"

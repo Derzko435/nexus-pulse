@@ -5,6 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="NEXUS PULSE — игровой портал: новости игр каждый день, каталог, новинки, календарь релизов и патчей, подробные гайды, матчи и трансляции киберспорта, видео, скидки и Discord-комьюнити." />
   <title>NEXUS PULSE — Игровой портал для настоящих геймеров</title>
+  <link rel="canonical" href="https://derzko435.github.io/nexus-pulse/" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <!-- np:verify:start --><!-- np:verify:end -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="NEXUS PULSE" />
+  <meta property="og:locale" content="ru_RU" />
+  <meta property="og:url" content="https://derzko435.github.io/nexus-pulse/" />
+  <meta property="og:title" content="NEXUS PULSE — игровой портал" />
+  <meta property="og:description" content="Новости игр каждый день, календарь релизов на ПК и консолях, патчи на русском, скидки с историей цен, гайды, киберспорт и Discord-комьюнити." />
+  <meta property="og:image" content="https://derzko435.github.io/nexus-pulse/assets/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="NEXUS PULSE — новости, релизы, скидки и киберспорт" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="NEXUS PULSE — игровой портал" />
+  <meta name="twitter:description" content="Новости игр, релизы на ПК и консолях, патчи на русском, скидки, гайды и киберспорт." />
+  <meta name="twitter:image" content="https://derzko435.github.io/nexus-pulse/assets/og-image.png" />
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebSite","name":"NEXUS PULSE","alternateName":"Nexus Pulse","url":"https://derzko435.github.io/nexus-pulse/","inLanguage":"ru","description":"Игровой портал: новости, календарь релизов, патчи, скидки, гайды и киберспорт.","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://derzko435.github.io/nexus-pulse/?q={search_term_string}"},"query-input":"required name=search_term_string"}}
+  </script>
   <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/icon-192.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
   <link rel="manifest" href="manifest.json" />
@@ -194,12 +214,20 @@
           <div>
             <p class="eyebrow" data-i18n="cal.eyebrow">Расписание</p>
             <h2 data-i18n="cal.title">Календарь релизов и патчей</h2>
-            <p class="section-desc" data-i18n="cal.desc">Ближайшие релизы в Steam и свежие обновления популярных игр.</p>
+            <p class="section-desc" data-i18n="cal.desc">Ближайшие релизы на ПК, PlayStation, Xbox и Switch и свежие обновления популярных игр.</p>
           </div>
         </div>
         <div class="calendar-layout">
           <div class="cal-col glass">
             <h3 data-i18n="cal.releases">Скоро выходит</h3>
+            <div class="chip-row cal-filters" id="releaseFilters" role="group" aria-label="Платформа">
+              <button type="button" class="chip chip-sm active" data-rplat="all" aria-pressed="true">Все</button>
+              <button type="button" class="chip chip-sm" data-rplat="PC" aria-pressed="false">ПК</button>
+              <button type="button" class="chip chip-sm" data-rplat="PlayStation" aria-pressed="false">PlayStation</button>
+              <button type="button" class="chip chip-sm" data-rplat="Xbox" aria-pressed="false">Xbox</button>
+              <button type="button" class="chip chip-sm" data-rplat="Switch" aria-pressed="false">Switch</button>
+              <button type="button" class="chip chip-sm" data-rplat="Epic" aria-pressed="false">Epic</button>
+            </div>
             <ul class="cal-list cal-list-rich" id="releasesList"></ul>
             <button type="button" class="btn btn-ghost btn-sm cal-more" id="releasesMore" hidden>Показать все релизы</button>
           </div>
@@ -554,7 +582,7 @@
         <div class="tool-card glass ping-map-card" id="pingMapCard" style="margin-top:1.25rem">
           <div class="mood-head">
             <h3>Карта пинга · игровые сервисы</h3>
-            <p class="tool-desc">Примерный пинг до Steam, Riot, Epic, Blizzard и Cloudflare.</p>
+            <p class="tool-desc">Время отклика до серверов Steam, Riot (Valorant, LoL), Blizzard и Epic — замер прямо из твоего браузера.</p>
           </div>
           <button type="button" class="btn btn-primary btn-sm" id="pingRefreshBtn">Обновить</button>
           <ul class="ping-map-list" id="pingMapList"></ul>
@@ -868,6 +896,8 @@
   <script src="content-hub.js"></script>
   <script src="discord-hub.js"></script>
   <script src="nav.js"></script>
+  <script src="price-history.js"></script>
+  <script src="site-extras.js"></script>
   <script>
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", function () {

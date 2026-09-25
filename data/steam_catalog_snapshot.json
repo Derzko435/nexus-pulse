@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T17:07:59+03:00",
+  "updatedAt": "2026-09-25T20:57:33+03:00",
   "source": "steam-store-appdetails",
   "count": 34,
   "apps": [
@@ -511,6 +511,22 @@
       "curated": true
     },
     {
+      "appid": "1288320",
+      "name": "Steam App 1288320",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1288320/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
+    },
+    {
       "appid": "270880",
       "name": "Steam App 270880",
       "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/270880/header.jpg",
@@ -530,22 +546,6 @@
       "appid": "400750",
       "name": "Steam App 400750",
       "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/400750/header.jpg",
-      "genres": [],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "",
-      "catalogId": null,
-      "curated": true
-    },
-    {
-      "appid": "1593030",
-      "name": "Steam App 1593030",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1593030/header.jpg",
       "genres": [],
       "is_free": false,
       "platforms": {
