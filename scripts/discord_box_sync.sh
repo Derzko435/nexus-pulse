@@ -55,6 +55,15 @@ new = json.load(open("data/lfg_snapshot.json", encoding="utf-8"))
 sys.exit(0 if (old.get("items") or []) != (new.get("items") or []) else 1)
 PY
 
+# server config: commit only real changes (setup-server rewrites "updatedAt" every run)
+python3 - <<'PY' || git checkout -q -- data/discord_channels.json 2>/dev/null
+import json, subprocess, sys
+old = json.loads(subprocess.run(["git", "show", "HEAD:data/discord_channels.json"], capture_output=True, text=True).stdout or "{}")
+new = json.load(open("data/discord_channels.json", encoding="utf-8"))
+old.pop("updatedAt", None); new.pop("updatedAt", None)
+sys.exit(0 if old != new else 1)
+PY
+
 committed=0
 state_files=""
 for f in data/discord_posted.json data/telegram_posted.json; do
