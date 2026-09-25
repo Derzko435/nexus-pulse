@@ -1,5 +1,5 @@
 /* NEXUS PULSE service worker */
-const VERSION = "v6-2026-09-25";
+const VERSION = "v7-2026-09-25";
 const SHELL_CACHE = "nexus-pulse-shell-" + VERSION;
 const DATA_CACHE = "nexus-pulse-data-" + VERSION;
 const FONT_CACHE = "nexus-pulse-fonts-v1";
@@ -14,6 +14,7 @@ const SHELL = [
   "./guides-content.js",
   "./content-hub.js",
   "./discord-hub.js",
+  "./nav.js",
   "./manifest.json",
   "./assets/nexus-pulse-icon.png",
   "./assets/icons/icon-192.png",
@@ -37,6 +38,7 @@ const DATA = [
   "./data/patches.json",
   "./data/videos.json",
   "./data/catalog.json",
+  "./data/prices.json",
 ];
 
 self.addEventListener("install", (event) => {
@@ -161,6 +163,24 @@ self.addEventListener("fetch", (event) => {
         return cached;
       }
       return network;
+    })()
+  );
+});
+
+// Price-drop notifications from the «Отслеживаю цены» block: click opens the site at the list
+self.addEventListener("notificationclick", (event) => {
+  event.notification.close();
+  const target = new URL("./#watchlist", self.registration.scope).href;
+  event.waitUntil(
+    (async () => {
+      const all = await self.clients.matchAll({ type: "window", includeUncontrolled: true });
+      for (const c of all) {
+        if (c.url.startsWith(self.registration.scope) && "focus" in c) {
+          try { await c.navigate(target); } catch (e) { /* ignore */ }
+          return c.focus();
+        }
+      }
+      return self.clients.openWindow(target);
     })()
   );
 });

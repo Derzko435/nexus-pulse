@@ -539,16 +539,7 @@ const DISCORD_INVITE_URL = "https://discord.gg/7JvfzNrt4x";
     if (soon) soon.hidden = ready;
   }
 
-  const navToggle = $("#navToggle");
-  const navLinks = $("#navLinks");
-  navToggle?.addEventListener("click", () => {
-    const open = navLinks.classList.toggle("open");
-    navToggle.setAttribute("aria-expanded", String(open));
-  });
-  $$("#navLinks a").forEach((a) => a.addEventListener("click", () => {
-    navLinks.classList.remove("open");
-    navToggle?.setAttribute("aria-expanded", "false");
-  }));
+  // Навигация в шапке (выпадающие меню, мобильное меню, поиск) — nav.js
   const toTop = $("#toTop");
   window.addEventListener("scroll", () => toTop?.classList.toggle("visible", window.scrollY > 500));
   toTop?.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));

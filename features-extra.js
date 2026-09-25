@@ -20,8 +20,8 @@
     owned: "nexus_pulse_owned_games",
     epicOwned: "nexus_pulse_epic_owned",
     epicName: "nexus_pulse_epic_name",
-    alerts: "nexus_pulse_price_alerts",
-    webhook: "nexus_pulse_discord_webhook",
+    alerts: "nexus_pulse_price_alerts", // старый формат — переносится в watch
+    watch: "nexus_pulse_watchlist",
     lfgSelf: "nexus_pulse_lfg_self",
     lfgPending: "nexus_pulse_lfg_pending_post",
     checklist: "nexus_pulse_checklist",
@@ -179,7 +179,6 @@
 
   function decorateGameCards(NP) {
     const owned = getOwned();
-    const alerts = getAlerts();
     $$("#gamesGrid .game-card").forEach((card) => {
       const id = card.dataset.id;
       const g = NP.GAMES.find((x) => x.id === id);
@@ -205,58 +204,240 @@
         body.appendChild(pills);
       }
       if (cover && !cover.querySelector(".alert-bell")) {
-        const bell = document.createElement("button");
-        bell.type = "button";
-        bell.className = "alert-bell" + (hasAlertForTitle(alerts, g.title) ? " active" : "");
-        bell.dataset.alertTitle = g.title;
-        bell.dataset.alertId = "game-" + g.id;
-        bell.title = "Ценовой алерт";
-        bell.setAttribute("aria-label", "Алерт на скидку");
-        bell.textContent = "🔔";
-        cover.appendChild(bell);
+        const appid = catalogAppId(g.id);
+        cover.appendChild(makeBell({ watchTitle: g.title, watchGame: g.id, steamAppId: appid }));
       }
     });
   }
 
   /* ============================================================
-   * 6) Price alerts
+   * 6) «Отслеживаю цены» — список желаемого с целевой ценой
    * ============================================================ */
-  function getAlerts() {
-    return lsGet(KEYS.alerts, []);
+  const WATCH_NOTIFIED = "nexus_pulse_watch_notified";
+  const WATCH_ASKED = "nexus_pulse_watch_notify_asked";
+  const watchState = { deals: [], prices: {}, catalog: {}, pricesLoaded: false, dealsLoaded: false };
+
+  function normTitle(s) {
+    return String(s || "").toLowerCase().replace(/ё/g, "е").replace(/[™®©]/g, "").replace(/[^a-z0-9а-я]+/gi, " ").trim();
   }
-  function setAlerts(list) {
-    lsSet(KEYS.alerts, list);
+  function rub(n) {
+    const v = Number(n);
+    return Number.isFinite(v) ? v.toLocaleString("ru-RU") + " ₽" : "—";
   }
-  function hasAlertForTitle(list, title) {
-    const t = (title || "").toLowerCase();
-    return list.some((a) => (a.gameTitle || "").toLowerCase() === t || a.dealId === title);
+  function escHtml(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  }
+  function watchKey(it) {
+    return it.gameId ? "g:" + it.gameId : it.steamAppId ? "s:" + it.steamAppId : "t:" + normTitle(it.title);
   }
 
-  function toggleAlert(opts) {
-    const list = getAlerts();
-    const title = opts.gameTitle || "";
-    const dealId = opts.dealId || "";
-    const idx = list.findIndex(
-      (a) =>
-        (dealId && a.dealId === dealId) ||
-        (title && (a.gameTitle || "").toLowerCase() === title.toLowerCase())
-    );
+  function getWatch() {
+    const list = lsGet(KEYS.watch, null);
+    if (Array.isArray(list)) return list;
+    // перенос старых «алертов» в новый список
+    const old = lsGet(KEYS.alerts, []);
+    const migrated = [];
+    (Array.isArray(old) ? old : []).forEach((a) => {
+      const id = String(a.dealId || "");
+      const it = { title: a.gameTitle || id, added: a.created || new Date().toISOString() };
+      if (id.startsWith("game-")) it.gameId = id.slice(5);
+      else if (/^steam-\d+$/.test(id)) { it.dealId = id; it.steamAppId = id.slice(6); }
+      if (it.title && !migrated.some((m) => watchKey(m) === watchKey(it))) migrated.push(it);
+    });
+    lsSet(KEYS.watch, migrated);
+    try { localStorage.removeItem(KEYS.alerts); } catch { /* ignore */ }
+    return migrated;
+  }
+  function setWatch(list) {
+    lsSet(KEYS.watch, list);
+  }
+  function findWatch(list, probe) {
+    const k = watchKey(probe);
+    const t = normTitle(probe.title);
+    return list.findIndex((it) =>
+      watchKey(it) === k ||
+      (probe.steamAppId && it.steamAppId && String(it.steamAppId) === String(probe.steamAppId)) ||
+      (probe.gameId && it.gameId === probe.gameId) ||
+      (t && normTitle(it.title) === t));
+  }
+
+  function catalogAppId(gameId) {
+    const c = watchState.catalog[gameId];
+    return c && c.appid ? String(c.appid) : "";
+  }
+
+  /** Текущая цена и скидка для игры из списка */
+  function watchStatus(it) {
+    const NP = window.NexusPulse;
+    const g = it.gameId && NP ? NP.GAMES.find((x) => x.id === it.gameId) : null;
+    const appid = String(it.steamAppId || catalogAppId(it.gameId) || "");
+    const t = normTitle(it.title || (g && g.title));
+    const deal = watchState.deals.find((d) =>
+      (it.dealId && d.id === it.dealId) ||
+      (appid && d.steamAppId && String(d.steamAppId) === appid) ||
+      (t && normTitle(d.title) === t)) || null;
+    const steam = it.gameId ? watchState.prices[it.gameId] : null;
+    let price = null, old = null, pct = 0, store = "";
+    if (deal) {
+      price = Number(deal.neu ?? deal.new ?? deal.price);
+      old = Number(deal.old);
+      pct = Number(deal.pct) || 0;
+      store = deal.store || "";
+    } else if (steam && Number.isFinite(Number(steam.final))) {
+      price = Number(steam.final);
+      old = Number(steam.initial);
+      pct = Number(steam.pct) || 0;
+      store = "Steam";
+    }
+    if (!Number.isFinite(price)) price = null;
+    if (!Number.isFinite(old) || old <= (price || 0)) old = null;
+    const target = Number(it.target) > 0 ? Number(it.target) : null;
+    const discounted = pct > 0 && price != null;
+    const hitTarget = target != null && price != null && price <= target;
+    const cat = it.gameId ? watchState.catalog[it.gameId] : null;
+    const url = (deal && deal.url) || it.url || (cat && cat.url) ||
+      (appid ? `https://store.steampowered.com/app/${appid}/` : `https://store.steampowered.com/search/?term=${encodeURIComponent(it.title || "")}`);
+    const img = it.image || (cat && (cat.capsule || cat.img)) ||
+      (appid ? `https://cdn.cloudflare.steamstatic.com/steam/apps/${appid}/capsule_231x87.jpg` : "");
+    return { deal, price, old, pct, store, target, discounted, hitTarget, matched: discounted || hitTarget, url, img, regular: it.regular || null };
+  }
+
+  function priceHtml(st) {
+    if (st.price == null) {
+      return st.regular
+        ? `<span class="wl-price-none">Скидки нет · обычно ${rub(st.regular)}</span>`
+        : `<span class="wl-price-none">Скидки пока нет — ждём</span>`;
+    }
+    return `<span class="wl-price-now">${rub(st.price)}</span>` +
+      (st.old ? `<span class="wl-price-old">${rub(st.old)}</span>` : "") +
+      (st.pct > 0 ? `<span class="wl-pct">−${st.pct}%</span>` : "") +
+      (st.store ? `<span class="wl-store">${escHtml(st.store)}</span>` : "");
+  }
+  function badgeHtml(st) {
+    if (st.hitTarget) return `<span class="wl-flag wl-flag-hit">🎯 Цена достигнута</span>`;
+    if (st.discounted) return `<span class="wl-flag">🔥 Скидка сейчас</span>`;
+    if (st.target && st.price != null) return `<span class="wl-flag wl-flag-wait">ещё ${rub(st.price - st.target)} до цели</span>`;
+    return "";
+  }
+
+  function paintRow(li, it) {
+    const st = watchStatus(it);
+    li.classList.toggle("is-match", st.matched);
+    li.classList.toggle("is-hit", st.hitTarget);
+    const p = li.querySelector(".wl-price");
+    if (p) p.innerHTML = priceHtml(st);
+    const f = li.querySelector(".wl-flag-slot");
+    if (f) f.innerHTML = badgeHtml(st);
+    return st;
+  }
+
+  function updateWatchCounters() {
+    const list = getWatch();
+    const matched = list.filter((it) => watchStatus(it).matched).length;
+    $$("[data-watch-count]").forEach((el) => {
+      el.textContent = String(matched);
+      el.hidden = matched === 0;
+      el.title = matched ? `Выгодных цен в твоём списке: ${matched}` : "";
+    });
+    const c = $("#wlCount");
+    if (c) {
+      c.hidden = !list.length;
+      c.textContent = matched ? `${matched} из ${list.length} по выгодной цене` : `${list.length}`;
+      c.classList.toggle("has-match", matched > 0);
+    }
+  }
+
+  function renderWatchlist() {
+    const ul = $("#wlList");
+    const empty = $("#wlEmpty");
+    if (!ul) return;
+    const list = getWatch();
+    if (empty) empty.hidden = list.length > 0;
+    // выгодные — наверх
+    const rows = list.map((it) => ({ it, st: watchStatus(it) }))
+      .sort((a, b) => (Number(b.st.matched) - Number(a.st.matched)));
+    ul.innerHTML = rows.map(({ it, st }) => {
+      const k = watchKey(it);
+      const initials = escHtml(String(it.title || "?").trim().slice(0, 2).toUpperCase());
+      return `
+      <li class="wl-row" data-key="${escHtml(k)}">
+        <a class="wl-cover" href="${escHtml(st.url)}" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true">
+          <span class="wl-initials">${initials}</span>
+          ${st.img ? `<img src="${escHtml(st.img)}" alt="" loading="lazy" onerror="this.remove()">` : ""}
+        </a>
+        <div class="wl-main">
+          <a class="wl-title" href="${escHtml(st.url)}" target="_blank" rel="noopener noreferrer">${escHtml(it.title)}</a>
+          <div class="wl-price"></div>
+          <div class="wl-flag-slot"></div>
+        </div>
+        <label class="wl-target">
+          <span>Хочу за</span>
+          <span class="wl-target-box"><input type="number" inputmode="numeric" min="0" step="1" placeholder="—" value="${it.target ? Number(it.target) : ""}" aria-label="Желаемая цена для ${escHtml(it.title)}"><i>₽</i></span>
+        </label>
+        <div class="wl-btns">
+          <a class="btn btn-ghost btn-sm wl-store-btn" href="${escHtml(st.url)}" target="_blank" rel="noopener noreferrer">В магазин</a>
+          <button type="button" class="wl-remove" aria-label="Убрать ${escHtml(it.title)} из списка" title="Убрать из списка">✕</button>
+        </div>
+      </li>`;
+    }).join("");
+    $$(".wl-row", ul).forEach((li) => {
+      const it = list.find((x) => watchKey(x) === li.dataset.key);
+      if (it) paintRow(li, it);
+    });
+    updateWatchCounters();
+    syncBells();
+    syncNotifyBtn();
+  }
+
+  function syncBells() {
+    const list = getWatch();
+    $$(".alert-bell").forEach((b) => {
+      const on = findWatch(list, {
+        title: b.dataset.watchTitle, gameId: b.dataset.watchGame, steamAppId: b.dataset.steamAppId,
+      }) >= 0;
+      b.classList.toggle("active", on);
+      b.setAttribute("aria-pressed", String(on));
+      b.title = on ? "Убрать из «Отслеживаю цены»" : "Следить за ценой";
+    });
+  }
+
+  function markNotified(it) {
+    const st = watchStatus(it);
+    const n = lsGet(WATCH_NOTIFIED, {});
+    if (st.matched) n[watchKey(it)] = `${st.price}|${st.pct}|${st.target || ""}`;
+    else delete n[watchKey(it)];
+    lsSet(WATCH_NOTIFIED, n);
+  }
+
+  function toggleWatch(probe) {
+    const list = getWatch();
+    const idx = findWatch(list, probe);
     if (idx >= 0) {
-      list.splice(idx, 1);
-      setAlerts(list);
-      toast("Алерт снят: " + (title || dealId));
+      const [removed] = list.splice(idx, 1);
+      setWatch(list);
+      const n = lsGet(WATCH_NOTIFIED, {});
+      delete n[watchKey(removed)];
+      lsSet(WATCH_NOTIFIED, n);
+      toast("Убрано из «Отслеживаю цены»: " + (removed.title || ""));
+      renderWatchlist();
       return false;
     }
-    list.push({
-      gameTitle: title,
-      dealId: dealId || undefined,
-      targetPct: opts.targetPct != null ? Number(opts.targetPct) : 50,
-      created: new Date().toISOString(),
-    });
-    setAlerts(list);
-    toast("Алерт сохранён: " + (title || dealId) + " (−" + (opts.targetPct || 50) + "%+)");
-    if (typeof Notification !== "undefined" && Notification.permission === "default") {
-      Notification.requestPermission().catch(() => {});
+    const it = { title: probe.title, added: new Date().toISOString() };
+    if (probe.gameId) it.gameId = probe.gameId;
+    if (probe.steamAppId) it.steamAppId = String(probe.steamAppId);
+    if (probe.dealId) it.dealId = probe.dealId;
+    if (probe.image) it.image = probe.image;
+    if (probe.url) it.url = probe.url;
+    if (Number(probe.regular) > 0) it.regular = Number(probe.regular);
+    list.push(it);
+    setWatch(list);
+    markNotified(it); // уже идущую скидку не дублируем уведомлением
+    toast("🔔 Добавлено в «Отслеживаю цены»: " + it.title);
+    renderWatchlist();
+    // один раз предлагаем включить уведомления — сразу после осознанного действия
+    if (typeof Notification !== "undefined" && Notification.permission === "default" && !localStorage.getItem(WATCH_ASKED)) {
+      try { localStorage.setItem(WATCH_ASKED, "1"); } catch { /* ignore */ }
+      Notification.requestPermission().then(syncNotifyBtn).catch(() => {});
     }
     return true;
   }
@@ -267,17 +448,29 @@
       if (!bell) return;
       e.preventDefault();
       e.stopPropagation();
-      const active = toggleAlert({
-        gameTitle: bell.dataset.alertTitle,
-        dealId: bell.dataset.alertId,
-        targetPct: bell.dataset.targetPct ? Number(bell.dataset.targetPct) : 50,
+      toggleWatch({
+        title: bell.dataset.watchTitle,
+        gameId: bell.dataset.watchGame,
+        dealId: bell.dataset.watchDeal,
+        steamAppId: bell.dataset.steamAppId,
+        image: bell.dataset.watchImage,
+        url: bell.dataset.watchUrl,
+        regular: bell.dataset.watchRegular,
       });
-      bell.classList.toggle("active", active);
     });
   }
 
+  function makeBell(data) {
+    const bell = document.createElement("button");
+    bell.type = "button";
+    bell.className = "alert-bell";
+    Object.entries(data).forEach(([k, v]) => { if (v != null && v !== "") bell.dataset[k] = String(v); });
+    bell.setAttribute("aria-label", "Следить за ценой: " + (data.watchTitle || ""));
+    bell.textContent = "🔔";
+    return bell;
+  }
+
   function decorateDealCards() {
-    const alerts = getAlerts();
     let list = [];
     try {
       list = JSON.parse($("#dealsGrid")?.dataset.deals || "[]");
@@ -289,149 +482,150 @@
       if (!d) return;
       const cover = card.querySelector(".card-cover");
       if (!cover || cover.querySelector(".alert-bell")) return;
-      const bell = document.createElement("button");
-      bell.type = "button";
-      bell.className = "alert-bell" + (hasAlertForTitle(alerts, d.title) || alerts.some((a) => a.dealId === d.id) ? " active" : "");
-      bell.dataset.alertTitle = d.title;
-      bell.dataset.alertId = d.id;
-      bell.dataset.targetPct = String(Math.max(10, Number(d.pct) || 50));
-      if (d.steamAppId) {
-        bell.dataset.steamAppId = d.steamAppId;
-        card.dataset.steamAppId = d.steamAppId;
-      }
+      if (d.steamAppId) card.dataset.steamAppId = d.steamAppId;
       if (d.image) card.dataset.dealImage = d.image;
-      bell.title = "Алерт на скидку";
-      bell.textContent = "🔔";
-      cover.appendChild(bell);
+      const appid = d.steamAppId || (String(d.id || "").match(/(\d{3,})/) || [])[1] || "";
+      cover.appendChild(makeBell({
+        watchTitle: d.title,
+        watchDeal: d.id,
+        steamAppId: appid,
+        watchImage: d.image || (appid ? `https://cdn.cloudflare.steamstatic.com/steam/apps/${appid}/capsule_231x87.jpg` : ""),
+        watchUrl: d.url || "",
+        watchRegular: d.old || "",
+      }));
     });
+    syncBells();
   }
 
-  function checkAlertsAgainstDeals(payload) {
-    const deals = (payload && payload.deals) || [];
-    const alerts = getAlerts();
-    if (!alerts.length || !deals.length) return;
-    const fired = [];
-    alerts.forEach((a) => {
-      const target = a.targetPct != null ? Number(a.targetPct) : 50;
-      const match = deals.find((d) => {
-        const titleOk =
-          a.gameTitle &&
-          d.title &&
-          (d.title.toLowerCase().includes(a.gameTitle.toLowerCase()) ||
-            a.gameTitle.toLowerCase().includes(d.title.toLowerCase()));
-        const idOk = a.dealId && d.id === a.dealId;
-        return (titleOk || idOk) && Number(d.pct) >= target;
-      });
-      if (match) {
-        fired.push({ alert: a, deal: match });
-      }
-    });
-    if (!fired.length) return;
-
-    const panel = $("#alertFiredList");
-    const head = $("#alertFiredHead");
-    if (head) head.hidden = false;
-    if (panel) {
-      panel.hidden = false;
-      panel.innerHTML = fired
-        .map(
-          (f) =>
-            `<li><strong>${f.deal.title}</strong> −${f.deal.pct}% · ${f.deal.store || ""}
-            <a href="${f.deal.url || "#"}" target="_blank" rel="noopener">открыть</a></li>`
-        )
-        .join("");
-    }
-
-    fired.forEach((f) => {
-      const msg = `🔥 ${f.deal.title}: −${f.deal.pct}% на ${f.deal.store || "скидке"}`;
-      toast(msg, 6000);
-      if (typeof Notification !== "undefined" && Notification.permission === "granted") {
-        try {
-          new Notification("NEXUS PULSE · алерт", { body: msg });
-        } catch { /* ignore */ }
-      }
-    });
-
-    const copyBtn = $("#alertCopyDiscord");
-    if (copyBtn) {
-      copyBtn.onclick = () => {
-        const text = fired
-          .map((f) => `🔥 **${f.deal.title}** −${f.deal.pct}% (${f.deal.store || ""})\n${f.deal.url || ""}`)
-          .join("\n\n");
-        navigator.clipboard?.writeText(text).then(
-          () => toast("Скопировано — вставь в Discord"),
-          () => toast("Не удалось скопировать")
-        );
-      };
-    }
-
-    maybePostWebhook(fired);
+  /* ---- уведомления ---- */
+  function syncNotifyBtn() {
+    const btn = $("#wlNotifyBtn");
+    if (!btn) return;
+    const supported = typeof Notification !== "undefined";
+    btn.hidden = !supported || Notification.permission === "granted" || !getWatch().length;
   }
 
-  function dealThumb(deal) {
-    if (!deal) return null;
-    if (deal.image) return deal.image;
-    if (deal.header_image) return deal.header_image;
-    const id = deal.steamAppId || (String(deal.id || "").match(/(\d{3,})/) || [])[1];
-    if (id) return `https://cdn.cloudflare.steamstatic.com/steam/apps/${id}/header.jpg`;
-    return null;
-  }
-
-  async function maybePostWebhook(fired) {
-    const url = (localStorage.getItem(KEYS.webhook) || "").trim();
-    if (!url || !fired.length) return;
-    const embeds = fired.slice(0, 5).map((f) => {
-      const d = f.deal || {};
-      const thumb = dealThumb(d);
-      const embed = {
-        title: d.title || "Скидка",
-        url: d.url || undefined,
-        color: 0x00f5ff,
-        fields: [
-          { name: "Старая цена", value: d.old != null ? String(d.old) + " ₽" : "—", inline: true },
-          { name: "Новая цена", value: d.neu != null ? String(d.neu) + " ₽" : "—", inline: true },
-          { name: "Скидка %", value: d.pct != null ? "−" + d.pct + "%" : "—", inline: true },
-          { name: "Магазин", value: d.store || "—", inline: true },
-        ],
-        footer: { text: "NEXUS PULSE" },
-      };
-      if (thumb) {
-        embed.thumbnail = { url: thumb };
-        embed.image = { url: thumb };
-      }
-      return embed;
-    });
-    const pingLine = "🔥 NEXUS PULSE · сработали ценовые алерты (" + fired.length + ")";
+  async function showNotice(title, body) {
+    if (typeof Notification === "undefined" || Notification.permission !== "granted") return;
+    const opts = { body, icon: "assets/icons/icon-192.png", badge: "assets/icons/icon-192.png", tag: "np-watch-" + normTitle(title).slice(0, 40) };
     try {
-      const res = await fetch(url, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ content: pingLine, embeds }),
-      });
-      toast(res.ok ? "Алерт отправлен в Discord" : "Не удалось отправить в Discord — нажми «Скопировать»");
-    } catch {
-      toast("Не удалось отправить в Discord — нажми «Скопировать»");
-    }
+      const reg = navigator.serviceWorker && (await navigator.serviceWorker.getRegistration());
+      if (reg && reg.showNotification) return void reg.showNotification(title, opts);
+    } catch { /* fall through */ }
+    try { new Notification(title, opts); } catch { /* ignore */ }
   }
 
-  function wireAlertSettings() {
-    const input = $("#discordWebhookInput");
-    const save = $("#discordWebhookSave");
-    if (input) input.value = localStorage.getItem(KEYS.webhook) || "";
-    save?.addEventListener("click", () => {
-      const v = (input?.value || "").trim();
-      if (v) localStorage.setItem(KEYS.webhook, v);
-      else localStorage.removeItem(KEYS.webhook);
-      toast(v ? "Webhook сохранён" : "Webhook удалён");
+  /** Сообщаем один раз о каждом новом совпадении (скидка или целевая цена) */
+  function notifyWatchMatches() {
+    if (!watchState.dealsLoaded) return;
+    const list = getWatch();
+    if (!list.length) return;
+    const n = lsGet(WATCH_NOTIFIED, {});
+    const fresh = [];
+    list.forEach((it) => {
+      const st = watchStatus(it);
+      const k = watchKey(it);
+      if (!st.matched) {
+        delete n[k]; // скидка закончилась — о следующей снова сообщим
+        return;
+      }
+      const sig = `${st.price}|${st.pct}|${st.target || ""}`;
+      if (n[k] === sig) return;
+      n[k] = sig;
+      fresh.push({ it, st });
     });
-    $("#notifyPermBtn")?.addEventListener("click", async () => {
-      if (!("Notification" in window)) {
-        toast("Браузер не поддерживает уведомления");
+    lsSet(WATCH_NOTIFIED, n);
+    fresh.slice(0, 4).forEach(({ it, st }) => {
+      const what = st.hitTarget ? `цена ${rub(st.price)} — как ты хотел` : `скидка −${st.pct}%, сейчас ${rub(st.price)}`;
+      toast(`🔔 ${it.title}: ${what}`, 7000);
+      showNotice(`🔔 ${it.title}`, `${st.hitTarget ? "Цена достигнута" : "Скидка"}: ${rub(st.price)}${st.pct ? ` (−${st.pct}%)` : ""}${st.store ? " · " + st.store : ""}`);
+    });
+  }
+
+  function refreshWatch() {
+    renderWatchlist();
+    notifyWatchMatches();
+  }
+
+  function setWatchDeals(payload) {
+    const deals = (payload && payload.deals) || [];
+    watchState.deals = Array.isArray(deals) ? deals : [];
+    watchState.dealsLoaded = true;
+    // запоминаем обычную цену, чтобы показать её, когда скидка закончится
+    const list = getWatch();
+    let changed = false;
+    list.forEach((it) => {
+      const st = watchStatus(it);
+      if (st.deal && Number(st.deal.old) > 0 && it.regular !== Number(st.deal.old)) { it.regular = Number(st.deal.old); changed = true; }
+    });
+    if (changed) setWatch(list);
+    refreshWatch();
+  }
+
+  async function loadWatchSources() {
+    const get = (f) => fetch("./data/" + f, { cache: "no-store" }).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+    const [prices, catalog] = await Promise.all([get("prices.json"), get("catalog.json")]);
+    watchState.prices = (prices && prices.prices) || {};
+    watchState.pricesLoaded = !!prices;
+    watchState.catalog = (catalog && catalog.games) || {};
+    refreshWatch();
+  }
+
+  function wireWatchlist() {
+    try { localStorage.removeItem("nexus_pulse_discord_webhook"); } catch { /* ignore */ }
+    const ul = $("#wlList");
+    ul?.addEventListener("click", (e) => {
+      const rm = e.target.closest(".wl-remove");
+      if (!rm) return;
+      const li = rm.closest(".wl-row");
+      const list = getWatch();
+      const it = list.find((x) => watchKey(x) === li?.dataset.key);
+      if (it) toggleWatch({ title: it.title, gameId: it.gameId, steamAppId: it.steamAppId, dealId: it.dealId });
+    });
+    ul?.addEventListener("input", (e) => {
+      const inp = e.target.closest(".wl-target input");
+      if (!inp) return;
+      const li = inp.closest(".wl-row");
+      const list = getWatch();
+      const it = list.find((x) => watchKey(x) === li?.dataset.key);
+      if (!it) return;
+      const v = Math.round(Number(inp.value));
+      if (v > 0) it.target = v; else delete it.target;
+      setWatch(list);
+      paintRow(li, it);
+      updateWatchCounters();
+    });
+    ul?.addEventListener("change", (e) => {
+      if (e.target.closest(".wl-target input")) notifyWatchMatches();
+    });
+    $("#wlNotifyBtn")?.addEventListener("click", async () => {
+      if (typeof Notification === "undefined") {
+        toast("Этот браузер не умеет показывать уведомления");
+        return;
+      }
+      if (Notification.permission === "denied") {
+        toast("Уведомления запрещены в настройках браузера — разреши их для этого сайта (значок 🔒 слева от адреса)", 7000);
         return;
       }
       const p = await Notification.requestPermission();
-      toast(p === "granted" ? "Уведомления включены" : p === "denied" ? "Уведомления заблокированы в браузере" : "Уведомления не включены");
+      if (p === "granted") {
+        toast("Готово! Сообщим, когда цена упадёт");
+        showNotice("NEXUS PULSE", "Уведомления о скидках включены 🔔");
+      } else {
+        toast("Уведомления не включены");
+      }
+      syncNotifyBtn();
     });
+    renderWatchlist();
+    loadWatchSources();
+    // данные о скидках обновляются в течение дня — проверяем раз в 30 минут, пока вкладка открыта
+    setInterval(async () => {
+      try {
+        const res = await fetch("./data/deals.json", { cache: "no-store" });
+        if (res.ok) setWatchDeals(await res.json());
+      } catch { /* offline */ }
+      loadWatchSources();
+    }, 30 * 60 * 1000);
   }
 
   /* ============================================================
@@ -2063,8 +2257,8 @@ const NICK_BANKS = {
    * ============================================================ */
   const BACKUP_PREFIX = "nexus_pulse_";
   const KNOWN_BACKUP_KEYS = [
-    KEYS.build, KEYS.owned, KEYS.epicOwned, KEYS.epicName, KEYS.alerts,
-    KEYS.webhook, KEYS.lfgSelf, KEYS.lfgPending, KEYS.checklist, KEYS.backlog,
+    KEYS.build, KEYS.owned, KEYS.epicOwned, KEYS.epicName, KEYS.watch,
+    KEYS.lfgSelf, KEYS.lfgPending, KEYS.checklist, KEYS.backlog,
     KEYS.hideOwned, "nexus_pulse_wishlist", "nexus_pulse_lang",
   ];
 
@@ -2212,7 +2406,7 @@ const NICK_BANKS = {
       NP.renderDeals = function (payload) {
         origDeals(payload);
         decorateDealCards();
-        checkAlertsAgainstDeals(payload);
+        setWatchDeals(payload);
       };
     }
 
@@ -2221,7 +2415,7 @@ const NICK_BANKS = {
       decorateDealCards();
       try {
         const raw = $("#dealsGrid")?.dataset.deals;
-        if (raw) checkAlertsAgainstDeals({ deals: JSON.parse(raw) });
+        if (raw && !watchState.dealsLoaded) setWatchDeals({ deals: JSON.parse(raw) });
       } catch { /* ignore */ }
     }, 800);
   }
@@ -2302,7 +2496,7 @@ const NICK_BANKS = {
     patchRenderHooks(NP);
     wireExtraFilters(NP);
     wireAlertClicks();
-    wireAlertSettings();
+    wireWatchlist();
     wirePcBuilder(NP);
     wireNickGen();
     wirePingMap();

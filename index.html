@@ -32,7 +32,67 @@
         <span class="logo-mark"><img src="assets/nexus-pulse-icon.png" alt="NEXUS PULSE" width="36" height="36"></span>
         <span class="logo-text">NEXUS<span>PULSE</span></span>
       </a>
+      <div class="nav-menu-wrap" id="navPanel">
+      <ul class="nav-menu" id="navMenu">
+        <li class="nav-group" data-group="news">
+          <button type="button" class="nav-trigger" id="nt-news" aria-expanded="false" aria-controls="nd-news"><span data-i18n="nav.news">Новости</span><span class="nav-caret" aria-hidden="true"></span></button>
+          <ul class="nav-dd" id="nd-news" aria-labelledby="nt-news">
+            <li><a href="#news" class="nav-item"><span class="nav-ico" aria-hidden="true">📰</span><span class="nav-item-text"><span class="nav-item-label">Новости игр</span><span class="nav-hint">Главное за сегодня</span></span></a></li>
+            <li><a href="#pulse" class="nav-item"><span class="nav-ico" aria-hidden="true">💓</span><span class="nav-item-text"><span class="nav-item-label">Пульс дня</span><span class="nav-hint">Тренды и советы дня</span></span></a></li>
+            <li><a href="#videos" class="nav-item"><span class="nav-ico" aria-hidden="true">🎬</span><span class="nav-item-text"><span class="nav-item-label">Видео</span><span class="nav-hint">Трейлеры и свежие ролики</span></span></a></li>
+          </ul>
+        </li>
+        <li class="nav-group" data-group="games">
+          <button type="button" class="nav-trigger" id="nt-games" aria-expanded="false" aria-controls="nd-games"><span data-i18n="nav.games">Игры</span><span class="nav-caret" aria-hidden="true"></span></button>
+          <ul class="nav-dd" id="nd-games" aria-labelledby="nt-games">
+            <li><a href="#games" class="nav-item"><span class="nav-ico" aria-hidden="true">🎮</span><span class="nav-item-text"><span class="nav-item-label">Каталог игр</span><span class="nav-hint">75 игр с фильтрами и поиском</span></span></a></li>
+            <li><a href="#new-games" class="nav-item"><span class="nav-ico" aria-hidden="true">✨</span><span class="nav-item-text"><span class="nav-item-label" data-i18n="nav.newGames">Новинки</span><span class="nav-hint">Популярное за последние недели</span></span></a></li>
+            <li><a href="#calendar" class="nav-item"><span class="nav-ico" aria-hidden="true">📅</span><span class="nav-item-text"><span class="nav-item-label">Релизы и патчи</span><span class="nav-hint">Что выходит и что обновилось</span></span></a></li>
+            <li><a href="#gameOfTheDay" class="nav-item"><span class="nav-ico" aria-hidden="true">⭐</span><span class="nav-item-text"><span class="nav-item-label">Игра дня</span><span class="nav-hint">Во что поиграть сегодня</span></span></a></li>
+          </ul>
+        </li>
+        <li class="nav-group" data-group="deals">
+          <button type="button" class="nav-trigger" id="nt-deals" aria-expanded="false" aria-controls="nd-deals"><span data-i18n="nav.deals">Скидки</span><span class="nav-badge" data-watch-count hidden></span><span class="nav-caret" aria-hidden="true"></span></button>
+          <ul class="nav-dd" id="nd-deals" aria-labelledby="nt-deals">
+            <li><a href="#deals" class="nav-item"><span class="nav-ico" aria-hidden="true">🔥</span><span class="nav-item-text"><span class="nav-item-label">Горячие скидки</span><span class="nav-hint">Обновляются несколько раз в день</span></span></a></li>
+            <li><a href="#watchlist" class="nav-item"><span class="nav-ico" aria-hidden="true">🔔</span><span class="nav-item-text"><span class="nav-item-label">Отслеживаю цены</span><span class="nav-hint">Твои игры и целевые цены</span></span></a></li>
+            <li><a href="#freebies" class="nav-item"><span class="nav-ico" aria-hidden="true">🎁</span><span class="nav-item-text"><span class="nav-item-label">Халява</span><span class="nav-hint">Бесплатные раздачи игр</span></span></a></li>
+          </ul>
+        </li>
+        <li class="nav-group nav-group-link" data-group="esports">
+          <a href="#esports" class="nav-trigger nav-direct"><span data-i18n="nav.esports">Киберспорт</span></a>
+        </li>
+        <li class="nav-group" data-group="guides">
+          <button type="button" class="nav-trigger" id="nt-guides" aria-expanded="false" aria-controls="nd-guides"><span data-i18n="nav.guides">Гайды</span><span class="nav-caret" aria-hidden="true"></span></button>
+          <ul class="nav-dd" id="nd-guides" aria-labelledby="nt-guides">
+            <li><a href="#guides" class="nav-item"><span class="nav-ico" aria-hidden="true">📘</span><span class="nav-item-text"><span class="nav-item-label">Гайды</span><span class="nav-hint">Разборы и советы по играм</span></span></a></li>
+            <li><a href="#checklists" class="nav-item"><span class="nav-ico" aria-hidden="true">✅</span><span class="nav-item-text"><span class="nav-item-label">Чеклисты</span><span class="nav-hint">Новичку и бэклог игр</span></span></a></li>
+            <li><a href="#facts" class="nav-item"><span class="nav-ico" aria-hidden="true">💡</span><span class="nav-item-text"><span class="nav-item-label" data-i18n="nav.facts">Факты</span><span class="nav-hint">Интересное об играх</span></span></a></li>
+            <li><a href="#glossary" class="nav-item"><span class="nav-ico" aria-hidden="true">📖</span><span class="nav-item-text"><span class="nav-item-label" data-i18n="nav.glossary">Словарь</span><span class="nav-hint">Игровой сленг простыми словами</span></span></a></li>
+          </ul>
+        </li>
+        <li class="nav-group" data-group="tools">
+          <button type="button" class="nav-trigger" id="nt-tools" aria-expanded="false" aria-controls="nd-tools"><span data-i18n="nav.tools">Инструменты</span><span class="nav-caret" aria-hidden="true"></span></button>
+          <ul class="nav-dd nav-dd-wide" id="nd-tools" aria-labelledby="nt-tools">
+            <li><a href="#moodPicker" class="nav-item"><span class="nav-ico" aria-hidden="true">🎲</span><span class="nav-item-text"><span class="nav-item-label">Подбор игры</span><span class="nav-hint">Под настроение и время</span></span></a></li>
+            <li><a href="#pcBuilder" class="nav-item"><span class="nav-ico" aria-hidden="true">🖥️</span><span class="nav-item-text"><span class="nav-item-label">Сборка ПК</span><span class="nav-hint">Какие игры потянет твой ПК</span></span></a></li>
+            <li><a href="#fpsTool" class="nav-item"><span class="nav-ico" aria-hidden="true">📈</span><span class="nav-item-text"><span class="nav-item-label">Оценка FPS</span><span class="nav-hint">Сколько кадров будет в игре</span></span></a></li>
+            <li><a href="#specsTool" class="nav-item"><span class="nav-ico" aria-hidden="true">🧾</span><span class="nav-item-text"><span class="nav-item-label">Системные требования</span><span class="nav-hint">Минимальные и рекомендуемые</span></span></a></li>
+            <li><a href="#speedTest" class="nav-item"><span class="nav-ico" aria-hidden="true">⚡</span><span class="nav-item-text"><span class="nav-item-label">Тест скорости</span><span class="nav-hint">Скорость и пинг твоей сети</span></span></a></li>
+            <li><a href="#pingMapCard" class="nav-item"><span class="nav-ico" aria-hidden="true">📡</span><span class="nav-item-text"><span class="nav-item-label">Карта пинга</span><span class="nav-hint">Пинг до игровых сервисов</span></span></a></li>
+            <li><a href="#lfg" class="nav-item"><span class="nav-ico" aria-hidden="true">🤝</span><span class="nav-item-text"><span class="nav-item-label">Поиск тиммейтов</span><span class="nav-hint">С кем поиграть прямо сейчас</span></span></a></li>
+            <li><a href="#nickGenCard" class="nav-item"><span class="nav-ico" aria-hidden="true">🏷️</span><span class="nav-item-text"><span class="nav-item-label">Ник и аватар</span><span class="nav-hint">Придумать никнейм</span></span></a></li>
+            <li><a href="#steamImportCard" class="nav-item"><span class="nav-ico" aria-hidden="true">📚</span><span class="nav-item-text"><span class="nav-item-label">Моя библиотека</span><span class="nav-hint">Импорт игр из Steam</span></span></a></li>
+            <li><a href="#profileBackupCard" class="nav-item"><span class="nav-ico" aria-hidden="true">💾</span><span class="nav-item-text"><span class="nav-item-label">Резервная копия</span><span class="nav-hint">Перенос на другое устройство</span></span></a></li>
+          </ul>
+        </li>
+      </ul>
+      <a href="#community" class="btn btn-discord btn-sm discord-cta nav-panel-discord">Discord-сервер NEXUS PULSE</a>
+      </div>
       <div class="nav-right">
+        <button type="button" class="nav-search-btn" id="navSearchBtn" aria-label="Быстрый поиск (Ctrl+K)" title="Быстрый поиск · Ctrl+K">
+          <span aria-hidden="true">🔍</span><kbd class="nav-kbd">Ctrl K</kbd>
+        </button>
         <button type="button" class="btn btn-primary btn-sm install-btn" id="installBtn" hidden aria-label="Установить NEXUS PULSE">
           <span aria-hidden="true">⬇</span><span class="install-label" data-i18n="pwa.install">Установить</span><span class="install-brand"> NEXUS PULSE</span>
         </button>
@@ -51,28 +111,11 @@
             <div class="lang-list lang-list-all" id="langAll"></div>
           </div>
         </div>
-        <button class="nav-toggle" id="navToggle" aria-label="Открыть меню" aria-expanded="false">
+        <button type="button" class="nav-toggle" id="navToggle" aria-label="Открыть меню" aria-expanded="false" aria-controls="navPanel">
           <span></span><span></span><span></span>
         </button>
       </div>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#games" data-i18n="nav.games">Игры</a></li>
-        <li><a href="#pulse" data-i18n="nav.pulse">Пульс</a></li>
-        <li><a href="#new-games" data-i18n="nav.newGames">Новинки</a></li>
-        <li><a href="#calendar" data-i18n="nav.calendar">Релизы</a></li>
-        <li><a href="#guides" data-i18n="nav.guides">Гайды</a></li>
-        <li><a href="#facts" data-i18n="nav.facts">Факты</a></li>
-        <li><a href="#glossary" data-i18n="nav.glossary">Словарь</a></li>
-        <li><a href="#esports" data-i18n="nav.esports">Киберспорт</a></li>
-        <li><a href="#videos" data-i18n="nav.videos">Видео</a></li>
-        <li><a href="#deals" data-i18n="nav.deals">Скидки</a></li>
-        <li><a href="#freebies">Халява</a></li>
-        <li><a href="#lfg">LFG</a></li>
-        <li><a href="#checklists">Чеклисты</a></li>
-        <li><a href="#tools" data-i18n="nav.tools">Инструменты</a></li>
-        <li><a href="#news" data-i18n="nav.news">Новости</a></li>
-        <li><a href="#community" class="nav-cta" id="navDiscord" data-i18n="nav.discord">Discord</a></li>
-      </ul>
+
     </nav>
   </header>
 
@@ -375,22 +418,22 @@
           <div class="ticker-track" id="dealsTicker"></div>
         </div>
         <div class="cards-grid deals-grid" id="dealsGrid"></div>
-        <div class="alert-fired glass" id="alertFiredPanel" style="margin-top:1.25rem;padding:1rem 1.2rem">
-          <div class="section-head" style="margin-bottom:.5rem" id="alertFiredHead" hidden>
-            <h3 style="margin:0">Сработавшие алерты</h3>
-            <button type="button" class="btn btn-ghost btn-sm" id="alertCopyDiscord">Скопировать сообщение для Discord</button>
-          </div>
-          <ul id="alertFiredList" hidden></ul>
-          <div class="alert-settings" style="margin-top:1rem;display:grid;gap:.5rem">
-            <h3 style="margin:0">Алерты на скидки</h3>
-            <p class="tool-desc">Жми 🔔 на карточке игры или скидки — уведомим, когда цена упадёт.</p>
-            <label class="field"><span>Discord webhook для алертов (необязательно)</span>
-              <input type="url" id="discordWebhookInput" placeholder="https://discord.com/api/webhooks/…" autocomplete="off" />
-            </label>
-            <div style="display:flex;gap:.5rem;flex-wrap:wrap">
-              <button type="button" class="btn btn-ghost btn-sm" id="discordWebhookSave">Сохранить webhook</button>
-              <button type="button" class="btn btn-ghost btn-sm" id="notifyPermBtn">Включить уведомления</button>
+        <div class="watchlist-block glass" id="watchlist">
+          <div class="wl-head">
+            <div>
+              <h3>🔔 Отслеживаю цены <span class="wl-count" id="wlCount" hidden></span></h3>
+              <p class="tool-desc">Жми 🔔 на карточке игры или скидки — игра появится здесь. Укажи желаемую цену, и мы подсветим момент, когда пора покупать.</p>
             </div>
+            <div class="wl-actions">
+              <button type="button" class="btn btn-ghost btn-sm" id="wlNotifyBtn" hidden>🔕 Включить уведомления</button>
+              <a href="https://discord.gg/7JvfzNrt4x" class="btn btn-discord btn-sm wl-discord" target="_blank" rel="noopener noreferrer">🔔 Скидки в Discord</a>
+            </div>
+          </div>
+          <p class="wl-discord-note">В нашем Discord канал <b>#скидки</b> сам присылает все скидки от 50% — подпишись и ничего не пропусти.</p>
+          <ul class="wl-list" id="wlList"></ul>
+          <div class="wl-empty" id="wlEmpty">
+            <span class="wl-empty-ico" aria-hidden="true">🛒</span>
+            <p><b>Пока ничего не отслеживаешь.</b><br>Нажми 🔔 на любой игре в <a href="#games">каталоге</a> или на скидке выше — и следи за ценой здесь.</p>
           </div>
         </div>
       </div>
@@ -446,7 +489,7 @@
         </div>
 
         <div class="tools-grid tools-grid-4">
-          <div class="tool-card glass">
+          <div class="tool-card glass" id="fpsTool">
             <h3 data-i18n="tools.fps">Оценка FPS</h3>
             <p class="tool-desc" data-i18n="tools.fpsDesc">Выбери игру и уровень железа — получи ориентировочный FPS.</p>
             <label class="field"><span data-i18n="tools.game">Игра</span><select id="fpsGame"></select></label>
@@ -473,7 +516,7 @@
             </div>
           </div>
 
-          <div class="tool-card glass">
+          <div class="tool-card glass" id="specsTool">
             <h3 data-i18n="tools.specs">Системные требования</h3>
             <p class="tool-desc" data-i18n="tools.specsDesc">Сравни минимальные и рекомендованные спеки игры.</p>
             <label class="field"><span data-i18n="tools.game">Игра</span><select id="specsGame"></select></label>
@@ -484,7 +527,7 @@
             </div>
           </div>
 
-          <div class="tool-card glass speed-card">
+          <div class="tool-card glass speed-card" id="speedTest">
             <h3 data-i18n="speed.title">Тест скорости</h3>
             <p class="tool-desc" data-i18n="speed.desc">Скорость загрузки и пинг — подходит ли сеть для онлайна.</p>
             <button class="btn btn-primary" id="speedBtn" type="button" data-i18n="speed.run">Проверить скорость</button>
@@ -586,7 +629,7 @@
 
         <div class="tool-card glass backup-card tool-card-wide" id="profileBackupCard" style="margin-top:1.25rem">
           <h3>Резервная копия профиля</h3>
-          <p class="tool-desc">Сохрани сборку, библиотеку, алерты, LFG, чеклисты и избранное в файл — и перенеси на другое устройство.</p>
+          <p class="tool-desc">Сохрани сборку, библиотеку, отслеживаемые игры, LFG, чеклисты и избранное в файл — и перенеси на другое устройство.</p>
           <div style="display:flex;gap:.5rem;flex-wrap:wrap">
             <button type="button" class="btn btn-primary" id="backupExportBtn">Экспортировать</button>
             <button type="button" class="btn btn-ghost" id="backupImportBtn">Импортировать</button>
@@ -816,6 +859,7 @@
   <script src="guides-content.js"></script>
   <script src="content-hub.js"></script>
   <script src="discord-hub.js"></script>
+  <script src="nav.js"></script>
   <script>
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", function () {
