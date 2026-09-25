@@ -1,6 +1,11 @@
 {
  "about": "Telegram autopost dedupe state (ids only). Written by scripts/telegram_post.py.",
- "updatedAt": "2026-09-25T22:21:14+03:00",
+ "updatedAt": "2026-09-25T22:28:13+03:00",
+ "channel": {
+  "descVersion": 1,
+  "welcomeId": 9,
+  "welcomeVersion": 1
+ },
  "posted": {
   "freebies": [
    "epic-7c14bf0cffdd43be968fdcf28e5af653:now",
@@ -60,6 +65,9 @@
    "4337fb0d4c7e",
    "f099e997b996"
   ],
-  "digest": []
+  "digest": [],
+  "poll": [
+   "poll:2026-W39"
+  ]
  }
 }
