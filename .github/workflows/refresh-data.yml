@@ -6,6 +6,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: refresh-data
@@ -45,6 +46,8 @@ jobs:
       #   python scripts/discord_post.py snapshot-lfg
       # then commit/sync the JSON into the deploy tree when desired.
       - name: Commit data/*.json if changed
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -53,5 +56,7 @@ jobs:
             echo "No data JSON changes"
           else
             git commit -m "chore(data): refresh ping/steam/freebies JSON"
+            git pull --rebase origin main || true
             git push
+            gh workflow run pages.yml --ref main || echo "::warning::could not trigger pages deploy"
           fi
