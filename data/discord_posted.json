@@ -1,6 +1,6 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-09-25T19:35:42+03:00",
+ "updatedAt": "2026-09-25T19:39:00+03:00",
  "posted": {
   "news": [
    "3160fc19c04d",
@@ -32,7 +32,12 @@
    "b64458ecdda9",
    "0f36a3b0d9b0",
    "722214fc271e",
-   "14391878d0ad"
+   "14391878d0ad",
+   "45c5170d6d11",
+   "a1e4a060fdbe",
+   "df3046756d01",
+   "3393b56029d7",
+   "fa2902f01400"
   ],
   "deals": [
    "steam-246420:90",
@@ -66,7 +71,10 @@
    "result:bo3-129363",
    "result:bo3-130311",
    "result:bo3-130312",
-   "result:bo3-130313"
+   "result:bo3-130313",
+   "result:bo3-130314",
+   "live:bo3-129685",
+   "live:bo3-130315"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -96,7 +104,12 @@
    "oZGUq4_PNMQ",
    "LoqWKZ1kjio",
    "GMTzUNNCqzc",
-   "yOpG2nxOayA"
+   "yOpG2nxOayA",
+   "VvDiTzhOFMs",
+   "ls-Mw_Hgh6A",
+   "iZSVpr90Pm8",
+   "AMLJQL5iPtU",
+   "U6jWcs6rEGE"
   ],
   "releases": [
    "week:2026-W39"
@@ -105,5 +118,7 @@
    "gotd:2026-09-24"
   ]
  },
- "matchPings": []
+ "matchPings": [
+  "2026-09-25T19:38+03:00"
+ ]
 }
