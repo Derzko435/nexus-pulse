@@ -230,7 +230,6 @@ def main() -> int:
             token = token_file.read_text(encoding="utf-8").strip()
     chat = (os.environ.get("TELEGRAM_CHANNEL") or cfg.get("channel") or "").strip()
     if not a.dry_run and (not token or not chat):
-        print("telegram: no token / channel configured — skip")
         return 0
     if a.runner != "any" and (cfg.get("runner") or "box") != a.runner:
         print(f"telegram: runner is '{cfg.get('runner') or 'box'}', not '{a.runner}' — skip")

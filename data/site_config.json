@@ -1,7 +1,7 @@
 {
   "about": "Site-wide switches. telegram.channel: public channel @name — the Telegram button appears on the site and scripts/telegram_post.py posts there. runner: box | actions. SEO/analytics: yandexMetrikaId — номер счётчика Яндекс Метрики (пусто = счётчик не загружается); yandexVerification / googleVerification / bingVerification — код из meta-тега подтверждения (можно вставить весь тег), он попадёт в index.html автоматически.",
   "telegram": {
-    "channel": "",
+    "channel": "@nexuspulse_news",
     "runner": "box"
   },
   "siteUrl": "https://derzko435.github.io/nexus-pulse/",
