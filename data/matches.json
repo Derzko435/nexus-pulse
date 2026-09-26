@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-26T03:10:34+03:00",
+ "updatedAt": "2026-09-26T08:34:48+03:00",
  "source": "bo3.gg",
  "matches": [
   {
@@ -210,24 +210,6 @@
    "url": "https://bo3.gg/matches/sinners-vs-nip-26-09-2026"
   },
   {
-   "id": "bo3-128579",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "FURIA",
-   "teamB": "RED Canids",
-   "logoA": "https://files.bo3.gg/uploads/team/17448/image/webp-c55d5f6b07157723e05297241a757f98.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/18103/image/webp-8436f0485803eb0ea176e803f890d001.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "upcoming",
-   "event": "CBLOL 2026 Split 2",
-   "tier": "S",
-   "startsAt": "2026-09-26T19:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/lol/matches/furia-esports-lol-vs-red-canids-lol-26-09-2026"
-  },
-  {
    "id": "bo3-130471",
    "game": "LoL",
    "gameKey": "lol",
@@ -253,60 +235,6 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/jsk-esports-vs-barca-esports-lol-26-09-2026"
-  },
-  {
-   "id": "bo3-130472",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Valerion",
-   "teamB": "LODIS",
-   "logoA": "https://files.bo3.gg/uploads/team/24645/image/webp-2aede1fcf1bde83d0c483607b127eba5.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16893/image/webp-dcf70326e270db183461237e52102790.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 1,
-   "status": "upcoming",
-   "event": "EMEA Masters 2026 Summer",
-   "tier": "A",
-   "startsAt": "2026-09-26T19:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "lec",
-     "lang": "en",
-     "official": true,
-     "label": "lec",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/valerion-vs-lodis-26-09-2026"
-  },
-  {
-   "id": "bo3-130470",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Skillcamp Esport",
-   "teamB": "Colossal Gaming",
-   "logoA": "https://files.bo3.gg/uploads/team/18323/image/webp-af0dd0bf42e9ed4cb12916f36fe8afe7.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/20523/image/webp-0185368b1770ac26e520f255b9a38283.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 1,
-   "status": "upcoming",
-   "event": "EMEA Masters 2026 Summer",
-   "tier": "A",
-   "startsAt": "2026-09-26T19:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "lec",
-     "lang": "en",
-     "official": true,
-     "label": "lec",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/skillcamp-esport-vs-colossal-gaming-26-09-2026"
   },
   {
    "id": "bo3-130473",
@@ -336,6 +264,78 @@
    "url": "https://bo3.gg/lol/matches/berlin-international-gaming-vs-frites-esports-club-26-09-2026"
   },
   {
+   "id": "bo3-128579",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "FURIA",
+   "teamB": "RED Canids",
+   "logoA": "https://files.bo3.gg/uploads/team/17448/image/webp-c55d5f6b07157723e05297241a757f98.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/18103/image/webp-8436f0485803eb0ea176e803f890d001.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "upcoming",
+   "event": "CBLOL 2026 Split 2",
+   "tier": "S",
+   "startsAt": "2026-09-26T19:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/lol/matches/furia-esports-lol-vs-red-canids-lol-26-09-2026"
+  },
+  {
+   "id": "bo3-130470",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Skillcamp Esport",
+   "teamB": "Colossal Gaming",
+   "logoA": "https://files.bo3.gg/uploads/team/18323/image/webp-af0dd0bf42e9ed4cb12916f36fe8afe7.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/20523/image/webp-0185368b1770ac26e520f255b9a38283.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 1,
+   "status": "upcoming",
+   "event": "EMEA Masters 2026 Summer",
+   "tier": "A",
+   "startsAt": "2026-09-26T19:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "lec",
+     "lang": "en",
+     "official": true,
+     "label": "lec",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/skillcamp-esport-vs-colossal-gaming-26-09-2026"
+  },
+  {
+   "id": "bo3-130472",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Valerion",
+   "teamB": "LODIS",
+   "logoA": "https://files.bo3.gg/uploads/team/24645/image/webp-2aede1fcf1bde83d0c483607b127eba5.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16893/image/webp-dcf70326e270db183461237e52102790.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 1,
+   "status": "upcoming",
+   "event": "EMEA Masters 2026 Summer",
+   "tier": "A",
+   "startsAt": "2026-09-26T19:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "lec",
+     "lang": "en",
+     "official": true,
+     "label": "lec",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/valerion-vs-lodis-26-09-2026"
+  },
+  {
    "id": "bo3-130475",
    "game": "LoL",
    "gameKey": "lol",
@@ -363,33 +363,6 @@
    "url": "https://bo3.gg/lol/matches/ucam-esports-club-lol-vs-hmble-lol-26-09-2026"
   },
   {
-   "id": "bo3-130477",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "TLN Pirates",
-   "teamB": "Magaza Esports",
-   "logoA": "https://files.bo3.gg/uploads/team/22371/image/webp-35753cd0e1196e634d4c3c16d4419e02.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16845/image/webp-c268656f2d573ed0d9232c2972cd6fd9.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 1,
-   "status": "upcoming",
-   "event": "EMEA Masters 2026 Summer",
-   "tier": "A",
-   "startsAt": "2026-09-26T20:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "lec",
-     "lang": "en",
-     "official": true,
-     "label": "lec",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/tln-pirates-vs-magaza-esports-26-09-2026"
-  },
-  {
    "id": "bo3-130476",
    "game": "LoL",
    "gameKey": "lol",
@@ -415,6 +388,33 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/ruddy-corporation-vs-kaufland-hangry-knights-26-09-2026"
+  },
+  {
+   "id": "bo3-130477",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "TLN Pirates",
+   "teamB": "Magaza Esports",
+   "logoA": "https://files.bo3.gg/uploads/team/22371/image/webp-35753cd0e1196e634d4c3c16d4419e02.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16845/image/webp-c268656f2d573ed0d9232c2972cd6fd9.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 1,
+   "status": "upcoming",
+   "event": "EMEA Masters 2026 Summer",
+   "tier": "A",
+   "startsAt": "2026-09-26T20:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "lec",
+     "lang": "en",
+     "official": true,
+     "label": "lec",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/tln-pirates-vs-magaza-esports-26-09-2026"
   },
   {
    "id": "bo3-130474",
