@@ -1,6 +1,6 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-09-26T11:45:11+03:00",
+ "updatedAt": "2026-09-26T14:52:57+03:00",
  "posted": {
   "news": [
    "3160fc19c04d",
@@ -78,7 +78,20 @@
    "9e85d265c254",
    "d082bf271d53",
    "151bf39d46be",
-   "417fe1935e37"
+   "417fe1935e37",
+   "651fa21a8bc1",
+   "85357dfa8f62",
+   "fd3a0e5df999",
+   "6ddde5a6a036",
+   "cbf855cf09eb",
+   "956fa78efe42",
+   "2bf514a6fec0",
+   "98fe847ff12a",
+   "17bec1db9619",
+   "3d9b6e32f421",
+   "bc64e562dc95",
+   "f68b8d2271e8",
+   "25fae5a8fb08"
   ],
   "deals": [
    "steam-246420:90",
@@ -122,7 +135,11 @@
    "result:bo3-130316",
    "result:bo3-128588",
    "live:bo3-130318",
-   "digest:2026-09-26"
+   "digest:2026-09-26",
+   "result:bo3-130318",
+   "live:bo3-129364",
+   "live:bo3-126082",
+   "live:bo3-130317"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -182,7 +199,9 @@
  "matchPings": [
   "2026-09-25T19:38+03:00",
   "2026-09-25T21:19+03:00",
-  "2026-09-26T11:45+03:00"
+  "2026-09-26T11:45+03:00",
+  "2026-09-26T14:52+03:00",
+  "2026-09-26T14:52+03:00"
  ],
  "weekly": {
   "gamenight": {
