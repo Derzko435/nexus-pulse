@@ -1,71 +1,83 @@
 {
-  "updatedAt": "2026-09-27T21:31:11+03:00",
+  "updatedAt": "2026-09-28T02:09:06+03:00",
   "source": "steam-store-appdetails",
   "count": 35,
   "apps": [
     {
       "appid": "730",
       "name": "Counter-Strike 2",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg",
-      "genres": [],
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/162664aa5da85f418105350c5d67ca565f6c3713/header.jpg?t=1789251637",
+      "genres": [
+        "Экшены",
+        "Бесплатные"
+      ],
       "is_free": true,
       "platforms": {
         "windows": true,
         "mac": false,
-        "linux": false
+        "linux": true
       },
       "metacritic": null,
-      "short_description": "",
-      "catalogId": "cs2",
-      "curated": true
+      "short_description": "Более двух десятилетий Counter-Strike служит примером первоклассной соревновательной игры, путь развития которой определяют миллионы игроков со всего мира. Теперь пришло время нового этапа — Counter-Strike 2.",
+      "catalogId": "cs2"
     },
     {
       "appid": "570",
       "name": "Dota 2",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
-      "genres": [],
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/header.jpg?t=1769535998",
+      "genres": [
+        "Экшены",
+        "Стратегии",
+        "Бесплатные"
+      ],
       "is_free": true,
       "platforms": {
         "windows": true,
-        "mac": false,
-        "linux": false
+        "mac": true,
+        "linux": true
       },
-      "metacritic": null,
-      "short_description": "",
-      "catalogId": "dota2",
-      "curated": true
+      "metacritic": 90,
+      "short_description": "Ежедневно миллионы игроков по всему миру сражаются от лица одного из более сотни героев Dota 2, и даже после тысячи часов в ней есть чему научиться. Благодаря регулярным обновлениям игра живёт своей жизнью: геймплей, возможности и герои постоянно преображаются.",
+      "catalogId": "dota2"
     },
     {
       "appid": "252950",
-      "name": "Rocket League",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/252950/header.jpg",
-      "genres": [],
+      "name": "Rocket League®",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/d56cf9d01073d893677fb9e7e257b79fd7939ee3/header.jpg?t=1789756890",
+      "genres": [
+        "Экшены",
+        "Инди",
+        "Гонки",
+        "Спорт"
+      ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
         "linux": false
       },
-      "metacritic": null,
-      "short_description": "",
-      "catalogId": "rocket",
-      "curated": true
+      "metacritic": 86,
+      "short_description": "Встречайте долгожданное продолжение Supersonic Acrobatic Rocket-Powered Battle-Cars — всеми любимого основанного на физике сочетания футбола и гонок!",
+      "catalogId": "rocket"
     },
     {
       "appid": "1172470",
-      "name": "Apex Legends",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172470/header.jpg",
-      "genres": [],
+      "name": "Apex Legends™",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/60fcaedb88ccf94df30281533d828b86c6ffb9b6/header_alt_assets_5.jpg?t=1790164440",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Бесплатные"
+      ],
       "is_free": true,
       "platforms": {
         "windows": true,
         "mac": false,
         "linux": false
       },
-      "metacritic": null,
-      "short_description": "",
-      "catalogId": "apex",
-      "curated": true
+      "metacritic": 88,
+      "short_description": "Apex Legends — удостоенный наградами бесплатный геройский шутер от Respawn Entertainment. Освойте все тонкости игры за легендарных персонажей, число которых продолжает расти, и используйте их мощные умения в стратегии своего отряда. Это новое слово в геройских шутерах и «королевских битвах».",
+      "catalogId": "apex"
     },
     {
       "appid": "1245620",
@@ -86,18 +98,21 @@
     {
       "appid": "1086940",
       "name": "Baldur's Gate 3",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/header.jpg",
-      "genres": [],
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg?t=1777363040",
+      "genres": [
+        "Приключенческие игры",
+        "Ролевые игры",
+        "Стратегии"
+      ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
+        "mac": true,
         "linux": false
       },
-      "metacritic": null,
-      "short_description": "",
-      "catalogId": "bg3",
-      "curated": true
+      "metacritic": 96,
+      "short_description": "Соберите отряд и вернитесь в Забытые Королевства. Вас ждет история о дружбе и предательстве, выживании и самопожертвовании, о сладком зове абсолютной власти.",
+      "catalogId": "bg3"
     },
     {
       "appid": "292030",
@@ -168,50 +183,59 @@
     {
       "appid": "367520",
       "name": "Hollow Knight",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg",
-      "genres": [],
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/3c3489495136b26b34f8a9543c7f5645b99d388c/header.jpg?t=1776125684",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
-        "linux": false
+        "mac": true,
+        "linux": true
       },
-      "metacritic": null,
-      "short_description": "",
-      "catalogId": "hollow",
-      "curated": true
+      "metacritic": 87,
+      "short_description": "Hollow Knight – это эпическое приключение в огромном разрушенном королевстве, полном насекомых и героев. Исследуйте извилистые пещеры, сражайтесь с порчеными тварями и заводите дружбу со странными жуками – все это в классической двухмерной ручной рисовке.",
+      "catalogId": "hollow"
     },
     {
       "appid": "1145360",
       "name": "Hades",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/header.jpg",
-      "genres": [],
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg?t=1758127023",
+      "genres": [
+        "Экшены",
+        "Инди",
+        "Ролевые игры"
+      ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
+        "mac": true,
         "linux": false
       },
-      "metacritic": null,
-      "short_description": "",
-      "catalogId": "hades",
-      "curated": true
+      "metacritic": 93,
+      "short_description": "Бросьте вызов богу мёртвых и прорубите себе путь из Подземного мира в игре в жанрах «рогалик» и «данжен-кроулер» от создателей Bastion, Transistor и Pyre.",
+      "catalogId": "hades"
     },
     {
       "appid": "413150",
       "name": "Stardew Valley",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/413150/header.jpg",
-      "genres": [],
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1786554168",
+      "genres": [
+        "Инди",
+        "Ролевые игры",
+        "Симуляторы"
+      ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
-        "linux": false
+        "mac": true,
+        "linux": true
       },
-      "metacritic": null,
-      "short_description": "",
-      "catalogId": "stardew",
-      "curated": true
+      "metacritic": 89,
+      "short_description": "Вам досталась старая дедушкина ферма в долине Стардью. С горстью монет в кармане и старыми инструментами в руках вы начинаете новую жизнь. Сможете ли вы превратить пустырь в цветущий сад?",
+      "catalogId": "stardew"
     },
     {
       "appid": "739630",
@@ -287,24 +311,31 @@
     {
       "appid": "2379780",
       "name": "Balatro",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2379780/header.jpg",
-      "genres": [],
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2379780/7a85430784e4d613cdb0547414d8cf16ffa45747/header.jpg?t=1788961800",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
+      ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
+        "mac": true,
         "linux": false
       },
-      "metacritic": null,
-      "short_description": "",
-      "catalogId": "balatro",
-      "curated": true
+      "metacritic": 90,
+      "short_description": "Покерная игра-«рогалик». Balatro — гипнотически увлекательная игра с построением колод, где можно использовать нестандартные покерные комбинации, находить джокеров в решающие моменты и запускать забойные, возмутительно мощные комбо.",
+      "catalogId": "balatro"
     },
     {
       "appid": "2358720",
-      "name": "Steam App 2358720",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2358720/header.jpg",
-      "genres": [],
+      "name": "Black Myth: Wukong",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg?t=1760601605",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Ролевые игры"
+      ],
       "is_free": false,
       "platforms": {
         "windows": true,
@@ -312,9 +343,8 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "",
-      "catalogId": "blackmyth",
-      "curated": true
+      "short_description": "Black Myth: Wukong — ролевой боевик по мотивам китайской мифологии. Став Избранным, вы отправитесь в приключение, полное испытаний и чудес, в котором вам предстоит приподнять завесу тайны над великой легендой.",
+      "catalogId": "blackmyth"
     },
     {
       "appid": "1888160",
@@ -336,24 +366,29 @@
     {
       "appid": "678960",
       "name": "CODE VEIN",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/678960/header.jpg",
-      "genres": [],
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/678960/header.jpg?t=1766015412",
+      "genres": [
+        "Экшены",
+        "Ролевые игры"
+      ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
         "linux": false
       },
-      "metacritic": null,
-      "short_description": "",
-      "catalogId": null,
-      "curated": true
+      "metacritic": 72,
+      "short_description": "Создайте своего бессмертного, найдите союзников и преодолейте испытания, чтобы вспомнить прошлое и вырваться из ада в игре CODE VEIN."
     },
     {
       "appid": "1282100",
-      "name": "REMNANT II",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1282100/header.jpg",
-      "genres": [],
+      "name": "REMNANT II®",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1282100/header.jpg?t=1764659459",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Ролевые игры"
+      ],
       "is_free": false,
       "platforms": {
         "windows": true,
@@ -361,9 +396,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "",
-      "catalogId": null,
-      "curated": true
+      "short_description": "Remnant II® — продолжение крайне успешной игры Remnant: From the Ashes. Выжившим представителям человечества предстоит отправиться в жуткие миры и вступить в бой с новыми беспощадными тварями и богоподобными боссами."
     },
     {
       "appid": "1222140",
@@ -385,71 +418,78 @@
     {
       "appid": "227300",
       "name": "Euro Truck Simulator 2",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/227300/header.jpg",
-      "genres": [],
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/4f6ff00d3732ed0da2e28a4e7182f0036df8ab90/header_alt_assets_8.jpg?t=1790001194",
+      "genres": [
+        "Инди",
+        "Симуляторы"
+      ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
-        "linux": false
+        "mac": true,
+        "linux": true
       },
-      "metacritic": null,
-      "short_description": "",
-      "catalogId": null,
-      "curated": true
+      "metacritic": 79,
+      "short_description": "Станьте королем европейских дорог — водителем грузовика, который доставляет важные грузы на немалые расстояния! Вас ждут десятки городов Великобритании, Бельгии, Германии, Италии, Нидерландов, Польши и не только. Испытайте свои умения, выносливость и скорость."
     },
     {
       "appid": "281990",
       "name": "Stellaris",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/281990/header.jpg",
-      "genres": [],
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/25d064cea0721f8fc17627f40efbf1c9d2ba2adb/header_alt_assets_14_russian.jpg?t=1790161815",
+      "genres": [
+        "Симуляторы",
+        "Стратегии"
+      ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
-        "linux": false
+        "mac": true,
+        "linux": true
       },
-      "metacritic": null,
-      "short_description": "",
-      "catalogId": null,
-      "curated": true
+      "metacritic": 78,
+      "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
       "appid": "1084160",
-      "name": "Steam App 1084160",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1084160/header.jpg",
-      "genres": [],
+      "name": "Jagged Alliance 3",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1084160/header.jpg?t=1725000793",
+      "genres": [
+        "Экшены",
+        "Стратегии"
+      ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
         "linux": false
       },
-      "metacritic": null,
-      "short_description": "",
-      "catalogId": null,
-      "curated": true
+      "metacritic": 81,
+      "short_description": "В Гранд-Чиене паника и хаос: бесследно пропал президент, и власть в стране захватила военная группировка под названием «Легион». Наемники один другого интереснее, пошаговая, глубоко продуманная стратегия – эта игра унаследовала все лучшее от популярной франшизы."
     },
     {
       "appid": "582660",
-      "name": "Steam App 582660",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/582660/header.jpg",
-      "genres": [],
+      "name": "Black Desert",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582660/3c4172635738d9e5901e340b28136745fd9e491a/header_alt_assets_27.jpg?t=1786645008",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Многопользовательские игры",
+        "Ролевые игры",
+        "Стратегии"
+      ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
         "linux": false
       },
-      "metacritic": null,
-      "short_description": "",
-      "catalogId": null,
-      "curated": true
+      "metacritic": 80,
+      "short_description": "Played by over 20 million Adventurers - Black Desert Online is an open-world, action MMORPG. Experience intense, action-packed combat, battle massive world bosses, fight alongside friends to siege and conquer castles, and train in professions such as fishing, trading, crafting, cooking, and more!"
     },
     {
       "appid": "2475460",
-      "name": "Steam App 2475460",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2475460/header.jpg",
+      "name": "SOS OPS!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2475460/a0a7b4a2b2526ae76cab0f0ba6e87e63d962c1a7/header.jpg?t=1790372249",
       "genres": [],
       "is_free": false,
       "platforms": {
@@ -458,15 +498,16 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "",
-      "catalogId": null,
-      "curated": true
+      "short_description": "SOS OPS! – это нечто большее, чем игра. Твоя задача спасти город. Ты окажешься в самом эпицентре безумия, где совместные миссии с друзьями поднимут адреналин до предела!"
     },
     {
       "appid": "1190000",
-      "name": "Steam App 1190000",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1190000/header.jpg",
-      "genres": [],
+      "name": "Car Mechanic Simulator 2021",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1190000/header.jpg?t=1787847434",
+      "genres": [
+        "Гонки",
+        "Симуляторы"
+      ],
       "is_free": false,
       "platforms": {
         "windows": true,
@@ -474,63 +515,71 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "",
-      "catalogId": null,
-      "curated": true
+      "short_description": "Создайте собственную империю по обслуживанию автомобилей. Не бойтесь замарать руки в мире высоко реалистичного симулятора с тщательно проработанными деталями. Посетите аукционный дом, где можно покупать машины в разном состоянии."
     },
     {
       "appid": "617290",
-      "name": "Steam App 617290",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/617290/header.jpg",
-      "genres": [],
+      "name": "Remnant: From the Ashes",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/617290/header.jpg?t=1764657526",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Ролевые игры"
+      ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
         "linux": false
       },
-      "metacritic": null,
-      "short_description": "",
-      "catalogId": null,
-      "curated": true
+      "metacritic": 78,
+      "short_description": "В роли одного из последних представителей человечества, в одиночку или в компании одного-двух товарищей, вам предстоит сразиться с ордами монстров и эпическими боссами, пытаясь закрепиться на чужой земле, отстроиться и вернуть себе утраченное."
     },
     {
       "appid": "640820",
-      "name": "Steam App 640820",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/640820/header.jpg",
-      "genres": [],
+      "name": "Pathfinder: Kingmaker — Enhanced Plus Edition",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/640820/header.jpg?t=1782382964",
+      "genres": [
+        "Приключенческие игры",
+        "Ролевые игры"
+      ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
-        "linux": false
+        "mac": true,
+        "linux": true
       },
-      "metacritic": null,
-      "short_description": "",
-      "catalogId": null,
-      "curated": true
+      "metacritic": 73,
+      "short_description": "Первая изометрическая партийная ролевая игра во вселенной Pathfinder. Насладитесь классическим игровым процессом, вдохновлённым такими играми, как Baldur's Gate и Neverwinter Nights. Исследуйте земли, завоюйте их и сделайте своим королевством!"
     },
     {
       "appid": "599140",
-      "name": "Steam App 599140",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/599140/header.jpg",
-      "genres": [],
+      "name": "Graveyard Keeper",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/599140/07a4abf278d3029bec1bf7dcff9b2852bdde5250/header.jpg?t=1789490186",
+      "genres": [
+        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры",
+        "Симуляторы"
+      ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
-        "linux": false
+        "mac": true,
+        "linux": true
       },
-      "metacritic": null,
-      "short_description": "",
-      "catalogId": null,
-      "curated": true
+      "metacritic": 69,
+      "short_description": "Новая игра от создателей Punch Club - Graveyard Keeper. Самый недостоверный симулятор средневекового кладбища в этом году."
     },
     {
       "appid": "1288320",
-      "name": "Steam App 1288320",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1288320/header.jpg",
-      "genres": [],
+      "name": "Way of the Hunter",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1288320/header.jpg?t=1774533447",
+      "genres": [
+        "Приключенческие игры",
+        "Симуляторы",
+        "Спорт"
+      ],
       "is_free": false,
       "platforms": {
         "windows": true,
@@ -538,31 +587,34 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "",
-      "catalogId": null,
-      "curated": true
+      "short_description": "Станьте новым владельцем охотничьего домика в изумительно красивом месте, полном диких зверей. Исследуйте обширный открытый мир и используйте реально существующие образцы охотничьего вооружения. Наслаждайтесь увлекательной охотой в одиночку или с друзьями!"
     },
     {
       "appid": "270880",
-      "name": "Steam App 270880",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/270880/header.jpg",
-      "genres": [],
+      "name": "American Truck Simulator",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/270880/2cfd6711c21677e7611985d2bacc3a3bcfac2660/header_alt_assets_8.jpg?t=1790339893",
+      "genres": [
+        "Инди",
+        "Симуляторы"
+      ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
-        "linux": false
+        "mac": true,
+        "linux": true
       },
-      "metacritic": null,
-      "short_description": "",
-      "catalogId": null,
-      "curated": true
+      "metacritic": 76,
+      "short_description": "Ощутите мощь легендарных американских грузовиков и доставляйте разнообразные грузы по солнечной Калифорнии, песчаной Неваде и величественному Большому Каньону штата Аризона. American Truck Simulator увлечет вас в захватывающее путешествие по удивительным пейзажам и знаменитым достопримечательностям, разбросанным по всем штатам."
     },
     {
       "appid": "400750",
-      "name": "Steam App 400750",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/400750/header.jpg",
-      "genres": [],
+      "name": "Call to Arms - Gates of Hell: Ostfront",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/400750/dbbd1ee41869ac2bae52511ab9d171e1aba441e4/header.jpg?t=1764717941",
+      "genres": [
+        "Экшены",
+        "Симуляторы",
+        "Стратегии"
+      ],
       "is_free": false,
       "platforms": {
         "windows": true,
@@ -570,9 +622,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "",
-      "catalogId": null,
-      "curated": true
+      "short_description": "Call to Arms - Gates of Hell - реалистическая историческая стратегия про ВМВ. Примите на себя командование всех видов войск в одиночной и динамической кампании, кооперативе и мультиплеере - реиграбельность не имеет границ. Вы готовы погрузиться в пучину войны?"
     }
   ]
 }
