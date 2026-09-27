@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-27T17:06:05+03:00",
+  "updatedAt": "2026-09-27T21:31:11+03:00",
   "source": "steam-store-appdetails",
-  "count": 34,
+  "count": 35,
   "apps": [
     {
       "appid": "730",
@@ -431,25 +431,41 @@
       "curated": true
     },
     {
-      "appid": "246420",
-      "name": "Kingdom Rush  - Tower Defense",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246420/header.jpg?t=1790283781",
-      "genres": [
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Приготовьтесь к увлекательному приключению, в котором вам с помощью башен и заклинаний предстоит защитить свое королевство от полчищ орков, троллей, злых колдунов и других мерзких тварей!Сражайтесь в лесах, горах и пустынях, меняя оборонительную стратегию под условия с помощью разных улучшений и способностей башен!"
-    },
-    {
       "appid": "582660",
       "name": "Steam App 582660",
       "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/582660/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
+    },
+    {
+      "appid": "2475460",
+      "name": "Steam App 2475460",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2475460/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
+    },
+    {
+      "appid": "1190000",
+      "name": "Steam App 1190000",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1190000/header.jpg",
       "genres": [],
       "is_free": false,
       "platforms": {
