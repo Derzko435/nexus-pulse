@@ -1,17 +1,7 @@
 {
-  "updatedAt": "2026-09-25T19:00:27+03:00",
+  "updatedAt": "2026-09-27T19:00:10+03:00",
   "source": "steam-specials-ru",
   "deals": [
-    {
-      "id": "steam-678960",
-      "title": "CODE VEIN",
-      "store": "Steam",
-      "old": 2099,
-      "neu": 209,
-      "pct": 90,
-      "url": "https://store.steampowered.com/app/678960/?curator_clanid=0",
-      "steamAppId": "678960"
-    },
     {
       "id": "steam-1084160",
       "title": "Jagged Alliance 3",
@@ -23,16 +13,6 @@
       "steamAppId": "1084160"
     },
     {
-      "id": "steam-246420",
-      "title": "Kingdom Rush  - Tower Defense",
-      "store": "Steam",
-      "old": 460,
-      "neu": 46,
-      "pct": 90,
-      "url": "https://store.steampowered.com/app/246420/",
-      "steamAppId": "246420"
-    },
-    {
       "id": "steam-582660",
       "title": "Black Desert",
       "store": "Steam",
@@ -41,6 +21,26 @@
       "pct": 90,
       "url": "https://store.steampowered.com/app/582660/?curator_clanid=0",
       "steamAppId": "582660"
+    },
+    {
+      "id": "steam-2475460",
+      "title": "SOS OPS!",
+      "store": "Steam",
+      "old": 299,
+      "neu": 29,
+      "pct": 90,
+      "url": "https://store.steampowered.com/app/2475460/?curator_clanid=0",
+      "steamAppId": "2475460"
+    },
+    {
+      "id": "steam-1190000",
+      "title": "Car Mechanic Simulator 2021",
+      "store": "Steam",
+      "old": 880,
+      "neu": 105,
+      "pct": 88,
+      "url": "https://store.steampowered.com/app/1190000/?curator_clanid=0",
+      "steamAppId": "1190000"
     },
     {
       "id": "steam-617290",
@@ -133,14 +133,14 @@
       "steamAppId": "400750"
     },
     {
-      "id": "steam-281990",
-      "title": "Stellaris",
+      "id": "steam-1145360",
+      "title": "Hades",
       "store": "Steam",
-      "old": 3049,
-      "neu": 914,
-      "pct": 70,
-      "url": "https://store.steampowered.com/app/281990/?curator_clanid=0",
-      "steamAppId": "281990"
+      "old": 880,
+      "neu": 220,
+      "pct": 75,
+      "url": "https://store.steampowered.com/app/1145360/?curator_clanid=0",
+      "steamAppId": "1145360"
     }
   ]
 }
