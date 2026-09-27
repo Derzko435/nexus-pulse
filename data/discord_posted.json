@@ -1,6 +1,6 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-09-27T15:32:24+03:00",
+ "updatedAt": "2026-09-28T00:42:56+03:00",
  "posted": {
   "news": [
    "3160fc19c04d",
@@ -139,7 +139,22 @@
    "98922811b2a1",
    "51c1070eea81",
    "a319e56f596b",
-   "ea33df847707"
+   "ea33df847707",
+   "9eb973165dc0",
+   "7139886fb18d",
+   "6cf77bf871a8",
+   "5dfc1773473c",
+   "fa269c52b0ec",
+   "de93a03f8138",
+   "df0feb218a11",
+   "64a3808576b3",
+   "bf83cc08223a",
+   "520b78c675a3",
+   "3622e4b3ab20",
+   "c7fcc0d0da93",
+   "7c2dc3e07205",
+   "680b6de8cff2",
+   "1e965b1f52f7"
   ],
   "deals": [
    "steam-246420:90",
@@ -155,7 +170,10 @@
    "steam-1222140:80",
    "steam-640820:82",
    "steam-617290:85",
-   "steam-582660:90"
+   "steam-582660:90",
+   "steam-1145360:75",
+   "steam-1190000:88",
+   "steam-2475460:90"
   ],
   "freebies": [
    "epic-7ae00c3e89174012b175cc73b4737723:soon",
@@ -201,7 +219,11 @@
    "result:bo3-128589",
    "result:bo3-129366",
    "live:bo3-129833",
-   "live:bo3-129367"
+   "live:bo3-129367",
+   "result:bo3-129367",
+   "live:bo3-129836",
+   "live:bo3-128590",
+   "digest:2026-09-28"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -261,25 +283,33 @@
    "eCw80-_Sr5g",
    "WeGa62jNBCs",
    "K4jKPlpvV4I",
-   "jo6LLPFajn0"
+   "jo6LLPFajn0",
+   "rpsxzAZHq3A",
+   "pzXkSSXI1fM",
+   "VByF0kYP_Wo",
+   "lMUHxrgcOVg",
+   "4xil_0qwrKY",
+   "YrI53wY6N2s",
+   "uoXnuOjn9l4",
+   "MKwtb5Hr02I"
   ],
   "releases": [
    "week:2026-W39",
-   "day:2026-09-25:4080220"
+   "day:2026-09-25:4080220",
+   "week:2026-W40"
   ],
   "gotd": [
    "gotd:2026-09-24"
   ]
  },
  "matchPings": [
-  "2026-09-25T19:38+03:00",
-  "2026-09-25T21:19+03:00",
   "2026-09-26T11:45+03:00",
   "2026-09-26T14:52+03:00",
   "2026-09-26T14:52+03:00",
   "2026-09-27T00:38+03:00",
   "2026-09-27T12:27+03:00",
-  "2026-09-27T15:32+03:00"
+  "2026-09-27T15:32+03:00",
+  "2026-09-28T00:42+03:00"
  ],
  "weekly": {
   "gamenight": {
