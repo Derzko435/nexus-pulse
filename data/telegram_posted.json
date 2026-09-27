@@ -1,6 +1,6 @@
 {
  "about": "Telegram autopost dedupe state (ids only). Written by scripts/telegram_post.py.",
- "updatedAt": "2026-09-27T18:42:29+03:00",
+ "updatedAt": "2026-09-27T19:44:22+03:00",
  "channel": {
   "descVersion": 1,
   "welcomeId": 9,
@@ -19,7 +19,10 @@
    "steam-678960:90",
    "steam-1084160:90",
    "steam-246420:90",
-   "steam-617290:85"
+   "steam-617290:85",
+   "set:steam-1084160:90,steam-1190000:88,steam-2475460:90,steam-582660:90,steam-617290:85",
+   "steam-2475460:90",
+   "steam-1190000:88"
   ],
   "esports": [
    "results:bo3-129360,bo3-129361,bo3-130313,bo3-130314,bo3-130315",
@@ -83,9 +86,13 @@
    "3fec2af883d3",
    "98922811b2a1",
    "51c1070eea81",
-   "a319e56f596b"
+   "a319e56f596b",
+   "f7121da38fbe",
+   "487218af6ad6"
   ],
-  "digest": [],
+  "digest": [
+   "week:2026-W39"
+  ],
   "poll": [
    "poll:2026-W39"
   ]
