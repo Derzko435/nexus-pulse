@@ -241,7 +241,7 @@
       <h3 id="npvTitle">${esc(n.title)}</h3>
       <div class="npv-body">${blocksHtml(n.body)}</div>
       <p class="npv-source">Источник: ${esc(n.source)}. Полная версия материала — на сайте издания.</p>
-      ${actions([extLink(n.url, "Читать в источнике"), shareBtn("news", n.id, n.title), discordLink("Обсудить в Discord")])}`, { wide: true });
+      ${actions([extLink(n.url, "Читать в источнике"), shareBtn("news", n.id, n.title), pageLink("news", n.id, "Страница новости"), discordLink("Обсудить в Discord")])}`, { wide: true });
   }
   // Кнопка «Поделиться»: ссылка на страницу-превью /s/news/<id>.html (красивая карточка в мессенджерах)
   function shareBtn(kind, id, title) {
@@ -442,7 +442,15 @@
         </ul>
         ${window.NPPriceHistory && info.appid ? window.NPPriceHistory.block(String(info.appid)) : ""}
       </div>
-      ${actions([extLink(info.url, info.appid ? "Страница в Steam" : "Официальный сайт")])}`);
+      ${actions([extLink(info.url, info.appid ? "Страница в Steam" : "Официальный сайт"), pageLink("games", g.id, "Страница игры")])}`);
+  }
+  // Static pages for search engines (guides/<id>/, games/<id>/, news/<id>/ — scripts/build_static_pages.py)
+  function pageUrl(kind, id) {
+    return new URL(kind + "/" + encodeURIComponent(id) + "/", location.origin + location.pathname.replace(/[^/]*$/, "")).href;
+  }
+  function pageLink(kind, id, label) {
+    if (!/^[\w-]{1,64}$/.test(String(id || ""))) return "";
+    return `<a class="btn btn-ghost btn-sm" href="${esc(kind + "/" + id + "/")}">${esc(label)}</a>`;
   }
 
   /* ---------------- 5. Esports ---------------- */
@@ -648,7 +656,7 @@
         ${g.tips ? `<section class="guide-sec guide-tips" id="g-tips"><h4>💡 Советы новичку</h4><ul>${g.tips.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></section>` : ""}
         ${g.mistakes ? `<section class="guide-sec guide-mistakes" id="g-mist"><h4>⚠️ Частые ошибки</h4><ul>${g.mistakes.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></section>` : ""}
       </div>
-      <div class="npv-actions"><button type="button" class="btn btn-primary btn-sm" data-guide-copy="${esc(g.id)}">Скопировать ссылку на гайд</button><button type="button" class="btn btn-ghost btn-sm" data-npv-close>Понятно</button></div>`, { wide: true });
+      <div class="npv-actions"><button type="button" class="btn btn-primary btn-sm" data-guide-copy="${esc(g.id)}">Скопировать ссылку на гайд</button>${pageLink("guides", g.id, "Открыть отдельной страницей")}<button type="button" class="btn btn-ghost btn-sm" data-npv-close>Понятно</button></div>`, { wide: true });
   }
 
   /* ---------------- events ---------------- */
@@ -676,7 +684,8 @@
     }
     const copy = e.target.closest("[data-guide-copy]");
     if (copy) {
-      const url = location.origin + location.pathname + "#guide=" + encodeURIComponent(copy.dataset.guideCopy);
+      // the static page (guides/<id>/) — indexable and opens without JS; #guide=<id> links keep working
+      const url = pageUrl("guides", copy.dataset.guideCopy);
       const done = () => { copy.textContent = "Ссылка скопирована ✓"; };
       if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(url).then(done, done); else done();
       return;
@@ -793,6 +802,9 @@
     setInterval(renderMatches, 60000);
     const m = location.hash.match(/^#guide=([\w-]+)/);
     if (m) setTimeout(() => { $("#guides")?.scrollIntoView(); openGuideById(m[1]); }, 400);
+    // #game=<id> — link from the static game pages (games/<id>/) back to the catalog
+    const gm = location.hash.match(/^#game=([\w-]+)/);
+    if (gm) setTimeout(() => { $("#games")?.scrollIntoView(); openGame(gm[1]); }, 400);
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init); else init();
 })();
