@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T17:10:53+03:00",
+  "updatedAt": "2026-09-28T22:01:24+03:00",
   "source": "github-actions-ping-baseline",
   "disclaimer": "Runner RTT is NOT end-user latency. The browser measures live RTT itself: one warm-up request (DNS/TCP/TLS), then the median of several requests over the open connection.",
   "targets": [
@@ -80,63 +80,63 @@
     {
       "id": "cloudflare",
       "status": 200,
-      "runner_rtt_ms": 75.4,
+      "runner_rtt_ms": 82.0,
       "ok": true,
       "error": null
     },
     {
       "id": "steam",
       "status": 200,
-      "runner_rtt_ms": 316.2,
+      "runner_rtt_ms": 131.1,
       "ok": true,
       "error": null
     },
     {
       "id": "steam_store",
       "status": 200,
-      "runner_rtt_ms": 133.0,
+      "runner_rtt_ms": 64.6,
       "ok": true,
       "error": null
     },
     {
       "id": "riot",
       "status": 200,
-      "runner_rtt_ms": 133.8,
+      "runner_rtt_ms": 201.6,
       "ok": true,
       "error": null
     },
     {
       "id": "riot_fra",
       "status": 200,
-      "runner_rtt_ms": 481.5,
+      "runner_rtt_ms": 295.3,
       "ok": true,
       "error": null
     },
     {
       "id": "riot_sto",
       "status": 200,
-      "runner_rtt_ms": 520.9,
+      "runner_rtt_ms": 406.6,
       "ok": true,
       "error": null
     },
     {
       "id": "blizzard",
       "status": 200,
-      "runner_rtt_ms": 227.5,
+      "runner_rtt_ms": 121.6,
       "ok": true,
       "error": null
     },
     {
       "id": "epic",
       "status": 200,
-      "runner_rtt_ms": 133.3,
+      "runner_rtt_ms": 123.1,
       "ok": true,
       "error": null
     },
     {
       "id": "google",
       "status": 200,
-      "runner_rtt_ms": 45.3,
+      "runner_rtt_ms": 15.8,
       "ok": true,
       "error": null
     }
