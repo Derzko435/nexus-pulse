@@ -64,7 +64,7 @@ jobs:
         if: steps.mode.outputs.mode == 'full'
         run: python scripts/update_catalog.py || echo "::warning::catalog update failed (last good data kept)"
 
-      - name: Share pages, sitemap, verification tags
+      - name: Share pages, static SEO pages (guides/ games/ tools/ news/), sitemap, verification tags
         run: python scripts/build_site_meta.py || echo "::warning::share pages / sitemap update failed"
 
       - name: Commit and push if data changed
@@ -75,6 +75,8 @@ jobs:
           git add data/news.json data/releases.json data/new_games.json data/patches.json data/matches.json data/videos.json data/catalog.json 2>/dev/null || true
           git add data/translations.json data/share_index.json sitemap.xml robots.txt index.html 2>/dev/null || true
           git add -A s/ 2>/dev/null || true
+          # static SEO pages (scripts/build_static_pages.py); one path at a time so a missing one can't skip the rest
+          for p in guides games tools news data/seo_pages.json data/news_excerpts.json; do if [ -e "$p" ]; then git add -A -- "$p" || true; fi; done
           if git diff --cached --quiet; then
             echo "No content changes"
             echo "pushed=0" >> "$GITHUB_OUTPUT"

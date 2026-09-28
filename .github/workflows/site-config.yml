@@ -1,12 +1,19 @@
 name: Apply site config (verification tags)
 # Runs when data/site_config.json is edited: puts Yandex / Google / Bing verification
 # meta tags into index.html, refreshes share pages + sitemap and redeploys the site.
+# Also runs when app.js / guides-content.js / the page generators change: rebuilds the static
+# SEO pages (guides/ games/ tools/ news/) so they never lag behind the SPA data.
 # (Yandex Metrika is read by the site itself from data/site_config.json — no rebuild needed.)
 on:
   push:
     branches: [main]
     paths:
       - data/site_config.json
+      # static SEO pages are rebuilt when their sources change (games, guides, the generator)
+      - app.js
+      - guides-content.js
+      - scripts/build_static_pages.py
+      - scripts/build_site_meta.py
   workflow_dispatch:
 
 permissions:
@@ -25,7 +32,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Build verification tags, share pages, sitemap
+      - name: Build verification tags, share pages, static SEO pages, sitemap
         run: python scripts/build_site_meta.py
       - name: Commit and redeploy
         env:
@@ -35,10 +42,12 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add index.html sitemap.xml robots.txt data/share_index.json 2>/dev/null || true
           git add -A s/ 2>/dev/null || true
+          # static SEO pages (scripts/build_static_pages.py); one path at a time so a missing one can't skip the rest
+          for p in guides games tools news data/seo_pages.json data/news_excerpts.json; do if [ -e "$p" ]; then git add -A -- "$p" || true; fi; done
           if git diff --cached --quiet; then
             echo "Nothing to change"
           else
-            git commit -m "chore(site): apply site_config.json"
+            git commit -m "chore(site): rebuild site meta and static pages"
             for i in 1 2 3; do git pull --rebase --autostash origin main && git push origin HEAD:main && break; sleep $((i * 10)); done
           fi
           gh workflow run pages.yml --ref main || echo "::warning::could not trigger pages deploy"
