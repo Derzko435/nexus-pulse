@@ -56,9 +56,3 @@
   .sp-specs { grid-template-columns: 1fr; }
   .sp-toc ol { columns: 1; }
 }
-/* free-games/ */
-.fg-lead strong { color: var(--text); }
-.fg-table td .btn { white-space: nowrap; }
-.fg-empty { padding: .8rem 1rem; border: 1px dashed var(--border); border-radius: 12px; color: var(--muted); }
-.fg-page .guide-sec h3 { font-size: 1rem; margin: 1.1rem 0 .45rem; }
-.fg-source { margin-top: 1.5rem; }
