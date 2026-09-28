@@ -2,7 +2,7 @@ name: Apply site config (verification tags)
 # Runs when data/site_config.json is edited: puts Yandex / Google / Bing verification
 # meta tags into index.html, refreshes share pages + sitemap and redeploys the site.
 # Also runs when app.js / guides-content.js / the page generators change: rebuilds the static
-# SEO pages (guides/ games/ tools/ news/ free-games/) so they never lag behind the SPA data.
+# SEO pages (guides/ games/ tools/ news/) so they never lag behind the SPA data.
 # (Yandex Metrika is read by the site itself from data/site_config.json — no rebuild needed.)
 on:
   push:
@@ -43,25 +43,11 @@ jobs:
           git add index.html sitemap.xml robots.txt data/share_index.json 2>/dev/null || true
           git add -A s/ 2>/dev/null || true
           # static SEO pages (scripts/build_static_pages.py); one path at a time so a missing one can't skip the rest
-          for p in guides games tools news free-games data/seo_pages.json data/news_excerpts.json data/freebies_archive.json; do if [ -e "$p" ]; then git add -A -- "$p" || true; fi; done
+          for p in guides games tools news data/seo_pages.json data/news_excerpts.json; do if [ -e "$p" ]; then git add -A -- "$p" || true; fi; done
           if git diff --cached --quiet; then
             echo "Nothing to change"
           else
             git commit -m "chore(site): rebuild site meta and static pages"
-            # refresh-data.yml also rebuilds the static pages: on a conflict in generated files keep ours
-            # (-X theirs = the commit being replayed) and rebuild on top of the merged tree
-            for i in $(seq 1 3); do
-              if git pull --rebase --autostash -X theirs origin main; then
-                python scripts/build_site_meta.py >/dev/null 2>&1 || true
-                git add sitemap.xml robots.txt index.html data/share_index.json 2>/dev/null || true
-                git add -A s/ 2>/dev/null || true
-                for p in guides games tools news free-games data/seo_pages.json data/news_excerpts.json; do if [ -e "$p" ]; then git add -A -- "$p" || true; fi; done
-                git diff --cached --quiet || git commit -m "chore(site): rebuild static pages after rebase"
-                git push origin HEAD:main && break
-              else
-                git rebase --abort 2>/dev/null || true
-              fi
-              echo "push attempt $i failed, retrying"; sleep $((i * 10))
-            done
+            for i in 1 2 3; do git pull --rebase --autostash origin main && git push origin HEAD:main && break; sleep $((i * 10)); done
           fi
           gh workflow run pages.yml --ref main || echo "::warning::could not trigger pages deploy"
