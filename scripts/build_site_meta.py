@@ -7,7 +7,9 @@ Writes:
   s/build.html       — share page for PC builds (query string is passed through to the builder)
   data/share_index.json — compact archive of shared news (the site can still show an old news
                        card after it has left the feed); capped, oldest removed together with pages
-  sitemap.xml, robots.txt
+  sitemap.xml, robots.txt — sitemap lists the home page + every static page from
+                       scripts/build_static_pages.py (guides/, games/, tools/, news/)
+  guides/ games/ tools/ news/ — prerendered pages for search engines (build_static_pages.py)
   index.html         — only the block between <!-- np:verify:start --> and <!-- np:verify:end -->:
                        Yandex / Google / Bing verification meta tags from data/site_config.json
                        (empty values → no tags)
@@ -169,16 +171,33 @@ def latest_update() -> str:
     return (best or datetime.now(MSK).isoformat())[:10]
 
 
-def seo_files() -> None:
+def static_pages() -> list:
+    """Prerendered pages (guides/, games/, tools/, news/). On any failure the pages already on
+    disk stay in the sitemap, and share pages / verification tags are still updated."""
+    try:
+        import build_static_pages
+    except Exception as ex:  # noqa: BLE001
+        log(f"[static] import failed: {ex}")
+        return []
+    try:
+        return build_static_pages.build()
+    except Exception as ex:  # noqa: BLE001
+        log(f"[static] build failed, keeping existing pages: {type(ex).__name__}: {ex}")
+        return build_static_pages.sitemap_entries_from_manifest()
+
+
+def seo_files(pages: list | None = None) -> None:
+    urls = [{"loc": SITE, "lastmod": latest_update(), "changefreq": "hourly", "priority": "1.0"}] + list(pages or [])
+    body = "".join(f"""  <url>
+    <loc>{e(u['loc'])}</loc>
+    <lastmod>{e(u['lastmod'])}</lastmod>
+    <changefreq>{e(u['changefreq'])}</changefreq>
+    <priority>{e(u['priority'])}</priority>
+  </url>
+""" for u in urls)
     sitemap = f"""<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>{e(SITE)}</loc>
-    <lastmod>{latest_update()}</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>1.0</priority>
-  </url>
-</urlset>
+{body}</urlset>
 """
     robots = f"""User-agent: *
 Allow: /
@@ -188,7 +207,7 @@ Sitemap: {SITE}sitemap.xml
 """
     a = write_if_changed(ROOT / "sitemap.xml", sitemap)
     b = write_if_changed(ROOT / "robots.txt", robots)
-    log(f"[seo] sitemap {'updated' if a else 'same'}, robots {'updated' if b else 'same'}")
+    log(f"[seo] sitemap ({len(urls)} URLs) {'updated' if a else 'same'}, robots {'updated' if b else 'same'}")
 
 
 VERIFY_RE = re.compile(r"(<!-- np:verify:start -->)(.*?)(<!-- np:verify:end -->)", re.S)
@@ -223,7 +242,7 @@ def verification_tags() -> None:
 
 def main() -> int:
     share_pages()
-    seo_files()
+    seo_files(static_pages())
     verification_tags()
     return 0
 
