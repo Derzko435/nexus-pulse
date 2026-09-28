@@ -7,6 +7,8 @@ Reads the same data the SPA uses and writes real HTML pages next to index.html:
   tools/<slug>/index.html — landing pages for the SPA tools (FPS / specs tables from app.js)
   news/<id>/index.html    — news from data/share_index.json (+ excerpt from data/news.json)
   guides/ games/ tools/ news/ index.html — list pages
+  free-games/index.html   — giveaways hub from data/freebies.json + data/freebies_archive.json
+                            (status now / upcoming / over is computed at build time, MSK)
   data/seo_pages.json     — content hash + lastmod per page (stable sitemap <lastmod>)
   data/news_excerpts.json — short article excerpts kept after a news item leaves news.json, so
                             its page does not change (or thin out) later; pruned with the archive.
@@ -25,6 +27,7 @@ import hashlib
 import html
 import json
 import math
+import os
 import re
 from datetime import datetime
 from pathlib import Path
@@ -397,7 +400,7 @@ def layout(*, path: str, title: str, desc: str, body: str, crumbs: list, og_type
         f'<li><a href="{e(rel + p) if p else e(rel)}">{e(name)}</a></li>' if i < len(crumbs) - 1 else f'<li aria-current="page">{e(name)}</li>'
         for i, (name, p) in enumerate(crumbs))
     scripts = "\n".join(ld(x) for x in (jsonld or []) + [crumb_ld])
-    nav = [("news/", "Новости"), ("games/", "Игры"), ("guides/", "Гайды"), ("tools/", "Инструменты")]
+    nav = [("news/", "Новости"), ("games/", "Игры"), ("guides/", "Гайды"), ("tools/", "Инструменты"), ("free-games/", "Халява")]
     cur = path.split("/")[0] + "/"
     cur_attr = ' aria-current="true"'
     nav_html = "".join(f'<li><a href="{rel}{p}"{cur_attr if p == cur else ""}>{n}</a></li>' for p, n in nav)
@@ -461,7 +464,7 @@ def layout(*, path: str, title: str, desc: str, body: str, crumbs: list, og_type
 <a href="{rel}#calendar">Релизы</a>
 <a href="{rel}#esports">Киберспорт</a>
 <a href="{rel}#deals">Скидки</a>
-<a href="{rel}#freebies">Халява</a>
+<a href="{rel}free-games/">Халява</a>
 <a href="{rel}#community">Discord</a>
 </nav>
 </div>
@@ -666,6 +669,7 @@ def games_index(games, catalog):
 <p class="eyebrow">Каталог</p>
 <h1 class="sp-h1">Каталог игр NEXUS PULSE</h1>
 <p class="section-desc">{e(desc)}</p>
+<p class="section-desc">🎁 <a href="../free-games/">Бесплатные игры сейчас</a>: текущие раздачи Epic Games, Steam и GOG.</p>
 {"".join(blocks)}
 </section>"""
     lst = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "Каталог игр NEXUS PULSE", "url": SITE + path, "inLanguage": "ru",
@@ -735,6 +739,7 @@ def tools_index():
 <p class="eyebrow">Инструменты</p>
 <h1 class="sp-h1">Практические инструменты для геймеров</h1>
 <p class="section-desc">{e(desc)}</p>
+<p class="section-desc">🎁 <a href="../free-games/">Бесплатные игры сейчас</a>: текущие раздачи Epic Games, Steam и GOG.</p>
 <div class="cards-grid sp-grid">{cards}</div>
 </section>"""
     lst = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "Инструменты NEXUS PULSE", "url": SITE + path, "inLanguage": "ru",
@@ -745,6 +750,7 @@ def tools_index():
 
 # ---------------------------------------------------------------- news
 NEWS_EXCERPT_CHARS = 700
+GIVEAWAY_NEWS = re.compile(r"(раздач|халяв|забрать бесплатно|бесплатно (?:забрать|раздают|отдают|получить|раздаст|отдаст))", re.I)
 
 
 def news_excerpt(n: dict) -> list:
@@ -809,6 +815,7 @@ def news_page(n, idx, items, games, catalog):
 {f"<p><strong>{e(summary)}</strong></p>" if summary else ""}
 {"".join(f"<p>{e(p)}</p>" for p in excerpt)}
 <p class="npv-source">Источник: {e(n.get("source") or "игровое издание")}. Полная версия материала — на сайте издания{f': <a href="{e(src)}" target="_blank" rel="noopener noreferrer">читать в источнике ↗</a>' if src else "."}</p>
+{'<p>🎁 Все текущие раздачи, время окончания по МСК и инструкции — на странице <a href="../../free-games/">«Бесплатные игры и раздачи сегодня»</a>.</p>' if GIVEAWAY_NEWS.search(n["title"]) else ""}
 {('<section class="guide-sec"><h2>Игры в новости</h2>' + links_list([(f"../../games/{g['id']}/", g["title"], g.get("genre")) for g in hits]) + "</section>") if hits else ""}
 </div>
 <div class="npv-actions sp-actions">
@@ -854,6 +861,503 @@ def news_index(items):
     return path, title, desc, body, [("Главная", ""), ("Новости", path)], "website", "", [lst]
 
 
+# ---------------------------------------------------------------- free games (free-games/)
+FREEBIES_FILE = DATA / "freebies.json"
+FREEBIES_ARCHIVE = DATA / "freebies_archive.json"
+# curated placeholder rows (not concrete giveaways) — same filter as np_digest.py / discord_feeds.py
+CURATED_FREEBIE = re.compile(r"(-always$|^gog-giveaway|^prime-)")
+FREE_TO_PLAY = ["cs2", "dota2", "fortnite", "apex", "valorant", "lol", "destiny2", "ow2", "poe2", "lostark", "gw2", "rocket"]
+CHECKED_MONTH = "сентябрь 2026"  # «Проверено» for the Russia table — update by hand after a manual re-check
+TRACKED_SINCE = "сентября 2026 года"
+ARCHIVE_MONTHS = 12
+MONTHS_NOM = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"]
+TG_URL = "https://t.me/nexuspulse_news"
+EPIC_FREE_URL = "https://store.epicgames.com/ru/free-games"
+
+
+def now_msk() -> datetime:
+    """Current MSK time. NP_NOW (ISO datetime) overrides it — only for tests (giveaway rollover)."""
+    forced = os.environ.get("NP_NOW")
+    if forced:
+        d = datetime.fromisoformat(forced)
+        return (d if d.tzinfo else d.replace(tzinfo=MSK)).astimezone(MSK)
+    return datetime.now(MSK)
+
+
+def parse_iso(v) -> datetime | None:
+    try:
+        d = datetime.fromisoformat(str(v or "").replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    return d.astimezone(MSK) if d.tzinfo else None
+
+
+def ru_day(d: datetime, year: bool = False) -> str:
+    return f"{d.day} {MONTHS[d.month - 1]}" + (f" {d.year}" if year else "")
+
+
+def ru_dt(d: datetime, year: bool = False) -> str:
+    return f"{ru_day(d, year)}, {d:%H:%M}"
+
+
+def rub(n) -> str:
+    try:
+        v = int(n)
+    except (TypeError, ValueError):
+        return ""
+    return f"{v:,}".replace(",", "\u00a0") + "\u00a0₽" if v > 0 else ""
+
+
+def and_join(names: list) -> str:
+    return names[0] if len(names) == 1 else ", ".join(names[:-1]) + " и " + names[-1] if names else ""
+
+
+def load_freebies(now: datetime) -> dict:
+    """Real giveaways from data/freebies.json (+ archive), with status computed for `now`.
+    Curated placeholder rows never become giveaways. Old-format rows (no startsAt/endsAt) still work:
+    the end is then a date only and «upcoming» comes from the note."""
+    payload = read_json(FREEBIES_FILE, {}) or {}
+    arch = [x for x in (read_json(FREEBIES_ARCHIVE, {}) or {}).get("items") or [] if isinstance(x, dict)]
+    by_id = {}
+    for a in arch:  # newest start per id wins (description / image for the H3 blocks)
+        if a.get("id") and (a.get("startsAt") or "") >= (by_id.get(a["id"], {}).get("startsAt") or ""):
+            by_id[a["id"]] = a
+    now_items, soon, curated = [], [], []
+    for it in payload.get("items") or []:
+        if not isinstance(it, dict) or not it.get("title"):
+            continue
+        fid = str(it.get("id") or "")
+        if CURATED_FREEBIE.search(fid):
+            curated.append(it)
+            continue
+        g = dict(it)
+        g["start"], g["end"] = parse_iso(it.get("startsAt")), parse_iso(it.get("endsAt"))
+        g["url"] = https(it.get("claimUrl")) or EPIC_FREE_URL
+        a = by_id.get(fid) or {}
+        g["description"] = a.get("description") or ""
+        g["image"] = https(it.get("image")) or https(a.get("image"))
+        if g["end"] and g["end"] <= now:
+            continue  # over — only the archive shows it
+        if not g["end"]:
+            try:
+                if datetime.fromisoformat(str(it.get("until"))[:10]).date() < now.date():
+                    continue
+            except ValueError:
+                pass
+        if g["start"]:
+            upcoming = g["start"] > now
+        else:
+            upcoming = it.get("status") == "upcoming" or "скоро" in str(it.get("note") or "").lower()
+        (soon if upcoming else now_items).append(g)
+    key = lambda g: (g["end"] or now.replace(year=2099), g["title"].lower())  # noqa: E731
+    now_items.sort(key=key)
+    soon.sort(key=lambda g: (g["start"] or now.replace(year=2099), g["title"].lower()))
+    past = []
+    for a in arch:
+        st, en = parse_iso(a.get("startsAt")), parse_iso(a.get("endsAt"))
+        if st and st <= now and a.get("title"):
+            past.append(dict(a, start=st, end=en))
+    past.sort(key=lambda a: (a["start"], a["title"].lower()), reverse=True)
+    return {"updated": parse_iso(payload.get("updatedAt")), "source": payload.get("source") or "",
+            "now": now_items, "soon": soon, "curated": curated, "archive": past}
+
+
+def fg_until(g: dict) -> str:
+    if g.get("end"):
+        return ru_dt(g["end"])
+    return ru_day(datetime.fromisoformat(str(g["until"])[:10])) + " (время уточняется)" if g.get("until") else "—"
+
+
+def fg_time(d: datetime | None, txt: str) -> str:
+    return f'<time datetime="{e(d.isoformat())}">{e(txt)}</time>' if d else e(txt)
+
+
+def fg_attrs(g: dict) -> str:
+    out = ""
+    if g.get("start"):
+        out += f' data-start="{e(g["start"].isoformat())}"'
+    if g.get("end"):
+        out += f' data-end="{e(g["end"].isoformat())}"'
+    return out
+
+
+def fg_ends_phrase(items: list) -> str:
+    """«до 1 октября 2026, 18:00 МСК» when every item ends at the same moment, else per item."""
+    ends = {g["end"] for g in items if g.get("end")}
+    if len(ends) == 1 and all(g.get("end") for g in items):
+        d = next(iter(ends))
+        return f"до {ru_dt(d, year=True)} МСК"
+    days = {str(g.get("until") or "")[:10] for g in items}
+    if len(days) == 1 and not any(g.get("end") for g in items):
+        try:
+            return f"до {ru_day(datetime.fromisoformat(next(iter(days))), year=True)}"
+        except ValueError:
+            pass
+    return "; ".join(f"{g['title']} — до {fg_until(g)}" + (" МСК" if g.get("end") else "") for g in items)
+
+
+def fg_lead(fb: dict) -> tuple[str, str]:
+    """(html, plain) answer-first lead."""
+    now_items, soon = fb["now"], fb["soon"]
+    epic_now = [g for g in now_items if g.get("store") == "Epic Games"]
+    parts_html, parts_txt = [], []
+    if fb["source"] == "curated-fallback":
+        t = ("Данные Epic Games Store временно не обновились, поэтому таблица ниже может быть неполной. "
+             "Актуальный список всегда есть на официальной странице бесплатных игр Epic.")
+        return (f'<p class="guide-lead fg-lead">{e(t)} <a href="{EPIC_FREE_URL}" target="_blank" rel="noopener">Открыть страницу Epic ↗</a></p>', t)
+    if epic_now:
+        names = and_join([g["title"] for g in epic_now])
+        verb = "раздают" if len(epic_now) > 1 else "раздают игру"
+        ends = fg_ends_phrase(epic_now)
+        t1 = f"Сейчас в Epic Games Store бесплатно {verb} {names}: забрать {'их' if len(epic_now) > 1 else 'её'} можно {ends}, а полученные игры остаются в библиотеке навсегда."
+        h1 = (f"Сейчас в Epic Games Store бесплатно {verb} " + and_join([f"<strong>{e(g['title'])}</strong>" for g in epic_now])
+              + f": забрать {'их' if len(epic_now) > 1 else 'её'} можно <strong>{e(ends)}</strong>, а полученные игры остаются в библиотеке навсегда.")
+    else:
+        nxt = next((g for g in soon if g.get("start")), None)
+        t1 = ("Сейчас в Epic Games Store нет активной бесплатной раздачи." +
+              (f" Следующая начнётся {ru_dt(nxt['start'], year=True)} МСК." if nxt else " Обычно новая раздача стартует в четверг в 18:00 МСК."))
+        h1 = e(t1)
+    parts_html.append(h1)
+    parts_txt.append(t1)
+    epic_soon = [g for g in soon if g.get("store") == "Epic Games"]
+    if epic_soon:
+        st = {g["start"] for g in epic_soon if g.get("start")}
+        when = f"С {ru_dt(next(iter(st)))} МСК" if len(st) == 1 else "Скоро"
+        t2 = f"{when} бесплатными станут {and_join([g['title'] for g in epic_soon])}."
+        parts_txt.append(t2)
+        parts_html.append(f"{e(when)} бесплатными станут " + and_join([f"<strong>{e(g['title'])}</strong>" for g in epic_soon]) + ".")
+    if fb["updated"]:
+        t3 = f"Обновлено: {ru_dt(fb['updated'], year=True)} МСК."
+        parts_txt.append(t3)
+        parts_html.append(f'Обновлено: <time datetime="{e(fb["updated"].isoformat())}">{e(ru_dt(fb["updated"], year=True))} МСК</time>.')
+    return f'<p class="guide-lead fg-lead">{" ".join(parts_html)}</p>', " ".join(parts_txt)
+
+
+def fg_desc(fb: dict) -> str:
+    epic_now = [g for g in fb["now"] if g.get("store") == "Epic Games"]
+    if epic_now and fb["source"] != "curated-fallback":
+        names = and_join([g["title"] for g in epic_now[:3]])
+        ends = {g["end"] for g in epic_now if g.get("end")}
+        when = f" до {ru_dt(next(iter(ends)))} МСК" if len(ends) == 1 else ""
+        d = f"Сейчас бесплатно в Epic Games: {names}{when}. Раздачи Steam, GOG и Prime, как забрать из России, архив."
+        upd = f" Обновлено {ru_day(fb['updated'])}." if fb["updated"] else ""
+        if len(d + upd) <= 170:
+            d += upd
+        return d if len(d) <= 200 else clip(d, 200)
+    return ("Все бесплатные раздачи игр в Epic Games, Steam, GOG и Prime в одном месте: время окончания по МСК, "
+            "инструкции и архив. Обновляется каждые 2 часа.")
+
+
+# Editorial blocks (brief /home/box/seo/brief-free-games.md). Anything that depends on a live account
+# (claiming from a Russian account, card at checkout, GOG newsletter, Steam cards…) is worded cautiously.
+FG_STORES = [
+    ("Как забрать игру в Epic Games Store (в том числе из России)", "epic", [
+        "Войдите в аккаунт Epic Games на сайте store.epicgames.com или в лаунчере Epic Games. Если аккаунта нет, зарегистрируйтесь: это бесплатно.",
+        "Откройте страницу игры по кнопке «Забрать» в таблице выше. Ссылки ведут прямо в официальный магазин, без посредников.",
+        "Нажмите «Получить». Если вместо неё написано «В библиотеке», игра уже на вашем аккаунте.",
+        "В окне оформления заказа убедитесь, что итоговая сумма равна 0 ₽, и подтвердите заказ. Обычно для бесплатного заказа платёжные данные не запрашиваются, но окно может отличаться — ориентируйтесь на сумму.",
+        "Игра появится в разделе «Библиотека» лаунчера. Скачать её можно в любой момент, в том числе после окончания раздачи.",
+    ], "Где потом найти игру: лаунчер Epic Games → «Библиотека». С телефона раздачу можно оформить через браузер, открыв ту же страницу магазина. У Epic есть и отдельные раздачи мобильных игр для Android и iOS; их мы пока не отслеживаем."),
+    ("Как забрать бесплатную игру в Steam", "steam", [
+        "Войдите в Steam: в клиенте или на сайте store.steampowered.com.",
+        "Откройте страницу игры. В блоке покупки навсегда раздаваемая игра обычно отмечена ценой «Бесплатно» и кнопкой «Добавить на аккаунт».",
+        "Нажмите «Добавить на аккаунт» — игра появится в библиотеке и останется там после окончания акции.",
+        "Если вместо этого видите «Играть», «Бесплатные выходные» или ограничение по времени, это временный доступ, а не раздача: после акции запустить игру без покупки не получится.",
+    ], "Где потом найти игру: клиент Steam → «Библиотека». Коллекционные карточки у бесплатно полученных игр не гарантированы: если они важны, проверьте страницу игры до получения."),
+    ("Как получить игру в GOG", "gog", [
+        "Войдите в аккаунт на GOG.com.",
+        "Раздача обычно появляется баннером на главной странице GOG. Нажмите в нём кнопку получения игры.",
+        "Проверьте, что игра добавилась в библиотеку GOG (или в GOG Galaxy, если пользуетесь клиентом).",
+        "Скачайте игру, когда удобно: GOG продаёт игры без DRM, и раздачи обычно можно скачать как обычный установщик.",
+    ], "Где потом найти игру: GOG.com → «Мои игры» или GOG Galaxy. Если после получения вы начали получать письма от магазина, настройки рассылки есть в профиле GOG."),
+    ("Prime Gaming теперь Amazon Luna: как забрать игры по подписке Prime", "luna", [
+        "Войдите в аккаунт Amazon с активной подпиской Prime.",
+        "Откройте раздел Claims на luna.amazon.com/claims — старый адрес gaming.amazon.com теперь перенаправляет туда.",
+        "Выберите игру и следуйте инструкции конкретного предложения: часто это код или привязка аккаунта другого магазина.",
+        "Активируйте код там, где указано в предложении: в Epic Games Store, GOG, приложении Amazon Games или другом магазине.",
+    ], "Где потом найти игру: в библиотеке того магазина, где активирован код. Amazon прямо пишет, что набор предложений зависит от страны, а подписку Prime в России обычным способом не оформить, поэтому для большинства читателей из России этот раздел справочный."),
+]
+
+FG_STORE_LINKS = {
+    "epic": ("Бесплатные игры Epic Games Store", EPIC_FREE_URL),
+    "steam": ("Бесплатные игры в Steam (free-to-play)", "https://store.steampowered.com/genre/Free%20to%20Play/"),
+    "gog": ("Бесплатные игры и раздачи GOG", "https://www.gog.com/en/games?priceRange=0,0&discounted=true"),
+    "luna": ("Amazon Luna → Claims", "https://luna.amazon.com/claims/home"),
+}
+
+FG_OTHER_STORES = [
+    ("Steam", "Бессрочные раздачи в Steam бывают несколько раз в год: издатель на короткое время делает платную игру бесплатной, и её можно добавить на аккаунт навсегда. Гораздо чаще Steam проводит бесплатные выходные, когда игру дают только попробовать. Конкретные раздачи Steam мы пока добавляем вручную, поэтому здесь они появятся не сразу.", "steam"),
+    ("GOG", "GOG устраивает раздачи реже, чем Epic, но регулярно: обычно это баннер на главной странице магазина, который висит несколько дней. Игры GOG продаются без DRM, так что полученную игру можно хранить как обычный установщик. Отдельные раздачи GOG мы тоже пока отмечаем вручную.", "gog"),
+    ("Amazon Luna (бывший Prime Gaming)", "Бренд Prime Gaming Amazon свернул: бесплатные PC-игры для подписчиков Prime теперь выдаются в разделе Claims на Amazon Luna, а сам Amazon называет их Free Games with Prime. Обычно это несколько игр в месяц с кодами для Epic Games Store, GOG или приложения Amazon Games. Нужна активная подписка Prime.", "luna"),
+    ("Ubisoft Connect и другие лаунчеры", "Ubisoft, EA и другие издатели иногда раздают игры в собственных лаунчерах. Схема та же: войти в аккаунт на официальном сайте, открыть страницу акции и нажать кнопку получения. Такие акции редкие и короткие, поэтому о них лучше узнавать из новостей.", ""),
+]
+
+FG_RUSSIA_ROWS = [
+    ("Epic Games Store", "Как правило, да", "Большинство раздач доступны российским аккаунтам. Отдельные игры издатель закрывает для региона — тогда игры нет в разделе раздач или появляется сообщение «Этот продукт недоступен в вашем регионе». Мы запрашиваем данные Epic для региона RU, но проверяйте кнопку «Получить» на своём аккаунте."),
+    ("Steam", "Как правило, да", "Раздачи оформляются кнопкой «Добавить на аккаунт». Игры, которые издатель заблокировал для России, в магазине не показываются."),
+    ("GOG", "Как правило, да", "Раздача получается кнопкой на баннере. Перед тем как рассчитывать на конкретную игру, проверьте её на своём аккаунте."),
+    ("Amazon Luna / Prime", "Практически нет", "Нужна действующая подписка Amazon Prime, а в России её обычным способом не оформить. Набор предложений зависит от страны."),
+    ("PS Plus / PlayStation Store", "Нет, с российского аккаунта", "Sony приостановила работу PlayStation Store в России в марте 2022 года. Игры месяца PS Plus — это доступ по подписке, а не раздача."),
+    ("Xbox Game Pass", "Не раздача", "Игры из каталога доступны, пока оплачена подписка; после её окончания запустить их без покупки нельзя."),
+]
+
+FG_TYPES = [
+    ("Раздача (free to keep)", "Получили до конца акции — игра ваша навсегда", "Epic Games Store, Steam («Добавить на аккаунт»), GOG, Amazon Luna"),
+    ("Бесплатные выходные, пробный период", "Играть можно несколько дней, потом доступ закрывается. Прогресс обычно сохраняется, если купить игру", "Steam, Ubisoft, Xbox"),
+    ("Подписка", "Игры доступны, пока оплачена подписка", "PS Plus, Xbox Game Pass, Ubisoft+"),
+    ("Free-to-play", "Игра бесплатна всегда, деньги берут за внутриигровые покупки", "CS2, Dota 2, Fortnite, Warframe"),
+]
+
+
+def fg_faq(fb: dict) -> list:
+    epic_now = [g for g in fb["now"] if g.get("store") == "Epic Games"]
+    epic_soon = [g for g in fb["soon"] if g.get("store") == "Epic Games"]
+    if fb["source"] == "curated-fallback":
+        a1 = ("Сейчас мы не смогли получить свежие данные Epic Games Store, поэтому точный список лучше посмотреть на официальной странице "
+              "бесплатных игр Epic. Обычно там одновременно раздают одну-две игры, а полученные игры остаются в библиотеке навсегда.")
+    elif epic_now:
+        a1 = (f"Сейчас в Epic Games Store бесплатно раздают {and_join([g['title'] for g in epic_now])}, забрать можно {fg_ends_phrase(epic_now)}. "
+              "После получения игры остаются в библиотеке навсегда, скачивать их сразу не обязательно. Таблица в начале страницы обновляется автоматически, а время окончания указано по Москве.")
+    else:
+        a1 = ("Прямо сейчас активной бесплатной раздачи в Epic Games Store нет. Новая раздача обычно начинается в четверг в 18:00 МСК; "
+              "как только она появится в магазине, она попадёт в таблицу в начале этой страницы.")
+    starts = sorted({g["start"] for g in epic_soon if g.get("start")})
+    if epic_soon and starts:
+        a2 = (f"Следующая раздача в Epic Games начнётся {ru_dt(starts[0], year=True)} МСК: {and_join([g['title'] for g in epic_soon])}. "
+              "Обычно Epic меняет бесплатные игры каждый четверг в 18:00 по Москве, но на праздники, особенно в декабре, график бывает другим.")
+    else:
+        a2 = ("Обычно Epic Games меняет бесплатные игры каждый четверг в 18:00 по Москве и заранее, примерно за неделю, показывает следующую раздачу. "
+              "На праздники, особенно в декабре, график бывает другим. Как только анонс появится, он будет в блоке «Скоро бесплатно».")
+    return [
+        ("Какие игры сейчас бесплатно в Epic Games?", a1),
+        ("Когда следующая раздача в Epic Games и во сколько она обновляется?", a2),
+        ("Можно ли забрать бесплатную игру в Epic Games из России?",
+         "Как правило, да: бесплатные раздачи Epic Games Store обычно можно получить с российского аккаунта обычным способом, без смены региона. "
+         "Исключение — игры, которые издатель закрыл для России: их нет в разделе раздач или кнопка получения недоступна. Проверяйте каждую игру на своём аккаунте."),
+        ("Что значит «Этот продукт недоступен в вашем регионе» в Epic Games?",
+         "Это значит, что издатель закрыл продажу и раздачу игры для страны вашего аккаунта. Легального способа получить такую игру нет: "
+         "смена региона и VPN нарушают правила Epic Games и могут закончиться блокировкой аккаунта. Остаётся дождаться следующей раздачи: новые игры появляются почти каждую неделю."),
+        ("Игры из раздачи остаются навсегда?",
+         "Да, если вы нажали «Получить» или «Добавить на аккаунт» до конца акции, игра остаётся на аккаунте и после раздачи. "
+         "Скачивать её сразу не обязательно: установить игру можно в любой момент из библиотеки магазина. Это не касается бесплатных выходных и подписок."),
+        ("Нужна ли банковская карта, чтобы забрать бесплатную игру?",
+         "Обычно нет: в Epic Games Store, Steam и GOG бесплатная игра оформляется заказом на 0 ₽, и платёжные данные для этого, как правило, не запрашиваются. "
+         "Магазины могут менять оформление заказа, поэтому ориентируйтесь на итоговую сумму и не вводите данные карты ради бесплатной игры."),
+        ("Как забрать бесплатную игру в Steam в России?",
+         "Откройте страницу игры в Steam и нажмите «Добавить на аккаунт» — игра появится в библиотеке навсегда. "
+         "Раздачи Steam с российского аккаунта, как правило, работают, если игра не заблокирована для России издателем. Кнопка «Играть» вместо «Добавить на аккаунт» означает временный доступ, а не раздачу навсегда."),
+        ("Что такое бесплатные выходные в Steam?",
+         "Бесплатные выходные в Steam — это временный доступ: игру можно запускать несколько дней бесплатно, но после акции она не остаётся доступной без покупки. "
+         "Навсегда остаются только игры, которые вы добавили на аккаунт кнопкой «Добавить на аккаунт» во время раздачи. Прогресс из бесплатных выходных обычно сохраняется, если потом купить игру."),
+        ("Как получить раздачу в GOG?",
+         "Войдите на GOG.com и нажмите кнопку получения в баннере раздачи на главной странице — игра появится в библиотеке аккаунта. "
+         "Скачать её можно на сайте или через GOG Galaxy. Раздачи GOG идут реже, чем в Epic, и обычно длятся несколько дней."),
+        ("Куда делся Prime Gaming?",
+         "Prime Gaming стал частью Amazon Luna: бесплатные PC-игры для подписчиков Prime теперь выдаются в разделе Claims на luna.amazon.com/claims, "
+         "а старый адрес gaming.amazon.com перенаправляет туда. Нужна активная подписка Amazon Prime, набор игр зависит от страны. Обычно это несколько игр в месяц с кодами для других магазинов."),
+        ("Бесплатные игры PS Plus — это раздача?",
+         "Нет, игры месяца PS Plus доступны, только пока действует подписка: если она закончится, запустить их без продления нельзя. "
+         "К тому же в марте 2022 года Sony приостановила работу PlayStation Store в России. Поэтому игры месяца PS Plus мы не считаем раздачами и не добавляем в таблицы."),
+        ("Безопасны ли сайты с раздачей ключей Steam?",
+         "Настоящие раздачи проходят только в официальных магазинах, и ключ для них не нужен. Сайты, которые просят войти через Steam на стороннем домене "
+         "или «выполнить задания» ради ключа, часто используют это для угона аккаунтов. Проверяйте адрес страницы перед вводом пароля и никому не сообщайте коды Steam Guard."),
+    ]
+
+
+def fg_now_table(items: list, games, catalog) -> str:
+    rows = ""
+    for g in items:
+        price = rub(g.get("price_rub"))
+        rows += (f'<tr{fg_attrs(g)}><th scope="row">{e(g["title"])}</th><td>{e(g.get("store"))}</td>'
+                 f'<td>{fg_time(g.get("end"), fg_until(g))}</td><td>{e(price) if price else "—"}</td>'
+                 f'<td><a class="btn btn-primary btn-sm" href="{e(g["url"])}" target="_blank" rel="noopener">Забрать</a></td></tr>')
+    return (f'<div class="sp-table-wrap"><table class="sp-table fg-table" id="fgNowTable"><thead><tr><th>Игра</th><th>Магазин</th>'
+            f'<th>Бесплатно до (МСК)</th><th>Обычная цена</th><th>Забрать</th></tr></thead><tbody>{rows}</tbody></table></div>')
+
+
+def fg_soon_table(items: list) -> str:
+    rows = ""
+    for g in items:
+        price = rub(g.get("price_rub"))
+        st = fg_time(g["start"], ru_dt(g["start"])) if g.get("start") else "скоро"
+        rows += (f'<tr{fg_attrs(g)}><th scope="row">{e(g["title"])}</th><td>{e(g.get("store"))}</td><td>{st}</td>'
+                 f'<td>{fg_time(g.get("end"), fg_until(g))}</td><td>{e(price) if price else "—"}</td>'
+                 f'<td><a href="{e(g["url"])}" target="_blank" rel="noopener">Страница игры ↗</a></td></tr>')
+    return (f'<div class="sp-table-wrap"><table class="sp-table fg-table" id="fgSoonTable"><thead><tr><th>Игра</th><th>Магазин</th>'
+            f'<th>Начало (МСК)</th><th>Конец (МСК)</th><th>Обычная цена</th><th>Ссылка</th></tr></thead><tbody>{rows}</tbody></table></div>')
+
+
+def fg_archive(items: list, now: datetime) -> str:
+    months = []
+    for a in items:
+        k = (a["start"].year, a["start"].month)
+        if not months or months[-1][0] != k:
+            months.append((k, []))
+        months[-1][1].append(a)
+    out = ""
+    for (y, m), lst in months[:ARCHIVE_MONTHS]:
+        rows = ""
+        for a in lst:
+            dates = ru_dt(a["start"]) + (" — " + ru_dt(a["end"]) if a.get("end") else "")
+            live = a.get("end") and a["start"] <= now < a["end"]
+            price = rub(a.get("price_rub"))
+            flag = ' <span class="sp-note">· идёт сейчас</span>' if live else ""
+            rows += (f'<tr><th scope="row">{e(a["title"])}{flag}</th>'
+                     f'<td>{e(a.get("store"))}</td><td>{e(dates)}</td><td>{e(price) if price else "—"}</td></tr>')
+        out += (f'<h3>{MONTHS_NOM[m - 1]} {y}</h3><div class="sp-table-wrap"><table class="sp-table fg-table"><thead><tr><th>Игра</th>'
+                f'<th>Магазин</th><th>Даты (МСК)</th><th>Обычная цена</th></tr></thead><tbody>{rows}</tbody></table></div>')
+    return out or "<p>Архив пока пуст: первые записи появятся после следующей проверки раздач.</p>"
+
+
+def giveaway_news(news: list) -> list:
+    return [n for n in news if GIVEAWAY_NEWS.search(n.get("title") or "")][:4]
+
+
+def free_games_page(games, catalog, news):
+    path = "free-games/"
+    now = now_msk()
+    fb = load_freebies(now)
+    games_by_id = {g["id"]: g for g in games}
+    lead_html, _ = fg_lead(fb)
+    title = "Раздачи игр сегодня: бесплатные игры Epic Games, Steam, GOG"
+    desc = fg_desc(fb)
+    image = next((g["image"] for g in fb["now"] if g.get("image")), "")
+    upd_txt = f"{ru_dt(fb['updated'], year=True)} МСК" if fb["updated"] else "—"
+    # --- now
+    if fb["now"]:
+        now_block = fg_now_table(fb["now"], games, catalog)
+    elif fb["source"] == "curated-fallback":
+        now_block = f'<p class="fg-empty">Данные Epic временно не обновились. Проверьте <a href="{EPIC_FREE_URL}" target="_blank" rel="noopener">страницу бесплатных игр Epic</a>: раздача там может идти, даже если таблица пуста.</p>'
+    else:
+        nxt = next((g for g in fb["soon"] if g.get("start")), None)
+        now_block = ('<p class="fg-empty">Сейчас в Epic нет активной раздачи. ' +
+                     (f"Следующая начнётся {e(ru_dt(nxt['start']))} МСК.</p>" if nxt else "Новая обычно начинается по четвергам в 18:00 МСК.</p>"))
+    empty_now = '<p class="fg-empty" id="fgNowEmpty" hidden>Раздача, которая была в таблице, закончилась. Страница обновится автоматически в течение пары часов — следите за блоком «Скоро бесплатно».</p>'
+    game_blocks = ""
+    for g in fb["now"]:
+        hit = match_games(g["title"], games, catalog)
+        link = f' <a href="../games/{e(hit[0]["id"])}/">Страница игры в каталоге NEXUS PULSE</a>.' if hit else ""
+        d = clip(g.get("description"), 320)
+        if d or link:
+            src = f' <span class="sp-note">(описание из магазина {e(g.get("store"))})</span>' if d else ""
+            game_blocks += f'<h3>{e(g["title"])}</h3><p>{e(d)}{src}{link}</p>'
+    gnews = giveaway_news(news)
+    news_html = ("<p>Новости о раздачах: " + ", ".join(f'<a href="../news/{e(n["id"])}/">{e(clip(n["title"], 90))}</a>' for n in gnews)
+                 + '. Все материалы — в <a href="../news/">архиве новостей</a>.</p>') if gnews else '<p>Свежие анонсы раздач — в <a href="../news/">новостях</a>.</p>'
+    # --- soon
+    soon_block = fg_soon_table(fb["soon"]) if fb["soon"] else "<p>Анонса следующей раздачи Epic пока нет. Обычно он появляется в магазине за неделю до старта.</p>"
+    # --- other stores (only real, concrete non-Epic giveaways would be listed; curated rows are hints only)
+    other_real = [g for g in fb["now"] + fb["soon"] if g.get("store") != "Epic Games"]
+    other_html = ""
+    for h, txt, key in FG_OTHER_STORES:
+        link = FG_STORE_LINKS.get(key)
+        other_html += f'<h3>{e(h)}</h3><p>{e(txt)}' + (f' <a href="{e(link[1])}" target="_blank" rel="noopener">{e(link[0])} ↗</a>' if link else "") + "</p>"
+    f2p = [games_by_id[i] for i in FREE_TO_PLAY if i in games_by_id]
+    f2p_html = ('<p><strong>Всегда бесплатно (free-to-play):</strong> ' + ", ".join(f'<a href="../games/{e(g["id"])}/">{e(g["title"])}</a>' for g in f2p)
+                + ". Эти игры бесплатны постоянно, это не раздачи: скачать их можно в любой момент.</p>") if f2p else ""
+    # --- how to
+    howto = ""
+    for h, key, steps, tail in FG_STORES:
+        link = FG_STORE_LINKS.get(key)
+        extra = ' Свою библиотеку Steam можно подтянуть на сайт: <a href="../tools/steam-library-import/">импорт библиотеки Steam</a>.' if key == "steam" else ""
+        howto += (f'<h3>{e(h)}</h3><ol class="guide-steps">' + "".join(f"<li>{e(s)}</li>" for s in steps) + "</ol>"
+                  f'<p>{e(tail)}{extra}' + (f' <a href="{e(link[1])}" target="_blank" rel="noopener">{e(link[0])} ↗</a>' if link else "") + "</p>")
+    russia_rows = "".join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(c)}</td></tr>' for a, b, c in FG_RUSSIA_ROWS)
+    types_rows = "".join(f'<tr><th scope="row">{e(a)}</th><td>{e(b)}</td><td>{e(c)}</td></tr>' for a, b, c in FG_TYPES)
+    faq = fg_faq(fb)
+    faq_html = "".join(f'<h3>{e(q)}</h3><p>{e(a)}</p>' for q, a in faq)
+    toc = [("fg-now", "Что раздают прямо сейчас"), ("fg-soon", "Скоро бесплатно"), ("fg-stores", "Steam, GOG, Amazon Luna, Ubisoft"),
+           ("fg-howto", "Как забрать игру"), ("fg-russia", "Раздачи и Россия"), ("fg-types", "Навсегда, выходные или подписка"),
+           ("fg-alerts", "Как не пропустить раздачу"), ("fg-archive", "Архив раздач"), ("fg-faq", "Частые вопросы")]
+    body = f"""<article class="sp-article glass fg-page">
+<p class="eyebrow">Халява · раздачи игр</p>
+<h1 class="sp-h1">Бесплатные игры и раздачи сегодня: Epic Games, Steam, GOG и другие</h1>
+<div class="npv-body guide-body">
+{lead_html}
+<p>Данные о раздачах Epic сверяются с магазином автоматически каждые 2 часа. Новые раздачи сразу приходят в наш <a href="../#community">Discord</a> и <a href="{TG_URL}" target="_blank" rel="noopener">Telegram</a>.</p>
+<nav class="guide-toc sp-toc" aria-label="Содержание"><p>Содержание</p><ol>{"".join(f'<li><a href="#{a}">{e(b)}</a></li>' for a, b in toc)}</ol></nav>
+<section class="guide-sec" id="fg-now"><h2>Что раздают бесплатно прямо сейчас</h2>
+{now_block}
+{empty_now}
+<p>Забрать игру можно бесплатно и навсегда. Скачивать её сразу не нужно: достаточно добавить игру в библиотеку до конца раздачи, а установить — когда будет время.</p>
+{game_blocks}
+<p>Перед установкой полезно проверить, <a href="../tools/system-requirements/">потянет ли ПК игру — системные требования</a>, и прикинуть, <a href="../tools/fps-calculator/">сколько FPS она выдаст</a>. Если кадров мало, пригодится гайд о том, <a href="../guides/fps-boost/">как поднять FPS бесплатно</a>.</p>
+{news_html}
+</section>
+<section class="guide-sec" id="fg-soon"><h2>Скоро бесплатно: следующая раздача Epic Games</h2>
+{soon_block}
+<p>Epic обычно объявляет следующую раздачу примерно за неделю, а сама смена бесплатных игр чаще всего происходит по четвергам в 18:00 МСК. Это наблюдение, а не правило: на праздники график бывает другим, а в декабре Epic нередко устраивает ежедневные раздачи «таинственных игр», которые открываются по одной. Время в таблицах указано по Москве и берётся из данных самого магазина.</p>
+</section>
+<section class="guide-sec" id="fg-stores"><h2>Раздачи в Steam, GOG, Amazon Luna (Prime Gaming) и Ubisoft</h2>
+{fg_now_table(other_real, games, catalog) if other_real else "<p>Сейчас мы автоматически отслеживаем только Epic Games Store. По другим магазинам ниже — где искать раздачи и как часто они бывают.</p>"}
+{other_html}
+{f2p_html}
+</section>
+<section class="guide-sec" id="fg-howto"><h2>Как забрать бесплатную игру: инструкции по магазинам</h2>
+<p>Во всех магазинах схема одинаковая: войти в аккаунт, открыть официальную страницу игры и оформить её за 0 ₽. Ниже шаги для каждого магазина и подсказка, где потом искать игру.</p>
+{howto}
+</section>
+<section class="guide-sec" id="fg-russia"><h2>Раздачи и Россия: что работает, а что нет</h2>
+<p>Коротко: бесплатные игры в Epic Games Store, Steam и GOG с российского аккаунта, как правило, получить можно, а подписочные сервисы вроде Prime и PS Plus в России почти не доступны. Подробности по магазинам — в таблице.</p>
+<div class="sp-table-wrap"><table class="sp-table"><thead><tr><th>Магазин</th><th>Забрать бесплатную игру с российского аккаунта</th><th>Оговорки</th></tr></thead><tbody>{russia_rows}</tbody></table></div>
+<p class="sp-note">Проверено: {CHECKED_MONTH}, по открытым источникам. Ситуация может измениться: перед тем как рассчитывать на конкретную игру, проверьте её на своём аккаунте.</p>
+<p>Если игра недоступна в вашем регионе, легального способа её получить нет. Смена региона, VPN, прокси и покупка чужих аккаунтов нарушают правила Epic и Steam и могут привести к блокировке аккаунта вместе со всей библиотекой. Надёжнее дождаться следующей раздачи: они выходят каждую неделю.</p>
+</section>
+<section class="guide-sec" id="fg-types"><h2>Навсегда, бесплатные выходные или подписка: в чём разница</h2>
+<p>Слово «бесплатно» в магазинах означает разные вещи. Чтобы не перепутать раздачу с временным доступом, сверьтесь с таблицей.</p>
+<div class="sp-table-wrap"><table class="sp-table"><thead><tr><th>Тип</th><th>Что это значит</th><th>Где встречается</th></tr></thead><tbody>{types_rows}</tbody></table></div>
+<p>Главное отличие раздачи от остальных вариантов — игра остаётся у вас и после окончания акции. «Бесплатные игры PS Plus» и каталог Game Pass — это игры по подписке: пока она оплачена, в них можно играть, а после окончания доступ закрывается.</p>
+</section>
+<section class="guide-sec" id="fg-alerts"><h2>Как не пропустить следующую раздачу</h2>
+<ul>
+<li>Включите роль «🔔 Раздачи» в <a href="../#community">нашем Discord</a> — бот напишет, как только появится новая бесплатная игра.</li>
+<li>Подпишитесь на <a href="{TG_URL}" target="_blank" rel="noopener">Telegram-канал NEXUS PULSE</a>: раздачи приходят туда вместе с новостями.</li>
+<li>Добавьте эту страницу в закладки: адрес не меняется, а таблицы обновляются сами. Заодно загляните в <a href="../#deals">скидки и распродажи</a>.</li>
+</ul>
+<p>Про безопасность. Настоящие раздачи всегда проходят в официальном магазине: store.epicgames.com, store.steampowered.com, gog.com или luna.amazon.com. Сайты, которые предлагают «раздачу ключей Steam», просят войти через Steam на чужом домене или выполнить задания ради ключа, — частая схема угона аккаунтов. Проверяйте адрес страницы, прежде чем вводить пароль, и не сообщайте никому коды из приложения Steam Guard.</p>
+</section>
+<section class="guide-sec" id="fg-archive"><h2>Архив раздач: что раздавали раньше</h2>
+<p>Здесь все раздачи, которые мы отследили с {TRACKED_SINCE}. Более ранние раздачи в архив не попали: мы записываем только то, что видели сами.</p>
+{fg_archive(fb["archive"], now)}
+<p>Не знаете, во что поиграть из полученного? Попробуйте <a href="../tools/game-picker/">подбор игры под настроение</a>.</p>
+</section>
+<section class="guide-sec fg-faq" id="fg-faq"><h2>Частые вопросы</h2>
+{faq_html}
+</section>
+<p class="sp-note fg-source">Данные: API Epic Games Store (регион RU) и ручная проверка редакции. Последнее обновление: {e(upd_txt)}. Смотрите также <a href="../#freebies">раздачи на главной</a>, <a href="../#deals">скидки</a>, <a href="../#calendar">календарь релизов</a> и <a href="../news/">новости</a>.</p>
+</div>
+</article>
+<aside class="sp-aside glass">
+<h2 class="sp-h2">Коротко</h2>
+{links_list([(f"#fg-now", "Сейчас бесплатно", f"{len(fb['now'])} {PLURAL(len(fb['now']), 'игра', 'игры', 'игр')}"), ("#fg-soon", "Скоро бесплатно", f"{len(fb['soon'])} {PLURAL(len(fb['soon']), 'игра', 'игры', 'игр')}"), ("#fg-russia", "Работает ли из России", ""), ("#fg-archive", "Архив раздач", "")])}
+<h2 class="sp-h2">Полезное</h2>
+{links_list([("../tools/system-requirements/", "Системные требования игр", ""), ("../tools/fps-calculator/", "Калькулятор FPS", ""), ("../guides/fps-boost/", "Как поднять FPS", ""), ("../tools/game-picker/", "Во что поиграть", "")])}
+</aside>
+<script src="../assets/free-games.js" defer></script>"""
+    # --- JSON-LD: only real giveaways (current + upcoming), never curated placeholders
+    elems = []
+    for i, g in enumerate(fb["now"] + fb["soon"]):
+        offer = {"@type": "Offer", "price": "0", "priceCurrency": "RUB", "url": g["url"],
+                 "seller": {"@type": "Organization", "name": "Epic Games Store" if g.get("store") == "Epic Games" else g.get("store")}}
+        if g.get("start"):
+            offer["availabilityStarts"] = g["start"].isoformat()
+        if g.get("end"):
+            offer["availabilityEnds"] = g["end"].isoformat()
+        item = {"@type": "VideoGame", "name": g["title"], "gamePlatform": "PC", "url": g["url"], "offers": offer}
+        if g.get("image"):
+            item["image"] = g["image"]
+        elems.append({"@type": "ListItem", "position": i + 1, "item": item})
+    item_list = {"@type": "ItemList", "name": "Бесплатные игры сейчас и скоро", "itemListOrder": "https://schema.org/ItemListOrderAscending",
+                 "numberOfItems": len(elems), "itemListElement": elems}
+    page = {"@context": "https://schema.org", "@type": "CollectionPage", "name": title, "description": desc, "url": SITE + path,
+            "inLanguage": "ru", "publisher": publisher(), "mainEntity": item_list}
+    if fb["updated"]:
+        page["dateModified"] = fb["updated"].isoformat()
+    faq_ld = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+        {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq]}
+    return path, title, desc, body, [("Главная", ""), ("Бесплатные игры", path)], "website", image, [page, faq_ld]
+
+
 # ---------------------------------------------------------------- build
 def today() -> str:
     return datetime.now(MSK).date().isoformat()
@@ -867,6 +1371,7 @@ def build() -> list:
     guides_by_id = {g["id"]: g for g in guides}
 
     pages = []  # (path, args tuple, kind)
+    pages.append(("page", free_games_page(games, catalog, news), "freebies"))
     pages.append(("page", guides_index(guides), "list"))
     pages += [("page", guide_page(g, games_by_id, guides, catalog), "guide") for g in guides]
     pages.append(("page", games_index(games, catalog), "list"))
@@ -898,8 +1403,8 @@ def build() -> list:
                 obj["datePublished"] = created
                 obj["dateModified"] = lastmod
             text = layout(**kw)
-        changefreq = {"list": "weekly", "newslist": "hourly", "news": "monthly"}.get(kind, "monthly")
-        priority = {"list": "0.8", "newslist": "0.8", "guide": "0.7", "tool": "0.7", "game": "0.6", "news": "0.5"}[kind]
+        changefreq = {"list": "weekly", "newslist": "hourly", "news": "monthly", "freebies": "daily"}.get(kind, "monthly")
+        priority = {"list": "0.8", "newslist": "0.8", "freebies": "0.8", "guide": "0.7", "tool": "0.7", "game": "0.6", "news": "0.5"}[kind]
         manifest[path] = {"hash": h, "created": created, "lastmod": lastmod, "changefreq": changefreq, "priority": priority}
         if not index:
             manifest[path]["noindex"] = True
