@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-28T03:00:05+03:00",
+ "updatedAt": "2026-09-28T08:56:15+03:00",
  "source": "bo3.gg",
  "matches": [
   {
@@ -13,7 +13,7 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 5,
-   "status": "upcoming",
+   "status": "live",
    "event": "World Star Challengers Invitational 2026",
    "tier": "A",
    "startsAt": "2026-09-28T09:00:00+03:00",
@@ -57,6 +57,33 @@
    "url": "https://bo3.gg/matches/magic-ru-vs-gamerlegion-28-09-2026"
   },
   {
+   "id": "bo3-130504",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "eSuba",
+   "teamB": "LODIS",
+   "logoA": "https://files.bo3.gg/uploads/team/17700/image/webp-8915b2936647babaa09621ac939ca103.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16893/image/webp-dcf70326e270db183461237e52102790.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 1,
+   "status": "upcoming",
+   "event": "EMEA Masters 2026 Summer",
+   "tier": "A",
+   "startsAt": "2026-09-28T19:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "lec",
+     "lang": "en",
+     "official": true,
+     "label": "lec",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/esuba-lol-vs-lodis-28-09-2026"
+  },
+  {
    "id": "bo3-130502",
    "game": "LoL",
    "gameKey": "lol",
@@ -82,33 +109,6 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/g2-nord-vs-frites-esports-club-28-09-2026"
-  },
-  {
-   "id": "bo3-130503",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Anubis Gaming",
-   "teamB": "Skillcamp Esport",
-   "logoA": "https://files.bo3.gg/uploads/team/17042/image/webp-db6998b1080588030a46845e7fbbdc56.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/18323/image/webp-af0dd0bf42e9ed4cb12916f36fe8afe7.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 1,
-   "status": "upcoming",
-   "event": "EMEA Masters 2026 Summer",
-   "tier": "A",
-   "startsAt": "2026-09-28T19:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "lec",
-     "lang": "en",
-     "official": true,
-     "label": "lec",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/anubis-gaming-lol-vs-skillcamp-esport-28-09-2026"
   },
   {
    "id": "bo3-130505",
@@ -138,13 +138,13 @@
    "url": "https://bo3.gg/lol/matches/pcific-esports-lol-vs-ucam-esports-club-lol-28-09-2026"
   },
   {
-   "id": "bo3-130504",
+   "id": "bo3-130503",
    "game": "LoL",
    "gameKey": "lol",
-   "teamA": "eSuba",
-   "teamB": "LODIS",
-   "logoA": "https://files.bo3.gg/uploads/team/17700/image/webp-8915b2936647babaa09621ac939ca103.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16893/image/webp-dcf70326e270db183461237e52102790.webp",
+   "teamA": "Anubis Gaming",
+   "teamB": "Skillcamp Esport",
+   "logoA": "https://files.bo3.gg/uploads/team/17042/image/webp-db6998b1080588030a46845e7fbbdc56.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/18323/image/webp-af0dd0bf42e9ed4cb12916f36fe8afe7.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 1,
@@ -162,7 +162,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/lol/matches/esuba-lol-vs-lodis-28-09-2026"
+   "url": "https://bo3.gg/lol/matches/anubis-gaming-lol-vs-skillcamp-esport-28-09-2026"
   },
   {
    "id": "bo3-130508",
@@ -192,13 +192,13 @@
    "url": "https://bo3.gg/lol/matches/kaufland-hangry-knights-vs-senshi-esports-club-28-09-2026"
   },
   {
-   "id": "bo3-130507",
+   "id": "bo3-130506",
    "game": "LoL",
    "gameKey": "lol",
-   "teamA": "Team Phantasma",
-   "teamB": "The Otter Side",
-   "logoA": "https://files.bo3.gg/uploads/team/17195/image/webp-d27577c16c4cc95273a092856e3d06b6.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/21115/image/webp-d10ca7f9731ee10440fde9a3d91c3d80.webp",
+   "teamA": "BOMBA Team",
+   "teamB": "SU Esports",
+   "logoA": "https://files.bo3.gg/uploads/team/18311/image/webp-f0891f23bd01d4a36f9c734fdac32894.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/21061/image/webp-11e21fe4121967b87f5b3cf7bb2b8af6.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 1,
@@ -216,7 +216,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/lol/matches/team-phantasma-vs-the-otter-side-28-09-2026"
+   "url": "https://bo3.gg/lol/matches/back2thegame-lol-vs-su-esports-28-09-2026"
   },
   {
    "id": "bo3-130509",
@@ -246,13 +246,13 @@
    "url": "https://bo3.gg/lol/matches/tln-pirates-vs-jsk-esports-28-09-2026"
   },
   {
-   "id": "bo3-130506",
+   "id": "bo3-130507",
    "game": "LoL",
    "gameKey": "lol",
-   "teamA": "BOMBA Team",
-   "teamB": "SU Esports",
-   "logoA": "https://files.bo3.gg/uploads/team/18311/image/webp-f0891f23bd01d4a36f9c734fdac32894.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/21061/image/webp-11e21fe4121967b87f5b3cf7bb2b8af6.webp",
+   "teamA": "Team Phantasma",
+   "teamB": "The Otter Side",
+   "logoA": "https://files.bo3.gg/uploads/team/17195/image/webp-d27577c16c4cc95273a092856e3d06b6.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/21115/image/webp-d10ca7f9731ee10440fde9a3d91c3d80.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 1,
@@ -270,7 +270,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/lol/matches/back2thegame-lol-vs-su-esports-28-09-2026"
+   "url": "https://bo3.gg/lol/matches/team-phantasma-vs-the-otter-side-28-09-2026"
   },
   {
    "id": "bo3-129613",
