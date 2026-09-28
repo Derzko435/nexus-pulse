@@ -64,7 +64,7 @@ jobs:
         if: steps.mode.outputs.mode == 'full'
         run: python scripts/update_catalog.py || echo "::warning::catalog update failed (last good data kept)"
 
-      - name: Share pages, static SEO pages (guides/ games/ tools/ news/), sitemap, verification tags
+      - name: Share pages, static SEO pages (guides/ games/ tools/ news/ free-games/), sitemap, verification tags
         run: python scripts/build_site_meta.py || echo "::warning::share pages / sitemap update failed"
 
       - name: Commit and push if data changed
@@ -76,15 +76,26 @@ jobs:
           git add data/translations.json data/share_index.json sitemap.xml robots.txt index.html 2>/dev/null || true
           git add -A s/ 2>/dev/null || true
           # static SEO pages (scripts/build_static_pages.py); one path at a time so a missing one can't skip the rest
-          for p in guides games tools news data/seo_pages.json data/news_excerpts.json; do if [ -e "$p" ]; then git add -A -- "$p" || true; fi; done
+          for p in guides games tools news free-games data/seo_pages.json data/news_excerpts.json data/freebies_archive.json; do if [ -e "$p" ]; then git add -A -- "$p" || true; fi; done
           if git diff --cached --quiet; then
             echo "No content changes"
             echo "pushed=0" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git commit -m "chore(content): daily refresh $(TZ=Europe/Moscow date '+%Y-%m-%d %H:%M') MSK"
-          for i in 1 2 3 4 5; do
-            git pull --rebase --autostash origin main && git push origin HEAD:main && break
+          # refresh-data.yml also rebuilds the static pages: on a conflict in generated files keep ours
+          # (-X theirs = the commit being replayed) and rebuild on top of the merged tree
+          for i in $(seq 1 5); do
+            if git pull --rebase --autostash -X theirs origin main; then
+              python scripts/build_site_meta.py >/dev/null 2>&1 || true
+              git add sitemap.xml robots.txt index.html data/share_index.json 2>/dev/null || true
+              git add -A s/ 2>/dev/null || true
+              for p in guides games tools news free-games data/seo_pages.json data/news_excerpts.json; do if [ -e "$p" ]; then git add -A -- "$p" || true; fi; done
+              git diff --cached --quiet || git commit -m "chore(site): rebuild static pages after rebase"
+              git push origin HEAD:main && break
+            else
+              git rebase --abort 2>/dev/null || true
+            fi
             echo "push attempt $i failed, retrying"; sleep $((i * 10))
           done
           echo "pushed=1" >> "$GITHUB_OUTPUT"
