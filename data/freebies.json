@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-28T17:11:43+03:00",
+  "updatedAt": "2026-09-28T22:18:28+03:00",
   "source": "epic-promotions-api+curated",
-  "note": "Epic Free Games API (RU) + кураторский Steam/GOG/Prime.",
+  "note": "Epic Free Games API (RU) + кураторский Steam/GOG/Prime (Amazon Luna).",
   "items": [
     {
       "id": "epic-7c14bf0cffdd43be968fdcf28e5af653",
@@ -9,7 +9,12 @@
       "title": "Astrea Six Sided Oracles",
       "until": "2026-10-01",
       "claimUrl": "https://store.epicgames.com/ru/p/astrea-six-sided-oracles-33c949",
-      "note": "Текущая раздача Epic"
+      "note": "Текущая раздача Epic",
+      "status": "now",
+      "startsAt": "2026-09-24T18:00:00+03:00",
+      "endsAt": "2026-10-01T18:00:00+03:00",
+      "price_rub": 749,
+      "image": "https://cdn1.epicgames.com/spt-assets/4515173972ae4444a2582bc690c150bd/astrea-six-sided-oracles-offer-bvy0n.png"
     },
     {
       "id": "epic-6d99eae44d724baf84d6261a7a0f05d2",
@@ -17,7 +22,12 @@
       "title": "Mechabellum",
       "until": "2026-10-01",
       "claimUrl": "https://store.epicgames.com/ru/p/mechabellum-88a843",
-      "note": "Текущая раздача Epic"
+      "note": "Текущая раздача Epic",
+      "status": "now",
+      "startsAt": "2026-09-24T18:00:00+03:00",
+      "endsAt": "2026-10-01T18:00:00+03:00",
+      "price_rub": 550,
+      "image": "https://cdn1.epicgames.com/spt-assets/131adc2288294d74aaff6a2f02b51d59/mechabellum-95319.jpg"
     },
     {
       "id": "epic-7ae00c3e89174012b175cc73b4737723",
@@ -25,7 +35,12 @@
       "title": "System Shock 2: 25th Anniversary Remaster",
       "until": "2026-10-08",
       "claimUrl": "https://store.epicgames.com/ru/p/system-shock-2-25th-anniversary-remaster-cb94d9",
-      "note": "Скоро бесплатно на Epic"
+      "note": "Скоро бесплатно на Epic",
+      "status": "upcoming",
+      "startsAt": "2026-10-01T18:00:00+03:00",
+      "endsAt": "2026-10-08T18:00:00+03:00",
+      "price_rub": 899,
+      "image": "https://cdn1.epicgames.com/spt-assets/690ff600d5134d9ab12c96862ed5257a/system-shock-2-25th-anniversary-remaster-1e28j.jpg"
     },
     {
       "id": "epic-af4c34934afe4db0870b8a1d82dceb94",
@@ -33,7 +48,12 @@
       "title": "BURIED STARS",
       "until": "2026-10-08",
       "claimUrl": "https://store.epicgames.com/ru/p/buried-stars-d7c88c",
-      "note": "Скоро бесплатно на Epic"
+      "note": "Скоро бесплатно на Epic",
+      "status": "upcoming",
+      "startsAt": "2026-10-01T18:00:00+03:00",
+      "endsAt": "2026-10-08T18:00:00+03:00",
+      "price_rub": 1500,
+      "image": "https://cdn1.epicgames.com/spt-assets/e2dc55c2709641a18fc37ef7ce32cfdd/buried-stars-1j9of.jpg"
     },
     {
       "id": "steam-f2p-always",
@@ -53,11 +73,11 @@
     },
     {
       "id": "prime-2026-09",
-      "store": "Prime Gaming",
-      "title": "Prime Gaming monthly drop",
+      "store": "Amazon Luna (Prime)",
+      "title": "Free Games with Prime — игры месяца",
       "until": "2026-09-30",
-      "claimUrl": "https://gaming.amazon.com/",
-      "note": "Требуется подписка Amazon Prime"
+      "claimUrl": "https://luna.amazon.com/claims/home",
+      "note": "Требуется подписка Amazon Prime, набор игр зависит от страны"
     }
   ]
 }
