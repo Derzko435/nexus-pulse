@@ -18,6 +18,9 @@ img{width:72px;height:72px;border-radius:16px}
     var m = location.pathname.match(/\/s\/news\/([\w-]{1,64})\.html$/);
     var base = location.pathname.indexOf("/nexus-pulse/") === 0 ? "/nexus-pulse/" : "/";
     if (m) location.replace(base + "?news=" + m[1]);
+    // Static page that no longer exists (old news, renamed guide/game) → open it in the SPA
+    var s = location.pathname.match(/\/(news|guides|games)\/([\w-]{1,64})\/?(index\.html)?$/);
+    if (!m && s) location.replace(base + (s[1] === "news" ? "?news=" + s[2] : (s[1] === "guides" ? "#guide=" : "#game=") + s[2]));
   })();
 </script>
 </head>

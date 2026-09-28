@@ -1,5 +1,5 @@
 /* NEXUS PULSE service worker */
-const VERSION = "v8-2026-09-25";
+const VERSION = "v9-2026-09-28";
 const SHELL_CACHE = "nexus-pulse-shell-" + VERSION;
 const DATA_CACHE = "nexus-pulse-data-" + VERSION;
 const FONT_CACHE = "nexus-pulse-fonts-v1";
@@ -114,8 +114,10 @@ self.addEventListener("fetch", (event) => {
         try {
           const preload = await event.preloadResponse;
           const res = preload || (await fetch(req));
-          // only the main page is kept as the offline shell (not share pages under /s/)
-          const isShell = /\/(index\.html)?$/.test(url.pathname);
+          // only the main page is kept as the offline shell — not share pages under /s/ and not the
+          // static pages (guides/<id>/, games/<id>/, …), whose paths also end with "/"
+          const scopePath = new URL(self.registration.scope).pathname;
+          const isShell = url.pathname === scopePath || url.pathname === scopePath + "index.html";
           if (res && res.ok && isShell) {
             const cache = await caches.open(SHELL_CACHE);
             cache.put("./index.html", res.clone());

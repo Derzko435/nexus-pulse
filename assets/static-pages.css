@@ -1,0 +1,58 @@
+/* NEXUS PULSE — prerendered pages (guides/, games/, tools/, news/). Loaded after styles.css. */
+.sp-nav { gap: 1rem; }
+.sp-menu { display: flex; gap: .25rem 1.1rem; list-style: none; margin: 0; padding: 0; flex-wrap: wrap; }
+.sp-menu a { color: var(--muted); font-weight: 700; font-size: .92rem; }
+.sp-menu a:hover, .sp-menu a[aria-current] { color: var(--cyan); }
+.sp-main { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 1.5rem; align-items: start; padding: 1.5rem 0 3rem; }
+.sp-crumbs { grid-column: 1 / -1; font-size: .85rem; color: var(--muted); }
+.sp-crumbs ol { list-style: none; display: flex; flex-wrap: wrap; gap: .35rem; margin: 0; padding: 0; }
+.sp-crumbs li + li::before { content: "›"; margin-right: .35rem; color: var(--muted); }
+.sp-crumbs a { color: var(--muted); }
+.sp-crumbs a:hover { color: var(--cyan); }
+.sp-article { padding: clamp(1.1rem, 3vw, 2rem); min-width: 0; }
+.sp-aside { padding: 1.2rem 1.3rem; position: sticky; top: calc(var(--header-h) + 1rem); }
+.sp-list { grid-column: 1 / -1; min-width: 0; }
+.sp-h1 { font-size: clamp(1.5rem, 3.6vw, 2.3rem); }
+.sp-h1-news { font-size: clamp(1.3rem, 3vw, 1.9rem); }
+.sp-h2 { font-size: 1.05rem; margin: 1.1rem 0 .6rem; }
+.sp-h2:first-child { margin-top: 0; }
+.sp-meta { color: var(--muted); font-size: .9rem; margin: 0 0 1rem; }
+.sp-note { color: var(--muted); font-size: .82rem; font-weight: 400; }
+.sp-hero { width: 100%; max-height: 420px; object-fit: cover; border-radius: 12px; margin: 0 0 1.2rem; background: #111a2c; }
+.sp-article .guide-sec h2 { font-size: 1.12rem; display: flex; align-items: center; gap: .5rem; padding-bottom: .35rem; border-bottom: 1px solid var(--border); margin: 1.4rem 0 .7rem; }
+.sp-article .guide-tips h2, .sp-article .guide-mistakes h2 { border-bottom: 0; }
+.sp-toc ol { columns: 2; }
+.sp-actions { margin-top: 1.5rem; }
+.sp-links { list-style: none; margin: 0; padding: 0; display: grid; gap: .55rem; font-size: .92rem; }
+.sp-links .sp-note { display: block; }
+.sp-table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: 12px; margin: 0 0 1rem; }
+.sp-table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+.sp-table th, .sp-table td { text-align: left; padding: .55rem .8rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+.sp-table thead th { color: var(--cyan); font-size: .8rem; text-transform: uppercase; letter-spacing: .04em; }
+.sp-table tbody tr:nth-child(odd) { background: rgba(255,255,255,.02); }
+.sp-table tbody tr:last-child th, .sp-table tbody tr:last-child td { border-bottom: 0; }
+.sp-table tbody th { color: var(--text); }
+.sp-table-num td { font-variant-numeric: tabular-nums; }
+.sp-specs { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.sp-specs h3, .sp-specs h4 { font-size: .95rem; margin: 0 0 .4rem; color: var(--cyan); }
+.sp-spec-game h3 { font-size: 1rem; margin: 1.1rem 0 .5rem; }
+.sp-grid { margin-top: 1rem; }
+.sp-card { display: flex; flex-direction: column; color: inherit; }
+.sp-card:hover { color: inherit; }
+.sp-card-h { font-size: 1.02rem; margin: 0 0 .5rem; }
+.sp-group { margin-top: 2rem; }
+.sp-news-list { list-style: none; margin: 1rem 0 0; padding: .6rem 1.2rem; }
+.sp-news-list li { padding: .6rem 0; border-bottom: 1px solid var(--border); }
+.sp-news-list li:last-child { border-bottom: 0; }
+.sp-news-list .sp-note { display: block; margin-top: .15rem; }
+@media (max-width: 900px) {
+  .sp-main { grid-template-columns: minmax(0, 1fr); }
+  .sp-aside { position: static; }
+  .sp-open { display: none; }
+}
+@media (max-width: 600px) {
+  .sp-nav { height: auto; min-height: var(--header-h); flex-wrap: wrap; padding: .6rem 0; }
+  .sp-menu { width: 100%; order: 3; }
+  .sp-specs { grid-template-columns: 1fr; }
+  .sp-toc ol { columns: 1; }
+}
