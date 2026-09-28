@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T02:09:06+03:00",
+  "updatedAt": "2026-09-28T08:35:27+03:00",
   "source": "steam-store-appdetails",
   "count": 35,
   "apps": [
@@ -82,18 +82,20 @@
     {
       "appid": "1245620",
       "name": "ELDEN RING",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
-      "genres": [],
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/f0b19c231f86fa0e633ff88a1a63459443017728/header_alt_assets_3.jpg?t=1790290043",
+      "genres": [
+        "Экшены",
+        "Ролевые игры"
+      ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
         "linux": false
       },
-      "metacritic": null,
-      "short_description": "",
-      "catalogId": "elden",
-      "curated": true
+      "metacritic": 94,
+      "short_description": "НОВЫЙ ФЭНТЕЗИЙНЫЙ РОЛЕВОЙ БОЕВИК. Восстань, погасшая душа! Междуземье ждёт своего повелителя. Пусть благодать приведёт тебя к Кольцу Элден.",
+      "catalogId": "elden"
     },
     {
       "appid": "1086940",
