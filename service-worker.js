@@ -1,5 +1,5 @@
 /* NEXUS PULSE service worker */
-const VERSION = "v11-2026-09-29";
+const VERSION = "v12-2026-09-29";
 const SHELL_CACHE = "nexus-pulse-shell-" + VERSION;
 const DATA_CACHE = "nexus-pulse-data-" + VERSION;
 const FONT_CACHE = "nexus-pulse-fonts-v1";

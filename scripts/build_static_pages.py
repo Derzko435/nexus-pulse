@@ -11,6 +11,8 @@ Reads the same data the SPA uses and writes real HTML pages next to index.html:
                             (status now / upcoming / over is computed at build time, MSK)
   guides/<slug>/index.html — editorial long reads from scripts/seo_articles.py (game-length,
                             russian-voice, steam-refund, local-coop): frozen, hand-checked data
+  news/feed.xml           — RSS 2.0 feed of the latest indexable news pages (Yandex / Google / readers);
+                            lastBuildDate = newest item, so the file changes only with new news
   data/seo_pages.json     — content hash + lastmod per page (stable sitemap <lastmod>)
   data/news_excerpts.json — short article excerpts kept after a news item leaves news.json, so
                             its page does not change (or thin out) later; pruned with the archive.
@@ -32,6 +34,7 @@ import math
 import os
 import re
 from datetime import datetime
+from email.utils import format_datetime
 from pathlib import Path
 
 from np_common import DATA, MSK, ROOT, log, read_json
@@ -49,6 +52,11 @@ LOGO = SITE + "assets/icons/icon-512.png"
 MANIFEST = DATA / "seo_pages.json"
 NEWS_STORE = DATA / "news_excerpts.json"
 MARKER = "<!-- np:static-page -->"
+FEED_PATH = "news/feed.xml"
+FEED_TITLE = "Новости игр — NEXUS PULSE"
+FEED_ITEMS = 50
+# Google Fonts are loaded without blocking the first render (display=swap is already in the URL)
+FONTS_URL = "https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap"
 SECTIONS = ("guides", "games", "tools", "news")
 ID_RE = re.compile(r"^[A-Za-z0-9][\w-]{0,63}$")
 
@@ -439,7 +447,9 @@ def layout(*, path: str, title: str, desc: str, body: str, crumbs: list, og_type
 <meta name="theme-color" content="#00f5ff">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{e(FONTS_URL)}" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="{e(FONTS_URL)}"></noscript>
+<link rel="alternate" type="application/rss+xml" title="{e(FEED_TITLE)}" href="{e(SITE + FEED_PATH)}">
 <link rel="stylesheet" href="{rel}styles.css">
 <link rel="stylesheet" href="{rel}{STATIC_CSS}">
 {metrika_snippet()}</head>
@@ -873,7 +883,7 @@ def news_index(items):
     body = f"""<section class="sp-list">
 <p class="eyebrow">Новости</p>
 <h1 class="sp-h1">Новости игр и киберспорта</h1>
-<p class="section-desc">{e(desc)} Самые свежие — в <a href="../#news">ленте на главной</a>.</p>
+<p class="section-desc">{e(desc)} Самые свежие — в <a href="../#news">ленте на главной</a>. Подписаться: <a href="feed.xml" type="application/rss+xml">RSS-лента новостей</a>.</p>
 <ul class="sp-news-list glass">{rows}</ul>
 </section>"""
     lst = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "Новости игр — NEXUS PULSE", "url": SITE + path, "inLanguage": "ru",
@@ -1380,6 +1390,48 @@ def free_games_page(games, catalog, news):
     return path, title, desc, body, [("Главная", ""), ("Бесплатные игры", path)], "website", image, [page, faq_ld]
 
 
+# ---------------------------------------------------------------- RSS (news/feed.xml)
+def rfc822(iso: str) -> str:
+    try:
+        d = datetime.fromisoformat(iso)
+    except (TypeError, ValueError):
+        return ""
+    if not d.tzinfo:
+        d = d.replace(tzinfo=MSK)
+    return format_datetime(d)
+
+
+def news_feed(news: list) -> str:
+    """Latest indexable news pages (those with an excerpt): the same set as in the sitemap."""
+    items = [n for n in news if n.get("excerpt") and rfc822(n.get("date") or "")][:FEED_ITEMS]
+    rows = []
+    for n in items:
+        url = SITE + f"news/{n['id']}/"
+        text = clip(n.get("summary") or (n.get("excerpt") or [""])[0], 400)
+        src = f" Источник: {n['source']}." if n.get("source") else ""
+        rows.append(
+            "<item>\n"
+            f"<title>{e(clip(n['title'], 180))}</title>\n"
+            f"<link>{e(url)}</link>\n"
+            f'<guid isPermaLink="true">{e(url)}</guid>\n'
+            f"<pubDate>{rfc822(n['date'])}</pubDate>\n"
+            + (f"<category>{e(n['source'])}</category>\n" if n.get("source") else "")
+            + f"<description>{e((text + src).strip())}</description>\n"
+            + "</item>")
+    newest = rfc822(items[0]["date"]) if items else ""
+    return ('<?xml version="1.0" encoding="UTF-8"?>\n'
+            '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n<channel>\n'
+            f"<title>{e(FEED_TITLE)}</title>\n"
+            f"<link>{e(SITE + 'news/')}</link>\n"
+            f'<atom:link href="{e(SITE + FEED_PATH)}" rel="self" type="application/rss+xml"/>\n'
+            "<description>Свежие новости игр и киберспорта из российских игровых изданий с кратким пересказом и ссылкой на источник.</description>\n"
+            "<language>ru</language>\n"
+            + (f"<lastBuildDate>{newest}</lastBuildDate>\n" if newest else "")
+            + f"<image><url>{e(LOGO)}</url><title>{e(FEED_TITLE)}</title><link>{e(SITE + 'news/')}</link></image>\n"
+            + "\n".join(rows) + ("\n" if rows else "")
+            + "</channel>\n</rss>\n")
+
+
 # ---------------------------------------------------------------- build
 def today() -> str:
     return datetime.now(MSK).date().isoformat()
@@ -1446,6 +1498,7 @@ def build() -> list:
                 if not m.get("noindex"):
                     entries.append({"loc": SITE + path, "lastmod": m.get("lastmod") or stamp,
                                     "changefreq": m.get("changefreq") or "monthly", "priority": m.get("priority") or "0.7"})
+    written += write_if_changed(ROOT / FEED_PATH, news_feed(news))
     removed = cleanup(set(manifest))
     if manifest != old:
         MANIFEST.write_text(json.dumps({"about": "Generated by scripts/build_static_pages.py: content hash + lastmod of every static page (sitemap <lastmod>). Do not edit.",
