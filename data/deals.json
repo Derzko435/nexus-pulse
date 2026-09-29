@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T19:00:10+03:00",
+  "updatedAt": "2026-09-29T15:26:13+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -11,6 +11,16 @@
       "pct": 90,
       "url": "https://store.steampowered.com/app/1084160/?curator_clanid=0",
       "steamAppId": "1084160"
+    },
+    {
+      "id": "steam-223470",
+      "title": "POSTAL 2",
+      "store": "Steam",
+      "old": 385,
+      "neu": 38,
+      "pct": 90,
+      "url": "https://store.steampowered.com/app/223470/?curator_clanid=0",
+      "steamAppId": "223470"
     },
     {
       "id": "steam-582660",
@@ -29,7 +39,7 @@
       "old": 299,
       "neu": 29,
       "pct": 90,
-      "url": "https://store.steampowered.com/app/2475460/?curator_clanid=0",
+      "url": "https://store.steampowered.com/app/2475460/",
       "steamAppId": "2475460"
     },
     {
@@ -43,16 +53,6 @@
       "steamAppId": "1190000"
     },
     {
-      "id": "steam-617290",
-      "title": "Remnant: From the Ashes",
-      "store": "Steam",
-      "old": 1297,
-      "neu": 194,
-      "pct": 85,
-      "url": "https://store.steampowered.com/app/617290/?curator_clanid=0",
-      "steamAppId": "617290"
-    },
-    {
       "id": "steam-640820",
       "title": "Pathfinder: Kingmaker — Enhanced Plus Edition",
       "store": "Steam",
@@ -63,34 +63,24 @@
       "steamAppId": "640820"
     },
     {
-      "id": "steam-1222140",
-      "title": "Detroit: Become Human",
+      "id": "steam-1184370",
+      "title": "Pathfinder: Wrath of the Righteous - Enhanced Edition",
       "store": "Steam",
-      "old": 2999,
-      "neu": 599,
+      "old": 599,
+      "neu": 119,
       "pct": 80,
-      "url": "https://store.steampowered.com/app/1222140/?curator_clanid=0",
-      "steamAppId": "1222140"
+      "url": "https://store.steampowered.com/app/1184370/?curator_clanid=0",
+      "steamAppId": "1184370"
     },
     {
-      "id": "steam-1282100",
-      "title": "REMNANT II",
+      "id": "steam-424840",
+      "title": "Little Nightmares",
       "store": "Steam",
-      "old": 2869,
-      "neu": 573,
-      "pct": 80,
-      "url": "https://store.steampowered.com/app/1282100/?curator_clanid=0",
-      "steamAppId": "1282100"
-    },
-    {
-      "id": "steam-599140",
-      "title": "Graveyard Keeper",
-      "store": "Steam",
-      "old": 710,
-      "neu": 142,
-      "pct": 80,
-      "url": "https://store.steampowered.com/app/599140/?curator_clanid=0",
-      "steamAppId": "599140"
+      "old": 1429,
+      "neu": 357,
+      "pct": 75,
+      "url": "https://store.steampowered.com/app/424840/?curator_clanid=0",
+      "steamAppId": "424840"
     },
     {
       "id": "steam-1288320",
@@ -123,16 +113,6 @@
       "steamAppId": "270880"
     },
     {
-      "id": "steam-400750",
-      "title": "Call to Arms - Gates of Hell: Ostfront",
-      "store": "Steam",
-      "old": 1200,
-      "neu": 300,
-      "pct": 75,
-      "url": "https://store.steampowered.com/app/400750/?curator_clanid=0",
-      "steamAppId": "400750"
-    },
-    {
       "id": "steam-1145360",
       "title": "Hades",
       "store": "Steam",
@@ -141,6 +121,26 @@
       "pct": 75,
       "url": "https://store.steampowered.com/app/1145360/?curator_clanid=0",
       "steamAppId": "1145360"
+    },
+    {
+      "id": "steam-756800",
+      "title": "Contraband Police",
+      "store": "Steam",
+      "old": 1988,
+      "neu": 569,
+      "pct": 71,
+      "url": "https://store.steampowered.com/app/756800/?curator_clanid=0",
+      "steamAppId": "756800"
+    },
+    {
+      "id": "steam-281990",
+      "title": "Stellaris",
+      "store": "Steam",
+      "old": 3049,
+      "neu": 914,
+      "pct": 70,
+      "url": "https://store.steampowered.com/app/281990/?curator_clanid=0",
+      "steamAppId": "281990"
     }
   ]
 }
