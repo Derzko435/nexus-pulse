@@ -207,6 +207,8 @@ def b_esports() -> list[dict]:
 
 def b_gotd() -> list[dict]:
     daily = dg.read_json("daily.json")
+    if daily.get("generatedFrom") != "real-data":
+        return []  # «Пульс дня» is off until daily.json is built from real data (scripts/update_daily.py is disabled)
     g = daily.get("gameOfTheDay") or {}
     d = dg.parse_dt(daily.get("date"))
     if not g.get("title") or not d or d.date() < NOW.date() - timedelta(days=1):
@@ -256,7 +258,8 @@ def b_digest() -> list[dict]:
 
 def poll_options() -> list[str]:
     daily = dg.read_json("daily.json")
-    names = [str(t.get("title") or "").strip() for t in daily.get("trending") or []]
+    trending = daily.get("trending") if daily.get("generatedFrom") == "real-data" else []
+    names = [str(t.get("title") or "").strip() for t in trending or []]
     names += POLL_FALLBACK
     out: list[str] = []
     for n in names:

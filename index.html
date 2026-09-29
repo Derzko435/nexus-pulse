@@ -63,7 +63,6 @@
           <button type="button" class="nav-trigger" id="nt-news" aria-expanded="false" aria-controls="nd-news"><span data-i18n="nav.news">Новости</span><span class="nav-caret" aria-hidden="true"></span></button>
           <ul class="nav-dd" id="nd-news" aria-labelledby="nt-news">
             <li><a href="#news" class="nav-item"><span class="nav-ico" aria-hidden="true">📰</span><span class="nav-item-text"><span class="nav-item-label">Новости игр</span><span class="nav-hint">Главное за сегодня</span></span></a></li>
-            <li><a href="#pulse" class="nav-item"><span class="nav-ico" aria-hidden="true">💓</span><span class="nav-item-text"><span class="nav-item-label">Пульс дня</span><span class="nav-hint">Тренды и советы дня</span></span></a></li>
             <li><a href="#videos" class="nav-item"><span class="nav-ico" aria-hidden="true">🎬</span><span class="nav-item-text"><span class="nav-item-label">Видео</span><span class="nav-hint">Трейлеры и свежие ролики</span></span></a></li>
           </ul>
         </li>
@@ -73,7 +72,6 @@
             <li><a href="#games" class="nav-item"><span class="nav-ico" aria-hidden="true">🎮</span><span class="nav-item-text"><span class="nav-item-label">Каталог игр</span><span class="nav-hint">75 игр с фильтрами и поиском</span></span></a></li>
             <li><a href="#new-games" class="nav-item"><span class="nav-ico" aria-hidden="true">✨</span><span class="nav-item-text"><span class="nav-item-label" data-i18n="nav.newGames">Новинки</span><span class="nav-hint">Популярное за последние недели</span></span></a></li>
             <li><a href="#calendar" class="nav-item"><span class="nav-ico" aria-hidden="true">📅</span><span class="nav-item-text"><span class="nav-item-label">Релизы и патчи</span><span class="nav-hint">Что выходит и что обновилось</span></span></a></li>
-            <li><a href="#gameOfTheDay" class="nav-item"><span class="nav-ico" aria-hidden="true">⭐</span><span class="nav-item-text"><span class="nav-item-label">Игра дня</span><span class="nav-hint">Во что поиграть сегодня</span></span></a></li>
           </ul>
         </li>
         <li class="nav-group" data-group="deals">
@@ -179,7 +177,10 @@
       </div>
     </section>
 
-    <section class="section" id="pulse">
+    <!-- «Пульс дня» скрыт 29.09.2026: data/daily.json заполнял scripts/update_daily.py «ротацией примеров»
+         (выдуманные тренды, heat-баллы, фразы про патчи) и не обновлялся с 24.09. Вернуть блок (снять hidden,
+         PULSE_ENABLED в app.js), только когда daily.json строится из реальных данных. См. README → «Пульс дня». -->
+    <section class="section" id="pulse" hidden>
       <div class="container">
         <div class="section-head">
           <div>
@@ -860,7 +861,6 @@
       </div>
       <nav class="footer-nav" aria-label="Навигация в подвале">
         <a href="#games" data-i18n="nav.games">Игры</a>
-        <a href="#pulse" data-i18n="nav.pulse">Пульс</a>
         <a href="#new-games" data-i18n="nav.newGames">Новинки</a>
         <a href="#calendar" data-i18n="nav.calendar">Релизы</a>
         <a href="#guides" data-i18n="nav.guides">Гайды</a>
