@@ -39,6 +39,12 @@ from pathlib import Path
 
 from np_common import DATA, MSK, ROOT, log, read_json
 
+try:  # about/, editorial-policy/, contacts/
+    import info_pages
+except Exception as _ex:  # noqa: BLE001
+    info_pages = None
+    log(f"[static] info_pages import failed: {type(_ex).__name__}: {_ex}")
+
 try:  # editorial long reads (guides/<slug>/); a broken module must not take the other pages down
     import seo_articles
 except Exception as _ex:  # noqa: BLE001
@@ -49,6 +55,10 @@ CONFIG = read_json(DATA / "site_config.json", {}) or {}
 SITE = (CONFIG.get("siteUrl") or "https://derzko435.github.io/nexus-pulse/").rstrip("/") + "/"
 OG_IMAGE = SITE + "assets/og-image.png"
 LOGO = SITE + "assets/icons/icon-512.png"
+DISCORD_URL = str((read_json(DATA / "discord_channels.json", {}) or {}).get("invite_url") or "")
+DISCORD_URL = DISCORD_URL if DISCORD_URL.startswith("https://discord.gg/") else ""
+_tg = str(((CONFIG.get("telegram") or {}).get("channel")) or "").lstrip("@")
+TELEGRAM_URL = f"https://t.me/{_tg}" if re.fullmatch(r"[A-Za-z0-9_]{5,32}", _tg) else ""
 MANIFEST = DATA / "seo_pages.json"
 NEWS_STORE = DATA / "news_excerpts.json"
 MARKER = "<!-- np:static-page -->"
@@ -484,11 +494,14 @@ def layout(*, path: str, title: str, desc: str, body: str, crumbs: list, og_type
 <a href="{rel}#deals">Скидки</a>
 <a href="{rel}free-games/">Халява</a>
 <a href="{rel}#community">Discord</a>
+<a href="{rel}about/">О проекте</a>
+<a href="{rel}editorial-policy/">Редакционная политика</a>
+<a href="{rel}contacts/">Контакты</a>
 </nav>
 </div>
 <div class="container footer-bottom">
 <p>© 2026 NEXUS PULSE</p>
-<p class="privacy">Персональные данные не собираются.</p>
+<p class="privacy">Без регистрации: настройки хранятся в твоём браузере. <a href="{rel}about/">О проекте</a></p>
 </div>
 </footer>
 </body>
@@ -497,7 +510,14 @@ def layout(*, path: str, title: str, desc: str, body: str, crumbs: list, og_type
 
 
 def publisher():
-    return {"@type": "Organization", "name": "NEXUS PULSE", "url": SITE, "logo": {"@type": "ImageObject", "url": LOGO}}
+    org = {"@type": "Organization", "name": "NEXUS PULSE", "url": SITE, "logo": {"@type": "ImageObject", "url": LOGO},
+           "publishingPrinciples": SITE + "editorial-policy/"}
+    same = [u for u in (DISCORD_URL, TELEGRAM_URL) if u]
+    if same:
+        org["sameAs"] = same
+    if DISCORD_URL:
+        org["contactPoint"] = {"@type": "ContactPoint", "contactType": "customer support", "url": DISCORD_URL, "availableLanguage": "ru"}
+    return org
 
 
 def links_list(items, cls="sp-links") -> str:
@@ -1488,6 +1508,10 @@ def build() -> list:
     pages += [("page", game_page(g, games, specs, fps, guides, catalog), "game") for g in games]
     pages.append(("page", tools_index(), "list"))
     pages += [("page", tool_page(t, games, specs, fps, guides_by_id), "tool") for t in TOOLS]
+    if info_pages:
+        ctx = {"site": SITE, "discord": DISCORD_URL, "telegram": TELEGRAM_URL, "org": publisher(),
+               "counts": {"games": len(games), "guides": len(guides) + len(editorial_cards())}}
+        pages += [("page", a, "info") for a in info_pages.build_pages(ctx)]
     news_total = max(1, math.ceil(len(news) / NEWS_PER_PAGE))
     pages.append(("page", news_index(news, 1, news_total), "newslist"))
     pages += [("page", news_index(news, pg, news_total), "newspage") for pg in range(2, news_total + 1)]
@@ -1518,7 +1542,7 @@ def build() -> list:
                 obj["dateModified"] = lastmod
             text = layout(**kw)
         changefreq = {"list": "weekly", "newslist": "hourly", "newspage": "daily", "news": "monthly", "freebies": "daily"}.get(kind, "monthly")
-        priority = {"list": "0.8", "newslist": "0.8", "newspage": "0.4", "freebies": "0.8", "guide": "0.7", "tool": "0.7", "game": "0.6", "news": "0.5"}[kind]
+        priority = {"list": "0.8", "newslist": "0.8", "newspage": "0.4", "info": "0.5", "freebies": "0.8", "guide": "0.7", "tool": "0.7", "game": "0.6", "news": "0.5"}[kind]
         manifest[path] = {"hash": h, "created": created, "lastmod": lastmod, "changefreq": changefreq, "priority": priority}
         if not index:
             manifest[path]["noindex"] = True
@@ -1527,6 +1551,12 @@ def build() -> list:
             continue  # thin page (no excerpt): reachable, but kept out of the sitemap
         entries.append({"loc": SITE + path, "lastmod": lastmod, "changefreq": changefreq, "priority": priority})
 
+    if not info_pages:  # keep the info pages already on disk (and in the sitemap) until the module is fixed
+        for path, m in old.items():
+            if path in ("about/", "editorial-policy/", "contacts/") and path not in manifest and (ROOT / path / "index.html").is_file():
+                manifest[path] = m
+                entries.append({"loc": SITE + path, "lastmod": m.get("lastmod") or stamp,
+                                "changefreq": m.get("changefreq") or "monthly", "priority": m.get("priority") or "0.5"})
     if not seo_articles:  # keep the editorial pages already on disk (and in the sitemap) until the module is fixed
         for path, m in old.items():
             if path.startswith("guides/") and path not in manifest and (ROOT / path / "index.html").is_file():
