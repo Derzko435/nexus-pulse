@@ -345,6 +345,8 @@ def build_releases() -> list[dict]:
 
 def build_gotd() -> list[dict]:
     daily = read_json(DATA / "daily.json", {}) or {}
+    if daily.get("generatedFrom") != "real-data":
+        return []  # «Пульс дня» is off until daily.json is built from real data (scripts/update_daily.py is disabled)
     g = daily.get("gameOfTheDay") or {}
     ds = daily.get("date")
     d = parse_dt(ds)

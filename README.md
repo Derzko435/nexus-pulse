@@ -26,7 +26,7 @@ python3 -m http.server 8080
 | `app.js` | Каталог (~75 игр), 30 гайдов, инструменты, Discord CTA, i18n, speed test, mood picker, загрузка JSON |
 | `data/daily.json` | Ежедневный фид: пульс, **новые интересные игры**, патчи, релизы, новости (без скидок) |
 | `data/deals.json` | Скидки + `updatedAt` — обновляется **чаще**, чем daily |
-| `scripts/update_daily.py` | Daily cron → `data/daily.json` |
+| `scripts/update_daily.py` | **Отключён**: писал примерный контент в `data/daily.json` (см. «Пульс дня») |
 | `scripts/update_deals.py` | Частый cron (напр. каждые 4–6 ч) → `data/deals.json` |
 | `scripts/update_prices.py` | Каждые 2 ч (`refresh-data.yml`) → `data/prices.json`: текущие цены Steam (₽) игр каталога для блока «Отслеживаю цены» |
 | `nav.js` | Шапка: группы с выпадающими меню, мобильное меню, подсветка текущего раздела, быстрый поиск (Ctrl+K или `/`) |
@@ -36,7 +36,7 @@ python3 -m http.server 8080
 ## Секции
 
 1. **Hero** — CTA к инструментам и Discord  
-2. **Пульс дня** — игра дня, тренды, советы (`daily.json`)  
+2. ~~**Пульс дня**~~: скрыт, пока не строится из реальных данных (см. ниже)  
 3. **Календарь релизов и патчей**  
 4. **Новые интересные игры** (`#new-games`) — 6–10 карточек из `daily.json.newInterestingGames`, обновляется ежедневно  
 5. **Топ игр** — 75 популярных тайтлов, фильтры жанров, поиск, избранное  
@@ -88,13 +88,22 @@ const DISCORD_INVITE_URL = "https://discord.gg/7JvfzNrt4x";
 
 ## Данные и расписание обновлений
 
-### Ежедневно — `data/daily.json`
+### «Пульс дня» — `data/daily.json` (ОТКЛЮЧЁН с 29.09.2026)
 
-```bash
-python3 scripts/update_daily.py
-```
+`scripts/update_daily.py` заполнял `daily.json` **ротацией примеров**: случайная «игра дня», выдуманные тренды с
+heat-баллами, фразы про «новые патчи». Настоящими данными это не было, а сайт не публикует выдуманные факты.
+Кроме того, файл не обновлялся с 24.09, и на главной висело «Обновлено: 24 сен». Поэтому:
 
-Поля: `date`, `updatedAt`, `gameOfTheDay`, `trending[]`, `tips[]`, `patches[]`, `releases[]`, `news[]`, `newInterestingGames[]`.  
+- блок `#pulse` в `index.html` скрыт (`hidden`), ссылки на него убраны из меню и подвала; `app.js` не грузит
+  `daily.json` (`PULSE_ENABLED = false`);
+- `update_daily.py` ничего не пишет (`ENABLED = False`) и ни в одном воркфлоу не запускается;
+- посты «Игра дня» в Discord (`discord_feeds.py`) и Telegram (`telegram_post.py`), а также варианты
+  опроса из `trending` берутся из `daily.json`, только если в нём есть `"generatedFrom": "real-data"`.
+
+Как вернуть: написать генератор, который строит блок из реальных данных (`news.json`, `releases.json`,
+`deals.json`, `matches.json`) и ставит `"generatedFrom": "real-data"`, затем снять `hidden` и включить `PULSE_ENABLED`.
+
+Поля: `date`, `updatedAt`, `gameOfTheDay`, `trending[]`, `tips[]`, `patches[]`, `releases[]`, `news[]`, `newInterestingGames[]`, `generatedFrom`.  
 **Скидки сюда больше не пишутся.**
 
 ### Чаще (рекомендуется каждые 4–6 часов) — `data/deals.json`
@@ -110,7 +119,6 @@ python3 scripts/update_deals.py --count 14
 Пример cron:
 
 ```cron
-0 6 * * * cd /path/to/gaming-portal && python3 scripts/update_daily.py
 0 */4 * * * cd /path/to/gaming-portal && python3 scripts/update_deals.py
 ```
 

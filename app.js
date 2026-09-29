@@ -1309,7 +1309,9 @@ const DISCORD_INVITE_URL = "https://discord.gg/7JvfzNrt4x";
   fillToolSelects();
   renderWishlist();
   wireMoodPicker();
-  loadDaily();
+  // «Пульс дня» отключён, пока data/daily.json не строится из реальных данных (см. README → «Пульс дня»)
+  const PULSE_ENABLED = false;
+  if (PULSE_ENABLED) loadDaily();
 
   document.addEventListener("click", (e) => {
     const closeEl = e.target.closest("[data-close-modal]");

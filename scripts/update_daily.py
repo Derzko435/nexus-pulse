@@ -472,7 +472,18 @@ def build_payload(today: date | None = None) -> dict:
     }
 
 
+# DISABLED 2026-09-29: this generator fills daily.json with rotated sample content (invented trends,
+# "heat" scores, patch remarks) — the site must not publish made-up facts. The «Пульс дня» block is hidden
+# (index.html, app.js PULSE_ENABLED) and the Discord / Telegram "game of the day" posts require
+# daily.json["generatedFrom"] == "real-data", which this script never sets. Replace it with a builder that
+# derives the block from real data (news.json, releases.json, deals.json, matches.json) before re-enabling.
+ENABLED = False
+
+
 def main() -> None:
+    if not ENABLED:
+        print("[NEXUS PULSE] update_daily.py disabled: sample content is not published (see README → «Пульс дня»). daily.json not written.")
+        return
     OUT.parent.mkdir(parents=True, exist_ok=True)
     payload = build_payload()
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
