@@ -22,6 +22,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "deals.json"
 MSK = timezone(timedelta(hours=3), name="MSK")
+REFRESH_STAMP_HOURS = 12
 UA = "NexusPulse/1.0 (+https://derzko435.github.io/nexus-pulse/; deals fetcher)"
 
 ROW_SPLIT = re.compile(r'<a href="https://store\.steampowered\.com/app/')
@@ -178,6 +179,22 @@ def main() -> None:
     payload = build_deals(count=args.count, pages=args.pages)
     if not payload["deals"]:
         raise SystemExit("No live Steam discounts fetched — refusing to write empty/fake deals")
+    # Write only when the deals changed, or when the "Скидки обновлены" stamp would get older than
+    # REFRESH_STAMP_HOURS (a check with identical prices still refreshes the label twice a day at most).
+    try:
+        old = json.loads(OUT.read_text(encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        old = {}
+    old_at = None
+    try:
+        old_at = datetime.fromisoformat(str(old.get("updatedAt")))
+    except (TypeError, ValueError):
+        pass
+    same = old.get("deals") == payload["deals"] and old.get("source") == payload["source"]
+    fresh = old_at is not None and datetime.now(MSK) - old_at < timedelta(hours=REFRESH_STAMP_HOURS)
+    if same and fresh:
+        print(f"[same] deals.json: {len(payload['deals'])} deals unchanged (checked {payload['updatedAt']})")
+        return
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"[NEXUS PULSE] deals.json обновлён → {OUT}")
     print(f"  source=steam-specials-ru  updatedAt={payload['updatedAt']}  deals={len(payload['deals'])}")

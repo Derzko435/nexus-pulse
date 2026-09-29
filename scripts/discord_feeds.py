@@ -42,7 +42,10 @@ SITE = "https://derzko435.github.io/nexus-pulse/"
 LOGO = SITE + "assets/nexus-pulse-icon.png"
 BRAND_NAME = "NEXUS PULSE"
 MAX_PER_RUN = 5
-PER_FEED_MAX = {"news": 3, "videos": 3}  # busy feeds: fewer posts per run
+PER_FEED_MAX = {"news": 3, "videos": 3, "deals": 5}  # busy feeds: fewer posts per run
+# deals are refreshed by refresh-data.yml every ~2 h: one grouped message (≤ 5 deals) per run and at most
+# DEALS_MESSAGES_PER_DAY messages a day; a game already posted is not re-posted when only its % changes
+DEALS_MESSAGES_PER_DAY = 3
 SEED_COUNT = 3
 KEEP_IDS = 500
 MATCH_PINGS_PER_DAY = 3
@@ -440,6 +443,7 @@ def run(args) -> int:
     pings: list[str] = state.get("matchPings") or []
     today = now_msk().strftime("%Y-%m-%d")
     pings = [p for p in pings if p >= (now_msk() - timedelta(days=2)).strftime("%Y-%m-%d")]
+    deal_posts: list[str] = [p for p in state.get("dealPosts") or [] if p >= (now_msk() - timedelta(days=2)).strftime("%Y-%m-%d")]
     sender = Sender(mode, args.dry_run)
     only = [f.strip() for f in (args.only or "").split(",") if f.strip()] or FEEDS
     total = 0
@@ -459,6 +463,13 @@ def run(args) -> int:
         seen = set(posted.get(feed) or [])
         seeding = feed not in posted or args.seed
         new = [c for c in cands if c["key"] not in seen]
+        if feed == "deals":
+            # dedupe by game (key = "<id>:<pct>"): skip a game already posted with any discount
+            seen_ids = {k.rsplit(":", 1)[0] for k in seen}
+            new = [c for c in new if c["key"].rsplit(":", 1)[0] not in seen_ids]
+            if not seeding and new and sum(1 for p in deal_posts if p.startswith(today)) >= DEALS_MESSAGES_PER_DAY:
+                print(f"deals: {len(new)} new, daily cap {DEALS_MESSAGES_PER_DAY} messages reached — wait for tomorrow")
+                continue
         limit = SEED_COUNT if seeding else PER_FEED_MAX.get(feed, MAX_PER_RUN)
         chosen = new[-limit:]
         skipped = [c for c in new if c not in chosen]
@@ -500,6 +511,8 @@ def run(args) -> int:
                         pings.append(now_msk().isoformat(timespec="minutes"))
             try:
                 sender.send(feed, body)
+                if feed == "deals" and not args.dry_run:
+                    deal_posts.append(now_msk().isoformat(timespec="minutes"))
                 for c in group:
                     seen.add(c["key"])
                     posted.setdefault(feed, []).append(c["key"])
@@ -523,6 +536,7 @@ def run(args) -> int:
         "updatedAt": now_msk().isoformat(timespec="seconds") if total else state.get("updatedAt", now_msk().isoformat(timespec="seconds")),
         "posted": posted,
         "matchPings": pings,
+        "dealPosts": deal_posts,
     })
     old_cmp = {k: v for k, v in state.items() if k != "updatedAt"}
     new_cmp = {k: v for k, v in new_state.items() if k != "updatedAt"}
