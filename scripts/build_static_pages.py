@@ -39,6 +39,12 @@ from pathlib import Path
 
 from np_common import DATA, MSK, ROOT, log, read_json
 
+try:  # esports/ + esports/<game>/ schedule pages from data/matches.json
+    import esports_pages
+except Exception as _ex:  # noqa: BLE001
+    esports_pages = None
+    log(f"[static] esports_pages import failed: {type(_ex).__name__}: {_ex}")
+
 try:  # about/, editorial-policy/, contacts/
     import info_pages
 except Exception as _ex:  # noqa: BLE001
@@ -426,7 +432,7 @@ def layout(*, path: str, title: str, desc: str, body: str, crumbs: list, og_type
         f'<li><a href="{e(rel + p) if p else e(rel)}">{e(name)}</a></li>' if i < len(crumbs) - 1 else f'<li aria-current="page">{e(name)}</li>'
         for i, (name, p) in enumerate(crumbs))
     scripts = "\n".join(ld(x) for x in (jsonld or []) + [crumb_ld])
-    nav = [("news/", "Новости"), ("games/", "Игры"), ("guides/", "Гайды"), ("tools/", "Инструменты"), ("free-games/", "Халява")]
+    nav = [("news/", "Новости"), ("games/", "Игры"), ("esports/", "Киберспорт"), ("guides/", "Гайды"), ("tools/", "Инструменты"), ("free-games/", "Халява")]
     cur = path.split("/")[0] + "/"
     cur_attr = ' aria-current="true"'
     nav_html = "".join(f'<li><a href="{rel}{p}"{cur_attr if p == cur else ""}>{n}</a></li>' for p, n in nav)
@@ -490,7 +496,7 @@ def layout(*, path: str, title: str, desc: str, body: str, crumbs: list, og_type
 <a href="{rel}guides/">Гайды</a>
 <a href="{rel}tools/">Инструменты</a>
 <a href="{rel}#calendar">Релизы</a>
-<a href="{rel}#esports">Киберспорт</a>
+<a href="{rel}esports/">Киберспорт</a>
 <a href="{rel}#deals">Скидки</a>
 <a href="{rel}free-games/">Халява</a>
 <a href="{rel}#community">Discord</a>
@@ -1508,6 +1514,11 @@ def build() -> list:
     pages += [("page", game_page(g, games, specs, fps, guides, catalog), "game") for g in games]
     pages.append(("page", tools_index(), "list"))
     pages += [("page", tool_page(t, games, specs, fps, guides_by_id), "tool") for t in TOOLS]
+    if esports_pages:
+        try:
+            pages += [("page", a, "esports") for a in esports_pages.build_pages(read_json(DATA / "matches.json", {}) or {}, SITE, publisher())]
+        except Exception as ex:  # noqa: BLE001
+            log(f"[static] esports pages failed, keeping existing: {type(ex).__name__}: {ex}")
     if info_pages:
         ctx = {"site": SITE, "discord": DISCORD_URL, "telegram": TELEGRAM_URL, "org": publisher(),
                "counts": {"games": len(games), "guides": len(guides) + len(editorial_cards())}}
@@ -1541,8 +1552,8 @@ def build() -> list:
                 obj["datePublished"] = created
                 obj["dateModified"] = lastmod
             text = layout(**kw)
-        changefreq = {"list": "weekly", "newslist": "hourly", "newspage": "daily", "news": "monthly", "freebies": "daily"}.get(kind, "monthly")
-        priority = {"list": "0.8", "newslist": "0.8", "newspage": "0.4", "info": "0.5", "freebies": "0.8", "guide": "0.7", "tool": "0.7", "game": "0.6", "news": "0.5"}[kind]
+        changefreq = {"list": "weekly", "newslist": "hourly", "newspage": "daily", "esports": "hourly", "news": "monthly", "freebies": "daily"}.get(kind, "monthly")
+        priority = {"list": "0.8", "newslist": "0.8", "newspage": "0.4", "info": "0.5", "esports": "0.7", "freebies": "0.8", "guide": "0.7", "tool": "0.7", "game": "0.6", "news": "0.5"}[kind]
         manifest[path] = {"hash": h, "created": created, "lastmod": lastmod, "changefreq": changefreq, "priority": priority}
         if not index:
             manifest[path]["noindex"] = True
@@ -1551,6 +1562,11 @@ def build() -> list:
             continue  # thin page (no excerpt): reachable, but kept out of the sitemap
         entries.append({"loc": SITE + path, "lastmod": lastmod, "changefreq": changefreq, "priority": priority})
 
+    for path, m in old.items():  # esports pages already on disk stay (and stay in the sitemap) if their build failed
+        if path.startswith("esports/") and path not in manifest and (ROOT / path / "index.html").is_file():
+            manifest[path] = m
+            entries.append({"loc": SITE + path, "lastmod": m.get("lastmod") or stamp,
+                            "changefreq": m.get("changefreq") or "hourly", "priority": m.get("priority") or "0.7"})
     if not info_pages:  # keep the info pages already on disk (and in the sitemap) until the module is fixed
         for path, m in old.items():
             if path in ("about/", "editorial-policy/", "contacts/") and path not in manifest and (ROOT / path / "index.html").is_file():
