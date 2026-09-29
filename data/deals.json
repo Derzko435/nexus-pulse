@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T15:26:13+03:00",
+  "updatedAt": "2026-09-29T19:34:40+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -61,16 +61,6 @@
       "pct": 82,
       "url": "https://store.steampowered.com/app/640820/?curator_clanid=0",
       "steamAppId": "640820"
-    },
-    {
-      "id": "steam-1184370",
-      "title": "Pathfinder: Wrath of the Righteous - Enhanced Edition",
-      "store": "Steam",
-      "old": 599,
-      "neu": 119,
-      "pct": 80,
-      "url": "https://store.steampowered.com/app/1184370/?curator_clanid=0",
-      "steamAppId": "1184370"
     },
     {
       "id": "steam-424840",
@@ -141,6 +131,16 @@
       "pct": 70,
       "url": "https://store.steampowered.com/app/281990/?curator_clanid=0",
       "steamAppId": "281990"
+    },
+    {
+      "id": "steam-2186680",
+      "title": "Warhammer 40,000: Rogue Trader",
+      "store": "Steam",
+      "old": 1599,
+      "neu": 479,
+      "pct": 70,
+      "url": "https://store.steampowered.com/app/2186680/?curator_clanid=0",
+      "steamAppId": "2186680"
     }
   ]
 }
