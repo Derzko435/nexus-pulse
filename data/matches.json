@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-29T12:54:22+03:00",
+ "updatedAt": "2026-09-29T13:09:47+03:00",
  "source": "bo3.gg",
  "matches": [
   {
@@ -10,7 +10,7 @@
    "teamB": "Paper Rex",
    "logoA": "https://files.bo3.gg/uploads/team/7323/image/webp-a6b33ebec05ea1ac47e1e6bea746bdfc.webp",
    "logoB": "https://files.bo3.gg/uploads/team/7225/image/webp-b1445d485ba2550ac31d218ef60fd409.webp",
-   "scoreA": 0,
+   "scoreA": 1,
    "scoreB": 0,
    "bo": 3,
    "status": "live",
@@ -30,33 +30,6 @@
    "url": "https://bo3.gg/valorant/matches/g2-esports-vs-paper-rex-1-29-09-2026"
   },
   {
-   "id": "bo3-130677",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "PARIVISION",
-   "teamB": "Level UP",
-   "logoA": "https://files.bo3.gg/uploads/team/18604/image/webp-6ff7974f420e977381734ce06515692b.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16470/image/webp-5e7660cb9c7b91d47fdce654a51f245c.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "BLAST Slam VIII",
-   "tier": "S",
-   "startsAt": "2026-09-29T13:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "blastpremier",
-     "lang": "en",
-     "official": true,
-     "label": "blastpremier",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/parivision-dota2-vs-level-up-29-09-2026"
-  },
-  {
    "id": "bo3-130672",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -67,7 +40,7 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "BLAST Slam VIII",
    "tier": "S",
    "startsAt": "2026-09-29T13:00:00+03:00",
@@ -82,6 +55,33 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/team-spirit-vs-team-nemesis-29-09-2026"
+  },
+  {
+   "id": "bo3-130677",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "PARIVISION",
+   "teamB": "Level UP",
+   "logoA": "https://files.bo3.gg/uploads/team/18604/image/webp-6ff7974f420e977381734ce06515692b.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16470/image/webp-5e7660cb9c7b91d47fdce654a51f245c.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "live",
+   "event": "BLAST Slam VIII",
+   "tier": "S",
+   "startsAt": "2026-09-29T13:10:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "blastpremier",
+     "lang": "en",
+     "official": true,
+     "label": "blastpremier",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/parivision-dota2-vs-level-up-29-09-2026"
   },
   {
    "id": "bo3-129610",
@@ -1704,7 +1704,7 @@
    "prize": 750000,
    "start": "2026-09-29",
    "end": "2026-10-11",
-   "status": "upcoming",
+   "status": "current",
    "url": "https://bo3.gg/dota2/tournaments/blast-slam-viii"
   },
   {
