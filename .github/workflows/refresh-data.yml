@@ -36,6 +36,11 @@ jobs:
       - name: Update Steam prices for the watchlist
         run: python scripts/update_prices.py || echo "::warning::prices update failed (last good data kept)"
 
+      # Steam RU specials → data/deals.json (real prices only; writes on change or when the stamp is > 12 h old).
+      # Discord deals posts are capped in scripts/discord_feeds.py (≤ 5 per run, ≤ 3 messages a day, deduped by game).
+      - name: Steam deals (real discounts)
+        run: python scripts/update_deals.py || echo "::warning::deals update failed (last good data kept)"
+
       - name: Price history (daily points, only changes)
         run: python scripts/update_price_history.py || echo "::warning::price history update failed (last good data kept)"
 
@@ -81,7 +86,7 @@ jobs:
             echo "No data JSON / page changes"
             exit 0
           fi
-          git commit -m "chore(data): refresh ping/steam/prices/price history/freebies JSON, free-games page"
+          git commit -m "chore(data): refresh deals/ping/steam/prices/price history/freebies JSON, free-games page"
           for i in 1 2 3 4 5; do
             # generated files (sitemap, seo_pages.json, pages) may also have been rebuilt by daily-content:
             # on a conflict keep ours (-X theirs = the commit being replayed), then rebuild on top of the
