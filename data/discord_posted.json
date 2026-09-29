@@ -1,6 +1,6 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-09-29T19:34:59+03:00",
+ "updatedAt": "2026-09-30T00:23:23+03:00",
  "posted": {
   "news": [
    "3160fc19c04d",
@@ -211,7 +211,37 @@
    "726d00a8cf83",
    "374c21529769",
    "1578620090ed",
-   "b236df489c5e"
+   "b236df489c5e",
+   "6c32053eee50",
+   "2cf7265ee5fa",
+   "d5f0e3e0614f",
+   "2550db267146",
+   "b444d7f38df3",
+   "326ca4c0b08a",
+   "d8becd2524df",
+   "2cec4f23d9de",
+   "709c99711f8d",
+   "121f1de81b95",
+   "564b14d8d9d8",
+   "f5077e761dab",
+   "947053f9f1b8",
+   "a671f80ccb84",
+   "38312c9483e4",
+   "bae4b5a06dde",
+   "656f20bf744e",
+   "8e788e6a77bb",
+   "639a1c6cfae5",
+   "cf47a5ca35b7",
+   "a919d62c3af1",
+   "389265661051",
+   "b39f6527eb4e",
+   "feb76653def7",
+   "8e79680698c6",
+   "cc54fff79b53",
+   "f66677621ff6",
+   "29b06cb96155",
+   "6830adb51b03",
+   "36b858e97b49"
   ],
   "deals": [
    "steam-246420:90",
@@ -290,7 +320,14 @@
    "digest:2026-09-29",
    "live:bo3-129613",
    "live:bo3-130672",
-   "live:bo3-130677"
+   "live:bo3-130677",
+   "result:bo3-130677",
+   "result:bo3-130673",
+   "result:bo3-129610",
+   "result:bo3-130678",
+   "digest:2026-09-30",
+   "result:bo3-129613",
+   "result:bo3-130672"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -378,7 +415,16 @@
    "4dHwQTWM8_k",
    "f6G9thoQiKo",
    "WGmqAYtKin0",
-   "xycWafOWgFA"
+   "xycWafOWgFA",
+   "ao2mBBP8lww",
+   "psaqLuXBJlU",
+   "iAeXIimm8M4",
+   "EdvCJluYXr4",
+   "M8SJwgsdGTQ",
+   "Rhcb3TqhCCs",
+   "lBP_R4wllwA",
+   "U78odgCki9A",
+   "Uy1HdRfkYYk"
   ],
   "releases": [
    "week:2026-W39",
@@ -394,9 +440,6 @@
   ]
  },
  "matchPings": [
-  "2026-09-27T00:38+03:00",
-  "2026-09-27T12:27+03:00",
-  "2026-09-27T15:32+03:00",
   "2026-09-28T00:42+03:00",
   "2026-09-29T00:25+03:00",
   "2026-09-29T12:59+03:00",
