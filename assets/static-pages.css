@@ -66,3 +66,6 @@
 .ed-page .guide-sec h3 { font-size: 1rem; margin: 1.1rem 0 .45rem; }
 .ed-page .sp-table a.sp-note { white-space: nowrap; }
 .ed-source { margin-top: 1.5rem; }
+.sp-pager { display: flex; flex-wrap: wrap; gap: .4rem; margin: 1.2rem 0 0; align-items: center; }
+.sp-pager a, .sp-pager span { padding: .35rem .7rem; border-radius: 10px; border: 1px solid var(--border); text-decoration: none; }
+.sp-pager span[aria-current] { border-color: var(--cyan); color: var(--cyan); }

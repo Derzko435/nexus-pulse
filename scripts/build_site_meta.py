@@ -6,7 +6,8 @@ Writes:
                        index.html?news=<id> (the site opens that news in its viewer)
   s/build.html       — share page for PC builds (query string is passed through to the builder)
   data/share_index.json — compact archive of shared news (the site can still show an old news
-                       card after it has left the feed); capped, oldest removed together with pages
+                       card after it has left the feed): the newest 200 + older news with an excerpt
+                       (indexable pages) for 30 days; the rest is removed together with its pages
   sitemap.xml, robots.txt — sitemap lists the home page + every static page from
                        scripts/build_static_pages.py (guides/, games/, tools/, news/)
   guides/ games/ tools/ news/ — prerendered pages for search engines (build_static_pages.py)
@@ -29,7 +30,12 @@ SITE = (CONFIG.get("siteUrl") or "https://derzko435.github.io/nexus-pulse/").rst
 SHARE_DIR = ROOT / "s"
 NEWS_DIR = SHARE_DIR / "news"
 INDEX_FILE = DATA / "share_index.json"
+# Retention: the newest MAX_NEWS_PAGES news are always kept (fresh items, many still without an excerpt);
+# older news are kept only when they have an excerpt in data/news_excerpts.json (= indexable page in the
+# sitemap) and are younger than EXCERPT_KEEP_DAYS, so indexed news/<id>/ URLs live ~30 days, not ~3.
 MAX_NEWS_PAGES = 200
+EXCERPT_KEEP_DAYS = 30
+MAX_ARCHIVE = 2000  # hard cap (repo size): ~30 excerpted news a day * 30 days ≈ 900
 KEEP_DAYS = 45
 ID_RE = re.compile(r"^[\w-]{1,64}$")
 OG_IMAGE = SITE + "assets/og-image.png"
@@ -142,8 +148,12 @@ def share_pages() -> int:
             "source": n.get("source") or "", "date": n.get("date") or "",
         }
     cutoff = (now - timedelta(days=KEEP_DAYS)).isoformat()
-    items = sorted(archive.values(), key=lambda a: a.get("date") or "", reverse=True)
-    items = [a for a in items if (a.get("date") or "9") >= cutoff][:MAX_NEWS_PAGES]
+    ex_cutoff = (now - timedelta(days=EXCERPT_KEEP_DAYS)).isoformat()
+    excerpted = set(((read_json(DATA / "news_excerpts.json", {}) or {}).get("items") or {}).keys())
+    items = sorted(archive.values(), key=lambda a: (a.get("date") or "", a["id"]), reverse=True)
+    items = [a for a in items if (a.get("date") or "9") >= cutoff]
+    items = (items[:MAX_NEWS_PAGES] + [a for a in items[MAX_NEWS_PAGES:]
+                                       if a["id"] in excerpted and (a.get("date") or "") >= ex_cutoff])[:MAX_ARCHIVE]
     keep = {a["id"] for a in items}
     changed = 0
     for a in items:
