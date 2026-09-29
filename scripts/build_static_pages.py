@@ -459,7 +459,7 @@ def layout(*, path: str, title: str, desc: str, body: str, crumbs: list, og_type
 <div class="bg-glow" aria-hidden="true"></div>
 <header class="site-header">
 <nav class="nav container sp-nav" aria-label="Главная навигация">
-<a href="{rel}" class="logo"><span class="logo-mark"><img src="{rel}assets/nexus-pulse-icon.png" alt="NEXUS PULSE" width="36" height="36"></span><span class="logo-text">NEXUS<span>PULSE</span></span></a>
+<a href="{rel}" class="logo"><span class="logo-mark"><img src="{rel}assets/logo-72.png" alt="NEXUS PULSE" width="36" height="36"></span><span class="logo-text">NEXUS<span>PULSE</span></span></a>
 <ul class="sp-menu">{nav_html}</ul>
 <a href="{rel}" class="btn btn-primary btn-sm sp-open">Открыть портал</a>
 </nav>
@@ -471,7 +471,7 @@ def layout(*, path: str, title: str, desc: str, body: str, crumbs: list, og_type
 <footer class="site-footer">
 <div class="container footer-inner">
 <div class="footer-brand">
-<a href="{rel}" class="logo"><span class="logo-mark"><img src="{rel}assets/nexus-pulse-icon.png" alt="NEXUS PULSE" width="36" height="36" loading="lazy"></span><span class="logo-text">NEXUS<span>PULSE</span></span></a>
+<a href="{rel}" class="logo"><span class="logo-mark"><img src="{rel}assets/logo-72.png" alt="NEXUS PULSE" width="36" height="36" loading="lazy"></span><span class="logo-text">NEXUS<span>PULSE</span></span></a>
 <p>Игровой портал для тех, кто играет серьёзно.</p>
 </div>
 <nav class="footer-nav" aria-label="Навигация в подвале">
