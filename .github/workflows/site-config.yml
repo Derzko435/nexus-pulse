@@ -13,6 +13,7 @@ on:
       - app.js
       - guides-content.js
       - scripts/build_static_pages.py
+      - scripts/seo_articles.py
       - scripts/build_site_meta.py
   workflow_dispatch:
 

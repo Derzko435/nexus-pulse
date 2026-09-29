@@ -9,6 +9,8 @@ Reads the same data the SPA uses and writes real HTML pages next to index.html:
   guides/ games/ tools/ news/ index.html — list pages
   free-games/index.html   — giveaways hub from data/freebies.json + data/freebies_archive.json
                             (status now / upcoming / over is computed at build time, MSK)
+  guides/<slug>/index.html — editorial long reads from scripts/seo_articles.py (game-length,
+                            russian-voice, steam-refund, local-coop): frozen, hand-checked data
   data/seo_pages.json     — content hash + lastmod per page (stable sitemap <lastmod>)
   data/news_excerpts.json — short article excerpts kept after a news item leaves news.json, so
                             its page does not change (or thin out) later; pruned with the archive.
@@ -33,6 +35,12 @@ from datetime import datetime
 from pathlib import Path
 
 from np_common import DATA, MSK, ROOT, log, read_json
+
+try:  # editorial long reads (guides/<slug>/); a broken module must not take the other pages down
+    import seo_articles
+except Exception as _ex:  # noqa: BLE001
+    seo_articles = None
+    log(f"[static] seo_articles import failed, keeping existing editorial pages: {type(_ex).__name__}: {_ex}")
 
 CONFIG = read_json(DATA / "site_config.json", {}) or {}
 SITE = (CONFIG.get("siteUrl") or "https://derzko435.github.io/nexus-pulse/").rstrip("/") + "/"
@@ -492,6 +500,11 @@ def links_list(items, cls="sp-links") -> str:
 
 
 # ---------------------------------------------------------------- guides
+def editorial_cards() -> list:
+    """(path from the site root, title, blurb) of the editorial long reads (scripts/seo_articles.py)."""
+    return seo_articles.hub_cards("") if seo_articles else []
+
+
 def guide_section_html(sec: dict, i: int) -> str:
     inner = ""
     if sec.get("steps"):
@@ -575,15 +588,22 @@ def guides_index(guides):
         f'<a class="guide-card glass sp-card" href="{e(g["id"])}/"><span class="guide-tag">{e(g.get("tag"))}</span>'
         f'<h2 class="sp-card-h">{e(g["title"])}</h2><p class="guide-preview">{e(clip(g.get("lead"), 180))}</p>'
         f'<span class="guide-meta">⏱ {e(g.get("time"))}{" · " + e(g.get("level")) if g.get("level") else ""}</span></a>' for g in guides)
+    ed_cards = "".join(
+        f'<a class="guide-card glass sp-card" href="{e(h[len("guides/"):])}"><span class="guide-tag">Подборка</span>'
+        f'<h3 class="sp-card-h">{e(t)}</h3><p class="guide-preview">{e(b)}</p></a>' for h, t, b in editorial_cards())
     body = f"""<section class="sp-list">
 <p class="eyebrow">Гайды</p>
 <h1 class="sp-h1">Гайды и советы для геймеров</h1>
 <p class="section-desc">{e(desc)} Темы: {e(", ".join(t for t in tags if t))}.</p>
 <div class="cards-grid sp-grid">{cards}</div>
-</section>"""
+{f'''<section class="sp-group" id="articles"><h2 class="sp-h2">Подборки и справочники</h2>
+<p class="section-desc">Большие материалы с таблицами и проверенными данными: время прохождения, русская озвучка, возврат игр в Steam и игры на двоих.</p>
+<div class="cards-grid sp-grid">{ed_cards}</div></section>
+''' if ed_cards else ""}</section>"""
+    items = [(SITE + f"guides/{g['id']}/", g["title"]) for g in guides] + [(SITE + h, t) for h, t, _ in editorial_cards()]
     lst = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "Гайды NEXUS PULSE", "url": SITE + path, "inLanguage": "ru",
-           "mainEntity": {"@type": "ItemList", "numberOfItems": len(guides), "itemListElement": [
-               {"@type": "ListItem", "position": i + 1, "url": SITE + f"guides/{g['id']}/", "name": g["title"]} for i, g in enumerate(guides)]}}
+           "mainEntity": {"@type": "ItemList", "numberOfItems": len(items), "itemListElement": [
+               {"@type": "ListItem", "position": i + 1, "url": u, "name": t} for i, (u, t) in enumerate(items)]}}
     return path, title, desc, body, [("Главная", ""), ("Гайды", path)], "website", "", [lst]
 
 
@@ -670,7 +690,8 @@ def games_index(games, catalog):
 <h1 class="sp-h1">Каталог игр NEXUS PULSE</h1>
 <p class="section-desc">{e(desc)}</p>
 <p class="section-desc">🎁 <a href="../free-games/">Бесплатные игры сейчас</a>: текущие раздачи Epic Games, Steam и GOG.</p>
-{"".join(blocks)}
+{"" if not editorial_cards() else f'''<p class="section-desc">📚 Подборки: {" · ".join(f'<a href="../{e(h)}">{e(t)}</a>' for h, t, _ in editorial_cards())}.</p>
+'''}{"".join(blocks)}
 </section>"""
     lst = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "Каталог игр NEXUS PULSE", "url": SITE + path, "inLanguage": "ru",
            "mainEntity": {"@type": "ItemList", "numberOfItems": len(games), "itemListElement": [
@@ -1375,6 +1396,8 @@ def build() -> list:
     pages.append(("page", free_games_page(games, catalog, news), "freebies"))
     pages.append(("page", guides_index(guides), "list"))
     pages += [("page", guide_page(g, games_by_id, guides, catalog), "guide") for g in guides]
+    if seo_articles:
+        pages += [("page", a, "guide") for a in seo_articles.build_pages(games_by_id, SITE, OG_IMAGE, publisher())]
     pages.append(("page", games_index(games, catalog), "list"))
     pages += [("page", game_page(g, games, specs, fps, guides, catalog), "game") for g in games]
     pages.append(("page", tools_index(), "list"))
@@ -1401,6 +1424,8 @@ def build() -> list:
         if kind in ("guide",):
             # Article dates come from the manifest: re-render with them (not part of the hash)
             for obj in jsonld:
+                if obj.get("@type") != "Article":
+                    continue  # e.g. FAQPage next to the Article of an editorial page
                 obj["datePublished"] = created
                 obj["dateModified"] = lastmod
             text = layout(**kw)
@@ -1414,6 +1439,13 @@ def build() -> list:
             continue  # thin page (no excerpt): reachable, but kept out of the sitemap
         entries.append({"loc": SITE + path, "lastmod": lastmod, "changefreq": changefreq, "priority": priority})
 
+    if not seo_articles:  # keep the editorial pages already on disk (and in the sitemap) until the module is fixed
+        for path, m in old.items():
+            if path.startswith("guides/") and path not in manifest and (ROOT / path / "index.html").is_file():
+                manifest[path] = m
+                if not m.get("noindex"):
+                    entries.append({"loc": SITE + path, "lastmod": m.get("lastmod") or stamp,
+                                    "changefreq": m.get("changefreq") or "monthly", "priority": m.get("priority") or "0.7"})
     removed = cleanup(set(manifest))
     if manifest != old:
         MANIFEST.write_text(json.dumps({"about": "Generated by scripts/build_static_pages.py: content hash + lastmod of every static page (sitemap <lastmod>). Do not edit.",
