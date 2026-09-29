@@ -76,7 +76,7 @@ jobs:
           git add data/translations.json data/share_index.json sitemap.xml robots.txt index.html 2>/dev/null || true
           git add -A s/ 2>/dev/null || true
           # static SEO pages (scripts/build_static_pages.py); one path at a time so a missing one can't skip the rest
-          for p in guides games tools news free-games about editorial-policy contacts data/seo_pages.json data/news_excerpts.json data/freebies_archive.json; do if [ -e "$p" ]; then git add -A -- "$p" || true; fi; done
+          for p in guides games tools news free-games about editorial-policy contacts esports data/seo_pages.json data/news_excerpts.json data/freebies_archive.json; do if [ -e "$p" ]; then git add -A -- "$p" || true; fi; done
           if git diff --cached --quiet; then
             echo "No content changes"
             echo "pushed=0" >> "$GITHUB_OUTPUT"
@@ -90,7 +90,7 @@ jobs:
               python scripts/build_site_meta.py >/dev/null 2>&1 || true
               git add sitemap.xml robots.txt index.html data/share_index.json 2>/dev/null || true
               git add -A s/ 2>/dev/null || true
-              for p in guides games tools news free-games about editorial-policy contacts data/seo_pages.json data/news_excerpts.json; do if [ -e "$p" ]; then git add -A -- "$p" || true; fi; done
+              for p in guides games tools news free-games about editorial-policy contacts esports data/seo_pages.json data/news_excerpts.json; do if [ -e "$p" ]; then git add -A -- "$p" || true; fi; done
               git diff --cached --quiet || git commit -m "chore(site): rebuild static pages after rebase"
               git push origin HEAD:main && break
             else
