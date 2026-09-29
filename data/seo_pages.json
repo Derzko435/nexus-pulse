@@ -856,30 +856,30 @@
    "priority": "0.7"
   },
   "esports/": {
-   "hash": "dfc8615a589560a3",
+   "hash": "7a2dd8ae2fc2a45f",
    "created": "2026-09-29",
-   "lastmod": "2026-09-29",
+   "lastmod": "2026-09-30",
    "changefreq": "hourly",
    "priority": "0.7"
   },
   "esports/cs2/": {
-   "hash": "cb2df1666e30821c",
+   "hash": "2adc46d787ad3c6c",
    "created": "2026-09-29",
-   "lastmod": "2026-09-29",
+   "lastmod": "2026-09-30",
    "changefreq": "hourly",
    "priority": "0.7"
   },
   "esports/dota2/": {
-   "hash": "ba18b5de14e962e2",
+   "hash": "e74c6cb6d210803d",
    "created": "2026-09-29",
-   "lastmod": "2026-09-29",
+   "lastmod": "2026-09-30",
    "changefreq": "hourly",
    "priority": "0.7"
   },
   "esports/valorant/": {
-   "hash": "c5c092ac0bba5ae7",
+   "hash": "761ebf60d2fe4834",
    "created": "2026-09-29",
-   "lastmod": "2026-09-29",
+   "lastmod": "2026-09-30",
    "changefreq": "hourly",
    "priority": "0.7"
   },
@@ -905,21 +905,105 @@
    "priority": "0.5"
   },
   "news/": {
-   "hash": "fadacbdb924e1633",
+   "hash": "669d37923e8983ed",
    "created": "2026-09-28",
-   "lastmod": "2026-09-29",
+   "lastmod": "2026-09-30",
    "changefreq": "hourly",
    "priority": "0.8"
   },
   "news/page/2/": {
-   "hash": "cec762967a6f1ec8",
+   "hash": "11670fc062c48776",
    "created": "2026-09-29",
-   "lastmod": "2026-09-29",
+   "lastmod": "2026-09-30",
    "changefreq": "daily",
    "priority": "0.4"
   },
+  "news/page/3/": {
+   "hash": "99cfebd2e9d763df",
+   "created": "2026-09-30",
+   "lastmod": "2026-09-30",
+   "changefreq": "daily",
+   "priority": "0.4"
+  },
+  "news/d933ae82690b/": {
+   "hash": "f0762201fc7584ff",
+   "created": "2026-09-30",
+   "lastmod": "2026-09-30",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/4db889858101/": {
+   "hash": "7c0621be7bb0895c",
+   "created": "2026-09-30",
+   "lastmod": "2026-09-30",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/5196888375e0/": {
+   "hash": "53ff88295ce4e142",
+   "created": "2026-09-30",
+   "lastmod": "2026-09-29",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/55288fab9e4f/": {
+   "hash": "becb14a6935ef58f",
+   "created": "2026-09-30",
+   "lastmod": "2026-09-29",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/c04d726caf59/": {
+   "hash": "d4f849165cba6702",
+   "created": "2026-09-30",
+   "lastmod": "2026-09-29",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/7d297fea8772/": {
+   "hash": "a8bf4e4b1b8faf1f",
+   "created": "2026-09-30",
+   "lastmod": "2026-09-29",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/c0b88fa8b82c/": {
+   "hash": "f64188871ae17b07",
+   "created": "2026-09-30",
+   "lastmod": "2026-09-29",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/b848fcb3be32/": {
+   "hash": "547bb3c209ca64f8",
+   "created": "2026-09-30",
+   "lastmod": "2026-09-29",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/936874565377/": {
+   "hash": "2ab76e1e760c8698",
+   "created": "2026-09-30",
+   "lastmod": "2026-09-29",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/cd9a559c88ba/": {
+   "hash": "5e4094fe7a856da2",
+   "created": "2026-09-30",
+   "lastmod": "2026-09-29",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/dc3bc2448fa0/": {
+   "hash": "cc6bfade7cadbe75",
+   "created": "2026-09-30",
+   "lastmod": "2026-09-29",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
   "news/d5f0e3e0614f/": {
-   "hash": "b3a2c7cbab3bc7ec",
+   "hash": "f7353eaf43cf0f0f",
    "created": "2026-09-29",
    "lastmod": "2026-09-29",
    "changefreq": "monthly",
@@ -2308,15 +2392,7 @@
    "priority": "0.5"
   },
   "news/fbe8b48ab3e3/": {
-   "hash": "a3fc5a4c3e359bcc",
-   "created": "2026-09-28",
-   "lastmod": "2026-09-26",
-   "changefreq": "monthly",
-   "priority": "0.5",
-   "noindex": true
-  },
-  "news/020aef858379/": {
-   "hash": "7715a2007d1b4891",
+   "hash": "a857a79c54d7d62c",
    "created": "2026-09-28",
    "lastmod": "2026-09-26",
    "changefreq": "monthly",
@@ -2324,81 +2400,25 @@
    "noindex": true
   },
   "news/9bc2ec75a73e/": {
-   "hash": "3fa92be4cef190a6",
+   "hash": "4fa3d57ec16466d5",
    "created": "2026-09-28",
    "lastmod": "2026-09-26",
    "changefreq": "monthly",
    "priority": "0.5"
-  },
-  "news/def58254a07b/": {
-   "hash": "8679a627c867adb8",
-   "created": "2026-09-28",
-   "lastmod": "2026-09-26",
-   "changefreq": "monthly",
-   "priority": "0.5",
-   "noindex": true
-  },
-  "news/7704cd889f1e/": {
-   "hash": "6eb86cd5b8af0c06",
-   "created": "2026-09-28",
-   "lastmod": "2026-09-26",
-   "changefreq": "monthly",
-   "priority": "0.5",
-   "noindex": true
   },
   "news/74bb34acd291/": {
-   "hash": "f11b4dc0e37d14c3",
+   "hash": "f382d7b16013af96",
    "created": "2026-09-28",
    "lastmod": "2026-09-26",
    "changefreq": "monthly",
    "priority": "0.5"
-  },
-  "news/b8611885167c/": {
-   "hash": "f8791ec3d0dcbc0b",
-   "created": "2026-09-28",
-   "lastmod": "2026-09-26",
-   "changefreq": "monthly",
-   "priority": "0.5",
-   "noindex": true
-  },
-  "news/4cbdc7adf60b/": {
-   "hash": "4a691e3cb13172cb",
-   "created": "2026-09-28",
-   "lastmod": "2026-09-26",
-   "changefreq": "monthly",
-   "priority": "0.5",
-   "noindex": true
   },
   "news/2543f06b69ca/": {
-   "hash": "461e16ab52156d32",
+   "hash": "4da95e671f604da4",
    "created": "2026-09-28",
    "lastmod": "2026-09-26",
    "changefreq": "monthly",
    "priority": "0.5"
-  },
-  "news/7b424ba5d6e0/": {
-   "hash": "86f4f738ac03a968",
-   "created": "2026-09-28",
-   "lastmod": "2026-09-26",
-   "changefreq": "monthly",
-   "priority": "0.5",
-   "noindex": true
-  },
-  "news/4847a7cd8503/": {
-   "hash": "0ce605243fd229ad",
-   "created": "2026-09-28",
-   "lastmod": "2026-09-26",
-   "changefreq": "monthly",
-   "priority": "0.5",
-   "noindex": true
-  },
-  "news/b2508aa49cf8/": {
-   "hash": "78e34642abb2bf47",
-   "created": "2026-09-28",
-   "lastmod": "2026-09-26",
-   "changefreq": "monthly",
-   "priority": "0.5",
-   "noindex": true
   }
  }
 }
