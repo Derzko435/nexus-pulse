@@ -62,3 +62,7 @@
 .fg-empty { padding: .8rem 1rem; border: 1px dashed var(--border); border-radius: 12px; color: var(--muted); }
 .fg-page .guide-sec h3 { font-size: 1rem; margin: 1.1rem 0 .45rem; }
 .fg-source { margin-top: 1.5rem; }
+/* editorial long reads (guides/game-length/, russian-voice/, steam-refund/, local-coop/) */
+.ed-page .guide-sec h3 { font-size: 1rem; margin: 1.1rem 0 .45rem; }
+.ed-page .sp-table a.sp-note { white-space: nowrap; }
+.ed-source { margin-top: 1.5rem; }
