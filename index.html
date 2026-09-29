@@ -149,28 +149,31 @@
           <p class="eyebrow" data-i18n="hero.eyebrow">Игровой хаб · 2026</p>
           <h1><span data-i18n="hero.title">Каталог. Инструменты.</span><br /><span class="gradient-text" data-i18n="hero.title2">Ранкед без хаоса.</span></h1>
           <p class="hero-lead" data-i18n="hero.lead">
-            75 игр, ежедневный пульс, релизы и патчи, 30 гайдов, скидки, тест скорости и подбор игры под настроение —
+            Каталог популярных игр, релизы и патчи, гайды, раздачи и скидки, тест скорости и подбор игры под настроение —
             всё в одном месте.
           </p>
           <div class="hero-actions">
             <a href="#tools" class="btn btn-primary" data-i18n="hero.ctaTools">Открыть инструменты</a>
             <a href="#community" class="btn btn-ghost" id="heroDiscordBtn" data-i18n="hero.ctaDiscord">В Discord</a>
           </div>
-          <ul class="hero-stats">
-            <li><strong id="statGames">75+</strong><span data-i18n="hero.statGames">игр в каталоге</span></li>
-            <li><strong id="statGuides">30</strong><span data-i18n="hero.statGuides">гайдов</span></li>
-            <li><strong id="statTools">12</strong><span data-i18n="hero.statTools">интерактивных тула</span></li>
+          <!-- np:stats:start -->
+          <ul class="hero-stats" id="heroStats" data-games="75" data-guides="34" data-tools="10">
+            <li><strong id="statGames">75</strong><span id="statGamesLabel">игр в каталоге</span></li>
+            <li><strong id="statGuides">34</strong><span id="statGuidesLabel">гайда</span></li>
+            <li><strong id="statTools">10</strong><span id="statToolsLabel">инструментов</span></li>
           </ul>
+          <!-- np:stats:end -->
         </div>
         <div class="hero-visual" aria-hidden="true">
           <div class="hero-card glass">
             <div class="pulse-ring"></div>
             <div class="hero-hud">
-              <div class="hud-row"><span>STATUS</span><span class="ok">ONLINE</span></div>
-              <div class="hud-row"><span>FPS EST</span><span>144+</span></div>
-              <div class="hud-row"><span>LATENCY</span><span>12 ms</span></div>
-              <div class="hud-bar"><i style="--w:78%"></i></div>
-              <p class="hud-label">NEXUS CORE · READY</p>
+              <!-- np:hud:start -->
+              <div class="hud-row"><span>ИГР</span><span>75</span></div>
+              <div class="hud-row"><span>ГАЙДОВ</span><span>34</span></div>
+              <div class="hud-row"><span>ИНСТРУМЕНТОВ</span><span>10</span></div>
+              <!-- np:hud:end -->
+              <p class="hud-label">NEXUS PULSE</p>
             </div>
           </div>
         </div>
@@ -322,7 +325,7 @@
           <div>
             <p class="eyebrow" data-i18n="guides.eyebrow">Практика</p>
             <h2 data-i18n="guides.title">Гайды и советы</h2>
-            <p class="section-desc" data-i18n="guides.desc">30 подробных гайдов: FPS и Windows, настройки игр, советы новичкам и разбор частых ошибок.</p>
+            <p class="section-desc" data-i18n="guides.desc">Подробные гайды: FPS и Windows, настройки игр, советы новичкам и разбор частых ошибок.</p>
           </div>
           <a class="btn btn-ghost btn-sm" href="guides/">Все гайды списком →</a>
         </div>

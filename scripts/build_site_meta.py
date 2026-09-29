@@ -250,10 +250,55 @@ def verification_tags() -> None:
         log(f"[verify] index.html unchanged ({len(tags)} tags)")
 
 
+STATS_RE = re.compile(r"(<!-- np:stats:start -->)(.*?)(<!-- np:stats:end -->)", re.S)
+HUD_RE = re.compile(r"(<!-- np:hud:start -->)(.*?)(<!-- np:hud:end -->)", re.S)
+TOOLS_MENU_RE = re.compile(r'<ul class="nav-dd[^"]*" id="nd-tools".*?</ul>', re.S)
+
+
+def ru_plural(n: int, one: str, few: str, many: str) -> str:
+    return one if n % 10 == 1 and n % 100 != 11 else few if 2 <= n % 10 <= 4 and not 12 <= n % 100 <= 14 else many
+
+
+def hero_stats() -> None:
+    """Real numbers for the hero block of index.html (no hand-written «75+ / 30 / 12»): games and guides
+    = static pages in data/seo_pages.json, tools = items of the «Инструменты» menu in index.html."""
+    idx = ROOT / "index.html"
+    src = idx.read_text(encoding="utf-8")
+    if not STATS_RE.search(src) or not HUD_RE.search(src):
+        log("[stats] markers not found in index.html — skipped")
+        return
+    pages = (read_json(DATA / "seo_pages.json", {}) or {}).get("pages") or {}
+    games = sum(1 for p in pages if re.fullmatch(r"games/[^/]+/", p))
+    guides = sum(1 for p in pages if re.fullmatch(r"guides/[^/]+/", p))
+    menu = TOOLS_MENU_RE.search(src)
+    tools = len(re.findall(r'<li><a href="#', menu.group(0))) if menu else 0
+    if not (games and guides and tools):
+        log(f"[stats] suspicious counts (games={games}, guides={guides}, tools={tools}) — skipped")
+        return
+    ind = "\n          "
+    stats = (f'{ind}<ul class="hero-stats" id="heroStats" data-games="{games}" data-guides="{guides}" data-tools="{tools}">'
+             f'{ind}  <li><strong id="statGames">{games}</strong><span id="statGamesLabel">{ru_plural(games, "игра", "игры", "игр")} в каталоге</span></li>'
+             f'{ind}  <li><strong id="statGuides">{guides}</strong><span id="statGuidesLabel">{ru_plural(guides, "гайд", "гайда", "гайдов")}</span></li>'
+             f'{ind}  <li><strong id="statTools">{tools}</strong><span id="statToolsLabel">{ru_plural(tools, "инструмент", "инструмента", "инструментов")}</span></li>'
+             f'{ind}</ul>{ind}')
+    ind2 = "\n              "
+    hud = (f'{ind2}<div class="hud-row"><span>ИГР</span><span>{games}</span></div>'
+           f'{ind2}<div class="hud-row"><span>ГАЙДОВ</span><span>{guides}</span></div>'
+           f'{ind2}<div class="hud-row"><span>ИНСТРУМЕНТОВ</span><span>{tools}</span></div>{ind2}')
+    out = STATS_RE.sub(lambda m: m.group(1) + stats + m.group(3), src)
+    out = HUD_RE.sub(lambda m: m.group(1) + hud + m.group(3), out)
+    if out != src:
+        idx.write_text(out, encoding="utf-8")
+        log(f"[stats] index.html updated (games={games}, guides={guides}, tools={tools})")
+    else:
+        log(f"[stats] index.html unchanged (games={games}, guides={guides}, tools={tools})")
+
+
 def main() -> int:
     share_pages()
     seo_files(static_pages())
     verification_tags()
+    hero_stats()
     return 0
 
 
