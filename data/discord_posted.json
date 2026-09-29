@@ -1,6 +1,6 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-09-29T13:11:02+03:00",
+ "updatedAt": "2026-09-29T15:26:31+03:00",
  "posted": {
   "news": [
    "3160fc19c04d",
@@ -230,7 +230,11 @@
    "steam-582660:90",
    "steam-1145360:75",
    "steam-1190000:88",
-   "steam-2475460:90"
+   "steam-2475460:90",
+   "steam-756800:71",
+   "steam-424840:75",
+   "steam-1184370:80",
+   "steam-223470:90"
   ],
   "freebies": [
    "epic-7ae00c3e89174012b175cc73b4737723:soon",
@@ -410,5 +414,8 @@
   "members": {
    "2026-W39": 5
   }
- }
+ },
+ "dealPosts": [
+  "2026-09-29T15:26+03:00"
+ ]
 }
