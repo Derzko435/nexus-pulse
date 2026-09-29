@@ -856,11 +856,18 @@
    "priority": "0.7"
   },
   "news/": {
-   "hash": "5d7e1400959d54b6",
+   "hash": "1039566b55ace616",
    "created": "2026-09-28",
    "lastmod": "2026-09-29",
    "changefreq": "hourly",
    "priority": "0.8"
+  },
+  "news/page/2/": {
+   "hash": "bf8c57f0302bddda",
+   "created": "2026-09-29",
+   "lastmod": "2026-09-29",
+   "changefreq": "daily",
+   "priority": "0.4"
   },
   "news/726d00a8cf83/": {
    "hash": "c1fc92f9d5f298bf",

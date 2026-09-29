@@ -873,23 +873,57 @@ def news_page(n, idx, items, games, catalog):
     return path, title, desc, body, [("Главная", ""), ("Новости", "news/"), (clip(n["title"], 60), path)], "article", image, [art], extra, bool(excerpt)
 
 
-def news_index(items):
-    path = "news/"
-    title = "Новости игр — архив NEXUS PULSE"
+NEWS_PER_PAGE = 100
+
+
+def news_page_path(page: int) -> str:
+    return "news/" if page <= 1 else f"news/page/{page}/"
+
+
+def news_index(items, page: int = 1, total: int = 1):
+    """List page `page` of `total`: news/ (page 1) and news/page/<n>/ (older news)."""
+    path = news_page_path(page)
+    rel = "../" * path.count("/")  # back to the site root
+    to_news = "../" * (path.count("/") - 1)  # back to news/
+    href = lambda pg: to_news + ("" if pg <= 1 else f"page/{pg}/")  # noqa: E731
+    chunk = items[(page - 1) * NEWS_PER_PAGE: page * NEWS_PER_PAGE]
+    suffix = f" — страница {page}" if page > 1 else ""
+    title = f"Новости игр — архив NEXUS PULSE{suffix}"
     desc = "Свежие новости игр и киберспорта из российских игровых изданий: релизы, патчи, анонсы и турниры. Обновляется несколько раз в день."
+    if page > 1:
+        desc = f"Архив новостей игр и киберспорта NEXUS PULSE, страница {page} из {total}: более ранние новости из российских игровых изданий."
     rows = "".join(
-        f'<li><a href="{e(n["id"])}/">{e(clip(n["title"], 180))}</a> <span class="sp-note">{e(n.get("source") or "")}{" · " + e(ru_date(n.get("date") or "")) if n.get("date") else ""}</span></li>'
-        for n in items)
+        f'<li><a href="{e(to_news + n["id"])}/">{e(clip(n["title"], 180))}</a> <span class="sp-note">{e(n.get("source") or "")}{" · " + e(ru_date(n.get("date") or "")) if n.get("date") else ""}</span></li>'
+        for n in chunk)
+    pager = ""
+    if total > 1:
+        links = []
+        if page > 1:
+            links.append(f'<a rel="prev" href="{e(href(page - 1))}">← Новее</a>')
+        for pg in range(1, total + 1):
+            links.append(f'<span aria-current="page">{pg}</span>' if pg == page else f'<a href="{e(href(pg))}">{pg}</a>')
+        if page < total:
+            links.append(f'<a rel="next" href="{e(href(page + 1))}">Старее →</a>')
+        pager = f'<nav class="sp-pager" aria-label="Страницы архива новостей">{" ".join(links)}</nav>'
+    intro = (f'{e(desc)} Самые свежие — в <a href="{rel}#news">ленте на главной</a>. Подписаться: <a href="{to_news}feed.xml" type="application/rss+xml">RSS-лента новостей</a>.'
+             if page == 1 else f'{e(desc)} <a href="{to_news}">Самые свежие новости →</a>')
     body = f"""<section class="sp-list">
 <p class="eyebrow">Новости</p>
-<h1 class="sp-h1">Новости игр и киберспорта</h1>
-<p class="section-desc">{e(desc)} Самые свежие — в <a href="../#news">ленте на главной</a>. Подписаться: <a href="feed.xml" type="application/rss+xml">RSS-лента новостей</a>.</p>
+<h1 class="sp-h1">Новости игр и киберспорта{e(suffix)}</h1>
+<p class="section-desc">{intro}</p>
 <ul class="sp-news-list glass">{rows}</ul>
+{pager}
 </section>"""
-    lst = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "Новости игр — NEXUS PULSE", "url": SITE + path, "inLanguage": "ru",
-           "mainEntity": {"@type": "ItemList", "numberOfItems": len(items), "itemListElement": [
-               {"@type": "ListItem", "position": i + 1, "url": SITE + f"news/{n['id']}/", "name": clip(n["title"], 110)} for i, n in enumerate(items)]}}
-    return path, title, desc, body, [("Главная", ""), ("Новости", path)], "website", "", [lst]
+    lst = {"@context": "https://schema.org", "@type": "CollectionPage", "name": f"Новости игр — NEXUS PULSE{suffix}", "url": SITE + path, "inLanguage": "ru",
+           "mainEntity": {"@type": "ItemList", "numberOfItems": len(chunk), "itemListElement": [
+               {"@type": "ListItem", "position": (page - 1) * NEWS_PER_PAGE + i + 1, "url": SITE + f"news/{n['id']}/", "name": clip(n["title"], 110)} for i, n in enumerate(chunk)]}}
+    extra = ""
+    if page > 1:
+        extra += f'<link rel="prev" href="{e(SITE + news_page_path(page - 1))}">\n'
+    if page < total:
+        extra += f'<link rel="next" href="{e(SITE + news_page_path(page + 1))}">\n'
+    crumbs = [("Главная", ""), ("Новости", "news/")] + ([(f"Страница {page}", path)] if page > 1 else [])
+    return path, title, desc, body, crumbs, "website", "", [lst], extra
 
 
 # ---------------------------------------------------------------- free games (free-games/)
@@ -1454,7 +1488,9 @@ def build() -> list:
     pages += [("page", game_page(g, games, specs, fps, guides, catalog), "game") for g in games]
     pages.append(("page", tools_index(), "list"))
     pages += [("page", tool_page(t, games, specs, fps, guides_by_id), "tool") for t in TOOLS]
-    pages.append(("page", news_index(news), "newslist"))
+    news_total = max(1, math.ceil(len(news) / NEWS_PER_PAGE))
+    pages.append(("page", news_index(news, 1, news_total), "newslist"))
+    pages += [("page", news_index(news, pg, news_total), "newspage") for pg in range(2, news_total + 1)]
     pages += [("page", news_page(n, i, news, games, catalog), "news") for i, n in enumerate(news)]
 
     old = (read_json(MANIFEST, {}) or {}).get("pages") or {}
@@ -1481,8 +1517,8 @@ def build() -> list:
                 obj["datePublished"] = created
                 obj["dateModified"] = lastmod
             text = layout(**kw)
-        changefreq = {"list": "weekly", "newslist": "hourly", "news": "monthly", "freebies": "daily"}.get(kind, "monthly")
-        priority = {"list": "0.8", "newslist": "0.8", "freebies": "0.8", "guide": "0.7", "tool": "0.7", "game": "0.6", "news": "0.5"}[kind]
+        changefreq = {"list": "weekly", "newslist": "hourly", "newspage": "daily", "news": "monthly", "freebies": "daily"}.get(kind, "monthly")
+        priority = {"list": "0.8", "newslist": "0.8", "newspage": "0.4", "freebies": "0.8", "guide": "0.7", "tool": "0.7", "game": "0.6", "news": "0.5"}[kind]
         manifest[path] = {"hash": h, "created": created, "lastmod": lastmod, "changefreq": changefreq, "priority": priority}
         if not index:
             manifest[path]["noindex"] = True
@@ -1528,6 +1564,24 @@ def cleanup(keep: set) -> int:
             except OSError:
                 pass
             removed += 1
+    pages_dir = ROOT / "news" / "page"  # news/page/<n>/ list pages of the archive
+    if pages_dir.is_dir():
+        for d in sorted(pages_dir.iterdir()):
+            f = d / "index.html"
+            if not d.is_dir() or f"news/page/{d.name}/" in keep or not f.is_file():
+                continue
+            if MARKER not in f.read_text(encoding="utf-8", errors="ignore"):
+                continue
+            f.unlink()
+            try:
+                d.rmdir()
+            except OSError:
+                pass
+            removed += 1
+        try:
+            pages_dir.rmdir()  # only when empty
+        except OSError:
+            pass
     return removed
 
 
