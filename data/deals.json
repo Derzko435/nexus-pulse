@@ -1,7 +1,17 @@
 {
-  "updatedAt": "2026-09-29T19:34:40+03:00",
+  "updatedAt": "2026-09-30T01:25:05+03:00",
   "source": "steam-specials-ru",
   "deals": [
+    {
+      "id": "steam-678960",
+      "title": "CODE VEIN",
+      "store": "Steam",
+      "old": 2099,
+      "neu": 209,
+      "pct": 90,
+      "url": "https://store.steampowered.com/app/678960/?curator_clanid=0",
+      "steamAppId": "678960"
+    },
     {
       "id": "steam-1084160",
       "title": "Jagged Alliance 3",
@@ -11,16 +21,6 @@
       "pct": 90,
       "url": "https://store.steampowered.com/app/1084160/?curator_clanid=0",
       "steamAppId": "1084160"
-    },
-    {
-      "id": "steam-223470",
-      "title": "POSTAL 2",
-      "store": "Steam",
-      "old": 385,
-      "neu": 38,
-      "pct": 90,
-      "url": "https://store.steampowered.com/app/223470/?curator_clanid=0",
-      "steamAppId": "223470"
     },
     {
       "id": "steam-582660",
@@ -61,6 +61,16 @@
       "pct": 82,
       "url": "https://store.steampowered.com/app/640820/?curator_clanid=0",
       "steamAppId": "640820"
+    },
+    {
+      "id": "steam-632470",
+      "title": "Disco Elysium - The Final Cut",
+      "store": "Steam",
+      "old": 1550,
+      "neu": 387,
+      "pct": 75,
+      "url": "https://store.steampowered.com/app/632470/?curator_clanid=0",
+      "steamAppId": "632470"
     },
     {
       "id": "steam-424840",
@@ -131,16 +141,6 @@
       "pct": 70,
       "url": "https://store.steampowered.com/app/281990/?curator_clanid=0",
       "steamAppId": "281990"
-    },
-    {
-      "id": "steam-2186680",
-      "title": "Warhammer 40,000: Rogue Trader",
-      "store": "Steam",
-      "old": 1599,
-      "neu": 479,
-      "pct": 70,
-      "url": "https://store.steampowered.com/app/2186680/?curator_clanid=0",
-      "steamAppId": "2186680"
     }
   ]
 }
