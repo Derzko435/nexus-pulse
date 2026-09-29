@@ -1,5 +1,5 @@
 /* NEXUS PULSE service worker */
-const VERSION = "v12-2026-09-29";
+const VERSION = "v13-2026-09-29";
 const SHELL_CACHE = "nexus-pulse-shell-" + VERSION;
 const DATA_CACHE = "nexus-pulse-data-" + VERSION;
 const FONT_CACHE = "nexus-pulse-fonts-v1";
@@ -19,6 +19,7 @@ const SHELL = [
   "./site-extras.js",
   "./manifest.json",
   "./assets/nexus-pulse-icon.png",
+  "./assets/logo-72.png",
   "./assets/icons/icon-192.png",
   "./assets/icons/icon-512.png",
   "./assets/icons/icon-maskable-192.png",
