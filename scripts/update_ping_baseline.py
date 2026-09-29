@@ -4,6 +4,12 @@
 Runner latency is NOT user latency. This job stores:
   - curated CDN endpoints for browser-side img/favicon RTT
   - Steam store appdetails snapshot for catalog metadata
+
+Files are rewritten only when their content really changes: the runner RTT is noise that
+differs on every run (the browser measures latency itself), so ping_targets.json is rewritten
+only when the target list or a target's reachability (status / ok / error) changes, and
+steam_catalog_snapshot.json only when an app's data changes. When Steam returns no data for
+an app, the last good row is kept instead of being replaced by the minimal stub.
 """
 from __future__ import annotations
 
@@ -101,6 +107,21 @@ def http_get(url: str, timeout: int = 20) -> tuple[int | None, float, str | None
         return None, ms, str(e)
 
 
+def read_json(path: Path) -> dict:
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+        return data if isinstance(data, dict) else {}
+    except Exception:  # noqa: BLE001
+        return {}
+
+
+def ping_signature(payload: dict) -> str:
+    """Everything except updatedAt and the noisy runner RTT."""
+    reach = [{k: v for k, v in (r or {}).items() if k != "runner_rtt_ms"} for r in payload.get("runnerReachability") or []]
+    body = {k: v for k, v in payload.items() if k not in ("updatedAt", "runnerReachability")}
+    return json.dumps([body, reach], ensure_ascii=False, sort_keys=True)
+
+
 def write_ping_targets() -> None:
     reachability = []
     for t in PING_TARGETS:
@@ -126,6 +147,10 @@ def write_ping_targets() -> None:
         "targets": PING_TARGETS,
         "runnerReachability": reachability,
     }
+    old = read_json(PING_OUT)
+    if old and ping_signature(old) == ping_signature(payload):
+        print(f"[same] {PING_OUT.name}: targets and reachability unchanged ({len(PING_TARGETS)} targets)")
+        return
     DATA.mkdir(parents=True, exist_ok=True)
     PING_OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Wrote {PING_OUT} ({len(PING_TARGETS)} targets)")
@@ -222,7 +247,16 @@ def collect_appids_from_deals() -> list[str]:
     return ids
 
 
+def steam_signature(payload: dict) -> str:
+    """Everything except updatedAt; header_image without Steam's ?t= cache-buster (it changes on its own)."""
+    apps = [dict(r, header_image=str(r.get("header_image") or "").split("?", 1)[0]) for r in payload.get("apps") or [] if isinstance(r, dict)]
+    body = {k: v for k, v in payload.items() if k not in ("updatedAt", "apps")}
+    return json.dumps([body, apps], ensure_ascii=False, sort_keys=True)
+
+
 def write_steam_catalog() -> None:
+    old = read_json(STEAM_OUT)
+    previous = {str(r.get("appid")): r for r in old.get("apps") or [] if isinstance(r, dict) and r.get("appid") and not r.get("curated")}
     seen: set[str] = set()
     rows: list[dict] = []
     pairs = list(CURATED_STEAM_APPS)
@@ -235,7 +269,13 @@ def write_steam_catalog() -> None:
         seen.add(appid)
         print(f"Steam appdetails {appid}…")
         row = fetch_steam_app(appid)
-        if not row:
+        if not row and appid in previous:
+            # Steam had no data this time (rate limit / region): keep the last good row
+            row = dict(previous[appid])
+            if catalog_id:
+                row["catalogId"] = catalog_id
+            print(f"  steam {appid}: kept last good data")
+        elif not row:
             row = curated_fallback(appid, catalog_id)
         else:
             if catalog_id:
@@ -249,6 +289,9 @@ def write_steam_catalog() -> None:
         "count": len(rows),
         "apps": rows,
     }
+    if old and steam_signature(old) == steam_signature(payload):
+        print(f"[same] {STEAM_OUT.name}: no content changes ({len(rows)} apps)")
+        return
     DATA.mkdir(parents=True, exist_ok=True)
     STEAM_OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Wrote {STEAM_OUT} ({len(rows)} apps)")
