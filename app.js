@@ -260,7 +260,7 @@ const DISCORD_INVITE_URL = "https://discord.gg/7JvfzNrt4x";
       "nav.esports": "Киберспорт", "nav.deals": "Скидки", "nav.tools": "Инструменты", "nav.news": "Новости",
       "nav.facts": "Факты", "nav.glossary": "Словарь", "nav.discord": "Discord",
       "hero.eyebrow": "Игровой хаб · 2026", "hero.title": "Каталог. Инструменты.", "hero.title2": "Ранкед без хаоса.",
-      "hero.lead": "75 игр, ежедневный пульс, релизы и патчи, 30 гайдов, скидки, тест скорости и подбор игры под настроение — всё в одном месте.",
+      "hero.lead": "Каталог популярных игр, релизы и патчи, гайды, раздачи и скидки, тест скорости и подбор игры под настроение — всё в одном месте.",
       "hero.ctaTools": "Открыть инструменты", "hero.ctaDiscord": "В Discord",
       "hero.statGames": "игр в каталоге", "hero.statGuides": "гайдов", "hero.statTools": "интерактивных тула",
       "pulse.eyebrow": "Ежедневно", "pulse.title": "Пульс дня", "pulse.desc": "Во что играть сегодня, тренды и горячие советы.",
@@ -272,7 +272,7 @@ const DISCORD_INVITE_URL = "https://discord.gg/7JvfzNrt4x";
       "cal.releases": "Скоро выходит", "cal.patches": "Патчи · сегодня и недавно",
       "games.eyebrow": "Каталог", "games.title": "Топ игр", "games.desc": "Фильтруй по жанру, ищи по названию, сохраняй в избранное.",
       "games.search": "Поиск игры…", "games.empty": "Ничего не найдено. Сбрось фильтры или попробуй другой запрос.", "games.all": "Все",
-      "guides.eyebrow": "Практика", "guides.title": "Гайды и советы", "guides.desc": "30 практических гайдов: FPS-настройки, ранкид, боссы, экономика, чеклисты.",
+      "guides.eyebrow": "Практика", "guides.title": "Гайды и советы", "guides.desc": "Практические гайды: FPS-настройки, ранкид, боссы, экономика, чеклисты.",
       "facts.eyebrow": "Любопытно", "facts.title": "Факты и лайфхаки", "facts.desc": "Короткие факты и приёмы, которые делают гейминг умнее.", "facts.next": "Ещё факт",
       "glossary.eyebrow": "Словарь", "glossary.title": "Словарь геймера", "glossary.desc": "Tilt, ping, smurf и другие слова из чата.",
       "esports.eyebrow": "Киберспорт", "esports.title": "Турниры и хайлайты", "esports.desc": "Ближайшие ивенты и игроки.",
@@ -310,7 +310,7 @@ const DISCORD_INVITE_URL = "https://discord.gg/7JvfzNrt4x";
       "nav.esports": "Esports", "nav.deals": "Deals", "nav.tools": "Tools", "nav.news": "News",
       "nav.facts": "Facts", "nav.glossary": "Glossary", "nav.discord": "Discord",
       "hero.eyebrow": "Gaming hub · 2026", "hero.title": "Catalog. Tools.", "hero.title2": "Ranked without chaos.",
-      "hero.lead": "75 games, daily pulse, releases & patches, 30 guides, deals, speed test and mood-based picks — all in one place.",
+      "hero.lead": "Popular games catalog, releases & patches, guides, giveaways & deals, speed test and mood-based picks — all in one place.",
       "hero.ctaTools": "Open tools", "hero.ctaDiscord": "Join Discord",
       "hero.statGames": "games in catalog", "hero.statGuides": "guides", "hero.statTools": "interactive tools",
       "pulse.eyebrow": "Daily", "pulse.title": "Pulse of the day", "pulse.desc": "What to play today, trends and hot tips.",
@@ -322,7 +322,7 @@ const DISCORD_INVITE_URL = "https://discord.gg/7JvfzNrt4x";
       "cal.releases": "Coming soon", "cal.patches": "Patches · today & recent",
       "games.eyebrow": "Catalog", "games.title": "Top games", "games.desc": "Filter by genre, search, save favorites.",
       "games.search": "Search games…", "games.empty": "Nothing found. Reset filters or try another query.", "games.all": "All",
-      "guides.eyebrow": "Practice", "guides.title": "Guides & tips", "guides.desc": "30 practical guides: FPS settings, ranked climb, bosses, economy, beginner checklists.",
+      "guides.eyebrow": "Practice", "guides.title": "Guides & tips", "guides.desc": "Practical guides: FPS settings, ranked climb, bosses, economy, beginner checklists.",
       "facts.eyebrow": "Curious", "facts.title": "Facts & lifehacks", "facts.desc": "Short facts and tricks that make gaming smarter.", "facts.next": "Next fact",
       "glossary.eyebrow": "Glossary", "glossary.title": "Gamer glossary", "glossary.desc": "Tilt, ping, smurf and other chat essentials.",
       "esports.eyebrow": "Esports", "esports.title": "Tournaments & highlights", "esports.desc": "Upcoming events and players to watch.",
@@ -380,7 +380,7 @@ const DISCORD_INVITE_URL = "https://discord.gg/7JvfzNrt4x";
     "esports.tournaments": "Турниры", "esports.watch": "Смотреть трансляцию", "esports.matches": "Матчи",
     "cal.desc": "Ближайшие релизы на ПК, PlayStation, Xbox и Switch и свежие обновления популярных игр.",
     "newGames.desc": "Самые популярные игры, вышедшие за последние недели.",
-    "guides.desc": "30 подробных гайдов: FPS и Windows, настройки игр, советы новичкам и разбор частых ошибок.",
+    "guides.desc": "Подробные гайды: FPS и Windows, настройки игр, советы новичкам и разбор частых ошибок.",
   });
   const NP_EN_NEW = {
     "nav.videos": "Videos", "videos.eyebrow": "Watch", "videos.title": "Videos & streams",
@@ -390,7 +390,7 @@ const DISCORD_INVITE_URL = "https://discord.gg/7JvfzNrt4x";
     "esports.tournaments": "Tournaments", "esports.watch": "Watch the broadcast", "esports.matches": "Matches",
     "cal.desc": "Upcoming releases on PC, PlayStation, Xbox and Switch plus fresh updates for popular games.",
     "newGames.desc": "The most popular games released in recent weeks.",
-    "guides.desc": "30 detailed guides: FPS & Windows, game settings, beginner tips and common mistakes.",
+    "guides.desc": "Detailed guides: FPS & Windows, game settings, beginner tips and common mistakes.",
   };
   ["en", "de", "es", "fr", "pt", "pl", "tr", "zh", "ja", "ko"].forEach((code) => Object.assign(I18N[code], NP_EN_NEW));
   Object.assign(I18N.uk, NP_EN_NEW, {
@@ -401,7 +401,7 @@ const DISCORD_INVITE_URL = "https://discord.gg/7JvfzNrt4x";
     "esports.tournaments": "Турніри", "esports.watch": "Дивитися трансляцію", "esports.matches": "Матчі",
     "cal.desc": "Найближчі релізи на ПК, PlayStation, Xbox і Switch та свіжі оновлення популярних ігор.",
     "newGames.desc": "Найпопулярніші ігри, що вийшли за останні тижні.",
-    "guides.desc": "30 докладних гайдів: FPS і Windows, налаштування ігор, поради новачкам і типові помилки.",
+    "guides.desc": "Докладні гайди: FPS і Windows, налаштування ігор, поради новачкам і типові помилки.",
   });
 
   const WORLD_LANGS = [
@@ -1076,6 +1076,7 @@ const DISCORD_INVITE_URL = "https://discord.gg/7JvfzNrt4x";
   function setLanguage(code) {
     localStorage.setItem(LANG_KEY, code);
     applyFirstClassI18n();
+    updateHeroStats();
     wireDiscord();
     const dealsUpdated = $("#dealsUpdated");
     if (dealsUpdated && dealsUpdated.dataset.ts) {
@@ -1288,13 +1289,30 @@ const DISCORD_INVITE_URL = "https://discord.gg/7JvfzNrt4x";
   }
 
 
+  // Real counts: scripts/build_site_meta.py writes them into #heroStats (data-guides = guide pages,
+  // data-tools = items of the «Инструменты» menu); games are counted from GAMES here.
   function updateHeroStats() {
-    const g = $("#statGames");
-    const guides = $("#statGuides");
-    const tools = $("#statTools");
-    if (g) g.textContent = String(GAMES.length) + "+";
-    if (guides) guides.textContent = String(GUIDES.length) + "+";
-    if (tools) tools.textContent = "12";
+    const box = $("#heroStats");
+    if (!box) return;
+    const n = {
+      games: GAMES.length,
+      guides: parseInt(box.dataset.guides, 10) || 0,
+      tools: parseInt(box.dataset.tools, 10) || 0,
+    };
+    const ru = (x, a, b, c) => (x % 10 === 1 && x % 100 !== 11 ? a : x % 10 >= 2 && x % 10 <= 4 && (x % 100 < 12 || x % 100 > 14) ? b : c);
+    const en = currentLangBase() === "en";
+    const labels = {
+      games: en ? "games in catalog" : ru(n.games, "игра", "игры", "игр") + " в каталоге",
+      guides: en ? "guides" : ru(n.guides, "гайд", "гайда", "гайдов"),
+      tools: en ? "tools" : ru(n.tools, "инструмент", "инструмента", "инструментов"),
+    };
+    [["games", "#statGames", "#statGamesLabel"], ["guides", "#statGuides", "#statGuidesLabel"], ["tools", "#statTools", "#statToolsLabel"]]
+      .forEach(([k, num, lab]) => {
+        if (!n[k]) return;  // keep the server-rendered value
+        const a = $(num), b = $(lab);
+        if (a) a.textContent = String(n[k]);
+        if (b) b.textContent = labels[k];
+      });
   }
 
   /* ---------- Init ---------- */

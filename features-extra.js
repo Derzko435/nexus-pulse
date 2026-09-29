@@ -2590,10 +2590,7 @@ const NICK_BANKS = {
     NP.renderGames();
     injectCompatBadges(NP);
     updateNexusRankUI();
-    if (NP.updateHeroStats) {
-      const tools = $("#statTools");
-      if (tools) tools.textContent = "12";
-    }
+    // hero counters: real numbers come from index.html (#heroStats, written by scripts/build_site_meta.py)
     console.info("[NEXUS PULSE] features-extra ready");
   });
 })();

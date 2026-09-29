@@ -790,8 +790,7 @@
 
   function init() {
     renderGuides();
-    const sg = $("#statGuides");
-    if (sg && guideList().length) sg.textContent = guideList().length + "+";
+    // hero counters: real numbers come from index.html (#heroStats, written by scripts/build_site_meta.py)
     renderWatchChips();
     renderVideos();
     const grid = $("#gamesGrid");
