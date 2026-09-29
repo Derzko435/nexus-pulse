@@ -79,7 +79,7 @@ jobs:
             git add sitemap.xml robots.txt index.html 2>/dev/null || true
             git add -A s/ 2>/dev/null || true
             # static SEO pages (scripts/build_static_pages.py); one path at a time so a missing one can't skip the rest
-            for p in free-games guides games tools news; do if [ -e "$p" ]; then git add -A -- "$p" || true; fi; done
+            for p in free-games guides games tools news about editorial-policy contacts; do if [ -e "$p" ]; then git add -A -- "$p" || true; fi; done
           }
           add_generated
           if git diff --cached --quiet; then
