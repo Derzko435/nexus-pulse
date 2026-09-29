@@ -11,6 +11,13 @@ html,body{margin:0;height:100%;background:#07090f;color:#e8eefc;font:16px/1.5 sy
 main{min-height:100%;display:grid;place-items:center;text-align:center;padding:24px;box-sizing:border-box}
 a.btn{display:inline-block;margin-top:.5rem;padding:.7rem 1.3rem;border-radius:12px;background:linear-gradient(90deg,#00f5ff,#8b5cff);color:#07090f;font-weight:800;text-decoration:none}
 img{width:72px;height:72px;border-radius:16px}
+.nf{max-width:560px}
+.nf form{display:flex;gap:.5rem;margin:1.2rem auto .4rem;max-width:420px}
+.nf input{flex:1;min-width:0;padding:.65rem .9rem;border-radius:12px;border:1px solid #2a3350;background:#0d1220;color:#e8eefc;font:inherit}
+.nf button{padding:.65rem 1rem;border-radius:12px;border:0;background:#1b2440;color:#e8eefc;font:inherit;font-weight:700;cursor:pointer}
+.nf ul{list-style:none;padding:0;margin:1.2rem 0 0;display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center}
+.nf li a{display:inline-block;padding:.45rem .8rem;border-radius:10px;border:1px solid #2a3350;color:#9fe9ff;text-decoration:none}
+.nf li a:hover,.nf li a:focus{border-color:#00f5ff}
 </style>
 <script>
   // Старая ссылка «Поделиться» на новость → открываем новость на сайте (если она ещё есть в архиве)
@@ -25,11 +32,23 @@ img{width:72px;height:72px;border-radius:16px}
 </script>
 </head>
 <body>
-<main><div>
+<main><div class="nf">
 <img src="/nexus-pulse/assets/icons/icon-192.png" alt="NEXUS PULSE">
 <h1 style="font-size:1.4rem">Такой страницы нет</h1>
-<p>Возможно, ссылка устарела. Всё самое свежее — на главной.</p>
+<p>Возможно, ссылка устарела или новость уже ушла из архива. Найди нужное через поиск или открой раздел.</p>
+<form action="/nexus-pulse/" method="get" role="search">
+<label for="nf-q" style="position:absolute;left:-9999px">Поиск по NEXUS PULSE</label>
+<input id="nf-q" name="q" type="search" placeholder="Игра, гайд, инструмент…" autocomplete="off">
+<button type="submit">Найти</button>
+</form>
 <a class="btn" href="/nexus-pulse/">На главную NEXUS PULSE</a>
+<nav aria-label="Разделы сайта"><ul>
+<li><a href="/nexus-pulse/news/">Новости игр</a></li>
+<li><a href="/nexus-pulse/games/">Каталог игр</a></li>
+<li><a href="/nexus-pulse/guides/">Гайды</a></li>
+<li><a href="/nexus-pulse/tools/">Инструменты</a></li>
+<li><a href="/nexus-pulse/free-games/">Раздачи игр</a></li>
+</ul></nav>
 </div></main>
 </body>
 </html>
