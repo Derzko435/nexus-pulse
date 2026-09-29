@@ -1,25 +1,7 @@
 {
- "updatedAt": "2026-09-29T00:23:58+03:00",
+ "updatedAt": "2026-09-29T04:17:46+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-129907",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "KaBuM! Ilha das Lendas",
-   "teamB": "Golden Lions",
-   "logoA": "https://files.bo3.gg/uploads/team/20354/image/webp-19ea976e9837db49b667c8177f026b5c.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/21060/image/webp-5c16261478e8fb029bd798d538841544.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "live",
-   "event": "CBLOL 2027 Promotion Tournament",
-   "tier": "S",
-   "startsAt": "2026-09-29T00:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/lol/matches/kabum-ilha-das-lendas-vs-golden-lions-28-09-2026"
-  },
   {
    "id": "bo3-130188",
    "game": "LoL",
@@ -31,10 +13,10 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 1,
-   "status": "upcoming",
+   "status": "live",
    "event": "2026 Asian Games",
    "tier": "A",
-   "startsAt": "2026-09-29T03:00:00+03:00",
+   "startsAt": "2026-09-29T03:50:00+03:00",
    "streams": [],
    "url": "https://bo3.gg/lol/matches/united-arab-emirates-vs-malaysia-lol-29-09-2026"
   },
@@ -49,30 +31,12 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 1,
-   "status": "upcoming",
+   "status": "live",
    "event": "2026 Asian Games",
    "tier": "A",
-   "startsAt": "2026-09-29T03:00:00+03:00",
+   "startsAt": "2026-09-29T03:50:00+03:00",
    "streams": [],
    "url": "https://bo3.gg/lol/matches/saudi-arabia-lol-vs-vietnam-lol-29-09-2026"
-  },
-  {
-   "id": "bo3-130191",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Saudi Arabia",
-   "teamB": "United Arab Emirates",
-   "logoA": "https://files.bo3.gg/uploads/team/16790/image/webp-a2209892a6945e9892a4f6460ef47e81.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/18215/image/webp-613d21e6e71a3650048a6e16ef45071a.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 1,
-   "status": "upcoming",
-   "event": "2026 Asian Games",
-   "tier": "A",
-   "startsAt": "2026-09-29T05:30:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/lol/matches/saudi-arabia-lol-vs-united-arab-emirates-29-09-2026"
   },
   {
    "id": "bo3-130190",
@@ -91,6 +55,24 @@
    "startsAt": "2026-09-29T05:30:00+03:00",
    "streams": [],
    "url": "https://bo3.gg/lol/matches/vietnam-lol-vs-malaysia-lol-29-09-2026"
+  },
+  {
+   "id": "bo3-130191",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Saudi Arabia",
+   "teamB": "United Arab Emirates",
+   "logoA": "https://files.bo3.gg/uploads/team/16790/image/webp-a2209892a6945e9892a4f6460ef47e81.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/18215/image/webp-613d21e6e71a3650048a6e16ef45071a.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 1,
+   "status": "upcoming",
+   "event": "2026 Asian Games",
+   "tier": "A",
+   "startsAt": "2026-09-29T05:30:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/lol/matches/saudi-arabia-lol-vs-united-arab-emirates-29-09-2026"
   },
   {
    "id": "bo3-130192",
@@ -291,13 +273,13 @@
    "url": "https://bo3.gg/dota2/matches/1win-dota2-vs-natus-vincere-dota2-29-09-2026"
   },
   {
-   "id": "bo3-130520",
+   "id": "bo3-130528",
    "game": "LoL",
    "gameKey": "lol",
-   "teamA": "G2 NORD",
-   "teamB": "Ruddy Corporation",
-   "logoA": "https://files.bo3.gg/uploads/team/22411/image/webp-54b508d344cb88ac42ea9511125dc931.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/19094/image/webp-f396956e449619a33cbc01352bea0e0d.webp",
+   "teamA": "Colossal Gaming",
+   "teamB": "SU Esports",
+   "logoA": "https://files.bo3.gg/uploads/team/20523/image/webp-0185368b1770ac26e520f255b9a38283.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/21061/image/webp-11e21fe4121967b87f5b3cf7bb2b8af6.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 1,
@@ -315,7 +297,34 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/lol/matches/g2-nord-vs-ruddy-corporation-29-09-2026"
+   "url": "https://bo3.gg/lol/matches/colossal-gaming-vs-su-esports-29-09-2026"
+  },
+  {
+   "id": "bo3-130521",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Valerion",
+   "teamB": "Skillcamp Esport",
+   "logoA": "https://files.bo3.gg/uploads/team/24645/image/webp-2aede1fcf1bde83d0c483607b127eba5.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/18323/image/webp-af0dd0bf42e9ed4cb12916f36fe8afe7.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 1,
+   "status": "upcoming",
+   "event": "EMEA Masters 2026 Summer",
+   "tier": "A",
+   "startsAt": "2026-09-29T18:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "lec",
+     "lang": "en",
+     "official": true,
+     "label": "lec",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/valerion-vs-skillcamp-esport-29-09-2026"
   },
   {
    "id": "bo3-130527",
@@ -345,13 +354,13 @@
    "url": "https://bo3.gg/lol/matches/magaza-esports-vs-barca-esports-lol-29-09-2026"
   },
   {
-   "id": "bo3-130521",
+   "id": "bo3-130520",
    "game": "LoL",
    "gameKey": "lol",
-   "teamA": "Valerion",
-   "teamB": "Skillcamp Esport",
-   "logoA": "https://files.bo3.gg/uploads/team/24645/image/webp-2aede1fcf1bde83d0c483607b127eba5.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/18323/image/webp-af0dd0bf42e9ed4cb12916f36fe8afe7.webp",
+   "teamA": "G2 NORD",
+   "teamB": "Ruddy Corporation",
+   "logoA": "https://files.bo3.gg/uploads/team/22411/image/webp-54b508d344cb88ac42ea9511125dc931.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/19094/image/webp-f396956e449619a33cbc01352bea0e0d.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 1,
@@ -369,7 +378,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/lol/matches/valerion-vs-skillcamp-esport-29-09-2026"
+   "url": "https://bo3.gg/lol/matches/g2-nord-vs-ruddy-corporation-29-09-2026"
   },
   {
    "id": "bo3-130683",
@@ -800,6 +809,33 @@
    "url": "https://bo3.gg/matches/spirit-vs-shinden-03-10-2026"
   },
   {
+   "id": "bo3-130757",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "MOUZ",
+   "teamB": "M80",
+   "logoA": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
+   "logoB": "https://files.bo3.gg/uploads/team/7430/image/webp-962834dcfa8bef22f2c4cbdbf777bfbf.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "ESL Pro League Season 24",
+   "tier": "S",
+   "startsAt": "2026-10-03T14:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/mousesports-vs-m80-cs-go-03-10-2026"
+  },
+  {
    "id": "bo3-130758",
    "game": "CS2",
    "gameKey": "cs2",
@@ -827,20 +863,20 @@
    "url": "https://bo3.gg/matches/falcons-esports-vs-tyloo-cs-go-03-10-2026"
   },
   {
-   "id": "bo3-130757",
+   "id": "bo3-130759",
    "game": "CS2",
    "gameKey": "cs2",
-   "teamA": "MOUZ",
-   "teamB": "M80",
-   "logoA": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
-   "logoB": "https://files.bo3.gg/uploads/team/7430/image/webp-962834dcfa8bef22f2c4cbdbf777bfbf.webp",
+   "teamA": "FURIA",
+   "teamB": "BetBoom",
+   "logoA": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
    "status": "upcoming",
    "event": "ESL Pro League Season 24",
    "tier": "S",
-   "startsAt": "2026-10-03T14:30:00+03:00",
+   "startsAt": "2026-10-03T17:00:00+03:00",
    "streams": [
     {
      "type": "twitch",
@@ -851,7 +887,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/matches/mousesports-vs-m80-cs-go-03-10-2026"
+   "url": "https://bo3.gg/matches/furia-vs-betboom-team-03-10-2026"
   },
   {
    "id": "bo3-130760",
@@ -881,31 +917,22 @@
    "url": "https://bo3.gg/matches/legacy-br-vs-parivision-03-10-2026"
   },
   {
-   "id": "bo3-130759",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "FURIA",
-   "teamB": "BetBoom",
-   "logoA": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
-   "scoreA": 0,
+   "id": "bo3-129907",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "KaBuM! Ilha das Lendas",
+   "teamB": "Golden Lions",
+   "logoA": "https://files.bo3.gg/uploads/team/20354/image/webp-19ea976e9837db49b667c8177f026b5c.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/21060/image/webp-5c16261478e8fb029bd798d538841544.webp",
+   "scoreA": 3,
    "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "ESL Pro League Season 24",
+   "bo": 5,
+   "status": "finished",
+   "event": "CBLOL 2027 Promotion Tournament",
    "tier": "S",
-   "startsAt": "2026-10-03T17:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/furia-vs-betboom-team-03-10-2026"
+   "startsAt": "2026-09-29T00:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/lol/matches/kabum-ilha-das-lendas-vs-golden-lions-28-09-2026"
   },
   {
    "id": "bo3-130514",
@@ -955,6 +982,39 @@
    "url": "https://bo3.gg/lol/matches/bushido-wildcats-vs-ruddy-corporation-28-09-2026"
   },
   {
+   "id": "bo3-130515",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "The Secret Club",
+   "teamB": "Gamespace Mediterranean College Esports",
+   "logoA": "https://files.bo3.gg/uploads/team/19924/image/webp-cba1a2ca93b670ccbcf9c2d53942883a.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17225/image/webp-5c5f50eccb6f863c8b80e4755402dda8.webp",
+   "scoreA": 0,
+   "scoreB": 1,
+   "bo": 1,
+   "status": "finished",
+   "event": "EMEA Masters 2026 Summer",
+   "tier": "A",
+   "startsAt": "2026-09-28T22:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "helleniclegends",
+     "lang": "el",
+     "official": true,
+     "label": "helleniclegends"
+    },
+    {
+     "type": "twitch",
+     "channel": "tl_nero",
+     "lang": "el",
+     "official": true,
+     "label": "tl_nero"
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/the-secret-club-vs-gamespace-mediterranean-college-esports-28-09-2026"
+  },
+  {
    "id": "bo3-130516",
    "game": "LoL",
    "gameKey": "lol",
@@ -1002,39 +1062,6 @@
    "url": "https://bo3.gg/lol/matches/forsaken-lol-vs-barca-esports-lol-28-09-2026"
   },
   {
-   "id": "bo3-130515",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "The Secret Club",
-   "teamB": "Gamespace Mediterranean College Esports",
-   "logoA": "https://files.bo3.gg/uploads/team/19924/image/webp-cba1a2ca93b670ccbcf9c2d53942883a.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17225/image/webp-5c5f50eccb6f863c8b80e4755402dda8.webp",
-   "scoreA": 0,
-   "scoreB": 1,
-   "bo": 1,
-   "status": "finished",
-   "event": "EMEA Masters 2026 Summer",
-   "tier": "A",
-   "startsAt": "2026-09-28T22:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "helleniclegends",
-     "lang": "el",
-     "official": true,
-     "label": "helleniclegends"
-    },
-    {
-     "type": "twitch",
-     "channel": "tl_nero",
-     "lang": "el",
-     "official": true,
-     "label": "tl_nero"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/the-secret-club-vs-gamespace-mediterranean-college-esports-28-09-2026"
-  },
-  {
    "id": "bo3-130517",
    "game": "LoL",
    "gameKey": "lol",
@@ -1066,53 +1093,6 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/hmble-lol-vs-unicorns-of-love-sexy-edition-28-09-2026"
-  },
-  {
-   "id": "bo3-130512",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Los Heretics",
-   "teamB": "Valerion",
-   "logoA": "https://files.bo3.gg/uploads/team/16945/image/webp-32313f985ed38f5ececb54deb23e6401.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/24645/image/webp-2aede1fcf1bde83d0c483607b127eba5.webp",
-   "scoreA": 1,
-   "scoreB": 0,
-   "bo": 1,
-   "status": "finished",
-   "event": "EMEA Masters 2026 Summer",
-   "tier": "A",
-   "startsAt": "2026-09-28T21:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "esport2tv",
-     "lang": "hu",
-     "official": true,
-     "label": "esport2tv"
-    },
-    {
-     "type": "twitch",
-     "channel": "tl_nero",
-     "lang": "el",
-     "official": true,
-     "label": "tl_nero"
-    },
-    {
-     "type": "twitch",
-     "channel": "helleniclegends",
-     "lang": "el",
-     "official": true,
-     "label": "helleniclegends"
-    },
-    {
-     "type": "twitch",
-     "channel": "champi14",
-     "lang": "es",
-     "official": true,
-     "label": "champi14"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/team-heretics-academy-vs-valerion-28-09-2026"
   },
   {
    "id": "bo3-129838",
@@ -1758,7 +1738,7 @@
    "prize": null,
    "start": "2026-09-29",
    "end": "2026-10-02",
-   "status": "upcoming",
+   "status": "current",
    "url": "https://bo3.gg/lol/tournaments/2026-asian-games"
   },
   {
