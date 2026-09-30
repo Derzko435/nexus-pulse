@@ -1,43 +1,7 @@
 {
- "updatedAt": "2026-09-30T09:01:11+03:00",
+ "updatedAt": "2026-09-30T12:46:40+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-130199",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Hong Kong",
-   "teamB": "South Korea",
-   "logoA": "https://files.bo3.gg/uploads/team/16797/image/webp-f07095cf1642e00193a5a63b1fd97051.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/18214/image/webp-679f19a7bd6f6268887bff0d9943857a.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 1,
-   "status": "live",
-   "event": "2026 Asian Games",
-   "tier": "A",
-   "startsAt": "2026-09-30T08:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/lol/matches/hong-kong-lol-vs-south-korea-30-09-2026"
-  },
-  {
-   "id": "bo3-130146",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Solary",
-   "teamB": "DN SOOPers Challengers",
-   "logoA": "https://files.bo3.gg/uploads/team/17873/image/webp-a6742d2c85704c67343708118974ab77.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/19136/image/webp-30017c023536850806f11b656f5bbc57.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "live",
-   "event": "World Star Challengers Invitational 2026",
-   "tier": "A",
-   "startsAt": "2026-09-30T09:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/lol/matches/solary-lol-vs-dn-soopers-challengers-30-09-2026"
-  },
   {
    "id": "bo3-129616",
    "game": "Valorant",
@@ -49,7 +13,7 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "VALORANT Champions 2026",
    "tier": "S",
    "startsAt": "2026-09-30T12:00:00+03:00",
@@ -73,42 +37,30 @@
    "teamB": "Galions",
    "logoA": "https://files.bo3.gg/uploads/team/17053/image/webp-bc91404c26b535f7100a4b0b4d5e3c99.webp",
    "logoB": "https://files.bo3.gg/uploads/team/18886/image/webp-568919094985d17bf24eebffb2a5fb46.webp",
-   "scoreA": 0,
+   "scoreA": 1,
    "scoreB": 0,
    "bo": 5,
-   "status": "upcoming",
+   "status": "live",
    "event": "World Star Challengers Invitational 2026",
    "tier": "A",
-   "startsAt": "2026-09-30T12:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/lol/matches/t1-academy-lol-vs-galions-30-09-2026"
-  },
-  {
-   "id": "bo3-130687",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "BetBoom Team",
-   "teamB": "OG",
-   "logoA": "https://files.bo3.gg/uploads/team/15526/image/webp-cc299cab6bd25784c3c33f8302248ad9.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16714/image/webp-cd2e61b09557041544426a7b536a0856.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "BLAST Slam VIII",
-   "tier": "S",
    "startsAt": "2026-09-30T13:00:00+03:00",
    "streams": [
     {
      "type": "twitch",
-     "channel": "blastpremier",
-     "lang": "en",
+     "channel": "blv_dino",
+     "lang": "vi",
      "official": true,
-     "label": "blastpremier",
-     "fallback": true
+     "label": "blv_dino"
+    },
+    {
+     "type": "twitch",
+     "channel": "nervarien",
+     "lang": "pl",
+     "official": true,
+     "label": "nervarien"
     }
    ],
-   "url": "https://bo3.gg/dota2/matches/betboom-team-dota2-vs-og-dota2-30-09-2026"
+   "url": "https://bo3.gg/lol/matches/t1-academy-lol-vs-galions-30-09-2026"
   },
   {
    "id": "bo3-130688",
@@ -136,6 +88,33 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/team-yandex-vs-mouz-dota2-30-09-2026"
+  },
+  {
+   "id": "bo3-130687",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "BetBoom Team",
+   "teamB": "OG",
+   "logoA": "https://files.bo3.gg/uploads/team/15526/image/webp-cc299cab6bd25784c3c33f8302248ad9.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16714/image/webp-cd2e61b09557041544426a7b536a0856.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "BLAST Slam VIII",
+   "tier": "S",
+   "startsAt": "2026-09-30T13:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "blastpremier",
+     "lang": "en",
+     "official": true,
+     "label": "blastpremier",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/betboom-team-dota2-vs-og-dota2-30-09-2026"
   },
   {
    "id": "bo3-129619",
@@ -246,6 +225,33 @@
    "url": "https://bo3.gg/lol/matches/frites-esports-club-vs-the-otter-side-30-09-2026"
   },
   {
+   "id": "bo3-130534",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "BIG",
+   "teamB": "Senshi eSports",
+   "logoA": "https://files.bo3.gg/uploads/team/17553/image/webp-5000071f6548c80e9661d12b0c64c9bc.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16957/image/webp-6f01d22c52972f4f2e488330cf7b9f8f.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 1,
+   "status": "upcoming",
+   "event": "EMEA Masters 2026 Summer",
+   "tier": "A",
+   "startsAt": "2026-09-30T16:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "lec",
+     "lang": "en",
+     "official": true,
+     "label": "lec",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/berlin-international-gaming-vs-senshi-esports-club-30-09-2026"
+  },
+  {
    "id": "bo3-130535",
    "game": "LoL",
    "gameKey": "lol",
@@ -273,20 +279,20 @@
    "url": "https://bo3.gg/lol/matches/bushido-wildcats-vs-magaza-esports-30-09-2026"
   },
   {
-   "id": "bo3-130534",
+   "id": "bo3-130538",
    "game": "LoL",
    "gameKey": "lol",
-   "teamA": "BIG",
-   "teamB": "Senshi eSports",
-   "logoA": "https://files.bo3.gg/uploads/team/17553/image/webp-5000071f6548c80e9661d12b0c64c9bc.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16957/image/webp-6f01d22c52972f4f2e488330cf7b9f8f.webp",
+   "teamA": "Colossal Gaming",
+   "teamB": "LODIS",
+   "logoA": "https://files.bo3.gg/uploads/team/20523/image/webp-0185368b1770ac26e520f255b9a38283.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16893/image/webp-dcf70326e270db183461237e52102790.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 1,
    "status": "upcoming",
    "event": "EMEA Masters 2026 Summer",
    "tier": "A",
-   "startsAt": "2026-09-30T16:00:00+03:00",
+   "startsAt": "2026-09-30T17:00:00+03:00",
    "streams": [
     {
      "type": "twitch",
@@ -297,7 +303,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/lol/matches/berlin-international-gaming-vs-senshi-esports-club-30-09-2026"
+   "url": "https://bo3.gg/lol/matches/colossal-gaming-vs-lodis-30-09-2026"
   },
   {
    "id": "bo3-130539",
@@ -354,20 +360,20 @@
    "url": "https://bo3.gg/lol/matches/pcific-esports-lol-vs-ruddy-corporation-30-09-2026"
   },
   {
-   "id": "bo3-130538",
+   "id": "bo3-130541",
    "game": "LoL",
    "gameKey": "lol",
-   "teamA": "Colossal Gaming",
-   "teamB": "LODIS",
-   "logoA": "https://files.bo3.gg/uploads/team/20523/image/webp-0185368b1770ac26e520f255b9a38283.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16893/image/webp-dcf70326e270db183461237e52102790.webp",
+   "teamA": "eSuba",
+   "teamB": "UCAM Esports",
+   "logoA": "https://files.bo3.gg/uploads/team/17700/image/webp-8915b2936647babaa09621ac939ca103.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17427/image/webp-741f764c5a08da9a39c83db956d832c1.webp",
    "scoreA": 0,
    "scoreB": 0,
-   "bo": 1,
+   "bo": 3,
    "status": "upcoming",
    "event": "EMEA Masters 2026 Summer",
    "tier": "A",
-   "startsAt": "2026-09-30T17:00:00+03:00",
+   "startsAt": "2026-09-30T18:00:00+03:00",
    "streams": [
     {
      "type": "twitch",
@@ -378,7 +384,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/lol/matches/colossal-gaming-vs-lodis-30-09-2026"
+   "url": "https://bo3.gg/lol/matches/esuba-lol-vs-ucam-esports-club-lol-30-09-2026"
   },
   {
    "id": "bo3-130542",
@@ -406,6 +412,33 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/kaufland-hangry-knights-vs-unicorns-of-love-sexy-edition-30-09-2026"
+  },
+  {
+   "id": "bo3-130543",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "HMBLE",
+   "teamB": "Barça eSports",
+   "logoA": "https://files.bo3.gg/uploads/team/22303/image/webp-badd37a58e84ccd443324cabecd67970.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17144/image/webp-4ce614099dff16288683e86f2f27beef.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "EMEA Masters 2026 Summer",
+   "tier": "A",
+   "startsAt": "2026-09-30T18:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "lec",
+     "lang": "en",
+     "official": true,
+     "label": "lec",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/hmble-lol-vs-barca-esports-lol-30-09-2026"
   },
   {
    "id": "bo3-130680",
@@ -890,6 +923,32 @@
    "url": "https://bo3.gg/matches/furia-vs-betboom-team-03-10-2026"
   },
   {
+   "id": "bo3-130146",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Solary",
+   "teamB": "DN SOOPers Challengers",
+   "logoA": "https://files.bo3.gg/uploads/team/17873/image/webp-a6742d2c85704c67343708118974ab77.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/19136/image/webp-30017c023536850806f11b656f5bbc57.webp",
+   "scoreA": 3,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "finished",
+   "event": "World Star Challengers Invitational 2026",
+   "tier": "A",
+   "startsAt": "2026-09-30T09:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "blv_dino",
+     "lang": "vi",
+     "official": true,
+     "label": "blv_dino"
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/solary-lol-vs-dn-soopers-challengers-30-09-2026"
+  },
+  {
    "id": "bo3-130198",
    "game": "LoL",
    "gameKey": "lol",
@@ -908,22 +967,22 @@
    "url": "https://bo3.gg/lol/matches/india-lol-vs-chinese-taipei-30-09-2026"
   },
   {
-   "id": "bo3-130196",
+   "id": "bo3-130199",
    "game": "LoL",
    "gameKey": "lol",
    "teamA": "Hong Kong",
-   "teamB": "Chinese Taipei",
+   "teamB": "South Korea",
    "logoA": "https://files.bo3.gg/uploads/team/16797/image/webp-f07095cf1642e00193a5a63b1fd97051.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16798/image/webp-7002394b2384cae063de8a13f440f07c.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/18214/image/webp-679f19a7bd6f6268887bff0d9943857a.webp",
    "scoreA": 0,
    "scoreB": 1,
    "bo": 1,
    "status": "finished",
    "event": "2026 Asian Games",
    "tier": "A",
-   "startsAt": "2026-09-30T05:30:00+03:00",
+   "startsAt": "2026-09-30T08:00:00+03:00",
    "streams": [],
-   "url": "https://bo3.gg/lol/matches/hong-kong-lol-vs-chinese-taipei-30-09-2026"
+   "url": "https://bo3.gg/lol/matches/hong-kong-lol-vs-south-korea-30-09-2026"
   },
   {
    "id": "bo3-130197",
@@ -944,40 +1003,22 @@
    "url": "https://bo3.gg/lol/matches/india-lol-vs-south-korea-30-09-2026"
   },
   {
-   "id": "bo3-130195",
+   "id": "bo3-130196",
    "game": "LoL",
    "gameKey": "lol",
-   "teamA": "India",
-   "teamB": "Hong Kong",
-   "logoA": "https://files.bo3.gg/uploads/team/16803/image/webp-61d3afa06eca677757de392b153e4049.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16797/image/webp-f07095cf1642e00193a5a63b1fd97051.webp",
+   "teamA": "Hong Kong",
+   "teamB": "Chinese Taipei",
+   "logoA": "https://files.bo3.gg/uploads/team/16797/image/webp-f07095cf1642e00193a5a63b1fd97051.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16798/image/webp-7002394b2384cae063de8a13f440f07c.webp",
    "scoreA": 0,
    "scoreB": 1,
    "bo": 1,
    "status": "finished",
    "event": "2026 Asian Games",
    "tier": "A",
-   "startsAt": "2026-09-30T03:00:00+03:00",
+   "startsAt": "2026-09-30T05:30:00+03:00",
    "streams": [],
-   "url": "https://bo3.gg/lol/matches/india-lol-vs-hong-kong-lol-30-09-2026"
-  },
-  {
-   "id": "bo3-130194",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "South Korea",
-   "teamB": "Chinese Taipei",
-   "logoA": "https://files.bo3.gg/uploads/team/18214/image/webp-679f19a7bd6f6268887bff0d9943857a.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16798/image/webp-7002394b2384cae063de8a13f440f07c.webp",
-   "scoreA": 1,
-   "scoreB": 0,
-   "bo": 1,
-   "status": "finished",
-   "event": "2026 Asian Games",
-   "tier": "A",
-   "startsAt": "2026-09-30T03:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/lol/matches/south-korea-vs-chinese-taipei-30-09-2026"
+   "url": "https://bo3.gg/lol/matches/hong-kong-lol-vs-chinese-taipei-30-09-2026"
   },
   {
    "id": "bo3-130683",
@@ -1648,17 +1689,6 @@
    "url": "https://bo3.gg/lol/tournaments/cblol-2027-promotion-tournament"
   },
   {
-   "name": "2026 Asian Games",
-   "game": "LoL",
-   "gameKey": "lol",
-   "tier": "A",
-   "prize": null,
-   "start": "2026-09-29",
-   "end": "2026-10-02",
-   "status": "current",
-   "url": "https://bo3.gg/lol/tournaments/2026-asian-games"
-  },
-  {
    "name": "BLAST Slam VIII",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -1756,6 +1786,17 @@
    "end": "2026-10-31",
    "status": "upcoming",
    "url": "https://bo3.gg/tournaments/pgl-masters-bucharest-2026"
+  },
+  {
+   "name": "Intel Extreme Masters Beijing 2026",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "tier": "S",
+   "prize": 1250000,
+   "start": "2026-11-02",
+   "end": "2026-11-09",
+   "status": "upcoming",
+   "url": "https://bo3.gg/tournaments/intel-extreme-masters-beijing-2026"
   }
  ]
 }

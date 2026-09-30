@@ -1,11 +1,11 @@
 {
- "updatedAt": "2026-09-29T12:57:15+03:00",
+ "updatedAt": "2026-09-30T12:49:48+03:00",
  "items": [
   {
    "appid": 3493540,
    "title": "Transport Fever 3",
    "date": "2026-09-29",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3493540/4c179a79a6286b15575ca3f1a6ca620e5d159b19/header.jpg?t=1789729374",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3493540/c2bdb7a47e8b4587ae28a21a99bf884c180da43f/header_alt_assets_0_russian.jpg?t=1790697610",
    "desc": "Знаменитый симулятор транспортного магната Transport Fever 3 возвращается! Мир игры стал еще больше и динамичнее! Прокладывайте маршруты по суше, морю и небу, используя все транспортные возможности, созданные за целый век. Спроектируйте и постройте идеальную транспортную сеть. Измените мир!",
    "genres": [
     "Казуальные игры",
@@ -20,16 +20,15 @@
     "Linux"
    ],
    "stores": [
-    "Steam",
-    "Epic"
+    "Steam"
    ],
    "developer": "Urban Games",
    "price": "2290 руб.",
    "url": "https://store.steampowered.com/app/3493540/",
    "links": {
-    "steam": "https://store.steampowered.com/app/3493540/",
-    "epic": "https://store.epicgames.com/ru/p/transport-fever-3-55b752"
-   }
+    "steam": "https://store.steampowered.com/app/3493540/"
+   },
+   "reviews": 1425
   },
   {
    "appid": 2887580,
@@ -54,7 +53,32 @@
    "links": {
     "steam": "https://store.steampowered.com/app/2887580/"
    },
-   "reviews": 2021
+   "reviews": 2118
+  },
+  {
+   "appid": 1488490,
+   "title": "Nivalis Nights",
+   "date": "2026-09-29",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488490/28e511ff46672f9649744961fd6edbf19df75265/header.jpg?t=1790694813",
+   "desc": "Вам предстоит развивать бизнес, управлять ресторанами и ночными клубами, заводить друзей и врагов, покупать и украшать квартиры, рыбачить, а может, даже найти любовь в киберпанковом городе, который простирается от океана до облаков.",
+   "genres": [
+    "Приключенческие игры",
+    "Ролевые игры",
+    "Симуляторы"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "ION LANDS",
+   "price": "1169 руб.",
+   "url": "https://store.steampowered.com/app/1488490/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/1488490/"
+   },
+   "reviews": 1196
   },
   {
    "appid": 4126040,
@@ -103,7 +127,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4001890/"
    },
-   "reviews": 63388
+   "reviews": 63959
   },
   {
    "appid": 4358690,
@@ -128,7 +152,33 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4358690/"
    },
-   "reviews": 5403
+   "reviews": 5825
+  },
+  {
+   "appid": 2584270,
+   "title": "Mortal Shell II",
+   "date": "2026-08-20",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/0a4c23b70ced29fac344186ea564dae67c80cfd6/header.jpg?t=1788251111",
+   "desc": "Их плоть — ваше оружие. Mortal Shell II — полноценное продолжение первой части. Это ролевой боевик с жестокими и напряженными сражениями. Вселяйтесь в тела выдающихся воинов, свергайте лжебогов и верните к жизни опустошенный мир.",
+   "genres": [
+    "Экшены",
+    "Ролевые игры"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Xbox"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Cold Symmetry",
+   "price": "2299 руб.",
+   "url": "https://store.steampowered.com/app/2584270/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/2584270/"
+   },
+   "reviews": 19645
   },
   {
    "appid": 892970,
@@ -158,7 +208,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/892970/"
    },
-   "reviews": 469564
+   "reviews": 469833
   },
   {
    "appid": 5020310,
@@ -182,33 +232,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/5020310/"
    },
-   "reviews": 269
-  },
-  {
-   "appid": 2584270,
-   "title": "Mortal Shell II",
-   "date": "2026-08-20",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/0a4c23b70ced29fac344186ea564dae67c80cfd6/header.jpg?t=1788251111",
-   "desc": "Их плоть — ваше оружие. Mortal Shell II — полноценное продолжение первой части. Это ролевой боевик с жестокими и напряженными сражениями. Вселяйтесь в тела выдающихся воинов, свергайте лжебогов и верните к жизни опустошенный мир.",
-   "genres": [
-    "Экшены",
-    "Ролевые игры"
-   ],
-   "platforms": [
-    "PC",
-    "PlayStation",
-    "Xbox"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Cold Symmetry",
-   "price": "2299 руб.",
-   "url": "https://store.steampowered.com/app/2584270/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/2584270/"
-   },
-   "reviews": 19613
+   "reviews": 281
   },
   {
    "appid": 4019220,
@@ -233,32 +257,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4019220/"
    },
-   "reviews": 5447
-  },
-  {
-   "appid": 4623570,
-   "title": "Deskrawl: Idle ARPG",
-   "date": "2026-09-28",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4623570/4c1aa677f31f987858b5d88981978bb83b86b519/header.jpg?t=1790673311",
-   "desc": "Уничтожайте монстров, добывайте трофеи и захватывайте врагов на службу. Deskrawl — эпическая idle ARPG в нижней части рабочего стола. Фармите легендарные предметы и создавайте невероятно сильных героев, пока работаете или отдыхаете.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Казуальные игры"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "First Day Games",
-   "price": "234 руб.",
-   "url": "https://store.steampowered.com/app/4623570/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4623570/"
-   },
-   "reviews": 349
+   "reviews": 6077
   },
   {
    "appid": 4656000,
@@ -283,13 +282,13 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4656000/"
    },
-   "reviews": 2971
+   "reviews": 3002
   },
   {
    "appid": 4072240,
    "title": "Woman Simulator",
    "date": "2026-09-25",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4072240/311f1edcd287af7732bfeb5dfe1a048d2aa3a641/header.jpg?t=1790657874",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4072240/311f1edcd287af7732bfeb5dfe1a048d2aa3a641/header.jpg?t=1790701272",
    "desc": "Игра позволит вам почувствовать себя женщиной: уборка, стирка, готовка - и ни минуты покоя. Полное погружение в мир женских забот!",
    "genres": [
     "Экшены",
@@ -308,7 +307,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4072240/"
    },
-   "reviews": 249
+   "reviews": 284
   },
   {
    "appid": "x-1000xresist-nintendo-switch-2",
