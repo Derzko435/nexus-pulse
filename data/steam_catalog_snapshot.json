@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T19:27:46+03:00",
+  "updatedAt": "2026-10-01T01:23:46+03:00",
   "source": "steam-store-appdetails",
   "count": 35,
   "apps": [
@@ -520,43 +520,6 @@
       "short_description": "Создайте собственную империю по обслуживанию автомобилей. Не бойтесь замарать руки в мире высоко реалистичного симулятора с тщательно проработанными деталями. Посетите аукционный дом, где можно покупать машины в разном состоянии."
     },
     {
-      "appid": "640820",
-      "name": "Pathfinder: Kingmaker — Enhanced Plus Edition",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/640820/header.jpg?t=1782382964",
-      "genres": [
-        "Приключенческие игры",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": 73,
-      "short_description": "Первая изометрическая партийная ролевая игра во вселенной Pathfinder. Насладитесь классическим игровым процессом, вдохновлённым такими играми, как Baldur's Gate и Neverwinter Nights. Исследуйте земли, завоюйте их и сделайте своим королевством!"
-    },
-    {
-      "appid": "1184370",
-      "name": "Pathfinder: Wrath of the Righteous - Enhanced Edition",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1184370/header.jpg?t=1781096468",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Ролевые игры",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": 83,
-      "short_description": "Исследуйте захваченный демонами мир в новой эпической ролевой игре от создателей культовой Pathfinder: Kingmaker. Познайте суть добра и зла, узнайте истинную цену власти и станьте Мифическим Героем, способным на подвиги, превосходящие ожидания смертных."
-    },
-    {
       "appid": "632470",
       "name": "Disco Elysium - The Final Cut",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632470/816ea59d6d8ac525f79a07c3a7afa94eddb3437c/header.jpg?t=1780913406",
@@ -571,6 +534,22 @@
       },
       "metacritic": 97,
       "short_description": "Disco Elysium - The Final Cut — революция в жанре РПГ. Ваш персонаж — детектив с уникальными навыками, которому предстоит исследовать целый район. Допрашивайте персонажей, расследуйте убийства или берите взятки. Кем вы станете: героем или неудачником?"
+    },
+    {
+      "appid": "424840",
+      "name": "Little Nightmares",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/424840/facf9a7a675c6d7f210d96d6b111caffe0386cd5/header.jpg?t=1773135169",
+      "genres": [
+        "Приключенческие игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 81,
+      "short_description": "Little Nightmares – это мрачная сказка, которая заставит вас вспомнить свои детские кошмары. Помогите Шестой выбраться из Чрева – подводного судна, полного жутких существ, ищущих, чем бы поживиться."
     },
     {
       "appid": "1288320",
@@ -624,6 +603,26 @@
       },
       "metacritic": 77,
       "short_description": "Выполняйте обязанности инспектора пограничной службы в коммунистическом государстве 1980-х годов, где контрабанда, коррупция и подделки документов – в порядке вещей. Будьте бдительны и добейтесь благосклонности начальства."
+    },
+    {
+      "appid": "2186680",
+      "name": "Warhammer 40,000: Rogue Trader",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2186680/c7b0bd6f233f6c03fa68eee2fd1108a183329230/header.jpg?t=1790775933",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Начните свое путешествие в первой cRPG в мрачной вселенной 41-го тысячелетия. Станьте Вольным Торговцем - наследником древней династии дерзких каперов, правящих собственной торговой империей и исследующих границы Империума с благословения Бога-Императора Человечества."
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T19:27:51+03:00",
+  "updatedAt": "2026-10-01T01:23:52+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -21,6 +21,16 @@
       "pct": 90,
       "url": "https://store.steampowered.com/app/1084160/?curator_clanid=0",
       "steamAppId": "1084160"
+    },
+    {
+      "id": "steam-698670",
+      "title": "Scorn",
+      "store": "Steam",
+      "old": 899,
+      "neu": 89,
+      "pct": 90,
+      "url": "https://store.steampowered.com/app/698670/?curator_clanid=0",
+      "steamAppId": "698670"
     },
     {
       "id": "steam-582660",
@@ -53,14 +63,24 @@
       "steamAppId": "1190000"
     },
     {
-      "id": "steam-632470",
-      "title": "Disco Elysium - The Final Cut",
+      "id": "steam-640820",
+      "title": "Pathfinder: Kingmaker — Enhanced Plus Edition",
       "store": "Steam",
-      "old": 1550,
-      "neu": 387,
-      "pct": 75,
-      "url": "https://store.steampowered.com/app/632470/?curator_clanid=0",
-      "steamAppId": "632470"
+      "old": 1079,
+      "neu": 194,
+      "pct": 82,
+      "url": "https://store.steampowered.com/app/640820/?curator_clanid=0",
+      "steamAppId": "640820"
+    },
+    {
+      "id": "steam-1119730",
+      "title": "Ranch Simulator — строительство, фермерство, охота",
+      "store": "Steam",
+      "old": 465,
+      "neu": 93,
+      "pct": 80,
+      "url": "https://store.steampowered.com/app/1119730/?curator_clanid=0",
+      "steamAppId": "1119730"
     },
     {
       "id": "steam-424840",
@@ -121,26 +141,6 @@
       "pct": 71,
       "url": "https://store.steampowered.com/app/756800/?curator_clanid=0",
       "steamAppId": "756800"
-    },
-    {
-      "id": "steam-281990",
-      "title": "Stellaris",
-      "store": "Steam",
-      "old": 3049,
-      "neu": 914,
-      "pct": 70,
-      "url": "https://store.steampowered.com/app/281990/?curator_clanid=0",
-      "steamAppId": "281990"
-    },
-    {
-      "id": "steam-2186680",
-      "title": "Warhammer 40,000: Rogue Trader",
-      "store": "Steam",
-      "old": 1599,
-      "neu": 479,
-      "pct": 70,
-      "url": "https://store.steampowered.com/app/2186680/?curator_clanid=0",
-      "steamAppId": "2186680"
     }
   ]
 }
