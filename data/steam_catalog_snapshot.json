@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T04:22:06+03:00",
+  "updatedAt": "2026-09-30T19:27:46+03:00",
   "source": "steam-store-appdetails",
   "count": 35,
   "apps": [
@@ -537,6 +537,26 @@
       "short_description": "Первая изометрическая партийная ролевая игра во вселенной Pathfinder. Насладитесь классическим игровым процессом, вдохновлённым такими играми, как Baldur's Gate и Neverwinter Nights. Исследуйте земли, завоюйте их и сделайте своим королевством!"
     },
     {
+      "appid": "1184370",
+      "name": "Pathfinder: Wrath of the Righteous - Enhanced Edition",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1184370/header.jpg?t=1781096468",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": 83,
+      "short_description": "Исследуйте захваченный демонами мир в новой эпической ролевой игре от создателей культовой Pathfinder: Kingmaker. Познайте суть добра и зла, узнайте истинную цену власти и станьте Мифическим Героем, способным на подвиги, превосходящие ожидания смертных."
+    },
+    {
       "appid": "632470",
       "name": "Disco Elysium - The Final Cut",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632470/816ea59d6d8ac525f79a07c3a7afa94eddb3437c/header.jpg?t=1780913406",
@@ -551,22 +571,6 @@
       },
       "metacritic": 97,
       "short_description": "Disco Elysium - The Final Cut — революция в жанре РПГ. Ваш персонаж — детектив с уникальными навыками, которому предстоит исследовать целый район. Допрашивайте персонажей, расследуйте убийства или берите взятки. Кем вы станете: героем или неудачником?"
-    },
-    {
-      "appid": "424840",
-      "name": "Little Nightmares",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/424840/facf9a7a675c6d7f210d96d6b111caffe0386cd5/header.jpg?t=1773135169",
-      "genres": [
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": 81,
-      "short_description": "Little Nightmares – это мрачная сказка, которая заставит вас вспомнить свои детские кошмары. Помогите Шестой выбраться из Чрева – подводного судна, полного жутких существ, ищущих, чем бы поживиться."
     },
     {
       "appid": "1288320",
@@ -589,7 +593,7 @@
     {
       "appid": "270880",
       "name": "American Truck Simulator",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/270880/2cfd6711c21677e7611985d2bacc3a3bcfac2660/header_alt_assets_8.jpg?t=1790697134",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/270880/2cfd6711c21677e7611985d2bacc3a3bcfac2660/header_alt_assets_8.jpg?t=1790759835",
       "genres": [
         "Инди",
         "Симуляторы"
