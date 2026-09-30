@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T04:22:12+03:00",
+  "updatedAt": "2026-09-30T11:43:27+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -39,7 +39,7 @@
       "old": 299,
       "neu": 29,
       "pct": 90,
-      "url": "https://store.steampowered.com/app/2475460/",
+      "url": "https://store.steampowered.com/app/2475460/?curator_clanid=0",
       "steamAppId": "2475460"
     },
     {
@@ -63,6 +63,16 @@
       "steamAppId": "640820"
     },
     {
+      "id": "steam-1184370",
+      "title": "Pathfinder: Wrath of the Righteous - Enhanced Edition",
+      "store": "Steam",
+      "old": 599,
+      "neu": 119,
+      "pct": 80,
+      "url": "https://store.steampowered.com/app/1184370/?curator_clanid=0",
+      "steamAppId": "1184370"
+    },
+    {
       "id": "steam-632470",
       "title": "Disco Elysium - The Final Cut",
       "store": "Steam",
@@ -71,16 +81,6 @@
       "pct": 75,
       "url": "https://store.steampowered.com/app/632470/?curator_clanid=0",
       "steamAppId": "632470"
-    },
-    {
-      "id": "steam-424840",
-      "title": "Little Nightmares",
-      "store": "Steam",
-      "old": 1429,
-      "neu": 357,
-      "pct": 75,
-      "url": "https://store.steampowered.com/app/424840/?curator_clanid=0",
-      "steamAppId": "424840"
     },
     {
       "id": "steam-1288320",
@@ -93,6 +93,16 @@
       "steamAppId": "1288320"
     },
     {
+      "id": "steam-227300",
+      "title": "Euro Truck Simulator 2",
+      "store": "Steam",
+      "old": 1249,
+      "neu": 312,
+      "pct": 75,
+      "url": "https://store.steampowered.com/app/227300/",
+      "steamAppId": "227300"
+    },
+    {
       "id": "steam-270880",
       "title": "American Truck Simulator",
       "store": "Steam",
@@ -101,16 +111,6 @@
       "pct": 75,
       "url": "https://store.steampowered.com/app/270880/?curator_clanid=0",
       "steamAppId": "270880"
-    },
-    {
-      "id": "steam-227300",
-      "title": "Euro Truck Simulator 2",
-      "store": "Steam",
-      "old": 1249,
-      "neu": 312,
-      "pct": 75,
-      "url": "https://store.steampowered.com/app/227300/?curator_clanid=0",
-      "steamAppId": "227300"
     },
     {
       "id": "steam-1145360",
