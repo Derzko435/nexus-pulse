@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T01:25:05+03:00",
+  "updatedAt": "2026-09-30T04:22:12+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -93,16 +93,6 @@
       "steamAppId": "1288320"
     },
     {
-      "id": "steam-227300",
-      "title": "Euro Truck Simulator 2",
-      "store": "Steam",
-      "old": 1249,
-      "neu": 312,
-      "pct": 75,
-      "url": "https://store.steampowered.com/app/227300/",
-      "steamAppId": "227300"
-    },
-    {
       "id": "steam-270880",
       "title": "American Truck Simulator",
       "store": "Steam",
@@ -111,6 +101,16 @@
       "pct": 75,
       "url": "https://store.steampowered.com/app/270880/?curator_clanid=0",
       "steamAppId": "270880"
+    },
+    {
+      "id": "steam-227300",
+      "title": "Euro Truck Simulator 2",
+      "store": "Steam",
+      "old": 1249,
+      "neu": 312,
+      "pct": 75,
+      "url": "https://store.steampowered.com/app/227300/?curator_clanid=0",
+      "steamAppId": "227300"
     },
     {
       "id": "steam-1145360",
