@@ -856,28 +856,28 @@
    "priority": "0.7"
   },
   "esports/": {
-   "hash": "7a2dd8ae2fc2a45f",
+   "hash": "d4ada0c640a44d80",
    "created": "2026-09-29",
    "lastmod": "2026-09-30",
    "changefreq": "hourly",
    "priority": "0.7"
   },
   "esports/cs2/": {
-   "hash": "2adc46d787ad3c6c",
+   "hash": "1cc4417bd7b6eba9",
    "created": "2026-09-29",
    "lastmod": "2026-09-30",
    "changefreq": "hourly",
    "priority": "0.7"
   },
   "esports/dota2/": {
-   "hash": "e74c6cb6d210803d",
+   "hash": "99c36c19eafdf73a",
    "created": "2026-09-29",
    "lastmod": "2026-09-30",
    "changefreq": "hourly",
    "priority": "0.7"
   },
   "esports/valorant/": {
-   "hash": "761ebf60d2fe4834",
+   "hash": "70feac2c609423b3",
    "created": "2026-09-29",
    "lastmod": "2026-09-30",
    "changefreq": "hourly",
@@ -905,28 +905,105 @@
    "priority": "0.5"
   },
   "news/": {
-   "hash": "669d37923e8983ed",
+   "hash": "6b9bd83c81053af9",
    "created": "2026-09-28",
    "lastmod": "2026-09-30",
    "changefreq": "hourly",
    "priority": "0.8"
   },
   "news/page/2/": {
-   "hash": "11670fc062c48776",
+   "hash": "8fc6875aa2ee10f0",
    "created": "2026-09-29",
    "lastmod": "2026-09-30",
    "changefreq": "daily",
    "priority": "0.4"
   },
   "news/page/3/": {
-   "hash": "99cfebd2e9d763df",
+   "hash": "a2d80025d9bc295f",
    "created": "2026-09-30",
    "lastmod": "2026-09-30",
    "changefreq": "daily",
    "priority": "0.4"
   },
+  "news/c9c9a4681cfe/": {
+   "hash": "30f10ec82e1168c8",
+   "created": "2026-09-30",
+   "lastmod": "2026-09-30",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/239138e4b9cd/": {
+   "hash": "57c48f1461e978fd",
+   "created": "2026-09-30",
+   "lastmod": "2026-09-30",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/e2c7f5a2bc80/": {
+   "hash": "a5e9d8c1cf9fa55b",
+   "created": "2026-09-30",
+   "lastmod": "2026-09-30",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/bc30a8aca165/": {
+   "hash": "97fac085733860fa",
+   "created": "2026-09-30",
+   "lastmod": "2026-09-30",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/402f7d02ac1a/": {
+   "hash": "d026e5c3344e793e",
+   "created": "2026-09-30",
+   "lastmod": "2026-09-30",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/f7bc678d163c/": {
+   "hash": "9e6ecf5c56aea1ef",
+   "created": "2026-09-30",
+   "lastmod": "2026-09-30",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/995f32f5baf9/": {
+   "hash": "a3cf0c332e20a93e",
+   "created": "2026-09-30",
+   "lastmod": "2026-09-30",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/1bada8ff3af4/": {
+   "hash": "f064a832f21a7e46",
+   "created": "2026-09-30",
+   "lastmod": "2026-09-30",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/192a7f48e3ed/": {
+   "hash": "b72539afc78a7b8a",
+   "created": "2026-09-30",
+   "lastmod": "2026-09-30",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/0c706bf7e967/": {
+   "hash": "b6f880f0f8529007",
+   "created": "2026-09-30",
+   "lastmod": "2026-09-30",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/7fdb8536f220/": {
+   "hash": "075172a27c861cf7",
+   "created": "2026-09-30",
+   "lastmod": "2026-09-30",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
   "news/d933ae82690b/": {
-   "hash": "f0762201fc7584ff",
+   "hash": "18a9cd0b8d9ad1d8",
    "created": "2026-09-30",
    "lastmod": "2026-09-30",
    "changefreq": "monthly",
@@ -2306,55 +2383,7 @@
    "noindex": true
   },
   "news/acc99f3adc72/": {
-   "hash": "701674da414f8639",
-   "created": "2026-09-28",
-   "lastmod": "2026-09-27",
-   "changefreq": "monthly",
-   "priority": "0.5",
-   "noindex": true
-  },
-  "news/4369248e6b16/": {
-   "hash": "0b589bc693f33c87",
-   "created": "2026-09-28",
-   "lastmod": "2026-09-27",
-   "changefreq": "monthly",
-   "priority": "0.5",
-   "noindex": true
-  },
-  "news/cd95b2fc2a79/": {
-   "hash": "47921f730b38ba77",
-   "created": "2026-09-28",
-   "lastmod": "2026-09-27",
-   "changefreq": "monthly",
-   "priority": "0.5",
-   "noindex": true
-  },
-  "news/bcb9f636a688/": {
-   "hash": "5a6fe77f4b99af1b",
-   "created": "2026-09-28",
-   "lastmod": "2026-09-27",
-   "changefreq": "monthly",
-   "priority": "0.5",
-   "noindex": true
-  },
-  "news/a764ffd4690d/": {
-   "hash": "c1f78b9281f31b1a",
-   "created": "2026-09-28",
-   "lastmod": "2026-09-27",
-   "changefreq": "monthly",
-   "priority": "0.5",
-   "noindex": true
-  },
-  "news/cddbaceccb58/": {
-   "hash": "8ae3a241c98ae91e",
-   "created": "2026-09-28",
-   "lastmod": "2026-09-27",
-   "changefreq": "monthly",
-   "priority": "0.5",
-   "noindex": true
-  },
-  "news/5099c058c52a/": {
-   "hash": "e6e37ba0e215a1b2",
+   "hash": "a1a790d04b91d0e0",
    "created": "2026-09-28",
    "lastmod": "2026-09-27",
    "changefreq": "monthly",
@@ -2362,45 +2391,21 @@
    "noindex": true
   },
   "news/a2697f35535c/": {
-   "hash": "c95e17e021a65818",
+   "hash": "6b98b4c1d27d5523",
    "created": "2026-09-28",
    "lastmod": "2026-09-27",
    "changefreq": "monthly",
    "priority": "0.5"
-  },
-  "news/4bfca9967b4d/": {
-   "hash": "349f313da6caa579",
-   "created": "2026-09-28",
-   "lastmod": "2026-09-27",
-   "changefreq": "monthly",
-   "priority": "0.5",
-   "noindex": true
-  },
-  "news/dfa5a37b9785/": {
-   "hash": "ed130e96d2046b80",
-   "created": "2026-09-28",
-   "lastmod": "2026-09-26",
-   "changefreq": "monthly",
-   "priority": "0.5",
-   "noindex": true
   },
   "news/b5b12193c5ab/": {
-   "hash": "9feb2f8dd300372e",
+   "hash": "27481fc258604479",
    "created": "2026-09-28",
    "lastmod": "2026-09-26",
    "changefreq": "monthly",
    "priority": "0.5"
   },
-  "news/fbe8b48ab3e3/": {
-   "hash": "a857a79c54d7d62c",
-   "created": "2026-09-28",
-   "lastmod": "2026-09-26",
-   "changefreq": "monthly",
-   "priority": "0.5",
-   "noindex": true
-  },
   "news/9bc2ec75a73e/": {
-   "hash": "4fa3d57ec16466d5",
+   "hash": "1e6cba9e02871f42",
    "created": "2026-09-28",
    "lastmod": "2026-09-26",
    "changefreq": "monthly",
