@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-01T20:04:38+03:00",
+  "updatedAt": "2026-10-01T23:20:01+03:00",
   "source": "steam-store-appdetails",
-  "count": 36,
+  "count": 37,
   "apps": [
     {
       "appid": "730",
@@ -437,7 +437,7 @@
     {
       "appid": "281990",
       "name": "Stellaris",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/25d064cea0721f8fc17627f40efbf1c9d2ba2adb/header_alt_assets_14_russian.jpg?t=1790598147",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/25d064cea0721f8fc17627f40efbf1c9d2ba2adb/header_alt_assets_14_russian.jpg?t=1790873973",
       "genres": [
         "Симуляторы",
         "Стратегии"
@@ -450,6 +450,25 @@
       },
       "metacritic": 78,
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
+    },
+    {
+      "appid": "704850",
+      "name": "Thief Simulator",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/704850/header.jpg?t=1787754373",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Станьте лучшим из воров. Собирайте информацию, воруйте вещи и продавайте их, чтобы купить высокотехнологичное оборудование. Делайте все, что делают настоящие воры."
     },
     {
       "appid": "1084160",
@@ -467,24 +486,6 @@
       },
       "metacritic": 81,
       "short_description": "В Гранд-Чиене паника и хаос: бесследно пропал президент, и власть в стране захватила военная группировка под названием «Легион». Наемники один другого интереснее, пошаговая, глубоко продуманная стратегия – эта игра унаследовала все лучшее от популярной франшизы."
-    },
-    {
-      "appid": "698670",
-      "name": "Scorn",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/698670/header.jpg?t=1706178006",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Scorn — атмосферный приключенческий хоррор от первого лица, действие которого происходит в ужасной искореженной вселенной."
     },
     {
       "appid": "582660",
@@ -521,6 +522,23 @@
       "short_description": "SOS OPS! – это нечто большее, чем игра. Твоя задача спасти город. Ты окажешься в самом эпицентре безумия, где совместные миссии с друзьями поднимут адреналин до предела!"
     },
     {
+      "appid": "357070",
+      "name": "UBERMOSH",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/357070/header.jpg?t=1699491220",
+      "genres": [
+        "Экшены",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "UBERMOSH is an arcade game about cutting bullets with a sword, in a gun-filled cyberpunk mosh pit."
+    },
+    {
       "appid": "1190000",
       "name": "Car Mechanic Simulator 2021",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1190000/header.jpg?t=1787847434",
@@ -538,21 +556,24 @@
       "short_description": "Создайте собственную империю по обслуживанию автомобилей. Не бойтесь замарать руки в мире высоко реалистичного симулятора с тщательно проработанными деталями. Посетите аукционный дом, где можно покупать машины в разном состоянии."
     },
     {
-      "appid": "640820",
-      "name": "Pathfinder: Kingmaker — Enhanced Plus Edition",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/640820/header.jpg?t=1782382964",
+      "appid": "1184370",
+      "name": "Pathfinder: Wrath of the Righteous - Enhanced Edition",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1184370/header.jpg?t=1781096468",
       "genres": [
+        "Экшены",
         "Приключенческие игры",
-        "Ролевые игры"
+        "Инди",
+        "Ролевые игры",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": true,
-        "linux": true
+        "linux": false
       },
-      "metacritic": 73,
-      "short_description": "Первая изометрическая партийная ролевая игра во вселенной Pathfinder. Насладитесь классическим игровым процессом, вдохновлённым такими играми, как Baldur's Gate и Neverwinter Nights. Исследуйте земли, завоюйте их и сделайте своим королевством!"
+      "metacritic": 83,
+      "short_description": "Исследуйте захваченный демонами мир в новой эпической ролевой игре от создателей культовой Pathfinder: Kingmaker. Познайте суть добра и зла, узнайте истинную цену власти и станьте Мифическим Героем, способным на подвиги, превосходящие ожидания смертных."
     },
     {
       "appid": "1119730",
@@ -569,6 +590,23 @@
       },
       "metacritic": null,
       "short_description": "Строительство. Фермерство. Охота. Торговля. Быть владельцем ранчо — явно не самая простая работа. Думаете, вам по силам сделать захудалое семейное ранчо самым процветающим в округе? Тогда вперед, в провинцию — вас ждет симулятор в открытом мире с возможностью одиночной и многопользовательской игры!"
+    },
+    {
+      "appid": "220200",
+      "name": "Kerbal Space Program",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220200/header.jpg?t=1738037585",
+      "genres": [
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": 88,
+      "short_description": "В Kerbal Space Program вам предстоит руководить космической программой инопланетной расы кербалов. Создавайте собственные космические суда, основываясь на своих знаниях (или их отсутствии) законов аэродинамики и физики движения тел на орбите."
     },
     {
       "appid": "424840",
@@ -605,30 +643,13 @@
       "short_description": "Станьте новым владельцем охотничьего домика в изумительно красивом месте, полном диких зверей. Исследуйте обширный открытый мир и используйте реально существующие образцы охотничьего вооружения. Наслаждайтесь увлекательной охотой в одиночку или с друзьями!"
     },
     {
-      "appid": "270880",
-      "name": "American Truck Simulator",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/270880/2cfd6711c21677e7611985d2bacc3a3bcfac2660/header_alt_assets_8.jpg?t=1790759835",
-      "genres": [
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": 76,
-      "short_description": "Ощутите мощь легендарных американских грузовиков и доставляйте разнообразные грузы по солнечной Калифорнии, песчаной Неваде и величественному Большому Каньону штата Аризона. American Truck Simulator увлечет вас в захватывающее путешествие по удивительным пейзажам и знаменитым достопримечательностям, разбросанным по всем штатам."
-    },
-    {
-      "appid": "756800",
-      "name": "Contraband Police",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/756800/18d980a530540d58324982aa4538edfabc182b59/header.jpg?t=1787754316",
+      "appid": "698670",
+      "name": "Scorn",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/698670/header.jpg?t=1706178006",
       "genres": [
         "Экшены",
         "Приключенческие игры",
-        "Симуляторы"
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -636,8 +657,8 @@
         "mac": false,
         "linux": false
       },
-      "metacritic": 77,
-      "short_description": "Выполняйте обязанности инспектора пограничной службы в коммунистическом государстве 1980-х годов, где контрабанда, коррупция и подделки документов – в порядке вещей. Будьте бдительны и добейтесь благосклонности начальства."
+      "metacritic": null,
+      "short_description": "Scorn — атмосферный приключенческий хоррор от первого лица, действие которого происходит в ужасной искореженной вселенной."
     }
   ]
 }
