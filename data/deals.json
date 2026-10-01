@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T04:21:22+03:00",
+  "updatedAt": "2026-10-01T12:05:45+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -73,6 +73,16 @@
       "steamAppId": "640820"
     },
     {
+      "id": "steam-1119730",
+      "title": "Ranch Simulator — строительство, фермерство, охота",
+      "store": "Steam",
+      "old": 465,
+      "neu": 93,
+      "pct": 80,
+      "url": "https://store.steampowered.com/app/1119730/?curator_clanid=0",
+      "steamAppId": "1119730"
+    },
+    {
       "id": "steam-424840",
       "title": "Little Nightmares",
       "store": "Steam",
@@ -131,16 +141,6 @@
       "pct": 71,
       "url": "https://store.steampowered.com/app/756800/?curator_clanid=0",
       "steamAppId": "756800"
-    },
-    {
-      "id": "steam-281990",
-      "title": "Stellaris",
-      "store": "Steam",
-      "old": 3049,
-      "neu": 914,
-      "pct": 70,
-      "url": "https://store.steampowered.com/app/281990/?curator_clanid=0",
-      "steamAppId": "281990"
     }
   ]
 }
