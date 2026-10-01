@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T23:20:01+03:00",
+  "updatedAt": "2026-10-02T01:47:35+03:00",
   "source": "steam-store-appdetails",
   "count": 37,
   "apps": [
@@ -452,60 +452,56 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "704850",
-      "name": "Thief Simulator",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/704850/header.jpg?t=1787754373",
+      "appid": "1304930",
+      "name": "The Outlast Trials",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/65fbdba4ad0f1a7ed7a362a086c87042fa40fadc/header_alt_assets_3.jpg?t=1784123708",
       "genres": [
         "Экшены",
         "Приключенческие игры",
-        "Инди",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Red Barrels invites you to experience mind-numbing terror, this time with friends. Whether you go through the trials alone or in teams, if you survive long enough and complete the therapy, Murkoff will happily let you leave… but will you be the same?"
+    },
+    {
+      "appid": "835960",
+      "name": "The Talos Principle 2",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/835960/header.jpg?t=1775138468",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 88,
+      "short_description": "The Talos Principle 2 — головоломка от первого лица, которая не раз заставит вас задуматься. Она во многом развивает философские темы первой игры и предложит вам немало потрясающих уровней с очень непростыми загадками."
+    },
+    {
+      "appid": "1273400",
+      "name": "Construction Simulator",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1273400/header.jpg?t=1784210925",
+      "genres": [
+        "Казуальные игры",
         "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
+        "mac": false,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Станьте лучшим из воров. Собирайте информацию, воруйте вещи и продавайте их, чтобы купить высокотехнологичное оборудование. Делайте все, что делают настоящие воры."
-    },
-    {
-      "appid": "1084160",
-      "name": "Jagged Alliance 3",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1084160/header.jpg?t=1725000793",
-      "genres": [
-        "Экшены",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": 81,
-      "short_description": "В Гранд-Чиене паника и хаос: бесследно пропал президент, и власть в стране захватила военная группировка под названием «Легион». Наемники один другого интереснее, пошаговая, глубоко продуманная стратегия – эта игра унаследовала все лучшее от популярной франшизы."
-    },
-    {
-      "appid": "582660",
-      "name": "Black Desert",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582660/3c4172635738d9e5901e340b28136745fd9e491a/header_alt_assets_27.jpg?t=1786645008",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Многопользовательские игры",
-        "Ролевые игры",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": 80,
-      "short_description": "Played by over 20 million Adventurers - Black Desert Online is an open-world, action MMORPG. Experience intense, action-packed combat, battle massive world bosses, fight alongside friends to siege and conquer castles, and train in professions such as fishing, trading, crafting, cooking, and more!"
+      "short_description": "Construction Simulator возвращается —теперь еще масштабнее и увлекательнее! Утолите амбиции и постройте успешный строительный бизнес с нуля, а ваш наставник Хапе вам в этом поможет."
     },
     {
       "appid": "2475460",
@@ -522,28 +518,87 @@
       "short_description": "SOS OPS! – это нечто большее, чем игра. Твоя задача спасти город. Ты окажешься в самом эпицентре безумия, где совместные миссии с друзьями поднимут адреналин до предела!"
     },
     {
-      "appid": "357070",
-      "name": "UBERMOSH",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/357070/header.jpg?t=1699491220",
+      "appid": "668580",
+      "name": "Atomic Heart",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/header.jpg?t=1786632138",
       "genres": [
         "Экшены",
-        "Инди"
+        "Приключенческие игры",
+        "Ролевые игры"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
-        "linux": true
+        "linux": false
       },
-      "metacritic": null,
-      "short_description": "UBERMOSH is an arcade game about cutting bullets with a sword, in a gun-filled cyberpunk mosh pit."
+      "metacritic": 76,
+      "short_description": "Погрузитесь в безумную и прекрасную техноутопию, где вас на каждом шагу поджидает смерть. Выполните порученное вам задание, подстраиваясь под необычных противников, используя элементы окружения и улучшая свой арсенал. Узнайте правду — любой ценой!"
     },
     {
-      "appid": "1190000",
-      "name": "Car Mechanic Simulator 2021",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1190000/header.jpg?t=1787847434",
+      "appid": "2399830",
+      "name": "ARK: Survival Ascended",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2399830/d934813ca531af0fce69fe36bc972f1c90d1aa19/header.jpg?t=1779293241",
       "genres": [
-        "Гонки",
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Многопользовательские игры",
+        "Ролевые игры",
+        "Ранний доступ"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Арк переосмысливается с основания в этой технологии видеоигр с помощью Unreal Engine 5! Сформируйте племя, приручите и породу сотни уникальных динозавров и первобытных существ, исследуйте, создайте, строите, строите и пробитесь на вершину пищевой цепи. Ваш новый мир ждет!"
+    },
+    {
+      "appid": "2183900",
+      "name": "Warhammer 40,000: Space Marine 2",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/041c4b49f2925185ff1be198919b7fbff060c3e1/header_alt_assets_14_russian.jpg?t=1790874369",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 82,
+      "short_description": "Обретите сверхчеловеческую мощь космодесантника. Пустите в ход смертоносные навыки и разрушительное оружие, чтобы истребить безжалостных тиранидов. Защитите Империум в ярких одиночных боях или многопользовательских режимах с видом от третьего лица."
+    },
+    {
+      "appid": "270880",
+      "name": "American Truck Simulator",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/270880/2cfd6711c21677e7611985d2bacc3a3bcfac2660/header_alt_assets_8.jpg?t=1790759835",
+      "genres": [
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": 76,
+      "short_description": "Ощутите мощь легендарных американских грузовиков и доставляйте разнообразные грузы по солнечной Калифорнии, песчаной Неваде и величественному Большому Каньону штата Аризона. American Truck Simulator увлечет вас в захватывающее путешествие по удивительным пейзажам и знаменитым достопримечательностям, разбросанным по всем штатам."
+    },
+    {
+      "appid": "1326470",
+      "name": "Sons Of The Forest",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg?t=1708624856",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
         "Симуляторы"
       ],
       "is_free": false,
@@ -553,12 +608,47 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Создайте собственную империю по обслуживанию автомобилей. Не бойтесь замарать руки в мире высоко реалистичного симулятора с тщательно проработанными деталями. Посетите аукционный дом, где можно покупать машины в разном состоянии."
+      "short_description": "Sent to find a missing billionaire on a remote island, you find yourself in a cannibal-infested hellscape. Craft, build, and struggle to survive, alone or with friends, in this terrifying new open-world survival horror simulator."
     },
     {
-      "appid": "1184370",
-      "name": "Pathfinder: Wrath of the Righteous - Enhanced Edition",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1184370/header.jpg?t=1781096468",
+      "appid": "394360",
+      "name": "Hearts of Iron IV",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/67bbd0057627fc2244793bcdd09260c2539499cf/header.jpg?t=1790873967",
+      "genres": [
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": 83,
+      "short_description": "Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation in World War II; the most engaging conflict in world history."
+    },
+    {
+      "appid": "1158310",
+      "name": "Crusader Kings III",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/5a32e8b0154679ead6a7b974b5fb9d792222a57e/header_alt_assets_13_russian.jpg?t=1790873953",
+      "genres": [
+        "Ролевые игры",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": 91,
+      "short_description": "Любовь, война, интриги и величие. Определите наследие своего знатного рода в безграничной глобальной стратегии Crusader Kings III. Смерть — это только начало вашего пути по истории выбранной династии в этой полной неожиданностей и славы симуляции Средних веков."
+    },
+    {
+      "appid": "2186680",
+      "name": "Warhammer 40,000: Rogue Trader",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2186680/c7b0bd6f233f6c03fa68eee2fd1108a183329230/header.jpg?t=1790775933",
       "genres": [
         "Экшены",
         "Приключенческие игры",
@@ -572,93 +662,8 @@
         "mac": true,
         "linux": false
       },
-      "metacritic": 83,
-      "short_description": "Исследуйте захваченный демонами мир в новой эпической ролевой игре от создателей культовой Pathfinder: Kingmaker. Познайте суть добра и зла, узнайте истинную цену власти и станьте Мифическим Героем, способным на подвиги, превосходящие ожидания смертных."
-    },
-    {
-      "appid": "1119730",
-      "name": "Ranch Simulator — строительство, фермерство, охота",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1119730/edbc791f576913bd2b7d3aeeed8bc5dd73614872/header.jpg?t=1790339525",
-      "genres": [
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
       "metacritic": null,
-      "short_description": "Строительство. Фермерство. Охота. Торговля. Быть владельцем ранчо — явно не самая простая работа. Думаете, вам по силам сделать захудалое семейное ранчо самым процветающим в округе? Тогда вперед, в провинцию — вас ждет симулятор в открытом мире с возможностью одиночной и многопользовательской игры!"
-    },
-    {
-      "appid": "220200",
-      "name": "Kerbal Space Program",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220200/header.jpg?t=1738037585",
-      "genres": [
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": 88,
-      "short_description": "В Kerbal Space Program вам предстоит руководить космической программой инопланетной расы кербалов. Создавайте собственные космические суда, основываясь на своих знаниях (или их отсутствии) законов аэродинамики и физики движения тел на орбите."
-    },
-    {
-      "appid": "424840",
-      "name": "Little Nightmares",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/424840/facf9a7a675c6d7f210d96d6b111caffe0386cd5/header.jpg?t=1773135169",
-      "genres": [
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": 81,
-      "short_description": "Little Nightmares – это мрачная сказка, которая заставит вас вспомнить свои детские кошмары. Помогите Шестой выбраться из Чрева – подводного судна, полного жутких существ, ищущих, чем бы поживиться."
-    },
-    {
-      "appid": "1288320",
-      "name": "Way of the Hunter",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1288320/header.jpg?t=1774533447",
-      "genres": [
-        "Приключенческие игры",
-        "Симуляторы",
-        "Спорт"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Станьте новым владельцем охотничьего домика в изумительно красивом месте, полном диких зверей. Исследуйте обширный открытый мир и используйте реально существующие образцы охотничьего вооружения. Наслаждайтесь увлекательной охотой в одиночку или с друзьями!"
-    },
-    {
-      "appid": "698670",
-      "name": "Scorn",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/698670/header.jpg?t=1706178006",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Scorn — атмосферный приключенческий хоррор от первого лица, действие которого происходит в ужасной искореженной вселенной."
+      "short_description": "Начните свое путешествие в первой cRPG в мрачной вселенной 41-го тысячелетия. Станьте Вольным Торговцем - наследником древней династии дерзких каперов, правящих собственной торговой империей и исследующих границы Империума с благословения Бога-Императора Человечества."
     }
   ]
 }

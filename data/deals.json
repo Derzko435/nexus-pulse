@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T23:20:06+03:00",
+  "updatedAt": "2026-10-02T01:47:40+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -9,7 +9,7 @@
       "old": 2999,
       "neu": 299,
       "pct": 90,
-      "url": "https://store.steampowered.com/app/1222140/?curator_clanid=0",
+      "url": "https://store.steampowered.com/app/1222140/",
       "steamAppId": "1222140"
     },
     {
@@ -43,6 +43,16 @@
       "steamAppId": "1273400"
     },
     {
+      "id": "steam-701160",
+      "title": "Kingdom Two Crowns",
+      "store": "Steam",
+      "old": 710,
+      "neu": 71,
+      "pct": 90,
+      "url": "https://store.steampowered.com/app/701160/?curator_clanid=0",
+      "steamAppId": "701160"
+    },
+    {
       "id": "steam-2475460",
       "title": "SOS OPS!",
       "store": "Steam",
@@ -59,7 +69,7 @@
       "old": 2499,
       "neu": 499,
       "pct": 80,
-      "url": "https://store.steampowered.com/app/668580/?curator_clanid=0",
+      "url": "https://store.steampowered.com/app/668580/",
       "steamAppId": "668580"
     },
     {
@@ -113,16 +123,6 @@
       "steamAppId": "1326470"
     },
     {
-      "id": "steam-394360",
-      "title": "Hearts of Iron IV",
-      "store": "Steam",
-      "old": 3049,
-      "neu": 914,
-      "pct": 70,
-      "url": "https://store.steampowered.com/app/394360/",
-      "steamAppId": "394360"
-    },
-    {
       "id": "steam-1158310",
       "title": "Crusader Kings III",
       "store": "Steam",
@@ -133,14 +133,14 @@
       "steamAppId": "1158310"
     },
     {
-      "id": "steam-2186680",
-      "title": "Warhammer 40,000: Rogue Trader",
+      "id": "steam-394360",
+      "title": "Hearts of Iron IV",
       "store": "Steam",
-      "old": 1599,
-      "neu": 479,
+      "old": 3049,
+      "neu": 914,
       "pct": 70,
-      "url": "https://store.steampowered.com/app/2186680/?curator_clanid=0",
-      "steamAppId": "2186680"
+      "url": "https://store.steampowered.com/app/394360/?curator_clanid=0",
+      "steamAppId": "394360"
     }
   ]
 }
