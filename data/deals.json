@@ -1,7 +1,17 @@
 {
-  "updatedAt": "2026-10-01T12:05:45+03:00",
+  "updatedAt": "2026-10-01T20:04:45+03:00",
   "source": "steam-specials-ru",
   "deals": [
+    {
+      "id": "steam-704850",
+      "title": "Thief Simulator",
+      "store": "Steam",
+      "old": 710,
+      "neu": 63,
+      "pct": 91,
+      "url": "https://store.steampowered.com/app/704850/?curator_clanid=0",
+      "steamAppId": "704850"
+    },
     {
       "id": "steam-678960",
       "title": "CODE VEIN",
@@ -23,16 +33,6 @@
       "steamAppId": "1084160"
     },
     {
-      "id": "steam-698670",
-      "title": "Scorn",
-      "store": "Steam",
-      "old": 899,
-      "neu": 89,
-      "pct": 90,
-      "url": "https://store.steampowered.com/app/698670/?curator_clanid=0",
-      "steamAppId": "698670"
-    },
-    {
       "id": "steam-582660",
       "title": "Black Desert",
       "store": "Steam",
@@ -49,8 +49,18 @@
       "old": 299,
       "neu": 29,
       "pct": 90,
-      "url": "https://store.steampowered.com/app/2475460/?curator_clanid=0",
+      "url": "https://store.steampowered.com/app/2475460/",
       "steamAppId": "2475460"
+    },
+    {
+      "id": "steam-357070",
+      "title": "UBERMOSH",
+      "store": "Steam",
+      "old": 210,
+      "neu": 21,
+      "pct": 90,
+      "url": "https://store.steampowered.com/app/357070/?curator_clanid=0",
+      "steamAppId": "357070"
     },
     {
       "id": "steam-1190000",
@@ -63,14 +73,14 @@
       "steamAppId": "1190000"
     },
     {
-      "id": "steam-640820",
-      "title": "Pathfinder: Kingmaker — Enhanced Plus Edition",
+      "id": "steam-1184370",
+      "title": "Pathfinder: Wrath of the Righteous - Enhanced Edition",
       "store": "Steam",
-      "old": 1079,
-      "neu": 194,
-      "pct": 82,
-      "url": "https://store.steampowered.com/app/640820/?curator_clanid=0",
-      "steamAppId": "640820"
+      "old": 599,
+      "neu": 119,
+      "pct": 80,
+      "url": "https://store.steampowered.com/app/1184370/?curator_clanid=0",
+      "steamAppId": "1184370"
     },
     {
       "id": "steam-1119730",
@@ -81,6 +91,16 @@
       "pct": 80,
       "url": "https://store.steampowered.com/app/1119730/?curator_clanid=0",
       "steamAppId": "1119730"
+    },
+    {
+      "id": "steam-220200",
+      "title": "Kerbal Space Program",
+      "store": "Steam",
+      "old": 1620,
+      "neu": 450,
+      "pct": 75,
+      "url": "https://store.steampowered.com/app/220200/?curator_clanid=0",
+      "steamAppId": "220200"
     },
     {
       "id": "steam-424840",
@@ -103,24 +123,14 @@
       "steamAppId": "1288320"
     },
     {
-      "id": "steam-227300",
-      "title": "Euro Truck Simulator 2",
+      "id": "steam-698670",
+      "title": "Scorn",
       "store": "Steam",
-      "old": 1249,
-      "neu": 312,
+      "old": 899,
+      "neu": 224,
       "pct": 75,
-      "url": "https://store.steampowered.com/app/227300/",
-      "steamAppId": "227300"
-    },
-    {
-      "id": "steam-270880",
-      "title": "American Truck Simulator",
-      "store": "Steam",
-      "old": 1249,
-      "neu": 312,
-      "pct": 75,
-      "url": "https://store.steampowered.com/app/270880/?curator_clanid=0",
-      "steamAppId": "270880"
+      "url": "https://store.steampowered.com/app/698670/?curator_clanid=0",
+      "steamAppId": "698670"
     },
     {
       "id": "steam-1145360",
@@ -131,16 +141,6 @@
       "pct": 75,
       "url": "https://store.steampowered.com/app/1145360/?curator_clanid=0",
       "steamAppId": "1145360"
-    },
-    {
-      "id": "steam-756800",
-      "title": "Contraband Police",
-      "store": "Steam",
-      "old": 1988,
-      "neu": 569,
-      "pct": 71,
-      "url": "https://store.steampowered.com/app/756800/?curator_clanid=0",
-      "steamAppId": "756800"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-25T21:14:11+03:00",
+ "updatedAt": "2026-10-01T20:04:45+03:00",
  "source": "steam-store",
  "ids": [
   "assetto",
@@ -151,9 +151,9 @@
   },
   "assetto": {
    "appid": 805550,
-   "final": 1599,
+   "final": 399,
    "initial": 1599,
-   "pct": 0
+   "pct": 75
   },
   "ets2": {
    "appid": 227300,
@@ -163,21 +163,21 @@
   },
   "farming": {
    "appid": 2300320,
-   "final": 1950,
+   "final": 1462,
    "initial": 1950,
-   "pct": 0
+   "pct": 25
   },
   "cities": {
    "appid": 949230,
-   "final": 3049,
+   "final": 2134,
    "initial": 3049,
-   "pct": 0
+   "pct": 30
   },
   "ibeam": {
    "appid": 284160,
-   "final": 880,
+   "final": 704,
    "initial": 880,
-   "pct": 0
+   "pct": 20
   }
  }
 }
