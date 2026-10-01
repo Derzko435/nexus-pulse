@@ -1,6 +1,6 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-10-01T13:19:31+03:00",
+ "updatedAt": "2026-10-01T20:05:11+03:00",
  "posted": {
   "news": [
    "3160fc19c04d",
@@ -336,7 +336,12 @@
    "59d73db62914",
    "6b4be5409175",
    "7e65311f4c88",
-   "769829d75a90"
+   "769829d75a90",
+   "5addb9f1833a",
+   "89f4b3507d69",
+   "01b2a2693a1c",
+   "37818e521b34",
+   "de7bb463ab0d"
   ],
   "deals": [
    "steam-246420:90",
@@ -363,13 +368,20 @@
    "steam-2186680:70",
    "steam-632470:75",
    "steam-1119730:80",
-   "steam-698670:90"
+   "steam-698670:90",
+   "steam-220200:75",
+   "steam-357070:90",
+   "steam-704850:91"
   ],
   "freebies": [
    "epic-7ae00c3e89174012b175cc73b4737723:soon",
    "epic-6d99eae44d724baf84d6261a7a0f05d2:now",
    "epic-7c14bf0cffdd43be968fdcf28e5af653:now",
-   "epic-af4c34934afe4db0870b8a1d82dceb94:soon"
+   "epic-af4c34934afe4db0870b8a1d82dceb94:soon",
+   "epic-af6b823b8698465f9aedc3bddf2e8686:soon",
+   "epic-cb733f3432db46bca94965b422c33ede:soon",
+   "epic-af4c34934afe4db0870b8a1d82dceb94:now",
+   "epic-7ae00c3e89174012b175cc73b4737723:now"
   ],
   "esports": [
    "result:bo3-129360",
@@ -626,6 +638,7 @@
   "2026-09-29T15:26+03:00",
   "2026-09-29T19:34+03:00",
   "2026-09-30T01:25+03:00",
-  "2026-10-01T01:24+03:00"
+  "2026-10-01T01:24+03:00",
+  "2026-10-01T20:05+03:00"
  ]
 }
