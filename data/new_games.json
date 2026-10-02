@@ -1,6 +1,80 @@
 {
- "updatedAt": "2026-10-01T13:16:47+03:00",
+ "updatedAt": "2026-10-02T12:54:52+03:00",
  "items": [
+  {
+   "appid": 4001890,
+   "title": "How to Fish",
+   "date": "2026-08-20",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/45c4ddff4901e32c4b8b643e1b97d0d01898d299/header.jpg?t=1788788717",
+   "desc": "Симулятор рыбалки с физикой для 1–4 игроков. Вы плывёте себе на лодке и тут внезапно врезаетесь в небольшой островок. Чтобы найти путь домой, придется научиться рыбачить.",
+   "genres": [
+    "Экшены",
+    "Казуальные игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Dazed Games",
+   "price": "222 руб.",
+   "url": "https://store.steampowered.com/app/4001890/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4001890/"
+   },
+   "reviews": 64877
+  },
+  {
+   "appid": 2887580,
+   "title": "Active Matter",
+   "date": "2026-09-15",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2887580/191801a8de4db48075ef195473a922391cb4c6de/header.jpg?t=1790331280",
+   "desc": "Присоединяйтесь к рейдам за добычей или PvP-сражениям в этом новом реалистичном военном шутере, в мире расколотой мультивселенной. Сражайтесь в квантово-нестабильных зонах за контроль над активной материей — веществом, искривляющим время и пространство.",
+   "genres": [
+    "Экшены",
+    "Многопользовательские игры"
+   ],
+   "platforms": [
+    "PC",
+    "Linux"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Matter Team",
+   "price": "1499 руб.",
+   "url": "https://store.steampowered.com/app/2887580/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/2887580/"
+   },
+   "reviews": 2335
+  },
+  {
+   "appid": 4126040,
+   "title": "Aniimo",
+   "date": "2026-09-15",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/bf9b76d25ac135baf8f313d9a095e754fd2e950b/header.jpg?t=1790849962",
+   "desc": "Во время своего путешествия вы сможете объединяться с анимо и фактически становиться любым анимо из своей коллекции. Используйте навыки анимо, чтобы решать головоломки, побеждать в битвах и преодолевать испытания! Объединяйтесь с анимо и открывайте мир с совершенно новой стороны.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Многопользовательские игры"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Pawprint Studio",
+   "price": "Бесплатно",
+   "url": "https://store.steampowered.com/app/4126040/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4126040/"
+   }
+  },
   {
    "appid": 3493540,
    "title": "Transport Fever 3",
@@ -28,62 +102,13 @@
    "links": {
     "steam": "https://store.steampowered.com/app/3493540/"
    },
-   "reviews": 2532
-  },
-  {
-   "appid": 2887580,
-   "title": "Active Matter",
-   "date": "2026-09-15",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2887580/191801a8de4db48075ef195473a922391cb4c6de/header.jpg?t=1790331280",
-   "desc": "Присоединяйтесь к рейдам за добычей или PvP-сражениям в этом новом реалистичном военном шутере, в мире расколотой мультивселенной. Сражайтесь в квантово-нестабильных зонах за контроль над активной материей — веществом, искривляющим время и пространство.",
-   "genres": [
-    "Экшены",
-    "Многопользовательские игры"
-   ],
-   "platforms": [
-    "PC",
-    "Linux"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Matter Team",
-   "price": "1499 руб.",
-   "url": "https://store.steampowered.com/app/2887580/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/2887580/"
-   },
-   "reviews": 2228
-  },
-  {
-   "appid": 4126040,
-   "title": "Aniimo",
-   "date": "2026-09-15",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/bf9b76d25ac135baf8f313d9a095e754fd2e950b/header.jpg?t=1790595631",
-   "desc": "Во время своего путешествия вы сможете объединяться с анимо и фактически становиться любым анимо из своей коллекции. Используйте навыки анимо, чтобы решать головоломки, побеждать в битвах и преодолевать испытания! Объединяйтесь с анимо и открывайте мир с совершенно новой стороны.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Многопользовательские игры"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Pawprint Studio",
-   "price": "Бесплатно",
-   "url": "https://store.steampowered.com/app/4126040/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4126040/"
-   }
+   "reviews": 3169
   },
   {
    "appid": 2288340,
    "title": "ACE COMBAT 8: WINGS OF THEVE",
    "date": "2026-10-01",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288340/13dea8084135fd130605b78189c82e39bf944c35/header.jpg?t=1790763244",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288340/13dea8084135fd130605b78189c82e39bf944c35/header.jpg?t=1790908088",
    "desc": "Займите свое место среди лучших пилотов. Примите участие в динамичных воздушных боях, где требуется мастерство и решимость, а мощное вооружение дает преимущество. Погрузитесь в кампанию, полную опасных миссий, непростых решений и личных историй отряда.",
    "genres": [
     "Экшены"
@@ -100,106 +125,37 @@
    "links": {
     "steam": "https://store.steampowered.com/app/2288340/"
    },
-   "reviews": 3939
+   "reviews": 5341
   },
   {
-   "appid": 4001890,
-   "title": "How to Fish",
-   "date": "2026-08-20",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/45c4ddff4901e32c4b8b643e1b97d0d01898d299/header.jpg?t=1788788717",
-   "desc": "Симулятор рыбалки с физикой для 1–4 игроков. Вы плывёте себе на лодке и тут внезапно врезаетесь в небольшой островок. Чтобы найти путь домой, придется научиться рыбачить.",
+   "appid": 892970,
+   "title": "Valheim",
+   "date": "2026-09-09",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/1888731b59362fca6c026cdbafa3dfffd45c3146/header_alt_assets_6.jpg?t=1790220314",
+   "desc": "Симулятор выживания и исследования для компании от 1 до 10 человек. Вас ждет процедурно генерируемый мир, пропитанный духом скандинавских мифов. Сражайтесь, стройте крепости и докажите, что достойны покровительства Одина!",
    "genres": [
     "Экшены",
-    "Казуальные игры",
+    "Приключенческие игры",
     "Инди"
    ],
    "platforms": [
-    "PC"
+    "PC",
+    "PlayStation",
+    "Xbox",
+    "Switch",
+    "Mac",
+    "Linux"
    ],
    "stores": [
     "Steam"
    ],
-   "developer": "Dazed Games",
-   "price": "359 руб.",
-   "url": "https://store.steampowered.com/app/4001890/",
+   "developer": "Iron Gate AB",
+   "price": "1169,10 руб.",
+   "url": "https://store.steampowered.com/app/892970/",
    "links": {
-    "steam": "https://store.steampowered.com/app/4001890/"
+    "steam": "https://store.steampowered.com/app/892970/"
    },
-   "reviews": 64420
-  },
-  {
-   "appid": 1488490,
-   "title": "Nivalis Nights",
-   "date": "2026-09-29",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488490/28e511ff46672f9649744961fd6edbf19df75265/header.jpg?t=1790694813",
-   "desc": "Вам предстоит развивать бизнес, управлять ресторанами и ночными клубами, заводить друзей и врагов, покупать и украшать квартиры, рыбачить, а может, даже найти любовь в киберпанковом городе, который простирается от океана до облаков.",
-   "genres": [
-    "Приключенческие игры",
-    "Ролевые игры",
-    "Симуляторы"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "ION LANDS",
-   "price": "1169 руб.",
-   "url": "https://store.steampowered.com/app/1488490/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/1488490/"
-   },
-   "reviews": 1833
-  },
-  {
-   "appid": 4358690,
-   "title": "Graveyard Keeper 2",
-   "date": "2026-09-22",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4358690/7f50e84b1ea954a0edb7434eb8c02cd9b06909aa/header_alt_assets_1_russian.jpg?t=1790169326",
-   "desc": "Самый недостоверный симулятор смотрителя на средневековом кладбище возвращается! Восстановите город, управляйте кладбищем, автоматизируйте производство, ведите свою армию нежити в бой и превратите проблему оживших мертвецов в процветающий бизнес!",
-   "genres": [
-    "Приключенческие игры",
-    "Ролевые игры",
-    "Симуляторы"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Lazy Bear Games",
-   "price": "999 руб.",
-   "url": "https://store.steampowered.com/app/4358690/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4358690/"
-   },
-   "reviews": 6124
-  },
-  {
-   "appid": 5020310,
-   "title": "Dub Together",
-   "date": "2026-09-01",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5020310/5120fdb5c1622bf7317187323aac962b3034fb93/header.jpg?t=1790548505",
-   "desc": "До шести игроков дублируют видеоклипы и придают им совершенно новый смысл. Вы записываете сцену, затем вместе смотрите каждый результат и голосуете. Благодаря голосовым эффектам, встроенному редактору клипов и живому голосованию из чата Twitch.",
-   "genres": [
-    "Казуальные игры",
-    "Инди"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Banani",
-   "price": "240 руб.",
-   "url": "https://store.steampowered.com/app/5020310/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/5020310/"
-   },
-   "reviews": 292
+   "reviews": 470404
   },
   {
    "appid": 2584270,
@@ -225,37 +181,80 @@
    "links": {
     "steam": "https://store.steampowered.com/app/2584270/"
    },
-   "reviews": 19684
+   "reviews": 19722
   },
   {
-   "appid": 892970,
-   "title": "Valheim",
-   "date": "2026-09-09",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/1888731b59362fca6c026cdbafa3dfffd45c3146/header_alt_assets_6.jpg?t=1790220314",
-   "desc": "Симулятор выживания и исследования для компании от 1 до 10 человек. Вас ждет процедурно генерируемый мир, пропитанный духом скандинавских мифов. Сражайтесь, стройте крепости и докажите, что достойны покровительства Одина!",
+   "appid": 2067820,
+   "title": "RetroSpace",
+   "date": "2026-10-01",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2067820/e99819db954ca3dcfc4011183504daf43d2d4ed4/header.jpg?t=1790866452",
+   "desc": "Диско-панковый космический хоррор, в котором вы можете стать человеком-невидимкой или сумасшедшим мутантом-боевиком на космической станции, поглощенной разумной черной дырой. Приготовьтесь к появлению странных существ, погружению в атмосферу, прыжкам во времени и усам в стиле 70-х! Сделано людьми.",
    "genres": [
     "Экшены",
     "Приключенческие игры",
     "Инди"
    ],
    "platforms": [
-    "PC",
-    "PlayStation",
-    "Xbox",
-    "Switch",
-    "Mac",
-    "Linux"
+    "PC"
    ],
    "stores": [
     "Steam"
    ],
-   "developer": "Iron Gate AB",
-   "price": "1299 руб.",
-   "url": "https://store.steampowered.com/app/892970/",
+   "developer": "The Wild Gentlemen",
+   "price": "769 руб.",
+   "url": "https://store.steampowered.com/app/2067820/",
    "links": {
-    "steam": "https://store.steampowered.com/app/892970/"
+    "steam": "https://store.steampowered.com/app/2067820/"
+   }
+  },
+  {
+   "appid": 5020310,
+   "title": "Dub Together",
+   "date": "2026-09-01",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5020310/5120fdb5c1622bf7317187323aac962b3034fb93/header.jpg?t=1790548505",
+   "desc": "До шести игроков дублируют видеоклипы и придают им совершенно новый смысл. Вы записываете сцену, затем вместе смотрите каждый результат и голосуете. Благодаря голосовым эффектам, встроенному редактору клипов и живому голосованию из чата Twitch.",
+   "genres": [
+    "Казуальные игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Banani",
+   "price": "240 руб.",
+   "url": "https://store.steampowered.com/app/5020310/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/5020310/"
    },
-   "reviews": 470146
+   "reviews": 304
+  },
+  {
+   "appid": 4358690,
+   "title": "Graveyard Keeper 2",
+   "date": "2026-09-22",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4358690/7f50e84b1ea954a0edb7434eb8c02cd9b06909aa/header_alt_assets_1_russian.jpg?t=1790169326",
+   "desc": "Самый недостоверный симулятор смотрителя на средневековом кладбище возвращается! Восстановите город, управляйте кладбищем, автоматизируйте производство, ведите свою армию нежити в бой и превратите проблему оживших мертвецов в процветающий бизнес!",
+   "genres": [
+    "Приключенческие игры",
+    "Ролевые игры",
+    "Симуляторы"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Lazy Bear Games",
+   "price": "999 руб.",
+   "url": "https://store.steampowered.com/app/4358690/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4358690/"
+   },
+   "reviews": 6405
   },
   {
    "appid": 4019220,
@@ -280,30 +279,59 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4019220/"
    },
-   "reviews": 6688
+   "reviews": 7272
   },
   {
-   "appid": 1706510,
-   "title": "Songs of Glimmerwick",
-   "date": "2026-09-30",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/2e6d0bc2ac7bac10bf9f90ca91d69a48ad76c255/header.jpg?t=1790786083",
-   "desc": "Окунитесь в сказочный музыкальный мир посреди леса, где магию творят просто по мановению флейты. Посещайте уроки, ухаживайте за университетским садом, знакомьтесь со студентами и горожанами, а также раскрывайте тайны и загадки острова в этой сюжетной ролевой игре об академии магии.",
+   "appid": 4656000,
+   "title": "BOMBANANA!",
+   "date": "2026-09-02",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1790377390",
+   "desc": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?",
    "genres": [
-    "Приключенческие игры",
-    "Ролевые игры"
+    "Казуальные игры",
+    "Инди"
    ],
    "platforms": [
-    "PC"
+    "PC",
+    "Mac"
    ],
    "stores": [
     "Steam"
    ],
-   "developer": "Eastshade Studios",
-   "price": "945 руб.",
-   "url": "https://store.steampowered.com/app/1706510/",
+   "developer": "Lefto Studio",
+   "price": "210 руб.",
+   "url": "https://store.steampowered.com/app/4656000/",
    "links": {
-    "steam": "https://store.steampowered.com/app/1706510/"
-   }
+    "steam": "https://store.steampowered.com/app/4656000/"
+   },
+   "reviews": 3051
+  },
+  {
+   "appid": 3956980,
+   "title": "Apidya' Special",
+   "date": "2026-08-25",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3956980/dfa0188de0188d3bca2a64bc9def2acd04990bd6/header.jpg?t=1788258155",
+   "desc": "Apidya — компьютерная игра в жанре горизонтального скролл-шутера, разработанная компанией Kaiko в 1992 году для домашних компьютеров Amiga и Atari ST. Издавалась компаниями Play Byte и Team 17.\nНазвание игры стилизовано под японское. На титульном экране игры оно написано в виде четырёх символов…",
+   "genres": [
+    "Скроллинг-шутер (горизонтальный)"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Xbox",
+    "Switch"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "ININ Games",
+   "price": "684 руб.",
+   "url": "https://store.steampowered.com/app/3956980/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/3956980/",
+    "wiki": "https://ru.wikipedia.org/wiki/Apidya"
+   },
+   "source": "wiki"
   },
   {
    "appid": "x-1000xresist-nintendo-switch-2",
@@ -351,7 +379,7 @@
    "appid": 3065940,
    "title": "Gallipoli",
    "date": "2026-08-20",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065940/3ee3f9540ec1100225c9e3ab2f4028c133b0f226/header.jpg?t=1788338662",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065940/3ee3f9540ec1100225c9e3ab2f4028c133b0f226/header.jpg?t=1790867335",
    "desc": "Высадитесь на Галлиполи и воюйте на Османском фронте в динамичных боях для 50 игроков. Вас ждёт окопная война, наступление по пустыне и 10 исторически точных классов с оригинальным вооружением. Это Gallipoli — самый захватывающий шутер от первого лица о Первой мировой.",
    "genres": [
     "Шутер от первого лица"
@@ -365,7 +393,7 @@
     "Steam"
    ],
    "developer": "BlackMill Games",
-   "price": "1300 руб.",
+   "price": "975 руб.",
    "url": "https://store.steampowered.com/app/3065940/",
    "links": {
     "steam": "https://store.steampowered.com/app/3065940/",
@@ -467,27 +495,6 @@
    "links": {
     "steam": "https://store.steampowered.com/app/2825860/",
     "wiki": "https://ru.wikipedia.org/wiki/The_Sinking_City_2"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": "x-gobliiins-collection",
-   "title": "Gobliiins Collection",
-   "date": "2026-08-17",
-   "image": "",
-   "desc": "Gobliiins — это серия приключенческих видеоигр-головоломок, выпущенная Coktel Vision (а позже Sierra On-Line) для Amiga, Atari ST, MS-DOS, Mac, iOS и Windows. В серии шесть игр. Первые три были выпущены в начале 1990-х годов, четвёртый — в 2009 году, пятый — в 2023 году, а шестой — в…",
-   "genres": [
-    "Point-and-click квест"
-   ],
-   "platforms": [
-    "Switch"
-   ],
-   "stores": [],
-   "developer": "Red Art Games",
-   "price": "",
-   "url": "https://en.wikipedia.org/wiki/Gobliiins",
-   "links": {
-    "wiki": "https://en.wikipedia.org/wiki/Gobliiins"
    },
    "source": "wiki"
   }
