@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T01:47:35+03:00",
+  "updatedAt": "2026-10-02T08:53:24+03:00",
   "source": "steam-store-appdetails",
   "count": 37,
   "apps": [
@@ -504,6 +504,25 @@
       "short_description": "Construction Simulator возвращается —теперь еще масштабнее и увлекательнее! Утолите амбиции и постройте успешный строительный бизнес с нуля, а ваш наставник Хапе вам в этом поможет."
     },
     {
+      "appid": "701160",
+      "name": "Kingdom Two Crowns",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/701160/d72cfd4ce3ae1d24e54bf05d6255d56b6e20d5b5/header.jpg?t=1789557974",
+      "genres": [
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Собирайте монеты, укрепляйте оборону и в одиночку или на пару с приятелем отвоюйте свое королевство. Раскрывайте древние тайны, осваивайте новые технологии и отбивайте ночные нападения орд Жадности в пиксельном мире игры Kingdom, сочетающей в себе элементы микростратегии и «башенок»."
+    },
+    {
       "appid": "2475460",
       "name": "SOS OPS!",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2475460/a0a7b4a2b2526ae76cab0f0ba6e87e63d962c1a7/header.jpg?t=1790717685",
@@ -611,23 +630,6 @@
       "short_description": "Sent to find a missing billionaire on a remote island, you find yourself in a cannibal-infested hellscape. Craft, build, and struggle to survive, alone or with friends, in this terrifying new open-world survival horror simulator."
     },
     {
-      "appid": "394360",
-      "name": "Hearts of Iron IV",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/67bbd0057627fc2244793bcdd09260c2539499cf/header.jpg?t=1790873967",
-      "genres": [
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": 83,
-      "short_description": "Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation in World War II; the most engaging conflict in world history."
-    },
-    {
       "appid": "1158310",
       "name": "Crusader Kings III",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/5a32e8b0154679ead6a7b974b5fb9d792222a57e/header_alt_assets_13_russian.jpg?t=1790873953",
@@ -646,24 +648,21 @@
       "short_description": "Любовь, война, интриги и величие. Определите наследие своего знатного рода в безграничной глобальной стратегии Crusader Kings III. Смерть — это только начало вашего пути по истории выбранной династии в этой полной неожиданностей и славы симуляции Средних веков."
     },
     {
-      "appid": "2186680",
-      "name": "Warhammer 40,000: Rogue Trader",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2186680/c7b0bd6f233f6c03fa68eee2fd1108a183329230/header.jpg?t=1790775933",
+      "appid": "394360",
+      "name": "Hearts of Iron IV",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/67bbd0057627fc2244793bcdd09260c2539499cf/header.jpg?t=1790873967",
       "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Ролевые игры",
+        "Симуляторы",
         "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": true,
-        "linux": false
+        "linux": true
       },
-      "metacritic": null,
-      "short_description": "Начните свое путешествие в первой cRPG в мрачной вселенной 41-го тысячелетия. Станьте Вольным Торговцем - наследником древней династии дерзких каперов, правящих собственной торговой империей и исследующих границы Империума с благословения Бога-Императора Человечества."
+      "metacritic": 83,
+      "short_description": "Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation in World War II; the most engaging conflict in world history."
     }
   ]
 }

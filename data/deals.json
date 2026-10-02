@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T01:47:40+03:00",
+  "updatedAt": "2026-10-02T08:53:29+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -41,16 +41,6 @@
       "pct": 90,
       "url": "https://store.steampowered.com/app/1273400/?curator_clanid=0",
       "steamAppId": "1273400"
-    },
-    {
-      "id": "steam-701160",
-      "title": "Kingdom Two Crowns",
-      "store": "Steam",
-      "old": 710,
-      "neu": 71,
-      "pct": 90,
-      "url": "https://store.steampowered.com/app/701160/?curator_clanid=0",
-      "steamAppId": "701160"
     },
     {
       "id": "steam-2475460",
@@ -141,6 +131,16 @@
       "pct": 70,
       "url": "https://store.steampowered.com/app/394360/?curator_clanid=0",
       "steamAppId": "394360"
+    },
+    {
+      "id": "steam-281990",
+      "title": "Stellaris",
+      "store": "Steam",
+      "old": 3049,
+      "neu": 914,
+      "pct": 70,
+      "url": "https://store.steampowered.com/app/281990/?curator_clanid=0",
+      "steamAppId": "281990"
     }
   ]
 }
