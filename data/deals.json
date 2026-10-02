@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T22:25:03+03:00",
+  "updatedAt": "2026-10-03T02:52:21+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -63,6 +63,16 @@
       "steamAppId": "1273400"
     },
     {
+      "id": "steam-701160",
+      "title": "Kingdom Two Crowns",
+      "store": "Steam",
+      "old": 710,
+      "neu": 71,
+      "pct": 90,
+      "url": "https://store.steampowered.com/app/701160/?curator_clanid=0",
+      "steamAppId": "701160"
+    },
+    {
       "id": "steam-2475460",
       "title": "SOS OPS!",
       "store": "Steam",
@@ -81,6 +91,16 @@
       "pct": 80,
       "url": "https://store.steampowered.com/app/668580/",
       "steamAppId": "668580"
+    },
+    {
+      "id": "steam-242760",
+      "title": "The Forest",
+      "store": "Steam",
+      "old": 435,
+      "neu": 91,
+      "pct": 79,
+      "url": "https://store.steampowered.com/app/242760/?curator_clanid=0",
+      "steamAppId": "242760"
     },
     {
       "id": "steam-2399830",
@@ -121,26 +141,6 @@
       "pct": 75,
       "url": "https://store.steampowered.com/app/227300/?curator_clanid=0",
       "steamAppId": "227300"
-    },
-    {
-      "id": "steam-270880",
-      "title": "American Truck Simulator",
-      "store": "Steam",
-      "old": 1249,
-      "neu": 312,
-      "pct": 75,
-      "url": "https://store.steampowered.com/app/270880/?curator_clanid=0",
-      "steamAppId": "270880"
-    },
-    {
-      "id": "steam-1326470",
-      "title": "Sons Of The Forest",
-      "store": "Steam",
-      "old": 1100,
-      "neu": 319,
-      "pct": 71,
-      "url": "https://store.steampowered.com/app/1326470/",
-      "steamAppId": "1326470"
     }
   ]
 }
