@@ -1,6 +1,6 @@
 {
  "about": "Telegram autopost dedupe state (ids only). Written by scripts/telegram_post.py.",
- "updatedAt": "2026-10-02T21:47:19+03:00",
+ "updatedAt": "2026-10-02T22:43:20+03:00",
  "channel": {
   "descVersion": 1,
   "welcomeId": 9,
@@ -13,7 +13,9 @@
    "epic-7ae00c3e89174012b175cc73b4737723:soon",
    "epic-6d99eae44d724baf84d6261a7a0f05d2:now",
    "epic-af6b823b8698465f9aedc3bddf2e8686:soon",
-   "epic-cb733f3432db46bca94965b422c33ede:soon"
+   "epic-cb733f3432db46bca94965b422c33ede:soon",
+   "epic-af4c34934afe4db0870b8a1d82dceb94:now",
+   "epic-7ae00c3e89174012b175cc73b4737723:now"
   ],
   "deals": [
    "set:steam-1084160:90,steam-246420:90,steam-582660:90,steam-617290:85,steam-678960:90",
@@ -29,7 +31,10 @@
    "steam-1273400:90",
    "steam-1222140:90",
    "steam-701160:90",
-   "steam-1304930:90"
+   "steam-1304930:90",
+   "set:steam-1222140:90,steam-1273400:90,steam-2475460:90,steam-673880:95,steam-979690:90",
+   "steam-673880:95",
+   "steam-979690:90"
   ],
   "esports": [
    "results:bo3-129360,bo3-129361,bo3-130313,bo3-130314,bo3-130315",
@@ -44,7 +49,8 @@
    "r:bo3-129366",
    "r:bo3-128589",
    "results:bo3-129366,bo3-129367",
-   "r:bo3-129367"
+   "r:bo3-129367",
+   "digest:2026-10-02"
   ],
   "gotd": [
    "gotd:2026-09-24"
