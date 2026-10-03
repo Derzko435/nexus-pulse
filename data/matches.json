@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-03T03:45:49+03:00",
+ "updatedAt": "2026-10-03T08:50:08+03:00",
  "source": "bo3.gg",
  "matches": [
   {
@@ -182,33 +182,6 @@
    "url": "https://bo3.gg/lol/matches/team-vitality-lol-vs-fearx-lol-03-10-2026"
   },
   {
-   "id": "bo3-130755",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Vitality",
-   "teamB": "1win",
-   "logoA": "https://files.bo3.gg/uploads/team/667/image/webp-292c1f6c6dcfca35c7a52da7e02cef0a.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/238/image/webp-6095482923ef3047986cef1e26fe80fa.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "ESL Pro League Season 24",
-   "tier": "S",
-   "startsAt": "2026-10-03T14:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/vitality-vs-1win-03-10-2026"
-  },
-  {
    "id": "bo3-130756",
    "game": "CS2",
    "gameKey": "cs2",
@@ -234,6 +207,33 @@
     }
    ],
    "url": "https://bo3.gg/matches/spirit-vs-shinden-03-10-2026"
+  },
+  {
+   "id": "bo3-130755",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Vitality",
+   "teamB": "1win",
+   "logoA": "https://files.bo3.gg/uploads/team/667/image/webp-292c1f6c6dcfca35c7a52da7e02cef0a.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/238/image/webp-6095482923ef3047986cef1e26fe80fa.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "ESL Pro League Season 24",
+   "tier": "S",
+   "startsAt": "2026-10-03T14:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/vitality-vs-1win-03-10-2026"
   },
   {
    "id": "bo3-129612",
@@ -639,13 +639,13 @@
    "url": "https://bo3.gg/valorant/matches/fut-esports-vs-t1-04-10-2026"
   },
   {
-   "id": "bo3-130152",
+   "id": "bo3-130151",
    "game": "LoL",
    "gameKey": "lol",
-   "teamA": "Galions",
-   "teamB": "The Secret Club",
-   "logoA": "https://files.bo3.gg/uploads/team/18886/image/webp-568919094985d17bf24eebffb2a5fb46.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/19924/image/webp-cba1a2ca93b670ccbcf9c2d53942883a.webp",
+   "teamA": "Solary",
+   "teamB": "Barça eSports",
+   "logoA": "https://files.bo3.gg/uploads/team/17873/image/webp-a6742d2c85704c67343708118974ab77.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17144/image/webp-4ce614099dff16288683e86f2f27beef.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 5,
@@ -663,7 +663,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/lol/matches/galions-vs-the-secret-club-04-10-2026"
+   "url": "https://bo3.gg/lol/matches/solary-lol-vs-barca-esports-lol-04-10-2026"
   },
   {
    "id": "bo3-130150",
@@ -1584,7 +1584,7 @@
    "prize": 223499,
    "start": "2026-10-03",
    "end": "2026-10-17",
-   "status": "upcoming",
+   "status": "current",
    "url": "https://bo3.gg/lol/tournaments/demacia-cup-global-invitational-2026"
   },
   {
