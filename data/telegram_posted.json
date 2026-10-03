@@ -1,6 +1,6 @@
 {
  "about": "Telegram autopost dedupe state (ids only). Written by scripts/telegram_post.py.",
- "updatedAt": "2026-10-03T11:49:42+03:00",
+ "updatedAt": "2026-10-03T12:42:33+03:00",
  "channel": {
   "descVersion": 1,
   "welcomeId": 9,
@@ -59,7 +59,9 @@
    "r:bo3-129617",
    "digest:2026-10-03",
    "results:bo3-129617,bo3-129620,bo3-130676,bo3-130681,bo3-130686,bo3-130691",
-   "r:bo3-130691"
+   "r:bo3-130691",
+   "results:bo3-129620,bo3-129958,bo3-130676,bo3-130681,bo3-130686,bo3-130691",
+   "r:bo3-129958"
   ],
   "gotd": [
    "gotd:2026-09-24"
@@ -178,7 +180,19 @@
    "0dea987285cc",
    "5d967fc35eb2",
    "c42f5d772aa0",
-   "47577038e970"
+   "47577038e970",
+   "a38a624c3c36",
+   "573ac07a359e",
+   "67c775a75b5d",
+   "4df7b42edfad",
+   "5d76cdd33023",
+   "03373a974d6d",
+   "7bd1f563a87c",
+   "b349182ee262",
+   "d652734522b9",
+   "2a7efdfda5a8",
+   "2fb0f22a1354",
+   "acd53e429b63"
   ],
   "digest": [
    "week:2026-W39"
