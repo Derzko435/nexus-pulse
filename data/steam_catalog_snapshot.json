@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T02:52:16+03:00",
+  "updatedAt": "2026-10-03T08:28:23+03:00",
   "source": "steam-store-appdetails",
   "count": 37,
   "apps": [
@@ -539,6 +539,25 @@
       "short_description": "Construction Simulator возвращается —теперь еще масштабнее и увлекательнее! Утолите амбиции и постройте успешный строительный бизнес с нуля, а ваш наставник Хапе вам в этом поможет."
     },
     {
+      "appid": "701160",
+      "name": "Kingdom Two Crowns",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/701160/d72cfd4ce3ae1d24e54bf05d6255d56b6e20d5b5/header.jpg?t=1789557974",
+      "genres": [
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Собирайте монеты, укрепляйте оборону и в одиночку или на пару с приятелем отвоюйте свое королевство. Раскрывайте древние тайны, осваивайте новые технологии и отбивайте ночные нападения орд Жадности в пиксельном мире игры Kingdom, сочетающей в себе элементы микростратегии и «башенок»."
+    },
+    {
       "appid": "2475460",
       "name": "SOS OPS!",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2475460/a0a7b4a2b2526ae76cab0f0ba6e87e63d962c1a7/header.jpg?t=1790717685",
@@ -569,6 +588,25 @@
       },
       "metacritic": 76,
       "short_description": "Погрузитесь в безумную и прекрасную техноутопию, где вас на каждом шагу поджидает смерть. Выполните порученное вам задание, подстраиваясь под необычных противников, используя элементы окружения и улучшая свой арсенал. Узнайте правду — любой ценой!"
+    },
+    {
+      "appid": "242760",
+      "name": "The Forest",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg?t=1699381053",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 83,
+      "short_description": "As the lone survivor of a passenger jet crash, you find yourself in a mysterious forest battling to stay alive against a society of cannibalistic mutants. Build, explore, survive in this terrifying first person survival horror simulator."
     },
     {
       "appid": "2399830",
@@ -625,42 +663,6 @@
       },
       "metacritic": 87,
       "short_description": "Descend into the depths of an alien underwater world filled with wonder and peril. Craft equipment, pilot submarines and out-smart wildlife to explore lush coral reefs, volcanoes, cave systems, and more - all while trying to survive."
-    },
-    {
-      "appid": "270880",
-      "name": "American Truck Simulator",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/270880/2cfd6711c21677e7611985d2bacc3a3bcfac2660/header_alt_assets_8.jpg?t=1790759835",
-      "genres": [
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": 76,
-      "short_description": "Ощутите мощь легендарных американских грузовиков и доставляйте разнообразные грузы по солнечной Калифорнии, песчаной Неваде и величественному Большому Каньону штата Аризона. American Truck Simulator увлечет вас в захватывающее путешествие по удивительным пейзажам и знаменитым достопримечательностям, разбросанным по всем штатам."
-    },
-    {
-      "appid": "1326470",
-      "name": "Sons Of The Forest",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg?t=1708624856",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Sent to find a missing billionaire on a remote island, you find yourself in a cannibal-infested hellscape. Craft, build, and struggle to survive, alone or with friends, in this terrifying new open-world survival horror simulator."
     }
   ]
 }
