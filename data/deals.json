@@ -1,17 +1,7 @@
 {
-  "updatedAt": "2026-10-03T02:52:21+03:00",
+  "updatedAt": "2026-10-03T12:55:43+03:00",
   "source": "steam-specials-ru",
   "deals": [
-    {
-      "id": "steam-673880",
-      "title": "Warhammer 40,000: Mechanicus",
-      "store": "Steam",
-      "old": 1100,
-      "neu": 55,
-      "pct": 95,
-      "url": "https://store.steampowered.com/app/673880/?curator_clanid=0",
-      "steamAppId": "673880"
-    },
     {
       "id": "steam-1222140",
       "title": "Detroit: Become Human",
@@ -141,6 +131,16 @@
       "pct": 75,
       "url": "https://store.steampowered.com/app/227300/?curator_clanid=0",
       "steamAppId": "227300"
+    },
+    {
+      "id": "steam-270880",
+      "title": "American Truck Simulator",
+      "store": "Steam",
+      "old": 1249,
+      "neu": 312,
+      "pct": 75,
+      "url": "https://store.steampowered.com/app/270880/?curator_clanid=0",
+      "steamAppId": "270880"
     }
   ]
 }
