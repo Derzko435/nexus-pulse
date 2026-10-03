@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-02T12:54:52+03:00",
+ "updatedAt": "2026-10-03T12:17:32+03:00",
  "items": [
   {
    "appid": 4001890,
@@ -24,7 +24,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4001890/"
    },
-   "reviews": 64877
+   "reviews": 65536
   },
   {
    "appid": 2887580,
@@ -49,31 +49,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/2887580/"
    },
-   "reviews": 2335
-  },
-  {
-   "appid": 4126040,
-   "title": "Aniimo",
-   "date": "2026-09-15",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/bf9b76d25ac135baf8f313d9a095e754fd2e950b/header.jpg?t=1790849962",
-   "desc": "Во время своего путешествия вы сможете объединяться с анимо и фактически становиться любым анимо из своей коллекции. Используйте навыки анимо, чтобы решать головоломки, побеждать в битвах и преодолевать испытания! Объединяйтесь с анимо и открывайте мир с совершенно новой стороны.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Многопользовательские игры"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Pawprint Studio",
-   "price": "Бесплатно",
-   "url": "https://store.steampowered.com/app/4126040/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4126040/"
-   }
+   "reviews": 2429
   },
   {
    "appid": 3493540,
@@ -102,16 +78,18 @@
    "links": {
     "steam": "https://store.steampowered.com/app/3493540/"
    },
-   "reviews": 3169
+   "reviews": 3625
   },
   {
-   "appid": 2288340,
-   "title": "ACE COMBAT 8: WINGS OF THEVE",
-   "date": "2026-10-01",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288340/13dea8084135fd130605b78189c82e39bf944c35/header.jpg?t=1790908088",
-   "desc": "Займите свое место среди лучших пилотов. Примите участие в динамичных воздушных боях, где требуется мастерство и решимость, а мощное вооружение дает преимущество. Погрузитесь в кампанию, полную опасных миссий, непростых решений и личных историй отряда.",
+   "appid": 4126040,
+   "title": "Aniimo",
+   "date": "2026-09-15",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/bf9b76d25ac135baf8f313d9a095e754fd2e950b/header.jpg?t=1790849962",
+   "desc": "Во время своего путешествия вы сможете объединяться с анимо и фактически становиться любым анимо из своей коллекции. Используйте навыки анимо, чтобы решать головоломки, побеждать в битвах и преодолевать испытания! Объединяйтесь с анимо и открывайте мир с совершенно новой стороны.",
    "genres": [
-    "Экшены"
+    "Экшены",
+    "Приключенческие игры",
+    "Многопользовательские игры"
    ],
    "platforms": [
     "PC"
@@ -119,13 +97,12 @@
    "stores": [
     "Steam"
    ],
-   "developer": "Bandai Namco Aces Inc.",
-   "price": "4999 руб.",
-   "url": "https://store.steampowered.com/app/2288340/",
+   "developer": "Pawprint Studio",
+   "price": "Бесплатно",
+   "url": "https://store.steampowered.com/app/4126040/",
    "links": {
-    "steam": "https://store.steampowered.com/app/2288340/"
-   },
-   "reviews": 5341
+    "steam": "https://store.steampowered.com/app/4126040/"
+   }
   },
   {
    "appid": 892970,
@@ -155,7 +132,30 @@
    "links": {
     "steam": "https://store.steampowered.com/app/892970/"
    },
-   "reviews": 470404
+   "reviews": 470664
+  },
+  {
+   "appid": 2288340,
+   "title": "ACE COMBAT 8: WINGS OF THEVE",
+   "date": "2026-10-01",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288340/13dea8084135fd130605b78189c82e39bf944c35/header.jpg?t=1790908088",
+   "desc": "Займите свое место среди лучших пилотов. Примите участие в динамичных воздушных боях, где требуется мастерство и решимость, а мощное вооружение дает преимущество. Погрузитесь в кампанию, полную опасных миссий, непростых решений и личных историй отряда.",
+   "genres": [
+    "Экшены"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Bandai Namco Aces Inc.",
+   "price": "4999 руб.",
+   "url": "https://store.steampowered.com/app/2288340/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/2288340/"
+   },
+   "reviews": 6863
   },
   {
    "appid": 2584270,
@@ -181,55 +181,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/2584270/"
    },
-   "reviews": 19722
-  },
-  {
-   "appid": 2067820,
-   "title": "RetroSpace",
-   "date": "2026-10-01",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2067820/e99819db954ca3dcfc4011183504daf43d2d4ed4/header.jpg?t=1790866452",
-   "desc": "Диско-панковый космический хоррор, в котором вы можете стать человеком-невидимкой или сумасшедшим мутантом-боевиком на космической станции, поглощенной разумной черной дырой. Приготовьтесь к появлению странных существ, погружению в атмосферу, прыжкам во времени и усам в стиле 70-х! Сделано людьми.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Инди"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "The Wild Gentlemen",
-   "price": "769 руб.",
-   "url": "https://store.steampowered.com/app/2067820/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/2067820/"
-   }
-  },
-  {
-   "appid": 5020310,
-   "title": "Dub Together",
-   "date": "2026-09-01",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5020310/5120fdb5c1622bf7317187323aac962b3034fb93/header.jpg?t=1790548505",
-   "desc": "До шести игроков дублируют видеоклипы и придают им совершенно новый смысл. Вы записываете сцену, затем вместе смотрите каждый результат и голосуете. Благодаря голосовым эффектам, встроенному редактору клипов и живому голосованию из чата Twitch.",
-   "genres": [
-    "Казуальные игры",
-    "Инди"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Banani",
-   "price": "240 руб.",
-   "url": "https://store.steampowered.com/app/5020310/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/5020310/"
-   },
-   "reviews": 304
+   "reviews": 19770
   },
   {
    "appid": 4358690,
@@ -254,13 +206,37 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4358690/"
    },
-   "reviews": 6405
+   "reviews": 6861
+  },
+  {
+   "appid": 5020310,
+   "title": "Dub Together",
+   "date": "2026-09-01",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5020310/5120fdb5c1622bf7317187323aac962b3034fb93/header.jpg?t=1790943462",
+   "desc": "До восьми игроков дублируют видеоклипы и придают им совершенно новый смысл. Вы записываете сцену, затем вместе смотрите каждый результат и голосуете. Благодаря голосовым эффектам, встроенному редактору клипов и живому голосованию из чата Twitch.",
+   "genres": [
+    "Казуальные игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Banani",
+   "price": "240 руб.",
+   "url": "https://store.steampowered.com/app/5020310/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/5020310/"
+   },
+   "reviews": 314
   },
   {
    "appid": 4019220,
    "title": "Dressmaker",
    "date": "2026-09-21",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/f1cd08127872e60e4c47a4bc3e40d682d94741bf/header.jpg?t=1790605593",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/f1cd08127872e60e4c47a4bc3e40d682d94741bf/header.jpg?t=1790947386",
    "desc": "Шейте платья! Подбирайте ткань, вырезайте детали по выкройкам и сшивайте их, чтобы радовать привередливых горожан (или портить их планы!) в этом милом симуляторе модного ателье.",
    "genres": [
     "Казуальные игры",
@@ -279,7 +255,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4019220/"
    },
-   "reviews": 7272
+   "reviews": 7795
   },
   {
    "appid": 4656000,
@@ -304,7 +280,58 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4656000/"
    },
-   "reviews": 3051
+   "reviews": 3086
+  },
+  {
+   "appid": 2067820,
+   "title": "RetroSpace",
+   "date": "2026-10-01",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2067820/e99819db954ca3dcfc4011183504daf43d2d4ed4/header.jpg?t=1790866452",
+   "desc": "Диско-панковый космический хоррор, в котором вы можете стать человеком-невидимкой или сумасшедшим мутантом-боевиком на космической станции, поглощенной разумной черной дырой. Приготовьтесь к появлению странных существ, погружению в атмосферу, прыжкам во времени и усам в стиле 70-х! Сделано людьми.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "The Wild Gentlemen",
+   "price": "769 руб.",
+   "url": "https://store.steampowered.com/app/2067820/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/2067820/"
+   },
+   "reviews": 118
+  },
+  {
+   "appid": 2075800,
+   "title": "Star Wars Zero Company",
+   "date": "2026-08-27",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2075800/2c7d5dad080c4888faaa03c4a955136c50f5bfae/header.jpg?t=1790340688",
+   "desc": "Star Wars Zero Company — пошаговая стратегическая компьютерная игра, разработанная студиями Bit Reactor и Respawn Entertainment при поддержке издательства Electronic Arts. Сюжет разворачивается в период «Войн клонов», игрок берёт на себя управление Хоукса, лидера наёмников «Нулевой роты». Релиз…",
+   "genres": [
+    "Пошаговая тактика"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Xbox"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Bit Reactor, Respawn Entertainment",
+   "price": "",
+   "url": "https://store.steampowered.com/app/2075800/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/2075800/",
+    "wiki": "https://ru.wikipedia.org/wiki/Star_Wars_Zero_Company"
+   },
+   "source": "wiki"
   },
   {
    "appid": 3956980,
@@ -330,6 +357,29 @@
    "links": {
     "steam": "https://store.steampowered.com/app/3956980/",
     "wiki": "https://ru.wikipedia.org/wiki/Apidya"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-once-human",
+   "title": "Once Human",
+   "date": "2026-08-25",
+   "image": "https://upload.wikimedia.org/wikipedia/en/a/a0/Once_Human_%28video_game%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Once Human — бесплатная постапокалиптическая многопользовательская игра на выживание от третьего лица с открытым миром. Разработанная и изданная Starry Studio, дочерней компанией NetEase, игра была выпущена для Windows 9 июля 2024 года и для iOS и Android 23 апреля 2025 года. Позже она была выпущена для PlayStation 5 и…",
+   "genres": [
+    "Выживание",
+    "Мародёр-шутер"
+   ],
+   "platforms": [
+    "PlayStation",
+    "Xbox"
+   ],
+   "stores": [],
+   "developer": "Starry Studio",
+   "price": "",
+   "url": "https://en.wikipedia.org/wiki/Once_Human_%28video_game%29",
+   "links": {
+    "wiki": "https://en.wikipedia.org/wiki/Once_Human_%28video_game%29"
    },
    "source": "wiki"
   },
@@ -442,59 +492,6 @@
    "url": "https://en.wikipedia.org/wiki/No_Case_Should_Remain_Unsolved",
    "links": {
     "wiki": "https://en.wikipedia.org/wiki/No_Case_Should_Remain_Unsolved"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": 2966320,
-   "title": "Starsand Island",
-   "date": "2026-08-18",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2966320/29147965072e19c602f20a7c28d6513c1d859a35/header.jpg?t=1788284838",
-   "desc": "Starsand Island — это игра-симулятор жизни, разработанная и изданная Seed Sparkle Lab. Он разрабатывается для Nintendo Switch 2, PlayStation 5, Windows и Xbox Series X/S. Он был выпущен в раннем доступе Steam 11 февраля 2026 года, а версия 1.0 выйдет 18 августа 2026 года.",
-   "genres": [
-    "Симулятор жизни"
-   ],
-   "platforms": [
-    "PC",
-    "PlayStation",
-    "Xbox",
-    "Switch"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Seed Sparkle Lab",
-   "price": "1300 руб.",
-   "url": "https://store.steampowered.com/app/2966320/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/2966320/",
-    "wiki": "https://en.wikipedia.org/wiki/Starsand_Island"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": 2825860,
-   "title": "The Sinking City 2",
-   "date": "2026-08-18",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2825860/05f1db0ecea4914621f13ebaa81710e505de2c6b/header.jpg?t=1787235451",
-   "desc": "The Sinking City 2 — компьютерная игра в жанре survival horror, разрабатываемая студией Frogwares. При создании игры разработчики вдохновлялись жанром Лавкрафтовских ужасов. Выпуск игры состоялся 18 августа 2026 года для Windows, PlayStation 5 и Xbox Series X/S.\nИгра является продолжением The…",
-   "genres": [
-    "Survival-хоррор"
-   ],
-   "platforms": [
-    "PC",
-    "PlayStation",
-    "Xbox"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Frogwares",
-   "price": "",
-   "url": "https://store.steampowered.com/app/2825860/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/2825860/",
-    "wiki": "https://ru.wikipedia.org/wiki/The_Sinking_City_2"
    },
    "source": "wiki"
   }

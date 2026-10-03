@@ -1,25 +1,7 @@
 {
- "updatedAt": "2026-10-03T08:50:08+03:00",
+ "updatedAt": "2026-10-03T12:14:27+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-129958",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "RED Canids",
-   "teamB": "Natus Vincere",
-   "logoA": "https://files.bo3.gg/uploads/team/18103/image/webp-8436f0485803eb0ea176e803f890d001.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17800/image/webp-b5ee3195df266b0408b0614ade0e387c.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 1,
-   "status": "upcoming",
-   "event": "Demacia Cup Global Invitational 2026",
-   "tier": "S",
-   "startsAt": "2026-10-03T11:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/lol/matches/red-canids-lol-vs-natus-vincere-lol-03-10-2026"
-  },
   {
    "id": "bo3-130758",
    "game": "CS2",
@@ -31,7 +13,7 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "ESL Pro League Season 24",
    "tier": "S",
    "startsAt": "2026-10-03T12:00:00+03:00",
@@ -41,8 +23,28 @@
      "channel": "eslcs",
      "lang": "en",
      "official": true,
-     "label": "eslcs",
-     "fallback": true
+     "label": "eslcs"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "cs2_maincast"
+    },
+    {
+     "type": "twitch",
+     "channel": "strogo",
+     "lang": "ru",
+     "official": false,
+     "label": "strogo"
+    },
+    {
+     "type": "youtube",
+     "id": "reWC_jQ2FMY",
+     "lang": "en",
+     "official": false,
+     "label": "Team Falcons vs. TYLOO - ESL Pro League Season 24 - Group Stage"
     }
    ],
    "url": "https://bo3.gg/matches/falcons-esports-vs-tyloo-cs-go-03-10-2026"
@@ -58,18 +60,38 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "ESL Pro League Season 24",
    "tier": "S",
    "startsAt": "2026-10-03T12:00:00+03:00",
    "streams": [
     {
      "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
+     "channel": "hvnnn_tv",
+     "lang": "kk",
      "official": true,
-     "label": "eslcs",
-     "fallback": true
+     "label": "hvnnn_tv"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_paragon_ru2",
+     "lang": "ru",
+     "official": false,
+     "label": "cs2_paragon_ru2"
+    },
+    {
+     "type": "twitch",
+     "channel": "dmitry_lixxx",
+     "lang": "ru",
+     "official": false,
+     "label": "dmitry_lixxx"
+    },
+    {
+     "type": "twitch",
+     "channel": "happychucky",
+     "lang": "ru",
+     "official": false,
+     "label": "happychucky"
     }
    ],
    "url": "https://bo3.gg/matches/legacy-br-vs-parivision-03-10-2026"
@@ -85,18 +107,38 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "VALORANT Champions 2026",
    "tier": "S",
    "startsAt": "2026-10-03T12:00:00+03:00",
    "streams": [
     {
      "type": "twitch",
+     "channel": "valorant_fr",
+     "lang": "fr",
+     "official": true,
+     "label": "valorant_fr"
+    },
+    {
+     "type": "twitch",
      "channel": "valorant",
      "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
+     "official": false,
+     "label": "valorant"
+    },
+    {
+     "type": "twitch",
+     "channel": "shanks_ttv",
+     "lang": "en",
+     "official": false,
+     "label": "shanks_ttv"
+    },
+    {
+     "type": "twitch",
+     "channel": "s0mcs",
+     "lang": "en",
+     "official": false,
+     "label": "s0mcs"
     }
    ],
    "url": "https://bo3.gg/valorant/matches/g2-esports-vs-team-liquid-03-10-2026"
@@ -112,11 +154,40 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 1,
-   "status": "upcoming",
+   "status": "live",
    "event": "Demacia Cup Global Invitational 2026",
    "tier": "S",
    "startsAt": "2026-10-03T12:00:00+03:00",
-   "streams": [],
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "makariagaming",
+     "lang": "hu",
+     "official": true,
+     "label": "makariagaming"
+    },
+    {
+     "type": "twitch",
+     "channel": "nervarien",
+     "lang": "pl",
+     "official": true,
+     "label": "nervarien"
+    },
+    {
+     "type": "twitch",
+     "channel": "lplenglish",
+     "lang": "en",
+     "official": false,
+     "label": "lplenglish"
+    },
+    {
+     "type": "twitch",
+     "channel": "demaciacup2026",
+     "lang": "en",
+     "official": false,
+     "label": "demaciacup2026"
+    }
+   ],
    "url": "https://bo3.gg/lol/matches/lgd-gaming-lol-vs-flyquest-lol-03-10-2026"
   },
   {
@@ -141,6 +212,27 @@
      "lang": "en",
      "official": true,
      "label": "starladder"
+    },
+    {
+     "type": "kick",
+     "channel": "watchfultv",
+     "lang": "ru",
+     "official": false,
+     "label": "watchfultv"
+    },
+    {
+     "type": "kick",
+     "channel": "narodcast",
+     "lang": "ru",
+     "official": false,
+     "label": "narodcast"
+    },
+    {
+     "type": "kick",
+     "channel": "bandurka",
+     "lang": "ru",
+     "official": false,
+     "label": "bandurka"
     }
    ],
    "url": "https://bo3.gg/matches/astralis-vs-big-03-10-2026"
@@ -182,33 +274,6 @@
    "url": "https://bo3.gg/lol/matches/team-vitality-lol-vs-fearx-lol-03-10-2026"
   },
   {
-   "id": "bo3-130756",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Spirit",
-   "teamB": "ShindeN",
-   "logoA": "https://files.bo3.gg/uploads/team/654/image/webp-41b22d18a871d982f8ff87652bbb0fe6.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/11174/image/webp-1b676d27e092ed8f1ad3c5d7efecb399.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "ESL Pro League Season 24",
-   "tier": "S",
-   "startsAt": "2026-10-03T14:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/spirit-vs-shinden-03-10-2026"
-  },
-  {
    "id": "bo3-130755",
    "game": "CS2",
    "gameKey": "cs2",
@@ -226,14 +291,81 @@
    "streams": [
     {
      "type": "twitch",
+     "channel": "keliencs",
+     "lang": "ru",
+     "official": true,
+     "label": "keliencs"
+    },
+    {
+     "type": "twitch",
      "channel": "eslcs",
      "lang": "en",
      "official": true,
-     "label": "eslcs",
-     "fallback": true
+     "label": "eslcs"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "cs2_maincast"
+    },
+    {
+     "type": "kick",
+     "channel": "esportsbg",
+     "lang": "bg",
+     "official": true,
+     "label": "esportsbg"
     }
    ],
    "url": "https://bo3.gg/matches/vitality-vs-1win-03-10-2026"
+  },
+  {
+   "id": "bo3-130756",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Spirit",
+   "teamB": "ShindeN",
+   "logoA": "https://files.bo3.gg/uploads/team/654/image/webp-41b22d18a871d982f8ff87652bbb0fe6.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/11174/image/webp-1b676d27e092ed8f1ad3c5d7efecb399.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "ESL Pro League Season 24",
+   "tier": "S",
+   "startsAt": "2026-10-03T14:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcsb",
+     "lang": "en",
+     "official": true,
+     "label": "eslcsb"
+    },
+    {
+     "type": "twitch",
+     "channel": "strogo",
+     "lang": "ru",
+     "official": false,
+     "label": "strogo"
+    },
+    {
+     "type": "twitch",
+     "channel": "snailkick",
+     "lang": "ru",
+     "official": false,
+     "label": "snailkick"
+    },
+    {
+     "type": "kick",
+     "channel": "eslcsb",
+     "lang": "en",
+     "official": false,
+     "label": "eslcsb"
+    }
+   ],
+   "url": "https://bo3.gg/matches/spirit-vs-shinden-03-10-2026"
   },
   {
    "id": "bo3-129612",
@@ -302,6 +434,27 @@
      "lang": "en",
      "official": true,
      "label": "starladder"
+    },
+    {
+     "type": "kick",
+     "channel": "watchfultv",
+     "lang": "ru",
+     "official": false,
+     "label": "watchfultv"
+    },
+    {
+     "type": "kick",
+     "channel": "narodcast",
+     "lang": "ru",
+     "official": false,
+     "label": "narodcast"
+    },
+    {
+     "type": "kick",
+     "channel": "bandurka",
+     "lang": "ru",
+     "official": false,
+     "label": "bandurka"
     }
    ],
    "url": "https://bo3.gg/matches/fnatic-vs-alliance-cs-03-10-2026"
@@ -395,12 +548,11 @@
    "startsAt": "2026-10-03T17:00:00+03:00",
    "streams": [
     {
-     "type": "twitch",
-     "channel": "eslcs",
+     "type": "youtube",
+     "id": "x9al9bqwFNI",
      "lang": "en",
-     "official": true,
-     "label": "eslcs",
-     "fallback": true
+     "official": false,
+     "label": "Legacy vs. PARIVISION - ESL Pro League Season 24 - Group Stage"
     }
    ],
    "url": "https://bo3.gg/matches/mousesports-vs-m80-cs-go-03-10-2026"
@@ -531,13 +683,13 @@
    "url": "https://bo3.gg/lol/matches/loud-lol-vs-furia-esports-lol-03-10-2026"
   },
   {
-   "id": "bo3-130761",
+   "id": "bo3-130759",
    "game": "CS2",
    "gameKey": "cs2",
-   "teamA": "G2",
-   "teamB": "Natus Vincere",
-   "logoA": "https://files.bo3.gg/uploads/team/793/image/webp-8f844f6a25c797dfe74b411d147983ff.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/787/image/webp-ea9885f81f1572c7a6c9fb6cbf747c99.webp",
+   "teamA": "FURIA",
+   "teamB": "BetBoom",
+   "logoA": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
@@ -547,15 +699,14 @@
    "startsAt": "2026-10-03T19:30:00+03:00",
    "streams": [
     {
-     "type": "twitch",
-     "channel": "eslcs",
+     "type": "youtube",
+     "id": "x9al9bqwFNI",
      "lang": "en",
-     "official": true,
-     "label": "eslcs",
-     "fallback": true
+     "official": false,
+     "label": "Legacy vs. PARIVISION - ESL Pro League Season 24 - Group Stage"
     }
    ],
-   "url": "https://bo3.gg/matches/g2-vs-natus-vincere-03-10-2026"
+   "url": "https://bo3.gg/matches/furia-vs-betboom-team-03-10-2026"
   },
   {
    "id": "bo3-128591",
@@ -639,6 +790,33 @@
    "url": "https://bo3.gg/valorant/matches/fut-esports-vs-t1-04-10-2026"
   },
   {
+   "id": "bo3-130152",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Galions",
+   "teamB": "The Secret Club",
+   "logoA": "https://files.bo3.gg/uploads/team/18886/image/webp-568919094985d17bf24eebffb2a5fb46.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/19924/image/webp-cba1a2ca93b670ccbcf9c2d53942883a.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "upcoming",
+   "event": "EMEA Masters 2026 Summer",
+   "tier": "A",
+   "startsAt": "2026-10-04T19:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "lec",
+     "lang": "en",
+     "official": true,
+     "label": "lec",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/galions-vs-the-secret-club-04-10-2026"
+  },
+  {
    "id": "bo3-130151",
    "game": "LoL",
    "gameKey": "lol",
@@ -691,6 +869,32 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/movistar-koi-fenix-vs-ucam-esports-club-lol-04-10-2026"
+  },
+  {
+   "id": "bo3-129958",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "RED Canids",
+   "teamB": "Natus Vincere",
+   "logoA": "https://files.bo3.gg/uploads/team/18103/image/webp-8436f0485803eb0ea176e803f890d001.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17800/image/webp-b5ee3195df266b0408b0614ade0e387c.webp",
+   "scoreA": 1,
+   "scoreB": 0,
+   "bo": 1,
+   "status": "finished",
+   "event": "Demacia Cup Global Invitational 2026",
+   "tier": "S",
+   "startsAt": "2026-10-03T11:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "makariagaming",
+     "lang": "hu",
+     "official": true,
+     "label": "makariagaming"
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/red-canids-lol-vs-natus-vincere-lol-03-10-2026"
   },
   {
    "id": "bo3-129374",
@@ -953,33 +1157,6 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/colossal-gaming-vs-the-secret-club-02-10-2026"
-  },
-  {
-   "id": "bo3-130558",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "NightBirds",
-   "teamB": "UCAM Esports",
-   "logoA": "https://files.bo3.gg/uploads/team/18991/image/webp-be6fbe5c71b8f28ac2b512c7f9bb071f.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17427/image/webp-741f764c5a08da9a39c83db956d832c1.webp",
-   "scoreA": 0,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "EMEA Masters 2026 Summer",
-   "tier": "A",
-   "startsAt": "2026-10-02T18:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "lec",
-     "lang": "en",
-     "official": true,
-     "label": "lec",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/nightbirds-vs-ucam-esports-club-lol-02-10-2026"
   },
   {
    "id": "bo3-130560",
@@ -1595,7 +1772,7 @@
    "prize": 1000000,
    "start": "2026-10-03",
    "end": "2026-10-11",
-   "status": "upcoming",
+   "status": "current",
    "url": "https://bo3.gg/tournaments/esl-pro-league-season-24"
   },
   {
