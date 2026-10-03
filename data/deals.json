@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T18:56:38+03:00",
+  "updatedAt": "2026-10-03T19:32:21+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -41,6 +41,16 @@
       "pct": 90,
       "url": "https://store.steampowered.com/app/1273400/?curator_clanid=0",
       "steamAppId": "1273400"
+    },
+    {
+      "id": "steam-701160",
+      "title": "Kingdom Two Crowns",
+      "store": "Steam",
+      "old": 710,
+      "neu": 71,
+      "pct": 90,
+      "url": "https://store.steampowered.com/app/701160/?curator_clanid=0",
+      "steamAppId": "701160"
     },
     {
       "id": "steam-2475460",
@@ -131,16 +141,6 @@
       "pct": 71,
       "url": "https://store.steampowered.com/app/1326470/",
       "steamAppId": "1326470"
-    },
-    {
-      "id": "steam-1158310",
-      "title": "Crusader Kings III",
-      "store": "Steam",
-      "old": 3049,
-      "neu": 914,
-      "pct": 70,
-      "url": "https://store.steampowered.com/app/1158310/?curator_clanid=0",
-      "steamAppId": "1158310"
     }
   ]
 }

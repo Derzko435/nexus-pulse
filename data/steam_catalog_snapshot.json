@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T14:50:01+03:00",
+  "updatedAt": "2026-10-03T19:32:15+03:00",
   "source": "steam-store-appdetails",
   "count": 37,
   "apps": [
@@ -452,23 +452,20 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "979690",
-      "name": "The Ascent",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/979690/header.jpg?t=1772590323",
+      "appid": "673880",
+      "name": "Warhammer 40,000: Mechanicus",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/673880/header.jpg?t=1747933345",
       "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Ролевые игры"
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
-        "linux": false
+        "mac": true,
+        "linux": true
       },
-      "metacritic": null,
-      "short_description": "The Ascent — экшн-RPG в духе киберпанка с режимами одиночной и кооперативной игры. Владеющая всем (и вами) мегакорпорация «Асцент Груп» внезапно прекращает свое существование. Сумеете выжить без нее?"
+      "metacritic": 78,
+      "short_description": "Возьмите под контроль самые технологически продвинутые силы человечества в Империуме — Адептус Механикус. В этой пошаговой тактической игре от каждого вашего решения зависит исход миссии. Благословит ли вас Омниссия?"
     },
     {
       "appid": "1304930",
@@ -489,23 +486,6 @@
       "short_description": "Red Barrels invites you to experience mind-numbing terror, this time with friends. Whether you go through the trials alone or in teams, if you survive long enough and complete the therapy, Murkoff will happily let you leave… but will you be the same?"
     },
     {
-      "appid": "835960",
-      "name": "The Talos Principle 2",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/835960/header.jpg?t=1775138468",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": 88,
-      "short_description": "The Talos Principle 2 — головоломка от первого лица, которая не раз заставит вас задуматься. Она во многом развивает философские темы первой игры и предложит вам немало потрясающих уровней с очень непростыми загадками."
-    },
-    {
       "appid": "1273400",
       "name": "Construction Simulator",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1273400/header.jpg?t=1784210925",
@@ -521,25 +501,6 @@
       },
       "metacritic": null,
       "short_description": "Construction Simulator возвращается —теперь еще масштабнее и увлекательнее! Утолите амбиции и постройте успешный строительный бизнес с нуля, а ваш наставник Хапе вам в этом поможет."
-    },
-    {
-      "appid": "701160",
-      "name": "Kingdom Two Crowns",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/701160/d72cfd4ce3ae1d24e54bf05d6255d56b6e20d5b5/header.jpg?t=1789557974",
-      "genres": [
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Собирайте монеты, укрепляйте оборону и в одиночку или на пару с приятелем отвоюйте свое королевство. Раскрывайте древние тайны, осваивайте новые технологии и отбивайте ночные нападения орд Жадности в пиксельном мире игры Kingdom, сочетающей в себе элементы микростратегии и «башенок»."
     },
     {
       "appid": "2475460",
@@ -664,6 +625,43 @@
       },
       "metacritic": 76,
       "short_description": "Ощутите мощь легендарных американских грузовиков и доставляйте разнообразные грузы по солнечной Калифорнии, песчаной Неваде и величественному Большому Каньону штата Аризона. American Truck Simulator увлечет вас в захватывающее путешествие по удивительным пейзажам и знаменитым достопримечательностям, разбросанным по всем штатам."
+    },
+    {
+      "appid": "1326470",
+      "name": "Sons Of The Forest",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg?t=1708624856",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Sent to find a missing billionaire on a remote island, you find yourself in a cannibal-infested hellscape. Craft, build, and struggle to survive, alone or with friends, in this terrifying new open-world survival horror simulator."
+    },
+    {
+      "appid": "1158310",
+      "name": "Crusader Kings III",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/5a32e8b0154679ead6a7b974b5fb9d792222a57e/header_alt_assets_13_russian.jpg?t=1790873953",
+      "genres": [
+        "Ролевые игры",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": 91,
+      "short_description": "Любовь, война, интриги и величие. Определите наследие своего знатного рода в безграничной глобальной стратегии Crusader Kings III. Смерть — это только начало вашего пути по истории выбранной династии в этой полной неожиданностей и славы симуляции Средних веков."
     }
   ]
 }
