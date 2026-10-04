@@ -1,17 +1,7 @@
 {
-  "updatedAt": "2026-10-04T13:00:41+03:00",
+  "updatedAt": "2026-10-04T15:57:50+03:00",
   "source": "steam-specials-ru",
   "deals": [
-    {
-      "id": "steam-673880",
-      "title": "Warhammer 40,000: Mechanicus",
-      "store": "Steam",
-      "old": 1100,
-      "neu": 55,
-      "pct": 95,
-      "url": "https://store.steampowered.com/app/673880/?curator_clanid=0",
-      "steamAppId": "673880"
-    },
     {
       "id": "steam-1222140",
       "title": "Detroit: Become Human",
@@ -43,16 +33,6 @@
       "steamAppId": "1273400"
     },
     {
-      "id": "steam-701160",
-      "title": "Kingdom Two Crowns",
-      "store": "Steam",
-      "old": 710,
-      "neu": 71,
-      "pct": 90,
-      "url": "https://store.steampowered.com/app/701160/?curator_clanid=0",
-      "steamAppId": "701160"
-    },
-    {
       "id": "steam-2475460",
       "title": "SOS OPS!",
       "store": "Steam",
@@ -81,6 +61,16 @@
       "pct": 75,
       "url": "https://store.steampowered.com/app/2399830/?curator_clanid=0",
       "steamAppId": "2399830"
+    },
+    {
+      "id": "steam-1850570",
+      "title": "DEATH STRANDING DIRECTOR'S CUT",
+      "store": "Steam",
+      "old": 3299,
+      "neu": 824,
+      "pct": 75,
+      "url": "https://store.steampowered.com/app/1850570/?curator_clanid=0",
+      "steamAppId": "1850570"
     },
     {
       "id": "steam-2183900",
@@ -141,6 +131,16 @@
       "pct": 70,
       "url": "https://store.steampowered.com/app/1158310/?curator_clanid=0",
       "steamAppId": "1158310"
+    },
+    {
+      "id": "steam-394360",
+      "title": "Hearts of Iron IV",
+      "store": "Steam",
+      "old": 3049,
+      "neu": 914,
+      "pct": 70,
+      "url": "https://store.steampowered.com/app/394360/?curator_clanid=0",
+      "steamAppId": "394360"
     }
   ]
 }
