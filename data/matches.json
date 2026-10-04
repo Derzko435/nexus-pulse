@@ -1,25 +1,7 @@
 {
- "updatedAt": "2026-10-04T09:24:13+03:00",
+ "updatedAt": "2026-10-04T12:52:21+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-129961",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "LGD Gaming",
-   "teamB": "BNK FEARX",
-   "logoA": "https://files.bo3.gg/uploads/team/17957/image/webp-4cfb09a2804cf208b4945971273ab4df.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/18335/image/webp-f44a8f9018d2af4430f5a3a75dfd2680.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "Demacia Cup Global Invitational 2026",
-   "tier": "S",
-   "startsAt": "2026-10-04T10:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/lol/matches/lgd-gaming-lol-vs-fearx-lol-04-10-2026"
-  },
   {
    "id": "bo3-130763",
    "game": "CS2",
@@ -31,7 +13,7 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "ESL Pro League Season 24",
    "tier": "S",
    "startsAt": "2026-10-04T12:00:00+03:00",
@@ -58,11 +40,11 @@
      "label": "watchfultvb"
     },
     {
-     "type": "kick",
-     "channel": "eslcsb",
+     "type": "youtube",
+     "id": "9vCiC9i7cUs",
      "lang": "en",
      "official": false,
-     "label": "eslcsb"
+     "label": "ShindeN vs Legacy - ESL Pro League Season 24 - Group Stage"
     }
    ],
    "url": "https://bo3.gg/matches/shinden-vs-legacy-br-04-10-2026"
@@ -78,7 +60,7 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "ESL Pro League Season 24",
    "tier": "S",
    "startsAt": "2026-10-04T12:00:00+03:00",
@@ -89,6 +71,13 @@
      "lang": "en",
      "official": true,
      "label": "eslcs"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "cs2_maincast"
     },
     {
      "type": "twitch",
@@ -103,13 +92,6 @@
      "lang": "ru",
      "official": false,
      "label": "watchfultv"
-    },
-    {
-     "type": "kick",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": false,
-     "label": "eslcs"
     }
    ],
    "url": "https://bo3.gg/matches/spirit-vs-parivision-04-10-2026"
@@ -122,10 +104,10 @@
    "teamB": "Global Esports",
    "logoA": "https://files.bo3.gg/uploads/team/6874/image/webp-d2c298a09e3bc0540c8f33699a94f4c7.webp",
    "logoB": "https://files.bo3.gg/uploads/team/6989/image/402bcce57f5a4ca1600f897cd70c780f.png",
-   "scoreA": 0,
+   "scoreA": 1,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "VALORANT Champions 2026",
    "tier": "S",
    "startsAt": "2026-10-04T12:00:00+03:00",
@@ -152,10 +134,10 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "Demacia Cup Global Invitational 2026",
    "tier": "S",
-   "startsAt": "2026-10-04T12:00:00+03:00",
+   "startsAt": "2026-10-04T12:30:00+03:00",
    "streams": [],
    "url": "https://bo3.gg/lol/matches/red-canids-lol-vs-kt-rolster-04-10-2026"
   },
@@ -176,6 +158,39 @@
    "startsAt": "2026-10-04T14:00:00+03:00",
    "streams": [],
    "url": "https://bo3.gg/lol/matches/team-we-vs-hanjin-brion-04-10-2026"
+  },
+  {
+   "id": "bo3-130766",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "9z",
+   "teamB": "TYLOO",
+   "logoA": "https://files.bo3.gg/uploads/team/324/image/webp-847d6324439266b5de80bcb2e23fa38e.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/757/image/17873415da0f03df35299283b43408d7.png",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "ESL Pro League Season 24",
+   "tier": "S",
+   "startsAt": "2026-10-04T14:30:00+03:00",
+   "streams": [
+    {
+     "type": "youtube",
+     "id": "nFOw5pLclyc",
+     "lang": "pl",
+     "official": false,
+     "label": "ESL Pro League Katowice - Season 24 | 18+ | Dzień 2 | Transmisja B"
+    },
+    {
+     "type": "kick",
+     "channel": "elmorocho7",
+     "lang": "es",
+     "official": false,
+     "label": "elmorocho7"
+    }
+   ],
+   "url": "https://bo3.gg/matches/9z-vs-tyloo-cs-go-04-10-2026"
   },
   {
    "id": "bo3-130765",
@@ -200,36 +215,37 @@
      "official": true,
      "label": "eslcs",
      "fallback": true
+    },
+    {
+     "type": "kick",
+     "channel": "bladeito",
+     "lang": "cs",
+     "official": false,
+     "label": "bladeito"
+    },
+    {
+     "type": "kick",
+     "channel": "x9nium",
+     "lang": "es",
+     "official": false,
+     "label": "x9nium"
+    },
+    {
+     "type": "kick",
+     "channel": "jaxi",
+     "lang": "ro",
+     "official": false,
+     "label": "jaxi"
+    },
+    {
+     "type": "kick",
+     "channel": "croissantstrike",
+     "lang": "fr",
+     "official": false,
+     "label": "croissantstrike"
     }
    ],
    "url": "https://bo3.gg/matches/falcons-esports-vs-aurora-gaming-04-10-2026"
-  },
-  {
-   "id": "bo3-130766",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "9z",
-   "teamB": "TYLOO",
-   "logoA": "https://files.bo3.gg/uploads/team/324/image/webp-847d6324439266b5de80bcb2e23fa38e.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/757/image/17873415da0f03df35299283b43408d7.png",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "ESL Pro League Season 24",
-   "tier": "S",
-   "startsAt": "2026-10-04T14:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/9z-vs-tyloo-cs-go-04-10-2026"
   },
   {
    "id": "bo3-129380",
@@ -285,6 +301,39 @@
    "url": "https://bo3.gg/valorant/matches/fut-esports-vs-t1-04-10-2026"
   },
   {
+   "id": "bo3-130767",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "G2",
+   "teamB": "1win",
+   "logoA": "https://files.bo3.gg/uploads/team/793/image/webp-8f844f6a25c797dfe74b411d147983ff.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/238/image/webp-6095482923ef3047986cef1e26fe80fa.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "ESL Pro League Season 24",
+   "tier": "S",
+   "startsAt": "2026-10-04T17:00:00+03:00",
+   "streams": [
+    {
+     "type": "youtube",
+     "id": "nFOw5pLclyc",
+     "lang": "pl",
+     "official": false,
+     "label": "ESL Pro League Katowice - Season 24 | 18+ | Dzień 2 | Transmisja B"
+    },
+    {
+     "type": "youtube",
+     "id": "vpy22mnQTKw",
+     "lang": "pt",
+     "official": false,
+     "label": "EM BREVE: ESL PRO LEAGUE SEASON 24 - DIA 2 - [STREAM B]"
+    }
+   ],
+   "url": "https://bo3.gg/matches/g2-vs-1win-04-10-2026"
+  },
+  {
    "id": "bo3-130768",
    "game": "CS2",
    "gameKey": "cs2",
@@ -307,63 +356,30 @@
      "official": true,
      "label": "eslcs",
      "fallback": true
+    },
+    {
+     "type": "kick",
+     "channel": "bladeito",
+     "lang": "cs",
+     "official": false,
+     "label": "bladeito"
+    },
+    {
+     "type": "kick",
+     "channel": "jaxi",
+     "lang": "ro",
+     "official": false,
+     "label": "jaxi"
+    },
+    {
+     "type": "kick",
+     "channel": "maj3r",
+     "lang": "tr",
+     "official": false,
+     "label": "maj3r"
     }
    ],
    "url": "https://bo3.gg/matches/furia-vs-mouz-cs2-04-10-2026"
-  },
-  {
-   "id": "bo3-130767",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "G2",
-   "teamB": "1win",
-   "logoA": "https://files.bo3.gg/uploads/team/793/image/webp-8f844f6a25c797dfe74b411d147983ff.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/238/image/webp-6095482923ef3047986cef1e26fe80fa.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "ESL Pro League Season 24",
-   "tier": "S",
-   "startsAt": "2026-10-04T17:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/g2-vs-1win-04-10-2026"
-  },
-  {
-   "id": "bo3-130151",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Solary",
-   "teamB": "Barça eSports",
-   "logoA": "https://files.bo3.gg/uploads/team/17873/image/webp-a6742d2c85704c67343708118974ab77.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17144/image/webp-4ce614099dff16288683e86f2f27beef.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "upcoming",
-   "event": "EMEA Masters 2026 Summer",
-   "tier": "A",
-   "startsAt": "2026-10-04T19:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "lec",
-     "lang": "en",
-     "official": true,
-     "label": "lec",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/solary-lol-vs-barca-esports-lol-04-10-2026"
   },
   {
    "id": "bo3-130150",
@@ -391,6 +407,33 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/movistar-koi-fenix-vs-ucam-esports-club-lol-04-10-2026"
+  },
+  {
+   "id": "bo3-130151",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Solary",
+   "teamB": "Barça eSports",
+   "logoA": "https://files.bo3.gg/uploads/team/17873/image/webp-a6742d2c85704c67343708118974ab77.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17144/image/webp-4ce614099dff16288683e86f2f27beef.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "upcoming",
+   "event": "EMEA Masters 2026 Summer",
+   "tier": "A",
+   "startsAt": "2026-10-04T19:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "lec",
+     "lang": "en",
+     "official": true,
+     "label": "lec",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/solary-lol-vs-barca-esports-lol-04-10-2026"
   },
   {
    "id": "bo3-130152",
@@ -442,6 +485,27 @@
      "official": true,
      "label": "eslcs",
      "fallback": true
+    },
+    {
+     "type": "kick",
+     "channel": "bladeito",
+     "lang": "cs",
+     "official": false,
+     "label": "bladeito"
+    },
+    {
+     "type": "kick",
+     "channel": "croissantstrike",
+     "lang": "fr",
+     "official": false,
+     "label": "croissantstrike"
+    },
+    {
+     "type": "kick",
+     "channel": "maj3r",
+     "lang": "tr",
+     "official": false,
+     "label": "maj3r"
     }
    ],
    "url": "https://bo3.gg/matches/vitality-vs-natus-vincere-04-10-2026"
@@ -463,12 +527,18 @@
    "startsAt": "2026-10-04T19:30:00+03:00",
    "streams": [
     {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs",
-     "fallback": true
+     "type": "youtube",
+     "id": "vpy22mnQTKw",
+     "lang": "pt",
+     "official": false,
+     "label": "EM BREVE: ESL PRO LEAGUE SEASON 24 - DIA 2 - [STREAM B]"
+    },
+    {
+     "type": "youtube",
+     "id": "nFOw5pLclyc",
+     "lang": "pl",
+     "official": false,
+     "label": "ESL Pro League Katowice - Season 24 | 18+ | Dzień 2 | Transmisja B"
     }
    ],
    "url": "https://bo3.gg/matches/betboom-team-vs-m80-cs-go-04-10-2026"
@@ -555,6 +625,33 @@
    "url": "https://bo3.gg/lol/matches/shopify-rebellion-lol-vs-jd-gaming-lol-05-10-2026"
   },
   {
+   "id": "bo3-129914",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Maryville University",
+   "teamB": "Zeu5 Esports",
+   "logoA": "https://files.bo3.gg/uploads/team/17077/image/webp-1443fc9372a43abeca3d806c3cbef0ea.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/20524/image/webp-07eb040d8d83f710ef71381552394e61.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "upcoming",
+   "event": "LCS 2027 Promotion Tournament",
+   "tier": "S",
+   "startsAt": "2026-10-05T23:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "riotgames",
+     "lang": "en",
+     "official": true,
+     "label": "riotgames",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/maryville-university-vs-zeu5-esports-05-10-2026"
+  },
+  {
    "id": "bo3-130696",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -607,6 +704,24 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/aurora-vs-1win-dota2-08-10-2026"
+  },
+  {
+   "id": "bo3-129961",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "LGD Gaming",
+   "teamB": "BNK FEARX",
+   "logoA": "https://files.bo3.gg/uploads/team/17957/image/webp-4cfb09a2804cf208b4945971273ab4df.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/18335/image/webp-f44a8f9018d2af4430f5a3a75dfd2680.webp",
+   "scoreA": 1,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "Demacia Cup Global Invitational 2026",
+   "tier": "S",
+   "startsAt": "2026-10-04T10:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/lol/matches/lgd-gaming-lol-vs-fearx-lol-04-10-2026"
   },
   {
    "id": "bo3-128591",
@@ -1265,53 +1380,6 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/gam-esports-vs-team-we-03-10-2026"
-  },
-  {
-   "id": "bo3-129955",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Team Vitality",
-   "teamB": "BNK FEARX",
-   "logoA": "https://files.bo3.gg/uploads/team/18129/image/webp-1aaa770c459310fd370010f320759069.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/18335/image/webp-f44a8f9018d2af4430f5a3a75dfd2680.webp",
-   "scoreA": 0,
-   "scoreB": 1,
-   "bo": 1,
-   "status": "finished",
-   "event": "Demacia Cup Global Invitational 2026",
-   "tier": "S",
-   "startsAt": "2026-10-03T14:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "otplol_",
-     "lang": "fr",
-     "official": true,
-     "label": "otplol_"
-    },
-    {
-     "type": "twitch",
-     "channel": "nervarien",
-     "lang": "pl",
-     "official": true,
-     "label": "nervarien"
-    },
-    {
-     "type": "twitch",
-     "channel": "tl_nero",
-     "lang": "el",
-     "official": true,
-     "label": "tl_nero"
-    },
-    {
-     "type": "twitch",
-     "channel": "starky",
-     "lang": "ru",
-     "official": false,
-     "label": "starky"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/team-vitality-lol-vs-fearx-lol-03-10-2026"
   },
   {
    "id": "bo3-129615",
