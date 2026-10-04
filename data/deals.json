@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T15:57:50+03:00",
+  "updatedAt": "2026-10-04T18:26:21+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -53,6 +53,16 @@
       "steamAppId": "668580"
     },
     {
+      "id": "steam-242760",
+      "title": "The Forest",
+      "store": "Steam",
+      "old": 435,
+      "neu": 91,
+      "pct": 79,
+      "url": "https://store.steampowered.com/app/242760/?curator_clanid=0",
+      "steamAppId": "242760"
+    },
+    {
       "id": "steam-2399830",
       "title": "ARK: Survival Ascended",
       "store": "Steam",
@@ -61,16 +71,6 @@
       "pct": 75,
       "url": "https://store.steampowered.com/app/2399830/?curator_clanid=0",
       "steamAppId": "2399830"
-    },
-    {
-      "id": "steam-1850570",
-      "title": "DEATH STRANDING DIRECTOR'S CUT",
-      "store": "Steam",
-      "old": 3299,
-      "neu": 824,
-      "pct": 75,
-      "url": "https://store.steampowered.com/app/1850570/?curator_clanid=0",
-      "steamAppId": "1850570"
     },
     {
       "id": "steam-2183900",
