@@ -1,22 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-10-04T12:58:49+03:00",
+ "updatedAt": "2026-10-05T02:21:24+03:00",
  "posted": {
   "news": [
-   "017cccc21dde",
-   "476fa8d1b2b9",
-   "3fe43e466bd1",
-   "adfd3a2292bf",
-   "f7e1bf567faf",
-   "bab32c971174",
-   "fabe10b2b8cf",
-   "ffafdddd37fe",
-   "79fbc0b77f4a",
-   "3503f6770ef7",
-   "0a0fd82d8b89",
-   "15baec1e80ac",
-   "a571b8666424",
-   "74168b74492a",
    "f408cb952e39",
    "32976d61b373",
    "556a6754ca91",
@@ -502,7 +488,21 @@
    "c8f56b9837b3",
    "2672f2fdc2b9",
    "e0ba4a3bfc4c",
-   "3b391f22db54"
+   "3b391f22db54",
+   "1d8a8505657e",
+   "d275bfe5c967",
+   "04157cbee930",
+   "c2c267b25bf6",
+   "deda72e4104f",
+   "ae3f6bcb2c59",
+   "9370fad13808",
+   "7d022d48ba93",
+   "bc8949c09c1e",
+   "48ea63cb67b9",
+   "73095416ccf7",
+   "1ad5c26316e5",
+   "f7c69157777a",
+   "e4be9ed35d8c"
   ],
   "deals": [
    "steam-246420:90",
@@ -696,7 +696,16 @@
    "live:bo3-130764",
    "live:bo3-129618",
    "live:bo3-129959",
-   "result:bo3-128591"
+   "result:bo3-128591",
+   "result:bo3-129621",
+   "result:bo3-130765",
+   "result:bo3-130767",
+   "result:bo3-130768",
+   "digest:2026-10-05",
+   "result:bo3-129618",
+   "result:bo3-129959",
+   "result:bo3-129960",
+   "result:bo3-130766"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -889,7 +898,15 @@
    "TVre1TSKvgU",
    "b9Wz88vFXxY",
    "qaoqPjbXk2Y",
-   "G3WVFHEzX3w"
+   "G3WVFHEzX3w",
+   "A75QYo8hTTM",
+   "6jZNsElvKw4",
+   "2tvp4RyzBcU",
+   "aY5u1MWUU18",
+   "VJ0zQZ3UEFg",
+   "A6gJTdk_BkI",
+   "HJdZUAXljOs",
+   "ssCWveS0O5E"
   ],
   "releases": [
    "week:2026-W39",
@@ -902,16 +919,14 @@
    "day:2026-10-01:2288340",
    "day:2026-10-01:x-octopath-traveler",
    "day:2026-10-01:x-octopath-traveler-ii",
-   "day:2026-10-01:x-antonblast"
+   "day:2026-10-01:x-antonblast",
+   "week:2026-W41"
   ],
   "gotd": [
    "gotd:2026-09-24"
   ]
  },
  "matchPings": [
-  "2026-10-02T01:57+03:00",
-  "2026-10-02T12:57+03:00",
-  "2026-10-02T16:15+03:00",
   "2026-10-03T00:18+03:00",
   "2026-10-03T12:20+03:00",
   "2026-10-03T12:20+03:00",
@@ -938,9 +953,6 @@
   }
  },
  "dealPosts": [
-  "2026-10-02T01:47+03:00",
-  "2026-10-02T15:51+03:00",
-  "2026-10-02T22:25+03:00",
   "2026-10-03T02:52+03:00",
   "2026-10-04T03:47+03:00"
  ]
