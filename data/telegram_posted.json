@@ -1,6 +1,6 @@
 {
  "about": "Telegram autopost dedupe state (ids only). Written by scripts/telegram_post.py.",
- "updatedAt": "2026-10-04T14:46:08+03:00",
+ "updatedAt": "2026-10-04T16:49:14+03:00",
  "channel": {
   "descVersion": 1,
   "welcomeId": 9,
@@ -34,7 +34,9 @@
    "steam-1304930:90",
    "set:steam-1222140:90,steam-1273400:90,steam-2475460:90,steam-673880:95,steam-979690:90",
    "steam-673880:95",
-   "steam-979690:90"
+   "steam-979690:90",
+   "set:steam-1222140:90,steam-1273400:90,steam-1304930:90,steam-2475460:90,steam-668580:80",
+   "steam-668580:80"
   ],
   "esports": [
    "results:bo3-129360,bo3-129361,bo3-130313,bo3-130314,bo3-130315",
@@ -87,7 +89,12 @@
    "results:bo3-128581,bo3-128591,bo3-130695,bo3-130757,bo3-130759,bo3-130761",
    "r:bo3-128591",
    "results:bo3-128581,bo3-128591,bo3-129961,bo3-130695,bo3-130759,bo3-130761",
-   "r:bo3-129961"
+   "r:bo3-129961",
+   "results:bo3-128591,bo3-129618,bo3-129959,bo3-129961,bo3-130763,bo3-130764",
+   "r:bo3-129959",
+   "r:bo3-130763",
+   "r:bo3-130764",
+   "r:bo3-129618"
   ],
   "gotd": [
    "gotd:2026-09-24"
@@ -277,7 +284,18 @@
    "2672f2fdc2b9",
    "e0ba4a3bfc4c",
    "7e90eea07798",
-   "4d315d840e34"
+   "4d315d840e34",
+   "a3a84bc729f8",
+   "e5ed671d6c8a",
+   "c128ed4b22c4",
+   "a3d12d86ef30",
+   "b0289795cff0",
+   "193f919f5489",
+   "1abd05ea00c8",
+   "5c0c71e8173c",
+   "df63cc6e58a9",
+   "aa759728df80",
+   "7669408bf011"
   ],
   "digest": [
    "week:2026-W39"
