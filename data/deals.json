@@ -1,7 +1,17 @@
 {
-  "updatedAt": "2026-10-04T22:43:16+03:00",
+  "updatedAt": "2026-10-05T02:18:56+03:00",
   "source": "steam-specials-ru",
   "deals": [
+    {
+      "id": "steam-673880",
+      "title": "Warhammer 40,000: Mechanicus",
+      "store": "Steam",
+      "old": 1100,
+      "neu": 55,
+      "pct": 95,
+      "url": "https://store.steampowered.com/app/673880/?curator_clanid=0",
+      "steamAppId": "673880"
+    },
     {
       "id": "steam-1222140",
       "title": "Detroit: Become Human",
@@ -53,16 +63,6 @@
       "steamAppId": "668580"
     },
     {
-      "id": "steam-242760",
-      "title": "The Forest",
-      "store": "Steam",
-      "old": 435,
-      "neu": 91,
-      "pct": 79,
-      "url": "https://store.steampowered.com/app/242760/?curator_clanid=0",
-      "steamAppId": "242760"
-    },
-    {
       "id": "steam-2399830",
       "title": "ARK: Survival Ascended",
       "store": "Steam",
@@ -71,6 +71,16 @@
       "pct": 75,
       "url": "https://store.steampowered.com/app/2399830/?curator_clanid=0",
       "steamAppId": "2399830"
+    },
+    {
+      "id": "steam-1850570",
+      "title": "DEATH STRANDING DIRECTOR'S CUT",
+      "store": "Steam",
+      "old": 3299,
+      "neu": 824,
+      "pct": 75,
+      "url": "https://store.steampowered.com/app/1850570/?curator_clanid=0",
+      "steamAppId": "1850570"
     },
     {
       "id": "steam-2183900",
@@ -121,16 +131,6 @@
       "pct": 71,
       "url": "https://store.steampowered.com/app/1326470/",
       "steamAppId": "1326470"
-    },
-    {
-      "id": "steam-394360",
-      "title": "Hearts of Iron IV",
-      "store": "Steam",
-      "old": 3049,
-      "neu": 914,
-      "pct": 70,
-      "url": "https://store.steampowered.com/app/394360/?curator_clanid=0",
-      "steamAppId": "394360"
     },
     {
       "id": "steam-1158310",
