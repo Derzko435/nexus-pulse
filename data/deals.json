@@ -1,17 +1,7 @@
 {
-  "updatedAt": "2026-10-04T03:47:21+03:00",
+  "updatedAt": "2026-10-04T09:59:31+03:00",
   "source": "steam-specials-ru",
   "deals": [
-    {
-      "id": "steam-673880",
-      "title": "Warhammer 40,000: Mechanicus",
-      "store": "Steam",
-      "old": 1100,
-      "neu": 55,
-      "pct": 95,
-      "url": "https://store.steampowered.com/app/673880/?curator_clanid=0",
-      "steamAppId": "673880"
-    },
     {
       "id": "steam-1222140",
       "title": "Detroit: Become Human",
@@ -73,16 +63,6 @@
       "steamAppId": "668580"
     },
     {
-      "id": "steam-242760",
-      "title": "The Forest",
-      "store": "Steam",
-      "old": 435,
-      "neu": 91,
-      "pct": 79,
-      "url": "https://store.steampowered.com/app/242760/?curator_clanid=0",
-      "steamAppId": "242760"
-    },
-    {
       "id": "steam-2399830",
       "title": "ARK: Survival Ascended",
       "store": "Steam",
@@ -141,6 +121,26 @@
       "pct": 75,
       "url": "https://store.steampowered.com/app/270880/?curator_clanid=0",
       "steamAppId": "270880"
+    },
+    {
+      "id": "steam-1326470",
+      "title": "Sons Of The Forest",
+      "store": "Steam",
+      "old": 1100,
+      "neu": 319,
+      "pct": 71,
+      "url": "https://store.steampowered.com/app/1326470/",
+      "steamAppId": "1326470"
+    },
+    {
+      "id": "steam-1158310",
+      "title": "Crusader Kings III",
+      "store": "Steam",
+      "old": 3049,
+      "neu": 914,
+      "pct": 70,
+      "url": "https://store.steampowered.com/app/1158310/?curator_clanid=0",
+      "steamAppId": "1158310"
     }
   ]
 }
