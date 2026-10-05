@@ -1,27 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-10-05T02:21:24+03:00",
+ "updatedAt": "2026-10-05T13:38:53+03:00",
  "posted": {
   "news": [
-   "f408cb952e39",
-   "32976d61b373",
-   "556a6754ca91",
-   "1bcfaadaf3b3",
-   "2dfe1df06ca4",
-   "42d713a8b0a6",
-   "d534b9bd5fb8",
-   "5d26debdca4e",
-   "b64458ecdda9",
-   "0f36a3b0d9b0",
-   "722214fc271e",
-   "14391878d0ad",
-   "45c5170d6d11",
-   "a1e4a060fdbe",
-   "df3046756d01",
-   "3393b56029d7",
-   "fa2902f01400",
-   "4811f8995d4e",
-   "e32f4274246a",
    "a90fd8620a13",
    "ccc9ac6f0d03",
    "226135a60b2c",
@@ -502,7 +483,26 @@
    "73095416ccf7",
    "1ad5c26316e5",
    "f7c69157777a",
-   "e4be9ed35d8c"
+   "e4be9ed35d8c",
+   "4fee763dacc2",
+   "3dc6fb2a0bd3",
+   "509b6b953bcd",
+   "18b0659969d0",
+   "5fd63eb5fb19",
+   "ad652cc7e722",
+   "eaee9bd7a4b6",
+   "bbd249017565",
+   "84f39a5d8078",
+   "0e36111af5cc",
+   "6ca67f5fc1c2",
+   "565c25a9f07b",
+   "674aa7cf59db",
+   "74eb988ba475",
+   "6a17648483ab",
+   "57ed1e81cf4b",
+   "24c038fbe544",
+   "74140f7bd878",
+   "cc86ace3504c"
   ],
   "deals": [
    "steam-246420:90",
@@ -705,7 +705,14 @@
    "result:bo3-129618",
    "result:bo3-129959",
    "result:bo3-129960",
-   "result:bo3-130766"
+   "result:bo3-130766",
+   "result:bo3-128592",
+   "result:bo3-129963",
+   "result:bo3-129962",
+   "live:bo3-130771",
+   "live:bo3-130772",
+   "result:bo3-130770",
+   "result:bo3-130769"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -906,7 +913,11 @@
    "VJ0zQZ3UEFg",
    "A6gJTdk_BkI",
    "HJdZUAXljOs",
-   "ssCWveS0O5E"
+   "ssCWveS0O5E",
+   "9vCiC9i7cUs",
+   "ttwLu8Y8J_s",
+   "llbk9XBnPfI",
+   "6GRcu0g0LuY"
   ],
   "releases": [
    "week:2026-W39",
@@ -932,7 +943,9 @@
   "2026-10-03T12:20+03:00",
   "2026-10-04T00:59+03:00",
   "2026-10-04T12:58+03:00",
-  "2026-10-04T12:58+03:00"
+  "2026-10-04T12:58+03:00",
+  "2026-10-05T13:38+03:00",
+  "2026-10-05T13:38+03:00"
  ],
  "weekly": {
   "gamenight": {
