@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T19:09:42+03:00",
+  "updatedAt": "2026-10-06T01:46:20+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -11,6 +11,16 @@
       "pct": 90,
       "url": "https://store.steampowered.com/app/1222140/",
       "steamAppId": "1222140"
+    },
+    {
+      "id": "steam-979690",
+      "title": "The Ascent",
+      "store": "Steam",
+      "old": 1499,
+      "neu": 149,
+      "pct": 90,
+      "url": "https://store.steampowered.com/app/979690/?curator_clanid=0",
+      "steamAppId": "979690"
     },
     {
       "id": "steam-1304930",
@@ -73,6 +83,16 @@
       "steamAppId": "2399830"
     },
     {
+      "id": "steam-1850570",
+      "title": "DEATH STRANDING DIRECTOR'S CUT",
+      "store": "Steam",
+      "old": 3299,
+      "neu": 824,
+      "pct": 75,
+      "url": "https://store.steampowered.com/app/1850570/?curator_clanid=0",
+      "steamAppId": "1850570"
+    },
+    {
       "id": "steam-2183900",
       "title": "Warhammer 40,000: Space Marine 2",
       "store": "Steam",
@@ -81,16 +101,6 @@
       "pct": 75,
       "url": "https://store.steampowered.com/app/2183900/",
       "steamAppId": "2183900"
-    },
-    {
-      "id": "steam-264710",
-      "title": "Subnautica",
-      "store": "Steam",
-      "old": 1800,
-      "neu": 450,
-      "pct": 75,
-      "url": "https://store.steampowered.com/app/264710/?curator_clanid=0",
-      "steamAppId": "264710"
     },
     {
       "id": "steam-227300",
@@ -121,16 +131,6 @@
       "pct": 71,
       "url": "https://store.steampowered.com/app/1326470/",
       "steamAppId": "1326470"
-    },
-    {
-      "id": "steam-394360",
-      "title": "Hearts of Iron IV",
-      "store": "Steam",
-      "old": 3049,
-      "neu": 914,
-      "pct": 70,
-      "url": "https://store.steampowered.com/app/394360/?curator_clanid=0",
-      "steamAppId": "394360"
     },
     {
       "id": "steam-1158310",
