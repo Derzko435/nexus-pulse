@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T08:54:19+03:00",
+  "updatedAt": "2026-10-05T17:58:39+03:00",
   "source": "steam-store-appdetails",
   "count": 37,
   "apps": [
@@ -43,7 +43,7 @@
     {
       "appid": "252950",
       "name": "Rocket League®",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/d56cf9d01073d893677fb9e7e257b79fd7939ee3/header.jpg?t=1789756890",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/3abd9ab079c8896a4762dbe34a853d89b7f704df/header_alt_assets_17.jpg?t=1791210513",
       "genres": [
         "Экшены",
         "Инди",
@@ -452,22 +452,6 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "673880",
-      "name": "Warhammer 40,000: Mechanicus",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/673880/header.jpg?t=1747933345",
-      "genres": [
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": 78,
-      "short_description": "Возьмите под контроль самые технологически продвинутые силы человечества в Империуме — Адептус Механикус. В этой пошаговой тактической игре от каждого вашего решения зависит исход миссии. Благословит ли вас Омниссия?"
-    },
-    {
       "appid": "1304930",
       "name": "The Outlast Trials",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/65fbdba4ad0f1a7ed7a362a086c87042fa40fadc/header_alt_assets_3.jpg?t=1784123708",
@@ -503,6 +487,26 @@
       "short_description": "Construction Simulator возвращается —теперь еще масштабнее и увлекательнее! Утолите амбиции и постройте успешный строительный бизнес с нуля, а ваш наставник Хапе вам в этом поможет."
     },
     {
+      "appid": "582660",
+      "name": "Black Desert",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582660/3c4172635738d9e5901e340b28136745fd9e491a/header_alt_assets_27.jpg?t=1786645008",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Многопользовательские игры",
+        "Ролевые игры",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 80,
+      "short_description": "Played by over 20 million Adventurers - Black Desert Online is an open-world, action MMORPG. Experience intense, action-packed combat, battle massive world bosses, fight alongside friends to siege and conquer castles, and train in professions such as fishing, trading, crafting, cooking, and more!"
+    },
+    {
       "appid": "2475460",
       "name": "SOS OPS!",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2475460/a0a7b4a2b2526ae76cab0f0ba6e87e63d962c1a7/header.jpg?t=1791094099",
@@ -535,6 +539,25 @@
       "short_description": "Погрузитесь в безумную и прекрасную техноутопию, где вас на каждом шагу поджидает смерть. Выполните порученное вам задание, подстраиваясь под необычных противников, используя элементы окружения и улучшая свой арсенал. Узнайте правду — любой ценой!"
     },
     {
+      "appid": "242760",
+      "name": "The Forest",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg?t=1699381053",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 83,
+      "short_description": "As the lone survivor of a passenger jet crash, you find yourself in a mysterious forest battling to stay alive against a society of cannibalistic mutants. Build, explore, survive in this terrifying first person survival horror simulator."
+    },
+    {
       "appid": "2399830",
       "name": "ARK: Survival Ascended",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2399830/d934813ca531af0fce69fe36bc972f1c90d1aa19/header.jpg?t=1779293241",
@@ -554,23 +577,6 @@
       },
       "metacritic": null,
       "short_description": "Арк переосмысливается с основания в этой технологии видеоигр с помощью Unreal Engine 5! Сформируйте племя, приручите и породу сотни уникальных динозавров и первобытных существ, исследуйте, создайте, строите, строите и пробитесь на вершину пищевой цепи. Ваш новый мир ждет!"
-    },
-    {
-      "appid": "1850570",
-      "name": "DEATH STRANDING DIRECTOR'S CUT",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/header.jpg?t=1773400635",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": 85,
-      "short_description": "Легендарный творец Хидэо Кодзима представляет окончательную версию DIRECTOR’S CUT знаковой для жанра игры. Действуя от лица Сэма Бриджеса и объединяя последних выживших на территории Америки, вам предстоит возродить надежду человечества. Удастся ли вам шаг за шагом воссоединить разрушенный мир?"
     },
     {
       "appid": "2183900",
