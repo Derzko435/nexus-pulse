@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T12:56:12+03:00",
+  "updatedAt": "2026-10-05T16:00:49+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -11,16 +11,6 @@
       "pct": 90,
       "url": "https://store.steampowered.com/app/1222140/",
       "steamAppId": "1222140"
-    },
-    {
-      "id": "steam-979690",
-      "title": "The Ascent",
-      "store": "Steam",
-      "old": 1499,
-      "neu": 149,
-      "pct": 90,
-      "url": "https://store.steampowered.com/app/979690/?curator_clanid=0",
-      "steamAppId": "979690"
     },
     {
       "id": "steam-1304930",
@@ -41,6 +31,16 @@
       "pct": 90,
       "url": "https://store.steampowered.com/app/1273400/?curator_clanid=0",
       "steamAppId": "1273400"
+    },
+    {
+      "id": "steam-582660",
+      "title": "Black Desert",
+      "store": "Steam",
+      "old": 350,
+      "neu": 35,
+      "pct": 90,
+      "url": "https://store.steampowered.com/app/582660/?curator_clanid=0",
+      "steamAppId": "582660"
     },
     {
       "id": "steam-2475460",
@@ -81,16 +81,6 @@
       "pct": 75,
       "url": "https://store.steampowered.com/app/2399830/?curator_clanid=0",
       "steamAppId": "2399830"
-    },
-    {
-      "id": "steam-1850570",
-      "title": "DEATH STRANDING DIRECTOR'S CUT",
-      "store": "Steam",
-      "old": 3299,
-      "neu": 824,
-      "pct": 75,
-      "url": "https://store.steampowered.com/app/1850570/?curator_clanid=0",
-      "steamAppId": "1850570"
     },
     {
       "id": "steam-2183900",
@@ -141,6 +131,16 @@
       "pct": 71,
       "url": "https://store.steampowered.com/app/1326470/",
       "steamAppId": "1326470"
+    },
+    {
+      "id": "steam-1158310",
+      "title": "Crusader Kings III",
+      "store": "Steam",
+      "old": 3049,
+      "neu": 914,
+      "pct": 70,
+      "url": "https://store.steampowered.com/app/1158310/?curator_clanid=0",
+      "steamAppId": "1158310"
     }
   ]
 }
