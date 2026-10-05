@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-05T03:12:51+03:00",
+ "updatedAt": "2026-10-05T09:18:03+03:00",
  "source": "bo3.gg",
  "matches": [
   {
@@ -418,7 +418,15 @@
    "event": "CBLOL 2027 Promotion Tournament",
    "tier": "S",
    "startsAt": "2026-10-06T00:00:00+03:00",
-   "streams": [],
+   "streams": [
+    {
+     "type": "youtube",
+     "id": "pYMOzj8pva8",
+     "lang": "pt",
+     "official": false,
+     "label": "KBM x 9ZG | CBLOL 2027 - Torneio de Promoção | Dia 4 (Md5)"
+    }
+   ],
    "url": "https://bo3.gg/lol/matches/kabum-ilha-das-lendas-vs-9z-globant-05-10-2026"
   },
   {
@@ -1631,17 +1639,6 @@
    "url": "https://bo3.gg/lol/tournaments/cblol-2026-split-2"
   },
   {
-   "name": "LCS 2026 Summer",
-   "game": "LoL",
-   "gameKey": "lol",
-   "tier": "S",
-   "prize": null,
-   "start": "2026-07-25",
-   "end": "2026-10-05",
-   "status": "current",
-   "url": "https://bo3.gg/lol/tournaments/lcs-2026-summer"
-  },
-  {
    "name": "EMEA Masters 2026 Summer",
    "game": "LoL",
    "gameKey": "lol",
@@ -1794,6 +1791,17 @@
    "end": "2026-11-09",
    "status": "upcoming",
    "url": "https://bo3.gg/tournaments/intel-extreme-masters-beijing-2026"
+  },
+  {
+   "name": "BLAST Rivals Fall 2026",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "tier": "S",
+   "prize": 1000000,
+   "start": "2026-11-11",
+   "end": "2026-11-16",
+   "status": "upcoming",
+   "url": "https://bo3.gg/tournaments/blast-rivals-fall-2026"
   }
  ]
 }
