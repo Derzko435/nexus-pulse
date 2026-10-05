@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T17:58:45+03:00",
+  "updatedAt": "2026-10-05T19:09:42+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -31,16 +31,6 @@
       "pct": 90,
       "url": "https://store.steampowered.com/app/1273400/?curator_clanid=0",
       "steamAppId": "1273400"
-    },
-    {
-      "id": "steam-582660",
-      "title": "Black Desert",
-      "store": "Steam",
-      "old": 350,
-      "neu": 35,
-      "pct": 90,
-      "url": "https://store.steampowered.com/app/582660/?curator_clanid=0",
-      "steamAppId": "582660"
     },
     {
       "id": "steam-2475460",
@@ -141,6 +131,16 @@
       "pct": 70,
       "url": "https://store.steampowered.com/app/394360/?curator_clanid=0",
       "steamAppId": "394360"
+    },
+    {
+      "id": "steam-1158310",
+      "title": "Crusader Kings III",
+      "store": "Steam",
+      "old": 3049,
+      "neu": 914,
+      "pct": 70,
+      "url": "https://store.steampowered.com/app/1158310/?curator_clanid=0",
+      "steamAppId": "1158310"
     }
   ]
 }
