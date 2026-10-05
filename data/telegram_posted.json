@@ -1,6 +1,6 @@
 {
  "about": "Telegram autopost dedupe state (ids only). Written by scripts/telegram_post.py.",
- "updatedAt": "2026-10-05T14:45:17+03:00",
+ "updatedAt": "2026-10-05T18:55:31+03:00",
  "channel": {
   "descVersion": 1,
   "welcomeId": 9,
@@ -109,7 +109,13 @@
    "r:bo3-130770",
    "results:bo3-128592,bo3-129962,bo3-129963,bo3-130768,bo3-130769,bo3-130770",
    "r:bo3-129962",
-   "r:bo3-129963"
+   "r:bo3-129963",
+   "results:bo3-129962,bo3-129964,bo3-130771,bo3-130772,bo3-130773,bo3-130774",
+   "r:bo3-130773",
+   "r:bo3-130774",
+   "r:bo3-129964",
+   "r:bo3-130771",
+   "r:bo3-130772"
   ],
   "gotd": [
    "gotd:2026-09-24"
@@ -358,7 +364,26 @@
    "24c038fbe544",
    "74140f7bd878",
    "3dc6fb2a0bd3",
-   "509b6b953bcd"
+   "509b6b953bcd",
+   "d85687209507",
+   "ba723fbc7b35",
+   "69baa6c334fe",
+   "f7b1c5bdf839",
+   "dcccf3dd5a4b",
+   "75b47fe3c736",
+   "d496bab13274",
+   "9460b8bc95da",
+   "a979e901a9b8",
+   "98c1323e4b28",
+   "ab1807797f0f",
+   "2181d18d2f5c",
+   "4949837487ed",
+   "31d81bfe1f15",
+   "4d54f667b758",
+   "00e00301ca7c",
+   "300ba81ee19e",
+   "52aaf2e53790",
+   "a0061418f090"
   ],
   "digest": [
    "week:2026-W39",
