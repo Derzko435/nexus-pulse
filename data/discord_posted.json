@@ -1,29 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-10-05T13:38:53+03:00",
+ "updatedAt": "2026-10-05T18:20:23+03:00",
  "posted": {
   "news": [
-   "a90fd8620a13",
-   "ccc9ac6f0d03",
-   "226135a60b2c",
-   "d8d10e83b254",
-   "cc639ac0ebb2",
-   "c040731cf54f",
-   "9de7fd80194d",
-   "22fd84783ace",
-   "ff2ec54eb037",
-   "6e4966149e1b",
-   "6e5dc40a370d",
-   "4337fb0d4c7e",
-   "f099e997b996",
-   "f61a5fa9a703",
-   "f77f37fbbcf4",
-   "14ca04e4e2c0",
-   "483f565483bc",
-   "612b2b2c9d51",
-   "e90eb8210215",
-   "16141c61d17f",
-   "00aab316854c",
    "e932def16b71",
    "595eef320fe5",
    "f44be0d12a46",
@@ -502,7 +481,28 @@
    "57ed1e81cf4b",
    "24c038fbe544",
    "74140f7bd878",
-   "cc86ace3504c"
+   "cc86ace3504c",
+   "ba723fbc7b35",
+   "6a2114d425d0",
+   "05f4dbbe79d6",
+   "69baa6c334fe",
+   "f7b1c5bdf839",
+   "dcccf3dd5a4b",
+   "75b47fe3c736",
+   "d496bab13274",
+   "9460b8bc95da",
+   "a979e901a9b8",
+   "98c1323e4b28",
+   "ab1807797f0f",
+   "2181d18d2f5c",
+   "4949837487ed",
+   "31d81bfe1f15",
+   "4d54f667b758",
+   "00e00301ca7c",
+   "300ba81ee19e",
+   "52aaf2e53790",
+   "a0061418f090",
+   "d85687209507"
   ],
   "deals": [
    "steam-246420:90",
@@ -712,7 +712,15 @@
    "live:bo3-130771",
    "live:bo3-130772",
    "result:bo3-130770",
-   "result:bo3-130769"
+   "result:bo3-130769",
+   "result:bo3-130774",
+   "result:bo3-130773",
+   "live:bo3-130776",
+   "live:bo3-131215",
+   "live:bo3-130775",
+   "result:bo3-130771",
+   "result:bo3-130772",
+   "result:bo3-129964"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -917,7 +925,15 @@
    "9vCiC9i7cUs",
    "ttwLu8Y8J_s",
    "llbk9XBnPfI",
-   "6GRcu0g0LuY"
+   "6GRcu0g0LuY",
+   "H_B91cxvCRQ",
+   "rd4n4fJ6M0c",
+   "JU_4r-e1aXk",
+   "aTEEEeEIQq8",
+   "vAV1O0b9aDs",
+   "c8nP1AlDT2k",
+   "o8-eCOIdlTU",
+   "UGYK4ICVfzo"
   ],
   "releases": [
    "week:2026-W39",
@@ -945,7 +961,8 @@
   "2026-10-04T12:58+03:00",
   "2026-10-04T12:58+03:00",
   "2026-10-05T13:38+03:00",
-  "2026-10-05T13:38+03:00"
+  "2026-10-05T13:38+03:00",
+  "2026-10-05T18:20+03:00"
  ],
  "weekly": {
   "gamenight": {
