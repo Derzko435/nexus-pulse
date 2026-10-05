@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-04T12:55:29+03:00",
+ "updatedAt": "2026-10-05T13:35:33+03:00",
  "items": [
   {
    "appid": "x-earth-defense-force-5",
@@ -218,7 +218,7 @@
    "appid": 2254990,
    "title": "Permafrost",
    "date": "2026-10-09",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2254990/693eff202c061aaecba330b44d76485a672bea97/header.jpg?t=1790936225",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2254990/693eff202c061aaecba330b44d76485a672bea97/header.jpg?t=1791187520",
    "desc": "Permafrost — это «песочница» на выживание среди постапокалиптических льдов. Откройте для себя обширный открытый мир с богатой историей в одиночку или в кооперативном режиме до 4 игроков. Исследуйте, добывайте, создавайте и стройте, чтобы выжить в холоде.",
    "genres": [
     "Экшены",
@@ -296,7 +296,7 @@
    "appid": 2828710,
    "title": "Valor Mortis",
    "date": "2026-10-13",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2828710/e729c7f909db5c52ea780923d9b258517162866a/header.jpg?t=1790264547",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2828710/e729c7f909db5c52ea780923d9b258517162866a/header.jpg?t=1791152012",
    "desc": "Valor Mortis — это экшен от первого лица в жанре Souls-like от создателей игры Ghostrunner. Вы играете за восставшего из мертвых солдата наполеоновской армии. В вашем распоряжении сверхъестественные силы, которые помогут сражаться с монстрами и раскрыть заговор, угрожающий всему человечеству.",
    "genres": [
     "Экшены",
@@ -491,7 +491,7 @@
    "appid": 4094350,
    "title": "Online: 404",
    "date": "2026-10-16",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094350/d64835e6cf8346d193f6f029551956716c01b281/header.jpg?t=1790884143",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094350/d64835e6cf8346d193f6f029551956716c01b281/header.jpg?t=1791181953",
    "desc": "Симулятор выживания в открытом мире, в котором даже опытные ценители жанра смогут переосмыслить привычный способ выживания и взаимодействия с игровым миром. Играйте соло или с друзьями, проходите сюжет или исследуйте мир - главное, не забудьте свой главный гаджет.",
    "genres": [
     "Экшены",
@@ -666,30 +666,6 @@
    "url": "https://store.steampowered.com/app/2315050/",
    "links": {
     "steam": "https://store.steampowered.com/app/2315050/"
-   }
-  },
-  {
-   "appid": 3502620,
-   "title": "DEMONS' NIGHT FEVER",
-   "date": "2026-10-21",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3502620/d94c4673b5fd4516ecdf579b21e8dcbe1d6cf837/header.jpg?t=1788403164",
-   "desc": "Враги? Союзники? Убить, убить, убить! Чем больше ты умираешь, тем сильнее ты становишься! RPG-симулятор RTA уже доступен! Исчерпайте все формы зла, сражаясь с жестокой системой эксплуатации пеонов!",
-   "genres": [
-    "Ролевые игры",
-    "Симуляторы",
-    "Стратегии"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Drecom Co., Ltd.",
-   "price": "2800 руб.",
-   "url": "https://store.steampowered.com/app/3502620/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/3502620/"
    }
   },
   {
@@ -914,6 +890,30 @@
    "source": "wiki"
   },
   {
+   "appid": "x-asylum",
+   "title": "Asylum",
+   "date": "2026-10-30",
+   "image": "https://upload.wikimedia.org/wikipedia/en/4/41/Asylum_%28upcoming_video_game%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Asylum — это видеоигра в жанре ужасов, разработанная Senscape, независимым разработчиком видеоигр из Буэнос-Айреса, Аргентина. Автором игры является Агустин Кордес, который ранее разработал игру Scratches для ныне несуществующего разработчика Nucleosys. Действие происходит в вымышленном доме для умалишенных под названием…",
+   "genres": [
+    "Приключение",
+    "Хоррор"
+   ],
+   "platforms": [
+    "PlayStation",
+    "Xbox",
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Senscape",
+   "price": "",
+   "url": "https://en.wikipedia.org/wiki/Asylum_%282025_video_game%29",
+   "links": {
+    "wiki": "https://en.wikipedia.org/wiki/Asylum_%282025_video_game%29"
+   },
+   "source": "wiki"
+  },
+  {
    "appid": 2320980,
    "title": "Loftia",
    "date": "2026-11-03",
@@ -1098,29 +1098,6 @@
     "wiki": "https://ru.wikipedia.org/wiki/Grand_Theft_Auto_VI"
    },
    "source": "wiki"
-  },
-  {
-   "appid": 4523120,
-   "title": "Volvy’s Adventure: Reslimed",
-   "date": "2026-11-19",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4523120/bd01ad0f41f47272b6f1459de015d2494b24a422/header.jpg?t=1787755813",
-   "desc": "Volvy's Adventure: Reslimed — это захватывающий ремастер оригинального ремейка неизданного экшен-платформера, в котором главную роль играет самый известный талисман видеоигр всех времен.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "doinksoft",
-   "price": "180 руб.",
-   "url": "https://store.steampowered.com/app/4523120/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4523120/"
-   }
   },
   {
    "appid": "x-gothic-3-classic",
@@ -1337,6 +1314,30 @@
    "source": "wiki"
   },
   {
+   "appid": 3660710,
+   "title": "Armatus",
+   "date": "2027-01-07",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3660710/b5b7ba15558e1c278799ff66092b2ff4b5decc20/header.jpg?t=1787845839",
+   "desc": "ARMATUS — roguelite-шутер от третьего лица, действия которого разворачиваются среди руин Парижа, населенных демонами. Станьте последним воином древнего ордена, чтобы с помощью сверхъестественных способностей и мощного оружия очистить город и отыскать затерянный путь к небесам — Темные ворота.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Ролевые игры"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Counterplay Games Inc",
+   "price": "",
+   "url": "https://store.steampowered.com/app/3660710/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/3660710/"
+   }
+  },
+  {
    "appid": "x-danganronpa-2-2",
    "title": "Danganronpa 2×2",
    "date": "2027-01-14",
@@ -1463,32 +1464,6 @@
    "source": "wiki"
   },
   {
-   "appid": 2155070,
-   "title": "Fate/Extra Record",
-   "date": "2027-01-28",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2155070/be0b6645d5593ad4b38feaa57ebb6a324c7d04cf/header.jpg?t=1789712401",
-   "desc": "Fate/Extra Record (стилизовано под Fate/EXTRA Record) — грядущая ролевая видеоигра о ползании по подземельям, разработанная Type-Moon Studio BB и Meteorise и изданная Aniplex. Игра представляет собой ремейк видеоигры Fate/Extra 2010 года и была официально анонсирована в июле 2020 года. Разработка велась…",
-   "genres": [
-    "RPG"
-   ],
-   "platforms": [
-    "PC",
-    "PlayStation",
-    "Switch"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Type-Moon Studio BB, Meteorise",
-   "price": "",
-   "url": "https://store.steampowered.com/app/2155070/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/2155070/",
-    "wiki": "https://en.wikipedia.org/wiki/Fate/Extra_Record"
-   },
-   "source": "wiki"
-  },
-  {
    "appid": 1853440,
    "title": "Tropico 7",
    "date": "2027-01-28",
@@ -1538,6 +1513,29 @@
    "url": "https://store.steampowered.com/app/2659410/",
    "links": {
     "steam": "https://store.steampowered.com/app/2659410/"
+   }
+  },
+  {
+   "appid": 1963680,
+   "title": "GUNDAM ROGUE ORBIT",
+   "date": "2027-03-04",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1963680/401a6de47a6fd341b81450034dc3b5d86e657ee3/header.jpg?t=1790759576",
+   "desc": "Стать пилотом — ваше призвание. Измените судьбу человечества в GUNDAM ROGUE ORBIT — динамичной экшн-игре, где мир Gundam предстает в новом свете. Вас ждут незабываемый, яркий сюжет и напряженные сражения.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Bandai Namco Studios Inc.",
+   "price": "4279 руб.",
+   "url": "https://store.steampowered.com/app/1963680/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/1963680/"
    }
   }
  ]
