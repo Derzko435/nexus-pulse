@@ -1,287 +1,7 @@
 {
- "updatedAt": "2026-10-05T18:19:14+03:00",
+ "updatedAt": "2026-10-06T01:12:33+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-130776",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "M80",
-   "teamB": "TYLOO",
-   "logoA": "https://files.bo3.gg/uploads/team/7430/image/webp-962834dcfa8bef22f2c4cbdbf777bfbf.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/757/image/17873415da0f03df35299283b43408d7.png",
-   "scoreA": 0,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "live",
-   "event": "ESL Pro League Season 24",
-   "tier": "S",
-   "startsAt": "2026-10-05T17:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcsb",
-     "lang": "en",
-     "official": true,
-     "label": "eslcsb"
-    },
-    {
-     "type": "youtube",
-     "id": "mT7EQFwIaZA",
-     "lang": "en",
-     "official": true,
-     "label": "ShindeN vs. G2 Esports - ESL Pro League Season 24 - Group Stage"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_paragon_ru2",
-     "lang": "ru",
-     "official": false,
-     "label": "cs2_paragon_ru2"
-    },
-    {
-     "type": "twitch",
-     "channel": "watchfultvb",
-     "lang": "ru",
-     "official": false,
-     "label": "watchfultvb"
-    }
-   ],
-   "url": "https://bo3.gg/matches/m80-cs-go-vs-tyloo-cs-go-05-10-2026"
-  },
-  {
-   "id": "bo3-131215",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "LEGION",
-   "teamB": "Blasterbl",
-   "logoA": "",
-   "logoB": "https://files.bo3.gg/uploads/team/23832/image/webp-df2c53f63dc50546636097d771a84d00.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "PARI Universe: Closed Qualifier",
-   "tier": "A",
-   "startsAt": "2026-10-05T17:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "fissure_dota_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "fissure_dota_ru"
-    },
-    {
-     "type": "kick",
-     "channel": "fissure_dota_en",
-     "lang": "en",
-     "official": false,
-     "label": "fissure_dota_en"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/legion_stack-vs-blasterbl-05-10-2026"
-  },
-  {
-   "id": "bo3-130775",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Spirit",
-   "teamB": "MOUZ",
-   "logoA": "https://files.bo3.gg/uploads/team/654/image/webp-41b22d18a871d982f8ff87652bbb0fe6.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
-   "scoreA": 0,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "live",
-   "event": "ESL Pro League Season 24",
-   "tier": "S",
-   "startsAt": "2026-10-05T17:20:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs"
-    },
-    {
-     "type": "youtube",
-     "id": "GWkVaZlFFRU",
-     "lang": "en",
-     "official": true,
-     "label": "PARIVISION vs. FURIA - ESL Pro League Season 24 - Group Stage"
-    },
-    {
-     "type": "kick",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "cs2_maincast"
-    }
-   ],
-   "url": "https://bo3.gg/matches/spirit-vs-mouz-cs2-05-10-2026"
-  },
-  {
-   "id": "bo3-130778",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Aurora",
-   "teamB": "BetBoom",
-   "logoA": "https://files.bo3.gg/uploads/team/3598/image/webp-49b8df76b0d121cc89c760c1ec16ebea.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "ESL Pro League Season 24",
-   "tier": "S",
-   "startsAt": "2026-10-05T19:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcsb",
-     "lang": "en",
-     "official": true,
-     "label": "eslcsb"
-    },
-    {
-     "type": "youtube",
-     "id": "mT7EQFwIaZA",
-     "lang": "en",
-     "official": true,
-     "label": "ShindeN vs. G2 Esports - ESL Pro League Season 24 - Group Stage"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_paragon_ru2",
-     "lang": "ru",
-     "official": false,
-     "label": "cs2_paragon_ru2"
-    },
-    {
-     "type": "twitch",
-     "channel": "watchfultvb",
-     "lang": "ru",
-     "official": false,
-     "label": "watchfultvb"
-    }
-   ],
-   "url": "https://bo3.gg/matches/aurora-gaming-vs-betboom-team-05-10-2026"
-  },
-  {
-   "id": "bo3-130777",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Vitality",
-   "teamB": "Falcons",
-   "logoA": "https://files.bo3.gg/uploads/team/667/image/webp-292c1f6c6dcfca35c7a52da7e02cef0a.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/2713/image/webp-86fd5a0653183a19cf750d195963ea10.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "ESL Pro League Season 24",
-   "tier": "S",
-   "startsAt": "2026-10-05T19:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs"
-    },
-    {
-     "type": "youtube",
-     "id": "GWkVaZlFFRU",
-     "lang": "en",
-     "official": true,
-     "label": "PARIVISION vs. FURIA - ESL Pro League Season 24 - Group Stage"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "cs2_maincast"
-    },
-    {
-     "type": "twitch",
-     "channel": "ygamessk",
-     "lang": "sk",
-     "official": true,
-     "label": "ygamessk"
-    }
-   ],
-   "url": "https://bo3.gg/matches/vitality-vs-falcons-esports-05-10-2026"
-  },
-  {
-   "id": "bo3-131216",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "MOUZ",
-   "teamB": "Nemiga Gaming",
-   "logoA": "https://files.bo3.gg/uploads/team/15032/image/webp-ccf33875876c94aec941e60f9b667dd0.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16398/image/webp-90e1f870359e4e1b66a83db6154b1bf8.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "PARI Universe: Closed Qualifier",
-   "tier": "A",
-   "startsAt": "2026-10-05T20:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "fissure_dota_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "fissure_dota_ru"
-    },
-    {
-     "type": "kick",
-     "channel": "fissure_dota_en",
-     "lang": "en",
-     "official": false,
-     "label": "fissure_dota_en"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/mouz-dota2-vs-nemiga-gaming-05-10-2026"
-  },
-  {
-   "id": "bo3-129911",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "9z Globant",
-   "teamB": "KaBuM! Ilha das Lendas",
-   "logoA": "https://files.bo3.gg/uploads/team/17052/image/webp-4a9604a546a23b2b0c5e1982a4c70f4e.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/20354/image/webp-19ea976e9837db49b667c8177f026b5c.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "upcoming",
-   "event": "CBLOL 2027 Promotion Tournament",
-   "tier": "S",
-   "startsAt": "2026-10-06T00:00:00+03:00",
-   "streams": [
-    {
-     "type": "youtube",
-     "id": "pYMOzj8pva8",
-     "lang": "pt",
-     "official": false,
-     "label": "KBM x 9ZG | CBLOL 2027 - Torneio de Promoção | Dia 4 (Md5)"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/kabum-ilha-das-lendas-vs-9z-globant-05-10-2026"
-  },
   {
    "id": "bo3-129914",
    "game": "LoL",
@@ -290,10 +10,10 @@
    "teamB": "Zeu5 Esports",
    "logoA": "https://files.bo3.gg/uploads/team/17077/image/webp-1443fc9372a43abeca3d806c3cbef0ea.webp",
    "logoB": "https://files.bo3.gg/uploads/team/20524/image/webp-07eb040d8d83f710ef71381552394e61.webp",
-   "scoreA": 0,
+   "scoreA": 1,
    "scoreB": 0,
    "bo": 5,
-   "status": "upcoming",
+   "status": "live",
    "event": "LCS 2027 Promotion Tournament",
    "tier": "S",
    "startsAt": "2026-10-06T00:00:00+03:00",
@@ -308,6 +28,32 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/maryville-university-vs-zeu5-esports-05-10-2026"
+  },
+  {
+   "id": "bo3-129911",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "9z Globant",
+   "teamB": "KaBuM! Ilha das Lendas",
+   "logoA": "https://files.bo3.gg/uploads/team/17052/image/webp-4a9604a546a23b2b0c5e1982a4c70f4e.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/20354/image/webp-19ea976e9837db49b667c8177f026b5c.webp",
+   "scoreA": 1,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "live",
+   "event": "CBLOL 2027 Promotion Tournament",
+   "tier": "S",
+   "startsAt": "2026-10-06T00:00:00+03:00",
+   "streams": [
+    {
+     "type": "youtube",
+     "id": "pYMOzj8pva8",
+     "lang": "pt",
+     "official": false,
+     "label": "KBM x 9ZG | CBLOL 2027 - Torneio de Promoção | Dia 4 (Md5)"
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/kabum-ilha-das-lendas-vs-9z-globant-05-10-2026"
   },
   {
    "id": "bo3-129965",
@@ -372,6 +118,32 @@
    "url": "https://bo3.gg/lol/matches/jd-gaming-lol-vs-lgd-gaming-lol-06-10-2026"
   },
   {
+   "id": "bo3-131218",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Blasterbl",
+   "teamB": "Nemiga Gaming",
+   "logoA": "https://files.bo3.gg/uploads/team/23832/image/webp-df2c53f63dc50546636097d771a84d00.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16398/image/webp-90e1f870359e4e1b66a83db6154b1bf8.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PARI Universe: Closed Qualifier",
+   "tier": "A",
+   "startsAt": "2026-10-06T14:00:00+03:00",
+   "streams": [
+    {
+     "type": "kick",
+     "channel": "fissure_dota_en",
+     "lang": "en",
+     "official": false,
+     "label": "fissure_dota_en"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/blasterbl-vs-nemiga-gaming-06-10-2026"
+  },
+  {
    "id": "bo3-129967",
    "game": "LoL",
    "gameKey": "lol",
@@ -388,6 +160,60 @@
    "startsAt": "2026-10-06T14:00:00+03:00",
    "streams": [],
    "url": "https://bo3.gg/lol/matches/team-vitality-lol-vs-red-canids-lol-06-10-2026"
+  },
+  {
+   "id": "bo3-130779",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Spirit",
+   "teamB": "1win",
+   "logoA": "https://files.bo3.gg/uploads/team/654/image/webp-41b22d18a871d982f8ff87652bbb0fe6.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/238/image/webp-6095482923ef3047986cef1e26fe80fa.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "ESL Pro League Season 24",
+   "tier": "S",
+   "startsAt": "2026-10-06T15:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/spirit-vs-1win-06-10-2026"
+  },
+  {
+   "id": "bo3-130780",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "G2",
+   "teamB": "PARIVISION",
+   "logoA": "https://files.bo3.gg/uploads/team/793/image/webp-8f844f6a25c797dfe74b411d147983ff.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/8171/image/webp-735594256ca5670882480debe25ffb69.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "ESL Pro League Season 24",
+   "tier": "S",
+   "startsAt": "2026-10-06T15:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/g2-vs-parivision-06-10-2026"
   },
   {
    "id": "bo3-131219",
@@ -416,13 +242,67 @@
    "url": "https://bo3.gg/dota2/matches/team-synapse-vs-yellow-submarine-06-10-2026"
   },
   {
-   "id": "bo3-130154",
+   "id": "bo3-130781",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "9z",
+   "teamB": "BetBoom",
+   "logoA": "https://files.bo3.gg/uploads/team/324/image/webp-847d6324439266b5de80bcb2e23fa38e.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "ESL Pro League Season 24",
+   "tier": "S",
+   "startsAt": "2026-10-06T17:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/9z-vs-betboom-team-06-10-2026"
+  },
+  {
+   "id": "bo3-130782",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "FURIA",
+   "teamB": "Aurora",
+   "logoA": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/3598/image/webp-49b8df76b0d121cc89c760c1ec16ebea.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "ESL Pro League Season 24",
+   "tier": "S",
+   "startsAt": "2026-10-06T17:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/furia-vs-aurora-gaming-06-10-2026"
+  },
+  {
+   "id": "bo3-130153",
    "game": "LoL",
    "gameKey": "lol",
-   "teamA": "Movistar KOI Fénix",
-   "teamB": "Frites Esports Club",
-   "logoA": "https://files.bo3.gg/uploads/team/20584/image/webp-720376d119e3a90822f0a7f2695ee5de.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/22314/image/webp-a66125f021761eb89d2f178fd779c2ee.webp",
+   "teamA": "TLN Pirates",
+   "teamB": "Bushido Wildcats",
+   "logoA": "https://files.bo3.gg/uploads/team/22371/image/webp-35753cd0e1196e634d4c3c16d4419e02.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/18972/image/webp-b31d8da308264cee39688405c6d89b24.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 5,
@@ -440,7 +320,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/lol/matches/movistar-koi-fenix-vs-frites-esports-club-06-10-2026"
+   "url": "https://bo3.gg/lol/matches/tln-pirates-vs-bushido-wildcats-06-10-2026"
   },
   {
    "id": "bo3-130155",
@@ -470,6 +350,33 @@
    "url": "https://bo3.gg/lol/matches/solary-lol-vs-valerion-06-10-2026"
   },
   {
+   "id": "bo3-130154",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Movistar KOI Fénix",
+   "teamB": "Frites Esports Club",
+   "logoA": "https://files.bo3.gg/uploads/team/20584/image/webp-720376d119e3a90822f0a7f2695ee5de.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/22314/image/webp-a66125f021761eb89d2f178fd779c2ee.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "upcoming",
+   "event": "EMEA Masters 2026 Summer",
+   "tier": "A",
+   "startsAt": "2026-10-06T19:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "lec",
+     "lang": "en",
+     "official": true,
+     "label": "lec",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/movistar-koi-fenix-vs-frites-esports-club-06-10-2026"
+  },
+  {
    "id": "bo3-130156",
    "game": "LoL",
    "gameKey": "lol",
@@ -497,31 +404,84 @@
    "url": "https://bo3.gg/lol/matches/galions-vs-berlin-international-gaming-06-10-2026"
   },
   {
-   "id": "bo3-130153",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "TLN Pirates",
-   "teamB": "Bushido Wildcats",
-   "logoA": "https://files.bo3.gg/uploads/team/22371/image/webp-35753cd0e1196e634d4c3c16d4419e02.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/18972/image/webp-b31d8da308264cee39688405c6d89b24.webp",
+   "id": "bo3-130783",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Falcons",
+   "teamB": "Natus Vincere",
+   "logoA": "https://files.bo3.gg/uploads/team/2713/image/webp-86fd5a0653183a19cf750d195963ea10.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/787/image/webp-ea9885f81f1572c7a6c9fb6cbf747c99.webp",
    "scoreA": 0,
    "scoreB": 0,
-   "bo": 5,
+   "bo": 3,
    "status": "upcoming",
-   "event": "EMEA Masters 2026 Summer",
-   "tier": "A",
-   "startsAt": "2026-10-06T19:00:00+03:00",
+   "event": "ESL Pro League Season 24",
+   "tier": "S",
+   "startsAt": "2026-10-06T20:00:00+03:00",
    "streams": [
     {
      "type": "twitch",
-     "channel": "lec",
+     "channel": "eslcs",
      "lang": "en",
      "official": true,
-     "label": "lec",
+     "label": "eslcs",
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/lol/matches/tln-pirates-vs-bushido-wildcats-06-10-2026"
+   "url": "https://bo3.gg/matches/falcons-esports-vs-natus-vincere-06-10-2026"
+  },
+  {
+   "id": "bo3-130784",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Legacy",
+   "teamB": "M80",
+   "logoA": "https://files.bo3.gg/uploads/team/8118/image/webp-e4a3b023443f1f3ba4ef588164e73111.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/7430/image/webp-962834dcfa8bef22f2c4cbdbf777bfbf.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "ESL Pro League Season 24",
+   "tier": "S",
+   "startsAt": "2026-10-06T20:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/legacy-br-vs-m80-cs-go-06-10-2026"
+  },
+  {
+   "id": "bo3-131220",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "LEGION",
+   "teamB": "MOUZ",
+   "logoA": "",
+   "logoB": "https://files.bo3.gg/uploads/team/15032/image/webp-ccf33875876c94aec941e60f9b667dd0.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PARI Universe: Closed Qualifier",
+   "tier": "A",
+   "startsAt": "2026-10-06T20:00:00+03:00",
+   "streams": [
+    {
+     "type": "kick",
+     "channel": "fissure_dota_en",
+     "lang": "en",
+     "official": false,
+     "label": "fissure_dota_en"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/legion_stack-vs-mouz-dota2-06-10-2026"
   },
   {
    "id": "bo3-129915",
@@ -713,6 +673,260 @@
    "url": "https://bo3.gg/dota2/matches/aurora-vs-1win-dota2-08-10-2026"
   },
   {
+   "id": "bo3-131216",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "MOUZ",
+   "teamB": "Nemiga Gaming",
+   "logoA": "https://files.bo3.gg/uploads/team/15032/image/webp-ccf33875876c94aec941e60f9b667dd0.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16398/image/webp-90e1f870359e4e1b66a83db6154b1bf8.webp",
+   "scoreA": 2,
+   "scoreB": 1,
+   "bo": 3,
+   "status": "finished",
+   "event": "PARI Universe: Closed Qualifier",
+   "tier": "A",
+   "startsAt": "2026-10-05T21:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "fissure_dota_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "fissure_dota_ru"
+    },
+    {
+     "type": "kick",
+     "channel": "fissure_dota_en",
+     "lang": "en",
+     "official": false,
+     "label": "fissure_dota_en"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/mouz-dota2-vs-nemiga-gaming-05-10-2026"
+  },
+  {
+   "id": "bo3-130778",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Aurora",
+   "teamB": "BetBoom",
+   "logoA": "https://files.bo3.gg/uploads/team/3598/image/webp-49b8df76b0d121cc89c760c1ec16ebea.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
+   "scoreA": 2,
+   "scoreB": 1,
+   "bo": 3,
+   "status": "finished",
+   "event": "ESL Pro League Season 24",
+   "tier": "S",
+   "startsAt": "2026-10-05T20:15:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcsb",
+     "lang": "en",
+     "official": true,
+     "label": "eslcsb"
+    },
+    {
+     "type": "youtube",
+     "id": "mT7EQFwIaZA",
+     "lang": "en",
+     "official": true,
+     "label": "ShindeN vs. G2 Esports - ESL Pro League Season 24 - Group Stage"
+    },
+    {
+     "type": "twitch",
+     "channel": "watchfultvb",
+     "lang": "ru",
+     "official": false,
+     "label": "watchfultvb"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_paragon_ru2",
+     "lang": "ru",
+     "official": false,
+     "label": "cs2_paragon_ru2"
+    }
+   ],
+   "url": "https://bo3.gg/matches/aurora-gaming-vs-betboom-team-05-10-2026"
+  },
+  {
+   "id": "bo3-130777",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Vitality",
+   "teamB": "Falcons",
+   "logoA": "https://files.bo3.gg/uploads/team/667/image/webp-292c1f6c6dcfca35c7a52da7e02cef0a.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/2713/image/webp-86fd5a0653183a19cf750d195963ea10.webp",
+   "scoreA": 2,
+   "scoreB": 1,
+   "bo": 3,
+   "status": "finished",
+   "event": "ESL Pro League Season 24",
+   "tier": "S",
+   "startsAt": "2026-10-05T19:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs"
+    },
+    {
+     "type": "youtube",
+     "id": "GWkVaZlFFRU",
+     "lang": "en",
+     "official": true,
+     "label": "PARIVISION vs. FURIA - ESL Pro League Season 24 - Group Stage"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "cs2_maincast"
+    },
+    {
+     "type": "twitch",
+     "channel": "ygamessk",
+     "lang": "sk",
+     "official": true,
+     "label": "ygamessk"
+    }
+   ],
+   "url": "https://bo3.gg/matches/vitality-vs-falcons-esports-05-10-2026"
+  },
+  {
+   "id": "bo3-130775",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Spirit",
+   "teamB": "MOUZ",
+   "logoA": "https://files.bo3.gg/uploads/team/654/image/webp-41b22d18a871d982f8ff87652bbb0fe6.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
+   "scoreA": 0,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "ESL Pro League Season 24",
+   "tier": "S",
+   "startsAt": "2026-10-05T17:20:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs"
+    },
+    {
+     "type": "youtube",
+     "id": "GWkVaZlFFRU",
+     "lang": "en",
+     "official": true,
+     "label": "PARIVISION vs. FURIA - ESL Pro League Season 24 - Group Stage"
+    },
+    {
+     "type": "kick",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "cs2_maincast"
+    }
+   ],
+   "url": "https://bo3.gg/matches/spirit-vs-mouz-cs2-05-10-2026"
+  },
+  {
+   "id": "bo3-130776",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "M80",
+   "teamB": "TYLOO",
+   "logoA": "https://files.bo3.gg/uploads/team/7430/image/webp-962834dcfa8bef22f2c4cbdbf777bfbf.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/757/image/17873415da0f03df35299283b43408d7.png",
+   "scoreA": 2,
+   "scoreB": 1,
+   "bo": 3,
+   "status": "finished",
+   "event": "ESL Pro League Season 24",
+   "tier": "S",
+   "startsAt": "2026-10-05T17:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcsb",
+     "lang": "en",
+     "official": true,
+     "label": "eslcsb"
+    },
+    {
+     "type": "youtube",
+     "id": "mT7EQFwIaZA",
+     "lang": "en",
+     "official": true,
+     "label": "ShindeN vs. G2 Esports - ESL Pro League Season 24 - Group Stage"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_paragon_ru2",
+     "lang": "ru",
+     "official": false,
+     "label": "cs2_paragon_ru2"
+    },
+    {
+     "type": "twitch",
+     "channel": "watchfultvb",
+     "lang": "ru",
+     "official": false,
+     "label": "watchfultvb"
+    }
+   ],
+   "url": "https://bo3.gg/matches/m80-cs-go-vs-tyloo-cs-go-05-10-2026"
+  },
+  {
+   "id": "bo3-131215",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "LEGION",
+   "teamB": "Blasterbl",
+   "logoA": "",
+   "logoB": "https://files.bo3.gg/uploads/team/23832/image/webp-df2c53f63dc50546636097d771a84d00.webp",
+   "scoreA": 2,
+   "scoreB": 1,
+   "bo": 3,
+   "status": "finished",
+   "event": "PARI Universe: Closed Qualifier",
+   "tier": "A",
+   "startsAt": "2026-10-05T17:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "fissure_dota_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "fissure_dota_ru"
+    },
+    {
+     "type": "kick",
+     "channel": "fissure_dota_en",
+     "lang": "en",
+     "official": false,
+     "label": "fissure_dota_en"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/legion_stack-vs-blasterbl-05-10-2026"
+  },
+  {
    "id": "bo3-130773",
    "game": "CS2",
    "gameKey": "cs2",
@@ -758,53 +972,6 @@
     }
    ],
    "url": "https://bo3.gg/matches/9z-vs-natus-vincere-05-10-2026"
-  },
-  {
-   "id": "bo3-130774",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Legacy",
-   "teamB": "1win",
-   "logoA": "https://files.bo3.gg/uploads/team/8118/image/webp-e4a3b023443f1f3ba4ef588164e73111.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/238/image/webp-6095482923ef3047986cef1e26fe80fa.webp",
-   "scoreA": 0,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "ESL Pro League Season 24",
-   "tier": "S",
-   "startsAt": "2026-10-05T14:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "keliencs",
-     "lang": "ru",
-     "official": true,
-     "label": "keliencs"
-    },
-    {
-     "type": "twitch",
-     "channel": "eslcsb",
-     "lang": "en",
-     "official": true,
-     "label": "eslcsb"
-    },
-    {
-     "type": "youtube",
-     "id": "mT7EQFwIaZA",
-     "lang": "en",
-     "official": true,
-     "label": "ShindeN vs. G2 Esports - ESL Pro League Season 24 - Group Stage"
-    },
-    {
-     "type": "twitch",
-     "channel": "bandurka",
-     "lang": "ru",
-     "official": false,
-     "label": "bandurka"
-    }
-   ],
-   "url": "https://bo3.gg/matches/legacy-br-vs-1win-05-10-2026"
   },
   {
    "id": "bo3-131214",
@@ -885,100 +1052,6 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/shopify-rebellion-lol-vs-jd-gaming-lol-05-10-2026"
-  },
-  {
-   "id": "bo3-130771",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "ShindeN",
-   "teamB": "G2",
-   "logoA": "https://files.bo3.gg/uploads/team/11174/image/webp-1b676d27e092ed8f1ad3c5d7efecb399.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/793/image/webp-8f844f6a25c797dfe74b411d147983ff.webp",
-   "scoreA": 0,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "ESL Pro League Season 24",
-   "tier": "S",
-   "startsAt": "2026-10-05T12:00:00+03:00",
-   "streams": [
-    {
-     "type": "kick",
-     "channel": "watchfultvb",
-     "lang": "ru",
-     "official": true,
-     "label": "watchfultvb"
-    },
-    {
-     "type": "twitch",
-     "channel": "eslcsb",
-     "lang": "en",
-     "official": true,
-     "label": "eslcsb"
-    },
-    {
-     "type": "youtube",
-     "id": "mT7EQFwIaZA",
-     "lang": "en",
-     "official": true,
-     "label": "ShindeN vs. G2 Esports - ESL Pro League Season 24 - Group Stage"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_paragon_ru2",
-     "lang": "ru",
-     "official": false,
-     "label": "cs2_paragon_ru2"
-    }
-   ],
-   "url": "https://bo3.gg/matches/shinden-vs-g2-05-10-2026"
-  },
-  {
-   "id": "bo3-130772",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "PARIVISION",
-   "teamB": "FURIA",
-   "logoA": "https://files.bo3.gg/uploads/team/8171/image/webp-735594256ca5670882480debe25ffb69.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
-   "scoreA": 1,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "ESL Pro League Season 24",
-   "tier": "S",
-   "startsAt": "2026-10-05T12:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs"
-    },
-    {
-     "type": "youtube",
-     "id": "GWkVaZlFFRU",
-     "lang": "en",
-     "official": true,
-     "label": "PARIVISION vs. FURIA - ESL Pro League Season 24 - Group Stage"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "cs2_maincast"
-    },
-    {
-     "type": "twitch",
-     "channel": "ygamessk",
-     "lang": "sk",
-     "official": true,
-     "label": "ygamessk"
-    }
-   ],
-   "url": "https://bo3.gg/matches/parivision-vs-furia-05-10-2026"
   },
   {
    "id": "bo3-129962",
@@ -1103,53 +1176,6 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/team-liquid-lol-vs-lyon-gaming-04-10-2026"
-  },
-  {
-   "id": "bo3-130769",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "BetBoom",
-   "teamB": "M80",
-   "logoA": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/7430/image/webp-962834dcfa8bef22f2c4cbdbf777bfbf.webp",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "ESL Pro League Season 24",
-   "tier": "S",
-   "startsAt": "2026-10-04T20:10:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcsb",
-     "lang": "en",
-     "official": true,
-     "label": "eslcsb"
-    },
-    {
-     "type": "twitch",
-     "channel": "fl0m",
-     "lang": "en",
-     "official": true,
-     "label": "fl0m"
-    },
-    {
-     "type": "twitch",
-     "channel": "watchfultv",
-     "lang": "ru",
-     "official": false,
-     "label": "watchfultv"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_paragon_ru2",
-     "lang": "ru",
-     "official": false,
-     "label": "cs2_paragon_ru2"
-    }
-   ],
-   "url": "https://bo3.gg/matches/betboom-team-vs-m80-cs-go-04-10-2026"
   },
   {
    "id": "bo3-130150",
@@ -1318,100 +1344,6 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/team-spirit-vs-team-yandex-03-10-2026"
-  },
-  {
-   "id": "bo3-130693",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "1w Team",
-   "teamB": "OG",
-   "logoA": "https://files.bo3.gg/uploads/team/15038/image/webp-9df00f89ea17c5d1512eff71fcbce70f.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16714/image/webp-cd2e61b09557041544426a7b536a0856.webp",
-   "scoreA": 2,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "finished",
-   "event": "BLAST Slam VIII",
-   "tier": "S",
-   "startsAt": "2026-10-03T18:10:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "betboom_dota_ru2",
-     "lang": "ru",
-     "official": true,
-     "label": "betboom_dota_ru2"
-    },
-    {
-     "type": "twitch",
-     "channel": "blastdotab",
-     "lang": "en",
-     "official": true,
-     "label": "blastdotab"
-    },
-    {
-     "type": "twitch",
-     "channel": "dota2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "dota2_maincast"
-    },
-    {
-     "type": "kick",
-     "channel": "americaesportsdota2",
-     "lang": "es",
-     "official": true,
-     "label": "americaesportsdota2"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/1win-dota2-vs-og-dota2-03-10-2026"
-  },
-  {
-   "id": "bo3-130694",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "PARIVISION",
-   "teamB": "Aurora Gaming",
-   "logoA": "https://files.bo3.gg/uploads/team/18604/image/webp-6ff7974f420e977381734ce06515692b.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/15143/image/webp-235f54dc6e1d478c8536240a49197cc4.webp",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "BLAST Slam VIII",
-   "tier": "S",
-   "startsAt": "2026-10-03T16:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "betboom_dota_ru2",
-     "lang": "ru",
-     "official": true,
-     "label": "betboom_dota_ru2"
-    },
-    {
-     "type": "twitch",
-     "channel": "blastdotab",
-     "lang": "en",
-     "official": true,
-     "label": "blastdotab"
-    },
-    {
-     "type": "twitch",
-     "channel": "dota2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "dota2_maincast"
-    },
-    {
-     "type": "twitch",
-     "channel": "koma",
-     "lang": "ru",
-     "official": false,
-     "label": "koma"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/parivision-dota2-vs-aurora-03-10-2026"
   },
   {
    "id": "bo3-129612",
@@ -1634,6 +1566,17 @@
    "url": "https://bo3.gg/tournaments/esl-pro-league-season-24"
   },
   {
+   "name": "LCS 2027 Promotion Tournament",
+   "game": "LoL",
+   "gameKey": "lol",
+   "tier": "S",
+   "prize": null,
+   "start": "2026-10-05",
+   "end": "2026-10-12",
+   "status": "current",
+   "url": "https://bo3.gg/lol/tournaments/lcs-2027-promotion-tournament"
+  },
+  {
    "name": "PARI Universe: Closed Qualifier",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -1643,17 +1586,6 @@
    "end": "2026-10-09",
    "status": "current",
    "url": "https://bo3.gg/dota2/tournaments/pari-universe-closed-qualifier"
-  },
-  {
-   "name": "LCS 2027 Promotion Tournament",
-   "game": "LoL",
-   "gameKey": "lol",
-   "tier": "S",
-   "prize": null,
-   "start": "2026-10-05",
-   "end": "2026-10-12",
-   "status": "upcoming",
-   "url": "https://bo3.gg/lol/tournaments/lcs-2027-promotion-tournament"
   },
   {
    "name": "Thunderpick World Championship 2026",
