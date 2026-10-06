@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-05T17:58:48+03:00",
+  "updatedAt": "2026-10-06T10:36:02+03:00",
   "source": "epic-promotions-api+curated",
-  "note": "Epic Free Games API (RU) + кураторский Steam/GOG/Prime (Amazon Luna).",
+  "note": "Epic Free Games API (RU) + кураторский Steam/GOG/Prime.",
   "items": [
     {
       "id": "epic-7ae00c3e89174012b175cc73b4737723",
@@ -9,12 +9,7 @@
       "title": "System Shock 2: 25th Anniversary Remaster",
       "until": "2026-10-08",
       "claimUrl": "https://store.epicgames.com/ru/p/system-shock-2-25th-anniversary-remaster-cb94d9",
-      "note": "Текущая раздача Epic",
-      "status": "now",
-      "startsAt": "2026-10-01T18:00:00+03:00",
-      "endsAt": "2026-10-08T18:00:00+03:00",
-      "price_rub": 899,
-      "image": "https://cdn1.epicgames.com/spt-assets/690ff600d5134d9ab12c96862ed5257a/system-shock-2-25th-anniversary-remaster-1e28j.jpg"
+      "note": "Текущая раздача Epic"
     },
     {
       "id": "epic-af4c34934afe4db0870b8a1d82dceb94",
@@ -22,12 +17,7 @@
       "title": "BURIED STARS",
       "until": "2026-10-08",
       "claimUrl": "https://store.epicgames.com/ru/p/buried-stars-d7c88c",
-      "note": "Текущая раздача Epic",
-      "status": "now",
-      "startsAt": "2026-10-01T18:00:00+03:00",
-      "endsAt": "2026-10-08T18:00:00+03:00",
-      "price_rub": 1500,
-      "image": "https://cdn1.epicgames.com/spt-assets/e2dc55c2709641a18fc37ef7ce32cfdd/buried-stars-1j9of.jpg"
+      "note": "Текущая раздача Epic"
     },
     {
       "id": "epic-cb733f3432db46bca94965b422c33ede",
@@ -35,12 +25,7 @@
       "title": "Out of Sight",
       "until": "2026-10-15",
       "claimUrl": "https://store.epicgames.com/ru/p/out-of-sight-b96ca8",
-      "note": "Скоро бесплатно на Epic",
-      "status": "upcoming",
-      "startsAt": "2026-10-08T18:00:00+03:00",
-      "endsAt": "2026-10-15T18:00:00+03:00",
-      "price_rub": 639,
-      "image": "https://cdn1.epicgames.com/spt-assets/6e1bf54cfa6344c89d41e4e7af036ac9/out-of-sight-1l12n.jpg"
+      "note": "Скоро бесплатно на Epic"
     },
     {
       "id": "epic-af6b823b8698465f9aedc3bddf2e8686",
@@ -48,12 +33,7 @@
       "title": "TerraScape",
       "until": "2026-10-15",
       "claimUrl": "https://store.epicgames.com/ru/p/terrascape-2b12b1",
-      "note": "Скоро бесплатно на Epic",
-      "status": "upcoming",
-      "startsAt": "2026-10-08T18:00:00+03:00",
-      "endsAt": "2026-10-15T18:00:00+03:00",
-      "price_rub": 509,
-      "image": "https://cdn1.epicgames.com/spt-assets/a740a2eed807469f88b9dff17e7cd3a3/terrascape-j7p8d.png"
+      "note": "Скоро бесплатно на Epic"
     },
     {
       "id": "steam-f2p-always",
@@ -73,11 +53,11 @@
     },
     {
       "id": "prime-2026-10",
-      "store": "Amazon Luna (Prime)",
-      "title": "Free Games with Prime — игры месяца",
+      "store": "Prime Gaming",
+      "title": "Prime Gaming monthly drop",
       "until": "2026-10-31",
-      "claimUrl": "https://luna.amazon.com/claims/home",
-      "note": "Требуется подписка Amazon Prime, набор игр зависит от страны"
+      "claimUrl": "https://gaming.amazon.com/",
+      "note": "Требуется подписка Amazon Prime"
     }
   ]
 }
