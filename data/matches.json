@@ -1,401 +1,7 @@
 {
- "updatedAt": "2026-10-06T19:18:02+03:00",
+ "updatedAt": "2026-10-07T01:48:54+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-130781",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "9z",
-   "teamB": "BetBoom",
-   "logoA": "https://files.bo3.gg/uploads/team/324/image/webp-847d6324439266b5de80bcb2e23fa38e.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
-   "scoreA": 1,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "ESL Pro League Season 24",
-   "tier": "S",
-   "startsAt": "2026-10-06T17:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcsb",
-     "lang": "en",
-     "official": true,
-     "label": "eslcsb"
-    },
-    {
-     "type": "twitch",
-     "channel": "bysl4m",
-     "lang": "ru",
-     "official": false,
-     "label": "bysl4m"
-    },
-    {
-     "type": "twitch",
-     "channel": "watchfultv",
-     "lang": "ru",
-     "official": false,
-     "label": "watchfultv"
-    },
-    {
-     "type": "twitch",
-     "channel": "sashacheer",
-     "lang": "ru",
-     "official": false,
-     "label": "sashacheer"
-    }
-   ],
-   "url": "https://bo3.gg/matches/9z-vs-betboom-team-06-10-2026"
-  },
-  {
-   "id": "bo3-131219",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Team Synapse",
-   "teamB": "Yellow Submarine",
-   "logoA": "https://files.bo3.gg/uploads/team/25201/image/webp-f4b3c164debad1ea4885652e123df7ce.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16486/image/webp-db8fb0a62365deefa26db24e4fb46f10.webp",
-   "scoreA": 1,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "PARI Universe: Closed Qualifier",
-   "tier": "A",
-   "startsAt": "2026-10-06T17:35:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "afoninje",
-     "lang": "ru",
-     "official": false,
-     "label": "afoninje"
-    },
-    {
-     "type": "twitch",
-     "channel": "fissure_dota_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "fissure_dota_ru"
-    },
-    {
-     "type": "youtube",
-     "id": "DbwVPEng1Ns",
-     "lang": "ru",
-     "official": false,
-     "label": "PARI UNIVERSE — Closed Qualifiers — День 4"
-    },
-    {
-     "type": "kick",
-     "channel": "fissure_dota_en",
-     "lang": "en",
-     "official": false,
-     "label": "fissure_dota_en"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/team-synapse-vs-yellow-submarine-06-10-2026"
-  },
-  {
-   "id": "bo3-130782",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "FURIA",
-   "teamB": "Aurora",
-   "logoA": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/3598/image/webp-49b8df76b0d121cc89c760c1ec16ebea.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "ESL Pro League Season 24",
-   "tier": "S",
-   "startsAt": "2026-10-06T18:40:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs"
-    },
-    {
-     "type": "twitch",
-     "channel": "fl0m",
-     "lang": "en",
-     "official": true,
-     "label": "fl0m"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "cs2_maincast"
-    },
-    {
-     "type": "youtube",
-     "id": "fpMbrEEkTNQ",
-     "lang": "uk",
-     "official": true,
-     "label": "CS2 Maincast"
-    }
-   ],
-   "url": "https://bo3.gg/matches/furia-vs-aurora-gaming-06-10-2026"
-  },
-  {
-   "id": "bo3-130155",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Solary",
-   "teamB": "Valerion",
-   "logoA": "https://files.bo3.gg/uploads/team/17873/image/webp-a6742d2c85704c67343708118974ab77.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/24645/image/webp-2aede1fcf1bde83d0c483607b127eba5.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "live",
-   "event": "EMEA Masters 2026 Summer",
-   "tier": "A",
-   "startsAt": "2026-10-06T19:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "lec",
-     "lang": "en",
-     "official": true,
-     "label": "lec",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/solary-lol-vs-valerion-06-10-2026"
-  },
-  {
-   "id": "bo3-130154",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Movistar KOI Fénix",
-   "teamB": "Frites Esports Club",
-   "logoA": "https://files.bo3.gg/uploads/team/20584/image/webp-720376d119e3a90822f0a7f2695ee5de.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/22314/image/webp-a66125f021761eb89d2f178fd779c2ee.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "live",
-   "event": "EMEA Masters 2026 Summer",
-   "tier": "A",
-   "startsAt": "2026-10-06T19:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "lec",
-     "lang": "en",
-     "official": true,
-     "label": "lec",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/movistar-koi-fenix-vs-frites-esports-club-06-10-2026"
-  },
-  {
-   "id": "bo3-130156",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Galions",
-   "teamB": "BIG",
-   "logoA": "https://files.bo3.gg/uploads/team/18886/image/webp-568919094985d17bf24eebffb2a5fb46.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17553/image/webp-5000071f6548c80e9661d12b0c64c9bc.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "live",
-   "event": "EMEA Masters 2026 Summer",
-   "tier": "A",
-   "startsAt": "2026-10-06T19:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "lec",
-     "lang": "en",
-     "official": true,
-     "label": "lec",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/galions-vs-berlin-international-gaming-06-10-2026"
-  },
-  {
-   "id": "bo3-130153",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "TLN Pirates",
-   "teamB": "Bushido Wildcats",
-   "logoA": "https://files.bo3.gg/uploads/team/22371/image/webp-35753cd0e1196e634d4c3c16d4419e02.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/18972/image/webp-b31d8da308264cee39688405c6d89b24.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "live",
-   "event": "EMEA Masters 2026 Summer",
-   "tier": "A",
-   "startsAt": "2026-10-06T19:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "lec",
-     "lang": "en",
-     "official": true,
-     "label": "lec",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/tln-pirates-vs-bushido-wildcats-06-10-2026"
-  },
-  {
-   "id": "bo3-130784",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Legacy",
-   "teamB": "M80",
-   "logoA": "https://files.bo3.gg/uploads/team/8118/image/webp-e4a3b023443f1f3ba4ef588164e73111.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/7430/image/webp-962834dcfa8bef22f2c4cbdbf777bfbf.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "ESL Pro League Season 24",
-   "tier": "S",
-   "startsAt": "2026-10-06T20:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcsb",
-     "lang": "en",
-     "official": true,
-     "label": "eslcsb"
-    },
-    {
-     "type": "twitch",
-     "channel": "watchfultvb",
-     "lang": "ru",
-     "official": false,
-     "label": "watchfultvb"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_paragon_ru2",
-     "lang": "ru",
-     "official": false,
-     "label": "cs2_paragon_ru2"
-    },
-    {
-     "type": "kick",
-     "channel": "eslcsb",
-     "lang": "en",
-     "official": false,
-     "label": "eslcsb"
-    }
-   ],
-   "url": "https://bo3.gg/matches/legacy-br-vs-m80-cs-go-06-10-2026"
-  },
-  {
-   "id": "bo3-130783",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Falcons",
-   "teamB": "Natus Vincere",
-   "logoA": "https://files.bo3.gg/uploads/team/2713/image/webp-86fd5a0653183a19cf750d195963ea10.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/787/image/webp-ea9885f81f1572c7a6c9fb6cbf747c99.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "ESL Pro League Season 24",
-   "tier": "S",
-   "startsAt": "2026-10-06T20:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "cs2_maincast"
-    },
-    {
-     "type": "youtube",
-     "id": "fpMbrEEkTNQ",
-     "lang": "uk",
-     "official": true,
-     "label": "CS2 Maincast"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_paragon_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "cs2_paragon_ru"
-    }
-   ],
-   "url": "https://bo3.gg/matches/falcons-esports-vs-natus-vincere-06-10-2026"
-  },
-  {
-   "id": "bo3-131220",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "LEGION",
-   "teamB": "MOUZ",
-   "logoA": "",
-   "logoB": "https://files.bo3.gg/uploads/team/15032/image/webp-ccf33875876c94aec941e60f9b667dd0.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "PARI Universe: Closed Qualifier",
-   "tier": "A",
-   "startsAt": "2026-10-06T20:00:00+03:00",
-   "streams": [
-    {
-     "type": "youtube",
-     "id": "DbwVPEng1Ns",
-     "lang": "ru",
-     "official": false,
-     "label": "PARI UNIVERSE — Closed Qualifiers — День 4"
-    },
-    {
-     "type": "kick",
-     "channel": "fissure_dota_en",
-     "lang": "en",
-     "official": false,
-     "label": "fissure_dota_en"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/legion_stack-vs-mouz-dota2-06-10-2026"
-  },
-  {
-   "id": "bo3-129912",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Estral Esports",
-   "teamB": "KaBuM! Ilha das Lendas",
-   "logoA": "https://files.bo3.gg/uploads/team/17258/image/webp-1005099ed8e63fc9456a77b1c399509c.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/20354/image/webp-19ea976e9837db49b667c8177f026b5c.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "upcoming",
-   "event": "CBLOL 2027 Promotion Tournament",
-   "tier": "S",
-   "startsAt": "2026-10-07T00:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/lol/matches/estral-esports-vs-kabum-ilha-das-lendas-06-10-2026"
-  },
   {
    "id": "bo3-129915",
    "game": "LoL",
@@ -404,10 +10,10 @@
    "teamB": "Fuego",
    "logoA": "https://files.bo3.gg/uploads/team/20536/image/webp-e18458ba617ae301479bb062c0c58ca1.webp",
    "logoB": "https://files.bo3.gg/uploads/team/17813/image/webp-328393694384e3bd7e6e8c4fe59ee344.webp",
-   "scoreA": 0,
+   "scoreA": 2,
    "scoreB": 0,
    "bo": 5,
-   "status": "upcoming",
+   "status": "live",
    "event": "LCS 2027 Promotion Tournament",
    "tier": "S",
    "startsAt": "2026-10-07T00:00:00+03:00",
@@ -422,6 +28,24 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/cupid-vs-fuego-lol-06-10-2026"
+  },
+  {
+   "id": "bo3-129912",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Estral Esports",
+   "teamB": "KaBuM! Ilha das Lendas",
+   "logoA": "https://files.bo3.gg/uploads/team/17258/image/webp-1005099ed8e63fc9456a77b1c399509c.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/20354/image/webp-19ea976e9837db49b667c8177f026b5c.webp",
+   "scoreA": 0,
+   "scoreB": 2,
+   "bo": 5,
+   "status": "live",
+   "event": "CBLOL 2027 Promotion Tournament",
+   "tier": "S",
+   "startsAt": "2026-10-07T00:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/lol/matches/estral-esports-vs-kabum-ilha-das-lendas-06-10-2026"
   },
   {
    "id": "bo3-129968",
@@ -440,6 +64,32 @@
    "startsAt": "2026-10-07T10:00:00+03:00",
    "streams": [],
    "url": "https://bo3.gg/lol/matches/gam-esports-vs-flyquest-lol-07-10-2026"
+  },
+  {
+   "id": "bo3-131223",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Yellow Submarine",
+   "teamB": "Blasterbl",
+   "logoA": "https://files.bo3.gg/uploads/team/16486/image/webp-db8fb0a62365deefa26db24e4fb46f10.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/23832/image/webp-df2c53f63dc50546636097d771a84d00.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PARI Universe: Closed Qualifier",
+   "tier": "A",
+   "startsAt": "2026-10-07T12:00:00+03:00",
+   "streams": [
+    {
+     "type": "kick",
+     "channel": "fissure_dota_en",
+     "lang": "en",
+     "official": false,
+     "label": "fissure_dota_en"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/yellow-submarine-vs-blasterbl-07-10-2026"
   },
   {
    "id": "bo3-129622",
@@ -505,6 +155,59 @@
    "url": "https://bo3.gg/lol/matches/flyquest-lol-vs-shopify-rebellion-lol-07-10-2026"
   },
   {
+   "id": "bo3-130786",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "FURIA",
+   "teamB": "9z",
+   "logoA": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/324/image/webp-847d6324439266b5de80bcb2e23fa38e.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "ESL Pro League Season 24",
+   "tier": "S",
+   "startsAt": "2026-10-07T15:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/furia-vs-9z-07-10-2026"
+  },
+  {
+   "id": "bo3-131221",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "MOUZ",
+   "teamB": "CyberHero",
+   "logoA": "https://files.bo3.gg/uploads/team/15032/image/webp-ccf33875876c94aec941e60f9b667dd0.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/25398/image/webp-8560e60c7b3b107d8fa95472b1bc5ee5.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PARI Universe: Closed Qualifier",
+   "tier": "A",
+   "startsAt": "2026-10-07T15:00:00+03:00",
+   "streams": [
+    {
+     "type": "kick",
+     "channel": "fissure_dota_en",
+     "lang": "en",
+     "official": false,
+     "label": "fissure_dota_en"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/mouz-dota2-vs-cyberhero-07-10-2026"
+  },
+  {
    "id": "bo3-129623",
    "game": "Valorant",
    "gameKey": "valorant",
@@ -532,6 +235,86 @@
    "url": "https://bo3.gg/valorant/matches/paper-rex-1-vs-loud-07-10-2026"
   },
   {
+   "id": "bo3-130787",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "PARIVISION",
+   "teamB": "Natus Vincere",
+   "logoA": "https://files.bo3.gg/uploads/team/8171/image/webp-735594256ca5670882480debe25ffb69.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/787/image/webp-ea9885f81f1572c7a6c9fb6cbf747c99.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "ESL Pro League Season 24",
+   "tier": "S",
+   "startsAt": "2026-10-07T17:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/parivision-vs-natus-vincere-07-10-2026"
+  },
+  {
+   "id": "bo3-131222",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Team Synapse",
+   "teamB": "LEGION",
+   "logoA": "https://files.bo3.gg/uploads/team/25201/image/webp-f4b3c164debad1ea4885652e123df7ce.webp",
+   "logoB": "",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PARI Universe: Closed Qualifier",
+   "tier": "A",
+   "startsAt": "2026-10-07T18:00:00+03:00",
+   "streams": [
+    {
+     "type": "kick",
+     "channel": "fissure_dota_en",
+     "lang": "en",
+     "official": false,
+     "label": "fissure_dota_en"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/team-synapse-vs-legion_stack-07-10-2026"
+  },
+  {
+   "id": "bo3-130159",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Karmine Corp Blue",
+   "teamB": "Skillcamp Esport",
+   "logoA": "https://files.bo3.gg/uploads/team/17288/image/webp-4390b6f0aa457cda5309f3bb4b2726f1.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/18323/image/webp-af0dd0bf42e9ed4cb12916f36fe8afe7.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "upcoming",
+   "event": "EMEA Masters 2026 Summer",
+   "tier": "A",
+   "startsAt": "2026-10-07T19:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "lec",
+     "lang": "en",
+     "official": true,
+     "label": "lec",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/karmine-corp-blue-vs-skillcamp-esport-07-10-2026"
+  },
+  {
    "id": "bo3-130158",
    "game": "LoL",
    "gameKey": "lol",
@@ -557,6 +340,114 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/anubis-gaming-lol-vs-ruddy-corporation-07-10-2026"
+  },
+  {
+   "id": "bo3-130160",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Los Heretics",
+   "teamB": "G2 NORD",
+   "logoA": "https://files.bo3.gg/uploads/team/16945/image/webp-32313f985ed38f5ececb54deb23e6401.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/22411/image/webp-54b508d344cb88ac42ea9511125dc931.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "upcoming",
+   "event": "EMEA Masters 2026 Summer",
+   "tier": "A",
+   "startsAt": "2026-10-07T19:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "lec",
+     "lang": "en",
+     "official": true,
+     "label": "lec",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/team-heretics-academy-vs-g2-nord-07-10-2026"
+  },
+  {
+   "id": "bo3-130157",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Kaufland Hangry Knights",
+   "teamB": "Unicorns Of Love Sexy Edition",
+   "logoA": "https://files.bo3.gg/uploads/team/16963/image/webp-6e5f7fde1aca00e1c3b218c2879529bc.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17414/image/webp-38ba6308ee72289895d3a5e7da5db211.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "upcoming",
+   "event": "EMEA Masters 2026 Summer",
+   "tier": "A",
+   "startsAt": "2026-10-07T19:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "lec",
+     "lang": "en",
+     "official": true,
+     "label": "lec",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/kaufland-hangry-knights-vs-unicorns-of-love-sexy-edition-07-10-2026"
+  },
+  {
+   "id": "bo3-130785",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Spirit",
+   "teamB": "M80",
+   "logoA": "https://files.bo3.gg/uploads/team/654/image/webp-41b22d18a871d982f8ff87652bbb0fe6.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/7430/image/webp-962834dcfa8bef22f2c4cbdbf777bfbf.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "ESL Pro League Season 24",
+   "tier": "S",
+   "startsAt": "2026-10-07T20:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/spirit-vs-m80-cs-go-07-10-2026"
+  },
+  {
+   "id": "bo3-129916",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Disguised",
+   "teamB": "Maryville University",
+   "logoA": "https://files.bo3.gg/uploads/team/16807/image/webp-278887bb5c94629cadbc4b931bb6907c.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17077/image/webp-1443fc9372a43abeca3d806c3cbef0ea.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "upcoming",
+   "event": "LCS 2027 Promotion Tournament",
+   "tier": "S",
+   "startsAt": "2026-10-08T00:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "riotgames",
+     "lang": "en",
+     "official": true,
+     "label": "riotgames",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/disguised-lol-vs-maryville-university-07-10-2026"
   },
   {
    "id": "bo3-130696",
@@ -667,6 +558,389 @@
    "url": "https://bo3.gg/dota2/matches/aurora-vs-1win-dota2-08-10-2026"
   },
   {
+   "id": "bo3-130783",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Falcons",
+   "teamB": "Natus Vincere",
+   "logoA": "https://files.bo3.gg/uploads/team/2713/image/webp-86fd5a0653183a19cf750d195963ea10.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/787/image/webp-ea9885f81f1572c7a6c9fb6cbf747c99.webp",
+   "scoreA": 2,
+   "scoreB": 1,
+   "bo": 3,
+   "status": "finished",
+   "event": "ESL Pro League Season 24",
+   "tier": "S",
+   "startsAt": "2026-10-06T22:05:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "cs2_maincast"
+    },
+    {
+     "type": "youtube",
+     "id": "fpMbrEEkTNQ",
+     "lang": "uk",
+     "official": true,
+     "label": "CS2 Maincast"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_paragon_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "cs2_paragon_ru"
+    }
+   ],
+   "url": "https://bo3.gg/matches/falcons-esports-vs-natus-vincere-06-10-2026"
+  },
+  {
+   "id": "bo3-131220",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "LEGION",
+   "teamB": "MOUZ",
+   "logoA": "",
+   "logoB": "https://files.bo3.gg/uploads/team/15032/image/webp-ccf33875876c94aec941e60f9b667dd0.webp",
+   "scoreA": 2,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "finished",
+   "event": "PARI Universe: Closed Qualifier",
+   "tier": "A",
+   "startsAt": "2026-10-06T20:20:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "fissure_dota_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "fissure_dota_ru"
+    },
+    {
+     "type": "youtube",
+     "id": "DbwVPEng1Ns",
+     "lang": "ru",
+     "official": false,
+     "label": "PARI UNIVERSE — Closed Qualifiers — День 4"
+    },
+    {
+     "type": "kick",
+     "channel": "fissure_dota_en",
+     "lang": "en",
+     "official": false,
+     "label": "fissure_dota_en"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/legion_stack-vs-mouz-dota2-06-10-2026"
+  },
+  {
+   "id": "bo3-130784",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Legacy",
+   "teamB": "M80",
+   "logoA": "https://files.bo3.gg/uploads/team/8118/image/webp-e4a3b023443f1f3ba4ef588164e73111.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/7430/image/webp-962834dcfa8bef22f2c4cbdbf777bfbf.webp",
+   "scoreA": 1,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "ESL Pro League Season 24",
+   "tier": "S",
+   "startsAt": "2026-10-06T20:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcsb",
+     "lang": "en",
+     "official": true,
+     "label": "eslcsb"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_paragon_ru2",
+     "lang": "ru",
+     "official": false,
+     "label": "cs2_paragon_ru2"
+    },
+    {
+     "type": "twitch",
+     "channel": "watchfultvb",
+     "lang": "ru",
+     "official": false,
+     "label": "watchfultvb"
+    },
+    {
+     "type": "youtube",
+     "id": "7cCU8tarIgk",
+     "lang": "en",
+     "official": false,
+     "label": "Team Spirit vs. 1WIN - ESL Pro League Season 24 - Group Stage"
+    }
+   ],
+   "url": "https://bo3.gg/matches/legacy-br-vs-m80-cs-go-06-10-2026"
+  },
+  {
+   "id": "bo3-130154",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Movistar KOI Fénix",
+   "teamB": "Frites Esports Club",
+   "logoA": "https://files.bo3.gg/uploads/team/20584/image/webp-720376d119e3a90822f0a7f2695ee5de.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/22314/image/webp-a66125f021761eb89d2f178fd779c2ee.webp",
+   "scoreA": 3,
+   "scoreB": 1,
+   "bo": 5,
+   "status": "finished",
+   "event": "EMEA Masters 2026 Summer",
+   "tier": "A",
+   "startsAt": "2026-10-06T19:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "lec",
+     "lang": "en",
+     "official": true,
+     "label": "lec",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/movistar-koi-fenix-vs-frites-esports-club-06-10-2026"
+  },
+  {
+   "id": "bo3-130155",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Solary",
+   "teamB": "Valerion",
+   "logoA": "https://files.bo3.gg/uploads/team/17873/image/webp-a6742d2c85704c67343708118974ab77.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/24645/image/webp-2aede1fcf1bde83d0c483607b127eba5.webp",
+   "scoreA": 3,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "finished",
+   "event": "EMEA Masters 2026 Summer",
+   "tier": "A",
+   "startsAt": "2026-10-06T19:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "lec",
+     "lang": "en",
+     "official": true,
+     "label": "lec",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/solary-lol-vs-valerion-06-10-2026"
+  },
+  {
+   "id": "bo3-130156",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Galions",
+   "teamB": "BIG",
+   "logoA": "https://files.bo3.gg/uploads/team/18886/image/webp-568919094985d17bf24eebffb2a5fb46.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17553/image/webp-5000071f6548c80e9661d12b0c64c9bc.webp",
+   "scoreA": 3,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "finished",
+   "event": "EMEA Masters 2026 Summer",
+   "tier": "A",
+   "startsAt": "2026-10-06T19:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "lec",
+     "lang": "en",
+     "official": true,
+     "label": "lec",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/galions-vs-berlin-international-gaming-06-10-2026"
+  },
+  {
+   "id": "bo3-130153",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "TLN Pirates",
+   "teamB": "Bushido Wildcats",
+   "logoA": "https://files.bo3.gg/uploads/team/22371/image/webp-35753cd0e1196e634d4c3c16d4419e02.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/18972/image/webp-b31d8da308264cee39688405c6d89b24.webp",
+   "scoreA": 3,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "finished",
+   "event": "EMEA Masters 2026 Summer",
+   "tier": "A",
+   "startsAt": "2026-10-06T19:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "lec",
+     "lang": "en",
+     "official": true,
+     "label": "lec",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/tln-pirates-vs-bushido-wildcats-06-10-2026"
+  },
+  {
+   "id": "bo3-130782",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "FURIA",
+   "teamB": "Aurora",
+   "logoA": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/3598/image/webp-49b8df76b0d121cc89c760c1ec16ebea.webp",
+   "scoreA": 1,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "ESL Pro League Season 24",
+   "tier": "S",
+   "startsAt": "2026-10-06T18:40:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs"
+    },
+    {
+     "type": "twitch",
+     "channel": "fl0m",
+     "lang": "en",
+     "official": true,
+     "label": "fl0m"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "cs2_maincast"
+    },
+    {
+     "type": "youtube",
+     "id": "fpMbrEEkTNQ",
+     "lang": "uk",
+     "official": true,
+     "label": "CS2 Maincast"
+    }
+   ],
+   "url": "https://bo3.gg/matches/furia-vs-aurora-gaming-06-10-2026"
+  },
+  {
+   "id": "bo3-131219",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Team Synapse",
+   "teamB": "Yellow Submarine",
+   "logoA": "https://files.bo3.gg/uploads/team/25201/image/webp-f4b3c164debad1ea4885652e123df7ce.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16486/image/webp-db8fb0a62365deefa26db24e4fb46f10.webp",
+   "scoreA": 2,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "finished",
+   "event": "PARI Universe: Closed Qualifier",
+   "tier": "A",
+   "startsAt": "2026-10-06T17:35:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "afoninje",
+     "lang": "ru",
+     "official": false,
+     "label": "afoninje"
+    },
+    {
+     "type": "twitch",
+     "channel": "fissure_dota_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "fissure_dota_ru"
+    },
+    {
+     "type": "youtube",
+     "id": "DbwVPEng1Ns",
+     "lang": "ru",
+     "official": false,
+     "label": "PARI UNIVERSE — Closed Qualifiers — День 4"
+    },
+    {
+     "type": "kick",
+     "channel": "fissure_dota_en",
+     "lang": "en",
+     "official": false,
+     "label": "fissure_dota_en"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/team-synapse-vs-yellow-submarine-06-10-2026"
+  },
+  {
+   "id": "bo3-130781",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "9z",
+   "teamB": "BetBoom",
+   "logoA": "https://files.bo3.gg/uploads/team/324/image/webp-847d6324439266b5de80bcb2e23fa38e.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
+   "scoreA": 2,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "finished",
+   "event": "ESL Pro League Season 24",
+   "tier": "S",
+   "startsAt": "2026-10-06T17:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcsb",
+     "lang": "en",
+     "official": true,
+     "label": "eslcsb"
+    },
+    {
+     "type": "twitch",
+     "channel": "bysl4m",
+     "lang": "ru",
+     "official": false,
+     "label": "bysl4m"
+    },
+    {
+     "type": "twitch",
+     "channel": "watchfultv",
+     "lang": "ru",
+     "official": false,
+     "label": "watchfultv"
+    },
+    {
+     "type": "twitch",
+     "channel": "sashacheer",
+     "lang": "ru",
+     "official": false,
+     "label": "sashacheer"
+    }
+   ],
+   "url": "https://bo3.gg/matches/9z-vs-betboom-team-06-10-2026"
+  },
+  {
    "id": "bo3-131218",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -761,53 +1035,6 @@
    "url": "https://bo3.gg/matches/spirit-vs-1win-06-10-2026"
   },
   {
-   "id": "bo3-130780",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "G2",
-   "teamB": "PARIVISION",
-   "logoA": "https://files.bo3.gg/uploads/team/793/image/webp-8f844f6a25c797dfe74b411d147983ff.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/8171/image/webp-735594256ca5670882480debe25ffb69.webp",
-   "scoreA": 1,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "ESL Pro League Season 24",
-   "tier": "S",
-   "startsAt": "2026-10-06T15:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "cs2_maincast"
-    },
-    {
-     "type": "youtube",
-     "id": "fpMbrEEkTNQ",
-     "lang": "uk",
-     "official": true,
-     "label": "CS2 Maincast"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_paragon_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "cs2_paragon_ru"
-    }
-   ],
-   "url": "https://bo3.gg/matches/g2-vs-parivision-06-10-2026"
-  },
-  {
    "id": "bo3-129966",
    "game": "LoL",
    "gameKey": "lol",
@@ -853,53 +1080,6 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/jd-gaming-lol-vs-lgd-gaming-lol-06-10-2026"
-  },
-  {
-   "id": "bo3-129967",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Team Vitality",
-   "teamB": "RED Canids",
-   "logoA": "https://files.bo3.gg/uploads/team/18129/image/webp-1aaa770c459310fd370010f320759069.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/18103/image/webp-8436f0485803eb0ea176e803f890d001.webp",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "Demacia Cup Global Invitational 2026",
-   "tier": "S",
-   "startsAt": "2026-10-06T12:40:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "otplol_",
-     "lang": "fr",
-     "official": true,
-     "label": "otplol_"
-    },
-    {
-     "type": "twitch",
-     "channel": "makariagaming",
-     "lang": "hu",
-     "official": true,
-     "label": "makariagaming"
-    },
-    {
-     "type": "twitch",
-     "channel": "tl_nero",
-     "lang": "el",
-     "official": true,
-     "label": "tl_nero"
-    },
-    {
-     "type": "twitch",
-     "channel": "nervarien",
-     "lang": "pl",
-     "official": true,
-     "label": "nervarien"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/team-vitality-lol-vs-red-canids-lol-06-10-2026"
   },
   {
    "id": "bo3-131217",
@@ -949,106 +1129,6 @@
    "url": "https://bo3.gg/dota2/matches/l1ga-team-vs-cyberhero-06-10-2026"
   },
   {
-   "id": "bo3-129965",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Hanjin BRION",
-   "teamB": "Natus Vincere",
-   "logoA": "https://files.bo3.gg/uploads/team/20350/image/webp-1f766f1b17620a98a081017768138f25.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17800/image/webp-b5ee3195df266b0408b0614ade0e387c.webp",
-   "scoreA": 2,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "finished",
-   "event": "Demacia Cup Global Invitational 2026",
-   "tier": "S",
-   "startsAt": "2026-10-06T10:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "makariagaming",
-     "lang": "hu",
-     "official": true,
-     "label": "makariagaming"
-    },
-    {
-     "type": "twitch",
-     "channel": "nervarien",
-     "lang": "pl",
-     "official": true,
-     "label": "nervarien"
-    },
-    {
-     "type": "twitch",
-     "channel": "lplenglish",
-     "lang": "en",
-     "official": false,
-     "label": "lplenglish"
-    },
-    {
-     "type": "youtube",
-     "id": "O-ZSU4tvJRU",
-     "lang": "en",
-     "official": false,
-     "label": "Demacia Cup Global Invitational 2026 | Swiss Day 4 | !casters !production"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/hanjin-brion-vs-natus-vincere-lol-06-10-2026"
-  },
-  {
-   "id": "bo3-129911",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "9z Globant",
-   "teamB": "KaBuM! Ilha das Lendas",
-   "logoA": "https://files.bo3.gg/uploads/team/17052/image/webp-4a9604a546a23b2b0c5e1982a4c70f4e.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/20354/image/webp-19ea976e9837db49b667c8177f026b5c.webp",
-   "scoreA": 1,
-   "scoreB": 3,
-   "bo": 5,
-   "status": "finished",
-   "event": "CBLOL 2027 Promotion Tournament",
-   "tier": "S",
-   "startsAt": "2026-10-06T00:00:00+03:00",
-   "streams": [
-    {
-     "type": "youtube",
-     "id": "pYMOzj8pva8",
-     "lang": "pt",
-     "official": false,
-     "label": "KBM x 9ZG | CBLOL 2027 - Torneio de Promoção | Dia 4 (Md5)"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/kabum-ilha-das-lendas-vs-9z-globant-05-10-2026"
-  },
-  {
-   "id": "bo3-129914",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Maryville University",
-   "teamB": "Zeu5 Esports",
-   "logoA": "https://files.bo3.gg/uploads/team/17077/image/webp-1443fc9372a43abeca3d806c3cbef0ea.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/20524/image/webp-07eb040d8d83f710ef71381552394e61.webp",
-   "scoreA": 3,
-   "scoreB": 1,
-   "bo": 5,
-   "status": "finished",
-   "event": "LCS 2027 Promotion Tournament",
-   "tier": "S",
-   "startsAt": "2026-10-06T00:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "riotgames",
-     "lang": "en",
-     "official": true,
-     "label": "riotgames",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/maryville-university-vs-zeu5-esports-05-10-2026"
-  },
-  {
    "id": "bo3-131216",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -1080,213 +1160,6 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/mouz-dota2-vs-nemiga-gaming-05-10-2026"
-  },
-  {
-   "id": "bo3-130778",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Aurora",
-   "teamB": "BetBoom",
-   "logoA": "https://files.bo3.gg/uploads/team/3598/image/webp-49b8df76b0d121cc89c760c1ec16ebea.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
-   "scoreA": 2,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "finished",
-   "event": "ESL Pro League Season 24",
-   "tier": "S",
-   "startsAt": "2026-10-05T20:15:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcsb",
-     "lang": "en",
-     "official": true,
-     "label": "eslcsb"
-    },
-    {
-     "type": "youtube",
-     "id": "mT7EQFwIaZA",
-     "lang": "en",
-     "official": true,
-     "label": "ShindeN vs. G2 Esports - ESL Pro League Season 24 - Group Stage"
-    },
-    {
-     "type": "twitch",
-     "channel": "watchfultvb",
-     "lang": "ru",
-     "official": false,
-     "label": "watchfultvb"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_paragon_ru2",
-     "lang": "ru",
-     "official": false,
-     "label": "cs2_paragon_ru2"
-    }
-   ],
-   "url": "https://bo3.gg/matches/aurora-gaming-vs-betboom-team-05-10-2026"
-  },
-  {
-   "id": "bo3-130777",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Vitality",
-   "teamB": "Falcons",
-   "logoA": "https://files.bo3.gg/uploads/team/667/image/webp-292c1f6c6dcfca35c7a52da7e02cef0a.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/2713/image/webp-86fd5a0653183a19cf750d195963ea10.webp",
-   "scoreA": 2,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "finished",
-   "event": "ESL Pro League Season 24",
-   "tier": "S",
-   "startsAt": "2026-10-05T19:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs"
-    },
-    {
-     "type": "youtube",
-     "id": "GWkVaZlFFRU",
-     "lang": "en",
-     "official": true,
-     "label": "PARIVISION vs. FURIA - ESL Pro League Season 24 - Group Stage"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "cs2_maincast"
-    },
-    {
-     "type": "twitch",
-     "channel": "ygamessk",
-     "lang": "sk",
-     "official": true,
-     "label": "ygamessk"
-    }
-   ],
-   "url": "https://bo3.gg/matches/vitality-vs-falcons-esports-05-10-2026"
-  },
-  {
-   "id": "bo3-130775",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Spirit",
-   "teamB": "MOUZ",
-   "logoA": "https://files.bo3.gg/uploads/team/654/image/webp-41b22d18a871d982f8ff87652bbb0fe6.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
-   "scoreA": 0,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "ESL Pro League Season 24",
-   "tier": "S",
-   "startsAt": "2026-10-05T17:20:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs"
-    },
-    {
-     "type": "youtube",
-     "id": "GWkVaZlFFRU",
-     "lang": "en",
-     "official": true,
-     "label": "PARIVISION vs. FURIA - ESL Pro League Season 24 - Group Stage"
-    },
-    {
-     "type": "kick",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "cs2_maincast"
-    }
-   ],
-   "url": "https://bo3.gg/matches/spirit-vs-mouz-cs2-05-10-2026"
-  },
-  {
-   "id": "bo3-131215",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "LEGION",
-   "teamB": "Blasterbl",
-   "logoA": "",
-   "logoB": "https://files.bo3.gg/uploads/team/23832/image/webp-df2c53f63dc50546636097d771a84d00.webp",
-   "scoreA": 2,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "finished",
-   "event": "PARI Universe: Closed Qualifier",
-   "tier": "A",
-   "startsAt": "2026-10-05T17:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "fissure_dota_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "fissure_dota_ru"
-    },
-    {
-     "type": "kick",
-     "channel": "fissure_dota_en",
-     "lang": "en",
-     "official": false,
-     "label": "fissure_dota_en"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/legion_stack-vs-blasterbl-05-10-2026"
-  },
-  {
-   "id": "bo3-131214",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Yellow Submarine",
-   "teamB": "CyberHero",
-   "logoA": "https://files.bo3.gg/uploads/team/16486/image/webp-db8fb0a62365deefa26db24e4fb46f10.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/25398/image/webp-8560e60c7b3b107d8fa95472b1bc5ee5.webp",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "PARI Universe: Closed Qualifier",
-   "tier": "A",
-   "startsAt": "2026-10-05T14:10:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "fissure_dota_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "fissure_dota_ru"
-    },
-    {
-     "type": "kick",
-     "channel": "fissure_dota_en",
-     "lang": "en",
-     "official": false,
-     "label": "fissure_dota_en"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/yellow-submarine-vs-cyberhero-05-10-2026"
   },
   {
    "id": "bo3-129621",
