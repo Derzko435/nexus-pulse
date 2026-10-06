@@ -1,25 +1,7 @@
 {
- "updatedAt": "2026-10-06T09:53:55+03:00",
+ "updatedAt": "2026-10-06T13:24:48+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-129965",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Hanjin BRION",
-   "teamB": "Natus Vincere",
-   "logoA": "https://files.bo3.gg/uploads/team/20350/image/webp-1f766f1b17620a98a081017768138f25.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17800/image/webp-b5ee3195df266b0408b0614ade0e387c.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "Demacia Cup Global Invitational 2026",
-   "tier": "S",
-   "startsAt": "2026-10-06T10:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/lol/matches/hanjin-brion-vs-natus-vincere-lol-06-10-2026"
-  },
   {
    "id": "bo3-131217",
    "game": "Dota 2",
@@ -29,13 +11,20 @@
    "logoA": "https://files.bo3.gg/uploads/team/15098/image/webp-c19b8494eb3fbc8d84d25b8dab49b883.webp",
    "logoB": "https://files.bo3.gg/uploads/team/25398/image/webp-8560e60c7b3b107d8fa95472b1bc5ee5.webp",
    "scoreA": 0,
-   "scoreB": 0,
+   "scoreB": 1,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "PARI Universe: Closed Qualifier",
    "tier": "A",
-   "startsAt": "2026-10-06T11:00:00+03:00",
+   "startsAt": "2026-10-06T11:10:00+03:00",
    "streams": [
+    {
+     "type": "youtube",
+     "id": "DbwVPEng1Ns",
+     "lang": "ru",
+     "official": false,
+     "label": "PARI UNIVERSE — Closed Qualifiers — День 4"
+    },
     {
      "type": "kick",
      "channel": "fissure_dota_en",
@@ -47,22 +36,51 @@
    "url": "https://bo3.gg/dota2/matches/l1ga-team-vs-cyberhero-06-10-2026"
   },
   {
-   "id": "bo3-129966",
+   "id": "bo3-129967",
    "game": "LoL",
    "gameKey": "lol",
-   "teamA": "JD Gaming",
-   "teamB": "LGD Gaming",
-   "logoA": "https://files.bo3.gg/uploads/team/18021/image/webp-91801592d51003c3db8f16894500c02d.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17957/image/webp-4cfb09a2804cf208b4945971273ab4df.webp",
-   "scoreA": 0,
+   "teamA": "Team Vitality",
+   "teamB": "RED Canids",
+   "logoA": "https://files.bo3.gg/uploads/team/18129/image/webp-1aaa770c459310fd370010f320759069.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/18103/image/webp-8436f0485803eb0ea176e803f890d001.webp",
+   "scoreA": 1,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "Demacia Cup Global Invitational 2026",
    "tier": "S",
-   "startsAt": "2026-10-06T12:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/lol/matches/jd-gaming-lol-vs-lgd-gaming-lol-06-10-2026"
+   "startsAt": "2026-10-06T12:40:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "makariagaming",
+     "lang": "hu",
+     "official": true,
+     "label": "makariagaming"
+    },
+    {
+     "type": "twitch",
+     "channel": "nervarien",
+     "lang": "pl",
+     "official": true,
+     "label": "nervarien"
+    },
+    {
+     "type": "twitch",
+     "channel": "lplenglish",
+     "lang": "en",
+     "official": false,
+     "label": "lplenglish"
+    },
+    {
+     "type": "youtube",
+     "id": "O-ZSU4tvJRU",
+     "lang": "en",
+     "official": false,
+     "label": "Demacia Cup Global Invitational 2026 | Swiss Day 4 | !casters !production"
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/team-vitality-lol-vs-red-canids-lol-06-10-2026"
   },
   {
    "id": "bo3-131218",
@@ -81,6 +99,13 @@
    "startsAt": "2026-10-06T14:00:00+03:00",
    "streams": [
     {
+     "type": "youtube",
+     "id": "DbwVPEng1Ns",
+     "lang": "ru",
+     "official": false,
+     "label": "PARI UNIVERSE — Closed Qualifiers — День 4"
+    },
+    {
      "type": "kick",
      "channel": "fissure_dota_en",
      "lang": "en",
@@ -91,13 +116,13 @@
    "url": "https://bo3.gg/dota2/matches/blasterbl-vs-nemiga-gaming-06-10-2026"
   },
   {
-   "id": "bo3-129967",
+   "id": "bo3-129966",
    "game": "LoL",
    "gameKey": "lol",
-   "teamA": "Team Vitality",
-   "teamB": "RED Canids",
-   "logoA": "https://files.bo3.gg/uploads/team/18129/image/webp-1aaa770c459310fd370010f320759069.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/18103/image/webp-8436f0485803eb0ea176e803f890d001.webp",
+   "teamA": "JD Gaming",
+   "teamB": "LGD Gaming",
+   "logoA": "https://files.bo3.gg/uploads/team/18021/image/webp-91801592d51003c3db8f16894500c02d.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17957/image/webp-4cfb09a2804cf208b4945971273ab4df.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
@@ -105,8 +130,37 @@
    "event": "Demacia Cup Global Invitational 2026",
    "tier": "S",
    "startsAt": "2026-10-06T14:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/lol/matches/team-vitality-lol-vs-red-canids-lol-06-10-2026"
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "makariagaming",
+     "lang": "hu",
+     "official": true,
+     "label": "makariagaming"
+    },
+    {
+     "type": "twitch",
+     "channel": "nervarien",
+     "lang": "pl",
+     "official": true,
+     "label": "nervarien"
+    },
+    {
+     "type": "twitch",
+     "channel": "lplenglish",
+     "lang": "en",
+     "official": false,
+     "label": "lplenglish"
+    },
+    {
+     "type": "youtube",
+     "id": "O-ZSU4tvJRU",
+     "lang": "en",
+     "official": false,
+     "label": "Demacia Cup Global Invitational 2026 | Swiss Day 4 | !casters !production"
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/jd-gaming-lol-vs-lgd-gaming-lol-06-10-2026"
   },
   {
    "id": "bo3-130780",
@@ -129,8 +183,28 @@
      "channel": "eslcs",
      "lang": "en",
      "official": true,
-     "label": "eslcs",
-     "fallback": true
+     "label": "eslcs"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "cs2_maincast"
+    },
+    {
+     "type": "twitch",
+     "channel": "watchfultvb",
+     "lang": "ru",
+     "official": false,
+     "label": "watchfultvb"
+    },
+    {
+     "type": "twitch",
+     "channel": "mauisnake",
+     "lang": "en",
+     "official": false,
+     "label": "mauisnake"
     }
    ],
    "url": "https://bo3.gg/matches/g2-vs-parivision-06-10-2026"
@@ -153,11 +227,31 @@
    "streams": [
     {
      "type": "twitch",
-     "channel": "eslcs",
+     "channel": "eslcsb",
      "lang": "en",
      "official": true,
-     "label": "eslcs",
-     "fallback": true
+     "label": "eslcsb"
+    },
+    {
+     "type": "twitch",
+     "channel": "bysl4m",
+     "lang": "ru",
+     "official": false,
+     "label": "bysl4m"
+    },
+    {
+     "type": "twitch",
+     "channel": "bandurka",
+     "lang": "ru",
+     "official": false,
+     "label": "bandurka"
+    },
+    {
+     "type": "twitch",
+     "channel": "watchfultv",
+     "lang": "ru",
+     "official": false,
+     "label": "watchfultv"
     }
    ],
    "url": "https://bo3.gg/matches/spirit-vs-1win-06-10-2026"
@@ -178,6 +272,13 @@
    "tier": "A",
    "startsAt": "2026-10-06T17:00:00+03:00",
    "streams": [
+    {
+     "type": "youtube",
+     "id": "DbwVPEng1Ns",
+     "lang": "ru",
+     "official": false,
+     "label": "PARI UNIVERSE — Closed Qualifiers — День 4"
+    },
     {
      "type": "kick",
      "channel": "fissure_dota_en",
@@ -243,13 +344,13 @@
    "url": "https://bo3.gg/matches/9z-vs-betboom-team-06-10-2026"
   },
   {
-   "id": "bo3-130155",
+   "id": "bo3-130153",
    "game": "LoL",
    "gameKey": "lol",
-   "teamA": "Solary",
-   "teamB": "Valerion",
-   "logoA": "https://files.bo3.gg/uploads/team/17873/image/webp-a6742d2c85704c67343708118974ab77.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/24645/image/webp-2aede1fcf1bde83d0c483607b127eba5.webp",
+   "teamA": "TLN Pirates",
+   "teamB": "Bushido Wildcats",
+   "logoA": "https://files.bo3.gg/uploads/team/22371/image/webp-35753cd0e1196e634d4c3c16d4419e02.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/18972/image/webp-b31d8da308264cee39688405c6d89b24.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 5,
@@ -267,7 +368,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/lol/matches/solary-lol-vs-valerion-06-10-2026"
+   "url": "https://bo3.gg/lol/matches/tln-pirates-vs-bushido-wildcats-06-10-2026"
   },
   {
    "id": "bo3-130156",
@@ -324,13 +425,13 @@
    "url": "https://bo3.gg/lol/matches/movistar-koi-fenix-vs-frites-esports-club-06-10-2026"
   },
   {
-   "id": "bo3-130153",
+   "id": "bo3-130155",
    "game": "LoL",
    "gameKey": "lol",
-   "teamA": "TLN Pirates",
-   "teamB": "Bushido Wildcats",
-   "logoA": "https://files.bo3.gg/uploads/team/22371/image/webp-35753cd0e1196e634d4c3c16d4419e02.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/18972/image/webp-b31d8da308264cee39688405c6d89b24.webp",
+   "teamA": "Solary",
+   "teamB": "Valerion",
+   "logoA": "https://files.bo3.gg/uploads/team/17873/image/webp-a6742d2c85704c67343708118974ab77.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/24645/image/webp-2aede1fcf1bde83d0c483607b127eba5.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 5,
@@ -348,34 +449,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/lol/matches/tln-pirates-vs-bushido-wildcats-06-10-2026"
-  },
-  {
-   "id": "bo3-130784",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Legacy",
-   "teamB": "M80",
-   "logoA": "https://files.bo3.gg/uploads/team/8118/image/webp-e4a3b023443f1f3ba4ef588164e73111.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/7430/image/webp-962834dcfa8bef22f2c4cbdbf777bfbf.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "ESL Pro League Season 24",
-   "tier": "S",
-   "startsAt": "2026-10-06T20:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/legacy-br-vs-m80-cs-go-06-10-2026"
+   "url": "https://bo3.gg/lol/matches/solary-lol-vs-valerion-06-10-2026"
   },
   {
    "id": "bo3-130783",
@@ -405,6 +479,33 @@
    "url": "https://bo3.gg/matches/falcons-esports-vs-natus-vincere-06-10-2026"
   },
   {
+   "id": "bo3-130784",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Legacy",
+   "teamB": "M80",
+   "logoA": "https://files.bo3.gg/uploads/team/8118/image/webp-e4a3b023443f1f3ba4ef588164e73111.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/7430/image/webp-962834dcfa8bef22f2c4cbdbf777bfbf.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "ESL Pro League Season 24",
+   "tier": "S",
+   "startsAt": "2026-10-06T20:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/legacy-br-vs-m80-cs-go-06-10-2026"
+  },
+  {
    "id": "bo3-131220",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -421,6 +522,13 @@
    "startsAt": "2026-10-06T20:00:00+03:00",
    "streams": [
     {
+     "type": "youtube",
+     "id": "DbwVPEng1Ns",
+     "lang": "ru",
+     "official": false,
+     "label": "PARI UNIVERSE — Closed Qualifiers — День 4"
+    },
+    {
      "type": "kick",
      "channel": "fissure_dota_en",
      "lang": "en",
@@ -429,24 +537,6 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/legion_stack-vs-mouz-dota2-06-10-2026"
-  },
-  {
-   "id": "bo3-129912",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Estral Esports",
-   "teamB": "KaBuM! Ilha das Lendas",
-   "logoA": "https://files.bo3.gg/uploads/team/17258/image/webp-1005099ed8e63fc9456a77b1c399509c.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/20354/image/webp-19ea976e9837db49b667c8177f026b5c.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "upcoming",
-   "event": "CBLOL 2027 Promotion Tournament",
-   "tier": "S",
-   "startsAt": "2026-10-07T00:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/lol/matches/estral-esports-vs-kabum-ilha-das-lendas-06-10-2026"
   },
   {
    "id": "bo3-129915",
@@ -474,6 +564,24 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/cupid-vs-fuego-lol-06-10-2026"
+  },
+  {
+   "id": "bo3-129912",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Estral Esports",
+   "teamB": "KaBuM! Ilha das Lendas",
+   "logoA": "https://files.bo3.gg/uploads/team/17258/image/webp-1005099ed8e63fc9456a77b1c399509c.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/20354/image/webp-19ea976e9837db49b667c8177f026b5c.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "upcoming",
+   "event": "CBLOL 2027 Promotion Tournament",
+   "tier": "S",
+   "startsAt": "2026-10-07T00:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/lol/matches/estral-esports-vs-kabum-ilha-das-lendas-06-10-2026"
   },
   {
    "id": "bo3-129968",
@@ -519,6 +627,24 @@
     }
    ],
    "url": "https://bo3.gg/valorant/matches/nrg-1-vs-t1-07-10-2026"
+  },
+  {
+   "id": "bo3-129969",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "GAM Esports",
+   "teamB": "Shopify Rebellion",
+   "logoA": "https://files.bo3.gg/uploads/team/17572/image/webp-a0e43101d3462134da2b8267eb198f3b.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/18358/image/webp-6b816957e941383c1345707589104e5e.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "Demacia Cup Global Invitational 2026",
+   "tier": "S",
+   "startsAt": "2026-10-07T12:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/lol/matches/gam-esports-vs-shopify-rebellion-lol-07-10-2026"
   },
   {
    "id": "bo3-129623",
@@ -656,30 +782,51 @@
    "url": "https://bo3.gg/dota2/matches/aurora-vs-1win-dota2-08-10-2026"
   },
   {
-   "id": "bo3-129911",
+   "id": "bo3-129965",
    "game": "LoL",
    "gameKey": "lol",
-   "teamA": "9z Globant",
-   "teamB": "KaBuM! Ilha das Lendas",
-   "logoA": "https://files.bo3.gg/uploads/team/17052/image/webp-4a9604a546a23b2b0c5e1982a4c70f4e.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/20354/image/webp-19ea976e9837db49b667c8177f026b5c.webp",
-   "scoreA": 1,
-   "scoreB": 3,
-   "bo": 5,
+   "teamA": "Hanjin BRION",
+   "teamB": "Natus Vincere",
+   "logoA": "https://files.bo3.gg/uploads/team/20350/image/webp-1f766f1b17620a98a081017768138f25.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17800/image/webp-b5ee3195df266b0408b0614ade0e387c.webp",
+   "scoreA": 2,
+   "scoreB": 1,
+   "bo": 3,
    "status": "finished",
-   "event": "CBLOL 2027 Promotion Tournament",
+   "event": "Demacia Cup Global Invitational 2026",
    "tier": "S",
-   "startsAt": "2026-10-06T00:00:00+03:00",
+   "startsAt": "2026-10-06T10:00:00+03:00",
    "streams": [
     {
-     "type": "youtube",
-     "id": "pYMOzj8pva8",
-     "lang": "pt",
+     "type": "twitch",
+     "channel": "makariagaming",
+     "lang": "hu",
+     "official": true,
+     "label": "makariagaming"
+    },
+    {
+     "type": "twitch",
+     "channel": "nervarien",
+     "lang": "pl",
+     "official": true,
+     "label": "nervarien"
+    },
+    {
+     "type": "twitch",
+     "channel": "lplenglish",
+     "lang": "en",
      "official": false,
-     "label": "KBM x 9ZG | CBLOL 2027 - Torneio de Promoção | Dia 4 (Md5)"
+     "label": "lplenglish"
+    },
+    {
+     "type": "youtube",
+     "id": "O-ZSU4tvJRU",
+     "lang": "en",
+     "official": false,
+     "label": "Demacia Cup Global Invitational 2026 | Swiss Day 4 | !casters !production"
     }
    ],
-   "url": "https://bo3.gg/lol/matches/kabum-ilha-das-lendas-vs-9z-globant-05-10-2026"
+   "url": "https://bo3.gg/lol/matches/hanjin-brion-vs-natus-vincere-lol-06-10-2026"
   },
   {
    "id": "bo3-129914",
@@ -707,6 +854,32 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/maryville-university-vs-zeu5-esports-05-10-2026"
+  },
+  {
+   "id": "bo3-129911",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "9z Globant",
+   "teamB": "KaBuM! Ilha das Lendas",
+   "logoA": "https://files.bo3.gg/uploads/team/17052/image/webp-4a9604a546a23b2b0c5e1982a4c70f4e.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/20354/image/webp-19ea976e9837db49b667c8177f026b5c.webp",
+   "scoreA": 1,
+   "scoreB": 3,
+   "bo": 5,
+   "status": "finished",
+   "event": "CBLOL 2027 Promotion Tournament",
+   "tier": "S",
+   "startsAt": "2026-10-06T00:00:00+03:00",
+   "streams": [
+    {
+     "type": "youtube",
+     "id": "pYMOzj8pva8",
+     "lang": "pt",
+     "official": false,
+     "label": "KBM x 9ZG | CBLOL 2027 - Torneio de Promoção | Dia 4 (Md5)"
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/kabum-ilha-das-lendas-vs-9z-globant-05-10-2026"
   },
   {
    "id": "bo3-131216",
@@ -1154,24 +1327,6 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/team-synapse-vs-l1ga-team-05-10-2026"
-  },
-  {
-   "id": "bo3-129963",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "GAM Esports",
-   "teamB": "Team Vitality",
-   "logoA": "https://files.bo3.gg/uploads/team/17572/image/webp-a0e43101d3462134da2b8267eb198f3b.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/18129/image/webp-1aaa770c459310fd370010f320759069.webp",
-   "scoreA": 0,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "Demacia Cup Global Invitational 2026",
-   "tier": "S",
-   "startsAt": "2026-10-05T10:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/lol/matches/gam-esports-vs-team-vitality-lol-05-10-2026"
   },
   {
    "id": "bo3-129621",

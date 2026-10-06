@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-05T13:35:33+03:00",
+ "updatedAt": "2026-10-06T13:27:28+03:00",
  "items": [
   {
    "appid": "x-earth-defense-force-5",
@@ -143,7 +143,7 @@
    "appid": 499170,
    "title": "Order of the Sinking Star",
    "date": "2026-10-08",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499170/deda420d9e42288f4734a068c707f4c156203969/header.jpg?t=1790865583",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499170/deda420d9e42288f4734a068c707f4c156203969/header.jpg?t=1791223993",
    "desc": "Order of the Sinking Star от Джонатана Блоу (Braid, The Witness) — это приключение, погружающее вас в мир магии и загадок. Вам предстоит решить более 1000 продуманных головоломок, познакомиться с уникальными игровыми персонажами, отточить свои навыки в игровой механике и разгадать великую тайну.",
    "genres": [
     "Приключенческие игры",
@@ -322,7 +322,7 @@
    "appid": 3115160,
    "title": "Warhammer 40,000: Boltgun 2",
    "date": "2026-10-14",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3115160/c99bc374ca10d0335fe5e8f37942aea35419e4d4/header.jpg?t=1790785313",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3115160/c99bc374ca10d0335fe5e8f37942aea35419e4d4/header.jpg?t=1791280455",
    "desc": "Примерьте на себя роль Ультрамарина Малума Каэдо или сестры Битвы Ниры Вейрат, чья цель — уничтожить еретиков во имя Императора в Warhammer 40 000: Boltgun 2! В сиквеле ретро-шутера от первого лица ещё больше врагов, оружия и способов искоренять ересь!",
    "genres": [
     "Экшены",
@@ -335,7 +335,7 @@
     "Steam"
    ],
    "developer": "Auroch Digital",
-   "price": "",
+   "price": "945 руб.",
    "url": "https://store.steampowered.com/app/3115160/",
    "links": {
     "steam": "https://store.steampowered.com/app/3115160/"
@@ -345,7 +345,7 @@
    "appid": 2929250,
    "title": "over the hill",
    "date": "2026-10-14",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/header.jpg?t=1790589234",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/header.jpg?t=1791201212",
    "desc": "Откройте для себя мир в золотой век бездорожья. За рулем культовых внедорожников 60–80-х годов — в одиночку или с друзьями — покоряйте сложные трассы и исследуйте живописные места.",
    "genres": [
     "Приключенческие игры",
@@ -353,7 +353,8 @@
     "Инди"
    ],
    "platforms": [
-    "PC"
+    "PC",
+    "Linux"
    ],
    "stores": [
     "Steam"
@@ -445,7 +446,7 @@
    "appid": 2295060,
    "title": "Beyond These Stars",
    "date": "2026-10-16",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2295060/8880f2690c52f88a55d292651250a14fecb9918a/header.jpg?t=1790845427",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2295060/8880f2690c52f88a55d292651250a14fecb9918a/header.jpg?t=1791278593",
    "desc": "Постройте город на спине космического кита и научитесь мирно сосуществовать, бороздя звездные просторы. Управляйте сложными цепочками поставок и потребностями жителей, возводите аванпосты, общайтесь с инопланетянами и раскрывайте тайны вселенной.",
    "genres": [
     "Симуляторы",
@@ -624,6 +625,28 @@
    "source": "wiki"
   },
   {
+   "appid": "x-frostpunk",
+   "title": "Frostpunk",
+   "date": "2026-10-19",
+   "image": "https://upload.wikimedia.org/wikipedia/en/a/a3/Frostpunk_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Frostpunk — компьютерная игра в жанре градостроительного симулятора и симулятор выживания, разработанная компанией 11 bit studios. Игра включает в себя элементы стимпанка и альтернативной истории. Название игры является неологизмом, придуманным её создателями, и получено путём объединения слов…",
+   "genres": [
+    "Градостроитель",
+    "Выживание"
+   ],
+   "platforms": [
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "11 Bit Studios",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/Frostpunk",
+   "links": {
+    "wiki": "https://ru.wikipedia.org/wiki/Frostpunk"
+   },
+   "source": "wiki"
+  },
+  {
    "appid": "x-i-am-your-beast",
    "title": "I Am Your Beast",
    "date": "2026-10-20",
@@ -737,6 +760,29 @@
     "wiki": "https://en.wikipedia.org/wiki/Nintendo_Switch_Sports_Resort"
    },
    "source": "wiki"
+  },
+  {
+   "appid": 3905010,
+   "title": "ONE PIECE: Grand Gourmet",
+   "date": "2026-10-22",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3905010/0437aa2ef308bd35d40833de72c3dac04a24f067/header.jpg?t=1789090874",
+   "desc": "Добро пожаловать на борт аппетитного симулятора управления в мире ONE PIECE! Стройте лучший ресторан на морях вместе с Пиратами Соломенной Шляпы! Собирайте ингредиенты, придумывайте блюда и украшайте их, чтобы знакомые персонажи выстраивались в очередь за добавкой!",
+   "genres": [
+    "Казуальные игры",
+    "Симуляторы"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Kairosoft Co.,Ltd",
+   "price": "1429 руб.",
+   "url": "https://store.steampowered.com/app/3905010/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/3905010/"
+   }
   },
   {
    "appid": 3960600,
@@ -1100,6 +1146,29 @@
    "source": "wiki"
   },
   {
+   "appid": 4523120,
+   "title": "Volvy’s Adventure: Reslimed",
+   "date": "2026-11-19",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4523120/bd01ad0f41f47272b6f1459de015d2494b24a422/header.jpg?t=1787755813",
+   "desc": "Volvy's Adventure: Reslimed — это захватывающий ремастер оригинального ремейка неизданного экшен-платформера, в котором главную роль играет самый известный талисман видеоигр всех времен.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "doinksoft",
+   "price": "180 руб.",
+   "url": "https://store.steampowered.com/app/4523120/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4523120/"
+   }
+  },
+  {
    "appid": "x-gothic-3-classic",
    "title": "Gothic 3 Classic",
    "date": "2026-11-24",
@@ -1125,7 +1194,7 @@
    "appid": 3161310,
    "title": "Hela: of Mice & Magic",
    "date": "2026-12-01",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3161310/868b1938e4540924707c8db978d494322757e28d/header.jpg?t=1790616093",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3161310/868b1938e4540924707c8db978d494322757e28d/header.jpg?t=1791281337",
    "desc": "Взгляните на мир глазами храброй маленькой мышки в этом очаровательном 3D-приключении. Изучайте пейзажи, вдохновленные севером Швеции, решайте головоломки и попробуйте творить добро в мире, где равно важны трогательные истории и красота природы.",
    "genres": [
     "Экшены",
@@ -1314,30 +1383,6 @@
    "source": "wiki"
   },
   {
-   "appid": 3660710,
-   "title": "Armatus",
-   "date": "2027-01-07",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3660710/b5b7ba15558e1c278799ff66092b2ff4b5decc20/header.jpg?t=1787845839",
-   "desc": "ARMATUS — roguelite-шутер от третьего лица, действия которого разворачиваются среди руин Парижа, населенных демонами. Станьте последним воином древнего ордена, чтобы с помощью сверхъестественных способностей и мощного оружия очистить город и отыскать затерянный путь к небесам — Темные ворота.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Ролевые игры"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Counterplay Games Inc",
-   "price": "",
-   "url": "https://store.steampowered.com/app/3660710/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/3660710/"
-   }
-  },
-  {
    "appid": "x-danganronpa-2-2",
    "title": "Danganronpa 2×2",
    "date": "2027-01-14",
@@ -1435,60 +1480,6 @@
    "url": "https://store.steampowered.com/app/1637460/",
    "links": {
     "steam": "https://store.steampowered.com/app/1637460/"
-   }
-  },
-  {
-   "appid": 1154030,
-   "title": "Titan Quest II",
-   "date": "2027-01-19",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1154030/header.jpg?t=1790226435",
-   "desc": "Titan Quest II — компьютерная игра в жанре Action/RPG, разрабатываемая студией Grimlore Games и издаваемая THQ Nordic для Windows, PlayStation 5 и Xbox Series X/S. Является продолжением игры Titan Quest 2006 года, разработанной Iron Lore Entertainment. Ранний доступ на ПК открылся 1 августа 2025…",
-   "genres": [
-    "Экшен-RPG"
-   ],
-   "platforms": [
-    "PC",
-    "PlayStation",
-    "Xbox"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Grimlore Games",
-   "price": "1078 руб.",
-   "url": "https://store.steampowered.com/app/1154030/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/1154030/",
-    "wiki": "https://ru.wikipedia.org/wiki/Titan_Quest_II"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": 1853440,
-   "title": "Tropico 7",
-   "date": "2027-01-28",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1853440/cfa41f10c2e878497d77e100f9be08224eb686b9/header.jpg?t=1790769494",
-   "desc": "Разбогатей или сдохни! Tropico 7 снова предлагает попробовать себя в роли лидера островного государства. Эль Президенте ведет нацию (а заодно и свой счет в швейцарском банке) сквозь эпохи к процветанию и для этого готов буквально сдвинуть горы!",
-   "genres": [
-    "Симуляторы",
-    "Стратегии"
-   ],
-   "platforms": [
-    "PC",
-    "PlayStation",
-    "Xbox",
-    "Switch"
-   ],
-   "stores": [
-    "Steam",
-    "Epic"
-   ],
-   "developer": "Gaming Minds Studios",
-   "price": "",
-   "url": "https://store.steampowered.com/app/1853440/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/1853440/",
-    "epic": "https://store.epicgames.com/ru/p/tropico-7-eed6e3"
    }
   },
   {
