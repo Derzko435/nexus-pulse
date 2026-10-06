@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T18:18:32+03:00",
+  "updatedAt": "2026-10-07T00:04:14+03:00",
   "source": "steam-store-appdetails",
   "count": 37,
   "apps": [
@@ -452,6 +452,25 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
+      "appid": "979690",
+      "name": "The Ascent",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/979690/header.jpg?t=1772590323",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "The Ascent — экшн-RPG в духе киберпанка с режимами одиночной и кооперативной игры. Владеющая всем (и вами) мегакорпорация «Асцент Груп» внезапно прекращает свое существование. Сумеете выжить без нее?"
+    },
+    {
       "appid": "1304930",
       "name": "The Outlast Trials",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/65fbdba4ad0f1a7ed7a362a086c87042fa40fadc/header_alt_assets_3.jpg?t=1784123708",
@@ -559,23 +578,6 @@
       "short_description": "Арк переосмысливается с основания в этой технологии видеоигр с помощью Unreal Engine 5! Сформируйте племя, приручите и породу сотни уникальных динозавров и первобытных существ, исследуйте, создайте, строите, строите и пробитесь на вершину пищевой цепи. Ваш новый мир ждет!"
     },
     {
-      "appid": "1850570",
-      "name": "DEATH STRANDING DIRECTOR'S CUT",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/header.jpg?t=1773400635",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": 85,
-      "short_description": "Легендарный творец Хидэо Кодзима представляет окончательную версию DIRECTOR’S CUT знаковой для жанра игры. Действуя от лица Сэма Бриджеса и объединяя последних выживших на территории Америки, вам предстоит возродить надежду человечества. Удастся ли вам шаг за шагом воссоединить разрушенный мир?"
-    },
-    {
       "appid": "2183900",
       "name": "Warhammer 40,000: Space Marine 2",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/041c4b49f2925185ff1be198919b7fbff060c3e1/header_alt_assets_14_russian.jpg?t=1790874369",
@@ -647,10 +649,11 @@
       "short_description": "Sent to find a missing billionaire on a remote island, you find yourself in a cannibal-infested hellscape. Craft, build, and struggle to survive, alone or with friends, in this terrifying new open-world survival horror simulator."
     },
     {
-      "appid": "394360",
-      "name": "Hearts of Iron IV",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/67bbd0057627fc2244793bcdd09260c2539499cf/header.jpg?t=1790873967",
+      "appid": "1158310",
+      "name": "Crusader Kings III",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/5a32e8b0154679ead6a7b974b5fb9d792222a57e/header_alt_assets_13_russian.jpg?t=1790873953",
       "genres": [
+        "Ролевые игры",
         "Симуляторы",
         "Стратегии"
       ],
@@ -660,8 +663,8 @@
         "mac": true,
         "linux": true
       },
-      "metacritic": 83,
-      "short_description": "Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation in World War II; the most engaging conflict in world history."
+      "metacritic": 91,
+      "short_description": "Любовь, война, интриги и величие. Определите наследие своего знатного рода в безграничной глобальной стратегии Crusader Kings III. Смерть — это только начало вашего пути по истории выбранной династии в этой полной неожиданностей и славы симуляции Средних веков."
     }
   ]
 }

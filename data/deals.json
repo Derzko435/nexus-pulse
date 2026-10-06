@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T19:06:17+03:00",
+  "updatedAt": "2026-10-07T00:04:20+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -123,6 +123,16 @@
       "steamAppId": "270880"
     },
     {
+      "id": "steam-784080",
+      "title": "MechWarrior 5: Mercenaries",
+      "store": "Steam",
+      "old": 515,
+      "neu": 128,
+      "pct": 75,
+      "url": "https://store.steampowered.com/app/784080/?curator_clanid=0",
+      "steamAppId": "784080"
+    },
+    {
       "id": "steam-1326470",
       "title": "Sons Of The Forest",
       "store": "Steam",
@@ -131,16 +141,6 @@
       "pct": 71,
       "url": "https://store.steampowered.com/app/1326470/",
       "steamAppId": "1326470"
-    },
-    {
-      "id": "steam-1158310",
-      "title": "Crusader Kings III",
-      "store": "Steam",
-      "old": 3049,
-      "neu": 914,
-      "pct": 70,
-      "url": "https://store.steampowered.com/app/1158310/?curator_clanid=0",
-      "steamAppId": "1158310"
     }
   ]
 }
