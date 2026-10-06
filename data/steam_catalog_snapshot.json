@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T09:33:10+03:00",
+  "updatedAt": "2026-10-06T18:18:32+03:00",
   "source": "steam-store-appdetails",
   "count": 37,
   "apps": [
@@ -452,25 +452,6 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "979690",
-      "name": "The Ascent",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/979690/header.jpg?t=1772590323",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "The Ascent — экшн-RPG в духе киберпанка с режимами одиночной и кооперативной игры. Владеющая всем (и вами) мегакорпорация «Асцент Груп» внезапно прекращает свое существование. Сумеете выжить без нее?"
-    },
-    {
       "appid": "1304930",
       "name": "The Outlast Trials",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/65fbdba4ad0f1a7ed7a362a086c87042fa40fadc/header_alt_assets_3.jpg?t=1784123708",
@@ -613,6 +594,23 @@
       "short_description": "Обретите сверхчеловеческую мощь космодесантника. Пустите в ход смертоносные навыки и разрушительное оружие, чтобы истребить безжалостных тиранидов. Защитите Империум в ярких одиночных боях или многопользовательских режимах с видом от третьего лица."
     },
     {
+      "appid": "264710",
+      "name": "Subnautica",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/header.jpg?t=1777456112",
+      "genres": [
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": 87,
+      "short_description": "Descend into the depths of an alien underwater world filled with wonder and peril. Craft equipment, pilot submarines and out-smart wildlife to explore lush coral reefs, volcanoes, cave systems, and more - all while trying to survive."
+    },
+    {
       "appid": "270880",
       "name": "American Truck Simulator",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/270880/2cfd6711c21677e7611985d2bacc3a3bcfac2660/header_alt_assets_8.jpg?t=1790759835",
@@ -649,11 +647,10 @@
       "short_description": "Sent to find a missing billionaire on a remote island, you find yourself in a cannibal-infested hellscape. Craft, build, and struggle to survive, alone or with friends, in this terrifying new open-world survival horror simulator."
     },
     {
-      "appid": "1158310",
-      "name": "Crusader Kings III",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/5a32e8b0154679ead6a7b974b5fb9d792222a57e/header_alt_assets_13_russian.jpg?t=1790873953",
+      "appid": "394360",
+      "name": "Hearts of Iron IV",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/67bbd0057627fc2244793bcdd09260c2539499cf/header.jpg?t=1790873967",
       "genres": [
-        "Ролевые игры",
         "Симуляторы",
         "Стратегии"
       ],
@@ -663,8 +660,8 @@
         "mac": true,
         "linux": true
       },
-      "metacritic": 91,
-      "short_description": "Любовь, война, интриги и величие. Определите наследие своего знатного рода в безграничной глобальной стратегии Crusader Kings III. Смерть — это только начало вашего пути по истории выбранной династии в этой полной неожиданностей и славы симуляции Средних веков."
+      "metacritic": 83,
+      "short_description": "Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation in World War II; the most engaging conflict in world history."
     }
   ]
 }
