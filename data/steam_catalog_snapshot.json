@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-07T20:28:38+03:00",
+  "updatedAt": "2026-10-08T02:12:20+03:00",
   "source": "steam-store-appdetails",
-  "count": 38,
+  "count": 37,
   "apps": [
     {
       "appid": "730",
@@ -24,7 +24,7 @@
     {
       "appid": "570",
       "name": "Dota 2",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/header.jpg?t=1769535998",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/header.jpg?t=1791407503",
       "genres": [
         "Экшены",
         "Стратегии",
@@ -543,7 +543,7 @@
     {
       "appid": "1808500",
       "name": "ARC Raiders",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/04baafaf64a5aa5f46ecda5d71889a4848dc0628/header.jpg?t=1791231034",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/04baafaf64a5aa5f46ecda5d71889a4848dc0628/header.jpg?t=1791401542",
       "genres": [
         "Экшены"
       ],
@@ -577,28 +577,12 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
-      "appid": "5269790",
-      "name": "Flappy Wings Multiplayer",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5269790/628f41c76c65d3621e79fe7b6600e15065bad1ad/header.jpg?t=1791300803",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Отточите тайминг в этой динамичной 2D-аркаде! Уклоняйтесь от бесконечных труб, ставьте рекорды, повышайте уровень и открывайте забавных персонажей. Играйте соло, делите экран в локальном PvP или соревнуйтесь с миром в хаотичном онлайн-мультиплеере."
-    },
-    {
-      "appid": "4052150",
-      "name": "Paunchy Pets",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4052150/ef77475861adfa0c6e376f6d3ef23dc6954060a4/header.jpg?t=1791305952",
+      "appid": "3531260",
+      "name": "Superhero Simulator",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3531260/265777065c076b3aa3e2fb021e0b866dcf4c3b65/header.jpg?t=1791384444",
       "genres": [
         "Экшены",
+        "Приключенческие игры",
         "Казуальные игры",
         "Инди",
         "Ролевые игры",
@@ -611,62 +595,25 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Paunchy Pets — ваши пухлые маленькие монстрики, которые любят драться почти так же сильно, как есть. Тренируйте их в мини-играх в стиле Flash, кормите вредной едой на уютной ферме, сражайтесь с питомцами соперников в автобаттлере, где важна тренировка, и разводите редких Paunchies, усиливая команду."
+      "short_description": "Superhero Simulator is an open-world superhero game where you fight villains and save lives! But being a hero isn’t free! You’ll need to work, pay rent, and survive. Can you handle both sides of the superhero life?"
     },
     {
-      "appid": "3583470",
-      "name": "Prison Escape io",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3583470/cac71cc474727f01f79be93004206630442ce745/header.jpg?t=1791313216",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Многопользовательские игры",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Беги через ловушки, туннели и стеклянные мосты в динамичном мультиплеере! Сотрудничай или соревнуйся, чтобы сбежать первым. Выживи на диких картах и стань мастером побега! 🚨🏃‍♂️💥"
-    },
-    {
-      "appid": "5136190",
-      "name": "Забастовка в небесах",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5136190/eaaeb948eef7186680af48744aaa131c35388101/header_russian.jpg?t=1791312740",
-      "genres": [
-        "Приключенческие игры",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Возглавьте 4 200 бортпроводников в напряжённой забастовке авиакомпании в роли профсоюзного лидера Роуэна Петрака. Боритесь с давлением общества, ведите трудные переговоры и выбирайте одну из трёх романтических линий, ведущих к разным финалам."
-    },
-    {
-      "appid": "5208470",
-      "name": "迷你文明",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5208470/6f4426be9219b10b3731346a1e6591f60da22d7d/header.jpg?t=1791334014",
+      "appid": "5190700",
+      "name": "One More Floor",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5190700/62766521c1d00935e5efd0c6d8d1c1785bcc0e6f/header.jpg?t=1791368397",
       "genres": [
         "Казуальные игры",
         "Инди",
-        "Симуляторы",
-        "Стратегии"
+        "Ролевые игры"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
-        "linux": false
+        "linux": true
       },
       "metacritic": null,
-      "short_description": "Miniciv is an accessible hex‑grid 4X turn‑based strategy. Start with one city and settler, explore and build your budding civilization into a mighty empire. Procedural maps and flexible playtime bring unique runs, pairing easy entry with deep political, trade, faith and industrial mechanics."
+      "short_description": "A small box dungeon crawl for one player. A deck of rooms, a handful of dice, four numbers on a character sheet, and five floors that do not care how well you did last time."
     },
     {
       "appid": "4001890",
@@ -686,6 +633,42 @@
       },
       "metacritic": null,
       "short_description": "Симулятор рыбалки с физикой для 1–4 игроков. Вы плывёте себе на лодке и тут внезапно врезаетесь в небольшой островок. Чтобы найти путь домой, придется научиться рыбачить."
+    },
+    {
+      "appid": "108600",
+      "name": "Project Zomboid",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg?t=1787740093",
+      "genres": [
+        "Инди",
+        "Ролевые игры",
+        "Симуляторы",
+        "Ранний доступ"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Project Zomboid is the ultimate in zombie survival. Alone or in MP: you loot, build, craft, fight, farm and fish in a struggle to survive. A hardcore RPG skillset, a vast map, massively customisable sandbox and a cute tutorial raccoon await the unwary. So how will you die? All it takes is a bite.."
+    },
+    {
+      "appid": "5213380",
+      "name": "Heartbeats - Anniversary Edition",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5213380/0f259946562e212a7e8568d7fbf11c09fb23d19a/header.jpg?t=1791384498",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A stylish mix of classic point-and-click puzzles. Hardcore, old school, and unforgiving. A short story where each page is a puzzle, and each puzzle unlocks the next."
     }
   ]
 }

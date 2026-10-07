@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T20:28:43+03:00",
+  "updatedAt": "2026-10-08T02:12:26+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -93,14 +93,14 @@
       "steamAppId": "3531260"
     },
     {
-      "id": "steam-5190700",
-      "title": "One More Floor",
+      "id": "steam-5104090",
+      "title": "Starjaunt",
       "store": "Steam",
-      "old": 385,
-      "neu": 231,
+      "old": 465,
+      "neu": 279,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5190700/",
-      "steamAppId": "5190700"
+      "url": "https://store.steampowered.com/app/5104090/",
+      "steamAppId": "5104090"
     },
     {
       "id": "steam-4001890",
@@ -123,6 +123,16 @@
       "steamAppId": "108600"
     },
     {
+      "id": "steam-5267430",
+      "title": "Skyturns",
+      "store": "Steam",
+      "old": 660,
+      "neu": 442,
+      "pct": 33,
+      "url": "https://store.steampowered.com/app/5267430/",
+      "steamAppId": "5267430"
+    },
+    {
       "id": "steam-5213380",
       "title": "Heartbeats - Anniversary Edition",
       "store": "Steam",
@@ -131,16 +141,6 @@
       "pct": 33,
       "url": "https://store.steampowered.com/app/5213380/",
       "steamAppId": "5213380"
-    },
-    {
-      "id": "steam-1086940",
-      "title": "Baldur's Gate 3",
-      "store": "Steam",
-      "old": 1999,
-      "neu": 1399,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/1086940/",
-      "steamAppId": "1086940"
     }
   ]
 }
