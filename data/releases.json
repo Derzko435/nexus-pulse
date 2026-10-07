@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-06T13:27:28+03:00",
+ "updatedAt": "2026-10-07T13:23:30+03:00",
  "items": [
   {
    "appid": "x-earth-defense-force-5",
@@ -218,7 +218,7 @@
    "appid": 2254990,
    "title": "Permafrost",
    "date": "2026-10-09",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2254990/693eff202c061aaecba330b44d76485a672bea97/header.jpg?t=1791187520",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2254990/693eff202c061aaecba330b44d76485a672bea97/header.jpg?t=1791361293",
    "desc": "Permafrost — это «песочница» на выживание среди постапокалиптических льдов. Откройте для себя обширный открытый мир с богатой историей в одиночку или в кооперативном режиме до 4 игроков. Исследуйте, добывайте, создавайте и стройте, чтобы выжить в холоде.",
    "genres": [
     "Экшены",
@@ -319,6 +319,30 @@
    }
   },
   {
+   "appid": 4732690,
+   "title": "Arknights: Endfield",
+   "date": "2026-10-14",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4732690/9d24d148ee7fd834c2b89c2cf929b1da782054ad/header.jpg?t=1791291076",
+   "desc": "Arknights: Endfield — это трехмерная RPG-стратегия в реальном времени от Gryphline. В ней вам предстоит стать Эндминистратором компании Endfield, исследовать Талос II, а также защитить и расширить границы человеческой цивилизации.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Ролевые игры"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Hypergryph",
+   "price": "Бесплатно",
+   "url": "https://store.steampowered.com/app/4732690/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4732690/"
+   }
+  },
+  {
    "appid": 3115160,
    "title": "Warhammer 40,000: Boltgun 2",
    "date": "2026-10-14",
@@ -370,7 +394,7 @@
    "appid": 3064040,
    "title": "Bluey's Happy Snaps",
    "date": "2026-10-15",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3064040/9c25353d43657241f08c1204abc55ae9e2a09983/header.jpg?t=1789682759",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3064040/9c25353d43657241f08c1204abc55ae9e2a09983/header.jpg?t=1791352848",
    "desc": "Bluey's Happy Snaps — это будущая видеоигра в жанре приключенческой фотографии, разработанная Gameloft Brisbane и изданная Gameloft. Пятая видеоигра, основанная на мультсериале «Bluey», представляет собой оффлайн-игру без микротранзакций, которая ставит перед игроками задачу исследовать открытые…",
    "genres": [
     "Приключение"
@@ -492,7 +516,7 @@
    "appid": 4094350,
    "title": "Online: 404",
    "date": "2026-10-16",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094350/d64835e6cf8346d193f6f029551956716c01b281/header.jpg?t=1791181953",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094350/d64835e6cf8346d193f6f029551956716c01b281/header.jpg?t=1791304692",
    "desc": "Симулятор выживания в открытом мире, в котором даже опытные ценители жанра смогут переосмыслить привычный способ выживания и взаимодействия с игровым миром. Играйте соло или с друзьями, проходите сюжет или исследуйте мир - главное, не забудьте свой главный гаджет.",
    "genres": [
     "Экшены",
@@ -741,6 +765,27 @@
    "source": "wiki"
   },
   {
+   "appid": "x-my-friendly-neighborhood",
+   "title": "My Friendly Neighborhood",
+   "date": "2026-10-22",
+   "image": "https://upload.wikimedia.org/wikipedia/en/c/c3/My_Friendly_Neighborhood_cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "My Friendly Neighborhood — это инди-игра в жанре ужасов на выживание 2023 года, разработанная братьями Джоном и Эваном Шимански и изданная DreadXP. Вдохновленная детскими сериалами «Улица Сезам» и «Маппеты», игра рассказывает о ремонтнике, которого отправляют отключить сигнал у заброшенного телевизора…",
+   "genres": [
+    "Survival-хоррор"
+   ],
+   "platforms": [
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "John Szymanski, Evan Szymanski",
+   "price": "",
+   "url": "https://en.wikipedia.org/wiki/My_Friendly_Neighborhood",
+   "links": {
+    "wiki": "https://en.wikipedia.org/wiki/My_Friendly_Neighborhood"
+   },
+   "source": "wiki"
+  },
+  {
    "appid": "x-nintendo-switch-sports-resort",
    "title": "Nintendo Switch Sports Resort",
    "date": "2026-10-22",
@@ -760,29 +805,6 @@
     "wiki": "https://en.wikipedia.org/wiki/Nintendo_Switch_Sports_Resort"
    },
    "source": "wiki"
-  },
-  {
-   "appid": 3905010,
-   "title": "ONE PIECE: Grand Gourmet",
-   "date": "2026-10-22",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3905010/0437aa2ef308bd35d40833de72c3dac04a24f067/header.jpg?t=1789090874",
-   "desc": "Добро пожаловать на борт аппетитного симулятора управления в мире ONE PIECE! Стройте лучший ресторан на морях вместе с Пиратами Соломенной Шляпы! Собирайте ингредиенты, придумывайте блюда и украшайте их, чтобы знакомые персонажи выстраивались в очередь за добавкой!",
-   "genres": [
-    "Казуальные игры",
-    "Симуляторы"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Kairosoft Co.,Ltd",
-   "price": "1429 руб.",
-   "url": "https://store.steampowered.com/app/3905010/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/3905010/"
-   }
   },
   {
    "appid": 3960600,
@@ -888,7 +910,7 @@
    "appid": 4348910,
    "title": "Probably Stolen – симулятор магазина в киберпанке",
    "date": "2026-10-28",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/837d8597c8e8f6c8f75c4b35fc435d780803a922/header.jpg?t=1790493518",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/837d8597c8e8f6c8f75c4b35fc435d780803a922/header.jpg?t=1791287158",
    "desc": "В этом симуляторе магазина на мрачной киберпанковой космической станции вы будете создавать полезные вещи из хлама, торговать (легально и не очень) товарами сомнительного происхождения и разбираться в отношениях между фракциями. Решайте сами, на что вы готовы пойти, чтобы остаться на плаву.",
    "genres": [
     "Инди",
@@ -963,7 +985,7 @@
    "appid": 2320980,
    "title": "Loftia",
    "date": "2026-11-03",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2320980/header.jpg?t=1790802676",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2320980/header.jpg?t=1791354406",
    "desc": "Вас приветствует Loftia — уютная многопользовательская игра, в которой вам предстоит построить экологически надёжное будущее. Находите друзей, возделывайте землю, мастерите предметы, исследуйте острова — и вместе сделайте этот мир лучше!",
    "genres": [
     "Приключенческие игры",
@@ -1051,6 +1073,30 @@
     "wiki": "https://ru.wikipedia.org/wiki/Stellar_Blade"
    },
    "source": "wiki"
+  },
+  {
+   "appid": 3669620,
+   "title": "Warhammer Survivors",
+   "date": "2026-11-10",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669620/dc61fccdeec6b05a58fbcdd7b1d0bbbe1f6999ea/header.jpg?t=1791295551",
+   "desc": "Warhammer Survivors — это мрачная официальная игра на выживание в стиле bullet heaven от разработчиков Warhammer 40,000 Boltgun. Играйте более чем за 40 культовых персонажей вселенных Warhammer 40,000 и Warhammer Age of Sigmar и уничтожайте всех, кто несет смерть и разрушение.",
+   "genres": [
+    "Экшены",
+    "Казуальные игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Auroch Digital",
+   "price": "",
+   "url": "https://store.steampowered.com/app/3669620/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/3669620/"
+   }
   },
   {
    "appid": 4082030,
@@ -1146,29 +1192,6 @@
    "source": "wiki"
   },
   {
-   "appid": 4523120,
-   "title": "Volvy’s Adventure: Reslimed",
-   "date": "2026-11-19",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4523120/bd01ad0f41f47272b6f1459de015d2494b24a422/header.jpg?t=1787755813",
-   "desc": "Volvy's Adventure: Reslimed — это захватывающий ремастер оригинального ремейка неизданного экшен-платформера, в котором главную роль играет самый известный талисман видеоигр всех времен.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "doinksoft",
-   "price": "180 руб.",
-   "url": "https://store.steampowered.com/app/4523120/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4523120/"
-   }
-  },
-  {
    "appid": "x-gothic-3-classic",
    "title": "Gothic 3 Classic",
    "date": "2026-11-24",
@@ -1194,7 +1217,7 @@
    "appid": 3161310,
    "title": "Hela: of Mice & Magic",
    "date": "2026-12-01",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3161310/868b1938e4540924707c8db978d494322757e28d/header.jpg?t=1791281337",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3161310/868b1938e4540924707c8db978d494322757e28d/header.jpg?t=1791297908",
    "desc": "Взгляните на мир глазами храброй маленькой мышки в этом очаровательном 3D-приключении. Изучайте пейзажи, вдохновленные севером Швеции, решайте головоломки и попробуйте творить добро в мире, где равно важны трогательные истории и красота природы.",
    "genres": [
     "Экшены",
@@ -1404,33 +1427,6 @@
    "url": "https://ru.wikipedia.org/wiki/Danganronpa_2%C3%972",
    "links": {
     "wiki": "https://ru.wikipedia.org/wiki/Danganronpa_2%C3%972"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": 4193690,
-   "title": "Terranigma",
-   "date": "2027-01-14",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4193690/63da8fd5fade5c90ce08726099bff431ce4ec351/header.jpg?t=1789601881",
-   "desc": "Terranigma — компьютерная игра в жанре action/RPG, разработанная студией Quintet для Super Nintendo Entertainment System. Дизайнером персонажей выступил мангака Камуи Фудзивара. Игра является третьей частью неофициальной трилогии, в которую также входят Soul Blazer (1992) и Illusion of Gaia (1993).",
-   "genres": [
-    "Экшен-RPG"
-   ],
-   "platforms": [
-    "PC",
-    "PlayStation",
-    "Xbox",
-    "Switch"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Clear River Games",
-   "price": "",
-   "url": "https://store.steampowered.com/app/4193690/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4193690/",
-    "wiki": "https://ru.wikipedia.org/wiki/Terranigma"
    },
    "source": "wiki"
   },
