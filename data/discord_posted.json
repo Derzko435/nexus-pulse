@@ -1,25 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-10-07T11:52:52+03:00",
+ "updatedAt": "2026-10-07T13:26:45+03:00",
  "posted": {
   "news": [
-   "0f6c831d4347",
-   "feb0367f6967",
-   "a4ea4cd807dd",
-   "f55dfaa31c1d",
-   "473e3f3782bb",
-   "b20efc1d77ea",
-   "9446302f0589",
-   "9f13181eb9d1",
-   "4ea389f1aa0c",
-   "40a7e026be84",
-   "12fe52c78d3e",
-   "4e7ab392bc8d",
-   "1092bce5e78c",
-   "6eff5da8ca39",
-   "af6d1a275460",
-   "9ab2bf633f8a",
-   "f14cbbc91e56",
    "458cbc9ce538",
    "256041e4fb2d",
    "554be437550e",
@@ -502,7 +485,24 @@
    "68358b9556b8",
    "0c60cfeb5f9c",
    "ee5439c989d1",
-   "9293812e4789"
+   "9293812e4789",
+   "c647e0d2a894",
+   "27f84f6e46fe",
+   "716bf033de7d",
+   "a4a9066251a1",
+   "8e81de318c5b",
+   "1b439775b38c",
+   "e1d581da4bbe",
+   "fe9957504567",
+   "9c3764a5ce0e",
+   "50237b44036c",
+   "88655cc977df",
+   "a27580366d75",
+   "17654e873559",
+   "210f97862366",
+   "4db29fa92372",
+   "d93b7ff89eda",
+   "94b2244c4a34"
   ],
   "deals": [
    "steam-246420:90",
@@ -751,7 +751,12 @@
    "live:bo3-129912",
    "result:bo3-130781",
    "result:bo3-129915",
-   "result:bo3-129912"
+   "result:bo3-129912",
+   "result:bo3-129968",
+   "result:bo3-129969",
+   "live:bo3-131223",
+   "live:bo3-129622",
+   "live:bo3-129970"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -769,7 +774,9 @@
    "rivals:2026-10-01",
    "rust:2026-10-01",
    "apex:2026-10-02",
-   "cs2:2026-10-03"
+   "cs2:2026-10-03",
+   "apex:2026-10-06",
+   "lol:2026-10-06"
   ],
   "videos": [
    "5lXlYn6ajK8",
@@ -996,7 +1003,10 @@
    "UNDCEDpMxVw",
    "OBrQsDIJF-o",
    "7cCU8tarIgk",
-   "y_XUra_O4uQ"
+   "y_XUra_O4uQ",
+   "dmba4P0pD-8",
+   "8T3sqnU_J3Q",
+   "mWQX4Z-aKKQ"
   ],
   "releases": [
    "week:2026-W39",
@@ -1024,7 +1034,8 @@
   "2026-10-06T01:13+03:00",
   "2026-10-06T13:30+03:00",
   "2026-10-07T01:50+03:00",
-  "2026-10-07T01:50+03:00"
+  "2026-10-07T01:50+03:00",
+  "2026-10-07T13:26+03:00"
  ],
  "weekly": {
   "gamenight": {
