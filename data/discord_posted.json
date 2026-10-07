@@ -1,38 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-10-07T13:26:45+03:00",
+ "updatedAt": "2026-10-08T00:57:49+03:00",
  "posted": {
   "news": [
-   "458cbc9ce538",
-   "256041e4fb2d",
-   "554be437550e",
-   "b49741c636fb",
-   "5031b38543b0",
-   "9e7f28e069c1",
-   "94b0c25b7eb1",
-   "a97caeb439ef",
-   "3851b609e5f5",
-   "659341e43ab1",
-   "e144bd330c78",
-   "3facae55006e",
-   "dceff309dc64",
-   "a1eb405ce680",
-   "09f40747d3c8",
-   "99ff60ce6d6c",
-   "c081695d78ac",
-   "4fdf069a54d7",
-   "d673b4df870f",
-   "7c33e2033e00",
-   "e4af398ec470",
-   "18c466b22b49",
-   "8ddbb7f4917b",
-   "d666e3ca3724",
-   "57e76d4ba654",
-   "726d00a8cf83",
-   "374c21529769",
-   "1578620090ed",
-   "b236df489c5e",
-   "6c32053eee50",
    "2cf7265ee5fa",
    "d5f0e3e0614f",
    "2550db267146",
@@ -502,7 +472,37 @@
    "210f97862366",
    "4db29fa92372",
    "d93b7ff89eda",
-   "94b2244c4a34"
+   "94b2244c4a34",
+   "9b1fe82a1251",
+   "4337ec4e4e52",
+   "ef27292dfd25",
+   "a60718590c8c",
+   "01d0e09b7069",
+   "e1edb2991be7",
+   "d6c2c73616bb",
+   "b1bab68715d7",
+   "5964ea54a8b4",
+   "8a59ef52d223",
+   "83634a3f4248",
+   "10ccbd2fdbf6",
+   "ef84891fac5b",
+   "470b30ac26f0",
+   "603fa0a5acc5",
+   "77ef9b11f152",
+   "7c20e0c71a4f",
+   "5f2e4272b64b",
+   "322786657420",
+   "0887833a1d2d",
+   "6b773d39b0fb",
+   "f574768ec500",
+   "3b4321051688",
+   "9ba0e0ba22a4",
+   "ff9029a8b024",
+   "1dabc9058f1a",
+   "f138e1a4fd04",
+   "f2e871b0f528",
+   "c1397637adf4",
+   "9031379b2317"
   ],
   "deals": [
    "steam-246420:90",
@@ -553,7 +553,8 @@
    "steam-1144200:50",
    "steam-1808500:50",
    "steam-72176:58",
-   "steam-252490:50"
+   "steam-252490:50",
+   "steam-3531260:50"
   ],
   "freebies": [
    "epic-7ae00c3e89174012b175cc73b4737723:soon",
@@ -756,7 +757,15 @@
    "result:bo3-129969",
    "live:bo3-131223",
    "live:bo3-129622",
-   "live:bo3-129970"
+   "live:bo3-129970",
+   "result:bo3-130786",
+   "result:bo3-130787",
+   "result:bo3-130785",
+   "live:bo3-131224",
+   "digest:2026-10-08",
+   "result:bo3-129622",
+   "result:bo3-129970",
+   "result:bo3-129623"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -1006,7 +1015,22 @@
    "y_XUra_O4uQ",
    "dmba4P0pD-8",
    "8T3sqnU_J3Q",
-   "mWQX4Z-aKKQ"
+   "mWQX4Z-aKKQ",
+   "643VDp_-yss",
+   "cth53YtYIcU",
+   "DFa7onUXSbs",
+   "jnWicxZKKpQ",
+   "vDr6fhicfO0",
+   "BWgYcV5P2PI",
+   "EIPgivtETng",
+   "iKWA6_nL0w4",
+   "-8srrHQGcaU",
+   "jmf9-faxgso",
+   "Sjoq_b6A7OU",
+   "S8DHtd0OCpw",
+   "myKIY1PeA2w",
+   "Op6ETBJ6ws4",
+   "T_fMWxkgWqM"
   ],
   "releases": [
    "week:2026-W39",
@@ -1020,16 +1044,22 @@
    "day:2026-10-01:x-octopath-traveler",
    "day:2026-10-01:x-octopath-traveler-ii",
    "day:2026-10-01:x-antonblast",
-   "week:2026-W41"
+   "week:2026-W41",
+   "day:2026-10-08:x-isles-of-sea-and-sky",
+   "day:2026-10-08:x-once-upon-a-katamari",
+   "day:2026-10-08:499170",
+   "day:2026-10-08:2333000",
+   "day:2026-10-08:x-crew-motorfest",
+   "day:2026-10-08:x-earth-defense-force-5",
+   "day:2026-10-08:1215940",
+   "day:2026-10-08:x-hell-is-us",
+   "day:2026-10-08:3883570"
   ],
   "gotd": [
    "gotd:2026-09-24"
   ]
  },
  "matchPings": [
-  "2026-10-05T13:38+03:00",
-  "2026-10-05T13:38+03:00",
-  "2026-10-05T18:20+03:00",
   "2026-10-06T01:13+03:00",
   "2026-10-06T01:13+03:00",
   "2026-10-06T13:30+03:00",
@@ -1059,6 +1089,7 @@
  "dealPosts": [
   "2026-10-07T00:04+03:00",
   "2026-10-07T04:40+03:00",
-  "2026-10-07T11:52+03:00"
+  "2026-10-07T11:52+03:00",
+  "2026-10-08T00:57+03:00"
  ]
 }
