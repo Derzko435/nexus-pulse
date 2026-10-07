@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T11:52:31+03:00",
+  "updatedAt": "2026-10-07T20:28:43+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -83,54 +83,24 @@
       "steamAppId": "252490"
     },
     {
-      "id": "steam-5269790",
-      "title": "Flappy Wings Multiplayer",
+      "id": "steam-3531260",
+      "title": "Superhero Simulator",
       "store": "Steam",
-      "old": 51,
-      "neu": 30,
-      "pct": 41,
-      "url": "https://store.steampowered.com/app/5269790/",
-      "steamAppId": "5269790"
+      "old": 155,
+      "neu": 77,
+      "pct": 50,
+      "url": "https://store.steampowered.com/app/3531260/",
+      "steamAppId": "3531260"
     },
     {
-      "id": "steam-4052150",
-      "title": "Paunchy Pets",
+      "id": "steam-5190700",
+      "title": "One More Floor",
       "store": "Steam",
-      "old": 460,
-      "neu": 276,
+      "old": 385,
+      "neu": 231,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/4052150/",
-      "steamAppId": "4052150"
-    },
-    {
-      "id": "steam-3583470",
-      "title": "Prison Escape io",
-      "store": "Steam",
-      "old": 395,
-      "neu": 237,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/3583470/",
-      "steamAppId": "3583470"
-    },
-    {
-      "id": "steam-5136190",
-      "title": "Забастовка в небесах",
-      "store": "Steam",
-      "old": 335,
-      "neu": 201,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5136190/",
-      "steamAppId": "5136190"
-    },
-    {
-      "id": "steam-5208470",
-      "title": "迷你文明",
-      "store": "Steam",
-      "old": 99,
-      "neu": 59,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5208470/",
-      "steamAppId": "5208470"
+      "url": "https://store.steampowered.com/app/5190700/",
+      "steamAppId": "5190700"
     },
     {
       "id": "steam-4001890",
@@ -141,6 +111,36 @@
       "pct": 38,
       "url": "https://store.steampowered.com/app/4001890/",
       "steamAppId": "4001890"
+    },
+    {
+      "id": "steam-108600",
+      "title": "Project Zomboid",
+      "store": "Steam",
+      "old": 1050,
+      "neu": 703,
+      "pct": 33,
+      "url": "https://store.steampowered.com/app/108600/",
+      "steamAppId": "108600"
+    },
+    {
+      "id": "steam-5213380",
+      "title": "Heartbeats - Anniversary Edition",
+      "store": "Steam",
+      "old": 150,
+      "neu": 100,
+      "pct": 33,
+      "url": "https://store.steampowered.com/app/5213380/",
+      "steamAppId": "5213380"
+    },
+    {
+      "id": "steam-1086940",
+      "title": "Baldur's Gate 3",
+      "store": "Steam",
+      "old": 1999,
+      "neu": 1399,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/1086940/",
+      "steamAppId": "1086940"
     }
   ]
 }
