@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T00:04:20+03:00",
+  "updatedAt": "2026-10-07T04:40:08+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -13,16 +13,6 @@
       "steamAppId": "1222140"
     },
     {
-      "id": "steam-979690",
-      "title": "The Ascent",
-      "store": "Steam",
-      "old": 1499,
-      "neu": 149,
-      "pct": 90,
-      "url": "https://store.steampowered.com/app/979690/?curator_clanid=0",
-      "steamAppId": "979690"
-    },
-    {
       "id": "steam-1304930",
       "title": "The Outlast Trials",
       "store": "Steam",
@@ -31,26 +21,6 @@
       "pct": 90,
       "url": "https://store.steampowered.com/app/1304930/",
       "steamAppId": "1304930"
-    },
-    {
-      "id": "steam-1273400",
-      "title": "Construction Simulator",
-      "store": "Steam",
-      "old": 880,
-      "neu": 88,
-      "pct": 90,
-      "url": "https://store.steampowered.com/app/1273400/?curator_clanid=0",
-      "steamAppId": "1273400"
-    },
-    {
-      "id": "steam-2475460",
-      "title": "SOS OPS!",
-      "store": "Steam",
-      "old": 299,
-      "neu": 29,
-      "pct": 90,
-      "url": "https://store.steampowered.com/app/2475460/?curator_clanid=0",
-      "steamAppId": "2475460"
     },
     {
       "id": "steam-668580",
@@ -63,26 +33,6 @@
       "steamAppId": "668580"
     },
     {
-      "id": "steam-242760",
-      "title": "The Forest",
-      "store": "Steam",
-      "old": 435,
-      "neu": 91,
-      "pct": 79,
-      "url": "https://store.steampowered.com/app/242760/?curator_clanid=0",
-      "steamAppId": "242760"
-    },
-    {
-      "id": "steam-2399830",
-      "title": "ARK: Survival Ascended",
-      "store": "Steam",
-      "old": 4220,
-      "neu": 1055,
-      "pct": 75,
-      "url": "https://store.steampowered.com/app/2399830/?curator_clanid=0",
-      "steamAppId": "2399830"
-    },
-    {
       "id": "steam-2183900",
       "title": "Warhammer 40,000: Space Marine 2",
       "store": "Steam",
@@ -93,46 +43,6 @@
       "steamAppId": "2183900"
     },
     {
-      "id": "steam-264710",
-      "title": "Subnautica",
-      "store": "Steam",
-      "old": 1800,
-      "neu": 450,
-      "pct": 75,
-      "url": "https://store.steampowered.com/app/264710/?curator_clanid=0",
-      "steamAppId": "264710"
-    },
-    {
-      "id": "steam-227300",
-      "title": "Euro Truck Simulator 2",
-      "store": "Steam",
-      "old": 1249,
-      "neu": 312,
-      "pct": 75,
-      "url": "https://store.steampowered.com/app/227300/?curator_clanid=0",
-      "steamAppId": "227300"
-    },
-    {
-      "id": "steam-270880",
-      "title": "American Truck Simulator",
-      "store": "Steam",
-      "old": 1249,
-      "neu": 312,
-      "pct": 75,
-      "url": "https://store.steampowered.com/app/270880/?curator_clanid=0",
-      "steamAppId": "270880"
-    },
-    {
-      "id": "steam-784080",
-      "title": "MechWarrior 5: Mercenaries",
-      "store": "Steam",
-      "old": 515,
-      "neu": 128,
-      "pct": 75,
-      "url": "https://store.steampowered.com/app/784080/?curator_clanid=0",
-      "steamAppId": "784080"
-    },
-    {
       "id": "steam-1326470",
       "title": "Sons Of The Forest",
       "store": "Steam",
@@ -141,6 +51,96 @@
       "pct": 71,
       "url": "https://store.steampowered.com/app/1326470/",
       "steamAppId": "1326470"
+    },
+    {
+      "id": "steam-72176",
+      "title": "Atomic Heart - Ultimate Edition",
+      "store": "Steam",
+      "old": 5091,
+      "neu": 852,
+      "pct": 58,
+      "url": "https://store.steampowered.com/app/72176/",
+      "steamAppId": "72176"
+    },
+    {
+      "id": "steam-1808500",
+      "title": "ARC Raiders",
+      "store": "Steam",
+      "old": 3220,
+      "neu": 1610,
+      "pct": 50,
+      "url": "https://store.steampowered.com/app/1808500/",
+      "steamAppId": "1808500"
+    },
+    {
+      "id": "steam-1144200",
+      "title": "Ready or Not",
+      "store": "Steam",
+      "old": 2240,
+      "neu": 1120,
+      "pct": 50,
+      "url": "https://store.steampowered.com/app/1144200/",
+      "steamAppId": "1144200"
+    },
+    {
+      "id": "steam-2361460",
+      "title": "Toy Shire",
+      "store": "Steam",
+      "old": 385,
+      "neu": 192,
+      "pct": 50,
+      "url": "https://store.steampowered.com/app/2361460/",
+      "steamAppId": "2361460"
+    },
+    {
+      "id": "steam-5269790",
+      "title": "Flappy Wings Multiplayer",
+      "store": "Steam",
+      "old": 51,
+      "neu": 30,
+      "pct": 41,
+      "url": "https://store.steampowered.com/app/5269790/",
+      "steamAppId": "5269790"
+    },
+    {
+      "id": "steam-3583470",
+      "title": "Prison Escape io",
+      "store": "Steam",
+      "old": 395,
+      "neu": 237,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/3583470/",
+      "steamAppId": "3583470"
+    },
+    {
+      "id": "steam-5136190",
+      "title": "Забастовка в небесах",
+      "store": "Steam",
+      "old": 335,
+      "neu": 201,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5136190/",
+      "steamAppId": "5136190"
+    },
+    {
+      "id": "steam-4001890",
+      "title": "How to Fish",
+      "store": "Steam",
+      "old": 359,
+      "neu": 222,
+      "pct": 38,
+      "url": "https://store.steampowered.com/app/4001890/",
+      "steamAppId": "4001890"
+    },
+    {
+      "id": "steam-108600",
+      "title": "Project Zomboid",
+      "store": "Steam",
+      "old": 1050,
+      "neu": 703,
+      "pct": 33,
+      "url": "https://store.steampowered.com/app/108600/",
+      "steamAppId": "108600"
     }
   ]
 }
