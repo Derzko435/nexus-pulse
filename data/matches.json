@@ -1,167 +1,7 @@
 {
- "updatedAt": "2026-10-07T13:20:46+03:00",
+ "updatedAt": "2026-10-07T16:59:48+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-131223",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Yellow Submarine",
-   "teamB": "Blasterbl",
-   "logoA": "https://files.bo3.gg/uploads/team/16486/image/webp-db8fb0a62365deefa26db24e4fb46f10.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/23832/image/webp-df2c53f63dc50546636097d771a84d00.webp",
-   "scoreA": 0,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "live",
-   "event": "PARI Universe: Closed Qualifier",
-   "tier": "A",
-   "startsAt": "2026-10-07T12:00:00+03:00",
-   "streams": [
-    {
-     "type": "kick",
-     "channel": "fissure_dota_en",
-     "lang": "en",
-     "official": false,
-     "label": "fissure_dota_en"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/yellow-submarine-vs-blasterbl-07-10-2026"
-  },
-  {
-   "id": "bo3-129622",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "NRG",
-   "teamB": "T1",
-   "logoA": "https://files.bo3.gg/uploads/team/7347/image/webp-bae3c55811146f6fc9fd812c8e5d27c0.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/7283/image/webp-b7659fc50c020d8e66081f8ed0767d52.webp",
-   "scoreA": 1,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "VALORANT Champions 2026",
-   "tier": "S",
-   "startsAt": "2026-10-07T12:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "polrrz",
-     "lang": "en",
-     "official": true,
-     "label": "polrrz"
-    },
-    {
-     "type": "twitch",
-     "channel": "valorant_fr",
-     "lang": "fr",
-     "official": true,
-     "label": "valorant_fr"
-    },
-    {
-     "type": "twitch",
-     "channel": "relaxcis",
-     "lang": "ru",
-     "official": false,
-     "label": "relaxcis"
-    },
-    {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": false,
-     "label": "valorant"
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/nrg-1-vs-t1-07-10-2026"
-  },
-  {
-   "id": "bo3-129970",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "FlyQuest",
-   "teamB": "Shopify Rebellion",
-   "logoA": "https://files.bo3.gg/uploads/team/18027/image/webp-686a8de8c8e199f222ffadef01a7f585.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/18358/image/webp-6b816957e941383c1345707589104e5e.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "Demacia Cup Global Invitational 2026",
-   "tier": "S",
-   "startsAt": "2026-10-07T13:15:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "makariagaming",
-     "lang": "hu",
-     "official": true,
-     "label": "makariagaming"
-    },
-    {
-     "type": "twitch",
-     "channel": "nervarien",
-     "lang": "pl",
-     "official": true,
-     "label": "nervarien"
-    },
-    {
-     "type": "twitch",
-     "channel": "lplenglish",
-     "lang": "en",
-     "official": false,
-     "label": "lplenglish"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/flyquest-lol-vs-shopify-rebellion-lol-07-10-2026"
-  },
-  {
-   "id": "bo3-130786",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "FURIA",
-   "teamB": "9z",
-   "logoA": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/324/image/webp-847d6324439266b5de80bcb2e23fa38e.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "ESL Pro League Season 24",
-   "tier": "S",
-   "startsAt": "2026-10-07T15:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "cs2_maincast"
-    },
-    {
-     "type": "twitch",
-     "channel": "dachcs",
-     "lang": "de",
-     "official": true,
-     "label": "dachcs"
-    },
-    {
-     "type": "twitch",
-     "channel": "hvnnn_tv",
-     "lang": "kk",
-     "official": true,
-     "label": "hvnnn_tv"
-    }
-   ],
-   "url": "https://bo3.gg/matches/furia-vs-9z-07-10-2026"
-  },
   {
    "id": "bo3-131221",
    "game": "Dota 2",
@@ -171,13 +11,27 @@
    "logoA": "https://files.bo3.gg/uploads/team/15032/image/webp-ccf33875876c94aec941e60f9b667dd0.webp",
    "logoB": "https://files.bo3.gg/uploads/team/25398/image/webp-8560e60c7b3b107d8fa95472b1bc5ee5.webp",
    "scoreA": 0,
-   "scoreB": 0,
+   "scoreB": 1,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "PARI Universe: Closed Qualifier",
    "tier": "A",
-   "startsAt": "2026-10-07T15:00:00+03:00",
+   "startsAt": "2026-10-07T15:50:00+03:00",
    "streams": [
+    {
+     "type": "twitch",
+     "channel": "afoninje",
+     "lang": "ru",
+     "official": false,
+     "label": "afoninje"
+    },
+    {
+     "type": "twitch",
+     "channel": "fissure_dota_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "fissure_dota_ru"
+    },
     {
      "type": "kick",
      "channel": "fissure_dota_en",
@@ -187,33 +41,6 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/mouz-dota2-vs-cyberhero-07-10-2026"
-  },
-  {
-   "id": "bo3-129623",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Paper Rex",
-   "teamB": "LOUD",
-   "logoA": "https://files.bo3.gg/uploads/team/7225/image/webp-b1445d485ba2550ac31d218ef60fd409.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/6874/image/webp-d2c298a09e3bc0540c8f33699a94f4c7.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "VALORANT Champions 2026",
-   "tier": "S",
-   "startsAt": "2026-10-07T15:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/paper-rex-1-vs-loud-07-10-2026"
   },
   {
    "id": "bo3-130787",
@@ -236,8 +63,28 @@
      "channel": "eslcs",
      "lang": "en",
      "official": true,
-     "label": "eslcs",
-     "fallback": true
+     "label": "eslcs"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "cs2_maincast"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_paragon_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "cs2_paragon_ru"
+    },
+    {
+     "type": "twitch",
+     "channel": "bysl4m",
+     "lang": "ru",
+     "official": false,
+     "label": "bysl4m"
     }
    ],
    "url": "https://bo3.gg/matches/parivision-vs-natus-vincere-07-10-2026"
@@ -258,6 +105,20 @@
    "tier": "A",
    "startsAt": "2026-10-07T18:00:00+03:00",
    "streams": [
+    {
+     "type": "twitch",
+     "channel": "afoninje",
+     "lang": "ru",
+     "official": false,
+     "label": "afoninje"
+    },
+    {
+     "type": "twitch",
+     "channel": "fissure_dota_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "fissure_dota_ru"
+    },
     {
      "type": "kick",
      "channel": "fissure_dota_en",
@@ -394,11 +255,31 @@
    "streams": [
     {
      "type": "twitch",
-     "channel": "eslcs",
+     "channel": "fl0m",
      "lang": "en",
      "official": true,
-     "label": "eslcs",
-     "fallback": true
+     "label": "fl0m"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "cs2_maincast"
+    },
+    {
+     "type": "twitch",
+     "channel": "locomass22",
+     "lang": "es",
+     "official": true,
+     "label": "locomass22"
+    },
+    {
+     "type": "twitch",
+     "channel": "hvnnn_tv",
+     "lang": "kk",
+     "official": true,
+     "label": "hvnnn_tv"
     }
    ],
    "url": "https://bo3.gg/matches/spirit-vs-m80-cs-go-07-10-2026"
@@ -485,6 +366,42 @@
    "url": "https://bo3.gg/valorant/matches/100-thieves-1-vs-g2-esports-08-10-2026"
   },
   {
+   "id": "bo3-129971",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Natus Vincere",
+   "teamB": "JD Gaming",
+   "logoA": "https://files.bo3.gg/uploads/team/17800/image/webp-b5ee3195df266b0408b0614ade0e387c.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/18021/image/webp-91801592d51003c3db8f16894500c02d.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "Demacia Cup Global Invitational 2026",
+   "tier": "S",
+   "startsAt": "2026-10-08T12:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/lol/matches/natus-vincere-lol-vs-jd-gaming-lol-08-10-2026"
+  },
+  {
+   "id": "bo3-129972",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "FlyQuest",
+   "teamB": "RED Canids",
+   "logoA": "https://files.bo3.gg/uploads/team/18027/image/webp-686a8de8c8e199f222ffadef01a7f585.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/18103/image/webp-8436f0485803eb0ea176e803f890d001.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "Demacia Cup Global Invitational 2026",
+   "tier": "S",
+   "startsAt": "2026-10-08T14:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/lol/matches/flyquest-lol-vs-red-canids-lol-08-10-2026"
+  },
+  {
    "id": "bo3-129625",
    "game": "Valorant",
    "gameKey": "valorant",
@@ -539,6 +456,33 @@
    "url": "https://bo3.gg/dota2/matches/aurora-vs-1win-dota2-08-10-2026"
   },
   {
+   "id": "bo3-129627",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "T1",
+   "teamB": "Paper Rex",
+   "logoA": "https://files.bo3.gg/uploads/team/7283/image/webp-b7659fc50c020d8e66081f8ed0767d52.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/7225/image/webp-b1445d485ba2550ac31d218ef60fd409.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VALORANT Champions 2026",
+   "tier": "S",
+   "startsAt": "2026-10-09T15:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/t1-vs-paper-rex-1-09-10-2026"
+  },
+  {
    "id": "bo3-130164",
    "game": "LoL",
    "gameKey": "lol",
@@ -564,6 +508,33 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/movistar-koi-fenix-vs-tln-pirates-09-10-2026"
+  },
+  {
+   "id": "bo3-129629",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "NRG",
+   "teamB": "LOUD",
+   "logoA": "https://files.bo3.gg/uploads/team/7347/image/webp-bae3c55811146f6fc9fd812c8e5d27c0.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/6874/image/webp-d2c298a09e3bc0540c8f33699a94f4c7.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VALORANT Champions 2026",
+   "tier": "S",
+   "startsAt": "2026-10-10T15:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/nrg-1-vs-loud-10-10-2026"
   },
   {
    "id": "bo3-128582",
@@ -600,6 +571,213 @@
    "startsAt": "2026-10-11T12:00:00+03:00",
    "streams": [],
    "url": "https://bo3.gg/lol/matches/saigon-warriors-vs-mvk-academy-11-10-2026"
+  },
+  {
+   "id": "bo3-130786",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "FURIA",
+   "teamB": "9z",
+   "logoA": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/324/image/webp-847d6324439266b5de80bcb2e23fa38e.webp",
+   "scoreA": 2,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "finished",
+   "event": "ESL Pro League Season 24",
+   "tier": "S",
+   "startsAt": "2026-10-07T15:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs"
+    },
+    {
+     "type": "twitch",
+     "channel": "fl0m",
+     "lang": "en",
+     "official": true,
+     "label": "fl0m"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "cs2_maincast"
+    },
+    {
+     "type": "twitch",
+     "channel": "ygamessk",
+     "lang": "sk",
+     "official": true,
+     "label": "ygamessk"
+    }
+   ],
+   "url": "https://bo3.gg/matches/furia-vs-9z-07-10-2026"
+  },
+  {
+   "id": "bo3-129623",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "Paper Rex",
+   "teamB": "LOUD",
+   "logoA": "https://files.bo3.gg/uploads/team/7225/image/webp-b1445d485ba2550ac31d218ef60fd409.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/6874/image/webp-d2c298a09e3bc0540c8f33699a94f4c7.webp",
+   "scoreA": 0,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "VALORANT Champions 2026",
+   "tier": "S",
+   "startsAt": "2026-10-07T14:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "yinsu",
+     "lang": "en",
+     "official": true,
+     "label": "yinsu"
+    },
+    {
+     "type": "twitch",
+     "channel": "valorant_la",
+     "lang": "en",
+     "official": true,
+     "label": "valorant_la"
+    },
+    {
+     "type": "twitch",
+     "channel": "valorant_br",
+     "lang": "pt",
+     "official": true,
+     "label": "valorant_br"
+    },
+    {
+     "type": "twitch",
+     "channel": "wipr",
+     "lang": "fr",
+     "official": true,
+     "label": "wipr"
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/paper-rex-1-vs-loud-07-10-2026"
+  },
+  {
+   "id": "bo3-129970",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "FlyQuest",
+   "teamB": "Shopify Rebellion",
+   "logoA": "https://files.bo3.gg/uploads/team/18027/image/webp-686a8de8c8e199f222ffadef01a7f585.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/18358/image/webp-6b816957e941383c1345707589104e5e.webp",
+   "scoreA": 2,
+   "scoreB": 1,
+   "bo": 3,
+   "status": "finished",
+   "event": "Demacia Cup Global Invitational 2026",
+   "tier": "S",
+   "startsAt": "2026-10-07T13:15:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "makariagaming",
+     "lang": "hu",
+     "official": true,
+     "label": "makariagaming"
+    },
+    {
+     "type": "twitch",
+     "channel": "nervarien",
+     "lang": "pl",
+     "official": true,
+     "label": "nervarien"
+    },
+    {
+     "type": "twitch",
+     "channel": "lplenglish",
+     "lang": "en",
+     "official": false,
+     "label": "lplenglish"
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/flyquest-lol-vs-shopify-rebellion-lol-07-10-2026"
+  },
+  {
+   "id": "bo3-131223",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Yellow Submarine",
+   "teamB": "Blasterbl",
+   "logoA": "https://files.bo3.gg/uploads/team/16486/image/webp-db8fb0a62365deefa26db24e4fb46f10.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/23832/image/webp-df2c53f63dc50546636097d771a84d00.webp",
+   "scoreA": 1,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "PARI Universe: Closed Qualifier",
+   "tier": "A",
+   "startsAt": "2026-10-07T12:00:00+03:00",
+   "streams": [
+    {
+     "type": "kick",
+     "channel": "fissure_dota_en",
+     "lang": "en",
+     "official": false,
+     "label": "fissure_dota_en"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/yellow-submarine-vs-blasterbl-07-10-2026"
+  },
+  {
+   "id": "bo3-129622",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "NRG",
+   "teamB": "T1",
+   "logoA": "https://files.bo3.gg/uploads/team/7347/image/webp-bae3c55811146f6fc9fd812c8e5d27c0.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/7283/image/webp-b7659fc50c020d8e66081f8ed0767d52.webp",
+   "scoreA": 2,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "finished",
+   "event": "VALORANT Champions 2026",
+   "tier": "S",
+   "startsAt": "2026-10-07T12:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "polrrz",
+     "lang": "en",
+     "official": true,
+     "label": "polrrz"
+    },
+    {
+     "type": "twitch",
+     "channel": "valorant_fr",
+     "lang": "fr",
+     "official": true,
+     "label": "valorant_fr"
+    },
+    {
+     "type": "twitch",
+     "channel": "relaxcis",
+     "lang": "ru",
+     "official": false,
+     "label": "relaxcis"
+    },
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": false,
+     "label": "valorant"
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/nrg-1-vs-t1-07-10-2026"
   },
   {
    "id": "bo3-129969",
@@ -660,6 +838,24 @@
    "url": "https://bo3.gg/lol/matches/gam-esports-vs-flyquest-lol-07-10-2026"
   },
   {
+   "id": "bo3-129912",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Estral Esports",
+   "teamB": "KaBuM! Ilha das Lendas",
+   "logoA": "https://files.bo3.gg/uploads/team/17258/image/webp-1005099ed8e63fc9456a77b1c399509c.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/20354/image/webp-19ea976e9837db49b667c8177f026b5c.webp",
+   "scoreA": 2,
+   "scoreB": 3,
+   "bo": 5,
+   "status": "finished",
+   "event": "CBLOL 2027 Promotion Tournament",
+   "tier": "S",
+   "startsAt": "2026-10-07T00:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/lol/matches/estral-esports-vs-kabum-ilha-das-lendas-06-10-2026"
+  },
+  {
    "id": "bo3-129915",
    "game": "LoL",
    "gameKey": "lol",
@@ -685,24 +881,6 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/cupid-vs-fuego-lol-06-10-2026"
-  },
-  {
-   "id": "bo3-129912",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Estral Esports",
-   "teamB": "KaBuM! Ilha das Lendas",
-   "logoA": "https://files.bo3.gg/uploads/team/17258/image/webp-1005099ed8e63fc9456a77b1c399509c.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/20354/image/webp-19ea976e9837db49b667c8177f026b5c.webp",
-   "scoreA": 2,
-   "scoreB": 3,
-   "bo": 5,
-   "status": "finished",
-   "event": "CBLOL 2027 Promotion Tournament",
-   "tier": "S",
-   "startsAt": "2026-10-07T00:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/lol/matches/estral-esports-vs-kabum-ilha-das-lendas-06-10-2026"
   },
   {
    "id": "bo3-130783",
@@ -736,7 +914,7 @@
     },
     {
      "type": "youtube",
-     "id": "fpMbrEEkTNQ",
+     "id": "hHd8rXBhrmI",
      "lang": "uk",
      "official": true,
      "label": "CS2 Maincast"
@@ -839,33 +1017,6 @@
    "url": "https://bo3.gg/matches/legacy-br-vs-m80-cs-go-06-10-2026"
   },
   {
-   "id": "bo3-130154",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Movistar KOI Fénix",
-   "teamB": "Frites Esports Club",
-   "logoA": "https://files.bo3.gg/uploads/team/20584/image/webp-720376d119e3a90822f0a7f2695ee5de.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/22314/image/webp-a66125f021761eb89d2f178fd779c2ee.webp",
-   "scoreA": 3,
-   "scoreB": 1,
-   "bo": 5,
-   "status": "finished",
-   "event": "EMEA Masters 2026 Summer",
-   "tier": "A",
-   "startsAt": "2026-10-06T19:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "lec",
-     "lang": "en",
-     "official": true,
-     "label": "lec",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/movistar-koi-fenix-vs-frites-esports-club-06-10-2026"
-  },
-  {
    "id": "bo3-130782",
    "game": "CS2",
    "gameKey": "cs2",
@@ -904,7 +1055,7 @@
     },
     {
      "type": "youtube",
-     "id": "fpMbrEEkTNQ",
+     "id": "hHd8rXBhrmI",
      "lang": "uk",
      "official": true,
      "label": "CS2 Maincast"
@@ -1054,53 +1205,6 @@
    "url": "https://bo3.gg/dota2/matches/blasterbl-vs-nemiga-gaming-06-10-2026"
   },
   {
-   "id": "bo3-130780",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "G2",
-   "teamB": "PARIVISION",
-   "logoA": "https://files.bo3.gg/uploads/team/793/image/webp-8f844f6a25c797dfe74b411d147983ff.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/8171/image/webp-735594256ca5670882480debe25ffb69.webp",
-   "scoreA": 1,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "ESL Pro League Season 24",
-   "tier": "S",
-   "startsAt": "2026-10-06T15:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "cs2_maincast"
-    },
-    {
-     "type": "youtube",
-     "id": "fpMbrEEkTNQ",
-     "lang": "uk",
-     "official": true,
-     "label": "CS2 Maincast"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_paragon_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "cs2_paragon_ru"
-    }
-   ],
-   "url": "https://bo3.gg/matches/g2-vs-parivision-06-10-2026"
-  },
-  {
    "id": "bo3-131217",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -1146,39 +1250,6 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/l1ga-team-vs-cyberhero-06-10-2026"
-  },
-  {
-   "id": "bo3-131216",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "MOUZ",
-   "teamB": "Nemiga Gaming",
-   "logoA": "https://files.bo3.gg/uploads/team/15032/image/webp-ccf33875876c94aec941e60f9b667dd0.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16398/image/webp-90e1f870359e4e1b66a83db6154b1bf8.webp",
-   "scoreA": 2,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "finished",
-   "event": "PARI Universe: Closed Qualifier",
-   "tier": "A",
-   "startsAt": "2026-10-05T21:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "fissure_dota_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "fissure_dota_ru"
-    },
-    {
-     "type": "kick",
-     "channel": "fissure_dota_en",
-     "lang": "en",
-     "official": false,
-     "label": "fissure_dota_en"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/mouz-dota2-vs-nemiga-gaming-05-10-2026"
   },
   {
    "id": "bo3-129621",
@@ -1253,53 +1324,6 @@
     }
    ],
    "url": "https://bo3.gg/valorant/matches/loud-vs-global-esports-04-10-2026"
-  },
-  {
-   "id": "bo3-129612",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Karmine Corp",
-   "teamB": "Nongshim RedForce",
-   "logoA": "https://files.bo3.gg/uploads/team/6744/image/webp-35f7cc6c8ec62a51a5f340c1230a355e.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/6445/image/webp-3c9b371e0c77fbf887738df808136bf9.webp",
-   "scoreA": 1,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "VALORANT Champions 2026",
-   "tier": "S",
-   "startsAt": "2026-10-03T14:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorant_la",
-     "lang": "en",
-     "official": true,
-     "label": "valorant_la"
-    },
-    {
-     "type": "twitch",
-     "channel": "loupiote3",
-     "lang": "en",
-     "official": true,
-     "label": "loupiote3"
-    },
-    {
-     "type": "twitch",
-     "channel": "valorant_fr",
-     "lang": "fr",
-     "official": true,
-     "label": "valorant_fr"
-    },
-    {
-     "type": "twitch",
-     "channel": "valorant_tur",
-     "lang": "tr",
-     "official": true,
-     "label": "valorant_tur"
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/karmine-corp-vs-nongshim-redforce-03-10-2026"
   }
  ],
  "tournaments": [
