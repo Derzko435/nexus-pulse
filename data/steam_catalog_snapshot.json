@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-07T04:40:03+03:00",
+  "updatedAt": "2026-10-07T11:52:26+03:00",
   "source": "steam-store-appdetails",
-  "count": 37,
+  "count": 38,
   "apps": [
     {
       "appid": "730",
@@ -452,25 +452,6 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "979690",
-      "name": "The Ascent",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/979690/header.jpg?t=1772590323",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "The Ascent — экшн-RPG в духе киберпанка с режимами одиночной и кооперативной игры. Владеющая всем (и вами) мегакорпорация «Асцент Груп» внезапно прекращает свое существование. Сумеете выжить без нее?"
-    },
-    {
       "appid": "1304930",
       "name": "The Outlast Trials",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/65fbdba4ad0f1a7ed7a362a086c87042fa40fadc/header_alt_assets_3.jpg?t=1784123708",
@@ -487,37 +468,6 @@
       },
       "metacritic": null,
       "short_description": "Red Barrels invites you to experience mind-numbing terror, this time with friends. Whether you go through the trials alone or in teams, if you survive long enough and complete the therapy, Murkoff will happily let you leave… but will you be the same?"
-    },
-    {
-      "appid": "1273400",
-      "name": "Construction Simulator",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1273400/header.jpg?t=1784210925",
-      "genres": [
-        "Казуальные игры",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Construction Simulator возвращается —теперь еще масштабнее и увлекательнее! Утолите амбиции и постройте успешный строительный бизнес с нуля, а ваш наставник Хапе вам в этом поможет."
-    },
-    {
-      "appid": "2475460",
-      "name": "SOS OPS!",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2475460/a0a7b4a2b2526ae76cab0f0ba6e87e63d962c1a7/header.jpg?t=1791094099",
-      "genres": [],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "SOS OPS! – это нечто большее, чем игра. Твоя задача спасти город. Ты окажешься в самом эпицентре безумия, где совместные миссии с друзьями поднимут адреналин до предела!"
     },
     {
       "appid": "668580",
@@ -538,46 +488,6 @@
       "short_description": "Погрузитесь в безумную и прекрасную техноутопию, где вас на каждом шагу поджидает смерть. Выполните порученное вам задание, подстраиваясь под необычных противников, используя элементы окружения и улучшая свой арсенал. Узнайте правду — любой ценой!"
     },
     {
-      "appid": "242760",
-      "name": "The Forest",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg?t=1699381053",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": 83,
-      "short_description": "As the lone survivor of a passenger jet crash, you find yourself in a mysterious forest battling to stay alive against a society of cannibalistic mutants. Build, explore, survive in this terrifying first person survival horror simulator."
-    },
-    {
-      "appid": "2399830",
-      "name": "ARK: Survival Ascended",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2399830/d934813ca531af0fce69fe36bc972f1c90d1aa19/header.jpg?t=1779293241",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Многопользовательские игры",
-        "Ролевые игры",
-        "Ранний доступ"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Арк переосмысливается с основания в этой технологии видеоигр с помощью Unreal Engine 5! Сформируйте племя, приручите и породу сотни уникальных динозавров и первобытных существ, исследуйте, создайте, строите, строите и пробитесь на вершину пищевой цепи. Ваш новый мир ждет!"
-    },
-    {
       "appid": "2183900",
       "name": "Warhammer 40,000: Space Marine 2",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/041c4b49f2925185ff1be198919b7fbff060c3e1/header_alt_assets_14_russian.jpg?t=1790874369",
@@ -594,57 +504,6 @@
       },
       "metacritic": 82,
       "short_description": "Обретите сверхчеловеческую мощь космодесантника. Пустите в ход смертоносные навыки и разрушительное оружие, чтобы истребить безжалостных тиранидов. Защитите Империум в ярких одиночных боях или многопользовательских режимах с видом от третьего лица."
-    },
-    {
-      "appid": "264710",
-      "name": "Subnautica",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/header.jpg?t=1777456112",
-      "genres": [
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": 87,
-      "short_description": "Descend into the depths of an alien underwater world filled with wonder and peril. Craft equipment, pilot submarines and out-smart wildlife to explore lush coral reefs, volcanoes, cave systems, and more - all while trying to survive."
-    },
-    {
-      "appid": "270880",
-      "name": "American Truck Simulator",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/270880/2cfd6711c21677e7611985d2bacc3a3bcfac2660/header_alt_assets_8.jpg?t=1790759835",
-      "genres": [
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": 76,
-      "short_description": "Ощутите мощь легендарных американских грузовиков и доставляйте разнообразные грузы по солнечной Калифорнии, песчаной Неваде и величественному Большому Каньону штата Аризона. American Truck Simulator увлечет вас в захватывающее путешествие по удивительным пейзажам и знаменитым достопримечательностям, разбросанным по всем штатам."
-    },
-    {
-      "appid": "784080",
-      "name": "MechWarrior 5: Mercenaries",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/784080/33d11250c669e8c755c12678d1ef401e70e1c4a5/header.jpg?t=1791309626",
-      "genres": [
-        "Экшены",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": 73,
-      "short_description": "The year is 3015. The battlefields are dominated by war machines known as BattleMechs. Level entire cities and decimate the enemy in your BattleMech. Follow a quest for glory and revenge. Manage an expanding mercenary company. Fight alongside your friends with a four-player PvE co-op."
     },
     {
       "appid": "1326470",
@@ -664,6 +523,164 @@
       },
       "metacritic": null,
       "short_description": "Sent to find a missing billionaire on a remote island, you find yourself in a cannibal-infested hellscape. Craft, build, and struggle to survive, alone or with friends, in this terrifying new open-world survival horror simulator."
+    },
+    {
+      "appid": "72176",
+      "name": "Steam App 72176",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/72176/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
+    },
+    {
+      "appid": "1808500",
+      "name": "ARC Raiders",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/b1379225bf8d50a4b4ad26aad2c637278222a20c/header_alt_assets_7.jpg?t=1791231034",
+      "genres": [
+        "Экшены"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "ARC Raiders — многопользовательская игра жанра extraction adventure, действие которой разворачивается в суровом будущем на Земле, атакованной загадочными механическими захватчиками ARC."
+    },
+    {
+      "appid": "1144200",
+      "name": "Ready or Not",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/2b44644b033a996a9efb95051bb01809215d0d23/header.jpg?t=1790846188",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Лос-Суэнос. Полиция Лос-Суэноса сообщает о всплеске преступности в городе. Отряды спецназа направлены для урегулирования таких опасных ситуаций, как захват заложников, угрозы взрыва и перестрелки с подозреваемыми."
+    },
+    {
+      "appid": "2361460",
+      "name": "Toy Shire",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2361460/ebec87c7e1e68af5994c7968aedae056619558ba/header_alt_assets_3_russian.jpg?t=1791295208",
+      "genres": [
+        "Экшены",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Готовы защитить башню армии ваших игрушек? Добро пожаловать в Toy Shire! Сражайтесь с врагами в различных локациях, защищайте свою семью и прогоняйте противников со своей территории. Спасите мир, строя игрушечные башни!"
+    },
+    {
+      "appid": "5269790",
+      "name": "Flappy Wings Multiplayer",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5269790/628f41c76c65d3621e79fe7b6600e15065bad1ad/header.jpg?t=1791300803",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Отточите тайминг в этой динамичной 2D-аркаде! Уклоняйтесь от бесконечных труб, ставьте рекорды, повышайте уровень и открывайте забавных персонажей. Играйте соло, делите экран в локальном PvP или соревнуйтесь с миром в хаотичном онлайн-мультиплеере."
+    },
+    {
+      "appid": "3583470",
+      "name": "Prison Escape io",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3583470/cac71cc474727f01f79be93004206630442ce745/header.jpg?t=1791313216",
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Многопользовательские игры",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Беги через ловушки, туннели и стеклянные мосты в динамичном мультиплеере! Сотрудничай или соревнуйся, чтобы сбежать первым. Выживи на диких картах и стань мастером побега! 🚨🏃‍♂️💥"
+    },
+    {
+      "appid": "5136190",
+      "name": "Забастовка в небесах",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5136190/eaaeb948eef7186680af48744aaa131c35388101/header_russian.jpg?t=1791312740",
+      "genres": [
+        "Приключенческие игры",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Возглавьте 4 200 бортпроводников в напряжённой забастовке авиакомпании в роли профсоюзного лидера Роуэна Петрака. Боритесь с давлением общества, ведите трудные переговоры и выбирайте одну из трёх романтических линий, ведущих к разным финалам."
+    },
+    {
+      "appid": "4001890",
+      "name": "How to Fish",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/45c4ddff4901e32c4b8b643e1b97d0d01898d299/header.jpg?t=1788788717",
+      "genres": [
+        "Экшены",
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Симулятор рыбалки с физикой для 1–4 игроков. Вы плывёте себе на лодке и тут внезапно врезаетесь в небольшой островок. Чтобы найти путь домой, придется научиться рыбачить."
+    },
+    {
+      "appid": "108600",
+      "name": "Project Zomboid",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg?t=1787740093",
+      "genres": [
+        "Инди",
+        "Ролевые игры",
+        "Симуляторы",
+        "Ранний доступ"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Project Zomboid is the ultimate in zombie survival. Alone or in MP: you loot, build, craft, fight, farm and fish in a struggle to survive. A hardcore RPG skillset, a vast map, massively customisable sandbox and a cute tutorial raccoon await the unwary. So how will you die? All it takes is a bite.."
     }
   ]
 }

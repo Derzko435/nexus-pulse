@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T04:40:08+03:00",
+  "updatedAt": "2026-10-07T11:52:31+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -73,24 +73,14 @@
       "steamAppId": "1808500"
     },
     {
-      "id": "steam-1144200",
-      "title": "Ready or Not",
+      "id": "steam-252490",
+      "title": "Rust",
       "store": "Steam",
-      "old": 2240,
-      "neu": 1120,
+      "old": 1699,
+      "neu": 849,
       "pct": 50,
-      "url": "https://store.steampowered.com/app/1144200/",
-      "steamAppId": "1144200"
-    },
-    {
-      "id": "steam-2361460",
-      "title": "Toy Shire",
-      "store": "Steam",
-      "old": 385,
-      "neu": 192,
-      "pct": 50,
-      "url": "https://store.steampowered.com/app/2361460/",
-      "steamAppId": "2361460"
+      "url": "https://store.steampowered.com/app/252490/",
+      "steamAppId": "252490"
     },
     {
       "id": "steam-5269790",
@@ -101,6 +91,16 @@
       "pct": 41,
       "url": "https://store.steampowered.com/app/5269790/",
       "steamAppId": "5269790"
+    },
+    {
+      "id": "steam-4052150",
+      "title": "Paunchy Pets",
+      "store": "Steam",
+      "old": 460,
+      "neu": 276,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/4052150/",
+      "steamAppId": "4052150"
     },
     {
       "id": "steam-3583470",
@@ -123,6 +123,16 @@
       "steamAppId": "5136190"
     },
     {
+      "id": "steam-5208470",
+      "title": "迷你文明",
+      "store": "Steam",
+      "old": 99,
+      "neu": 59,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5208470/",
+      "steamAppId": "5208470"
+    },
+    {
       "id": "steam-4001890",
       "title": "How to Fish",
       "store": "Steam",
@@ -131,16 +141,6 @@
       "pct": 38,
       "url": "https://store.steampowered.com/app/4001890/",
       "steamAppId": "4001890"
-    },
-    {
-      "id": "steam-108600",
-      "title": "Project Zomboid",
-      "store": "Steam",
-      "old": 1050,
-      "neu": 703,
-      "pct": 33,
-      "url": "https://store.steampowered.com/app/108600/",
-      "steamAppId": "108600"
     }
   ]
 }
