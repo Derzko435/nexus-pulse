@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-01T23:20:06+03:00",
+ "updatedAt": "2026-10-08T23:00:44+03:00",
  "source": "steam-store",
  "ids": [
   "assetto",
@@ -37,9 +37,9 @@
   },
   "bg3": {
    "appid": 1086940,
-   "final": 1399,
+   "final": 1999,
    "initial": 1999,
-   "pct": 30
+   "pct": 0
   },
   "wukong": {
    "appid": 2358720,
@@ -55,9 +55,9 @@
   },
   "ultrakill": {
    "appid": 1229490,
-   "final": 585,
+   "final": 780,
    "initial": 780,
-   "pct": 25
+   "pct": 0
   },
   "ck3": {
    "appid": 1158310,
@@ -67,21 +67,21 @@
   },
   "stellaris": {
    "appid": 281990,
-   "final": 914,
+   "final": 3049,
    "initial": 3049,
-   "pct": 70
+   "pct": 0
   },
   "hoi4": {
    "appid": 394360,
-   "final": 914,
+   "final": 3049,
    "initial": 3049,
-   "pct": 70
+   "pct": 0
   },
   "rimworld": {
    "appid": 294100,
-   "final": 879,
+   "final": 1099,
    "initial": 1099,
-   "pct": 20
+   "pct": 0
   },
   "hollow": {
    "appid": 367520,
@@ -91,39 +91,39 @@
   },
   "hades": {
    "appid": 1145360,
-   "final": 220,
+   "final": 880,
    "initial": 880,
-   "pct": 75
+   "pct": 0
   },
   "celeste": {
    "appid": 504230,
-   "final": 212,
+   "final": 849,
    "initial": 849,
-   "pct": 75
+   "pct": 0
   },
   "stardew": {
    "appid": 413150,
-   "final": 209,
+   "final": 299,
    "initial": 299,
-   "pct": 30
+   "pct": 0
   },
   "hades2": {
    "appid": 1145350,
-   "final": 770,
+   "final": 1100,
    "initial": 1100,
-   "pct": 30
+   "pct": 0
   },
   "balatro": {
    "appid": 2379780,
-   "final": 488,
+   "final": 610,
    "initial": 610,
-   "pct": 20
+   "pct": 0
   },
   "vampire": {
    "appid": 1794680,
-   "final": 150,
+   "final": 200,
    "initial": 200,
-   "pct": 25
+   "pct": 0
   },
   "outerwilds": {
    "appid": 753640,
@@ -133,15 +133,15 @@
   },
   "phasmo": {
    "appid": 739630,
-   "final": 594,
+   "final": 849,
    "initial": 849,
-   "pct": 30
+   "pct": 0
   },
   "outlast": {
    "appid": 1304930,
-   "final": 130,
+   "final": 1300,
    "initial": 1300,
-   "pct": 90
+   "pct": 0
   },
   "lethal": {
    "appid": 1966720,
@@ -151,33 +151,33 @@
   },
   "assetto": {
    "appid": 805550,
-   "final": 399,
+   "final": 1599,
    "initial": 1599,
-   "pct": 75
+   "pct": 0
   },
   "ets2": {
    "appid": 227300,
-   "final": 312,
-   "initial": 1249,
-   "pct": 75
+   "final": 1269,
+   "initial": 1269,
+   "pct": 0
   },
   "farming": {
    "appid": 2300320,
-   "final": 1462,
+   "final": 1950,
    "initial": 1950,
-   "pct": 25
+   "pct": 0
   },
   "cities": {
    "appid": 949230,
-   "final": 2134,
+   "final": 3049,
    "initial": 3049,
-   "pct": 30
+   "pct": 0
   },
   "ibeam": {
    "appid": 284160,
-   "final": 704,
+   "final": 880,
    "initial": 880,
-   "pct": 20
+   "pct": 0
   }
  }
 }

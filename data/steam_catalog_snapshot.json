@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-08T16:43:41+03:00",
+  "updatedAt": "2026-10-08T23:00:39+03:00",
   "source": "steam-store-appdetails",
-  "count": 36,
+  "count": 37,
   "apps": [
     {
       "appid": "730",
@@ -437,7 +437,7 @@
     {
       "appid": "281990",
       "name": "Stellaris",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/25d064cea0721f8fc17627f40efbf1c9d2ba2adb/header_alt_assets_14_russian.jpg?t=1790873973",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/25d064cea0721f8fc17627f40efbf1c9d2ba2adb/header_alt_assets_14_russian.jpg?t=1791480874",
       "genres": [
         "Симуляторы",
         "Стратегии"
@@ -468,6 +468,24 @@
       },
       "metacritic": null,
       "short_description": "Red Barrels invites you to experience mind-numbing terror, this time with friends. Whether you go through the trials alone or in teams, if you survive long enough and complete the therapy, Murkoff will happily let you leave… but will you be the same?"
+    },
+    {
+      "appid": "668580",
+      "name": "Atomic Heart",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/header.jpg?t=1786632138",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 76,
+      "short_description": "Погрузитесь в безумную и прекрасную техноутопию, где вас на каждом шагу поджидает смерть. Выполните порученное вам задание, подстраиваясь под необычных противников, используя элементы окружения и улучшая свой арсенал. Узнайте правду — любой ценой!"
     },
     {
       "appid": "2183900",
@@ -539,16 +557,45 @@
       "short_description": "ARC Raiders — многопользовательская игра жанра extraction adventure, действие которой разворачивается в суровом будущем на Земле, атакованной загадочными механическими захватчиками ARC."
     },
     {
-      "appid": "5104090",
-      "name": "Starjaunt",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5104090/86803b95771905eb88f7e7e4bd6d405d56819a72/header.jpg?t=1791406556",
+      "appid": "4936770",
+      "name": "Puzzles Meteorites",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4936770/06480ad244cc8b775e86b51599bbdf393079e384/header.jpg?t=1791452375",
       "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Ролевые игры",
-        "Симуляторы",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "This game is a classic puzzle game with multiple levels and beautiful graphics. Enjoy!"
+    },
+    {
+      "appid": "5298800",
+      "name": "无尽军团",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5298800/4a9d004b834defd37468eb2dbe366f8ea7307b47/header.jpg?t=1791441315",
+      "genres": [
         "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Endless Legion is a pixel-art legion survival action game. Command your hero through a five-minute onslaught of monsters — recruit soldiers to form your legion, gather equipment, and power up your combat abilities while facing waves of elites and bosses."
+    },
+    {
+      "appid": "5295530",
+      "name": "RETROPULSE Wave",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5295530/cb940d45dc8a70567eb132f7c828adb53248a6bc/header.jpg?t=1791443094",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -557,7 +604,25 @@
         "linux": true
       },
       "metacritic": null,
-      "short_description": "Start with a shuttle and a full tank. A galaxy of forty-four systems, nine factions, and a war that redraws the map while you fly it. Trade, smuggle, mine, spy, hunt bounties, or command a fleet — and past the last charted jump, something older than every flag out here is starting to wake up."
+      "short_description": "RETROPULSE Wave is an atmospheric neon puzzle game in a RETROWAVE style, where vibrant lines, retro anime, and '80s aesthetics merge into one digital world. Connect matching colored dots, create neon waves, and unlock vibrant illustrations accompanied by atmospheric electronic music."
+    },
+    {
+      "appid": "5293950",
+      "name": "Demonator",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5293950/163f536f745b61f96605c26bd591fdcc8b20c3ed/header.jpg?t=1791439387",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Play as gangsta guy in this 3rd person fighting game. You havent any weapons just use punches and kicks to beat enemy guardians and find money piles in different areas"
     },
     {
       "appid": "4001890",
@@ -596,59 +661,6 @@
       },
       "metacritic": null,
       "short_description": "Project Zomboid is the ultimate in zombie survival. Alone or in MP: you loot, build, craft, fight, farm and fish in a struggle to survive. A hardcore RPG skillset, a vast map, massively customisable sandbox and a cute tutorial raccoon await the unwary. So how will you die? All it takes is a bite.."
-    },
-    {
-      "appid": "1623730",
-      "name": "Palworld",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/6912f19c43a95ff5fe514eedd35e68bf12335459/header.jpg?t=1790336367",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Собирайте удивительных существ — Палов — на просторах огромного мира, отправляйте их сражаться и трудиться на фабриках, стройте с их помощью здания и выращивайте плантации в этом абсолютно новом симуляторе выживания в открытом мире, поддерживающем совместный режим."
-    },
-    {
-      "appid": "4399170",
-      "name": "Secret with Sophia",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4399170/98c3c3c3c81f2567c901d516fcc3e21898eef042/header.jpg?t=1791459944",
-      "genres": [
-        "Ролевые игры",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "&quot;Secret with Sophia&quot; is a full Live2D slow-paced SLG centered on &quot;Love, Healing, and Devotion.&quot; By day, she is your dedicated maid; by night, your cherished lover, accompanying you through an endless winter."
-    },
-    {
-      "appid": "5145290",
-      "name": "Incremental Woods",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5145290/5ededc4cba98d4d630a75adf45cbf77da198e5af/header.jpg?t=1791399585",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Incremental Woods is a short incremental game, where you work your way up to become strong enough to defeat the demon terrorizing the woods. Gather materials, hire companions and build structures to become the savior of the woods."
     }
   ]
 }
