@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-08T09:19:06+03:00",
+  "updatedAt": "2026-10-08T16:43:41+03:00",
   "source": "steam-store-appdetails",
-  "count": 38,
+  "count": 36,
   "apps": [
     {
       "appid": "730",
@@ -242,7 +242,7 @@
     {
       "appid": "739630",
       "name": "Phasmophobia",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/c227a2855aba60f3657bc0c3a46515b8c41fb2b6/header.jpg?t=1789487643",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/6283e4bf96c6e8160492ae12016f0c9a308a75d9/header_alt_assets_13.jpg?t=1791466787",
       "genres": [
         "Экшены",
         "Инди",
@@ -470,24 +470,6 @@
       "short_description": "Red Barrels invites you to experience mind-numbing terror, this time with friends. Whether you go through the trials alone or in teams, if you survive long enough and complete the therapy, Murkoff will happily let you leave… but will you be the same?"
     },
     {
-      "appid": "668580",
-      "name": "Atomic Heart",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/header.jpg?t=1786632138",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": 76,
-      "short_description": "Погрузитесь в безумную и прекрасную техноутопию, где вас на каждом шагу поджидает смерть. Выполните порученное вам задание, подстраиваясь под необычных противников, используя элементы окружения и улучшая свой арсенал. Узнайте правду — любой ценой!"
-    },
-    {
       "appid": "2183900",
       "name": "Warhammer 40,000: Space Marine 2",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/041c4b49f2925185ff1be198919b7fbff060c3e1/header_alt_assets_14_russian.jpg?t=1790874369",
@@ -543,7 +525,7 @@
     {
       "appid": "1808500",
       "name": "ARC Raiders",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/04baafaf64a5aa5f46ecda5d71889a4848dc0628/header.jpg?t=1791401542",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/29e8af9fbf06833558758f94cfb406746f338c45/header_alt_assets_8.jpg?t=1791401542",
       "genres": [
         "Экшены"
       ],
@@ -555,47 +537,6 @@
       },
       "metacritic": null,
       "short_description": "ARC Raiders — многопользовательская игра жанра extraction adventure, действие которой разворачивается в суровом будущем на Земле, атакованной загадочными механическими захватчиками ARC."
-    },
-    {
-      "appid": "252490",
-      "name": "Rust",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1781536981",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Многопользовательские игры",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": 69,
-      "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
-    },
-    {
-      "appid": "3531260",
-      "name": "Superhero Simulator",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3531260/265777065c076b3aa3e2fb021e0b866dcf4c3b65/header.jpg?t=1791384444",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди",
-        "Ролевые игры",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Superhero Simulator is an open-world superhero game where you fight villains and save lives! But being a hero isn’t free! You’ll need to work, pay rent, and survive. Can you handle both sides of the superhero life?"
     },
     {
       "appid": "5104090",
@@ -657,26 +598,45 @@
       "short_description": "Project Zomboid is the ultimate in zombie survival. Alone or in MP: you loot, build, craft, fight, farm and fish in a struggle to survive. A hardcore RPG skillset, a vast map, massively customisable sandbox and a cute tutorial raccoon await the unwary. So how will you die? All it takes is a bite.."
     },
     {
-      "appid": "5267430",
-      "name": "Skyturns",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5267430/06af3bf63c00df59710047e8c285efcd78e6b0e1/header.jpg?t=1791382398",
+      "appid": "1623730",
+      "name": "Palworld",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/6912f19c43a95ff5fe514eedd35e68bf12335459/header.jpg?t=1790336367",
       "genres": [
         "Экшены",
-        "Инди"
+        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
+        "mac": false,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Crazy flow, crazy speed, crazy skill, crazy levels. This game is hard, skill-based, and super fun once you get it."
+      "short_description": "Собирайте удивительных существ — Палов — на просторах огромного мира, отправляйте их сражаться и трудиться на фабриках, стройте с их помощью здания и выращивайте плантации в этом абсолютно новом симуляторе выживания в открытом мире, поддерживающем совместный режим."
     },
     {
-      "appid": "5213380",
-      "name": "Heartbeats - Anniversary Edition",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5213380/0f259946562e212a7e8568d7fbf11c09fb23d19a/header.jpg?t=1791384498",
+      "appid": "4399170",
+      "name": "Secret with Sophia",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4399170/98c3c3c3c81f2567c901d516fcc3e21898eef042/header.jpg?t=1791459944",
+      "genres": [
+        "Ролевые игры",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "&quot;Secret with Sophia&quot; is a full Live2D slow-paced SLG centered on &quot;Love, Healing, and Devotion.&quot; By day, she is your dedicated maid; by night, your cherished lover, accompanying you through an endless winter."
+    },
+    {
+      "appid": "5145290",
+      "name": "Incremental Woods",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5145290/5ededc4cba98d4d630a75adf45cbf77da198e5af/header.jpg?t=1791399585",
       "genres": [
         "Казуальные игры",
         "Инди"
@@ -688,7 +648,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "A stylish mix of classic point-and-click puzzles. Hardcore, old school, and unforgiving. A short story where each page is a puzzle, and each puzzle unlocks the next."
+      "short_description": "Incremental Woods is a short incremental game, where you work your way up to become strong enough to defeat the demon terrorizing the woods. Gather materials, hire companions and build structures to become the savior of the woods."
     }
   ]
 }
