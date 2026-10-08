@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T02:12:26+03:00",
+  "updatedAt": "2026-10-08T09:19:11+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -23,16 +23,6 @@
       "steamAppId": "1304930"
     },
     {
-      "id": "steam-668580",
-      "title": "Atomic Heart",
-      "store": "Steam",
-      "old": 2499,
-      "neu": 499,
-      "pct": 80,
-      "url": "https://store.steampowered.com/app/668580/",
-      "steamAppId": "668580"
-    },
-    {
       "id": "steam-2183900",
       "title": "Warhammer 40,000: Space Marine 2",
       "store": "Steam",
@@ -41,6 +31,16 @@
       "pct": 75,
       "url": "https://store.steampowered.com/app/2183900/",
       "steamAppId": "2183900"
+    },
+    {
+      "id": "steam-227300",
+      "title": "Euro Truck Simulator 2",
+      "store": "Steam",
+      "old": 1249,
+      "neu": 312,
+      "pct": 75,
+      "url": "https://store.steampowered.com/app/227300/",
+      "steamAppId": "227300"
     },
     {
       "id": "steam-1326470",
@@ -73,26 +73,6 @@
       "steamAppId": "1808500"
     },
     {
-      "id": "steam-252490",
-      "title": "Rust",
-      "store": "Steam",
-      "old": 1699,
-      "neu": 849,
-      "pct": 50,
-      "url": "https://store.steampowered.com/app/252490/",
-      "steamAppId": "252490"
-    },
-    {
-      "id": "steam-3531260",
-      "title": "Superhero Simulator",
-      "store": "Steam",
-      "old": 155,
-      "neu": 77,
-      "pct": 50,
-      "url": "https://store.steampowered.com/app/3531260/",
-      "steamAppId": "3531260"
-    },
-    {
       "id": "steam-5104090",
       "title": "Starjaunt",
       "store": "Steam",
@@ -123,24 +103,44 @@
       "steamAppId": "108600"
     },
     {
-      "id": "steam-5267430",
-      "title": "Skyturns",
+      "id": "steam-1086940",
+      "title": "Baldur's Gate 3",
       "store": "Steam",
-      "old": 660,
-      "neu": 442,
-      "pct": 33,
-      "url": "https://store.steampowered.com/app/5267430/",
-      "steamAppId": "5267430"
+      "old": 1999,
+      "neu": 1399,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/1086940/",
+      "steamAppId": "1086940"
     },
     {
-      "id": "steam-5213380",
-      "title": "Heartbeats - Anniversary Edition",
+      "id": "steam-1623730",
+      "title": "Palworld",
       "store": "Steam",
-      "old": 150,
-      "neu": 100,
-      "pct": 33,
-      "url": "https://store.steampowered.com/app/5213380/",
-      "steamAppId": "5213380"
+      "old": 1100,
+      "neu": 770,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/1623730/",
+      "steamAppId": "1623730"
+    },
+    {
+      "id": "steam-4399170",
+      "title": "Secret with Sophia",
+      "store": "Steam",
+      "old": 200,
+      "neu": 140,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/4399170/",
+      "steamAppId": "4399170"
+    },
+    {
+      "id": "steam-5145290",
+      "title": "Incremental Woods",
+      "store": "Steam",
+      "old": 125,
+      "neu": 87,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5145290/",
+      "steamAppId": "5145290"
     }
   ]
 }

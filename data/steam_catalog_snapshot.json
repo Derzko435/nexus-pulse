@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-08T02:12:20+03:00",
+  "updatedAt": "2026-10-08T09:19:06+03:00",
   "source": "steam-store-appdetails",
-  "count": 37,
+  "count": 38,
   "apps": [
     {
       "appid": "730",
@@ -598,22 +598,25 @@
       "short_description": "Superhero Simulator is an open-world superhero game where you fight villains and save lives! But being a hero isn’t free! You’ll need to work, pay rent, and survive. Can you handle both sides of the superhero life?"
     },
     {
-      "appid": "5190700",
-      "name": "One More Floor",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5190700/62766521c1d00935e5efd0c6d8d1c1785bcc0e6f/header.jpg?t=1791368397",
+      "appid": "5104090",
+      "name": "Starjaunt",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5104090/86803b95771905eb88f7e7e4bd6d405d56819a72/header.jpg?t=1791406556",
       "genres": [
-        "Казуальные игры",
+        "Экшены",
+        "Приключенческие игры",
         "Инди",
-        "Ролевые игры"
+        "Ролевые игры",
+        "Симуляторы",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
+        "mac": true,
         "linux": true
       },
       "metacritic": null,
-      "short_description": "A small box dungeon crawl for one player. A deck of rooms, a handful of dice, four numbers on a character sheet, and five floors that do not care how well you did last time."
+      "short_description": "Start with a shuttle and a full tank. A galaxy of forty-four systems, nine factions, and a war that redraws the map while you fly it. Trade, smuggle, mine, spy, hunt bounties, or command a fleet — and past the last charted jump, something older than every flag out here is starting to wake up."
     },
     {
       "appid": "4001890",
@@ -652,6 +655,23 @@
       },
       "metacritic": null,
       "short_description": "Project Zomboid is the ultimate in zombie survival. Alone or in MP: you loot, build, craft, fight, farm and fish in a struggle to survive. A hardcore RPG skillset, a vast map, massively customisable sandbox and a cute tutorial raccoon await the unwary. So how will you die? All it takes is a bite.."
+    },
+    {
+      "appid": "5267430",
+      "name": "Skyturns",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5267430/06af3bf63c00df59710047e8c285efcd78e6b0e1/header.jpg?t=1791382398",
+      "genres": [
+        "Экшены",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Crazy flow, crazy speed, crazy skill, crazy levels. This game is hard, skill-based, and super fun once you get it."
     },
     {
       "appid": "5213380",
