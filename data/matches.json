@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-08T04:21:36+03:00",
+ "updatedAt": "2026-10-08T13:40:27+03:00",
  "source": "bo3.gg",
  "matches": [
   {
@@ -10,21 +10,41 @@
    "teamB": "LGD Gaming",
    "logoA": "https://files.bo3.gg/uploads/team/20951/image/webp-102aceac7404bd2093f9b559afcad7b6.webp",
    "logoB": "https://files.bo3.gg/uploads/team/16711/image/webp-cf9143a16e0462f173c2587341f7ff08.webp",
-   "scoreA": 0,
+   "scoreA": 1,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "BLAST Slam VIII",
    "tier": "S",
    "startsAt": "2026-10-08T12:00:00+03:00",
    "streams": [
     {
      "type": "twitch",
-     "channel": "blastpremier",
+     "channel": "betbist",
+     "lang": "ru",
+     "official": true,
+     "label": "betbist"
+    },
+    {
+     "type": "twitch",
+     "channel": "blastdota",
      "lang": "en",
      "official": true,
-     "label": "blastpremier",
-     "fallback": true
+     "label": "blastdota"
+    },
+    {
+     "type": "twitch",
+     "channel": "dota2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "dota2_maincast"
+    },
+    {
+     "type": "kick",
+     "channel": "americaesportsdota2",
+     "lang": "es",
+     "official": true,
+     "label": "americaesportsdota2"
     }
    ],
    "url": "https://bo3.gg/dota2/matches/team-yandex-vs-lgd-gaming-dota2-08-10-2026"
@@ -38,20 +58,40 @@
    "logoA": "https://files.bo3.gg/uploads/team/7298/image/webp-84f36fa520c3fb0bac0f97297ae2859e.webp",
    "logoB": "https://files.bo3.gg/uploads/team/7323/image/webp-a6b33ebec05ea1ac47e1e6bea746bdfc.webp",
    "scoreA": 0,
-   "scoreB": 0,
+   "scoreB": 1,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "VALORANT Champions 2026",
    "tier": "S",
    "startsAt": "2026-10-08T12:00:00+03:00",
    "streams": [
     {
      "type": "twitch",
-     "channel": "valorant",
+     "channel": "valorant_la",
      "lang": "en",
      "official": true,
-     "label": "valorant",
-     "fallback": true
+     "label": "valorant_la"
+    },
+    {
+     "type": "twitch",
+     "channel": "valorant_br",
+     "lang": "pt",
+     "official": true,
+     "label": "valorant_br"
+    },
+    {
+     "type": "twitch",
+     "channel": "valorant_fr",
+     "lang": "fr",
+     "official": true,
+     "label": "valorant_fr"
+    },
+    {
+     "type": "twitch",
+     "channel": "valorantesports_cn",
+     "lang": "zh",
+     "official": true,
+     "label": "valorantesports_cn"
     }
    ],
    "url": "https://bo3.gg/valorant/matches/100-thieves-1-vs-g2-esports-08-10-2026"
@@ -64,10 +104,10 @@
    "teamB": "RED Canids",
    "logoA": "https://files.bo3.gg/uploads/team/18027/image/webp-686a8de8c8e199f222ffadef01a7f585.webp",
    "logoB": "https://files.bo3.gg/uploads/team/18103/image/webp-8436f0485803eb0ea176e803f890d001.webp",
-   "scoreA": 0,
+   "scoreA": 2,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "Demacia Cup Global Invitational 2026",
    "tier": "S",
    "startsAt": "2026-10-08T12:00:00+03:00",
@@ -136,11 +176,31 @@
    "streams": [
     {
      "type": "twitch",
-     "channel": "valorant",
+     "channel": "valorant_la",
      "lang": "en",
      "official": true,
-     "label": "valorant",
-     "fallback": true
+     "label": "valorant_la"
+    },
+    {
+     "type": "twitch",
+     "channel": "valorant_br",
+     "lang": "pt",
+     "official": true,
+     "label": "valorant_br"
+    },
+    {
+     "type": "twitch",
+     "channel": "valorant_fr",
+     "lang": "fr",
+     "official": true,
+     "label": "valorant_fr"
+    },
+    {
+     "type": "twitch",
+     "channel": "valorantesports_cn",
+     "lang": "zh",
+     "official": true,
+     "label": "valorantesports_cn"
     }
    ],
    "url": "https://bo3.gg/valorant/matches/team-vitality-vs-nongshim-redforce-08-10-2026"
@@ -163,11 +223,31 @@
    "streams": [
     {
      "type": "twitch",
-     "channel": "blastpremier",
+     "channel": "betbist",
+     "lang": "ru",
+     "official": true,
+     "label": "betbist"
+    },
+    {
+     "type": "twitch",
+     "channel": "blastdota",
      "lang": "en",
      "official": true,
-     "label": "blastpremier",
-     "fallback": true
+     "label": "blastdota"
+    },
+    {
+     "type": "twitch",
+     "channel": "dota2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "dota2_maincast"
+    },
+    {
+     "type": "kick",
+     "channel": "americaesportsdota2",
+     "lang": "es",
+     "official": true,
+     "label": "americaesportsdota2"
     }
    ],
    "url": "https://bo3.gg/dota2/matches/aurora-vs-1win-dota2-08-10-2026"
@@ -197,7 +277,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/lol/matches/cupid-vs-maryville-university-08-10-2026"
+   "url": "https://bo3.gg/lol/matches/maryville-university-vs-cupid-08-10-2026"
   },
   {
    "id": "bo3-130747",
@@ -335,33 +415,6 @@
    "url": "https://bo3.gg/matches/falcons-esports-vs-spirit-09-10-2026"
   },
   {
-   "id": "bo3-130164",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Movistar KOI Fénix",
-   "teamB": "TLN Pirates",
-   "logoA": "https://files.bo3.gg/uploads/team/20584/image/webp-720376d119e3a90822f0a7f2695ee5de.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/22371/image/webp-35753cd0e1196e634d4c3c16d4419e02.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "upcoming",
-   "event": "EMEA Masters 2026 Summer",
-   "tier": "A",
-   "startsAt": "2026-10-09T19:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "lec",
-     "lang": "en",
-     "official": true,
-     "label": "lec",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/movistar-koi-fenix-vs-tln-pirates-09-10-2026"
-  },
-  {
    "id": "bo3-130163",
    "game": "LoL",
    "gameKey": "lol",
@@ -387,6 +440,33 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/galions-vs-kaufland-hangry-knights-09-10-2026"
+  },
+  {
+   "id": "bo3-130164",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Movistar KOI Fénix",
+   "teamB": "TLN Pirates",
+   "logoA": "https://files.bo3.gg/uploads/team/20584/image/webp-720376d119e3a90822f0a7f2695ee5de.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/22371/image/webp-35753cd0e1196e634d4c3c16d4419e02.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "upcoming",
+   "event": "EMEA Masters 2026 Summer",
+   "tier": "A",
+   "startsAt": "2026-10-09T19:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "lec",
+     "lang": "en",
+     "official": true,
+     "label": "lec",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/movistar-koi-fenix-vs-tln-pirates-09-10-2026"
   },
   {
    "id": "bo3-129918",
@@ -443,24 +523,6 @@
    "url": "https://bo3.gg/valorant/matches/nrg-1-vs-loud-10-10-2026"
   },
   {
-   "id": "bo3-128582",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "LOS",
-   "teamB": "FURIA",
-   "logoA": "https://files.bo3.gg/uploads/team/16923/image/webp-b1532153c183e4bee443587e846fcd79.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17448/image/webp-c55d5f6b07157723e05297241a757f98.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "upcoming",
-   "event": "CBLOL 2026 Split 2",
-   "tier": "S",
-   "startsAt": "2026-10-10T19:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/lol/matches/los-vs-furia-esports-lol-10-10-2026"
-  },
-  {
    "id": "bo3-130162",
    "game": "LoL",
    "gameKey": "lol",
@@ -486,6 +548,24 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/solary-lol-vs-g2-nord-10-10-2026"
+  },
+  {
+   "id": "bo3-128582",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "LOS",
+   "teamB": "FURIA",
+   "logoA": "https://files.bo3.gg/uploads/team/16923/image/webp-b1532153c183e4bee443587e846fcd79.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17448/image/webp-c55d5f6b07157723e05297241a757f98.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "upcoming",
+   "event": "CBLOL 2026 Split 2",
+   "tier": "S",
+   "startsAt": "2026-10-10T19:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/lol/matches/los-vs-furia-esports-lol-10-10-2026"
   },
   {
    "id": "bo3-130161",
@@ -1273,33 +1353,6 @@
     }
    ],
    "url": "https://bo3.gg/valorant/matches/fut-esports-vs-t1-04-10-2026"
-  },
-  {
-   "id": "bo3-129618",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "LOUD",
-   "teamB": "Global Esports",
-   "logoA": "https://files.bo3.gg/uploads/team/6874/image/webp-d2c298a09e3bc0540c8f33699a94f4c7.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/6989/image/402bcce57f5a4ca1600f897cd70c780f.png",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "VALORANT Champions 2026",
-   "tier": "S",
-   "startsAt": "2026-10-04T12:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/loud-vs-global-esports-04-10-2026"
   }
  ],
  "tournaments": [
