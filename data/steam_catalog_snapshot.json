@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-08T23:00:39+03:00",
+  "updatedAt": "2026-10-08T23:41:06+03:00",
   "source": "steam-store-appdetails",
-  "count": 37,
+  "count": 39,
   "apps": [
     {
       "appid": "730",
@@ -452,82 +452,9 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "1304930",
-      "name": "The Outlast Trials",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/65fbdba4ad0f1a7ed7a362a086c87042fa40fadc/header_alt_assets_3.jpg?t=1784123708",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Red Barrels invites you to experience mind-numbing terror, this time with friends. Whether you go through the trials alone or in teams, if you survive long enough and complete the therapy, Murkoff will happily let you leave… but will you be the same?"
-    },
-    {
-      "appid": "668580",
-      "name": "Atomic Heart",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/header.jpg?t=1786632138",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": 76,
-      "short_description": "Погрузитесь в безумную и прекрасную техноутопию, где вас на каждом шагу поджидает смерть. Выполните порученное вам задание, подстраиваясь под необычных противников, используя элементы окружения и улучшая свой арсенал. Узнайте правду — любой ценой!"
-    },
-    {
-      "appid": "2183900",
-      "name": "Warhammer 40,000: Space Marine 2",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/041c4b49f2925185ff1be198919b7fbff060c3e1/header_alt_assets_14_russian.jpg?t=1790874369",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": 82,
-      "short_description": "Обретите сверхчеловеческую мощь космодесантника. Пустите в ход смертоносные навыки и разрушительное оружие, чтобы истребить безжалостных тиранидов. Защитите Империум в ярких одиночных боях или многопользовательских режимах с видом от третьего лица."
-    },
-    {
-      "appid": "1326470",
-      "name": "Sons Of The Forest",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg?t=1708624856",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Sent to find a missing billionaire on a remote island, you find yourself in a cannibal-infested hellscape. Craft, build, and struggle to survive, alone or with friends, in this terrifying new open-world survival horror simulator."
-    },
-    {
-      "appid": "72176",
-      "name": "Steam App 72176",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/72176/header.jpg",
+      "appid": "2475460",
+      "name": "SOS OPS!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2475460/a0a7b4a2b2526ae76cab0f0ba6e87e63d962c1a7/header.jpg?t=1791094099",
       "genres": [],
       "is_free": false,
       "platforms": {
@@ -536,9 +463,62 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "",
-      "catalogId": null,
-      "curated": true
+      "short_description": "SOS OPS! – это нечто большее, чем игра. Твоя задача спасти город. Ты окажешься в самом эпицентре безумия, где совместные миссии с друзьями поднимут адреналин до предела!"
+    },
+    {
+      "appid": "2138710",
+      "name": "Sifu",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138710/header.jpg?t=1782742326",
+      "genres": [
+        "Экшены",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 81,
+      "short_description": "Sifu — это реалистичный боевик от третьего лица с напряженными боями в стиле кунг-фу и кинематографическими драками. Герой игры — одинокий воин, который ищет возмездия."
+    },
+    {
+      "appid": "1158310",
+      "name": "Crusader Kings III",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/5a32e8b0154679ead6a7b974b5fb9d792222a57e/header_alt_assets_13_russian.jpg?t=1791471575",
+      "genres": [
+        "Ролевые игры",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": 91,
+      "short_description": "Любовь, война, интриги и величие. Определите наследие своего знатного рода в безграничной глобальной стратегии Crusader Kings III. Смерть — это только начало вашего пути по истории выбранной династии в этой полной неожиданностей и славы симуляции Средних веков."
+    },
+    {
+      "appid": "834910",
+      "name": "ATLAS",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/834910/header.jpg?t=1694646023",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Многопользовательские игры",
+        "Ролевые игры",
+        "Ранний доступ"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Set sail for the ultimate pirate experience! Embark on a grand adventure alongside thousands of other players in one of the largest game worlds ever built (and even claim a piece of it to call your own). Build your ship, assemble your crew, sail the high seas, and become a pirate legend!"
     },
     {
       "appid": "1808500",
@@ -557,45 +537,31 @@
       "short_description": "ARC Raiders — многопользовательская игра жанра extraction adventure, действие которой разворачивается в суровом будущем на Земле, атакованной загадочными механическими захватчиками ARC."
     },
     {
-      "appid": "4936770",
-      "name": "Puzzles Meteorites",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4936770/06480ad244cc8b775e86b51599bbdf393079e384/header.jpg?t=1791452375",
+      "appid": "1332010",
+      "name": "Stray",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/71daca1910d664d31240b9623a495e0c0828807f/header.jpg?t=1785424330",
       "genres": [
-        "Казуальные игры",
+        "Приключенческие игры",
         "Инди"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
+        "mac": true,
         "linux": false
       },
-      "metacritic": null,
-      "short_description": "This game is a classic puzzle game with multiple levels and beautiful graphics. Enjoy!"
+      "metacritic": 82,
+      "short_description": "Потерявшемуся, одинокому, оторванному от семьи бродячему коту предстоит разгадать древнюю тайну, вырваться из давно заброшенного кибергорода и найти дорогу домой."
     },
     {
-      "appid": "5298800",
-      "name": "无尽军团",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5298800/4a9d004b834defd37468eb2dbe366f8ea7307b47/header.jpg?t=1791441315",
+      "appid": "105600",
+      "name": "Terraria",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1769844435",
       "genres": [
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Endless Legion is a pixel-art legion survival action game. Command your hero through a five-minute onslaught of monsters — recruit soldiers to form your legion, gather equipment, and power up your combat abilities while facing waves of elites and bosses."
-    },
-    {
-      "appid": "5295530",
-      "name": "RETROPULSE Wave",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5295530/cb940d45dc8a70567eb132f7c828adb53248a6bc/header.jpg?t=1791443094",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры"
       ],
       "is_free": false,
       "platforms": {
@@ -603,16 +569,16 @@
         "mac": true,
         "linux": true
       },
-      "metacritic": null,
-      "short_description": "RETROPULSE Wave is an atmospheric neon puzzle game in a RETROWAVE style, where vibrant lines, retro anime, and '80s aesthetics merge into one digital world. Connect matching colored dots, create neon waves, and unlock vibrant illustrations accompanied by atmospheric electronic music."
+      "metacritic": 83,
+      "short_description": "Копайте, сражайтесь, исследуйте, стройте! Нет ничего невозможного в этой насыщенной событиями приключенческой игре. Также доступен комплект для четверых!"
     },
     {
-      "appid": "5293950",
-      "name": "Demonator",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5293950/163f536f745b61f96605c26bd591fdcc8b20c3ed/header.jpg?t=1791439387",
+      "appid": "4878340",
+      "name": "Bigger Brain",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4878340/546b07b791703bc9f577c14d2963302f739da4cc/header.jpg?t=1791471749",
       "genres": [
         "Экшены",
-        "Приключенческие игры",
+        "Казуальные игры",
         "Инди"
       ],
       "is_free": false,
@@ -622,14 +588,30 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Play as gangsta guy in this 3rd person fighting game. You havent any weapons just use punches and kicks to beat enemy guardians and find money piles in different areas"
+      "short_description": "&quot;Ascend and amplify your intellect with limitless endurance and sonic-Level Speed&quot;. Ostrich is almost perfect exsitence except for its intellect. Ostrich can not remember even the member of familly. This is an urgent problem. Collect brains!!"
     },
     {
-      "appid": "4001890",
-      "name": "How to Fish",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/45c4ddff4901e32c4b8b643e1b97d0d01898d299/header.jpg?t=1788788717",
+      "appid": "5245720",
+      "name": "Old War Together",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5245720/ce12e93db4a4a4e13208c5394a40152493878507/header.jpg?t=1791479066",
       "genres": [
         "Экшены",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Стилизованный шутер от третьего лица о Второй мировой для 1–16 игроков, где боты заполняют сражения до 100 солдат. Сражайтесь в Нормандии на танках и самолётах, за каждый дом или против Призраков. Создавайте свои карты и моды."
+    },
+    {
+      "appid": "4436580",
+      "name": "All You Can FISH!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4436580/0e8f16466e8c12a35a983f8ff9d36280a06525e2/header.jpg?t=1791482211",
+      "genres": [
         "Казуальные игры",
         "Инди",
         "Симуляторы"
@@ -641,26 +623,77 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Симулятор рыбалки с физикой для 1–4 игроков. Вы плывёте себе на лодке и тут внезапно врезаетесь в небольшой островок. Чтобы найти путь домой, придется научиться рыбачить."
+      "short_description": "Милое и уютное инкрементальное рыболовное приключение! Отправляйтесь в плавание в роли пса Луки, выловите каждую рыбу в море и развивайте дерево навыков глубиной с океан — заброс за забросом, на пути к тому, чтобы стать лучшим Fisherdog на свете."
     },
     {
-      "appid": "108600",
-      "name": "Project Zomboid",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg?t=1787740093",
+      "appid": "3964840",
+      "name": "Duty Free Shop Simulator",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3964840/bc62f4a7e431f76f0cc388f16c27102bed646922/header.jpg?t=1791487202",
       "genres": [
+        "Гонки",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Run your own airport duty free shop, manage stocks, catch smugglers, sell &amp; grow!"
+    },
+    {
+      "appid": "1623730",
+      "name": "Palworld",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/6912f19c43a95ff5fe514eedd35e68bf12335459/header.jpg?t=1790336367",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
         "Инди",
-        "Ролевые игры",
-        "Симуляторы",
-        "Ранний доступ"
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Собирайте удивительных существ — Палов — на просторах огромного мира, отправляйте их сражаться и трудиться на фабриках, стройте с их помощью здания и выращивайте плантации в этом абсолютно новом симуляторе выживания в открытом мире, поддерживающем совместный режим."
+    },
+    {
+      "appid": "4569670",
+      "name": "Keep Watering",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4569670/ef6c0f1cd3ee45732aa60a79c5f5416335c2f0ea/header.jpg?t=1791480099",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": true,
-        "linux": true
+        "linux": false
       },
       "metacritic": null,
-      "short_description": "Project Zomboid is the ultimate in zombie survival. Alone or in MP: you loot, build, craft, fight, farm and fish in a struggle to survive. A hardcore RPG skillset, a vast map, massively customisable sandbox and a cute tutorial raccoon await the unwary. So how will you die? All it takes is a bite.."
+      "short_description": "Keep Watering is an incremental game with a cozy, hypnotic loop where every drop of water grows into something extraordinary."
+    },
+    {
+      "appid": "4056850",
+      "name": "Snemovna",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4056850/3067bbcd7b31403f63452af4ec28a833640abb4d/header.jpg?t=1791485551",
+      "genres": [
+        "Казуальные игры",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "An absurd survival horror satire set in the Czech Parliament. Sneak through corridors, hide from politicians, and collect real campaign promises in a game full of memes and bizarre buffs."
     }
   ]
 }
