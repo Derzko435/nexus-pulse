@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T12:17:02+03:00",
+  "updatedAt": "2026-10-09T20:03:55+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -485,7 +485,7 @@
     {
       "appid": "305620",
       "name": "The Long Dark",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/305620/6c82ea1073946b0e83974a0ae6bd9d29d93911f9/header.jpg?t=1785448287",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/305620/6c82ea1073946b0e83974a0ae6bd9d29d93911f9/header.jpg?t=1791559307",
       "genres": [
         "Приключенческие игры",
         "Инди",
@@ -555,23 +555,6 @@
       "short_description": "ARC Raiders — многопользовательская игра жанра extraction adventure, действие которой разворачивается в суровом будущем на Земле, атакованной загадочными механическими захватчиками ARC."
     },
     {
-      "appid": "1332010",
-      "name": "Stray",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/71daca1910d664d31240b9623a495e0c0828807f/header.jpg?t=1785424330",
-      "genres": [
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": 82,
-      "short_description": "Потерявшемуся, одинокому, оторванному от семьи бродячему коту предстоит разгадать древнюю тайну, вырваться из давно заброшенного кибергорода и найти дорогу домой."
-    },
-    {
       "appid": "105600",
       "name": "Terraria",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1769844435",
@@ -589,76 +572,6 @@
       },
       "metacritic": 83,
       "short_description": "Копайте, сражайтесь, исследуйте, стройте! Нет ничего невозможного в этой насыщенной событиями приключенческой игре. Также доступен комплект для четверых!"
-    },
-    {
-      "appid": "5271830",
-      "name": "The Lost Tapes 18+",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5271830/3488ae1b27a95d62be02d48c4cea46906ef994f8/header.jpg?t=1791486262",
-      "genres": [
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "The Lost Tapes 18+ — интерактивный кибердетектив внутри виртуального рабочего стола. Изучайте переписки и файлы, взламывайте системы, собирайте улики и решите судьбу героев. Пять глав, мини-игры, несколько концовок и открываемый контент 18+."
-    },
-    {
-      "appid": "5245720",
-      "name": "Old War Together",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5245720/ce12e93db4a4a4e13208c5394a40152493878507/header.jpg?t=1791479066",
-      "genres": [
-        "Экшены",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Стилизованный шутер от третьего лица о Второй мировой для 1–16 игроков, где боты заполняют сражения до 100 солдат. Сражайтесь в Нормандии на танках и самолётах, за каждый дом или против Призраков. Создавайте свои карты и моды."
-    },
-    {
-      "appid": "4436580",
-      "name": "All You Can FISH!",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4436580/0e8f16466e8c12a35a983f8ff9d36280a06525e2/header.jpg?t=1791495677",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Милое и уютное инкрементальное рыболовное приключение! Отправляйтесь в плавание в роли пса Луки, выловите каждую рыбу в море и развивайте дерево навыков глубиной с океан — заброс за забросом, на пути к тому, чтобы стать лучшим Fisherdog на свете."
-    },
-    {
-      "appid": "3964840",
-      "name": "Duty Free Shop Simulator",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3964840/bc62f4a7e431f76f0cc388f16c27102bed646922/header.jpg?t=1791487202",
-      "genres": [
-        "Гонки",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Run your own airport duty free shop, manage stocks, catch smugglers, sell &amp; grow!"
     },
     {
       "appid": "1623730",
@@ -680,9 +593,9 @@
       "short_description": "Собирайте удивительных существ — Палов — на просторах огромного мира, отправляйте их сражаться и трудиться на фабриках, стройте с их помощью здания и выращивайте плантации в этом абсолютно новом симуляторе выживания в открытом мире, поддерживающем совместный режим."
     },
     {
-      "appid": "4056850",
-      "name": "Snemovna",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4056850/3067bbcd7b31403f63452af4ec28a833640abb4d/header.jpg?t=1791485551",
+      "appid": "5123270",
+      "name": "撩妹模拟器：备胎的觉醒",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5123270/12ac0ee7932d6e30a329c861831e9be67e100bcb/header.jpg?t=1791511123",
       "genres": [
         "Казуальные игры",
         "Симуляторы"
@@ -694,7 +607,101 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "An absurd survival horror satire set in the Czech Parliament. Sneak through corridors, hide from politicians, and collect real campaign promises in a game full of memes and bizarre buffs."
+      "short_description": "A must-play for chasing girls! The only game online that truly teaches dating skills. All for the price of a fast-food meal, turning you into a pickup pro in no time!"
+    },
+    {
+      "appid": "5276570",
+      "name": "Unlucky Duck",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5276570/b37e97641d72af29e133d6c2778af2ba5288903f/header.jpg?t=1791536135",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Разгоняй невезучую утку, проскакивай между трубами и собирай мощные бустеры! Чем быстрее летишь, тем сильнее множитель: быстрее перезарядки или мощнее эффекты. Взрывай препятствия, проходи сквозь них и уменьшайся ради нового рекорда. Только не врежься!"
+    },
+    {
+      "appid": "3932890",
+      "name": "Escape from Tarkov",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932890/d09430bbc790237c1de5071188cbc78dc44f0c71/header_alt_assets_2_russian.jpg?t=1785782094",
+      "genres": [
+        "Экшены",
+        "Многопользовательские игры",
+        "Ролевые игры",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Escape from Tarkov - хардкорный шутер, где каждый рейд - это игра со смертью. Готовься к рейдам, превозмогай и пробивайся сквозь беспощадных бойцов ЧВК и Диких, пользуйся тактическим преимуществом и забирай самый ценный лут. Ты либо выйдешь живым, либо потеряешь все."
+    },
+    {
+      "appid": "3883570",
+      "name": "Invokyr",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883570/a1d37fb2bf0de54d1746d1aa4b83fb7ca81700d8/header.jpg?t=1791547174",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы",
+        "Бесплатные",
+        "Ранний доступ"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Забытая настолка в проклятом доме так и манит сыграть. Собирайте до 5 друзей, бросайте кубики и выживайте среди оживших кошмаров мастера игры. Рискните всем, используйте особые кости и одолейте зловещую игру, чтобы сбежать."
+    },
+    {
+      "appid": "5073130",
+      "name": "Tessera",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5073130/44d3a6e0ffb7f2ba348e6d719e6cd26232df7226/header.jpg?t=1791515952",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Ролевые игры",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A match-3 × falling-block hybrid roguelike. Forge gems into tetrominoes on the left board, drop them to clear lines and strike on the right. Fight through a five-chapter dark-fantasy campaign with elemental counters, 100+ relics and one-life runs, or chase high scores in Endless mode."
+    },
+    {
+      "appid": "4033680",
+      "name": "Escape: Immersion",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4033680/1162b2fe206242e8dfc2971484bc6dc75197ec1e/header.jpg?t=1791543761",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Escape: Immersion — кинематографическое хоррор-приключение в 2,5D, разворачивающееся на разрушающейся подводной военной базе. Исследуйте затопленные коридоры, решайте головоломки окружения, избегайте смертельных ловушек и раскройте своё прошлое."
     }
   ]
 }

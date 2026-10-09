@@ -1,17 +1,7 @@
 {
-  "updatedAt": "2026-10-09T12:17:07+03:00",
+  "updatedAt": "2026-10-09T20:04:00+03:00",
   "source": "steam-specials-ru",
   "deals": [
-    {
-      "id": "steam-2475460",
-      "title": "SOS OPS!",
-      "store": "Steam",
-      "old": 299,
-      "neu": 29,
-      "pct": 90,
-      "url": "https://store.steampowered.com/app/2475460/",
-      "steamAppId": "2475460"
-    },
     {
       "id": "steam-2138710",
       "title": "Sifu",
@@ -43,16 +33,6 @@
       "steamAppId": "1620730"
     },
     {
-      "id": "steam-834910",
-      "title": "ATLAS",
-      "store": "Steam",
-      "old": 1100,
-      "neu": 363,
-      "pct": 67,
-      "url": "https://store.steampowered.com/app/834910/",
-      "steamAppId": "834910"
-    },
-    {
       "id": "steam-1808500",
       "title": "ARC Raiders",
       "store": "Steam",
@@ -73,6 +53,56 @@
       "steamAppId": "105600"
     },
     {
+      "id": "steam-3948100",
+      "title": "Towerfolk",
+      "store": "Steam",
+      "old": 420,
+      "neu": 252,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/3948100/",
+      "steamAppId": "3948100"
+    },
+    {
+      "id": "steam-4959180",
+      "title": "Blaster!",
+      "store": "Steam",
+      "old": 420,
+      "neu": 252,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/4959180/",
+      "steamAppId": "4959180"
+    },
+    {
+      "id": "steam-5054070",
+      "title": "LUSTORIA",
+      "store": "Steam",
+      "old": 420,
+      "neu": 252,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5054070/",
+      "steamAppId": "5054070"
+    },
+    {
+      "id": "steam-4718490",
+      "title": "Much Bigger Than my Boyfriend",
+      "store": "Steam",
+      "old": 490,
+      "neu": 333,
+      "pct": 32,
+      "url": "https://store.steampowered.com/app/4718490/",
+      "steamAppId": "4718490"
+    },
+    {
+      "id": "steam-436780",
+      "title": "Tavern Keeper 🍻",
+      "store": "Steam",
+      "old": 1269,
+      "neu": 888,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/436780/",
+      "steamAppId": "436780"
+    },
+    {
       "id": "steam-1623730",
       "title": "Palworld",
       "store": "Steam",
@@ -83,24 +113,24 @@
       "steamAppId": "1623730"
     },
     {
-      "id": "steam-5123270",
-      "title": "撩妹模拟器：备胎的觉醒",
+      "id": "steam-5259250",
+      "title": "ComfyTrans: Realtime Screen Translator",
       "store": "Steam",
-      "old": 240,
-      "neu": 168,
+      "old": 315,
+      "neu": 220,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/5123270/",
-      "steamAppId": "5123270"
+      "url": "https://store.steampowered.com/app/5259250/",
+      "steamAppId": "5259250"
     },
     {
-      "id": "steam-5276570",
-      "title": "Unlucky Duck",
+      "id": "steam-4316340",
+      "title": "Tied to the Beat",
       "store": "Steam",
-      "old": 99,
-      "neu": 69,
+      "old": 130,
+      "neu": 91,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/5276570/",
-      "steamAppId": "5276570"
+      "url": "https://store.steampowered.com/app/4316340/",
+      "steamAppId": "4316340"
     },
     {
       "id": "steam-3932890",
@@ -111,36 +141,6 @@
       "pct": 25,
       "url": "https://store.steampowered.com/app/3932890/",
       "steamAppId": "3932890"
-    },
-    {
-      "id": "steam-3883570",
-      "title": "Invokyr",
-      "store": "Steam",
-      "old": 590,
-      "neu": 442,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/3883570/",
-      "steamAppId": "3883570"
-    },
-    {
-      "id": "steam-5073130",
-      "title": "Tessera",
-      "store": "Steam",
-      "old": 465,
-      "neu": 348,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5073130/",
-      "steamAppId": "5073130"
-    },
-    {
-      "id": "steam-4033680",
-      "title": "Escape: Immersion",
-      "store": "Steam",
-      "old": 460,
-      "neu": 345,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/4033680/",
-      "steamAppId": "4033680"
     }
   ]
 }
