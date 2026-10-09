@@ -1,107 +1,7 @@
 {
- "updatedAt": "2026-10-08T22:01:47+03:00",
+ "updatedAt": "2026-10-09T04:29:34+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-131226",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "LEGION",
-   "teamB": "Blasterbl",
-   "logoA": "",
-   "logoB": "https://files.bo3.gg/uploads/team/23832/image/webp-df2c53f63dc50546636097d771a84d00.webp",
-   "scoreA": 1,
-   "scoreB": 1,
-   "bo": 5,
-   "status": "live",
-   "event": "PARI Universe: Closed Qualifier",
-   "tier": "A",
-   "startsAt": "2026-10-08T19:30:00+03:00",
-   "streams": [
-    {
-     "type": "kick",
-     "channel": "fissure_dota_en",
-     "lang": "en",
-     "official": false,
-     "label": "fissure_dota_en"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/legion_stack-vs-blasterbl-08-10-2026"
-  },
-  {
-   "id": "bo3-130698",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "PARIVISION",
-   "teamB": "Team Yandex",
-   "logoA": "https://files.bo3.gg/uploads/team/18604/image/webp-6ff7974f420e977381734ce06515692b.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/20951/image/webp-102aceac7404bd2093f9b559afcad7b6.webp",
-   "scoreA": 1,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "BLAST Slam VIII",
-   "tier": "S",
-   "startsAt": "2026-10-08T19:50:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "neret17",
-     "lang": "ru",
-     "official": true,
-     "label": "neret17"
-    },
-    {
-     "type": "twitch",
-     "channel": "blastdota",
-     "lang": "en",
-     "official": true,
-     "label": "blastdota"
-    },
-    {
-     "type": "twitch",
-     "channel": "dota2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "dota2_maincast"
-    },
-    {
-     "type": "twitch",
-     "channel": "kaxangabr",
-     "lang": "pt",
-     "official": true,
-     "label": "kaxangabr"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/parivision-dota2-vs-team-yandex-08-10-2026"
-  },
-  {
-   "id": "bo3-129917",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Cupid Esports",
-   "teamB": "Maryville University",
-   "logoA": "https://files.bo3.gg/uploads/team/20536/image/webp-e18458ba617ae301479bb062c0c58ca1.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17077/image/webp-1443fc9372a43abeca3d806c3cbef0ea.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "upcoming",
-   "event": "LCS 2027 Promotion Tournament",
-   "tier": "S",
-   "startsAt": "2026-10-09T00:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "riotgames",
-     "lang": "en",
-     "official": true,
-     "label": "riotgames",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/maryville-university-vs-cupid-08-10-2026"
-  },
   {
    "id": "bo3-130747",
    "game": "CS2",
@@ -238,6 +138,33 @@
    "url": "https://bo3.gg/valorant/matches/100-thieves-1-vs-nongshim-redforce-09-10-2026"
   },
   {
+   "id": "bo3-130701",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "PARIVISION",
+   "teamB": "1w Team",
+   "logoA": "https://files.bo3.gg/uploads/team/18604/image/webp-6ff7974f420e977381734ce06515692b.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/15038/image/webp-9df00f89ea17c5d1512eff71fcbce70f.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "BLAST Slam VIII",
+   "tier": "S",
+   "startsAt": "2026-10-09T15:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "blastpremier",
+     "lang": "en",
+     "official": true,
+     "label": "blastpremier",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/1win-dota2-vs-parivision-dota2-09-10-2026"
+  },
+  {
    "id": "bo3-130749",
    "game": "CS2",
    "gameKey": "cs2",
@@ -292,33 +219,6 @@
    "url": "https://bo3.gg/matches/falcons-esports-vs-spirit-09-10-2026"
   },
   {
-   "id": "bo3-130163",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Galions",
-   "teamB": "Kaufland Hangry Knights",
-   "logoA": "https://files.bo3.gg/uploads/team/18886/image/webp-568919094985d17bf24eebffb2a5fb46.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16963/image/webp-6e5f7fde1aca00e1c3b218c2879529bc.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "upcoming",
-   "event": "EMEA Masters 2026 Summer",
-   "tier": "A",
-   "startsAt": "2026-10-09T19:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "lec",
-     "lang": "en",
-     "official": true,
-     "label": "lec",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/galions-vs-kaufland-hangry-knights-09-10-2026"
-  },
-  {
    "id": "bo3-130164",
    "game": "LoL",
    "gameKey": "lol",
@@ -344,6 +244,33 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/movistar-koi-fenix-vs-tln-pirates-09-10-2026"
+  },
+  {
+   "id": "bo3-130163",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Galions",
+   "teamB": "Kaufland Hangry Knights",
+   "logoA": "https://files.bo3.gg/uploads/team/18886/image/webp-568919094985d17bf24eebffb2a5fb46.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16963/image/webp-6e5f7fde1aca00e1c3b218c2879529bc.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "upcoming",
+   "event": "EMEA Masters 2026 Summer",
+   "tier": "A",
+   "startsAt": "2026-10-09T19:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "lec",
+     "lang": "en",
+     "official": true,
+     "label": "lec",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/galions-vs-kaufland-hangry-knights-09-10-2026"
   },
   {
    "id": "bo3-129918",
@@ -551,6 +478,124 @@
    "startsAt": "2026-10-11T12:00:00+03:00",
    "streams": [],
    "url": "https://bo3.gg/lol/matches/saigon-warriors-vs-mvk-academy-11-10-2026"
+  },
+  {
+   "id": "bo3-129973",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "BNK FEARX",
+   "teamB": "JD Gaming",
+   "logoA": "https://files.bo3.gg/uploads/team/18335/image/webp-f44a8f9018d2af4430f5a3a75dfd2680.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/18021/image/webp-91801592d51003c3db8f16894500c02d.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "upcoming",
+   "event": "Demacia Cup Global Invitational 2026",
+   "tier": "S",
+   "startsAt": "2026-10-12T09:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/lol/matches/fearx-lol-vs-jd-gaming-lol-12-10-2026"
+  },
+  {
+   "id": "bo3-129917",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Cupid Esports",
+   "teamB": "Maryville University",
+   "logoA": "https://files.bo3.gg/uploads/team/20536/image/webp-e18458ba617ae301479bb062c0c58ca1.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17077/image/webp-1443fc9372a43abeca3d806c3cbef0ea.webp",
+   "scoreA": 0,
+   "scoreB": 3,
+   "bo": 5,
+   "status": "finished",
+   "event": "LCS 2027 Promotion Tournament",
+   "tier": "S",
+   "startsAt": "2026-10-09T00:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "riotgames",
+     "lang": "en",
+     "official": true,
+     "label": "riotgames",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/maryville-university-vs-cupid-08-10-2026"
+  },
+  {
+   "id": "bo3-130698",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "PARIVISION",
+   "teamB": "Team Yandex",
+   "logoA": "https://files.bo3.gg/uploads/team/18604/image/webp-6ff7974f420e977381734ce06515692b.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/20951/image/webp-102aceac7404bd2093f9b559afcad7b6.webp",
+   "scoreA": 1,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "BLAST Slam VIII",
+   "tier": "S",
+   "startsAt": "2026-10-08T19:50:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "neret17",
+     "lang": "ru",
+     "official": true,
+     "label": "neret17"
+    },
+    {
+     "type": "twitch",
+     "channel": "blastdota",
+     "lang": "en",
+     "official": true,
+     "label": "blastdota"
+    },
+    {
+     "type": "twitch",
+     "channel": "dota2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "dota2_maincast"
+    },
+    {
+     "type": "twitch",
+     "channel": "kaxangabr",
+     "lang": "pt",
+     "official": true,
+     "label": "kaxangabr"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/parivision-dota2-vs-team-yandex-08-10-2026"
+  },
+  {
+   "id": "bo3-131226",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "LEGION",
+   "teamB": "Blasterbl",
+   "logoA": "",
+   "logoB": "https://files.bo3.gg/uploads/team/23832/image/webp-df2c53f63dc50546636097d771a84d00.webp",
+   "scoreA": 3,
+   "scoreB": 1,
+   "bo": 5,
+   "status": "finished",
+   "event": "PARI Universe: Closed Qualifier",
+   "tier": "A",
+   "startsAt": "2026-10-08T19:30:00+03:00",
+   "streams": [
+    {
+     "type": "kick",
+     "channel": "fissure_dota_en",
+     "lang": "en",
+     "official": false,
+     "label": "fissure_dota_en"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/legion_stack-vs-blasterbl-08-10-2026"
   },
   {
    "id": "bo3-130697",
@@ -877,68 +922,21 @@
    "url": "https://bo3.gg/matches/spirit-vs-m80-cs-go-07-10-2026"
   },
   {
-   "id": "bo3-131224",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Blasterbl",
-   "teamB": "CyberHero",
-   "logoA": "https://files.bo3.gg/uploads/team/23832/image/webp-df2c53f63dc50546636097d771a84d00.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/25398/image/webp-8560e60c7b3b107d8fa95472b1bc5ee5.webp",
-   "scoreA": 2,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "finished",
-   "event": "PARI Universe: Closed Qualifier",
-   "tier": "A",
-   "startsAt": "2026-10-07T21:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "fissure_dota_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "fissure_dota_ru"
-    },
-    {
-     "type": "kick",
-     "channel": "fissure_dota_en",
-     "lang": "en",
-     "official": false,
-     "label": "fissure_dota_en"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/cyberhero-vs-blasterbl-07-10-2026"
-  },
-  {
-   "id": "bo3-130160",
+   "id": "bo3-130157",
    "game": "LoL",
    "gameKey": "lol",
-   "teamA": "Los Heretics",
-   "teamB": "G2 NORD",
-   "logoA": "https://files.bo3.gg/uploads/team/16945/image/webp-32313f985ed38f5ececb54deb23e6401.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/22411/image/webp-54b508d344cb88ac42ea9511125dc931.webp",
-   "scoreA": 2,
-   "scoreB": 3,
+   "teamA": "Kaufland Hangry Knights",
+   "teamB": "Unicorns Of Love Sexy Edition",
+   "logoA": "https://files.bo3.gg/uploads/team/16963/image/webp-6e5f7fde1aca00e1c3b218c2879529bc.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17414/image/webp-38ba6308ee72289895d3a5e7da5db211.webp",
+   "scoreA": 3,
+   "scoreB": 1,
    "bo": 5,
    "status": "finished",
    "event": "EMEA Masters 2026 Summer",
    "tier": "A",
    "startsAt": "2026-10-07T19:00:00+03:00",
    "streams": [
-    {
-     "type": "twitch",
-     "channel": "makariagaming",
-     "lang": "hu",
-     "official": true,
-     "label": "makariagaming"
-    },
-    {
-     "type": "twitch",
-     "channel": "champi14",
-     "lang": "es",
-     "official": true,
-     "label": "champi14"
-    },
     {
      "type": "twitch",
      "channel": "primeleague",
@@ -948,93 +946,13 @@
     },
     {
      "type": "twitch",
-     "channel": "toadamarillo",
-     "lang": "es",
+     "channel": "obsess3",
+     "lang": "de",
      "official": false,
-     "label": "toadamarillo"
+     "label": "obsess3"
     }
    ],
-   "url": "https://bo3.gg/lol/matches/team-heretics-academy-vs-g2-nord-07-10-2026"
-  },
-  {
-   "id": "bo3-130159",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Karmine Corp Blue",
-   "teamB": "Skillcamp Esport",
-   "logoA": "https://files.bo3.gg/uploads/team/17288/image/webp-4390b6f0aa457cda5309f3bb4b2726f1.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/18323/image/webp-af0dd0bf42e9ed4cb12916f36fe8afe7.webp",
-   "scoreA": 3,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "finished",
-   "event": "EMEA Masters 2026 Summer",
-   "tier": "A",
-   "startsAt": "2026-10-07T19:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "otplol_",
-     "lang": "fr",
-     "official": true,
-     "label": "otplol_"
-    },
-    {
-     "type": "twitch",
-     "channel": "esport2tv",
-     "lang": "hu",
-     "official": true,
-     "label": "esport2tv"
-    },
-    {
-     "type": "twitch",
-     "channel": "nervarien",
-     "lang": "pl",
-     "official": true,
-     "label": "nervarien"
-    },
-    {
-     "type": "twitch",
-     "channel": "blv_dino",
-     "lang": "vi",
-     "official": true,
-     "label": "blv_dino"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/karmine-corp-blue-vs-skillcamp-esport-07-10-2026"
-  },
-  {
-   "id": "bo3-131222",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Team Synapse",
-   "teamB": "LEGION",
-   "logoA": "https://files.bo3.gg/uploads/team/25201/image/webp-f4b3c164debad1ea4885652e123df7ce.webp",
-   "logoB": "",
-   "scoreA": 0,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "PARI Universe: Closed Qualifier",
-   "tier": "A",
-   "startsAt": "2026-10-07T18:10:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "fissure_dota_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "fissure_dota_ru"
-    },
-    {
-     "type": "kick",
-     "channel": "fissure_dota_en",
-     "lang": "en",
-     "official": false,
-     "label": "fissure_dota_en"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/team-synapse-vs-legion_stack-07-10-2026"
+   "url": "https://bo3.gg/lol/matches/kaufland-hangry-knights-vs-unicorns-of-love-sexy-edition-07-10-2026"
   },
   {
    "id": "bo3-130787",
@@ -1420,17 +1338,6 @@
    "url": "https://bo3.gg/lol/tournaments/lcs-2027-promotion-tournament"
   },
   {
-   "name": "PARI Universe: Closed Qualifier",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "tier": "A",
-   "prize": null,
-   "start": "2026-10-05",
-   "end": "2026-10-09",
-   "status": "current",
-   "url": "https://bo3.gg/dota2/tournaments/pari-universe-closed-qualifier"
-  },
-  {
    "name": "LCP 2027 Promotion - Wild Card Playoffs",
    "game": "LoL",
    "gameKey": "lol",
@@ -1495,6 +1402,17 @@
    "end": "2026-10-31",
    "status": "upcoming",
    "url": "https://bo3.gg/tournaments/pgl-masters-bucharest-2026"
+  },
+  {
+   "name": "Intel Extreme Masters Beijing 2026",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "tier": "S",
+   "prize": 1250000,
+   "start": "2026-11-02",
+   "end": "2026-11-09",
+   "status": "upcoming",
+   "url": "https://bo3.gg/tournaments/intel-extreme-masters-beijing-2026"
   }
  ]
 }
