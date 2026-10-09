@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T03:29:20+03:00",
+  "updatedAt": "2026-10-09T12:17:07+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -63,16 +63,6 @@
       "steamAppId": "1808500"
     },
     {
-      "id": "steam-1332010",
-      "title": "Stray",
-      "store": "Steam",
-      "old": 1269,
-      "neu": 634,
-      "pct": 50,
-      "url": "https://store.steampowered.com/app/1332010/",
-      "steamAppId": "1332010"
-    },
-    {
       "id": "steam-105600",
       "title": "Terraria",
       "store": "Steam",
@@ -81,46 +71,6 @@
       "pct": 50,
       "url": "https://store.steampowered.com/app/105600/",
       "steamAppId": "105600"
-    },
-    {
-      "id": "steam-5271830",
-      "title": "The Lost Tapes 18+",
-      "store": "Steam",
-      "old": 240,
-      "neu": 144,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5271830/",
-      "steamAppId": "5271830"
-    },
-    {
-      "id": "steam-5245720",
-      "title": "Old War Together",
-      "store": "Steam",
-      "old": 99,
-      "neu": 59,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5245720/",
-      "steamAppId": "5245720"
-    },
-    {
-      "id": "steam-4436580",
-      "title": "All You Can FISH!",
-      "store": "Steam",
-      "old": 389,
-      "neu": 252,
-      "pct": 35,
-      "url": "https://store.steampowered.com/app/4436580/",
-      "steamAppId": "4436580"
-    },
-    {
-      "id": "steam-3964840",
-      "title": "Duty Free Shop Simulator",
-      "store": "Steam",
-      "old": 165,
-      "neu": 110,
-      "pct": 33,
-      "url": "https://store.steampowered.com/app/3964840/",
-      "steamAppId": "3964840"
     },
     {
       "id": "steam-1623730",
@@ -133,14 +83,64 @@
       "steamAppId": "1623730"
     },
     {
-      "id": "steam-4056850",
-      "title": "Snemovna",
+      "id": "steam-5123270",
+      "title": "撩妹模拟器：备胎的觉醒",
       "store": "Steam",
-      "old": 320,
-      "neu": 224,
+      "old": 240,
+      "neu": 168,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/4056850/",
-      "steamAppId": "4056850"
+      "url": "https://store.steampowered.com/app/5123270/",
+      "steamAppId": "5123270"
+    },
+    {
+      "id": "steam-5276570",
+      "title": "Unlucky Duck",
+      "store": "Steam",
+      "old": 99,
+      "neu": 69,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5276570/",
+      "steamAppId": "5276570"
+    },
+    {
+      "id": "steam-3932890",
+      "title": "Escape from Tarkov",
+      "store": "Steam",
+      "old": 1800,
+      "neu": 1350,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/3932890/",
+      "steamAppId": "3932890"
+    },
+    {
+      "id": "steam-3883570",
+      "title": "Invokyr",
+      "store": "Steam",
+      "old": 590,
+      "neu": 442,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/3883570/",
+      "steamAppId": "3883570"
+    },
+    {
+      "id": "steam-5073130",
+      "title": "Tessera",
+      "store": "Steam",
+      "old": 465,
+      "neu": 348,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/5073130/",
+      "steamAppId": "5073130"
+    },
+    {
+      "id": "steam-4033680",
+      "title": "Escape: Immersion",
+      "store": "Steam",
+      "old": 460,
+      "neu": 345,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/4033680/",
+      "steamAppId": "4033680"
     }
   ]
 }

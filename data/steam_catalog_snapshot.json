@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T03:29:15+03:00",
+  "updatedAt": "2026-10-09T12:17:02+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -502,6 +502,23 @@
       "short_description": "The Long Dark - это исследовательская игра-симулятор выживания, в которой игроки-одиночки должны позаботиться о себе в ходе изучения обширных морозных необитаемых территорий, переживших геомагнитную катастрофу. Здесь нет зомби - только вы, холод и все опасности, которые вам может обеспечить мать-природа."
     },
     {
+      "appid": "1620730",
+      "name": "Hell is Us",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1620730/9f4126c3544ecd106872b686df8f1345450f65ab/header_alt_assets_0_russian.jpg?t=1791467530",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Из всего, что есть на земле, больше всего на ад похожа война. Ведь в нашем мире обитает худший из демонов — человек. Раскройте тайны своего прошлого и разберитесь с последствиями катастрофы в закрытой стране, измученной междоусобицами."
+    },
+    {
       "appid": "834910",
       "name": "ATLAS",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/834910/header.jpg?t=1694646023",
@@ -538,22 +555,6 @@
       "short_description": "ARC Raiders — многопользовательская игра жанра extraction adventure, действие которой разворачивается в суровом будущем на Земле, атакованной загадочными механическими захватчиками ARC."
     },
     {
-      "appid": "3948510",
-      "name": "ARC Raiders - Upgrade to Deluxe Edition",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948510/4b2bf21553e133eb88b5766370a1684acdc2d9d6/header.jpg?t=1761816660",
-      "genres": [
-        "Экшены"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Приобретите улучшение до ARC Raiders Deluxe Edition, чтобы получить: - Пакет Wanderer Cosmetic Pack, - Косметический предмет для персонажа «Шрам на губе», - Пиу-пиу Эмодзи, - Наряд «Плюшкина», - 2,400 рейдерских жетонов."
-    },
-    {
       "appid": "1332010",
       "name": "Stray",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/71daca1910d664d31240b9623a495e0c0828807f/header.jpg?t=1785424330",
@@ -588,6 +589,24 @@
       },
       "metacritic": 83,
       "short_description": "Копайте, сражайтесь, исследуйте, стройте! Нет ничего невозможного в этой насыщенной событиями приключенческой игре. Также доступен комплект для четверых!"
+    },
+    {
+      "appid": "5271830",
+      "name": "The Lost Tapes 18+",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5271830/3488ae1b27a95d62be02d48c4cea46906ef994f8/header.jpg?t=1791486262",
+      "genres": [
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "The Lost Tapes 18+ — интерактивный кибердетектив внутри виртуального рабочего стола. Изучайте переписки и файлы, взламывайте системы, собирайте улики и решите судьбу героев. Пять глав, мини-игры, несколько концовок и открываемый контент 18+."
     },
     {
       "appid": "5245720",
@@ -659,23 +678,6 @@
       },
       "metacritic": null,
       "short_description": "Собирайте удивительных существ — Палов — на просторах огромного мира, отправляйте их сражаться и трудиться на фабриках, стройте с их помощью здания и выращивайте плантации в этом абсолютно новом симуляторе выживания в открытом мире, поддерживающем совместный режим."
-    },
-    {
-      "appid": "4569670",
-      "name": "Keep Watering",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4569670/ef6c0f1cd3ee45732aa60a79c5f5416335c2f0ea/header.jpg?t=1791480099",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Keep Watering is an incremental game with a cozy, hypnotic loop where every drop of water grows into something extraordinary."
     },
     {
       "appid": "4056850",
