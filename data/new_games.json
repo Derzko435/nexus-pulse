@@ -1,6 +1,33 @@
 {
- "updatedAt": "2026-10-08T13:43:39+03:00",
+ "updatedAt": "2026-10-09T13:43:02+03:00",
  "items": [
+  {
+   "appid": 499170,
+   "title": "Order of the Sinking Star",
+   "date": "2026-10-08",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499170/deda420d9e42288f4734a068c707f4c156203969/header.jpg?t=1791483535",
+   "desc": "Order of the Sinking Star от Джонатана Блоу (Braid, The Witness) — это приключение, погружающее вас в мир магии и загадок. Вам предстоит решить более 1000 продуманных головоломок, познакомиться с уникальными игровыми персонажами, отточить свои навыки в игровой механике и разгадать великую тайну.",
+   "genres": [
+    "Приключенческие игры",
+    "Инди",
+    "Стратегии"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Switch"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Thekla, Inc.",
+   "price": "1300 руб.",
+   "url": "https://store.steampowered.com/app/499170/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/499170/"
+   },
+   "reviews": 490
+  },
   {
    "appid": 2887580,
    "title": "Active Matter",
@@ -24,7 +51,86 @@
    "links": {
     "steam": "https://store.steampowered.com/app/2887580/"
    },
-   "reviews": 2906
+   "reviews": 2966
+  },
+  {
+   "appid": 4126040,
+   "title": "Aniimo",
+   "date": "2026-09-15",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/bf9b76d25ac135baf8f313d9a095e754fd2e950b/header.jpg?t=1790849962",
+   "desc": "Во время своего путешествия вы сможете объединяться с анимо и фактически становиться любым анимо из своей коллекции. Используйте навыки анимо, чтобы решать головоломки, побеждать в битвах и преодолевать испытания! Объединяйтесь с анимо и открывайте мир с совершенно новой стороны.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Многопользовательские игры"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Pawprint Studio",
+   "price": "Бесплатно",
+   "url": "https://store.steampowered.com/app/4126040/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4126040/"
+   }
+  },
+  {
+   "appid": 3883570,
+   "title": "Invokyr",
+   "date": "2026-10-08",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883570/a1d37fb2bf0de54d1746d1aa4b83fb7ca81700d8/header.jpg?t=1791485649",
+   "desc": "Забытая настолка в проклятом доме так и манит сыграть. Собирайте до 5 друзей, бросайте кубики и выживайте среди оживших кошмаров мастера игры. Рискните всем, используйте особые кости и одолейте зловещую игру, чтобы сбежать.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Ludogram",
+   "price": "442 руб.",
+   "url": "https://store.steampowered.com/app/3883570/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/3883570/"
+   },
+   "reviews": 130
+  },
+  {
+   "appid": 892970,
+   "title": "Valheim",
+   "date": "2026-09-09",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/1888731b59362fca6c026cdbafa3dfffd45c3146/header_alt_assets_6.jpg?t=1790220314",
+   "desc": "Симулятор выживания и исследования для компании от 1 до 10 человек. Вас ждет процедурно генерируемый мир, пропитанный духом скандинавских мифов. Сражайтесь, стройте крепости и докажите, что достойны покровительства Одина!",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Xbox",
+    "Switch",
+    "Mac",
+    "Linux"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Iron Gate AB",
+   "price": "1299 руб.",
+   "url": "https://store.steampowered.com/app/892970/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/892970/"
+   },
+   "reviews": 472231
   },
   {
    "appid": 3493540,
@@ -53,61 +159,32 @@
    "links": {
     "steam": "https://store.steampowered.com/app/3493540/"
    },
-   "reviews": 5158
+   "reviews": 5392
   },
   {
-   "appid": 892970,
-   "title": "Valheim",
-   "date": "2026-09-09",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/1888731b59362fca6c026cdbafa3dfffd45c3146/header_alt_assets_6.jpg?t=1790220314",
-   "desc": "Симулятор выживания и исследования для компании от 1 до 10 человек. Вас ждет процедурно генерируемый мир, пропитанный духом скандинавских мифов. Сражайтесь, стройте крепости и докажите, что достойны покровительства Одина!",
+   "appid": 4019220,
+   "title": "Dressmaker",
+   "date": "2026-09-21",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/f1cd08127872e60e4c47a4bc3e40d682d94741bf/header.jpg?t=1791464969",
+   "desc": "Шейте платья! Подбирайте ткань, вырезайте детали по выкройкам и сшивайте их, чтобы радовать привередливых горожан (или портить их планы!) в этом милом симуляторе модного ателье.",
    "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Инди"
+    "Казуальные игры",
+    "Симуляторы"
    ],
    "platforms": [
     "PC",
-    "PlayStation",
-    "Xbox",
-    "Switch",
-    "Mac",
-    "Linux"
+    "Mac"
    ],
    "stores": [
     "Steam"
    ],
-   "developer": "Iron Gate AB",
-   "price": "1169,10 руб.",
-   "url": "https://store.steampowered.com/app/892970/",
+   "developer": "Cozy Lives",
+   "price": "666,05 руб.",
+   "url": "https://store.steampowered.com/app/4019220/",
    "links": {
-    "steam": "https://store.steampowered.com/app/892970/"
+    "steam": "https://store.steampowered.com/app/4019220/"
    },
-   "reviews": 472019
-  },
-  {
-   "appid": 3883570,
-   "title": "Invokyr",
-   "date": "2026-10-08",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883570/a1d37fb2bf0de54d1746d1aa4b83fb7ca81700d8/header.jpg?t=1791449302",
-   "desc": "Забытая настолка в проклятом доме так и манит сыграть. Собирайте до 5 друзей, бросайте кубики и выживайте среди оживших кошмаров мастера игры. Рискните всем, используйте особые кости и одолейте зловещую игру, чтобы сбежать.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Инди"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Ludogram",
-   "price": "442 руб.",
-   "url": "https://store.steampowered.com/app/3883570/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/3883570/"
-   }
+   "reviews": 11032
   },
   {
    "appid": 5020310,
@@ -131,56 +208,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/5020310/"
    },
-   "reviews": 389
-  },
-  {
-   "appid": 4126040,
-   "title": "Aniimo",
-   "date": "2026-09-15",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/bf9b76d25ac135baf8f313d9a095e754fd2e950b/header.jpg?t=1790849962",
-   "desc": "Во время своего путешествия вы сможете объединяться с анимо и фактически становиться любым анимо из своей коллекции. Используйте навыки анимо, чтобы решать головоломки, побеждать в битвах и преодолевать испытания! Объединяйтесь с анимо и открывайте мир с совершенно новой стороны.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Многопользовательские игры"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Pawprint Studio",
-   "price": "Бесплатно",
-   "url": "https://store.steampowered.com/app/4126040/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4126040/"
-   }
-  },
-  {
-   "appid": 4019220,
-   "title": "Dressmaker",
-   "date": "2026-09-21",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/f1cd08127872e60e4c47a4bc3e40d682d94741bf/header.jpg?t=1790947386",
-   "desc": "Шейте платья! Подбирайте ткань, вырезайте детали по выкройкам и сшивайте их, чтобы радовать привередливых горожан (или портить их планы!) в этом милом симуляторе модного ателье.",
-   "genres": [
-    "Казуальные игры",
-    "Симуляторы"
-   ],
-   "platforms": [
-    "PC",
-    "Mac"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Cozy Lives",
-   "price": "666,05 руб.",
-   "url": "https://store.steampowered.com/app/4019220/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4019220/"
-   },
-   "reviews": 10574
+   "reviews": 399
   },
   {
    "appid": 2288340,
@@ -203,13 +231,13 @@
    "links": {
     "steam": "https://store.steampowered.com/app/2288340/"
    },
-   "reviews": 12131
+   "reviews": 12717
   },
   {
    "appid": 4656000,
    "title": "BOMBANANA!",
    "date": "2026-09-02",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1790377390",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1791542068",
    "desc": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?",
    "genres": [
     "Казуальные игры",
@@ -228,7 +256,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4656000/"
    },
-   "reviews": 3244
+   "reviews": 3274
   },
   {
    "appid": 4358690,
@@ -253,7 +281,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4358690/"
    },
-   "reviews": 8230
+   "reviews": 8372
   },
   {
    "appid": 1488490,
@@ -278,30 +306,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/1488490/"
    },
-   "reviews": 3426
-  },
-  {
-   "appid": 3232690,
-   "title": "Maid Cafe Simulator",
-   "date": "2026-10-07",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3232690/972d98e9f088075e81e205dc8dbd5edebcc876d1/header.jpg?t=1791442792",
-   "desc": "Управляйте мейд-кафе с пятью очаровательными девушками-кэмономими! Готовьте напитки, обслуживайте гостей и выгоняйте дебоширов в симуляторе от первого лица. Узнайте секреты своих горничных, вдохните жизнь в старое кафе и завоюйте три звезды Maidchelin!",
-   "genres": [
-    "Симуляторы"
-   ],
-   "platforms": [
-    "PC",
-    "Mac"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Accelix, SCON",
-   "price": "805,99 руб.",
-   "url": "https://store.steampowered.com/app/3232690/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/3232690/"
-   }
+   "reviews": 3504
   },
   {
    "appid": "x-mewgenics",
@@ -464,7 +469,7 @@
     "Steam"
    ],
    "developer": "ININ Games",
-   "price": "684 руб.",
+   "price": "855 руб.",
    "url": "https://store.steampowered.com/app/3956980/",
    "links": {
     "steam": "https://store.steampowered.com/app/3956980/",
