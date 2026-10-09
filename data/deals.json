@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T23:41:11+03:00",
+  "updatedAt": "2026-10-09T03:29:20+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -33,6 +33,16 @@
       "steamAppId": "305620"
     },
     {
+      "id": "steam-1620730",
+      "title": "Hell is Us",
+      "store": "Steam",
+      "old": 2999,
+      "neu": 899,
+      "pct": 70,
+      "url": "https://store.steampowered.com/app/1620730/",
+      "steamAppId": "1620730"
+    },
+    {
       "id": "steam-834910",
       "title": "ATLAS",
       "store": "Steam",
@@ -53,16 +63,6 @@
       "steamAppId": "1808500"
     },
     {
-      "id": "steam-3948510",
-      "title": "ARC Raiders - Upgrade to Deluxe Edition",
-      "store": "Steam",
-      "old": 1750,
-      "neu": 875,
-      "pct": 50,
-      "url": "https://store.steampowered.com/app/3948510/",
-      "steamAppId": "3948510"
-    },
-    {
       "id": "steam-1332010",
       "title": "Stray",
       "store": "Steam",
@@ -81,6 +81,16 @@
       "pct": 50,
       "url": "https://store.steampowered.com/app/105600/",
       "steamAppId": "105600"
+    },
+    {
+      "id": "steam-5271830",
+      "title": "The Lost Tapes 18+",
+      "store": "Steam",
+      "old": 240,
+      "neu": 144,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5271830/",
+      "steamAppId": "5271830"
     },
     {
       "id": "steam-5245720",
@@ -121,16 +131,6 @@
       "pct": 30,
       "url": "https://store.steampowered.com/app/1623730/",
       "steamAppId": "1623730"
-    },
-    {
-      "id": "steam-4569670",
-      "title": "Keep Watering",
-      "store": "Steam",
-      "old": 359,
-      "neu": 251,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/4569670/",
-      "steamAppId": "4569670"
     },
     {
       "id": "steam-4056850",

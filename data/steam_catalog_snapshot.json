@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T23:41:06+03:00",
+  "updatedAt": "2026-10-09T03:29:15+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -483,11 +483,12 @@
       "short_description": "Sifu — это реалистичный боевик от третьего лица с напряженными боями в стиле кунг-фу и кинематографическими драками. Герой игры — одинокий воин, который ищет возмездия."
     },
     {
-      "appid": "1158310",
-      "name": "Crusader Kings III",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/5a32e8b0154679ead6a7b974b5fb9d792222a57e/header_alt_assets_13_russian.jpg?t=1791471575",
+      "appid": "305620",
+      "name": "The Long Dark",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/305620/6c82ea1073946b0e83974a0ae6bd9d29d93911f9/header.jpg?t=1785448287",
       "genres": [
-        "Ролевые игры",
+        "Приключенческие игры",
+        "Инди",
         "Симуляторы",
         "Стратегии"
       ],
@@ -497,8 +498,8 @@
         "mac": true,
         "linux": true
       },
-      "metacritic": 91,
-      "short_description": "Любовь, война, интриги и величие. Определите наследие своего знатного рода в безграничной глобальной стратегии Crusader Kings III. Смерть — это только начало вашего пути по истории выбранной династии в этой полной неожиданностей и славы симуляции Средних веков."
+      "metacritic": null,
+      "short_description": "The Long Dark - это исследовательская игра-симулятор выживания, в которой игроки-одиночки должны позаботиться о себе в ходе изучения обширных морозных необитаемых территорий, переживших геомагнитную катастрофу. Здесь нет зомби - только вы, холод и все опасности, которые вам может обеспечить мать-природа."
     },
     {
       "appid": "834910",
@@ -537,6 +538,22 @@
       "short_description": "ARC Raiders — многопользовательская игра жанра extraction adventure, действие которой разворачивается в суровом будущем на Земле, атакованной загадочными механическими захватчиками ARC."
     },
     {
+      "appid": "3948510",
+      "name": "ARC Raiders - Upgrade to Deluxe Edition",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948510/4b2bf21553e133eb88b5766370a1684acdc2d9d6/header.jpg?t=1761816660",
+      "genres": [
+        "Экшены"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Приобретите улучшение до ARC Raiders Deluxe Edition, чтобы получить: - Пакет Wanderer Cosmetic Pack, - Косметический предмет для персонажа «Шрам на губе», - Пиу-пиу Эмодзи, - Наряд «Плюшкина», - 2,400 рейдерских жетонов."
+    },
+    {
       "appid": "1332010",
       "name": "Stray",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/71daca1910d664d31240b9623a495e0c0828807f/header.jpg?t=1785424330",
@@ -573,24 +590,6 @@
       "short_description": "Копайте, сражайтесь, исследуйте, стройте! Нет ничего невозможного в этой насыщенной событиями приключенческой игре. Также доступен комплект для четверых!"
     },
     {
-      "appid": "4878340",
-      "name": "Bigger Brain",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4878340/546b07b791703bc9f577c14d2963302f739da4cc/header.jpg?t=1791471749",
-      "genres": [
-        "Экшены",
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "&quot;Ascend and amplify your intellect with limitless endurance and sonic-Level Speed&quot;. Ostrich is almost perfect exsitence except for its intellect. Ostrich can not remember even the member of familly. This is an urgent problem. Collect brains!!"
-    },
-    {
       "appid": "5245720",
       "name": "Old War Together",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5245720/ce12e93db4a4a4e13208c5394a40152493878507/header.jpg?t=1791479066",
@@ -610,7 +609,7 @@
     {
       "appid": "4436580",
       "name": "All You Can FISH!",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4436580/0e8f16466e8c12a35a983f8ff9d36280a06525e2/header.jpg?t=1791482211",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4436580/0e8f16466e8c12a35a983f8ff9d36280a06525e2/header.jpg?t=1791495677",
       "genres": [
         "Казуальные игры",
         "Инди",
