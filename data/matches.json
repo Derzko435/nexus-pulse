@@ -1,54 +1,7 @@
 {
- "updatedAt": "2026-10-09T13:39:27+03:00",
+ "updatedAt": "2026-10-09T13:56:02+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-130747",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "1win",
-   "teamB": "Aurora",
-   "logoA": "https://files.bo3.gg/uploads/team/238/image/webp-6095482923ef3047986cef1e26fe80fa.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/3598/image/webp-49b8df76b0d121cc89c760c1ec16ebea.webp",
-   "scoreA": 0,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "live",
-   "event": "ESL Pro League Season 24",
-   "tier": "S",
-   "startsAt": "2026-10-09T11:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "cs2_maincast"
-    },
-    {
-     "type": "twitch",
-     "channel": "dachcs",
-     "lang": "de",
-     "official": true,
-     "label": "dachcs"
-    },
-    {
-     "type": "twitch",
-     "channel": "rtparenacs",
-     "lang": "pt",
-     "official": false,
-     "label": "rtparenacs"
-    }
-   ],
-   "url": "https://bo3.gg/matches/1win-vs-aurora-gaming-09-10-2026"
-  },
   {
    "id": "bo3-130699",
    "game": "Dota 2",
@@ -57,7 +10,7 @@
    "teamB": "Aurora Gaming",
    "logoA": "https://files.bo3.gg/uploads/team/16704/image/webp-d50909a064a4533a3b594ed059eebc42.webp",
    "logoB": "https://files.bo3.gg/uploads/team/15143/image/webp-235f54dc6e1d478c8536240a49197cc4.webp",
-   "scoreA": 0,
+   "scoreA": 1,
    "scoreB": 0,
    "bo": 3,
    "status": "live",
@@ -105,7 +58,7 @@
    "logoA": "https://files.bo3.gg/uploads/team/7283/image/webp-b7659fc50c020d8e66081f8ed0767d52.webp",
    "logoB": "https://files.bo3.gg/uploads/team/7225/image/webp-b1445d485ba2550ac31d218ef60fd409.webp",
    "scoreA": 1,
-   "scoreB": 0,
+   "scoreB": 1,
    "bo": 3,
    "status": "live",
    "event": "VALORANT Champions 2026",
@@ -154,7 +107,7 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "ESL Pro League Season 24",
    "tier": "S",
    "startsAt": "2026-10-09T14:00:00+03:00",
@@ -659,6 +612,53 @@
    "startsAt": "2026-10-12T09:00:00+03:00",
    "streams": [],
    "url": "https://bo3.gg/lol/matches/kt-rolster-vs-team-vitality-lol-12-10-2026"
+  },
+  {
+   "id": "bo3-130747",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "1win",
+   "teamB": "Aurora",
+   "logoA": "https://files.bo3.gg/uploads/team/238/image/webp-6095482923ef3047986cef1e26fe80fa.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/3598/image/webp-49b8df76b0d121cc89c760c1ec16ebea.webp",
+   "scoreA": 0,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "ESL Pro League Season 24",
+   "tier": "S",
+   "startsAt": "2026-10-09T11:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "cs2_maincast"
+    },
+    {
+     "type": "twitch",
+     "channel": "dachcs",
+     "lang": "de",
+     "official": true,
+     "label": "dachcs"
+    },
+    {
+     "type": "twitch",
+     "channel": "rtparenacs",
+     "lang": "pt",
+     "official": false,
+     "label": "rtparenacs"
+    }
+   ],
+   "url": "https://bo3.gg/matches/1win-vs-aurora-gaming-09-10-2026"
   },
   {
    "id": "bo3-129917",
@@ -1351,53 +1351,6 @@
     }
    ],
    "url": "https://bo3.gg/matches/falcons-esports-vs-natus-vincere-06-10-2026"
-  },
-  {
-   "id": "bo3-130784",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Legacy",
-   "teamB": "M80",
-   "logoA": "https://files.bo3.gg/uploads/team/8118/image/webp-e4a3b023443f1f3ba4ef588164e73111.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/7430/image/webp-962834dcfa8bef22f2c4cbdbf777bfbf.webp",
-   "scoreA": 1,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "ESL Pro League Season 24",
-   "tier": "S",
-   "startsAt": "2026-10-06T20:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcsb",
-     "lang": "en",
-     "official": true,
-     "label": "eslcsb"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_paragon_ru2",
-     "lang": "ru",
-     "official": false,
-     "label": "cs2_paragon_ru2"
-    },
-    {
-     "type": "twitch",
-     "channel": "watchfultvb",
-     "lang": "ru",
-     "official": false,
-     "label": "watchfultvb"
-    },
-    {
-     "type": "youtube",
-     "id": "7cCU8tarIgk",
-     "lang": "en",
-     "official": false,
-     "label": "Team Spirit vs. 1WIN - ESL Pro League Season 24 - Group Stage"
-    }
-   ],
-   "url": "https://bo3.gg/matches/legacy-br-vs-m80-cs-go-06-10-2026"
   }
  ],
  "tournaments": [
