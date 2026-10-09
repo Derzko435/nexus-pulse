@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T20:04:00+03:00",
+  "updatedAt": "2026-10-10T01:45:45+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -21,16 +21,6 @@
       "pct": 75,
       "url": "https://store.steampowered.com/app/305620/",
       "steamAppId": "305620"
-    },
-    {
-      "id": "steam-1620730",
-      "title": "Hell is Us",
-      "store": "Steam",
-      "old": 2999,
-      "neu": 899,
-      "pct": 70,
-      "url": "https://store.steampowered.com/app/1620730/",
-      "steamAppId": "1620730"
     },
     {
       "id": "steam-1808500",
@@ -63,34 +53,14 @@
       "steamAppId": "3948100"
     },
     {
-      "id": "steam-4959180",
-      "title": "Blaster!",
+      "id": "steam-4656000",
+      "title": "BOMBANANA!",
       "store": "Steam",
-      "old": 420,
-      "neu": 252,
+      "old": 210,
+      "neu": 126,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/4959180/",
-      "steamAppId": "4959180"
-    },
-    {
-      "id": "steam-5054070",
-      "title": "LUSTORIA",
-      "store": "Steam",
-      "old": 420,
-      "neu": 252,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5054070/",
-      "steamAppId": "5054070"
-    },
-    {
-      "id": "steam-4718490",
-      "title": "Much Bigger Than my Boyfriend",
-      "store": "Steam",
-      "old": 490,
-      "neu": 333,
-      "pct": 32,
-      "url": "https://store.steampowered.com/app/4718490/",
-      "steamAppId": "4718490"
+      "url": "https://store.steampowered.com/app/4656000/",
+      "steamAppId": "4656000"
     },
     {
       "id": "steam-436780",
@@ -113,34 +83,64 @@
       "steamAppId": "1623730"
     },
     {
-      "id": "steam-5259250",
-      "title": "ComfyTrans: Realtime Screen Translator",
+      "id": "steam-3883570",
+      "title": "Invokyr",
       "store": "Steam",
-      "old": 315,
-      "neu": 220,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/5259250/",
-      "steamAppId": "5259250"
-    },
-    {
-      "id": "steam-4316340",
-      "title": "Tied to the Beat",
-      "store": "Steam",
-      "old": 130,
-      "neu": 91,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/4316340/",
-      "steamAppId": "4316340"
-    },
-    {
-      "id": "steam-3932890",
-      "title": "Escape from Tarkov",
-      "store": "Steam",
-      "old": 1800,
-      "neu": 1350,
+      "old": 590,
+      "neu": 442,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/3932890/",
-      "steamAppId": "3932890"
+      "url": "https://store.steampowered.com/app/3883570/",
+      "steamAppId": "3883570"
+    },
+    {
+      "id": "steam-3358360",
+      "title": "Motorcycle Night Ride",
+      "store": "Steam",
+      "old": 240,
+      "neu": 180,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/3358360/",
+      "steamAppId": "3358360"
+    },
+    {
+      "id": "steam-5264480",
+      "title": "Hentai World Build",
+      "store": "Steam",
+      "old": 51,
+      "neu": 40,
+      "pct": 22,
+      "url": "https://store.steampowered.com/app/5264480/",
+      "steamAppId": "5264480"
+    },
+    {
+      "id": "steam-2254990",
+      "title": "Permafrost",
+      "store": "Steam",
+      "old": 1799,
+      "neu": 1439,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/2254990/",
+      "steamAppId": "2254990"
+    },
+    {
+      "id": "steam-2680280",
+      "title": "PAPERHEAD",
+      "store": "Steam",
+      "old": 690,
+      "neu": 552,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/2680280/",
+      "steamAppId": "2680280"
+    },
+    {
+      "id": "steam-3151660",
+      "title": "Uppercute",
+      "store": "Steam",
+      "old": 545,
+      "neu": 435,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/3151660/",
+      "steamAppId": "3151660"
     }
   ]
 }
