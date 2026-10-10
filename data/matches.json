@@ -1,34 +1,7 @@
 {
- "updatedAt": "2026-10-10T01:55:37+03:00",
+ "updatedAt": "2026-10-10T09:26:05+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-129918",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Fuego",
-   "teamB": "Disguised",
-   "logoA": "https://files.bo3.gg/uploads/team/17813/image/webp-328393694384e3bd7e6e8c4fe59ee344.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16807/image/webp-278887bb5c94629cadbc4b931bb6907c.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "live",
-   "event": "LCS 2027 Promotion Tournament",
-   "tier": "S",
-   "startsAt": "2026-10-10T02:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "riotgames",
-     "lang": "en",
-     "official": true,
-     "label": "riotgames",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/disguised-lol-vs-fuego-lol-09-10-2026"
-  },
   {
    "id": "bo3-131566",
    "game": "Dota 2",
@@ -40,7 +13,7 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "DreamLeague Season 30: China Open Qualifier 1",
    "tier": "A",
    "startsAt": "2026-10-10T09:00:00+03:00",
@@ -58,7 +31,7 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "DreamLeague Season 30: China Open Qualifier 1",
    "tier": "A",
    "startsAt": "2026-10-10T09:00:00+03:00",
@@ -273,33 +246,6 @@
    "url": "https://bo3.gg/dota2/matches/parivision-dota2-vs-aurora-10-10-2026"
   },
   {
-   "id": "bo3-130161",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Karmine Corp Blue",
-   "teamB": "Anubis Gaming",
-   "logoA": "https://files.bo3.gg/uploads/team/17288/image/webp-4390b6f0aa457cda5309f3bb4b2726f1.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17042/image/webp-db6998b1080588030a46845e7fbbdc56.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "upcoming",
-   "event": "EMEA Masters 2026 Summer",
-   "tier": "A",
-   "startsAt": "2026-10-10T19:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "lec",
-     "lang": "en",
-     "official": true,
-     "label": "lec",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/karmine-corp-blue-vs-anubis-gaming-lol-10-10-2026"
-  },
-  {
    "id": "bo3-130162",
    "game": "LoL",
    "gameKey": "lol",
@@ -325,6 +271,33 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/solary-lol-vs-g2-nord-10-10-2026"
+  },
+  {
+   "id": "bo3-130161",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Karmine Corp Blue",
+   "teamB": "Anubis Gaming",
+   "logoA": "https://files.bo3.gg/uploads/team/17288/image/webp-4390b6f0aa457cda5309f3bb4b2726f1.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17042/image/webp-db6998b1080588030a46845e7fbbdc56.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "upcoming",
+   "event": "EMEA Masters 2026 Summer",
+   "tier": "A",
+   "startsAt": "2026-10-10T19:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "lec",
+     "lang": "en",
+     "official": true,
+     "label": "lec",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/karmine-corp-blue-vs-anubis-gaming-lol-10-10-2026"
   },
   {
    "id": "bo3-128582",
@@ -370,6 +343,33 @@
     }
    ],
    "url": "https://bo3.gg/matches/mouz-cs2-vs-spirit-10-10-2026"
+  },
+  {
+   "id": "bo3-129919",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Cupid Esports",
+   "teamB": "Disguised",
+   "logoA": "https://files.bo3.gg/uploads/team/20536/image/webp-e18458ba617ae301479bb062c0c58ca1.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16807/image/webp-278887bb5c94629cadbc4b931bb6907c.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "upcoming",
+   "event": "LCS 2027 Promotion Tournament",
+   "tier": "S",
+   "startsAt": "2026-10-11T00:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "riotgames",
+     "lang": "en",
+     "official": true,
+     "label": "riotgames",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/cupid-vs-disguised-lol-10-10-2026"
   },
   {
    "id": "bo3-126084",
@@ -442,6 +442,33 @@
    "startsAt": "2026-10-13T00:00:00+03:00",
    "streams": [],
    "url": "https://bo3.gg/lol/matches/los-vs-kabum-ilha-das-lendas-12-10-2026"
+  },
+  {
+   "id": "bo3-129918",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Fuego",
+   "teamB": "Disguised",
+   "logoA": "https://files.bo3.gg/uploads/team/17813/image/webp-328393694384e3bd7e6e8c4fe59ee344.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16807/image/webp-278887bb5c94629cadbc4b931bb6907c.webp",
+   "scoreA": 0,
+   "scoreB": 3,
+   "bo": 5,
+   "status": "finished",
+   "event": "LCS 2027 Promotion Tournament",
+   "tier": "S",
+   "startsAt": "2026-10-10T02:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "riotgames",
+     "lang": "en",
+     "official": true,
+     "label": "riotgames",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/disguised-lol-vs-fuego-lol-09-10-2026"
   },
   {
    "id": "bo3-130700",
@@ -1074,24 +1101,6 @@
     }
    ],
    "url": "https://bo3.gg/valorant/matches/100-thieves-1-vs-g2-esports-08-10-2026"
-  },
-  {
-   "id": "bo3-129972",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "FlyQuest",
-   "teamB": "RED Canids",
-   "logoA": "https://files.bo3.gg/uploads/team/18027/image/webp-686a8de8c8e199f222ffadef01a7f585.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/18103/image/webp-8436f0485803eb0ea176e803f890d001.webp",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "Demacia Cup Global Invitational 2026",
-   "tier": "S",
-   "startsAt": "2026-10-08T12:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/lol/matches/flyquest-lol-vs-red-canids-lol-08-10-2026"
   },
   {
    "id": "bo3-130785",
