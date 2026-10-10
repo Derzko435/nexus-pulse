@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T09:03:30+03:00",
+  "updatedAt": "2026-10-10T15:44:33+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -41,16 +41,6 @@
       "pct": 50,
       "url": "https://store.steampowered.com/app/105600/",
       "steamAppId": "105600"
-    },
-    {
-      "id": "steam-5164070",
-      "title": "Взорвать дамбу",
-      "store": "Steam",
-      "old": 335,
-      "neu": 201,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5164070/",
-      "steamAppId": "5164070"
     },
     {
       "id": "steam-5133950",
@@ -133,14 +123,24 @@
       "steamAppId": "3883570"
     },
     {
-      "id": "steam-3763720",
-      "title": "100 Rogues",
+      "id": "steam-4789070",
+      "title": "告死天使招魂令 Death Angel Requiem",
       "store": "Steam",
-      "old": 335,
-      "neu": 251,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/3763720/",
-      "steamAppId": "3763720"
+      "old": 200,
+      "neu": 154,
+      "pct": 23,
+      "url": "https://store.steampowered.com/app/4789070/",
+      "steamAppId": "4789070"
+    },
+    {
+      "id": "steam-4895790",
+      "title": "知秋~英语日语单词背诵学习陪伴桌宠~",
+      "store": "Steam",
+      "old": 51,
+      "neu": 40,
+      "pct": 22,
+      "url": "https://store.steampowered.com/app/4895790/",
+      "steamAppId": "4895790"
     }
   ]
 }

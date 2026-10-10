@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T09:03:25+03:00",
+  "updatedAt": "2026-10-10T15:44:28+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -242,7 +242,7 @@
     {
       "appid": "739630",
       "name": "Phasmophobia",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/6283e4bf96c6e8160492ae12016f0c9a308a75d9/header_alt_assets_13.jpg?t=1791466787",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/6283e4bf96c6e8160492ae12016f0c9a308a75d9/header_alt_assets_13.jpg?t=1791632508",
       "genres": [
         "Экшены",
         "Инди",
@@ -523,13 +523,28 @@
       "short_description": "Копайте, сражайтесь, исследуйте, стройте! Нет ничего невозможного в этой насыщенной событиями приключенческой игре. Также доступен комплект для четверых!"
     },
     {
-      "appid": "3948100",
-      "name": "Towerfolk",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948100/4e55b2870a2638bcf410ed7ff429bd06c57e0e72/header.jpg?t=1791561384",
+      "appid": "5164070",
+      "name": "Взорвать дамбу",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5164070/0f8d7d8299875a29e16ddaa985d5883eeb48d1a7/header_russian.jpg?t=1791569740",
       "genres": [
-        "Инди",
-        "Симуляторы",
-        "Стратегии"
+        "Приключенческие игры",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "В бассейне реки Оссо все знают назначение паводкового канала: еще в 1937 году восемьдесят четыре тысячи акров, включая Корделл, были отмечены как зона, которой придется пожертвовать, чтобы спасти город ниже по течению от наводнения."
+    },
+    {
+      "appid": "5133950",
+      "name": "MUSIC BAND SIMULATOR:TOGETHER",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5133950/bbfc6f736a389f655ce1f13ff1afbbb4f5a4bda0/header.jpg?t=1791602517",
+      "genres": [
+        "Казуальные игры"
       ],
       "is_free": false,
       "platforms": {
@@ -538,7 +553,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "В средневековом мире собирай ресурсы, строй город и управляй народом. Справляйся с воровством и внутренними конфликтами, выполняй королевские задания и сражайся с врагами на поле битвы. Используй стратегию и управление экономикой, чтобы поддерживать процветание города."
+      "short_description": "Создай группу с друзьями и свободно играй любые песни на реалистичных инструментах! Становись популярнее, набирай фанатов и пройди путь от гаражных джемов до огромных стадионных концертов."
     },
     {
       "appid": "4656000",
@@ -556,6 +571,43 @@
       },
       "metacritic": null,
       "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
+    },
+    {
+      "appid": "5002750",
+      "name": "Turbo Zone: Car Royale",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5002750/07cf2caf659e06e2485bdc247ae86adc5db96915/header.jpg?t=1791572420",
+      "genres": [
+        "Экшены",
+        "Казуальные игры",
+        "Инди",
+        "Гонки"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Turbo Zone: Car Royale is a fast-paced vehicular combat game where players race, shoot, and battle rival cars in colorful arenas. Play solo against AI or compete online in action-packed PvP matches to score points, survive, and become the last car standing."
+    },
+    {
+      "appid": "5041240",
+      "name": "Astral shifter",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5041240/de45b48a8c357ba0a8678925466e96971a897e0d/header.jpg?t=1791598408",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Играйте за таинственного мага: очищайте падающие звёзды на гексагональном поле, двигая элементы как в кубике Рубика. Знакомьтесь с ведьмами, получайте их помощь и спасите мир за одну ночь! Есть лёгкий сюжетный режим и бесконечный режим для рекордов."
     },
     {
       "appid": "436780",
@@ -597,6 +649,23 @@
       "short_description": "Собирайте удивительных существ — Палов — на просторах огромного мира, отправляйте их сражаться и трудиться на фабриках, стройте с их помощью здания и выращивайте плантации в этом абсолютно новом симуляторе выживания в открытом мире, поддерживающем совместный режим."
     },
     {
+      "appid": "5072920",
+      "name": "Labyrinth of Reverie",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5072920/0553d5cd1e135ddc5cd2fec02c01af3af9c0a414/header.jpg?t=1791575854",
+      "genres": [
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Labyrinth of Reverie is a 3D first-person psychological horror game blending hidden-object puzzles with surreal exploration. Journey into shifting dreamscapes, from natural beauty to uncanny horror, as reality bleeds into the dream. Tailor objectives with 3 quest log styles to guide your path."
+    },
+    {
       "appid": "3883570",
       "name": "Invokyr",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883570/a1d37fb2bf0de54d1746d1aa4b83fb7ca81700d8/header.jpg?t=1791547174",
@@ -618,92 +687,22 @@
       "short_description": "Забытая настолка в проклятом доме так и манит сыграть. Собирайте до 5 друзей, бросайте кубики и выживайте среди оживших кошмаров мастера игры. Рискните всем, используйте особые кости и одолейте зловещую игру, чтобы сбежать."
     },
     {
-      "appid": "3358360",
-      "name": "Motorcycle Night Ride",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3358360/3a2f0bc8142efc76499f9efc08ead6b467090a93/header_alt_assets_0.jpg?t=1791591960",
+      "appid": "3763720",
+      "name": "100 Rogues",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3763720/e017631691ca16ddc9e76210cf28b5c35f6bd405/header.jpg?t=1791569146",
       "genres": [
         "Инди",
-        "Гонки",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Атмосферная игра о езде на мотоцикле по бесконечным дорогам. Катайтесь в своём темпе или проноситесь вплотную к машинам на высокой скорости ради рекордного счёта. Новые мотоциклы, дороги и покрытия открываются по мере езды."
-    },
-    {
-      "appid": "5264480",
-      "name": "Hentai World Build",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5264480/f45f15a7cc8a4565d716c71d1c5b9db78f5b9033/header.jpg?t=1791584988",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "A peaceful puzzle game where you assemble tiles at your own pace to unlock vibrant anime art, paired with relaxing music for a stress-free, engaging experience"
-    },
-    {
-      "appid": "2254990",
-      "name": "Permafrost",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2254990/693eff202c061aaecba330b44d76485a672bea97/header.jpg?t=1791608052",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
         "Ролевые игры",
-        "Симуляторы",
-        "Ранний доступ"
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
-        "linux": false
+        "linux": true
       },
       "metacritic": null,
-      "short_description": "Permafrost — это «песочница» на выживание среди постапокалиптических льдов. Откройте для себя обширный открытый мир с богатой историей в одиночку или в кооперативном режиме до 4 игроков. Исследуйте, добывайте, создавайте и стройте, чтобы выжить в холоде."
-    },
-    {
-      "appid": "2680280",
-      "name": "PAPERHEAD",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680280/0b30058f0a9d5ad4ed698367b19bad97001faa02/header.jpg?t=1791581527",
-      "genres": [
-        "Экшены",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "В волшебном картонном мире что-то пошло не так... Используй покрытый загадочными рунами карандаш, кучу разнообразного оружия и сокрушительный пинок, чтобы пробиться сквозь толпы ужасных исчадий картонного ада и узнать... ПОЧЕМУ ЖЕ КАРТОН НАЧАЛ... КРОВОТОЧИТЬ?"
-    },
-    {
-      "appid": "3151660",
-      "name": "Uppercute",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3151660/d2c37080d4d98d4c574be561001392529b9df0e0/header.jpg?t=1791565294",
-      "genres": [
-        "Экшены"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Uppercute is a 3D action platformer where, with the help of your sister and the use of your runner skills, you’ll dive into people's minds, face challenging opponents and retrieve valuable information to solve the mystery of your brother's disappearance."
+      "short_description": "A traditional roguelike with 4 player classes, each with a suite of tactical skills. Outmaneuver hordes of monsters armed with daggers, fireballs, poisonous gummi rats and grenade launchers. Tactical thinking and planning are essential! Go Kill Satan!"
     }
   ]
 }
