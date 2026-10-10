@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T21:43:14+03:00",
+  "updatedAt": "2026-10-11T02:40:47+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -43,6 +43,16 @@
       "steamAppId": "1808500"
     },
     {
+      "id": "steam-1332010",
+      "title": "Stray",
+      "store": "Steam",
+      "old": 1269,
+      "neu": 634,
+      "pct": 50,
+      "url": "https://store.steampowered.com/app/1332010/",
+      "steamAppId": "1332010"
+    },
+    {
       "id": "steam-105600",
       "title": "Terraria",
       "store": "Steam",
@@ -51,16 +61,6 @@
       "pct": 50,
       "url": "https://store.steampowered.com/app/105600/",
       "steamAppId": "105600"
-    },
-    {
-      "id": "steam-5133950",
-      "title": "MUSIC BAND SIMULATOR:TOGETHER",
-      "store": "Steam",
-      "old": 240,
-      "neu": 144,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5133950/",
-      "steamAppId": "5133950"
     },
     {
       "id": "steam-4656000",
@@ -83,14 +83,14 @@
       "steamAppId": "4843820"
     },
     {
-      "id": "steam-5041240",
-      "title": "Astral shifter",
+      "id": "steam-4987190",
+      "title": "Lewd Waifu",
       "store": "Steam",
-      "old": 99,
-      "neu": 66,
-      "pct": 33,
-      "url": "https://store.steampowered.com/app/5041240/",
-      "steamAppId": "5041240"
+      "old": 150,
+      "neu": 97,
+      "pct": 35,
+      "url": "https://store.steampowered.com/app/4987190/",
+      "steamAppId": "4987190"
     },
     {
       "id": "steam-1623730",
@@ -133,14 +133,14 @@
       "steamAppId": "5280040"
     },
     {
-      "id": "steam-4789070",
-      "title": "告死天使招魂令 Death Angel Requiem",
+      "id": "steam-4456960",
+      "title": "Astro Yoinkers",
       "store": "Steam",
-      "old": 200,
-      "neu": 154,
-      "pct": 23,
-      "url": "https://store.steampowered.com/app/4789070/",
-      "steamAppId": "4789070"
+      "old": 335,
+      "neu": 251,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/4456960/",
+      "steamAppId": "4456960"
     }
   ]
 }
