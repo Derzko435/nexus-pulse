@@ -1,7 +1,17 @@
 {
-  "updatedAt": "2026-10-10T15:44:33+03:00",
+  "updatedAt": "2026-10-10T21:43:14+03:00",
   "source": "steam-specials-ru",
   "deals": [
+    {
+      "id": "steam-301970",
+      "title": "Screencheat",
+      "store": "Steam",
+      "old": 550,
+      "neu": 110,
+      "pct": 80,
+      "url": "https://store.steampowered.com/app/301970/",
+      "steamAppId": "301970"
+    },
     {
       "id": "steam-2138710",
       "title": "Sifu",
@@ -63,14 +73,14 @@
       "steamAppId": "4656000"
     },
     {
-      "id": "steam-5002750",
-      "title": "Turbo Zone: Car Royale",
+      "id": "steam-4843820",
+      "title": "SEX for MONEY ≠ CHEATING 🔞",
       "store": "Steam",
-      "old": 99,
-      "neu": 59,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5002750/",
-      "steamAppId": "5002750"
+      "old": 565,
+      "neu": 350,
+      "pct": 38,
+      "url": "https://store.steampowered.com/app/4843820/",
+      "steamAppId": "4843820"
     },
     {
       "id": "steam-5041240",
@@ -83,16 +93,6 @@
       "steamAppId": "5041240"
     },
     {
-      "id": "steam-436780",
-      "title": "Tavern Keeper 🍻",
-      "store": "Steam",
-      "old": 1269,
-      "neu": 888,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/436780/",
-      "steamAppId": "436780"
-    },
-    {
       "id": "steam-1623730",
       "title": "Palworld",
       "store": "Steam",
@@ -103,14 +103,14 @@
       "steamAppId": "1623730"
     },
     {
-      "id": "steam-5072920",
-      "title": "Labyrinth of Reverie",
+      "id": "steam-4847040",
+      "title": "On Hold - Call Center Simulator",
       "store": "Steam",
-      "old": 200,
-      "neu": 140,
+      "old": 240,
+      "neu": 168,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/5072920/",
-      "steamAppId": "5072920"
+      "url": "https://store.steampowered.com/app/4847040/",
+      "steamAppId": "4847040"
     },
     {
       "id": "steam-3883570",
@@ -123,6 +123,16 @@
       "steamAppId": "3883570"
     },
     {
+      "id": "steam-5280040",
+      "title": "Soundgun",
+      "store": "Steam",
+      "old": 465,
+      "neu": 348,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/5280040/",
+      "steamAppId": "5280040"
+    },
+    {
       "id": "steam-4789070",
       "title": "告死天使招魂令 Death Angel Requiem",
       "store": "Steam",
@@ -131,16 +141,6 @@
       "pct": 23,
       "url": "https://store.steampowered.com/app/4789070/",
       "steamAppId": "4789070"
-    },
-    {
-      "id": "steam-4895790",
-      "title": "知秋~英语日语单词背诵学习陪伴桌宠~",
-      "store": "Steam",
-      "old": 51,
-      "neu": 40,
-      "pct": 22,
-      "url": "https://store.steampowered.com/app/4895790/",
-      "steamAppId": "4895790"
     }
   ]
 }

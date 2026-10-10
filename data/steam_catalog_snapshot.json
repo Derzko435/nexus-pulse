@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T15:44:28+03:00",
+  "updatedAt": "2026-10-10T21:43:08+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -523,23 +523,6 @@
       "short_description": "Копайте, сражайтесь, исследуйте, стройте! Нет ничего невозможного в этой насыщенной событиями приключенческой игре. Также доступен комплект для четверых!"
     },
     {
-      "appid": "5164070",
-      "name": "Взорвать дамбу",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5164070/0f8d7d8299875a29e16ddaa985d5883eeb48d1a7/header_russian.jpg?t=1791569740",
-      "genres": [
-        "Приключенческие игры",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "В бассейне реки Оссо все знают назначение паводкового канала: еще в 1937 году восемьдесят четыре тысячи акров, включая Корделл, были отмечены как зона, которой придется пожертвовать, чтобы спасти город ниже по течению от наводнения."
-    },
-    {
       "appid": "5133950",
       "name": "MUSIC BAND SIMULATOR:TOGETHER",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5133950/bbfc6f736a389f655ce1f13ff1afbbb4f5a4bda0/header.jpg?t=1791602517",
@@ -594,7 +577,7 @@
     {
       "appid": "5041240",
       "name": "Astral shifter",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5041240/de45b48a8c357ba0a8678925466e96971a897e0d/header.jpg?t=1791598408",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5041240/de45b48a8c357ba0a8678925466e96971a897e0d/header.jpg?t=1791648365",
       "genres": [
         "Казуальные игры",
         "Инди",
@@ -607,7 +590,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Играйте за таинственного мага: очищайте падающие звёзды на гексагональном поле, двигая элементы как в кубике Рубика. Знакомьтесь с ведьмами, получайте их помощь и спасите мир за одну ночь! Есть лёгкий сюжетный режим и бесконечный режим для рекордов."
+      "short_description": "Играйте за таинственного мага: очищайте падающие звёзды на гексагональном поле, двигая элементы как в кубике Рубика. Знакомьтесь с ведьмами, получайте их помощь и спасите мир за одну ночь! Есть лёгкий сюжетный режим (головоломка) и бесконечный режим для рекордов."
     },
     {
       "appid": "436780",
@@ -687,22 +670,41 @@
       "short_description": "Забытая настолка в проклятом доме так и манит сыграть. Собирайте до 5 друзей, бросайте кубики и выживайте среди оживших кошмаров мастера игры. Рискните всем, используйте особые кости и одолейте зловещую игру, чтобы сбежать."
     },
     {
-      "appid": "3763720",
-      "name": "100 Rogues",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3763720/e017631691ca16ddc9e76210cf28b5c35f6bd405/header.jpg?t=1791569146",
+      "appid": "4789070",
+      "name": "告死天使招魂令 Death Angel Requiem",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4789070/a2954d20306fd1fe154b874193d358742ba2ead2/header.jpg?t=1791599858",
       "genres": [
+        "Приключенческие игры",
         "Инди",
         "Ролевые игры",
-        "Стратегии"
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
-        "linux": true
+        "linux": false
       },
       "metacritic": null,
-      "short_description": "A traditional roguelike with 4 player classes, each with a suite of tactical skills. Outmaneuver hordes of monsters armed with daggers, fireballs, poisonous gummi rats and grenade launchers. Tactical thinking and planning are essential! Go Kill Satan!"
+      "short_description": "A 5-hour horror game where investigator Igarashi, tasked by the police, enters a haunted campus after a murder case kills four students. With her partner Shimo, she sets out to uncover the truth behind the &quot;ghost killings.&quot;"
+    },
+    {
+      "appid": "4895790",
+      "name": "知秋~英语日语单词背诵学习陪伴桌宠~",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4895790/1716e3856c1200a69818b0e78ff340e7129ac720/header.jpg?t=1791620292",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A Windows desktop companion for English and Japanese vocabulary study. Review built-in or imported decks with FSRS scheduling, track daily progress, play mini-games, and enjoy pet care, desktop interactions, and Workshop characters."
     }
   ]
 }
