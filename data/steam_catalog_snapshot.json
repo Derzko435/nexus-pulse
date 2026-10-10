@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T01:45:40+03:00",
+  "updatedAt": "2026-10-10T09:03:25+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -471,7 +471,7 @@
     {
       "appid": "305620",
       "name": "The Long Dark",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/305620/a1e75390d63d32ccb8ba1caba53a7178f08f0722/header_alt_assets_2.jpg?t=1791574421",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/305620/a1e75390d63d32ccb8ba1caba53a7178f08f0722/header_alt_assets_2.jpg?t=1791596632",
       "genres": [
         "Приключенческие игры",
         "Инди",
@@ -486,23 +486,6 @@
       },
       "metacritic": null,
       "short_description": "The Long Dark - это исследовательская игра-симулятор выживания, в которой игроки-одиночки должны позаботиться о себе в ходе изучения обширных морозных необитаемых территорий, переживших геомагнитную катастрофу. Здесь нет зомби - только вы, холод и все опасности, которые вам может обеспечить мать-природа."
-    },
-    {
-      "appid": "1620730",
-      "name": "Hell is Us",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1620730/9f4126c3544ecd106872b686df8f1345450f65ab/header_alt_assets_0_russian.jpg?t=1791467530",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Из всего, что есть на земле, больше всего на ад похожа война. Ведь в нашем мире обитает худший из демонов — человек. Раскройте тайны своего прошлого и разберитесь с последствиями катастрофы в закрытой стране, измученной междоусобицами."
     },
     {
       "appid": "1808500",
@@ -558,59 +541,21 @@
       "short_description": "В средневековом мире собирай ресурсы, строй город и управляй народом. Справляйся с воровством и внутренними конфликтами, выполняй королевские задания и сражайся с врагами на поле битвы. Используй стратегию и управление экономикой, чтобы поддерживать процветание города."
     },
     {
-      "appid": "4959180",
-      "name": "Blaster!",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4959180/7412d3df974d0817ef51ac32a5c573fbacc8564c/header.jpg?t=1791554386",
-      "genres": [
-        "Экшены",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Одна Супербомба. Один «Орёл». Миссия без второго шанса. BLASTER! - классический сайд-скроллинговый шутер в духе Defender. Пройдите 20 подводных и космических уровней, развивайте арсенал, побеждайте мощных боссов и доставьте Супербомбу к цели - в оригинальном или улучшенном оформлении."
-    },
-    {
-      "appid": "5054070",
-      "name": "LUSTORIA",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5054070/65ca05f9bd213046c85114f417a3911babfd9411/header_russian.jpg?t=1791552242",
+      "appid": "4656000",
+      "name": "BOMBANANA!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1791542068",
       "genres": [
         "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Занимайся сексом в фэнтезийном мире. Заводи романтические отношения в ПОХОТОРИИ, пока ищешь силу, необходимую для возвращения в свой мир. Принимай решения и погрузись в эротическое приключение, полное юмора, желания и сюрпризов."
-    },
-    {
-      "appid": "4718490",
-      "name": "Much Bigger Than my Boyfriend",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4718490/af6ff2406e8bb37ef3188b54078dc2346cbec19e/header.jpg?t=1791538580",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди",
-        "Ролевые игры"
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": true,
-        "linux": true
+        "linux": false
       },
       "metacritic": null,
-      "short_description": "Твоя невеста ушла к соседу. Пора познакомиться с его матерью."
+      "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
     },
     {
       "appid": "436780",
@@ -652,11 +597,16 @@
       "short_description": "Собирайте удивительных существ — Палов — на просторах огромного мира, отправляйте их сражаться и трудиться на фабриках, стройте с их помощью здания и выращивайте плантации в этом абсолютно новом симуляторе выживания в открытом мире, поддерживающем совместный режим."
     },
     {
-      "appid": "5259250",
-      "name": "ComfyTrans: Realtime Screen Translator",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5259250/35976833659ec5eb6b24e7c7a43d540f962780b5/header.jpg?t=1791552972",
+      "appid": "3883570",
+      "name": "Invokyr",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883570/a1d37fb2bf0de54d1746d1aa4b83fb7ca81700d8/header.jpg?t=1791547174",
       "genres": [
-        "Утилиты"
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы",
+        "Бесплатные",
+        "Ранний доступ"
       ],
       "is_free": false,
       "platforms": {
@@ -665,46 +615,95 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "An offline screen-translation overlay that recognizes on-screen text in real time and shows the translation right where it appears. Everything runs on local, on-device AI, so your screen and personal data are never sent anywhere."
+      "short_description": "Забытая настолка в проклятом доме так и манит сыграть. Собирайте до 5 друзей, бросайте кубики и выживайте среди оживших кошмаров мастера игры. Рискните всем, используйте особые кости и одолейте зловещую игру, чтобы сбежать."
     },
     {
-      "appid": "4316340",
-      "name": "Tied to the Beat",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4316340/70aa107c4c78b3be2db5975128d315f9389aa031/header.jpg?t=1791557816",
+      "appid": "3358360",
+      "name": "Motorcycle Night Ride",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3358360/3a2f0bc8142efc76499f9efc08ead6b467090a93/header_alt_assets_0.jpg?t=1791591960",
       "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Казуальные игры",
         "Инди",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Музыкальная игра на выживание на арене, где слова песен запускают эффекты на поле боя. Выбери инструмент, сражайся среди хаоса и добавляй свои песни. Твоя музыка. Твоё оружие."
-    },
-    {
-      "appid": "3932890",
-      "name": "Escape from Tarkov",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932890/d09430bbc790237c1de5071188cbc78dc44f0c71/header_alt_assets_2_russian.jpg?t=1785782094",
-      "genres": [
-        "Экшены",
-        "Многопользовательские игры",
-        "Ролевые игры",
+        "Гонки",
         "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Атмосферная игра о езде на мотоцикле по бесконечным дорогам. Катайтесь в своём темпе или проноситесь вплотную к машинам на высокой скорости ради рекордного счёта. Новые мотоциклы, дороги и покрытия открываются по мере езды."
+    },
+    {
+      "appid": "5264480",
+      "name": "Hentai World Build",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5264480/f45f15a7cc8a4565d716c71d1c5b9db78f5b9033/header.jpg?t=1791584988",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
         "mac": false,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Escape from Tarkov - хардкорный шутер, где каждый рейд - это игра со смертью. Готовься к рейдам, превозмогай и пробивайся сквозь беспощадных бойцов ЧВК и Диких, пользуйся тактическим преимуществом и забирай самый ценный лут. Ты либо выйдешь живым, либо потеряешь все."
+      "short_description": "A peaceful puzzle game where you assemble tiles at your own pace to unlock vibrant anime art, paired with relaxing music for a stress-free, engaging experience"
+    },
+    {
+      "appid": "2254990",
+      "name": "Permafrost",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2254990/693eff202c061aaecba330b44d76485a672bea97/header.jpg?t=1791608052",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Ролевые игры",
+        "Симуляторы",
+        "Ранний доступ"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Permafrost — это «песочница» на выживание среди постапокалиптических льдов. Откройте для себя обширный открытый мир с богатой историей в одиночку или в кооперативном режиме до 4 игроков. Исследуйте, добывайте, создавайте и стройте, чтобы выжить в холоде."
+    },
+    {
+      "appid": "2680280",
+      "name": "PAPERHEAD",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680280/0b30058f0a9d5ad4ed698367b19bad97001faa02/header.jpg?t=1791581527",
+      "genres": [
+        "Экшены",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "В волшебном картонном мире что-то пошло не так... Используй покрытый загадочными рунами карандаш, кучу разнообразного оружия и сокрушительный пинок, чтобы пробиться сквозь толпы ужасных исчадий картонного ада и узнать... ПОЧЕМУ ЖЕ КАРТОН НАЧАЛ... КРОВОТОЧИТЬ?"
+    },
+    {
+      "appid": "3151660",
+      "name": "Uppercute",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3151660/d2c37080d4d98d4c574be561001392529b9df0e0/header.jpg?t=1791565294",
+      "genres": [
+        "Экшены"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Uppercute is a 3D action platformer where, with the help of your sister and the use of your runner skills, you’ll dive into people's minds, face challenging opponents and retrieve valuable information to solve the mystery of your brother's disappearance."
     }
   ]
 }

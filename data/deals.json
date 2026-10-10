@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T01:45:45+03:00",
+  "updatedAt": "2026-10-10T09:03:30+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -43,14 +43,24 @@
       "steamAppId": "105600"
     },
     {
-      "id": "steam-3948100",
-      "title": "Towerfolk",
+      "id": "steam-5164070",
+      "title": "Взорвать дамбу",
       "store": "Steam",
-      "old": 420,
-      "neu": 252,
+      "old": 335,
+      "neu": 201,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/3948100/",
-      "steamAppId": "3948100"
+      "url": "https://store.steampowered.com/app/5164070/",
+      "steamAppId": "5164070"
+    },
+    {
+      "id": "steam-5133950",
+      "title": "MUSIC BAND SIMULATOR:TOGETHER",
+      "store": "Steam",
+      "old": 240,
+      "neu": 144,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5133950/",
+      "steamAppId": "5133950"
     },
     {
       "id": "steam-4656000",
@@ -61,6 +71,26 @@
       "pct": 40,
       "url": "https://store.steampowered.com/app/4656000/",
       "steamAppId": "4656000"
+    },
+    {
+      "id": "steam-5002750",
+      "title": "Turbo Zone: Car Royale",
+      "store": "Steam",
+      "old": 99,
+      "neu": 59,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5002750/",
+      "steamAppId": "5002750"
+    },
+    {
+      "id": "steam-5041240",
+      "title": "Astral shifter",
+      "store": "Steam",
+      "old": 99,
+      "neu": 66,
+      "pct": 33,
+      "url": "https://store.steampowered.com/app/5041240/",
+      "steamAppId": "5041240"
     },
     {
       "id": "steam-436780",
@@ -83,6 +113,16 @@
       "steamAppId": "1623730"
     },
     {
+      "id": "steam-5072920",
+      "title": "Labyrinth of Reverie",
+      "store": "Steam",
+      "old": 200,
+      "neu": 140,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5072920/",
+      "steamAppId": "5072920"
+    },
+    {
       "id": "steam-3883570",
       "title": "Invokyr",
       "store": "Steam",
@@ -93,54 +133,14 @@
       "steamAppId": "3883570"
     },
     {
-      "id": "steam-3358360",
-      "title": "Motorcycle Night Ride",
+      "id": "steam-3763720",
+      "title": "100 Rogues",
       "store": "Steam",
-      "old": 240,
-      "neu": 180,
+      "old": 335,
+      "neu": 251,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/3358360/",
-      "steamAppId": "3358360"
-    },
-    {
-      "id": "steam-5264480",
-      "title": "Hentai World Build",
-      "store": "Steam",
-      "old": 51,
-      "neu": 40,
-      "pct": 22,
-      "url": "https://store.steampowered.com/app/5264480/",
-      "steamAppId": "5264480"
-    },
-    {
-      "id": "steam-2254990",
-      "title": "Permafrost",
-      "store": "Steam",
-      "old": 1799,
-      "neu": 1439,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/2254990/",
-      "steamAppId": "2254990"
-    },
-    {
-      "id": "steam-2680280",
-      "title": "PAPERHEAD",
-      "store": "Steam",
-      "old": 690,
-      "neu": 552,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/2680280/",
-      "steamAppId": "2680280"
-    },
-    {
-      "id": "steam-3151660",
-      "title": "Uppercute",
-      "store": "Steam",
-      "old": 545,
-      "neu": 435,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/3151660/",
-      "steamAppId": "3151660"
+      "url": "https://store.steampowered.com/app/3763720/",
+      "steamAppId": "3763720"
     }
   ]
 }
