@@ -1,23 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-10-10T21:43:30+03:00",
+ "updatedAt": "2026-10-11T02:41:07+03:00",
  "posted": {
   "news": [
-   "55237c9d79f4",
-   "1bc6cd283a7e",
-   "eeb24912d9e9",
-   "165588b60abb",
-   "517b577edca4",
-   "c4cb5e5da494",
-   "0e10df9eae4a",
-   "752b03132bf9",
-   "af6e6e2dd518",
-   "1171d0a4f5b9",
-   "1bd2f7891b76",
-   "0ce1a4910fca",
-   "53f02afb41f8",
-   "ea1fcdd1f4b6",
-   "24cae2c9e508",
    "e738aee712d8",
    "77ae8c654c19",
    "728cac0aeeeb",
@@ -502,7 +487,22 @@
    "d91425da88ad",
    "7827b76cd029",
    "ec1725bb8add",
-   "7994e6f67a00"
+   "7994e6f67a00",
+   "22bb1d9a99e3",
+   "463bb021a434",
+   "06b57cfffcee",
+   "6ec6e51063dd",
+   "d62b788bc0c6",
+   "02acb2cb6c02",
+   "f10882d97271",
+   "9a01fbb132bf",
+   "63248d60b007",
+   "0383b9a1651f",
+   "2d328cc49c3d",
+   "735febca1e82",
+   "3873bfc9a94f",
+   "0c76f45f2050",
+   "1aaa79121eac"
   ],
   "deals": [
    "steam-246420:90",
@@ -813,7 +813,11 @@
    "result:bo3-130702",
    "live:bo3-129628",
    "live:bo3-131559",
-   "live:bo3-131647"
+   "live:bo3-131647",
+   "result:bo3-129628",
+   "result:bo3-130703",
+   "result:bo3-130751",
+   "digest:2026-10-11"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -1132,7 +1136,14 @@
    "nLsuAzEUk-k",
    "dyhZsTGFvb8",
    "e_RidLlHWNg",
-   "nbIrUO6egcs"
+   "nbIrUO6egcs",
+   "tiYDuuZOipE",
+   "MIwkw4K7xGI",
+   "Rbh6pULYRy4",
+   "5s4MFmi5Drk",
+   "6UneVog1cME",
+   "pTHEkEZhMgM",
+   "Ea_57zm6tj4"
   ],
   "releases": [
    "week:2026-W39",
@@ -1163,9 +1174,6 @@
   ]
  },
  "matchPings": [
-  "2026-10-08T13:46+03:00",
-  "2026-10-08T13:46+03:00",
-  "2026-10-08T13:46+03:00",
   "2026-10-09T13:45+03:00",
   "2026-10-09T13:45+03:00",
   "2026-10-09T13:45+03:00",
@@ -1193,9 +1201,6 @@
   }
  },
  "dealPosts": [
-  "2026-10-08T00:57+03:00",
-  "2026-10-08T23:01+03:00",
-  "2026-10-08T23:41+03:00",
   "2026-10-09T03:29+03:00",
   "2026-10-10T21:43+03:00"
  ]
