@@ -1,252 +1,7 @@
 {
- "updatedAt": "2026-10-10T12:55:34+03:00",
+ "updatedAt": "2026-10-10T16:05:42+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-131639",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Zero Tenacity",
-   "teamB": "Leto",
-   "logoA": "https://files.bo3.gg/uploads/team/18713/image/webp-3cf1f59ce30e72e390eb7eaf06e3be13.webp",
-   "logoB": "",
-   "scoreA": 1,
-   "scoreB": 0,
-   "bo": 1,
-   "status": "live",
-   "event": "DreamLeague Season 30: Eastern Europe Open Qualifier 1",
-   "tier": "A",
-   "startsAt": "2026-10-09T16:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/zero-tenacity-dota-vs-leto-09-10-2026"
-  },
-  {
-   "id": "bo3-131637",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Inner Circle x Insanity",
-   "teamB": "Prime Time",
-   "logoA": "https://files.bo3.gg/uploads/team/21641/image/webp-e425a03e86847c4fae7e2e1ddc715e24.webp",
-   "logoB": "",
-   "scoreA": 0,
-   "scoreB": 1,
-   "bo": 1,
-   "status": "live",
-   "event": "DreamLeague Season 30: Eastern Europe Open Qualifier 1",
-   "tier": "A",
-   "startsAt": "2026-10-09T16:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/inner-circle-vs-prime-time-09-10-2026"
-  },
-  {
-   "id": "bo3-131635",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Ka4kanarskie cyxariki",
-   "teamB": "Level Up Academy",
-   "logoA": "",
-   "logoB": "",
-   "scoreA": 1,
-   "scoreB": 0,
-   "bo": 1,
-   "status": "live",
-   "event": "DreamLeague Season 30: Eastern Europe Open Qualifier 1",
-   "tier": "A",
-   "startsAt": "2026-10-09T16:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/ka4kanarskie-cyxariki-vs-level-up-academy-09-10-2026"
-  },
-  {
-   "id": "bo3-131636",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Team Spirit Academy",
-   "teamB": "Team Accept",
-   "logoA": "https://files.bo3.gg/uploads/team/21945/image/webp-267ce8e3c8671d4c7d59b3a78a2faeda.webp",
-   "logoB": "",
-   "scoreA": 1,
-   "scoreB": 0,
-   "bo": 1,
-   "status": "live",
-   "event": "DreamLeague Season 30: Eastern Europe Open Qualifier 1",
-   "tier": "A",
-   "startsAt": "2026-10-09T16:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/spirit-academy-dota2-vs-team-accept-09-10-2026"
-  },
-  {
-   "id": "bo3-131638",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "The Warriors",
-   "teamB": "Team Rizeel",
-   "logoA": "",
-   "logoB": "",
-   "scoreA": 1,
-   "scoreB": 0,
-   "bo": 1,
-   "status": "live",
-   "event": "DreamLeague Season 30: Eastern Europe Open Qualifier 1",
-   "tier": "A",
-   "startsAt": "2026-10-09T16:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/the-warriors-vs-team-rizeel-09-10-2026"
-  },
-  {
-   "id": "bo3-131641",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Nemiga Gaming",
-   "teamB": "Team Litvinen",
-   "logoA": "https://files.bo3.gg/uploads/team/16398/image/webp-90e1f870359e4e1b66a83db6154b1bf8.webp",
-   "logoB": "",
-   "scoreA": 1,
-   "scoreB": 0,
-   "bo": 1,
-   "status": "live",
-   "event": "DreamLeague Season 30: Eastern Europe Open Qualifier 1",
-   "tier": "A",
-   "startsAt": "2026-10-09T16:30:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/nemiga-gaming-vs-team-litvinen-09-10-2026"
-  },
-  {
-   "id": "bo3-131640",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Shadow Dance",
-   "teamB": "EGOISTO",
-   "logoA": "",
-   "logoB": "https://files.bo3.gg/uploads/team/25457/image/webp-37e40fceb0e3f51bcbc2c57b7a27d3b0.webp",
-   "scoreA": 1,
-   "scoreB": 0,
-   "bo": 1,
-   "status": "live",
-   "event": "DreamLeague Season 30: Eastern Europe Open Qualifier 1",
-   "tier": "A",
-   "startsAt": "2026-10-09T16:30:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/shadow-dance-vs-egoisto-dota2-09-10-2026"
-  },
-  {
-   "id": "bo3-131642",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Nemiga Gaming",
-   "teamB": "Zero Tenacity",
-   "logoA": "https://files.bo3.gg/uploads/team/16398/image/webp-90e1f870359e4e1b66a83db6154b1bf8.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/18713/image/webp-3cf1f59ce30e72e390eb7eaf06e3be13.webp",
-   "scoreA": 0,
-   "scoreB": 1,
-   "bo": 1,
-   "status": "live",
-   "event": "DreamLeague Season 30: Eastern Europe Open Qualifier 1",
-   "tier": "A",
-   "startsAt": "2026-10-09T17:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/nemiga-gaming-vs-zero-tenacity-dota-09-10-2026"
-  },
-  {
-   "id": "bo3-131649",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "potn9ki",
-   "teamB": "K27",
-   "logoA": "",
-   "logoB": "",
-   "scoreA": 1,
-   "scoreB": 0,
-   "bo": 1,
-   "status": "live",
-   "event": "DreamLeague Season 30: Western Europe Open Qualifier 1",
-   "tier": "A",
-   "startsAt": "2026-10-09T17:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/potn9ki-vs-k27-dota2-09-10-2026"
-  },
-  {
-   "id": "bo3-131643",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Shadow Dance",
-   "teamB": "OperGroup",
-   "logoA": "",
-   "logoB": "",
-   "scoreA": 1,
-   "scoreB": 0,
-   "bo": 1,
-   "status": "live",
-   "event": "DreamLeague Season 30: Eastern Europe Open Qualifier 1",
-   "tier": "A",
-   "startsAt": "2026-10-09T17:15:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/shadow-dance-vs-opergroup-09-10-2026"
-  },
-  {
-   "id": "bo3-131558",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "PART TIMERS",
-   "teamB": "West Point Esports Philippines",
-   "logoA": "https://files.bo3.gg/uploads/team/25431/image/webp-d7c69856dc26de71dcb9e40efa0060b0.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17180/image/webp-126fd7edeb01ae5fbaa5cc1d17f3fb94.webp",
-   "scoreA": 0,
-   "scoreB": 1,
-   "bo": 5,
-   "status": "live",
-   "event": "LCP 2027 Promotion - Wild Card Playoffs",
-   "tier": "A",
-   "startsAt": "2026-10-10T11:25:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/lol/matches/part-timers--vs-west-point-esports-ph-10-10-2026"
-  },
-  {
-   "id": "bo3-129629",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "NRG",
-   "teamB": "LOUD",
-   "logoA": "https://files.bo3.gg/uploads/team/7347/image/webp-bae3c55811146f6fc9fd812c8e5d27c0.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/6874/image/webp-d2c298a09e3bc0540c8f33699a94f4c7.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "VALORANT Champions 2026",
-   "tier": "S",
-   "startsAt": "2026-10-10T12:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorant_br",
-     "lang": "pt",
-     "official": true,
-     "label": "valorant_br"
-    },
-    {
-     "type": "twitch",
-     "channel": "valorant_fr",
-     "lang": "fr",
-     "official": true,
-     "label": "valorant_fr"
-    },
-    {
-     "type": "twitch",
-     "channel": "valorant_la",
-     "lang": "pt",
-     "official": true,
-     "label": "valorant_la"
-    },
-    {
-     "type": "twitch",
-     "channel": "valorantesports_cn",
-     "lang": "zh",
-     "official": true,
-     "label": "valorantesports_cn"
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/nrg-1-vs-loud-10-10-2026"
-  },
   {
    "id": "bo3-129628",
    "game": "Valorant",
@@ -258,11 +13,18 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "VALORANT Champions 2026",
    "tier": "S",
    "startsAt": "2026-10-10T15:00:00+03:00",
    "streams": [
+    {
+     "type": "twitch",
+     "channel": "loupiote3",
+     "lang": "en",
+     "official": true,
+     "label": "loupiote3"
+    },
     {
      "type": "twitch",
      "channel": "valorant_br",
@@ -283,13 +45,6 @@
      "lang": "pt",
      "official": true,
      "label": "valorant_la"
-    },
-    {
-     "type": "twitch",
-     "channel": "valorantesports_cn",
-     "lang": "zh",
-     "official": true,
-     "label": "valorantesports_cn"
     }
    ],
    "url": "https://bo3.gg/valorant/matches/g2-esports-vs-team-vitality-10-10-2026"
@@ -305,12 +60,38 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 5,
-   "status": "upcoming",
+   "status": "live",
    "event": "LCP 2027 Promotion - Wild Card Playoffs",
    "tier": "A",
-   "startsAt": "2026-10-10T15:00:00+03:00",
-   "streams": [],
+   "startsAt": "2026-10-10T15:45:00+03:00",
+   "streams": [
+    {
+     "type": "youtube",
+     "id": "UcTbKaZtSIA",
+     "lang": "en",
+     "official": true,
+     "label": "LCP Wild Card Playoffs Day 1 - Semifinals"
+    }
+   ],
    "url": "https://bo3.gg/lol/matches/essences-vs-nothinhere-10-10-2026"
+  },
+  {
+   "id": "bo3-131647",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Ka4kanarskie cyxariki",
+   "teamB": "Shadow Dance",
+   "logoA": "https://files.bo3.gg/uploads/team/15527/image/webp-baabbcc8b335f9cddabfee26c1dca5dc.webp",
+   "logoB": "",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "live",
+   "event": "DreamLeague Season 30: Eastern Europe Open Qualifier 1",
+   "tier": "A",
+   "startsAt": "2026-10-10T16:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/dota2/matches/ka4kanarskie-cyxariki-vs-shadow-dance-10-10-2026"
   },
   {
    "id": "bo3-130751",
@@ -340,6 +121,89 @@
    "url": "https://bo3.gg/matches/aurora-gaming-vs-vitality-10-10-2026"
   },
   {
+   "id": "bo3-130703",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Aurora Gaming",
+   "teamB": "PARIVISION",
+   "logoA": "https://files.bo3.gg/uploads/team/15143/image/webp-235f54dc6e1d478c8536240a49197cc4.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/18604/image/webp-6ff7974f420e977381734ce06515692b.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "BLAST Slam VIII",
+   "tier": "S",
+   "startsAt": "2026-10-10T17:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "blastdota",
+     "lang": "en",
+     "official": true,
+     "label": "blastdota"
+    },
+    {
+     "type": "twitch",
+     "channel": "dota2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "dota2_maincast"
+    },
+    {
+     "type": "kick",
+     "channel": "americaesportsdota2",
+     "lang": "es",
+     "official": true,
+     "label": "americaesportsdota2"
+    },
+    {
+     "type": "twitch",
+     "channel": "betboom_dota_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "betboom_dota_ru"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/parivision-dota2-vs-aurora-10-10-2026"
+  },
+  {
+   "id": "bo3-131652",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "oveA",
+   "teamB": "potn9ki",
+   "logoA": "https://files.bo3.gg/uploads/team/25453/image/webp-e0d84139123efad0c39d9d896bcd2264.webp",
+   "logoB": "",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "DreamLeague Season 30: Western Europe Open Qualifier 1",
+   "tier": "A",
+   "startsAt": "2026-10-10T17:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/dota2/matches/ovea-vs-potn9ki-10-10-2026"
+  },
+  {
+   "id": "bo3-131653",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "PuckChamp",
+   "teamB": "old blood",
+   "logoA": "https://files.bo3.gg/uploads/team/15772/image/webp-64c9d5de9341502cf8038989f43fe16f.webp",
+   "logoB": "",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "DreamLeague Season 30: Western Europe Open Qualifier 1",
+   "tier": "A",
+   "startsAt": "2026-10-10T17:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/dota2/matches/puckchamp-vs-old-blood-10-10-2026"
+  },
+  {
    "id": "bo3-130161",
    "game": "LoL",
    "gameKey": "lol",
@@ -365,24 +229,6 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/karmine-corp-blue-vs-anubis-gaming-lol-10-10-2026"
-  },
-  {
-   "id": "bo3-128582",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "LOS",
-   "teamB": "FURIA",
-   "logoA": "https://files.bo3.gg/uploads/team/16923/image/webp-b1532153c183e4bee443587e846fcd79.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17448/image/webp-c55d5f6b07157723e05297241a757f98.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "upcoming",
-   "event": "CBLOL 2026 Split 2",
-   "tier": "S",
-   "startsAt": "2026-10-10T19:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/lol/matches/los-vs-furia-esports-lol-10-10-2026"
   },
   {
    "id": "bo3-130162",
@@ -412,6 +258,24 @@
    "url": "https://bo3.gg/lol/matches/solary-lol-vs-g2-nord-10-10-2026"
   },
   {
+   "id": "bo3-128582",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "LOS",
+   "teamB": "FURIA",
+   "logoA": "https://files.bo3.gg/uploads/team/16923/image/webp-b1532153c183e4bee443587e846fcd79.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17448/image/webp-c55d5f6b07157723e05297241a757f98.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "upcoming",
+   "event": "CBLOL 2026 Split 2",
+   "tier": "S",
+   "startsAt": "2026-10-10T19:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/lol/matches/los-vs-furia-esports-lol-10-10-2026"
+  },
+  {
    "id": "bo3-130752",
    "game": "CS2",
    "gameKey": "cs2",
@@ -437,6 +301,42 @@
     }
    ],
    "url": "https://bo3.gg/matches/mouz-cs2-vs-spirit-10-10-2026"
+  },
+  {
+   "id": "bo3-131659",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Skyreavers",
+   "teamB": "Rottweilas Latam",
+   "logoA": "",
+   "logoB": "https://files.bo3.gg/uploads/team/22288/image/webp-2288e75485be15d5c602fae3ec308b55.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "DreamLeague Season 30: South America Open Qualifier 1",
+   "tier": "A",
+   "startsAt": "2026-10-11T00:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/dota2/matches/skyreavers-vs-rottweilas-latam-10-10-2026"
+  },
+  {
+   "id": "bo3-131660",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Hokori",
+   "teamB": "New Growth",
+   "logoA": "https://files.bo3.gg/uploads/team/15828/image/webp-4077037e00777b2e411e40550ec68f67.webp",
+   "logoB": "",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "DreamLeague Season 30: South America Open Qualifier 1",
+   "tier": "A",
+   "startsAt": "2026-10-11T00:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/dota2/matches/hokori-vs-new-growth-10-10-2026"
   },
   {
    "id": "bo3-129919",
@@ -482,6 +382,33 @@
    "startsAt": "2026-10-11T12:00:00+03:00",
    "streams": [],
    "url": "https://bo3.gg/lol/matches/saigon-warriors-vs-mvk-academy-11-10-2026"
+  },
+  {
+   "id": "bo3-129631",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "NRG",
+   "teamB": "100 Thieves",
+   "logoA": "https://files.bo3.gg/uploads/team/7347/image/webp-bae3c55811146f6fc9fd812c8e5d27c0.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/7298/image/webp-84f36fa520c3fb0bac0f97297ae2859e.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VALORANT Champions 2026",
+   "tier": "S",
+   "startsAt": "2026-10-11T15:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/100-thieves-1-vs-nrg-1-11-10-2026"
   },
   {
    "id": "bo3-129974",
@@ -536,6 +463,187 @@
    "startsAt": "2026-10-13T00:00:00+03:00",
    "streams": [],
    "url": "https://bo3.gg/lol/matches/los-vs-kabum-ilha-das-lendas-12-10-2026"
+  },
+  {
+   "id": "bo3-129975",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Team WE",
+   "teamB": "FlyQuest",
+   "logoA": "https://files.bo3.gg/uploads/team/17801/image/webp-0c5e150d9160c851916e2b4868d7696f.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/18027/image/webp-686a8de8c8e199f222ffadef01a7f585.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "upcoming",
+   "event": "Demacia Cup Global Invitational 2026",
+   "tier": "S",
+   "startsAt": "2026-10-13T09:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/lol/matches/team-we-vs-flyquest-lol-13-10-2026"
+  },
+  {
+   "id": "bo3-130702",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Team Yandex",
+   "teamB": "Team Spirit",
+   "logoA": "https://files.bo3.gg/uploads/team/20951/image/webp-102aceac7404bd2093f9b559afcad7b6.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16704/image/webp-d50909a064a4533a3b594ed059eebc42.webp",
+   "scoreA": 2,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "finished",
+   "event": "BLAST Slam VIII",
+   "tier": "S",
+   "startsAt": "2026-10-10T13:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "blastdota",
+     "lang": "en",
+     "official": true,
+     "label": "blastdota"
+    },
+    {
+     "type": "twitch",
+     "channel": "dota2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "dota2_maincast"
+    },
+    {
+     "type": "kick",
+     "channel": "americaesportsdota2",
+     "lang": "es",
+     "official": true,
+     "label": "americaesportsdota2"
+    },
+    {
+     "type": "twitch",
+     "channel": "solo",
+     "lang": "ru",
+     "official": false,
+     "label": "solo"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/team-yandex-vs-team-spirit-10-10-2026"
+  },
+  {
+   "id": "bo3-129629",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "NRG",
+   "teamB": "LOUD",
+   "logoA": "https://files.bo3.gg/uploads/team/7347/image/webp-bae3c55811146f6fc9fd812c8e5d27c0.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/6874/image/webp-d2c298a09e3bc0540c8f33699a94f4c7.webp",
+   "scoreA": 1,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "VALORANT Champions 2026",
+   "tier": "S",
+   "startsAt": "2026-10-10T12:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant_br",
+     "lang": "pt",
+     "official": true,
+     "label": "valorant_br"
+    },
+    {
+     "type": "twitch",
+     "channel": "valorant_fr",
+     "lang": "fr",
+     "official": true,
+     "label": "valorant_fr"
+    },
+    {
+     "type": "twitch",
+     "channel": "valorant_la",
+     "lang": "pt",
+     "official": true,
+     "label": "valorant_la"
+    },
+    {
+     "type": "twitch",
+     "channel": "valorantesports_cn",
+     "lang": "zh",
+     "official": true,
+     "label": "valorantesports_cn"
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/nrg-1-vs-loud-10-10-2026"
+  },
+  {
+   "id": "bo3-131567",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Crescent",
+   "teamB": "Cloud Rising",
+   "logoA": "",
+   "logoB": "https://files.bo3.gg/uploads/team/21656/image/webp-05c59aac8389e0307bc4ebbff7416748.webp",
+   "scoreA": 0,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "DreamLeague Season 30: China Open Qualifier 1",
+   "tier": "A",
+   "startsAt": "2026-10-10T11:25:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/dota2/matches/cloud-rising-vs-crescent--10-10-2026"
+  },
+  {
+   "id": "bo3-131558",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "PART TIMERS",
+   "teamB": "West Point Esports Philippines",
+   "logoA": "https://files.bo3.gg/uploads/team/25431/image/webp-d7c69856dc26de71dcb9e40efa0060b0.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17180/image/webp-126fd7edeb01ae5fbaa5cc1d17f3fb94.webp",
+   "scoreA": 1,
+   "scoreB": 3,
+   "bo": 5,
+   "status": "finished",
+   "event": "LCP 2027 Promotion - Wild Card Playoffs",
+   "tier": "A",
+   "startsAt": "2026-10-10T11:25:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "haewonismo",
+     "lang": "es",
+     "official": true,
+     "label": "haewonismo"
+    },
+    {
+     "type": "twitch",
+     "channel": "leagueoflegendsth",
+     "lang": "en",
+     "official": false,
+     "label": "leagueoflegendsth"
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/part-timers--vs-west-point-esports-ph-10-10-2026"
+  },
+  {
+   "id": "bo3-131576",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Royal Bear",
+   "teamB": "FunFun",
+   "logoA": "https://files.bo3.gg/uploads/team/25439/image/webp-211d5a87a24aef6e0eba965ec6618d17.webp",
+   "logoB": "",
+   "scoreA": 2,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "finished",
+   "event": "DreamLeague Season 30: Southeast Asia Open Qualifier 1",
+   "tier": "A",
+   "startsAt": "2026-10-10T11:10:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/dota2/matches/royal-bear-vs-funfun-10-10-2026"
   },
   {
    "id": "bo3-131565",
@@ -599,33 +707,6 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/disguised-lol-vs-fuego-lol-09-10-2026"
-  },
-  {
-   "id": "bo3-130700",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "LGD Gaming",
-   "teamB": "Aurora Gaming",
-   "logoA": "https://files.bo3.gg/uploads/team/16711/image/webp-cf9143a16e0462f173c2587341f7ff08.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/15143/image/webp-235f54dc6e1d478c8536240a49197cc4.webp",
-   "scoreA": 0,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "BLAST Slam VIII",
-   "tier": "S",
-   "startsAt": "2026-10-09T21:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "blastpremier",
-     "lang": "en",
-     "official": true,
-     "label": "blastpremier",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/lgd-gaming-dota2-vs-aurora-09-10-2026"
   },
   {
    "id": "bo3-130750",
@@ -702,24 +783,6 @@
    "url": "https://bo3.gg/lol/matches/movistar-koi-fenix-vs-tln-pirates-09-10-2026"
   },
   {
-   "id": "bo3-131646",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Zero Tenacity",
-   "teamB": "The Warriors",
-   "logoA": "https://files.bo3.gg/uploads/team/18713/image/webp-3cf1f59ce30e72e390eb7eaf06e3be13.webp",
-   "logoB": "",
-   "scoreA": 1,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "DreamLeague Season 30: Eastern Europe Open Qualifier 1",
-   "tier": "A",
-   "startsAt": "2026-10-09T19:25:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/zero-tenacity-dota-vs-the-warriors-09-10-2026"
-  },
-  {
    "id": "bo3-130163",
    "game": "LoL",
    "gameKey": "lol",
@@ -792,53 +855,6 @@
     }
    ],
    "url": "https://bo3.gg/matches/furia-vs-mouz-cs2-09-10-2026"
-  },
-  {
-   "id": "bo3-130701",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "PARIVISION",
-   "teamB": "1w Team",
-   "logoA": "https://files.bo3.gg/uploads/team/18604/image/webp-6ff7974f420e977381734ce06515692b.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/15038/image/webp-9df00f89ea17c5d1512eff71fcbce70f.webp",
-   "scoreA": 2,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "finished",
-   "event": "BLAST Slam VIII",
-   "tier": "S",
-   "startsAt": "2026-10-09T17:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "blastdota",
-     "lang": "en",
-     "official": true,
-     "label": "blastdota"
-    },
-    {
-     "type": "twitch",
-     "channel": "dota2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "dota2_maincast"
-    },
-    {
-     "type": "twitch",
-     "channel": "betboom_dota_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "betboom_dota_ru"
-    },
-    {
-     "type": "youtube",
-     "id": "U8j8q5SywCA",
-     "lang": "en",
-     "official": false,
-     "label": "BLAST SLAM VIII: Malta, Playoffs, Day 2 - Spirit vs Aurora, 1win vs PARIVISION, "
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/1win-dota2-vs-parivision-dota2-09-10-2026"
   },
   {
    "id": "bo3-129626",
@@ -1103,24 +1119,6 @@
    "url": "https://bo3.gg/valorant/matches/team-vitality-vs-nongshim-redforce-08-10-2026"
   },
   {
-   "id": "bo3-129971",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Natus Vincere",
-   "teamB": "JD Gaming",
-   "logoA": "https://files.bo3.gg/uploads/team/17800/image/webp-b5ee3195df266b0408b0614ade0e387c.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/18021/image/webp-91801592d51003c3db8f16894500c02d.webp",
-   "scoreA": 1,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "Demacia Cup Global Invitational 2026",
-   "tier": "S",
-   "startsAt": "2026-10-08T14:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/lol/matches/natus-vincere-lol-vs-jd-gaming-lol-08-10-2026"
-  },
-  {
    "id": "bo3-129624",
    "game": "Valorant",
    "gameKey": "valorant",
@@ -1213,53 +1211,6 @@
     }
    ],
    "url": "https://bo3.gg/matches/spirit-vs-m80-cs-go-07-10-2026"
-  },
-  {
-   "id": "bo3-129623",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Paper Rex",
-   "teamB": "LOUD",
-   "logoA": "https://files.bo3.gg/uploads/team/7225/image/webp-b1445d485ba2550ac31d218ef60fd409.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/6874/image/webp-d2c298a09e3bc0540c8f33699a94f4c7.webp",
-   "scoreA": 0,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "VALORANT Champions 2026",
-   "tier": "S",
-   "startsAt": "2026-10-07T14:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "yinsu",
-     "lang": "en",
-     "official": true,
-     "label": "yinsu"
-    },
-    {
-     "type": "twitch",
-     "channel": "valorant_br",
-     "lang": "pt",
-     "official": true,
-     "label": "valorant_br"
-    },
-    {
-     "type": "twitch",
-     "channel": "valorant_la",
-     "lang": "pt",
-     "official": true,
-     "label": "valorant_la"
-    },
-    {
-     "type": "twitch",
-     "channel": "wipr",
-     "lang": "fr",
-     "official": true,
-     "label": "wipr"
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/paper-rex-1-vs-loud-07-10-2026"
   }
  ],
  "tournaments": [
@@ -1385,6 +1336,17 @@
    "url": "https://bo3.gg/dota2/tournaments/dreamleague-season-30-western-europe-open-qualifier-1"
   },
   {
+   "name": "DreamLeague Season 30: South America Open Qualifier 1",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "tier": "A",
+   "prize": null,
+   "start": "2026-10-10",
+   "end": "2026-10-11",
+   "status": "current",
+   "url": "https://bo3.gg/dota2/tournaments/dreamleague-season-30-south-america-open-qualifier-1"
+  },
+  {
    "name": "LCP 2027 Promotion - Wild Card Playoffs",
    "game": "LoL",
    "gameKey": "lol",
@@ -1427,17 +1389,6 @@
    "end": "2026-11-01",
    "status": "upcoming",
    "url": "https://bo3.gg/dota2/tournaments/pari-universe"
-  },
-  {
-   "name": "VALORANT Game Changers Championship 2026",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "tier": "S",
-   "prize": null,
-   "start": "2026-10-22",
-   "end": "2026-11-02",
-   "status": "upcoming",
-   "url": "https://bo3.gg/valorant/tournaments/valorant-game-changers-championship-2026"
   }
  ]
 }
