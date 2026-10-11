@@ -1,6 +1,31 @@
 {
- "updatedAt": "2026-10-10T12:58:56+03:00",
+ "updatedAt": "2026-10-11T13:09:48+03:00",
  "items": [
+  {
+   "appid": 2887580,
+   "title": "Active Matter",
+   "date": "2026-09-15",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2887580/191801a8de4db48075ef195473a922391cb4c6de/header.jpg?t=1791626919",
+   "desc": "Присоединяйтесь к рейдам за добычей или PvP-сражениям в этом новом реалистичном военном шутере, в мире расколотой мультивселенной. Сражайтесь в квантово-нестабильных зонах за контроль над активной материей — веществом, искривляющим время и пространство.",
+   "genres": [
+    "Экшены",
+    "Многопользовательские игры"
+   ],
+   "platforms": [
+    "PC",
+    "Linux"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Matter Team",
+   "price": "1499 руб.",
+   "url": "https://store.steampowered.com/app/2887580/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/2887580/"
+   },
+   "reviews": 3251
+  },
   {
    "appid": 2254990,
    "title": "Permafrost",
@@ -24,56 +49,32 @@
    "links": {
     "steam": "https://store.steampowered.com/app/2254990/"
    },
-   "reviews": 333
+   "reviews": 619
   },
   {
-   "appid": 2887580,
-   "title": "Active Matter",
-   "date": "2026-09-15",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2887580/191801a8de4db48075ef195473a922391cb4c6de/header.jpg?t=1790331280",
-   "desc": "Присоединяйтесь к рейдам за добычей или PvP-сражениям в этом новом реалистичном военном шутере, в мире расколотой мультивселенной. Сражайтесь в квантово-нестабильных зонах за контроль над активной материей — веществом, искривляющим время и пространство.",
+   "appid": 4656000,
+   "title": "BOMBANANA!",
+   "date": "2026-09-02",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1791542068",
+   "desc": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?",
    "genres": [
-    "Экшены",
-    "Многопользовательские игры"
+    "Казуальные игры",
+    "Инди"
    ],
    "platforms": [
     "PC",
-    "Linux"
+    "Mac"
    ],
    "stores": [
     "Steam"
    ],
-   "developer": "Matter Team",
-   "price": "1499 руб.",
-   "url": "https://store.steampowered.com/app/2887580/",
+   "developer": "Lefto Studio",
+   "price": "126 руб.",
+   "url": "https://store.steampowered.com/app/4656000/",
    "links": {
-    "steam": "https://store.steampowered.com/app/2887580/"
+    "steam": "https://store.steampowered.com/app/4656000/"
    },
-   "reviews": 3163
-  },
-  {
-   "appid": 4126040,
-   "title": "Aniimo",
-   "date": "2026-09-15",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/bf9b76d25ac135baf8f313d9a095e754fd2e950b/header.jpg?t=1790849962",
-   "desc": "Во время своего путешествия вы сможете объединяться с анимо и фактически становиться любым анимо из своей коллекции. Используйте навыки анимо, чтобы решать головоломки, побеждать в битвах и преодолевать испытания! Объединяйтесь с анимо и открывайте мир с совершенно новой стороны.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Многопользовательские игры"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Pawprint Studio",
-   "price": "Бесплатно",
-   "url": "https://store.steampowered.com/app/4126040/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4126040/"
-   }
+   "reviews": 3377
   },
   {
    "appid": 3493540,
@@ -102,105 +103,55 @@
    "links": {
     "steam": "https://store.steampowered.com/app/3493540/"
    },
-   "reviews": 5542
+   "reviews": 5682
   },
   {
-   "appid": 4656000,
-   "title": "BOMBANANA!",
-   "date": "2026-09-02",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1791542068",
-   "desc": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?",
+   "appid": 4126040,
+   "title": "Aniimo",
+   "date": "2026-09-15",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/bf9b76d25ac135baf8f313d9a095e754fd2e950b/header.jpg?t=1790849962",
+   "desc": "Во время своего путешествия вы сможете объединяться с анимо и фактически становиться любым анимо из своей коллекции. Используйте навыки анимо, чтобы решать головоломки, побеждать в битвах и преодолевать испытания! Объединяйтесь с анимо и открывайте мир с совершенно новой стороны.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Многопользовательские игры"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Pawprint Studio",
+   "price": "Бесплатно",
+   "url": "https://store.steampowered.com/app/4126040/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4126040/"
+   }
+  },
+  {
+   "appid": 5020310,
+   "title": "Dub Together",
+   "date": "2026-09-01",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5020310/5120fdb5c1622bf7317187323aac962b3034fb93/header.jpg?t=1790943462",
+   "desc": "До восьми игроков дублируют видеоклипы и придают им совершенно новый смысл. Вы записываете сцену, затем вместе смотрите каждый результат и голосуете. Благодаря голосовым эффектам, встроенному редактору клипов и живому голосованию из чата Twitch.",
    "genres": [
     "Казуальные игры",
     "Инди"
    ],
    "platforms": [
-    "PC",
-    "Mac"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Lefto Studio",
-   "price": "126 руб.",
-   "url": "https://store.steampowered.com/app/4656000/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4656000/"
-   },
-   "reviews": 3318
-  },
-  {
-   "appid": 499170,
-   "title": "Order of the Sinking Star",
-   "date": "2026-10-08",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499170/deda420d9e42288f4734a068c707f4c156203969/header.jpg?t=1791571622",
-   "desc": "Order of the Sinking Star от Джонатана Блоу (Braid, The Witness) — это приключение, погружающее вас в мир магии и загадок. Вам предстоит решить более 1000 продуманных головоломок, познакомиться с уникальными игровыми персонажами, отточить свои навыки в игровой механике и разгадать великую тайну.",
-   "genres": [
-    "Приключенческие игры",
-    "Инди",
-    "Стратегии"
-   ],
-   "platforms": [
-    "PC",
-    "PlayStation",
-    "Switch"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Thekla, Inc.",
-   "price": "1300 руб.",
-   "url": "https://store.steampowered.com/app/499170/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/499170/"
-   },
-   "reviews": 899
-  },
-  {
-   "appid": 2680280,
-   "title": "PAPERHEAD",
-   "date": "2026-10-09",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680280/0b30058f0a9d5ad4ed698367b19bad97001faa02/header.jpg?t=1791581527",
-   "desc": "В волшебном картонном мире что-то пошло не так... Используй покрытый загадочными рунами карандаш, кучу разнообразного оружия и сокрушительный пинок, чтобы пробиться сквозь толпы ужасных исчадий картонного ада и узнать... ПОЧЕМУ ЖЕ КАРТОН НАЧАЛ... КРОВОТОЧИТЬ?",
-   "genres": [
-    "Экшены",
-    "Инди"
-   ],
-   "platforms": [
     "PC"
    ],
    "stores": [
     "Steam"
    ],
-   "developer": "Paperhead te4m",
-   "price": "552 руб.",
-   "url": "https://store.steampowered.com/app/2680280/",
+   "developer": "Banani",
+   "price": "240 руб.",
+   "url": "https://store.steampowered.com/app/5020310/",
    "links": {
-    "steam": "https://store.steampowered.com/app/2680280/"
-   }
-  },
-  {
-   "appid": 2288340,
-   "title": "ACE COMBAT 8: WINGS OF THEVE",
-   "date": "2026-10-01",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288340/13dea8084135fd130605b78189c82e39bf944c35/header.jpg?t=1791286652",
-   "desc": "Займите свое место среди лучших пилотов. Примите участие в динамичных воздушных боях, где требуется мастерство и решимость, а мощное вооружение дает преимущество. Погрузитесь в кампанию, полную опасных миссий, непростых решений и личных историй отряда.",
-   "genres": [
-    "Экшены"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Bandai Namco Aces Inc.",
-   "price": "4999 руб.",
-   "url": "https://store.steampowered.com/app/2288340/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/2288340/"
+    "steam": "https://store.steampowered.com/app/5020310/"
    },
-   "reviews": 13291
+   "reviews": 434
   },
   {
    "appid": 892970,
@@ -230,16 +181,16 @@
    "links": {
     "steam": "https://store.steampowered.com/app/892970/"
    },
-   "reviews": 472466
+   "reviews": 472712
   },
   {
-   "appid": 5020310,
-   "title": "Dub Together",
-   "date": "2026-09-01",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5020310/5120fdb5c1622bf7317187323aac962b3034fb93/header.jpg?t=1790943462",
-   "desc": "До восьми игроков дублируют видеоклипы и придают им совершенно новый смысл. Вы записываете сцену, затем вместе смотрите каждый результат и голосуете. Благодаря голосовым эффектам, встроенному редактору клипов и живому голосованию из чата Twitch.",
+   "appid": 2680280,
+   "title": "PAPERHEAD",
+   "date": "2026-10-09",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680280/0b30058f0a9d5ad4ed698367b19bad97001faa02/header.jpg?t=1791581527",
+   "desc": "В волшебном картонном мире что-то пошло не так... Используй покрытый загадочными рунами карандаш, кучу разнообразного оружия и сокрушительный пинок, чтобы пробиться сквозь толпы ужасных исчадий картонного ада и узнать... ПОЧЕМУ ЖЕ КАРТОН НАЧАЛ... КРОВОТОЧИТЬ?",
    "genres": [
-    "Казуальные игры",
+    "Экшены",
     "Инди"
    ],
    "platforms": [
@@ -248,13 +199,13 @@
    "stores": [
     "Steam"
    ],
-   "developer": "Banani",
-   "price": "240 руб.",
-   "url": "https://store.steampowered.com/app/5020310/",
+   "developer": "Paperhead te4m",
+   "price": "552 руб.",
+   "url": "https://store.steampowered.com/app/2680280/",
    "links": {
-    "steam": "https://store.steampowered.com/app/5020310/"
+    "steam": "https://store.steampowered.com/app/2680280/"
    },
-   "reviews": 408
+   "reviews": 184
   },
   {
    "appid": 3883570,
@@ -279,7 +230,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/3883570/"
    },
-   "reviews": 227
+   "reviews": 345
   },
   {
    "appid": 4019220,
@@ -304,7 +255,57 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4019220/"
    },
-   "reviews": 11427
+   "reviews": 11904
+  },
+  {
+   "appid": 499170,
+   "title": "Order of the Sinking Star",
+   "date": "2026-10-08",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499170/deda420d9e42288f4734a068c707f4c156203969/header.jpg?t=1791706750",
+   "desc": "Order of the Sinking Star от Джонатана Блоу (Braid, The Witness) — это приключение, погружающее вас в мир магии и загадок. Вам предстоит решить более 1000 продуманных головоломок, познакомиться с уникальными игровыми персонажами, отточить свои навыки в игровой механике и разгадать великую тайну.",
+   "genres": [
+    "Приключенческие игры",
+    "Инди",
+    "Стратегии"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Switch"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Thekla, Inc.",
+   "price": "1300 руб.",
+   "url": "https://store.steampowered.com/app/499170/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/499170/"
+   },
+   "reviews": 1237
+  },
+  {
+   "appid": 2288340,
+   "title": "ACE COMBAT 8: WINGS OF THEVE",
+   "date": "2026-10-01",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288340/13dea8084135fd130605b78189c82e39bf944c35/header.jpg?t=1791286652",
+   "desc": "Займите свое место среди лучших пилотов. Примите участие в динамичных воздушных боях, где требуется мастерство и решимость, а мощное вооружение дает преимущество. Погрузитесь в кампанию, полную опасных миссий, непростых решений и личных историй отряда.",
+   "genres": [
+    "Экшены"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Bandai Namco Aces Inc.",
+   "price": "4999 руб.",
+   "url": "https://store.steampowered.com/app/2288340/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/2288340/"
+   },
+   "reviews": 13866
   },
   {
    "appid": "x-meccha-chameleon",
