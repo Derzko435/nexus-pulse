@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T16:06:41+03:00",
+  "updatedAt": "2026-10-11T22:01:05+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -452,6 +452,23 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
+      "appid": "2772750",
+      "name": "Age of History 3",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2772750/d526bef925f1d0cddb4fef16c7e28968872ae9f5/header.jpg?t=1777566511",
+      "genres": [
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Глобальная военная стратегия, в которой судьба цивилизаций находится в ваших руках - объединятся ли они под вашим руководством или разрушатся в конфликте? Пройдите через всю сагу человеческой истории, от самых ранних дней до футуристической эры, создавая своё наследие век за веком."
+    },
+    {
       "appid": "301970",
       "name": "Screencheat",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/301970/header.jpg?t=1778198472",
@@ -686,26 +703,6 @@
       },
       "metacritic": null,
       "short_description": "KYRO is a top-down pixel art action-adventure. Play as Aiden, a boy with a trusty slingshot, exploring Ka'a on the edge of a black hole. Solve puzzles, uncover ruins, and help the people of Vila Carnaval face the apocalypse with laughter and party costumes!"
-    },
-    {
-      "appid": "4456960",
-      "name": "Astro Yoinkers",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4456960/889bc63298e000d9fd5b63f6f879a9a816fece66/header_russian.jpg?t=1791659857",
-      "genres": [
-        "Экшены",
-        "Казуальные игры",
-        "Инди",
-        "Гонки",
-        "Спорт"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Team up with your fellow Astro Yoinkers in this fast-paced multiplayer CTF. Physics-based grappling across moving asteroids, yoink enemy crystals, and vaporize lobbies with orbital strike satellites."
     }
   ]
 }
