@@ -1,33 +1,7 @@
 {
- "updatedAt": "2026-10-11T03:31:58+03:00",
+ "updatedAt": "2026-10-11T09:31:06+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-131659",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Skyreavers",
-   "teamB": "Rottweilas Latam",
-   "logoA": "",
-   "logoB": "https://files.bo3.gg/uploads/team/22288/image/webp-2288e75485be15d5c602fae3ec308b55.webp",
-   "scoreA": 1,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "live",
-   "event": "DreamLeague Season 30: South America Open Qualifier 1",
-   "tier": "A",
-   "startsAt": "2026-10-11T00:10:00+03:00",
-   "streams": [
-    {
-     "type": "kick",
-     "channel": "richicaster",
-     "lang": "es",
-     "official": false,
-     "label": "richicaster"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/skyreavers-vs-rottweilas-latam-10-10-2026"
-  },
   {
    "id": "bo3-131560",
    "game": "LoL",
@@ -480,6 +454,33 @@
    "url": "https://bo3.gg/matches/furia-vs-betboom-team-14-10-2026"
   },
   {
+   "id": "bo3-129632",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "Team Vitality",
+   "teamB": "LOUD",
+   "logoA": "https://files.bo3.gg/uploads/team/7254/image/webp-846a1a854b768a066e986fc99c45cf39.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/6874/image/webp-d2c298a09e3bc0540c8f33699a94f4c7.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VALORANT Champions 2026",
+   "tier": "S",
+   "startsAt": "2026-10-16T09:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/team-vitality-vs-loud-16-10-2026"
+  },
+  {
    "id": "bo3-131660",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -496,6 +497,32 @@
    "startsAt": "2026-10-11T00:10:00+03:00",
    "streams": [],
    "url": "https://bo3.gg/dota2/matches/hokori-vs-new-growth-10-10-2026"
+  },
+  {
+   "id": "bo3-131659",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Skyreavers",
+   "teamB": "Rottweilas Latam",
+   "logoA": "",
+   "logoB": "https://files.bo3.gg/uploads/team/22288/image/webp-2288e75485be15d5c602fae3ec308b55.webp",
+   "scoreA": 1,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "DreamLeague Season 30: South America Open Qualifier 1",
+   "tier": "A",
+   "startsAt": "2026-10-11T00:10:00+03:00",
+   "streams": [
+    {
+     "type": "kick",
+     "channel": "richicaster",
+     "lang": "es",
+     "official": false,
+     "label": "richicaster"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/skyreavers-vs-rottweilas-latam-10-10-2026"
   },
   {
    "id": "bo3-129919",
@@ -713,32 +740,6 @@
    "url": "https://bo3.gg/lol/matches/karmine-corp-blue-vs-anubis-gaming-lol-10-10-2026"
   },
   {
-   "id": "bo3-131652",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "oveA",
-   "teamB": "potn9ki",
-   "logoA": "https://files.bo3.gg/uploads/team/25453/image/webp-e0d84139123efad0c39d9d896bcd2264.webp",
-   "logoB": "",
-   "scoreA": 0,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "DreamLeague Season 30: Western Europe Open Qualifier 1",
-   "tier": "A",
-   "startsAt": "2026-10-10T17:15:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "betbist",
-     "lang": "ru",
-     "official": true,
-     "label": "betbist"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/ovea-vs-potn9ki-10-10-2026"
-  },
-  {
    "id": "bo3-131653",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -763,6 +764,32 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/puckchamp-vs-old-blood-10-10-2026"
+  },
+  {
+   "id": "bo3-131652",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "oveA",
+   "teamB": "potn9ki",
+   "logoA": "https://files.bo3.gg/uploads/team/25453/image/webp-e0d84139123efad0c39d9d896bcd2264.webp",
+   "logoB": "",
+   "scoreA": 0,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "DreamLeague Season 30: Western Europe Open Qualifier 1",
+   "tier": "A",
+   "startsAt": "2026-10-10T17:15:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "betbist",
+     "lang": "ru",
+     "official": true,
+     "label": "betbist"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/ovea-vs-potn9ki-10-10-2026"
   },
   {
    "id": "bo3-130751",
@@ -930,53 +957,6 @@
     }
    ],
    "url": "https://bo3.gg/valorant/matches/g2-esports-vs-team-vitality-10-10-2026"
-  },
-  {
-   "id": "bo3-130702",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Team Yandex",
-   "teamB": "Team Spirit",
-   "logoA": "https://files.bo3.gg/uploads/team/20951/image/webp-102aceac7404bd2093f9b559afcad7b6.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16704/image/webp-d50909a064a4533a3b594ed059eebc42.webp",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "BLAST Slam VIII",
-   "tier": "S",
-   "startsAt": "2026-10-10T13:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "blastdota",
-     "lang": "en",
-     "official": true,
-     "label": "blastdota"
-    },
-    {
-     "type": "twitch",
-     "channel": "dota2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "dota2_maincast"
-    },
-    {
-     "type": "kick",
-     "channel": "americaesportsdota2",
-     "lang": "es",
-     "official": true,
-     "label": "americaesportsdota2"
-    },
-    {
-     "type": "twitch",
-     "channel": "betboom_dota_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "betboom_dota_ru"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/team-yandex-vs-team-spirit-10-10-2026"
   },
   {
    "id": "bo3-129629",
@@ -1409,17 +1389,6 @@
    "url": "https://bo3.gg/lol/tournaments/lcp-2027-promotion-wild-card-playoffs"
   },
   {
-   "name": "DreamLeague Season 30: South America Open Qualifier 1",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "tier": "A",
-   "prize": null,
-   "start": "2026-10-10",
-   "end": "2026-10-11",
-   "status": "finished",
-   "url": "https://bo3.gg/dota2/tournaments/dreamleague-season-30-south-america-open-qualifier-1"
-  },
-  {
    "name": "Thunderpick World Championship 2026",
    "game": "CS2",
    "gameKey": "cs2",
@@ -1484,6 +1453,17 @@
    "end": "2026-11-09",
    "status": "upcoming",
    "url": "https://bo3.gg/tournaments/intel-extreme-masters-beijing-2026"
+  },
+  {
+   "name": "BLAST Rivals Fall 2026",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "tier": "S",
+   "prize": 1000000,
+   "start": "2026-11-11",
+   "end": "2026-11-16",
+   "status": "upcoming",
+   "url": "https://bo3.gg/tournaments/blast-rivals-fall-2026"
   }
  ]
 }
