@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T22:01:10+03:00",
+  "updatedAt": "2026-10-12T02:45:46+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -43,26 +43,6 @@
       "steamAppId": "1808500"
     },
     {
-      "id": "steam-3948510",
-      "title": "ARC Raiders - Upgrade to Deluxe Edition",
-      "store": "Steam",
-      "old": 1750,
-      "neu": 875,
-      "pct": 50,
-      "url": "https://store.steampowered.com/app/3948510/",
-      "steamAppId": "3948510"
-    },
-    {
-      "id": "steam-1332010",
-      "title": "Stray",
-      "store": "Steam",
-      "old": 1269,
-      "neu": 634,
-      "pct": 50,
-      "url": "https://store.steampowered.com/app/1332010/",
-      "steamAppId": "1332010"
-    },
-    {
       "id": "steam-105600",
       "title": "Terraria",
       "store": "Steam",
@@ -71,6 +51,16 @@
       "pct": 50,
       "url": "https://store.steampowered.com/app/105600/",
       "steamAppId": "105600"
+    },
+    {
+      "id": "steam-5131570",
+      "title": "Aim Like a Cat",
+      "store": "Steam",
+      "old": 385,
+      "neu": 231,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5131570/",
+      "steamAppId": "5131570"
     },
     {
       "id": "steam-4656000",
@@ -111,6 +101,16 @@
       "pct": 30,
       "url": "https://store.steampowered.com/app/1623730/",
       "steamAppId": "1623730"
+    },
+    {
+      "id": "steam-3836580",
+      "title": "Traitor",
+      "store": "Steam",
+      "old": 200,
+      "neu": 140,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/3836580/",
+      "steamAppId": "3836580"
     },
     {
       "id": "steam-3932890",
