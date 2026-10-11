@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T02:40:47+03:00",
+  "updatedAt": "2026-10-11T09:00:53+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -41,16 +41,6 @@
       "pct": 50,
       "url": "https://store.steampowered.com/app/1808500/",
       "steamAppId": "1808500"
-    },
-    {
-      "id": "steam-1332010",
-      "title": "Stray",
-      "store": "Steam",
-      "old": 1269,
-      "neu": 634,
-      "pct": 50,
-      "url": "https://store.steampowered.com/app/1332010/",
-      "steamAppId": "1332010"
     },
     {
       "id": "steam-105600",
@@ -113,6 +103,16 @@
       "steamAppId": "4847040"
     },
     {
+      "id": "steam-3932890",
+      "title": "Escape from Tarkov",
+      "store": "Steam",
+      "old": 1800,
+      "neu": 1350,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/3932890/",
+      "steamAppId": "3932890"
+    },
+    {
       "id": "steam-3883570",
       "title": "Invokyr",
       "store": "Steam",
@@ -123,14 +123,14 @@
       "steamAppId": "3883570"
     },
     {
-      "id": "steam-5280040",
-      "title": "Soundgun",
+      "id": "steam-3063690",
+      "title": "KYRO",
       "store": "Steam",
-      "old": 465,
-      "neu": 348,
+      "old": 460,
+      "neu": 345,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/5280040/",
-      "steamAppId": "5280040"
+      "url": "https://store.steampowered.com/app/3063690/",
+      "steamAppId": "3063690"
     },
     {
       "id": "steam-4456960",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T02:40:42+03:00",
+  "updatedAt": "2026-10-11T09:00:48+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -521,6 +521,23 @@
       "short_description": "ARC Raiders — многопользовательская игра жанра extraction adventure, действие которой разворачивается в суровом будущем на Земле, атакованной загадочными механическими захватчиками ARC."
     },
     {
+      "appid": "1332010",
+      "name": "Stray",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/71daca1910d664d31240b9623a495e0c0828807f/header.jpg?t=1785424330",
+      "genres": [
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": 82,
+      "short_description": "Потерявшемуся, одинокому, оторванному от семьи бродячему коту предстоит разгадать древнюю тайну, вырваться из давно заброшенного кибергорода и найти дорогу домой."
+    },
+    {
       "appid": "105600",
       "name": "Terraria",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1769844435",
@@ -538,22 +555,6 @@
       },
       "metacritic": 83,
       "short_description": "Копайте, сражайтесь, исследуйте, стройте! Нет ничего невозможного в этой насыщенной событиями приключенческой игре. Также доступен комплект для четверых!"
-    },
-    {
-      "appid": "5133950",
-      "name": "MUSIC BAND SIMULATOR:TOGETHER",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5133950/bbfc6f736a389f655ce1f13ff1afbbb4f5a4bda0/header.jpg?t=1791602517",
-      "genres": [
-        "Казуальные игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Создай группу с друзьями и свободно играй любые песни на реалистичных инструментах! Становись популярнее, набирай фанатов и пройди путь от гаражных джемов до огромных стадионных концертов."
     },
     {
       "appid": "4656000",
@@ -591,13 +592,13 @@
       "short_description": "Every girl has a secret. Every subscriber has a dirty fantasy. 📸🔥 Grab your camera, take on naughty requests, and charm stunning beauties. From innocent photoshoots to steamy encounters, every meeting hides a new temptation. Some girls have more to reveal than you think. 💋"
     },
     {
-      "appid": "5041240",
-      "name": "Astral shifter",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5041240/de45b48a8c357ba0a8678925466e96971a897e0d/header.jpg?t=1791648365",
+      "appid": "4987190",
+      "name": "Lewd Waifu",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4987190/a1ed7f3347dc948209dba87cc10f77ac6414746d/header.jpg?t=1791630820",
       "genres": [
         "Казуальные игры",
         "Инди",
-        "Стратегии"
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
@@ -606,7 +607,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Играйте за таинственного мага: очищайте падающие звёзды на гексагональном поле, двигая элементы как в кубике Рубика. Знакомьтесь с ведьмами, получайте их помощь и спасите мир за одну ночь! Есть лёгкий сюжетный режим (головоломка) и бесконечный режим для рекордов."
+      "short_description": "Расслабляющая головоломка с перестановкой плиток в неоновом свете комнаты стримерши. Соберите перемешанные плитки в нарисованную вручную иллюстрацию и посмотрите, как она оживает в анимированной сцене-награде. 10 уровней, без таймеров."
     },
     {
       "appid": "1623730",
@@ -684,23 +685,24 @@
       "short_description": "Воспроизводите свои звуки через микрофон с помощью горячих клавиш или интерактивного оверлея. Подключите телефон по Bluetooth, чтобы пускать любой звук прямо в голосовой чат."
     },
     {
-      "appid": "4789070",
-      "name": "告死天使招魂令 Death Angel Requiem",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4789070/a2954d20306fd1fe154b874193d358742ba2ead2/header.jpg?t=1791599858",
+      "appid": "4456960",
+      "name": "Astro Yoinkers",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4456960/889bc63298e000d9fd5b63f6f879a9a816fece66/header_russian.jpg?t=1791659857",
       "genres": [
-        "Приключенческие игры",
+        "Экшены",
+        "Казуальные игры",
         "Инди",
-        "Ролевые игры",
-        "Симуляторы"
+        "Гонки",
+        "Спорт"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
-        "linux": false
+        "linux": true
       },
       "metacritic": null,
-      "short_description": "A 5-hour horror game where investigator Igarashi, tasked by the police, enters a haunted campus after a murder case kills four students. With her partner Shimo, she sets out to uncover the truth behind the &quot;ghost killings.&quot;"
+      "short_description": "Team up with your fellow Astro Yoinkers in this fast-paced multiplayer CTF. Physics-based grappling across moving asteroids, yoink enemy crystals, and vaporize lobbies with orbital strike satellites."
     }
   ]
 }
