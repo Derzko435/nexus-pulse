@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T09:00:48+03:00",
+  "updatedAt": "2026-10-11T16:06:41+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -420,7 +420,7 @@
     {
       "appid": "227300",
       "name": "Euro Truck Simulator 2",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/4f6ff00d3732ed0da2e28a4e7182f0036df8ab90/header_alt_assets_8.jpg?t=1790001194",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/4f6ff00d3732ed0da2e28a4e7182f0036df8ab90/header_alt_assets_8.jpg?t=1791702263",
       "genres": [
         "Инди",
         "Симуляторы"
@@ -521,23 +521,6 @@
       "short_description": "ARC Raiders — многопользовательская игра жанра extraction adventure, действие которой разворачивается в суровом будущем на Земле, атакованной загадочными механическими захватчиками ARC."
     },
     {
-      "appid": "1332010",
-      "name": "Stray",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/71daca1910d664d31240b9623a495e0c0828807f/header.jpg?t=1785424330",
-      "genres": [
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": 82,
-      "short_description": "Потерявшемуся, одинокому, оторванному от семьи бродячему коту предстоит разгадать древнюю тайну, вырваться из давно заброшенного кибергорода и найти дорогу домой."
-    },
-    {
       "appid": "105600",
       "name": "Terraria",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1769844435",
@@ -631,7 +614,7 @@
     {
       "appid": "4847040",
       "name": "On Hold - Call Center Simulator",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4847040/c00c66806253fe13e11bd6e03779f4636f798f50/header.jpg?t=1791641632",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4847040/c00c66806253fe13e11bd6e03779f4636f798f50/header.jpg?t=1791701842",
       "genres": [
         "Казуальные игры",
         "Инди",
@@ -645,6 +628,25 @@
       },
       "metacritic": null,
       "short_description": "A dark comedy call center simulator where you answer calls, verify identities, catch fraudsters, and run side hustles under your supervisor's watchful eye. The queue never empties. The pay never improves."
+    },
+    {
+      "appid": "3932890",
+      "name": "Escape from Tarkov",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932890/d09430bbc790237c1de5071188cbc78dc44f0c71/header_alt_assets_2_russian.jpg?t=1785782094",
+      "genres": [
+        "Экшены",
+        "Многопользовательские игры",
+        "Ролевые игры",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Escape from Tarkov - хардкорный шутер, где каждый рейд - это игра со смертью. Готовься к рейдам, превозмогай и пробивайся сквозь беспощадных бойцов ЧВК и Диких, пользуйся тактическим преимуществом и забирай самый ценный лут. Ты либо выйдешь живым, либо потеряешь все."
     },
     {
       "appid": "3883570",
@@ -668,12 +670,13 @@
       "short_description": "Забытая настолка в проклятом доме так и манит сыграть. Собирайте до 5 друзей, бросайте кубики и выживайте среди оживших кошмаров мастера игры. Рискните всем, используйте особые кости и одолейте зловещую игру, чтобы сбежать."
     },
     {
-      "appid": "5280040",
-      "name": "Soundgun",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5280040/cc29f562a51e4f46f7d46c8dbc4b2952d02a398a/header.jpg?t=1791644414",
+      "appid": "3063690",
+      "name": "KYRO",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3063690/94941f4dd9dfc4c74983d73307583e7f6d4a07d6/header.jpg?t=1791681242",
       "genres": [
-        "Работа со звуком",
-        "Утилиты"
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -682,7 +685,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Воспроизводите свои звуки через микрофон с помощью горячих клавиш или интерактивного оверлея. Подключите телефон по Bluetooth, чтобы пускать любой звук прямо в голосовой чат."
+      "short_description": "KYRO is a top-down pixel art action-adventure. Play as Aiden, a boy with a trusty slingshot, exploring Ka'a on the edge of a black hole. Solve puzzles, uncover ruins, and help the people of Vila Carnaval face the apocalypse with laughter and party costumes!"
     },
     {
       "appid": "4456960",

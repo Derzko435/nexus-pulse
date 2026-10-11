@@ -1,7 +1,17 @@
 {
-  "updatedAt": "2026-10-11T09:00:53+03:00",
+  "updatedAt": "2026-10-11T16:06:46+03:00",
   "source": "steam-specials-ru",
   "deals": [
+    {
+      "id": "steam-2772750",
+      "title": "Age of History 3",
+      "store": "Steam",
+      "old": 599,
+      "neu": 119,
+      "pct": 80,
+      "url": "https://store.steampowered.com/app/2772750/",
+      "steamAppId": "2772750"
+    },
     {
       "id": "steam-301970",
       "title": "Screencheat",
@@ -131,16 +141,6 @@
       "pct": 25,
       "url": "https://store.steampowered.com/app/3063690/",
       "steamAppId": "3063690"
-    },
-    {
-      "id": "steam-4456960",
-      "title": "Astro Yoinkers",
-      "store": "Steam",
-      "old": 335,
-      "neu": 251,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/4456960/",
-      "steamAppId": "4456960"
     }
   ]
 }
