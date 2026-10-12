@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-12T18:45:08+03:00",
+  "updatedAt": "2026-10-13T02:05:19+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
     {
       "appid": "730",
       "name": "Counter-Strike 2",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/162664aa5da85f418105350c5d67ca565f6c3713/header.jpg?t=1789251637",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/162664aa5da85f418105350c5d67ca565f6c3713/header.jpg?t=1791824795",
       "genres": [
         "Экшены",
         "Бесплатные"
@@ -540,13 +540,12 @@
       "short_description": "Копайте, сражайтесь, исследуйте, стройте! Нет ничего невозможного в этой насыщенной событиями приключенческой игре. Также доступен комплект для четверых!"
     },
     {
-      "appid": "5131570",
-      "name": "Aim Like a Cat",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5131570/a8bda283ba59d7c6b9b4af116a26274d29e6258a/header.jpg?t=1791758395",
+      "appid": "5093640",
+      "name": "Slope Rivals",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5093640/3414a27aabf920979b58466d0d370520a686e912/header.jpg?t=1791792182",
       "genres": [
-        "Экшены",
-        "Инди",
-        "Симуляторы"
+        "Казуальные игры",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -555,7 +554,62 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Aim Like a Cat — офлайн-тренажёр для FPS. Упражнения развивают удержание углов, пре-эйм, зрительно-слуховую реакцию, внимание, многозадачность, память, поиск и сопровождение целей. Настраивайте цели, движение, оружие и флеш-сценарии; оценивайте время реакции, точность и время прохождения."
+      "short_description": "Slope Rivals — динамичная соревновательная игра, где победа зависит не только от скорости, но и от того, насколько хорошо ты умеешь мешать соперникам и уворачиваться от препятствий."
+    },
+    {
+      "appid": "1621690",
+      "name": "Core Keeper",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1621690/4d3798fbb307f52d9e11ed5b5f665779097b2f55/header_alt_assets_12.jpg?t=1791454740",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": 86,
+      "short_description": "Исследуйте бескрайнее подземелье, полное существ, реликвий и ресурсов в приключенческой песочнице. Добывайте ресурсы, сражайтесь, изготавливайте предметы, выращивайте еду в одиночку или в компании до 8 игроков и раскройте тайну древнего Ядра."
+    },
+    {
+      "appid": "4609000",
+      "name": "A Special Day",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4609000/d680531522b18c9532fe9b29d41755fd65e200b4/header.jpg?t=1791811298",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "A calm, low-pressure life-sim where you explore daily routines, complete simple activities, and build your own structured world. Designed with neurodivergent players in mind, but enjoyable for anyone who prefers slower, more predictable gameplay."
+    },
+    {
+      "appid": "5288280",
+      "name": "PHOBOS: Rescue",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5288280/cbb0ca6dfa66120a8f80d8f12df3abe207a2379d/header.jpg?t=1791790940",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Пилотируйте спасательный модуль на Фобосе в мире технических чертежей. Управляйте тягой и инерцией, обходите астероиды и спасайте исследователей в 15 секторах. Один бак топлива. Три места на борту. Каждая посадка — точный расчёт."
     },
     {
       "appid": "4656000",
@@ -575,10 +629,46 @@
       "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
     },
     {
-      "appid": "5234230",
-      "name": "战国七雄",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5234230/186a624137c42531be5a22a06f9a4b530acd42a7/header.jpg?t=1791715831",
+      "appid": "5318720",
+      "name": "Doodle Steel",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5318720/2775f0ba8646025a1c11bbac8ad5277a62db23dd/header.jpg?t=1791806423",
       "genres": [
+        "Казуальные игры",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Нарисуй. Отправь в бой. Смотри, как он сражается. Стратегия с боями на линиях, где каждый юнит — твой рисунок: нарисуй корпус, гусеницы, пушки и воздушные шары и разнеси вражескую базу на 108 полях сражений Второй мировой."
+    },
+    {
+      "appid": "5212280",
+      "name": "Not an NPC Game",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5212280/e711b2ee626e872d2e1182bcf55c9c007ae5dbd2/header.jpg?t=1791811030",
+      "genres": [
+        "Экшены",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "NOT AN NPC GAME — соревновательная игра на скилл: заманивайте врагов в ловушки, предугадывайте их следующий шаг и выбирайтесь из ситуаций, в которых вы вряд ли должны были выжить. Возводите стены, контролируйте арену и поднимайтесь по безжалостной рейтинговой лестнице, где важна каждая ошибка."
+    },
+    {
+      "appid": "3746950",
+      "name": "Life, the Universe, and Restaurants",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3746950/504f782986861f4711a049466c364aeff3b8eec8/header.jpg?t=1791803615",
+      "genres": [
+        "Казуальные игры",
         "Инди",
         "Симуляторы",
         "Стратегии"
@@ -590,88 +680,13 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Rule a state in ancient China's Warring States era in this single-player, turn-based strategy game. Manage resources, recruit historical figures, enact reforms and navigate diplomacy. Grain spoils, armies need upkeep and conquered cities need pacification. Can your economy sustain your ambitions?"
+      "short_description": "Run a restaurant in a bizarre universe and cook for customers who call themselves &quot;gods&quot;! Expand your restaurant, deploy robots, and automate your kitchen. Keep business booming—and be ready to deal with any unruly customers."
     },
     {
-      "appid": "4130120",
-      "name": "Genome Guardian 2",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4130120/e9852597c1338855819ac0a0c183d95288ab0d29/header.jpg?t=1791737689",
+      "appid": "2954010",
+      "name": "Burn With Me",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2954010/47e02a56fb87683e8075fc01065998dd7b226b84/header.jpg?t=1791835758",
       "genres": [
-        "Экшены",
-        "Казуальные игры",
-        "Инди",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "COMBINE WEAPONS in the microscopic shooter with macroscopic depth. BUILD YOUR NANOBOT from hundreds of parts. SURVIVE the microbial onslaught once more in this psychedelic dive to the Abyss, full of mutations, minerals, anomalies and powerup polyps. SHMUP mode turns it into a vertical shoot 'em up!"
-    },
-    {
-      "appid": "5239090",
-      "name": "Skulls and Sweets",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5239090/c3a39d9bb8a06677d59018610d49476b558a91bf/header.jpg?t=1791762696",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "A spooky-sweet match-3 with a dash of dark-fantasy romance. Play Sophia, a good witch determined to fill every trick-or-treat bag, as she matches skulls and candy down a neighborhood that grows creepier with every house, all the way to the door of Thorn, Master of Mischief."
-    },
-    {
-      "appid": "1623730",
-      "name": "Palworld",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/6912f19c43a95ff5fe514eedd35e68bf12335459/header.jpg?t=1790336367",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Собирайте удивительных существ — Палов — на просторах огромного мира, отправляйте их сражаться и трудиться на фабриках, стройте с их помощью здания и выращивайте плантации в этом абсолютно новом симуляторе выживания в открытом мире, поддерживающем совместный режим."
-    },
-    {
-      "appid": "4985520",
-      "name": "Idle Vapor Legends",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4985520/cd8a864db73fe6797ff4dbb2ffe9f463b1b22da6/header.jpg?t=1791770380",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Ролевые игры",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "*Idle Vapor Legends* is an idle RPG focused on AFK combat and effortless loot collection."
-    },
-    {
-      "appid": "3836580",
-      "name": "Traitor",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3836580/1691bdfda9ff639b674c10a46565a873294343e8/header.jpg?t=1791759977",
-      "genres": [
-        "Экшены",
         "Казуальные игры",
         "Инди",
         "Стратегии"
@@ -679,30 +694,11 @@
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
-        "linux": false
+        "mac": true,
+        "linux": true
       },
       "metacritic": null,
-      "short_description": "Traitor — это многопользовательский социальный триллер, основанный на подозрениях и стратегии. Игроки берут на себя роли, завоевывают доверие, сотрудничают... пока кто-то не предаст их. Наблюдайте, допрашивайте, собирайте улики и раскройте настоящего убийцу."
-    },
-    {
-      "appid": "3932890",
-      "name": "Escape from Tarkov",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932890/d09430bbc790237c1de5071188cbc78dc44f0c71/header_alt_assets_2_russian.jpg?t=1785782094",
-      "genres": [
-        "Экшены",
-        "Многопользовательские игры",
-        "Ролевые игры",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Escape from Tarkov - хардкорный шутер, где каждый рейд - это игра со смертью. Готовься к рейдам, превозмогай и пробивайся сквозь беспощадных бойцов ЧВК и Диких, пользуйся тактическим преимуществом и забирай самый ценный лут. Ты либо выйдешь живым, либо потеряешь все."
+      "short_description": "Burn With Me — карточная игра с оккультными историями о сокровенных желаниях. Чтобы призвать Личного Демона, придётся освоить непривычные правила игры, сжечь много своих карт... и свою душу."
     }
   ]
 }

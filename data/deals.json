@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T18:45:13+03:00",
+  "updatedAt": "2026-10-13T02:05:24+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -23,16 +23,6 @@
       "steamAppId": "2138710"
     },
     {
-      "id": "steam-305620",
-      "title": "The Long Dark",
-      "store": "Steam",
-      "old": 799,
-      "neu": 199,
-      "pct": 75,
-      "url": "https://store.steampowered.com/app/305620/",
-      "steamAppId": "305620"
-    },
-    {
       "id": "steam-1808500",
       "title": "ARC Raiders",
       "store": "Steam",
@@ -41,6 +31,36 @@
       "pct": 50,
       "url": "https://store.steampowered.com/app/1808500/",
       "steamAppId": "1808500"
+    },
+    {
+      "id": "steam-3948510",
+      "title": "ARC Raiders - Upgrade to Deluxe Edition",
+      "store": "Steam",
+      "old": 1750,
+      "neu": 875,
+      "pct": 50,
+      "url": "https://store.steampowered.com/app/3948510/",
+      "steamAppId": "3948510"
+    },
+    {
+      "id": "steam-1332010",
+      "title": "Stray",
+      "store": "Steam",
+      "old": 1269,
+      "neu": 634,
+      "pct": 50,
+      "url": "https://store.steampowered.com/app/1332010/",
+      "steamAppId": "1332010"
+    },
+    {
+      "id": "steam-1614550",
+      "title": "Astro Colony",
+      "store": "Steam",
+      "old": 659,
+      "neu": 329,
+      "pct": 50,
+      "url": "https://store.steampowered.com/app/1614550/",
+      "steamAppId": "1614550"
     },
     {
       "id": "steam-105600",
@@ -53,16 +73,6 @@
       "steamAppId": "105600"
     },
     {
-      "id": "steam-5093640",
-      "title": "Slope Rivals",
-      "store": "Steam",
-      "old": 64,
-      "neu": 38,
-      "pct": 41,
-      "url": "https://store.steampowered.com/app/5093640/",
-      "steamAppId": "5093640"
-    },
-    {
       "id": "steam-1621690",
       "title": "Core Keeper",
       "store": "Steam",
@@ -73,24 +83,14 @@
       "steamAppId": "1621690"
     },
     {
-      "id": "steam-4609000",
-      "title": "A Special Day",
+      "id": "steam-5236690",
+      "title": "Heart of the Machine - Supporter Pack",
       "store": "Steam",
-      "old": 399,
-      "neu": 239,
+      "old": 299,
+      "neu": 179,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/4609000/",
-      "steamAppId": "4609000"
-    },
-    {
-      "id": "steam-5288280",
-      "title": "PHOBOS: Rescue",
-      "store": "Steam",
-      "old": 385,
-      "neu": 231,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5288280/",
-      "steamAppId": "5288280"
+      "url": "https://store.steampowered.com/app/5236690/",
+      "steamAppId": "5236690"
     },
     {
       "id": "steam-4656000",
@@ -103,44 +103,44 @@
       "steamAppId": "4656000"
     },
     {
-      "id": "steam-5318720",
-      "title": "Doodle Steel",
+      "id": "steam-1623730",
+      "title": "Palworld",
       "store": "Steam",
-      "old": 195,
-      "neu": 117,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5318720/",
-      "steamAppId": "5318720"
+      "old": 1100,
+      "neu": 770,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/1623730/",
+      "steamAppId": "1623730"
     },
     {
-      "id": "steam-5212280",
-      "title": "Not an NPC Game",
+      "id": "steam-5203370",
+      "title": "smoke.exe",
       "store": "Steam",
-      "old": 130,
-      "neu": 78,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5212280/",
-      "steamAppId": "5212280"
+      "old": 420,
+      "neu": 294,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5203370/",
+      "steamAppId": "5203370"
     },
     {
-      "id": "steam-3746950",
-      "title": "Life, the Universe, and Restaurants",
+      "id": "steam-5213150",
+      "title": "Cat Fiesta",
       "store": "Steam",
-      "old": 625,
-      "neu": 406,
-      "pct": 35,
-      "url": "https://store.steampowered.com/app/3746950/",
-      "steamAppId": "3746950"
+      "old": 416,
+      "neu": 291,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5213150/",
+      "steamAppId": "5213150"
     },
     {
-      "id": "steam-2954010",
-      "title": "Burn With Me",
+      "id": "steam-5124050",
+      "title": "Blocky Miner",
       "store": "Steam",
-      "old": 450,
-      "neu": 297,
-      "pct": 34,
-      "url": "https://store.steampowered.com/app/2954010/",
-      "steamAppId": "2954010"
+      "old": 360,
+      "neu": 252,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5124050/",
+      "steamAppId": "5124050"
     }
   ]
 }
