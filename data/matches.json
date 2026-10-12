@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-12T03:45:14+03:00",
+ "updatedAt": "2026-10-12T09:38:06+03:00",
  "source": "bo3.gg",
  "matches": [
   {
@@ -13,7 +13,7 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "DreamLeague Season 30: China Open Qualifier 2",
    "tier": "A",
    "startsAt": "2026-10-12T09:00:00+03:00",
@@ -31,7 +31,7 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 5,
-   "status": "upcoming",
+   "status": "live",
    "event": "Demacia Cup Global Invitational 2026",
    "tier": "S",
    "startsAt": "2026-10-12T09:00:00+03:00",
@@ -129,24 +129,6 @@
    "url": "https://bo3.gg/dota2/matches/nemiga-gaming-vs-oneoneone-12-10-2026"
   },
   {
-   "id": "bo3-131789",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Mena Warriors",
-   "teamB": "Dawn Bulls",
-   "logoA": "https://files.bo3.gg/uploads/team/25452/image/webp-e16864c07e9d2ef157c20e303259b5cc.webp",
-   "logoB": "",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "DreamLeague Season 30: Western Europe Open Qualifier 2",
-   "tier": "A",
-   "startsAt": "2026-10-12T17:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/mena-warriors-vs-dawn-bulls-12-10-2026"
-  },
-  {
    "id": "bo3-131790",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -163,6 +145,24 @@
    "startsAt": "2026-10-12T17:00:00+03:00",
    "streams": [],
    "url": "https://bo3.gg/dota2/matches/old-blood-vs-white-sails-12-10-2026"
+  },
+  {
+   "id": "bo3-131789",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Mena Warriors",
+   "teamB": "Dawn Bulls",
+   "logoA": "https://files.bo3.gg/uploads/team/25452/image/webp-e16864c07e9d2ef157c20e303259b5cc.webp",
+   "logoB": "",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "DreamLeague Season 30: Western Europe Open Qualifier 2",
+   "tier": "A",
+   "startsAt": "2026-10-12T17:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/dota2/matches/mena-warriors-vs-dawn-bulls-12-10-2026"
   },
   {
    "id": "bo3-131712",
@@ -1456,7 +1456,7 @@
    "prize": null,
    "start": "2026-10-12",
    "end": "2026-10-12",
-   "status": "upcoming",
+   "status": "current",
    "url": "https://bo3.gg/dota2/tournaments/dreamleague-season-30-china-open-qualifier-2"
   },
   {
