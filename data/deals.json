@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T02:45:46+03:00",
+  "updatedAt": "2026-10-12T09:11:29+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -93,6 +93,16 @@
       "steamAppId": "4130120"
     },
     {
+      "id": "steam-5239090",
+      "title": "Skulls and Sweets",
+      "store": "Steam",
+      "old": 465,
+      "neu": 302,
+      "pct": 35,
+      "url": "https://store.steampowered.com/app/5239090/",
+      "steamAppId": "5239090"
+    },
+    {
       "id": "steam-1623730",
       "title": "Palworld",
       "store": "Steam",
@@ -101,6 +111,16 @@
       "pct": 30,
       "url": "https://store.steampowered.com/app/1623730/",
       "steamAppId": "1623730"
+    },
+    {
+      "id": "steam-4985520",
+      "title": "Idle Vapor Legends",
+      "store": "Steam",
+      "old": 200,
+      "neu": 140,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/4985520/",
+      "steamAppId": "4985520"
     },
     {
       "id": "steam-3836580",
@@ -121,26 +141,6 @@
       "pct": 25,
       "url": "https://store.steampowered.com/app/3932890/",
       "steamAppId": "3932890"
-    },
-    {
-      "id": "steam-3883570",
-      "title": "Invokyr",
-      "store": "Steam",
-      "old": 590,
-      "neu": 442,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/3883570/",
-      "steamAppId": "3883570"
-    },
-    {
-      "id": "steam-3063690",
-      "title": "KYRO",
-      "store": "Steam",
-      "old": 460,
-      "neu": 345,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/3063690/",
-      "steamAppId": "3063690"
     }
   ]
 }

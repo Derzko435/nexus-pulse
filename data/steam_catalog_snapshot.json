@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T02:45:41+03:00",
+  "updatedAt": "2026-10-12T09:11:24+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -82,7 +82,7 @@
     {
       "appid": "1245620",
       "name": "ELDEN RING",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/f0b19c231f86fa0e633ff88a1a63459443017728/header_alt_assets_3.jpg?t=1790290043",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg?t=1790290043",
       "genres": [
         "Экшены",
         "Ролевые игры"
@@ -521,39 +521,6 @@
       "short_description": "ARC Raiders — многопользовательская игра жанра extraction adventure, действие которой разворачивается в суровом будущем на Земле, атакованной загадочными механическими захватчиками ARC."
     },
     {
-      "appid": "3948510",
-      "name": "ARC Raiders - Upgrade to Deluxe Edition",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948510/4b2bf21553e133eb88b5766370a1684acdc2d9d6/header.jpg?t=1761816660",
-      "genres": [
-        "Экшены"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Приобретите улучшение до ARC Raiders Deluxe Edition, чтобы получить: - Пакет Wanderer Cosmetic Pack, - Косметический предмет для персонажа «Шрам на губе», - Пиу-пиу Эмодзи, - Наряд «Плюшкина», - 2,400 рейдерских жетонов."
-    },
-    {
-      "appid": "1332010",
-      "name": "Stray",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/71daca1910d664d31240b9623a495e0c0828807f/header.jpg?t=1785424330",
-      "genres": [
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": 82,
-      "short_description": "Потерявшемуся, одинокому, оторванному от семьи бродячему коту предстоит разгадать древнюю тайну, вырваться из давно заброшенного кибергорода и найти дорогу домой."
-    },
-    {
       "appid": "105600",
       "name": "Terraria",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1769844435",
@@ -571,6 +538,24 @@
       },
       "metacritic": 83,
       "short_description": "Копайте, сражайтесь, исследуйте, стройте! Нет ничего невозможного в этой насыщенной событиями приключенческой игре. Также доступен комплект для четверых!"
+    },
+    {
+      "appid": "5131570",
+      "name": "Aim Like a Cat",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5131570/a8bda283ba59d7c6b9b4af116a26274d29e6258a/header.jpg?t=1791758395",
+      "genres": [
+        "Экшены",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Aim Like a Cat — офлайн-тренажёр для FPS. Упражнения развивают удержание углов, пре-эйм, зрительно-слуховую реакцию, внимание, многозадачность, память, поиск и сопровождение целей. Настраивайте цели, движение, оружие и флеш-сценарии; оценивайте время реакции, точность и время прохождения."
     },
     {
       "appid": "4656000",
@@ -644,6 +629,25 @@
       },
       "metacritic": null,
       "short_description": "Собирайте удивительных существ — Палов — на просторах огромного мира, отправляйте их сражаться и трудиться на фабриках, стройте с их помощью здания и выращивайте плантации в этом абсолютно новом симуляторе выживания в открытом мире, поддерживающем совместный режим."
+    },
+    {
+      "appid": "3836580",
+      "name": "Traitor",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3836580/1691bdfda9ff639b674c10a46565a873294343e8/header.jpg?t=1791759977",
+      "genres": [
+        "Экшены",
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Traitor — это многопользовательский социальный триллер, основанный на подозрениях и стратегии. Игроки берут на себя роли, завоевывают доверие, сотрудничают... пока кто-то не предаст их. Наблюдайте, допрашивайте, собирайте улики и раскройте настоящего убийцу."
     },
     {
       "appid": "3932890",
