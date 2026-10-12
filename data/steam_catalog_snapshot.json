@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T09:11:24+03:00",
+  "updatedAt": "2026-10-12T18:45:08+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -612,6 +612,23 @@
       "short_description": "COMBINE WEAPONS in the microscopic shooter with macroscopic depth. BUILD YOUR NANOBOT from hundreds of parts. SURVIVE the microbial onslaught once more in this psychedelic dive to the Abyss, full of mutations, minerals, anomalies and powerup polyps. SHMUP mode turns it into a vertical shoot 'em up!"
     },
     {
+      "appid": "5239090",
+      "name": "Skulls and Sweets",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5239090/c3a39d9bb8a06677d59018610d49476b558a91bf/header.jpg?t=1791762696",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A spooky-sweet match-3 with a dash of dark-fantasy romance. Play Sophia, a good witch determined to fill every trick-or-treat bag, as she matches skulls and candy down a neighborhood that grows creepier with every house, all the way to the door of Thorn, Master of Mischief."
+    },
+    {
       "appid": "1623730",
       "name": "Palworld",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/6912f19c43a95ff5fe514eedd35e68bf12335459/header.jpg?t=1790336367",
@@ -629,6 +646,25 @@
       },
       "metacritic": null,
       "short_description": "Собирайте удивительных существ — Палов — на просторах огромного мира, отправляйте их сражаться и трудиться на фабриках, стройте с их помощью здания и выращивайте плантации в этом абсолютно новом симуляторе выживания в открытом мире, поддерживающем совместный режим."
+    },
+    {
+      "appid": "4985520",
+      "name": "Idle Vapor Legends",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4985520/cd8a864db73fe6797ff4dbb2ffe9f463b1b22da6/header.jpg?t=1791770380",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Ролевые игры",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "*Idle Vapor Legends* is an idle RPG focused on AFK combat and effortless loot collection."
     },
     {
       "appid": "3836580",
@@ -667,45 +703,6 @@
       },
       "metacritic": null,
       "short_description": "Escape from Tarkov - хардкорный шутер, где каждый рейд - это игра со смертью. Готовься к рейдам, превозмогай и пробивайся сквозь беспощадных бойцов ЧВК и Диких, пользуйся тактическим преимуществом и забирай самый ценный лут. Ты либо выйдешь живым, либо потеряешь все."
-    },
-    {
-      "appid": "3883570",
-      "name": "Invokyr",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883570/a1d37fb2bf0de54d1746d1aa4b83fb7ca81700d8/header.jpg?t=1791547174",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы",
-        "Бесплатные",
-        "Ранний доступ"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Забытая настолка в проклятом доме так и манит сыграть. Собирайте до 5 друзей, бросайте кубики и выживайте среди оживших кошмаров мастера игры. Рискните всем, используйте особые кости и одолейте зловещую игру, чтобы сбежать."
-    },
-    {
-      "appid": "3063690",
-      "name": "KYRO",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3063690/94941f4dd9dfc4c74983d73307583e7f6d4a07d6/header.jpg?t=1791681242",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "KYRO is a top-down pixel art action-adventure. Play as Aiden, a boy with a trusty slingshot, exploring Ka'a on the edge of a black hole. Solve puzzles, uncover ruins, and help the people of Vila Carnaval face the apocalypse with laughter and party costumes!"
     }
   ]
 }

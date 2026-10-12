@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-12T09:11:29+03:00",
+  "updatedAt": "2026-10-12T18:45:13+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
       "id": "steam-1234430",
       "title": "Ad Infinitum",
       "store": "Steam",
-      "old": 1999,
-      "neu": 199,
+      "old": 1199,
+      "neu": 120,
       "pct": 90,
       "url": "https://store.steampowered.com/app/1234430/",
       "steamAppId": "1234430"
@@ -53,14 +53,44 @@
       "steamAppId": "105600"
     },
     {
-      "id": "steam-5131570",
-      "title": "Aim Like a Cat",
+      "id": "steam-5093640",
+      "title": "Slope Rivals",
+      "store": "Steam",
+      "old": 64,
+      "neu": 38,
+      "pct": 41,
+      "url": "https://store.steampowered.com/app/5093640/",
+      "steamAppId": "5093640"
+    },
+    {
+      "id": "steam-1621690",
+      "title": "Core Keeper",
+      "store": "Steam",
+      "old": 710,
+      "neu": 426,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/1621690/",
+      "steamAppId": "1621690"
+    },
+    {
+      "id": "steam-4609000",
+      "title": "A Special Day",
+      "store": "Steam",
+      "old": 399,
+      "neu": 239,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/4609000/",
+      "steamAppId": "4609000"
+    },
+    {
+      "id": "steam-5288280",
+      "title": "PHOBOS: Rescue",
       "store": "Steam",
       "old": 385,
       "neu": 231,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5131570/",
-      "steamAppId": "5131570"
+      "url": "https://store.steampowered.com/app/5288280/",
+      "steamAppId": "5288280"
     },
     {
       "id": "steam-4656000",
@@ -73,74 +103,44 @@
       "steamAppId": "4656000"
     },
     {
-      "id": "steam-5234230",
-      "title": "战国七雄",
+      "id": "steam-5318720",
+      "title": "Doodle Steel",
       "store": "Steam",
-      "old": 99,
-      "neu": 59,
+      "old": 195,
+      "neu": 117,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5234230/",
-      "steamAppId": "5234230"
+      "url": "https://store.steampowered.com/app/5318720/",
+      "steamAppId": "5318720"
     },
     {
-      "id": "steam-4130120",
-      "title": "Genome Guardian 2",
+      "id": "steam-5212280",
+      "title": "Not an NPC Game",
       "store": "Steam",
-      "old": 569,
-      "neu": 369,
+      "old": 130,
+      "neu": 78,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5212280/",
+      "steamAppId": "5212280"
+    },
+    {
+      "id": "steam-3746950",
+      "title": "Life, the Universe, and Restaurants",
+      "store": "Steam",
+      "old": 625,
+      "neu": 406,
       "pct": 35,
-      "url": "https://store.steampowered.com/app/4130120/",
-      "steamAppId": "4130120"
+      "url": "https://store.steampowered.com/app/3746950/",
+      "steamAppId": "3746950"
     },
     {
-      "id": "steam-5239090",
-      "title": "Skulls and Sweets",
+      "id": "steam-2954010",
+      "title": "Burn With Me",
       "store": "Steam",
-      "old": 465,
-      "neu": 302,
-      "pct": 35,
-      "url": "https://store.steampowered.com/app/5239090/",
-      "steamAppId": "5239090"
-    },
-    {
-      "id": "steam-1623730",
-      "title": "Palworld",
-      "store": "Steam",
-      "old": 1100,
-      "neu": 770,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/1623730/",
-      "steamAppId": "1623730"
-    },
-    {
-      "id": "steam-4985520",
-      "title": "Idle Vapor Legends",
-      "store": "Steam",
-      "old": 200,
-      "neu": 140,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/4985520/",
-      "steamAppId": "4985520"
-    },
-    {
-      "id": "steam-3836580",
-      "title": "Traitor",
-      "store": "Steam",
-      "old": 200,
-      "neu": 140,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/3836580/",
-      "steamAppId": "3836580"
-    },
-    {
-      "id": "steam-3932890",
-      "title": "Escape from Tarkov",
-      "store": "Steam",
-      "old": 1800,
-      "neu": 1350,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/3932890/",
-      "steamAppId": "3932890"
+      "old": 450,
+      "neu": 297,
+      "pct": 34,
+      "url": "https://store.steampowered.com/app/2954010/",
+      "steamAppId": "2954010"
     }
   ]
 }
