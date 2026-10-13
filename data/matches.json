@@ -1,124 +1,7 @@
 {
- "updatedAt": "2026-10-13T03:59:39+03:00",
+ "updatedAt": "2026-10-13T13:41:59+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-131834",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "New Growth",
-   "teamB": "Pizza Hook",
-   "logoA": "https://files.bo3.gg/uploads/team/22378/image/webp-f19bef281d476af3a056db368d9906c4.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/25466/image/webp-1f4f2a4108f6ae09c50b5919b6c00975.webp",
-   "scoreA": 1,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "DreamLeague Season 30: South America Open Qualifier 2",
-   "tier": "A",
-   "startsAt": "2026-10-13T00:15:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/new-growth-vs-pizza-hook-12-10-2026"
-  },
-  {
-   "id": "bo3-129920",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Maryville University",
-   "teamB": "Disguised",
-   "logoA": "https://files.bo3.gg/uploads/team/17077/image/webp-1443fc9372a43abeca3d806c3cbef0ea.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16807/image/webp-278887bb5c94629cadbc4b931bb6907c.webp",
-   "scoreA": 0,
-   "scoreB": 2,
-   "bo": 5,
-   "status": "live",
-   "event": "LCS 2027 Promotion Tournament",
-   "tier": "S",
-   "startsAt": "2026-10-13T02:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "riotgames",
-     "lang": "en",
-     "official": true,
-     "label": "riotgames",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/maryville-university-vs-disguised-lol-12-10-2026"
-  },
-  {
-   "id": "bo3-131896",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Yakult Brothers",
-   "teamB": "Zenith",
-   "logoA": "https://files.bo3.gg/uploads/team/18586/image/webp-567481429f4da97ec176389bf9844069.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/25435/image/webp-188dd08233adb827bf3468be19711807.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "DreamLeague Season 30: China Closed Qualifier",
-   "tier": "A",
-   "startsAt": "2026-10-13T07:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/yakutou-brothers-vs-zenith-cn-13-10-2026"
-  },
-  {
-   "id": "bo3-131897",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Team Resilience",
-   "teamB": "Imperial Power",
-   "logoA": "https://files.bo3.gg/uploads/team/23196/image/webp-782a48a1c8295170e0057a1b1ad46776.webp",
-   "logoB": "",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "DreamLeague Season 30: China Closed Qualifier",
-   "tier": "A",
-   "startsAt": "2026-10-13T07:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/team-resilience-vs-imperial-power-13-10-2026"
-  },
-  {
-   "id": "bo3-129975",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Team WE",
-   "teamB": "FlyQuest",
-   "logoA": "https://files.bo3.gg/uploads/team/17801/image/webp-0c5e150d9160c851916e2b4868d7696f.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/18027/image/webp-686a8de8c8e199f222ffadef01a7f585.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "upcoming",
-   "event": "Demacia Cup Global Invitational 2026",
-   "tier": "S",
-   "startsAt": "2026-10-13T09:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/lol/matches/team-we-vs-flyquest-lol-13-10-2026"
-  },
-  {
-   "id": "bo3-131899",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Resp Gaming",
-   "teamB": "The goal of all life is death",
-   "logoA": "",
-   "logoB": "",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "DreamLeague Season 30: China Closed Qualifier",
-   "tier": "A",
-   "startsAt": "2026-10-13T11:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/resp-gaming-vs-the-goal-of-all-life-is-death-13-10-2026"
-  },
   {
    "id": "bo3-131898",
    "game": "Dota 2",
@@ -127,14 +10,22 @@
    "teamB": "Cloud Dawning",
    "logoA": "https://files.bo3.gg/uploads/team/21656/image/webp-05c59aac8389e0307bc4ebbff7416748.webp",
    "logoB": "https://files.bo3.gg/uploads/team/21875/image/webp-7f1de9a6623f41c9e3356655e1167c88.webp",
-   "scoreA": 0,
+   "scoreA": 1,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "DreamLeague Season 30: China Closed Qualifier",
    "tier": "A",
-   "startsAt": "2026-10-13T11:00:00+03:00",
-   "streams": [],
+   "startsAt": "2026-10-13T11:10:00+03:00",
+   "streams": [
+    {
+     "type": "youtube",
+     "id": "JAuevn55J0E",
+     "lang": "en",
+     "official": false,
+     "label": "Yakult Brothers vs Zenith - DreamLeague Season 30 CN Closed Qualifiers - Stream "
+    }
+   ],
    "url": "https://bo3.gg/dota2/matches/cloud-rising-vs-cloud-dawning-13-10-2026"
   },
   {
@@ -145,14 +36,22 @@
    "teamB": "Kalmychata",
    "logoA": "https://files.bo3.gg/uploads/team/16486/image/webp-db8fb0a62365deefa26db24e4fb46f10.webp",
    "logoB": "https://files.bo3.gg/uploads/team/15089/image/webp-474b0a9cb600eadc06dbd35de537425a.webp",
-   "scoreA": 0,
+   "scoreA": 1,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "DreamLeague Season 30: Eastern Europe Closed Qualifier",
    "tier": "A",
    "startsAt": "2026-10-13T12:00:00+03:00",
-   "streams": [],
+   "streams": [
+    {
+     "type": "youtube",
+     "id": "FDefmo_KE4U",
+     "lang": "en",
+     "official": true,
+     "label": "Kalmychata vs Yellow Submarine - DreamLeague Season 30 EEU Closed Qualifiers - S"
+    }
+   ],
    "url": "https://bo3.gg/dota2/matches/yellow-submarine-vs-kalmychata-13-10-2026"
   },
   {
@@ -163,14 +62,29 @@
    "teamB": "Nemiga Gaming",
    "logoA": "https://files.bo3.gg/uploads/team/15098/image/webp-c19b8494eb3fbc8d84d25b8dab49b883.webp",
    "logoB": "https://files.bo3.gg/uploads/team/16398/image/webp-90e1f870359e4e1b66a83db6154b1bf8.webp",
-   "scoreA": 0,
+   "scoreA": 1,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "DreamLeague Season 30: Eastern Europe Closed Qualifier",
    "tier": "A",
    "startsAt": "2026-10-13T12:00:00+03:00",
-   "streams": [],
+   "streams": [
+    {
+     "type": "kick",
+     "channel": "esl_dota2earth",
+     "lang": "en",
+     "official": true,
+     "label": "esl_dota2earth"
+    },
+    {
+     "type": "youtube",
+     "id": "E3B6Zx4nLl4",
+     "lang": "en",
+     "official": false,
+     "label": "HULIGANI vs Nemiga - DreamLeague Season 30 EEU Closed Qualifiers - Stream A"
+    }
+   ],
    "url": "https://bo3.gg/dota2/matches/l1ga-team-vs-nemiga-gaming-13-10-2026"
   },
   {
@@ -187,9 +101,49 @@
    "status": "upcoming",
    "event": "Demacia Cup Global Invitational 2026",
    "tier": "S",
-   "startsAt": "2026-10-13T12:00:00+03:00",
-   "streams": [],
+   "startsAt": "2026-10-13T13:50:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "makariagaming",
+     "lang": "hu",
+     "official": true,
+     "label": "makariagaming"
+    },
+    {
+     "type": "twitch",
+     "channel": "nervarien",
+     "lang": "pl",
+     "official": true,
+     "label": "nervarien"
+    },
+    {
+     "type": "twitch",
+     "channel": "lplenglish",
+     "lang": "en",
+     "official": false,
+     "label": "lplenglish"
+    }
+   ],
    "url": "https://bo3.gg/lol/matches/hanjin-brion-vs-lgd-gaming-lol-13-10-2026"
+  },
+  {
+   "id": "bo3-131901",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Team Resilience",
+   "teamB": "Yakult Brothers",
+   "logoA": "https://files.bo3.gg/uploads/team/23196/image/webp-782a48a1c8295170e0057a1b1ad46776.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/18586/image/webp-567481429f4da97ec176389bf9844069.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "DreamLeague Season 30: China Closed Qualifier",
+   "tier": "A",
+   "startsAt": "2026-10-13T15:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/dota2/matches/team-resilience-vs-yakutou-brothers-13-10-2026"
   },
   {
    "id": "bo3-131563",
@@ -210,24 +164,6 @@
    "url": "https://bo3.gg/lol/matches/nothinhere-vs-essences-13-10-2026"
   },
   {
-   "id": "bo3-131720",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Power Rangers",
-   "teamB": "The Warriors",
-   "logoA": "https://files.bo3.gg/uploads/team/16653/image/webp-7a3038132e882126990e4bb43ef0f5d2.webp",
-   "logoB": "",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "DreamLeague Season 30: Eastern Europe Closed Qualifier",
-   "tier": "A",
-   "startsAt": "2026-10-13T16:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/power-rangers-dota2-vs-the-warriors-13-10-2026"
-  },
-  {
    "id": "bo3-131719",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -244,6 +180,24 @@
    "startsAt": "2026-10-13T16:00:00+03:00",
    "streams": [],
    "url": "https://bo3.gg/dota2/matches/cyberhero-vs-shadow-dance-13-10-2026"
+  },
+  {
+   "id": "bo3-131720",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Power Rangers",
+   "teamB": "The Warriors",
+   "logoA": "https://files.bo3.gg/uploads/team/16653/image/webp-7a3038132e882126990e4bb43ef0f5d2.webp",
+   "logoB": "",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "DreamLeague Season 30: Eastern Europe Closed Qualifier",
+   "tier": "A",
+   "startsAt": "2026-10-13T16:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/dota2/matches/power-rangers-dota2-vs-the-warriors-13-10-2026"
   },
   {
    "id": "bo3-130166",
@@ -273,6 +227,24 @@
    "url": "https://bo3.gg/lol/matches/movistar-koi-fenix-vs-galions-13-10-2026"
   },
   {
+   "id": "bo3-131732",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Pibbles Corp",
+   "teamB": "New Growth",
+   "logoA": "https://files.bo3.gg/uploads/team/25327/image/webp-0d8c5732d2907669f2d69e0364e102cf.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/22378/image/webp-f19bef281d476af3a056db368d9906c4.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "DreamLeague Season 30: South America Closed Qualifier",
+   "tier": "A",
+   "startsAt": "2026-10-13T20:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/dota2/matches/pibbles-corp-vs-new-growth-13-10-2026"
+  },
+  {
    "id": "bo3-131731",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -289,6 +261,42 @@
    "startsAt": "2026-10-13T20:00:00+03:00",
    "streams": [],
    "url": "https://bo3.gg/dota2/matches/playtime-vs-hokori-13-10-2026"
+  },
+  {
+   "id": "bo3-131733",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Chandogs",
+   "teamB": "Skyreavers",
+   "logoA": "https://files.bo3.gg/uploads/team/15205/image/webp-213c15ff25e91b8439971502768bcf20.webp",
+   "logoB": "",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "DreamLeague Season 30: South America Closed Qualifier",
+   "tier": "A",
+   "startsAt": "2026-10-14T00:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/dota2/matches/chandogs-vs-skyreavers-13-10-2026"
+  },
+  {
+   "id": "bo3-131734",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Amaru Gaming",
+   "teamB": "Rottweilas Latam",
+   "logoA": "https://files.bo3.gg/uploads/team/22157/image/webp-5644cfd0bdae31ac0ef171daed05cbd2.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/22288/image/webp-2288e75485be15d5c602fae3ec308b55.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "DreamLeague Season 30: South America Closed Qualifier",
+   "tier": "A",
+   "startsAt": "2026-10-14T00:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/dota2/matches/amaru-gaming-vs-rottweilas-latam-13-10-2026"
   },
   {
    "id": "bo3-131666",
@@ -548,6 +556,176 @@
    "url": "https://bo3.gg/valorant/matches/100-thieves-1-vs-g2-esports-16-10-2026"
   },
   {
+   "id": "bo3-131899",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Resp Gaming",
+   "teamB": "The goal of all life is death",
+   "logoA": "",
+   "logoB": "",
+   "scoreA": 2,
+   "scoreB": 1,
+   "bo": 3,
+   "status": "finished",
+   "event": "DreamLeague Season 30: China Closed Qualifier",
+   "tier": "A",
+   "startsAt": "2026-10-13T11:00:00+03:00",
+   "streams": [
+    {
+     "type": "youtube",
+     "id": "TBC_etIwYZw",
+     "lang": "en",
+     "official": true,
+     "label": "Team Resilience vs imperial power - DreamLeague Season 30 CN Closed Qualifiers -"
+    },
+    {
+     "type": "kick",
+     "channel": "alowxc",
+     "lang": "tl",
+     "official": false,
+     "label": "alowxc"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/resp-gaming-vs-the-goal-of-all-life-is-death-13-10-2026"
+  },
+  {
+   "id": "bo3-129975",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Team WE",
+   "teamB": "FlyQuest",
+   "logoA": "https://files.bo3.gg/uploads/team/17801/image/webp-0c5e150d9160c851916e2b4868d7696f.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/18027/image/webp-686a8de8c8e199f222ffadef01a7f585.webp",
+   "scoreA": 3,
+   "scoreB": 2,
+   "bo": 5,
+   "status": "finished",
+   "event": "Demacia Cup Global Invitational 2026",
+   "tier": "S",
+   "startsAt": "2026-10-13T09:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "makariagaming",
+     "lang": "hu",
+     "official": true,
+     "label": "makariagaming"
+    },
+    {
+     "type": "twitch",
+     "channel": "nervarien",
+     "lang": "pl",
+     "official": true,
+     "label": "nervarien"
+    },
+    {
+     "type": "twitch",
+     "channel": "lplenglish",
+     "lang": "en",
+     "official": false,
+     "label": "lplenglish"
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/team-we-vs-flyquest-lol-13-10-2026"
+  },
+  {
+   "id": "bo3-131896",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Yakult Brothers",
+   "teamB": "Zenith",
+   "logoA": "https://files.bo3.gg/uploads/team/18586/image/webp-567481429f4da97ec176389bf9844069.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/25435/image/webp-188dd08233adb827bf3468be19711807.webp",
+   "scoreA": 2,
+   "scoreB": 1,
+   "bo": 3,
+   "status": "finished",
+   "event": "DreamLeague Season 30: China Closed Qualifier",
+   "tier": "A",
+   "startsAt": "2026-10-13T07:00:00+03:00",
+   "streams": [
+    {
+     "type": "youtube",
+     "id": "JAuevn55J0E",
+     "lang": "en",
+     "official": false,
+     "label": "Yakult Brothers vs Zenith - DreamLeague Season 30 CN Closed Qualifiers - Stream "
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/yakutou-brothers-vs-zenith-cn-13-10-2026"
+  },
+  {
+   "id": "bo3-131897",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Team Resilience",
+   "teamB": "Imperial Power",
+   "logoA": "https://files.bo3.gg/uploads/team/23196/image/webp-782a48a1c8295170e0057a1b1ad46776.webp",
+   "logoB": "",
+   "scoreA": 2,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "finished",
+   "event": "DreamLeague Season 30: China Closed Qualifier",
+   "tier": "A",
+   "startsAt": "2026-10-13T07:00:00+03:00",
+   "streams": [
+    {
+     "type": "youtube",
+     "id": "TBC_etIwYZw",
+     "lang": "en",
+     "official": true,
+     "label": "Team Resilience vs imperial power - DreamLeague Season 30 CN Closed Qualifiers -"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/team-resilience-vs-imperial-power-13-10-2026"
+  },
+  {
+   "id": "bo3-129920",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Maryville University",
+   "teamB": "Disguised",
+   "logoA": "https://files.bo3.gg/uploads/team/17077/image/webp-1443fc9372a43abeca3d806c3cbef0ea.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16807/image/webp-278887bb5c94629cadbc4b931bb6907c.webp",
+   "scoreA": 0,
+   "scoreB": 3,
+   "bo": 5,
+   "status": "finished",
+   "event": "LCS 2027 Promotion Tournament",
+   "tier": "S",
+   "startsAt": "2026-10-13T02:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "riotgames",
+     "lang": "en",
+     "official": true,
+     "label": "riotgames",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/maryville-university-vs-disguised-lol-12-10-2026"
+  },
+  {
+   "id": "bo3-131834",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "New Growth",
+   "teamB": "Pizza Hook",
+   "logoA": "https://files.bo3.gg/uploads/team/22378/image/webp-f19bef281d476af3a056db368d9906c4.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/25466/image/webp-1f4f2a4108f6ae09c50b5919b6c00975.webp",
+   "scoreA": 2,
+   "scoreB": 1,
+   "bo": 3,
+   "status": "finished",
+   "event": "DreamLeague Season 30: South America Open Qualifier 2",
+   "tier": "A",
+   "startsAt": "2026-10-13T00:15:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/dota2/matches/new-growth-vs-pizza-hook-12-10-2026"
+  },
+  {
    "id": "bo3-131835",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -692,188 +870,6 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/sk-gaming-avarosa-vs-blue-otter-emea-12-10-2026"
-  },
-  {
-   "id": "bo3-131790",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "old blood",
-   "teamB": "White Sails",
-   "logoA": "",
-   "logoB": "",
-   "scoreA": 0,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "DreamLeague Season 30: Western Europe Open Qualifier 2",
-   "tier": "A",
-   "startsAt": "2026-10-12T17:10:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/old-blood-vs-white-sails-12-10-2026"
-  },
-  {
-   "id": "bo3-131789",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Mena Warriors",
-   "teamB": "Dawn Bulls",
-   "logoA": "https://files.bo3.gg/uploads/team/25452/image/webp-e16864c07e9d2ef157c20e303259b5cc.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/25301/image/webp-1ee55fb4a6cc5b66498fe0efbc628b51.webp",
-   "scoreA": 0,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "DreamLeague Season 30: Western Europe Open Qualifier 2",
-   "tier": "A",
-   "startsAt": "2026-10-12T17:10:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/mena-warriors-vs-dawn-bulls-12-10-2026"
-  },
-  {
-   "id": "bo3-131788",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Nemiga Gaming",
-   "teamB": "salamit",
-   "logoA": "https://files.bo3.gg/uploads/team/16398/image/webp-90e1f870359e4e1b66a83db6154b1bf8.webp",
-   "logoB": "",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "DreamLeague Season 30: Eastern Europe Open Qualifier 2",
-   "tier": "A",
-   "startsAt": "2026-10-12T16:10:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "cispapa",
-     "lang": "ru",
-     "official": true,
-     "label": "cispapa"
-    },
-    {
-     "type": "twitch",
-     "channel": "pro_cast2",
-     "lang": "ru",
-     "official": true,
-     "label": "pro_cast2"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/nemiga-gaming-vs-salamit-12-10-2026"
-  },
-  {
-   "id": "bo3-131562",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "West Point Esports Philippines",
-   "teamB": "essences",
-   "logoA": "https://files.bo3.gg/uploads/team/17180/image/webp-126fd7edeb01ae5fbaa5cc1d17f3fb94.webp",
-   "logoB": "",
-   "scoreA": 2,
-   "scoreB": 3,
-   "bo": 5,
-   "status": "finished",
-   "event": "LCP 2027 Promotion - Wild Card Playoffs",
-   "tier": "A",
-   "startsAt": "2026-10-12T15:15:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "haewonismo",
-     "lang": "es",
-     "official": true,
-     "label": "haewonismo"
-    },
-    {
-     "type": "twitch",
-     "channel": "leagueoflegendsth",
-     "lang": "en",
-     "official": false,
-     "label": "leagueoflegendsth"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/west-point-esports-ph-vs-essences-12-10-2026"
-  },
-  {
-   "id": "bo3-129973",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "BNK FEARX",
-   "teamB": "JD Gaming",
-   "logoA": "https://files.bo3.gg/uploads/team/18335/image/webp-f44a8f9018d2af4430f5a3a75dfd2680.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/18021/image/webp-91801592d51003c3db8f16894500c02d.webp",
-   "scoreA": 3,
-   "scoreB": 2,
-   "bo": 5,
-   "status": "finished",
-   "event": "Demacia Cup Global Invitational 2026",
-   "tier": "S",
-   "startsAt": "2026-10-12T13:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "otplol_",
-     "lang": "fr",
-     "official": true,
-     "label": "otplol_"
-    },
-    {
-     "type": "twitch",
-     "channel": "tl_nero",
-     "lang": "el",
-     "official": true,
-     "label": "tl_nero"
-    },
-    {
-     "type": "twitch",
-     "channel": "nervarien",
-     "lang": "pl",
-     "official": true,
-     "label": "nervarien"
-    },
-    {
-     "type": "twitch",
-     "channel": "starky",
-     "lang": "ru",
-     "official": false,
-     "label": "starky"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/fearx-lol-vs-jd-gaming-lol-12-10-2026"
-  },
-  {
-   "id": "bo3-131709",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Ivory",
-   "teamB": "Team Nemesis Academy",
-   "logoA": "https://files.bo3.gg/uploads/team/18393/image/webp-aec87b9829de69bbad1eb450a80ed477.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/25474/image/webp-caddf7685b043bbc2414e908ed490c34.webp",
-   "scoreA": 2,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "finished",
-   "event": "DreamLeague Season 30: Southeast Asia Open Qualifier 2",
-   "tier": "A",
-   "startsAt": "2026-10-12T11:25:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "bolt_ru",
-     "lang": "ru",
-     "official": true,
-     "label": "bolt_ru"
-    },
-    {
-     "type": "twitch",
-     "channel": "pro_cast2",
-     "lang": "ru",
-     "official": true,
-     "label": "pro_cast2"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/ivory-vs-team-nemesis-academy-12-10-2026"
   },
   {
    "id": "bo3-130754",
@@ -1370,17 +1366,6 @@
    "url": "https://bo3.gg/valorant/tournaments/valorant-champions-2026"
   },
   {
-   "name": "CBLOL 2027 Promotion Tournament",
-   "game": "LoL",
-   "gameKey": "lol",
-   "tier": "S",
-   "prize": null,
-   "start": "2026-09-28",
-   "end": "2026-10-14",
-   "status": "current",
-   "url": "https://bo3.gg/lol/tournaments/cblol-2027-promotion-tournament"
-  },
-  {
    "name": "Demacia Cup Global Invitational 2026",
    "game": "LoL",
    "gameKey": "lol",
@@ -1390,17 +1375,6 @@
    "end": "2026-10-17",
    "status": "current",
    "url": "https://bo3.gg/lol/tournaments/demacia-cup-global-invitational-2026"
-  },
-  {
-   "name": "LCS 2027 Promotion Tournament",
-   "game": "LoL",
-   "gameKey": "lol",
-   "tier": "S",
-   "prize": null,
-   "start": "2026-10-05",
-   "end": "2026-10-13",
-   "status": "current",
-   "url": "https://bo3.gg/lol/tournaments/lcs-2027-promotion-tournament"
   },
   {
    "name": "LCP 2027 Promotion - Wild Card Playoffs",
@@ -1414,17 +1388,6 @@
    "url": "https://bo3.gg/lol/tournaments/lcp-2027-promotion-wild-card-playoffs"
   },
   {
-   "name": "DreamLeague Season 30: South America Open Qualifier 2",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "tier": "A",
-   "prize": null,
-   "start": "2026-10-12",
-   "end": "2026-10-13",
-   "status": "finished",
-   "url": "https://bo3.gg/dota2/tournaments/dreamleague-season-30-south-america-open-qualifier-2"
-  },
-  {
    "name": "DreamLeague Season 30: China Closed Qualifier",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -1432,7 +1395,7 @@
    "prize": null,
    "start": "2026-10-13",
    "end": "2026-10-15",
-   "status": "upcoming",
+   "status": "current",
    "url": "https://bo3.gg/dota2/tournaments/dreamleague-season-30-china-closed-qualifier"
   },
   {
@@ -1443,7 +1406,7 @@
    "prize": null,
    "start": "2026-10-13",
    "end": "2026-10-15",
-   "status": "upcoming",
+   "status": "current",
    "url": "https://bo3.gg/dota2/tournaments/dreamleague-season-30-eastern-europe-closed-qualifier"
   },
   {
@@ -1522,6 +1485,39 @@
    "end": "2026-11-09",
    "status": "upcoming",
    "url": "https://bo3.gg/tournaments/intel-extreme-masters-beijing-2026"
+  },
+  {
+   "name": "BLAST Rivals Fall 2026",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "tier": "S",
+   "prize": 1000000,
+   "start": "2026-11-11",
+   "end": "2026-11-16",
+   "status": "upcoming",
+   "url": "https://bo3.gg/tournaments/blast-rivals-fall-2026"
+  },
+  {
+   "name": "BLAST Slam IX",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "tier": "S",
+   "prize": null,
+   "start": "2026-11-17",
+   "end": "2026-11-29",
+   "status": "upcoming",
+   "url": "https://bo3.gg/dota2/tournaments/blast-slam-ix"
+  },
+  {
+   "name": "PGL Major Singapore 2026",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "tier": "S",
+   "prize": 1250000,
+   "start": "2026-11-25",
+   "end": "2026-12-14",
+   "status": "upcoming",
+   "url": "https://bo3.gg/tournaments/pgl-major-singapore-2026"
   }
  ]
 }
