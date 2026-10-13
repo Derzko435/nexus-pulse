@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-10-13T09:54:50+03:00",
+  "updatedAt": "2026-10-13T19:07:47+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
-      "id": "steam-2138710",
-      "title": "Sifu",
+      "id": "steam-4708650",
+      "title": "Blockmind",
       "store": "Steam",
-      "old": 1199,
-      "neu": 299,
-      "pct": 75,
-      "url": "https://store.steampowered.com/app/2138710/",
-      "steamAppId": "2138710"
+      "old": 160,
+      "neu": 56,
+      "pct": 65,
+      "url": "https://store.steampowered.com/app/4708650/",
+      "steamAppId": "4708650"
     },
     {
       "id": "steam-1808500",
@@ -43,6 +43,16 @@
       "steamAppId": "1332010"
     },
     {
+      "id": "steam-1313140",
+      "title": "Cult of the Lamb",
+      "store": "Steam",
+      "old": 699,
+      "neu": 349,
+      "pct": 50,
+      "url": "https://store.steampowered.com/app/1313140/",
+      "steamAppId": "1313140"
+    },
+    {
       "id": "steam-1614550",
       "title": "Astro Colony",
       "store": "Steam",
@@ -63,6 +73,16 @@
       "steamAppId": "105600"
     },
     {
+      "id": "steam-5328770",
+      "title": "Soul Saver",
+      "store": "Steam",
+      "old": 115,
+      "neu": 68,
+      "pct": 41,
+      "url": "https://store.steampowered.com/app/5328770/",
+      "steamAppId": "5328770"
+    },
+    {
       "id": "steam-1621690",
       "title": "Core Keeper",
       "store": "Steam",
@@ -71,16 +91,6 @@
       "pct": 40,
       "url": "https://store.steampowered.com/app/1621690/",
       "steamAppId": "1621690"
-    },
-    {
-      "id": "steam-5178250",
-      "title": "Полные дипломатические отношения",
-      "store": "Steam",
-      "old": 335,
-      "neu": 201,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5178250/",
-      "steamAppId": "5178250"
     },
     {
       "id": "steam-4656000",
@@ -93,46 +103,6 @@
       "steamAppId": "4656000"
     },
     {
-      "id": "steam-1363080",
-      "title": "Manor Lords",
-      "store": "Steam",
-      "old": 1499,
-      "neu": 974,
-      "pct": 35,
-      "url": "https://store.steampowered.com/app/1363080/",
-      "steamAppId": "1363080"
-    },
-    {
-      "id": "steam-4532550",
-      "title": "守护我的大火箭",
-      "store": "Steam",
-      "old": 465,
-      "neu": 302,
-      "pct": 35,
-      "url": "https://store.steampowered.com/app/4532550/",
-      "steamAppId": "4532550"
-    },
-    {
-      "id": "steam-4983560",
-      "title": "Knightime",
-      "store": "Steam",
-      "old": 335,
-      "neu": 217,
-      "pct": 35,
-      "url": "https://store.steampowered.com/app/4983560/",
-      "steamAppId": "4983560"
-    },
-    {
-      "id": "steam-5287760",
-      "title": "Karmic Wonders",
-      "store": "Steam",
-      "old": 150,
-      "neu": 100,
-      "pct": 33,
-      "url": "https://store.steampowered.com/app/5287760/",
-      "steamAppId": "5287760"
-    },
-    {
       "id": "steam-1623730",
       "title": "Palworld",
       "store": "Steam",
@@ -141,6 +111,36 @@
       "pct": 30,
       "url": "https://store.steampowered.com/app/1623730/",
       "steamAppId": "1623730"
+    },
+    {
+      "id": "steam-4772880",
+      "title": "Loanwords: A Multilingual Library",
+      "store": "Steam",
+      "old": 660,
+      "neu": 462,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/4772880/",
+      "steamAppId": "4772880"
+    },
+    {
+      "id": "steam-5179800",
+      "title": "Cone & Crest",
+      "store": "Steam",
+      "old": 445,
+      "neu": 311,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5179800/",
+      "steamAppId": "5179800"
+    },
+    {
+      "id": "steam-4853590",
+      "title": "CORRUPT.EXE",
+      "store": "Steam",
+      "old": 240,
+      "neu": 168,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/4853590/",
+      "steamAppId": "4853590"
     }
   ]
 }

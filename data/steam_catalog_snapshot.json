@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T09:54:45+03:00",
+  "updatedAt": "2026-10-13T19:07:42+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -63,7 +63,7 @@
     {
       "appid": "1172470",
       "name": "Apex Legends™",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/60fcaedb88ccf94df30281533d828b86c6ffb9b6/header_alt_assets_5.jpg?t=1790164440",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/6cf04767652d703b6050da84b82cfb1194258d7d/header.jpg?t=1790164440",
       "genres": [
         "Экшены",
         "Приключенческие игры",
@@ -452,23 +452,6 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "1234430",
-      "name": "Ad Infinitum",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1234430/header.jpg?t=1778169586",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": 68,
-      "short_description": "Когда реальность становится кошмаром, кошмары становятся реальностью. В этом психологическом хорроре вам предстоит сразиться с чудовищами, которые поселились в вашем сознании. Сможете ли вы сохранить рассудок?"
-    },
-    {
       "appid": "2138710",
       "name": "Sifu",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138710/header.jpg?t=1782742326",
@@ -537,7 +520,7 @@
     {
       "appid": "1614550",
       "name": "Astro Colony",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1614550/a903c2d1d88e1ece56790228f5151a44586305a0/header.jpg?t=1791829964",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1614550/a903c2d1d88e1ece56790228f5151a44586305a0/header.jpg?t=1791879094",
       "genres": [
         "Экшены",
         "Приключенческие игры",
@@ -595,22 +578,21 @@
       "short_description": "Исследуйте бескрайнее подземелье, полное существ, реликвий и ресурсов в приключенческой песочнице. Добывайте ресурсы, сражайтесь, изготавливайте предметы, выращивайте еду в одиночку или в компании до 8 игроков и раскройте тайну древнего Ядра."
     },
     {
-      "appid": "5236690",
-      "name": "Heart of the Machine - Supporter Pack",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5236690/6d1e562cbea87e1a9ccd40e53edb847bcfa33c77/header.jpg?t=1791824125",
+      "appid": "5178250",
+      "name": "Полные дипломатические отношения",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5178250/e69ea49dd4ad469748b2a71891aa6e8d7bb2fd06/header_russian.jpg?t=1791828793",
       "genres": [
-        "Ролевые игры",
-        "Симуляторы",
-        "Стратегии"
+        "Приключенческие игры",
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": true,
-        "linux": false
+        "linux": true
       },
       "metacritic": null,
-      "short_description": "Heart of the Machine Supporter Pack включает официальный саундтрек к игре и набор обоев в разрешении 4K."
+      "short_description": "За одиннадцать недель откройте вновь разграбленную миссию и узнайте, какую цену прошлое требует до сих пор. Выберите одну из трех романтических линий, каждая из которых развивается под особым давлением, со своими ставками и последствиями."
     },
     {
       "appid": "4656000",
@@ -630,6 +612,78 @@
       "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
     },
     {
+      "appid": "1363080",
+      "name": "Manor Lords",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1363080/header.jpg?t=1791279229",
+      "genres": [
+        "Симуляторы",
+        "Стратегии",
+        "Ранний доступ"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Manor Lords — средневековая градостроительная стратегия с масштабными битвами и развитыми системами экономики и общественной жизни. Управляйте землями в мире, где меняется не только погода, но и сезоны, а города растут и приходят в упадок."
+    },
+    {
+      "appid": "4532550",
+      "name": "守护我的大火箭",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4532550/e7bc947f57f2c02f37fd6733def69bfc338745bc/header.jpg?t=1791856871",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Человечество пало, и миром правят куры! В этом шутере с вылазками, крафтом и башнями играйте за петуха: лутайтесь, укрепляйте базу, отбивайте орды и запустите ракету! Кхм... или устройте дикую вечеринку ради той выжившей девчонки!"
+    },
+    {
+      "appid": "4983560",
+      "name": "Knightime",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4983560/6bae652b6dd29fcbddb7ebf89bf6df21a7979b97/header.jpg?t=1791846027",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Time is ticking! Survive medieval hordes in this low-poly action rogue-lite bullet heaven. Unlock an army of 27 unique knights bound to their elemental weaponry, master geometric spirals, and break the game before the 15-minute clock runs out. Can you claim a seat at the Hexagonal Table?"
+    },
+    {
+      "appid": "5287760",
+      "name": "Karmic Wonders",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5287760/ab5903f907f912b71ddd96de0c837bb24886f833/header.jpg?t=1791847872",
+      "genres": [
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Tap a wooden fish to summon chests. Open them, appraise curious finds, upgrade your workshop, and unlock automatic mallets. Grow your collection, shape a talent path, and carry lasting progress into each new run."
+    },
+    {
       "appid": "1623730",
       "name": "Palworld",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/6912f19c43a95ff5fe514eedd35e68bf12335459/header.jpg?t=1790336367",
@@ -647,60 +701,6 @@
       },
       "metacritic": null,
       "short_description": "Собирайте удивительных существ — Палов — на просторах огромного мира, отправляйте их сражаться и трудиться на фабриках, стройте с их помощью здания и выращивайте плантации в этом абсолютно новом симуляторе выживания в открытом мире, поддерживающем совместный режим."
-    },
-    {
-      "appid": "5203370",
-      "name": "smoke.exe",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5203370/3fa1001cb7bf00253d9a39b6b1ad00a499ce5622/header.jpg?t=1791817275",
-      "genres": [
-        "Инди",
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "One cigarette is all the time you get to break in. Lay out nodes, wire them into an auto-hacking routine, then light it and let it run. A cyber-noir roguelite about how deep you can get before the smoke runs out."
-    },
-    {
-      "appid": "5213150",
-      "name": "Cat Fiesta",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5213150/6f88c1dffa6d992f3a2cfac8224998a2afddffb4/header.jpg?t=1791817330",
-      "genres": [
-        "Экшены",
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Онлайн prop hunt. Прячущиеся превращаются в любой предмет, который видят - ящик, леденец - и побеждают, собрав всю рыбу на карте. Подвох: у маскировки есть глаза. Они моргают в случайный момент, который не остановить, и моргание видно и слышно. У охотников есть оружие."
-    },
-    {
-      "appid": "5124050",
-      "name": "Blocky Miner",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5124050/8a632604a04bc8894392e7d2ece8a13b2bb17eee/header.jpg?t=1791830158",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Blocky Miner — это расслабляющая инкрементальная игра о добыче ресурсов, где каждое вращение уводит вас всё глубже. Добывайте ценные ресурсы, улучшайте навыки, открывайте новые миры и находите мощные предметы, спутников, секреты и множество других сюрпризов!"
     }
   ]
 }
