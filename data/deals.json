@@ -1,17 +1,7 @@
 {
-  "updatedAt": "2026-10-13T02:05:24+03:00",
+  "updatedAt": "2026-10-13T09:54:50+03:00",
   "source": "steam-specials-ru",
   "deals": [
-    {
-      "id": "steam-1234430",
-      "title": "Ad Infinitum",
-      "store": "Steam",
-      "old": 1199,
-      "neu": 120,
-      "pct": 90,
-      "url": "https://store.steampowered.com/app/1234430/",
-      "steamAppId": "1234430"
-    },
     {
       "id": "steam-2138710",
       "title": "Sifu",
@@ -83,14 +73,14 @@
       "steamAppId": "1621690"
     },
     {
-      "id": "steam-5236690",
-      "title": "Heart of the Machine - Supporter Pack",
+      "id": "steam-5178250",
+      "title": "Полные дипломатические отношения",
       "store": "Steam",
-      "old": 299,
-      "neu": 179,
+      "old": 335,
+      "neu": 201,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5236690/",
-      "steamAppId": "5236690"
+      "url": "https://store.steampowered.com/app/5178250/",
+      "steamAppId": "5178250"
     },
     {
       "id": "steam-4656000",
@@ -103,6 +93,46 @@
       "steamAppId": "4656000"
     },
     {
+      "id": "steam-1363080",
+      "title": "Manor Lords",
+      "store": "Steam",
+      "old": 1499,
+      "neu": 974,
+      "pct": 35,
+      "url": "https://store.steampowered.com/app/1363080/",
+      "steamAppId": "1363080"
+    },
+    {
+      "id": "steam-4532550",
+      "title": "守护我的大火箭",
+      "store": "Steam",
+      "old": 465,
+      "neu": 302,
+      "pct": 35,
+      "url": "https://store.steampowered.com/app/4532550/",
+      "steamAppId": "4532550"
+    },
+    {
+      "id": "steam-4983560",
+      "title": "Knightime",
+      "store": "Steam",
+      "old": 335,
+      "neu": 217,
+      "pct": 35,
+      "url": "https://store.steampowered.com/app/4983560/",
+      "steamAppId": "4983560"
+    },
+    {
+      "id": "steam-5287760",
+      "title": "Karmic Wonders",
+      "store": "Steam",
+      "old": 150,
+      "neu": 100,
+      "pct": 33,
+      "url": "https://store.steampowered.com/app/5287760/",
+      "steamAppId": "5287760"
+    },
+    {
       "id": "steam-1623730",
       "title": "Palworld",
       "store": "Steam",
@@ -111,36 +141,6 @@
       "pct": 30,
       "url": "https://store.steampowered.com/app/1623730/",
       "steamAppId": "1623730"
-    },
-    {
-      "id": "steam-5203370",
-      "title": "smoke.exe",
-      "store": "Steam",
-      "old": 420,
-      "neu": 294,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/5203370/",
-      "steamAppId": "5203370"
-    },
-    {
-      "id": "steam-5213150",
-      "title": "Cat Fiesta",
-      "store": "Steam",
-      "old": 416,
-      "neu": 291,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/5213150/",
-      "steamAppId": "5213150"
-    },
-    {
-      "id": "steam-5124050",
-      "title": "Blocky Miner",
-      "store": "Steam",
-      "old": 360,
-      "neu": 252,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/5124050/",
-      "steamAppId": "5124050"
     }
   ]
 }
