@@ -1,7 +1,17 @@
 {
-  "updatedAt": "2026-10-13T19:07:47+03:00",
+  "updatedAt": "2026-10-14T00:21:30+03:00",
   "source": "steam-specials-ru",
   "deals": [
+    {
+      "id": "steam-94400",
+      "title": "Nidhogg",
+      "store": "Steam",
+      "old": 385,
+      "neu": 134,
+      "pct": 65,
+      "url": "https://store.steampowered.com/app/94400/",
+      "steamAppId": "94400"
+    },
     {
       "id": "steam-4708650",
       "title": "Blockmind",
@@ -43,26 +53,6 @@
       "steamAppId": "1332010"
     },
     {
-      "id": "steam-1313140",
-      "title": "Cult of the Lamb",
-      "store": "Steam",
-      "old": 699,
-      "neu": 349,
-      "pct": 50,
-      "url": "https://store.steampowered.com/app/1313140/",
-      "steamAppId": "1313140"
-    },
-    {
-      "id": "steam-1614550",
-      "title": "Astro Colony",
-      "store": "Steam",
-      "old": 659,
-      "neu": 329,
-      "pct": 50,
-      "url": "https://store.steampowered.com/app/1614550/",
-      "steamAppId": "1614550"
-    },
-    {
       "id": "steam-105600",
       "title": "Terraria",
       "store": "Steam",
@@ -71,26 +61,6 @@
       "pct": 50,
       "url": "https://store.steampowered.com/app/105600/",
       "steamAppId": "105600"
-    },
-    {
-      "id": "steam-5328770",
-      "title": "Soul Saver",
-      "store": "Steam",
-      "old": 115,
-      "neu": 68,
-      "pct": 41,
-      "url": "https://store.steampowered.com/app/5328770/",
-      "steamAppId": "5328770"
-    },
-    {
-      "id": "steam-1621690",
-      "title": "Core Keeper",
-      "store": "Steam",
-      "old": 710,
-      "neu": 426,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/1621690/",
-      "steamAppId": "1621690"
     },
     {
       "id": "steam-4656000",
@@ -103,6 +73,16 @@
       "steamAppId": "4656000"
     },
     {
+      "id": "steam-5300160",
+      "title": "Stellarite Miner",
+      "store": "Steam",
+      "old": 150,
+      "neu": 90,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5300160/",
+      "steamAppId": "5300160"
+    },
+    {
       "id": "steam-1623730",
       "title": "Palworld",
       "store": "Steam",
@@ -113,34 +93,54 @@
       "steamAppId": "1623730"
     },
     {
-      "id": "steam-4772880",
-      "title": "Loanwords: A Multilingual Library",
+      "id": "steam-3883570",
+      "title": "Invokyr",
       "store": "Steam",
-      "old": 660,
-      "neu": 462,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/4772880/",
-      "steamAppId": "4772880"
+      "old": 590,
+      "neu": 442,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/3883570/",
+      "steamAppId": "3883570"
     },
     {
-      "id": "steam-5179800",
-      "title": "Cone & Crest",
+      "id": "steam-4940150",
+      "title": "Magnyard",
       "store": "Steam",
-      "old": 445,
-      "neu": 311,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/5179800/",
-      "steamAppId": "5179800"
+      "old": 385,
+      "neu": 288,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/4940150/",
+      "steamAppId": "4940150"
     },
     {
-      "id": "steam-4853590",
-      "title": "CORRUPT.EXE",
+      "id": "steam-2254990",
+      "title": "Permafrost",
+      "store": "Steam",
+      "old": 1799,
+      "neu": 1439,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/2254990/",
+      "steamAppId": "2254990"
+    },
+    {
+      "id": "steam-3071240",
+      "title": "Voodoo Fishin'",
+      "store": "Steam",
+      "old": 465,
+      "neu": 372,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/3071240/",
+      "steamAppId": "3071240"
+    },
+    {
+      "id": "steam-5326380",
+      "title": "A Light in the Gloam",
       "store": "Steam",
       "old": 240,
-      "neu": 168,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/4853590/",
-      "steamAppId": "4853590"
+      "neu": 192,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/5326380/",
+      "steamAppId": "5326380"
     }
   ]
 }

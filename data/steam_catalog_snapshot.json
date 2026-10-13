@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T19:07:42+03:00",
+  "updatedAt": "2026-10-14T00:21:25+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -452,11 +452,11 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "2138710",
-      "name": "Sifu",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138710/header.jpg?t=1782742326",
+      "appid": "4708650",
+      "name": "Blockmind",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4708650/3beda953d23dba4be2888f596e977ec380663a27/header.jpg?t=1791904463",
       "genres": [
-        "Экшены",
+        "Казуальные игры",
         "Инди"
       ],
       "is_free": false,
@@ -465,8 +465,8 @@
         "mac": false,
         "linux": false
       },
-      "metacritic": 81,
-      "short_description": "Sifu — это реалистичный боевик от третьего лица с напряженными боями в стиле кунг-фу и кинематографическими драками. Герой игры — одинокий воин, который ищет возмездия."
+      "metacritic": null,
+      "short_description": "Решай пространственные головоломки в мире блоков. Найди логику формы и собери идеальное решение."
     },
     {
       "appid": "1808500",
@@ -518,6 +518,25 @@
       "short_description": "Потерявшемуся, одинокому, оторванному от семьи бродячему коту предстоит разгадать древнюю тайну, вырваться из давно заброшенного кибергорода и найти дорогу домой."
     },
     {
+      "appid": "1313140",
+      "name": "Cult of the Lamb",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/19f32bb477a6e9d058e05193b4e282149bd70644/header.jpg?t=1786554901",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": 82,
+      "short_description": "Взращивайте собственный культ в землях лжепророков, совершайте походы по таинственным уголкам леса, объединяйте вокруг себя верных последователей и несите своё слово в массы, чтобы сделать свой культ единственным."
+    },
+    {
       "appid": "1614550",
       "name": "Astro Colony",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1614550/a903c2d1d88e1ece56790228f5151a44586305a0/header.jpg?t=1791879094",
@@ -558,6 +577,23 @@
       "short_description": "Копайте, сражайтесь, исследуйте, стройте! Нет ничего невозможного в этой насыщенной событиями приключенческой игре. Также доступен комплект для четверых!"
     },
     {
+      "appid": "5328770",
+      "name": "Soul Saver",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5328770/81422f590bd46bd137bf64ef9482f861e02308d6/header.jpg?t=1791922559",
+      "genres": [
+        "Экшены",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Get sealed in a boss's barrier and fight one-on-one — the moment it falls, your weapon evolves on the spot! Mow down screen-filling hordes of the dead, fuse each hero's unique skills into 37 skill evolutions and shape your build across a 100+ node Soul Tree in this pixel-art survivor roguelite."
+    },
+    {
       "appid": "1621690",
       "name": "Core Keeper",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1621690/4d3798fbb307f52d9e11ed5b5f665779097b2f55/header_alt_assets_12.jpg?t=1791454740",
@@ -578,23 +614,6 @@
       "short_description": "Исследуйте бескрайнее подземелье, полное существ, реликвий и ресурсов в приключенческой песочнице. Добывайте ресурсы, сражайтесь, изготавливайте предметы, выращивайте еду в одиночку или в компании до 8 игроков и раскройте тайну древнего Ядра."
     },
     {
-      "appid": "5178250",
-      "name": "Полные дипломатические отношения",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5178250/e69ea49dd4ad469748b2a71891aa6e8d7bb2fd06/header_russian.jpg?t=1791828793",
-      "genres": [
-        "Приключенческие игры",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "За одиннадцать недель откройте вновь разграбленную миссию и узнайте, какую цену прошлое требует до сих пор. Выберите одну из трех романтических линий, каждая из которых развивается под особым давлением, со своими ставками и последствиями."
-    },
-    {
       "appid": "4656000",
       "name": "BOMBANANA!",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1791542068",
@@ -610,78 +629,6 @@
       },
       "metacritic": null,
       "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
-    },
-    {
-      "appid": "1363080",
-      "name": "Manor Lords",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1363080/header.jpg?t=1791279229",
-      "genres": [
-        "Симуляторы",
-        "Стратегии",
-        "Ранний доступ"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Manor Lords — средневековая градостроительная стратегия с масштабными битвами и развитыми системами экономики и общественной жизни. Управляйте землями в мире, где меняется не только погода, но и сезоны, а города растут и приходят в упадок."
-    },
-    {
-      "appid": "4532550",
-      "name": "守护我的大火箭",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4532550/e7bc947f57f2c02f37fd6733def69bfc338745bc/header.jpg?t=1791856871",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Ролевые игры",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Человечество пало, и миром правят куры! В этом шутере с вылазками, крафтом и башнями играйте за петуха: лутайтесь, укрепляйте базу, отбивайте орды и запустите ракету! Кхм... или устройте дикую вечеринку ради той выжившей девчонки!"
-    },
-    {
-      "appid": "4983560",
-      "name": "Knightime",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4983560/6bae652b6dd29fcbddb7ebf89bf6df21a7979b97/header.jpg?t=1791846027",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Time is ticking! Survive medieval hordes in this low-poly action rogue-lite bullet heaven. Unlock an army of 27 unique knights bound to their elemental weaponry, master geometric spirals, and break the game before the 15-minute clock runs out. Can you claim a seat at the Hexagonal Table?"
-    },
-    {
-      "appid": "5287760",
-      "name": "Karmic Wonders",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5287760/ab5903f907f912b71ddd96de0c837bb24886f833/header.jpg?t=1791847872",
-      "genres": [
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Tap a wooden fish to summon chests. Open them, appraise curious finds, upgrade your workshop, and unlock automatic mallets. Grow your collection, shape a talent path, and carry lasting progress into each new run."
     },
     {
       "appid": "1623730",
@@ -701,6 +648,59 @@
       },
       "metacritic": null,
       "short_description": "Собирайте удивительных существ — Палов — на просторах огромного мира, отправляйте их сражаться и трудиться на фабриках, стройте с их помощью здания и выращивайте плантации в этом абсолютно новом симуляторе выживания в открытом мире, поддерживающем совместный режим."
+    },
+    {
+      "appid": "4772880",
+      "name": "Loanwords: A Multilingual Library",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4772880/1d64deea807051d2adf8d1bb2af32a3d88d5cde5/header.jpg?t=1791905464",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Read 25 real novels in French, Japanese, Spanish, Italian, and German, narrated aloud. Tap any sentence for a full breakdown: translation, structure, and every word defined. See a word or pattern again? Jump to every other sentence that uses it."
+    },
+    {
+      "appid": "5179800",
+      "name": "Cone & Crest",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5179800/f1c14bc72b83689d60a9ae6170e7b9cabe2cef8a/header.jpg?t=1791887162",
+      "genres": [
+        "Экшены",
+        "Казуальные игры",
+        "Инди",
+        "Гонки",
+        "Спорт"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Одиночный тайм-аттак в любительском духе. Конусы на открытой площадке, а потом восемь настоящих горных дорог, от Пайкс-Пика до горы Харуна. Шлифуйте заезды, гоняйтесь с призраками других гонщиков в таблицах лидеров Steam или пройдите тур-рогалайт, где карта каждый раз новая. 44 машины для тюнинга."
+    },
+    {
+      "appid": "4853590",
+      "name": "CORRUPT.EXE",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4853590/920f2fb02378f4e6235bb9519debab20879efc03/header.jpg?t=1791877855",
+      "genres": [
+        "Экшены"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "CORRUPT.EXE is a neon roguelite where you play the malware. Swarm-survival action with evolving weapons, a 225-combo fusion system, and an adaptive antivirus that profiles your movement, learns your habits, and hunts you smarter every run. Infect. Evolve. Extract — or go endless."
     }
   ]
 }
