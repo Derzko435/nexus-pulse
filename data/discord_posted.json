@@ -1,18 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-10-14T00:21:54+03:00",
+ "updatedAt": "2026-10-14T10:48:46+03:00",
  "posted": {
   "news": [
-   "565c25a9f07b",
-   "674aa7cf59db",
-   "74eb988ba475",
-   "6a17648483ab",
-   "57ed1e81cf4b",
-   "24c038fbe544",
-   "74140f7bd878",
-   "cc86ace3504c",
-   "ba723fbc7b35",
-   "6a2114d425d0",
    "05f4dbbe79d6",
    "69baa6c334fe",
    "f7b1c5bdf839",
@@ -502,7 +492,17 @@
    "f59c5ec27aa1",
    "78eb4c4db7bd",
    "c2f1be8c6f9a",
-   "3a4a45c9b848"
+   "3a4a45c9b848",
+   "f015bb4e1cc0",
+   "475b03a5affd",
+   "f1842441708f",
+   "b3fecd6f5793",
+   "a0d09c21e6ea",
+   "b646030c507a",
+   "bf3e9ca27b51",
+   "9b26e416dd18",
+   "dc2c9c91cfa9",
+   "2c187c2517c4"
   ],
   "deals": [
    "steam-246420:90",
@@ -568,7 +568,8 @@
    "steam-1614550:50",
    "steam-1313140:50",
    "steam-4708650:65",
-   "steam-94400:65"
+   "steam-94400:65",
+   "steam-881100:60"
   ],
   "freebies": [
    "epic-7ae00c3e89174012b175cc73b4737723:soon",
@@ -1300,6 +1301,7 @@
  "dealPosts": [
   "2026-10-13T02:05+03:00",
   "2026-10-13T19:08+03:00",
-  "2026-10-14T00:21+03:00"
+  "2026-10-14T00:21+03:00",
+  "2026-10-14T10:48+03:00"
  ]
 }
