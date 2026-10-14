@@ -1,24 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-10-14T21:44:45+03:00",
+ "updatedAt": "2026-10-15T00:59:57+03:00",
  "posted": {
   "news": [
-   "a387808fde1d",
-   "459093d02a67",
-   "e4cad89d9fc9",
-   "35bc2d84557b",
-   "0ea8c2f1b49c",
-   "41b82890d892",
-   "37c80c067e6d",
-   "ef612dace7d8",
-   "fe2a11d2008a",
-   "6e3cd79285ba",
-   "e6813868395b",
-   "65846f603dbc",
-   "a7d8202a5dfe",
-   "960030550ef9",
-   "cc18f87fba7c",
-   "528661d7e352",
    "151bbcc6f63c",
    "0f7570ce7e4c",
    "47cf3c1d1b6f",
@@ -502,7 +486,23 @@
    "2f344e23103a",
    "13a8fbc93407",
    "8131774387e3",
-   "b24e8d93ee58"
+   "b24e8d93ee58",
+   "6453d19a3a85",
+   "a0c690006b66",
+   "c157a4cdb7cf",
+   "30ded30af52f",
+   "d80a1d041338",
+   "304eb7e40440",
+   "97631ff3d85c",
+   "34a6135605d1",
+   "3399c54f2aec",
+   "ba74ecb42faa",
+   "ca57de467a7b",
+   "b9eb404cd487",
+   "235fc97adffb",
+   "9ac404303695",
+   "5401ed1c64d4",
+   "bb9c5c3c1afa"
   ],
   "deals": [
    "steam-246420:90",
@@ -876,7 +876,12 @@
    "live:bo3-131738",
    "live:bo3-131728",
    "result:bo3-131667",
-   "live:bo3-131661"
+   "live:bo3-131661",
+   "result:bo3-131661",
+   "result:bo3-131662",
+   "live:bo3-131740",
+   "live:bo3-131739",
+   "digest:2026-10-15"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -1280,7 +1285,18 @@
    "N0ptQf8hBP8",
    "o65KqC58Y_0",
    "T9qG5qdci_E",
-   "oOSQ8yG_LDE"
+   "oOSQ8yG_LDE",
+   "WJ3qrp6DidA",
+   "TS6BqxF_j8w",
+   "kAo_I0MK8gk",
+   "-YzzZu_ptKo",
+   "rcr0z4VUgOs",
+   "rs9CcZNRqxI",
+   "Zjae4JeLHAg",
+   "scn5HOghvPo",
+   "K2WWdSkMNlE",
+   "hjzUojD5fhA",
+   "ta1Zgdol0M8"
   ],
   "releases": [
    "week:2026-W39",
@@ -1313,15 +1329,18 @@
    "day:2026-10-14:2929250",
    "day:2026-10-14:x-kururin-paradise",
    "day:2026-10-14:x-metal-slug-advance",
-   "day:2026-10-14:x-monster-rancher-advance"
+   "day:2026-10-14:x-monster-rancher-advance",
+   "day:2026-10-15:x-antonblast",
+   "day:2026-10-15:3064040",
+   "day:2026-10-15:1203620",
+   "day:2026-10-15:x-it-takes-two",
+   "day:2026-10-15:4954910"
   ],
   "gotd": [
    "gotd:2026-09-24"
   ]
  },
  "matchPings": [
-  "2026-10-12T09:41+03:00",
-  "2026-10-12T14:05+03:00",
   "2026-10-13T04:02+03:00",
   "2026-10-13T14:13+03:00",
   "2026-10-14T11:55+03:00",
