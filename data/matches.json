@@ -1,87 +1,7 @@
 {
- "updatedAt": "2026-10-13T22:34:12+03:00",
+ "updatedAt": "2026-10-14T03:38:33+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-131721",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Power Rangers",
-   "teamB": "CyberHero",
-   "logoA": "https://files.bo3.gg/uploads/team/16653/image/webp-7a3038132e882126990e4bb43ef0f5d2.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/25398/image/webp-8560e60c7b3b107d8fa95472b1bc5ee5.webp",
-   "scoreA": 1,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "DreamLeague Season 30: Eastern Europe Closed Qualifier",
-   "tier": "A",
-   "startsAt": "2026-10-13T20:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "esl_dota2tango",
-     "lang": "en",
-     "official": true,
-     "label": "esl_dota2tango"
-    },
-    {
-     "type": "youtube",
-     "id": "FDefmo_KE4U",
-     "lang": "en",
-     "official": true,
-     "label": "Kalmychata vs Yellow Submarine - DreamLeague Season 30 EEU Closed Qualifiers - S"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/power-rangers-dota2-vs-cyberhero-13-10-2026"
-  },
-  {
-   "id": "bo3-131731",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "PlayTime",
-   "teamB": "Hokori",
-   "logoA": "https://files.bo3.gg/uploads/team/22354/image/webp-f5f3c4896d1f5df9573053ef85802a38.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/15828/image/webp-4077037e00777b2e411e40550ec68f67.webp",
-   "scoreA": 1,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "DreamLeague Season 30: South America Closed Qualifier",
-   "tier": "A",
-   "startsAt": "2026-10-13T20:10:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "esl_dota2yasha",
-     "lang": "en",
-     "official": true,
-     "label": "esl_dota2yasha"
-    },
-    {
-     "type": "youtube",
-     "id": "FNjWctywlbo",
-     "lang": "en",
-     "official": true,
-     "label": "Hokori vs PlayTime - DreamLeague Season 30 SA Closed Qualifiers - Stream B"
-    },
-    {
-     "type": "twitch",
-     "channel": "pdsdoto",
-     "lang": "pt",
-     "official": true,
-     "label": "pdsdoto"
-    },
-    {
-     "type": "kick",
-     "channel": "americaesportsdota2",
-     "lang": "es",
-     "official": true,
-     "label": "americaesportsdota2"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/playtime-vs-hokori-13-10-2026"
-  },
   {
    "id": "bo3-131734",
    "game": "Dota 2",
@@ -90,33 +10,41 @@
    "teamB": "Rottweilas Latam",
    "logoA": "https://files.bo3.gg/uploads/team/22157/image/webp-5644cfd0bdae31ac0ef171daed05cbd2.webp",
    "logoB": "https://files.bo3.gg/uploads/team/22288/image/webp-2288e75485be15d5c602fae3ec308b55.webp",
-   "scoreA": 0,
-   "scoreB": 0,
+   "scoreA": 1,
+   "scoreB": 1,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "DreamLeague Season 30: South America Closed Qualifier",
    "tier": "A",
    "startsAt": "2026-10-14T00:00:00+03:00",
-   "streams": [],
+   "streams": [
+    {
+     "type": "youtube",
+     "id": "q09YiBdhRiE",
+     "lang": "en",
+     "official": true,
+     "label": "Pibble Corp vs New Growth - DreamLeague Season 30 SA Closed Qualifiers - Stream "
+    }
+   ],
    "url": "https://bo3.gg/dota2/matches/amaru-gaming-vs-rottweilas-latam-13-10-2026"
   },
   {
-   "id": "bo3-131733",
+   "id": "bo3-131736",
    "game": "Dota 2",
    "gameKey": "dota2",
-   "teamA": "Chandogs",
-   "teamB": "Skyreavers",
-   "logoA": "https://files.bo3.gg/uploads/team/15205/image/webp-213c15ff25e91b8439971502768bcf20.webp",
-   "logoB": "",
+   "teamA": "Pibbles Corp",
+   "teamB": "PlayTime",
+   "logoA": "https://files.bo3.gg/uploads/team/25327/image/webp-0d8c5732d2907669f2d69e0364e102cf.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/22354/image/webp-f5f3c4896d1f5df9573053ef85802a38.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
    "status": "upcoming",
    "event": "DreamLeague Season 30: South America Closed Qualifier",
    "tier": "A",
-   "startsAt": "2026-10-14T00:00:00+03:00",
+   "startsAt": "2026-10-14T04:00:00+03:00",
    "streams": [],
-   "url": "https://bo3.gg/dota2/matches/chandogs-vs-skyreavers-13-10-2026"
+   "url": "https://bo3.gg/dota2/matches/pibbles-corp-vs-playtime-14-10-2026"
   },
   {
    "id": "bo3-131902",
@@ -358,6 +286,42 @@
    "url": "https://bo3.gg/lol/matches/anubis-gaming-lol-vs-solary-lol-14-10-2026"
   },
   {
+   "id": "bo3-131728",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Yellow Submarine",
+   "teamB": "Power Rangers",
+   "logoA": "https://files.bo3.gg/uploads/team/16486/image/webp-db8fb0a62365deefa26db24e4fb46f10.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16653/image/webp-7a3038132e882126990e4bb43ef0f5d2.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "DreamLeague Season 30: Eastern Europe Closed Qualifier",
+   "tier": "A",
+   "startsAt": "2026-10-14T20:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/dota2/matches/yellow-submarine-vs-power-rangers-dota2-14-10-2026"
+  },
+  {
+   "id": "bo3-131738",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "New Growth",
+   "teamB": "Hokori",
+   "logoA": "https://files.bo3.gg/uploads/team/22378/image/webp-f19bef281d476af3a056db368d9906c4.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/15828/image/webp-4077037e00777b2e411e40550ec68f67.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "DreamLeague Season 30: South America Closed Qualifier",
+   "tier": "A",
+   "startsAt": "2026-10-14T20:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/dota2/matches/new-growth-vs-hokori-14-10-2026"
+  },
+  {
    "id": "bo3-131759",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -502,6 +466,39 @@
    "url": "https://bo3.gg/valorant/matches/100-thieves-1-vs-g2-esports-16-10-2026"
   },
   {
+   "id": "bo3-131733",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Chandogs",
+   "teamB": "Skyreavers",
+   "logoA": "https://files.bo3.gg/uploads/team/15205/image/webp-213c15ff25e91b8439971502768bcf20.webp",
+   "logoB": "",
+   "scoreA": 2,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "finished",
+   "event": "DreamLeague Season 30: South America Closed Qualifier",
+   "tier": "A",
+   "startsAt": "2026-10-14T00:00:00+03:00",
+   "streams": [
+    {
+     "type": "youtube",
+     "id": "FNjWctywlbo",
+     "lang": "en",
+     "official": true,
+     "label": "Hokori vs PlayTime - DreamLeague Season 30 SA Closed Qualifiers - Stream B"
+    },
+    {
+     "type": "kick",
+     "channel": "americaesportsdota2",
+     "lang": "es",
+     "official": true,
+     "label": "americaesportsdota2"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/chandogs-vs-skyreavers-13-10-2026"
+  },
+  {
    "id": "bo3-131732",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -533,6 +530,86 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/pibbles-corp-vs-new-growth-13-10-2026"
+  },
+  {
+   "id": "bo3-131731",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "PlayTime",
+   "teamB": "Hokori",
+   "logoA": "https://files.bo3.gg/uploads/team/22354/image/webp-f5f3c4896d1f5df9573053ef85802a38.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/15828/image/webp-4077037e00777b2e411e40550ec68f67.webp",
+   "scoreA": 2,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "finished",
+   "event": "DreamLeague Season 30: South America Closed Qualifier",
+   "tier": "A",
+   "startsAt": "2026-10-13T20:10:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "esl_dota2yasha",
+     "lang": "en",
+     "official": true,
+     "label": "esl_dota2yasha"
+    },
+    {
+     "type": "youtube",
+     "id": "FNjWctywlbo",
+     "lang": "en",
+     "official": true,
+     "label": "Hokori vs PlayTime - DreamLeague Season 30 SA Closed Qualifiers - Stream B"
+    },
+    {
+     "type": "twitch",
+     "channel": "pdsdoto",
+     "lang": "pt",
+     "official": true,
+     "label": "pdsdoto"
+    },
+    {
+     "type": "kick",
+     "channel": "americaesportsdota2",
+     "lang": "es",
+     "official": true,
+     "label": "americaesportsdota2"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/playtime-vs-hokori-13-10-2026"
+  },
+  {
+   "id": "bo3-131721",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Power Rangers",
+   "teamB": "CyberHero",
+   "logoA": "https://files.bo3.gg/uploads/team/16653/image/webp-7a3038132e882126990e4bb43ef0f5d2.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/25398/image/webp-8560e60c7b3b107d8fa95472b1bc5ee5.webp",
+   "scoreA": 2,
+   "scoreB": 1,
+   "bo": 3,
+   "status": "finished",
+   "event": "DreamLeague Season 30: Eastern Europe Closed Qualifier",
+   "tier": "A",
+   "startsAt": "2026-10-13T20:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "esl_dota2tango",
+     "lang": "en",
+     "official": true,
+     "label": "esl_dota2tango"
+    },
+    {
+     "type": "youtube",
+     "id": "FDefmo_KE4U",
+     "lang": "en",
+     "official": true,
+     "label": "Kalmychata vs Yellow Submarine - DreamLeague Season 30 EEU Closed Qualifiers - S"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/power-rangers-dota2-vs-cyberhero-13-10-2026"
   },
   {
    "id": "bo3-131722",
@@ -620,119 +697,6 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/movistar-koi-fenix-vs-galions-13-10-2026"
-  },
-  {
-   "id": "bo3-131720",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Power Rangers",
-   "teamB": "The Warriors",
-   "logoA": "https://files.bo3.gg/uploads/team/16653/image/webp-7a3038132e882126990e4bb43ef0f5d2.webp",
-   "logoB": "",
-   "scoreA": 2,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "finished",
-   "event": "DreamLeague Season 30: Eastern Europe Closed Qualifier",
-   "tier": "A",
-   "startsAt": "2026-10-13T16:15:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "dota2_paragon_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "dota2_paragon_ru"
-    },
-    {
-     "type": "twitch",
-     "channel": "esl_dota2earth",
-     "lang": "en",
-     "official": false,
-     "label": "esl_dota2earth"
-    },
-    {
-     "type": "youtube",
-     "id": "E3B6Zx4nLl4",
-     "lang": "en",
-     "official": false,
-     "label": "HULIGANI vs Nemiga - DreamLeague Season 30 EEU Closed Qualifiers - Stream A"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/power-rangers-dota2-vs-the-warriors-13-10-2026"
-  },
-  {
-   "id": "bo3-131719",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "CyberHero",
-   "teamB": "Shadow Dance",
-   "logoA": "https://files.bo3.gg/uploads/team/25398/image/webp-8560e60c7b3b107d8fa95472b1bc5ee5.webp",
-   "logoB": "",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "DreamLeague Season 30: Eastern Europe Closed Qualifier",
-   "tier": "A",
-   "startsAt": "2026-10-13T16:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "esl_dota2tango",
-     "lang": "en",
-     "official": true,
-     "label": "esl_dota2tango"
-    },
-    {
-     "type": "youtube",
-     "id": "FDefmo_KE4U",
-     "lang": "en",
-     "official": true,
-     "label": "Kalmychata vs Yellow Submarine - DreamLeague Season 30 EEU Closed Qualifiers - S"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/cyberhero-vs-shadow-dance-13-10-2026"
-  },
-  {
-   "id": "bo3-131959",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Yakult Brothers",
-   "teamB": "Resp Gaming",
-   "logoA": "https://files.bo3.gg/uploads/team/18586/image/webp-567481429f4da97ec176389bf9844069.webp",
-   "logoB": "",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "DreamLeague Season 30: China Closed Qualifier",
-   "tier": "A",
-   "startsAt": "2026-10-13T15:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "esl_dota2void",
-     "lang": "en",
-     "official": true,
-     "label": "esl_dota2void"
-    },
-    {
-     "type": "youtube",
-     "id": "TBC_etIwYZw",
-     "lang": "en",
-     "official": true,
-     "label": "Team Resilience vs imperial power - DreamLeague Season 30 CN Closed Qualifiers -"
-    },
-    {
-     "type": "twitch",
-     "channel": "wxcdota",
-     "lang": "tl",
-     "official": false,
-     "label": "wxcdota"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/yakutou-brothers-vs-resp-gaming-13-10-2026"
   },
   {
    "id": "bo3-131563",
@@ -1340,7 +1304,7 @@
    "prize": 1000000,
    "start": "2026-10-14",
    "end": "2026-10-18",
-   "status": "upcoming",
+   "status": "current",
    "url": "https://bo3.gg/tournaments/thunderpick-world-championship-2026"
   },
   {
