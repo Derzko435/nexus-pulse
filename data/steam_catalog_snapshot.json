@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T10:48:23+03:00",
+  "updatedAt": "2026-10-14T16:51:55+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -470,6 +470,26 @@
       "short_description": "Нидхогг — это эпическая, удостоенная наград игра в фехтование в стиле перетягивания каната, дополненная летающими гигантскими червями."
     },
     {
+      "appid": "881100",
+      "name": "Noita",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/881100/header.jpg?t=1675987871",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Noita — боевик с элементами «roguelike» с физическим моделированием пикселей. Вы сражаетесь, исследуете различные места, расплавляете, сжигаете, замораживаете и испаряете препятствия, используя заклинания. Можно просто исследовать всё вокруг и смотреть, сколько проблем удастся нажить!"
+    },
+    {
       "appid": "1808500",
       "name": "ARC Raiders",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/29e8af9fbf06833558758f94cfb406746f338c45/header_alt_assets_8.jpg?t=1791401542",
@@ -502,23 +522,6 @@
       "short_description": "Приобретите улучшение до ARC Raiders Deluxe Edition, чтобы получить: - Пакет Wanderer Cosmetic Pack, - Косметический предмет для персонажа «Шрам на губе», - Пиу-пиу Эмодзи, - Наряд «Плюшкина», - 2,400 рейдерских жетонов."
     },
     {
-      "appid": "1332010",
-      "name": "Stray",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/71daca1910d664d31240b9623a495e0c0828807f/header.jpg?t=1785424330",
-      "genres": [
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": 82,
-      "short_description": "Потерявшемуся, одинокому, оторванному от семьи бродячему коту предстоит разгадать древнюю тайну, вырваться из давно заброшенного кибергорода и найти дорогу домой."
-    },
-    {
       "appid": "105600",
       "name": "Terraria",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1769844435",
@@ -536,24 +539,6 @@
       },
       "metacritic": 83,
       "short_description": "Копайте, сражайтесь, исследуйте, стройте! Нет ничего невозможного в этой насыщенной событиями приключенческой игре. Также доступен комплект для четверых!"
-    },
-    {
-      "appid": "4858610",
-      "name": "Huiyu AI 3D Video",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4858610/16a2523f8649c87aa916bca98e00941d3819f8a1/header.jpg?t=1791908826",
-      "genres": [
-        "Симуляторы",
-        "Анимация и моделирование",
-        "Создание видео"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Huiyu AI 3D Video: 3D-просмотрщик глубины на ИИ в реальном времени. Генерирует карты глубины при воспроизведении, отображает видео как 3D-сцены. Поддерживает TensorRT, локальный кеш, настройку в реальном времени, полный экран"
     },
     {
       "appid": "4656000",
@@ -591,23 +576,6 @@
       "short_description": "Stellarite Miner — расслабляющая инкрементальная игра о добыче ресурсов из астероидов в космосе. Разбивайте породу мощным лазером, собирайте ресурсы, улучшайте корабль и станьте величайшим добытчиком астероидов во вселенной."
     },
     {
-      "appid": "5306440",
-      "name": "Hentai Clicker: Kohana is streaming",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5306440/33baf706288c8585454b7b46d0f2dcc5c0d7a65e/header.jpg?t=1791909762",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Hentai clicker: Kohana is streaming — Кликайте, собирайте сердца и очаровывайте Kohana, очень озорную жрицу-кицунэ. Открывайте сцены, наряды, улучшения, голосовые реакции и игривую прогрессию в этом соблазнительном аниме-кликере."
-    },
-    {
       "appid": "1623730",
       "name": "Palworld",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/6912f19c43a95ff5fe514eedd35e68bf12335459/header.jpg?t=1790336367",
@@ -627,16 +595,13 @@
       "short_description": "Собирайте удивительных существ — Палов — на просторах огромного мира, отправляйте их сражаться и трудиться на фабриках, стройте с их помощью здания и выращивайте плантации в этом абсолютно новом симуляторе выживания в открытом мире, поддерживающем совместный режим."
     },
     {
-      "appid": "3883570",
-      "name": "Invokyr",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883570/a1d37fb2bf0de54d1746d1aa4b83fb7ca81700d8/header.jpg?t=1791907648",
+      "appid": "5270030",
+      "name": "THE WAY HOME IS DANGEROUS - Adult Only",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5270030/23bd2809ab9f7c20d6a07797640084cebddb82f3/header.jpg?t=1791944374",
       "genres": [
         "Экшены",
-        "Приключенческие игры",
         "Инди",
-        "Симуляторы",
-        "Бесплатные",
-        "Ранний доступ"
+        "Ролевые игры"
       ],
       "is_free": false,
       "platforms": {
@@ -645,7 +610,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Забытая настолка в проклятом доме так и манит сыграть. Собирайте до 5 друзей, бросайте кубики и выживайте среди оживших кошмаров мастера игры. Рискните всем, используйте особые кости и одолейте зловещую игру, чтобы сбежать."
+      "short_description": "Пробейтесь через полный опасностей город и помогите Рэйке благополучно вернуться домой. Собирайте разнообразное оружие, выполняйте задания, сражайтесь и исследуйте мир, раскрывая историю вместе с Рэйкой в этом приключенческом экшене для взрослых."
     },
     {
       "appid": "4940150",
@@ -668,7 +633,7 @@
     {
       "appid": "2254990",
       "name": "Permafrost",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2254990/693eff202c061aaecba330b44d76485a672bea97/header.jpg?t=1791916040",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2254990/693eff202c061aaecba330b44d76485a672bea97/header.jpg?t=1791980722",
       "genres": [
         "Экшены",
         "Приключенческие игры",
@@ -684,6 +649,46 @@
       },
       "metacritic": null,
       "short_description": "Permafrost — это «песочница» на выживание среди постапокалиптических льдов. Откройте для себя обширный открытый мир с богатой историей в одиночку или в кооперативном режиме до 4 игроков. Исследуйте, добывайте, создавайте и стройте, чтобы выжить в холоде."
+    },
+    {
+      "appid": "2725250",
+      "name": "Nientum - Op.ZERO",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2725250/29049beddb4ece7370fc561f5fa8fedd9e133c6b/header.jpg?t=1791950185",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Ролевые игры",
+        "Симуляторы",
+        "Спорт"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A 2D action-adventure where the story unfolds by tuning the stage with music. A play by Aleph and Liora, who have lost their memories. A beautiful yet eerie stage, and the secret of the forgotten theater await. Your choices will determine the play's ending — and their fates."
+    },
+    {
+      "appid": "5195360",
+      "name": "BitWise",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5195360/7b2eed2d2b29f88c9339cacba2cf8d68777aab0a/header.jpg?t=1791954562",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Close the loop and the lamp lights. Build the relay, the gate, the adder, the latch, the counter, and a machine that reads Morse. Every circuit runs on a real simulator, and the parts you build become parts you build with. 238 levels about electricity and the machines people made from it."
     },
     {
       "appid": "3071240",

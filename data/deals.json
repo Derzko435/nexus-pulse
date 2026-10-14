@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T10:48:28+03:00",
+  "updatedAt": "2026-10-14T16:52:01+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -43,6 +43,16 @@
       "steamAppId": "3948510"
     },
     {
+      "id": "steam-1332010",
+      "title": "Stray",
+      "store": "Steam",
+      "old": 1269,
+      "neu": 634,
+      "pct": 50,
+      "url": "https://store.steampowered.com/app/1332010/",
+      "steamAppId": "1332010"
+    },
+    {
       "id": "steam-105600",
       "title": "Terraria",
       "store": "Steam",
@@ -51,6 +61,26 @@
       "pct": 50,
       "url": "https://store.steampowered.com/app/105600/",
       "steamAppId": "105600"
+    },
+    {
+      "id": "steam-5327690",
+      "title": "Hauberk锁甲地牢",
+      "store": "Steam",
+      "old": 51,
+      "neu": 30,
+      "pct": 41,
+      "url": "https://store.steampowered.com/app/5327690/",
+      "steamAppId": "5327690"
+    },
+    {
+      "id": "steam-5194790",
+      "title": "FIBS",
+      "store": "Steam",
+      "old": 240,
+      "neu": 144,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5194790/",
+      "steamAppId": "5194790"
     },
     {
       "id": "steam-4656000",
@@ -63,14 +93,14 @@
       "steamAppId": "4656000"
     },
     {
-      "id": "steam-5300160",
-      "title": "Stellarite Miner",
+      "id": "steam-5282350",
+      "title": "Arrows Without End",
       "store": "Steam",
       "old": 150,
       "neu": 90,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5300160/",
-      "steamAppId": "5300160"
+      "url": "https://store.steampowered.com/app/5282350/",
+      "steamAppId": "5282350"
     },
     {
       "id": "steam-1623730",
@@ -93,14 +123,14 @@
       "steamAppId": "5270030"
     },
     {
-      "id": "steam-4940150",
-      "title": "Magnyard",
+      "id": "steam-5318330",
+      "title": "Visual Novel: Ali Baba Basemen",
       "store": "Steam",
-      "old": 385,
-      "neu": 288,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/4940150/",
-      "steamAppId": "4940150"
+      "old": 60,
+      "neu": 42,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5318330/",
+      "steamAppId": "5318330"
     },
     {
       "id": "steam-2254990",
@@ -111,36 +141,6 @@
       "pct": 20,
       "url": "https://store.steampowered.com/app/2254990/",
       "steamAppId": "2254990"
-    },
-    {
-      "id": "steam-2725250",
-      "title": "Nientum - Op.ZERO",
-      "store": "Steam",
-      "old": 710,
-      "neu": 568,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/2725250/",
-      "steamAppId": "2725250"
-    },
-    {
-      "id": "steam-5195360",
-      "title": "BitWise",
-      "store": "Steam",
-      "old": 555,
-      "neu": 444,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5195360/",
-      "steamAppId": "5195360"
-    },
-    {
-      "id": "steam-3071240",
-      "title": "Voodoo Fishin'",
-      "store": "Steam",
-      "old": 465,
-      "neu": 372,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/3071240/",
-      "steamAppId": "3071240"
     }
   ]
 }
