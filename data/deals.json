@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T00:21:30+03:00",
+  "updatedAt": "2026-10-14T04:17:53+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -11,16 +11,6 @@
       "pct": 65,
       "url": "https://store.steampowered.com/app/94400/",
       "steamAppId": "94400"
-    },
-    {
-      "id": "steam-4708650",
-      "title": "Blockmind",
-      "store": "Steam",
-      "old": 160,
-      "neu": 56,
-      "pct": 65,
-      "url": "https://store.steampowered.com/app/4708650/",
-      "steamAppId": "4708650"
     },
     {
       "id": "steam-1808500",
@@ -63,6 +53,16 @@
       "steamAppId": "105600"
     },
     {
+      "id": "steam-4858610",
+      "title": "Huiyu AI 3D Video",
+      "store": "Steam",
+      "old": 240,
+      "neu": 144,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/4858610/",
+      "steamAppId": "4858610"
+    },
+    {
       "id": "steam-4656000",
       "title": "BOMBANANA!",
       "store": "Steam",
@@ -81,6 +81,16 @@
       "pct": 40,
       "url": "https://store.steampowered.com/app/5300160/",
       "steamAppId": "5300160"
+    },
+    {
+      "id": "steam-5306440",
+      "title": "Hentai Clicker: Kohana is streaming",
+      "store": "Steam",
+      "old": 150,
+      "neu": 100,
+      "pct": 33,
+      "url": "https://store.steampowered.com/app/5306440/",
+      "steamAppId": "5306440"
     },
     {
       "id": "steam-1623730",
@@ -131,16 +141,6 @@
       "pct": 20,
       "url": "https://store.steampowered.com/app/3071240/",
       "steamAppId": "3071240"
-    },
-    {
-      "id": "steam-5326380",
-      "title": "A Light in the Gloam",
-      "store": "Steam",
-      "old": 240,
-      "neu": 192,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5326380/",
-      "steamAppId": "5326380"
     }
   ]
 }

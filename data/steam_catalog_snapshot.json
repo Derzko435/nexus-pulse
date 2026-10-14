@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T00:21:25+03:00",
+  "updatedAt": "2026-10-14T04:17:48+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -452,6 +452,24 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
+      "appid": "94400",
+      "name": "Nidhogg",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/94400/header.jpg?t=1791912911",
+      "genres": [
+        "Экшены",
+        "Инди",
+        "Спорт"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": 81,
+      "short_description": "Нидхогг — это эпическая, удостоенная наград игра в фехтование в стиле перетягивания каната, дополненная летающими гигантскими червями."
+    },
+    {
       "appid": "4708650",
       "name": "Blockmind",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4708650/3beda953d23dba4be2888f596e977ec380663a27/header.jpg?t=1791904463",
@@ -518,46 +536,6 @@
       "short_description": "Потерявшемуся, одинокому, оторванному от семьи бродячему коту предстоит разгадать древнюю тайну, вырваться из давно заброшенного кибергорода и найти дорогу домой."
     },
     {
-      "appid": "1313140",
-      "name": "Cult of the Lamb",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/19f32bb477a6e9d058e05193b4e282149bd70644/header.jpg?t=1786554901",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": 82,
-      "short_description": "Взращивайте собственный культ в землях лжепророков, совершайте походы по таинственным уголкам леса, объединяйте вокруг себя верных последователей и несите своё слово в массы, чтобы сделать свой культ единственным."
-    },
-    {
-      "appid": "1614550",
-      "name": "Astro Colony",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1614550/a903c2d1d88e1ece56790228f5151a44586305a0/header.jpg?t=1791879094",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Исследуйте бескрайнюю вселенную и создавайте эффективную сеть колоний. Стройте систему конвейеров для автоматизации производства. Заботьтесь о космонавтах и удовлетворяйте их потребности! Развивайте межгалактическую инфраструктуру, основывая новые колонии."
-    },
-    {
       "appid": "105600",
       "name": "Terraria",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1769844435",
@@ -577,43 +555,6 @@
       "short_description": "Копайте, сражайтесь, исследуйте, стройте! Нет ничего невозможного в этой насыщенной событиями приключенческой игре. Также доступен комплект для четверых!"
     },
     {
-      "appid": "5328770",
-      "name": "Soul Saver",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5328770/81422f590bd46bd137bf64ef9482f861e02308d6/header.jpg?t=1791922559",
-      "genres": [
-        "Экшены",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Get sealed in a boss's barrier and fight one-on-one — the moment it falls, your weapon evolves on the spot! Mow down screen-filling hordes of the dead, fuse each hero's unique skills into 37 skill evolutions and shape your build across a 100+ node Soul Tree in this pixel-art survivor roguelite."
-    },
-    {
-      "appid": "1621690",
-      "name": "Core Keeper",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1621690/4d3798fbb307f52d9e11ed5b5f665779097b2f55/header_alt_assets_12.jpg?t=1791454740",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Ролевые игры",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": true
-      },
-      "metacritic": 86,
-      "short_description": "Исследуйте бескрайнее подземелье, полное существ, реликвий и ресурсов в приключенческой песочнице. Добывайте ресурсы, сражайтесь, изготавливайте предметы, выращивайте еду в одиночку или в компании до 8 игроков и раскройте тайну древнего Ядра."
-    },
-    {
       "appid": "4656000",
       "name": "BOMBANANA!",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1791542068",
@@ -629,6 +570,24 @@
       },
       "metacritic": null,
       "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
+    },
+    {
+      "appid": "5300160",
+      "name": "Stellarite Miner",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5300160/d5ad2c6e3b9a057f833ecc029703279b0cc2b699/header.jpg?t=1791918955",
+      "genres": [
+        "Экшены",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Stellarite Miner — расслабляющая инкрементальная игра о добыче ресурсов из астероидов в космосе. Разбивайте породу мощным лазером, собирайте ресурсы, улучшайте корабль и станьте величайшим добытчиком астероидов во вселенной."
     },
     {
       "appid": "1623730",
@@ -650,48 +609,16 @@
       "short_description": "Собирайте удивительных существ — Палов — на просторах огромного мира, отправляйте их сражаться и трудиться на фабриках, стройте с их помощью здания и выращивайте плантации в этом абсолютно новом симуляторе выживания в открытом мире, поддерживающем совместный режим."
     },
     {
-      "appid": "4772880",
-      "name": "Loanwords: A Multilingual Library",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4772880/1d64deea807051d2adf8d1bb2af32a3d88d5cde5/header.jpg?t=1791905464",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Read 25 real novels in French, Japanese, Spanish, Italian, and German, narrated aloud. Tap any sentence for a full breakdown: translation, structure, and every word defined. See a word or pattern again? Jump to every other sentence that uses it."
-    },
-    {
-      "appid": "5179800",
-      "name": "Cone & Crest",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5179800/f1c14bc72b83689d60a9ae6170e7b9cabe2cef8a/header.jpg?t=1791887162",
+      "appid": "3883570",
+      "name": "Invokyr",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883570/a1d37fb2bf0de54d1746d1aa4b83fb7ca81700d8/header.jpg?t=1791907648",
       "genres": [
         "Экшены",
-        "Казуальные игры",
+        "Приключенческие игры",
         "Инди",
-        "Гонки",
-        "Спорт"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Одиночный тайм-аттак в любительском духе. Конусы на открытой площадке, а потом восемь настоящих горных дорог, от Пайкс-Пика до горы Харуна. Шлифуйте заезды, гоняйтесь с призраками других гонщиков в таблицах лидеров Steam или пройдите тур-рогалайт, где карта каждый раз новая. 44 машины для тюнинга."
-    },
-    {
-      "appid": "4853590",
-      "name": "CORRUPT.EXE",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4853590/920f2fb02378f4e6235bb9519debab20879efc03/header.jpg?t=1791877855",
-      "genres": [
-        "Экшены"
+        "Симуляторы",
+        "Бесплатные",
+        "Ранний доступ"
       ],
       "is_free": false,
       "platforms": {
@@ -700,7 +627,83 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "CORRUPT.EXE is a neon roguelite where you play the malware. Swarm-survival action with evolving weapons, a 225-combo fusion system, and an adaptive antivirus that profiles your movement, learns your habits, and hunts you smarter every run. Infect. Evolve. Extract — or go endless."
+      "short_description": "Забытая настолка в проклятом доме так и манит сыграть. Собирайте до 5 друзей, бросайте кубики и выживайте среди оживших кошмаров мастера игры. Рискните всем, используйте особые кости и одолейте зловещую игру, чтобы сбежать."
+    },
+    {
+      "appid": "4940150",
+      "name": "Magnyard",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4940150/f66d92cdb3e87d41f88b2062b4b135c9b9b1de16/header.jpg?t=1791910766",
+      "genres": [
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Менеджмент и автоматизация, построенные как tower defense: штурм — это очередь грузовиков, а башни — шредеры. Постройте автоматизированную свалку, снарядите дронов и принимайте всё более тяжёлые волны отходов. Очередь встала — свалка закрылась."
+    },
+    {
+      "appid": "2254990",
+      "name": "Permafrost",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2254990/693eff202c061aaecba330b44d76485a672bea97/header.jpg?t=1791916040",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Ролевые игры",
+        "Симуляторы",
+        "Ранний доступ"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Permafrost — это «песочница» на выживание среди постапокалиптических льдов. Откройте для себя обширный открытый мир с богатой историей в одиночку или в кооперативном режиме до 4 игроков. Исследуйте, добывайте, создавайте и стройте, чтобы выжить в холоде."
+    },
+    {
+      "appid": "3071240",
+      "name": "Voodoo Fishin'",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3071240/a09810eafb3218a829424143332e4e9e867c60ea/header.jpg?t=1791917639",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Уютно-жуткая кооперативная рыбалка для 1–4 игроков с голосовым чатом по близости. Исследуйте проклятое болото в поисках редкой рыбы, продавайте улов по весу и попытайтесь выжить, пока в темноте на вас идёт охота."
+    },
+    {
+      "appid": "5326380",
+      "name": "A Light in the Gloam",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5326380/b63edee123bbbe2b885ec0d2f1b8e788e18d4f9d/header.jpg?t=1791920421",
+      "genres": [
+        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Ten floors under a town that has fed a flame for nine hundred years. Take three people down, map it square by square, fight what lives there in turns, and find out what the feeding costs. A first-person dungeon crawler in the old style, with four endings."
     }
   ]
 }
