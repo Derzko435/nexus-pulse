@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T04:17:48+03:00",
+  "updatedAt": "2026-10-14T10:48:23+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -470,23 +470,6 @@
       "short_description": "Нидхогг — это эпическая, удостоенная наград игра в фехтование в стиле перетягивания каната, дополненная летающими гигантскими червями."
     },
     {
-      "appid": "4708650",
-      "name": "Blockmind",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4708650/3beda953d23dba4be2888f596e977ec380663a27/header.jpg?t=1791904463",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Решай пространственные головоломки в мире блоков. Найди логику формы и собери идеальное решение."
-    },
-    {
       "appid": "1808500",
       "name": "ARC Raiders",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/29e8af9fbf06833558758f94cfb406746f338c45/header_alt_assets_8.jpg?t=1791401542",
@@ -555,6 +538,24 @@
       "short_description": "Копайте, сражайтесь, исследуйте, стройте! Нет ничего невозможного в этой насыщенной событиями приключенческой игре. Также доступен комплект для четверых!"
     },
     {
+      "appid": "4858610",
+      "name": "Huiyu AI 3D Video",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4858610/16a2523f8649c87aa916bca98e00941d3819f8a1/header.jpg?t=1791908826",
+      "genres": [
+        "Симуляторы",
+        "Анимация и моделирование",
+        "Создание видео"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Huiyu AI 3D Video: 3D-просмотрщик глубины на ИИ в реальном времени. Генерирует карты глубины при воспроизведении, отображает видео как 3D-сцены. Поддерживает TensorRT, локальный кеш, настройку в реальном времени, полный экран"
+    },
+    {
       "appid": "4656000",
       "name": "BOMBANANA!",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1791542068",
@@ -588,6 +589,23 @@
       },
       "metacritic": null,
       "short_description": "Stellarite Miner — расслабляющая инкрементальная игра о добыче ресурсов из астероидов в космосе. Разбивайте породу мощным лазером, собирайте ресурсы, улучшайте корабль и станьте величайшим добытчиком астероидов во вселенной."
+    },
+    {
+      "appid": "5306440",
+      "name": "Hentai Clicker: Kohana is streaming",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5306440/33baf706288c8585454b7b46d0f2dcc5c0d7a65e/header.jpg?t=1791909762",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Hentai clicker: Kohana is streaming — Кликайте, собирайте сердца и очаровывайте Kohana, очень озорную жрицу-кицунэ. Открывайте сцены, наряды, улучшения, голосовые реакции и игривую прогрессию в этом соблазнительном аниме-кликере."
     },
     {
       "appid": "1623730",
@@ -686,24 +704,6 @@
       },
       "metacritic": null,
       "short_description": "Уютно-жуткая кооперативная рыбалка для 1–4 игроков с голосовым чатом по близости. Исследуйте проклятое болото в поисках редкой рыбы, продавайте улов по весу и попытайтесь выжить, пока в темноте на вас идёт охота."
-    },
-    {
-      "appid": "5326380",
-      "name": "A Light in the Gloam",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5326380/b63edee123bbbe2b885ec0d2f1b8e788e18d4f9d/header.jpg?t=1791920421",
-      "genres": [
-        "Приключенческие игры",
-        "Инди",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Ten floors under a town that has fed a flame for nine hundred years. Take three people down, map it square by square, fight what lives there in turns, and find out what the feeding costs. A first-person dungeon crawler in the old style, with four endings."
     }
   ]
 }

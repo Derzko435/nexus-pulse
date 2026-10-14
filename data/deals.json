@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T04:17:53+03:00",
+  "updatedAt": "2026-10-14T10:48:28+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -11,6 +11,16 @@
       "pct": 65,
       "url": "https://store.steampowered.com/app/94400/",
       "steamAppId": "94400"
+    },
+    {
+      "id": "steam-881100",
+      "title": "Noita",
+      "store": "Steam",
+      "old": 435,
+      "neu": 174,
+      "pct": 60,
+      "url": "https://store.steampowered.com/app/881100/",
+      "steamAppId": "881100"
     },
     {
       "id": "steam-1808500",
@@ -33,16 +43,6 @@
       "steamAppId": "3948510"
     },
     {
-      "id": "steam-1332010",
-      "title": "Stray",
-      "store": "Steam",
-      "old": 1269,
-      "neu": 634,
-      "pct": 50,
-      "url": "https://store.steampowered.com/app/1332010/",
-      "steamAppId": "1332010"
-    },
-    {
       "id": "steam-105600",
       "title": "Terraria",
       "store": "Steam",
@@ -51,16 +51,6 @@
       "pct": 50,
       "url": "https://store.steampowered.com/app/105600/",
       "steamAppId": "105600"
-    },
-    {
-      "id": "steam-4858610",
-      "title": "Huiyu AI 3D Video",
-      "store": "Steam",
-      "old": 240,
-      "neu": 144,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/4858610/",
-      "steamAppId": "4858610"
     },
     {
       "id": "steam-4656000",
@@ -83,16 +73,6 @@
       "steamAppId": "5300160"
     },
     {
-      "id": "steam-5306440",
-      "title": "Hentai Clicker: Kohana is streaming",
-      "store": "Steam",
-      "old": 150,
-      "neu": 100,
-      "pct": 33,
-      "url": "https://store.steampowered.com/app/5306440/",
-      "steamAppId": "5306440"
-    },
-    {
       "id": "steam-1623730",
       "title": "Palworld",
       "store": "Steam",
@@ -103,14 +83,14 @@
       "steamAppId": "1623730"
     },
     {
-      "id": "steam-3883570",
-      "title": "Invokyr",
+      "id": "steam-5270030",
+      "title": "THE WAY HOME IS DANGEROUS - Adult Only",
       "store": "Steam",
-      "old": 590,
-      "neu": 442,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/3883570/",
-      "steamAppId": "3883570"
+      "old": 745,
+      "neu": 521,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5270030/",
+      "steamAppId": "5270030"
     },
     {
       "id": "steam-4940150",
@@ -131,6 +111,26 @@
       "pct": 20,
       "url": "https://store.steampowered.com/app/2254990/",
       "steamAppId": "2254990"
+    },
+    {
+      "id": "steam-2725250",
+      "title": "Nientum - Op.ZERO",
+      "store": "Steam",
+      "old": 710,
+      "neu": 568,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/2725250/",
+      "steamAppId": "2725250"
+    },
+    {
+      "id": "steam-5195360",
+      "title": "BitWise",
+      "store": "Steam",
+      "old": 555,
+      "neu": 444,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/5195360/",
+      "steamAppId": "5195360"
     },
     {
       "id": "steam-3071240",
