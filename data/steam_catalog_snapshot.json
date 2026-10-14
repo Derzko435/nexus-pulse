@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T16:51:55+03:00",
+  "updatedAt": "2026-10-14T21:44:18+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -522,6 +522,23 @@
       "short_description": "Приобретите улучшение до ARC Raiders Deluxe Edition, чтобы получить: - Пакет Wanderer Cosmetic Pack, - Косметический предмет для персонажа «Шрам на губе», - Пиу-пиу Эмодзи, - Наряд «Плюшкина», - 2,400 рейдерских жетонов."
     },
     {
+      "appid": "1332010",
+      "name": "Stray",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/71daca1910d664d31240b9623a495e0c0828807f/header.jpg?t=1785424330",
+      "genres": [
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": 82,
+      "short_description": "Потерявшемуся, одинокому, оторванному от семьи бродячему коту предстоит разгадать древнюю тайну, вырваться из давно заброшенного кибергорода и найти дорогу домой."
+    },
+    {
       "appid": "105600",
       "name": "Terraria",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1769844435",
@@ -541,6 +558,44 @@
       "short_description": "Копайте, сражайтесь, исследуйте, стройте! Нет ничего невозможного в этой насыщенной событиями приключенческой игре. Также доступен комплект для четверых!"
     },
     {
+      "appid": "5327690",
+      "name": "Hauberk锁甲地牢",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5327690/9f25524b9d950fe9377cf6af82ce9b77084d28f6/header.jpg?t=1791973904",
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Ролевые игры",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "An acclaimed traditional roguelike, remade with graphics! 50 terrain types, 152 monsters and 171 affixed items to combine — then face the Nameless Unmaker at the bottom of the 100-floor dungeon. Automated exploration lets you focus on stats, skills and gear."
+    },
+    {
+      "appid": "5194790",
+      "name": "FIBS",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5194790/e2ffd78be79076a2aaea8e338b3c89e0dd47bae2/header.jpg?t=1791984114",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "You and 2-5 friends receive a secret word and take turns giving clues. But the impostors don't know the word and must bluff their way through. Discuss, deceive, and vote to uncover the impostors before they fool the table."
+    },
+    {
       "appid": "4656000",
       "name": "BOMBANANA!",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1791542068",
@@ -558,13 +613,11 @@
       "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
     },
     {
-      "appid": "5300160",
-      "name": "Stellarite Miner",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5300160/d5ad2c6e3b9a057f833ecc029703279b0cc2b699/header.jpg?t=1791918955",
+      "appid": "5282350",
+      "name": "Arrows Without End",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5282350/c64cd4dff9327a80dd7ad22433f36e4d2cd0fe64/header.jpg?t=1791966918",
       "genres": [
-        "Экшены",
-        "Казуальные игры",
-        "Инди"
+        "Казуальные игры"
       ],
       "is_free": false,
       "platforms": {
@@ -573,7 +626,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Stellarite Miner — расслабляющая инкрементальная игра о добыче ресурсов из астероидов в космосе. Разбивайте породу мощным лазером, собирайте ресурсы, улучшайте корабль и станьте величайшим добытчиком астероидов во вселенной."
+      "short_description": "Китайская головоломка-лабиринт из стрел по мотивам мифа о герое, сбившем солнца. Двигайте стрелы, чтобы они вылетали с поля и сбивали солнца с неба. 200 выверенных вручную уровней, 10 видов солнц, 20 достижений, мировые таблицы времени, ежедневное испытание и спидранны — бесконечные стрелы, бесконечные головоломки."
     },
     {
       "appid": "1623730",
@@ -613,22 +666,24 @@
       "short_description": "Пробейтесь через полный опасностей город и помогите Рэйке благополучно вернуться домой. Собирайте разнообразное оружие, выполняйте задания, сражайтесь и исследуйте мир, раскрывая историю вместе с Рэйкой в этом приключенческом экшене для взрослых."
     },
     {
-      "appid": "4940150",
-      "name": "Magnyard",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4940150/f66d92cdb3e87d41f88b2062b4b135c9b9b1de16/header.jpg?t=1791910766",
+      "appid": "5318330",
+      "name": "Visual Novel: Ali Baba Basemen",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5318330/0f2e6df8711331476d96d013f38a07ad0c9a71ba/header.jpg?t=1791966768",
       "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Казуальные игры",
         "Инди",
-        "Симуляторы",
-        "Стратегии"
+        "Ролевые игры"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
-        "linux": true
+        "linux": false
       },
       "metacritic": null,
-      "short_description": "Менеджмент и автоматизация, построенные как tower defense: штурм — это очередь грузовиков, а башни — шредеры. Постройте автоматизированную свалку, снарядите дронов и принимайте всё более тяжёлые волны отходов. Очередь встала — свалка закрылась."
+      "short_description": "Макс украл проклятое кольцо и теперь должен пройти безумные испытания, чтобы вернуть его. Призраки, мутировавшие хомяки, говорящие животные, параллельный мир и готка из детсада — обычный день для того, кто однажды решил не слушать предупреждения."
     },
     {
       "appid": "2254990",
@@ -649,66 +704,6 @@
       },
       "metacritic": null,
       "short_description": "Permafrost — это «песочница» на выживание среди постапокалиптических льдов. Откройте для себя обширный открытый мир с богатой историей в одиночку или в кооперативном режиме до 4 игроков. Исследуйте, добывайте, создавайте и стройте, чтобы выжить в холоде."
-    },
-    {
-      "appid": "2725250",
-      "name": "Nientum - Op.ZERO",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2725250/29049beddb4ece7370fc561f5fa8fedd9e133c6b/header.jpg?t=1791950185",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди",
-        "Ролевые игры",
-        "Симуляторы",
-        "Спорт"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "A 2D action-adventure where the story unfolds by tuning the stage with music. A play by Aleph and Liora, who have lost their memories. A beautiful yet eerie stage, and the secret of the forgotten theater await. Your choices will determine the play's ending — and their fates."
-    },
-    {
-      "appid": "5195360",
-      "name": "BitWise",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5195360/7b2eed2d2b29f88c9339cacba2cf8d68777aab0a/header.jpg?t=1791954562",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Close the loop and the lamp lights. Build the relay, the gate, the adder, the latch, the counter, and a machine that reads Morse. Every circuit runs on a real simulator, and the parts you build become parts you build with. 238 levels about electricity and the machines people made from it."
-    },
-    {
-      "appid": "3071240",
-      "name": "Voodoo Fishin'",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3071240/a09810eafb3218a829424143332e4e9e867c60ea/header.jpg?t=1791917639",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Уютно-жуткая кооперативная рыбалка для 1–4 игроков с голосовым чатом по близости. Исследуйте проклятое болото в поисках редкой рыбы, продавайте улов по весу и попытайтесь выжить, пока в темноте на вас идёт охота."
     }
   ]
 }
