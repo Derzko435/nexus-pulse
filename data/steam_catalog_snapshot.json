@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T21:44:18+03:00",
+  "updatedAt": "2026-10-15T02:19:26+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -420,7 +420,7 @@
     {
       "appid": "227300",
       "name": "Euro Truck Simulator 2",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/4f6ff00d3732ed0da2e28a4e7182f0036df8ab90/header_alt_assets_8.jpg?t=1791702263",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/9a81dc3126c56637297b654f9dcac057cfd79b77/header.jpg?t=1792004085",
       "genres": [
         "Инди",
         "Симуляторы"
@@ -452,31 +452,11 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "94400",
-      "name": "Nidhogg",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/94400/header.jpg?t=1791912911",
+      "appid": "1702010",
+      "name": "Sengoku Dynasty",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1702010/16a107028f000149c4a391b2eb4db71bac77c9b5/header.jpg?t=1792008540",
       "genres": [
-        "Экшены",
-        "Инди",
-        "Спорт"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": 81,
-      "short_description": "Нидхогг — это эпическая, удостоенная наград игра в фехтование в стиле перетягивания каната, дополненная летающими гигантскими червями."
-    },
-    {
-      "appid": "881100",
-      "name": "Noita",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/881100/header.jpg?t=1675987871",
-      "genres": [
-        "Экшены",
         "Приключенческие игры",
-        "Инди",
         "Ролевые игры",
         "Симуляторы"
       ],
@@ -487,7 +467,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Noita — боевик с элементами «roguelike» с физическим моделированием пикселей. Вы сражаетесь, исследуете различные места, расплавляете, сжигаете, замораживаете и испаряете препятствия, используя заклинания. Можно просто исследовать всё вокруг и смотреть, сколько проблем удастся нажить!"
+      "short_description": "Sengoku Dynasty перенесет вас в феодальную Японию. Стройте деревни, развивайте общину и меняйте открытый мир клинком или монетой. Укреплять власть или отдыхать в горячем источнике — решать лишь вам... или вместе с друзьями, ведь играть можно даже вчетвером!"
     },
     {
       "appid": "1808500",
@@ -522,23 +502,6 @@
       "short_description": "Приобретите улучшение до ARC Raiders Deluxe Edition, чтобы получить: - Пакет Wanderer Cosmetic Pack, - Косметический предмет для персонажа «Шрам на губе», - Пиу-пиу Эмодзи, - Наряд «Плюшкина», - 2,400 рейдерских жетонов."
     },
     {
-      "appid": "1332010",
-      "name": "Stray",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/71daca1910d664d31240b9623a495e0c0828807f/header.jpg?t=1785424330",
-      "genres": [
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": 82,
-      "short_description": "Потерявшемуся, одинокому, оторванному от семьи бродячему коту предстоит разгадать древнюю тайну, вырваться из давно заброшенного кибергорода и найти дорогу домой."
-    },
-    {
       "appid": "105600",
       "name": "Terraria",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1769844435",
@@ -558,15 +521,13 @@
       "short_description": "Копайте, сражайтесь, исследуйте, стройте! Нет ничего невозможного в этой насыщенной событиями приключенческой игре. Также доступен комплект для четверых!"
     },
     {
-      "appid": "5327690",
-      "name": "Hauberk锁甲地牢",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5327690/9f25524b9d950fe9377cf6af82ce9b77084d28f6/header.jpg?t=1791973904",
+      "appid": "1751730",
+      "name": "FIRE AND ASHES",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1751730/b26e9caea8431e9f13e29b3cde4aecd6dbddbdfc/header.jpg?t=1791993466",
       "genres": [
+        "Экшены",
         "Приключенческие игры",
-        "Казуальные игры",
-        "Инди",
-        "Ролевые игры",
-        "Стратегии"
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -575,25 +536,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "An acclaimed traditional roguelike, remade with graphics! 50 terrain types, 152 monsters and 171 affixed items to combine — then face the Nameless Unmaker at the bottom of the 100-floor dungeon. Automated exploration lets you focus on stats, skills and gear."
-    },
-    {
-      "appid": "5194790",
-      "name": "FIBS",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5194790/e2ffd78be79076a2aaea8e338b3c89e0dd47bae2/header.jpg?t=1791984114",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "You and 2-5 friends receive a secret word and take turns giving clues. But the impostors don't know the word and must bluff their way through. Discuss, deceive, and vote to uncover the impostors before they fool the table."
+      "short_description": "Вы приходите в себя в жуткой психиатрической лечебнице. Fire and Ashes – это иммерсивный хоррор, где безумие и реальность смешиваются, а каждый монстр слышит ваш крик… даже за пределами больницы."
     },
     {
       "appid": "4656000",
@@ -613,30 +556,13 @@
       "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
     },
     {
-      "appid": "5282350",
-      "name": "Arrows Without End",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5282350/c64cd4dff9327a80dd7ad22433f36e4d2cd0fe64/header.jpg?t=1791966918",
+      "appid": "3892270",
+      "name": "Казино с друзьями",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/395e6d7972474333a698b26f8aa5597bf38109a1/header.jpg?t=1791977170",
       "genres": [
-        "Казуальные игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Китайская головоломка-лабиринт из стрел по мотивам мифа о герое, сбившем солнца. Двигайте стрелы, чтобы они вылетали с поля и сбивали солнца с неба. 200 выверенных вручную уровней, 10 видов солнц, 20 достижений, мировые таблицы времени, ежедневное испытание и спидранны — бесконечные стрелы, бесконечные головоломки."
-    },
-    {
-      "appid": "1623730",
-      "name": "Palworld",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/6912f19c43a95ff5fe514eedd35e68bf12335459/header.jpg?t=1790336367",
-      "genres": [
-        "Экшены",
         "Приключенческие игры",
         "Инди",
-        "Ролевые игры"
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
@@ -645,45 +571,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Собирайте удивительных существ — Палов — на просторах огромного мира, отправляйте их сражаться и трудиться на фабриках, стройте с их помощью здания и выращивайте плантации в этом абсолютно новом симуляторе выживания в открытом мире, поддерживающем совместный режим."
-    },
-    {
-      "appid": "5270030",
-      "name": "THE WAY HOME IS DANGEROUS - Adult Only",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5270030/23bd2809ab9f7c20d6a07797640084cebddb82f3/header.jpg?t=1791944374",
-      "genres": [
-        "Экшены",
-        "Инди",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Пробейтесь через полный опасностей город и помогите Рэйке благополучно вернуться домой. Собирайте разнообразное оружие, выполняйте задания, сражайтесь и исследуйте мир, раскрывая историю вместе с Рэйкой в этом приключенческом экшене для взрослых."
-    },
-    {
-      "appid": "5318330",
-      "name": "Visual Novel: Ali Baba Basemen",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5318330/0f2e6df8711331476d96d013f38a07ad0c9a71ba/header.jpg?t=1791966768",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Макс украл проклятое кольцо и теперь должен пройти безумные испытания, чтобы вернуть его. Призраки, мутировавшие хомяки, говорящие животные, параллельный мир и готка из детсада — обычный день для того, кто однажды решил не слушать предупреждения."
+      "short_description": "Кооперативная игра про исследование казино для 1–6 человек. У вас с друзьями один банковский счёт и огромный долг на всех: играйте, покупайте предметы и делайте глупости на пути к вершине башни казино. Накопите на квоту для ростовщика за 5 минут или пожалеете..."
     },
     {
       "appid": "2254990",
@@ -704,6 +592,115 @@
       },
       "metacritic": null,
       "short_description": "Permafrost — это «песочница» на выживание среди постапокалиптических льдов. Откройте для себя обширный открытый мир с богатой историей в одиночку или в кооперативном режиме до 4 игроков. Исследуйте, добывайте, создавайте и стройте, чтобы выжить в холоде."
+    },
+    {
+      "appid": "2929250",
+      "name": "over the hill",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/header.jpg?t=1792002879",
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Гонки",
+        "Симуляторы",
+        "Спорт"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Откройте для себя мир в золотой век бездорожья. За рулем культовых внедорожников 60–80-х годов — в одиночку или с друзьями — покоряйте сложные трассы и исследуйте живописные места."
+    },
+    {
+      "appid": "4059000",
+      "name": "Cozy Builder",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4059000/121fde8712579a6f7b5095f5fad0d88f360bec75/header.jpg?t=1791994869",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Build, design, and decorate your dream château in a cozy vineyard valley. Live among your creations, harvest grapes from sunlit vineyards, and craft artisanal wine blends in a relaxing sandbox builder where every home helps restore beauty and balance to the countryside."
+    },
+    {
+      "appid": "2626980",
+      "name": "Isle Forge",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2626980/994a60427a6106f8b1af5d50dc87f10733a6ddc1/header.jpg?t=1791992339",
+      "genres": [
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Shape a living volcanic archipelago in this relaxed god game. Guide autonomous islanders as they gather, build, forge lava-made paths, rescue distant communities, and face threats from hostile islands."
+    },
+    {
+      "appid": "5204280",
+      "name": "Locker Room: Femboy Edition",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5204280/55cc222e8bda3ce5f75479dc6f11812c1ddb711b/header.jpg?t=1791992678",
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Кира, 22 года, связующий студенческой волейбольной команды, холоден со всеми и не может объяснить, что тянет его к тренеру. Он только намекает: взгляд чуть дольше, футболка снята чуть медленнее. Тренер замечает всё и не делает первый шаг. Медленная визуальная новелла для взрослых, семь эпизодов."
+    },
+    {
+      "appid": "2871520",
+      "name": "Deep Dish Dungeon",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2871520/a941857720d5b6a62a2e0a7646f2ca46b00039b6/header_alt_assets_1.jpg?t=1791960486",
+      "genres": [
+        "Экшены",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Игра на выживание, где вам предстоит пробираться через отрисованные вручную подземелья. Особые приметы: элементы метроидвании и развитая система крафта. Исследуйте подземные глубины соло или с друзьями в сетевой совместной игре."
+    },
+    {
+      "appid": "2918650",
+      "name": "Starbiz",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2918650/header.jpg?t=1792003797",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Discover strategic depth in our space board game! Use star-currency to buy interstellar sites. Compete with friends in turn-based matches, utilizing the Starbridge for tactical advantage. Accumulate currency for the Lottery, offering rewards and site boosts. Achieve cosmic success"
     }
   ]
 }

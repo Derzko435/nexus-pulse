@@ -1,7 +1,37 @@
 {
-  "updatedAt": "2026-10-14T21:44:23+03:00",
+  "updatedAt": "2026-10-15T02:19:31+03:00",
   "source": "steam-specials-ru",
   "deals": [
+    {
+      "id": "steam-668580",
+      "title": "Atomic Heart",
+      "store": "Steam",
+      "old": 2499,
+      "neu": 499,
+      "pct": 80,
+      "url": "https://store.steampowered.com/app/668580/",
+      "steamAppId": "668580"
+    },
+    {
+      "id": "steam-2183900",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "store": "Steam",
+      "old": 3199,
+      "neu": 799,
+      "pct": 75,
+      "url": "https://store.steampowered.com/app/2183900/",
+      "steamAppId": "2183900"
+    },
+    {
+      "id": "steam-72176",
+      "title": "Atomic Heart - Ultimate Edition",
+      "store": "Steam",
+      "old": 5091,
+      "neu": 852,
+      "pct": 58,
+      "url": "https://store.steampowered.com/app/72176/",
+      "steamAppId": "72176"
+    },
     {
       "id": "steam-1702010",
       "title": "Sengoku Dynasty",
@@ -33,16 +63,6 @@
       "steamAppId": "3948510"
     },
     {
-      "id": "steam-105600",
-      "title": "Terraria",
-      "store": "Steam",
-      "old": 385,
-      "neu": 192,
-      "pct": 50,
-      "url": "https://store.steampowered.com/app/105600/",
-      "steamAppId": "105600"
-    },
-    {
       "id": "steam-1751730",
       "title": "FIRE AND ASHES",
       "store": "Steam",
@@ -51,6 +71,16 @@
       "pct": 40,
       "url": "https://store.steampowered.com/app/1751730/",
       "steamAppId": "1751730"
+    },
+    {
+      "id": "steam-4290170",
+      "title": "Mudventure",
+      "store": "Steam",
+      "old": 449,
+      "neu": 269,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/4290170/",
+      "steamAppId": "4290170"
     },
     {
       "id": "steam-4656000",
@@ -73,14 +103,14 @@
       "steamAppId": "3892270"
     },
     {
-      "id": "steam-2254990",
-      "title": "Permafrost",
+      "id": "steam-5198230",
+      "title": "Dealer's Tell: All Bets Are Final",
       "store": "Steam",
-      "old": 1799,
-      "neu": 1439,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/2254990/",
-      "steamAppId": "2254990"
+      "old": 385,
+      "neu": 288,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/5198230/",
+      "steamAppId": "5198230"
     },
     {
       "id": "steam-2929250",
@@ -103,16 +133,6 @@
       "steamAppId": "4059000"
     },
     {
-      "id": "steam-2626980",
-      "title": "Isle Forge",
-      "store": "Steam",
-      "old": 465,
-      "neu": 372,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/2626980/",
-      "steamAppId": "2626980"
-    },
-    {
       "id": "steam-5204280",
       "title": "Locker Room: Femboy Edition",
       "store": "Steam",
@@ -121,26 +141,6 @@
       "pct": 20,
       "url": "https://store.steampowered.com/app/5204280/",
       "steamAppId": "5204280"
-    },
-    {
-      "id": "steam-2871520",
-      "title": "Deep Dish Dungeon",
-      "store": "Steam",
-      "old": 649,
-      "neu": 551,
-      "pct": 15,
-      "url": "https://store.steampowered.com/app/2871520/",
-      "steamAppId": "2871520"
-    },
-    {
-      "id": "steam-2918650",
-      "title": "Starbiz",
-      "store": "Steam",
-      "old": 465,
-      "neu": 395,
-      "pct": 15,
-      "url": "https://store.steampowered.com/app/2918650/",
-      "steamAppId": "2918650"
     }
   ]
 }
