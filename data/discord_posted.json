@@ -1,25 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-10-14T10:48:46+03:00",
+ "updatedAt": "2026-10-14T11:55:03+03:00",
  "posted": {
   "news": [
-   "05f4dbbe79d6",
-   "69baa6c334fe",
-   "f7b1c5bdf839",
-   "dcccf3dd5a4b",
-   "75b47fe3c736",
-   "d496bab13274",
-   "9460b8bc95da",
-   "a979e901a9b8",
-   "98c1323e4b28",
-   "ab1807797f0f",
-   "2181d18d2f5c",
-   "4949837487ed",
-   "31d81bfe1f15",
-   "4d54f667b758",
-   "00e00301ca7c",
-   "300ba81ee19e",
-   "52aaf2e53790",
    "a0061418f090",
    "d85687209507",
    "eb477e40a8fd",
@@ -502,7 +485,24 @@
    "bf3e9ca27b51",
    "9b26e416dd18",
    "dc2c9c91cfa9",
-   "2c187c2517c4"
+   "2c187c2517c4",
+   "7d82a9ae5c08",
+   "3685122a9b4f",
+   "683df449ba29",
+   "c429a49b512d",
+   "daadc4f18610",
+   "d6320f8d67e2",
+   "d175beb66259",
+   "db5c24606f2b",
+   "c8806f692a35",
+   "debc338acf7e",
+   "4afeefd7d22e",
+   "31c30f55a1c1",
+   "f651be2f583d",
+   "66a66d051302",
+   "da752d11592e",
+   "d43b730874f7",
+   "f5028b2a094a"
   ],
   "deals": [
    "steam-246420:90",
@@ -858,7 +858,10 @@
    "live:bo3-131718",
    "live:bo3-129976",
    "result:bo3-129976",
-   "digest:2026-10-14"
+   "digest:2026-10-14",
+   "live:bo3-131904",
+   "live:bo3-131905",
+   "live:bo3-131666"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -882,7 +885,8 @@
    "rivals:2026-10-08",
    "apex:2026-10-08",
    "cs2:2026-10-09",
-   "apex:2026-10-09"
+   "apex:2026-10-09",
+   "valorant:2026-10-13"
   ],
   "videos": [
    "5lXlYn6ajK8",
@@ -1237,7 +1241,14 @@
    "5sbhTpga1QM",
    "72wFPL3Wh8s",
    "udr4_nCbaYs",
-   "MkC-uCZ6jRI"
+   "MkC-uCZ6jRI",
+   "Tt_1X7UrgAQ",
+   "5sxeIS-I3cg",
+   "V5IWPx2hglE",
+   "ERhHyo_Z1Hc",
+   "J35p3aqgaq4",
+   "XMwtjMglb1I",
+   "7r_GaVY8YuU"
   ],
   "releases": [
    "week:2026-W39",
@@ -1267,7 +1278,10 @@
    "day:2026-10-13:3219030",
    "day:2026-10-13:2828710",
    "day:2026-10-14:3115160",
-   "day:2026-10-14:2929250"
+   "day:2026-10-14:2929250",
+   "day:2026-10-14:x-kururin-paradise",
+   "day:2026-10-14:x-metal-slug-advance",
+   "day:2026-10-14:x-monster-rancher-advance"
   ],
   "gotd": [
    "gotd:2026-09-24"
@@ -1277,7 +1291,8 @@
   "2026-10-12T09:41+03:00",
   "2026-10-12T14:05+03:00",
   "2026-10-13T04:02+03:00",
-  "2026-10-13T14:13+03:00"
+  "2026-10-13T14:13+03:00",
+  "2026-10-14T11:55+03:00"
  ],
  "weekly": {
   "gamenight": {
