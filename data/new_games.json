@@ -1,11 +1,38 @@
 {
- "updatedAt": "2026-10-13T13:46:38+03:00",
+ "updatedAt": "2026-10-14T11:52:18+03:00",
  "items": [
+  {
+   "appid": 2828710,
+   "title": "Valor Mortis",
+   "date": "2026-10-13",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2828710/e729c7f909db5c52ea780923d9b258517162866a/header.jpg?t=1791924072",
+   "desc": "Valor Mortis — это экшен от первого лица в жанре Souls-like от создателей игры Ghostrunner. Вы играете за восставшего из мертвых солдата наполеоновской армии. В вашем распоряжении сверхъестественные силы, которые помогут сражаться с монстрами и раскрыть заговор, угрожающий всему человечеству.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Ролевые игры"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Xbox"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "One More Level",
+   "price": "2099 руб.",
+   "url": "https://store.steampowered.com/app/2828710/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/2828710/"
+   },
+   "reviews": 277
+  },
   {
    "appid": 2887580,
    "title": "Active Matter",
    "date": "2026-09-15",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2887580/191801a8de4db48075ef195473a922391cb4c6de/header.jpg?t=1791626919",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2887580/191801a8de4db48075ef195473a922391cb4c6de/header.jpg?t=1791892413",
    "desc": "Присоединяйтесь к рейдам за добычей или PvP-сражениям в этом новом реалистичном военном шутере, в мире расколотой мультивселенной. Сражайтесь в квантово-нестабильных зонах за контроль над активной материей — веществом, искривляющим время и пространство.",
    "genres": [
     "Экшены",
@@ -24,7 +51,79 @@
    "links": {
     "steam": "https://store.steampowered.com/app/2887580/"
    },
-   "reviews": 3440
+   "reviews": 3499
+  },
+  {
+   "appid": 2871520,
+   "title": "Deep Dish Dungeon",
+   "date": "2026-10-13",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2871520/a941857720d5b6a62a2e0a7646f2ca46b00039b6/header_alt_assets_1.jpg?t=1791960486",
+   "desc": "Игра на выживание, где вам предстоит пробираться через отрисованные вручную подземелья. Особые приметы: элементы метроидвании и развитая система крафта. Исследуйте подземные глубины соло или с друзьями в сетевой совместной игре.",
+   "genres": [
+    "Экшены",
+    "Стратегии"
+   ],
+   "platforms": [
+    "PC",
+    "Mac"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Behold Studios",
+   "price": "551 руб.",
+   "url": "https://store.steampowered.com/app/2871520/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/2871520/"
+   },
+   "reviews": 124
+  },
+  {
+   "appid": 5020310,
+   "title": "Dub Together",
+   "date": "2026-09-01",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5020310/5120fdb5c1622bf7317187323aac962b3034fb93/header.jpg?t=1790943462",
+   "desc": "До восьми игроков дублируют видеоклипы и придают им совершенно новый смысл. Вы записываете сцену, затем вместе смотрите каждый результат и голосуете. Благодаря голосовым эффектам, встроенному редактору клипов и живому голосованию из чата Twitch.",
+   "genres": [
+    "Казуальные игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Banani",
+   "price": "240 руб.",
+   "url": "https://store.steampowered.com/app/5020310/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/5020310/"
+   },
+   "reviews": 468
+  },
+  {
+   "appid": 3115160,
+   "title": "Warhammer 40,000: Boltgun 2",
+   "date": "2026-10-14",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3115160/c99bc374ca10d0335fe5e8f37942aea35419e4d4/header.jpg?t=1791280455",
+   "desc": "Примерьте на себя роль Ультрамарина Малума Каэдо или сестры Битвы Ниры Вейрат, чья цель — уничтожить еретиков во имя Императора в Warhammer 40 000: Boltgun 2! В сиквеле ретро-шутера от первого лица ещё больше врагов, оружия и способов искоренять ересь!",
+   "genres": [
+    "Экшены",
+    "Инди"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Auroch Digital",
+   "price": "945 руб.",
+   "url": "https://store.steampowered.com/app/3115160/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/3115160/"
+   }
   },
   {
    "appid": 4126040,
@@ -51,10 +150,33 @@
    }
   },
   {
+   "appid": 3314580,
+   "title": "Trash Day",
+   "date": "2026-10-13",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314580/6d7cb32debcbdba122624fae234c659cdff2b4bf/header.jpg?t=1791911043",
+   "desc": "Объединяйтесь со своей бандой енотов в кооперативном приключении с реалистичной физикой для 1–6 игроков. Собирайте мусор, набивайте им угнанный прицеп и тащите его в енотов рай. Ваша полосатая жизнь удалась!",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Off by One Games",
+   "price": "324 руб.",
+   "url": "https://store.steampowered.com/app/3314580/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/3314580/"
+   }
+  },
+  {
    "appid": 2254990,
    "title": "Permafrost",
    "date": "2026-10-09",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2254990/693eff202c061aaecba330b44d76485a672bea97/header.jpg?t=1791608052",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2254990/693eff202c061aaecba330b44d76485a672bea97/header.jpg?t=1791916040",
    "desc": "Permafrost — это «песочница» на выживание среди постапокалиптических льдов. Откройте для себя обширный открытый мир с богатой историей в одиночку или в кооперативном режиме до 4 игроков. Исследуйте, добывайте, создавайте и стройте, чтобы выжить в холоде.",
    "genres": [
     "Экшены",
@@ -73,7 +195,32 @@
    "links": {
     "steam": "https://store.steampowered.com/app/2254990/"
    },
-   "reviews": 1066
+   "reviews": 1180
+  },
+  {
+   "appid": 4656000,
+   "title": "BOMBANANA!",
+   "date": "2026-09-02",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1791542068",
+   "desc": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?",
+   "genres": [
+    "Казуальные игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC",
+    "Mac"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Lefto Studio",
+   "price": "126 руб.",
+   "url": "https://store.steampowered.com/app/4656000/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4656000/"
+   },
+   "reviews": 3544
   },
   {
    "appid": 3493540,
@@ -102,41 +249,17 @@
    "links": {
     "steam": "https://store.steampowered.com/app/3493540/"
    },
-   "reviews": 5944
+   "reviews": 6040
   },
   {
-   "appid": 4656000,
-   "title": "BOMBANANA!",
-   "date": "2026-09-02",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1791542068",
-   "desc": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?",
+   "appid": 3299050,
+   "title": "No Such Place",
+   "date": "2026-10-13",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3299050/8f84cb5686fdaab8db3d7c3d338d04c9e08c947a/header.jpg?t=1791966517",
+   "desc": "Добро пожаловать в Unknown Research Consortium (U.R.C.). Проводите разведоперации, устраняйте таинственные угрозы, собирайте важную информацию и добирайтесь до точки эвакуации в полном опасностей изометрическом экстракшен-шутере.",
    "genres": [
-    "Казуальные игры",
-    "Инди"
-   ],
-   "platforms": [
-    "PC",
-    "Mac"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Lefto Studio",
-   "price": "126 руб.",
-   "url": "https://store.steampowered.com/app/4656000/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4656000/"
-   },
-   "reviews": 3494
-  },
-  {
-   "appid": 5020310,
-   "title": "Dub Together",
-   "date": "2026-09-01",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5020310/5120fdb5c1622bf7317187323aac962b3034fb93/header.jpg?t=1790943462",
-   "desc": "До восьми игроков дублируют видеоклипы и придают им совершенно новый смысл. Вы записываете сцену, затем вместе смотрите каждый результат и голосуете. Благодаря голосовым эффектам, встроенному редактору клипов и живому голосованию из чата Twitch.",
-   "genres": [
-    "Казуальные игры",
+    "Экшены",
+    "Приключенческие игры",
     "Инди"
    ],
    "platforms": [
@@ -145,13 +268,12 @@
    "stores": [
     "Steam"
    ],
-   "developer": "Banani",
-   "price": "240 руб.",
-   "url": "https://store.steampowered.com/app/5020310/",
+   "developer": "ChillyRoom, CritTeam 暴击组",
+   "price": "592 руб.",
+   "url": "https://store.steampowered.com/app/3299050/",
    "links": {
-    "steam": "https://store.steampowered.com/app/5020310/"
-   },
-   "reviews": 459
+    "steam": "https://store.steampowered.com/app/3299050/"
+   }
   },
   {
    "appid": 892970,
@@ -181,129 +303,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/892970/"
    },
-   "reviews": 473222
-  },
-  {
-   "appid": 3743140,
-   "title": "Battleplan",
-   "date": "2026-10-12",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3743140/561aa717c01f3708c8a028b59cd18984476c7407/header_alt_assets_1.jpg?t=1791816634",
-   "desc": "Battleplan — историческая стратегия на тему Второй мировой войны. Испытайте непревзойденный реализм и симуляцию в реальном времени. Сражайтесь на огромных полях боя, воссозданных на основе реальных географических данных. Создайте армию, настроив порядок ведения боя и цепочку командования.",
-   "genres": [
-    "Стратегии"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Foolish Mortals Games Inc.",
-   "price": "1500 руб.",
-   "url": "https://store.steampowered.com/app/3743140/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/3743140/"
-   },
-   "reviews": 101
-  },
-  {
-   "appid": 3883570,
-   "title": "Invokyr",
-   "date": "2026-10-08",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883570/a1d37fb2bf0de54d1746d1aa4b83fb7ca81700d8/header.jpg?t=1791547174",
-   "desc": "Забытая настолка в проклятом доме так и манит сыграть. Собирайте до 5 друзей, бросайте кубики и выживайте среди оживших кошмаров мастера игры. Рискните всем, используйте особые кости и одолейте зловещую игру, чтобы сбежать.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Инди"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Ludogram",
-   "price": "442 руб.",
-   "url": "https://store.steampowered.com/app/3883570/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/3883570/"
-   },
-   "reviews": 525
-  },
-  {
-   "appid": 4019220,
-   "title": "Dressmaker",
-   "date": "2026-09-21",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/f1cd08127872e60e4c47a4bc3e40d682d94741bf/header.jpg?t=1791464969",
-   "desc": "Шейте платья! Подбирайте ткань, вырезайте детали по выкройкам и сшивайте их, чтобы радовать привередливых горожан (или портить их планы!) в этом милом симуляторе модного ателье.",
-   "genres": [
-    "Казуальные игры",
-    "Симуляторы"
-   ],
-   "platforms": [
-    "PC",
-    "Mac"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Cozy Lives",
-   "price": "666,05 руб.",
-   "url": "https://store.steampowered.com/app/4019220/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4019220/"
-   },
-   "reviews": 12834
-  },
-  {
-   "appid": 2288340,
-   "title": "ACE COMBAT 8: WINGS OF THEVE",
-   "date": "2026-10-01",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288340/13dea8084135fd130605b78189c82e39bf944c35/header.jpg?t=1791286652",
-   "desc": "Займите свое место среди лучших пилотов. Примите участие в динамичных воздушных боях, где требуется мастерство и решимость, а мощное вооружение дает преимущество. Погрузитесь в кампанию, полную опасных миссий, непростых решений и личных историй отряда.",
-   "genres": [
-    "Экшены"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Bandai Namco Aces Inc.",
-   "price": "4999 руб.",
-   "url": "https://store.steampowered.com/app/2288340/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/2288340/"
-   },
-   "reviews": 14863
-  },
-  {
-   "appid": 2954010,
-   "title": "Burn With Me",
-   "date": "2026-10-12",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2954010/47e02a56fb87683e8075fc01065998dd7b226b84/header.jpg?t=1791878369",
-   "desc": "Burn With Me — карточная игра с оккультными историями о сокровенных желаниях. Чтобы призвать Личного Демона, придётся освоить непривычные правила игры, сжечь много своих карт... и свою душу.",
-   "genres": [
-    "Казуальные игры",
-    "Инди",
-    "Стратегии"
-   ],
-   "platforms": [
-    "PC",
-    "Mac",
-    "Linux"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Nozomu Games",
-   "price": "297 руб.",
-   "url": "https://store.steampowered.com/app/2954010/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/2954010/"
-   }
+   "reviews": 473391
   },
   {
    "appid": 2821390,

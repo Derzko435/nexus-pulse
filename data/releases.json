@@ -1,83 +1,68 @@
 {
- "updatedAt": "2026-10-13T13:46:07+03:00",
+ "updatedAt": "2026-10-14T11:51:45+03:00",
  "items": [
   {
-   "appid": 2871520,
-   "title": "Deep Dish Dungeon",
-   "date": "2026-10-13",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2871520/ace3e079398d35a36108c18ec74bf2d81b6c994b/header_alt_assets_0.jpg?t=1791548936",
-   "desc": "Игра на выживание, где вам предстоит пробираться через отрисованные вручную подземелья. Особые приметы: элементы метроидвании и развитая система крафта. Исследуйте подземные глубины соло или с друзьями в сетевой совместной игре.",
+   "appid": "x-kururin-paradise",
+   "title": "Kururin Paradise",
+   "date": "2026-10-14",
+   "image": "https://upload.wikimedia.org/wikipedia/en/8/80/Kururin_Paradise_box_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Kururin Paradise — видеоигра-головоломка 2002 года, разработанная Eighting и изданная Nintendo для Game Boy Advance. Это вторая часть серии Курурин и продолжение Куру Куру Курурин (2001), выпущенная исключительно в Японии 6 декабря 2002 года. Североамериканский релиз…",
    "genres": [
-    "Экшены",
-    "Стратегии"
+    "Головоломка"
    ],
    "platforms": [
-    "PC",
-    "Mac"
+    "Switch"
    ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Behold Studios",
+   "stores": [],
+   "developer": "Eighting",
    "price": "",
-   "url": "https://store.steampowered.com/app/2871520/",
+   "url": "https://en.wikipedia.org/wiki/Kururin_Paradise",
    "links": {
-    "steam": "https://store.steampowered.com/app/2871520/"
-   }
-  },
-  {
-   "appid": 3219030,
-   "title": "Planet Zoo 2",
-   "date": "2026-10-13",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219030/a5131aa4b84d04a55e3b9c561d7c886cc22bbe1c/header.jpg?t=1791804561",
-   "desc": "Создайте собственный мир дикой природы в Planet Zoo 2. Стройте уникальные зоопарки по всему миру и заселяйте их удивительными животными, включая летающих птиц и подводных обитателей.",
-   "genres": [
-    "Строительство и менеджмент"
-   ],
-   "platforms": [
-    "PC",
-    "PlayStation",
-    "Xbox"
-   ],
-   "stores": [
-    "Steam",
-    "Epic"
-   ],
-   "developer": "Frontier Developments",
-   "price": "",
-   "url": "https://store.steampowered.com/app/3219030/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/3219030/",
-    "epic": "https://store.epicgames.com/ru/p/planet-zoo-2-cbdaa7",
-    "wiki": "https://en.wikipedia.org/wiki/Planet_Zoo_2"
+    "wiki": "https://en.wikipedia.org/wiki/Kururin_Paradise"
    },
    "source": "wiki"
   },
   {
-   "appid": 2828710,
-   "title": "Valor Mortis",
-   "date": "2026-10-13",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2828710/e729c7f909db5c52ea780923d9b258517162866a/header.jpg?t=1791829283",
-   "desc": "Valor Mortis — это экшен от первого лица в жанре Souls-like от создателей игры Ghostrunner. Вы играете за восставшего из мертвых солдата наполеоновской армии. В вашем распоряжении сверхъестественные силы, которые помогут сражаться с монстрами и раскрыть заговор, угрожающий всему человечеству.",
+   "appid": "x-metal-slug-advance",
+   "title": "Metal Slug Advance",
+   "date": "2026-10-14",
+   "image": "https://upload.wikimedia.org/wikipedia/en/5/55/Metal_Slug_Advance.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Metal Slug Advance — видеоигра в жанре Shoot 'em up, разработанная компанией SNK Playmore в 2004 году\nдля карманной приставки Game Boy Advance. Является спин-оффом серии игр Metal Slug.",
    "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Ролевые игры"
+    "Run and gun"
    ],
    "platforms": [
-    "PC",
-    "PlayStation",
-    "Xbox"
+    "Switch"
    ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "One More Level",
+   "stores": [],
+   "developer": "Noise Factory",
    "price": "",
-   "url": "https://store.steampowered.com/app/2828710/",
+   "url": "https://ru.wikipedia.org/wiki/Metal_Slug_Advance",
    "links": {
-    "steam": "https://store.steampowered.com/app/2828710/"
-   }
+    "wiki": "https://ru.wikipedia.org/wiki/Metal_Slug_Advance"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-monster-rancher-advance",
+   "title": "Monster Rancher Advance",
+   "date": "2026-10-14",
+   "image": "https://upload.wikimedia.org/wikipedia/en/3/32/MonsterRancherAdvanceCover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Monster Rancher Advance (известная в Японии как Monster Farm Advance) — видеоигра-симулятор жизни 2001 года, разработанная и изданная Tecmo для Game Boy Advance. Это спин-офф серии Monster Rancher.",
+   "genres": [
+    "Симулятор жизни"
+   ],
+   "platforms": [
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Tecmo",
+   "price": "",
+   "url": "https://en.wikipedia.org/wiki/Monster_Rancher_Advance",
+   "links": {
+    "wiki": "https://en.wikipedia.org/wiki/Monster_Rancher_Advance"
+   },
+   "source": "wiki"
   },
   {
    "appid": 3115160,
@@ -106,7 +91,7 @@
    "appid": 2929250,
    "title": "over the hill",
    "date": "2026-10-14",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/header.jpg?t=1791201212",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/header.jpg?t=1791920596",
    "desc": "Откройте для себя мир в золотой век бездорожья. За рулем культовых внедорожников 60–80-х годов — в одиночку или с друзьями — покоряйте сложные трассы и исследуйте живописные места.",
    "genres": [
     "Приключенческие игры",
@@ -128,10 +113,31 @@
    }
   },
   {
+   "appid": "x-antonblast",
+   "title": "Antonblast",
+   "date": "2026-10-15",
+   "image": "https://upload.wikimedia.org/wikipedia/en/2/2e/Antonblast_Steam_Banner_Dec_2024.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Antonblast (стилизовано заглавными буквами как ANTONBLAST) — платформер 2024 года, разработанный независимой студией видеоигр Summitsphere и изданный Joystick Ventures. После успешной кампании на Kickstarter 3 декабря 2024 года полная версия игры была выпущена для Microsoft Windows с консолью Nintendo Switch…",
+   "genres": [
+    "Платформер"
+   ],
+   "platforms": [
+    "PlayStation"
+   ],
+   "stores": [],
+   "developer": "Summitsphere",
+   "price": "",
+   "url": "https://en.wikipedia.org/wiki/Antonblast",
+   "links": {
+    "wiki": "https://en.wikipedia.org/wiki/Antonblast"
+   },
+   "source": "wiki"
+  },
+  {
    "appid": 3064040,
    "title": "Bluey's Happy Snaps",
    "date": "2026-10-15",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3064040/9c25353d43657241f08c1204abc55ae9e2a09983/header.jpg?t=1791543857",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3064040/9c25353d43657241f08c1204abc55ae9e2a09983/header.jpg?t=1791966810",
    "desc": "Bluey's Happy Snaps — это будущая видеоигра в жанре приключенческой фотографии, разработанная Gameloft Brisbane и изданная Gameloft. Пятая видеоигра, основанная на мультсериале «Bluey», представляет собой оффлайн-игру без микротранзакций, которая ставит перед игроками задачу исследовать открытые…",
    "genres": [
     "Приключение"
@@ -207,7 +213,7 @@
    "appid": 4954910,
    "title": "Scam With Your Friends",
    "date": "2026-10-15",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4954910/128effac3212fc1b92b4f6cd8891995df0d4b199/header.jpg?t=1791682049",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4954910/128effac3212fc1b92b4f6cd8891995df0d4b199/header.jpg?t=1791958995",
    "desc": "Управляйте call-центром мошенников с друзьями. Используйте всё более абсурдные планы для развода ИИ абонентов на их денежные сбережения. Достигните суточной нормы, наводите хаос в офисе и выживите жесткую оценку результатов от своего яростного босса.",
    "genres": [
     "Экшены",
@@ -225,6 +231,31 @@
    "url": "https://store.steampowered.com/app/4954910/",
    "links": {
     "steam": "https://store.steampowered.com/app/4954910/"
+   }
+  },
+  {
+   "appid": 2295060,
+   "title": "Beyond These Stars",
+   "date": "2026-10-16",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2295060/8880f2690c52f88a55d292651250a14fecb9918a/header.jpg?t=1791551257",
+   "desc": "Постройте город на спине космического кита и научитесь мирно сосуществовать, бороздя звездные просторы. Управляйте сложными цепочками поставок и потребностями жителей, возводите аванпосты, общайтесь с инопланетянами и раскрывайте тайны вселенной.",
+   "genres": [
+    "Симуляторы",
+    "Стратегии"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam",
+    "Epic"
+   ],
+   "developer": "Balancing Monkey Games",
+   "price": "",
+   "url": "https://store.steampowered.com/app/2295060/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/2295060/",
+    "epic": "https://store.epicgames.com/ru/p/beyond-these-stars-a5b977"
    }
   },
   {
@@ -543,29 +574,6 @@
    "source": "wiki"
   },
   {
-   "appid": 3905010,
-   "title": "ONE PIECE: Grand Gourmet",
-   "date": "2026-10-22",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3905010/0437aa2ef308bd35d40833de72c3dac04a24f067/header.jpg?t=1789090874",
-   "desc": "Добро пожаловать на борт аппетитного симулятора управления в мире ONE PIECE! Стройте лучший ресторан на морях вместе с Пиратами Соломенной Шляпы! Собирайте ингредиенты, придумывайте блюда и украшайте их, чтобы знакомые персонажи выстраивались в очередь за добавкой!",
-   "genres": [
-    "Казуальные игры",
-    "Симуляторы"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Kairosoft Co.,Ltd",
-   "price": "1429 руб.",
-   "url": "https://store.steampowered.com/app/3905010/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/3905010/"
-   }
-  },
-  {
    "appid": 3960600,
    "title": "Warrior Cats: Clans of the Forest",
    "date": "2026-10-23",
@@ -763,6 +771,33 @@
     "wiki": "https://en.wikipedia.org/wiki/Asylum_%282025_video_game%29"
    },
    "source": "wiki"
+  },
+  {
+   "appid": 2320980,
+   "title": "Loftia",
+   "date": "2026-11-03",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2320980/header.jpg?t=1791464818",
+   "desc": "Вас приветствует Loftia — уютная многопользовательская игра, в которой вам предстоит построить экологически надёжное будущее. Находите друзей, возделывайте землю, мастерите предметы, исследуйте острова — и вместе сделайте этот мир лучше!",
+   "genres": [
+    "Приключенческие игры",
+    "Казуальные игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC",
+    "Mac"
+   ],
+   "stores": [
+    "Steam",
+    "Epic"
+   ],
+   "developer": "Qloud Games",
+   "price": "",
+   "url": "https://store.steampowered.com/app/2320980/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/2320980/",
+    "epic": "https://store.epicgames.com/ru/p/loftia-2b7234"
+   }
   },
   {
    "appid": 3581230,
@@ -1013,6 +1048,30 @@
    "links": {
     "steam": "https://store.steampowered.com/app/3161310/",
     "epic": "https://store.epicgames.com/ru/p/hela-6d220a"
+   }
+  },
+  {
+   "appid": 1209970,
+   "title": "Blind Descent",
+   "date": "2026-12-02",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1209970/2a78b2ad9dbc443e4d8df15e49be792e64a01287/header.jpg?t=1791889786",
+   "desc": "Blind Descent — новое приключение под поверхностью Марса. В одиночку или с друзьями исследуйте открытый мир таинственных глубин красной планеты в поисках пропавшей команды. Улучшайте базу и пользуйтесь инструментами. Адаптируйтесь и мутируйте, чтобы выжить в непривычных условиях.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Казуальные игры"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Pokuch",
+   "price": "",
+   "url": "https://store.steampowered.com/app/1209970/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/1209970/"
    }
   },
   {
@@ -1376,79 +1435,6 @@
    "links": {
     "steam": "https://store.steampowered.com/app/2155070/",
     "wiki": "https://en.wikipedia.org/wiki/Fate/Extra_Record"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": "x-metroid-ravenous",
-   "title": "Metroid Ravenous",
-   "date": "2027-01-28",
-   "image": "https://upload.wikimedia.org/wikipedia/en/9/93/MetroidRavenous.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "desc": "Metroid Ravenous — будущая компьютерная игра в жанре приключенческого экшена, разрабатываемая компаниями MercurySteam и Nintendo EPD и которая будет выпущена компанией Nintendo на Nintendo Switch 2. Это одинадцатая часть в основной серии Metroid, действие которой происходит после Metroid Dread…",
-   "genres": [
-    "Экшен-приключение"
-   ],
-   "platforms": [
-    "Switch"
-   ],
-   "stores": [],
-   "developer": "MercurySteam , Nintendo EPD",
-   "price": "",
-   "url": "https://ru.wikipedia.org/wiki/Metroid_Ravenous",
-   "links": {
-    "wiki": "https://ru.wikipedia.org/wiki/Metroid_Ravenous"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": 1853440,
-   "title": "Tropico 7",
-   "date": "2027-01-28",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1853440/cfa41f10c2e878497d77e100f9be08224eb686b9/header.jpg?t=1791288458",
-   "desc": "Разбогатей или сдохни! Tropico 7 снова предлагает попробовать себя в роли лидера островного государства. Эль Президенте ведет нацию (а заодно и свой счет в швейцарском банке) сквозь эпохи к процветанию и для этого готов буквально сдвинуть горы!",
-   "genres": [
-    "Строительство и менеджмент",
-    "Правительственный симулятор"
-   ],
-   "platforms": [
-    "PC",
-    "PlayStation",
-    "Xbox",
-    "Switch"
-   ],
-   "stores": [
-    "Steam",
-    "Epic"
-   ],
-   "developer": "Gaming Minds Studios",
-   "price": "",
-   "url": "https://store.steampowered.com/app/1853440/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/1853440/",
-    "epic": "https://store.epicgames.com/ru/p/tropico-7-eed6e3",
-    "wiki": "https://en.wikipedia.org/wiki/Tropico_7"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": "x-until-dawn-2",
-   "title": "Until Dawn 2",
-   "date": "2027-01-28",
-   "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/Until_Dawn_2_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "desc": "Until Dawn 2 — будущая компьютерная игра в жанре интерактивного кино с элементами survival horror, разрабатываемая студиями Firesprite и AdHoc Studio и издаваемая Sony Interactive Entertainment. Это сиквел игры Until Dawn, выход которой на PlayStation 5 запланирован на 28 января 2027 года. Игра…",
-   "genres": [
-    "Интерактивное кино",
-    "Survival-хоррор"
-   ],
-   "platforms": [
-    "PlayStation"
-   ],
-   "stores": [],
-   "developer": "Firesprite",
-   "price": "",
-   "url": "https://ru.wikipedia.org/wiki/Until_Dawn_2",
-   "links": {
-    "wiki": "https://ru.wikipedia.org/wiki/Until_Dawn_2"
    },
    "source": "wiki"
   },
