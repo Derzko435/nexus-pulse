@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T02:19:31+03:00",
+  "updatedAt": "2026-10-15T07:53:08+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -53,24 +53,14 @@
       "steamAppId": "1808500"
     },
     {
-      "id": "steam-3948510",
-      "title": "ARC Raiders - Upgrade to Deluxe Edition",
+      "id": "steam-105600",
+      "title": "Terraria",
       "store": "Steam",
-      "old": 1750,
-      "neu": 875,
+      "old": 385,
+      "neu": 192,
       "pct": 50,
-      "url": "https://store.steampowered.com/app/3948510/",
-      "steamAppId": "3948510"
-    },
-    {
-      "id": "steam-1751730",
-      "title": "FIRE AND ASHES",
-      "store": "Steam",
-      "old": 550,
-      "neu": 330,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/1751730/",
-      "steamAppId": "1751730"
+      "url": "https://store.steampowered.com/app/105600/",
+      "steamAppId": "105600"
     },
     {
       "id": "steam-4290170",
@@ -93,24 +83,54 @@
       "steamAppId": "4656000"
     },
     {
-      "id": "steam-3892270",
-      "title": "Казино с друзьями",
+      "id": "steam-1623730",
+      "title": "Palworld",
       "store": "Steam",
-      "old": 320,
-      "neu": 198,
-      "pct": 38,
-      "url": "https://store.steampowered.com/app/3892270/",
-      "steamAppId": "3892270"
+      "old": 1100,
+      "neu": 770,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/1623730/",
+      "steamAppId": "1623730"
     },
     {
-      "id": "steam-5198230",
-      "title": "Dealer's Tell: All Bets Are Final",
+      "id": "steam-3678730",
+      "title": "Ball Maze",
       "store": "Steam",
-      "old": 385,
-      "neu": 288,
+      "old": 320,
+      "neu": 224,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/3678730/",
+      "steamAppId": "3678730"
+    },
+    {
+      "id": "steam-4474400",
+      "title": "SWORD FLINGER",
+      "store": "Steam",
+      "old": 240,
+      "neu": 168,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/4474400/",
+      "steamAppId": "4474400"
+    },
+    {
+      "id": "steam-5019450",
+      "title": "My Elf Gym Adventure!",
+      "store": "Steam",
+      "old": 200,
+      "neu": 150,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/5198230/",
-      "steamAppId": "5198230"
+      "url": "https://store.steampowered.com/app/5019450/",
+      "steamAppId": "5019450"
+    },
+    {
+      "id": "steam-5208760",
+      "title": "SR2 Screen Recorder",
+      "store": "Steam",
+      "old": 95,
+      "neu": 71,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/5208760/",
+      "steamAppId": "5208760"
     },
     {
       "id": "steam-2929250",
@@ -121,26 +141,6 @@
       "pct": 20,
       "url": "https://store.steampowered.com/app/2929250/",
       "steamAppId": "2929250"
-    },
-    {
-      "id": "steam-4059000",
-      "title": "Cozy Builder",
-      "store": "Steam",
-      "old": 660,
-      "neu": 528,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/4059000/",
-      "steamAppId": "4059000"
-    },
-    {
-      "id": "steam-5204280",
-      "title": "Locker Room: Femboy Edition",
-      "store": "Steam",
-      "old": 445,
-      "neu": 356,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5204280/",
-      "steamAppId": "5204280"
     }
   ]
 }

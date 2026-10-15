@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T02:19:26+03:00",
+  "updatedAt": "2026-10-15T07:53:03+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -452,6 +452,58 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
+      "appid": "668580",
+      "name": "Atomic Heart",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/header.jpg?t=1786632138",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 76,
+      "short_description": "Погрузитесь в безумную и прекрасную техноутопию, где вас на каждом шагу поджидает смерть. Выполните порученное вам задание, подстраиваясь под необычных противников, используя элементы окружения и улучшая свой арсенал. Узнайте правду — любой ценой!"
+    },
+    {
+      "appid": "2183900",
+      "name": "Warhammer 40,000: Space Marine 2",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/041c4b49f2925185ff1be198919b7fbff060c3e1/header_alt_assets_14_russian.jpg?t=1790874369",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 82,
+      "short_description": "Обретите сверхчеловеческую мощь космодесантника. Пустите в ход смертоносные навыки и разрушительное оружие, чтобы истребить безжалостных тиранидов. Защитите Империум в ярких одиночных боях или многопользовательских режимах с видом от третьего лица."
+    },
+    {
+      "appid": "72176",
+      "name": "Steam App 72176",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/72176/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
+    },
+    {
       "appid": "1702010",
       "name": "Sengoku Dynasty",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1702010/16a107028f000149c4a391b2eb4db71bac77c9b5/header.jpg?t=1792008540",
@@ -502,25 +554,6 @@
       "short_description": "Приобретите улучшение до ARC Raiders Deluxe Edition, чтобы получить: - Пакет Wanderer Cosmetic Pack, - Косметический предмет для персонажа «Шрам на губе», - Пиу-пиу Эмодзи, - Наряд «Плюшкина», - 2,400 рейдерских жетонов."
     },
     {
-      "appid": "105600",
-      "name": "Terraria",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1769844435",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": 83,
-      "short_description": "Копайте, сражайтесь, исследуйте, стройте! Нет ничего невозможного в этой насыщенной событиями приключенческой игре. Также доступен комплект для четверых!"
-    },
-    {
       "appid": "1751730",
       "name": "FIRE AND ASHES",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1751730/b26e9caea8431e9f13e29b3cde4aecd6dbddbdfc/header.jpg?t=1791993466",
@@ -537,6 +570,23 @@
       },
       "metacritic": null,
       "short_description": "Вы приходите в себя в жуткой психиатрической лечебнице. Fire and Ashes – это иммерсивный хоррор, где безумие и реальность смешиваются, а каждый монстр слышит ваш крик… даже за пределами больницы."
+    },
+    {
+      "appid": "4290170",
+      "name": "Mudventure",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4290170/6b55bbef8356ccc5d962e1cbf7c9c8035088e035/header.jpg?t=1792003559",
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Mudventure is a casual sandbox adventure set in a living tidal-flat world of mud. Dig terrain, gather resources, upgrade equipment, and control the environment by building dams. Fight monsters and bosses, enjoy fishing at night, and escape the island by repairing a ship—solo or online co-op."
     },
     {
       "appid": "4656000",
@@ -574,15 +624,11 @@
       "short_description": "Кооперативная игра про исследование казино для 1–6 человек. У вас с друзьями один банковский счёт и огромный долг на всех: играйте, покупайте предметы и делайте глупости на пути к вершине башни казино. Накопите на квоту для ростовщика за 5 минут или пожалеете..."
     },
     {
-      "appid": "2254990",
-      "name": "Permafrost",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2254990/693eff202c061aaecba330b44d76485a672bea97/header.jpg?t=1791980722",
+      "appid": "5198230",
+      "name": "Dealer's Tell: All Bets Are Final",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5198230/c254f40bf16bc6830935a48410de3dc5f13431cf/header.jpg?t=1791997209",
       "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Ролевые игры",
-        "Симуляторы",
-        "Ранний доступ"
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -591,7 +637,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Permafrost — это «песочница» на выживание среди постапокалиптических льдов. Откройте для себя обширный открытый мир с богатой историей в одиночку или в кооперативном режиме до 4 игроков. Исследуйте, добывайте, создавайте и стройте, чтобы выжить в холоде."
+      "short_description": "Рогалик-детектив за столом блэкджека. Дьявол сдаёт карты и жульничает по тайному правилу - на каждом этаже новому. Следи за раздачами, вычёркивай подозреваемых и назови схему, пока подозрение не накрыло тебя. Пятнадцать этажей вниз, в каждом забеге - новые правила дома. Ошибка стоит души."
     },
     {
       "appid": "2929250",
@@ -632,23 +678,6 @@
       "short_description": "Build, design, and decorate your dream château in a cozy vineyard valley. Live among your creations, harvest grapes from sunlit vineyards, and craft artisanal wine blends in a relaxing sandbox builder where every home helps restore beauty and balance to the countryside."
     },
     {
-      "appid": "2626980",
-      "name": "Isle Forge",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2626980/994a60427a6106f8b1af5d50dc87f10733a6ddc1/header.jpg?t=1791992339",
-      "genres": [
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Shape a living volcanic archipelago in this relaxed god game. Guide autonomous islanders as they gather, build, forge lava-made paths, rescue distant communities, and face threats from hostile islands."
-    },
-    {
       "appid": "5204280",
       "name": "Locker Room: Femboy Edition",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5204280/55cc222e8bda3ce5f75479dc6f11812c1ddb711b/header.jpg?t=1791992678",
@@ -666,41 +695,6 @@
       },
       "metacritic": null,
       "short_description": "Кира, 22 года, связующий студенческой волейбольной команды, холоден со всеми и не может объяснить, что тянет его к тренеру. Он только намекает: взгляд чуть дольше, футболка снята чуть медленнее. Тренер замечает всё и не делает первый шаг. Медленная визуальная новелла для взрослых, семь эпизодов."
-    },
-    {
-      "appid": "2871520",
-      "name": "Deep Dish Dungeon",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2871520/a941857720d5b6a62a2e0a7646f2ca46b00039b6/header_alt_assets_1.jpg?t=1791960486",
-      "genres": [
-        "Экшены",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Игра на выживание, где вам предстоит пробираться через отрисованные вручную подземелья. Особые приметы: элементы метроидвании и развитая система крафта. Исследуйте подземные глубины соло или с друзьями в сетевой совместной игре."
-    },
-    {
-      "appid": "2918650",
-      "name": "Starbiz",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2918650/header.jpg?t=1792003797",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Discover strategic depth in our space board game! Use star-currency to buy interstellar sites. Compete with friends in turn-based matches, utilizing the Starbridge for tactical advantage. Accumulate currency for the Lottery, offering rewards and site boosts. Achieve cosmic success"
     }
   ]
 }
