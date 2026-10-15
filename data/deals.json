@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T20:11:30+03:00",
+  "updatedAt": "2026-10-15T22:05:20+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -63,16 +63,6 @@
       "steamAppId": "3981220"
     },
     {
-      "id": "steam-5228920",
-      "title": "Brick by Brick: Tidy Up the Small Town!",
-      "store": "Steam",
-      "old": 385,
-      "neu": 238,
-      "pct": 38,
-      "url": "https://store.steampowered.com/app/5228920/",
-      "steamAppId": "5228920"
-    },
-    {
       "id": "steam-3892270",
       "title": "Казино с друзьями",
       "store": "Steam",
@@ -81,6 +71,26 @@
       "pct": 38,
       "url": "https://store.steampowered.com/app/3892270/",
       "steamAppId": "3892270"
+    },
+    {
+      "id": "steam-5167420",
+      "title": "Mimic Busters",
+      "store": "Steam",
+      "old": 320,
+      "neu": 198,
+      "pct": 38,
+      "url": "https://store.steampowered.com/app/5167420/",
+      "steamAppId": "5167420"
+    },
+    {
+      "id": "steam-3569420",
+      "title": "Chained Beasts",
+      "store": "Steam",
+      "old": 855,
+      "neu": 555,
+      "pct": 35,
+      "url": "https://store.steampowered.com/app/3569420/",
+      "steamAppId": "3569420"
     },
     {
       "id": "steam-5231590",
@@ -93,14 +103,14 @@
       "steamAppId": "5231590"
     },
     {
-      "id": "steam-2347080",
-      "title": "Frosthaven",
+      "id": "steam-1623730",
+      "title": "Palworld",
       "store": "Steam",
-      "old": 1570,
-      "neu": 1099,
+      "old": 1100,
+      "neu": 770,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/2347080/",
-      "steamAppId": "2347080"
+      "url": "https://store.steampowered.com/app/1623730/",
+      "steamAppId": "1623730"
     },
     {
       "id": "steam-4798110",
@@ -113,6 +123,16 @@
       "steamAppId": "4798110"
     },
     {
+      "id": "steam-3525940",
+      "title": "Pestilence",
+      "store": "Steam",
+      "old": 335,
+      "neu": 251,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/3525940/",
+      "steamAppId": "3525940"
+    },
+    {
       "id": "steam-2929250",
       "title": "over the hill",
       "store": "Steam",
@@ -121,26 +141,6 @@
       "pct": 20,
       "url": "https://store.steampowered.com/app/2929250/",
       "steamAppId": "2929250"
-    },
-    {
-      "id": "steam-3845070",
-      "title": "Dupery: A Game of Solo Deduction",
-      "store": "Steam",
-      "old": 590,
-      "neu": 472,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/3845070/",
-      "steamAppId": "3845070"
-    },
-    {
-      "id": "steam-4596990",
-      "title": "Good Job",
-      "store": "Steam",
-      "old": 567,
-      "neu": 453,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/4596990/",
-      "steamAppId": "4596990"
     }
   ]
 }

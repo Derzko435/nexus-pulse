@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T20:11:25+03:00",
+  "updatedAt": "2026-10-15T22:05:15+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -452,24 +452,6 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "971690",
-      "name": "Cake Bash",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/971690/header.jpg?t=1752681546",
-      "genres": [
-        "Экшены",
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Бейтесь за звание самого вкусного пирожного в Cake Bash! Это сумасшедшая игра на четверых, в которой милые рисованные сладости выбивают друг из друга крошки."
-    },
-    {
       "appid": "668580",
       "name": "Atomic Heart",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/header.jpg?t=1786632138",
@@ -506,6 +488,27 @@
       "short_description": "Обретите сверхчеловеческую мощь космодесантника. Пустите в ход смертоносные навыки и разрушительное оружие, чтобы истребить безжалостных тиранидов. Защитите Империум в ярких одиночных боях или многопользовательских режимах с видом от третьего лица."
     },
     {
+      "appid": "529180",
+      "name": "Dark and Light",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/529180/header.jpg?t=1666906165",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Многопользовательские игры",
+        "Ролевые игры",
+        "Симуляторы",
+        "Ранний доступ"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "На создание этого шедевра в жанре песочницы, разработчики потратили 12 лет. При помощи игрового движка 4 Unreal, был создан невероятно огромный магический мир, с фантастическими существами. В этом мире, каждый игрок может исследовать магические места, приучить диких животных к послушанию, добывать себе пищу, материалы для строительства,..."
+    },
+    {
       "appid": "72176",
       "name": "Steam App 72176",
       "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/72176/header.jpg",
@@ -520,38 +523,6 @@
       "short_description": "",
       "catalogId": null,
       "curated": true
-    },
-    {
-      "appid": "1808500",
-      "name": "ARC Raiders",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/29e8af9fbf06833558758f94cfb406746f338c45/header_alt_assets_8.jpg?t=1791401542",
-      "genres": [
-        "Экшены"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "ARC Raiders — многопользовательская игра жанра extraction adventure, действие которой разворачивается в суровом будущем на Земле, атакованной загадочными механическими захватчиками ARC."
-    },
-    {
-      "appid": "3948510",
-      "name": "ARC Raiders - Upgrade to Deluxe Edition",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948510/4b2bf21553e133eb88b5766370a1684acdc2d9d6/header.jpg?t=1761816660",
-      "genres": [
-        "Экшены"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Приобретите улучшение до ARC Raiders Deluxe Edition, чтобы получить: - Пакет Wanderer Cosmetic Pack, - Косметический предмет для персонажа «Шрам на губе», - Пиу-пиу Эмодзи, - Наряд «Плюшкина», - 2,400 рейдерских жетонов."
     },
     {
       "appid": "4656000",
@@ -569,6 +540,44 @@
       },
       "metacritic": null,
       "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
+    },
+    {
+      "appid": "3981220",
+      "name": "Ezmeralda",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981220/b0377551495d28973c7e8e1fac006988d748755f/header.jpg?t=1792076995",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Ezmeralda — это захватывающая экшен-RPG с видом сверху, где вы исследуете опасные подземелья, сражаетесь с могущественными боссами и собираете легендарную добычу. Освойте динамичный бой, раскройте скрытые тайны и проложите свой путь через мир приключений."
+    },
+    {
+      "appid": "5228920",
+      "name": "Brick by Brick: Tidy Up the Small Town!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5228920/8c57f18ab6a1940b328584fe5556f4c87839e1a0/header.jpg?t=1792078556",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Brick By Brick — расслабляющая игра о наведении порядка, соло или в кооперативе до 5 игроков. Собирай, сортируй и укладывай 18 490 кирпичей, чтобы восстановить милый городок. Открывай полезные способности и смотри, как кучи превращаются в здания. Кирпич за кирпичом!"
     },
     {
       "appid": "3892270",
@@ -589,84 +598,10 @@
       "short_description": "Кооперативная игра про исследование казино для 1–6 человек. У вас с друзьями один банковский счёт и огромный долг на всех: играйте, покупайте предметы и делайте глупости на пути к вершине башни казино. Накопите на квоту для ростовщика за 5 минут или пожалеете..."
     },
     {
-      "appid": "3678730",
-      "name": "Ball Maze",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3678730/2f27fadd909c907b7fb8dcf50a172c805b4c9964/header.jpg?t=1792036889",
+      "appid": "5231590",
+      "name": "Hentai Miyu",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5231590/c21ecd462e24dd55c391978808f969091c4733a1/header.jpg?t=1792083575",
       "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Физическая головоломка с шаром. Наклоняйте 3D-лабиринт, используйте гравитацию и инерцию для прохождения сложных структур. Уникальное удовольствие от управления."
-    },
-    {
-      "appid": "5242520",
-      "name": "放置地下城：无尽远征",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5242520/006d713f21600fb54667456c4cfd89ea574062be/header.jpg?t=1792038525",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Idle Dungeon: Endless Expedition is a dark pixel-art idle RPG. Recruit adventurers from five classes, customize their gear and talents, and choose automatic or manual combat as you explore haunted graveyards and dungeons to challenge powerful demon bosses."
-    },
-    {
-      "appid": "5299160",
-      "name": "Milf Puzzle",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5299160/b8e28a20b8d76a9c69af8c1f51a3e307f0721080/header.jpg?t=1792047478",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Complete 30 beautiful and sexy illustration puzzles across three difficulty levels! Unlock animated scenes as you clear each stage, and revisit your favorite illustrations and animations anytime in the gallery."
-    },
-    {
-      "appid": "5019450",
-      "name": "My Elf Gym Adventure!",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5019450/4a8a447d7bd21b6b93877211e764673cfba82391/header.jpg?t=1792037964",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы",
-        "Спорт"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Тренируй ум вместе с прекрасными спортивными эльфийками! Собирай увлекательные пазлы, открывай пикантные иллюстрации и выбирай между лёгкой и сложной трудностью в My Elf Gym Adventure!"
-    },
-    {
-      "appid": "5337260",
-      "name": "Raid Sky",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5337260/cd445b5fe48e6a9a0c4f531f70e58aa3505c9681/header.jpg?t=1792060850",
-      "genres": [
-        "Экшены",
         "Казуальные игры",
         "Инди",
         "Стратегии"
@@ -678,7 +613,40 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Battle across floating islands, gather resources by fishing, craft items, and build structures. Fight rival teams in fast-paced matches with up to 3 teams. Feed your crystal, capture bonus zones, complete missions to score points and win the match or eliminate all opposing teams!"
+      "short_description": "Hentai Miyu — соблазнительная аниме-игра-пазл для взрослых, где каждый пройденный уровень открывает новый, более смелый образ Miyu. Собирай пазлы, открывай горячие иллюстрации и заполни галерею на 100%. 🌸"
+    },
+    {
+      "appid": "2347080",
+      "name": "Frosthaven",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2347080/c6c09a8eb1a0fac5ac8e0d2ea0a228c8303d8967/header.jpg?t=1792089974",
+      "genres": [
+        "Ролевые игры",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Высоко оцененная настольная игра, созданная Айзеком Чилдресом, приобретает цифровое воплощение! Тактическая ролевая игра FROSTHAVEN в мире темного фэнтези отличается глубокой механикой и сложным, но приятным игровым процессом как в одиночном режиме, так и в многопользовательском кооперативном."
+    },
+    {
+      "appid": "4798110",
+      "name": "Order Picker Simulator",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4798110/c9661a266f2924dfb4813c00157da46c031635ff/header.jpg?t=1792080550",
+      "genres": [
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Добро пожаловать в Ultra Fresh Food! Управляйте собственным продуктовым складом, собирайте заказы в удобном темпе, расширяйте бизнес, настраивайте рабочее пространство и нанимайте сотрудников. Превратите небольшой склад в отлаженную систему!"
     },
     {
       "appid": "2929250",
@@ -700,6 +668,43 @@
       },
       "metacritic": null,
       "short_description": "Откройте для себя мир в золотой век бездорожья. За рулем культовых внедорожников 60–80-х годов — в одиночку или с друзьями — покоряйте сложные трассы и исследуйте живописные места."
+    },
+    {
+      "appid": "3845070",
+      "name": "Dupery: A Game of Solo Deduction",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3845070/61f785c120112d81af4e722ccd35fe896b7f925b/header_alt_assets_1.jpg?t=1792079628",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Одиночная дедукционная игра с более чем 175 ролями и roguelite-механиками. Место действия – нуарный город под властью преступного синдиката. Допрашивайте каждого, проводите аресты и берегите свою репутацию. Разгромите синдикат, не дав себя обмануть. Под подозрением все – не доверяйте никому."
+    },
+    {
+      "appid": "4596990",
+      "name": "Good Job",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4596990/4443ae4765566642063ad8ea3f0a80389282607c/header.jpg?t=1792069622",
+      "genres": [
+        "Экшены",
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Возглавь бизнес, который никто не смог бы вписать в своё резюме. Управляй девушками в подпольном массажном салоне, радуй клиентов травяными смесями, развивай интернет-торговлю и расширяй свою империю, не привлекая лишнего внимания!"
     }
   ]
 }
