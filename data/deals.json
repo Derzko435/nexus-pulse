@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T22:05:20+03:00",
+  "updatedAt": "2026-10-16T00:32:22+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -33,6 +33,16 @@
       "steamAppId": "529180"
     },
     {
+      "id": "steam-313120",
+      "title": "Stranded Deep",
+      "store": "Steam",
+      "old": 449,
+      "neu": 179,
+      "pct": 60,
+      "url": "https://store.steampowered.com/app/313120/",
+      "steamAppId": "313120"
+    },
+    {
       "id": "steam-72176",
       "title": "Atomic Heart - Ultimate Edition",
       "store": "Steam",
@@ -43,6 +53,16 @@
       "steamAppId": "72176"
     },
     {
+      "id": "steam-4980910",
+      "title": "Project RedTeam: Contract Offensive",
+      "store": "Steam",
+      "old": 690,
+      "neu": 414,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/4980910/",
+      "steamAppId": "4980910"
+    },
+    {
       "id": "steam-4656000",
       "title": "BOMBANANA!",
       "store": "Steam",
@@ -51,16 +71,6 @@
       "pct": 40,
       "url": "https://store.steampowered.com/app/4656000/",
       "steamAppId": "4656000"
-    },
-    {
-      "id": "steam-3981220",
-      "title": "Ezmeralda",
-      "store": "Steam",
-      "old": 200,
-      "neu": 120,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/3981220/",
-      "steamAppId": "3981220"
     },
     {
       "id": "steam-3892270",
@@ -103,44 +113,34 @@
       "steamAppId": "5231590"
     },
     {
-      "id": "steam-1623730",
-      "title": "Palworld",
-      "store": "Steam",
-      "old": 1100,
-      "neu": 770,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/1623730/",
-      "steamAppId": "1623730"
-    },
-    {
-      "id": "steam-4798110",
-      "title": "Order Picker Simulator",
-      "store": "Steam",
-      "old": 400,
-      "neu": 300,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/4798110/",
-      "steamAppId": "4798110"
-    },
-    {
-      "id": "steam-3525940",
-      "title": "Pestilence",
+      "id": "steam-5209500",
+      "title": "HENTAI CAVEMAN",
       "store": "Steam",
       "old": 335,
-      "neu": 251,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/3525940/",
-      "steamAppId": "3525940"
+      "neu": 234,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5209500/",
+      "steamAppId": "5209500"
     },
     {
-      "id": "steam-2929250",
-      "title": "over the hill",
+      "id": "steam-4415380",
+      "title": "Market is Fine",
       "store": "Steam",
-      "old": 1050,
-      "neu": 840,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/2929250/",
-      "steamAppId": "2929250"
+      "old": 280,
+      "neu": 201,
+      "pct": 28,
+      "url": "https://store.steampowered.com/app/4415380/",
+      "steamAppId": "4415380"
+    },
+    {
+      "id": "steam-3105440",
+      "title": "Heroes of Might and Magic: Olden Era",
+      "store": "Steam",
+      "old": 1499,
+      "neu": 1124,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/3105440/",
+      "steamAppId": "3105440"
     }
   ]
 }
