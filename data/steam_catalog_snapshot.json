@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T07:53:03+03:00",
+  "updatedAt": "2026-10-15T14:44:02+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -420,7 +420,7 @@
     {
       "appid": "227300",
       "name": "Euro Truck Simulator 2",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/9a81dc3126c56637297b654f9dcac057cfd79b77/header.jpg?t=1792004085",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/d3c44cfff95e8223687121b05c80e594d35c4c53/header_alt_assets_9.jpg?t=1792055307",
       "genres": [
         "Инди",
         "Симуляторы"
@@ -538,38 +538,23 @@
       "short_description": "ARC Raiders — многопользовательская игра жанра extraction adventure, действие которой разворачивается в суровом будущем на Земле, атакованной загадочными механическими захватчиками ARC."
     },
     {
-      "appid": "3948510",
-      "name": "ARC Raiders - Upgrade to Deluxe Edition",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948510/4b2bf21553e133eb88b5766370a1684acdc2d9d6/header.jpg?t=1761816660",
-      "genres": [
-        "Экшены"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Приобретите улучшение до ARC Raiders Deluxe Edition, чтобы получить: - Пакет Wanderer Cosmetic Pack, - Косметический предмет для персонажа «Шрам на губе», - Пиу-пиу Эмодзи, - Наряд «Плюшкина», - 2,400 рейдерских жетонов."
-    },
-    {
-      "appid": "1751730",
-      "name": "FIRE AND ASHES",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1751730/b26e9caea8431e9f13e29b3cde4aecd6dbddbdfc/header.jpg?t=1791993466",
+      "appid": "105600",
+      "name": "Terraria",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1769844435",
       "genres": [
         "Экшены",
         "Приключенческие игры",
-        "Инди"
+        "Инди",
+        "Ролевые игры"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
-        "linux": false
+        "mac": true,
+        "linux": true
       },
-      "metacritic": null,
-      "short_description": "Вы приходите в себя в жуткой психиатрической лечебнице. Fire and Ashes – это иммерсивный хоррор, где безумие и реальность смешиваются, а каждый монстр слышит ваш крик… даже за пределами больницы."
+      "metacritic": 83,
+      "short_description": "Копайте, сражайтесь, исследуйте, стройте! Нет ничего невозможного в этой насыщенной событиями приключенческой игре. Также доступен комплект для четверых!"
     },
     {
       "appid": "4290170",
@@ -606,13 +591,14 @@
       "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
     },
     {
-      "appid": "3892270",
-      "name": "Казино с друзьями",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/395e6d7972474333a698b26f8aa5597bf38109a1/header.jpg?t=1791977170",
+      "appid": "1623730",
+      "name": "Palworld",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/6912f19c43a95ff5fe514eedd35e68bf12335459/header.jpg?t=1790336367",
       "genres": [
+        "Экшены",
         "Приключенческие игры",
         "Инди",
-        "Симуляторы"
+        "Ролевые игры"
       ],
       "is_free": false,
       "platforms": {
@@ -621,13 +607,33 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Кооперативная игра про исследование казино для 1–6 человек. У вас с друзьями один банковский счёт и огромный долг на всех: играйте, покупайте предметы и делайте глупости на пути к вершине башни казино. Накопите на квоту для ростовщика за 5 минут или пожалеете..."
+      "short_description": "Собирайте удивительных существ — Палов — на просторах огромного мира, отправляйте их сражаться и трудиться на фабриках, стройте с их помощью здания и выращивайте плантации в этом абсолютно новом симуляторе выживания в открытом мире, поддерживающем совместный режим."
     },
     {
-      "appid": "5198230",
-      "name": "Dealer's Tell: All Bets Are Final",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5198230/c254f40bf16bc6830935a48410de3dc5f13431cf/header.jpg?t=1791997209",
+      "appid": "3678730",
+      "name": "Ball Maze",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3678730/2f27fadd909c907b7fb8dcf50a172c805b4c9964/header.jpg?t=1792036889",
       "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Физическая головоломка с шаром. Наклоняйте 3D-лабиринт, используйте гравитацию и инерцию для прохождения сложных структур. Уникальное удовольствие от управления."
+    },
+    {
+      "appid": "4474400",
+      "name": "SWORD FLINGER",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4474400/930b0efe9cd0a881a217a80764a3104dab8a3761/header.jpg?t=1792029795",
+      "genres": [
+        "Экшены",
+        "Казуальные игры",
         "Инди"
       ],
       "is_free": false,
@@ -637,7 +643,47 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Рогалик-детектив за столом блэкджека. Дьявол сдаёт карты и жульничает по тайному правилу - на каждом этаже новому. Следи за раздачами, вычёркивай подозреваемых и назови схему, пока подозрение не накрыло тебя. Пятнадцать этажей вниз, в каждом забеге - новые правила дома. Ошибка стоит души."
+      "short_description": "Throw swords to fight in this roguelite chain-action game. Weapons bounce off walls and enemies, chaining hits from one foe to another. Build damage bonuses with every chain and dive deeper into ever-changing dungeons while collecting swords, spears, axes, staves, shields, and more."
+    },
+    {
+      "appid": "5019450",
+      "name": "My Elf Gym Adventure!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5019450/4a8a447d7bd21b6b93877211e764673cfba82391/header.jpg?t=1792037964",
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы",
+        "Спорт"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Тренируй ум вместе с прекрасными спортивными эльфийками! Собирай увлекательные пазлы, открывай пикантные иллюстрации и выбирай между лёгкой и сложной трудностью в My Elf Gym Adventure!"
+    },
+    {
+      "appid": "5208760",
+      "name": "SR2 Screen Recorder",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5208760/e6dd4c66daa6497adf25e63a5b7d63154099c33e/header.jpg?t=1792015413",
+      "genres": [
+        "Работа со звуком",
+        "Дизайн и иллюстрация",
+        "Обработка фото",
+        "Утилиты",
+        "Создание видео"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "SR2 Screen Recorder — простая и лёгкая программа для записи экрана. Выберите область записи, настройте частоту кадров и звук, начните запись и сохраните готовое видео в формате MP4 в нужную папку."
     },
     {
       "appid": "2929250",
@@ -659,42 +705,6 @@
       },
       "metacritic": null,
       "short_description": "Откройте для себя мир в золотой век бездорожья. За рулем культовых внедорожников 60–80-х годов — в одиночку или с друзьями — покоряйте сложные трассы и исследуйте живописные места."
-    },
-    {
-      "appid": "4059000",
-      "name": "Cozy Builder",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4059000/121fde8712579a6f7b5095f5fad0d88f360bec75/header.jpg?t=1791994869",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Build, design, and decorate your dream château in a cozy vineyard valley. Live among your creations, harvest grapes from sunlit vineyards, and craft artisanal wine blends in a relaxing sandbox builder where every home helps restore beauty and balance to the countryside."
-    },
-    {
-      "appid": "5204280",
-      "name": "Locker Room: Femboy Edition",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5204280/55cc222e8bda3ce5f75479dc6f11812c1ddb711b/header.jpg?t=1791992678",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Кира, 22 года, связующий студенческой волейбольной команды, холоден со всеми и не может объяснить, что тянет его к тренеру. Он только намекает: взгляд чуть дольше, футболка снята чуть медленнее. Тренер замечает всё и не делает первый шаг. Медленная визуальная новелла для взрослых, семь эпизодов."
     }
   ]
 }
