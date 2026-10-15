@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T14:44:02+03:00",
+  "updatedAt": "2026-10-15T20:11:25+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -452,6 +452,24 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
+      "appid": "971690",
+      "name": "Cake Bash",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/971690/header.jpg?t=1752681546",
+      "genres": [
+        "Экшены",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Бейтесь за звание самого вкусного пирожного в Cake Bash! Это сумасшедшая игра на четверых, в которой милые рисованные сладости выбивают друг из друга крошки."
+    },
+    {
       "appid": "668580",
       "name": "Atomic Heart",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/header.jpg?t=1786632138",
@@ -504,24 +522,6 @@
       "curated": true
     },
     {
-      "appid": "1702010",
-      "name": "Sengoku Dynasty",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1702010/16a107028f000149c4a391b2eb4db71bac77c9b5/header.jpg?t=1792008540",
-      "genres": [
-        "Приключенческие игры",
-        "Ролевые игры",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Sengoku Dynasty перенесет вас в феодальную Японию. Стройте деревни, развивайте общину и меняйте открытый мир клинком или монетой. Укреплять власть или отдыхать в горячем источнике — решать лишь вам... или вместе с друзьями, ведь играть можно даже вчетвером!"
-    },
-    {
       "appid": "1808500",
       "name": "ARC Raiders",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/29e8af9fbf06833558758f94cfb406746f338c45/header_alt_assets_8.jpg?t=1791401542",
@@ -538,31 +538,11 @@
       "short_description": "ARC Raiders — многопользовательская игра жанра extraction adventure, действие которой разворачивается в суровом будущем на Земле, атакованной загадочными механическими захватчиками ARC."
     },
     {
-      "appid": "105600",
-      "name": "Terraria",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1769844435",
+      "appid": "3948510",
+      "name": "ARC Raiders - Upgrade to Deluxe Edition",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948510/4b2bf21553e133eb88b5766370a1684acdc2d9d6/header.jpg?t=1761816660",
       "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": 83,
-      "short_description": "Копайте, сражайтесь, исследуйте, стройте! Нет ничего невозможного в этой насыщенной событиями приключенческой игре. Также доступен комплект для четверых!"
-    },
-    {
-      "appid": "4290170",
-      "name": "Mudventure",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4290170/6b55bbef8356ccc5d962e1cbf7c9c8035088e035/header.jpg?t=1792003559",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры"
+        "Экшены"
       ],
       "is_free": false,
       "platforms": {
@@ -571,7 +551,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Mudventure is a casual sandbox adventure set in a living tidal-flat world of mud. Dig terrain, gather resources, upgrade equipment, and control the environment by building dams. Fight monsters and bosses, enjoy fishing at night, and escape the island by repairing a ship—solo or online co-op."
+      "short_description": "Приобретите улучшение до ARC Raiders Deluxe Edition, чтобы получить: - Пакет Wanderer Cosmetic Pack, - Косметический предмет для персонажа «Шрам на губе», - Пиу-пиу Эмодзи, - Наряд «Плюшкина», - 2,400 рейдерских жетонов."
     },
     {
       "appid": "4656000",
@@ -591,14 +571,13 @@
       "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
     },
     {
-      "appid": "1623730",
-      "name": "Palworld",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/6912f19c43a95ff5fe514eedd35e68bf12335459/header.jpg?t=1790336367",
+      "appid": "3892270",
+      "name": "Казино с друзьями",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/395e6d7972474333a698b26f8aa5597bf38109a1/header.jpg?t=1791977170",
       "genres": [
-        "Экшены",
         "Приключенческие игры",
         "Инди",
-        "Ролевые игры"
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
@@ -607,7 +586,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Собирайте удивительных существ — Палов — на просторах огромного мира, отправляйте их сражаться и трудиться на фабриках, стройте с их помощью здания и выращивайте плантации в этом абсолютно новом симуляторе выживания в открытом мире, поддерживающем совместный режим."
+      "short_description": "Кооперативная игра про исследование казино для 1–6 человек. У вас с друзьями один банковский счёт и огромный долг на всех: играйте, покупайте предметы и делайте глупости на пути к вершине башни казино. Накопите на квоту для ростовщика за 5 минут или пожалеете..."
     },
     {
       "appid": "3678730",
@@ -628,13 +607,13 @@
       "short_description": "Физическая головоломка с шаром. Наклоняйте 3D-лабиринт, используйте гравитацию и инерцию для прохождения сложных структур. Уникальное удовольствие от управления."
     },
     {
-      "appid": "4474400",
-      "name": "SWORD FLINGER",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4474400/930b0efe9cd0a881a217a80764a3104dab8a3761/header.jpg?t=1792029795",
+      "appid": "5242520",
+      "name": "放置地下城：无尽远征",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5242520/006d713f21600fb54667456c4cfd89ea574062be/header.jpg?t=1792038525",
       "genres": [
-        "Экшены",
         "Казуальные игры",
-        "Инди"
+        "Инди",
+        "Ролевые игры"
       ],
       "is_free": false,
       "platforms": {
@@ -643,7 +622,24 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Throw swords to fight in this roguelite chain-action game. Weapons bounce off walls and enemies, chaining hits from one foe to another. Build damage bonuses with every chain and dive deeper into ever-changing dungeons while collecting swords, spears, axes, staves, shields, and more."
+      "short_description": "Idle Dungeon: Endless Expedition is a dark pixel-art idle RPG. Recruit adventurers from five classes, customize their gear and talents, and choose automatic or manual combat as you explore haunted graveyards and dungeons to challenge powerful demon bosses."
+    },
+    {
+      "appid": "5299160",
+      "name": "Milf Puzzle",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5299160/b8e28a20b8d76a9c69af8c1f51a3e307f0721080/header.jpg?t=1792047478",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Complete 30 beautiful and sexy illustration puzzles across three difficulty levels! Unlock animated scenes as you clear each stage, and revisit your favorite illustrations and animations anytime in the gallery."
     },
     {
       "appid": "5019450",
@@ -666,15 +662,14 @@
       "short_description": "Тренируй ум вместе с прекрасными спортивными эльфийками! Собирай увлекательные пазлы, открывай пикантные иллюстрации и выбирай между лёгкой и сложной трудностью в My Elf Gym Adventure!"
     },
     {
-      "appid": "5208760",
-      "name": "SR2 Screen Recorder",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5208760/e6dd4c66daa6497adf25e63a5b7d63154099c33e/header.jpg?t=1792015413",
+      "appid": "5337260",
+      "name": "Raid Sky",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5337260/cd445b5fe48e6a9a0c4f531f70e58aa3505c9681/header.jpg?t=1792060850",
       "genres": [
-        "Работа со звуком",
-        "Дизайн и иллюстрация",
-        "Обработка фото",
-        "Утилиты",
-        "Создание видео"
+        "Экшены",
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
@@ -683,7 +678,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "SR2 Screen Recorder — простая и лёгкая программа для записи экрана. Выберите область записи, настройте частоту кадров и звук, начните запись и сохраните готовое видео в формате MP4 в нужную папку."
+      "short_description": "Battle across floating islands, gather resources by fishing, craft items, and build structures. Fight rival teams in fast-paced matches with up to 3 teams. Feed your crystal, capture bonus zones, complete missions to score points and win the match or eliminate all opposing teams!"
     },
     {
       "appid": "2929250",

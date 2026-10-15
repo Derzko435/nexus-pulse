@@ -1,17 +1,7 @@
 {
-  "updatedAt": "2026-10-15T14:44:07+03:00",
+  "updatedAt": "2026-10-15T20:11:30+03:00",
   "source": "steam-specials-ru",
   "deals": [
-    {
-      "id": "steam-971690",
-      "title": "Cake Bash",
-      "store": "Steam",
-      "old": 710,
-      "neu": 71,
-      "pct": 90,
-      "url": "https://store.steampowered.com/app/971690/",
-      "steamAppId": "971690"
-    },
     {
       "id": "steam-668580",
       "title": "Atomic Heart",
@@ -33,6 +23,16 @@
       "steamAppId": "2183900"
     },
     {
+      "id": "steam-529180",
+      "title": "Dark and Light",
+      "store": "Steam",
+      "old": 499,
+      "neu": 134,
+      "pct": 73,
+      "url": "https://store.steampowered.com/app/529180/",
+      "steamAppId": "529180"
+    },
+    {
       "id": "steam-72176",
       "title": "Atomic Heart - Ultimate Edition",
       "store": "Steam",
@@ -41,26 +41,6 @@
       "pct": 58,
       "url": "https://store.steampowered.com/app/72176/",
       "steamAppId": "72176"
-    },
-    {
-      "id": "steam-1808500",
-      "title": "ARC Raiders",
-      "store": "Steam",
-      "old": 3220,
-      "neu": 1610,
-      "pct": 50,
-      "url": "https://store.steampowered.com/app/1808500/",
-      "steamAppId": "1808500"
-    },
-    {
-      "id": "steam-3948510",
-      "title": "ARC Raiders - Upgrade to Deluxe Edition",
-      "store": "Steam",
-      "old": 1750,
-      "neu": 875,
-      "pct": 50,
-      "url": "https://store.steampowered.com/app/3948510/",
-      "steamAppId": "3948510"
     },
     {
       "id": "steam-4656000",
@@ -73,6 +53,26 @@
       "steamAppId": "4656000"
     },
     {
+      "id": "steam-3981220",
+      "title": "Ezmeralda",
+      "store": "Steam",
+      "old": 200,
+      "neu": 120,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/3981220/",
+      "steamAppId": "3981220"
+    },
+    {
+      "id": "steam-5228920",
+      "title": "Brick by Brick: Tidy Up the Small Town!",
+      "store": "Steam",
+      "old": 385,
+      "neu": 238,
+      "pct": 38,
+      "url": "https://store.steampowered.com/app/5228920/",
+      "steamAppId": "5228920"
+    },
+    {
       "id": "steam-3892270",
       "title": "Казино с друзьями",
       "store": "Steam",
@@ -83,54 +83,34 @@
       "steamAppId": "3892270"
     },
     {
-      "id": "steam-3678730",
-      "title": "Ball Maze",
+      "id": "steam-5231590",
+      "title": "Hentai Miyu",
       "store": "Steam",
-      "old": 320,
-      "neu": 224,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/3678730/",
-      "steamAppId": "3678730"
+      "old": 51,
+      "neu": 35,
+      "pct": 31,
+      "url": "https://store.steampowered.com/app/5231590/",
+      "steamAppId": "5231590"
     },
     {
-      "id": "steam-5242520",
-      "title": "放置地下城：无尽远征",
+      "id": "steam-2347080",
+      "title": "Frosthaven",
       "store": "Steam",
-      "old": 240,
-      "neu": 168,
+      "old": 1570,
+      "neu": 1099,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/5242520/",
-      "steamAppId": "5242520"
+      "url": "https://store.steampowered.com/app/2347080/",
+      "steamAppId": "2347080"
     },
     {
-      "id": "steam-5299160",
-      "title": "Milf Puzzle",
+      "id": "steam-4798110",
+      "title": "Order Picker Simulator",
       "store": "Steam",
-      "old": 150,
-      "neu": 105,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/5299160/",
-      "steamAppId": "5299160"
-    },
-    {
-      "id": "steam-5019450",
-      "title": "My Elf Gym Adventure!",
-      "store": "Steam",
-      "old": 200,
-      "neu": 150,
+      "old": 400,
+      "neu": 300,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/5019450/",
-      "steamAppId": "5019450"
-    },
-    {
-      "id": "steam-5337260",
-      "title": "Raid Sky",
-      "store": "Steam",
-      "old": 150,
-      "neu": 112,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5337260/",
-      "steamAppId": "5337260"
+      "url": "https://store.steampowered.com/app/4798110/",
+      "steamAppId": "4798110"
     },
     {
       "id": "steam-2929250",
@@ -141,6 +121,26 @@
       "pct": 20,
       "url": "https://store.steampowered.com/app/2929250/",
       "steamAppId": "2929250"
+    },
+    {
+      "id": "steam-3845070",
+      "title": "Dupery: A Game of Solo Deduction",
+      "store": "Steam",
+      "old": 590,
+      "neu": 472,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/3845070/",
+      "steamAppId": "3845070"
+    },
+    {
+      "id": "steam-4596990",
+      "title": "Good Job",
+      "store": "Steam",
+      "old": 567,
+      "neu": 453,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/4596990/",
+      "steamAppId": "4596990"
     }
   ]
 }
