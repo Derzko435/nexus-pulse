@@ -1,28 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-10-15T00:59:57+03:00",
+ "updatedAt": "2026-10-15T14:44:28+03:00",
  "posted": {
   "news": [
-   "151bbcc6f63c",
-   "0f7570ce7e4c",
-   "47cf3c1d1b6f",
-   "5710a34c6206",
-   "8998cd30f753",
-   "47a87eeed525",
-   "7c103324b3a4",
-   "b12d317898f7",
-   "995d5da16a4f",
-   "ad28b22bba33",
-   "328c226969ca",
-   "90d98ad24d70",
-   "03e480c6e1ef",
-   "074c7614b223",
-   "7d5ad69d1f07",
-   "c0866fbfa426",
-   "3c56bb0694f2",
-   "60f57c24664b",
-   "eb72ae69f627",
-   "40fddbeb770c",
    "52c8dde69e2b",
    "3da9989ff94c",
    "251b4a77b2c1",
@@ -502,7 +482,27 @@
    "235fc97adffb",
    "9ac404303695",
    "5401ed1c64d4",
-   "bb9c5c3c1afa"
+   "bb9c5c3c1afa",
+   "27fe346fff00",
+   "3702f072997b",
+   "539b65c65029",
+   "e918b26ceb3d",
+   "df6b045b2c18",
+   "4c2a6b10024c",
+   "71d6093a1392",
+   "dd782eaf81a8",
+   "e085f8887798",
+   "e606b615eefa",
+   "06f35e28fba0",
+   "cf23a42a16a7",
+   "d864f266d5f0",
+   "a61d3bff3961",
+   "82e812bc43c4",
+   "1521fbdd76ba",
+   "8823e9b5d608",
+   "b88a7e327fb0",
+   "6b8a99756a02",
+   "0888e0163877"
   ],
   "deals": [
    "steam-246420:90",
@@ -570,7 +570,8 @@
    "steam-4708650:65",
    "steam-94400:65",
    "steam-881100:60",
-   "steam-1702010:52"
+   "steam-1702010:52",
+   "steam-971690:90"
   ],
   "freebies": [
    "epic-7ae00c3e89174012b175cc73b4737723:soon",
@@ -906,7 +907,9 @@
    "apex:2026-10-08",
    "cs2:2026-10-09",
    "apex:2026-10-09",
-   "valorant:2026-10-13"
+   "valorant:2026-10-13",
+   "cs2:2026-10-15",
+   "rivals:2026-10-15"
   ],
   "videos": [
    "5lXlYn6ajK8",
@@ -1296,7 +1299,12 @@
    "scn5HOghvPo",
    "K2WWdSkMNlE",
    "hjzUojD5fhA",
-   "ta1Zgdol0M8"
+   "ta1Zgdol0M8",
+   "4koDWP7btkw",
+   "a4-KQCTlRRI",
+   "SUqDuog_GJY",
+   "_5XA-71xpjQ",
+   "JGDpL8pdHls"
   ],
   "releases": [
    "week:2026-W39",
@@ -1370,6 +1378,7 @@
   "2026-10-13T19:08+03:00",
   "2026-10-14T00:21+03:00",
   "2026-10-14T10:48+03:00",
-  "2026-10-14T21:44+03:00"
+  "2026-10-14T21:44+03:00",
+  "2026-10-15T14:44+03:00"
  ]
 }
