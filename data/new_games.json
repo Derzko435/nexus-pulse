@@ -1,6 +1,32 @@
 {
- "updatedAt": "2026-10-15T11:24:49+03:00",
+ "updatedAt": "2026-10-16T11:18:54+03:00",
  "items": [
+  {
+   "appid": 1203620,
+   "title": "Enshrouded",
+   "date": "2026-10-15",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/98ca939f51b39bdd41e0e9198a9ccf8421148770/header_alt_assets_2.jpg?t=1792078032",
+   "desc": "Enshrouded — ролевая игра для одиночного или совместного прохождения, поощряющая креативность. Ваша главная задача — одолеть коварную Пелену, которая поглощает королевство Эмбервэйл. Изучите таинственный мир, создайте уникального героя и постройте или преобразуйте все, что хотите.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Keen Games GmbH",
+   "price": "1439 руб.",
+   "url": "https://store.steampowered.com/app/1203620/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/1203620/"
+   },
+   "reviews": 94972
+  },
   {
    "appid": 2929250,
    "title": "over the hill",
@@ -25,7 +51,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/2929250/"
    },
-   "reviews": 551
+   "reviews": 1132
   },
   {
    "appid": 2828710,
@@ -39,7 +65,9 @@
     "Ролевые игры"
    ],
    "platforms": [
-    "PC"
+    "PC",
+    "PlayStation",
+    "Xbox"
    ],
    "stores": [
     "Steam"
@@ -50,13 +78,13 @@
    "links": {
     "steam": "https://store.steampowered.com/app/2828710/"
    },
-   "reviews": 584
+   "reviews": 835
   },
   {
    "appid": 2887580,
    "title": "Active Matter",
    "date": "2026-09-15",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2887580/191801a8de4db48075ef195473a922391cb4c6de/header.jpg?t=1791892413",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2887580/191801a8de4db48075ef195473a922391cb4c6de/header.jpg?t=1792058040",
    "desc": "Присоединяйтесь к рейдам за добычей или PvP-сражениям в этом новом реалистичном военном шутере, в мире расколотой мультивселенной. Сражайтесь в квантово-нестабильных зонах за контроль над активной материей — веществом, искривляющим время и пространство.",
    "genres": [
     "Экшены",
@@ -75,17 +103,17 @@
    "links": {
     "steam": "https://store.steampowered.com/app/2887580/"
    },
-   "reviews": 3548
+   "reviews": 3599
   },
   {
-   "appid": 3115160,
-   "title": "Warhammer 40,000: Boltgun 2",
-   "date": "2026-10-14",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3115160/c99bc374ca10d0335fe5e8f37942aea35419e4d4/header.jpg?t=1792011531",
-   "desc": "Примерьте на себя роль Ультрамарина Малума Каэдо или сестры Битвы Ниры Вейрат, чья цель — уничтожить еретиков во имя Императора в Warhammer 40 000: Boltgun 2! В сиквеле ретро-шутера от первого лица ещё больше врагов, оружия и способов искоренять ересь!",
+   "appid": 4049180,
+   "title": "Disney/Pixar Toy Story 3 Complete Edition",
+   "date": "2026-10-15",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4049180/8d4e4c2c303b6bca383f7d3473400236096fbca2/header.jpg?t=1792084145",
+   "desc": "Откройте сундук с игрушками и играйте за Вуди, Базза Лайтера и Джесси в Toy Story 3 Complete Edition — 3D-приключении по мотивам мультфильма 2010 г. «История игрушек 3». Пройдите сцены из мультфильма в сюжетном режиме или отправьтесь на Дикий Запад в режиме «Ящик с игрушками».",
    "genres": [
     "Экшены",
-    "Инди"
+    "Приключенческие игры"
    ],
    "platforms": [
     "PC"
@@ -93,86 +121,13 @@
    "stores": [
     "Steam"
    ],
-   "developer": "Auroch Digital",
-   "price": "1050 руб.",
-   "url": "https://store.steampowered.com/app/3115160/",
+   "developer": "Digital Eclipse",
+   "price": "1099 руб.",
+   "url": "https://store.steampowered.com/app/4049180/",
    "links": {
-    "steam": "https://store.steampowered.com/app/3115160/"
+    "steam": "https://store.steampowered.com/app/4049180/"
    },
-   "reviews": 179
-  },
-  {
-   "appid": 2871520,
-   "title": "Deep Dish Dungeon",
-   "date": "2026-10-13",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2871520/a941857720d5b6a62a2e0a7646f2ca46b00039b6/header_alt_assets_1.jpg?t=1791960486",
-   "desc": "Игра на выживание, где вам предстоит пробираться через отрисованные вручную подземелья. Особые приметы: элементы метроидвании и развитая система крафта. Исследуйте подземные глубины соло или с друзьями в сетевой совместной игре.",
-   "genres": [
-    "Экшены",
-    "Стратегии"
-   ],
-   "platforms": [
-    "PC",
-    "Mac"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Behold Studios",
-   "price": "551 руб.",
-   "url": "https://store.steampowered.com/app/2871520/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/2871520/"
-   },
-   "reviews": 202
-  },
-  {
-   "appid": 5020310,
-   "title": "Dub Together",
-   "date": "2026-09-01",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5020310/5120fdb5c1622bf7317187323aac962b3034fb93/header.jpg?t=1790943462",
-   "desc": "До восьми игроков дублируют видеоклипы и придают им совершенно новый смысл. Вы записываете сцену, затем вместе смотрите каждый результат и голосуете. Благодаря голосовым эффектам, встроенному редактору клипов и живому голосованию из чата Twitch.",
-   "genres": [
-    "Казуальные игры",
-    "Инди"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Banani",
-   "price": "240 руб.",
-   "url": "https://store.steampowered.com/app/5020310/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/5020310/"
-   },
-   "reviews": 482
-  },
-  {
-   "appid": 4126040,
-   "title": "Aniimo",
-   "date": "2026-09-15",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/bf9b76d25ac135baf8f313d9a095e754fd2e950b/header.jpg?t=1791771029",
-   "desc": "Во время своего путешествия вы сможете объединяться с анимо и фактически становиться любым анимо из своей коллекции. Используйте навыки анимо, чтобы решать головоломки, побеждать в битвах и преодолевать испытания! Объединяйтесь с анимо и открывайте мир с совершенно новой стороны.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Многопользовательские игры"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Pawprint Studio",
-   "price": "Бесплатно",
-   "url": "https://store.steampowered.com/app/4126040/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4126040/"
-   }
+   "reviews": 163
   },
   {
    "appid": 4732690,
@@ -199,14 +154,15 @@
    }
   },
   {
-   "appid": 3314580,
-   "title": "Trash Day",
-   "date": "2026-10-13",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314580/6d7cb32debcbdba122624fae234c659cdff2b4bf/header.jpg?t=1791911043",
-   "desc": "Объединяйтесь со своей бандой енотов в кооперативном приключении с реалистичной физикой для 1–6 игроков. Собирайте мусор, набивайте им угнанный прицеп и тащите его в енотов рай. Ваша полосатая жизнь удалась!",
+   "appid": 4126040,
+   "title": "Aniimo",
+   "date": "2026-09-15",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/bf9b76d25ac135baf8f313d9a095e754fd2e950b/header.jpg?t=1791771029",
+   "desc": "Во время своего путешествия вы сможете объединяться с анимо и фактически становиться любым анимо из своей коллекции. Используйте навыки анимо, чтобы решать головоломки, побеждать в битвах и преодолевать испытания! Объединяйтесь с анимо и открывайте мир с совершенно новой стороны.",
    "genres": [
     "Экшены",
-    "Приключенческие игры"
+    "Приключенческие игры",
+    "Многопользовательские игры"
    ],
    "platforms": [
     "PC"
@@ -214,13 +170,109 @@
    "stores": [
     "Steam"
    ],
-   "developer": "Off by One Games",
-   "price": "324 руб.",
-   "url": "https://store.steampowered.com/app/3314580/",
+   "developer": "Pawprint Studio",
+   "price": "Бесплатно",
+   "url": "https://store.steampowered.com/app/4126040/",
    "links": {
-    "steam": "https://store.steampowered.com/app/3314580/"
+    "steam": "https://store.steampowered.com/app/4126040/"
+   }
+  },
+  {
+   "appid": 3569420,
+   "title": "Chained Beasts",
+   "date": "2026-10-15",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/be237edbd1bdbcf361d7b315d70e89fea3b5262a/header.jpg?t=1792082632",
+   "desc": "Chained Beasts — кооперативный гладиаторский рогалик для 1–4 игроков. Вашим прикованным друг к другу бойцам придётся использовать свои цепи и окружение, превозмогать физические и ментальные травмы и побеждать грозных боссов, чтобы выжить и завоевать любовь кровожадной толпы.",
+   "genres": [
+    "Экшены"
+   ],
+   "platforms": [
+    "PC",
+    "Mac"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Featherweight Games",
+   "price": "555 руб.",
+   "url": "https://store.steampowered.com/app/3569420/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/3569420/"
    },
-   "reviews": 184
+   "reviews": 121
+  },
+  {
+   "appid": 3115160,
+   "title": "Warhammer 40,000: Boltgun 2",
+   "date": "2026-10-14",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3115160/c99bc374ca10d0335fe5e8f37942aea35419e4d4/header.jpg?t=1792080945",
+   "desc": "Примерьте на себя роль Ультрамарина Малума Каэдо или сестры Битвы Ниры Вейрат, чья цель — уничтожить еретиков во имя Императора в Warhammer 40 000: Boltgun 2! В сиквеле ретро-шутера от первого лица ещё больше врагов, оружия и способов искоренять ересь!",
+   "genres": [
+    "Экшены",
+    "Инди"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Auroch Digital",
+   "price": "1050 руб.",
+   "url": "https://store.steampowered.com/app/3115160/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/3115160/"
+   },
+   "reviews": 278
+  },
+  {
+   "appid": 5020310,
+   "title": "Dub Together",
+   "date": "2026-09-01",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5020310/5120fdb5c1622bf7317187323aac962b3034fb93/header.jpg?t=1790943462",
+   "desc": "До восьми игроков дублируют видеоклипы и придают им совершенно новый смысл. Вы записываете сцену, затем вместе смотрите каждый результат и голосуете. Благодаря голосовым эффектам, встроенному редактору клипов и живому голосованию из чата Twitch.",
+   "genres": [
+    "Казуальные игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Banani",
+   "price": "240 руб.",
+   "url": "https://store.steampowered.com/app/5020310/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/5020310/"
+   },
+   "reviews": 506
+  },
+  {
+   "appid": 4954910,
+   "title": "Scam With Your Friends",
+   "date": "2026-10-15",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4954910/128effac3212fc1b92b4f6cd8891995df0d4b199/header.jpg?t=1792088818",
+   "desc": "Управляйте call-центром мошенников с друзьями. Используйте всё более абсурдные планы для развода ИИ абонентов на их денежные сбережения. Достигните суточной нормы, наводите хаос в офисе и выживите жесткую оценку результатов от своего яростного босса.",
+   "genres": [
+    "Экшены",
+    "Казуальные игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "JakeHub, Metater",
+   "price": "418 руб.",
+   "url": "https://store.steampowered.com/app/4954910/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4954910/"
+   },
+   "reviews": 705
   },
   {
    "appid": 4656000,
@@ -245,57 +297,195 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4656000/"
    },
-   "reviews": 3593
+   "reviews": 3633
   },
   {
-   "appid": 2254990,
-   "title": "Permafrost",
-   "date": "2026-10-09",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2254990/693eff202c061aaecba330b44d76485a672bea97/header.jpg?t=1791980722",
-   "desc": "Permafrost — это «песочница» на выживание среди постапокалиптических льдов. Откройте для себя обширный открытый мир с богатой историей в одиночку или в кооперативном режиме до 4 игроков. Исследуйте, добывайте, создавайте и стройте, чтобы выжить в холоде.",
+   "appid": "x-meccha-chameleon",
+   "title": "Meccha Chameleon",
+   "date": "2026-09-09",
+   "image": "https://upload.wikimedia.org/wikipedia/en/8/8f/Meccha_Chameleon_Steam_Header.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Meccha Chameleon — многопользовательская казуальная игра, созданная японскими инди-разработчиками Lemorion_1224 и Haganeiro и выпущенная для Windows 10 июня 2026 года.",
    "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Ролевые игры"
+    "Казуальная игра"
    ],
    "platforms": [
-    "PC"
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Lemorion 1224",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/Meccha_Chameleon",
+   "links": {
+    "wiki": "https://ru.wikipedia.org/wiki/Meccha_Chameleon"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-star-fox-adventures",
+   "title": "Star Fox Adventures",
+   "date": "2026-09-09",
+   "image": "https://upload.wikimedia.org/wikipedia/en/3/31/Star_Fox_Adventures_GCN_Game_Box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Star Fox Adventures — видеоигра в жанре приключенческого боевика, разработанная компанией Rare и изданная Nintendo. Хотя игра изначально разрабатывалась для приставки Nintendo 64, Сигэру Миямото убедил Rare изменить сюжет игры, сделать её частью серии Star Fox и переработать её для издания на…",
+   "genres": [
+    "Экшен-приключение"
+   ],
+   "platforms": [
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Rare",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/Star_Fox_Adventures",
+   "links": {
+    "wiki": "https://ru.wikipedia.org/wiki/Star_Fox_Adventures"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": 892970,
+   "title": "Valheim",
+   "date": "2026-09-09",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/1888731b59362fca6c026cdbafa3dfffd45c3146/header_alt_assets_6.jpg?t=1791544831",
+   "desc": "Valheim — компьютерная игра в жанре симулятора выживания с видом от третьего лица в открытом мире, разрабатываемая шведской компанией Iron Gate и изданная компанией Coffee Stain. Выход игры в раннем доступе состоялся 2 февраля 2021 года для Windows и 4 марта 2023 года для Xbox One и Xbox Series…",
+   "genres": [
+    "Песочница",
+    "Выживание"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Xbox",
+    "Switch",
+    "Mac",
+    "Linux"
    ],
    "stores": [
     "Steam"
    ],
-   "developer": "SpaceRocket Games",
-   "price": "1439,20 руб.",
-   "url": "https://store.steampowered.com/app/2254990/",
+   "developer": "Iron Gate Studio",
+   "price": "1299 руб.",
+   "url": "https://store.steampowered.com/app/892970/",
    "links": {
-    "steam": "https://store.steampowered.com/app/2254990/"
+    "steam": "https://store.steampowered.com/app/892970/",
+    "wiki": "https://ru.wikipedia.org/wiki/Valheim"
    },
-   "reviews": 1283
+   "source": "wiki"
   },
   {
-   "appid": 3299050,
-   "title": "No Such Place",
-   "date": "2026-10-13",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3299050/1ca62da11a7fd1742b3741fcc0d492a47989432c/header.jpg?t=1791980785",
-   "desc": "Добро пожаловать в Unknown Research Consortium (U.R.C.). Проводите разведоперации, устраняйте таинственные угрозы, собирайте важную информацию и добирайтесь до точки эвакуации в полном опасностей изометрическом экстракшен-шутере.",
+   "appid": "x-mewgenics",
+   "title": "Mewgenics",
+   "date": "2026-09-08",
+   "image": "https://upload.wikimedia.org/wikipedia/en/a/a5/Mewgenics_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Mewgenics — тактическая ролевая игра с элементами roguelike и симулятора жизни, разработанная и выпущенная независимыми разработчиками Эдмундом Макмилленом и Тайлером Глейелем. Игроку предлагается разводить кошек, которые участвуют в тактических сражениях на случайно сгенерированных локациях…",
    "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Инди"
+    "Тактическая RPG",
+    "Рогалик",
+    "Симулятор жизни"
    ],
    "platforms": [
-    "PC"
+    "PlayStation",
+    "Xbox",
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Edmund McMillen , Tyler Glaiel",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/Mewgenics",
+   "links": {
+    "wiki": "https://ru.wikipedia.org/wiki/Mewgenics"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": 4356430,
+   "title": "NBA 2K27",
+   "date": "2026-09-04",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4356430/9152438fde7de9f4c20b4fd9072ba69f844dacab/header.jpg?t=1790702884",
+   "desc": "В NBA 2K27 движение не прекращается, и игра никогда не заканчивается. Круглосуточно сражайтесь за величие в MyCAREER, MyTEAM и MyNBA и воплотите свои мечты о баскетболе в реальность.",
+   "genres": [
+    "Спорт"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Xbox",
+    "Switch"
    ],
    "stores": [
     "Steam"
    ],
-   "developer": "ChillyRoom, CritTeam 暴击组",
-   "price": "592 руб.",
-   "url": "https://store.steampowered.com/app/3299050/",
+   "developer": "Visual Concepts",
+   "price": "",
+   "url": "https://store.steampowered.com/app/4356430/",
    "links": {
-    "steam": "https://store.steampowered.com/app/3299050/"
+    "steam": "https://store.steampowered.com/app/4356430/",
+    "wiki": "https://en.wikipedia.org/wiki/NBA_2K27"
    },
-   "reviews": 223
+   "source": "wiki"
+  },
+  {
+   "appid": "x-exstetra",
+   "title": "Exstetra",
+   "date": "2026-09-03",
+   "image": "https://upload.wikimedia.org/wikipedia/en/c/c1/Exstetra.PNG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Exstetra — японская ролевая видеоигра, разработанная Studio Saizensen и изданная FuRyu для Nintendo 3DS и PlayStation Vita в 2013 году. 30 июля 2026 года для Steam был выпущен HD-ремастер с поддержкой английского языка, ознаменовавший первую официальную локализацию игры, за которой последовали версии…",
+   "genres": [
+    "RPG"
+   ],
+   "platforms": [
+    "PlayStation",
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "FuRyu , Studio Saizensen",
+   "price": "",
+   "url": "https://en.wikipedia.org/wiki/Exstetra",
+   "links": {
+    "wiki": "https://en.wikipedia.org/wiki/Exstetra"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-keeper",
+   "title": "Keeper",
+   "date": "2026-09-03",
+   "image": "https://upload.wikimedia.org/wikipedia/en/1/1b/Keeper_video_game_cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Keeper — приключенческая компьютерная игра, разработанная компанией Double Fine при поддержке Xbox Game Studios. Релиз игры состоялся 17 октября 2025 года на Xbox Series X/S и Windows.",
+   "genres": [
+    "Приключение"
+   ],
+   "platforms": [
+    "PlayStation"
+   ],
+   "stores": [],
+   "developer": "Double Fine",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/Keeper",
+   "links": {
+    "wiki": "https://ru.wikipedia.org/wiki/Keeper"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-orbitals",
+   "title": "Orbitals",
+   "date": "2026-09-03",
+   "image": "https://upload.wikimedia.org/wikipedia/en/1/1b/Orbitals_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Orbitals — это совместная приключенческая видеоигра-головоломка 2026 года, разработанная Shapefarm и изданная Kepler Interactive. Она была выпущена во всем мире 3 сентября 2026 года для Nintendo Switch 2. В игре рассказывается о том, как Маки и Омура путешествуют по космосу, чтобы предотвратить разрушение своей космической станции…",
+   "genres": [
+    "Приключение"
+   ],
+   "platforms": [
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Shapefarm",
+   "price": "",
+   "url": "https://en.wikipedia.org/wiki/Orbitals_%28video_game%29",
+   "links": {
+    "wiki": "https://en.wikipedia.org/wiki/Orbitals_%28video_game%29"
+   },
+   "source": "wiki"
   }
  ]
 }

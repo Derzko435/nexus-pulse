@@ -1,54 +1,26 @@
 {
- "updatedAt": "2026-10-15T11:24:29+03:00",
+ "updatedAt": "2026-10-16T11:18:23+03:00",
  "items": [
   {
-   "appid": 4954910,
-   "title": "Scam With Your Friends",
-   "date": "2026-10-15",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4954910/128effac3212fc1b92b4f6cd8891995df0d4b199/header.jpg?t=1792044061",
-   "desc": "Управляйте call-центром мошенников с друзьями. Используйте всё более абсурдные планы для развода ИИ абонентов на их денежные сбережения. Достигните суточной нормы, наводите хаос в офисе и выживите жесткую оценку результатов от своего яростного босса.",
-   "genres": [
-    "Экшены",
-    "Казуальные игры",
-    "Инди"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "JakeHub, Metater",
-   "price": "",
-   "url": "https://store.steampowered.com/app/4954910/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4954910/"
-   }
-  },
-  {
-   "appid": 2295060,
-   "title": "Beyond These Stars",
+   "appid": "x-lego-harry-potter-collection",
+   "title": "Lego Harry Potter Collection",
    "date": "2026-10-16",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2295060/8880f2690c52f88a55d292651250a14fecb9918a/header.jpg?t=1791551257",
-   "desc": "Постройте город на спине космического кита и научитесь мирно сосуществовать, бороздя звездные просторы. Управляйте сложными цепочками поставок и потребностями жителей, возводите аванпосты, общайтесь с инопланетянами и раскрывайте тайны вселенной.",
+   "image": "https://upload.wikimedia.org/wikipedia/en/5/57/LEGO_Harry_Potter_Logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Lego: Harry Potter — серия игрушек Lego, базирующаяся на фильмах серии Гарри Поттер. Игрушки представляют собой модели важных сцен, транспортных средств и персонажей и созданы по мотивам всех семи фильмов.",
    "genres": [
-    "Симуляторы",
-    "Стратегии"
+    "Экшен-приключение"
    ],
    "platforms": [
-    "PC"
+    "Switch"
    ],
-   "stores": [
-    "Steam",
-    "Epic"
-   ],
-   "developer": "Balancing Monkey Games",
+   "stores": [],
+   "developer": "Cast Iron Games, Double Eleven , TT Games",
    "price": "",
-   "url": "https://store.steampowered.com/app/2295060/",
+   "url": "https://ru.wikipedia.org/wiki/Lego%3A_Harry_Potter",
    "links": {
-    "steam": "https://store.steampowered.com/app/2295060/",
-    "epic": "https://store.epicgames.com/ru/p/beyond-these-stars-a5b977"
-   }
+    "wiki": "https://ru.wikipedia.org/wiki/Lego%3A_Harry_Potter"
+   },
+   "source": "wiki"
   },
   {
    "appid": 4094350,
@@ -75,28 +47,159 @@
    }
   },
   {
-   "appid": 2223980,
-   "title": "Nomad Drive",
-   "date": "2026-10-20",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223980/2848bab07e85d65470076d053f1f7c490790db14/header.jpg?t=1791978070",
-   "desc": "Отремонтируйте свой запущенный дом на колесах и отправляйтесь в путь в одиночку или в кооперативе на 1–4 игроков по процедурно генерируемому постапокалиптическому миру. Собирайте ресурсы, настраивайте ваш дом на колесах и выживайте как можно дольше.",
+   "appid": "x-resident-evil-2",
+   "title": "Resident Evil 2 Deluxe Edition",
+   "date": "2026-10-16",
+   "image": "https://upload.wikimedia.org/wikipedia/en/f/fd/Resident_Evil_2_Remake.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Resident Evil 2 — компьютерная игра в жанре survival horror, разработанная Capcom R&D Division 1 и изданная Capcom 25 января 2019 года для PlayStation 4, Xbox One и Windows. Ремейк одноимённой игры 1998 года. В 2022 году были выпущены версии для Nintendo Switch, PlayStation 5 и Xbox Series X/S…",
    "genres": [
-    "Приключенческие игры",
-    "Инди",
-    "Симуляторы"
+    "Survival-хоррор"
    ],
    "platforms": [
-    "PC"
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Capcom",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/Resident_Evil_2_%28%D0%B8%D0%B3%D1%80%D0%B0%2C_2019%29",
+   "links": {
+    "wiki": "https://ru.wikipedia.org/wiki/Resident_Evil_2_%28%D0%B8%D0%B3%D1%80%D0%B0%2C_2019%29"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-resident-evil-3",
+   "title": "Resident Evil 3",
+   "date": "2026-10-16",
+   "image": "https://upload.wikimedia.org/wikipedia/en/d/dc/Resident_Evil_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Resident Evil 3 — компьютерная игра, являющаяся ремейком игры Resident Evil 3: Nemesis 1999 года, а также продолжением двух предыдущих ремейков серии — Resident Evil (2002) и частично Resident Evil 2 (2019).\nИгра была разработана подразделением Capcom M-Two и Red Works при содействии другой…",
+   "genres": [
+    "Survival-хоррор"
+   ],
+   "platforms": [
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Capcom",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/Resident_Evil_3_%28%D0%B8%D0%B3%D1%80%D0%B0%2C_2020%29",
+   "links": {
+    "wiki": "https://ru.wikipedia.org/wiki/Resident_Evil_3_%28%D0%B8%D0%B3%D1%80%D0%B0%2C_2020%29"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-resident-evil-4-gold",
+   "title": "Resident Evil 4 Gold Edition",
+   "date": "2026-10-16",
+   "image": "https://upload.wikimedia.org/wikipedia/en/d/df/Resident_Evil_4_remake_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Resident Evil 4, известная в Японии как Biohazard RE:4 — компьютерная игра в жанрах survival horror и шутера от третьего лица, разработанная студией Consumer Games Development Division 1 и изданная Capcom. Является ремейком одноимённой игры 2005 года —\nшестой в основной серии Resident Evil (две…",
+   "genres": [
+    "Survival-хоррор"
+   ],
+   "platforms": [
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Capcom",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/Resident_Evil_4_%28%D0%B8%D0%B3%D1%80%D0%B0%2C_2023%29",
+   "links": {
+    "wiki": "https://ru.wikipedia.org/wiki/Resident_Evil_4_%28%D0%B8%D0%B3%D1%80%D0%B0%2C_2023%29"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": 2121510,
+   "title": "Tenebris Somnia",
+   "date": "2026-10-16",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2121510/61f3fb4ddb5387876aa498f621386e1d4442c219/header.jpg?t=1792102818",
+   "desc": "Раскройте тайны мрачной истории, решая головоломки и сражаясь с ужасными существами. ...А что, если это не просто кошмары?",
+   "genres": [
+    "Survival-хоррор",
+    "Приключение"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Xbox",
+    "Switch"
    ],
    "stores": [
     "Steam"
    ],
-   "developer": "Indie Devil",
+   "developer": "Andrés Borghi, Saibot Studios",
    "price": "",
-   "url": "https://store.steampowered.com/app/2223980/",
+   "url": "https://store.steampowered.com/app/2121510/",
    "links": {
-    "steam": "https://store.steampowered.com/app/2223980/"
-   }
+    "steam": "https://store.steampowered.com/app/2121510/",
+    "wiki": "https://en.wikipedia.org/wiki/Tenebris_Somnia"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-beamng-drive",
+   "title": "BeamNG.drive",
+   "date": "2026-10-19",
+   "image": "https://upload.wikimedia.org/wikipedia/en/6/6c/BeamNGdrive_cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "BeamNG.drive — компьютерная игра в жанре автосимулятора, разработанная и изданная компанией BeamNG GmbH для платформы Windows с экспериментальной версией для Linux. Использует уникальную физику мягких тел. Является идейным продолжением предыдущего проекта разработчиков — Rigs of Rods.",
+   "genres": [
+    "Симулятор техники"
+   ],
+   "platforms": [
+    "PlayStation"
+   ],
+   "stores": [],
+   "developer": "BeamNG",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/BeamNG.drive",
+   "links": {
+    "wiki": "https://ru.wikipedia.org/wiki/BeamNG.drive"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-frostpunk",
+   "title": "Frostpunk",
+   "date": "2026-10-19",
+   "image": "https://upload.wikimedia.org/wikipedia/en/a/a3/Frostpunk_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Frostpunk — компьютерная игра в жанре градостроительного симулятора и симулятор выживания, разработанная компанией 11 bit studios. Игра включает в себя элементы стимпанка и альтернативной истории. Название игры является неологизмом, придуманным её создателями, и получено путём объединения слов…",
+   "genres": [
+    "Градостроитель",
+    "Выживание"
+   ],
+   "platforms": [
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "11 Bit Studios",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/Frostpunk",
+   "links": {
+    "wiki": "https://ru.wikipedia.org/wiki/Frostpunk"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-i-am-your-beast",
+   "title": "I Am Your Beast",
+   "date": "2026-10-20",
+   "image": "https://upload.wikimedia.org/wikipedia/en/7/73/I_Am_Your_Beast_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "I Am Your Beast — это видеоигра-шутер от первого лица 2024 года, разработанная и изданная Strange Scaffold. Он был выпущен для Windows в сентябре 2024 года, iOS в феврале 2025 года, PlayStation 5 и Xbox Series X/S в июне 2025 года, а для Nintendo Switch и Nintendo Switch 2 планируется выпустить его в…",
+   "genres": [
+    "Шутер от первого лица"
+   ],
+   "platforms": [
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Strange Scaffold",
+   "price": "",
+   "url": "https://en.wikipedia.org/wiki/I_Am_Your_Beast",
+   "links": {
+    "wiki": "https://en.wikipedia.org/wiki/I_Am_Your_Beast"
+   },
+   "source": "wiki"
   },
   {
    "appid": 2315050,
@@ -123,15 +226,105 @@
    }
   },
   {
-   "appid": 4890760,
-   "title": "THE DEAD WE KNEW: Open World Survival",
+   "appid": "x-back-to-dawn",
+   "title": "Back to the Dawn",
    "date": "2026-10-22",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4890760/d6dec22f1f319e6e4c87d7e92c1a7858152a3445/header.jpg?t=1789402327",
-   "desc": "Собирай добычу в опасной игре на выживание с открытым миром, строй своё убежище, производи собственную еду и управляй ресурсами. Выживай в одиночку или в кооперативном режиме против зомби, враждебных людей и угроз, которые усиливаются вместе с туманом.",
+   "image": "https://upload.wikimedia.org/wikipedia/en/b/ba/Back_to_the_Dawn_cover.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Back to the Dawn — это инди-ролевая видеоигра 2025 года, разработанная Metal Head Games и изданная Spiral Up Games. Версия игры с ранним доступом была выпущена для Windows и Xbox Series X/S в конце 2023 года. Nintendo Switch и Nintendo Switch 2 получили игру без раннего доступа…",
    "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Ролевые игры"
+    "RPG"
+   ],
+   "platforms": [
+    "PlayStation"
+   ],
+   "stores": [],
+   "developer": "Metal Head Games",
+   "price": "",
+   "url": "https://en.wikipedia.org/wiki/Back_to_the_Dawn",
+   "links": {
+    "wiki": "https://en.wikipedia.org/wiki/Back_to_the_Dawn"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": 3259780,
+   "title": "Final Fantasy Resonance",
+   "date": "2026-10-22",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/710da43babb2043f9f6ad0e50023e31167d94708/header.jpg?t=1788534743",
+   "desc": "Final Fantasy Resonance — будущая компьютерная игра в жанре JRPG, разработанная компанией Square Enix. Игра представляет собой адаптацию сюжета мобильного тайтла Final Fantasy: Brave Exvius, но включает элементы из последующих обновлений и оригинальный контент. Проект планируется выпустить 22…",
+   "genres": [
+    "Пошаговая стратегия",
+    "RPG"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Xbox",
+    "Switch"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Square Enix",
+   "price": "",
+   "url": "https://store.steampowered.com/app/3259780/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/3259780/",
+    "wiki": "https://ru.wikipedia.org/wiki/Final_Fantasy_Resonance"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-my-friendly-neighborhood",
+   "title": "My Friendly Neighborhood",
+   "date": "2026-10-22",
+   "image": "https://upload.wikimedia.org/wikipedia/en/c/c3/My_Friendly_Neighborhood_cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "My Friendly Neighborhood — это инди-игра в жанре ужасов на выживание 2023 года, разработанная братьями Джоном и Эваном Шимански и изданная DreadXP. Вдохновленная детскими сериалами «Улица Сезам» и «Маппеты», игра рассказывает о ремонтнике, которого отправляют отключить сигнал у заброшенного телевизора…",
+   "genres": [
+    "Survival-хоррор"
+   ],
+   "platforms": [
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "John Szymanski, Evan Szymanski",
+   "price": "",
+   "url": "https://en.wikipedia.org/wiki/My_Friendly_Neighborhood",
+   "links": {
+    "wiki": "https://en.wikipedia.org/wiki/My_Friendly_Neighborhood"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-nintendo-switch-sports-resort",
+   "title": "Nintendo Switch Sports Resort",
+   "date": "2026-10-22",
+   "image": "https://upload.wikimedia.org/wikipedia/en/3/3e/Nintendo_Switch_Sports_Resort_cover_art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Nintendo Switch Sports Resort — это будущая спортивная видеоигра, разработанная и изданная Nintendo для Nintendo Switch 2. Это продолжение Nintendo Switch Sports с элементами, основанными на Wii Sports и Wii Sports Resort.\nВпервые игра была анонсирована на Nintendo Direct, состоявшейся 9 июня 2026 года.",
+   "genres": [
+    "Спорт"
+   ],
+   "platforms": [
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Nintendo",
+   "price": "",
+   "url": "https://en.wikipedia.org/wiki/Nintendo_Switch_Sports_Resort",
+   "links": {
+    "wiki": "https://en.wikipedia.org/wiki/Nintendo_Switch_Sports_Resort"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": 3905010,
+   "title": "ONE PIECE: Grand Gourmet",
+   "date": "2026-10-22",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3905010/0437aa2ef308bd35d40833de72c3dac04a24f067/header.jpg?t=1789090874",
+   "desc": "Добро пожаловать на борт аппетитного симулятора управления в мире ONE PIECE! Стройте лучший ресторан на морях вместе с Пиратами Соломенной Шляпы! Собирайте ингредиенты, придумывайте блюда и украшайте их, чтобы знакомые персонажи выстраивались в очередь за добавкой!",
+   "genres": [
+    "Казуальные игры",
+    "Симуляторы"
    ],
    "platforms": [
     "PC"
@@ -139,12 +332,35 @@
    "stores": [
     "Steam"
    ],
-   "developer": "MAY19 STUDIO",
-   "price": "",
-   "url": "https://store.steampowered.com/app/4890760/",
+   "developer": "Kairosoft Co.,Ltd",
+   "price": "1429 руб.",
+   "url": "https://store.steampowered.com/app/3905010/",
    "links": {
-    "steam": "https://store.steampowered.com/app/4890760/"
+    "steam": "https://store.steampowered.com/app/3905010/"
    }
+  },
+  {
+   "appid": "x-peak",
+   "title": "Peak",
+   "date": "2026-10-22",
+   "image": "https://upload.wikimedia.org/wikipedia/en/0/0f/PEAK_cover_image.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Peak — кооперативная компьютерная игра в жанре приключенческий экшен с элементами симулятора выживания, разработанная студиями Aggro Crab и Landfall, выпущенная 16 июня 2025 года для Windows. Игра быстро привлекла внимание аудитории: в первую неделю после выхода Peak стала одной из самых популярных…",
+   "genres": [
+    "Экшен-приключение"
+   ],
+   "platforms": [
+    "PlayStation",
+    "Xbox",
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Aggro Crab , Landfall",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/Peak_%28%D0%B8%D0%B3%D1%80%D0%B0%29",
+   "links": {
+    "wiki": "https://ru.wikipedia.org/wiki/Peak_%28%D0%B8%D0%B3%D1%80%D0%B0%29"
+   },
+   "source": "wiki"
   },
   {
    "appid": 3960600,
@@ -197,6 +413,30 @@
    }
   },
   {
+   "appid": "x-s-ance-of-blake-manor",
+   "title": "The Séance of Blake Manor",
+   "date": "2026-10-27",
+   "image": "https://upload.wikimedia.org/wikipedia/en/b/b1/The_S%C3%A9ance_of_Blake_Manor_steam_header.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "The Séance of Blake Manor — это игра-головоломка от первого лица, разработанная Spooky Doorway и изданная Raw Fury. Она была выпущена для Linux и Windows 27 октября 2025 года. Порты для Nintendo Switch 2, PlayStation 5 и Xbox Series X/S планируется выпустить в первую годовщину выхода игры…",
+   "genres": [
+    "Приключение",
+    "Головоломка"
+   ],
+   "platforms": [
+    "PlayStation",
+    "Xbox",
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Spooky Doorway",
+   "price": "",
+   "url": "https://en.wikipedia.org/wiki/The_S%C3%A9ance_of_Blake_Manor",
+   "links": {
+    "wiki": "https://en.wikipedia.org/wiki/The_S%C3%A9ance_of_Blake_Manor"
+   },
+   "source": "wiki"
+  },
+  {
    "appid": 4115450,
    "title": "Phantom Blade Zero",
    "date": "2026-10-28",
@@ -207,7 +447,8 @@
     "Ролевые игры"
    ],
    "platforms": [
-    "PC"
+    "PC",
+    "PlayStation"
    ],
    "stores": [
     "Steam",
@@ -249,7 +490,7 @@
    "appid": 1798230,
    "title": "ATMOSFAR",
    "date": "2026-10-29",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1798230/96e6f00d5ecb7c37ba07577ac02ac75fad16055a/header.jpg?t=1791378042",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1798230/96e6f00d5ecb7c37ba07577ac02ac75fad16055a/header.jpg?t=1792072638",
    "desc": "ATMOSFAR — это небесная одиссея, действие которой происходит на чужой планете с плавучими островами, исследованной летательными аппаратами и мобильной авиабазой, где вы раскрываете судьбу своей рухнувшей колонии.",
    "genres": [
     "Экшены",
@@ -268,6 +509,81 @@
    "links": {
     "steam": "https://store.steampowered.com/app/1798230/"
    }
+  },
+  {
+   "appid": 3672840,
+   "title": "Joe & Mac Retro Collection",
+   "date": "2026-10-29",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3672840/9d43a7feb261649b89724d8d50aa2a14f4cbd522/header.jpg?t=1791376692",
+   "desc": "Joe & Mac: Caveman Ninja, известная как Joe & Mac и Caveman Ninja в США и как Joe & Mac: Tatakae Genshiji в Японии — видеоигра в жанре платформер, разработанная компанией New World Computing Incorporated и изданная Data East Corporation в 1991 году.",
+   "genres": [
+    "Платформер"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Xbox",
+    "Switch"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Red Art Games",
+   "price": "",
+   "url": "https://store.steampowered.com/app/3672840/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/3672840/",
+    "wiki": "https://ru.wikipedia.org/wiki/Joe_%26_Mac_Caveman_Ninja"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-titanium-court",
+   "title": "Titanium Court",
+   "date": "2026-10-29",
+   "image": "https://upload.wikimedia.org/wikipedia/en/e/e2/Logo_for_the_video_game_Titanium_Court.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Titanium Court — это стратегическая игра, разработанная нью-йоркским создателем AP Thomson и опубликованная Fellow Traveller и выпущенная 23 апреля 2026 года. В игре сочетаются жанры «три в ряд», защита башни и механика рогалика, в которой игрок управляет одноименным Судом и сражается с другими…",
+   "genres": [
+    "Соответствие плитки",
+    "Рогалик",
+    "Tower defense"
+   ],
+   "platforms": [
+    "PlayStation",
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "AP Thomson",
+   "price": "",
+   "url": "https://en.wikipedia.org/wiki/Titanium_Court",
+   "links": {
+    "wiki": "https://en.wikipedia.org/wiki/Titanium_Court"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-asylum",
+   "title": "Asylum",
+   "date": "2026-10-30",
+   "image": "https://upload.wikimedia.org/wikipedia/en/4/41/Asylum_%28upcoming_video_game%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Asylum — это видеоигра в жанре ужасов, разработанная Senscape, независимым разработчиком видеоигр из Буэнос-Айреса, Аргентина. Автором игры является Агустин Кордес, который ранее разработал игру Scratches для ныне несуществующего разработчика Nucleosys. Действие происходит в вымышленном доме для умалишенных под названием…",
+   "genres": [
+    "Приключение",
+    "Хоррор"
+   ],
+   "platforms": [
+    "PlayStation",
+    "Xbox",
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Senscape",
+   "price": "",
+   "url": "https://en.wikipedia.org/wiki/Asylum_%282025_video_game%29",
+   "links": {
+    "wiki": "https://en.wikipedia.org/wiki/Asylum_%282025_video_game%29"
+   },
+   "source": "wiki"
   },
   {
    "appid": 2320980,
@@ -321,6 +637,96 @@
    }
   },
   {
+   "appid": "x-marvel-s-guardians-of-galaxy-encore",
+   "title": "Marvel's Guardians of the Galaxy Encore Edition",
+   "date": "2026-11-05",
+   "image": "https://upload.wikimedia.org/wikipedia/en/2/22/Guardians_of_the_Galaxy_game_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Marvel’s Guardians of the Galaxy (в официальной русской локализации — «Стражи Галактики Marvel») — приключенческая компьютерная игра, разработанная Eidos Montreal в сотрудничестве с Marvel Games и изданная Square Enix. Игра основана на серии комиксов Marvel Comics «Стражи Галактики». Релиз игры…",
+   "genres": [
+    "Экшен-приключение"
+   ],
+   "platforms": [
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Eidos-Montréal",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/Marvel%E2%80%99s_Guardians_of_the_Galaxy",
+   "links": {
+    "wiki": "https://ru.wikipedia.org/wiki/Marvel%E2%80%99s_Guardians_of_the_Galaxy"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-stellar-blade-complete",
+   "title": "Stellar Blade Complete Edition",
+   "date": "2026-11-06",
+   "image": "https://upload.wikimedia.org/wikipedia/en/6/63/Stellar_Blade_Pre_Order_Box.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Stellar Blade — компьютерная игра в жанре action-adventure, разработанная южнокорейской студией Shift Up в сотрудничестве с PlayStation Studios XDev и выпущенная Sony Interactive Entertainment для PlayStation 5 в 2024 году. 12 июня 2025 года была выпущена версия игры для Windows.\nДействие игры…",
+   "genres": [
+    "Экшен-приключение"
+   ],
+   "platforms": [
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Shift Up",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/Stellar_Blade",
+   "links": {
+    "wiki": "https://ru.wikipedia.org/wiki/Stellar_Blade"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": 4576490,
+   "title": "Casualties: Unknown",
+   "date": "2026-11-09",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4576490/907888dce73f50c48410b5ab92971a0d95776b29/header.jpg?t=1792136865",
+   "desc": "Casualties: Unknown — это жестокий симулятор исследования пещер. Вы один из тысячи подопытных, отправленных на смерть. В поисках потерянного груза вам придётся пробраться через 11 подземных ярусов на чужой планете, давая отпор беспощадному окружению.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Симуляторы"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Orsoniks",
+   "price": "",
+   "url": "https://store.steampowered.com/app/4576490/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4576490/"
+   }
+  },
+  {
+   "appid": 3629430,
+   "title": "DREADMOOR",
+   "date": "2026-11-09",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3629430/5b80c132b3479c69a92c25a5266db523850cfc36/header.jpg?t=1792074071",
+   "desc": "DREADMOOR – мрачное рыболовное приключение от первого лица в затопленном мире, пережившем страшную катастрофу. Ловите рыбу в мутных водах, улучшайте свой катер, создавайте снаряжение для выживания и сражайтесь с чудовищами, что таятся под водой и на суше.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Dream Dock",
+   "price": "",
+   "url": "https://store.steampowered.com/app/3629430/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/3629430/"
+   }
+  },
+  {
    "appid": 3669620,
    "title": "Warhammer Survivors",
    "date": "2026-11-10",
@@ -366,6 +772,141 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4707700/"
    }
+  },
+  {
+   "appid": 4082030,
+   "title": "Barbie Rewind",
+   "date": "2026-11-12",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4082030/58beeb27ced499b9010c24cbc8c6ee0c24e67cad/header.jpg?t=1789655440",
+   "desc": "Украсьте Дом мечты в стиле разных десятилетий и поиграйте в классические игры о Барби. В игре Barbie™ Rewind Барби приглашает в уютный творческий мир и доверяет вам обставить её Дом мечты. Также Барби оставила вам свою коллекцию игр, чтобы вы могли вспомнить свои любимые.",
+   "genres": [],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Xbox",
+    "Switch"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Digital Eclipse",
+   "price": "",
+   "url": "https://store.steampowered.com/app/4082030/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4082030/",
+    "wiki": "https://en.wikipedia.org/wiki/Barbie_Rewind"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-harold-halibut",
+   "title": "Harold Halibut",
+   "date": "2026-11-12",
+   "image": "https://upload.wikimedia.org/wikipedia/en/c/c4/Harold_Halibut_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Harold Halibut — видеоигра, разработанная и выпущенная немецкой независимой студией Slow Bros для Windows, Xbox Series и PlayStation 5. Она представляет собой повествовательную игру, с основным местом действия в затонувшей космической станции на неизвестной планете. Гарольд, уборщик станции и…",
+   "genres": [
+    "Приключение"
+   ],
+   "platforms": [
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Slow Bros.",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/Harold_Halibut",
+   "links": {
+    "wiki": "https://ru.wikipedia.org/wiki/Harold_Halibut"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-pikmin-4-nintendo-switch-2-dandori-academy",
+   "title": "Pikmin 4 – Nintendo Switch 2 Edition + Dandori Academy",
+   "date": "2026-11-12",
+   "image": "https://upload.wikimedia.org/wikipedia/en/4/4d/Pikmin_icon_4.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Pikmin 4 — это видеоигра-стратегия в реальном времени 2023 года, разработанная совместно Nintendo EPD и Eighting и изданная Nintendo. Это четвертая основная часть серии Pikmin после Pikmin 3 (2013) и пятая часть в целом. Она была выпущена на Nintendo Switch 21 июля 2023 года.",
+   "genres": [
+    "Головоломка",
+    "Стратегия в реальном времени"
+   ],
+   "platforms": [
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Nintendo EPD , Eighting",
+   "price": "",
+   "url": "https://en.wikipedia.org/wiki/Pikmin_4",
+   "links": {
+    "wiki": "https://en.wikipedia.org/wiki/Pikmin_4"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-grand-theft-auto-vi",
+   "title": "Grand Theft Auto VI",
+   "date": "2026-11-19",
+   "image": "https://upload.wikimedia.org/wikipedia/en/4/46/Grand_Theft_Auto_VI.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Grand Theft Auto VI (сокр. GTA VI, GTA 6) — будущая компьютерная игра в жанре action-adventure с открытым миром, разрабатываемая компанией Rockstar Games. Станет шестнадцатой по счёту и восьмой крупной игрой в серии Grand Theft Auto.",
+   "genres": [
+    "Экшен-приключение"
+   ],
+   "platforms": [
+    "PlayStation",
+    "Xbox"
+   ],
+   "stores": [],
+   "developer": "Rockstar Games",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+   "links": {
+    "wiki": "https://ru.wikipedia.org/wiki/Grand_Theft_Auto_VI"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": 4523120,
+   "title": "Volvy’s Adventure: Reslimed",
+   "date": "2026-11-19",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4523120/bd01ad0f41f47272b6f1459de015d2494b24a422/header.jpg?t=1787755813",
+   "desc": "Volvy's Adventure: Reslimed — это захватывающий ремастер оригинального ремейка неизданного экшен-платформера, в котором главную роль играет самый известный талисман видеоигр всех времен.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "doinksoft",
+   "price": "180 руб.",
+   "url": "https://store.steampowered.com/app/4523120/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4523120/"
+   }
+  },
+  {
+   "appid": "x-gothic-3-classic",
+   "title": "Gothic 3 Classic",
+   "date": "2026-11-24",
+   "image": "https://upload.wikimedia.org/wikipedia/en/c/c4/Gothic3_EUcover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Gothic 3 (локализованное название в России — «Готика 3») — немецкая компьютерная игра, третья часть ролевого экшена Gothic от немецкой студии Piranha Bytes, выпущенная 13 октября 2006 года издателем JoWooD Productions. Это прямое продолжение Gothic II. Вместе с игрой было выпущено коллекционное…",
+   "genres": [
+    "Экшен-RPG"
+   ],
+   "platforms": [
+    "PlayStation",
+    "Xbox"
+   ],
+   "stores": [],
+   "developer": "Piranha Bytes",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/Gothic_3",
+   "links": {
+    "wiki": "https://ru.wikipedia.org/wiki/Gothic_3"
+   },
+   "source": "wiki"
   },
   {
    "appid": 3161310,
@@ -416,6 +957,120 @@
    }
   },
   {
+   "appid": "x-ascent-ultimate",
+   "title": "The Ascent Ultimate Edition",
+   "date": "2026-12-02",
+   "image": "https://upload.wikimedia.org/wikipedia/en/d/dc/The_Ascent_Cover_Art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "The Ascent — это ролевая видеоигра в стиле киберпанк, разработанная шведской игровой студией Neon Giant, изданная Curve Digital и Krafton и выпущенная для Microsoft Windows, Xbox Series X/S и Xbox One 29 июля 2021 года, для PlayStation 4 и PlayStation 5 24 марта 2022 года и для…",
+   "genres": [
+    "Экшен-RPG"
+   ],
+   "platforms": [
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Neon Giant",
+   "price": "",
+   "url": "https://en.wikipedia.org/wiki/The_Ascent_%28video_game%29",
+   "links": {
+    "wiki": "https://en.wikipedia.org/wiki/The_Ascent_%28video_game%29"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-million-depth",
+   "title": "Million Depth",
+   "date": "2026-12-03",
+   "image": "",
+   "desc": "Million Depth — это игра в жанре экшен-рогалик, разработанная Cyber Space Biotope и изданная Playism. Он был выпущен для Windows 12 ноября 2025 года.",
+   "genres": [
+    "Экшен",
+    "Рогалик"
+   ],
+   "platforms": [
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Cyber Space Biotope",
+   "price": "",
+   "url": "https://en.wikipedia.org/wiki/Million_Depth",
+   "links": {
+    "wiki": "https://en.wikipedia.org/wiki/Million_Depth"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": 4084710,
+   "title": "Rayman Legends Retold",
+   "date": "2026-12-03",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4084710/4fc23980ce04f33d7dc91bf38d74591ec00015cb/header.jpg?t=1790860160",
+   "desc": "Rayman Legends Retold — будущая компьютерная игра в жанре 2D-платформер, разработанная студиями Ubisoft Milan и Ubisoft Montpellier. Является ремейком Rayman Legends (2013) — пятой части одноимённой игровой франшизы. Релиз проекта запланирован на 3 декабря 2026 года для консолей Nintendo Switch 2…",
+   "genres": [
+    "Платформер"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Xbox",
+    "Switch"
+   ],
+   "stores": [
+    "Steam",
+    "Epic"
+   ],
+   "developer": "Ubisoft Montpellier , Ubisoft Milan",
+   "price": "",
+   "url": "https://store.steampowered.com/app/4084710/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4084710/",
+    "epic": "https://store.epicgames.com/ru/p/rayman-legends-retold",
+    "wiki": "https://ru.wikipedia.org/wiki/Rayman_Legends_Retold"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-xenoblade-chronicles-3-nintendo-switch-2",
+   "title": "Xenoblade Chronicles 3 – Nintendo Switch 2 Edition",
+   "date": "2026-12-03",
+   "image": "https://upload.wikimedia.org/wikipedia/en/7/76/Xenoblade_3.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Xenoblade Chronicles 3 — японская ролевая игра, разработанная компанией Monolith Soft для консоли Nintendo Switch. Релиз состоялся 29 июля 2022 года по всему миру.\nИгра была анонсирована 10 февраля 2022 года в рамках презентации Nintendo Direct.",
+   "genres": [
+    "Экшен-RPG"
+   ],
+   "platforms": [
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Monolith Soft",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/Xenoblade_Chronicles_3",
+   "links": {
+    "wiki": "https://ru.wikipedia.org/wiki/Xenoblade_Chronicles_3"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-monster-hunter-wilds",
+   "title": "Monster Hunter Wilds",
+   "date": "2026-12-04",
+   "image": "https://upload.wikimedia.org/wikipedia/en/5/52/Monster_Hunter_Wilds_cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Monster Hunter Wilds — компьютерная игра в жанре action/RPG, разработанная компанией Capcom. Преемник Monster Hunter: World (2018). Релиз игры состоялся 28 февраля 2025 года на Windows, PlayStation 5 и Xbox Series X/S. Monster Hunter Wilds стала первой игрой серии с полной русской локализацией…",
+   "genres": [
+    "Экшен-RPG"
+   ],
+   "platforms": [
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Capcom",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/Monster_Hunter_Wilds",
+   "links": {
+    "wiki": "https://ru.wikipedia.org/wiki/Monster_Hunter_Wilds"
+   },
+   "source": "wiki"
+  },
+  {
    "appid": 2153760,
    "title": "Stronghold 4",
    "date": "2026-12-07",
@@ -440,6 +1095,30 @@
    }
   },
   {
+   "appid": "x-professor-layton-and-new-world-of-steam",
+   "title": "Professor Layton and the New World of Steam",
+   "date": "2026-12-10",
+   "image": "",
+   "desc": "«Профессор Лейтон и новый мир Steam» — это грядущая приключенческая игра-головоломка от Level-5. Это восьмая основная игра серии «Профессор Лейтон», действие которой происходит через год после событий «Профессор Лейтон и развернутое будущее». Выход игры запланирован на 10 декабря 2026 года для Nintendo…",
+   "genres": [
+    "Головоломка",
+    "Приключение"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Level-5 Osaka Office",
+   "price": "",
+   "url": "https://en.wikipedia.org/wiki/Professor_Layton_and_the_New_World_of_Steam",
+   "links": {
+    "wiki": "https://en.wikipedia.org/wiki/Professor_Layton_and_the_New_World_of_Steam"
+   },
+   "source": "wiki"
+  },
+  {
    "appid": 4452700,
    "title": "STAGE TOUR",
    "date": "2026-12-10",
@@ -449,7 +1128,10 @@
     "Экшены"
    ],
    "platforms": [
-    "PC"
+    "PC",
+    "PlayStation",
+    "Xbox",
+    "Switch"
    ],
    "stores": [
     "Steam",
@@ -464,6 +1146,58 @@
    }
   },
   {
+   "appid": "x-danganronpa-2-2",
+   "title": "Danganronpa 2×2",
+   "date": "2027-01-14",
+   "image": "https://upload.wikimedia.org/wikipedia/en/8/88/Danganronpa_2%C3%972_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Danganronpa 2×2 — будущая визуальная новелла, разрабатываемая японскими студиями Gemdrops и Too Kyo Games. Это переосмысление Danganronpa 2: Goodbye Despair (2012), которое будет содержать совершенно новый сюжет.",
+   "genres": [
+    "Визуальная новелла",
+    "Приключение"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Xbox",
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Gemdrops, Too Kyo Games",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/Danganronpa_2%C3%972",
+   "links": {
+    "wiki": "https://ru.wikipedia.org/wiki/Danganronpa_2%C3%972"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": 4193690,
+   "title": "Terranigma",
+   "date": "2027-01-14",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4193690/63da8fd5fade5c90ce08726099bff431ce4ec351/header.jpg?t=1789601881",
+   "desc": "Terranigma — компьютерная игра в жанре action/RPG, разработанная студией Quintet для Super Nintendo Entertainment System. Дизайнером персонажей выступил мангака Камуи Фудзивара. Игра является третьей частью неофициальной трилогии, в которую также входят Soul Blazer (1992) и Illusion of Gaia (1993).",
+   "genres": [
+    "Экшен-RPG"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Xbox",
+    "Switch"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Clear River Games",
+   "price": "",
+   "url": "https://store.steampowered.com/app/4193690/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4193690/",
+    "wiki": "https://ru.wikipedia.org/wiki/Terranigma"
+   },
+   "source": "wiki"
+  },
+  {
    "appid": 4814120,
    "title": "ANANTA",
    "date": "2027-01-15",
@@ -475,7 +1209,8 @@
     "Ролевые игры"
    ],
    "platforms": [
-    "PC"
+    "PC",
+    "PlayStation"
    ],
    "stores": [
     "Steam"
@@ -509,6 +1244,207 @@
    "links": {
     "steam": "https://store.steampowered.com/app/1637460/"
    }
+  },
+  {
+   "appid": 1154030,
+   "title": "Titan Quest II",
+   "date": "2027-01-19",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1154030/header.jpg?t=1791968871",
+   "desc": "Titan Quest II — компьютерная игра в жанре Action/RPG, разрабатываемая студией Grimlore Games и издаваемая THQ Nordic для Windows, PlayStation 5 и Xbox Series X/S. Является продолжением игры Titan Quest 2006 года, разработанной Iron Lore Entertainment. Ранний доступ на ПК открылся 1 августа 2025…",
+   "genres": [
+    "Экшен-RPG"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Xbox"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Grimlore Games",
+   "price": "1540 руб.",
+   "url": "https://store.steampowered.com/app/1154030/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/1154030/",
+    "wiki": "https://ru.wikipedia.org/wiki/Titan_Quest_II"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": 4308420,
+   "title": "Arizona Sunshine",
+   "date": "2027-01-21",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4308420/efdd952517dca2bbe84428c381d023ce71cc3c1d/header.jpg?t=1791997257",
+   "desc": "Arizona Sunshine — это видеоигра-шутер от первого лица на выживание зомби, разработанная и изданная Vertigo Games и выпущенная 6 декабря 2016 года. Игра совместима с гарнитурами виртуальной реальности HTC Vive, Oculus Rift, Oculus Quest, Valve Index и PlayStation VR.\nПродолжение «Аризона Саншайн»…",
+   "genres": [
+    "Шутер от третьего лица"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Xbox",
+    "Switch"
+   ],
+   "stores": [
+    "Steam",
+    "Epic"
+   ],
+   "developer": "Vertigo Games",
+   "price": "",
+   "url": "https://store.steampowered.com/app/4308420/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4308420/",
+    "epic": "https://store.epicgames.com/ru/p/arizona-sunshine-4576c8",
+    "wiki": "https://en.wikipedia.org/wiki/Arizona_Sunshine"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-forza-horizon-6",
+   "title": "Forza Horizon 6",
+   "date": "2027-01-26",
+   "image": "https://upload.wikimedia.org/wikipedia/en/d/dd/Forza_Horizon_6_key_art.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Forza Horizon 6 — гоночная игра, разработанная студией Playground Games и изданная Xbox Game Studios. Игра является шестой частью серии Forza Horizon, продолжением Forza Horizon 5, а также четырнадцатой основной игрой во франшизе Forza.\nДействие игры разворачивается в Японии; главным городом…",
+   "genres": [
+    "Гонки"
+   ],
+   "platforms": [
+    "PlayStation"
+   ],
+   "stores": [],
+   "developer": "Playground Games",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/Forza_Horizon_6",
+   "links": {
+    "wiki": "https://ru.wikipedia.org/wiki/Forza_Horizon_6"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": 2155070,
+   "title": "Fate/Extra Record",
+   "date": "2027-01-28",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2155070/be0b6645d5593ad4b38feaa57ebb6a324c7d04cf/header.jpg?t=1789712401",
+   "desc": "Fate/Extra Record (стилизовано под Fate/EXTRA Record) — грядущая ролевая видеоигра о ползании по подземельям, разработанная Type-Moon Studio BB и Meteorise и изданная Aniplex. Игра представляет собой ремейк видеоигры Fate/Extra 2010 года и была официально анонсирована в июле 2020 года. Разработка велась…",
+   "genres": [
+    "RPG"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Switch"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Type-Moon Studio BB, Meteorise",
+   "price": "",
+   "url": "https://store.steampowered.com/app/2155070/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/2155070/",
+    "wiki": "https://en.wikipedia.org/wiki/Fate/Extra_Record"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-metroid-ravenous",
+   "title": "Metroid Ravenous",
+   "date": "2027-01-28",
+   "image": "https://upload.wikimedia.org/wikipedia/en/9/93/MetroidRavenous.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Metroid Ravenous — будущая компьютерная игра в жанре приключенческого экшена, разрабатываемая компаниями MercurySteam и Nintendo EPD и которая будет выпущена компанией Nintendo на Nintendo Switch 2. Это одинадцатая часть в основной серии Metroid, действие которой происходит после Metroid Dread…",
+   "genres": [
+    "Экшен-приключение"
+   ],
+   "platforms": [
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "MercurySteam , Nintendo EPD",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/Metroid_Ravenous",
+   "links": {
+    "wiki": "https://ru.wikipedia.org/wiki/Metroid_Ravenous"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": 1853440,
+   "title": "Tropico 7",
+   "date": "2027-01-28",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1853440/cfa41f10c2e878497d77e100f9be08224eb686b9/header.jpg?t=1792134372",
+   "desc": "Разбогатей или сдохни! Tropico 7 снова предлагает попробовать себя в роли лидера островного государства. Эль Президенте ведет нацию (а заодно и свой счет в швейцарском банке) сквозь эпохи к процветанию и для этого готов буквально сдвинуть горы!",
+   "genres": [
+    "Строительство и менеджмент",
+    "Правительственный симулятор"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Xbox",
+    "Switch"
+   ],
+   "stores": [
+    "Steam",
+    "Epic"
+   ],
+   "developer": "Gaming Minds Studios",
+   "price": "",
+   "url": "https://store.steampowered.com/app/1853440/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/1853440/",
+    "epic": "https://store.epicgames.com/ru/p/tropico-7-eed6e3",
+    "wiki": "https://en.wikipedia.org/wiki/Tropico_7"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-until-dawn-2",
+   "title": "Until Dawn 2",
+   "date": "2027-01-28",
+   "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/Until_Dawn_2_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Until Dawn 2 — будущая компьютерная игра в жанре интерактивного кино с элементами survival horror, разрабатываемая студиями Firesprite и AdHoc Studio и издаваемая Sony Interactive Entertainment. Это сиквел игры Until Dawn, выход которой на PlayStation 5 запланирован на 28 января 2027 года. Игра…",
+   "genres": [
+    "Интерактивное кино",
+    "Survival-хоррор"
+   ],
+   "platforms": [
+    "PlayStation"
+   ],
+   "stores": [],
+   "developer": "Firesprite",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/Until_Dawn_2",
+   "links": {
+    "wiki": "https://ru.wikipedia.org/wiki/Until_Dawn_2"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": 5097820,
+   "title": "Astonishia Story",
+   "date": "2027-02-11",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5097820/e06932bef79489fc871ef040c4f1c4fb965d2f73/header.jpg?t=1791512294",
+   "desc": "Astonishia Story — серия ролевых 2D-видеоигр, созданных корейским разработчиком видеоигр Sonnori. Первая игра серии была выпущена под названием Astonishia Story для MS-DOS в Южной Корее в 1994 году. Продолжение, также для Windows, было выпущено в июле 1994 года в Южной Корее под названием…",
+   "genres": [
+    "RPG"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Switch"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Netmarble Neo , Waycoder",
+   "price": "",
+   "url": "https://store.steampowered.com/app/5097820/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/5097820/",
+    "wiki": "https://en.wikipedia.org/wiki/Astonishia_Story"
+   },
+   "source": "wiki"
   },
   {
    "appid": 1963680,
