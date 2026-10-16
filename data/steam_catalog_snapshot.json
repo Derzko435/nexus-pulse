@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T16:21:30+03:00",
+  "updatedAt": "2026-10-16T21:11:29+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -542,13 +542,14 @@
       "curated": true
     },
     {
-      "appid": "5218930",
-      "name": "Lyfe of the Blade",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5218930/cdf5252c73f41cb977170c2131b0348bc553cf2d/header.jpg?t=1792110618",
+      "appid": "1725860",
+      "name": "Keng's Little Universe",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1725860/header.jpg?t=1792135635",
       "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
@@ -557,7 +558,24 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Экстремальная экшен-игра со свободным управлением, где можно отменить любое движение на любом кадре. Свободно управляйте «Lyfe» и сокрушайте врагов!"
+      "short_description": "One civilization, three skies: a planet torn by multiple suns, a cluster ruled by the dark forest law, and a galaxy of ten thousand stars. Anomalies rewrite each run; Story Mode links all three parts; play online with up to 10 players or in co-op; Auto Play runs your civilization while you idle."
+    },
+    {
+      "appid": "5207850",
+      "name": "Мой гарем нэко-девушек",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5207850/a482d983ba16574ca18fd2701ac71118dda4649d/header_russian.jpg?t=1792147519",
+      "genres": [
+        "Казуальные игры",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Твоя магия возбуждает трёх девушек-кошек: дерзкую бунтарку, жаждущую наказания, застенчивую горничную с непристойными фантазиями и соню, чьи мысли невозможно прочесть. Расследуй заговор, пытаясь держать свой новый гарем под контролем... или позволь им подчинить тебя."
     },
     {
       "appid": "5213050",
@@ -577,40 +595,21 @@
       "short_description": "Use gravity as your weapon. Slingshot around planets, build incredible speed, fight deadly enemies and survive a constantly changing battlefield in this fast-paced 3D space action game."
     },
     {
-      "appid": "5185570",
-      "name": "炼丹记",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5185570/fa9ff02327bf747529196da1cf990359cd264e5b/header.jpg?t=1792138832",
+      "appid": "4656000",
+      "name": "BOMBANANA!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1791542068",
       "genres": [
         "Казуальные игры",
-        "Симуляторы",
-        "Стратегии"
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
+        "mac": true,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Alchemy Tales is a pixel-art cultivation game blending alchemy, progression, and combat. Manage your hall, craft pills and talismans, enchant artifacts, and enlist doll helpers. Build your loadout and challenge enemy hordes and bosses."
-    },
-    {
-      "appid": "4351100",
-      "name": "我独自建造升级",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4351100/13cfb273cf862550a70f52f59dd74de98e187d7f/header.jpg?t=1792119830",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "A brand new generation of tactical shooting tower defense game. Try some different！"
+      "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
     },
     {
       "appid": "3569420",
@@ -627,25 +626,6 @@
       },
       "metacritic": null,
       "short_description": "Chained Beasts — кооперативный гладиаторский рогалик для 1–4 игроков. Вашим прикованным друг к другу бойцам придётся использовать свои цепи и окружение, превозмогать физические и ментальные травмы и побеждать грозных боссов, чтобы выжить и завоевать любовь кровожадной толпы."
-    },
-    {
-      "appid": "1623730",
-      "name": "Palworld",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/6912f19c43a95ff5fe514eedd35e68bf12335459/header.jpg?t=1790336367",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Собирайте удивительных существ — Палов — на просторах огромного мира, отправляйте их сражаться и трудиться на фабриках, стройте с их помощью здания и выращивайте плантации в этом абсолютно новом симуляторе выживания в открытом мире, поддерживающем совместный режим."
     },
     {
       "appid": "3105440",
@@ -666,30 +646,11 @@
       "short_description": "Heroes of Might and Magic: Olden Era возвратит вас к истокам серии игр, ставшей классикой пошаговых стратегий. Собирайте огромные армии и используйте разрушительные заклинания, чтобы побеждать врагов в режимах одиночной и многопользовательской игры."
     },
     {
-      "appid": "2336220",
-      "name": "Feed the Cups",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2336220/c6ee53810322af25bab7d050e8613181c492298d/header_alt_assets_0.jpg?t=1792117816",
+      "appid": "3327120",
+      "name": "Dreadline Express",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3327120/718b7b92c0207c2da2cc6bdc16e2ccffecd2562b/header.jpg?t=1792161972",
       "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Feed the Cups is a Roguelite multiplayer online cooperative game. Run a Drink Shop, stocking up, preparing ingredients, taking orders, crafting drinks, cleaning up, and checking equipment. Join your friends together!"
-    },
-    {
-      "appid": "4555270",
-      "name": "Vanisha",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4555270/01af302ca693c3a26be13e87b23e14efd1f271bc/header.jpg?t=1792155097",
-      "genres": [
-        "Экшены",
-        "Казуальные игры",
+        "Приключенческие игры",
         "Инди"
       ],
       "is_free": false,
@@ -699,7 +660,41 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "A progression-driven twin-stick shooter. Customize ships, combine powerful chips, and forge unique builds through a talent tree as you race to stop the Anomaly."
+      "short_description": "Психологический хоррор в жанре metroidbrainia, действие которого разворачивается на борту последнего поезда. Раскройте тайны загадочного состава, столкнитесь с таинственными пассажирами и выберите свой путь, используя уникальную карточную механику, которая дает вам полный контроль над повествованием"
+    },
+    {
+      "appid": "5005870",
+      "name": "Cash & Chaos",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5005870/d27b031af138b2e4e921601e13f5ba043762ad33/header.jpg?t=1792137532",
+      "genres": [
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "В Cash &amp; Chaos управляйте своим магазином, зарабатывайте деньги и доверяйте друзьям. Берите и давайте деньги в долг и крутите колесо! Роли и долги могут измениться в любой момент. Богатство или хаос? Решать вам!"
+    },
+    {
+      "appid": "5288610",
+      "name": "Lotwick Hill",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5288610/8800dae287794fb4ac834c9ac142aab92d962e5a/header.jpg?t=1792136569",
+      "genres": [
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Ваш следующий покупатель может зайти к конкуренту. Создайте торговую империю в портовом городе: пополняйте запасы, назначайте цены и участвуйте в торгах за недвижимость. Соревнуйтесь с ИИ или друзьями по сети, проходите испытания или стройте в своём темпе в свободной игре."
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T16:21:36+03:00",
+  "updatedAt": "2026-10-16T21:11:35+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -23,16 +23,6 @@
       "steamAppId": "2183900"
     },
     {
-      "id": "steam-529180",
-      "title": "Dark and Light",
-      "store": "Steam",
-      "old": 499,
-      "neu": 134,
-      "pct": 73,
-      "url": "https://store.steampowered.com/app/529180/",
-      "steamAppId": "529180"
-    },
-    {
       "id": "steam-313120",
       "title": "Stranded Deep",
       "store": "Steam",
@@ -53,34 +43,24 @@
       "steamAppId": "72176"
     },
     {
-      "id": "steam-1725860",
-      "title": "Keng's Little Universe",
+      "id": "steam-2106670",
+      "title": "Gatekeeper",
       "store": "Steam",
-      "old": 590,
-      "neu": 354,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/1725860/",
-      "steamAppId": "1725860"
+      "old": 699,
+      "neu": 384,
+      "pct": 45,
+      "url": "https://store.steampowered.com/app/2106670/",
+      "steamAppId": "2106670"
     },
     {
-      "id": "steam-5207850",
-      "title": "Мой гарем нэко-девушек",
+      "id": "steam-5094650",
+      "title": "WarpRacer",
       "store": "Steam",
-      "old": 465,
-      "neu": 279,
+      "old": 385,
+      "neu": 231,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5207850/",
-      "steamAppId": "5207850"
-    },
-    {
-      "id": "steam-5213050",
-      "title": "Gravity Vector",
-      "store": "Steam",
-      "old": 240,
-      "neu": 144,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5213050/",
-      "steamAppId": "5213050"
+      "url": "https://store.steampowered.com/app/5094650/",
+      "steamAppId": "5094650"
     },
     {
       "id": "steam-4656000",
@@ -93,6 +73,26 @@
       "steamAppId": "4656000"
     },
     {
+      "id": "steam-5352520",
+      "title": "Doomlander",
+      "store": "Steam",
+      "old": 140,
+      "neu": 84,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5352520/",
+      "steamAppId": "5352520"
+    },
+    {
+      "id": "steam-5321400",
+      "title": "A Game About Needle In A Haystack",
+      "store": "Steam",
+      "old": 273,
+      "neu": 174,
+      "pct": 36,
+      "url": "https://store.steampowered.com/app/5321400/",
+      "steamAppId": "5321400"
+    },
+    {
       "id": "steam-3569420",
       "title": "Chained Beasts",
       "store": "Steam",
@@ -103,44 +103,44 @@
       "steamAppId": "3569420"
     },
     {
-      "id": "steam-3105440",
-      "title": "Heroes of Might and Magic: Olden Era",
+      "id": "steam-3826670",
+      "title": "Flipping is Hard",
       "store": "Steam",
-      "old": 1499,
-      "neu": 1124,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/3105440/",
-      "steamAppId": "3105440"
+      "old": 660,
+      "neu": 429,
+      "pct": 35,
+      "url": "https://store.steampowered.com/app/3826670/",
+      "steamAppId": "3826670"
     },
     {
-      "id": "steam-3327120",
-      "title": "Dreadline Express",
+      "id": "steam-4999210",
+      "title": "Diceminoes",
       "store": "Steam",
-      "old": 520,
-      "neu": 390,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/3327120/",
-      "steamAppId": "3327120"
+      "old": 505,
+      "neu": 353,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/4999210/",
+      "steamAppId": "4999210"
     },
     {
-      "id": "steam-5005870",
-      "title": "Cash & Chaos",
+      "id": "steam-4260380",
+      "title": "DishDash",
       "store": "Steam",
-      "old": 315,
-      "neu": 236,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5005870/",
-      "steamAppId": "5005870"
+      "old": 335,
+      "neu": 234,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/4260380/",
+      "steamAppId": "4260380"
     },
     {
-      "id": "steam-5288610",
-      "title": "Lotwick Hill",
+      "id": "steam-5296760",
+      "title": "Neon Crossing",
       "store": "Steam",
-      "old": 1150,
-      "neu": 920,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5288610/",
-      "steamAppId": "5288610"
+      "old": 99,
+      "neu": 69,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5296760/",
+      "steamAppId": "5296760"
     }
   ]
 }
