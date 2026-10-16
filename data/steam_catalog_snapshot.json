@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T03:29:53+03:00",
+  "updatedAt": "2026-10-16T10:20:25+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -561,6 +561,40 @@
       "short_description": "A fast paced hacking roguelite built on real cybersecurity tradecraft. Recon targets, steal creds, move laterally, exfiltrate data, and ransom organizations to pay off your &quot;Debts To Be Paid&quot;. Over 500 cards and items to discover. High risk, high reward. Unauthorized access hell."
     },
     {
+      "appid": "5120970",
+      "name": "Sutja",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5120970/adc814b3897e12782aa4dbbc0c6f8b94be3d8408/header.jpg?t=1792097919",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A surreal poker roguelite. Stack power cards, attach stickers, reshape your deck, and push Chips × Mult to absurd heights. Face strange bosses, then follow the Journey into questions about choice, art, and what it means to play."
+    },
+    {
+      "appid": "5188980",
+      "name": "Изменяй со мной, а не мне",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5188980/b505ad4f31ca0a91a8041cbbd3a2e4944f05b3d8/header_russian.jpg?t=1792088419",
+      "genres": [
+        "Приключенческие игры",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Проведите 48 дней в строгой изоляции в этой романтической визуальной новелле для взрослых. Расследуйте утечку экзаменационного вопроса, выдержите давление Института и выберите один из трёх романов, чтобы решить, с кем Хан До Джин выйдет за ворота."
+    },
+    {
       "appid": "4656000",
       "name": "BOMBANANA!",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1791542068",
@@ -596,23 +630,6 @@
       "short_description": "Кооперативная игра про исследование казино для 1–6 человек. У вас с друзьями один банковский счёт и огромный долг на всех: играйте, покупайте предметы и делайте глупости на пути к вершине башни казино. Накопите на квоту для ростовщика за 5 минут или пожалеете..."
     },
     {
-      "appid": "5167420",
-      "name": "Mimic Busters",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5167420/412c5671ea840c86ea252e7530a2dd8a530530dc/header_russian.jpg?t=1792109342",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Моделируй, крась, маскируйся и не попадись охотникам! Mimic Busters — многопользовательская онлайн-игра, где ты либо разумный куб, либо безжалостный охотник. Мимики мастерят маскировку простыми инструментами 3D-моделирования, а охотники ищут их, пока не вышло время!"
-    },
-    {
       "appid": "3569420",
       "name": "Chained Beasts",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/be237edbd1bdbcf361d7b315d70e89fea3b5262a/header.jpg?t=1792082632",
@@ -629,11 +646,10 @@
       "short_description": "Chained Beasts — кооперативный гладиаторский рогалик для 1–4 игроков. Вашим прикованным друг к другу бойцам придётся использовать свои цепи и окружение, превозмогать физические и ментальные травмы и побеждать грозных боссов, чтобы выжить и завоевать любовь кровожадной толпы."
     },
     {
-      "appid": "5231590",
-      "name": "Hentai Miyu",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5231590/c21ecd462e24dd55c391978808f969091c4733a1/header.jpg?t=1792083575",
+      "appid": "3345650",
+      "name": "Kingdoms Test Of Time",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3345650/6a82d0a96f8aba4fed3815f7239fe0df9fc0573d/header.jpg?t=1792086481",
       "genres": [
-        "Казуальные игры",
         "Инди",
         "Стратегии"
       ],
@@ -644,7 +660,25 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Hentai Miyu — соблазнительная аниме-игра-пазл для взрослых, где каждый пройденный уровень открывает новый, более смелый образ Miyu. Собирай пазлы, открывай горячие иллюстрации и заполни галерею на 100%. 🌸"
+      "short_description": "A civilization builder from ancient times to the future, with 36 scenarios, space colonization, crusades, religious revolts, nuclear winter, climate change, dynamic world wars and extensive record keeping"
+    },
+    {
+      "appid": "1374490",
+      "name": "RuneScape: Dragonwilds",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374490/3e27915a647dbf05e17f2ff98d33c9a0765da539/header.jpg?t=1791278745",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "On RuneScape's forgotten continent of Ashenfall, dragons have awoken. Gather, build, skill and craft in this co-operative survival adventure. Only by mastering survival and uncovering ancient secrets can you hope to face the ferocious Dragon Queen."
     },
     {
       "appid": "5209500",
@@ -664,42 +698,6 @@
       },
       "metacritic": null,
       "short_description": "В доисторическом мире ты управляешь пещерным человеком по имени Кепеко. Он живёт в пещерной деревне с сексуальными девушками. На следующий день динозавры разрушают деревню и похищают девушек. Кепеко придётся спасти девушек."
-    },
-    {
-      "appid": "4415380",
-      "name": "Market is Fine",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4415380/f10f04db5d36174ce3075e94da0ea971074c7ab3/header.jpg?t=1792097105",
-      "genres": [
-        "Инди",
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Четыре друга. Один магазин. Ноль плана. Симулятор супермаркета с чёрным юмором для 1–4 игроков онлайн или в одиночку: раскладывайте товар, проигрывайте кассу в казино, ловите предателя с выручкой в кармане и держите дверь, когда нагрянет конкурент. Вечером вы в новостях. Всё в порядке."
-    },
-    {
-      "appid": "3105440",
-      "name": "Heroes of Might and Magic: Olden Era",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3105440/e2bef853b7cb19e3d5f019022309783609e8454f/header.jpg?t=1791279110",
-      "genres": [
-        "Ролевые игры",
-        "Стратегии",
-        "Ранний доступ"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Heroes of Might and Magic: Olden Era возвратит вас к истокам серии игр, ставшей классикой пошаговых стратегий. Собирайте огромные армии и используйте разрушительные заклинания, чтобы побеждать врагов в режимах одиночной и многопользовательской игры."
     }
   ]
 }
