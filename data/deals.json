@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T10:20:30+03:00",
+  "updatedAt": "2026-10-16T16:21:36+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -53,14 +53,24 @@
       "steamAppId": "72176"
     },
     {
-      "id": "steam-5218930",
-      "title": "Lyfe of the Blade",
+      "id": "steam-1725860",
+      "title": "Keng's Little Universe",
       "store": "Steam",
-      "old": 385,
-      "neu": 231,
+      "old": 590,
+      "neu": 354,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5218930/",
-      "steamAppId": "5218930"
+      "url": "https://store.steampowered.com/app/1725860/",
+      "steamAppId": "1725860"
+    },
+    {
+      "id": "steam-5207850",
+      "title": "Мой гарем нэко-девушек",
+      "store": "Steam",
+      "old": 465,
+      "neu": 279,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5207850/",
+      "steamAppId": "5207850"
     },
     {
       "id": "steam-5213050",
@@ -73,24 +83,14 @@
       "steamAppId": "5213050"
     },
     {
-      "id": "steam-5185570",
-      "title": "炼丹记",
+      "id": "steam-4656000",
+      "title": "BOMBANANA!",
       "store": "Steam",
-      "old": 240,
-      "neu": 144,
+      "old": 210,
+      "neu": 126,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5185570/",
-      "steamAppId": "5185570"
-    },
-    {
-      "id": "steam-4351100",
-      "title": "我独自建造升级",
-      "store": "Steam",
-      "old": 200,
-      "neu": 120,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/4351100/",
-      "steamAppId": "4351100"
+      "url": "https://store.steampowered.com/app/4656000/",
+      "steamAppId": "4656000"
     },
     {
       "id": "steam-3569420",
@@ -103,16 +103,6 @@
       "steamAppId": "3569420"
     },
     {
-      "id": "steam-1623730",
-      "title": "Palworld",
-      "store": "Steam",
-      "old": 1100,
-      "neu": 770,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/1623730/",
-      "steamAppId": "1623730"
-    },
-    {
       "id": "steam-3105440",
       "title": "Heroes of Might and Magic: Olden Era",
       "store": "Steam",
@@ -123,24 +113,34 @@
       "steamAppId": "3105440"
     },
     {
-      "id": "steam-2336220",
-      "title": "Feed the Cups",
+      "id": "steam-3327120",
+      "title": "Dreadline Express",
       "store": "Steam",
-      "old": 590,
-      "neu": 442,
+      "old": 520,
+      "neu": 390,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/2336220/",
-      "steamAppId": "2336220"
+      "url": "https://store.steampowered.com/app/3327120/",
+      "steamAppId": "3327120"
     },
     {
-      "id": "steam-4555270",
-      "title": "Vanisha",
+      "id": "steam-5005870",
+      "title": "Cash & Chaos",
       "store": "Steam",
-      "old": 465,
-      "neu": 348,
+      "old": 315,
+      "neu": 236,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/4555270/",
-      "steamAppId": "4555270"
+      "url": "https://store.steampowered.com/app/5005870/",
+      "steamAppId": "5005870"
+    },
+    {
+      "id": "steam-5288610",
+      "title": "Lotwick Hill",
+      "store": "Steam",
+      "old": 1150,
+      "neu": 920,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/5288610/",
+      "steamAppId": "5288610"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T10:20:25+03:00",
+  "updatedAt": "2026-10-16T16:21:30+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -542,12 +542,46 @@
       "curated": true
     },
     {
-      "appid": "4980910",
-      "name": "Project RedTeam: Contract Offensive",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4980910/f196ae106655b6fa0e9c630fe993ce4ec413b511/header.jpg?t=1792091794",
+      "appid": "5218930",
+      "name": "Lyfe of the Blade",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5218930/cdf5252c73f41cb977170c2131b0348bc553cf2d/header.jpg?t=1792110618",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Экстремальная экшен-игра со свободным управлением, где можно отменить любое движение на любом кадре. Свободно управляйте «Lyfe» и сокрушайте врагов!"
+    },
+    {
+      "appid": "5213050",
+      "name": "Gravity Vector",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5213050/fcadf6bc0706f2e89f1f5d3e0f00ae5041505f41/header.jpg?t=1792132510",
+      "genres": [
+        "Экшены",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Use gravity as your weapon. Slingshot around planets, build incredible speed, fight deadly enemies and survive a constantly changing battlefield in this fast-paced 3D space action game."
+    },
+    {
+      "appid": "5185570",
+      "name": "炼丹记",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5185570/fa9ff02327bf747529196da1cf990359cd264e5b/header.jpg?t=1792138832",
       "genres": [
         "Казуальные игры",
-        "Инди",
         "Симуляторы",
         "Стратегии"
       ],
@@ -558,15 +592,16 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "A fast paced hacking roguelite built on real cybersecurity tradecraft. Recon targets, steal creds, move laterally, exfiltrate data, and ransom organizations to pay off your &quot;Debts To Be Paid&quot;. Over 500 cards and items to discover. High risk, high reward. Unauthorized access hell."
+      "short_description": "Alchemy Tales is a pixel-art cultivation game blending alchemy, progression, and combat. Manage your hall, craft pills and talismans, enchant artifacts, and enlist doll helpers. Build your loadout and challenge enemy hordes and bosses."
     },
     {
-      "appid": "5120970",
-      "name": "Sutja",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5120970/adc814b3897e12782aa4dbbc0c6f8b94be3d8408/header.jpg?t=1792097919",
+      "appid": "4351100",
+      "name": "我独自建造升级",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4351100/13cfb273cf862550a70f52f59dd74de98e187d7f/header.jpg?t=1792119830",
       "genres": [
-        "Казуальные игры",
-        "Инди"
+        "Экшены",
+        "Приключенческие игры",
+        "Ролевые игры"
       ],
       "is_free": false,
       "platforms": {
@@ -575,59 +610,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "A surreal poker roguelite. Stack power cards, attach stickers, reshape your deck, and push Chips × Mult to absurd heights. Face strange bosses, then follow the Journey into questions about choice, art, and what it means to play."
-    },
-    {
-      "appid": "5188980",
-      "name": "Изменяй со мной, а не мне",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5188980/b505ad4f31ca0a91a8041cbbd3a2e4944f05b3d8/header_russian.jpg?t=1792088419",
-      "genres": [
-        "Приключенческие игры",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Проведите 48 дней в строгой изоляции в этой романтической визуальной новелле для взрослых. Расследуйте утечку экзаменационного вопроса, выдержите давление Института и выберите один из трёх романов, чтобы решить, с кем Хан До Джин выйдет за ворота."
-    },
-    {
-      "appid": "4656000",
-      "name": "BOMBANANA!",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1791542068",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
-    },
-    {
-      "appid": "3892270",
-      "name": "Казино с друзьями",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/395e6d7972474333a698b26f8aa5597bf38109a1/header.jpg?t=1791977170",
-      "genres": [
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Кооперативная игра про исследование казино для 1–6 человек. У вас с друзьями один банковский счёт и огромный долг на всех: играйте, покупайте предметы и делайте глупости на пути к вершине башни казино. Накопите на квоту для ростовщика за 5 минут или пожалеете..."
+      "short_description": "A brand new generation of tactical shooting tower defense game. Try some different！"
     },
     {
       "appid": "3569420",
@@ -646,47 +629,12 @@
       "short_description": "Chained Beasts — кооперативный гладиаторский рогалик для 1–4 игроков. Вашим прикованным друг к другу бойцам придётся использовать свои цепи и окружение, превозмогать физические и ментальные травмы и побеждать грозных боссов, чтобы выжить и завоевать любовь кровожадной толпы."
     },
     {
-      "appid": "3345650",
-      "name": "Kingdoms Test Of Time",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3345650/6a82d0a96f8aba4fed3815f7239fe0df9fc0573d/header.jpg?t=1792086481",
-      "genres": [
-        "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "A civilization builder from ancient times to the future, with 36 scenarios, space colonization, crusades, religious revolts, nuclear winter, climate change, dynamic world wars and extensive record keeping"
-    },
-    {
-      "appid": "1374490",
-      "name": "RuneScape: Dragonwilds",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374490/3e27915a647dbf05e17f2ff98d33c9a0765da539/header.jpg?t=1791278745",
+      "appid": "1623730",
+      "name": "Palworld",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/6912f19c43a95ff5fe514eedd35e68bf12335459/header.jpg?t=1790336367",
       "genres": [
         "Экшены",
         "Приключенческие игры",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "On RuneScape's forgotten continent of Ashenfall, dragons have awoken. Gather, build, skill and craft in this co-operative survival adventure. Only by mastering survival and uncovering ancient secrets can you hope to face the ferocious Dragon Queen."
-    },
-    {
-      "appid": "5209500",
-      "name": "HENTAI CAVEMAN",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5209500/933d885203619c52d8685096a36db49d507fbedd/header.jpg?t=1792087826",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
         "Инди",
         "Ролевые игры"
       ],
@@ -697,7 +645,61 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "В доисторическом мире ты управляешь пещерным человеком по имени Кепеко. Он живёт в пещерной деревне с сексуальными девушками. На следующий день динозавры разрушают деревню и похищают девушек. Кепеко придётся спасти девушек."
+      "short_description": "Собирайте удивительных существ — Палов — на просторах огромного мира, отправляйте их сражаться и трудиться на фабриках, стройте с их помощью здания и выращивайте плантации в этом абсолютно новом симуляторе выживания в открытом мире, поддерживающем совместный режим."
+    },
+    {
+      "appid": "3105440",
+      "name": "Heroes of Might and Magic: Olden Era",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3105440/e2bef853b7cb19e3d5f019022309783609e8454f/header.jpg?t=1791279110",
+      "genres": [
+        "Ролевые игры",
+        "Стратегии",
+        "Ранний доступ"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Heroes of Might and Magic: Olden Era возвратит вас к истокам серии игр, ставшей классикой пошаговых стратегий. Собирайте огромные армии и используйте разрушительные заклинания, чтобы побеждать врагов в режимах одиночной и многопользовательской игры."
+    },
+    {
+      "appid": "2336220",
+      "name": "Feed the Cups",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2336220/c6ee53810322af25bab7d050e8613181c492298d/header_alt_assets_0.jpg?t=1792117816",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Feed the Cups is a Roguelite multiplayer online cooperative game. Run a Drink Shop, stocking up, preparing ingredients, taking orders, crafting drinks, cleaning up, and checking equipment. Join your friends together!"
+    },
+    {
+      "appid": "4555270",
+      "name": "Vanisha",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4555270/01af302ca693c3a26be13e87b23e14efd1f271bc/header.jpg?t=1792155097",
+      "genres": [
+        "Экшены",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A progression-driven twin-stick shooter. Customize ships, combine powerful chips, and forge unique builds through a talent tree as you race to stop the Anomaly."
     }
   ]
 }
