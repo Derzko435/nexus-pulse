@@ -1,113 +1,22 @@
 {
- "updatedAt": "2026-10-16T20:00:15+03:00",
+ "updatedAt": "2026-10-17T00:45:35+03:00",
  "source": "bo3.gg",
  "matches": [
   {
-   "id": "bo3-131753",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Team Synapse",
-   "teamB": "Dawn Bulls",
-   "logoA": "https://files.bo3.gg/uploads/team/25201/image/webp-f4b3c164debad1ea4885652e123df7ce.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/25301/image/webp-1ee55fb4a6cc5b66498fe0efbc628b51.webp",
-   "scoreA": 1,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "live",
-   "event": "DreamLeague Season 30: Western Europe Closed Qualifier",
-   "tier": "A",
-   "startsAt": "2026-10-16T17:00:00+03:00",
-   "streams": [
-    {
-     "type": "youtube",
-     "id": "n2SDssJTYqo",
-     "lang": "en",
-     "official": true,
-     "label": "Dawn Bulls vs PuckChamp - DreamLeague Season 30 WEU Closed Qualifiers - Stream A"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/team-synapse-vs-dawn-bulls-16-10-2026"
-  },
-  {
-   "id": "bo3-131665",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Legacy",
-   "teamB": "BetBoom",
-   "logoA": "https://files.bo3.gg/uploads/team/8118/image/webp-e4a3b023443f1f3ba4ef588164e73111.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "Thunderpick World Championship 2026",
-   "tier": "S",
-   "startsAt": "2026-10-16T20:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "thunderpicktv",
-     "lang": "en",
-     "official": true,
-     "label": "thunderpicktv"
-    },
-    {
-     "type": "twitch",
-     "channel": "fl0m",
-     "lang": "en",
-     "official": true,
-     "label": "fl0m"
-    },
-    {
-     "type": "kick",
-     "channel": "thunderpick",
-     "lang": "en",
-     "official": false,
-     "label": "thunderpick"
-    },
-    {
-     "type": "twitch",
-     "channel": "pelaajatcom",
-     "lang": "fi",
-     "official": false,
-     "label": "pelaajatcom"
-    }
-   ],
-   "url": "https://bo3.gg/matches/legacy-br-vs-betboom-team-16-10-2026"
-  },
-  {
-   "id": "bo3-131756",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "LEGION",
-   "teamB": "OG",
-   "logoA": "https://files.bo3.gg/uploads/team/25401/image/webp-12311d6aa24e815ad6b9c3e66cc662d2.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16714/image/webp-cd2e61b09557041544426a7b536a0856.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "DreamLeague Season 30: Western Europe Closed Qualifier",
-   "tier": "A",
-   "startsAt": "2026-10-16T21:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/og-dota2-vs-legion_stack-16-10-2026"
-  },
-  {
-   "id": "bo3-130790",
+   "id": "bo3-130791",
    "game": "LoL",
    "gameKey": "lol",
-   "teamA": "MVK Esports",
-   "teamB": "Karmine Corp",
-   "logoA": "https://files.bo3.gg/uploads/team/18361/image/webp-25dd839116820bd9fa92d0d56242126d.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/18342/image/webp-bee9ffd6f69f1a4036d9738f43107f12.webp",
+   "teamA": "FURIA",
+   "teamB": "Cloud9",
+   "logoA": "https://files.bo3.gg/uploads/team/17448/image/webp-c55d5f6b07157723e05297241a757f98.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17900/image/webp-555a7594938f97b1426a99e9cbbf4d83.webp",
    "scoreA": 0,
-   "scoreB": 0,
+   "scoreB": 1,
    "bo": 5,
-   "status": "upcoming",
+   "status": "live",
    "event": "Worlds 2026",
    "tier": "S",
-   "startsAt": "2026-10-16T21:00:00+03:00",
+   "startsAt": "2026-10-16T23:50:00+03:00",
    "streams": [
     {
      "type": "twitch",
@@ -132,57 +41,10 @@
     },
     {
      "type": "twitch",
-     "channel": "rtparenalol",
-     "lang": "pt",
+     "channel": "nervarien",
+     "lang": "pl",
      "official": true,
-     "label": "rtparenalol"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/mvk-esports-vs-karmine-corp-lol-16-10-2026"
-  },
-  {
-   "id": "bo3-130791",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "FURIA",
-   "teamB": "Cloud9",
-   "logoA": "https://files.bo3.gg/uploads/team/17448/image/webp-c55d5f6b07157723e05297241a757f98.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17900/image/webp-555a7594938f97b1426a99e9cbbf4d83.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "upcoming",
-   "event": "Worlds 2026",
-   "tier": "S",
-   "startsAt": "2026-10-17T02:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "otplol_",
-     "lang": "fr",
-     "official": true,
-     "label": "otplol_"
-    },
-    {
-     "type": "twitch",
-     "channel": "esport2tv",
-     "lang": "hu",
-     "official": true,
-     "label": "esport2tv"
-    },
-    {
-     "type": "twitch",
-     "channel": "fortuna",
-     "lang": "sr",
-     "official": true,
-     "label": "fortuna"
-    },
-    {
-     "type": "twitch",
-     "channel": "hitpointcz",
-     "lang": "cs",
-     "official": true,
-     "label": "hitpointcz"
+     "label": "nervarien"
     }
    ],
    "url": "https://bo3.gg/lol/matches/furia-esports-lol-vs-cloud9-lol-16-10-2026"
@@ -305,6 +167,24 @@
    "url": "https://bo3.gg/lol/matches/fearx-lol-vs-team-we-17-10-2026"
   },
   {
+   "id": "bo3-131755",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Dawn Bulls",
+   "teamB": "Team Lynx",
+   "logoA": "https://files.bo3.gg/uploads/team/25301/image/webp-1ee55fb4a6cc5b66498fe0efbc628b51.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/19913/image/webp-eb4baf0ea67469afd1b42b41ff2b0009.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "DreamLeague Season 30: Western Europe Closed Qualifier",
+   "tier": "A",
+   "startsAt": "2026-10-17T13:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/dota2/matches/dawn-bulls-vs-team-lynx-17-10-2026"
+  },
+  {
    "id": "bo3-131671",
    "game": "CS2",
    "gameKey": "cs2",
@@ -329,6 +209,32 @@
     }
    ],
    "url": "https://bo3.gg/matches/furia-vs-aurora-gaming-17-10-2026"
+  },
+  {
+   "id": "bo3-131672",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Falcons",
+   "teamB": "BetBoom",
+   "logoA": "https://files.bo3.gg/uploads/team/2713/image/webp-86fd5a0653183a19cf750d195963ea10.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "Thunderpick World Championship 2026",
+   "tier": "S",
+   "startsAt": "2026-10-17T20:00:00+03:00",
+   "streams": [
+    {
+     "type": "kick",
+     "channel": "thunderpick",
+     "lang": "en",
+     "official": false,
+     "label": "thunderpick"
+    }
+   ],
+   "url": "https://bo3.gg/matches/falcons-esports-vs-betboom-team-17-10-2026"
   },
   {
    "id": "bo3-131862",
@@ -439,6 +345,118 @@
    "url": "https://bo3.gg/lol/matches/rising-bees-vs-g2-hel-20-10-2026"
   },
   {
+   "id": "bo3-131756",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "LEGION",
+   "teamB": "OG",
+   "logoA": "https://files.bo3.gg/uploads/team/25401/image/webp-12311d6aa24e815ad6b9c3e66cc662d2.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16714/image/webp-cd2e61b09557041544426a7b536a0856.webp",
+   "scoreA": 0,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "DreamLeague Season 30: Western Europe Closed Qualifier",
+   "tier": "A",
+   "startsAt": "2026-10-16T21:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/dota2/matches/og-dota2-vs-legion_stack-16-10-2026"
+  },
+  {
+   "id": "bo3-130790",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "MVK Esports",
+   "teamB": "Karmine Corp",
+   "logoA": "https://files.bo3.gg/uploads/team/18361/image/webp-25dd839116820bd9fa92d0d56242126d.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/18342/image/webp-bee9ffd6f69f1a4036d9738f43107f12.webp",
+   "scoreA": 0,
+   "scoreB": 3,
+   "bo": 5,
+   "status": "finished",
+   "event": "Worlds 2026",
+   "tier": "S",
+   "startsAt": "2026-10-16T21:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "otplol_",
+     "lang": "fr",
+     "official": true,
+     "label": "otplol_"
+    },
+    {
+     "type": "twitch",
+     "channel": "esport2tv",
+     "lang": "hu",
+     "official": true,
+     "label": "esport2tv"
+    },
+    {
+     "type": "twitch",
+     "channel": "hitpointcz",
+     "lang": "cs",
+     "official": true,
+     "label": "hitpointcz"
+    },
+    {
+     "type": "twitch",
+     "channel": "leagueoflegendsjp",
+     "lang": "ja",
+     "official": true,
+     "label": "leagueoflegendsjp"
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/mvk-esports-vs-karmine-corp-lol-16-10-2026"
+  },
+  {
+   "id": "bo3-131665",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Legacy",
+   "teamB": "BetBoom",
+   "logoA": "https://files.bo3.gg/uploads/team/8118/image/webp-e4a3b023443f1f3ba4ef588164e73111.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
+   "scoreA": 1,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "Thunderpick World Championship 2026",
+   "tier": "S",
+   "startsAt": "2026-10-16T20:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "thunderpicktv",
+     "lang": "en",
+     "official": true,
+     "label": "thunderpicktv"
+    },
+    {
+     "type": "twitch",
+     "channel": "fl0m",
+     "lang": "en",
+     "official": true,
+     "label": "fl0m"
+    },
+    {
+     "type": "kick",
+     "channel": "thunderpick",
+     "lang": "en",
+     "official": false,
+     "label": "thunderpick"
+    },
+    {
+     "type": "twitch",
+     "channel": "pelaajatcom",
+     "lang": "fi",
+     "official": false,
+     "label": "pelaajatcom"
+    }
+   ],
+   "url": "https://bo3.gg/matches/legacy-br-vs-betboom-team-16-10-2026"
+  },
+  {
    "id": "bo3-131670",
    "game": "CS2",
    "gameKey": "cs2",
@@ -484,6 +502,32 @@
     }
    ],
    "url": "https://bo3.gg/matches/aurora-gaming-vs-9z-16-10-2026"
+  },
+  {
+   "id": "bo3-131753",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Team Synapse",
+   "teamB": "Dawn Bulls",
+   "logoA": "https://files.bo3.gg/uploads/team/25201/image/webp-f4b3c164debad1ea4885652e123df7ce.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/25301/image/webp-1ee55fb4a6cc5b66498fe0efbc628b51.webp",
+   "scoreA": 1,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "DreamLeague Season 30: Western Europe Closed Qualifier",
+   "tier": "A",
+   "startsAt": "2026-10-16T17:00:00+03:00",
+   "streams": [
+    {
+     "type": "youtube",
+     "id": "n2SDssJTYqo",
+     "lang": "en",
+     "official": true,
+     "label": "Dawn Bulls vs PuckChamp - DreamLeague Season 30 WEU Closed Qualifiers - Stream A"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/team-synapse-vs-dawn-bulls-16-10-2026"
   },
   {
    "id": "bo3-131754",
@@ -564,32 +608,6 @@
    "url": "https://bo3.gg/dota2/matches/royal-bear-vs-interactive-philippines-16-10-2026"
   },
   {
-   "id": "bo3-131752",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Dawn Bulls",
-   "teamB": "PuckChamp",
-   "logoA": "https://files.bo3.gg/uploads/team/25301/image/webp-1ee55fb4a6cc5b66498fe0efbc628b51.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/15772/image/webp-64c9d5de9341502cf8038989f43fe16f.webp",
-   "scoreA": 2,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "finished",
-   "event": "DreamLeague Season 30: Western Europe Closed Qualifier",
-   "tier": "A",
-   "startsAt": "2026-10-16T13:00:00+03:00",
-   "streams": [
-    {
-     "type": "youtube",
-     "id": "n2SDssJTYqo",
-     "lang": "en",
-     "official": true,
-     "label": "Dawn Bulls vs PuckChamp - DreamLeague Season 30 WEU Closed Qualifiers - Stream A"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/dawn-bulls-vs-puckchamp-16-10-2026"
-  },
-  {
    "id": "bo3-129633",
    "game": "Valorant",
    "gameKey": "valorant",
@@ -635,33 +653,6 @@
     }
    ],
    "url": "https://bo3.gg/valorant/matches/100-thieves-1-vs-g2-esports-16-10-2026"
-  },
-  {
-   "id": "bo3-132073",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Xtreme Gaming",
-   "teamB": "Cloud Dawning",
-   "logoA": "https://files.bo3.gg/uploads/team/15776/image/webp-10e9cfcdcbb4a0192c4b328975ad6292.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/21875/image/webp-7f1de9a6623f41c9e3356655e1167c88.webp",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "BLAST SLAM IX China Closed Qualifier",
-   "tier": "A",
-   "startsAt": "2026-10-16T11:35:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "blastpremier",
-     "lang": "en",
-     "official": true,
-     "label": "blastpremier",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/xtreme-gaming-dota2-vs-cloud-dawning-16-10-2026"
   },
   {
    "id": "bo3-129632",
@@ -944,53 +935,6 @@
    "url": "https://bo3.gg/lol/matches/team-we-vs-hanjin-brion-15-10-2026"
   },
   {
-   "id": "bo3-131669",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Aurora",
-   "teamB": "Ninjas in Pyjamas",
-   "logoA": "https://files.bo3.gg/uploads/team/3598/image/webp-49b8df76b0d121cc89c760c1ec16ebea.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/785/image/webp-d03dcb2f765afe8ad74a619984e5adcd.webp",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "Thunderpick World Championship 2026",
-   "tier": "S",
-   "startsAt": "2026-10-15T11:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "thunderpicktv",
-     "lang": "en",
-     "official": true,
-     "label": "thunderpicktv"
-    },
-    {
-     "type": "twitch",
-     "channel": "psp1g",
-     "lang": "en",
-     "official": true,
-     "label": "psp1g"
-    },
-    {
-     "type": "twitch",
-     "channel": "cherry5pl",
-     "lang": "pl",
-     "official": true,
-     "label": "cherry5pl"
-    },
-    {
-     "type": "twitch",
-     "channel": "official_thecraggy",
-     "lang": "ru",
-     "official": false,
-     "label": "official_thecraggy"
-    }
-   ],
-   "url": "https://bo3.gg/matches/aurora-gaming-vs-nip-15-10-2026"
-  },
-  {
    "id": "bo3-130165",
    "game": "LoL",
    "gameKey": "lol",
@@ -1015,13 +959,6 @@
     },
     {
      "type": "twitch",
-     "channel": "rtparenalol",
-     "lang": "pt",
-     "official": true,
-     "label": "rtparenalol"
-    },
-    {
-     "type": "twitch",
      "channel": "nervarien",
      "lang": "pl",
      "official": true,
@@ -1033,49 +970,16 @@
      "lang": "es",
      "official": true,
      "label": "champi14"
+    },
+    {
+     "type": "twitch",
+     "channel": "tl_nero",
+     "lang": "el",
+     "official": true,
+     "label": "tl_nero"
     }
    ],
    "url": "https://bo3.gg/lol/matches/anubis-gaming-lol-vs-solary-lol-14-10-2026"
-  },
-  {
-   "id": "bo3-129977",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "BNK FEARX",
-   "teamB": "KT Rolster",
-   "logoA": "https://files.bo3.gg/uploads/team/18335/image/webp-f44a8f9018d2af4430f5a3a75dfd2680.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/18156/image/webp-3c0ee00cfa6eb8edd2f8119b3fc95b1f.webp",
-   "scoreA": 3,
-   "scoreB": 1,
-   "bo": 5,
-   "status": "finished",
-   "event": "Demacia Cup Global Invitational 2026",
-   "tier": "S",
-   "startsAt": "2026-10-14T12:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "makariagaming",
-     "lang": "hu",
-     "official": true,
-     "label": "makariagaming"
-    },
-    {
-     "type": "twitch",
-     "channel": "nervarien",
-     "lang": "pl",
-     "official": true,
-     "label": "nervarien"
-    },
-    {
-     "type": "twitch",
-     "channel": "lplenglish",
-     "lang": "en",
-     "official": false,
-     "label": "lplenglish"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/fearx-lol-vs-kt-rolster-14-10-2026"
   }
  ],
  "tournaments": [
