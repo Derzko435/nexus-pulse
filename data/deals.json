@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T00:32:22+03:00",
+  "updatedAt": "2026-10-16T03:29:58+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -63,6 +63,26 @@
       "steamAppId": "4980910"
     },
     {
+      "id": "steam-5120970",
+      "title": "Sutja",
+      "store": "Steam",
+      "old": 465,
+      "neu": 279,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5120970/",
+      "steamAppId": "5120970"
+    },
+    {
+      "id": "steam-5188980",
+      "title": "Изменяй со мной, а не мне",
+      "store": "Steam",
+      "old": 335,
+      "neu": 201,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5188980/",
+      "steamAppId": "5188980"
+    },
+    {
       "id": "steam-4656000",
       "title": "BOMBANANA!",
       "store": "Steam",
@@ -83,16 +103,6 @@
       "steamAppId": "3892270"
     },
     {
-      "id": "steam-5167420",
-      "title": "Mimic Busters",
-      "store": "Steam",
-      "old": 320,
-      "neu": 198,
-      "pct": 38,
-      "url": "https://store.steampowered.com/app/5167420/",
-      "steamAppId": "5167420"
-    },
-    {
       "id": "steam-3569420",
       "title": "Chained Beasts",
       "store": "Steam",
@@ -103,14 +113,24 @@
       "steamAppId": "3569420"
     },
     {
-      "id": "steam-5231590",
-      "title": "Hentai Miyu",
+      "id": "steam-3345650",
+      "title": "Kingdoms Test Of Time",
       "store": "Steam",
-      "old": 51,
-      "neu": 35,
-      "pct": 31,
-      "url": "https://store.steampowered.com/app/5231590/",
-      "steamAppId": "5231590"
+      "old": 660,
+      "neu": 442,
+      "pct": 33,
+      "url": "https://store.steampowered.com/app/3345650/",
+      "steamAppId": "3345650"
+    },
+    {
+      "id": "steam-1374490",
+      "title": "RuneScape: Dragonwilds",
+      "store": "Steam",
+      "old": 1700,
+      "neu": 1190,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/1374490/",
+      "steamAppId": "1374490"
     },
     {
       "id": "steam-5209500",
@@ -121,26 +141,6 @@
       "pct": 30,
       "url": "https://store.steampowered.com/app/5209500/",
       "steamAppId": "5209500"
-    },
-    {
-      "id": "steam-4415380",
-      "title": "Market is Fine",
-      "store": "Steam",
-      "old": 280,
-      "neu": 201,
-      "pct": 28,
-      "url": "https://store.steampowered.com/app/4415380/",
-      "steamAppId": "4415380"
-    },
-    {
-      "id": "steam-3105440",
-      "title": "Heroes of Might and Magic: Olden Era",
-      "store": "Steam",
-      "old": 1499,
-      "neu": 1124,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/3105440/",
-      "steamAppId": "3105440"
     }
   ]
 }

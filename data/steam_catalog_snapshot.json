@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T00:32:17+03:00",
+  "updatedAt": "2026-10-16T03:29:53+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -509,6 +509,23 @@
       "short_description": "На создание этого шедевра в жанре песочницы, разработчики потратили 12 лет. При помощи игрового движка 4 Unreal, был создан невероятно огромный магический мир, с фантастическими существами. В этом мире, каждый игрок может исследовать магические места, приучить диких животных к послушанию, добывать себе пищу, материалы для строительства,..."
     },
     {
+      "appid": "313120",
+      "name": "Stranded Deep",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/313120/header.jpg?t=1785441084",
+      "genres": [
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Take the role of a plane crash survivor stranded somewhere in the Pacific Ocean. Come face to face with some of the most life threatening scenarios that will result in a different experience each time you play. Scavenge. Discover. Survive."
+    },
+    {
       "appid": "72176",
       "name": "Steam App 72176",
       "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/72176/header.jpg",
@@ -523,6 +540,25 @@
       "short_description": "",
       "catalogId": null,
       "curated": true
+    },
+    {
+      "appid": "4980910",
+      "name": "Project RedTeam: Contract Offensive",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4980910/f196ae106655b6fa0e9c630fe993ce4ec413b511/header.jpg?t=1792091794",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A fast paced hacking roguelite built on real cybersecurity tradecraft. Recon targets, steal creds, move laterally, exfiltrate data, and ransom organizations to pay off your &quot;Debts To Be Paid&quot;. Over 500 cards and items to discover. High risk, high reward. Unauthorized access hell."
     },
     {
       "appid": "4656000",
@@ -540,26 +576,6 @@
       },
       "metacritic": null,
       "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
-    },
-    {
-      "appid": "3981220",
-      "name": "Ezmeralda",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981220/b0377551495d28973c7e8e1fac006988d748755f/header.jpg?t=1792076995",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Ezmeralda — это захватывающая экшен-RPG с видом сверху, где вы исследуете опасные подземелья, сражаетесь с могущественными боссами и собираете легендарную добычу. Освойте динамичный бой, раскройте скрытые тайны и проложите свой путь через мир приключений."
     },
     {
       "appid": "3892270",
@@ -582,7 +598,7 @@
     {
       "appid": "5167420",
       "name": "Mimic Busters",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5167420/412c5671ea840c86ea252e7530a2dd8a530530dc/header_russian.jpg?t=1792092608",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5167420/412c5671ea840c86ea252e7530a2dd8a530530dc/header_russian.jpg?t=1792109342",
       "genres": [
         "Казуальные игры",
         "Инди"
@@ -631,12 +647,12 @@
       "short_description": "Hentai Miyu — соблазнительная аниме-игра-пазл для взрослых, где каждый пройденный уровень открывает новый, более смелый образ Miyu. Собирай пазлы, открывай горячие иллюстрации и заполни галерею на 100%. 🌸"
     },
     {
-      "appid": "1623730",
-      "name": "Palworld",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/6912f19c43a95ff5fe514eedd35e68bf12335459/header.jpg?t=1790336367",
+      "appid": "5209500",
+      "name": "HENTAI CAVEMAN",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5209500/933d885203619c52d8685096a36db49d507fbedd/header.jpg?t=1792087826",
       "genres": [
-        "Экшены",
         "Приключенческие игры",
+        "Казуальные игры",
         "Инди",
         "Ролевые игры"
       ],
@@ -647,31 +663,16 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Собирайте удивительных существ — Палов — на просторах огромного мира, отправляйте их сражаться и трудиться на фабриках, стройте с их помощью здания и выращивайте плантации в этом абсолютно новом симуляторе выживания в открытом мире, поддерживающем совместный режим."
+      "short_description": "В доисторическом мире ты управляешь пещерным человеком по имени Кепеко. Он живёт в пещерной деревне с сексуальными девушками. На следующий день динозавры разрушают деревню и похищают девушек. Кепеко придётся спасти девушек."
     },
     {
-      "appid": "4798110",
-      "name": "Order Picker Simulator",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4798110/c9661a266f2924dfb4813c00157da46c031635ff/header.jpg?t=1792080550",
+      "appid": "4415380",
+      "name": "Market is Fine",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4415380/f10f04db5d36174ce3075e94da0ea971074c7ab3/header.jpg?t=1792097105",
       "genres": [
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Добро пожаловать в Ultra Fresh Food! Управляйте собственным продуктовым складом, собирайте заказы в удобном темпе, расширяйте бизнес, настраивайте рабочее пространство и нанимайте сотрудников. Превратите небольшой склад в отлаженную систему!"
-    },
-    {
-      "appid": "3525940",
-      "name": "Pestilence",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3525940/33848f531009a136fd5a7938c87b27c44c4fff5b/header.jpg?t=1792085432",
-      "genres": [
-        "Приключенческие игры",
-        "Инди"
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
@@ -680,28 +681,25 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Психологический хоррор от первого лица. В 2001 году ваша дочь позвонила вам из таксофона и не вернулась домой. Ровно через два года её похититель заперт в камере, которую вы построили. Верните свет. Обыщите компьютер. Прослушайте записи. Сегодня ночью он признается."
+      "short_description": "Четыре друга. Один магазин. Ноль плана. Симулятор супермаркета с чёрным юмором для 1–4 игроков онлайн или в одиночку: раскладывайте товар, проигрывайте кассу в казино, ловите предателя с выручкой в кармане и держите дверь, когда нагрянет конкурент. Вечером вы в новостях. Всё в порядке."
     },
     {
-      "appid": "2929250",
-      "name": "over the hill",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/header.jpg?t=1792002879",
+      "appid": "3105440",
+      "name": "Heroes of Might and Magic: Olden Era",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3105440/e2bef853b7cb19e3d5f019022309783609e8454f/header.jpg?t=1791279110",
       "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди",
-        "Гонки",
-        "Симуляторы",
-        "Спорт"
+        "Ролевые игры",
+        "Стратегии",
+        "Ранний доступ"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
-        "linux": true
+        "linux": false
       },
       "metacritic": null,
-      "short_description": "Откройте для себя мир в золотой век бездорожья. За рулем культовых внедорожников 60–80-х годов — в одиночку или с друзьями — покоряйте сложные трассы и исследуйте живописные места."
+      "short_description": "Heroes of Might and Magic: Olden Era возвратит вас к истокам серии игр, ставшей классикой пошаговых стратегий. Собирайте огромные армии и используйте разрушительные заклинания, чтобы побеждать врагов в режимах одиночной и многопользовательской игры."
     }
   ]
 }
