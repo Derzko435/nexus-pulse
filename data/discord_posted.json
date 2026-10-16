@@ -1,29 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-10-16T00:51:46+03:00",
+ "updatedAt": "2026-10-16T11:21:52+03:00",
  "posted": {
   "news": [
-   "322786657420",
-   "0887833a1d2d",
-   "6b773d39b0fb",
-   "f574768ec500",
-   "3b4321051688",
-   "9ba0e0ba22a4",
-   "ff9029a8b024",
-   "1dabc9058f1a",
-   "f138e1a4fd04",
-   "f2e871b0f528",
-   "c1397637adf4",
-   "9031379b2317",
-   "65fa2921b09d",
-   "de41d8685039",
-   "b24da8672906",
-   "7069c0afedc7",
-   "41a654e2e826",
-   "3db60d917d07",
-   "7098905f90a0",
-   "f5709d0b77d5",
-   "c6d7259077f6",
    "dabaa282798f",
    "25f471af88d2",
    "21102bd65715",
@@ -502,7 +481,28 @@
    "a043dd2a4448",
    "b218cea94a7f",
    "5ca7e6d66b73",
-   "4fbc8d596407"
+   "4fbc8d596407",
+   "7ad6210aee20",
+   "e7118936e7d8",
+   "c7ba8910d743",
+   "60d3264d8fc0",
+   "b42153547247",
+   "194534025c8a",
+   "8abcbe308d53",
+   "773fb3a097c9",
+   "409ec9179f78",
+   "389d44e7777d",
+   "17598170566d",
+   "d06e54c17caa",
+   "3f73d326b980",
+   "05ffe2dc8d0a",
+   "54efb83aa208",
+   "81d0d258b0ec",
+   "580eef740e7e",
+   "f54a207cc18d",
+   "083355608222",
+   "7a51fd8b7ed5",
+   "8bb0c6e7ad93"
   ],
   "deals": [
    "steam-246420:90",
@@ -589,7 +589,8 @@
    "epic-cb733f3432db46bca94965b422c33ede:now",
    "epic-06190191cede42afb633fe89ef08c27e:soon",
    "epic-6aab3ddef4f84fbc9dd81c60f9d8549c:soon",
-   "epic-db1202a30c5541dd99cdf54c918a9348:now"
+   "epic-db1202a30c5541dd99cdf54c918a9348:now",
+   "epic-6a846880836044a2adad614ac771f487:now"
   ],
   "esports": [
    "result:bo3-129360",
@@ -903,7 +904,14 @@
    "result:bo3-131664",
    "live:bo3-130789",
    "live:bo3-131663",
-   "live:bo3-131744"
+   "live:bo3-131744",
+   "result:bo3-130788",
+   "live:bo3-129632",
+   "live:bo3-131767",
+   "live:bo3-131768",
+   "live:bo3-132072",
+   "result:bo3-130789",
+   "result:bo3-131663"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -930,7 +938,8 @@
    "apex:2026-10-09",
    "valorant:2026-10-13",
    "cs2:2026-10-15",
-   "rivals:2026-10-15"
+   "rivals:2026-10-15",
+   "r6:2026-10-15"
   ],
   "videos": [
    "5lXlYn6ajK8",
@@ -1349,7 +1358,16 @@
    "nyiOS88mPyo",
    "3Pa58nQcNX4",
    "oncWPrntAVc",
-   "cOsD-WO1ScQ"
+   "cOsD-WO1ScQ",
+   "X4QZM2FMNwQ",
+   "1730_cjUjfE",
+   "BJYgx_2PxHA",
+   "Ksqs_V_67AU",
+   "jJueLPftrYo",
+   "IcCH794Br9s",
+   "FE-hHweD2i4",
+   "Qqzj-j4qk0E",
+   "Dem8NROADKo"
   ],
   "releases": [
    "week:2026-W39",
@@ -1389,7 +1407,12 @@
    "day:2026-10-15:x-it-takes-two",
    "day:2026-10-15:4954910",
    "day:2026-10-16:2295060",
-   "day:2026-10-16:4094350"
+   "day:2026-10-16:4094350",
+   "day:2026-10-16:x-lego-harry-potter-collection",
+   "day:2026-10-16:x-resident-evil-2",
+   "day:2026-10-16:x-resident-evil-3",
+   "day:2026-10-16:x-resident-evil-4-gold",
+   "day:2026-10-16:2121510"
   ],
   "gotd": [
    "gotd:2026-09-24"
@@ -1402,7 +1425,8 @@
   "2026-10-15T15:11+03:00",
   "2026-10-15T20:25+03:00",
   "2026-10-16T00:51+03:00",
-  "2026-10-16T00:51+03:00"
+  "2026-10-16T00:51+03:00",
+  "2026-10-16T11:21+03:00"
  ],
  "weekly": {
   "gamenight": {
