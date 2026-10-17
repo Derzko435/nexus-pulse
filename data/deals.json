@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T15:16:30+03:00",
+  "updatedAt": "2026-10-17T18:44:26+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -73,6 +73,16 @@
       "steamAppId": "5044690"
     },
     {
+      "id": "steam-5280170",
+      "title": "AWAITING YOUR HORDERS",
+      "store": "Steam",
+      "old": 465,
+      "neu": 279,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5280170/",
+      "steamAppId": "5280170"
+    },
+    {
       "id": "steam-4656000",
       "title": "BOMBANANA!",
       "store": "Steam",
@@ -103,14 +113,14 @@
       "steamAppId": "5151410"
     },
     {
-      "id": "steam-5296070",
-      "title": "Belgo Odyssey",
+      "id": "steam-5262700",
+      "title": "Сказания о Пути Бессмертных",
       "store": "Steam",
-      "old": 99,
-      "neu": 59,
+      "old": 200,
+      "neu": 120,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5296070/",
-      "steamAppId": "5296070"
+      "url": "https://store.steampowered.com/app/5262700/",
+      "steamAppId": "5262700"
     },
     {
       "id": "steam-3892270",
@@ -123,24 +133,14 @@
       "steamAppId": "3892270"
     },
     {
-      "id": "steam-3569420",
-      "title": "Chained Beasts",
+      "id": "steam-4908870",
+      "title": "FURRY MASSAGE 🔞",
       "store": "Steam",
-      "old": 855,
-      "neu": 555,
-      "pct": 35,
-      "url": "https://store.steampowered.com/app/3569420/",
-      "steamAppId": "3569420"
-    },
-    {
-      "id": "steam-5093430",
-      "title": "Strange Video Editor — Premium, Fast, Local, No Subscription",
-      "store": "Steam",
-      "old": 1600,
-      "neu": 1119,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/5093430/",
-      "steamAppId": "5093430"
+      "old": 556,
+      "neu": 350,
+      "pct": 37,
+      "url": "https://store.steampowered.com/app/4908870/",
+      "steamAppId": "4908870"
     }
   ]
 }

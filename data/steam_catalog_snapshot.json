@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T15:16:24+03:00",
+  "updatedAt": "2026-10-17T18:44:21+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -539,6 +539,24 @@
       "short_description": "Gatekeeper — это динамичный roguelite-шутер. Отправься в погоню за Хаосом, чтобы вернуть украденное Сердце Времени, пробиваясь сквозь орды врагов. Играй в одиночку или в кооперативе до 4 человек и стань новым Привратником!"
     },
     {
+      "appid": "5282110",
+      "name": "中国式高考ChineseGaokao‌",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5282110/94b7e9ca879a5ee4f11f72a18a94a70b7d549897/header.jpg?t=1792223761",
+      "genres": [
+        "Казуальные игры",
+        "Ролевые игры",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "The core gameplay is QTR, which mainly includes learning knowledge points, acquiring learning skills, and taking exams. After 30 weeks or upon early active application, students will participate in the college entrance examination and be allocated universities and majors based on their exam scores"
+    },
+    {
       "appid": "5044690",
       "name": "Hentai Tales: Profane Arbitration",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5044690/ba08435a38c48eadcc2688c4a1f0aa6a03f21cad/header.jpg?t=1792196718",
@@ -555,6 +573,23 @@
       },
       "metacritic": null,
       "short_description": "Вы — «Тайный посредник по связям» в подпольном мире Токио. Клиенты нанимают вас, чтобы инсценировать измены, исполняя их самые глубинные фантазии на тему NTR. Но эта игра желаний — палка о двух концах. Каждая встреча — это спектакль, каждая цель — загадка."
+    },
+    {
+      "appid": "4656000",
+      "name": "BOMBANANA!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1791542068",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
     },
     {
       "appid": "5232240",
@@ -609,6 +644,24 @@
       "short_description": "Belgo Odyssey is an absurdly Belgian 2D action-arcade game. Aboard the airship Albert, travel across the country, battle Sputnik drones, Panzercopies, bizarre creatures, and very Belgian bosses. Collect beers, eat fries, and try to save Belgium."
     },
     {
+      "appid": "3892270",
+      "name": "Казино с друзьями",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/395e6d7972474333a698b26f8aa5597bf38109a1/header.jpg?t=1791977170",
+      "genres": [
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Кооперативная игра про исследование казино для 1–6 человек. У вас с друзьями один банковский счёт и огромный долг на всех: играйте, покупайте предметы и делайте глупости на пути к вершине башни казино. Накопите на квоту для ростовщика за 5 минут или пожалеете..."
+    },
+    {
       "appid": "3569420",
       "name": "Chained Beasts",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/be237edbd1bdbcf361d7b315d70e89fea3b5262a/header.jpg?t=1792082632",
@@ -625,13 +678,15 @@
       "short_description": "Chained Beasts — кооперативный гладиаторский рогалик для 1–4 игроков. Вашим прикованным друг к другу бойцам придётся использовать свои цепи и окружение, превозмогать физические и ментальные травмы и побеждать грозных боссов, чтобы выжить и завоевать любовь кровожадной толпы."
     },
     {
-      "appid": "3419520",
-      "name": "Quarantine Zone: The Last Check",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/1d0c52c18371778eea17294941c606d465328b2e/header_alt_assets_2.jpg?t=1792107989",
+      "appid": "5093430",
+      "name": "Strange Video Editor — Premium, Fast, Local, No Subscription",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5093430/b020d2b599b6e0c2db9a351bdd721c90a87eb139/header.jpg?t=1792207467",
       "genres": [
-        "Инди",
-        "Симуляторы",
-        "Стратегии"
+        "Анимация и моделирование",
+        "Работа со звуком",
+        "Обработка фото",
+        "Утилиты",
+        "Создание видео"
       ],
       "is_free": false,
       "platforms": {
@@ -640,60 +695,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Руководите контрольным пунктом в погибающем городе. Осматривайте выживших, распределяйте скудные ресурсы и сдерживайте натиск нежити. Каждое решение важно, а любая ошибка может привести к распространению заразы за пределы города. ДОСТУПНО БЕСПЛАТНОЕ ОБНОВЛЕНИЕ"
-    },
-    {
-      "appid": "2832280",
-      "name": "Blightstone",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2832280/6090958c7386df7863a409d7d1f1a1f2d1a460fe/header.jpg?t=1792176208",
-      "genres": [
-        "Приключенческие игры",
-        "Инди",
-        "Ролевые игры",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "A challenging, turn-based strategy with a roguelike edge. Lead a team of adventurers to destroy the Blightstone and free the world from corruption. Use free movement, dynamic environments and collectable skills to save the crystal, and save the world."
-    },
-    {
-      "appid": "4950180",
-      "name": "Inkpress",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4950180/251ce1f280da1914365d7cffcd1c5149c90d9005/header.jpg?t=1792177222",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "A relaxing puzzle game about pressing blocks. No rush, just satisfying solutions."
-    },
-    {
-      "appid": "3993220",
-      "name": "TrafficJam - der Stau Simulator",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3993220/e00dd767b18b99214c21525fb8b7150a39bca950/header.jpg?t=1792195151",
-      "genres": [
-        "Гонки",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Isn’t it enough for you to get stuck in real traffic and get annoyed at other drivers? Then here’s some good news! In the Traffic Jam Simulator, you can now get mad at virtual drivers and blow off some steam!"
+      "short_description": "An local-first timeline editor. Finish captions, text, and export on your PC—no cloud upload to edit. Buy once on Steam and keep it for life."
     }
   ]
 }
