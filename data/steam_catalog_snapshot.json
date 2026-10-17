@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T18:44:21+03:00",
+  "updatedAt": "2026-10-17T21:36:01+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -575,6 +575,24 @@
       "short_description": "Вы — «Тайный посредник по связям» в подпольном мире Токио. Клиенты нанимают вас, чтобы инсценировать измены, исполняя их самые глубинные фантазии на тему NTR. Но эта игра желаний — палка о двух концах. Каждая встреча — это спектакль, каждая цель — загадка."
     },
     {
+      "appid": "5280170",
+      "name": "AWAITING YOUR HORDERS",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5280170/2eb09890ef423da737338e6427440746dbac92c4/header.jpg?t=1792244587",
+      "genres": [
+        "Экшены",
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "The best defense is offense. As long as you don't do anything stupid. Or do you? A serious and funny battle simulator where your smallest unit is an ARMY: click one soldier, 100,000 shout YAH! Up to 1,000,000 on screen climb into wobbly towers, get shelled, see stars, and charge again."
+    },
+    {
       "appid": "4656000",
       "name": "BOMBANANA!",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1791542068",
@@ -626,13 +644,12 @@
       "short_description": "This game is a classic puzzle game with multiple levels and beautiful graphics. Enjoy!"
     },
     {
-      "appid": "5296070",
-      "name": "Belgo Odyssey",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5296070/fdbedd56f03267a38bb9da30692ab9c70cfa2a70/header.jpg?t=1792181836",
+      "appid": "5262700",
+      "name": "Сказания о Пути Бессмертных",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5262700/41d416a7de9483513d2f61bb00a2134a11de0c2a/header_russian.jpg?t=1792225902",
       "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
+        "Инди",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
@@ -641,7 +658,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Belgo Odyssey is an absurdly Belgian 2D action-arcade game. Aboard the airship Albert, travel across the country, battle Sputnik drones, Panzercopies, bizarre creatures, and very Belgian bosses. Collect beers, eat fries, and try to save Belgium."
+      "short_description": "Один меч разрушает все искусства, одна мысль дарует бессмертие. Сказания о Пути Бессмертных — это одиночный карточный рогалик в стиле сянься с рисовкой тушью. Бесчисленные артефакты и карты. Сокруши небеса и ищи Дао бессмертия!"
     },
     {
       "appid": "3892270",
@@ -662,40 +679,22 @@
       "short_description": "Кооперативная игра про исследование казино для 1–6 человек. У вас с друзьями один банковский счёт и огромный долг на всех: играйте, покупайте предметы и делайте глупости на пути к вершине башни казино. Накопите на квоту для ростовщика за 5 минут или пожалеете..."
     },
     {
-      "appid": "3569420",
-      "name": "Chained Beasts",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/be237edbd1bdbcf361d7b315d70e89fea3b5262a/header.jpg?t=1792082632",
+      "appid": "4908870",
+      "name": "FURRY MASSAGE 🔞",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4908870/762686347a48b31c65ad7f8a5bd37c806d3e3b42/header.jpg?t=1792261669",
       "genres": [
-        "Экшены"
+        "Казуальные игры",
+        "Ролевые игры",
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": true,
-        "linux": false
+        "linux": true
       },
       "metacritic": null,
-      "short_description": "Chained Beasts — кооперативный гладиаторский рогалик для 1–4 игроков. Вашим прикованным друг к другу бойцам придётся использовать свои цепи и окружение, превозмогать физические и ментальные травмы и побеждать грозных боссов, чтобы выжить и завоевать любовь кровожадной толпы."
-    },
-    {
-      "appid": "5093430",
-      "name": "Strange Video Editor — Premium, Fast, Local, No Subscription",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5093430/b020d2b599b6e0c2db9a351bdd721c90a87eb139/header.jpg?t=1792207467",
-      "genres": [
-        "Анимация и моделирование",
-        "Работа со звуком",
-        "Обработка фото",
-        "Утилиты",
-        "Создание видео"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "An local-first timeline editor. Finish captions, text, and export on your PC—no cloud upload to edit. Buy once on Steam and keep it for life."
+      "short_description": "Got magic hands? Prove it! Become the new masseur for a town full of beautiful furry girls. From sore wings to tense tails, they all crave your touch. 🐾 Pick your client, choose the perfect pose, and hit the right spots to bring them to ultimate ecstasy. ✨"
     }
   ]
 }
