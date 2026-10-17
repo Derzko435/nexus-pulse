@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T10:03:45+03:00",
+  "updatedAt": "2026-10-17T15:16:30+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -53,6 +53,16 @@
       "steamAppId": "2106670"
     },
     {
+      "id": "steam-5282110",
+      "title": "中国式高考ChineseGaokao‌",
+      "store": "Steam",
+      "old": 125,
+      "neu": 74,
+      "pct": 41,
+      "url": "https://store.steampowered.com/app/5282110/",
+      "steamAppId": "5282110"
+    },
+    {
       "id": "steam-5044690",
       "title": "Hentai Tales: Profane Arbitration",
       "store": "Steam",
@@ -61,6 +71,16 @@
       "pct": 41,
       "url": "https://store.steampowered.com/app/5044690/",
       "steamAppId": "5044690"
+    },
+    {
+      "id": "steam-4656000",
+      "title": "BOMBANANA!",
+      "store": "Steam",
+      "old": 210,
+      "neu": 126,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/4656000/",
+      "steamAppId": "4656000"
     },
     {
       "id": "steam-5232240",
@@ -93,6 +113,16 @@
       "steamAppId": "5296070"
     },
     {
+      "id": "steam-3892270",
+      "title": "Казино с друзьями",
+      "store": "Steam",
+      "old": 320,
+      "neu": 198,
+      "pct": 38,
+      "url": "https://store.steampowered.com/app/3892270/",
+      "steamAppId": "3892270"
+    },
+    {
       "id": "steam-3569420",
       "title": "Chained Beasts",
       "store": "Steam",
@@ -103,44 +133,14 @@
       "steamAppId": "3569420"
     },
     {
-      "id": "steam-3419520",
-      "title": "Quarantine Zone: The Last Check",
+      "id": "steam-5093430",
+      "title": "Strange Video Editor — Premium, Fast, Local, No Subscription",
       "store": "Steam",
-      "old": 710,
-      "neu": 461,
-      "pct": 35,
-      "url": "https://store.steampowered.com/app/3419520/",
-      "steamAppId": "3419520"
-    },
-    {
-      "id": "steam-2832280",
-      "title": "Blightstone",
-      "store": "Steam",
-      "old": 590,
-      "neu": 413,
+      "old": 1600,
+      "neu": 1119,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/2832280/",
-      "steamAppId": "2832280"
-    },
-    {
-      "id": "steam-4950180",
-      "title": "Inkpress",
-      "store": "Steam",
-      "old": 200,
-      "neu": 150,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/4950180/",
-      "steamAppId": "4950180"
-    },
-    {
-      "id": "steam-3993220",
-      "title": "TrafficJam - der Stau Simulator",
-      "store": "Steam",
-      "old": 51,
-      "neu": 40,
-      "pct": 22,
-      "url": "https://store.steampowered.com/app/3993220/",
-      "steamAppId": "3993220"
+      "url": "https://store.steampowered.com/app/5093430/",
+      "steamAppId": "5093430"
     }
   ]
 }
