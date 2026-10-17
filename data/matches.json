@@ -1,54 +1,7 @@
 {
- "updatedAt": "2026-10-17T02:58:19+03:00",
+ "updatedAt": "2026-10-17T08:02:42+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-130791",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "FURIA",
-   "teamB": "Cloud9",
-   "logoA": "https://files.bo3.gg/uploads/team/17448/image/webp-c55d5f6b07157723e05297241a757f98.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17900/image/webp-555a7594938f97b1426a99e9cbbf4d83.webp",
-   "scoreA": 2,
-   "scoreB": 1,
-   "bo": 5,
-   "status": "live",
-   "event": "Worlds 2026",
-   "tier": "S",
-   "startsAt": "2026-10-16T23:50:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "otplol_",
-     "lang": "fr",
-     "official": true,
-     "label": "otplol_"
-    },
-    {
-     "type": "twitch",
-     "channel": "esport2tv",
-     "lang": "hu",
-     "official": true,
-     "label": "esport2tv"
-    },
-    {
-     "type": "twitch",
-     "channel": "riotgamesturkish",
-     "lang": "tr",
-     "official": true,
-     "label": "riotgamesturkish"
-    },
-    {
-     "type": "twitch",
-     "channel": "nervarien",
-     "lang": "pl",
-     "official": true,
-     "label": "nervarien"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/furia-esports-lol-vs-cloud9-lol-16-10-2026"
-  },
   {
    "id": "bo3-131771",
    "game": "Dota 2",
@@ -58,13 +11,21 @@
    "logoA": "https://files.bo3.gg/uploads/team/15612/image/webp-f1fe44b7f24c7ccca5618aea0bfc1433.webp",
    "logoB": "https://files.bo3.gg/uploads/team/25259/image/webp-a52f5bcd6f1e1e76b848789e653b75f1.webp",
    "scoreA": 0,
-   "scoreB": 0,
+   "scoreB": 1,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "DreamLeague Season 30: Southeast Asia Closed Qualifier",
    "tier": "A",
    "startsAt": "2026-10-17T07:00:00+03:00",
-   "streams": [],
+   "streams": [
+    {
+     "type": "youtube",
+     "id": "-WKH7FtmHFk",
+     "lang": "en",
+     "official": true,
+     "label": "Interactive Philippines vs Xipto Esports - DreamLeague Season 30 SEA Closed Qual"
+    }
+   ],
    "url": "https://bo3.gg/dota2/matches/interactive-philippines-vs-xipto-esports-dota2-17-10-2026"
   },
   {
@@ -78,7 +39,7 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "BLAST SLAM IX China Closed Qualifier",
    "tier": "A",
    "startsAt": "2026-10-17T08:00:00+03:00",
@@ -237,6 +198,33 @@
    "url": "https://bo3.gg/matches/falcons-esports-vs-betboom-team-17-10-2026"
   },
   {
+   "id": "bo3-130792",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "MVK Esports",
+   "teamB": "FURIA",
+   "logoA": "https://files.bo3.gg/uploads/team/18361/image/webp-25dd839116820bd9fa92d0d56242126d.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17448/image/webp-c55d5f6b07157723e05297241a757f98.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "upcoming",
+   "event": "Worlds 2026",
+   "tier": "S",
+   "startsAt": "2026-10-17T21:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "riotgames",
+     "lang": "en",
+     "official": true,
+     "label": "riotgames",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/mvk-esports-vs-furia-esports-lol-17-10-2026"
+  },
+  {
    "id": "bo3-131862",
    "game": "CS2",
    "gameKey": "cs2",
@@ -345,6 +333,53 @@
    "url": "https://bo3.gg/lol/matches/rising-bees-vs-g2-hel-20-10-2026"
   },
   {
+   "id": "bo3-130791",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "FURIA",
+   "teamB": "Cloud9",
+   "logoA": "https://files.bo3.gg/uploads/team/17448/image/webp-c55d5f6b07157723e05297241a757f98.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17900/image/webp-555a7594938f97b1426a99e9cbbf4d83.webp",
+   "scoreA": 3,
+   "scoreB": 1,
+   "bo": 5,
+   "status": "finished",
+   "event": "Worlds 2026",
+   "tier": "S",
+   "startsAt": "2026-10-16T23:50:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "otplol_",
+     "lang": "fr",
+     "official": true,
+     "label": "otplol_"
+    },
+    {
+     "type": "twitch",
+     "channel": "esport2tv",
+     "lang": "hu",
+     "official": true,
+     "label": "esport2tv"
+    },
+    {
+     "type": "twitch",
+     "channel": "fortuna",
+     "lang": "sr",
+     "official": true,
+     "label": "fortuna"
+    },
+    {
+     "type": "twitch",
+     "channel": "hitpointcz",
+     "lang": "cs",
+     "official": true,
+     "label": "hitpointcz"
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/furia-esports-lol-vs-cloud9-lol-16-10-2026"
+  },
+  {
    "id": "bo3-131756",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -394,17 +429,17 @@
     },
     {
      "type": "twitch",
-     "channel": "hitpointcz",
-     "lang": "cs",
-     "official": true,
-     "label": "hitpointcz"
-    },
-    {
-     "type": "twitch",
      "channel": "leagueoflegendsjp",
      "lang": "ja",
      "official": true,
      "label": "leagueoflegendsjp"
+    },
+    {
+     "type": "twitch",
+     "channel": "riotgamesturkish",
+     "lang": "tr",
+     "official": true,
+     "label": "riotgamesturkish"
     }
    ],
    "url": "https://bo3.gg/lol/matches/mvk-esports-vs-karmine-corp-lol-16-10-2026"
@@ -933,53 +968,6 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/team-we-vs-hanjin-brion-15-10-2026"
-  },
-  {
-   "id": "bo3-130165",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Solary",
-   "teamB": "Anubis Gaming",
-   "logoA": "https://files.bo3.gg/uploads/team/17873/image/webp-a6742d2c85704c67343708118974ab77.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17042/image/webp-db6998b1080588030a46845e7fbbdc56.webp",
-   "scoreA": 3,
-   "scoreB": 1,
-   "bo": 5,
-   "status": "finished",
-   "event": "EMEA Masters 2026 Summer",
-   "tier": "A",
-   "startsAt": "2026-10-14T19:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "otplol_",
-     "lang": "fr",
-     "official": true,
-     "label": "otplol_"
-    },
-    {
-     "type": "twitch",
-     "channel": "nervarien",
-     "lang": "pl",
-     "official": true,
-     "label": "nervarien"
-    },
-    {
-     "type": "twitch",
-     "channel": "champi14",
-     "lang": "es",
-     "official": true,
-     "label": "champi14"
-    },
-    {
-     "type": "twitch",
-     "channel": "tl_nero",
-     "lang": "el",
-     "official": true,
-     "label": "tl_nero"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/anubis-gaming-lol-vs-solary-lol-14-10-2026"
   }
  ],
  "tournaments": [
