@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-17T10:51:52+03:00",
+ "updatedAt": "2026-10-17T14:12:22+03:00",
  "source": "bo3.gg",
  "matches": [
   {
@@ -10,8 +10,8 @@
    "teamB": "100 Thieves",
    "logoA": "https://files.bo3.gg/uploads/team/7254/image/webp-846a1a854b768a066e986fc99c45cf39.webp",
    "logoB": "https://files.bo3.gg/uploads/team/7298/image/webp-84f36fa520c3fb0bac0f97297ae2859e.webp",
-   "scoreA": 0,
-   "scoreB": 0,
+   "scoreA": 2,
+   "scoreB": 1,
    "bo": 5,
    "status": "live",
    "event": "VALORANT Champions 2026",
@@ -20,41 +20,34 @@
    "streams": [
     {
      "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
+     "channel": "valorant_br",
+     "lang": "pt",
      "official": true,
-     "label": "valorant",
-     "fallback": true
+     "label": "valorant_br"
+    },
+    {
+     "type": "twitch",
+     "channel": "valorant_fr",
+     "lang": "fr",
+     "official": true,
+     "label": "valorant_fr"
+    },
+    {
+     "type": "twitch",
+     "channel": "valorant_la",
+     "lang": "pt",
+     "official": true,
+     "label": "valorant_la"
+    },
+    {
+     "type": "twitch",
+     "channel": "valorant_th",
+     "lang": "th",
+     "official": true,
+     "label": "valorant_th"
     }
    ],
    "url": "https://bo3.gg/valorant/matches/team-vitality-vs-100-thieves-1-17-10-2026"
-  },
-  {
-   "id": "bo3-132075",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Team Tidebound",
-   "teamB": "Team Resilience",
-   "logoA": "https://files.bo3.gg/uploads/team/19053/image/webp-f51a3f358c97947da7eba75fc363796c.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/23196/image/webp-782a48a1c8295170e0057a1b1ad46776.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "BLAST SLAM IX China Closed Qualifier",
-   "tier": "A",
-   "startsAt": "2026-10-17T10:10:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "blastpremier",
-     "lang": "en",
-     "official": true,
-     "label": "blastpremier",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/team-tidebound-vs-team-resilience-17-10-2026"
   },
   {
    "id": "bo3-131772",
@@ -64,20 +57,41 @@
    "teamB": "Xipto Esports",
    "logoA": "https://files.bo3.gg/uploads/team/25439/image/webp-211d5a87a24aef6e0eba965ec6618d17.webp",
    "logoB": "https://files.bo3.gg/uploads/team/25259/image/webp-a52f5bcd6f1e1e76b848789e653b75f1.webp",
-   "scoreA": 0,
-   "scoreB": 0,
+   "scoreA": 1,
+   "scoreB": 1,
    "bo": 5,
-   "status": "upcoming",
+   "status": "live",
    "event": "DreamLeague Season 30: Southeast Asia Closed Qualifier",
    "tier": "A",
    "startsAt": "2026-10-17T11:00:00+03:00",
    "streams": [
+    {
+     "type": "twitch",
+     "channel": "esl_dota2storm",
+     "lang": "en",
+     "official": true,
+     "label": "esl_dota2storm"
+    },
     {
      "type": "youtube",
      "id": "-WKH7FtmHFk",
      "lang": "en",
      "official": true,
      "label": "Interactive Philippines vs Xipto Esports - DreamLeague Season 30 SEA Closed Qual"
+    },
+    {
+     "type": "twitch",
+     "channel": "wxcdota",
+     "lang": "tl",
+     "official": false,
+     "label": "wxcdota"
+    },
+    {
+     "type": "twitch",
+     "channel": "cyberclasher",
+     "lang": "th",
+     "official": false,
+     "label": "cyberclasher"
     }
    ],
    "url": "https://bo3.gg/dota2/matches/royal-bear-vs-xipto-esports-dota2-17-10-2026"
@@ -90,14 +104,43 @@
    "teamB": "Team WE",
    "logoA": "https://files.bo3.gg/uploads/team/18335/image/webp-f44a8f9018d2af4430f5a3a75dfd2680.webp",
    "logoB": "https://files.bo3.gg/uploads/team/17801/image/webp-0c5e150d9160c851916e2b4868d7696f.webp",
-   "scoreA": 0,
+   "scoreA": 2,
    "scoreB": 0,
    "bo": 5,
-   "status": "upcoming",
+   "status": "live",
    "event": "Demacia Cup Global Invitational 2026",
    "tier": "S",
    "startsAt": "2026-10-17T12:00:00+03:00",
-   "streams": [],
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "otplol_",
+     "lang": "fr",
+     "official": true,
+     "label": "otplol_"
+    },
+    {
+     "type": "twitch",
+     "channel": "nervarien",
+     "lang": "pl",
+     "official": true,
+     "label": "nervarien"
+    },
+    {
+     "type": "twitch",
+     "channel": "vivilatvia",
+     "lang": "ru",
+     "official": false,
+     "label": "vivilatvia"
+    },
+    {
+     "type": "twitch",
+     "channel": "narmomorn",
+     "lang": "ru",
+     "official": false,
+     "label": "narmomorn"
+    }
+   ],
    "url": "https://bo3.gg/lol/matches/fearx-lol-vs-team-we-17-10-2026"
   },
   {
@@ -111,20 +154,74 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "DreamLeague Season 30: Western Europe Closed Qualifier",
    "tier": "A",
    "startsAt": "2026-10-17T13:00:00+03:00",
    "streams": [
+    {
+     "type": "twitch",
+     "channel": "esl_dota2",
+     "lang": "en",
+     "official": true,
+     "label": "esl_dota2"
+    },
     {
      "type": "youtube",
      "id": "PoJHtw85L0w",
      "lang": "en",
      "official": true,
      "label": "Dawn Bulls vs Team Lynx - DreamLeague Season 30 WEU Closed Qualifiers"
+    },
+    {
+     "type": "twitch",
+     "channel": "dota2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "dota2_maincast"
+    },
+    {
+     "type": "twitch",
+     "channel": "belonytv",
+     "lang": "uk",
+     "official": false,
+     "label": "belonytv"
     }
    ],
    "url": "https://bo3.gg/dota2/matches/dawn-bulls-vs-team-lynx-17-10-2026"
+  },
+  {
+   "id": "bo3-132076",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Team Resilience",
+   "teamB": "Xtreme Gaming",
+   "logoA": "https://files.bo3.gg/uploads/team/23196/image/webp-782a48a1c8295170e0057a1b1ad46776.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/15776/image/webp-10e9cfcdcbb4a0192c4b328975ad6292.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "BLAST SLAM IX China Closed Qualifier",
+   "tier": "A",
+   "startsAt": "2026-10-17T14:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "betboom_dota_ru2",
+     "lang": "ru",
+     "official": true,
+     "label": "betboom_dota_ru2"
+    },
+    {
+     "type": "twitch",
+     "channel": "bkop",
+     "lang": "en",
+     "official": false,
+     "label": "bkop"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/team-resilience-vs-xtreme-gaming-dota2-17-10-2026"
   },
   {
    "id": "bo3-131671",
@@ -312,6 +409,85 @@
    "startsAt": "2026-10-20T19:00:00+03:00",
    "streams": [],
    "url": "https://bo3.gg/lol/matches/rising-bees-vs-g2-hel-20-10-2026"
+  },
+  {
+   "id": "bo3-132265",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Team Yandex",
+   "teamB": "GamerLegion",
+   "logoA": "https://files.bo3.gg/uploads/team/20951/image/webp-102aceac7404bd2093f9b559afcad7b6.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/22027/image/webp-f42950afee48713daf40592585696801.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PARI Universe",
+   "tier": "S",
+   "startsAt": "2026-10-22T11:00:00+03:00",
+   "streams": [
+    {
+     "type": "kick",
+     "channel": "fissure_dota_en",
+     "lang": "en",
+     "official": false,
+     "label": "fissure_dota_en"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/team-yandex-vs-gamerlegion-dota2-22-10-2026"
+  },
+  {
+   "id": "bo3-132275",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Team Spirit",
+   "teamB": "LEGION",
+   "logoA": "https://files.bo3.gg/uploads/team/16704/image/webp-d50909a064a4533a3b594ed059eebc42.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/25401/image/webp-12311d6aa24e815ad6b9c3e66cc662d2.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PARI Universe",
+   "tier": "S",
+   "startsAt": "2026-10-22T14:00:00+03:00",
+   "streams": [
+    {
+     "type": "kick",
+     "channel": "fissure_dota_en",
+     "lang": "en",
+     "official": false,
+     "label": "fissure_dota_en"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/team-spirit-vs-legion_stack-22-10-2026"
+  },
+  {
+   "id": "bo3-132075",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Team Tidebound",
+   "teamB": "Team Resilience",
+   "logoA": "https://files.bo3.gg/uploads/team/19053/image/webp-f51a3f358c97947da7eba75fc363796c.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/23196/image/webp-782a48a1c8295170e0057a1b1ad46776.webp",
+   "scoreA": 1,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "BLAST SLAM IX China Closed Qualifier",
+   "tier": "A",
+   "startsAt": "2026-10-17T10:10:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "blastpremier",
+     "lang": "en",
+     "official": true,
+     "label": "blastpremier",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/team-tidebound-vs-team-resilience-17-10-2026"
   },
   {
    "id": "bo3-132074",
@@ -584,32 +760,6 @@
     }
    ],
    "url": "https://bo3.gg/matches/aurora-gaming-vs-9z-16-10-2026"
-  },
-  {
-   "id": "bo3-131754",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Team Lynx",
-   "teamB": "potn9ki",
-   "logoA": "https://files.bo3.gg/uploads/team/19913/image/webp-eb4baf0ea67469afd1b42b41ff2b0009.webp",
-   "logoB": "",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "DreamLeague Season 30: Western Europe Closed Qualifier",
-   "tier": "A",
-   "startsAt": "2026-10-16T17:00:00+03:00",
-   "streams": [
-    {
-     "type": "youtube",
-     "id": "g4osEGof5FA",
-     "lang": "en",
-     "official": true,
-     "label": "pot9nki vs White Sails - DreamLeague Season 30 WEU Closed Qualifiers - Stream B"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/team-lynx-vs-potn9ki-16-10-2026"
   },
   {
    "id": "bo3-131753",
