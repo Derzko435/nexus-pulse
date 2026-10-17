@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T03:36:26+03:00",
+  "updatedAt": "2026-10-17T10:03:40+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -574,6 +574,24 @@
       "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
     },
     {
+      "appid": "3892270",
+      "name": "Казино с друзьями",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/395e6d7972474333a698b26f8aa5597bf38109a1/header.jpg?t=1791977170",
+      "genres": [
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Кооперативная игра про исследование казино для 1–6 человек. У вас с друзьями один банковский счёт и огромный долг на всех: играйте, покупайте предметы и делайте глупости на пути к вершине башни казино. Накопите на квоту для ростовщика за 5 минут или пожалеете..."
+    },
+    {
       "appid": "5321400",
       "name": "A Game About Needle In A Haystack",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5321400/0f6530249d980714b1479b2689c4a25b6ef9964d/header.jpg?t=1792188397",
@@ -610,7 +628,7 @@
     {
       "appid": "3826670",
       "name": "Flipping is Hard",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3826670/e82a2c44caf29a67be6ad43c4256940eaef51111/header.jpg?t=1792169994",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3826670/e82a2c44caf29a67be6ad43c4256940eaef51111/header.jpg?t=1792219841",
       "genres": [
         "Экшены",
         "Приключенческие игры",
@@ -645,41 +663,6 @@
       "short_description": "A challenging, turn-based strategy with a roguelike edge. Lead a team of adventurers to destroy the Blightstone and free the world from corruption. Use free movement, dynamic environments and collectable skills to save the crystal, and save the world."
     },
     {
-      "appid": "4999210",
-      "name": "Diceminoes",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4999210/52ac4633810e7151f32c31b67e4166d389bb6717/header.jpg?t=1792166461",
-      "genres": [
-        "Казуальные игры",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Diceminoes is a score-chasing roguelike where you roll dice, pair them up to make dominoes, and connect them into scoring patterns. Discover powerful upgrades, bend the rules, and turn clever placements into huge scoring cascades."
-    },
-    {
-      "appid": "4260380",
-      "name": "DishDash",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4260380/fb85d3015649e4388c9e9ae7eadbf38a4fe3e2bf/header.jpg?t=1792168096",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "DishDash is a single-player time management restaurant game where you prepare meals, serve customers, and manage limited resources under constant time pressure, turning kitchen chaos into smooth rhythm through speed, focus, and smart decision-making."
-    },
-    {
       "appid": "5296760",
       "name": "Neon Crossing",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5296760/575f0ffbeaa7b626ed578e96776d715601f381ba/header.jpg?t=1792172831",
@@ -696,6 +679,24 @@
       },
       "metacritic": null,
       "short_description": "Dodge traffic, find the right opening, and beat your high score. Choose one of three anime girls, unlock new character portraits, and climb the Steam leaderboard."
+    },
+    {
+      "appid": "5127370",
+      "name": "Who's Cheating?",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5127370/2337f8b06c1e990fef49d00c3e20cdfb0a8430ae/header.jpg?t=1792194392",
+      "genres": [
+        "Экшены",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Все делают ставки. Один жульничает. В этой игре в жанре социальной дедукции на 3–8 человек шулер надевает очки, которые показывают следующую выигрышную ставку, а охранник следит за столами, изучает ставки и решает, кто словит заряд дроби. Ври, воруй и блефуй в голосовом чате по близости."
     }
   ]
 }
