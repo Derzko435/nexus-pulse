@@ -1,142 +1,6 @@
 {
- "updatedAt": "2026-10-16T11:18:23+03:00",
+ "updatedAt": "2026-10-17T10:54:25+03:00",
  "items": [
-  {
-   "appid": "x-lego-harry-potter-collection",
-   "title": "Lego Harry Potter Collection",
-   "date": "2026-10-16",
-   "image": "https://upload.wikimedia.org/wikipedia/en/5/57/LEGO_Harry_Potter_Logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "desc": "Lego: Harry Potter — серия игрушек Lego, базирующаяся на фильмах серии Гарри Поттер. Игрушки представляют собой модели важных сцен, транспортных средств и персонажей и созданы по мотивам всех семи фильмов.",
-   "genres": [
-    "Экшен-приключение"
-   ],
-   "platforms": [
-    "Switch"
-   ],
-   "stores": [],
-   "developer": "Cast Iron Games, Double Eleven , TT Games",
-   "price": "",
-   "url": "https://ru.wikipedia.org/wiki/Lego%3A_Harry_Potter",
-   "links": {
-    "wiki": "https://ru.wikipedia.org/wiki/Lego%3A_Harry_Potter"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": 4094350,
-   "title": "Online: 404",
-   "date": "2026-10-16",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094350/d64835e6cf8346d193f6f029551956716c01b281/header.jpg?t=1791588786",
-   "desc": "Симулятор выживания в открытом мире, в котором даже опытные ценители жанра смогут переосмыслить привычный способ выживания и взаимодействия с игровым миром. Играйте соло или с друзьями, проходите сюжет или исследуйте мир - главное, не забудьте свой главный гаджет.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Инди"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Cornfield Games",
-   "price": "",
-   "url": "https://store.steampowered.com/app/4094350/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4094350/"
-   }
-  },
-  {
-   "appid": "x-resident-evil-2",
-   "title": "Resident Evil 2 Deluxe Edition",
-   "date": "2026-10-16",
-   "image": "https://upload.wikimedia.org/wikipedia/en/f/fd/Resident_Evil_2_Remake.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "desc": "Resident Evil 2 — компьютерная игра в жанре survival horror, разработанная Capcom R&D Division 1 и изданная Capcom 25 января 2019 года для PlayStation 4, Xbox One и Windows. Ремейк одноимённой игры 1998 года. В 2022 году были выпущены версии для Nintendo Switch, PlayStation 5 и Xbox Series X/S…",
-   "genres": [
-    "Survival-хоррор"
-   ],
-   "platforms": [
-    "Switch"
-   ],
-   "stores": [],
-   "developer": "Capcom",
-   "price": "",
-   "url": "https://ru.wikipedia.org/wiki/Resident_Evil_2_%28%D0%B8%D0%B3%D1%80%D0%B0%2C_2019%29",
-   "links": {
-    "wiki": "https://ru.wikipedia.org/wiki/Resident_Evil_2_%28%D0%B8%D0%B3%D1%80%D0%B0%2C_2019%29"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": "x-resident-evil-3",
-   "title": "Resident Evil 3",
-   "date": "2026-10-16",
-   "image": "https://upload.wikimedia.org/wikipedia/en/d/dc/Resident_Evil_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "desc": "Resident Evil 3 — компьютерная игра, являющаяся ремейком игры Resident Evil 3: Nemesis 1999 года, а также продолжением двух предыдущих ремейков серии — Resident Evil (2002) и частично Resident Evil 2 (2019).\nИгра была разработана подразделением Capcom M-Two и Red Works при содействии другой…",
-   "genres": [
-    "Survival-хоррор"
-   ],
-   "platforms": [
-    "Switch"
-   ],
-   "stores": [],
-   "developer": "Capcom",
-   "price": "",
-   "url": "https://ru.wikipedia.org/wiki/Resident_Evil_3_%28%D0%B8%D0%B3%D1%80%D0%B0%2C_2020%29",
-   "links": {
-    "wiki": "https://ru.wikipedia.org/wiki/Resident_Evil_3_%28%D0%B8%D0%B3%D1%80%D0%B0%2C_2020%29"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": "x-resident-evil-4-gold",
-   "title": "Resident Evil 4 Gold Edition",
-   "date": "2026-10-16",
-   "image": "https://upload.wikimedia.org/wikipedia/en/d/df/Resident_Evil_4_remake_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "desc": "Resident Evil 4, известная в Японии как Biohazard RE:4 — компьютерная игра в жанрах survival horror и шутера от третьего лица, разработанная студией Consumer Games Development Division 1 и изданная Capcom. Является ремейком одноимённой игры 2005 года —\nшестой в основной серии Resident Evil (две…",
-   "genres": [
-    "Survival-хоррор"
-   ],
-   "platforms": [
-    "Switch"
-   ],
-   "stores": [],
-   "developer": "Capcom",
-   "price": "",
-   "url": "https://ru.wikipedia.org/wiki/Resident_Evil_4_%28%D0%B8%D0%B3%D1%80%D0%B0%2C_2023%29",
-   "links": {
-    "wiki": "https://ru.wikipedia.org/wiki/Resident_Evil_4_%28%D0%B8%D0%B3%D1%80%D0%B0%2C_2023%29"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": 2121510,
-   "title": "Tenebris Somnia",
-   "date": "2026-10-16",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2121510/61f3fb4ddb5387876aa498f621386e1d4442c219/header.jpg?t=1792102818",
-   "desc": "Раскройте тайны мрачной истории, решая головоломки и сражаясь с ужасными существами. ...А что, если это не просто кошмары?",
-   "genres": [
-    "Survival-хоррор",
-    "Приключение"
-   ],
-   "platforms": [
-    "PC",
-    "PlayStation",
-    "Xbox",
-    "Switch"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Andrés Borghi, Saibot Studios",
-   "price": "",
-   "url": "https://store.steampowered.com/app/2121510/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/2121510/",
-    "wiki": "https://en.wikipedia.org/wiki/Tenebris_Somnia"
-   },
-   "source": "wiki"
-  },
   {
    "appid": "x-beamng-drive",
    "title": "BeamNG.drive",
@@ -200,6 +64,30 @@
     "wiki": "https://en.wikipedia.org/wiki/I_Am_Your_Beast"
    },
    "source": "wiki"
+  },
+  {
+   "appid": 2223980,
+   "title": "Nomad Drive",
+   "date": "2026-10-20",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223980/433d5727162af686f0e7d56de539f8476fb0cf0e/header.jpg?t=1792161365",
+   "desc": "Отремонтируйте свой запущенный дом на колесах и отправляйтесь в путь в одиночку или в кооперативе на 1–4 игроков по процедурно генерируемому постапокалиптическому миру. Собирайте ресурсы, настраивайте ваш дом на колесах и выживайте как можно дольше.",
+   "genres": [
+    "Приключенческие игры",
+    "Инди",
+    "Симуляторы"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Indie Devil",
+   "price": "",
+   "url": "https://store.steampowered.com/app/2223980/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/2223980/"
+   }
   },
   {
    "appid": 2315050,
@@ -317,29 +205,6 @@
    "source": "wiki"
   },
   {
-   "appid": 3905010,
-   "title": "ONE PIECE: Grand Gourmet",
-   "date": "2026-10-22",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3905010/0437aa2ef308bd35d40833de72c3dac04a24f067/header.jpg?t=1789090874",
-   "desc": "Добро пожаловать на борт аппетитного симулятора управления в мире ONE PIECE! Стройте лучший ресторан на морях вместе с Пиратами Соломенной Шляпы! Собирайте ингредиенты, придумывайте блюда и украшайте их, чтобы знакомые персонажи выстраивались в очередь за добавкой!",
-   "genres": [
-    "Казуальные игры",
-    "Симуляторы"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Kairosoft Co.,Ltd",
-   "price": "1429 руб.",
-   "url": "https://store.steampowered.com/app/3905010/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/3905010/"
-   }
-  },
-  {
    "appid": "x-peak",
    "title": "Peak",
    "date": "2026-10-22",
@@ -359,6 +224,54 @@
    "url": "https://ru.wikipedia.org/wiki/Peak_%28%D0%B8%D0%B3%D1%80%D0%B0%29",
    "links": {
     "wiki": "https://ru.wikipedia.org/wiki/Peak_%28%D0%B8%D0%B3%D1%80%D0%B0%29"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": 4890760,
+   "title": "THE DEAD WE KNEW: Open World Survival",
+   "date": "2026-10-22",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4890760/d6dec22f1f319e6e4c87d7e92c1a7858152a3445/header.jpg?t=1789402327",
+   "desc": "Собирай добычу в опасной игре на выживание с открытым миром, строй своё убежище, производи собственную еду и управляй ресурсами. Выживай в одиночку или в кооперативном режиме против зомби, враждебных людей и угроз, которые усиливаются вместе с туманом.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Ролевые игры"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "MAY19 STUDIO",
+   "price": "",
+   "url": "https://store.steampowered.com/app/4890760/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4890760/"
+   }
+  },
+  {
+   "appid": "x-vixen-357",
+   "title": "Vixen 357",
+   "date": "2026-10-23",
+   "image": "https://upload.wikimedia.org/wikipedia/en/8/82/Vixen357JPBoxShotGenesis.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Vixen 357 — видеоигра в жанре тактической ролевой игры, разработанная NCS Corporation и изданная компанией Masaya для Sega Mega Drive.",
+   "genres": [
+    "Тактическая RPG"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Xbox",
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Shinyuden",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/Vixen_357",
+   "links": {
+    "wiki": "https://ru.wikipedia.org/wiki/Vixen_357"
    },
    "source": "wiki"
   },
@@ -391,7 +304,7 @@
    "appid": 2295170,
    "title": "Emberville",
    "date": "2026-10-27",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2295170/99852482000e8eb5b7b75c52bf5f70406c6f6e5f/header.jpg?t=1791011952",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2295170/99852482000e8eb5b7b75c52bf5f70406c6f6e5f/header.jpg?t=1792209927",
    "desc": "Потеряв память, вы очнулись в огромном подземном мире. Вас приветствует Витромотус — магическое подземелье, где смерть — это новое начало. Погрузитесь в его глубины и узнайте правду об этой тюрьме, параллельно сражаясь с опасными тварями, помогая выжившим и отстраивая разрушенный город Эмбервилль.",
    "genres": [
     "Экшены",
@@ -399,8 +312,7 @@
     "Инди"
    ],
    "platforms": [
-    "PC",
-    "Linux"
+    "PC"
    ],
    "stores": [
     "Steam"
@@ -637,6 +549,33 @@
    }
   },
   {
+   "appid": 2615540,
+   "title": "Void/Breaker",
+   "date": "2026-11-04",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2615540/4910cbb20305952b64c43ed72823e1a61aeb29f5/header_alt_assets_7.jpg?t=1790873994",
+   "desc": "Адреналиновый шутер-roguelite от первого лица 🔴 Сражайтесь с машинами, которыми управляет ИИ. Разорвите бесконечный цикл. Создавайте бесконечные варианты оружия благодаря модам. Создавайте смертоносные синергии. Уничтожайте всё вокруг. /СЛОМАЙТЕ СИСТЕМУ /СЛОМАЙТЕ ТЮРЬМУ",
+   "genres": [
+    "Шутер от первого лица",
+    "Рогалик"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Xbox"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Stubby Games",
+   "price": "1350 руб.",
+   "url": "https://store.steampowered.com/app/2615540/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/2615540/",
+    "wiki": "https://en.wikipedia.org/wiki/Void/Breaker"
+   },
+   "source": "wiki"
+  },
+  {
    "appid": "x-marvel-s-guardians-of-galaxy-encore",
    "title": "Marvel's Guardians of the Galaxy Encore Edition",
    "date": "2026-11-05",
@@ -725,6 +664,35 @@
    "links": {
     "steam": "https://store.steampowered.com/app/3629430/"
    }
+  },
+  {
+   "appid": 4530370,
+   "title": "Football Manager 27",
+   "date": "2026-11-10",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/32b41d18ffaac3d2e1dc1a9c3915538db0ba3fca/header.jpg?t=1791379324",
+   "desc": "Пользуйтесь тактической доской, бегите к бровке — все меняется ради того, чтобы управление становилось удобнее, а мир футбола — живее. Выходит 10 ноября.",
+   "genres": [
+    "Спортивный менеджер"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Xbox",
+    "Mac"
+   ],
+   "stores": [
+    "Steam",
+    "Epic"
+   ],
+   "developer": "Sports Interactive",
+   "price": "",
+   "url": "https://store.steampowered.com/app/4530370/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4530370/",
+    "epic": "https://store.epicgames.com/ru/p/football-manager-27-391032",
+    "wiki": "https://en.wikipedia.org/wiki/Football_Manager_27"
+   },
+   "source": "wiki"
   },
   {
    "appid": 3669620,
@@ -912,7 +880,7 @@
    "appid": 3161310,
    "title": "Hela: of Mice & Magic",
    "date": "2026-12-01",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3161310/868b1938e4540924707c8db978d494322757e28d/header.jpg?t=1791819279",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3161310/868b1938e4540924707c8db978d494322757e28d/header.jpg?t=1792166722",
    "desc": "Взгляните на мир глазами храброй маленькой мышки в этом очаровательном 3D-приключении. Изучайте пейзажи, вдохновленные севером Швеции, решайте головоломки и попробуйте творить добро в мире, где равно важны трогательные истории и красота природы.",
    "genres": [
     "Приключенческие игры"
@@ -1120,12 +1088,12 @@
   },
   {
    "appid": 4452700,
-   "title": "STAGE TOUR",
+   "title": "Stage Tour",
    "date": "2026-12-10",
    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4452700/7074777401ca32c928e7702567ee08c282ff7393/header.jpg?t=1791998650",
-   "desc": "Создайте свою группу, выходите на сцену и отправляйтесь в турне в Stage Tour, новой эволюции музыкальных ритм-игр. Слушайте более 90 официально лицензированных треков, разблокируйте более 180 аутентичных гитар Gibson®, Epiphone® и Kramer® и испытайте пять игровых режимов, включая совершенно новый режим рогалика Tour.",
+   "desc": "Соберите группу, зажгите на сцене и отправьтесь в турне в Stage Tour — ритм-игре новой эры. Вас ждут свыше 90 лицензированных треков, более 180 настоящих гитар Gibson®, Epiphone® и Kramer® и новые стили игры. В комплекте новый рогалик-режим Tour Mode!",
    "genres": [
-    "Экшены"
+    "Ритм-игра"
    ],
    "platforms": [
     "PC",
@@ -1142,8 +1110,10 @@
    "url": "https://store.steampowered.com/app/4452700/",
    "links": {
     "steam": "https://store.steampowered.com/app/4452700/",
-    "epic": "https://store.epicgames.com/ru/p/stagetour-ac5b2f"
-   }
+    "epic": "https://store.epicgames.com/ru/p/stagetour-ac5b2f",
+    "wiki": "https://en.wikipedia.org/wiki/Stage_Tour"
+   },
+   "source": "wiki"
   },
   {
    "appid": "x-danganronpa-2-2",
@@ -1275,7 +1245,7 @@
    "appid": 4308420,
    "title": "Arizona Sunshine",
    "date": "2027-01-21",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4308420/efdd952517dca2bbe84428c381d023ce71cc3c1d/header.jpg?t=1791997257",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4308420/efdd952517dca2bbe84428c381d023ce71cc3c1d/header.jpg?t=1792150824",
    "desc": "Arizona Sunshine — это видеоигра-шутер от первого лица на выживание зомби, разработанная и изданная Vertigo Games и выпущенная 6 декабря 2016 года. Игра совместима с гарнитурами виртуальной реальности HTC Vive, Oculus Rift, Oculus Quest, Valve Index и PlayStation VR.\nПродолжение «Аризона Саншайн»…",
    "genres": [
     "Шутер от третьего лица"
@@ -1421,6 +1391,30 @@
    "source": "wiki"
   },
   {
+   "appid": 2659410,
+   "title": "Elta: Defy All Gods",
+   "date": "2027-02-02",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2659410/0fa44684db6c1ccfbbcc5d209bfc8a55b0c8565f/header_alt_assets_0_russian.jpg?t=1790947256",
+   "desc": "Выберитесь из оскверненных миров вместе со своим спутником, богом-драконом, в захватывающем экшен-платформере, сочетающим свободный ближний бой, динамичный платформинг и исследование мира в НФ-сеттинге. Станьте избранным своего падшего божества, Эльты.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Afterburner Studios",
+   "price": "1499 руб.",
+   "url": "https://store.steampowered.com/app/2659410/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/2659410/"
+   }
+  },
+  {
    "appid": 5097820,
    "title": "Astonishia Story",
    "date": "2027-02-11",
@@ -1443,6 +1437,27 @@
    "links": {
     "steam": "https://store.steampowered.com/app/5097820/",
     "wiki": "https://en.wikipedia.org/wiki/Astonishia_Story"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-god-of-war-laufey",
+   "title": "God of War Laufey",
+   "date": "2027-02-16",
+   "image": "https://upload.wikimedia.org/wikipedia/en/0/0b/God_of_War_Laufey_cover.webp?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "God of War: Laufey — будущая компьютерная игра в жанре action-adventure с элементами hack and slash, разработанная компанией Santa Monica Studio при поддержке издательства Sony Interactive Entertainment. Laufey станет первой игрой во франшизе God of War, главным героем которой будет не Кратос…",
+   "genres": [
+    "Экшен-приключение"
+   ],
+   "platforms": [
+    "PlayStation"
+   ],
+   "stores": [],
+   "developer": "Santa Monica Studio",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/God_of_War%3A_Laufey",
+   "links": {
+    "wiki": "https://ru.wikipedia.org/wiki/God_of_War%3A_Laufey"
    },
    "source": "wiki"
   },
