@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T21:36:01+03:00",
+  "updatedAt": "2026-10-18T01:27:35+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -488,23 +488,6 @@
       "short_description": "Обретите сверхчеловеческую мощь космодесантника. Пустите в ход смертоносные навыки и разрушительное оружие, чтобы истребить безжалостных тиранидов. Защитите Империум в ярких одиночных боях или многопользовательских режимах с видом от третьего лица."
     },
     {
-      "appid": "313120",
-      "name": "Stranded Deep",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/313120/header.jpg?t=1785441084",
-      "genres": [
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Take the role of a plane crash survivor stranded somewhere in the Pacific Ocean. Come face to face with some of the most life threatening scenarios that will result in a different experience each time you play. Scavenge. Discover. Survive."
-    },
-    {
       "appid": "72176",
       "name": "Steam App 72176",
       "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/72176/header.jpg",
@@ -519,24 +502,6 @@
       "short_description": "",
       "catalogId": null,
       "curated": true
-    },
-    {
-      "appid": "2106670",
-      "name": "Gatekeeper",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2106670/97ff42508f66f09a37d7f5108262344659ad6428/header.jpg?t=1790181610",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Gatekeeper — это динамичный roguelite-шутер. Отправься в погоню за Хаосом, чтобы вернуть украденное Сердце Времени, пробиваясь сквозь орды врагов. Играй в одиночку или в кооперативе до 4 человек и стань новым Привратником!"
     },
     {
       "appid": "5282110",
@@ -573,6 +538,26 @@
       },
       "metacritic": null,
       "short_description": "Вы — «Тайный посредник по связям» в подпольном мире Токио. Клиенты нанимают вас, чтобы инсценировать измены, исполняя их самые глубинные фантазии на тему NTR. Но эта игра желаний — палка о двух концах. Каждая встреча — это спектакль, каждая цель — загадка."
+    },
+    {
+      "appid": "418030",
+      "name": "Subsistence",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418030/a0fcfa8c4b3f047e63759ddc19745fe266d2fd3d/header_alt_assets_19_russian.jpg?t=1792259683",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы",
+        "Ранний доступ"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Subsistence - это PvE-выживание от первого лица с одиночным и совместным режимами. Выживайте в открытом мире со сменой времён года, стройте базу, делайте предметы и снаряжение. Защищайтесь от дикой природы и охотников, которые тоже строят свои базы."
     },
     {
       "appid": "5280170",
@@ -695,6 +680,22 @@
       },
       "metacritic": null,
       "short_description": "Got magic hands? Prove it! Become the new masseur for a town full of beautiful furry girls. From sore wings to tense tails, they all crave your touch. 🐾 Pick your client, choose the perfect pose, and hit the right spots to bring them to ultimate ecstasy. ✨"
+    },
+    {
+      "appid": "3569420",
+      "name": "Chained Beasts",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/be237edbd1bdbcf361d7b315d70e89fea3b5262a/header.jpg?t=1792082632",
+      "genres": [
+        "Экшены"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Chained Beasts — кооперативный гладиаторский рогалик для 1–4 игроков. Вашим прикованным друг к другу бойцам придётся использовать свои цепи и окружение, превозмогать физические и ментальные травмы и побеждать грозных боссов, чтобы выжить и завоевать любовь кровожадной толпы."
     }
   ]
 }
