@@ -1,54 +1,7 @@
 {
- "updatedAt": "2026-10-18T00:01:30+03:00",
+ "updatedAt": "2026-10-18T02:29:33+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-130792",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "MVK Esports",
-   "teamB": "FURIA",
-   "logoA": "https://files.bo3.gg/uploads/team/18361/image/webp-25dd839116820bd9fa92d0d56242126d.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17448/image/webp-c55d5f6b07157723e05297241a757f98.webp",
-   "scoreA": 2,
-   "scoreB": 1,
-   "bo": 5,
-   "status": "live",
-   "event": "Worlds 2026",
-   "tier": "S",
-   "startsAt": "2026-10-17T21:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "riotgames",
-     "lang": "en",
-     "official": true,
-     "label": "riotgames"
-    },
-    {
-     "type": "twitch",
-     "channel": "ibai",
-     "lang": "es",
-     "official": true,
-     "label": "ibai"
-    },
-    {
-     "type": "twitch",
-     "channel": "otplol_",
-     "lang": "fr",
-     "official": true,
-     "label": "otplol_"
-    },
-    {
-     "type": "twitch",
-     "channel": "esport2tv",
-     "lang": "hu",
-     "official": true,
-     "label": "esport2tv"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/mvk-esports-vs-furia-esports-lol-17-10-2026"
-  },
   {
    "id": "bo3-129635",
    "game": "Valorant",
@@ -127,6 +80,33 @@
     }
    ],
    "url": "https://bo3.gg/matches/furia-vs-betboom-team-18-10-2026"
+  },
+  {
+   "id": "bo3-130793",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Karmine Corp",
+   "teamB": "MVK Esports",
+   "logoA": "https://files.bo3.gg/uploads/team/18342/image/webp-bee9ffd6f69f1a4036d9738f43107f12.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/18361/image/webp-25dd839116820bd9fa92d0d56242126d.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "upcoming",
+   "event": "Worlds 2026",
+   "tier": "S",
+   "startsAt": "2026-10-18T21:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "riotgames",
+     "lang": "en",
+     "official": true,
+     "label": "riotgames",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/karmine-corp-lol-vs-mvk-esports-18-10-2026"
   },
   {
    "id": "bo3-131862",
@@ -434,6 +414,53 @@
     }
    ],
    "url": "https://bo3.gg/valorant/matches/sk-nebula-vs-nova-esports-gc-22-10-2026"
+  },
+  {
+   "id": "bo3-130792",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "MVK Esports",
+   "teamB": "FURIA",
+   "logoA": "https://files.bo3.gg/uploads/team/18361/image/webp-25dd839116820bd9fa92d0d56242126d.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17448/image/webp-c55d5f6b07157723e05297241a757f98.webp",
+   "scoreA": 3,
+   "scoreB": 1,
+   "bo": 5,
+   "status": "finished",
+   "event": "Worlds 2026",
+   "tier": "S",
+   "startsAt": "2026-10-17T21:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "riotgames",
+     "lang": "en",
+     "official": true,
+     "label": "riotgames"
+    },
+    {
+     "type": "twitch",
+     "channel": "ibai",
+     "lang": "es",
+     "official": true,
+     "label": "ibai"
+    },
+    {
+     "type": "twitch",
+     "channel": "otplol_",
+     "lang": "fr",
+     "official": true,
+     "label": "otplol_"
+    },
+    {
+     "type": "twitch",
+     "channel": "esport2tv",
+     "lang": "hu",
+     "official": true,
+     "label": "esport2tv"
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/mvk-esports-vs-furia-esports-lol-17-10-2026"
   },
   {
    "id": "bo3-131672",
@@ -1199,32 +1226,6 @@
     }
    ],
    "url": "https://bo3.gg/matches/legacy-br-vs-furia-15-10-2026"
-  },
-  {
-   "id": "bo3-130789",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Cloud9",
-   "teamB": "Karmine Corp",
-   "logoA": "https://files.bo3.gg/uploads/team/17900/image/webp-555a7594938f97b1426a99e9cbbf4d83.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/18342/image/webp-bee9ffd6f69f1a4036d9738f43107f12.webp",
-   "scoreA": 2,
-   "scoreB": 3,
-   "bo": 5,
-   "status": "finished",
-   "event": "Worlds 2026",
-   "tier": "S",
-   "startsAt": "2026-10-15T21:00:00+03:00",
-   "streams": [
-    {
-     "type": "youtube",
-     "id": "ERhHyo_Z1Hc",
-     "lang": "en",
-     "official": false,
-     "label": "C9 vs KC | WORLDS 2026 | Play Ins Day 1"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/cloud9-lol-vs-karmine-corp-lol-15-10-2026"
   }
  ],
  "tournaments": [
