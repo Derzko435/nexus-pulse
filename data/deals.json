@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T00:23:08+03:00",
+  "updatedAt": "2026-10-17T03:36:31+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -73,6 +73,16 @@
       "steamAppId": "4656000"
     },
     {
+      "id": "steam-3892270",
+      "title": "Казино с друзьями",
+      "store": "Steam",
+      "old": 320,
+      "neu": 198,
+      "pct": 38,
+      "url": "https://store.steampowered.com/app/3892270/",
+      "steamAppId": "3892270"
+    },
+    {
       "id": "steam-5321400",
       "title": "A Game About Needle In A Haystack",
       "store": "Steam",
@@ -113,26 +123,6 @@
       "steamAppId": "2832280"
     },
     {
-      "id": "steam-4999210",
-      "title": "Diceminoes",
-      "store": "Steam",
-      "old": 505,
-      "neu": 353,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/4999210/",
-      "steamAppId": "4999210"
-    },
-    {
-      "id": "steam-4260380",
-      "title": "DishDash",
-      "store": "Steam",
-      "old": 335,
-      "neu": 234,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/4260380/",
-      "steamAppId": "4260380"
-    },
-    {
       "id": "steam-5296760",
       "title": "Neon Crossing",
       "store": "Steam",
@@ -141,6 +131,16 @@
       "pct": 30,
       "url": "https://store.steampowered.com/app/5296760/",
       "steamAppId": "5296760"
+    },
+    {
+      "id": "steam-5127370",
+      "title": "Who's Cheating?",
+      "store": "Steam",
+      "old": 375,
+      "neu": 281,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/5127370/",
+      "steamAppId": "5127370"
     }
   ]
 }

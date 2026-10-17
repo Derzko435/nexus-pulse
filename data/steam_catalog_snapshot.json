@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T00:23:03+03:00",
+  "updatedAt": "2026-10-17T03:36:26+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -574,26 +574,9 @@
       "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
     },
     {
-      "appid": "5352520",
-      "name": "Doomlander",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5352520/25a623139cb4c0ffcee70e9f59b66942feeacb04/header.jpg?t=1792165008",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Retro style FPS game where Doomlander hero mission to kill several enemies and find gold piles and star in different levels"
-    },
-    {
       "appid": "5321400",
       "name": "A Game About Needle In A Haystack",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5321400/0f6530249d980714b1479b2689c4a25b6ef9964d/header.jpg?t=1792171373",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5321400/0f6530249d980714b1479b2689c4a25b6ef9964d/header.jpg?t=1792188397",
       "genres": [
         "Казуальные игры",
         "Инди",
@@ -641,6 +624,25 @@
       },
       "metacritic": null,
       "short_description": "Никаких ног. Только кувырки. Сложная и беспощадная игра, где вам предстоит кувыркаться, падать и карабкаться вверх в роли Флиппи, используя лишь вращение. Хватит ли у вас мастерства, чтобы вернуться к Джеффу?"
+    },
+    {
+      "appid": "2832280",
+      "name": "Blightstone",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2832280/6090958c7386df7863a409d7d1f1a1f2d1a460fe/header.jpg?t=1792176208",
+      "genres": [
+        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A challenging, turn-based strategy with a roguelike edge. Lead a team of adventurers to destroy the Blightstone and free the world from corruption. Use free movement, dynamic environments and collectable skills to save the crystal, and save the world."
     },
     {
       "appid": "4999210",
