@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T18:59:30+03:00",
+  "updatedAt": "2026-10-18T21:43:14+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -521,24 +521,6 @@
       "curated": true
     },
     {
-      "appid": "5282110",
-      "name": "中国式高考ChineseGaokao‌",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5282110/94b7e9ca879a5ee4f11f72a18a94a70b7d549897/header.jpg?t=1792223761",
-      "genres": [
-        "Казуальные игры",
-        "Ролевые игры",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "The core gameplay is QTR, which mainly includes learning knowledge points, acquiring learning skills, and taking exams. After 30 weeks or upon early active application, students will participate in the college entrance examination and be allocated universities and majors based on their exam scores"
-    },
-    {
       "appid": "418030",
       "name": "Subsistence",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418030/a0fcfa8c4b3f047e63759ddc19745fe266d2fd3d/header_alt_assets_19_russian.jpg?t=1792259683",
@@ -630,12 +612,13 @@
       "short_description": "Craft weapons mid-run, strafe through chaos, chain recoil jumps, spawn platforms out of thin air. Pick cards. Break runs. Repeat."
     },
     {
-      "appid": "5262700",
-      "name": "Сказания о Пути Бессмертных",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5262700/41d416a7de9483513d2f61bb00a2134a11de0c2a/header_russian.jpg?t=1792225902",
+      "appid": "3892270",
+      "name": "Казино с друзьями",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/395e6d7972474333a698b26f8aa5597bf38109a1/header.jpg?t=1791977170",
       "genres": [
+        "Приключенческие игры",
         "Инди",
-        "Стратегии"
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
@@ -644,7 +627,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Один меч разрушает все искусства, одна мысль дарует бессмертие. Сказания о Пути Бессмертных — это одиночный карточный рогалик в стиле сянься с рисовкой тушью. Бесчисленные артефакты и карты. Сокруши небеса и ищи Дао бессмертия!"
+      "short_description": "Кооперативная игра про исследование казино для 1–6 человек. У вас с друзьями один банковский счёт и огромный долг на всех: играйте, покупайте предметы и делайте глупости на пути к вершине башни казино. Накопите на квоту для ростовщика за 5 минут или пожалеете..."
     },
     {
       "appid": "4908870",
@@ -665,29 +648,11 @@
       "short_description": "Got magic hands? Prove it! Become the new masseur for a town full of beautiful furry girls. From sore wings to tense tails, they all crave your touch. 🐾 Pick your client, choose the perfect pose, and hit the right spots to bring them to ultimate ecstasy. ✨"
     },
     {
-      "appid": "3569420",
-      "name": "Chained Beasts",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/be237edbd1bdbcf361d7b315d70e89fea3b5262a/header.jpg?t=1792082632",
+      "appid": "5015450",
+      "name": "DesktopPiP",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5015450/3e9fe3c1225d6f6843eb9187f3b7047a1fa68333/header.jpg?t=1792286593",
       "genres": [
-        "Экшены"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Chained Beasts — кооперативный гладиаторский рогалик для 1–4 игроков. Вашим прикованным друг к другу бойцам придётся использовать свои цепи и окружение, превозмогать физические и ментальные травмы и побеждать грозных боссов, чтобы выжить и завоевать любовь кровожадной толпы."
-    },
-    {
-      "appid": "3419520",
-      "name": "Quarantine Zone: The Last Check",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/1d0c52c18371778eea17294941c606d465328b2e/header_alt_assets_2.jpg?t=1792107989",
-      "genres": [
-        "Инди",
-        "Симуляторы",
-        "Стратегии"
+        "Утилиты"
       ],
       "is_free": false,
       "platforms": {
@@ -696,7 +661,48 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Руководите контрольным пунктом в погибающем городе. Осматривайте выживших, распределяйте скудные ресурсы и сдерживайте натиск нежити. Каждое решение важно, а любая ошибка может привести к распространению заразы за пределы города. ДОСТУПНО БЕСПЛАТНОЕ ОБНОВЛЕНИЕ"
+      "short_description": "DesktopPiP lets you capture regions of any window into interactive Picture-in-Picture windows. Save and restore layouts, interact through PiPs, and combine windows with Background Layers to build a beautiful customizable dashboard that fits the way you work."
+    },
+    {
+      "appid": "3145070",
+      "name": "Gangster Clicker",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3145070/5103e060f9c49fe53a8a26a6d874dba48f0f06e0/header.jpg?t=1792257181",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Start with brass knuckles and empty pockets. Click rivals, upgrade your weapons and hire a crew to fight for you. Conquer 12 districts, defeat 12 bosses and build your criminal empire in a gangster idle clicker packed with dark humor, minigames and offline earnings."
+    },
+    {
+      "appid": "3883570",
+      "name": "Invokyr",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883570/a1d37fb2bf0de54d1746d1aa4b83fb7ca81700d8/header.jpg?t=1792307731",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы",
+        "Бесплатные",
+        "Ранний доступ"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Забытая настолка в проклятом доме так и манит сыграть. Собирайте до 5 друзей, бросайте кубики и выживайте среди оживших кошмаров мастера игры. Рискните всем, используйте особые кости и одолейте зловещую игру, чтобы сбежать."
     }
   ]
 }

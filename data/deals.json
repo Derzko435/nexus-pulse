@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T18:59:35+03:00",
+  "updatedAt": "2026-10-18T21:43:19+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -11,6 +11,16 @@
       "pct": 80,
       "url": "https://store.steampowered.com/app/668580/",
       "steamAppId": "668580"
+    },
+    {
+      "id": "steam-234650",
+      "title": "Shadowrun Returns",
+      "store": "Steam",
+      "old": 829,
+      "neu": 165,
+      "pct": 80,
+      "url": "https://store.steampowered.com/app/234650/",
+      "steamAppId": "234650"
     },
     {
       "id": "steam-2183900",
@@ -41,16 +51,6 @@
       "pct": 58,
       "url": "https://store.steampowered.com/app/72176/",
       "steamAppId": "72176"
-    },
-    {
-      "id": "steam-418030",
-      "title": "Subsistence",
-      "store": "Steam",
-      "old": 520,
-      "neu": 312,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/418030/",
-      "steamAppId": "418030"
     },
     {
       "id": "steam-5280170",
@@ -113,6 +113,16 @@
       "steamAppId": "4908870"
     },
     {
+      "id": "steam-3569420",
+      "title": "Chained Beasts",
+      "store": "Steam",
+      "old": 855,
+      "neu": 555,
+      "pct": 35,
+      "url": "https://store.steampowered.com/app/3569420/",
+      "steamAppId": "3569420"
+    },
+    {
       "id": "steam-5015450",
       "title": "DesktopPiP",
       "store": "Steam",
@@ -131,16 +141,6 @@
       "pct": 30,
       "url": "https://store.steampowered.com/app/3145070/",
       "steamAppId": "3145070"
-    },
-    {
-      "id": "steam-3883570",
-      "title": "Invokyr",
-      "store": "Steam",
-      "old": 590,
-      "neu": 442,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/3883570/",
-      "steamAppId": "3883570"
     }
   ]
 }
