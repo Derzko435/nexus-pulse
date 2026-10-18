@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-17T10:54:25+03:00",
+ "updatedAt": "2026-10-18T11:09:09+03:00",
  "items": [
   {
    "appid": "x-beamng-drive",
@@ -69,7 +69,7 @@
    "appid": 2223980,
    "title": "Nomad Drive",
    "date": "2026-10-20",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223980/433d5727162af686f0e7d56de539f8476fb0cf0e/header.jpg?t=1792161365",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223980/433d5727162af686f0e7d56de539f8476fb0cf0e/header.jpg?t=1792284328",
    "desc": "Отремонтируйте свой запущенный дом на колесах и отправляйтесь в путь в одиночку или в кооперативе на 1–4 игроков по процедурно генерируемому постапокалиптическому миру. Собирайте ресурсы, настраивайте ваш дом на колесах и выживайте как можно дольше.",
    "genres": [
     "Приключенческие игры",
@@ -131,6 +131,28 @@
    "url": "https://en.wikipedia.org/wiki/Back_to_the_Dawn",
    "links": {
     "wiki": "https://en.wikipedia.org/wiki/Back_to_the_Dawn"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-cult-of-lamb",
+   "title": "Cult of the Lamb",
+   "date": "2026-10-22",
+   "image": "https://upload.wikimedia.org/wikipedia/en/d/d4/Cult_of_the_Lamb_Key_Art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Cult of the Lamb — приключенческий боевик с элементами Roguelike и градостроительного симулятора, разработанный инди-студией Massive Monster и изданный Devolver Digital. Игра была выпущена 11 августа 2022 года на платформах Windows, macOS, Nintendo Switch, PlayStation 4, PlayStation 5, Xbox One и…",
+   "genres": [
+    "Рогалик",
+    "Строительство и менеджмент"
+   ],
+   "platforms": [
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Massive Monster",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/Cult_of_the_Lamb",
+   "links": {
+    "wiki": "https://ru.wikipedia.org/wiki/Cult_of_the_Lamb"
    },
    "source": "wiki"
   },
@@ -810,6 +832,30 @@
    "source": "wiki"
   },
   {
+   "appid": 4171850,
+   "title": "Trees Hate You",
+   "date": "2026-11-16",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4171850/4550c09c2fa41435b7b695f31460bea297d4ce15/header.jpg?t=1787891955",
+   "desc": "Прогуляйтесь по самому худшему лесу с самыми отвратительными деревьями. Не доверяйте им. Деревья вас обманут. Они вас обидят. Сделают вам больно. Вот бы топор найти...",
+   "genres": [
+    "Приключенческие игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC",
+    "Linux"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Tykenn",
+   "price": "",
+   "url": "https://store.steampowered.com/app/4171850/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4171850/"
+   }
+  },
+  {
    "appid": "x-grand-theft-auto-vi",
    "title": "Grand Theft Auto VI",
    "date": "2026-11-19",
@@ -1391,30 +1437,6 @@
    "source": "wiki"
   },
   {
-   "appid": 2659410,
-   "title": "Elta: Defy All Gods",
-   "date": "2027-02-02",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2659410/0fa44684db6c1ccfbbcc5d209bfc8a55b0c8565f/header_alt_assets_0_russian.jpg?t=1790947256",
-   "desc": "Выберитесь из оскверненных миров вместе со своим спутником, богом-драконом, в захватывающем экшен-платформере, сочетающим свободный ближний бой, динамичный платформинг и исследование мира в НФ-сеттинге. Станьте избранным своего падшего божества, Эльты.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Инди"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Afterburner Studios",
-   "price": "1499 руб.",
-   "url": "https://store.steampowered.com/app/2659410/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/2659410/"
-   }
-  },
-  {
    "appid": 5097820,
    "title": "Astonishia Story",
    "date": "2027-02-11",
@@ -1437,27 +1459,6 @@
    "links": {
     "steam": "https://store.steampowered.com/app/5097820/",
     "wiki": "https://en.wikipedia.org/wiki/Astonishia_Story"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": "x-god-of-war-laufey",
-   "title": "God of War Laufey",
-   "date": "2027-02-16",
-   "image": "https://upload.wikimedia.org/wikipedia/en/0/0b/God_of_War_Laufey_cover.webp?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "desc": "God of War: Laufey — будущая компьютерная игра в жанре action-adventure с элементами hack and slash, разработанная компанией Santa Monica Studio при поддержке издательства Sony Interactive Entertainment. Laufey станет первой игрой во франшизе God of War, главным героем которой будет не Кратос…",
-   "genres": [
-    "Экшен-приключение"
-   ],
-   "platforms": [
-    "PlayStation"
-   ],
-   "stores": [],
-   "developer": "Santa Monica Studio",
-   "price": "",
-   "url": "https://ru.wikipedia.org/wiki/God_of_War%3A_Laufey",
-   "links": {
-    "wiki": "https://ru.wikipedia.org/wiki/God_of_War%3A_Laufey"
    },
    "source": "wiki"
   },

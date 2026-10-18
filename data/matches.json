@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-18T02:29:33+03:00",
+ "updatedAt": "2026-10-18T11:06:12+03:00",
  "source": "bo3.gg",
  "matches": [
   {
@@ -10,21 +10,27 @@
    "teamB": "Team Vitality",
    "logoA": "https://files.bo3.gg/uploads/team/6874/image/webp-d2c298a09e3bc0540c8f33699a94f4c7.webp",
    "logoB": "https://files.bo3.gg/uploads/team/7254/image/webp-846a1a854b768a066e986fc99c45cf39.webp",
-   "scoreA": 0,
+   "scoreA": 1,
    "scoreB": 0,
    "bo": 5,
-   "status": "upcoming",
+   "status": "live",
    "event": "VALORANT Champions 2026",
    "tier": "S",
-   "startsAt": "2026-10-18T09:00:00+03:00",
+   "startsAt": "2026-10-18T09:30:00+03:00",
    "streams": [
     {
-     "type": "twitch",
-     "channel": "valorant",
+     "type": "youtube",
+     "id": "l9VxSMFMlKI",
      "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
+     "official": false,
+     "label": "LOUD vs. VIT — VALORANT Champions Shanghai — Grand Final"
+    },
+    {
+     "type": "youtube",
+     "id": "F4AA9T-tKOo",
+     "lang": "ja",
+     "official": false,
+     "label": "VALORANT Champions Shanghai 2026 - Grand Finals"
     }
    ],
    "url": "https://bo3.gg/valorant/matches/loud-vs-team-vitality-18-10-2026"
@@ -414,6 +420,32 @@
     }
    ],
    "url": "https://bo3.gg/valorant/matches/sk-nebula-vs-nova-esports-gc-22-10-2026"
+  },
+  {
+   "id": "bo3-132267",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "1w Team",
+   "teamB": "OG",
+   "logoA": "https://files.bo3.gg/uploads/team/15038/image/webp-9df00f89ea17c5d1512eff71fcbce70f.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16714/image/webp-cd2e61b09557041544426a7b536a0856.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PARI Universe",
+   "tier": "S",
+   "startsAt": "2026-10-23T11:00:00+03:00",
+   "streams": [
+    {
+     "type": "kick",
+     "channel": "fissure_dota_en",
+     "lang": "en",
+     "official": false,
+     "label": "fissure_dota_en"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/1win-dota2-vs-og-dota2-23-10-2026"
   },
   {
    "id": "bo3-130792",
