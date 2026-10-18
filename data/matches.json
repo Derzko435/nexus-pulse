@@ -1,53 +1,24 @@
 {
- "updatedAt": "2026-10-19T00:04:39+03:00",
+ "updatedAt": "2026-10-19T02:42:40+03:00",
  "source": "bo3.gg",
  "matches": [
   {
-   "id": "bo3-131674",
+   "id": "bo3-131863",
    "game": "CS2",
    "gameKey": "cs2",
-   "teamA": "FURIA",
-   "teamB": "BetBoom",
-   "logoA": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
-   "scoreA": 2,
-   "scoreB": 2,
-   "bo": 5,
-   "status": "live",
-   "event": "Thunderpick World Championship 2026",
-   "tier": "S",
-   "startsAt": "2026-10-18T19:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "thunderpicktv",
-     "lang": "en",
-     "official": true,
-     "label": "thunderpicktv"
-    },
-    {
-     "type": "twitch",
-     "channel": "fl0m",
-     "lang": "en",
-     "official": true,
-     "label": "fl0m"
-    },
-    {
-     "type": "twitch",
-     "channel": "psp1g",
-     "lang": "en",
-     "official": true,
-     "label": "psp1g"
-    },
-    {
-     "type": "twitch",
-     "channel": "travcs",
-     "lang": "en",
-     "official": true,
-     "label": "travcs"
-    }
-   ],
-   "url": "https://bo3.gg/matches/furia-vs-betboom-team-18-10-2026"
+   "teamA": "Alliance",
+   "teamB": "The MongolZ",
+   "logoA": "https://files.bo3.gg/uploads/team/8221/image/webp-8680a863eafafe6b38906048aedc0145.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/736/image/webp-499cad826b4cd83ce22f8bd2b13261d6.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "1win Private Club 2",
+   "tier": "A",
+   "startsAt": "2026-10-19T12:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/matches/alliance-cs-vs-the-mongolz-19-10-2026"
   },
   {
    "id": "bo3-131862",
@@ -63,27 +34,9 @@
    "status": "upcoming",
    "event": "1win Private Club 2",
    "tier": "A",
-   "startsAt": "2026-10-19T12:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/matches/big-vs-private-19-10-2026"
-  },
-  {
-   "id": "bo3-131863",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Alliance",
-   "teamB": "The MongolZ",
-   "logoA": "https://files.bo3.gg/uploads/team/8221/image/webp-8680a863eafafe6b38906048aedc0145.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/736/image/webp-499cad826b4cd83ce22f8bd2b13261d6.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "1win Private Club 2",
-   "tier": "A",
    "startsAt": "2026-10-19T15:00:00+03:00",
    "streams": [],
-   "url": "https://bo3.gg/matches/alliance-cs-vs-the-mongolz-19-10-2026"
+   "url": "https://bo3.gg/matches/big-vs-private-19-10-2026"
   },
   {
    "id": "bo3-131864",
@@ -664,6 +617,60 @@
    "url": "https://bo3.gg/lol/matches/hanwha-life-esports-vs-top-esports-lol-23-10-2026"
   },
   {
+   "id": "bo3-130799",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "LOS",
+   "teamB": "T1",
+   "logoA": "https://files.bo3.gg/uploads/team/16923/image/webp-b1532153c183e4bee443587e846fcd79.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17529/image/webp-b20f1387008fb6d93034220cc660a9a2.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 1,
+   "status": "upcoming",
+   "event": "Worlds 2026",
+   "tier": "S",
+   "startsAt": "2026-10-24T01:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "riotgames",
+     "lang": "en",
+     "official": true,
+     "label": "riotgames",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/los-vs-t1-lol-23-10-2026"
+  },
+  {
+   "id": "bo3-130800",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Team Secret Whales",
+   "teamB": "LYON",
+   "logoA": "https://files.bo3.gg/uploads/team/18975/image/webp-f71504e54585c4232cb9ea2846441c1c.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17950/image/webp-af6dd846f7f743f6416de79b288ec6ba.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 1,
+   "status": "upcoming",
+   "event": "Worlds 2026",
+   "tier": "S",
+   "startsAt": "2026-10-24T02:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "riotgames",
+     "lang": "en",
+     "official": true,
+     "label": "riotgames",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/team-secret-whales-vs-lyon-gaming-23-10-2026"
+  },
+  {
    "id": "bo3-130793",
    "game": "LoL",
    "gameKey": "lol",
@@ -709,6 +716,53 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/karmine-corp-lol-vs-mvk-esports-18-10-2026"
+  },
+  {
+   "id": "bo3-131674",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "FURIA",
+   "teamB": "BetBoom",
+   "logoA": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
+   "scoreA": 3,
+   "scoreB": 2,
+   "bo": 5,
+   "status": "finished",
+   "event": "Thunderpick World Championship 2026",
+   "tier": "S",
+   "startsAt": "2026-10-18T19:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "thunderpicktv",
+     "lang": "en",
+     "official": true,
+     "label": "thunderpicktv"
+    },
+    {
+     "type": "twitch",
+     "channel": "fl0m",
+     "lang": "en",
+     "official": true,
+     "label": "fl0m"
+    },
+    {
+     "type": "twitch",
+     "channel": "psp1g",
+     "lang": "en",
+     "official": true,
+     "label": "psp1g"
+    },
+    {
+     "type": "twitch",
+     "channel": "travcs",
+     "lang": "en",
+     "official": true,
+     "label": "travcs"
+    }
+   ],
+   "url": "https://bo3.gg/matches/furia-vs-betboom-team-18-10-2026"
   },
   {
    "id": "bo3-131673",
@@ -1389,53 +1443,6 @@
    "url": "https://bo3.gg/matches/legacy-br-vs-betboom-team-16-10-2026"
   },
   {
-   "id": "bo3-131670",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Aurora",
-   "teamB": "9z",
-   "logoA": "https://files.bo3.gg/uploads/team/3598/image/webp-49b8df76b0d121cc89c760c1ec16ebea.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/324/image/webp-847d6324439266b5de80bcb2e23fa38e.webp",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "Thunderpick World Championship 2026",
-   "tier": "S",
-   "startsAt": "2026-10-16T17:10:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "thunderpicktv",
-     "lang": "en",
-     "official": true,
-     "label": "thunderpicktv"
-    },
-    {
-     "type": "twitch",
-     "channel": "travcs",
-     "lang": "en",
-     "official": true,
-     "label": "travcs"
-    },
-    {
-     "type": "twitch",
-     "channel": "official_thecraggy",
-     "lang": "ru",
-     "official": false,
-     "label": "official_thecraggy"
-    },
-    {
-     "type": "kick",
-     "channel": "thunderpick",
-     "lang": "en",
-     "official": false,
-     "label": "thunderpick"
-    }
-   ],
-   "url": "https://bo3.gg/matches/aurora-gaming-vs-9z-16-10-2026"
-  },
-  {
    "id": "bo3-129633",
    "game": "Valorant",
    "gameKey": "valorant",
@@ -1563,17 +1570,6 @@
    "end": "2026-11-15",
    "status": "current",
    "url": "https://bo3.gg/lol/tournaments/worlds-2026"
-  },
-  {
-   "name": "Thunderpick World Championship 2026",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "tier": "S",
-   "prize": 1000000,
-   "start": "2026-10-14",
-   "end": "2026-10-18",
-   "status": "finished",
-   "url": "https://bo3.gg/tournaments/thunderpick-world-championship-2026"
   },
   {
    "name": "1win Private Club 2",
