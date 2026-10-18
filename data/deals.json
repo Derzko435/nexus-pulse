@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T21:36:06+03:00",
+  "updatedAt": "2026-10-18T07:46:50+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -23,6 +23,16 @@
       "steamAppId": "2183900"
     },
     {
+      "id": "steam-313120",
+      "title": "Stranded Deep",
+      "store": "Steam",
+      "old": 449,
+      "neu": 179,
+      "pct": 60,
+      "url": "https://store.steampowered.com/app/313120/",
+      "steamAppId": "313120"
+    },
+    {
       "id": "steam-72176",
       "title": "Atomic Heart - Ultimate Edition",
       "store": "Steam",
@@ -41,16 +51,6 @@
       "pct": 41,
       "url": "https://store.steampowered.com/app/5282110/",
       "steamAppId": "5282110"
-    },
-    {
-      "id": "steam-5044690",
-      "title": "Hentai Tales: Profane Arbitration",
-      "store": "Steam",
-      "old": 78,
-      "neu": 46,
-      "pct": 41,
-      "url": "https://store.steampowered.com/app/5044690/",
-      "steamAppId": "5044690"
     },
     {
       "id": "steam-418030",
@@ -73,6 +73,16 @@
       "steamAppId": "5280170"
     },
     {
+      "id": "steam-4597500",
+      "title": "Cook with Card",
+      "store": "Steam",
+      "old": 385,
+      "neu": 231,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/4597500/",
+      "steamAppId": "4597500"
+    },
+    {
       "id": "steam-4656000",
       "title": "BOMBANANA!",
       "store": "Steam",
@@ -81,26 +91,6 @@
       "pct": 40,
       "url": "https://store.steampowered.com/app/4656000/",
       "steamAppId": "4656000"
-    },
-    {
-      "id": "steam-5232240",
-      "title": "Puzzle Jungle",
-      "store": "Steam",
-      "old": 210,
-      "neu": 126,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5232240/",
-      "steamAppId": "5232240"
-    },
-    {
-      "id": "steam-5151410",
-      "title": "Puzzle Fireworks",
-      "store": "Steam",
-      "old": 210,
-      "neu": 126,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5151410/",
-      "steamAppId": "5151410"
     },
     {
       "id": "steam-5262700",
@@ -141,6 +131,16 @@
       "pct": 35,
       "url": "https://store.steampowered.com/app/3569420/",
       "steamAppId": "3569420"
+    },
+    {
+      "id": "steam-5015450",
+      "title": "DesktopPiP",
+      "store": "Steam",
+      "old": 465,
+      "neu": 311,
+      "pct": 33,
+      "url": "https://store.steampowered.com/app/5015450/",
+      "steamAppId": "5015450"
     }
   ]
 }
