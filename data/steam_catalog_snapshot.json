@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T21:43:14+03:00",
+  "updatedAt": "2026-10-19T01:29:34+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -470,6 +470,25 @@
       "short_description": "Погрузитесь в безумную и прекрасную техноутопию, где вас на каждом шагу поджидает смерть. Выполните порученное вам задание, подстраиваясь под необычных противников, используя элементы окружения и улучшая свой арсенал. Узнайте правду — любой ценой!"
     },
     {
+      "appid": "234650",
+      "name": "Shadowrun Returns",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/234650/header.jpg?t=1709809316",
+      "genres": [
+        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": 76,
+      "short_description": "Мир Shadowrun, смесь киберпанка и фэнтези, был придуман четверть века тому назад и c тех пор обрёл большое количество поклонников. Его создатель Джордан Уайзман вернулся к Shadowrun, чтобы осовременить классику и превратить её в тактическую пошаговую ролевую игру."
+    },
+    {
       "appid": "2183900",
       "name": "Warhammer 40,000: Space Marine 2",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/041c4b49f2925185ff1be198919b7fbff060c3e1/header_alt_assets_14_russian.jpg?t=1790874369",
@@ -521,29 +540,9 @@
       "curated": true
     },
     {
-      "appid": "418030",
-      "name": "Subsistence",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418030/a0fcfa8c4b3f047e63759ddc19745fe266d2fd3d/header_alt_assets_19_russian.jpg?t=1792259683",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы",
-        "Ранний доступ"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Subsistence - это PvE-выживание от первого лица с одиночным и совместным режимами. Выживайте в открытом мире со сменой времён года, стройте базу, делайте предметы и снаряжение. Защищайтесь от дикой природы и охотников, которые тоже строят свои базы."
-    },
-    {
       "appid": "5280170",
       "name": "AWAITING YOUR HORDERS",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5280170/2eb09890ef423da737338e6427440746dbac92c4/header.jpg?t=1792306589",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5280170/2eb09890ef423da737338e6427440746dbac92c4/header.jpg?t=1792361788",
       "genres": [
         "Экшены",
         "Инди",
@@ -648,6 +647,22 @@
       "short_description": "Got magic hands? Prove it! Become the new masseur for a town full of beautiful furry girls. From sore wings to tense tails, they all crave your touch. 🐾 Pick your client, choose the perfect pose, and hit the right spots to bring them to ultimate ecstasy. ✨"
     },
     {
+      "appid": "3569420",
+      "name": "Chained Beasts",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/be237edbd1bdbcf361d7b315d70e89fea3b5262a/header.jpg?t=1792082632",
+      "genres": [
+        "Экшены"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Chained Beasts — кооперативный гладиаторский рогалик для 1–4 игроков. Вашим прикованным друг к другу бойцам придётся использовать свои цепи и окружение, превозмогать физические и ментальные травмы и побеждать грозных боссов, чтобы выжить и завоевать любовь кровожадной толпы."
+    },
+    {
       "appid": "5015450",
       "name": "DesktopPiP",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5015450/3e9fe3c1225d6f6843eb9187f3b7047a1fa68333/header.jpg?t=1792286593",
@@ -682,27 +697,6 @@
       },
       "metacritic": null,
       "short_description": "Start with brass knuckles and empty pockets. Click rivals, upgrade your weapons and hire a crew to fight for you. Conquer 12 districts, defeat 12 bosses and build your criminal empire in a gangster idle clicker packed with dark humor, minigames and offline earnings."
-    },
-    {
-      "appid": "3883570",
-      "name": "Invokyr",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883570/a1d37fb2bf0de54d1746d1aa4b83fb7ca81700d8/header.jpg?t=1792307731",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы",
-        "Бесплатные",
-        "Ранний доступ"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Забытая настолка в проклятом доме так и манит сыграть. Собирайте до 5 друзей, бросайте кубики и выживайте среди оживших кошмаров мастера игры. Рискните всем, используйте особые кости и одолейте зловещую игру, чтобы сбежать."
     }
   ]
 }

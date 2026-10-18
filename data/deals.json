@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T21:43:19+03:00",
+  "updatedAt": "2026-10-19T01:29:39+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -53,16 +53,6 @@
       "steamAppId": "72176"
     },
     {
-      "id": "steam-5280170",
-      "title": "AWAITING YOUR HORDERS",
-      "store": "Steam",
-      "old": 465,
-      "neu": 279,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5280170/",
-      "steamAppId": "5280170"
-    },
-    {
       "id": "steam-4597500",
       "title": "Cook with Card",
       "store": "Steam",
@@ -103,24 +93,14 @@
       "steamAppId": "3892270"
     },
     {
-      "id": "steam-4908870",
-      "title": "FURRY MASSAGE 🔞",
+      "id": "steam-3419520",
+      "title": "Quarantine Zone: The Last Check",
       "store": "Steam",
-      "old": 556,
-      "neu": 350,
-      "pct": 37,
-      "url": "https://store.steampowered.com/app/4908870/",
-      "steamAppId": "4908870"
-    },
-    {
-      "id": "steam-3569420",
-      "title": "Chained Beasts",
-      "store": "Steam",
-      "old": 855,
-      "neu": 555,
+      "old": 710,
+      "neu": 461,
       "pct": 35,
-      "url": "https://store.steampowered.com/app/3569420/",
-      "steamAppId": "3569420"
+      "url": "https://store.steampowered.com/app/3419520/",
+      "steamAppId": "3419520"
     },
     {
       "id": "steam-5015450",
@@ -133,14 +113,34 @@
       "steamAppId": "5015450"
     },
     {
-      "id": "steam-3145070",
-      "title": "Gangster Clicker",
+      "id": "steam-5277340",
+      "title": "FURRY MASSAGE  - WALLPAPERS🔞",
       "store": "Steam",
-      "old": 165,
-      "neu": 115,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/3145070/",
-      "steamAppId": "3145070"
+      "old": 170,
+      "neu": 127,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/5277340/",
+      "steamAppId": "5277340"
+    },
+    {
+      "id": "steam-2963850",
+      "title": "Nothing Simulator",
+      "store": "Steam",
+      "old": 150,
+      "neu": 112,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/2963850/",
+      "steamAppId": "2963850"
+    },
+    {
+      "id": "steam-2929250",
+      "title": "over the hill",
+      "store": "Steam",
+      "old": 1050,
+      "neu": 840,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/2929250/",
+      "steamAppId": "2929250"
     }
   ]
 }
