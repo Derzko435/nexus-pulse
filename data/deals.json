@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T07:46:50+03:00",
+  "updatedAt": "2026-10-18T14:23:55+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -93,6 +93,16 @@
       "steamAppId": "4656000"
     },
     {
+      "id": "steam-3342130",
+      "title": "SurgePoint",
+      "store": "Steam",
+      "old": 200,
+      "neu": 120,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/3342130/",
+      "steamAppId": "3342130"
+    },
+    {
       "id": "steam-5262700",
       "title": "Сказания о Пути Бессмертных",
       "store": "Steam",
@@ -101,16 +111,6 @@
       "pct": 40,
       "url": "https://store.steampowered.com/app/5262700/",
       "steamAppId": "5262700"
-    },
-    {
-      "id": "steam-3892270",
-      "title": "Казино с друзьями",
-      "store": "Steam",
-      "old": 320,
-      "neu": 198,
-      "pct": 38,
-      "url": "https://store.steampowered.com/app/3892270/",
-      "steamAppId": "3892270"
     },
     {
       "id": "steam-4908870",
@@ -133,14 +133,14 @@
       "steamAppId": "3569420"
     },
     {
-      "id": "steam-5015450",
-      "title": "DesktopPiP",
+      "id": "steam-3419520",
+      "title": "Quarantine Zone: The Last Check",
       "store": "Steam",
-      "old": 465,
-      "neu": 311,
-      "pct": 33,
-      "url": "https://store.steampowered.com/app/5015450/",
-      "steamAppId": "5015450"
+      "old": 710,
+      "neu": 461,
+      "pct": 35,
+      "url": "https://store.steampowered.com/app/3419520/",
+      "steamAppId": "3419520"
     }
   ]
 }
