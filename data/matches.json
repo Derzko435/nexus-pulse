@@ -1,40 +1,7 @@
 {
- "updatedAt": "2026-10-18T11:06:12+03:00",
+ "updatedAt": "2026-10-18T14:46:12+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-129635",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "LOUD",
-   "teamB": "Team Vitality",
-   "logoA": "https://files.bo3.gg/uploads/team/6874/image/webp-d2c298a09e3bc0540c8f33699a94f4c7.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/7254/image/webp-846a1a854b768a066e986fc99c45cf39.webp",
-   "scoreA": 1,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "live",
-   "event": "VALORANT Champions 2026",
-   "tier": "S",
-   "startsAt": "2026-10-18T09:30:00+03:00",
-   "streams": [
-    {
-     "type": "youtube",
-     "id": "l9VxSMFMlKI",
-     "lang": "en",
-     "official": false,
-     "label": "LOUD vs. VIT — VALORANT Champions Shanghai — Grand Final"
-    },
-    {
-     "type": "youtube",
-     "id": "F4AA9T-tKOo",
-     "lang": "ja",
-     "official": false,
-     "label": "VALORANT Champions Shanghai 2026 - Grand Finals"
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/loud-vs-team-vitality-18-10-2026"
-  },
   {
    "id": "bo3-131673",
    "game": "CS2",
@@ -46,17 +13,38 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "Thunderpick World Championship 2026",
    "tier": "S",
    "startsAt": "2026-10-18T14:30:00+03:00",
    "streams": [
     {
-     "type": "kick",
-     "channel": "thunderpick",
+     "type": "twitch",
+     "channel": "thunderpicktv",
      "lang": "en",
+     "official": true,
+     "label": "thunderpicktv"
+    },
+    {
+     "type": "twitch",
+     "channel": "travcs",
+     "lang": "en",
+     "official": true,
+     "label": "travcs"
+    },
+    {
+     "type": "twitch",
+     "channel": "krl_stream",
+     "lang": "fr",
+     "official": true,
+     "label": "krl_stream"
+    },
+    {
+     "type": "twitch",
+     "channel": "aunkere",
+     "lang": "ru",
      "official": false,
-     "label": "thunderpick"
+     "label": "aunkere"
     }
    ],
    "url": "https://bo3.gg/matches/aurora-gaming-vs-falcons-esports-18-10-2026"
@@ -446,6 +434,79 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/1win-dota2-vs-og-dota2-23-10-2026"
+  },
+  {
+   "id": "bo3-132268",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Team Liquid",
+   "teamB": "GamerLegion",
+   "logoA": "https://files.bo3.gg/uploads/team/16721/image/webp-dad0330773871073290e08d7d5baa9dc.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/22027/image/webp-f42950afee48713daf40592585696801.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PARI Universe",
+   "tier": "S",
+   "startsAt": "2026-10-23T14:00:00+03:00",
+   "streams": [
+    {
+     "type": "kick",
+     "channel": "fissure_dota_en",
+     "lang": "en",
+     "official": false,
+     "label": "fissure_dota_en"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/team-liquid-dota2-vs-gamerlegion-dota2-23-10-2026"
+  },
+  {
+   "id": "bo3-129635",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "LOUD",
+   "teamB": "Team Vitality",
+   "logoA": "https://files.bo3.gg/uploads/team/6874/image/webp-d2c298a09e3bc0540c8f33699a94f4c7.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/7254/image/webp-846a1a854b768a066e986fc99c45cf39.webp",
+   "scoreA": 3,
+   "scoreB": 1,
+   "bo": 5,
+   "status": "finished",
+   "event": "VALORANT Champions 2026",
+   "tier": "S",
+   "startsAt": "2026-10-18T09:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant_br",
+     "lang": "pt",
+     "official": true,
+     "label": "valorant_br"
+    },
+    {
+     "type": "twitch",
+     "channel": "valorant_fr",
+     "lang": "fr",
+     "official": true,
+     "label": "valorant_fr"
+    },
+    {
+     "type": "twitch",
+     "channel": "valorant_la",
+     "lang": "pt",
+     "official": true,
+     "label": "valorant_la"
+    },
+    {
+     "type": "twitch",
+     "channel": "wipr",
+     "lang": "fr",
+     "official": true,
+     "label": "wipr"
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/loud-vs-team-vitality-18-10-2026"
   },
   {
    "id": "bo3-130792",
@@ -1273,17 +1334,6 @@
    "url": "https://bo3.gg/lol/tournaments/emea-masters-2026-summer"
   },
   {
-   "name": "VALORANT Champions 2026",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "tier": "S",
-   "prize": 2250000,
-   "start": "2026-09-24",
-   "end": "2026-10-18",
-   "status": "current",
-   "url": "https://bo3.gg/valorant/tournaments/valorant-champions-2026"
-  },
-  {
    "name": "LGC 2026 Rising",
    "game": "LoL",
    "gameKey": "lol",
@@ -1343,7 +1393,7 @@
    "game": "Valorant",
    "gameKey": "valorant",
    "tier": "S",
-   "prize": null,
+   "prize": 500000,
    "start": "2026-10-22",
    "end": "2026-11-02",
    "status": "upcoming",
