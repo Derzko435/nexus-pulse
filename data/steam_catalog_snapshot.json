@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T14:23:50+03:00",
+  "updatedAt": "2026-10-18T18:59:30+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -613,6 +613,23 @@
       "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
     },
     {
+      "appid": "3342130",
+      "name": "SurgePoint",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3342130/4abec20f6254c00f25dd34efbc5f9a78dbea9b18/header.jpg?t=1792317390",
+      "genres": [
+        "Экшены",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Craft weapons mid-run, strafe through chaos, chain recoil jumps, spawn platforms out of thin air. Pick cards. Break runs. Repeat."
+    },
+    {
       "appid": "5262700",
       "name": "Сказания о Пути Бессмертных",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5262700/41d416a7de9483513d2f61bb00a2134a11de0c2a/header_russian.jpg?t=1792225902",
@@ -628,24 +645,6 @@
       },
       "metacritic": null,
       "short_description": "Один меч разрушает все искусства, одна мысль дарует бессмертие. Сказания о Пути Бессмертных — это одиночный карточный рогалик в стиле сянься с рисовкой тушью. Бесчисленные артефакты и карты. Сокруши небеса и ищи Дао бессмертия!"
-    },
-    {
-      "appid": "3892270",
-      "name": "Казино с друзьями",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/395e6d7972474333a698b26f8aa5597bf38109a1/header.jpg?t=1791977170",
-      "genres": [
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Кооперативная игра про исследование казино для 1–6 человек. У вас с друзьями один банковский счёт и огромный долг на всех: играйте, покупайте предметы и делайте глупости на пути к вершине башни казино. Накопите на квоту для ростовщика за 5 минут или пожалеете..."
     },
     {
       "appid": "4908870",
@@ -682,11 +681,13 @@
       "short_description": "Chained Beasts — кооперативный гладиаторский рогалик для 1–4 игроков. Вашим прикованным друг к другу бойцам придётся использовать свои цепи и окружение, превозмогать физические и ментальные травмы и побеждать грозных боссов, чтобы выжить и завоевать любовь кровожадной толпы."
     },
     {
-      "appid": "5015450",
-      "name": "DesktopPiP",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5015450/3e9fe3c1225d6f6843eb9187f3b7047a1fa68333/header.jpg?t=1792286593",
+      "appid": "3419520",
+      "name": "Quarantine Zone: The Last Check",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/1d0c52c18371778eea17294941c606d465328b2e/header_alt_assets_2.jpg?t=1792107989",
       "genres": [
-        "Утилиты"
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
@@ -695,7 +696,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "DesktopPiP lets you capture regions of any window into interactive Picture-in-Picture windows. Save and restore layouts, interact through PiPs, and combine windows with Background Layers to build a beautiful customizable dashboard that fits the way you work."
+      "short_description": "Руководите контрольным пунктом в погибающем городе. Осматривайте выживших, распределяйте скудные ресурсы и сдерживайте натиск нежити. Каждое решение важно, а любая ошибка может привести к распространению заразы за пределы города. ДОСТУПНО БЕСПЛАТНОЕ ОБНОВЛЕНИЕ"
     }
   ]
 }

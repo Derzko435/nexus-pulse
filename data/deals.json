@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T14:23:55+03:00",
+  "updatedAt": "2026-10-18T18:59:35+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -41,16 +41,6 @@
       "pct": 58,
       "url": "https://store.steampowered.com/app/72176/",
       "steamAppId": "72176"
-    },
-    {
-      "id": "steam-5282110",
-      "title": "中国式高考ChineseGaokao‌",
-      "store": "Steam",
-      "old": 125,
-      "neu": 74,
-      "pct": 41,
-      "url": "https://store.steampowered.com/app/5282110/",
-      "steamAppId": "5282110"
     },
     {
       "id": "steam-418030",
@@ -103,14 +93,14 @@
       "steamAppId": "3342130"
     },
     {
-      "id": "steam-5262700",
-      "title": "Сказания о Пути Бессмертных",
+      "id": "steam-3892270",
+      "title": "Казино с друзьями",
       "store": "Steam",
-      "old": 200,
-      "neu": 120,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5262700/",
-      "steamAppId": "5262700"
+      "old": 320,
+      "neu": 198,
+      "pct": 38,
+      "url": "https://store.steampowered.com/app/3892270/",
+      "steamAppId": "3892270"
     },
     {
       "id": "steam-4908870",
@@ -123,24 +113,34 @@
       "steamAppId": "4908870"
     },
     {
-      "id": "steam-3569420",
-      "title": "Chained Beasts",
+      "id": "steam-5015450",
+      "title": "DesktopPiP",
       "store": "Steam",
-      "old": 855,
-      "neu": 555,
-      "pct": 35,
-      "url": "https://store.steampowered.com/app/3569420/",
-      "steamAppId": "3569420"
+      "old": 465,
+      "neu": 311,
+      "pct": 33,
+      "url": "https://store.steampowered.com/app/5015450/",
+      "steamAppId": "5015450"
     },
     {
-      "id": "steam-3419520",
-      "title": "Quarantine Zone: The Last Check",
+      "id": "steam-3145070",
+      "title": "Gangster Clicker",
       "store": "Steam",
-      "old": 710,
-      "neu": 461,
-      "pct": 35,
-      "url": "https://store.steampowered.com/app/3419520/",
-      "steamAppId": "3419520"
+      "old": 165,
+      "neu": 115,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/3145070/",
+      "steamAppId": "3145070"
+    },
+    {
+      "id": "steam-3883570",
+      "title": "Invokyr",
+      "store": "Steam",
+      "old": 590,
+      "neu": 442,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/3883570/",
+      "steamAppId": "3883570"
     }
   ]
 }
