@@ -1,54 +1,7 @@
 {
- "updatedAt": "2026-10-18T14:46:12+03:00",
+ "updatedAt": "2026-10-18T19:09:28+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-131673",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Aurora",
-   "teamB": "Falcons",
-   "logoA": "https://files.bo3.gg/uploads/team/3598/image/webp-49b8df76b0d121cc89c760c1ec16ebea.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/2713/image/webp-86fd5a0653183a19cf750d195963ea10.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "Thunderpick World Championship 2026",
-   "tier": "S",
-   "startsAt": "2026-10-18T14:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "thunderpicktv",
-     "lang": "en",
-     "official": true,
-     "label": "thunderpicktv"
-    },
-    {
-     "type": "twitch",
-     "channel": "travcs",
-     "lang": "en",
-     "official": true,
-     "label": "travcs"
-    },
-    {
-     "type": "twitch",
-     "channel": "krl_stream",
-     "lang": "fr",
-     "official": true,
-     "label": "krl_stream"
-    },
-    {
-     "type": "twitch",
-     "channel": "aunkere",
-     "lang": "ru",
-     "official": false,
-     "label": "aunkere"
-    }
-   ],
-   "url": "https://bo3.gg/matches/aurora-gaming-vs-falcons-esports-18-10-2026"
-  },
   {
    "id": "bo3-131674",
    "game": "CS2",
@@ -60,17 +13,38 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 5,
-   "status": "upcoming",
+   "status": "live",
    "event": "Thunderpick World Championship 2026",
    "tier": "S",
-   "startsAt": "2026-10-18T18:00:00+03:00",
+   "startsAt": "2026-10-18T19:00:00+03:00",
    "streams": [
     {
-     "type": "kick",
-     "channel": "thunderpick",
+     "type": "twitch",
+     "channel": "thunderpicktv",
      "lang": "en",
-     "official": false,
-     "label": "thunderpick"
+     "official": true,
+     "label": "thunderpicktv"
+    },
+    {
+     "type": "twitch",
+     "channel": "fl0m",
+     "lang": "en",
+     "official": true,
+     "label": "fl0m"
+    },
+    {
+     "type": "twitch",
+     "channel": "psp1g",
+     "lang": "en",
+     "official": true,
+     "label": "psp1g"
+    },
+    {
+     "type": "twitch",
+     "channel": "travcs",
+     "lang": "en",
+     "official": true,
+     "label": "travcs"
     }
    ],
    "url": "https://bo3.gg/matches/furia-vs-betboom-team-18-10-2026"
@@ -96,8 +70,28 @@
      "channel": "riotgames",
      "lang": "en",
      "official": true,
-     "label": "riotgames",
-     "fallback": true
+     "label": "riotgames"
+    },
+    {
+     "type": "twitch",
+     "channel": "ibai",
+     "lang": "es",
+     "official": true,
+     "label": "ibai"
+    },
+    {
+     "type": "twitch",
+     "channel": "otplol_",
+     "lang": "fr",
+     "official": true,
+     "label": "otplol_"
+    },
+    {
+     "type": "twitch",
+     "channel": "esport2tv",
+     "lang": "hu",
+     "official": true,
+     "label": "esport2tv"
     }
    ],
    "url": "https://bo3.gg/lol/matches/karmine-corp-lol-vs-mvk-esports-18-10-2026"
@@ -460,6 +454,79 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/team-liquid-dota2-vs-gamerlegion-dota2-23-10-2026"
+  },
+  {
+   "id": "bo3-132277",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "BetBoom Team",
+   "teamB": "Astra Invicta",
+   "logoA": "https://files.bo3.gg/uploads/team/15526/image/webp-cc299cab6bd25784c3c33f8302248ad9.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/25557/image/webp-71a130fa205305b3096d33cd360a428b.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PARI Universe",
+   "tier": "S",
+   "startsAt": "2026-10-23T17:00:00+03:00",
+   "streams": [
+    {
+     "type": "kick",
+     "channel": "fissure_dota_en",
+     "lang": "en",
+     "official": false,
+     "label": "fissure_dota_en"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/betboom-team-dota2-vs-astra-invicta-23-10-2026"
+  },
+  {
+   "id": "bo3-131673",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Aurora",
+   "teamB": "Falcons",
+   "logoA": "https://files.bo3.gg/uploads/team/3598/image/webp-49b8df76b0d121cc89c760c1ec16ebea.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/2713/image/webp-86fd5a0653183a19cf750d195963ea10.webp",
+   "scoreA": 2,
+   "scoreB": 1,
+   "bo": 3,
+   "status": "finished",
+   "event": "Thunderpick World Championship 2026",
+   "tier": "S",
+   "startsAt": "2026-10-18T14:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "thunderpicktv",
+     "lang": "en",
+     "official": true,
+     "label": "thunderpicktv"
+    },
+    {
+     "type": "twitch",
+     "channel": "travcs",
+     "lang": "en",
+     "official": true,
+     "label": "travcs"
+    },
+    {
+     "type": "twitch",
+     "channel": "krl_stream",
+     "lang": "fr",
+     "official": true,
+     "label": "krl_stream"
+    },
+    {
+     "type": "twitch",
+     "channel": "aunkere",
+     "lang": "ru",
+     "official": false,
+     "label": "aunkere"
+    }
+   ],
+   "url": "https://bo3.gg/matches/aurora-gaming-vs-falcons-esports-18-10-2026"
   },
   {
    "id": "bo3-129635",
@@ -1272,53 +1339,6 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/furia-esports-lol-vs-mvk-esports-15-10-2026"
-  },
-  {
-   "id": "bo3-131663",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Legacy",
-   "teamB": "FURIA",
-   "logoA": "https://files.bo3.gg/uploads/team/8118/image/webp-e4a3b023443f1f3ba4ef588164e73111.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
-   "scoreA": 1,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "Thunderpick World Championship 2026",
-   "tier": "S",
-   "startsAt": "2026-10-15T21:50:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "fl0m",
-     "lang": "en",
-     "official": true,
-     "label": "fl0m"
-    },
-    {
-     "type": "twitch",
-     "channel": "travcs",
-     "lang": "en",
-     "official": true,
-     "label": "travcs"
-    },
-    {
-     "type": "twitch",
-     "channel": "aunkere",
-     "lang": "ru",
-     "official": false,
-     "label": "aunkere"
-    },
-    {
-     "type": "twitch",
-     "channel": "official_thecraggy",
-     "lang": "ru",
-     "official": false,
-     "label": "official_thecraggy"
-    }
-   ],
-   "url": "https://bo3.gg/matches/legacy-br-vs-furia-15-10-2026"
   }
  ],
  "tournaments": [
@@ -1332,6 +1352,17 @@
    "end": "2026-10-24",
    "status": "current",
    "url": "https://bo3.gg/lol/tournaments/emea-masters-2026-summer"
+  },
+  {
+   "name": "VALORANT Champions 2026",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "tier": "S",
+   "prize": 2250000,
+   "start": "2026-09-24",
+   "end": "2026-10-18",
+   "status": "current",
+   "url": "https://bo3.gg/valorant/tournaments/valorant-champions-2026"
   },
   {
    "name": "LGC 2026 Rising",
