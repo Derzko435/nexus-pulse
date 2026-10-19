@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T23:01:30+03:00",
+  "updatedAt": "2026-10-20T02:48:51+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -31,16 +31,6 @@
       "pct": 75,
       "url": "https://store.steampowered.com/app/492720/",
       "steamAppId": "492720"
-    },
-    {
-      "id": "steam-313120",
-      "title": "Stranded Deep",
-      "store": "Steam",
-      "old": 449,
-      "neu": 179,
-      "pct": 60,
-      "url": "https://store.steampowered.com/app/313120/",
-      "steamAppId": "313120"
     },
     {
       "id": "steam-72176",
@@ -123,24 +113,34 @@
       "steamAppId": "3536520"
     },
     {
-      "id": "steam-5329410",
-      "title": "Shark Tales: Reef Rogues",
+      "id": "steam-3308220",
+      "title": "Galatico",
       "store": "Steam",
       "old": 385,
       "neu": 288,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/5329410/",
-      "steamAppId": "5329410"
+      "url": "https://store.steampowered.com/app/3308220/",
+      "steamAppId": "3308220"
     },
     {
-      "id": "steam-4304900",
-      "title": "Big Dig",
+      "id": "steam-1783560",
+      "title": "The Last Caretaker",
       "store": "Steam",
-      "old": 299,
-      "neu": 224,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/4304900/",
-      "steamAppId": "4304900"
+      "old": 1200,
+      "neu": 960,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/1783560/",
+      "steamAppId": "1783560"
+    },
+    {
+      "id": "steam-2929250",
+      "title": "over the hill",
+      "store": "Steam",
+      "old": 1050,
+      "neu": 840,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/2929250/",
+      "steamAppId": "2929250"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-19T23:01:25+03:00",
+  "updatedAt": "2026-10-20T02:48:46+03:00",
   "source": "steam-store-appdetails",
-  "count": 39,
+  "count": 38,
   "apps": [
     {
       "appid": "730",
@@ -470,25 +470,6 @@
       "short_description": "Погрузитесь в безумную и прекрасную техноутопию, где вас на каждом шагу поджидает смерть. Выполните порученное вам задание, подстраиваясь под необычных противников, используя элементы окружения и улучшая свой арсенал. Узнайте правду — любой ценой!"
     },
     {
-      "appid": "234650",
-      "name": "Shadowrun Returns",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/234650/header.jpg?t=1709809316",
-      "genres": [
-        "Приключенческие игры",
-        "Инди",
-        "Ролевые игры",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": 76,
-      "short_description": "Мир Shadowrun, смесь киберпанка и фэнтези, был придуман четверть века тому назад и c тех пор обрёл большое количество поклонников. Его создатель Джордан Уайзман вернулся к Shadowrun, чтобы осовременить классику и превратить её в тактическую пошаговую ролевую игру."
-    },
-    {
       "appid": "2183900",
       "name": "Warhammer 40,000: Space Marine 2",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/041c4b49f2925185ff1be198919b7fbff060c3e1/header_alt_assets_14_russian.jpg?t=1790874369",
@@ -505,6 +486,23 @@
       },
       "metacritic": 82,
       "short_description": "Обретите сверхчеловеческую мощь космодесантника. Пустите в ход смертоносные навыки и разрушительное оружие, чтобы истребить безжалостных тиранидов. Защитите Империум в ярких одиночных боях или многопользовательских режимах с видом от третьего лица."
+    },
+    {
+      "appid": "492720",
+      "name": "Tropico 6",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/492720/header.jpg?t=1755702256",
+      "genres": [
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": 78,
+      "short_description": "Эль Президенте возвращается! Станьте грозным диктатором или миролюбивым слугой народа в островном государстве Тропико и пройдите вместе со своими согражданами через четыре разные эпохи."
     },
     {
       "appid": "313120",
@@ -540,56 +538,6 @@
       "curated": true
     },
     {
-      "appid": "5308440",
-      "name": "Tiny Desktop Fishing",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5308440/596076dab824174e6b226c145b1847bdf7694208/header.jpg?t=1792395678",
-      "genres": [
-        "Казуальные игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "《微型桌面钓鱼》是一款轻松治愈的像素风桌宠钓鱼小游戏。在秋日田园的湖畔，开启悠闲垂钓时光。你可以随时打开桌面，抛竿、等鱼咬钩，收集各式各样的小鱼，享受不被打扰的慢节奏休闲体验。无需重度操作，随时开玩，适合碎片化时间放松。"
-    },
-    {
-      "appid": "5332620",
-      "name": "Призрачный флот",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5332620/2f27106dc06279124a17ca18a55c66f072fad3e3/header_russian.jpg?t=1792393995",
-      "genres": [
-        "Экшены",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Ведите Hollow King в морском экшен-роглайте. Топите корабли, собирайте души и стройте призрачный флот. Выбирайте карты и до пяти автоматических умений. Прорвите блокады десяти морей и вернитесь сильнее благодаря постоянным улучшениям на верфи."
-    },
-    {
-      "appid": "5217710",
-      "name": "Нулевой пациент, любовь моя",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5217710/bd0f4ef2a226a0931dc5d7e46d875038d2b5c67d/header_russian.jpg?t=1792347469",
-      "genres": [
-        "Приключенческие игры",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "В игре Нулевой пациент, любовь моя выберите одну из трёх романтических веток визуальной новеллы для взрослых во время карантина. В роли доктора Одилона Мабеки столкнитесь с врачебным долгом, недоверием, горем и запретной близостью и решите, чью правду и чьё сердце защитите любой ценой."
-    },
-    {
       "appid": "4656000",
       "name": "BOMBANANA!",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1791542068",
@@ -607,10 +555,12 @@
       "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
     },
     {
-      "appid": "5340080",
-      "name": "CHAMBER: ATOM BREAKER INC",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5340080/2cbb4c6575adbbd9d2a81d17dfdd2a0cf5a155f4/header.jpg?t=1792389445",
+      "appid": "4633060",
+      "name": "Pareidolia",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4633060/52761b4b5df21904946c843525053e57e84e5190/header.jpg?t=1792427543",
       "genres": [
+        "Экшены",
+        "Приключенческие игры",
         "Инди",
         "Симуляторы"
       ],
@@ -618,10 +568,26 @@
       "platforms": {
         "windows": true,
         "mac": false,
-        "linux": true
+        "linux": false
       },
       "metacritic": null,
-      "short_description": "A reactor made of breakable pixels. Stir the atoms with your hand, fuse them up the ladder, and chew through the chamber wall layer by layer until the fuel runs out. The playing field is what you spend."
+      "short_description": "Confront the games your own mind plays on you deep within a remote forest. Step out of your tent, set up your cameras, and gather clues. Remember: those silhouettes you see in the shadows might not just be your paranoia. The darkest corner of your mind is your deadliest enemy."
+    },
+    {
+      "appid": "4185740",
+      "name": "アオノアーティファクト+",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4185740/4a78470de599079456c11594d43bcb279f141232/header.jpg?t=1792421980",
+      "genres": [
+        "Экшены"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "&quot;Blue Artifact&quot; is a side-scrolling action game where Fran, a girl awakened deep underground in a research facility, uses magic to escape. Collect “treasures” within the facility to uncover the secrets of the research lab."
     },
     {
       "appid": "3892270",
@@ -642,11 +608,13 @@
       "short_description": "Кооперативная игра про исследование казино для 1–6 человек. У вас с друзьями один банковский счёт и огромный долг на всех: играйте, покупайте предметы и делайте глупости на пути к вершине башни казино. Накопите на квоту для ростовщика за 5 минут или пожалеете..."
     },
     {
-      "appid": "3569420",
-      "name": "Chained Beasts",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/be237edbd1bdbcf361d7b315d70e89fea3b5262a/header.jpg?t=1792082632",
+      "appid": "5336590",
+      "name": "Howling Woods",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5336590/1522f3ab0c5546ead3ee32787fc848475521e3ce/header.jpg?t=1792421416",
       "genres": [
-        "Экшены"
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
@@ -655,14 +623,15 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Chained Beasts — кооперативный гладиаторский рогалик для 1–4 игроков. Вашим прикованным друг к другу бойцам придётся использовать свои цепи и окружение, превозмогать физические и ментальные травмы и побеждать грозных боссов, чтобы выжить и завоевать любовь кровожадной толпы."
+      "short_description": "A cozy Halloween town builder. Lay out paths and plots in a clearing in the woods and the town takes care of the rest: crooked houses go up, curio shops open, and goblins, ghosts and witches move in. The spookier your town gets, the grander it grows. Nothing costs a thing. Every day is Halloween!"
     },
     {
-      "appid": "4904450",
-      "name": "Taskbar",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4904450/6f88e573e75277cc4b2a150f66af66e763a762ef/header.jpg?t=1792357695",
+      "appid": "3536520",
+      "name": "Warding Witches",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3536520/2c4b758da5fe80dd19fde1886cb5bf1ace59aef7/header.jpg?t=1792422790",
       "genres": [
-        "Утилиты"
+        "Экшены",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -671,7 +640,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Освети настоящую панель задач Windows 50 анимированными, градиентными и реагирующими на музыку световыми эффектами. Выбери цвета, настрой всё и помести логотип или текст на панель. Без рекламы, без телеметрии. Твоя панель задач оживает."
+      "short_description": "Warding Witches offers a classic, unapologetic bullet hell shoot ‘em up challenge while also putting defense into players’ hands. Experience an adrenaline-filled flow alternating between attacking, defending and dodging, amplified by an intuitive scoring system that weaves into gameplay seamlessly."
     },
     {
       "appid": "5329410",
@@ -689,6 +658,24 @@
       },
       "metacritic": null,
       "short_description": "Small fins. Big trouble. Battle underwater swarms solo, in four-player local co-op or Steam online co-op. Evolve oddball weapons, hunt buried stories and outfit a crew that looks as strange as it fights."
+    },
+    {
+      "appid": "4304900",
+      "name": "Big Dig",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304900/f70f4692753e297cd45617fed789c15ce5b1c4c6/header.jpg?t=1792418287",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Big Dig is a short incremental narrative game about digging up artifacts to help Mayor Dog win the election! Recover artifacts, grow your museum, and upgrade your tools while building a highway across the Animal Republic!"
     }
   ]
 }
