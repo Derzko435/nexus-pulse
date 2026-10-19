@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-18T11:09:09+03:00",
+ "updatedAt": "2026-10-19T12:01:22+03:00",
  "items": [
   {
    "appid": "x-beamng-drive",
@@ -64,30 +64,6 @@
     "wiki": "https://en.wikipedia.org/wiki/I_Am_Your_Beast"
    },
    "source": "wiki"
-  },
-  {
-   "appid": 2223980,
-   "title": "Nomad Drive",
-   "date": "2026-10-20",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223980/433d5727162af686f0e7d56de539f8476fb0cf0e/header.jpg?t=1792284328",
-   "desc": "Отремонтируйте свой запущенный дом на колесах и отправляйтесь в путь в одиночку или в кооперативе на 1–4 игроков по процедурно генерируемому постапокалиптическому миру. Собирайте ресурсы, настраивайте ваш дом на колесах и выживайте как можно дольше.",
-   "genres": [
-    "Приключенческие игры",
-    "Инди",
-    "Симуляторы"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Indie Devil",
-   "price": "",
-   "url": "https://store.steampowered.com/app/2223980/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/2223980/"
-   }
   },
   {
    "appid": 2315050,
@@ -878,29 +854,6 @@
    "source": "wiki"
   },
   {
-   "appid": 4523120,
-   "title": "Volvy’s Adventure: Reslimed",
-   "date": "2026-11-19",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4523120/bd01ad0f41f47272b6f1459de015d2494b24a422/header.jpg?t=1787755813",
-   "desc": "Volvy's Adventure: Reslimed — это захватывающий ремастер оригинального ремейка неизданного экшен-платформера, в котором главную роль играет самый известный талисман видеоигр всех времен.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "doinksoft",
-   "price": "180 руб.",
-   "url": "https://store.steampowered.com/app/4523120/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4523120/"
-   }
-  },
-  {
    "appid": "x-gothic-3-classic",
    "title": "Gothic 3 Classic",
    "date": "2026-11-24",
@@ -1134,12 +1087,12 @@
   },
   {
    "appid": 4452700,
-   "title": "Stage Tour",
+   "title": "STAGE TOUR",
    "date": "2026-12-10",
    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4452700/7074777401ca32c928e7702567ee08c282ff7393/header.jpg?t=1791998650",
-   "desc": "Соберите группу, зажгите на сцене и отправьтесь в турне в Stage Tour — ритм-игре новой эры. Вас ждут свыше 90 лицензированных треков, более 180 настоящих гитар Gibson®, Epiphone® и Kramer® и новые стили игры. В комплекте новый рогалик-режим Tour Mode!",
+   "desc": "Создайте свою группу, выходите на сцену и отправляйтесь в турне в Stage Tour, новой эволюции музыкальных ритм-игр. Слушайте более 90 официально лицензированных треков, разблокируйте более 180 аутентичных гитар Gibson®, Epiphone® и Kramer® и испытайте пять игровых режимов, включая совершенно новый режим рогалика Tour.",
    "genres": [
-    "Ритм-игра"
+    "Экшены"
    ],
    "platforms": [
     "PC",
@@ -1156,10 +1109,32 @@
    "url": "https://store.steampowered.com/app/4452700/",
    "links": {
     "steam": "https://store.steampowered.com/app/4452700/",
-    "epic": "https://store.epicgames.com/ru/p/stagetour-ac5b2f",
-    "wiki": "https://en.wikipedia.org/wiki/Stage_Tour"
-   },
-   "source": "wiki"
+    "epic": "https://store.epicgames.com/ru/p/stagetour-ac5b2f"
+   }
+  },
+  {
+   "appid": 3660710,
+   "title": "Armatus",
+   "date": "2027-01-07",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3660710/b5b7ba15558e1c278799ff66092b2ff4b5decc20/header.jpg?t=1787845839",
+   "desc": "ARMATUS — roguelite-шутер от третьего лица, действия которого разворачиваются среди руин Парижа, населенных демонами. Станьте последним воином древнего ордена, чтобы с помощью сверхъестественных способностей и мощного оружия очистить город и отыскать затерянный путь к небесам — Темные ворота.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Ролевые игры"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Counterplay Games Inc",
+   "price": "",
+   "url": "https://store.steampowered.com/app/3660710/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/3660710/"
+   }
   },
   {
    "appid": "x-danganronpa-2-2",
@@ -1368,7 +1343,7 @@
    "title": "Metroid Ravenous",
    "date": "2027-01-28",
    "image": "https://upload.wikimedia.org/wikipedia/en/9/93/MetroidRavenous.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "desc": "Metroid Ravenous — будущая компьютерная игра в жанре приключенческого экшена, разрабатываемая компаниями MercurySteam и Nintendo EPD и которая будет выпущена компанией Nintendo на Nintendo Switch 2. Это одинадцатая часть в основной серии Metroid, действие которой происходит после Metroid Dread…",
+   "desc": "Metroid Ravenous — будущая компьютерная игра в жанре приключенческого экшена, разрабатываемая компаниями MercurySteam и Nintendo EPD и которая будет выпущена компанией Nintendo на Nintendo Switch 2. Это одиннадцатая часть в основной серии Metroid, действие которой происходит после Metroid Dread…",
    "genres": [
     "Экшен-приключение"
    ],
@@ -1459,6 +1434,27 @@
    "links": {
     "steam": "https://store.steampowered.com/app/5097820/",
     "wiki": "https://en.wikipedia.org/wiki/Astonishia_Story"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-god-of-war-laufey",
+   "title": "God of War Laufey",
+   "date": "2027-02-16",
+   "image": "https://upload.wikimedia.org/wikipedia/en/0/0b/God_of_War_Laufey_cover.webp?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "God of War: Laufey — будущая компьютерная игра в жанре action-adventure с элементами hack and slash, разработанная компанией Santa Monica Studio при поддержке издательства Sony Interactive Entertainment. Laufey станет первой игрой во франшизе God of War, главным героем которой будет не Кратос…",
+   "genres": [
+    "Экшен-приключение"
+   ],
+   "platforms": [
+    "PlayStation"
+   ],
+   "stores": [],
+   "developer": "Santa Monica Studio",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/God_of_War%3A_Laufey",
+   "links": {
+    "wiki": "https://ru.wikipedia.org/wiki/God_of_War%3A_Laufey"
    },
    "source": "wiki"
   },

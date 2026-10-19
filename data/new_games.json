@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-18T11:09:44+03:00",
+ "updatedAt": "2026-10-19T12:01:54+03:00",
  "items": [
   {
    "appid": 1203620,
@@ -25,7 +25,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/1203620/"
    },
-   "reviews": 95805
+   "reviews": 96165
   },
   {
    "appid": 2887580,
@@ -39,6 +39,8 @@
    ],
    "platforms": [
     "PC",
+    "PlayStation",
+    "Xbox",
     "Linux"
    ],
    "stores": [
@@ -50,7 +52,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/2887580/"
    },
-   "reviews": 3717
+   "reviews": 3764
   },
   {
    "appid": 2929250,
@@ -76,34 +78,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/2929250/"
    },
-   "reviews": 2014
-  },
-  {
-   "appid": 2828710,
-   "title": "Valor Mortis",
-   "date": "2026-10-13",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2828710/e729c7f909db5c52ea780923d9b258517162866a/header.jpg?t=1791924072",
-   "desc": "Valor Mortis — это экшен от первого лица в жанре Souls-like от создателей игры Ghostrunner. Вы играете за восставшего из мертвых солдата наполеоновской армии. В вашем распоряжении сверхъестественные силы, которые помогут сражаться с монстрами и раскрыть заговор, угрожающий всему человечеству.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Ролевые игры"
-   ],
-   "platforms": [
-    "PC",
-    "PlayStation",
-    "Xbox"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "One More Level",
-   "price": "2099 руб.",
-   "url": "https://store.steampowered.com/app/2828710/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/2828710/"
-   },
-   "reviews": 1285
+   "reviews": 2411
   },
   {
    "appid": 4126040,
@@ -152,31 +127,34 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4954910/"
    },
-   "reviews": 1869
+   "reviews": 2300
   },
   {
-   "appid": 3569420,
-   "title": "Chained Beasts",
-   "date": "2026-10-15",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/be237edbd1bdbcf361d7b315d70e89fea3b5262a/header.jpg?t=1792082632",
-   "desc": "Chained Beasts — кооперативный гладиаторский рогалик для 1–4 игроков. Вашим прикованным друг к другу бойцам придётся использовать свои цепи и окружение, превозмогать физические и ментальные травмы и побеждать грозных боссов, чтобы выжить и завоевать любовь кровожадной толпы.",
+   "appid": 2828710,
+   "title": "Valor Mortis",
+   "date": "2026-10-13",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2828710/e729c7f909db5c52ea780923d9b258517162866a/header.jpg?t=1791924072",
+   "desc": "Valor Mortis — это экшен от первого лица в жанре Souls-like от создателей игры Ghostrunner. Вы играете за восставшего из мертвых солдата наполеоновской армии. В вашем распоряжении сверхъестественные силы, которые помогут сражаться с монстрами и раскрыть заговор, угрожающий всему человечеству.",
    "genres": [
-    "Экшены"
+    "Экшены",
+    "Приключенческие игры",
+    "Ролевые игры"
    ],
    "platforms": [
     "PC",
-    "Mac"
+    "PlayStation",
+    "Xbox"
    ],
    "stores": [
     "Steam"
    ],
-   "developer": "Featherweight Games",
-   "price": "555 руб.",
-   "url": "https://store.steampowered.com/app/3569420/",
+   "developer": "One More Level",
+   "price": "2099 руб.",
+   "url": "https://store.steampowered.com/app/2828710/",
    "links": {
-    "steam": "https://store.steampowered.com/app/3569420/"
+    "steam": "https://store.steampowered.com/app/2828710/"
    },
-   "reviews": 388
+   "reviews": 1499
   },
   {
    "appid": 892970,
@@ -206,7 +184,32 @@
    "links": {
     "steam": "https://store.steampowered.com/app/892970/"
    },
-   "reviews": 474249
+   "reviews": 474446
+  },
+  {
+   "appid": 3883570,
+   "title": "Invokyr",
+   "date": "2026-10-08",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883570/a1d37fb2bf0de54d1746d1aa4b83fb7ca81700d8/header.jpg?t=1792307731",
+   "desc": "Забытая настолка в проклятом доме так и манит сыграть. Собирайте до 5 друзей, бросайте кубики и выживайте среди оживших кошмаров мастера игры. Рискните всем, используйте особые кости и одолейте зловещую игру, чтобы сбежать.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Ludogram",
+   "price": "442 руб.",
+   "url": "https://store.steampowered.com/app/3883570/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/3883570/"
+   },
+   "reviews": 900
   },
   {
    "appid": 3493540,
@@ -235,17 +238,16 @@
    "links": {
     "steam": "https://store.steampowered.com/app/3493540/"
    },
-   "reviews": 6391
+   "reviews": 6484
   },
   {
-   "appid": 2871520,
-   "title": "Deep Dish Dungeon",
-   "date": "2026-10-13",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2871520/a941857720d5b6a62a2e0a7646f2ca46b00039b6/header_alt_assets_1.jpg?t=1791960486",
-   "desc": "Игра на выживание, где вам предстоит пробираться через отрисованные вручную подземелья. Особые приметы: элементы метроидвании и развитая система крафта. Исследуйте подземные глубины соло или с друзьями в сетевой совместной игре.",
+   "appid": 3569420,
+   "title": "Chained Beasts",
+   "date": "2026-10-15",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/be237edbd1bdbcf361d7b315d70e89fea3b5262a/header.jpg?t=1792082632",
+   "desc": "Chained Beasts — кооперативный гладиаторский рогалик для 1–4 игроков. Вашим прикованным друг к другу бойцам придётся использовать свои цепи и окружение, превозмогать физические и ментальные травмы и побеждать грозных боссов, чтобы выжить и завоевать любовь кровожадной толпы.",
    "genres": [
-    "Экшены",
-    "Стратегии"
+    "Экшены"
    ],
    "platforms": [
     "PC",
@@ -254,24 +256,47 @@
    "stores": [
     "Steam"
    ],
-   "developer": "Behold Studios",
-   "price": "551 руб.",
-   "url": "https://store.steampowered.com/app/2871520/",
+   "developer": "Featherweight Games",
+   "price": "555 руб.",
+   "url": "https://store.steampowered.com/app/3569420/",
    "links": {
-    "steam": "https://store.steampowered.com/app/2871520/"
+    "steam": "https://store.steampowered.com/app/3569420/"
    },
-   "reviews": 404
+   "reviews": 509
   },
   {
-   "appid": 4732690,
-   "title": "Arknights: Endfield",
+   "appid": 5258340,
+   "title": "One Million Coins",
+   "date": "2026-10-13",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5258340/11ce91f7fb2c45add1b4607a0ba1c26b1c0fcd31/header.jpg?t=1792227077",
+   "desc": "Короткая, сфокусированная игра от первого лица с пошаговым майнингом. Покопайтесь в хранилище с миллионом монет, сохраните свой улов, купите более качественные инструменты и постройте еще более быструю операцию по сбору золота.",
+   "genres": [
+    "Казуальные игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "ShoXx",
+   "price": "112,58 руб.",
+   "url": "https://store.steampowered.com/app/5258340/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/5258340/"
+   },
+   "reviews": 237
+  },
+  {
+   "appid": 3115160,
+   "title": "Warhammer 40,000: Boltgun 2",
    "date": "2026-10-14",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4732690/a84104b5ffa357982d188cab0be5d6cfde8a6398/header.jpg?t=1792035845",
-   "desc": "Arknights: Endfield — это трехмерная RPG-стратегия в реальном времени от Gryphline. В ней вам предстоит стать Эндминистратором компании Endfield, исследовать Талос II, а также защитить и расширить границы человеческой цивилизации.",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3115160/c99bc374ca10d0335fe5e8f37942aea35419e4d4/header.jpg?t=1792399444",
+   "desc": "Примерьте на себя роль Ультрамарина Малума Каэдо или сестры Битвы Ниры Вейрат, чья цель — уничтожить еретиков во имя Императора в Warhammer 40 000: Boltgun 2! В сиквеле ретро-шутера от первого лица ещё больше врагов, оружия и способов искоренять ересь!",
    "genres": [
     "Экшены",
-    "Приключенческие игры",
-    "Ролевые игры"
+    "Инди"
    ],
    "platforms": [
     "PC"
@@ -279,37 +304,77 @@
    "stores": [
     "Steam"
    ],
-   "developer": "Hypergryph",
-   "price": "Бесплатно",
-   "url": "https://store.steampowered.com/app/4732690/",
+   "developer": "Auroch Digital",
+   "price": "1050 руб.",
+   "url": "https://store.steampowered.com/app/3115160/",
    "links": {
-    "steam": "https://store.steampowered.com/app/4732690/"
-   }
+    "steam": "https://store.steampowered.com/app/3115160/"
+   },
+   "reviews": 543
   },
   {
-   "appid": 2254990,
-   "title": "Permafrost",
-   "date": "2026-10-09",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2254990/693eff202c061aaecba330b44d76485a672bea97/header.jpg?t=1791980722",
-   "desc": "Permafrost — это «песочница» на выживание среди постапокалиптических льдов. Откройте для себя обширный открытый мир с богатой историей в одиночку или в кооперативном режиме до 4 игроков. Исследуйте, добывайте, создавайте и стройте, чтобы выжить в холоде.",
+   "appid": "x-fallout-76",
+   "title": "Fallout 76",
+   "date": "2026-09-15",
+   "image": "https://upload.wikimedia.org/wikipedia/en/0/06/Fallout_76_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Fallout 76 — многопользовательская компьютерная игра в жанре Action/RPG, разработанная американской студией Bethesda Game Studios и выпущенная Bethesda Softworks для платформ Windows, PlayStation 4 и Xbox One в 2018 году. Игра была анонсирована 30 мая 2018 года. Действие Fallout 76 происходит в…",
    "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Ролевые игры"
+    "Экшен-RPG"
    ],
    "platforms": [
-    "PC"
+    "PlayStation",
+    "Xbox"
    ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "SpaceRocket Games",
-   "price": "1439,20 руб.",
-   "url": "https://store.steampowered.com/app/2254990/",
+   "stores": [],
+   "developer": "Bethesda Game Studios",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/Fallout_76",
    "links": {
-    "steam": "https://store.steampowered.com/app/2254990/"
+    "wiki": "https://ru.wikipedia.org/wiki/Fallout_76"
    },
-   "reviews": 1505
+   "source": "wiki"
+  },
+  {
+   "appid": "x-truck-kun-is-supporting-me-from-another-world",
+   "title": "Truck-kun is Supporting Me from Another World?!",
+   "date": "2026-09-14",
+   "image": "https://upload.wikimedia.org/wikipedia/en/0/0b/Truck-kun-is-supporting-me-from-another-world-windows-apps-front.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Трак-кун поддерживает меня из другого мира?! — видеоигра 2026 года, разработанная Strange Scaffold и изданная Frosty Pop Games. Игра пародирует японские СМИ исекай: в ней рассказывается о водителе грузовика, который врезается в женщину по имени Карисса Уорд и переносит ее в фантастический мир Талинфолд.",
+   "genres": [
+    "Боевые машины"
+   ],
+   "platforms": [
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Strange Scaffold",
+   "price": "",
+   "url": "https://en.wikipedia.org/wiki/Truck-kun_is_Supporting_Me_from_Another_World%3F%21",
+   "links": {
+    "wiki": "https://en.wikipedia.org/wiki/Truck-kun_is_Supporting_Me_from_Another_World%3F%21"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-nhl-27",
+   "title": "NHL 27",
+   "date": "2026-09-11",
+   "image": "https://upload.wikimedia.org/wikipedia/en/7/7a/NHL27_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "NHL 27 — это видеоигра-симулятор хоккея с шайбой, разработанная EA Vancouver и изданная EA Sports. Это 36-я часть серии видеоигр НХЛ, выпущенная для PlayStation 5 и Xbox Series X/S 11 сентября 2026 года.\nСпортсмен с обложки игры, центровой «Сан-Хосе Шаркс» Маклин…",
+   "genres": [
+    "Спорт"
+   ],
+   "platforms": [
+    "PlayStation"
+   ],
+   "stores": [],
+   "developer": "EA Vancouver",
+   "price": "",
+   "url": "https://en.wikipedia.org/wiki/NHL_27",
+   "links": {
+    "wiki": "https://en.wikipedia.org/wiki/NHL_27"
+   },
+   "source": "wiki"
   },
   {
    "appid": 2821390,
@@ -429,70 +494,6 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4356430/",
     "wiki": "https://en.wikipedia.org/wiki/NBA_2K27"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": "x-exstetra",
-   "title": "Exstetra",
-   "date": "2026-09-03",
-   "image": "https://upload.wikimedia.org/wikipedia/en/c/c1/Exstetra.PNG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "desc": "Exstetra — японская ролевая видеоигра, разработанная Studio Saizensen и изданная FuRyu для Nintendo 3DS и PlayStation Vita в 2013 году. 30 июля 2026 года для Steam был выпущен HD-ремастер с поддержкой английского языка, ознаменовавший первую официальную локализацию игры, за которой последовали версии…",
-   "genres": [
-    "RPG"
-   ],
-   "platforms": [
-    "PlayStation",
-    "Switch"
-   ],
-   "stores": [],
-   "developer": "FuRyu , Studio Saizensen",
-   "price": "",
-   "url": "https://en.wikipedia.org/wiki/Exstetra",
-   "links": {
-    "wiki": "https://en.wikipedia.org/wiki/Exstetra"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": "x-keeper",
-   "title": "Keeper",
-   "date": "2026-09-03",
-   "image": "https://upload.wikimedia.org/wikipedia/en/1/1b/Keeper_video_game_cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "desc": "Keeper — приключенческая компьютерная игра, разработанная компанией Double Fine при поддержке Xbox Game Studios. Релиз игры состоялся 17 октября 2025 года на Xbox Series X/S и Windows.",
-   "genres": [
-    "Приключение"
-   ],
-   "platforms": [
-    "PlayStation"
-   ],
-   "stores": [],
-   "developer": "Double Fine",
-   "price": "",
-   "url": "https://ru.wikipedia.org/wiki/Keeper",
-   "links": {
-    "wiki": "https://ru.wikipedia.org/wiki/Keeper"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": "x-orbitals",
-   "title": "Orbitals",
-   "date": "2026-09-03",
-   "image": "https://upload.wikimedia.org/wikipedia/en/1/1b/Orbitals_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "desc": "Orbitals — это совместная приключенческая видеоигра-головоломка 2026 года, разработанная Shapefarm и изданная Kepler Interactive. Она была выпущена во всем мире 3 сентября 2026 года для Nintendo Switch 2. В игре рассказывается о том, как Маки и Омура путешествуют по космосу, чтобы предотвратить разрушение своей космической станции…",
-   "genres": [
-    "Приключение"
-   ],
-   "platforms": [
-    "Switch"
-   ],
-   "stores": [],
-   "developer": "Shapefarm",
-   "price": "",
-   "url": "https://en.wikipedia.org/wiki/Orbitals_%28video_game%29",
-   "links": {
-    "wiki": "https://en.wikipedia.org/wiki/Orbitals_%28video_game%29"
    },
    "source": "wiki"
   }
