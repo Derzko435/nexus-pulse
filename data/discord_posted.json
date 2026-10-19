@@ -1,32 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-10-19T23:01:51+03:00",
+ "updatedAt": "2026-10-20T02:49:13+03:00",
  "posted": {
   "news": [
-   "f7ba3ab358b0",
-   "7011e5e281be",
-   "d8ad08cd6195",
-   "59185355b397",
-   "1a3115b5d86a",
-   "e2549ef532ea",
-   "ed6ca73dcf2c",
-   "b5a88aeb9f0c",
-   "1a807cf3415e",
-   "f2e2c9321bf6",
-   "ff8f61382ee3",
-   "6bb7859dc49d",
-   "3e27adffd081",
-   "b0d43dc8e388",
-   "cd3c72b4c8e7",
-   "b6aa78f973a3",
-   "723fc39785ec",
-   "27a99e76e788",
-   "10e881b367a8",
-   "92bebaf34977",
-   "dec7ba1ed0c0",
-   "8d22b6aab734",
-   "415e8ba71a28",
-   "3fe97e9ae784",
    "7fbdf75da866",
    "89b56c05585d",
    "b471e15bb3f5",
@@ -502,7 +478,31 @@
    "3d0e6d13a835",
    "adec7da22b7f",
    "2ac8613cb053",
-   "ba721f415da7"
+   "ba721f415da7",
+   "26aa0c7bcad7",
+   "71fa9cebf075",
+   "a4a8c8fa8036",
+   "597deaab60d2",
+   "f025e9759037",
+   "ebc84d23bb4a",
+   "500093e1a204",
+   "cce5e30cc423",
+   "edb0f74572c0",
+   "0adee71d5bdf",
+   "3cd760808853",
+   "2b23e3e25c15",
+   "679f9d446f61",
+   "025384356a3b",
+   "535c338246c7",
+   "5927366d9fbd",
+   "321c972b22b1",
+   "f88ed0ec538c",
+   "70c7825abe0c",
+   "e02ecc5bcb47",
+   "e3086a3fae4a",
+   "ae00c791ec5b",
+   "aeb135553485",
+   "1fada3638e0c"
   ],
   "deals": [
    "steam-246420:90",
@@ -940,7 +940,8 @@
    "result:bo3-131673",
    "result:bo3-130793",
    "digest:2026-10-19",
-   "result:bo3-131674"
+   "result:bo3-131674",
+   "digest:2026-10-20"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -971,10 +972,6 @@
    "r6:2026-10-15"
   ],
   "videos": [
-   "5lXlYn6ajK8",
-   "tqcAeQ2dghU",
-   "QBuHZrFrEzU",
-   "tJV0SMKP7ZI",
    "amQtQ0rHK6E",
    "RkBuMQrBF7U",
    "hNkvZN2Cn80",
@@ -1465,7 +1462,16 @@
    "rV9WRsivY94",
    "rod4Ky1mRjg",
    "kZxMJE2nYRc",
-   "X3SsUZ1SFy4"
+   "X3SsUZ1SFy4",
+   "UshGpcc1Ekc",
+   "vCDEGPPf3Lc",
+   "CBAyiDsoPD8",
+   "N4CDajsLHbk",
+   "gNRr4lajQA4",
+   "0EXL0mKHz-4",
+   "dpAhJkaHDBs",
+   "OryBWktyc8I",
+   "MzjbfNfx1Kw"
   ],
   "releases": [
    "week:2026-W39",
@@ -1513,16 +1519,15 @@
    "day:2026-10-16:2121510",
    "week:2026-W43",
    "day:2026-10-19:x-beamng-drive",
-   "day:2026-10-19:x-frostpunk"
+   "day:2026-10-19:x-frostpunk",
+   "day:2026-10-20:x-i-am-your-beast",
+   "day:2026-10-20:2315050"
   ],
   "gotd": [
    "gotd:2026-09-24"
   ]
  },
  "matchPings": [
-  "2026-10-17T00:48+03:00",
-  "2026-10-17T10:57+03:00",
-  "2026-10-17T14:13+03:00",
   "2026-10-18T00:02+03:00",
   "2026-10-18T11:12+03:00",
   "2026-10-18T14:47+03:00"
