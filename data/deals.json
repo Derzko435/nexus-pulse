@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T16:38:07+03:00",
+  "updatedAt": "2026-10-19T23:01:30+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -13,16 +13,6 @@
       "steamAppId": "668580"
     },
     {
-      "id": "steam-234650",
-      "title": "Shadowrun Returns",
-      "store": "Steam",
-      "old": 829,
-      "neu": 165,
-      "pct": 80,
-      "url": "https://store.steampowered.com/app/234650/",
-      "steamAppId": "234650"
-    },
-    {
       "id": "steam-2183900",
       "title": "Warhammer 40,000: Space Marine 2",
       "store": "Steam",
@@ -31,6 +21,16 @@
       "pct": 75,
       "url": "https://store.steampowered.com/app/2183900/",
       "steamAppId": "2183900"
+    },
+    {
+      "id": "steam-492720",
+      "title": "Tropico 6",
+      "store": "Steam",
+      "old": 2299,
+      "neu": 574,
+      "pct": 75,
+      "url": "https://store.steampowered.com/app/492720/",
+      "steamAppId": "492720"
     },
     {
       "id": "steam-313120",
@@ -53,36 +53,6 @@
       "steamAppId": "72176"
     },
     {
-      "id": "steam-5308440",
-      "title": "Tiny Desktop Fishing",
-      "store": "Steam",
-      "old": 51,
-      "neu": 30,
-      "pct": 41,
-      "url": "https://store.steampowered.com/app/5308440/",
-      "steamAppId": "5308440"
-    },
-    {
-      "id": "steam-5332620",
-      "title": "Призрачный флот",
-      "store": "Steam",
-      "old": 465,
-      "neu": 279,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5332620/",
-      "steamAppId": "5332620"
-    },
-    {
-      "id": "steam-5217710",
-      "title": "Нулевой пациент, любовь моя",
-      "store": "Steam",
-      "old": 335,
-      "neu": 201,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5217710/",
-      "steamAppId": "5217710"
-    },
-    {
       "id": "steam-4656000",
       "title": "BOMBANANA!",
       "store": "Steam",
@@ -93,14 +63,24 @@
       "steamAppId": "4656000"
     },
     {
-      "id": "steam-5340080",
-      "title": "CHAMBER: ATOM BREAKER INC",
+      "id": "steam-4633060",
+      "title": "Pareidolia",
       "store": "Steam",
-      "old": 199,
-      "neu": 119,
+      "old": 195,
+      "neu": 117,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5340080/",
-      "steamAppId": "5340080"
+      "url": "https://store.steampowered.com/app/4633060/",
+      "steamAppId": "4633060"
+    },
+    {
+      "id": "steam-4185740",
+      "title": "アオノアーティファクト+",
+      "store": "Steam",
+      "old": 150,
+      "neu": 90,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/4185740/",
+      "steamAppId": "4185740"
     },
     {
       "id": "steam-3892270",
@@ -113,24 +93,34 @@
       "steamAppId": "3892270"
     },
     {
-      "id": "steam-3569420",
-      "title": "Chained Beasts",
+      "id": "steam-739630",
+      "title": "Phasmophobia",
       "store": "Steam",
-      "old": 855,
-      "neu": 555,
-      "pct": 35,
-      "url": "https://store.steampowered.com/app/3569420/",
-      "steamAppId": "3569420"
+      "old": 849,
+      "neu": 594,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/739630/",
+      "steamAppId": "739630"
     },
     {
-      "id": "steam-4904450",
-      "title": "Taskbar",
+      "id": "steam-5336590",
+      "title": "Howling Woods",
       "store": "Steam",
-      "old": 200,
-      "neu": 140,
+      "old": 385,
+      "neu": 269,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/4904450/",
-      "steamAppId": "4904450"
+      "url": "https://store.steampowered.com/app/5336590/",
+      "steamAppId": "5336590"
+    },
+    {
+      "id": "steam-3536520",
+      "title": "Warding Witches",
+      "store": "Steam",
+      "old": 590,
+      "neu": 442,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/3536520/",
+      "steamAppId": "3536520"
     },
     {
       "id": "steam-5329410",
@@ -141,6 +131,16 @@
       "pct": 25,
       "url": "https://store.steampowered.com/app/5329410/",
       "steamAppId": "5329410"
+    },
+    {
+      "id": "steam-4304900",
+      "title": "Big Dig",
+      "store": "Steam",
+      "old": 299,
+      "neu": 224,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/4304900/",
+      "steamAppId": "4304900"
     }
   ]
 }
