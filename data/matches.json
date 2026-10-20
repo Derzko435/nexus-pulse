@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T03:43:15+03:00",
+ "updatedAt": "2026-10-20T11:37:34+03:00",
  "source": "bo3.gg",
  "matches": [
   {
@@ -17,7 +17,15 @@
    "event": "1win Private Club 2",
    "tier": "A",
    "startsAt": "2026-10-20T12:00:00+03:00",
-   "streams": [],
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "stariy_bog",
+     "lang": "ru",
+     "official": false,
+     "label": "stariy_bog"
+    }
+   ],
    "url": "https://bo3.gg/matches/alliance-cs-vs-private-20-10-2026"
   },
   {
@@ -53,7 +61,15 @@
    "event": "1win Private Club 2",
    "tier": "A",
    "startsAt": "2026-10-20T18:00:00+03:00",
-   "streams": [],
+   "streams": [
+    {
+     "type": "kick",
+     "channel": "albi1985",
+     "lang": "de",
+     "official": false,
+     "label": "albi1985"
+    }
+   ],
    "url": "https://bo3.gg/matches/the-mongolz-vs-big-20-10-2026"
   },
   {
@@ -868,33 +884,6 @@
    "url": "https://bo3.gg/dota2/matches/1win-dota2-vs-gamerlegion-dota2-24-10-2026"
   },
   {
-   "id": "bo3-132172",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "MOUZ",
-   "teamB": "Liquid",
-   "logoA": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
-   "logoB": "https://files.bo3.gg/uploads/team/790/image/webp-01cca8d35079cb4b21bc25268ac75bae.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "PGL Masters Bucharest 2026",
-   "tier": "S",
-   "startsAt": "2026-10-24T13:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/mouz-cs2-vs-liquid-24-10-2026"
-  },
-  {
    "id": "bo3-132173",
    "game": "CS2",
    "gameKey": "cs2",
@@ -920,6 +909,33 @@
     }
    ],
    "url": "https://bo3.gg/matches/spirit-vs-betboom-team-24-10-2026"
+  },
+  {
+   "id": "bo3-132172",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "MOUZ",
+   "teamB": "Liquid",
+   "logoA": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
+   "logoB": "https://files.bo3.gg/uploads/team/790/image/webp-01cca8d35079cb4b21bc25268ac75bae.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PGL Masters Bucharest 2026",
+   "tier": "S",
+   "startsAt": "2026-10-24T13:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/mouz-cs2-vs-liquid-24-10-2026"
   },
   {
    "id": "bo3-132270",
@@ -1734,53 +1750,6 @@
     }
    ],
    "url": "https://bo3.gg/valorant/matches/100-thieves-1-vs-g2-esports-16-10-2026"
-  },
-  {
-   "id": "bo3-129632",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Team Vitality",
-   "teamB": "LOUD",
-   "logoA": "https://files.bo3.gg/uploads/team/7254/image/webp-846a1a854b768a066e986fc99c45cf39.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/6874/image/webp-d2c298a09e3bc0540c8f33699a94f4c7.webp",
-   "scoreA": 1,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "VALORANT Champions 2026",
-   "tier": "S",
-   "startsAt": "2026-10-16T09:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorant_br",
-     "lang": "pt",
-     "official": true,
-     "label": "valorant_br"
-    },
-    {
-     "type": "twitch",
-     "channel": "valorant_fr",
-     "lang": "fr",
-     "official": true,
-     "label": "valorant_fr"
-    },
-    {
-     "type": "twitch",
-     "channel": "valorant_la",
-     "lang": "pt",
-     "official": true,
-     "label": "valorant_la"
-    },
-    {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": false,
-     "label": "valorant"
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/team-vitality-vs-loud-16-10-2026"
   }
  ],
  "tournaments": [

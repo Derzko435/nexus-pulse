@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T12:01:54+03:00",
+ "updatedAt": "2026-10-20T11:40:25+03:00",
  "items": [
   {
    "appid": 1203620,
@@ -25,7 +25,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/1203620/"
    },
-   "reviews": 96165
+   "reviews": 96440
   },
   {
    "appid": 2887580,
@@ -52,7 +52,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/2887580/"
    },
-   "reviews": 3764
+   "reviews": 3810
   },
   {
    "appid": 2929250,
@@ -78,7 +78,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/2929250/"
    },
-   "reviews": 2411
+   "reviews": 2713
   },
   {
    "appid": 4126040,
@@ -105,31 +105,6 @@
    }
   },
   {
-   "appid": 4954910,
-   "title": "Scam With Your Friends",
-   "date": "2026-10-15",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4954910/128effac3212fc1b92b4f6cd8891995df0d4b199/header.jpg?t=1792283115",
-   "desc": "Управляйте call-центром мошенников с друзьями. Используйте всё более абсурдные планы для развода ИИ абонентов на их денежные сбережения. Достигните суточной нормы, наводите хаос в офисе и выживите жесткую оценку результатов от своего яростного босса.",
-   "genres": [
-    "Экшены",
-    "Казуальные игры",
-    "Инди"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "JakeHub, Metater",
-   "price": "418 руб.",
-   "url": "https://store.steampowered.com/app/4954910/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4954910/"
-   },
-   "reviews": 2300
-  },
-  {
    "appid": 2828710,
    "title": "Valor Mortis",
    "date": "2026-10-13",
@@ -154,7 +129,32 @@
    "links": {
     "steam": "https://store.steampowered.com/app/2828710/"
    },
-   "reviews": 1499
+   "reviews": 1643
+  },
+  {
+   "appid": 4954910,
+   "title": "Scam With Your Friends",
+   "date": "2026-10-15",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4954910/128effac3212fc1b92b4f6cd8891995df0d4b199/header.jpg?t=1792469490",
+   "desc": "Управляйте call-центром мошенников с друзьями. Используйте всё более абсурдные планы для развода ИИ абонентов на их денежные сбережения. Достигните суточной нормы, наводите хаос в офисе и выживите жесткую оценку результатов от своего яростного босса.",
+   "genres": [
+    "Экшены",
+    "Казуальные игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "JakeHub, Metater",
+   "price": "418 руб.",
+   "url": "https://store.steampowered.com/app/4954910/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4954910/"
+   },
+   "reviews": 2525
   },
   {
    "appid": 892970,
@@ -184,7 +184,31 @@
    "links": {
     "steam": "https://store.steampowered.com/app/892970/"
    },
-   "reviews": 474446
+   "reviews": 474594
+  },
+  {
+   "appid": 3569420,
+   "title": "Chained Beasts",
+   "date": "2026-10-15",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/be237edbd1bdbcf361d7b315d70e89fea3b5262a/header.jpg?t=1792472187",
+   "desc": "Chained Beasts — кооперативный гладиаторский рогалик для 1–4 игроков. Вашим прикованным друг к другу бойцам придётся использовать свои цепи и окружение, превозмогать физические и ментальные травмы и побеждать грозных боссов, чтобы выжить и завоевать любовь кровожадной толпы.",
+   "genres": [
+    "Экшены"
+   ],
+   "platforms": [
+    "PC",
+    "Mac"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Featherweight Games",
+   "price": "555 руб.",
+   "url": "https://store.steampowered.com/app/3569420/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/3569420/"
+   },
+   "reviews": 586
   },
   {
    "appid": 3883570,
@@ -209,60 +233,32 @@
    "links": {
     "steam": "https://store.steampowered.com/app/3883570/"
    },
-   "reviews": 900
+   "reviews": 935
   },
   {
-   "appid": 3493540,
-   "title": "Transport Fever 3",
-   "date": "2026-09-29",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3493540/c2bdb7a47e8b4587ae28a21a99bf884c180da43f/header_alt_assets_0_russian.jpg?t=1791359026",
-   "desc": "Знаменитый симулятор транспортного магната Transport Fever 3 возвращается! Мир игры стал еще больше и динамичнее! Прокладывайте маршруты по суше, морю и небу, используя все транспортные возможности, созданные за целый век. Спроектируйте и постройте идеальную транспортную сеть. Измените мир!",
+   "appid": 2254990,
+   "title": "Permafrost",
+   "date": "2026-10-09",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2254990/693eff202c061aaecba330b44d76485a672bea97/header.jpg?t=1792439036",
+   "desc": "Permafrost — это «песочница» на выживание среди постапокалиптических льдов. Откройте для себя обширный открытый мир с богатой историей в одиночку или в кооперативном режиме до 4 игроков. Исследуйте, добывайте, создавайте и стройте, чтобы выжить в холоде.",
    "genres": [
-    "Казуальные игры",
-    "Симуляторы",
-    "Стратегии"
+    "Экшены",
+    "Приключенческие игры",
+    "Ролевые игры"
    ],
    "platforms": [
-    "PC",
-    "PlayStation",
-    "Xbox",
-    "Mac",
-    "Linux"
+    "PC"
    ],
    "stores": [
     "Steam"
    ],
-   "developer": "Urban Games",
-   "price": "2290 руб.",
-   "url": "https://store.steampowered.com/app/3493540/",
+   "developer": "SpaceRocket Games",
+   "price": "1439,20 руб.",
+   "url": "https://store.steampowered.com/app/2254990/",
    "links": {
-    "steam": "https://store.steampowered.com/app/3493540/"
+    "steam": "https://store.steampowered.com/app/2254990/"
    },
-   "reviews": 6484
-  },
-  {
-   "appid": 3569420,
-   "title": "Chained Beasts",
-   "date": "2026-10-15",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/be237edbd1bdbcf361d7b315d70e89fea3b5262a/header.jpg?t=1792082632",
-   "desc": "Chained Beasts — кооперативный гладиаторский рогалик для 1–4 игроков. Вашим прикованным друг к другу бойцам придётся использовать свои цепи и окружение, превозмогать физические и ментальные травмы и побеждать грозных боссов, чтобы выжить и завоевать любовь кровожадной толпы.",
-   "genres": [
-    "Экшены"
-   ],
-   "platforms": [
-    "PC",
-    "Mac"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Featherweight Games",
-   "price": "555 руб.",
-   "url": "https://store.steampowered.com/app/3569420/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/3569420/"
-   },
-   "reviews": 509
+   "reviews": 1616
   },
   {
    "appid": 5258340,
@@ -286,17 +282,18 @@
    "links": {
     "steam": "https://store.steampowered.com/app/5258340/"
    },
-   "reviews": 237
+   "reviews": 317
   },
   {
-   "appid": 3115160,
-   "title": "Warhammer 40,000: Boltgun 2",
+   "appid": 4732690,
+   "title": "Arknights: Endfield",
    "date": "2026-10-14",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3115160/c99bc374ca10d0335fe5e8f37942aea35419e4d4/header.jpg?t=1792399444",
-   "desc": "Примерьте на себя роль Ультрамарина Малума Каэдо или сестры Битвы Ниры Вейрат, чья цель — уничтожить еретиков во имя Императора в Warhammer 40 000: Boltgun 2! В сиквеле ретро-шутера от первого лица ещё больше врагов, оружия и способов искоренять ересь!",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4732690/a84104b5ffa357982d188cab0be5d6cfde8a6398/header.jpg?t=1792035845",
+   "desc": "Arknights: Endfield — это трехмерная RPG-стратегия в реальном времени от Gryphline. В ней вам предстоит стать Эндминистратором компании Endfield, исследовать Талос II, а также защитить и расширить границы человеческой цивилизации.",
    "genres": [
     "Экшены",
-    "Инди"
+    "Приключенческие игры",
+    "Ролевые игры"
    ],
    "platforms": [
     "PC"
@@ -304,13 +301,12 @@
    "stores": [
     "Steam"
    ],
-   "developer": "Auroch Digital",
-   "price": "1050 руб.",
-   "url": "https://store.steampowered.com/app/3115160/",
+   "developer": "Hypergryph",
+   "price": "Бесплатно",
+   "url": "https://store.steampowered.com/app/4732690/",
    "links": {
-    "steam": "https://store.steampowered.com/app/3115160/"
-   },
-   "reviews": 543
+    "steam": "https://store.steampowered.com/app/4732690/"
+   }
   },
   {
    "appid": "x-fallout-76",
@@ -331,6 +327,27 @@
    "url": "https://ru.wikipedia.org/wiki/Fallout_76",
    "links": {
     "wiki": "https://ru.wikipedia.org/wiki/Fallout_76"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-marvel-s-wolverine",
+   "title": "Marvel's Wolverine",
+   "date": "2026-09-15",
+   "image": "https://upload.wikimedia.org/wikipedia/en/3/3d/Marvel%27s_Wolverine_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Marvel’s Wolverine (в официальной русской локализации — «Marvel: Росомаха») — компьютерная игра в жанре приключенческого экшена, разработанная Insomniac Games в сотрудничестве с Marvel Games и изданная Sony Interactive Entertainment. Основана на американских комиксах издательства Marvel Comics о…",
+   "genres": [
+    "Экшен-приключение"
+   ],
+   "platforms": [
+    "PlayStation"
+   ],
+   "stores": [],
+   "developer": "Insomniac Games",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/Marvel%E2%80%99s_Wolverine",
+   "links": {
+    "wiki": "https://ru.wikipedia.org/wiki/Marvel%E2%80%99s_Wolverine"
    },
    "source": "wiki"
   },
@@ -467,33 +484,6 @@
    "url": "https://ru.wikipedia.org/wiki/Mewgenics",
    "links": {
     "wiki": "https://ru.wikipedia.org/wiki/Mewgenics"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": 4356430,
-   "title": "NBA 2K27",
-   "date": "2026-09-04",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4356430/9152438fde7de9f4c20b4fd9072ba69f844dacab/header.jpg?t=1792163139",
-   "desc": "В NBA 2K27 движение не прекращается, и игра никогда не заканчивается. Круглосуточно сражайтесь за величие в MyCAREER, MyTEAM и MyNBA и воплотите свои мечты о баскетболе в реальность.",
-   "genres": [
-    "Спорт"
-   ],
-   "platforms": [
-    "PC",
-    "PlayStation",
-    "Xbox",
-    "Switch"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Visual Concepts",
-   "price": "",
-   "url": "https://store.steampowered.com/app/4356430/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4356430/",
-    "wiki": "https://en.wikipedia.org/wiki/NBA_2K27"
    },
    "source": "wiki"
   }

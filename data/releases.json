@@ -1,49 +1,6 @@
 {
- "updatedAt": "2026-10-19T12:01:22+03:00",
+ "updatedAt": "2026-10-20T11:40:00+03:00",
  "items": [
-  {
-   "appid": "x-beamng-drive",
-   "title": "BeamNG.drive",
-   "date": "2026-10-19",
-   "image": "https://upload.wikimedia.org/wikipedia/en/6/6c/BeamNGdrive_cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "desc": "BeamNG.drive — компьютерная игра в жанре автосимулятора, разработанная и изданная компанией BeamNG GmbH для платформы Windows с экспериментальной версией для Linux. Использует уникальную физику мягких тел. Является идейным продолжением предыдущего проекта разработчиков — Rigs of Rods.",
-   "genres": [
-    "Симулятор техники"
-   ],
-   "platforms": [
-    "PlayStation"
-   ],
-   "stores": [],
-   "developer": "BeamNG",
-   "price": "",
-   "url": "https://ru.wikipedia.org/wiki/BeamNG.drive",
-   "links": {
-    "wiki": "https://ru.wikipedia.org/wiki/BeamNG.drive"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": "x-frostpunk",
-   "title": "Frostpunk",
-   "date": "2026-10-19",
-   "image": "https://upload.wikimedia.org/wikipedia/en/a/a3/Frostpunk_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "desc": "Frostpunk — компьютерная игра в жанре градостроительного симулятора и симулятор выживания, разработанная компанией 11 bit studios. Игра включает в себя элементы стимпанка и альтернативной истории. Название игры является неологизмом, придуманным её создателями, и получено путём объединения слов…",
-   "genres": [
-    "Градостроитель",
-    "Выживание"
-   ],
-   "platforms": [
-    "Switch"
-   ],
-   "stores": [],
-   "developer": "11 Bit Studios",
-   "price": "",
-   "url": "https://ru.wikipedia.org/wiki/Frostpunk",
-   "links": {
-    "wiki": "https://ru.wikipedia.org/wiki/Frostpunk"
-   },
-   "source": "wiki"
-  },
   {
    "appid": "x-i-am-your-beast",
    "title": "I Am Your Beast",
@@ -69,7 +26,7 @@
    "appid": 2315050,
    "title": "We Were Here Tomorrow",
    "date": "2026-10-20",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2315050/0827a8808a48b7443d1b1cf6a558b7a9baebf010/header_alt_assets_2.jpg?t=1791790835",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2315050/0827a8808a48b7443d1b1cf6a558b7a9baebf010/header_alt_assets_2.jpg?t=1792482247",
    "desc": "Вы с напарником оказываетесь в загадочном комплексе Norček и не можете вспомнить, как сюда попали. Действуйте сообща и узнавайте тайны комплекса в асимметричном совместном приключении. Только вместе вы сможете изменить завтрашний день.",
    "genres": [
     "Экшены",
@@ -203,6 +160,29 @@
    "source": "wiki"
   },
   {
+   "appid": 3905010,
+   "title": "ONE PIECE: Grand Gourmet",
+   "date": "2026-10-22",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3905010/0437aa2ef308bd35d40833de72c3dac04a24f067/header.jpg?t=1789090874",
+   "desc": "Добро пожаловать на борт аппетитного симулятора управления в мире ONE PIECE! Стройте лучший ресторан на морях вместе с Пиратами Соломенной Шляпы! Собирайте ингредиенты, придумывайте блюда и украшайте их, чтобы знакомые персонажи выстраивались в очередь за добавкой!",
+   "genres": [
+    "Казуальные игры",
+    "Симуляторы"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Kairosoft Co.,Ltd",
+   "price": "1429 руб.",
+   "url": "https://store.steampowered.com/app/3905010/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/3905010/"
+   }
+  },
+  {
    "appid": "x-peak",
    "title": "Peak",
    "date": "2026-10-22",
@@ -302,7 +282,7 @@
    "appid": 2295170,
    "title": "Emberville",
    "date": "2026-10-27",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2295170/99852482000e8eb5b7b75c52bf5f70406c6f6e5f/header.jpg?t=1792209927",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2295170/99852482000e8eb5b7b75c52bf5f70406c6f6e5f/header.jpg?t=1792426937",
    "desc": "Потеряв память, вы очнулись в огромном подземном мире. Вас приветствует Витромотус — магическое подземелье, где смерть — это новое начало. Погрузитесь в его глубины и узнайте правду об этой тюрьме, параллельно сражаясь с опасными тварями, помогая выжившим и отстраивая разрушенный город Эмбервилль.",
    "genres": [
     "Экшены",
@@ -376,7 +356,7 @@
    "appid": 4348910,
    "title": "Probably Stolen – симулятор магазина в киберпанке",
    "date": "2026-10-28",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/837d8597c8e8f6c8f75c4b35fc435d780803a922/header.jpg?t=1791975491",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/837d8597c8e8f6c8f75c4b35fc435d780803a922/header.jpg?t=1792411126",
    "desc": "В этом симуляторе магазина на мрачной киберпанковой космической станции вы будете создавать полезные вещи из хлама, торговать (легально и не очень) товарами сомнительного происхождения и разбираться в отношениях между фракциями. Решайте сами, на что вы готовы пойти, чтобы остаться на плаву.",
    "genres": [
     "Инди",
@@ -400,8 +380,8 @@
    "appid": 1798230,
    "title": "ATMOSFAR",
    "date": "2026-10-29",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1798230/96e6f00d5ecb7c37ba07577ac02ac75fad16055a/header.jpg?t=1792072638",
-   "desc": "ATMOSFAR — это небесная одиссея, действие которой происходит на чужой планете с плавучими островами, исследованной летательными аппаратами и мобильной авиабазой, где вы раскрываете судьбу своей рухнувшей колонии.",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1798230/96e6f00d5ecb7c37ba07577ac02ac75fad16055a/header.jpg?t=1792455251",
+   "desc": "Узнайте судьбу последнего аванпоста человечества, выживая и исследуя захватывающий мир плавучих островов. Поднимитесь в небо в одиночку или соберите эскадрилью друзей и собирайте металлолом, чтобы проектировать и модернизировать летающие корабли, взяв с собой в путешествие свой дирижабль.",
    "genres": [
     "Экшены",
     "Приключенческие игры",
@@ -499,7 +479,7 @@
    "appid": 2320980,
    "title": "Loftia",
    "date": "2026-11-03",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2320980/header.jpg?t=1791968293",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2320980/header.jpg?t=1792418092",
    "desc": "Вас приветствует Loftia — уютная многопользовательская игра, в которой вам предстоит построить экологически надёжное будущее. Находите друзей, возделывайте землю, мастерите предметы, исследуйте острова — и вместе сделайте этот мир лучше!",
    "genres": [
     "Приключенческие игры",
@@ -696,7 +676,7 @@
    "appid": 3669620,
    "title": "Warhammer Survivors",
    "date": "2026-11-10",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669620/dc61fccdeec6b05a58fbcdd7b1d0bbbe1f6999ea/header.jpg?t=1791552902",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669620/dc61fccdeec6b05a58fbcdd7b1d0bbbe1f6999ea/header.jpg?t=1792417110",
    "desc": "Warhammer Survivors — это мрачная официальная игра на выживание в стиле bullet heaven от разработчиков Warhammer 40,000 Boltgun. Играйте более чем за 40 культовых персонажей вселенных Warhammer 40,000 и Warhammer Age of Sigmar и уничтожайте всех, кто несет смерть и разрушение.",
    "genres": [
     "Экшены",
@@ -808,30 +788,6 @@
    "source": "wiki"
   },
   {
-   "appid": 4171850,
-   "title": "Trees Hate You",
-   "date": "2026-11-16",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4171850/4550c09c2fa41435b7b695f31460bea297d4ce15/header.jpg?t=1787891955",
-   "desc": "Прогуляйтесь по самому худшему лесу с самыми отвратительными деревьями. Не доверяйте им. Деревья вас обманут. Они вас обидят. Сделают вам больно. Вот бы топор найти...",
-   "genres": [
-    "Приключенческие игры",
-    "Инди"
-   ],
-   "platforms": [
-    "PC",
-    "Linux"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Tykenn",
-   "price": "",
-   "url": "https://store.steampowered.com/app/4171850/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4171850/"
-   }
-  },
-  {
    "appid": "x-grand-theft-auto-vi",
    "title": "Grand Theft Auto VI",
    "date": "2026-11-19",
@@ -852,6 +808,29 @@
     "wiki": "https://ru.wikipedia.org/wiki/Grand_Theft_Auto_VI"
    },
    "source": "wiki"
+  },
+  {
+   "appid": 4523120,
+   "title": "Volvy’s Adventure: Reslimed",
+   "date": "2026-11-19",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4523120/bd01ad0f41f47272b6f1459de015d2494b24a422/header.jpg?t=1787755813",
+   "desc": "Volvy's Adventure: Reslimed — это захватывающий ремастер оригинального ремейка неизданного экшен-платформера, в котором главную роль играет самый известный талисман видеоигр всех времен.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "doinksoft",
+   "price": "180 руб.",
+   "url": "https://store.steampowered.com/app/4523120/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4523120/"
+   }
   },
   {
    "appid": "x-gothic-3-classic",
@@ -879,7 +858,7 @@
    "appid": 3161310,
    "title": "Hela: of Mice & Magic",
    "date": "2026-12-01",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3161310/868b1938e4540924707c8db978d494322757e28d/header.jpg?t=1792166722",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3161310/868b1938e4540924707c8db978d494322757e28d/header.jpg?t=1792483278",
    "desc": "Взгляните на мир глазами храброй маленькой мышки в этом очаровательном 3D-приключении. Изучайте пейзажи, вдохновленные севером Швеции, решайте головоломки и попробуйте творить добро в мире, где равно важны трогательные истории и красота природы.",
    "genres": [
     "Приключенческие игры"
@@ -1041,7 +1020,7 @@
    "appid": 2153760,
    "title": "Stronghold 4",
    "date": "2026-12-07",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2153760/5d606d9338c9b174c67c0bae53f2ec40392c80fb/header_alt_assets_3.jpg?t=1791543738",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2153760/954165955d8a2aa9827444bb1532cecea5b9c2dd/header_alt_assets_2.jpg?t=1792406841",
    "desc": "Нужно дерево! Вернитесь к истокам Stronghold в этом сюжетном приквеле легендарного симулятора замка. Погрузитесь в кинематографичную кампанию, отточите искусство осады благодаря новым механикам режима битвы и создайте собственный замок с помощью широкого выбора построек и декоративных элементов.",
    "genres": [
     "Симуляторы",
@@ -1110,30 +1089,6 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4452700/",
     "epic": "https://store.epicgames.com/ru/p/stagetour-ac5b2f"
-   }
-  },
-  {
-   "appid": 3660710,
-   "title": "Armatus",
-   "date": "2027-01-07",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3660710/b5b7ba15558e1c278799ff66092b2ff4b5decc20/header.jpg?t=1787845839",
-   "desc": "ARMATUS — roguelite-шутер от третьего лица, действия которого разворачиваются среди руин Парижа, населенных демонами. Станьте последним воином древнего ордена, чтобы с помощью сверхъестественных способностей и мощного оружия очистить город и отыскать затерянный путь к небесам — Темные ворота.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Ролевые игры"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Counterplay Games Inc",
-   "price": "",
-   "url": "https://store.steampowered.com/app/3660710/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/3660710/"
    }
   },
   {
@@ -1363,7 +1318,7 @@
    "appid": 1853440,
    "title": "Tropico 7",
    "date": "2027-01-28",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1853440/cfa41f10c2e878497d77e100f9be08224eb686b9/header.jpg?t=1792134372",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1853440/cfa41f10c2e878497d77e100f9be08224eb686b9/header.jpg?t=1792422518",
    "desc": "Разбогатей или сдохни! Tropico 7 снова предлагает попробовать себя в роли лидера островного государства. Эль Президенте ведет нацию (а заодно и свой счет в швейцарском банке) сквозь эпохи к процветанию и для этого готов буквально сдвинуть горы!",
    "genres": [
     "Строительство и менеджмент",
@@ -1459,10 +1414,36 @@
    "source": "wiki"
   },
   {
+   "appid": 2769570,
+   "title": "Fable",
+   "date": "2027-02-23",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2769570/d2ffd7e15a91f3e5485601d3d876988ba3a859d7/header.jpg?t=1788984944",
+   "desc": "Fable — будущая компьютерная игра в жанре ролевого экшена, разрабатываемая Playground Games в сотрудничестве с Eidos Montreal и Blizzard Entertainment и издаваемая Xbox Game Studios. Игра станет перезапуском серии Fable и будет выпущена для Windows, Xbox Series X/S и PlayStation 5. Релиз игры…",
+   "genres": [
+    "Экшен-RPG"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Xbox"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Playground Games",
+   "price": "",
+   "url": "https://store.steampowered.com/app/2769570/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/2769570/",
+    "wiki": "https://ru.wikipedia.org/wiki/Fable_%28%D0%B8%D0%B3%D1%80%D0%B0%2C_2027%29"
+   },
+   "source": "wiki"
+  },
+  {
    "appid": 1963680,
    "title": "GUNDAM ROGUE ORBIT",
    "date": "2027-03-04",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1963680/401a6de47a6fd341b81450034dc3b5d86e657ee3/header.jpg?t=1791425056",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1963680/401a6de47a6fd341b81450034dc3b5d86e657ee3/header.jpg?t=1792422532",
    "desc": "Стать пилотом — ваше призвание. Измените судьбу человечества в GUNDAM ROGUE ORBIT — динамичной экшн-игре, где мир Gundam предстает в новом свете. Вас ждут незабываемый, яркий сюжет и напряженные сражения.",
    "genres": [
     "Экшены",
@@ -1527,6 +1508,27 @@
    "links": {
     "steam": "https://store.steampowered.com/app/2141130/"
    }
+  },
+  {
+   "appid": "x-007-first-light",
+   "title": "007 First Light",
+   "date": "2027-03-18",
+   "image": "https://upload.wikimedia.org/wikipedia/en/2/2b/007_First_Light_%282026%29_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "007 First Light — компьютерная игра в жанре приключенческого экшена, разработанная и изданная компанией IO Interactive в сотрудничестве с Amazon MGM Studios и Eon Productions. Игра основана на серии книг Яна Флеминга и фильмов о британском разведчике Джеймсе Бонде. 007 First Light рассказывает…",
+   "genres": [
+    "Экшен-приключение"
+   ],
+   "platforms": [
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "IO Interactive",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/007_First_Light",
+   "links": {
+    "wiki": "https://ru.wikipedia.org/wiki/007_First_Light"
+   },
+   "source": "wiki"
   }
  ]
 }
