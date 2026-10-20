@@ -1,26 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-10-20T14:52:03+03:00",
+ "updatedAt": "2026-10-20T20:21:14+03:00",
  "posted": {
   "news": [
-   "33aea17e5a34",
-   "95400c5fe88e",
-   "9aa592b21d9d",
-   "8e30a3b44dd4",
-   "29136efae37c",
-   "1f72e9e12a89",
-   "eead98425d0f",
-   "d80faede0222",
-   "4d15200eebc0",
-   "96c03c68d14f",
-   "a6c2fd108bdc",
-   "eb29b50daca4",
-   "33856172ae1e",
-   "f360363f070e",
-   "de7ebccee70b",
-   "3fb218728539",
-   "399e45f88023",
-   "9a3910c0a379",
    "eab7a69978e2",
    "9c5f9685c69f",
    "13411375d18a",
@@ -502,7 +484,25 @@
    "01fdbc728b84",
    "2876391e3ede",
    "7ee62aae902f",
-   "b4be2cd17bd6"
+   "b4be2cd17bd6",
+   "d1a8934c0e1f",
+   "fa20a8c4add3",
+   "8c602d4a39c0",
+   "be019228ace3",
+   "a008b892ee0a",
+   "87e75bdf213d",
+   "9db40f7d0616",
+   "460d2a9df0fd",
+   "b655a96ad492",
+   "95d1738a291f",
+   "90f843d8ff6b",
+   "1cdc7c34514c",
+   "bb1fd68af958",
+   "d472b45ebebf",
+   "8c9edbed6c7f",
+   "6c4a5d89ebc3",
+   "76a60592f887",
+   "9acb1ef34be1"
   ],
   "deals": [
    "steam-246420:90",
@@ -576,7 +576,8 @@
    "steam-313120:60",
    "steam-234650:80",
    "steam-492720:75",
-   "steam-463530:75"
+   "steam-463530:75",
+   "steam-3247750:50"
   ],
   "freebies": [
    "epic-7ae00c3e89174012b175cc73b4737723:soon",
@@ -973,7 +974,6 @@
    "r6:2026-10-15"
   ],
   "videos": [
-   "y2WDkOiC1lg",
    "uaFovEelVwg",
    "oZGUq4_PNMQ",
    "LoqWKZ1kjio",
@@ -1472,7 +1472,8 @@
    "KOe1UXfHz5Y",
    "yfMDege80QQ",
    "9qJ0DNVYKS4",
-   "iyDFhcmGPA0"
+   "iyDFhcmGPA0",
+   "b5SEjc1GMYg"
   ],
   "releases": [
    "week:2026-W39",
@@ -1555,6 +1556,7 @@
  "dealPosts": [
   "2026-10-18T21:43+03:00",
   "2026-10-19T23:01+03:00",
-  "2026-10-20T14:52+03:00"
+  "2026-10-20T14:52+03:00",
+  "2026-10-20T20:21+03:00"
  ]
 }
