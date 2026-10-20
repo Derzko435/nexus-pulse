@@ -1,73 +1,7 @@
 {
- "updatedAt": "2026-10-20T20:34:06+03:00",
+ "updatedAt": "2026-10-21T00:56:03+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-131715",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Rising Bees",
-   "teamB": "G2 HEL",
-   "logoA": "https://files.bo3.gg/uploads/team/21548/image/webp-17bbdfca914f6717f691471bbb6e5f1c.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/21547/image/webp-b510a7d6c15098ad814739d4f3cd0487.webp",
-   "scoreA": 1,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "live",
-   "event": "LGC 2026 Rising",
-   "tier": "A",
-   "startsAt": "2026-10-20T19:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "euniverse_tv",
-     "lang": "en",
-     "official": true,
-     "label": "euniverse_tv"
-    },
-    {
-     "type": "twitch",
-     "channel": "otplol_",
-     "lang": "fr",
-     "official": true,
-     "label": "otplol_"
-    },
-    {
-     "type": "twitch",
-     "channel": "thunny",
-     "lang": "de",
-     "official": false,
-     "label": "thunny"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/rising-bees-vs-g2-hel-20-10-2026"
-  },
-  {
-   "id": "bo3-131869",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "PARIVISION",
-   "teamB": "fnatic",
-   "logoA": "https://files.bo3.gg/uploads/team/8171/image/webp-735594256ca5670882480debe25ffb69.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/786/image/ad89f7dc89e3fa6517672637f67cefb5.png",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "1win Private Club 2",
-   "tier": "A",
-   "startsAt": "2026-10-20T19:50:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "stariy_bog",
-     "lang": "ru",
-     "official": false,
-     "label": "stariy_bog"
-    }
-   ],
-   "url": "https://bo3.gg/matches/fnatic-vs-parivision-20-10-2026"
-  },
   {
    "id": "bo3-132457",
    "game": "Valorant",
@@ -164,7 +98,15 @@
    "event": "1win Private Club 2",
    "tier": "A",
    "startsAt": "2026-10-21T12:00:00+03:00",
-   "streams": [],
+   "streams": [
+    {
+     "type": "kick",
+     "channel": "oglgaming",
+     "lang": "en",
+     "official": false,
+     "label": "oglgaming"
+    }
+   ],
    "url": "https://bo3.gg/matches/magic-ru-vs-the-mongolz-21-10-2026"
   },
   {
@@ -193,6 +135,42 @@
     }
    ],
    "url": "https://bo3.gg/valorant/matches/dragon-ranger-gaming-vs-rare-atom-1-21-10-2026"
+  },
+  {
+   "id": "bo3-131871",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "fnatic",
+   "teamB": "PRIVATE",
+   "logoA": "https://files.bo3.gg/uploads/team/786/image/ad89f7dc89e3fa6517672637f67cefb5.png",
+   "logoB": "https://files.bo3.gg/uploads/team/25382/image/webp-2d11c53fbf204137bcf89754344dc25d.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "1win Private Club 2",
+   "tier": "A",
+   "startsAt": "2026-10-21T15:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/matches/private-vs-fnatic-21-10-2026"
+  },
+  {
+   "id": "bo3-131872",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "BIG",
+   "teamB": "PARIVISION",
+   "logoA": "https://files.bo3.gg/uploads/team/756/image/webp-4ced024b49ca43268e30797f61272016.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/8171/image/webp-735594256ca5670882480debe25ffb69.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "1win Private Club 2",
+   "tier": "A",
+   "startsAt": "2026-10-21T18:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/matches/big-vs-parivision-21-10-2026"
   },
   {
    "id": "bo3-132265",
@@ -862,33 +840,6 @@
    "url": "https://bo3.gg/dota2/matches/1win-dota2-vs-gamerlegion-dota2-24-10-2026"
   },
   {
-   "id": "bo3-132172",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "MOUZ",
-   "teamB": "Liquid",
-   "logoA": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
-   "logoB": "https://files.bo3.gg/uploads/team/790/image/webp-01cca8d35079cb4b21bc25268ac75bae.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "PGL Masters Bucharest 2026",
-   "tier": "S",
-   "startsAt": "2026-10-24T13:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/mouz-cs2-vs-liquid-24-10-2026"
-  },
-  {
    "id": "bo3-132173",
    "game": "CS2",
    "gameKey": "cs2",
@@ -916,6 +867,33 @@
    "url": "https://bo3.gg/matches/spirit-vs-betboom-team-24-10-2026"
   },
   {
+   "id": "bo3-132172",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "MOUZ",
+   "teamB": "Liquid",
+   "logoA": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
+   "logoB": "https://files.bo3.gg/uploads/team/790/image/webp-01cca8d35079cb4b21bc25268ac75bae.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PGL Masters Bucharest 2026",
+   "tier": "S",
+   "startsAt": "2026-10-24T13:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/mouz-cs2-vs-liquid-24-10-2026"
+  },
+  {
    "id": "bo3-132270",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -940,33 +918,6 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/team-yandex-vs-og-dota2-24-10-2026"
-  },
-  {
-   "id": "bo3-132174",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Vitality",
-   "teamB": "9z",
-   "logoA": "https://files.bo3.gg/uploads/team/667/image/webp-292c1f6c6dcfca35c7a52da7e02cef0a.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/324/image/webp-847d6324439266b5de80bcb2e23fa38e.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "PGL Masters Bucharest 2026",
-   "tier": "S",
-   "startsAt": "2026-10-24T16:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/vitality-vs-9z-24-10-2026"
   },
   {
    "id": "bo3-132175",
@@ -996,6 +947,33 @@
    "url": "https://bo3.gg/matches/legacy-br-vs-nemiga-24-10-2026"
   },
   {
+   "id": "bo3-132174",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Vitality",
+   "teamB": "9z",
+   "logoA": "https://files.bo3.gg/uploads/team/667/image/webp-292c1f6c6dcfca35c7a52da7e02cef0a.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/324/image/webp-847d6324439266b5de80bcb2e23fa38e.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PGL Masters Bucharest 2026",
+   "tier": "S",
+   "startsAt": "2026-10-24T16:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/vitality-vs-9z-24-10-2026"
+  },
+  {
    "id": "bo3-132176",
    "game": "CS2",
    "gameKey": "cs2",
@@ -1023,31 +1001,70 @@
    "url": "https://bo3.gg/matches/furia-vs-dendele-cs-24-10-2026"
   },
   {
-   "id": "bo3-132177",
+   "id": "bo3-131869",
    "game": "CS2",
    "gameKey": "cs2",
-   "teamA": "G2",
-   "teamB": "Natus Vincere",
-   "logoA": "https://files.bo3.gg/uploads/team/793/image/webp-8f844f6a25c797dfe74b411d147983ff.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/787/image/webp-ea9885f81f1572c7a6c9fb6cbf747c99.webp",
-   "scoreA": 0,
-   "scoreB": 0,
+   "teamA": "PARIVISION",
+   "teamB": "fnatic",
+   "logoA": "https://files.bo3.gg/uploads/team/8171/image/webp-735594256ca5670882480debe25ffb69.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/786/image/ad89f7dc89e3fa6517672637f67cefb5.png",
+   "scoreA": 2,
+   "scoreB": 1,
    "bo": 3,
-   "status": "upcoming",
-   "event": "PGL Masters Bucharest 2026",
-   "tier": "S",
-   "startsAt": "2026-10-24T19:00:00+03:00",
+   "status": "finished",
+   "event": "1win Private Club 2",
+   "tier": "A",
+   "startsAt": "2026-10-20T19:50:00+03:00",
    "streams": [
     {
      "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
+     "channel": "stariy_bog",
+     "lang": "ru",
+     "official": false,
+     "label": "stariy_bog"
     }
    ],
-   "url": "https://bo3.gg/matches/g2-vs-natus-vincere-24-10-2026"
+   "url": "https://bo3.gg/matches/fnatic-vs-parivision-20-10-2026"
+  },
+  {
+   "id": "bo3-131715",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Rising Bees",
+   "teamB": "G2 HEL",
+   "logoA": "https://files.bo3.gg/uploads/team/21548/image/webp-17bbdfca914f6717f691471bbb6e5f1c.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/21547/image/webp-b510a7d6c15098ad814739d4f3cd0487.webp",
+   "scoreA": 3,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "finished",
+   "event": "LGC 2026 Rising",
+   "tier": "A",
+   "startsAt": "2026-10-20T19:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "euniverse_tv",
+     "lang": "en",
+     "official": true,
+     "label": "euniverse_tv"
+    },
+    {
+     "type": "twitch",
+     "channel": "otplol_",
+     "lang": "fr",
+     "official": true,
+     "label": "otplol_"
+    },
+    {
+     "type": "twitch",
+     "channel": "thunny",
+     "lang": "de",
+     "official": false,
+     "label": "thunny"
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/rising-bees-vs-g2-hel-20-10-2026"
   },
   {
    "id": "bo3-131868",
@@ -1206,32 +1223,6 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/mental-rush-vs-sk-gaming-avarosa-19-10-2026"
-  },
-  {
-   "id": "bo3-131864",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "fnatic",
-   "teamB": "Liquid",
-   "logoA": "https://files.bo3.gg/uploads/team/786/image/ad89f7dc89e3fa6517672637f67cefb5.png",
-   "logoB": "https://files.bo3.gg/uploads/team/790/image/webp-01cca8d35079cb4b21bc25268ac75bae.webp",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "1win Private Club 2",
-   "tier": "A",
-   "startsAt": "2026-10-19T18:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "floppyacs",
-     "lang": "ru",
-     "official": false,
-     "label": "floppyacs"
-    }
-   ],
-   "url": "https://bo3.gg/matches/fnatic-vs-liquid-19-10-2026"
   },
   {
    "id": "bo3-130793",
@@ -1675,53 +1666,6 @@
     }
    ],
    "url": "https://bo3.gg/valorant/matches/team-vitality-vs-100-thieves-1-17-10-2026"
-  },
-  {
-   "id": "bo3-130791",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "FURIA",
-   "teamB": "Cloud9",
-   "logoA": "https://files.bo3.gg/uploads/team/17448/image/webp-c55d5f6b07157723e05297241a757f98.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17900/image/webp-555a7594938f97b1426a99e9cbbf4d83.webp",
-   "scoreA": 3,
-   "scoreB": 1,
-   "bo": 5,
-   "status": "finished",
-   "event": "Worlds 2026",
-   "tier": "S",
-   "startsAt": "2026-10-16T23:50:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "otplol_",
-     "lang": "fr",
-     "official": true,
-     "label": "otplol_"
-    },
-    {
-     "type": "twitch",
-     "channel": "esport2tv",
-     "lang": "hu",
-     "official": true,
-     "label": "esport2tv"
-    },
-    {
-     "type": "twitch",
-     "channel": "fortuna",
-     "lang": "sr",
-     "official": true,
-     "label": "fortuna"
-    },
-    {
-     "type": "twitch",
-     "channel": "hitpointcz",
-     "lang": "cs",
-     "official": true,
-     "label": "hitpointcz"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/furia-esports-lol-vs-cloud9-lol-16-10-2026"
   }
  ],
  "tournaments": [
@@ -1735,17 +1679,6 @@
    "end": "2026-10-24",
    "status": "current",
    "url": "https://bo3.gg/lol/tournaments/emea-masters-2026-summer"
-  },
-  {
-   "name": "LGC 2026 Rising",
-   "game": "LoL",
-   "gameKey": "lol",
-   "tier": "A",
-   "prize": 3365,
-   "start": "2026-10-11",
-   "end": "2026-10-28",
-   "status": "current",
-   "url": "https://bo3.gg/lol/tournaments/lgc-2026-rising"
   },
   {
    "name": "Worlds 2026",
