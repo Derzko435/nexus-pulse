@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T14:51:36+03:00",
+  "updatedAt": "2026-10-20T20:20:48+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -505,21 +505,21 @@
       "short_description": "Эль Президенте возвращается! Станьте грозным диктатором или миролюбивым слугой народа в островном государстве Тропико и пройдите вместе со своими согражданами через четыре разные эпохи."
     },
     {
-      "appid": "313120",
-      "name": "Stranded Deep",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/313120/header.jpg?t=1785441084",
+      "appid": "463530",
+      "name": "Empires of the Undergrowth",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/463530/header.jpg?t=1791278484",
       "genres": [
-        "Приключенческие игры",
-        "Инди"
+        "Симуляторы",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": true,
-        "linux": true
+        "linux": false
       },
       "metacritic": null,
-      "short_description": "Take the role of a plane crash survivor stranded somewhere in the Pacific Ocean. Come face to face with some of the most life threatening scenarios that will result in a different experience each time you play. Scavenge. Discover. Survive."
+      "short_description": "Командуйте армией муравьев в боях ранее невиданных масштабов, сочетающих стратегию в реальном времени и строительство базы. Неприступные гнезда, тактическое использование феромонов и стремительная эволюция – ключи к выживанию в опасном мире насекомых."
     },
     {
       "appid": "72176",
@@ -536,6 +536,24 @@
       "short_description": "",
       "catalogId": null,
       "curated": true
+    },
+    {
+      "appid": "5061040",
+      "name": "Quartermark",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5061040/e6fb20b2ac287c0407387bb11f667f6fe1d6abd1/header.jpg?t=1792478208",
+      "genres": [
+        "Инди",
+        "Ролевые игры",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Ваш отряд сражается сам. Кто в нём и что он несёт — решаете вы, и в этом вся игра. 12 героев, 9 ключевых слов, сплетающихся в золотые комбо, 100 карт, 440 гротескных 3D-монстров, 100 боссов и улучшения, способные уничтожить ваш лучший предмет."
     },
     {
       "appid": "5218590",
@@ -575,9 +593,45 @@
       "short_description": "Return to the orphanage Helena once called home after receiving a mysterious letter from a childhood friend. The orphanage was closed years ago after a mysterious fire. Now Helena relives unsettling memories as she explores and uncovers disturbing events that took place after she left."
     },
     {
+      "appid": "5352170",
+      "name": "Slitherlink: Line Logic",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5352170/d81fbd441e5cca9a2ab7acb19eecf9dafbe57411/header.jpg?t=1792479917",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A relaxing logic puzzle where you connect dots to make one loop, using the numbers as clues. Every puzzle has exactly one answer you can reach with logic alone, no guessing. Play the daily puzzle or choose from 12,000 more, Easy to Expert."
+    },
+    {
+      "appid": "1558620",
+      "name": "Mahjong Traveler",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1558620/1da703d883c3028eb5f7272cde7722cefe854558/header.jpg?t=1792464965",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Draw three tiles, flip one, walk that many steps. Build your tile bag like a deck, then beat each boss in a real game of mahjong. Mahjong Traveler is a cozy HD-2D pixel roguelite: cross the Four Winds Isles, patch the broken rules of mahjong, and reach the Sealed Abyss before the seal gives way."
+    },
+    {
       "appid": "4656000",
       "name": "BOMBANANA!",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1791542068",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1792506779",
       "genres": [
         "Казуальные игры",
         "Инди"
@@ -592,14 +646,13 @@
       "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
     },
     {
-      "appid": "1623730",
-      "name": "Palworld",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/6912f19c43a95ff5fe514eedd35e68bf12335459/header.jpg?t=1790336367",
+      "appid": "3645890",
+      "name": "GONE Fishing",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3645890/ccf41cdf893f47a5a692f05e2344df5e2fdeb3d9/header_alt_assets_0.jpg?t=1792492815",
       "genres": [
         "Экшены",
         "Приключенческие игры",
-        "Инди",
-        "Ролевые игры"
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -608,15 +661,13 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Собирайте удивительных существ — Палов — на просторах огромного мира, отправляйте их сражаться и трудиться на фабриках, стройте с их помощью здания и выращивайте плантации в этом абсолютно новом симуляторе выживания в открытом мире, поддерживающем совместный режим."
+      "short_description": "GONE Fishing — хоррор на выживание для 1–8 игроков, в котором вам с друзьями придётся объединиться, чтобы остаться в живых... с помощью рыбалки. Единственный способ выжить — утолять ненасытный голод озера, пока оно не поглотило вас. Сможете ли вы его утолить... или станете следующей жертвой?"
     },
     {
-      "appid": "3839910",
-      "name": "Only Fans",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3839910/875a5b6d6e1672a2da09f23288661ff613f37c35/header.jpg?t=1792465274",
+      "appid": "5327190",
+      "name": "Sloptoberfest",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5327190/ecb2b6cb745165f8b99785af6dc092d98229e918/header.jpg?t=1792496560",
       "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
         "Инди",
         "Симуляторы"
       ],
@@ -627,65 +678,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "&lt;Only Fans&gt; — это игра в жанре «поиск предметов», где вы будете искать объекты, похожие на грудь и ягодицы, в реабилитационном центре, заполненном вентиляторами."
-    },
-    {
-      "appid": "3308220",
-      "name": "Galatico",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3308220/f3e1a0a8b365b170d327ad2d634d7e5e845e8820/header.jpg?t=1792494625",
-      "genres": [
-        "Экшены",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Blast your way to the top of GALATICO, a high-tempo movement shooter inspired by the best shooters of the 90s. Dismantle the gatekeepers of the universe's most powerful technology: Portals. Clock-in… it's time to trim the fat from GALATICO."
-    },
-    {
-      "appid": "1783560",
-      "name": "The Last Caretaker",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1783560/684058b57eeffd521d8b5f94a026c9218ce74e58/header.jpg?t=1792479632",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы",
-        "Ранний доступ"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Исследуйте затонувшую Землю, восстанавливайте утраченные системы и взращивайте последние семена человеческой цивилизации в этой приключенческой игре в жанре выживания и крафтинга. Стройте, ищите ресурсы, защищайте человечество и отправляйте его к звездам."
-    },
-    {
-      "appid": "2929250",
-      "name": "over the hill",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/header.jpg?t=1792002879",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди",
-        "Гонки",
-        "Симуляторы",
-        "Спорт"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Откройте для себя мир в золотой век бездорожья. За рулем культовых внедорожников 60–80-х годов — в одиночку или с друзьями — покоряйте сложные трассы и исследуйте живописные места."
+      "short_description": "A chaotic festival tent simulator for up to 4 players. Run your own Oktoberfest beer tent, serve beer and food, expand your business, hire staff, brew your own beer, and sabotage the competition."
     }
   ]
 }

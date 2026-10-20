@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T14:51:41+03:00",
+  "updatedAt": "2026-10-20T20:20:53+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -23,16 +23,6 @@
       "steamAppId": "2183900"
     },
     {
-      "id": "steam-492720",
-      "title": "Tropico 6",
-      "store": "Steam",
-      "old": 2299,
-      "neu": 574,
-      "pct": 75,
-      "url": "https://store.steampowered.com/app/492720/",
-      "steamAppId": "492720"
-    },
-    {
       "id": "steam-463530",
       "title": "Empires of the Undergrowth",
       "store": "Steam",
@@ -53,54 +43,44 @@
       "steamAppId": "72176"
     },
     {
-      "id": "steam-5061040",
-      "title": "Quartermark",
+      "id": "steam-3247750",
+      "title": "Mycopunk",
       "store": "Steam",
-      "old": 64,
-      "neu": 38,
-      "pct": 41,
-      "url": "https://store.steampowered.com/app/5061040/",
-      "steamAppId": "5061040"
+      "old": 550,
+      "neu": 275,
+      "pct": 50,
+      "url": "https://store.steampowered.com/app/3247750/",
+      "steamAppId": "3247750"
     },
     {
-      "id": "steam-5218590",
-      "title": "Turrakata",
+      "id": "steam-4771440",
+      "title": "Camille Queen of Chess bots",
       "store": "Steam",
-      "old": 499,
-      "neu": 299,
+      "old": 1400,
+      "neu": 840,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5218590/",
-      "steamAppId": "5218590"
+      "url": "https://store.steampowered.com/app/4771440/",
+      "steamAppId": "4771440"
     },
     {
-      "id": "steam-5047760",
-      "title": "Conjurariun",
+      "id": "steam-1270580",
+      "title": "Mind Over Magic",
       "store": "Steam",
-      "old": 385,
-      "neu": 231,
+      "old": 449,
+      "neu": 269,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5047760/",
-      "steamAppId": "5047760"
+      "url": "https://store.steampowered.com/app/1270580/",
+      "steamAppId": "1270580"
     },
     {
-      "id": "steam-5352170",
-      "title": "Slitherlink: Line Logic",
+      "id": "steam-5374730",
+      "title": "Deep Drift Fishing",
       "store": "Steam",
       "old": 240,
       "neu": 144,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5352170/",
-      "steamAppId": "5352170"
-    },
-    {
-      "id": "steam-1558620",
-      "title": "Mahjong Traveler",
-      "store": "Steam",
-      "old": 240,
-      "neu": 144,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/1558620/",
-      "steamAppId": "1558620"
+      "url": "https://store.steampowered.com/app/5374730/",
+      "steamAppId": "5374730"
     },
     {
       "id": "steam-4656000",
@@ -113,14 +93,14 @@
       "steamAppId": "4656000"
     },
     {
-      "id": "steam-3645890",
-      "title": "GONE Fishing",
+      "id": "steam-5357630",
+      "title": "Lodebreaker",
       "store": "Steam",
-      "old": 299,
-      "neu": 200,
-      "pct": 33,
-      "url": "https://store.steampowered.com/app/3645890/",
-      "steamAppId": "3645890"
+      "old": 150,
+      "neu": 90,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5357630/",
+      "steamAppId": "5357630"
     },
     {
       "id": "steam-739630",
@@ -133,14 +113,34 @@
       "steamAppId": "739630"
     },
     {
-      "id": "steam-5327190",
-      "title": "Sloptoberfest",
+      "id": "steam-12260",
+      "title": "We Were Here Series",
       "store": "Steam",
-      "old": 445,
-      "neu": 311,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/5327190/",
-      "steamAppId": "5327190"
+      "old": 2545,
+      "neu": 1583,
+      "pct": 29,
+      "url": "https://store.steampowered.com/app/12260/",
+      "steamAppId": "12260"
+    },
+    {
+      "id": "steam-4131220",
+      "title": "AKIBA LOST - アキバロスト",
+      "store": "Steam",
+      "old": 1299,
+      "neu": 1039,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/4131220/",
+      "steamAppId": "4131220"
+    },
+    {
+      "id": "steam-1783560",
+      "title": "The Last Caretaker",
+      "store": "Steam",
+      "old": 1200,
+      "neu": 960,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/1783560/",
+      "steamAppId": "1783560"
     }
   ]
 }
