@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T20:20:53+03:00",
+  "updatedAt": "2026-10-21T00:44:36+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -23,16 +23,6 @@
       "steamAppId": "2183900"
     },
     {
-      "id": "steam-463530",
-      "title": "Empires of the Undergrowth",
-      "store": "Steam",
-      "old": 999,
-      "neu": 249,
-      "pct": 75,
-      "url": "https://store.steampowered.com/app/463530/",
-      "steamAppId": "463530"
-    },
-    {
       "id": "steam-72176",
       "title": "Atomic Heart - Ultimate Edition",
       "store": "Steam",
@@ -53,16 +43,6 @@
       "steamAppId": "3247750"
     },
     {
-      "id": "steam-4771440",
-      "title": "Camille Queen of Chess bots",
-      "store": "Steam",
-      "old": 1400,
-      "neu": 840,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/4771440/",
-      "steamAppId": "4771440"
-    },
-    {
       "id": "steam-1270580",
       "title": "Mind Over Magic",
       "store": "Steam",
@@ -73,14 +53,14 @@
       "steamAppId": "1270580"
     },
     {
-      "id": "steam-5374730",
-      "title": "Deep Drift Fishing",
+      "id": "steam-3331850",
+      "title": "Brush duel",
       "store": "Steam",
-      "old": 240,
-      "neu": 144,
+      "old": 255,
+      "neu": 153,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5374730/",
-      "steamAppId": "5374730"
+      "url": "https://store.steampowered.com/app/3331850/",
+      "steamAppId": "3331850"
     },
     {
       "id": "steam-4656000",
@@ -103,6 +83,26 @@
       "steamAppId": "5357630"
     },
     {
+      "id": "steam-5356840",
+      "title": "Fzzy Bzzy's The Beautiful Ones",
+      "store": "Steam",
+      "old": 99,
+      "neu": 59,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5356840/",
+      "steamAppId": "5356840"
+    },
+    {
+      "id": "steam-4015730",
+      "title": "Bunny Hopper",
+      "store": "Steam",
+      "old": 245,
+      "neu": 159,
+      "pct": 35,
+      "url": "https://store.steampowered.com/app/4015730/",
+      "steamAppId": "4015730"
+    },
+    {
       "id": "steam-739630",
       "title": "Phasmophobia",
       "store": "Steam",
@@ -123,6 +123,16 @@
       "steamAppId": "12260"
     },
     {
+      "id": "steam-4554330",
+      "title": "Побег от блогера",
+      "store": "Steam",
+      "old": 255,
+      "neu": 191,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/4554330/",
+      "steamAppId": "4554330"
+    },
+    {
       "id": "steam-4131220",
       "title": "AKIBA LOST - アキバロスト",
       "store": "Steam",
@@ -131,16 +141,6 @@
       "pct": 20,
       "url": "https://store.steampowered.com/app/4131220/",
       "steamAppId": "4131220"
-    },
-    {
-      "id": "steam-1783560",
-      "title": "The Last Caretaker",
-      "store": "Steam",
-      "old": 1200,
-      "neu": 960,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/1783560/",
-      "steamAppId": "1783560"
     }
   ]
 }
