@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T02:48:51+03:00",
+  "updatedAt": "2026-10-20T08:02:07+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -33,6 +33,16 @@
       "steamAppId": "492720"
     },
     {
+      "id": "steam-313120",
+      "title": "Stranded Deep",
+      "store": "Steam",
+      "old": 449,
+      "neu": 179,
+      "pct": 60,
+      "url": "https://store.steampowered.com/app/313120/",
+      "steamAppId": "313120"
+    },
+    {
       "id": "steam-72176",
       "title": "Atomic Heart - Ultimate Edition",
       "store": "Steam",
@@ -41,6 +51,26 @@
       "pct": 58,
       "url": "https://store.steampowered.com/app/72176/",
       "steamAppId": "72176"
+    },
+    {
+      "id": "steam-5218590",
+      "title": "Turrakata",
+      "store": "Steam",
+      "old": 499,
+      "neu": 299,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5218590/",
+      "steamAppId": "5218590"
+    },
+    {
+      "id": "steam-5047760",
+      "title": "Conjurariun",
+      "store": "Steam",
+      "old": 385,
+      "neu": 231,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5047760/",
+      "steamAppId": "5047760"
     },
     {
       "id": "steam-4656000",
@@ -53,34 +83,14 @@
       "steamAppId": "4656000"
     },
     {
-      "id": "steam-4633060",
-      "title": "Pareidolia",
+      "id": "steam-1623730",
+      "title": "Palworld",
       "store": "Steam",
-      "old": 195,
-      "neu": 117,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/4633060/",
-      "steamAppId": "4633060"
-    },
-    {
-      "id": "steam-4185740",
-      "title": "アオノアーティファクト+",
-      "store": "Steam",
-      "old": 150,
-      "neu": 90,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/4185740/",
-      "steamAppId": "4185740"
-    },
-    {
-      "id": "steam-3892270",
-      "title": "Казино с друзьями",
-      "store": "Steam",
-      "old": 320,
-      "neu": 198,
-      "pct": 38,
-      "url": "https://store.steampowered.com/app/3892270/",
-      "steamAppId": "3892270"
+      "old": 1100,
+      "neu": 770,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/1623730/",
+      "steamAppId": "1623730"
     },
     {
       "id": "steam-739630",
@@ -93,24 +103,14 @@
       "steamAppId": "739630"
     },
     {
-      "id": "steam-5336590",
-      "title": "Howling Woods",
+      "id": "steam-3839910",
+      "title": "Only Fans",
       "store": "Steam",
-      "old": 385,
-      "neu": 269,
+      "old": 99,
+      "neu": 69,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/5336590/",
-      "steamAppId": "5336590"
-    },
-    {
-      "id": "steam-3536520",
-      "title": "Warding Witches",
-      "store": "Steam",
-      "old": 590,
-      "neu": 442,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/3536520/",
-      "steamAppId": "3536520"
+      "url": "https://store.steampowered.com/app/3839910/",
+      "steamAppId": "3839910"
     },
     {
       "id": "steam-3308220",

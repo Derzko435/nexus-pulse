@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T02:48:46+03:00",
+  "updatedAt": "2026-10-20T08:02:02+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -505,23 +505,6 @@
       "short_description": "Эль Президенте возвращается! Станьте грозным диктатором или миролюбивым слугой народа в островном государстве Тропико и пройдите вместе со своими согражданами через четыре разные эпохи."
     },
     {
-      "appid": "313120",
-      "name": "Stranded Deep",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/313120/header.jpg?t=1785441084",
-      "genres": [
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Take the role of a plane crash survivor stranded somewhere in the Pacific Ocean. Come face to face with some of the most life threatening scenarios that will result in a different experience each time you play. Scavenge. Discover. Survive."
-    },
-    {
       "appid": "72176",
       "name": "Steam App 72176",
       "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/72176/header.jpg",
@@ -643,9 +626,9 @@
       "short_description": "Warding Witches offers a classic, unapologetic bullet hell shoot ‘em up challenge while also putting defense into players’ hands. Experience an adrenaline-filled flow alternating between attacking, defending and dodging, amplified by an intuitive scoring system that weaves into gameplay seamlessly."
     },
     {
-      "appid": "5329410",
-      "name": "Shark Tales: Reef Rogues",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5329410/9ffbec0caf7003291105666953c2a5ab931c2173/header.jpg?t=1792409823",
+      "appid": "3308220",
+      "name": "Galatico",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3308220/f3e1a0a8b365b170d327ad2d634d7e5e845e8820/header.jpg?t=1792446156",
       "genres": [
         "Экшены",
         "Инди"
@@ -657,16 +640,18 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Small fins. Big trouble. Battle underwater swarms solo, in four-player local co-op or Steam online co-op. Evolve oddball weapons, hunt buried stories and outfit a crew that looks as strange as it fights."
+      "short_description": "Blast your way to the top of GALATICO, a high-tempo movement shooter inspired by the best shooters of the 90s. Dismantle the gatekeepers of the universe's most powerful technology: Portals. Clock-in… it's time to trim the fat from GALATICO."
     },
     {
-      "appid": "4304900",
-      "name": "Big Dig",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304900/f70f4692753e297cd45617fed789c15ce5b1c4c6/header.jpg?t=1792418287",
+      "appid": "1783560",
+      "name": "The Last Caretaker",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1783560/684058b57eeffd521d8b5f94a026c9218ce74e58/header.jpg?t=1792410580",
       "genres": [
-        "Казуальные игры",
+        "Экшены",
+        "Приключенческие игры",
         "Инди",
-        "Стратегии"
+        "Симуляторы",
+        "Ранний доступ"
       ],
       "is_free": false,
       "platforms": {
@@ -675,7 +660,28 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Big Dig is a short incremental narrative game about digging up artifacts to help Mayor Dog win the election! Recover artifacts, grow your museum, and upgrade your tools while building a highway across the Animal Republic!"
+      "short_description": "Исследуйте затонувшую Землю, восстанавливайте утраченные системы и взращивайте последние семена человеческой цивилизации в этой приключенческой игре в жанре выживания и крафтинга. Стройте, ищите ресурсы, защищайте человечество и отправляйте его к звездам."
+    },
+    {
+      "appid": "2929250",
+      "name": "over the hill",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/header.jpg?t=1792002879",
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Гонки",
+        "Симуляторы",
+        "Спорт"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Откройте для себя мир в золотой век бездорожья. За рулем культовых внедорожников 60–80-х годов — в одиночку или с друзьями — покоряйте сложные трассы и исследуйте живописные места."
     }
   ]
 }
