@@ -1,33 +1,7 @@
 {
- "updatedAt": "2026-10-20T11:37:34+03:00",
+ "updatedAt": "2026-10-20T15:17:22+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-131866",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "PRIVATE",
-   "teamB": "Alliance",
-   "logoA": "https://files.bo3.gg/uploads/team/25382/image/webp-2d11c53fbf204137bcf89754344dc25d.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/8221/image/webp-8680a863eafafe6b38906048aedc0145.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "1win Private Club 2",
-   "tier": "A",
-   "startsAt": "2026-10-20T12:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "stariy_bog",
-     "lang": "ru",
-     "official": false,
-     "label": "stariy_bog"
-    }
-   ],
-   "url": "https://bo3.gg/matches/alliance-cs-vs-private-20-10-2026"
-  },
   {
    "id": "bo3-131867",
    "game": "CS2",
@@ -39,11 +13,19 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "1win Private Club 2",
    "tier": "A",
-   "startsAt": "2026-10-20T15:00:00+03:00",
-   "streams": [],
+   "startsAt": "2026-10-20T14:45:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "stariy_bog",
+     "lang": "ru",
+     "official": false,
+     "label": "stariy_bog"
+    }
+   ],
    "url": "https://bo3.gg/matches/liquid-vs-magic-ru-20-10-2026"
   },
   {
@@ -804,33 +786,6 @@
    "url": "https://bo3.gg/lol/matches/bilibili-gaming-lol-vs-koi-lol-24-10-2026"
   },
   {
-   "id": "bo3-132171",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "FUT",
-   "teamB": "TYLOO",
-   "logoA": "https://files.bo3.gg/uploads/team/20832/image/webp-3c31da5dd03e58f5041420c56c14ed52.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/757/image/17873415da0f03df35299283b43408d7.png",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "PGL Masters Bucharest 2026",
-   "tier": "S",
-   "startsAt": "2026-10-24T10:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/fut-cs2-vs-tyloo-cs-go-24-10-2026"
-  },
-  {
    "id": "bo3-132170",
    "game": "CS2",
    "gameKey": "cs2",
@@ -856,6 +811,33 @@
     }
    ],
    "url": "https://bo3.gg/matches/aurora-gaming-vs-the-mongolz-24-10-2026"
+  },
+  {
+   "id": "bo3-132171",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "FUT",
+   "teamB": "TYLOO",
+   "logoA": "https://files.bo3.gg/uploads/team/20832/image/webp-3c31da5dd03e58f5041420c56c14ed52.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/757/image/17873415da0f03df35299283b43408d7.png",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PGL Masters Bucharest 2026",
+   "tier": "S",
+   "startsAt": "2026-10-24T10:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/fut-cs2-vs-tyloo-cs-go-24-10-2026"
   },
   {
    "id": "bo3-132269",
@@ -884,33 +866,6 @@
    "url": "https://bo3.gg/dota2/matches/1win-dota2-vs-gamerlegion-dota2-24-10-2026"
   },
   {
-   "id": "bo3-132173",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Spirit",
-   "teamB": "BetBoom",
-   "logoA": "https://files.bo3.gg/uploads/team/654/image/webp-41b22d18a871d982f8ff87652bbb0fe6.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "PGL Masters Bucharest 2026",
-   "tier": "S",
-   "startsAt": "2026-10-24T13:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/spirit-vs-betboom-team-24-10-2026"
-  },
-  {
    "id": "bo3-132172",
    "game": "CS2",
    "gameKey": "cs2",
@@ -936,6 +891,33 @@
     }
    ],
    "url": "https://bo3.gg/matches/mouz-cs2-vs-liquid-24-10-2026"
+  },
+  {
+   "id": "bo3-132173",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Spirit",
+   "teamB": "BetBoom",
+   "logoA": "https://files.bo3.gg/uploads/team/654/image/webp-41b22d18a871d982f8ff87652bbb0fe6.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PGL Masters Bucharest 2026",
+   "tier": "S",
+   "startsAt": "2026-10-24T13:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/spirit-vs-betboom-team-24-10-2026"
   },
   {
    "id": "bo3-132270",
@@ -1016,6 +998,59 @@
     }
    ],
    "url": "https://bo3.gg/matches/vitality-vs-9z-24-10-2026"
+  },
+  {
+   "id": "bo3-132176",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "FURIA",
+   "teamB": "DENDELE",
+   "logoA": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/24956/image/webp-faa4b489f27e86c29c5d66ca95c14082.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PGL Masters Bucharest 2026",
+   "tier": "S",
+   "startsAt": "2026-10-24T19:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/furia-vs-dendele-cs-24-10-2026"
+  },
+  {
+   "id": "bo3-131866",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "PRIVATE",
+   "teamB": "Alliance",
+   "logoA": "https://files.bo3.gg/uploads/team/25382/image/webp-2d11c53fbf204137bcf89754344dc25d.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/8221/image/webp-8680a863eafafe6b38906048aedc0145.webp",
+   "scoreA": 2,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "finished",
+   "event": "1win Private Club 2",
+   "tier": "A",
+   "startsAt": "2026-10-20T12:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "stariy_bog",
+     "lang": "ru",
+     "official": false,
+     "label": "stariy_bog"
+    }
+   ],
+   "url": "https://bo3.gg/matches/alliance-cs-vs-private-20-10-2026"
   },
   {
    "id": "bo3-131865",
@@ -1213,53 +1248,6 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/karmine-corp-lol-vs-mvk-esports-18-10-2026"
-  },
-  {
-   "id": "bo3-131674",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "FURIA",
-   "teamB": "BetBoom",
-   "logoA": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
-   "scoreA": 3,
-   "scoreB": 2,
-   "bo": 5,
-   "status": "finished",
-   "event": "Thunderpick World Championship 2026",
-   "tier": "S",
-   "startsAt": "2026-10-18T19:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "thunderpicktv",
-     "lang": "en",
-     "official": true,
-     "label": "thunderpicktv"
-    },
-    {
-     "type": "twitch",
-     "channel": "fl0m",
-     "lang": "en",
-     "official": true,
-     "label": "fl0m"
-    },
-    {
-     "type": "twitch",
-     "channel": "psp1g",
-     "lang": "en",
-     "official": true,
-     "label": "psp1g"
-    },
-    {
-     "type": "twitch",
-     "channel": "travcs",
-     "lang": "en",
-     "official": true,
-     "label": "travcs"
-    }
-   ],
-   "url": "https://bo3.gg/matches/furia-vs-betboom-team-18-10-2026"
   },
   {
    "id": "bo3-129635",
@@ -1703,53 +1691,6 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/furia-esports-lol-vs-cloud9-lol-16-10-2026"
-  },
-  {
-   "id": "bo3-129633",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "100 Thieves",
-   "teamB": "G2 Esports",
-   "logoA": "https://files.bo3.gg/uploads/team/7298/image/webp-84f36fa520c3fb0bac0f97297ae2859e.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/7323/image/webp-a6b33ebec05ea1ac47e1e6bea746bdfc.webp",
-   "scoreA": 2,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "finished",
-   "event": "VALORANT Champions 2026",
-   "tier": "S",
-   "startsAt": "2026-10-16T13:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorant_fr",
-     "lang": "fr",
-     "official": true,
-     "label": "valorant_fr"
-    },
-    {
-     "type": "twitch",
-     "channel": "valorantesports_cn",
-     "lang": "zh",
-     "official": true,
-     "label": "valorantesports_cn"
-    },
-    {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": false,
-     "label": "valorant"
-    },
-    {
-     "type": "twitch",
-     "channel": "ohnepixel",
-     "lang": "en",
-     "official": false,
-     "label": "ohnepixel"
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/100-thieves-1-vs-g2-esports-16-10-2026"
   }
  ],
  "tournaments": [
