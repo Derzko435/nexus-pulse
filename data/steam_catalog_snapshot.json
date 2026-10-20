@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T08:02:02+03:00",
+  "updatedAt": "2026-10-20T14:51:36+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -437,7 +437,7 @@
     {
       "appid": "281990",
       "name": "Stellaris",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/25d064cea0721f8fc17627f40efbf1c9d2ba2adb/header_alt_assets_14_russian.jpg?t=1791480874",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/header.jpg?t=1791480874",
       "genres": [
         "Симуляторы",
         "Стратегии"
@@ -505,6 +505,23 @@
       "short_description": "Эль Президенте возвращается! Станьте грозным диктатором или миролюбивым слугой народа в островном государстве Тропико и пройдите вместе со своими согражданами через четыре разные эпохи."
     },
     {
+      "appid": "313120",
+      "name": "Stranded Deep",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/313120/header.jpg?t=1785441084",
+      "genres": [
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Take the role of a plane crash survivor stranded somewhere in the Pacific Ocean. Come face to face with some of the most life threatening scenarios that will result in a different experience each time you play. Scavenge. Discover. Survive."
+    },
+    {
       "appid": "72176",
       "name": "Steam App 72176",
       "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/72176/header.jpg",
@@ -519,6 +536,43 @@
       "short_description": "",
       "catalogId": null,
       "curated": true
+    },
+    {
+      "appid": "5218590",
+      "name": "Turrakata",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5218590/2678bcb6ff76cb8173c2d3c469b2b4285e269d45/header.jpg?t=1792458019",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Hustle is an open-world survival-crafting game and top-down shooter set on a tiny planet. You're a dude hunting down the guy who stole your red cap, exposing your ugly, putrid, bald head. Shoot, gather, craft, build, expand your map, dodge bullets and fight bosses to seek revenge."
+    },
+    {
+      "appid": "5047760",
+      "name": "Conjurariun",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5047760/5a6397e76f5f3646c29ba4e65531f1791df61eb1/header.jpg?t=1792450905",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Return to the orphanage Helena once called home after receiving a mysterious letter from a childhood friend. The orphanage was closed years ago after a mysterious fire. Now Helena relives unsettling memories as she explores and uncovers disturbing events that took place after she left."
     },
     {
       "appid": "4656000",
@@ -538,14 +592,14 @@
       "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
     },
     {
-      "appid": "4633060",
-      "name": "Pareidolia",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4633060/52761b4b5df21904946c843525053e57e84e5190/header.jpg?t=1792427543",
+      "appid": "1623730",
+      "name": "Palworld",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/6912f19c43a95ff5fe514eedd35e68bf12335459/header.jpg?t=1790336367",
       "genres": [
         "Экшены",
         "Приключенческие игры",
         "Инди",
-        "Симуляторы"
+        "Ролевые игры"
       ],
       "is_free": false,
       "platforms": {
@@ -554,47 +608,14 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Confront the games your own mind plays on you deep within a remote forest. Step out of your tent, set up your cameras, and gather clues. Remember: those silhouettes you see in the shadows might not just be your paranoia. The darkest corner of your mind is your deadliest enemy."
+      "short_description": "Собирайте удивительных существ — Палов — на просторах огромного мира, отправляйте их сражаться и трудиться на фабриках, стройте с их помощью здания и выращивайте плантации в этом абсолютно новом симуляторе выживания в открытом мире, поддерживающем совместный режим."
     },
     {
-      "appid": "4185740",
-      "name": "アオノアーティファクト+",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4185740/4a78470de599079456c11594d43bcb279f141232/header.jpg?t=1792421980",
-      "genres": [
-        "Экшены"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "&quot;Blue Artifact&quot; is a side-scrolling action game where Fran, a girl awakened deep underground in a research facility, uses magic to escape. Collect “treasures” within the facility to uncover the secrets of the research lab."
-    },
-    {
-      "appid": "3892270",
-      "name": "Казино с друзьями",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/395e6d7972474333a698b26f8aa5597bf38109a1/header.jpg?t=1792427976",
+      "appid": "3839910",
+      "name": "Only Fans",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3839910/875a5b6d6e1672a2da09f23288661ff613f37c35/header.jpg?t=1792465274",
       "genres": [
         "Приключенческие игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Кооперативная игра про исследование казино для 1–6 человек. У вас с друзьями один банковский счёт и огромный долг на всех: играйте, покупайте предметы и делайте глупости на пути к вершине башни казино. Накопите на квоту для ростовщика за 5 минут или пожалеете..."
-    },
-    {
-      "appid": "5336590",
-      "name": "Howling Woods",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5336590/1522f3ab0c5546ead3ee32787fc848475521e3ce/header.jpg?t=1792421416",
-      "genres": [
         "Казуальные игры",
         "Инди",
         "Симуляторы"
@@ -602,33 +623,16 @@
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "A cozy Halloween town builder. Lay out paths and plots in a clearing in the woods and the town takes care of the rest: crooked houses go up, curio shops open, and goblins, ghosts and witches move in. The spookier your town gets, the grander it grows. Nothing costs a thing. Every day is Halloween!"
-    },
-    {
-      "appid": "3536520",
-      "name": "Warding Witches",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3536520/2c4b758da5fe80dd19fde1886cb5bf1ace59aef7/header.jpg?t=1792422790",
-      "genres": [
-        "Экшены",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
         "mac": false,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Warding Witches offers a classic, unapologetic bullet hell shoot ‘em up challenge while also putting defense into players’ hands. Experience an adrenaline-filled flow alternating between attacking, defending and dodging, amplified by an intuitive scoring system that weaves into gameplay seamlessly."
+      "short_description": "&lt;Only Fans&gt; — это игра в жанре «поиск предметов», где вы будете искать объекты, похожие на грудь и ягодицы, в реабилитационном центре, заполненном вентиляторами."
     },
     {
       "appid": "3308220",
       "name": "Galatico",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3308220/f3e1a0a8b365b170d327ad2d634d7e5e845e8820/header.jpg?t=1792446156",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3308220/f3e1a0a8b365b170d327ad2d634d7e5e845e8820/header.jpg?t=1792494625",
       "genres": [
         "Экшены",
         "Инди"
@@ -645,7 +649,7 @@
     {
       "appid": "1783560",
       "name": "The Last Caretaker",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1783560/684058b57eeffd521d8b5f94a026c9218ce74e58/header.jpg?t=1792410580",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1783560/684058b57eeffd521d8b5f94a026c9218ce74e58/header.jpg?t=1792479632",
       "genres": [
         "Экшены",
         "Приключенческие игры",

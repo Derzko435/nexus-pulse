@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T08:02:07+03:00",
+  "updatedAt": "2026-10-20T14:51:41+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -33,14 +33,14 @@
       "steamAppId": "492720"
     },
     {
-      "id": "steam-313120",
-      "title": "Stranded Deep",
+      "id": "steam-463530",
+      "title": "Empires of the Undergrowth",
       "store": "Steam",
-      "old": 449,
-      "neu": 179,
-      "pct": 60,
-      "url": "https://store.steampowered.com/app/313120/",
-      "steamAppId": "313120"
+      "old": 999,
+      "neu": 249,
+      "pct": 75,
+      "url": "https://store.steampowered.com/app/463530/",
+      "steamAppId": "463530"
     },
     {
       "id": "steam-72176",
@@ -51,6 +51,16 @@
       "pct": 58,
       "url": "https://store.steampowered.com/app/72176/",
       "steamAppId": "72176"
+    },
+    {
+      "id": "steam-5061040",
+      "title": "Quartermark",
+      "store": "Steam",
+      "old": 64,
+      "neu": 38,
+      "pct": 41,
+      "url": "https://store.steampowered.com/app/5061040/",
+      "steamAppId": "5061040"
     },
     {
       "id": "steam-5218590",
@@ -73,6 +83,26 @@
       "steamAppId": "5047760"
     },
     {
+      "id": "steam-5352170",
+      "title": "Slitherlink: Line Logic",
+      "store": "Steam",
+      "old": 240,
+      "neu": 144,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5352170/",
+      "steamAppId": "5352170"
+    },
+    {
+      "id": "steam-1558620",
+      "title": "Mahjong Traveler",
+      "store": "Steam",
+      "old": 240,
+      "neu": 144,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/1558620/",
+      "steamAppId": "1558620"
+    },
+    {
       "id": "steam-4656000",
       "title": "BOMBANANA!",
       "store": "Steam",
@@ -83,14 +113,14 @@
       "steamAppId": "4656000"
     },
     {
-      "id": "steam-1623730",
-      "title": "Palworld",
+      "id": "steam-3645890",
+      "title": "GONE Fishing",
       "store": "Steam",
-      "old": 1100,
-      "neu": 770,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/1623730/",
-      "steamAppId": "1623730"
+      "old": 299,
+      "neu": 200,
+      "pct": 33,
+      "url": "https://store.steampowered.com/app/3645890/",
+      "steamAppId": "3645890"
     },
     {
       "id": "steam-739630",
@@ -103,44 +133,14 @@
       "steamAppId": "739630"
     },
     {
-      "id": "steam-3839910",
-      "title": "Only Fans",
+      "id": "steam-5327190",
+      "title": "Sloptoberfest",
       "store": "Steam",
-      "old": 99,
-      "neu": 69,
+      "old": 445,
+      "neu": 311,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/3839910/",
-      "steamAppId": "3839910"
-    },
-    {
-      "id": "steam-3308220",
-      "title": "Galatico",
-      "store": "Steam",
-      "old": 385,
-      "neu": 288,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/3308220/",
-      "steamAppId": "3308220"
-    },
-    {
-      "id": "steam-1783560",
-      "title": "The Last Caretaker",
-      "store": "Steam",
-      "old": 1200,
-      "neu": 960,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/1783560/",
-      "steamAppId": "1783560"
-    },
-    {
-      "id": "steam-2929250",
-      "title": "over the hill",
-      "store": "Steam",
-      "old": 1050,
-      "neu": 840,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/2929250/",
-      "steamAppId": "2929250"
+      "url": "https://store.steampowered.com/app/5327190/",
+      "steamAppId": "5327190"
     }
   ]
 }
