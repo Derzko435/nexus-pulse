@@ -1,99 +1,7 @@
 {
- "updatedAt": "2026-10-21T11:39:03+03:00",
+ "updatedAt": "2026-10-21T15:28:15+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-132458",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Any Questions",
-   "teamB": "World Sports Invictus Gaming",
-   "logoA": "https://files.bo3.gg/uploads/team/21733/image/webp-66d76e0073af161ad3174bd77f6806d6.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/23045/image/webp-e8c2992fad679abb1ae1618711b07c5d.webp",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "VCT Threshold China 2026",
-   "tier": "A",
-   "startsAt": "2026-10-21T09:25:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorantesports_cn",
-     "lang": "zh",
-     "official": true,
-     "label": "valorantesports_cn"
-    },
-    {
-     "type": "youtube",
-     "id": "yJbW1DqEJ7c",
-     "lang": "zh",
-     "official": false,
-     "label": "WOL vs AT - AQ vs WSIG - UR vs ODG - DRG vs RA - Week 1 - Day 1 - 2026 VCT CN Th"
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/any-questions-vs-world-sports-invictus-gaming-21-10-2026"
-  },
-  {
-   "id": "bo3-132459",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Unsettled Resentment",
-   "teamB": "Octagonal Disposition Gaming",
-   "logoA": "https://files.bo3.gg/uploads/team/24033/image/webp-bb680245148be5c497f0354b922c2a79.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/11007/image/webp-d996fbf21df53745712af0bbd38a8ad4.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "VCT Threshold China 2026",
-   "tier": "A",
-   "startsAt": "2026-10-21T11:45:00+03:00",
-   "streams": [
-    {
-     "type": "youtube",
-     "id": "yJbW1DqEJ7c",
-     "lang": "zh",
-     "official": false,
-     "label": "WOL vs AT - AQ vs WSIG - UR vs ODG - DRG vs RA - Week 1 - Day 1 - 2026 VCT CN Th"
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/unsettled-resentment-vlr-vs-octagonal-disposition-gaming-21-10-2026"
-  },
-  {
-   "id": "bo3-131870",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "The MongolZ",
-   "teamB": "magic",
-   "logoA": "https://files.bo3.gg/uploads/team/736/image/webp-499cad826b4cd83ce22f8bd2b13261d6.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/22218/image/webp-239b86baa849b6da4911c1df5e5a3220.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "1win Private Club 2",
-   "tier": "A",
-   "startsAt": "2026-10-21T12:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "stariy_bog",
-     "lang": "ru",
-     "official": false,
-     "label": "stariy_bog"
-    },
-    {
-     "type": "kick",
-     "channel": "oglgaming",
-     "lang": "en",
-     "official": false,
-     "label": "oglgaming"
-    }
-   ],
-   "url": "https://bo3.gg/matches/magic-ru-vs-the-mongolz-21-10-2026"
-  },
   {
    "id": "bo3-132460",
    "game": "Valorant",
@@ -102,13 +10,13 @@
    "teamB": "Rare Atom",
    "logoA": "https://files.bo3.gg/uploads/team/6339/image/webp-32ec625310f64b3b2f1e8644ddac0816.webp",
    "logoB": "https://files.bo3.gg/uploads/team/6333/image/webp-fd3b813c9ecaebb0d9f403ac77ee06d2.webp",
-   "scoreA": 0,
+   "scoreA": 1,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "VCT Threshold China 2026",
    "tier": "A",
-   "startsAt": "2026-10-21T13:45:00+03:00",
+   "startsAt": "2026-10-21T14:00:00+03:00",
    "streams": [
     {
      "type": "twitch",
@@ -116,6 +24,13 @@
      "lang": "zh",
      "official": true,
      "label": "valorantesports_cn"
+    },
+    {
+     "type": "youtube",
+     "id": "yJbW1DqEJ7c",
+     "lang": "zh",
+     "official": false,
+     "label": "WOL vs AT - AQ vs WSIG - UR vs ODG - DRG vs RA - Week 1 - Day 1 - 2026 VCT CN Th"
     }
    ],
    "url": "https://bo3.gg/valorant/matches/dragon-ranger-gaming-vs-rare-atom-1-21-10-2026"
@@ -131,10 +46,10 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "1win Private Club 2",
    "tier": "A",
-   "startsAt": "2026-10-21T15:00:00+03:00",
+   "startsAt": "2026-10-21T14:40:00+03:00",
    "streams": [
     {
      "type": "twitch",
@@ -442,6 +357,33 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/1win-dota2-vs-og-dota2-23-10-2026"
+  },
+  {
+   "id": "bo3-132463",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "Titan Esports Club",
+   "teamB": "Unsettled Resentment",
+   "logoA": "https://files.bo3.gg/uploads/team/9377/image/webp-3c207928ff7b24c93a41d02e6ba2d8f3.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/24033/image/webp-bb680245148be5c497f0354b922c2a79.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VCT Threshold China 2026",
+   "tier": "A",
+   "startsAt": "2026-10-23T12:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/tec-esports-vs-unsettled-resentment-vlr-23-10-2026"
   },
   {
    "id": "bo3-132268",
@@ -806,33 +748,6 @@
    "url": "https://bo3.gg/lol/matches/team-secret-whales-vs-lyon-gaming-24-10-2026"
   },
   {
-   "id": "bo3-132170",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Aurora",
-   "teamB": "The MongolZ",
-   "logoA": "https://files.bo3.gg/uploads/team/3598/image/webp-49b8df76b0d121cc89c760c1ec16ebea.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/736/image/webp-499cad826b4cd83ce22f8bd2b13261d6.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "PGL Masters Bucharest 2026",
-   "tier": "S",
-   "startsAt": "2026-10-24T10:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/aurora-gaming-vs-the-mongolz-24-10-2026"
-  },
-  {
    "id": "bo3-132171",
    "game": "CS2",
    "gameKey": "cs2",
@@ -860,6 +775,33 @@
    "url": "https://bo3.gg/matches/fut-cs2-vs-tyloo-cs-go-24-10-2026"
   },
   {
+   "id": "bo3-132170",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Aurora",
+   "teamB": "The MongolZ",
+   "logoA": "https://files.bo3.gg/uploads/team/3598/image/webp-49b8df76b0d121cc89c760c1ec16ebea.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/736/image/webp-499cad826b4cd83ce22f8bd2b13261d6.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PGL Masters Bucharest 2026",
+   "tier": "S",
+   "startsAt": "2026-10-24T10:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/aurora-gaming-vs-the-mongolz-24-10-2026"
+  },
+  {
    "id": "bo3-132269",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -884,33 +826,6 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/1win-dota2-vs-gamerlegion-dota2-24-10-2026"
-  },
-  {
-   "id": "bo3-132172",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "MOUZ",
-   "teamB": "Liquid",
-   "logoA": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
-   "logoB": "https://files.bo3.gg/uploads/team/790/image/webp-01cca8d35079cb4b21bc25268ac75bae.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "PGL Masters Bucharest 2026",
-   "tier": "S",
-   "startsAt": "2026-10-24T13:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/mouz-cs2-vs-liquid-24-10-2026"
   },
   {
    "id": "bo3-132173",
@@ -940,6 +855,33 @@
    "url": "https://bo3.gg/matches/spirit-vs-betboom-team-24-10-2026"
   },
   {
+   "id": "bo3-132172",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "MOUZ",
+   "teamB": "Liquid",
+   "logoA": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
+   "logoB": "https://files.bo3.gg/uploads/team/790/image/webp-01cca8d35079cb4b21bc25268ac75bae.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PGL Masters Bucharest 2026",
+   "tier": "S",
+   "startsAt": "2026-10-24T13:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/mouz-cs2-vs-liquid-24-10-2026"
+  },
+  {
    "id": "bo3-132270",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -964,33 +906,6 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/team-yandex-vs-og-dota2-24-10-2026"
-  },
-  {
-   "id": "bo3-132174",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Vitality",
-   "teamB": "9z",
-   "logoA": "https://files.bo3.gg/uploads/team/667/image/webp-292c1f6c6dcfca35c7a52da7e02cef0a.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/324/image/webp-847d6324439266b5de80bcb2e23fa38e.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "PGL Masters Bucharest 2026",
-   "tier": "S",
-   "startsAt": "2026-10-24T16:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/vitality-vs-9z-24-10-2026"
   },
   {
    "id": "bo3-132175",
@@ -1020,6 +935,60 @@
    "url": "https://bo3.gg/matches/legacy-br-vs-nemiga-24-10-2026"
   },
   {
+   "id": "bo3-132174",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Vitality",
+   "teamB": "9z",
+   "logoA": "https://files.bo3.gg/uploads/team/667/image/webp-292c1f6c6dcfca35c7a52da7e02cef0a.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/324/image/webp-847d6324439266b5de80bcb2e23fa38e.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PGL Masters Bucharest 2026",
+   "tier": "S",
+   "startsAt": "2026-10-24T16:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/vitality-vs-9z-24-10-2026"
+  },
+  {
+   "id": "bo3-132176",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "FURIA",
+   "teamB": "DENDELE",
+   "logoA": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/24956/image/webp-faa4b489f27e86c29c5d66ca95c14082.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PGL Masters Bucharest 2026",
+   "tier": "S",
+   "startsAt": "2026-10-24T19:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/furia-vs-dendele-cs-24-10-2026"
+  },
+  {
    "id": "bo3-132177",
    "game": "CS2",
    "gameKey": "cs2",
@@ -1045,6 +1014,98 @@
     }
    ],
    "url": "https://bo3.gg/matches/g2-vs-natus-vincere-24-10-2026"
+  },
+  {
+   "id": "bo3-131870",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "The MongolZ",
+   "teamB": "magic",
+   "logoA": "https://files.bo3.gg/uploads/team/736/image/webp-499cad826b4cd83ce22f8bd2b13261d6.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/22218/image/webp-239b86baa849b6da4911c1df5e5a3220.webp",
+   "scoreA": 2,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "finished",
+   "event": "1win Private Club 2",
+   "tier": "A",
+   "startsAt": "2026-10-21T12:10:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "stariy_bog",
+     "lang": "ru",
+     "official": false,
+     "label": "stariy_bog"
+    },
+    {
+     "type": "kick",
+     "channel": "oglgaming",
+     "lang": "en",
+     "official": false,
+     "label": "oglgaming"
+    }
+   ],
+   "url": "https://bo3.gg/matches/magic-ru-vs-the-mongolz-21-10-2026"
+  },
+  {
+   "id": "bo3-132459",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "Unsettled Resentment",
+   "teamB": "Octagonal Disposition Gaming",
+   "logoA": "https://files.bo3.gg/uploads/team/24033/image/webp-bb680245148be5c497f0354b922c2a79.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/11007/image/webp-d996fbf21df53745712af0bbd38a8ad4.webp",
+   "scoreA": 2,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "finished",
+   "event": "VCT Threshold China 2026",
+   "tier": "A",
+   "startsAt": "2026-10-21T12:10:00+03:00",
+   "streams": [
+    {
+     "type": "youtube",
+     "id": "yJbW1DqEJ7c",
+     "lang": "zh",
+     "official": false,
+     "label": "WOL vs AT - AQ vs WSIG - UR vs ODG - DRG vs RA - Week 1 - Day 1 - 2026 VCT CN Th"
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/unsettled-resentment-vlr-vs-octagonal-disposition-gaming-21-10-2026"
+  },
+  {
+   "id": "bo3-132458",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "Any Questions",
+   "teamB": "World Sports Invictus Gaming",
+   "logoA": "https://files.bo3.gg/uploads/team/21733/image/webp-66d76e0073af161ad3174bd77f6806d6.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/23045/image/webp-e8c2992fad679abb1ae1618711b07c5d.webp",
+   "scoreA": 2,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "finished",
+   "event": "VCT Threshold China 2026",
+   "tier": "A",
+   "startsAt": "2026-10-21T09:25:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorantesports_cn",
+     "lang": "zh",
+     "official": true,
+     "label": "valorantesports_cn"
+    },
+    {
+     "type": "youtube",
+     "id": "yJbW1DqEJ7c",
+     "lang": "zh",
+     "official": false,
+     "label": "WOL vs AT - AQ vs WSIG - UR vs ODG - DRG vs RA - Week 1 - Day 1 - 2026 VCT CN Th"
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/any-questions-vs-world-sports-invictus-gaming-21-10-2026"
   },
   {
    "id": "bo3-132457",
@@ -1222,32 +1283,6 @@
     }
    ],
    "url": "https://bo3.gg/matches/alliance-cs-vs-private-20-10-2026"
-  },
-  {
-   "id": "bo3-131865",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "PARIVISION",
-   "teamB": "magic",
-   "logoA": "https://files.bo3.gg/uploads/team/8171/image/webp-735594256ca5670882480debe25ffb69.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/22218/image/webp-239b86baa849b6da4911c1df5e5a3220.webp",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "1win Private Club 2",
-   "tier": "A",
-   "startsAt": "2026-10-19T20:20:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "stariy_bog",
-     "lang": "ru",
-     "official": false,
-     "label": "stariy_bog"
-    }
-   ],
-   "url": "https://bo3.gg/matches/parivision-vs-magic-ru-19-10-2026"
   },
   {
    "id": "bo3-131714",
@@ -1483,140 +1518,6 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/legion_stack-vs-team-lynx-17-10-2026"
-  },
-  {
-   "id": "bo3-132076",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Team Resilience",
-   "teamB": "Xtreme Gaming",
-   "logoA": "https://files.bo3.gg/uploads/team/23196/image/webp-782a48a1c8295170e0057a1b1ad46776.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/15776/image/webp-10e9cfcdcbb4a0192c4b328975ad6292.webp",
-   "scoreA": 1,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "BLAST SLAM IX China Closed Qualifier",
-   "tier": "A",
-   "startsAt": "2026-10-17T14:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "betboom_dota_ru2",
-     "lang": "ru",
-     "official": true,
-     "label": "betboom_dota_ru2"
-    },
-    {
-     "type": "twitch",
-     "channel": "bkop",
-     "lang": "en",
-     "official": false,
-     "label": "bkop"
-    },
-    {
-     "type": "youtube",
-     "id": "-pT1QsULi9o",
-     "lang": "en",
-     "official": false,
-     "label": "XTREME GAMING vs TEAM RESILIENCE | BLAST SLAM IX CHINA CQ"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/team-resilience-vs-xtreme-gaming-dota2-17-10-2026"
-  },
-  {
-   "id": "bo3-131755",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Dawn Bulls",
-   "teamB": "Team Lynx",
-   "logoA": "https://files.bo3.gg/uploads/team/25301/image/webp-1ee55fb4a6cc5b66498fe0efbc628b51.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/19913/image/webp-eb4baf0ea67469afd1b42b41ff2b0009.webp",
-   "scoreA": 1,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "DreamLeague Season 30: Western Europe Closed Qualifier",
-   "tier": "A",
-   "startsAt": "2026-10-17T13:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "esl_dota2",
-     "lang": "en",
-     "official": true,
-     "label": "esl_dota2"
-    },
-    {
-     "type": "youtube",
-     "id": "PoJHtw85L0w",
-     "lang": "en",
-     "official": true,
-     "label": "Dawn Bulls vs Team Lynx - DreamLeague Season 30 WEU Closed Qualifiers"
-    },
-    {
-     "type": "twitch",
-     "channel": "dota2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "dota2_maincast"
-    },
-    {
-     "type": "twitch",
-     "channel": "belonytv",
-     "lang": "uk",
-     "official": false,
-     "label": "belonytv"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/dawn-bulls-vs-team-lynx-17-10-2026"
-  },
-  {
-   "id": "bo3-129979",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "BNK FEARX",
-   "teamB": "Team WE",
-   "logoA": "https://files.bo3.gg/uploads/team/18335/image/webp-f44a8f9018d2af4430f5a3a75dfd2680.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17801/image/webp-0c5e150d9160c851916e2b4868d7696f.webp",
-   "scoreA": 3,
-   "scoreB": 1,
-   "bo": 5,
-   "status": "finished",
-   "event": "Demacia Cup Global Invitational 2026",
-   "tier": "S",
-   "startsAt": "2026-10-17T12:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "otplol_",
-     "lang": "fr",
-     "official": true,
-     "label": "otplol_"
-    },
-    {
-     "type": "twitch",
-     "channel": "nervarien",
-     "lang": "pl",
-     "official": true,
-     "label": "nervarien"
-    },
-    {
-     "type": "twitch",
-     "channel": "vivilatvia",
-     "lang": "ru",
-     "official": false,
-     "label": "vivilatvia"
-    },
-    {
-     "type": "twitch",
-     "channel": "narmomorn",
-     "lang": "ru",
-     "official": false,
-     "label": "narmomorn"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/fearx-lol-vs-team-we-17-10-2026"
   }
  ],
  "tournaments": [
