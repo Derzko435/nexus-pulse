@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T03:42:00+03:00",
+  "updatedAt": "2026-10-21T10:49:26+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -21,6 +21,16 @@
       "pct": 75,
       "url": "https://store.steampowered.com/app/2183900/",
       "steamAppId": "2183900"
+    },
+    {
+      "id": "steam-463530",
+      "title": "Empires of the Undergrowth",
+      "store": "Steam",
+      "old": 999,
+      "neu": 249,
+      "pct": 75,
+      "url": "https://store.steampowered.com/app/463530/",
+      "steamAppId": "463530"
     },
     {
       "id": "steam-72176",
@@ -63,14 +73,24 @@
       "steamAppId": "3331850"
     },
     {
-      "id": "steam-4656000",
-      "title": "BOMBANANA!",
+      "id": "steam-5074950",
+      "title": "Grurong Random Defense",
       "store": "Steam",
-      "old": 210,
-      "neu": 126,
+      "old": 200,
+      "neu": 120,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/4656000/",
-      "steamAppId": "4656000"
+      "url": "https://store.steampowered.com/app/5074950/",
+      "steamAppId": "5074950"
+    },
+    {
+      "id": "steam-5318420",
+      "title": "traitor gamble",
+      "store": "Steam",
+      "old": 155,
+      "neu": 93,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5318420/",
+      "steamAppId": "5318420"
     },
     {
       "id": "steam-5356840",
@@ -121,26 +141,6 @@
       "pct": 25,
       "url": "https://store.steampowered.com/app/4554330/",
       "steamAppId": "4554330"
-    },
-    {
-      "id": "steam-4131220",
-      "title": "AKIBA LOST - アキバロスト",
-      "store": "Steam",
-      "old": 1299,
-      "neu": 1039,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/4131220/",
-      "steamAppId": "4131220"
-    },
-    {
-      "id": "steam-1783560",
-      "title": "The Last Caretaker",
-      "store": "Steam",
-      "old": 1200,
-      "neu": 960,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/1783560/",
-      "steamAppId": "1783560"
     }
   ]
 }

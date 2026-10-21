@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T03:41:55+03:00",
+  "updatedAt": "2026-10-21T10:49:21+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -573,23 +573,6 @@
       "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
     },
     {
-      "appid": "5357630",
-      "name": "Lodebreaker",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5357630/8252d8e2f8b961ec92994f0fb32fdc4faf789a39/header.jpg?t=1792508009",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Lodebreaker is a colorful mining idle clicker. Smash mineral-rich rocks, upgrade your pickaxe, and recruit a crew that keeps digging while you're away. Discover rare specimens, beat timed Mega Blocks, and ascend for permanent bonuses as you push deeper."
-    },
-    {
       "appid": "5356840",
       "name": "Fzzy Bzzy's The Beautiful Ones",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5356840/6abaee3cda606a57dd258827d2a5dd4bbb5c5dbd/header.jpg?t=1792526538",
@@ -645,7 +628,7 @@
     {
       "appid": "4554330",
       "name": "Побег от блогера",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4554330/0a007fc323bcbd75a64640d2fcb091a01bf6c97e/header_russian.jpg?t=1792519210",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4554330/0a007fc323bcbd75a64640d2fcb091a01bf6c97e/header_russian.jpg?t=1792564504",
       "genres": [
         "Экшены",
         "Приключенческие игры",
@@ -663,7 +646,7 @@
     {
       "appid": "4131220",
       "name": "AKIBA LOST - アキバロスト",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131220/fd7c66f078eca6d2eba04cf046d1228874a3280f/header.jpg?t=1792508724",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131220/fd7c66f078eca6d2eba04cf046d1228874a3280f/header.jpg?t=1792565359",
       "genres": [
         "Приключенческие игры"
       ],
@@ -675,6 +658,26 @@
       },
       "metacritic": 81,
       "short_description": "13 лет назад шесть девушек исчезли в Акихабаре в нераскрытом деле «Похищение в Акибе». Дайки Синдзё объявляет живое-action-игру по этому инциденту, собирая шесть женщин, представляющих субкультуру Акихабары. Их история начинает проникать в реальность. Смогут ли завершить AKIBA LOST?"
+    },
+    {
+      "appid": "1783560",
+      "name": "The Last Caretaker",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1783560/684058b57eeffd521d8b5f94a026c9218ce74e58/header.jpg?t=1792479632",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы",
+        "Ранний доступ"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Исследуйте затонувшую Землю, восстанавливайте утраченные системы и взращивайте последние семена человеческой цивилизации в этой приключенческой игре в жанре выживания и крафтинга. Стройте, ищите ресурсы, защищайте человечество и отправляйте его к звездам."
     }
   ]
 }
