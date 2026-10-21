@@ -1,40 +1,7 @@
 {
- "updatedAt": "2026-10-21T20:41:40+03:00",
+ "updatedAt": "2026-10-22T00:59:48+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-131873",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "PRIVATE",
-   "teamB": "The MongolZ",
-   "logoA": "https://files.bo3.gg/uploads/team/25382/image/webp-2d11c53fbf204137bcf89754344dc25d.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/736/image/webp-499cad826b4cd83ce22f8bd2b13261d6.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "1win Private Club 2",
-   "tier": "A",
-   "startsAt": "2026-10-21T21:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "stariy_bog",
-     "lang": "ru",
-     "official": false,
-     "label": "stariy_bog"
-    },
-    {
-     "type": "kick",
-     "channel": "oglgaming",
-     "lang": "en",
-     "official": false,
-     "label": "oglgaming"
-    }
-   ],
-   "url": "https://bo3.gg/matches/the-mongolz-vs-private-21-10-2026"
-  },
   {
    "id": "bo3-132265",
    "game": "Dota 2",
@@ -87,6 +54,24 @@
     }
    ],
    "url": "https://bo3.gg/valorant/matches/keepbest-gaming-vs-wolves-esports-22-10-2026"
+  },
+  {
+   "id": "bo3-131874",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "BIG",
+   "teamB": "The MongolZ",
+   "logoA": "https://files.bo3.gg/uploads/team/756/image/webp-4ced024b49ca43268e30797f61272016.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/736/image/webp-499cad826b4cd83ce22f8bd2b13261d6.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "1win Private Club 2",
+   "tier": "A",
+   "startsAt": "2026-10-22T14:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/matches/big-vs-the-mongolz-22-10-2026"
   },
   {
    "id": "bo3-132275",
@@ -811,33 +796,6 @@
    "url": "https://bo3.gg/dota2/matches/1win-dota2-vs-gamerlegion-dota2-24-10-2026"
   },
   {
-   "id": "bo3-132172",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "MOUZ",
-   "teamB": "Liquid",
-   "logoA": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
-   "logoB": "https://files.bo3.gg/uploads/team/790/image/webp-01cca8d35079cb4b21bc25268ac75bae.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "PGL Masters Bucharest 2026",
-   "tier": "S",
-   "startsAt": "2026-10-24T13:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/mouz-cs2-vs-liquid-24-10-2026"
-  },
-  {
    "id": "bo3-132173",
    "game": "CS2",
    "gameKey": "cs2",
@@ -863,6 +821,33 @@
     }
    ],
    "url": "https://bo3.gg/matches/spirit-vs-betboom-team-24-10-2026"
+  },
+  {
+   "id": "bo3-132172",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "MOUZ",
+   "teamB": "Liquid",
+   "logoA": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
+   "logoB": "https://files.bo3.gg/uploads/team/790/image/webp-01cca8d35079cb4b21bc25268ac75bae.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PGL Masters Bucharest 2026",
+   "tier": "S",
+   "startsAt": "2026-10-24T13:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/mouz-cs2-vs-liquid-24-10-2026"
   },
   {
    "id": "bo3-132270",
@@ -891,33 +876,6 @@
    "url": "https://bo3.gg/dota2/matches/team-yandex-vs-og-dota2-24-10-2026"
   },
   {
-   "id": "bo3-132175",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Legacy",
-   "teamB": "Nemiga",
-   "logoA": "https://files.bo3.gg/uploads/team/8118/image/webp-e4a3b023443f1f3ba4ef588164e73111.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/655/image/webp-998a59d1bbae3fd5e32b1e46a3f6204e.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "PGL Masters Bucharest 2026",
-   "tier": "S",
-   "startsAt": "2026-10-24T16:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/legacy-br-vs-nemiga-24-10-2026"
-  },
-  {
    "id": "bo3-132174",
    "game": "CS2",
    "gameKey": "cs2",
@@ -943,6 +901,33 @@
     }
    ],
    "url": "https://bo3.gg/matches/vitality-vs-9z-24-10-2026"
+  },
+  {
+   "id": "bo3-132175",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Legacy",
+   "teamB": "Nemiga",
+   "logoA": "https://files.bo3.gg/uploads/team/8118/image/webp-e4a3b023443f1f3ba4ef588164e73111.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/655/image/webp-998a59d1bbae3fd5e32b1e46a3f6204e.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PGL Masters Bucharest 2026",
+   "tier": "S",
+   "startsAt": "2026-10-24T16:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/legacy-br-vs-nemiga-24-10-2026"
   },
   {
    "id": "bo3-132177",
@@ -997,6 +982,39 @@
     }
    ],
    "url": "https://bo3.gg/matches/furia-vs-dendele-cs-24-10-2026"
+  },
+  {
+   "id": "bo3-131873",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "PRIVATE",
+   "teamB": "The MongolZ",
+   "logoA": "https://files.bo3.gg/uploads/team/25382/image/webp-2d11c53fbf204137bcf89754344dc25d.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/736/image/webp-499cad826b4cd83ce22f8bd2b13261d6.webp",
+   "scoreA": 0,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "1win Private Club 2",
+   "tier": "A",
+   "startsAt": "2026-10-21T21:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "stariy_bog",
+     "lang": "ru",
+     "official": false,
+     "label": "stariy_bog"
+    },
+    {
+     "type": "kick",
+     "channel": "oglgaming",
+     "lang": "en",
+     "official": false,
+     "label": "oglgaming"
+    }
+   ],
+   "url": "https://bo3.gg/matches/the-mongolz-vs-private-21-10-2026"
   },
   {
    "id": "bo3-131872",
@@ -1282,39 +1300,6 @@
    "url": "https://bo3.gg/lol/matches/rising-bees-vs-g2-hel-20-10-2026"
   },
   {
-   "id": "bo3-131868",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "BIG",
-   "teamB": "The MongolZ",
-   "logoA": "https://files.bo3.gg/uploads/team/756/image/webp-4ced024b49ca43268e30797f61272016.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/736/image/webp-499cad826b4cd83ce22f8bd2b13261d6.webp",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "1win Private Club 2",
-   "tier": "A",
-   "startsAt": "2026-10-20T17:20:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "stariy_bog",
-     "lang": "ru",
-     "official": false,
-     "label": "stariy_bog"
-    },
-    {
-     "type": "kick",
-     "channel": "oglgaming",
-     "lang": "en",
-     "official": false,
-     "label": "oglgaming"
-    }
-   ],
-   "url": "https://bo3.gg/matches/the-mongolz-vs-big-20-10-2026"
-  },
-  {
    "id": "bo3-131714",
    "game": "LoL",
    "gameKey": "lol",
@@ -1454,53 +1439,6 @@
     }
    ],
    "url": "https://bo3.gg/valorant/matches/loud-vs-team-vitality-18-10-2026"
-  },
-  {
-   "id": "bo3-130792",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "MVK Esports",
-   "teamB": "FURIA",
-   "logoA": "https://files.bo3.gg/uploads/team/18361/image/webp-25dd839116820bd9fa92d0d56242126d.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17448/image/webp-c55d5f6b07157723e05297241a757f98.webp",
-   "scoreA": 3,
-   "scoreB": 1,
-   "bo": 5,
-   "status": "finished",
-   "event": "Worlds 2026",
-   "tier": "S",
-   "startsAt": "2026-10-17T21:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "ibai",
-     "lang": "es",
-     "official": true,
-     "label": "ibai"
-    },
-    {
-     "type": "twitch",
-     "channel": "otplol_",
-     "lang": "fr",
-     "official": true,
-     "label": "otplol_"
-    },
-    {
-     "type": "twitch",
-     "channel": "esport2tv",
-     "lang": "hu",
-     "official": true,
-     "label": "esport2tv"
-    },
-    {
-     "type": "twitch",
-     "channel": "tl_nero",
-     "lang": "el",
-     "official": true,
-     "label": "tl_nero"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/mvk-esports-vs-furia-esports-lol-17-10-2026"
   }
  ],
  "tournaments": [
