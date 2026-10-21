@@ -1,6 +1,31 @@
 {
- "updatedAt": "2026-10-20T11:40:25+03:00",
+ "updatedAt": "2026-10-21T11:42:17+03:00",
  "items": [
+  {
+   "appid": 2315050,
+   "title": "We Were Here Tomorrow",
+   "date": "2026-10-20",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2315050/1e74865089e86e73fe7abefec0f5b59c1ce48305/header_alt_assets_3.jpg?t=1792531815",
+   "desc": "Вы с напарником оказываетесь в загадочном комплексе Norček и не можете вспомнить, как сюда попали. Действуйте сообща и узнавайте тайны комплекса в асимметричном совместном приключении. Только вместе вы сможете изменить завтрашний день.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Казуальные игры"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Total Mayhem Games",
+   "price": "769 руб.",
+   "url": "https://store.steampowered.com/app/2315050/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/2315050/"
+   },
+   "reviews": 160
+  },
   {
    "appid": 1203620,
    "title": "Enshrouded",
@@ -25,7 +50,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/1203620/"
    },
-   "reviews": 96440
+   "reviews": 96684
   },
   {
    "appid": 2887580,
@@ -52,7 +77,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/2887580/"
    },
-   "reviews": 3810
+   "reviews": 3850
   },
   {
    "appid": 2929250,
@@ -78,7 +103,56 @@
    "links": {
     "steam": "https://store.steampowered.com/app/2929250/"
    },
-   "reviews": 2713
+   "reviews": 2909
+  },
+  {
+   "appid": 4954910,
+   "title": "Scam With Your Friends",
+   "date": "2026-10-15",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4954910/128effac3212fc1b92b4f6cd8891995df0d4b199/header.jpg?t=1792556475",
+   "desc": "Управляйте call-центром мошенников с друзьями. Используйте всё более абсурдные планы для развода ИИ абонентов на их денежные сбережения. Достигните суточной нормы, наводите хаос в офисе и выживите жесткую оценку результатов от своего яростного босса.",
+   "genres": [
+    "Экшены",
+    "Казуальные игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "JakeHub, Metater",
+   "price": "418 руб.",
+   "url": "https://store.steampowered.com/app/4954910/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4954910/"
+   },
+   "reviews": 2725
+  },
+  {
+   "appid": 3247750,
+   "title": "Mycopunk",
+   "date": "2026-10-20",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3247750/67b1dc819a93d4e855b213b518f25a9700f46434/header.jpg?t=1792530683",
+   "desc": "Пробивайтесь сквозь орды грибов в этом полностью кастомизируемом лутер-шутере. Вас ждут сотни улучшений, совместная сетевая игра на четверых и ветеран-таракан вам в наставники. Чего же вам ещё надо для счастья?",
+   "genres": [
+    "Экшены",
+    "Инди"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Pigeons at Play",
+   "price": "275 руб.",
+   "url": "https://store.steampowered.com/app/3247750/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/3247750/"
+   },
+   "reviews": 4185
   },
   {
    "appid": 4126040,
@@ -129,32 +203,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/2828710/"
    },
-   "reviews": 1643
-  },
-  {
-   "appid": 4954910,
-   "title": "Scam With Your Friends",
-   "date": "2026-10-15",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4954910/128effac3212fc1b92b4f6cd8891995df0d4b199/header.jpg?t=1792469490",
-   "desc": "Управляйте call-центром мошенников с друзьями. Используйте всё более абсурдные планы для развода ИИ абонентов на их денежные сбережения. Достигните суточной нормы, наводите хаос в офисе и выживите жесткую оценку результатов от своего яростного босса.",
-   "genres": [
-    "Экшены",
-    "Казуальные игры",
-    "Инди"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "JakeHub, Metater",
-   "price": "418 руб.",
-   "url": "https://store.steampowered.com/app/4954910/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4954910/"
-   },
-   "reviews": 2525
+   "reviews": 1752
   },
   {
    "appid": 892970,
@@ -184,105 +233,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/892970/"
    },
-   "reviews": 474594
-  },
-  {
-   "appid": 3569420,
-   "title": "Chained Beasts",
-   "date": "2026-10-15",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/be237edbd1bdbcf361d7b315d70e89fea3b5262a/header.jpg?t=1792472187",
-   "desc": "Chained Beasts — кооперативный гладиаторский рогалик для 1–4 игроков. Вашим прикованным друг к другу бойцам придётся использовать свои цепи и окружение, превозмогать физические и ментальные травмы и побеждать грозных боссов, чтобы выжить и завоевать любовь кровожадной толпы.",
-   "genres": [
-    "Экшены"
-   ],
-   "platforms": [
-    "PC",
-    "Mac"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Featherweight Games",
-   "price": "555 руб.",
-   "url": "https://store.steampowered.com/app/3569420/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/3569420/"
-   },
-   "reviews": 586
-  },
-  {
-   "appid": 3883570,
-   "title": "Invokyr",
-   "date": "2026-10-08",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883570/a1d37fb2bf0de54d1746d1aa4b83fb7ca81700d8/header.jpg?t=1792307731",
-   "desc": "Забытая настолка в проклятом доме так и манит сыграть. Собирайте до 5 друзей, бросайте кубики и выживайте среди оживших кошмаров мастера игры. Рискните всем, используйте особые кости и одолейте зловещую игру, чтобы сбежать.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Инди"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Ludogram",
-   "price": "442 руб.",
-   "url": "https://store.steampowered.com/app/3883570/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/3883570/"
-   },
-   "reviews": 935
-  },
-  {
-   "appid": 2254990,
-   "title": "Permafrost",
-   "date": "2026-10-09",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2254990/693eff202c061aaecba330b44d76485a672bea97/header.jpg?t=1792439036",
-   "desc": "Permafrost — это «песочница» на выживание среди постапокалиптических льдов. Откройте для себя обширный открытый мир с богатой историей в одиночку или в кооперативном режиме до 4 игроков. Исследуйте, добывайте, создавайте и стройте, чтобы выжить в холоде.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Ролевые игры"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "SpaceRocket Games",
-   "price": "1439,20 руб.",
-   "url": "https://store.steampowered.com/app/2254990/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/2254990/"
-   },
-   "reviews": 1616
-  },
-  {
-   "appid": 5258340,
-   "title": "One Million Coins",
-   "date": "2026-10-13",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5258340/11ce91f7fb2c45add1b4607a0ba1c26b1c0fcd31/header.jpg?t=1792227077",
-   "desc": "Короткая, сфокусированная игра от первого лица с пошаговым майнингом. Покопайтесь в хранилище с миллионом монет, сохраните свой улов, купите более качественные инструменты и постройте еще более быструю операцию по сбору золота.",
-   "genres": [
-    "Казуальные игры",
-    "Инди"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "ShoXx",
-   "price": "112,58 руб.",
-   "url": "https://store.steampowered.com/app/5258340/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/5258340/"
-   },
-   "reviews": 317
+   "reviews": 474740
   },
   {
    "appid": 4732690,
@@ -307,6 +258,60 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4732690/"
    }
+  },
+  {
+   "appid": 3493540,
+   "title": "Transport Fever 3",
+   "date": "2026-09-29",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3493540/c2bdb7a47e8b4587ae28a21a99bf884c180da43f/header_alt_assets_0_russian.jpg?t=1791359026",
+   "desc": "Знаменитый симулятор транспортного магната Transport Fever 3 возвращается! Мир игры стал еще больше и динамичнее! Прокладывайте маршруты по суше, морю и небу, используя все транспортные возможности, созданные за целый век. Спроектируйте и постройте идеальную транспортную сеть. Измените мир!",
+   "genres": [
+    "Казуальные игры",
+    "Симуляторы",
+    "Стратегии"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Xbox",
+    "Mac",
+    "Linux"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Urban Games",
+   "price": "2290 руб.",
+   "url": "https://store.steampowered.com/app/3493540/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/3493540/"
+   },
+   "reviews": 6590
+  },
+  {
+   "appid": 2254990,
+   "title": "Permafrost",
+   "date": "2026-10-09",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2254990/693eff202c061aaecba330b44d76485a672bea97/header.jpg?t=1792439036",
+   "desc": "Permafrost — это «песочница» на выживание среди постапокалиптических льдов. Откройте для себя обширный открытый мир с богатой историей в одиночку или в кооперативном режиме до 4 игроков. Исследуйте, добывайте, создавайте и стройте, чтобы выжить в холоде.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Ролевые игры"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "SpaceRocket Games",
+   "price": "1439,20 руб.",
+   "url": "https://store.steampowered.com/app/2254990/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/2254990/"
+   },
+   "reviews": 1652
   },
   {
    "appid": "x-fallout-76",

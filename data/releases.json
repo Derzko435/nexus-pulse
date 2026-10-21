@@ -1,50 +1,30 @@
 {
- "updatedAt": "2026-10-20T11:40:00+03:00",
+ "updatedAt": "2026-10-21T11:41:49+03:00",
  "items": [
   {
-   "appid": "x-i-am-your-beast",
-   "title": "I Am Your Beast",
-   "date": "2026-10-20",
-   "image": "https://upload.wikimedia.org/wikipedia/en/7/73/I_Am_Your_Beast_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "desc": "I Am Your Beast — это видеоигра-шутер от первого лица 2024 года, разработанная и изданная Strange Scaffold. Он был выпущен для Windows в сентябре 2024 года, iOS в феврале 2025 года, PlayStation 5 и Xbox Series X/S в июне 2025 года, а для Nintendo Switch и Nintendo Switch 2 планируется выпустить его в…",
+   "appid": 3486530,
+   "title": "Stupid Never Dies",
+   "date": "2026-10-21",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3486530/06dd6216ce7739d9d5be7479c748b93c027cfb7c/header.jpg?t=1792407029",
+   "desc": "Превратите слабого зомби Дэйви в неудержимого бойца в экшен-RPG с молниеносной прокачкой! Пожирайте врагов, крадите их силы и спасите замёрзшую Джулию.",
    "genres": [
-    "Шутер от первого лица"
+    "Экшен-RPG"
    ],
    "platforms": [
-    "Switch"
-   ],
-   "stores": [],
-   "developer": "Strange Scaffold",
-   "price": "",
-   "url": "https://en.wikipedia.org/wiki/I_Am_Your_Beast",
-   "links": {
-    "wiki": "https://en.wikipedia.org/wiki/I_Am_Your_Beast"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": 2315050,
-   "title": "We Were Here Tomorrow",
-   "date": "2026-10-20",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2315050/0827a8808a48b7443d1b1cf6a558b7a9baebf010/header_alt_assets_2.jpg?t=1792482247",
-   "desc": "Вы с напарником оказываетесь в загадочном комплексе Norček и не можете вспомнить, как сюда попали. Действуйте сообща и узнавайте тайны комплекса в асимметричном совместном приключении. Только вместе вы сможете изменить завтрашний день.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Казуальные игры"
-   ],
-   "platforms": [
-    "PC"
+    "PC",
+    "PlayStation"
    ],
    "stores": [
     "Steam"
    ],
-   "developer": "Total Mayhem Games",
+   "developer": "GPTRACK50",
    "price": "",
-   "url": "https://store.steampowered.com/app/2315050/",
+   "url": "https://store.steampowered.com/app/3486530/",
    "links": {
-    "steam": "https://store.steampowered.com/app/2315050/"
-   }
+    "steam": "https://store.steampowered.com/app/3486530/",
+    "wiki": "https://en.wikipedia.org/wiki/Stupid_Never_Dies"
+   },
+   "source": "wiki"
   },
   {
    "appid": "x-back-to-dawn",
@@ -282,7 +262,7 @@
    "appid": 2295170,
    "title": "Emberville",
    "date": "2026-10-27",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2295170/99852482000e8eb5b7b75c52bf5f70406c6f6e5f/header.jpg?t=1792426937",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2295170/99852482000e8eb5b7b75c52bf5f70406c6f6e5f/header.jpg?t=1792550183",
    "desc": "Потеряв память, вы очнулись в огромном подземном мире. Вас приветствует Витромотус — магическое подземелье, где смерть — это новое начало. Погрузитесь в его глубины и узнайте правду об этой тюрьме, параллельно сражаясь с опасными тварями, помогая выжившим и отстраивая разрушенный город Эмбервилль.",
    "genres": [
     "Экшены",
@@ -356,7 +336,7 @@
    "appid": 4348910,
    "title": "Probably Stolen – симулятор магазина в киберпанке",
    "date": "2026-10-28",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/837d8597c8e8f6c8f75c4b35fc435d780803a922/header.jpg?t=1792411126",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/09235eea974e499dc428a727e80e54c99714da7b/header_alt_assets_2_russian.jpg?t=1792486911",
    "desc": "В этом симуляторе магазина на мрачной киберпанковой космической станции вы будете создавать полезные вещи из хлама, торговать (легально и не очень) товарами сомнительного происхождения и разбираться в отношениях между фракциями. Решайте сами, на что вы готовы пойти, чтобы остаться на плаву.",
    "genres": [
     "Инди",
@@ -424,6 +404,29 @@
    "links": {
     "steam": "https://store.steampowered.com/app/3672840/",
     "wiki": "https://ru.wikipedia.org/wiki/Joe_%26_Mac_Caveman_Ninja"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-mouthwashing",
+   "title": "Mouthwashing",
+   "date": "2026-10-29",
+   "image": "https://upload.wikimedia.org/wikipedia/en/6/64/Mouthwashing_header_image_on_Steam.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Mouthwashing — компьютерная игра в жанре психологического хоррора с элементами приключений, разработанная студией Wrong Organ и выпущенная Critical Reflex в 2024 году. Повествование ведётся от первого лица и рассказывает о пяти членах экипажа грузового космического корабля «Тулпар», оказавшихся в…",
+   "genres": [
+    "Приключение",
+    "Хоррор"
+   ],
+   "platforms": [
+    "PlayStation",
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Wrong Organ",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/Mouthwashing",
+   "links": {
+    "wiki": "https://ru.wikipedia.org/wiki/Mouthwashing"
    },
    "source": "wiki"
   },
@@ -506,7 +509,7 @@
    "appid": 3581230,
    "title": "Cozy Game Restoration",
    "date": "2026-11-04",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3581230/72723670e61f2e3c107ec8f34a4acb06a7e8db20/header.jpg?t=1791088648",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3581230/72723670e61f2e3c107ec8f34a4acb06a7e8db20/header.jpg?t=1792546462",
    "desc": "Cozy Game Restoration - это уютный медитативный симулятор, где вы возвращаете к жизни картриджи давно забытых видеоигр. Рвите упаковочную бумагу, снимайте старые наклейки, вычищайте скопившуюся грязь, и превращайте пыльные реликвии в ценные предметы вашей коллекции.",
    "genres": [
     "Казуальные игры",
@@ -623,7 +626,7 @@
    "appid": 3629430,
    "title": "DREADMOOR",
    "date": "2026-11-09",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3629430/5b80c132b3479c69a92c25a5266db523850cfc36/header.jpg?t=1792074071",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3629430/5b80c132b3479c69a92c25a5266db523850cfc36/header.jpg?t=1792485642",
    "desc": "DREADMOOR – мрачное рыболовное приключение от первого лица в затопленном мире, пережившем страшную катастрофу. Ловите рыбу в мутных водах, улучшайте свой катер, создавайте снаряжение для выживания и сражайтесь с чудовищами, что таятся под водой и на суше.",
    "genres": [
     "Экшены",
@@ -644,10 +647,32 @@
    }
   },
   {
+   "appid": 2523740,
+   "title": "DreamWorks Shrek 2 Remastered",
+   "date": "2026-11-10",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523740/abfa94e9a286146554386662e218aae82716711f/header.jpg?t=1792521295",
+   "desc": "DreamWorks Shrek 2 Remastered: The cult-classic, button-mashing co-op adventure is back with all your favorite characters and improved graphics.",
+   "genres": [
+    "Приключенческие игры"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Aspyr Media",
+   "price": "1260 руб.",
+   "url": "https://store.steampowered.com/app/2523740/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/2523740/"
+   }
+  },
+  {
    "appid": 4530370,
    "title": "Football Manager 27",
    "date": "2026-11-10",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/32b41d18ffaac3d2e1dc1a9c3915538db0ba3fca/header.jpg?t=1791379324",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/32b41d18ffaac3d2e1dc1a9c3915538db0ba3fca/header.jpg?t=1792493591",
    "desc": "Пользуйтесь тактической доской, бегите к бровке — все меняется ради того, чтобы управление становилось удобнее, а мир футбола — живее. Выходит 10 ноября.",
    "genres": [
     "Спортивный менеджер"
@@ -788,6 +813,30 @@
    "source": "wiki"
   },
   {
+   "appid": 4171850,
+   "title": "Trees Hate You",
+   "date": "2026-11-16",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4171850/4550c09c2fa41435b7b695f31460bea297d4ce15/header.jpg?t=1787891955",
+   "desc": "Прогуляйтесь по самому худшему лесу с самыми отвратительными деревьями. Не доверяйте им. Деревья вас обманут. Они вас обидят. Сделают вам больно. Вот бы топор найти...",
+   "genres": [
+    "Приключенческие игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC",
+    "Linux"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Tykenn",
+   "price": "",
+   "url": "https://store.steampowered.com/app/4171850/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4171850/"
+   }
+  },
+  {
    "appid": "x-grand-theft-auto-vi",
    "title": "Grand Theft Auto VI",
    "date": "2026-11-19",
@@ -808,29 +857,6 @@
     "wiki": "https://ru.wikipedia.org/wiki/Grand_Theft_Auto_VI"
    },
    "source": "wiki"
-  },
-  {
-   "appid": 4523120,
-   "title": "Volvy’s Adventure: Reslimed",
-   "date": "2026-11-19",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4523120/bd01ad0f41f47272b6f1459de015d2494b24a422/header.jpg?t=1787755813",
-   "desc": "Volvy's Adventure: Reslimed — это захватывающий ремастер оригинального ремейка неизданного экшен-платформера, в котором главную роль играет самый известный талисман видеоигр всех времен.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "doinksoft",
-   "price": "180 руб.",
-   "url": "https://store.steampowered.com/app/4523120/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4523120/"
-   }
   },
   {
    "appid": "x-gothic-3-classic",
@@ -893,13 +919,15 @@
     "PC"
    ],
    "stores": [
-    "Steam"
+    "Steam",
+    "Epic"
    ],
    "developer": "Pokuch",
    "price": "",
    "url": "https://store.steampowered.com/app/1209970/",
    "links": {
-    "steam": "https://store.steampowered.com/app/1209970/"
+    "steam": "https://store.steampowered.com/app/1209970/",
+    "epic": "https://store.epicgames.com/ru/p/blind-descent-b33fa1"
    }
   },
   {
@@ -1066,12 +1094,12 @@
   },
   {
    "appid": 4452700,
-   "title": "STAGE TOUR",
+   "title": "Stage Tour",
    "date": "2026-12-10",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4452700/7074777401ca32c928e7702567ee08c282ff7393/header.jpg?t=1791998650",
-   "desc": "Создайте свою группу, выходите на сцену и отправляйтесь в турне в Stage Tour, новой эволюции музыкальных ритм-игр. Слушайте более 90 официально лицензированных треков, разблокируйте более 180 аутентичных гитар Gibson®, Epiphone® и Kramer® и испытайте пять игровых режимов, включая совершенно новый режим рогалика Tour.",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4452700/7074777401ca32c928e7702567ee08c282ff7393/header.jpg?t=1792510556",
+   "desc": "Соберите группу, зажгите на сцене и отправьтесь в турне в Stage Tour — ритм-игре новой эры. Вас ждут свыше 90 лицензированных треков, более 180 настоящих гитар Gibson®, Epiphone® и Kramer® и новые стили игры. В комплекте новый рогалик-режим Tour Mode!",
    "genres": [
-    "Экшены"
+    "Ритм-игра"
    ],
    "platforms": [
     "PC",
@@ -1088,8 +1116,10 @@
    "url": "https://store.steampowered.com/app/4452700/",
    "links": {
     "steam": "https://store.steampowered.com/app/4452700/",
-    "epic": "https://store.epicgames.com/ru/p/stagetour-ac5b2f"
-   }
+    "epic": "https://store.epicgames.com/ru/p/stagetour-ac5b2f",
+    "wiki": "https://en.wikipedia.org/wiki/Stage_Tour"
+   },
+   "source": "wiki"
   },
   {
    "appid": "x-danganronpa-2-2",
@@ -1367,6 +1397,30 @@
    "source": "wiki"
   },
   {
+   "appid": 2659410,
+   "title": "Elta: Defy All Gods",
+   "date": "2027-02-02",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2659410/0fa44684db6c1ccfbbcc5d209bfc8a55b0c8565f/header_alt_assets_0_russian.jpg?t=1792418241",
+   "desc": "Выберитесь из оскверненных миров вместе со своим спутником, богом-драконом, в захватывающем экшен-платформере, сочетающим свободный ближний бой, динамичный платформинг и исследование мира в НФ-сеттинге. Станьте избранным своего падшего божества, Эльты.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Afterburner Studios",
+   "price": "1499 руб.",
+   "url": "https://store.steampowered.com/app/2659410/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/2659410/"
+   }
+  },
+  {
    "appid": 5097820,
    "title": "Astonishia Story",
    "date": "2027-02-11",
@@ -1414,32 +1468,6 @@
    "source": "wiki"
   },
   {
-   "appid": 2769570,
-   "title": "Fable",
-   "date": "2027-02-23",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2769570/d2ffd7e15a91f3e5485601d3d876988ba3a859d7/header.jpg?t=1788984944",
-   "desc": "Fable — будущая компьютерная игра в жанре ролевого экшена, разрабатываемая Playground Games в сотрудничестве с Eidos Montreal и Blizzard Entertainment и издаваемая Xbox Game Studios. Игра станет перезапуском серии Fable и будет выпущена для Windows, Xbox Series X/S и PlayStation 5. Релиз игры…",
-   "genres": [
-    "Экшен-RPG"
-   ],
-   "platforms": [
-    "PC",
-    "PlayStation",
-    "Xbox"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Playground Games",
-   "price": "",
-   "url": "https://store.steampowered.com/app/2769570/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/2769570/",
-    "wiki": "https://ru.wikipedia.org/wiki/Fable_%28%D0%B8%D0%B3%D1%80%D0%B0%2C_2027%29"
-   },
-   "source": "wiki"
-  },
-  {
    "appid": 1963680,
    "title": "GUNDAM ROGUE ORBIT",
    "date": "2027-03-04",
@@ -1466,7 +1494,7 @@
    "appid": 3255110,
    "title": "Grave Seasons",
    "date": "2027-03-09",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3255110/4147ac320e25fa3728e80dc0a14608d28a93d49a/header.jpg?t=1791997479",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3255110/4147ac320e25fa3728e80dc0a14608d28a93d49a/header.jpg?t=1792529260",
    "desc": "Grave Seasons — повествовательный фермерский симулятор с пугающим поворотом сюжета: кто-то в городе является сверхъестественным серийным убийцей. Занимайтесь фермерством, заводите романтические отношения и расследуйте тайны жуткого городка Эшенридж.",
    "genres": [
     "Инди",
@@ -1508,27 +1536,6 @@
    "links": {
     "steam": "https://store.steampowered.com/app/2141130/"
    }
-  },
-  {
-   "appid": "x-007-first-light",
-   "title": "007 First Light",
-   "date": "2027-03-18",
-   "image": "https://upload.wikimedia.org/wikipedia/en/2/2b/007_First_Light_%282026%29_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "desc": "007 First Light — компьютерная игра в жанре приключенческого экшена, разработанная и изданная компанией IO Interactive в сотрудничестве с Amazon MGM Studios и Eon Productions. Игра основана на серии книг Яна Флеминга и фильмов о британском разведчике Джеймсе Бонде. 007 First Light рассказывает…",
-   "genres": [
-    "Экшен-приключение"
-   ],
-   "platforms": [
-    "Switch"
-   ],
-   "stores": [],
-   "developer": "IO Interactive",
-   "price": "",
-   "url": "https://ru.wikipedia.org/wiki/007_First_Light",
-   "links": {
-    "wiki": "https://ru.wikipedia.org/wiki/007_First_Light"
-   },
-   "source": "wiki"
   }
  ]
 }
