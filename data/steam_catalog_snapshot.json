@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T21:46:09+03:00",
+  "updatedAt": "2026-10-22T02:27:56+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -488,6 +488,26 @@
       "short_description": "Обретите сверхчеловеческую мощь космодесантника. Пустите в ход смертоносные навыки и разрушительное оружие, чтобы истребить безжалостных тиранидов. Защитите Империум в ярких одиночных боях или многопользовательских режимах с видом от третьего лица."
     },
     {
+      "appid": "1066890",
+      "name": "Automobilista 2",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1066890/4ec180b6bc16ce430f12bfbc88f420c93cb48313/header.jpg?t=1781533387",
+      "genres": [
+        "Экшены",
+        "Инди",
+        "Гонки",
+        "Симуляторы",
+        "Спорт"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Automobilista 2 is all the racing simulators you ever wanted - in just one. An incredibly diverse collection of cars and tracks cohesively simulated, featuring incredible graphics and audio quality, dynamic weather and track conditions and the best VR support for a racing experience like no other."
+    },
+    {
       "appid": "72176",
       "name": "Steam App 72176",
       "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/72176/header.jpg",
@@ -506,7 +526,7 @@
     {
       "appid": "3247750",
       "name": "Mycopunk",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3247750/67b1dc819a93d4e855b213b518f25a9700f46434/header.jpg?t=1792530683",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3247750/67b1dc819a93d4e855b213b518f25a9700f46434/header.jpg?t=1792618981",
       "genres": [
         "Экшены",
         "Инди"
@@ -521,11 +541,13 @@
       "short_description": "Пробивайтесь сквозь орды грибов в этом полностью кастомизируемом лутер-шутере. Вас ждут сотни улучшений, совместная сетевая игра на четверых и ветеран-таракан вам в наставники. Чего же вам ещё надо для счастья?"
     },
     {
-      "appid": "1270580",
-      "name": "Mind Over Magic",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1270580/header.jpg?t=1790285397",
+      "appid": "3216230",
+      "name": "MEAT TRAIN",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3216230/20c9a63ae957f2463e3ad1f54610097d165a0c9b/header.jpg?t=1792597931",
       "genres": [
-        "Симуляторы"
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -534,7 +556,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Mind Over Magic is a colony sim set at the site of a cursed magic school. Build and optimize your own magical academy, train powerful Mages, and master mighty relics in order to battle through the Underschool, a mysterious underground dungeon that holds the key to liberation from a deadly curse."
+      "short_description": "Meat Train is a FPS game where you operate a train thats uses MEAT for FUEL. Explore a wasteland where everything wants you dead, scavenge for weapons and loot. Upgrade the train and attempt to destroy an evil AI megafactory."
     },
     {
       "appid": "4656000",
@@ -554,12 +576,12 @@
       "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
     },
     {
-      "appid": "5074950",
-      "name": "Grurong Random Defense",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5074950/a1b90fc8b825b1c547350cff0657b35e7bddc777/header.jpg?t=1792551892",
+      "appid": "5354400",
+      "name": "Sudoku Unlimited",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5354400/d4b4e871f7fdbbff081ed931bc812604bae206e6/header.jpg?t=1792595948",
       "genres": [
-        "Инди",
-        "Стратегии"
+        "Казуальные игры",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -568,41 +590,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Summon a random squad and hold the line for 100 waves. Every summon is a gamble — nine unit ranks, and the strongest ones are rare. Upgrade mid-run, break five boss waves, and spend what you earn on permanent upgrades. Let 80 enemies pile up on the field and it's over."
-    },
-    {
-      "appid": "5227910",
-      "name": "Messa Anomaly",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227910/f054c5d99bae50c631d3e15fdfa6b8d01c96833d/header.jpg?t=1792548894",
-      "genres": [
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Исследуйте каждый коридор, замечайте изменения и выбирайте правильный путь. Одна ошибка может затянуть вас глубже в ночную смену, которая никак не заканчивается."
-    },
-    {
-      "appid": "5318420",
-      "name": "traitor gamble",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5318420/54658283d08dd21d317281c20075ea37a6700fe7/header.jpg?t=1792566570",
-      "genres": [
-        "Казуальные игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Сетевая казино-вечеринка со скрытыми ролями для 2–8 игроков. Делайте ставки из общего банка в рулетке, блэкджеке, покере, крэпсе и слотах, чтобы достичь трёх растущих целей. Проверяйте ставки и разоблачайте предателей, которые тайно наживаются на потерях команды."
+      "short_description": "Отдохните в уютном саду судоку. Решайте классические головоломки и необычные варианты, учитесь с пошаговыми подсказками и открывайте новые пейзажи. Играйте вместе по сети или держите маленькое судоку рядом с другими приложениями."
     },
     {
       "appid": "3892270",
@@ -623,6 +611,24 @@
       "short_description": "Кооперативная игра про исследование казино для 1–6 человек. У вас с друзьями один банковский счёт и огромный долг на всех: играйте, покупайте предметы и делайте глупости на пути к вершине башни казино. Накопите на квоту для ростовщика за 5 минут или пожалеете..."
     },
     {
+      "appid": "5368910",
+      "name": "BOOMSWEEPER",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5368910/39f2f996623b746209704a24def1b2d6e36b3ce1/header.jpg?t=1792607419",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Классический «Сапёр» в виде инкрементальной игры. Расчищай, зарабатывай, улучшайся, нанимай бригаду и ныряй всё глубже в поля внутри полей. Одно неверное нажатие… БАБАХ."
+    },
+    {
       "appid": "4996960",
       "name": "Handle with Care!",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4996960/bc4e39764e55fed00f9509a92133eeb9bef8d8eb/header.jpg?t=1792587695",
@@ -641,12 +647,30 @@
       "short_description": "Кооперативная игра о доставке, где вы играете за крошечных почтовых работников в городе, который пытается вас убить. Доставляйте всё подряд, от гробов до тикающих бомб, спасайтесь от бешеных собак и обезумевших водителей и продержитесь в деле шесть дней, чтобы заслужить воскресную пинту."
     },
     {
-      "appid": "5305740",
-      "name": "Uncanny Train",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5305740/1f964b5d71f1530d0f8b85e145dd1b1d1987c36c/header.jpg?t=1792563383",
+      "appid": "12260",
+      "name": "Steam App 12260",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/12260/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
+    },
+    {
+      "appid": "5101820",
+      "name": "カスペナ～カスタムペナント野球",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5101820/e9e9f35f9e7c34670d9e4f3883ccd6d5da4cbd76/header.jpg?t=1792595100",
       "genres": [
         "Инди",
-        "Симуляторы"
+        "Симуляторы",
+        "Спорт",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
@@ -655,28 +679,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "A horror puzzle walking simulator. Trapped aboard a strange train, your goal is to reach Carriage -1. Along the way, you will encounter eerie anomalies and solve environmental puzzles. Headphones are recommended for full immersion."
-    },
-    {
-      "appid": "2929250",
-      "name": "over the hill",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/header.jpg?t=1792002879",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди",
-        "Гонки",
-        "Симуляторы",
-        "Спорт"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Откройте для себя мир в золотой век бездорожья. За рулем культовых внедорожников 60–80-х годов — в одиночку или с друзьями — покоряйте сложные трассы и исследуйте живописные места."
+      "short_description": "Draft prospects, develop your players and build a championship club. Set lineups, negotiate contracts and manage your budget in this baseball management sim. Discover hidden prospects, invest in your town and customize your league. Watch games without direct player control."
     }
   ]
 }
