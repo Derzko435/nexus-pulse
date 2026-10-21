@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T10:49:26+03:00",
+  "updatedAt": "2026-10-21T16:57:13+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -21,16 +21,6 @@
       "pct": 75,
       "url": "https://store.steampowered.com/app/2183900/",
       "steamAppId": "2183900"
-    },
-    {
-      "id": "steam-463530",
-      "title": "Empires of the Undergrowth",
-      "store": "Steam",
-      "old": 999,
-      "neu": 249,
-      "pct": 75,
-      "url": "https://store.steampowered.com/app/463530/",
-      "steamAppId": "463530"
     },
     {
       "id": "steam-72176",
@@ -63,14 +53,14 @@
       "steamAppId": "1270580"
     },
     {
-      "id": "steam-3331850",
-      "title": "Brush duel",
+      "id": "steam-4656000",
+      "title": "BOMBANANA!",
       "store": "Steam",
-      "old": 255,
-      "neu": 153,
+      "old": 210,
+      "neu": 126,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/3331850/",
-      "steamAppId": "3331850"
+      "url": "https://store.steampowered.com/app/4656000/",
+      "steamAppId": "4656000"
     },
     {
       "id": "steam-5074950",
@@ -83,6 +73,16 @@
       "steamAppId": "5074950"
     },
     {
+      "id": "steam-5227910",
+      "title": "Messa Anomaly",
+      "store": "Steam",
+      "old": 200,
+      "neu": 120,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5227910/",
+      "steamAppId": "5227910"
+    },
+    {
       "id": "steam-5318420",
       "title": "traitor gamble",
       "store": "Steam",
@@ -93,24 +93,14 @@
       "steamAppId": "5318420"
     },
     {
-      "id": "steam-5356840",
-      "title": "Fzzy Bzzy's The Beautiful Ones",
+      "id": "steam-3892270",
+      "title": "Казино с друзьями",
       "store": "Steam",
-      "old": 99,
-      "neu": 59,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5356840/",
-      "steamAppId": "5356840"
-    },
-    {
-      "id": "steam-4015730",
-      "title": "Bunny Hopper",
-      "store": "Steam",
-      "old": 245,
-      "neu": 159,
-      "pct": 35,
-      "url": "https://store.steampowered.com/app/4015730/",
-      "steamAppId": "4015730"
+      "old": 320,
+      "neu": 198,
+      "pct": 38,
+      "url": "https://store.steampowered.com/app/3892270/",
+      "steamAppId": "3892270"
     },
     {
       "id": "steam-739630",
@@ -123,24 +113,34 @@
       "steamAppId": "739630"
     },
     {
-      "id": "steam-12260",
-      "title": "We Were Here Series",
+      "id": "steam-4996960",
+      "title": "Handle with Care!",
       "store": "Steam",
-      "old": 2545,
-      "neu": 1583,
-      "pct": 29,
-      "url": "https://store.steampowered.com/app/12260/",
-      "steamAppId": "12260"
+      "old": 335,
+      "neu": 234,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/4996960/",
+      "steamAppId": "4996960"
     },
     {
-      "id": "steam-4554330",
-      "title": "Побег от блогера",
+      "id": "steam-5305740",
+      "title": "Uncanny Train",
       "store": "Steam",
-      "old": 255,
-      "neu": 191,
+      "old": 135,
+      "neu": 101,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/4554330/",
-      "steamAppId": "4554330"
+      "url": "https://store.steampowered.com/app/5305740/",
+      "steamAppId": "5305740"
+    },
+    {
+      "id": "steam-2929250",
+      "title": "over the hill",
+      "store": "Steam",
+      "old": 1050,
+      "neu": 840,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/2929250/",
+      "steamAppId": "2929250"
     }
   ]
 }

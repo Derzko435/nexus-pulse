@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T10:49:21+03:00",
+  "updatedAt": "2026-10-21T16:57:08+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -488,6 +488,23 @@
       "short_description": "Обретите сверхчеловеческую мощь космодесантника. Пустите в ход смертоносные навыки и разрушительное оружие, чтобы истребить безжалостных тиранидов. Защитите Империум в ярких одиночных боях или многопользовательских режимах с видом от третьего лица."
     },
     {
+      "appid": "463530",
+      "name": "Empires of the Undergrowth",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/463530/header.jpg?t=1791278484",
+      "genres": [
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Командуйте армией муравьев в боях ранее невиданных масштабов, сочетающих стратегию в реальном времени и строительство базы. Неприступные гнезда, тактическое использование феромонов и стремительная эволюция – ключи к выживанию в опасном мире насекомых."
+    },
+    {
       "appid": "72176",
       "name": "Steam App 72176",
       "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/72176/header.jpg",
@@ -556,21 +573,37 @@
       "short_description": "Художественные баттлы 1 на 1: два игрока получают одну и ту же картину и пять минут на рисование, а игра сама решает, чья работа ближе к оригиналу. Шедевры и мемы, дуэли с друзьями и одиночные тренировки."
     },
     {
-      "appid": "4656000",
-      "name": "BOMBANANA!",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1792506779",
+      "appid": "5074950",
+      "name": "Grurong Random Defense",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5074950/a1b90fc8b825b1c547350cff0657b35e7bddc777/header.jpg?t=1792551892",
       "genres": [
-        "Казуальные игры",
-        "Инди"
+        "Инди",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
+        "mac": false,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
+      "short_description": "Summon a random squad and hold the line for 100 waves. Every summon is a gamble — nine unit ranks, and the strongest ones are rare. Upgrade mid-run, break five boss waves, and spend what you earn on permanent upgrades. Let 80 enemies pile up on the field and it's over."
+    },
+    {
+      "appid": "5318420",
+      "name": "traitor gamble",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5318420/54658283d08dd21d317281c20075ea37a6700fe7/header.jpg?t=1792566570",
+      "genres": [
+        "Казуальные игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Сетевая казино-вечеринка со скрытыми ролями для 2–8 игроков. Делайте ставки из общего банка в рулетке, блэкджеке, покере, крэпсе и слотах, чтобы достичь трёх растущих целей. Проверяйте ставки и разоблачайте предателей, которые тайно наживаются на потерях команды."
     },
     {
       "appid": "5356840",
@@ -642,42 +675,6 @@
       },
       "metacritic": null,
       "short_description": "Ты пробрался в дом популярного блогера и решил узнать все его секреты, но не всё так просто! Он запирает тебя и тебе нужно постараться, чтобы выбраться! Прячься, решай квесты-головоломки и соверши побег из дома блогера в хоррор игре!"
-    },
-    {
-      "appid": "4131220",
-      "name": "AKIBA LOST - アキバロスト",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131220/fd7c66f078eca6d2eba04cf046d1228874a3280f/header.jpg?t=1792565359",
-      "genres": [
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": 81,
-      "short_description": "13 лет назад шесть девушек исчезли в Акихабаре в нераскрытом деле «Похищение в Акибе». Дайки Синдзё объявляет живое-action-игру по этому инциденту, собирая шесть женщин, представляющих субкультуру Акихабары. Их история начинает проникать в реальность. Смогут ли завершить AKIBA LOST?"
-    },
-    {
-      "appid": "1783560",
-      "name": "The Last Caretaker",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1783560/684058b57eeffd521d8b5f94a026c9218ce74e58/header.jpg?t=1792479632",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы",
-        "Ранний доступ"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Исследуйте затонувшую Землю, восстанавливайте утраченные системы и взращивайте последние семена человеческой цивилизации в этой приключенческой игре в жанре выживания и крафтинга. Стройте, ищите ресурсы, защищайте человечество и отправляйте его к звездам."
     }
   ]
 }
