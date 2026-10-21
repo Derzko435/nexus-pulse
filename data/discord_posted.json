@@ -1,22 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-10-21T21:46:36+03:00",
+ "updatedAt": "2026-10-22T01:01:05+03:00",
  "posted": {
   "news": [
-   "91a1f86d33ef",
-   "d985bda932da",
-   "27aed02f1c78",
-   "ac5f040a4d69",
-   "dd13db1c8cda",
-   "ab6321269ee3",
-   "5417690663f7",
-   "d23de52cc7c2",
-   "844838a19bf8",
-   "01fe08922149",
-   "c8442a878f68",
-   "2fd5e3d3698a",
-   "f6977c1c8b88",
-   "454b3315bbaf",
    "42eb2f919d65",
    "77454187306f",
    "7083f916ce16",
@@ -502,7 +488,21 @@
    "f21df7c63f12",
    "41481306de12",
    "12c41ec5cda3",
-   "05a3c35fd03a"
+   "05a3c35fd03a",
+   "506158760779",
+   "763f3e7a3886",
+   "0320122182dc",
+   "8973912f8152",
+   "9426449db3c2",
+   "7ecbfc199172",
+   "423e91f81410",
+   "c17d94cadb40",
+   "75a72b2c082d",
+   "b42e5873b3e2",
+   "99da4e3202d4",
+   "3f75178d73e1",
+   "df6cdd601f64",
+   "9a5745881a63"
   ],
   "deals": [
    "steam-246420:90",
@@ -945,7 +945,8 @@
    "digest:2026-10-19",
    "result:bo3-131674",
    "digest:2026-10-20",
-   "digest:2026-10-21"
+   "digest:2026-10-21",
+   "digest:2026-10-22"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -979,10 +980,6 @@
    "apex:2026-10-20"
   ],
   "videos": [
-   "24R3e0Z8eUg",
-   "4nImr2udcqE",
-   "eCw80-_Sr5g",
-   "WeGa62jNBCs",
    "K4jKPlpvV4I",
    "jo6LLPFajn0",
    "rpsxzAZHq3A",
@@ -1478,7 +1475,11 @@
    "AuqnN0g3XTc",
    "7fJ1kceDfyE",
    "Df2RKfSsP_M",
-   "-SAL0vyCF44"
+   "-SAL0vyCF44",
+   "_u0F7qH7SLc",
+   "9CN5rou_zjY",
+   "NPZCxTl7Y0s",
+   "BtfXgIuUVf0"
   ],
   "releases": [
    "week:2026-W39",
@@ -1529,7 +1530,15 @@
    "day:2026-10-19:x-frostpunk",
    "day:2026-10-20:x-i-am-your-beast",
    "day:2026-10-20:2315050",
-   "day:2026-10-21:3486530"
+   "day:2026-10-21:3486530",
+   "day:2026-10-22:x-my-friendly-neighborhood",
+   "day:2026-10-22:x-nintendo-switch-sports-resort",
+   "day:2026-10-22:3905010",
+   "day:2026-10-22:x-peak",
+   "day:2026-10-22:4890760",
+   "day:2026-10-22:x-back-to-dawn",
+   "day:2026-10-22:x-cult-of-lamb",
+   "day:2026-10-22:3259780"
   ],
   "gotd": [
    "gotd:2026-09-24"
@@ -1556,7 +1565,6 @@
   }
  },
  "dealPosts": [
-  "2026-10-19T23:01+03:00",
   "2026-10-20T14:52+03:00",
   "2026-10-20T20:21+03:00",
   "2026-10-21T21:46+03:00"
