@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T00:44:31+03:00",
+  "updatedAt": "2026-10-21T03:41:55+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -488,23 +488,6 @@
       "short_description": "Обретите сверхчеловеческую мощь космодесантника. Пустите в ход смертоносные навыки и разрушительное оружие, чтобы истребить безжалостных тиранидов. Защитите Империум в ярких одиночных боях или многопользовательских режимах с видом от третьего лица."
     },
     {
-      "appid": "463530",
-      "name": "Empires of the Undergrowth",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/463530/header.jpg?t=1791278484",
-      "genres": [
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Командуйте армией муравьев в боях ранее невиданных масштабов, сочетающих стратегию в реальном времени и строительство базы. Неприступные гнезда, тактическое использование феромонов и стремительная эволюция – ключи к выживанию в опасном мире насекомых."
-    },
-    {
       "appid": "72176",
       "name": "Steam App 72176",
       "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/72176/header.jpg",
@@ -538,22 +521,6 @@
       "short_description": "Пробивайтесь сквозь орды грибов в этом полностью кастомизируемом лутер-шутере. Вас ждут сотни улучшений, совместная сетевая игра на четверых и ветеран-таракан вам в наставники. Чего же вам ещё надо для счастья?"
     },
     {
-      "appid": "4771440",
-      "name": "Camille Queen of Chess bots",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4771440/d815397e3f070b4e00d9847623675f6344beab8b/header.jpg?t=1792498967",
-      "genres": [
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Играйте в шахматы против ботов с настоящим характером: каждый связан своими правилами, настроениями и планами, а не ползунком сложности. Отрабатывайте дебюты, разбирайте партии и поднимайтесь от лёгких спаррингов к серьёзным битвам с движком Camille. Полностью офлайн."
-    },
-    {
       "appid": "1270580",
       "name": "Mind Over Magic",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1270580/header.jpg?t=1790285397",
@@ -570,22 +537,23 @@
       "short_description": "Mind Over Magic is a colony sim set at the site of a cursed magic school. Build and optimize your own magical academy, train powerful Mages, and master mighty relics in order to battle through the Underschool, a mysterious underground dungeon that holds the key to liberation from a deadly curse."
     },
     {
-      "appid": "5374730",
-      "name": "Deep Drift Fishing",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5374730/182d056883235125b4cd61ae7c87e0892903ea8a/header.jpg?t=1792500845",
+      "appid": "3331850",
+      "name": "Brush duel",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3331850/32a31a2dba0daeb34b2587a6488734154ed50a4f/header.jpg?t=1792521829",
       "genres": [
-        "Приключенческие игры",
         "Казуальные игры",
-        "Инди"
+        "Инди",
+        "Многопользовательские игры",
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
+        "mac": true,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Забрось удочку в неизведанную бездну! Уклоняйся от морских существ при погружении, лови ценную рыбу на подъёме и сражайся с легендарными хищниками. Улучшай лебёдку, используй ударные сети и открывай новые океаны в динамичной рыболовной аркаде!"
+      "short_description": "Художественные баттлы 1 на 1: два игрока получают одну и ту же картину и пять минут на рисование, а игра сама решает, чья работа ближе к оригиналу. Шедевры и мемы, дуэли с друзьями и одиночные тренировки."
     },
     {
       "appid": "4656000",
@@ -622,6 +590,43 @@
       "short_description": "Lodebreaker is a colorful mining idle clicker. Smash mineral-rich rocks, upgrade your pickaxe, and recruit a crew that keeps digging while you're away. Discover rare specimens, beat timed Mega Blocks, and ascend for permanent bonuses as you push deeper."
     },
     {
+      "appid": "5356840",
+      "name": "Fzzy Bzzy's The Beautiful Ones",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5356840/6abaee3cda606a57dd258827d2a5dd4bbb5c5dbd/header.jpg?t=1792526538",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A straight forward action rpg where you play as Shell, a mouse destined to lead sinking mice out of the dark! Based around the Universe 25 experiment, a dying society of rats and mice fight to survive in a post-apocalyptic world!"
+    },
+    {
+      "appid": "4015730",
+      "name": "Bunny Hopper",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4015730/f33718d2ec2ccc0624838ebb14f275c0adc9b3a9/header.jpg?t=1792524320",
+      "genres": [
+        "Экшены",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Bunny Hopper — скоростной 3D-платформер, где каждое движение имеет значение! Управляйте боевым роботом, бегайте по стенам, совершайте рывки, преодолевайте смертельные ловушки и поражайте мишени на ходу. Освойте паркур и испытайте свои рефлексы!"
+    },
+    {
       "appid": "12260",
       "name": "Steam App 12260",
       "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/12260/header.jpg",
@@ -638,6 +643,24 @@
       "curated": true
     },
     {
+      "appid": "4554330",
+      "name": "Побег от блогера",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4554330/0a007fc323bcbd75a64640d2fcb091a01bf6c97e/header_russian.jpg?t=1792519210",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Ты пробрался в дом популярного блогера и решил узнать все его секреты, но не всё так просто! Он запирает тебя и тебе нужно постараться, чтобы выбраться! Прячься, решай квесты-головоломки и соверши побег из дома блогера в хоррор игре!"
+    },
+    {
       "appid": "4131220",
       "name": "AKIBA LOST - アキバロスト",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131220/fd7c66f078eca6d2eba04cf046d1228874a3280f/header.jpg?t=1792508724",
@@ -652,26 +675,6 @@
       },
       "metacritic": 81,
       "short_description": "13 лет назад шесть девушек исчезли в Акихабаре в нераскрытом деле «Похищение в Акибе». Дайки Синдзё объявляет живое-action-игру по этому инциденту, собирая шесть женщин, представляющих субкультуру Акихабары. Их история начинает проникать в реальность. Смогут ли завершить AKIBA LOST?"
-    },
-    {
-      "appid": "1783560",
-      "name": "The Last Caretaker",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1783560/684058b57eeffd521d8b5f94a026c9218ce74e58/header.jpg?t=1792479632",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы",
-        "Ранний доступ"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Исследуйте затонувшую Землю, восстанавливайте утраченные системы и взращивайте последние семена человеческой цивилизации в этой приключенческой игре в жанре выживания и крафтинга. Стройте, ищите ресурсы, защищайте человечество и отправляйте его к звездам."
     }
   ]
 }

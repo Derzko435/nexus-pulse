@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T00:44:36+03:00",
+  "updatedAt": "2026-10-21T03:42:00+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -73,16 +73,6 @@
       "steamAppId": "4656000"
     },
     {
-      "id": "steam-5357630",
-      "title": "Lodebreaker",
-      "store": "Steam",
-      "old": 150,
-      "neu": 90,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5357630/",
-      "steamAppId": "5357630"
-    },
-    {
       "id": "steam-5356840",
       "title": "Fzzy Bzzy's The Beautiful Ones",
       "store": "Steam",
@@ -141,6 +131,16 @@
       "pct": 20,
       "url": "https://store.steampowered.com/app/4131220/",
       "steamAppId": "4131220"
+    },
+    {
+      "id": "steam-1783560",
+      "title": "The Last Caretaker",
+      "store": "Steam",
+      "old": 1200,
+      "neu": 960,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/1783560/",
+      "steamAppId": "1783560"
     }
   ]
 }
