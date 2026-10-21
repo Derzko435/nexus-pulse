@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T16:57:08+03:00",
+  "updatedAt": "2026-10-21T21:46:09+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -437,7 +437,7 @@
     {
       "appid": "281990",
       "name": "Stellaris",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/header.jpg?t=1791480874",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/header.jpg?t=1792590966",
       "genres": [
         "Симуляторы",
         "Стратегии"
@@ -486,23 +486,6 @@
       },
       "metacritic": 82,
       "short_description": "Обретите сверхчеловеческую мощь космодесантника. Пустите в ход смертоносные навыки и разрушительное оружие, чтобы истребить безжалостных тиранидов. Защитите Империум в ярких одиночных боях или многопользовательских режимах с видом от третьего лица."
-    },
-    {
-      "appid": "463530",
-      "name": "Empires of the Undergrowth",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/463530/header.jpg?t=1791278484",
-      "genres": [
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Командуйте армией муравьев в боях ранее невиданных масштабов, сочетающих стратегию в реальном времени и строительство базы. Неприступные гнезда, тактическое использование феромонов и стремительная эволюция – ключи к выживанию в опасном мире насекомых."
     },
     {
       "appid": "72176",
@@ -554,14 +537,12 @@
       "short_description": "Mind Over Magic is a colony sim set at the site of a cursed magic school. Build and optimize your own magical academy, train powerful Mages, and master mighty relics in order to battle through the Underschool, a mysterious underground dungeon that holds the key to liberation from a deadly curse."
     },
     {
-      "appid": "3331850",
-      "name": "Brush duel",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3331850/32a31a2dba0daeb34b2587a6488734154ed50a4f/header.jpg?t=1792521829",
+      "appid": "4656000",
+      "name": "BOMBANANA!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1792506779",
       "genres": [
         "Казуальные игры",
-        "Инди",
-        "Многопользовательские игры",
-        "Симуляторы"
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -570,7 +551,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Художественные баттлы 1 на 1: два игрока получают одну и ту же картину и пять минут на рисование, а игра сама решает, чья работа ближе к оригиналу. Шедевры и мемы, дуэли с друзьями и одиночные тренировки."
+      "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
     },
     {
       "appid": "5074950",
@@ -590,6 +571,24 @@
       "short_description": "Summon a random squad and hold the line for 100 waves. Every summon is a gamble — nine unit ranks, and the strongest ones are rare. Upgrade mid-run, break five boss waves, and spend what you earn on permanent upgrades. Let 80 enemies pile up on the field and it's over."
     },
     {
+      "appid": "5227910",
+      "name": "Messa Anomaly",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227910/f054c5d99bae50c631d3e15fdfa6b8d01c96833d/header.jpg?t=1792548894",
+      "genres": [
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Исследуйте каждый коридор, замечайте изменения и выбирайте правильный путь. Одна ошибка может затянуть вас глубже в ночную смену, которая никак не заканчивается."
+    },
+    {
       "appid": "5318420",
       "name": "traitor gamble",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5318420/54658283d08dd21d317281c20075ea37a6700fe7/header.jpg?t=1792566570",
@@ -606,14 +605,13 @@
       "short_description": "Сетевая казино-вечеринка со скрытыми ролями для 2–8 игроков. Делайте ставки из общего банка в рулетке, блэкджеке, покере, крэпсе и слотах, чтобы достичь трёх растущих целей. Проверяйте ставки и разоблачайте предателей, которые тайно наживаются на потерях команды."
     },
     {
-      "appid": "5356840",
-      "name": "Fzzy Bzzy's The Beautiful Ones",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5356840/6abaee3cda606a57dd258827d2a5dd4bbb5c5dbd/header.jpg?t=1792526538",
+      "appid": "3892270",
+      "name": "Казино с друзьями",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/395e6d7972474333a698b26f8aa5597bf38109a1/header.jpg?t=1792427976",
       "genres": [
-        "Экшены",
         "Приключенческие игры",
         "Инди",
-        "Ролевые игры"
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
@@ -622,12 +620,12 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "A straight forward action rpg where you play as Shell, a mouse destined to lead sinking mice out of the dark! Based around the Universe 25 experiment, a dying society of rats and mice fight to survive in a post-apocalyptic world!"
+      "short_description": "Кооперативная игра про исследование казино для 1–6 человек. У вас с друзьями один банковский счёт и огромный долг на всех: играйте, покупайте предметы и делайте глупости на пути к вершине башни казино. Накопите на квоту для ростовщика за 5 минут или пожалеете..."
     },
     {
-      "appid": "4015730",
-      "name": "Bunny Hopper",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4015730/f33718d2ec2ccc0624838ebb14f275c0adc9b3a9/header.jpg?t=1792524320",
+      "appid": "4996960",
+      "name": "Handle with Care!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4996960/bc4e39764e55fed00f9509a92133eeb9bef8d8eb/header.jpg?t=1792587695",
       "genres": [
         "Экшены",
         "Казуальные игры",
@@ -640,32 +638,15 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Bunny Hopper — скоростной 3D-платформер, где каждое движение имеет значение! Управляйте боевым роботом, бегайте по стенам, совершайте рывки, преодолевайте смертельные ловушки и поражайте мишени на ходу. Освойте паркур и испытайте свои рефлексы!"
+      "short_description": "Кооперативная игра о доставке, где вы играете за крошечных почтовых работников в городе, который пытается вас убить. Доставляйте всё подряд, от гробов до тикающих бомб, спасайтесь от бешеных собак и обезумевших водителей и продержитесь в деле шесть дней, чтобы заслужить воскресную пинту."
     },
     {
-      "appid": "12260",
-      "name": "Steam App 12260",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/12260/header.jpg",
-      "genres": [],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "",
-      "catalogId": null,
-      "curated": true
-    },
-    {
-      "appid": "4554330",
-      "name": "Побег от блогера",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4554330/0a007fc323bcbd75a64640d2fcb091a01bf6c97e/header_russian.jpg?t=1792564504",
+      "appid": "5305740",
+      "name": "Uncanny Train",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5305740/1f964b5d71f1530d0f8b85e145dd1b1d1987c36c/header.jpg?t=1792563383",
       "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
+        "Инди",
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
@@ -674,7 +655,28 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Ты пробрался в дом популярного блогера и решил узнать все его секреты, но не всё так просто! Он запирает тебя и тебе нужно постараться, чтобы выбраться! Прячься, решай квесты-головоломки и соверши побег из дома блогера в хоррор игре!"
+      "short_description": "A horror puzzle walking simulator. Trapped aboard a strange train, your goal is to reach Carriage -1. Along the way, you will encounter eerie anomalies and solve environmental puzzles. Headphones are recommended for full immersion."
+    },
+    {
+      "appid": "2929250",
+      "name": "over the hill",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/header.jpg?t=1792002879",
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Гонки",
+        "Симуляторы",
+        "Спорт"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Откройте для себя мир в золотой век бездорожья. За рулем культовых внедорожников 60–80-х годов — в одиночку или с друзьями — покоряйте сложные трассы и исследуйте живописные места."
     }
   ]
 }
