@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T02:27:56+03:00",
+  "updatedAt": "2026-10-22T08:03:52+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -543,7 +543,7 @@
     {
       "appid": "3216230",
       "name": "MEAT TRAIN",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3216230/20c9a63ae957f2463e3ad1f54610097d165a0c9b/header.jpg?t=1792597931",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3216230/20c9a63ae957f2463e3ad1f54610097d165a0c9b/header.jpg?t=1792645342",
       "genres": [
         "Экшены",
         "Приключенческие игры",
@@ -556,7 +556,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Meat Train is a FPS game where you operate a train thats uses MEAT for FUEL. Explore a wasteland where everything wants you dead, scavenge for weapons and loot. Upgrade the train and attempt to destroy an evil AI megafactory."
+      "short_description": "Meat Train is an open world zombie survival game where you operate a train that uses MEAT for FUEL. Scavenge for weapons and loot while you explore a wasteland where everything wants you dead. Upgrade your train and attempt to destroy GRM: a rogue AI that has enslaved what's left of humanity."
     },
     {
       "appid": "4656000",
@@ -576,66 +576,14 @@
       "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
     },
     {
-      "appid": "5354400",
-      "name": "Sudoku Unlimited",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5354400/d4b4e871f7fdbbff081ed931bc812604bae206e6/header.jpg?t=1792595948",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Отдохните в уютном саду судоку. Решайте классические головоломки и необычные варианты, учитесь с пошаговыми подсказками и открывайте новые пейзажи. Играйте вместе по сети или держите маленькое судоку рядом с другими приложениями."
-    },
-    {
-      "appid": "3892270",
-      "name": "Казино с друзьями",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/395e6d7972474333a698b26f8aa5597bf38109a1/header.jpg?t=1792427976",
-      "genres": [
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Кооперативная игра про исследование казино для 1–6 человек. У вас с друзьями один банковский счёт и огромный долг на всех: играйте, покупайте предметы и делайте глупости на пути к вершине башни казино. Накопите на квоту для ростовщика за 5 минут или пожалеете..."
-    },
-    {
-      "appid": "5368910",
-      "name": "BOOMSWEEPER",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5368910/39f2f996623b746209704a24def1b2d6e36b3ce1/header.jpg?t=1792607419",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Классический «Сапёр» в виде инкрементальной игры. Расчищай, зарабатывай, улучшайся, нанимай бригаду и ныряй всё глубже в поля внутри полей. Одно неверное нажатие… БАБАХ."
-    },
-    {
-      "appid": "4996960",
-      "name": "Handle with Care!",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4996960/bc4e39764e55fed00f9509a92133eeb9bef8d8eb/header.jpg?t=1792587695",
+      "appid": "1371980",
+      "name": "No Rest for the Wicked",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1371980/331de7e745f43867f0a220339153ac6019822ea4/header.jpg?t=1792498726",
       "genres": [
         "Экшены",
-        "Казуальные игры",
-        "Инди"
+        "Приключенческие игры",
+        "Ролевые игры",
+        "Ранний доступ"
       ],
       "is_free": false,
       "platforms": {
@@ -644,33 +592,35 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Кооперативная игра о доставке, где вы играете за крошечных почтовых работников в городе, который пытается вас убить. Доставляйте всё подряд, от гробов до тикающих бомб, спасайтесь от бешеных собак и обезумевших водителей и продержитесь в деле шесть дней, чтобы заслужить воскресную пинту."
+      "short_description": "Компания Moon Studios, удостоенная многочисленных наград за Ori and the Blind Forest и Ori and the Will of the Wisps, представляет No Rest for the Wicked — динамичную и бескомпромиссную ролевую игру, которой предстоит сказать новое слово в жанре."
     },
     {
-      "appid": "12260",
-      "name": "Steam App 12260",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/12260/header.jpg",
-      "genres": [],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "",
-      "catalogId": null,
-      "curated": true
-    },
-    {
-      "appid": "5101820",
-      "name": "カスペナ～カスタムペナント野球",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5101820/e9e9f35f9e7c34670d9e4f3883ccd6d5da4cbd76/header.jpg?t=1792595100",
+      "appid": "294100",
+      "name": "RimWorld",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/76e0613b8197327299d5dbabb0a7fd7828a689a2/header.jpg?t=1782756789",
       "genres": [
         "Инди",
         "Симуляторы",
-        "Спорт",
         "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": 87,
+      "short_description": "Научно-фантастический симулятор колонии с интеллектуальным AI-рассказчиком. Создаёт истории, моделируя психологию, экологию, стрельбу, ближний бой, климат, биомы, дипломатию, межличностные отношения, искусство, медицину, торговлю и многое другое."
+    },
+    {
+      "appid": "4024600",
+      "name": "Pyramidion",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4024600/eabee53407b333903f098d1590c21ed4b5ada92e/header.jpg?t=1792599586",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -679,7 +629,59 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Draft prospects, develop your players and build a championship club. Set lineups, negotiate contracts and manage your budget in this baseball management sim. Discover hidden prospects, invest in your town and customize your league. Watch games without direct player control."
+      "short_description": "Доставьте огромный камень на вершину пирамиды, не разбив его. В этом физическом онлайн-кооперативе для 2 или 3 игроков согласовывайте толчки, выбирайте момент для ожидания и делите обязанности, чтобы вместе преодолевать препятствия."
+    },
+    {
+      "appid": "5132990",
+      "name": "Puppet Mall: Chapter 1: Lost Friend",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5132990/54ca111c34b6ae55d3428de215b35ac5ba3d5f07/header.jpg?t=1792602191",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Explore the abandoned Puppet Mall, solve puzzles, and uncover the secrets of its dark past. As John, confront the mall's mysteries and discover what really happened there while investigating the story of Mike and Chris. But be careful... You are not alone."
+    },
+    {
+      "appid": "4751790",
+      "name": "TRY",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4751790/987e4fad74bb60287d07bfafa1c3ccec75cc31b7/header.jpg?t=1792615378",
+      "genres": [
+        "Приключенческие игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Тихий вечер постепенно превращается в нечто гораздо более тревожное. То, что начинается как обычный вечер дома, медленно меняется, когда начинают происходить странные события, всплывать воспоминания и случаться необъяснимые встречи."
+    },
+    {
+      "appid": "5213440",
+      "name": "AFTER CLOSING - 闭店之后",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5213440/dfc91aef88d486ccad8d0dbc3e111911b300cccc/header.jpg?t=1792602587",
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "After closing, only two people are left in the office. She's your manager, six years older, and she never takes off that silver watch. She says this doesn't count - she's said it four times. A short adult visual novel about order coming apart: four stat-driven endings, seven H scenes."
     }
   ]
 }

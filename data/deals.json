@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T02:28:02+03:00",
+  "updatedAt": "2026-10-22T08:03:57+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -53,24 +53,14 @@
       "steamAppId": "3247750"
     },
     {
-      "id": "steam-3216230",
-      "title": "MEAT TRAIN",
+      "id": "steam-5227650",
+      "title": "Выдавай мне нежность порциями",
       "store": "Steam",
-      "old": 666,
-      "neu": 399,
+      "old": 335,
+      "neu": 201,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/3216230/",
-      "steamAppId": "3216230"
-    },
-    {
-      "id": "steam-4656000",
-      "title": "BOMBANANA!",
-      "store": "Steam",
-      "old": 210,
-      "neu": 126,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/4656000/",
-      "steamAppId": "4656000"
+      "url": "https://store.steampowered.com/app/5227650/",
+      "steamAppId": "5227650"
     },
     {
       "id": "steam-1371980",
@@ -93,6 +83,26 @@
       "steamAppId": "739630"
     },
     {
+      "id": "steam-5364850",
+      "title": "Doomward: Dungeon Autobattler",
+      "store": "Steam",
+      "old": 660,
+      "neu": 495,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/5364850/",
+      "steamAppId": "5364850"
+    },
+    {
+      "id": "steam-5260110",
+      "title": "Second Source",
+      "store": "Steam",
+      "old": 590,
+      "neu": 442,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/5260110/",
+      "steamAppId": "5260110"
+    },
+    {
       "id": "steam-294100",
       "title": "RimWorld",
       "store": "Steam",
@@ -103,44 +113,34 @@
       "steamAppId": "294100"
     },
     {
-      "id": "steam-4024600",
-      "title": "Pyramidion",
+      "id": "steam-2929250",
+      "title": "over the hill",
       "store": "Steam",
-      "old": 385,
-      "neu": 308,
+      "old": 1050,
+      "neu": 840,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/4024600/",
-      "steamAppId": "4024600"
+      "url": "https://store.steampowered.com/app/2929250/",
+      "steamAppId": "2929250"
     },
     {
-      "id": "steam-5132990",
-      "title": "Puppet Mall: Chapter 1: Lost Friend",
+      "id": "steam-4172450",
+      "title": "The Hidden Ones",
       "store": "Steam",
-      "old": 280,
-      "neu": 223,
+      "old": 625,
+      "neu": 500,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/5132990/",
-      "steamAppId": "5132990"
+      "url": "https://store.steampowered.com/app/4172450/",
+      "steamAppId": "4172450"
     },
     {
-      "id": "steam-4751790",
-      "title": "TRY",
+      "id": "steam-3191530",
+      "title": "Irradiate 235",
       "store": "Steam",
-      "old": 230,
-      "neu": 183,
+      "old": 550,
+      "neu": 440,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/4751790/",
-      "steamAppId": "4751790"
-    },
-    {
-      "id": "steam-5213440",
-      "title": "AFTER CLOSING - 闭店之后",
-      "store": "Steam",
-      "old": 200,
-      "neu": 160,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5213440/",
-      "steamAppId": "5213440"
+      "url": "https://store.steampowered.com/app/3191530/",
+      "steamAppId": "3191530"
     }
   ]
 }
