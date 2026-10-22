@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-22T20:20:44+03:00",
+  "updatedAt": "2026-10-22T22:11:38+03:00",
   "source": "steam-store-appdetails",
-  "count": 39,
+  "count": 38,
   "apps": [
     {
       "appid": "730",
@@ -488,24 +488,25 @@
       "short_description": "Обретите сверхчеловеческую мощь космодесантника. Пустите в ход смертоносные навыки и разрушительное оружие, чтобы истребить безжалостных тиранидов. Защитите Империум в ярких одиночных боях или многопользовательских режимах с видом от третьего лица."
     },
     {
-      "appid": "1066890",
-      "name": "Automobilista 2",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1066890/4ec180b6bc16ce430f12bfbc88f420c93cb48313/header.jpg?t=1781533387",
+      "appid": "903950",
+      "name": "Last Oasis",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/903950/header.jpg?t=1772139765",
       "genres": [
         "Экшены",
+        "Приключенческие игры",
         "Инди",
-        "Гонки",
-        "Симуляторы",
-        "Спорт"
+        "Многопользовательские игры",
+        "Ролевые игры",
+        "Ранний доступ"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
-        "linux": true
+        "linux": false
       },
       "metacritic": null,
-      "short_description": "Automobilista 2 is all the racing simulators you ever wanted - in just one. An incredibly diverse collection of cars and tracks cohesively simulated, featuring incredible graphics and audio quality, dynamic weather and track conditions and the best VR support for a racing experience like no other."
+      "short_description": "Не останавливайтесь, мир гибнет! В многопользовательской игре-выживалке про кочевников вам предстоит строить передвижные базы, осваивать новые пути, добывать пропитание, пиратствовать и торговать ради выживания. Присоединяйтесь к клану и защищайте свою территорию!"
     },
     {
       "appid": "72176",
@@ -524,12 +525,13 @@
       "curated": true
     },
     {
-      "appid": "3247750",
-      "name": "Mycopunk",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3247750/67b1dc819a93d4e855b213b518f25a9700f46434/header.jpg?t=1792618981",
+      "appid": "5059810",
+      "name": "裂光のセリアーナ",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5059810/871a38a3e292ac3181f2689d6edfe1d582654872/header.jpg?t=1792681242",
       "genres": [
-        "Экшены",
-        "Инди"
+        "Ролевые игры",
+        "Симуляторы",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
@@ -538,7 +540,26 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Пробивайтесь сквозь орды грибов в этом полностью кастомизируемом лутер-шутере. Вас ждут сотни улучшений, совместная сетевая игра на четверых и ветеран-таракан вам в наставники. Чего же вам ещё надо для счастья?"
+      "short_description": "裂光のセリアーナは、王道ファンタジー×ナンセンスコメディのSRPGです 総勢64名の個性的なキャラクターと多彩な成長要素を駆使してステージを攻略していきます メインストーリー49マップ、エクストラマップ10マップの全59を、愉快な仲間と共に駆け抜けましょう"
+    },
+    {
+      "appid": "3154800",
+      "name": "Football Pitch Simulator",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3154800/5889685841bf138c6bda4be8ace5412a42324fea/header.jpg?t=1792676183",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы",
+        "Спорт"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Создайте собственный футбольный комплекс. Проводите ремонты, расширяйте объекты и привлекайте внимание футбольных фанатов."
     },
     {
       "appid": "4656000",
@@ -558,67 +579,12 @@
       "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
     },
     {
-      "appid": "5377200",
-      "name": "Chained Pirates Together",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5377200/d8ebe255c762b643c146b33b20c87403e33d30ff/header.jpg?t=1792652420",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Проклятый череп сковал вашу команду цепью, и лишь удар молнии на вершине может разрушить проклятие. Поднимитесь на 1000 метров в этой физической кооперативной игре для 1–4 пиратов, где один неудачный прыжок утягивает вниз всех."
-    },
-    {
-      "appid": "1371980",
-      "name": "No Rest for the Wicked",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1371980/331de7e745f43867f0a220339153ac6019822ea4/header.jpg?t=1792498726",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Ролевые игры",
-        "Ранний доступ"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Компания Moon Studios, удостоенная многочисленных наград за Ori and the Blind Forest и Ori and the Will of the Wisps, представляет No Rest for the Wicked — динамичную и бескомпромиссную ролевую игру, которой предстоит сказать новое слово в жанре."
-    },
-    {
-      "appid": "3596870",
-      "name": "Sakura Hime 7",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3596870/dc827bb9679c784294f4c2bbc48769d90ecfd04f/header.jpg?t=1792656716",
+      "appid": "5265110",
+      "name": "Furry Snow Leopard",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5265110/6f2db4a299082c89ea54093a03398101eb2c0e33/header.jpg?t=1792687778",
       "genres": [
         "Казуальные игры",
         "Инди",
-        "Ролевые игры",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "В райском уголке, где цветёт сакура, тебя окружают девушки-кошки, ведьмы и эльфийки. Наслаждайся вместе с ними сладкими моментами повседневной жизни и создай собственный роскошный гарем."
-    },
-    {
-      "appid": "5318000",
-      "name": "Сбор деревни: Защита деревни",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5318000/5e4d2d048118753a3e7e12fb00b2bfe060d4ff0b/header.jpg?t=1792653678",
-      "genres": [
-        "Казуальные игры",
         "Стратегии"
       ],
       "is_free": false,
@@ -628,7 +594,56 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Уютная, но требующая ума Backpack-like Roguelike Bullet Heaven игра о защите деревни. Нанимай героев-селян, управляй сеткой, сливай оранжевых Супергероев и останови сносовую бригаду! 50 глав, 12 героев, 11 Супергероев."
+      "short_description": "Furry Snow Leopard — это соблазнительная игра-головоломка для взрослых с очаровательной снежной леопардкой в главной роли. Открывайте её самые смелые образы, разблокируйте горячие иллюстрации и шаг за шагом узнавайте, что скрывается за её холодным, но манящим взглядом."
+    },
+    {
+      "appid": "5243400",
+      "name": "High Stakes Chess",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5243400/c476a646e724ac82b4d1b034a1c4b5261cd9ab13/header.jpg?t=1792688843",
+      "genres": [
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A fusion of poker and chess where cards determine the pieces you bring into battle. Bet on each hand, place your pieces, then fight it out on the chessboard."
+    },
+    {
+      "appid": "5347940",
+      "name": "PALJA Survivors",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5347940/a511f90ca738efd39400b90be191403a5ab796d9/header.jpg?t=1792683654",
+      "genres": [
+        "Экшены",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Рогалик на выживание: дата рождения определяет героя по Саджу, корейской астрологии Четырёх столпов. Выживайте среди врагов, выбирайте улучшения и предметы, пройдите пять лет испытаний и найдите свой путь."
+    },
+    {
+      "appid": "4785640",
+      "name": "道之华隐",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4785640/6c603cd5e154e63f0284f4940888d820b32257ab/header.jpg?t=1792681456",
+      "genres": [
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Don't fear to speak e lusive words. The only certainty is that all things present shall fade away in time. Friends from overseas have recommended consulting relevant reference books during your playthrough of the work."
     },
     {
       "appid": "294100",
@@ -668,40 +683,6 @@
       },
       "metacritic": null,
       "short_description": "Откройте для себя мир в золотой век бездорожья. За рулем культовых внедорожников 60–80-х годов — в одиночку или с друзьями — покоряйте сложные трассы и исследуйте живописные места."
-    },
-    {
-      "appid": "5306540",
-      "name": "Groundwork Simulator",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5306540/64674a7e52a9ea471b11731fb65425370550c032/header.jpg?t=1792663184",
-      "genres": [
-        "Симуляторы",
-        "Ранний доступ"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Dig, haul and wash for gold in an open-world heavy machinery simulator. Operate excavators, wheel loaders and bulldozers, reshape the terrain and build your washing setup. Work solo or team up in online co-op to turn untouched ground into a working site."
-    },
-    {
-      "appid": "4413070",
-      "name": "つみみじかん　～狂オシイホド愛シテル～",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4413070/eafe4055368253f0b2cf0923cdbeaf6dd4e3c378/header.jpg?t=1792666578",
-      "genres": [
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "“Intervene in Tsumimi’s stream” through comments and Mega Chats, then use your deductions to change their fate in this 15-day psychological horror adventure."
     }
   ]
 }

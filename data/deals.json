@@ -1,7 +1,17 @@
 {
-  "updatedAt": "2026-10-22T20:20:49+03:00",
+  "updatedAt": "2026-10-22T22:11:44+03:00",
   "source": "steam-specials-ru",
   "deals": [
+    {
+      "id": "steam-1449690",
+      "title": "The Walking Dead: The Telltale Definitive Series",
+      "store": "Steam",
+      "old": 1600,
+      "neu": 160,
+      "pct": 90,
+      "url": "https://store.steampowered.com/app/1449690/",
+      "steamAppId": "1449690"
+    },
     {
       "id": "steam-668580",
       "title": "Atomic Heart",
@@ -33,6 +43,16 @@
       "steamAppId": "903950"
     },
     {
+      "id": "steam-1546080",
+      "title": "Every Day We Fight",
+      "store": "Steam",
+      "old": 999,
+      "neu": 399,
+      "pct": 60,
+      "url": "https://store.steampowered.com/app/1546080/",
+      "steamAppId": "1546080"
+    },
+    {
       "id": "steam-72176",
       "title": "Atomic Heart - Ultimate Edition",
       "store": "Steam",
@@ -41,26 +61,6 @@
       "pct": 58,
       "url": "https://store.steampowered.com/app/72176/",
       "steamAppId": "72176"
-    },
-    {
-      "id": "steam-5059810",
-      "title": "裂光のセリアーナ",
-      "store": "Steam",
-      "old": 620,
-      "neu": 372,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5059810/",
-      "steamAppId": "5059810"
-    },
-    {
-      "id": "steam-3154800",
-      "title": "Football Pitch Simulator",
-      "store": "Steam",
-      "old": 385,
-      "neu": 231,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/3154800/",
-      "steamAppId": "3154800"
     },
     {
       "id": "steam-4656000",
@@ -81,16 +81,6 @@
       "pct": 35,
       "url": "https://store.steampowered.com/app/5265110/",
       "steamAppId": "5265110"
-    },
-    {
-      "id": "steam-5243400",
-      "title": "High Stakes Chess",
-      "store": "Steam",
-      "old": 170,
-      "neu": 113,
-      "pct": 34,
-      "url": "https://store.steampowered.com/app/5243400/",
-      "steamAppId": "5243400"
     },
     {
       "id": "steam-5347940",
@@ -123,14 +113,24 @@
       "steamAppId": "4785640"
     },
     {
-      "id": "steam-294100",
-      "title": "RimWorld",
+      "id": "steam-4799440",
+      "title": "Matadors",
       "store": "Steam",
-      "old": 1099,
-      "neu": 879,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/294100/",
-      "steamAppId": "294100"
+      "old": 195,
+      "neu": 146,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/4799440/",
+      "steamAppId": "4799440"
+    },
+    {
+      "id": "steam-3911820",
+      "title": "100 Cats Lost in Canada 2 Find & Color",
+      "store": "Steam",
+      "old": 64,
+      "neu": 48,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/3911820/",
+      "steamAppId": "3911820"
     },
     {
       "id": "steam-2929250",
