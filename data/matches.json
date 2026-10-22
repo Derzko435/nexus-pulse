@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-22T00:59:48+03:00",
+ "updatedAt": "2026-10-22T08:26:20+03:00",
  "source": "bo3.gg",
  "matches": [
   {
@@ -716,33 +716,6 @@
    "url": "https://bo3.gg/lol/matches/team-secret-whales-vs-lyon-gaming-24-10-2026"
   },
   {
-   "id": "bo3-132171",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "FUT",
-   "teamB": "TYLOO",
-   "logoA": "https://files.bo3.gg/uploads/team/20832/image/webp-3c31da5dd03e58f5041420c56c14ed52.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/757/image/17873415da0f03df35299283b43408d7.png",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "PGL Masters Bucharest 2026",
-   "tier": "S",
-   "startsAt": "2026-10-24T10:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/fut-cs2-vs-tyloo-cs-go-24-10-2026"
-  },
-  {
    "id": "bo3-132170",
    "game": "CS2",
    "gameKey": "cs2",
@@ -770,6 +743,33 @@
    "url": "https://bo3.gg/matches/aurora-gaming-vs-the-mongolz-24-10-2026"
   },
   {
+   "id": "bo3-132171",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "FUT",
+   "teamB": "TYLOO",
+   "logoA": "https://files.bo3.gg/uploads/team/20832/image/webp-3c31da5dd03e58f5041420c56c14ed52.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/757/image/17873415da0f03df35299283b43408d7.png",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PGL Masters Bucharest 2026",
+   "tier": "S",
+   "startsAt": "2026-10-24T10:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/fut-cs2-vs-tyloo-cs-go-24-10-2026"
+  },
+  {
    "id": "bo3-132269",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -794,33 +794,6 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/1win-dota2-vs-gamerlegion-dota2-24-10-2026"
-  },
-  {
-   "id": "bo3-132173",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Spirit",
-   "teamB": "BetBoom",
-   "logoA": "https://files.bo3.gg/uploads/team/654/image/webp-41b22d18a871d982f8ff87652bbb0fe6.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "PGL Masters Bucharest 2026",
-   "tier": "S",
-   "startsAt": "2026-10-24T13:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/spirit-vs-betboom-team-24-10-2026"
   },
   {
    "id": "bo3-132172",
@@ -850,6 +823,33 @@
    "url": "https://bo3.gg/matches/mouz-cs2-vs-liquid-24-10-2026"
   },
   {
+   "id": "bo3-132173",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Spirit",
+   "teamB": "BetBoom",
+   "logoA": "https://files.bo3.gg/uploads/team/654/image/webp-41b22d18a871d982f8ff87652bbb0fe6.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PGL Masters Bucharest 2026",
+   "tier": "S",
+   "startsAt": "2026-10-24T13:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/spirit-vs-betboom-team-24-10-2026"
+  },
+  {
    "id": "bo3-132270",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -874,33 +874,6 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/team-yandex-vs-og-dota2-24-10-2026"
-  },
-  {
-   "id": "bo3-132174",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Vitality",
-   "teamB": "9z",
-   "logoA": "https://files.bo3.gg/uploads/team/667/image/webp-292c1f6c6dcfca35c7a52da7e02cef0a.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/324/image/webp-847d6324439266b5de80bcb2e23fa38e.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "PGL Masters Bucharest 2026",
-   "tier": "S",
-   "startsAt": "2026-10-24T16:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/vitality-vs-9z-24-10-2026"
   },
   {
    "id": "bo3-132175",
@@ -930,20 +903,20 @@
    "url": "https://bo3.gg/matches/legacy-br-vs-nemiga-24-10-2026"
   },
   {
-   "id": "bo3-132177",
+   "id": "bo3-132174",
    "game": "CS2",
    "gameKey": "cs2",
-   "teamA": "G2",
-   "teamB": "Natus Vincere",
-   "logoA": "https://files.bo3.gg/uploads/team/793/image/webp-8f844f6a25c797dfe74b411d147983ff.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/787/image/webp-ea9885f81f1572c7a6c9fb6cbf747c99.webp",
+   "teamA": "Vitality",
+   "teamB": "9z",
+   "logoA": "https://files.bo3.gg/uploads/team/667/image/webp-292c1f6c6dcfca35c7a52da7e02cef0a.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/324/image/webp-847d6324439266b5de80bcb2e23fa38e.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
    "status": "upcoming",
    "event": "PGL Masters Bucharest 2026",
    "tier": "S",
-   "startsAt": "2026-10-24T19:00:00+03:00",
+   "startsAt": "2026-10-24T16:00:00+03:00",
    "streams": [
     {
      "type": "twitch",
@@ -954,7 +927,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/matches/g2-vs-natus-vincere-24-10-2026"
+   "url": "https://bo3.gg/matches/vitality-vs-9z-24-10-2026"
   },
   {
    "id": "bo3-132176",
@@ -982,6 +955,33 @@
     }
    ],
    "url": "https://bo3.gg/matches/furia-vs-dendele-cs-24-10-2026"
+  },
+  {
+   "id": "bo3-132177",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "G2",
+   "teamB": "Natus Vincere",
+   "logoA": "https://files.bo3.gg/uploads/team/793/image/webp-8f844f6a25c797dfe74b411d147983ff.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/787/image/webp-ea9885f81f1572c7a6c9fb6cbf747c99.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PGL Masters Bucharest 2026",
+   "tier": "S",
+   "startsAt": "2026-10-24T19:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/g2-vs-natus-vincere-24-10-2026"
   },
   {
    "id": "bo3-131873",
