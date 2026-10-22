@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T08:03:52+03:00",
+  "updatedAt": "2026-10-22T15:06:24+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -541,39 +541,21 @@
       "short_description": "Пробивайтесь сквозь орды грибов в этом полностью кастомизируемом лутер-шутере. Вас ждут сотни улучшений, совместная сетевая игра на четверых и ветеран-таракан вам в наставники. Чего же вам ещё надо для счастья?"
     },
     {
-      "appid": "3216230",
-      "name": "MEAT TRAIN",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3216230/20c9a63ae957f2463e3ad1f54610097d165a0c9b/header.jpg?t=1792645342",
+      "appid": "5227650",
+      "name": "Выдавай мне нежность порциями",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227650/6fe6f980d31e782a5b3d57a158bc5b4ab56f1ec9/header_russian.jpg?t=1792606529",
       "genres": [
-        "Экшены",
         "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Meat Train is an open world zombie survival game where you operate a train that uses MEAT for FUEL. Scavenge for weapons and loot while you explore a wasteland where everything wants you dead. Upgrade your train and attempt to destroy GRM: a rogue AI that has enslaved what's left of humanity."
-    },
-    {
-      "appid": "4656000",
-      "name": "BOMBANANA!",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1792506779",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": true,
-        "linux": false
+        "linux": true
       },
       "metacritic": null,
-      "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
+      "short_description": "Выдавай мне нежность порциями — романтическая визуальная новелла для взрослых на прибрежном опреснительном комплексе в кризисе. Три ветки отношений директора Низара Сабхана: работа, брак и ответственность сталкиваются за оградой Рас-Мишаала."
     },
     {
       "appid": "1371980",
@@ -595,6 +577,42 @@
       "short_description": "Компания Moon Studios, удостоенная многочисленных наград за Ori and the Blind Forest и Ori and the Will of the Wisps, представляет No Rest for the Wicked — динамичную и бескомпромиссную ролевую игру, которой предстоит сказать новое слово в жанре."
     },
     {
+      "appid": "5364850",
+      "name": "Doomward: Dungeon Autobattler",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5364850/64421465c6952303cf176c531de2be84d98330ad/header.jpg?t=1792625809",
+      "genres": [
+        "Инди",
+        "Ролевые игры",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Run a guild of doomed heroes. Hire, specialize, gear and program them, then watch every fight play itself. A roguelike autobattler with permadeath, town sieges and a raid-boss Herald at the end of the Doom Clock. Solo, co-op for up to 4, or PvP."
+    },
+    {
+      "appid": "5260110",
+      "name": "Second Source",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5260110/40b725fbf030f2509e2da2b39cb5433645b21a39/header.jpg?t=1792627577",
+      "genres": [
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Every report on your desk is intelligence or bait. Four artifacts — agency, timestamp, position, text — and a planted one contradicts itself in exactly one. Call it before the clock does, hold the line as DEFCON drops, and when they breach the building, run the extraction on foot."
+    },
+    {
       "appid": "294100",
       "name": "RimWorld",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/76e0613b8197327299d5dbabb0a7fd7828a689a2/header.jpg?t=1782756789",
@@ -613,66 +631,34 @@
       "short_description": "Научно-фантастический симулятор колонии с интеллектуальным AI-рассказчиком. Создаёт истории, моделируя психологию, экологию, стрельбу, ближний бой, климат, биомы, дипломатию, межличностные отношения, искусство, медицину, торговлю и многое другое."
     },
     {
-      "appid": "4024600",
-      "name": "Pyramidion",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4024600/eabee53407b333903f098d1590c21ed4b5ada92e/header.jpg?t=1792599586",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Доставьте огромный камень на вершину пирамиды, не разбив его. В этом физическом онлайн-кооперативе для 2 или 3 игроков согласовывайте толчки, выбирайте момент для ожидания и делите обязанности, чтобы вместе преодолевать препятствия."
-    },
-    {
-      "appid": "5132990",
-      "name": "Puppet Mall: Chapter 1: Lost Friend",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5132990/54ca111c34b6ae55d3428de215b35ac5ba3d5f07/header.jpg?t=1792602191",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Explore the abandoned Puppet Mall, solve puzzles, and uncover the secrets of its dark past. As John, confront the mall's mysteries and discover what really happened there while investigating the story of Mike and Chris. But be careful... You are not alone."
-    },
-    {
-      "appid": "4751790",
-      "name": "TRY",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4751790/987e4fad74bb60287d07bfafa1c3ccec75cc31b7/header.jpg?t=1792615378",
-      "genres": [
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Тихий вечер постепенно превращается в нечто гораздо более тревожное. То, что начинается как обычный вечер дома, медленно меняется, когда начинают происходить странные события, всплывать воспоминания и случаться необъяснимые встречи."
-    },
-    {
-      "appid": "5213440",
-      "name": "AFTER CLOSING - 闭店之后",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5213440/dfc91aef88d486ccad8d0dbc3e111911b300cccc/header.jpg?t=1792602587",
+      "appid": "2929250",
+      "name": "over the hill",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/header.jpg?t=1792666389",
       "genres": [
         "Приключенческие игры",
         "Казуальные игры",
-        "Инди"
+        "Инди",
+        "Гонки",
+        "Симуляторы",
+        "Спорт"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Откройте для себя мир в золотой век бездорожья. За рулем культовых внедорожников 60–80-х годов — в одиночку или с друзьями — покоряйте сложные трассы и исследуйте живописные места."
+    },
+    {
+      "appid": "4172450",
+      "name": "The Hidden Ones",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4172450/16f16a6bd0c1a7cbe9516ec64490ed4cd6618e74/header.jpg?t=1792663853",
+      "genres": [
+        "Приключенческие игры",
+        "Ролевые игры",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
@@ -681,7 +667,24 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "After closing, only two people are left in the office. She's your manager, six years older, and she never takes off that silver watch. She says this doesn't count - she's said it four times. A short adult visual novel about order coming apart: four stat-driven endings, seven H scenes."
+      "short_description": "The Hidden Ones is a cooperative horror puzzle game that supports four-player online multiplayer. An seemingly ordinary fire incident unravels the prologue to a cold case that has been buried in a small town , binding the fates of four protagonists into an eerie and intricate maze of mystery."
+    },
+    {
+      "appid": "3191530",
+      "name": "Irradiate 235",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3191530/df557b0de97299fded26cc4a8de967cd127eb7dc/header.jpg?t=1792637540",
+      "genres": [
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Discover and automate unique materials. Engineer the machines and tools for your factory. Handle hazardous materials to make near-limitless energy. Use your own tools to navigate a labyrinth of alien passages and uncover dangerous tunnels in this innovative Automation and Engineering game."
     }
   ]
 }

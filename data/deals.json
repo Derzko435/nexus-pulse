@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T08:03:57+03:00",
+  "updatedAt": "2026-10-22T15:06:29+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -53,14 +53,24 @@
       "steamAppId": "3247750"
     },
     {
-      "id": "steam-5227650",
-      "title": "Выдавай мне нежность порциями",
+      "id": "steam-4656000",
+      "title": "BOMBANANA!",
       "store": "Steam",
-      "old": 335,
-      "neu": 201,
+      "old": 210,
+      "neu": 126,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5227650/",
-      "steamAppId": "5227650"
+      "url": "https://store.steampowered.com/app/4656000/",
+      "steamAppId": "4656000"
+    },
+    {
+      "id": "steam-5377200",
+      "title": "Chained Pirates Together",
+      "store": "Steam",
+      "old": 130,
+      "neu": 78,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5377200/",
+      "steamAppId": "5377200"
     },
     {
       "id": "steam-1371980",
@@ -73,34 +83,24 @@
       "steamAppId": "1371980"
     },
     {
-      "id": "steam-739630",
-      "title": "Phasmophobia",
+      "id": "steam-3596870",
+      "title": "Sakura Hime 7",
       "store": "Steam",
-      "old": 849,
-      "neu": 594,
+      "old": 200,
+      "neu": 140,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/739630/",
-      "steamAppId": "739630"
+      "url": "https://store.steampowered.com/app/3596870/",
+      "steamAppId": "3596870"
     },
     {
-      "id": "steam-5364850",
-      "title": "Doomward: Dungeon Autobattler",
+      "id": "steam-5318000",
+      "title": "Сбор деревни: Защита деревни",
       "store": "Steam",
-      "old": 660,
-      "neu": 495,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5364850/",
-      "steamAppId": "5364850"
-    },
-    {
-      "id": "steam-5260110",
-      "title": "Second Source",
-      "store": "Steam",
-      "old": 590,
-      "neu": 442,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5260110/",
-      "steamAppId": "5260110"
+      "old": 195,
+      "neu": 136,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5318000/",
+      "steamAppId": "5318000"
     },
     {
       "id": "steam-294100",
@@ -123,24 +123,24 @@
       "steamAppId": "2929250"
     },
     {
-      "id": "steam-4172450",
-      "title": "The Hidden Ones",
+      "id": "steam-5306540",
+      "title": "Groundwork Simulator",
       "store": "Steam",
-      "old": 625,
-      "neu": 500,
+      "old": 1050,
+      "neu": 840,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/4172450/",
-      "steamAppId": "4172450"
+      "url": "https://store.steampowered.com/app/5306540/",
+      "steamAppId": "5306540"
     },
     {
-      "id": "steam-3191530",
-      "title": "Irradiate 235",
+      "id": "steam-4413070",
+      "title": "つみみじかん　～狂オシイホド愛シテル～",
       "store": "Steam",
-      "old": 550,
-      "neu": 440,
+      "old": 785,
+      "neu": 628,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/3191530/",
-      "steamAppId": "3191530"
+      "url": "https://store.steampowered.com/app/4413070/",
+      "steamAppId": "4413070"
     }
   ]
 }
