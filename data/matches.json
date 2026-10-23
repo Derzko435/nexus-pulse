@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-23T00:56:56+03:00",
+ "updatedAt": "2026-10-23T11:37:11+03:00",
  "source": "bo3.gg",
  "matches": [
   {
@@ -13,10 +13,10 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "PARI Universe",
    "tier": "S",
-   "startsAt": "2026-10-23T11:00:00+03:00",
+   "startsAt": "2026-10-23T11:30:00+03:00",
    "streams": [
     {
      "type": "kick",
@@ -45,12 +45,11 @@
    "startsAt": "2026-10-23T12:00:00+03:00",
    "streams": [
     {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
+     "type": "youtube",
+     "id": "Fuxl7jXsM-s",
+     "lang": "zh",
+     "official": false,
+     "label": "TEC vs UR - FPX vs DRG - Week 1 - Day 3 - 2026 VCT CN Threshold"
     }
    ],
    "url": "https://bo3.gg/valorant/matches/tec-esports-vs-unsettled-resentment-vlr-23-10-2026"
@@ -98,12 +97,11 @@
    "startsAt": "2026-10-23T14:00:00+03:00",
    "streams": [
     {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
+     "type": "youtube",
+     "id": "Fuxl7jXsM-s",
+     "lang": "zh",
+     "official": false,
+     "label": "TEC vs UR - FPX vs DRG - Week 1 - Day 3 - 2026 VCT CN Threshold"
     }
    ],
    "url": "https://bo3.gg/valorant/matches/funplus-phoenix-vs-dragon-ranger-gaming-23-10-2026"
@@ -977,7 +975,7 @@
    "status": "upcoming",
    "event": "LGC 2026 Rising",
    "tier": "A",
-   "startsAt": "2026-10-27T19:00:00+03:00",
+   "startsAt": "2026-10-27T20:00:00+03:00",
    "streams": [],
    "url": "https://bo3.gg/lol/matches/rising-bees-vs-mental-rush-27-10-2026"
   },
@@ -1657,7 +1655,7 @@
    "game": "Dota 2",
    "gameKey": "dota2",
    "tier": "S",
-   "prize": null,
+   "prize": 750000,
    "start": "2026-11-17",
    "end": "2026-11-29",
    "status": "upcoming",
