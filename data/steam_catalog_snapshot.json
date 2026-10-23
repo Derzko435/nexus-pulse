@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-23T10:42:46+03:00",
+  "updatedAt": "2026-10-23T16:36:34+03:00",
   "source": "steam-store-appdetails",
-  "count": 38,
+  "count": 39,
   "apps": [
     {
       "appid": "730",
@@ -541,43 +541,27 @@
       "curated": true
     },
     {
-      "appid": "5263610",
-      "name": "101 Cats: Frankfurt",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5263610/ec6097a322c0b0e2920f4cb0ff5c4c5375539052/header.jpg?t=1792704942",
+      "appid": "5069390",
+      "name": "Hentai Tales: Humanoid Doll",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5069390/c8023f7d43a058d9ed682dc17a19c50a7dc31cd9/header.jpg?t=1792715916",
       "genres": [
         "Казуальные игры",
-        "Инди"
+        "Инди",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
-        "linux": false
+        "mac": true,
+        "linux": true
       },
       "metacritic": null,
-      "short_description": "Присоединяйтесь к этому приключению и откройте для себя тайники 101 котенка 🐾 в созданном вручную пейзаже Франкфурта. 🏆 Зарабатывайте множество достижений. Сколько 😺 вы сможете найти? 🔎 Поторопитесь! ⏱️"
+      "short_description": "После долгих лет накоплений я наконец привожу домой бюджетного андроида-компаньона Мианьмян. Моя рутинная жизнь переворачивается с ног на голову из-за поломки, которая приводит меня к секретной компенсации: Виоле, топовому &quot;дикому&quot; прототипу с неисправным соединением."
     },
     {
-      "appid": "5263600",
-      "name": "101 Cats: San Francisco",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5263600/8eaaa979cae6e8ccd21fce210057baa53b3c5913/header.jpg?t=1792704191",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Присоединяйтесь к этому приключению и откройте для себя тайники 101 котенка 🐾 на воссозданном вручную ландшафте Сан-Франциско. 🏆 Зарабатывайте множество достижений. Сколько 😺 вы сможете найти? 🔎 Поторопитесь! ⏱️"
-    },
-    {
-      "appid": "2882840",
-      "name": "Pinhead Adventures",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2882840/653f0319831e77ac3b96702c674330cb159bd4bb/header.jpg?t=1792709515",
+      "appid": "5377190",
+      "name": "Halloweenies Candy Run",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5377190/0b4732cbc19a1a77b2ae3f4ab7a83033b836a616/header.jpg?t=1792728060",
       "genres": [
         "Экшены",
         "Приключенческие игры",
@@ -590,25 +574,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Pinhead Adventures is the debut title from Neversold Play as Pinhead and Orbo, upgrade and explore dense worlds filled with action and puzzles Fight back Zortan's hordes of Spikers, Spitters, Swoopers, and Spods Board his ship for the final confrontation. Who will experience the space beyond time?"
-    },
-    {
-      "appid": "5190860",
-      "name": "TetraCore",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5190860/50794ee1f5524a2d5ea5ffd3370088e3d1cf6105/header.jpg?t=1792696196",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Spin, move, and rotate your central core to catch tetrominos rushing from all four sides. Fill and clear rings to drive up your score multiplier, survive the increasing speed, and challenge a friend in local split-screen!"
+      "short_description": "Trick-or-treat with up to 4 players. Loot the houses on procedurally generated streets. Find rare physics based candy and bank it before the Candy KPI catches up with you. Buy weapons and abilities to help your odds against the horde. Your friends can hear proximity chat, but so can the hunters."
     },
     {
       "appid": "4656000",
@@ -628,11 +594,13 @@
       "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
     },
     {
-      "appid": "5243400",
-      "name": "High Stakes Chess",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5243400/c476a646e724ac82b4d1b034a1c4b5261cd9ab13/header.jpg?t=1792697350",
+      "appid": "3892270",
+      "name": "Казино с друзьями",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/395e6d7972474333a698b26f8aa5597bf38109a1/header.jpg?t=1792427976",
       "genres": [
-        "Стратегии"
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
@@ -641,15 +609,15 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "A fusion of poker and chess where cards determine the pieces you bring into battle. Bet on each hand, place your pieces, then fight it out on the chessboard."
+      "short_description": "Кооперативная игра про исследование казино для 1–6 человек. У вас с друзьями один банковский счёт и огромный долг на всех: играйте, покупайте предметы и делайте глупости на пути к вершине башни казино. Накопите на квоту для ростовщика за 5 минут или пожалеете..."
     },
     {
-      "appid": "5289260",
-      "name": "GRID OPS",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5289260/9d1ee62382f7fb53106b0f893d5eec8714aa72c8/header.jpg?t=1792740133",
+      "appid": "5345960",
+      "name": "Swat Mosquito: Sleepless Nights",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5345960/2def9a842d1bdbe0c71fb62771591162cb880c7e/header.jpg?t=1792725915",
       "genres": [
         "Экшены",
-        "Приключенческие игры",
+        "Казуальные игры",
         "Инди"
       ],
       "is_free": false,
@@ -659,7 +627,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Premium, single-player open-world extraction shooter set in a San Francisco warzone. Scout with UAV radar, hijack vehicles, take a combat helicopter armed with minigun and missiles, clear hostile territory, and reach extraction alive."
+      "short_description": "Swat mosquitoes, earn coins, and build up your pest-control arsenal in this 2D incremental game. Unlock permanent upgrades, combine automatic devices, and take on the Mosquito King."
     },
     {
       "appid": "294100",
@@ -678,6 +646,63 @@
       },
       "metacritic": 87,
       "short_description": "Научно-фантастический симулятор колонии с интеллектуальным AI-рассказчиком. Создаёт истории, моделируя психологию, экологию, стрельбу, ближний бой, климат, биомы, дипломатию, межличностные отношения, искусство, медицину, торговлю и многое другое."
+    },
+    {
+      "appid": "2929250",
+      "name": "over the hill",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/header.jpg?t=1792666389",
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Гонки",
+        "Симуляторы",
+        "Спорт"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Откройте для себя мир в золотой век бездорожья. За рулем культовых внедорожников 60–80-х годов — в одиночку или с друзьями — покоряйте сложные трассы и исследуйте живописные места."
+    },
+    {
+      "appid": "2552310",
+      "name": "Dungeon Inn",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552310/f002dbb9fc50036d1284b7e9d40b3046af53cb7f/header_alt_assets_0.jpg?t=1792723472",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "This is a cozy strategy management game where you manage an inn placed cleverly at the mouth of a dungeon. Juggle visits and business from 2 rivaling guilds, maximize profits, but keep your double-dealing a secret! Keep everyone happy and watch your inn thrive!"
+    },
+    {
+      "appid": "5096240",
+      "name": "Jane Friday: After Hours",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5096240/e5627166ff96a13800c112b48cb6ee22fdb59e61/header.jpg?t=1792728183",
+      "genres": [
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Port-City, 1997. You take the overnight security shift at the Brannigan Building and find a box of a missing detective's case tapes. Six hours until dawn. An arcade cabinet that isn't plugged in. A phone that rings at 3:17. A short, text-driven horror story with five endings."
     }
   ]
 }
