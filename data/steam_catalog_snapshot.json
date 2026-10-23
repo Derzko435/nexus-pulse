@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T00:45:43+03:00",
+  "updatedAt": "2026-10-23T03:44:39+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -559,6 +559,40 @@
       "curated": true
     },
     {
+      "appid": "5263610",
+      "name": "101 Cats: Frankfurt",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5263610/ec6097a322c0b0e2920f4cb0ff5c4c5375539052/header.jpg?t=1792704942",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Присоединяйтесь к этому приключению и откройте для себя тайники 101 котенка 🐾 в созданном вручную пейзаже Франкфурта. 🏆 Зарабатывайте множество достижений. Сколько 😺 вы сможете найти? 🔎 Поторопитесь! ⏱️"
+    },
+    {
+      "appid": "5263600",
+      "name": "101 Cats: San Francisco",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5263600/8eaaa979cae6e8ccd21fce210057baa53b3c5913/header.jpg?t=1792704191",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Присоединяйтесь к этому приключению и откройте для себя тайники 101 котенка 🐾 на воссозданном вручную ландшафте Сан-Франциско. 🏆 Зарабатывайте множество достижений. Сколько 😺 вы сможете найти? 🔎 Поторопитесь! ⏱️"
+    },
+    {
       "appid": "4656000",
       "name": "BOMBANANA!",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1792506779",
@@ -576,12 +610,10 @@
       "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
     },
     {
-      "appid": "5265110",
-      "name": "Furry Snow Leopard",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5265110/6f2db4a299082c89ea54093a03398101eb2c0e33/header.jpg?t=1792687778",
+      "appid": "5243400",
+      "name": "High Stakes Chess",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5243400/c476a646e724ac82b4d1b034a1c4b5261cd9ab13/header.jpg?t=1792697350",
       "genres": [
-        "Казуальные игры",
-        "Инди",
         "Стратегии"
       ],
       "is_free": false,
@@ -591,14 +623,15 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Furry Snow Leopard — это соблазнительная игра-головоломка для взрослых с очаровательной снежной леопардкой в главной роли. Открывайте её самые смелые образы, разблокируйте горячие иллюстрации и шаг за шагом узнавайте, что скрывается за её холодным, но манящим взглядом."
+      "short_description": "A fusion of poker and chess where cards determine the pieces you bring into battle. Bet on each hand, place your pieces, then fight it out on the chessboard."
     },
     {
-      "appid": "5347940",
-      "name": "PALJA Survivors",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5347940/a511f90ca738efd39400b90be191403a5ab796d9/header.jpg?t=1792683654",
+      "appid": "5289260",
+      "name": "GRID OPS",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5289260/9d1ee62382f7fb53106b0f893d5eec8714aa72c8/header.jpg?t=1792705099",
       "genres": [
         "Экшены",
+        "Приключенческие игры",
         "Инди"
       ],
       "is_free": false,
@@ -608,59 +641,25 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Рогалик на выживание: дата рождения определяет героя по Саджу, корейской астрологии Четырёх столпов. Выживайте среди врагов, выбирайте улучшения и предметы, пройдите пять лет испытаний и найдите свой путь."
+      "short_description": "Premium, single-player open-world extraction shooter set in a San Francisco warzone. Scout with UAV radar, hijack vehicles, take a combat helicopter armed with minigun and missiles, clear hostile territory, and reach extraction alive."
     },
     {
-      "appid": "4785640",
-      "name": "道之华隐",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4785640/6c603cd5e154e63f0284f4940888d820b32257ab/header.jpg?t=1792681456",
+      "appid": "294100",
+      "name": "RimWorld",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/76e0613b8197327299d5dbabb0a7fd7828a689a2/header.jpg?t=1782756789",
       "genres": [
-        "Инди"
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": true,
-        "linux": false
+        "linux": true
       },
-      "metacritic": null,
-      "short_description": "Don't fear to speak e lusive words. The only certainty is that all things present shall fade away in time. Friends from overseas have recommended consulting relevant reference books during your playthrough of the work."
-    },
-    {
-      "appid": "4799440",
-      "name": "Matadors",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4799440/120a3be0fa9477a5045506c246dfdcaee9fd2acb/header.jpg?t=1792687431",
-      "genres": [
-        "Экшены",
-        "Казуальные игры",
-        "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Matadors — это игра 3 на 1, где фермеры тащат тюки сена в сарай, стараясь не попасться разъярённому быку. Ставьте ловушки, машите флагами и используйте оглушающий пистолет, чтобы вернуться живыми."
-    },
-    {
-      "appid": "3911820",
-      "name": "100 Cats Lost in Canada 2 Find & Color",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3911820/dc1fc04f1b3eae37dc7b146be50b71a0584923be/header.jpg?t=1792683362",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "🐱 Найдите 200 спрятанных котов в 2 художественных сценах 🖌️. Расслабьтесь с раскраской по номерам 🎨 и оживите детали. Играйте в одиночку или в коопе 👯‍♂️, пока Meow FM 🎶 задаёт настроение."
+      "metacritic": 87,
+      "short_description": "Научно-фантастический симулятор колонии с интеллектуальным AI-рассказчиком. Создаёт истории, моделируя психологию, экологию, стрельбу, ближний бой, климат, биомы, дипломатию, межличностные отношения, искусство, медицину, торговлю и многое другое."
     },
     {
       "appid": "2929250",

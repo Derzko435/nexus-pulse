@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T00:45:48+03:00",
+  "updatedAt": "2026-10-23T03:44:44+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -43,16 +43,6 @@
       "steamAppId": "903950"
     },
     {
-      "id": "steam-1546080",
-      "title": "Every Day We Fight",
-      "store": "Steam",
-      "old": 999,
-      "neu": 399,
-      "pct": 60,
-      "url": "https://store.steampowered.com/app/1546080/",
-      "steamAppId": "1546080"
-    },
-    {
       "id": "steam-72176",
       "title": "Atomic Heart - Ultimate Edition",
       "store": "Steam",
@@ -81,6 +71,26 @@
       "pct": 41,
       "url": "https://store.steampowered.com/app/5263600/",
       "steamAppId": "5263600"
+    },
+    {
+      "id": "steam-2882840",
+      "title": "Pinhead Adventures",
+      "store": "Steam",
+      "old": 550,
+      "neu": 330,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/2882840/",
+      "steamAppId": "2882840"
+    },
+    {
+      "id": "steam-5190860",
+      "title": "TetraCore",
+      "store": "Steam",
+      "old": 235,
+      "neu": 141,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5190860/",
+      "steamAppId": "5190860"
     },
     {
       "id": "steam-4656000",
@@ -131,16 +141,6 @@
       "pct": 20,
       "url": "https://store.steampowered.com/app/294100/",
       "steamAppId": "294100"
-    },
-    {
-      "id": "steam-2929250",
-      "title": "over the hill",
-      "store": "Steam",
-      "old": 1050,
-      "neu": 840,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/2929250/",
-      "steamAppId": "2929250"
     }
   ]
 }
