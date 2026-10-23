@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T16:36:39+03:00",
+  "updatedAt": "2026-10-23T21:30:08+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -11,6 +11,16 @@
       "pct": 90,
       "url": "https://store.steampowered.com/app/1449690/",
       "steamAppId": "1449690"
+    },
+    {
+      "id": "steam-1250",
+      "title": "Killing Floor",
+      "store": "Steam",
+      "old": 399,
+      "neu": 39,
+      "pct": 90,
+      "url": "https://store.steampowered.com/app/1250/",
+      "steamAppId": "1250"
     },
     {
       "id": "steam-668580",
@@ -33,16 +43,6 @@
       "steamAppId": "2183900"
     },
     {
-      "id": "steam-903950",
-      "title": "Last Oasis",
-      "store": "Steam",
-      "old": 999,
-      "neu": 329,
-      "pct": 67,
-      "url": "https://store.steampowered.com/app/903950/",
-      "steamAppId": "903950"
-    },
-    {
       "id": "steam-72176",
       "title": "Atomic Heart - Ultimate Edition",
       "store": "Steam",
@@ -53,64 +53,44 @@
       "steamAppId": "72176"
     },
     {
-      "id": "steam-4656000",
-      "title": "BOMBANANA!",
+      "id": "steam-5230130",
+      "title": "The Consumed",
       "store": "Steam",
-      "old": 210,
-      "neu": 126,
+      "old": 385,
+      "neu": 231,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/4656000/",
-      "steamAppId": "4656000"
+      "url": "https://store.steampowered.com/app/5230130/",
+      "steamAppId": "5230130"
     },
     {
-      "id": "steam-5232280",
-      "title": "Puzzle Rivers",
+      "id": "steam-5132600",
+      "title": "Touwers: Defend the Realm",
       "store": "Steam",
-      "old": 210,
-      "neu": 126,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5232280/",
-      "steamAppId": "5232280"
+      "old": 385,
+      "neu": 238,
+      "pct": 38,
+      "url": "https://store.steampowered.com/app/5132600/",
+      "steamAppId": "5132600"
     },
     {
-      "id": "steam-5061630",
-      "title": "Puzzle Sharks",
+      "id": "steam-2704900",
+      "title": "Bohnice: Within The Mind",
       "store": "Steam",
-      "old": 210,
-      "neu": 126,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5061630/",
-      "steamAppId": "5061630"
+      "old": 465,
+      "neu": 302,
+      "pct": 35,
+      "url": "https://store.steampowered.com/app/2704900/",
+      "steamAppId": "2704900"
     },
     {
-      "id": "steam-5151440",
-      "title": "Puzzle Shrimps",
+      "id": "steam-4486370",
+      "title": "Banana Life Sim",
       "store": "Steam",
-      "old": 210,
-      "neu": 126,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5151440/",
-      "steamAppId": "5151440"
-    },
-    {
-      "id": "steam-4930680",
-      "title": "Fitness Waifu",
-      "store": "Steam",
-      "old": 99,
-      "neu": 59,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/4930680/",
-      "steamAppId": "4930680"
-    },
-    {
-      "id": "steam-5224190",
-      "title": "Hentai Puzzle: Cassandra",
-      "store": "Steam",
-      "old": 150,
-      "neu": 100,
-      "pct": 33,
-      "url": "https://store.steampowered.com/app/5224190/",
-      "steamAppId": "5224190"
+      "old": 64,
+      "neu": 44,
+      "pct": 31,
+      "url": "https://store.steampowered.com/app/4486370/",
+      "steamAppId": "4486370"
     },
     {
       "id": "steam-739630",
@@ -123,24 +103,44 @@
       "steamAppId": "739630"
     },
     {
-      "id": "steam-5189670",
-      "title": "Девушка-сексароид VR",
+      "id": "steam-5169900",
+      "title": "DODGE GAME",
       "store": "Steam",
-      "old": 890,
-      "neu": 667,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5189670/",
-      "steamAppId": "5189670"
+      "old": 240,
+      "neu": 168,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5169900/",
+      "steamAppId": "5169900"
     },
     {
-      "id": "steam-3711910",
-      "title": "Cursebound",
+      "id": "steam-5232660",
+      "title": "Terminal Dice",
       "store": "Steam",
-      "old": 350,
-      "neu": 262,
+      "old": 335,
+      "neu": 251,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/3711910/",
-      "steamAppId": "3711910"
+      "url": "https://store.steampowered.com/app/5232660/",
+      "steamAppId": "5232660"
+    },
+    {
+      "id": "steam-3390460",
+      "title": "Kitchen Traitor",
+      "store": "Steam",
+      "old": 171,
+      "neu": 136,
+      "pct": 21,
+      "url": "https://store.steampowered.com/app/3390460/",
+      "steamAppId": "3390460"
+    },
+    {
+      "id": "steam-294100",
+      "title": "RimWorld",
+      "store": "Steam",
+      "old": 1099,
+      "neu": 879,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/294100/",
+      "steamAppId": "294100"
     }
   ]
 }
