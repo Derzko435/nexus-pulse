@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T21:30:03+03:00",
+  "updatedAt": "2026-10-24T02:14:40+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -468,6 +468,22 @@
       "short_description": "The Walking Dead: The Telltale Definitive Series содержит все четыре сезона, дополнение 400 Days и The Walking Dead: Michonne — всего 23 уникальных эпизода, которые подарят игрокам более 50 часов игры."
     },
     {
+      "appid": "1250",
+      "name": "Killing Floor",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1250/header.jpg?t=1789667388",
+      "genres": [
+        "Экшены"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": 72,
+      "short_description": "6-player co-op survival horror at its finest! Free updates, free special events and a ridiculous amount of fun!"
+    },
+    {
       "appid": "668580",
       "name": "Atomic Heart",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/header.jpg?t=1786632138",
@@ -504,27 +520,6 @@
       "short_description": "Обретите сверхчеловеческую мощь космодесантника. Пустите в ход смертоносные навыки и разрушительное оружие, чтобы истребить безжалостных тиранидов. Защитите Империум в ярких одиночных боях или многопользовательских режимах с видом от третьего лица."
     },
     {
-      "appid": "903950",
-      "name": "Last Oasis",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/903950/header.jpg?t=1772139765",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Многопользовательские игры",
-        "Ролевые игры",
-        "Ранний доступ"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Не останавливайтесь, мир гибнет! В многопользовательской игре-выживалке про кочевников вам предстоит строить передвижные базы, осваивать новые пути, добывать пропитание, пиратствовать и торговать ради выживания. Присоединяйтесь к клану и защищайте свою территорию!"
-    },
-    {
       "appid": "72176",
       "name": "Steam App 72176",
       "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/72176/header.jpg",
@@ -541,111 +536,12 @@
       "curated": true
     },
     {
-      "appid": "4656000",
-      "name": "BOMBANANA!",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1792506779",
+      "appid": "5230130",
+      "name": "The Consumed",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5230130/b5c14a222e82e5eab7132e1a6dda5e0755196304/header.jpg?t=1792773137",
       "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Хаотичное веселье с друзьями-обезьянами! Работайте в команде из трёх игроков: слепой, глухой и немой обезьян. У каждого есть только часть необходимой информации. Общайтесь, решайте головоломки и соревнуйтесь со временем. Успеете ли вы обезвредить бомбу, пока она не взорвалась?"
-    },
-    {
-      "appid": "5232280",
-      "name": "Puzzle Rivers",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5232280/43f25f26534cf68998d4e39c7bba154768530da0/header.jpg?t=1792756295",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "This game is a classic puzzle game with multiple levels and beautiful graphics. Enjoy!"
-    },
-    {
-      "appid": "5061630",
-      "name": "Puzzle Sharks",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5061630/1b524414948b1b3f76fbfded02854448f8985f1f/header.jpg?t=1792744730",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "This game is a classic puzzle game with multiple levels and beautiful graphics. Enjoy!"
-    },
-    {
-      "appid": "5151440",
-      "name": "Puzzle Shrimps",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5151440/c2b7dc3e0a157809d055408ee5da7c7e8d1fde02/header.jpg?t=1792743975",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "This game is a classic puzzle game with multiple levels and beautiful graphics. Enjoy!"
-    },
-    {
-      "appid": "4930680",
-      "name": "Fitness Waifu",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4930680/4ed444265a38e59888ca6dbedd2ed422fc6f98b2/header.jpg?t=1792745002",
-      "genres": [
-        "Казуальные игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Fitness Waifu — это игра-пазл про очаровательных фитнес-вайфу и атмосферу спорта. Собирайте 30 уровней, открывайте стильные иллюстрации девушек во время тренировок и сохраняйте все изображения в личной галерее в высоком качестве."
-    },
-    {
-      "appid": "5224190",
-      "name": "Hentai Puzzle: Cassandra",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5224190/11f60d9f3b977ef48df88e2bcbb876d6d2546370/header.jpg?t=1792745899",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Решайте пазлы с Cassandra, очень озорной ведьмой, и открывайте соблазнительные аниме-изображения и сцены по мере прогресса в Hentai Puzzle: Cassandra."
-    },
-    {
-      "appid": "5189670",
-      "name": "Девушка-сексароид VR",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5189670/aebd52214a2c77b9f7c4f3794f4716c32630d21a/header.jpg?t=1792744206",
-      "genres": [
+        "Приключенческие игры",
+        "Инди",
         "Симуляторы"
       ],
       "is_free": false,
@@ -655,17 +551,125 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "VR-симулятор секса [Sexaroid Girl VR] Эта взрослая VR-игра, имевшая огромный успех в Японии в 2017 году, была локализована и теперь доступна в Steam!"
+      "short_description": "Играйте за ночного охранника торгового центра в этой аналоговой хоррор-игре от первого лица. Проверяйте, охраняйте и попытайтесь выжить в магазинах с привидениями в этом умирающем торговом центре."
     },
     {
-      "appid": "3711910",
-      "name": "Cursebound",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711910/f2e1136b7d5d9860189f6d5ea088aafb64b2f0ec/header.jpg?t=1792758146",
+      "appid": "5132600",
+      "name": "Touwers: Defend the Realm",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5132600/16c2c6a0cff3a5700e5736a74bbbdaa5fbb2d0a1/header.jpg?t=1792778424",
       "genres": [
         "Экшены",
         "Приключенческие игры",
         "Инди",
-        "Ролевые игры"
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Touwers is a fantasy tower defense strategy game where you place towers on a grid, hold the line through escalating enemy waves, and grow your economy to be able to unlock all kinds of perks along your way through 4 distinct campaigns."
+    },
+    {
+      "appid": "2704900",
+      "name": "Bohnice: Within The Mind",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2704900/abcf828daffa4fcc7551dd99385ef86e9e9a8529/header.jpg?t=1792774905",
+      "genres": [
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Раскройте мрачные тайны больницы Бохнице в Праге. В роли журналиста задокументируйте запретные эксперименты и леденящие душу паранормальные явления. Соберите улики и выживите, узнав ужасающую правду, скрытую 40 лет."
+    },
+    {
+      "appid": "4486370",
+      "name": "Banana Life Sim",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4486370/f64894edfa4964d64676b6013f9525a38012f2a4/header.jpg?t=1792774825",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Banana Life Sim is a game in which you can become a banana."
+    },
+    {
+      "appid": "5169900",
+      "name": "DODGE GAME",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5169900/73bb226ca7db08b8119efe18f150e0951534f6b3/header.jpg?t=1792775018",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Dodge relentless enemy swarms, build score-multiplying combos, and unleash devastating powers in a fast-paced arcade survival game. Conquer evolving arenas, defeat intense bosses, and climb the leaderboards."
+    },
+    {
+      "appid": "5232660",
+      "name": "Terminal Dice",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5232660/9b51d95a92ee7a6187eefb574a4a9c91b26ca8b1/header.jpg?t=1792767875",
+      "genres": [
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Terminal Dice is a turn-based roguelike deckbuilder played with physical dice. Roll your hand, spend limited OPS to alter results, then arrange dice in an ordered buffer and compile a score. Win encounters to rewrite die faces, shape your build, and break rule-changing bosses."
+    },
+    {
+      "appid": "3390460",
+      "name": "Kitchen Traitor",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3390460/0b77765ffa7398b640f23cd5ff38505273672083/header.jpg?t=1792774180",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Готовьте вместе. Подозревайте каждого. Kitchen Traitor — кулинарная игра от первого лица с социальной дедукцией для 4–8 игроков по сети. Режьте, готовьте и подавайте блюда в трёх ресторанах, пока тайные предатели саботируют смену. Созывайте собрания, решайте, кому верить, и спасайте ресторан."
+    },
+    {
+      "appid": "294100",
+      "name": "RimWorld",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/76e0613b8197327299d5dbabb0a7fd7828a689a2/header.jpg?t=1782756789",
+      "genres": [
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
@@ -673,8 +677,8 @@
         "mac": true,
         "linux": true
       },
-      "metacritic": null,
-      "short_description": "A story-rich action adventure where you play as a god walking among humans to break a deadly curse. Explore a stylized world blending 2D pixel art and 3D low-poly landscapes, face colossal bosses, master an elemental form, and test your limits in Endless Mode."
+      "metacritic": 87,
+      "short_description": "Научно-фантастический симулятор колонии с интеллектуальным AI-рассказчиком. Создаёт истории, моделируя психологию, экологию, стрельбу, ближний бой, климат, биомы, дипломатию, межличностные отношения, искусство, медицину, торговлю и многое другое."
     }
   ]
 }
