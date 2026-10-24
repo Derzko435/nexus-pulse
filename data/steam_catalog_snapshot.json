@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T14:17:05+03:00",
+  "updatedAt": "2026-10-24T19:05:30+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -536,16 +536,12 @@
       "curated": true
     },
     {
-      "appid": "5333520",
-      "name": "FUTA GIRLS",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5333520/336494f7687c2a0c033f6df59faa9297b7cd4d35/header.jpg?t=1792783258",
+      "appid": "5404950",
+      "name": "Foodland Puzzle",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5404950/3b3d07bc6c3a9ffb0e3566021821733c1a55f0ee/header.jpg?t=1792825279",
       "genres": [
-        "Экшены",
-        "Приключенческие игры",
         "Казуальные игры",
-        "Инди",
-        "Ролевые игры",
-        "Спорт"
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -554,7 +550,58 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "FURRY GIRLS - это простейшая 2D игра для взрослых, в которой вам предстоит открывать горячие изображения красивых дамочек."
+      "short_description": "Foodland puzzle is simplictic jigsaw puzzle game with food themed images"
+    },
+    {
+      "appid": "5061340",
+      "name": "Puzzle Wild Cats",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5061340/9c47809452ef4b93382b5196f7ab49e3cd825bf4/header.jpg?t=1792824872",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "This game is a classic puzzle game with multiple levels and beautiful graphics. Enjoy!"
+    },
+    {
+      "appid": "5232250",
+      "name": "Puzzle Musical Instruments",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5232250/3a883161bc0eec482ca3776119f6dd736f2bc170/header.jpg?t=1792824169",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "This game is a classic puzzle game with multiple levels and beautiful graphics. Enjoy!"
+    },
+    {
+      "appid": "5151450",
+      "name": "Puzzle Nuts",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5151450/b020404a69527cdce20eb79c3651b35fa228945a/header.jpg?t=1792824009",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "This game is a classic puzzle game with multiple levels and beautiful graphics. Enjoy!"
     },
     {
       "appid": "3892270",
@@ -575,11 +622,10 @@
       "short_description": "Кооперативная игра про исследование казино для 1–6 человек. У вас с друзьями один банковский счёт и огромный долг на всех: играйте, покупайте предметы и делайте глупости на пути к вершине башни казино. Накопите на квоту для ростовщика за 5 минут или пожалеете..."
     },
     {
-      "appid": "4800650",
-      "name": "7 Millimeters",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4800650/c4369dc93d36a4f55f68d7d4647ba9273cf6d6fe/header.jpg?t=1792781711",
+      "appid": "5295630",
+      "name": "Wok King",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5295630/ef9f14cdad5f5a7722451158b774af121aeb10c5/header.jpg?t=1792823543",
       "genres": [
-        "Экшены",
         "Казуальные игры",
         "Инди",
         "Симуляторы"
@@ -591,23 +637,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Start your journey as a carpenter in a new neighborhood. Take measurements, install furniture and fulfill customer orders. But success attracts trouble; a local gang demands a fee. Refuse, turn your shop into a fortress, and arm yourself to defend your life. will you pay or resist?"
-    },
-    {
-      "appid": "4100790",
-      "name": "Echoes of Pinebridge",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4100790/493c75641df4f14427966283a4eccfc2460b80d7/header.jpg?t=1792784572",
-      "genres": [
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "After a transfer student enters his life, college senior Kent begins suffering fainting spells and hearing voices. Navigate friendships, secrets, and a growing supernatural mystery in this choice-driven visual novel."
+      "short_description": "You and your friends run a Chinese restaurant in a cherry blossom town on an island. You travel to various places to purchase different quality ingredients, frantically completing orders in the kitchen, riding an e-bike to deliver the delicacies to customers, striving to become the wok king!"
     },
     {
       "appid": "2929250",
@@ -647,40 +677,6 @@
       },
       "metacritic": null,
       "short_description": "Survival horror meets gay dark romance. Trapped in a nightmare realm, fight grotesque monsters and solve twisted puzzles. Caught between a possessive lover and a mysterious stranger, you must uncover the truth. Will you survive the horror and the heat of Boys in the Dark?"
-    },
-    {
-      "appid": "3129420",
-      "name": "АСПИС",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3129420/a086e78791e9172fa6dcd889c4a5e4a3776457ee/header_russian.jpg?t=1792767697",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "АСПИС — сюжетный хоррор от первого лица в СССР конца 80-х. Инженер Андрей погружается в систему моделирования будущего, надеясь снова увидеть погибшую семью. Но машина открывает миры, которые не должна была обнаружить. Исследуйте институт и загляните по ту сторону реальности."
-    },
-    {
-      "appid": "4690300",
-      "name": "Slave Princess Elnea",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4690300/c36cc86c07a2f95ce8f4babcf3874f9653f71f8e/header.jpg?t=1792806128",
-      "genres": [
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "In this RPG, play as Elnea, a former princess turned slave, as she climbs her way back to the top in pursuit of revenge! Earn money by either humiliating yourself in front of the Empire’s citizens or fighting your way through dungeons. Will you be able to preserve your dignity until the end?"
     }
   ]
 }

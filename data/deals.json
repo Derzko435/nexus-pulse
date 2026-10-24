@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T14:17:10+03:00",
+  "updatedAt": "2026-10-24T19:05:35+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -93,6 +93,26 @@
       "steamAppId": "5151450"
     },
     {
+      "id": "steam-5232310",
+      "title": "Puzzle Penguins",
+      "store": "Steam",
+      "old": 210,
+      "neu": 126,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5232310/",
+      "steamAppId": "5232310"
+    },
+    {
+      "id": "steam-4343600",
+      "title": "墨武天工",
+      "store": "Steam",
+      "old": 150,
+      "neu": 90,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/4343600/",
+      "steamAppId": "4343600"
+    },
+    {
       "id": "steam-3892270",
       "title": "Казино с друзьями",
       "store": "Steam",
@@ -103,6 +123,16 @@
       "steamAppId": "3892270"
     },
     {
+      "id": "steam-5038160",
+      "title": "SQUIRT GAME 💦",
+      "store": "Steam",
+      "old": 556,
+      "neu": 350,
+      "pct": 37,
+      "url": "https://store.steampowered.com/app/5038160/",
+      "steamAppId": "5038160"
+    },
+    {
       "id": "steam-739630",
       "title": "Phasmophobia",
       "store": "Steam",
@@ -111,36 +141,6 @@
       "pct": 30,
       "url": "https://store.steampowered.com/app/739630/",
       "steamAppId": "739630"
-    },
-    {
-      "id": "steam-5295630",
-      "title": "Wok King",
-      "store": "Steam",
-      "old": 150,
-      "neu": 105,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/5295630/",
-      "steamAppId": "5295630"
-    },
-    {
-      "id": "steam-2929250",
-      "title": "over the hill",
-      "store": "Steam",
-      "old": 1050,
-      "neu": 840,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/2929250/",
-      "steamAppId": "2929250"
-    },
-    {
-      "id": "steam-4234400",
-      "title": "Boys in the dark",
-      "store": "Steam",
-      "old": 855,
-      "neu": 684,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/4234400/",
-      "steamAppId": "4234400"
     }
   ]
 }
