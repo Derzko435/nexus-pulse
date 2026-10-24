@@ -1,9 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-10-24T00:44:34+03:00",
+ "updatedAt": "2026-10-24T03:05:47+03:00",
  "posted": {
   "news": [
-   "d864f266d5f0",
    "a61d3bff3961",
    "82e812bc43c4",
    "1521fbdd76ba",
@@ -502,7 +501,8 @@
    "8630ef9be0d2",
    "b4274882d9d3",
    "6b9b534e12c8",
-   "a7b9714f1538"
+   "a7b9714f1538",
+   "6d05cac53359"
   ],
   "deals": [
    "steam-246420:90",
@@ -983,7 +983,12 @@
    "result:bo3-130794",
    "result:bo3-132278",
    "result:bo3-132151",
-   "result:bo3-130798"
+   "result:bo3-130798",
+   "result:bo3-132152",
+   "result:bo3-130797",
+   "result:bo3-130795",
+   "result:bo3-130799",
+   "live:bo3-130800"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -1020,12 +1025,6 @@
    "cs2:2026-10-23"
   ],
   "videos": [
-   "cF5VD1jYEpY",
-   "TGTLlalqc8Q",
-   "w-WjtpGeWDA",
-   "2ZqGSsDhlfM",
-   "Wvw7Ilqr0uo",
-   "cSyv5tlCPUU",
    "vTO0ohKiar0",
    "YLUD8tKK5yM",
    "jjELeWI9vWU",
@@ -1519,7 +1518,13 @@
    "NgJzR8zZU78",
    "OWhxaPciNq8",
    "FPr5u0PeoNE",
-   "8txB9yg9FNc"
+   "8txB9yg9FNc",
+   "JS1L2Nkctgo",
+   "FATvv4Lk7IU",
+   "VzymjkPh5wk",
+   "jLbhlvybfiA",
+   "qZJQlYxq3j0",
+   "bxZh6pAj0p8"
   ],
   "releases": [
    "week:2026-W39",
@@ -1594,7 +1599,8 @@
   "2026-10-23T15:12+03:00",
   "2026-10-23T20:31+03:00",
   "2026-10-24T00:44+03:00",
-  "2026-10-24T00:44+03:00"
+  "2026-10-24T00:44+03:00",
+  "2026-10-24T03:05+03:00"
  ],
  "weekly": {
   "gamenight": {
