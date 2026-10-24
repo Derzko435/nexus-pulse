@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T02:14:40+03:00",
+  "updatedAt": "2026-10-24T07:48:38+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -536,13 +536,16 @@
       "curated": true
     },
     {
-      "appid": "5230130",
-      "name": "The Consumed",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5230130/b5c14a222e82e5eab7132e1a6dda5e0755196304/header.jpg?t=1792773137",
+      "appid": "5333520",
+      "name": "FUTA GIRLS",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5333520/336494f7687c2a0c033f6df59faa9297b7cd4d35/header.jpg?t=1792783258",
       "genres": [
+        "Экшены",
         "Приключенческие игры",
+        "Казуальные игры",
         "Инди",
-        "Симуляторы"
+        "Ролевые игры",
+        "Спорт"
       ],
       "is_free": false,
       "platforms": {
@@ -551,7 +554,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Играйте за ночного охранника торгового центра в этой аналоговой хоррор-игре от первого лица. Проверяйте, охраняйте и попытайтесь выжить в магазинах с привидениями в этом умирающем торговом центре."
+      "short_description": "FURRY GIRLS - это простейшая 2D игра для взрослых, в которой вам предстоит открывать горячие изображения красивых дамочек."
     },
     {
       "appid": "5132600",
@@ -573,6 +576,24 @@
       "short_description": "Touwers is a fantasy tower defense strategy game where you place towers on a grid, hold the line through escalating enemy waves, and grow your economy to be able to unlock all kinds of perks along your way through 4 distinct campaigns."
     },
     {
+      "appid": "3892270",
+      "name": "Казино с друзьями",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/395e6d7972474333a698b26f8aa5597bf38109a1/header.jpg?t=1792427976",
+      "genres": [
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Кооперативная игра про исследование казино для 1–6 человек. У вас с друзьями один банковский счёт и огромный долг на всех: играйте, покупайте предметы и делайте глупости на пути к вершине башни казино. Накопите на квоту для ростовщика за 5 минут или пожалеете..."
+    },
+    {
       "appid": "2704900",
       "name": "Bohnice: Within The Mind",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2704900/abcf828daffa4fcc7551dd99385ef86e9e9a8529/header.jpg?t=1792774905",
@@ -588,6 +609,24 @@
       },
       "metacritic": null,
       "short_description": "Раскройте мрачные тайны больницы Бохнице в Праге. В роли журналиста задокументируйте запретные эксперименты и леденящие душу паранормальные явления. Соберите улики и выживите, узнав ужасающую правду, скрытую 40 лет."
+    },
+    {
+      "appid": "5310670",
+      "name": "Sad Damn",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5310670/f58b79e0ea419cd2ed6993e8aa60b4af2907fbfd/header.jpg?t=1792790732",
+      "genres": [
+        "Казуальные игры",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Sad Damn is hiding. Use your fortress to blast your way to him. Tear through his generals' defenses, get better weapons, and try not to get blown up first."
     },
     {
       "appid": "4486370",
@@ -629,26 +668,11 @@
       "short_description": "Dodge relentless enemy swarms, build score-multiplying combos, and unleash devastating powers in a fast-paced arcade survival game. Conquer evolving arenas, defeat intense bosses, and climb the leaderboards."
     },
     {
-      "appid": "5232660",
-      "name": "Terminal Dice",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5232660/9b51d95a92ee7a6187eefb574a4a9c91b26ca8b1/header.jpg?t=1792767875",
+      "appid": "4800650",
+      "name": "7 Millimeters",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4800650/c4369dc93d36a4f55f68d7d4647ba9273cf6d6fe/header.jpg?t=1792781711",
       "genres": [
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Terminal Dice is a turn-based roguelike deckbuilder played with physical dice. Roll your hand, spend limited OPS to alter results, then arrange dice in an ordered buffer and compile a score. Win encounters to rewrite die faces, shape your build, and break rule-changing bosses."
-    },
-    {
-      "appid": "3390460",
-      "name": "Kitchen Traitor",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3390460/0b77765ffa7398b640f23cd5ff38505273672083/header.jpg?t=1792774180",
-      "genres": [
+        "Экшены",
         "Казуальные игры",
         "Инди",
         "Симуляторы"
@@ -660,25 +684,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Готовьте вместе. Подозревайте каждого. Kitchen Traitor — кулинарная игра от первого лица с социальной дедукцией для 4–8 игроков по сети. Режьте, готовьте и подавайте блюда в трёх ресторанах, пока тайные предатели саботируют смену. Созывайте собрания, решайте, кому верить, и спасайте ресторан."
-    },
-    {
-      "appid": "294100",
-      "name": "RimWorld",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/76e0613b8197327299d5dbabb0a7fd7828a689a2/header.jpg?t=1782756789",
-      "genres": [
-        "Инди",
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": 87,
-      "short_description": "Научно-фантастический симулятор колонии с интеллектуальным AI-рассказчиком. Создаёт истории, моделируя психологию, экологию, стрельбу, ближний бой, климат, биомы, дипломатию, межличностные отношения, искусство, медицину, торговлю и многое другое."
+      "short_description": "Start your journey as a carpenter in a new neighborhood. Take measurements, install furniture and fulfill customer orders. But success attracts trouble; a local gang demands a fee. Refuse, turn your shop into a fortress, and arm yourself to defend your life. will you pay or resist?"
     }
   ]
 }
