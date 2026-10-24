@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T07:48:43+03:00",
+  "updatedAt": "2026-10-24T14:17:10+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -53,14 +53,44 @@
       "steamAppId": "72176"
     },
     {
-      "id": "steam-5333520",
-      "title": "FUTA GIRLS",
+      "id": "steam-5404950",
+      "title": "Foodland Puzzle",
       "store": "Steam",
-      "old": 200,
-      "neu": 120,
+      "old": 64,
+      "neu": 38,
+      "pct": 41,
+      "url": "https://store.steampowered.com/app/5404950/",
+      "steamAppId": "5404950"
+    },
+    {
+      "id": "steam-5061340",
+      "title": "Puzzle Wild Cats",
+      "store": "Steam",
+      "old": 210,
+      "neu": 126,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5333520/",
-      "steamAppId": "5333520"
+      "url": "https://store.steampowered.com/app/5061340/",
+      "steamAppId": "5061340"
+    },
+    {
+      "id": "steam-5232250",
+      "title": "Puzzle Musical Instruments",
+      "store": "Steam",
+      "old": 210,
+      "neu": 126,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5232250/",
+      "steamAppId": "5232250"
+    },
+    {
+      "id": "steam-5151450",
+      "title": "Puzzle Nuts",
+      "store": "Steam",
+      "old": 210,
+      "neu": 126,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5151450/",
+      "steamAppId": "5151450"
     },
     {
       "id": "steam-3892270",
@@ -83,24 +113,14 @@
       "steamAppId": "739630"
     },
     {
-      "id": "steam-4800650",
-      "title": "7 Millimeters",
+      "id": "steam-5295630",
+      "title": "Wok King",
       "store": "Steam",
-      "old": 245,
-      "neu": 178,
-      "pct": 27,
-      "url": "https://store.steampowered.com/app/4800650/",
-      "steamAppId": "4800650"
-    },
-    {
-      "id": "steam-4100790",
-      "title": "Echoes of Pinebridge",
-      "store": "Steam",
-      "old": 545,
-      "neu": 408,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/4100790/",
-      "steamAppId": "4100790"
+      "old": 150,
+      "neu": 105,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5295630/",
+      "steamAppId": "5295630"
     },
     {
       "id": "steam-2929250",
@@ -121,26 +141,6 @@
       "pct": 20,
       "url": "https://store.steampowered.com/app/4234400/",
       "steamAppId": "4234400"
-    },
-    {
-      "id": "steam-3129420",
-      "title": "АСПИС",
-      "store": "Steam",
-      "old": 849,
-      "neu": 679,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/3129420/",
-      "steamAppId": "3129420"
-    },
-    {
-      "id": "steam-4690300",
-      "title": "Slave Princess Elnea",
-      "store": "Steam",
-      "old": 555,
-      "neu": 444,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/4690300/",
-      "steamAppId": "4690300"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T07:48:38+03:00",
+  "updatedAt": "2026-10-24T14:17:05+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -557,25 +557,6 @@
       "short_description": "FURRY GIRLS - это простейшая 2D игра для взрослых, в которой вам предстоит открывать горячие изображения красивых дамочек."
     },
     {
-      "appid": "5132600",
-      "name": "Touwers: Defend the Realm",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5132600/16c2c6a0cff3a5700e5736a74bbbdaa5fbb2d0a1/header.jpg?t=1792778424",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Touwers is a fantasy tower defense strategy game where you place towers on a grid, hold the line through escalating enemy waves, and grow your economy to be able to unlock all kinds of perks along your way through 4 distinct campaigns."
-    },
-    {
       "appid": "3892270",
       "name": "Казино с друзьями",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/395e6d7972474333a698b26f8aa5597bf38109a1/header.jpg?t=1792427976",
@@ -592,80 +573,6 @@
       },
       "metacritic": null,
       "short_description": "Кооперативная игра про исследование казино для 1–6 человек. У вас с друзьями один банковский счёт и огромный долг на всех: играйте, покупайте предметы и делайте глупости на пути к вершине башни казино. Накопите на квоту для ростовщика за 5 минут или пожалеете..."
-    },
-    {
-      "appid": "2704900",
-      "name": "Bohnice: Within The Mind",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2704900/abcf828daffa4fcc7551dd99385ef86e9e9a8529/header.jpg?t=1792774905",
-      "genres": [
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Раскройте мрачные тайны больницы Бохнице в Праге. В роли журналиста задокументируйте запретные эксперименты и леденящие душу паранормальные явления. Соберите улики и выживите, узнав ужасающую правду, скрытую 40 лет."
-    },
-    {
-      "appid": "5310670",
-      "name": "Sad Damn",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5310670/f58b79e0ea419cd2ed6993e8aa60b4af2907fbfd/header.jpg?t=1792790732",
-      "genres": [
-        "Казуальные игры",
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Sad Damn is hiding. Use your fortress to blast your way to him. Tear through his generals' defenses, get better weapons, and try not to get blown up first."
-    },
-    {
-      "appid": "4486370",
-      "name": "Banana Life Sim",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4486370/f64894edfa4964d64676b6013f9525a38012f2a4/header.jpg?t=1792774825",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Banana Life Sim is a game in which you can become a banana."
-    },
-    {
-      "appid": "5169900",
-      "name": "DODGE GAME",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5169900/73bb226ca7db08b8119efe18f150e0951534f6b3/header.jpg?t=1792775018",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Dodge relentless enemy swarms, build score-multiplying combos, and unleash devastating powers in a fast-paced arcade survival game. Conquer evolving arenas, defeat intense bosses, and climb the leaderboards."
     },
     {
       "appid": "4800650",
@@ -685,6 +592,95 @@
       },
       "metacritic": null,
       "short_description": "Start your journey as a carpenter in a new neighborhood. Take measurements, install furniture and fulfill customer orders. But success attracts trouble; a local gang demands a fee. Refuse, turn your shop into a fortress, and arm yourself to defend your life. will you pay or resist?"
+    },
+    {
+      "appid": "4100790",
+      "name": "Echoes of Pinebridge",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4100790/493c75641df4f14427966283a4eccfc2460b80d7/header.jpg?t=1792784572",
+      "genres": [
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "After a transfer student enters his life, college senior Kent begins suffering fainting spells and hearing voices. Navigate friendships, secrets, and a growing supernatural mystery in this choice-driven visual novel."
+    },
+    {
+      "appid": "2929250",
+      "name": "over the hill",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/header.jpg?t=1792666389",
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Гонки",
+        "Симуляторы",
+        "Спорт"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Откройте для себя мир в золотой век бездорожья. За рулем культовых внедорожников 60–80-х годов — в одиночку или с друзьями — покоряйте сложные трассы и исследуйте живописные места."
+    },
+    {
+      "appid": "4234400",
+      "name": "Boys in the dark",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4234400/d9b223963429b474f85ff9be1758c5402a227600/header.jpg?t=1792800712",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Survival horror meets gay dark romance. Trapped in a nightmare realm, fight grotesque monsters and solve twisted puzzles. Caught between a possessive lover and a mysterious stranger, you must uncover the truth. Will you survive the horror and the heat of Boys in the Dark?"
+    },
+    {
+      "appid": "3129420",
+      "name": "АСПИС",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3129420/a086e78791e9172fa6dcd889c4a5e4a3776457ee/header_russian.jpg?t=1792767697",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "АСПИС — сюжетный хоррор от первого лица в СССР конца 80-х. Инженер Андрей погружается в систему моделирования будущего, надеясь снова увидеть погибшую семью. Но машина открывает миры, которые не должна была обнаружить. Исследуйте институт и загляните по ту сторону реальности."
+    },
+    {
+      "appid": "4690300",
+      "name": "Slave Princess Elnea",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4690300/c36cc86c07a2f95ce8f4babcf3874f9653f71f8e/header.jpg?t=1792806128",
+      "genres": [
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "In this RPG, play as Elnea, a former princess turned slave, as she climbs her way back to the top in pursuit of revenge! Earn money by either humiliating yourself in front of the Empire’s citizens or fighting your way through dungeons. Will you be able to preserve your dignity until the end?"
     }
   ]
 }
