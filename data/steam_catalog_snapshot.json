@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T19:05:30+03:00",
+  "updatedAt": "2026-10-24T21:51:54+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -604,6 +604,41 @@
       "short_description": "This game is a classic puzzle game with multiple levels and beautiful graphics. Enjoy!"
     },
     {
+      "appid": "5232310",
+      "name": "Puzzle Penguins",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5232310/518b35836be7e9fd46d1a0ed081a0289478d8e04/header.jpg?t=1792822869",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "This game is a classic puzzle game with multiple levels and beautiful graphics. Enjoy!"
+    },
+    {
+      "appid": "4343600",
+      "name": "墨武天工",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4343600/616083ae1eb5a045c92fffe9e3a2f85fa1d49ebd/header.jpg?t=1792848227",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "《Безграничное Небо》 - это игра в жанре экшена на выживание с открытым миром, действие которой разворачивается в мифическом древнем Китае. Выступая одновременно в роли строителя и воина, вы будете «планировать тушью и сражаться сталью» в раздробленном,"
+    },
+    {
       "appid": "3892270",
       "name": "Казино с друзьями",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/395e6d7972474333a698b26f8aa5597bf38109a1/header.jpg?t=1792427976",
@@ -622,9 +657,9 @@
       "short_description": "Кооперативная игра про исследование казино для 1–6 человек. У вас с друзьями один банковский счёт и огромный долг на всех: играйте, покупайте предметы и делайте глупости на пути к вершине башни казино. Накопите на квоту для ростовщика за 5 минут или пожалеете..."
     },
     {
-      "appid": "5295630",
-      "name": "Wok King",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5295630/ef9f14cdad5f5a7722451158b774af121aeb10c5/header.jpg?t=1792823543",
+      "appid": "5038160",
+      "name": "SQUIRT GAME 💦",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038160/09a298fadf58eae82a6cb0235853c957fa484358/header.jpg?t=1792858234",
       "genres": [
         "Казуальные игры",
         "Инди",
@@ -633,50 +668,11 @@
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "You and your friends run a Chinese restaurant in a cherry blossom town on an island. You travel to various places to purchase different quality ingredients, frantically completing orders in the kitchen, riding an e-bike to deliver the delicacies to customers, striving to become the wok king!"
-    },
-    {
-      "appid": "2929250",
-      "name": "over the hill",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/header.jpg?t=1792666389",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди",
-        "Гонки",
-        "Симуляторы",
-        "Спорт"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
+        "mac": true,
         "linux": true
       },
       "metacritic": null,
-      "short_description": "Откройте для себя мир в золотой век бездорожья. За рулем культовых внедорожников 60–80-х годов — в одиночку или с друзьями — покоряйте сложные трассы и исследуйте живописные места."
-    },
-    {
-      "appid": "4234400",
-      "name": "Boys in the dark",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4234400/d9b223963429b474f85ff9be1758c5402a227600/header.jpg?t=1792800712",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Survival horror meets gay dark romance. Trapped in a nightmare realm, fight grotesque monsters and solve twisted puzzles. Caught between a possessive lover and a mysterious stranger, you must uncover the truth. Will you survive the horror and the heat of Boys in the Dark?"
+      "short_description": "You signed up for an adult reality show, and now your dignity is the first thing to go. Tease your rivals, exploit their filthy fantasies, and do whatever it takes to win. The prize is huge, but the temptation is even bigger!"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T19:05:35+03:00",
+  "updatedAt": "2026-10-24T21:51:59+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -13,44 +13,24 @@
       "steamAppId": "1449690"
     },
     {
-      "id": "steam-1250",
-      "title": "Killing Floor",
+      "id": "steam-232090",
+      "title": "Killing Floor 2",
       "store": "Steam",
-      "old": 399,
-      "neu": 39,
+      "old": 899,
+      "neu": 89,
       "pct": 90,
-      "url": "https://store.steampowered.com/app/1250/",
-      "steamAppId": "1250"
+      "url": "https://store.steampowered.com/app/232090/",
+      "steamAppId": "232090"
     },
     {
-      "id": "steam-668580",
-      "title": "Atomic Heart",
+      "id": "steam-3247750",
+      "title": "Mycopunk",
       "store": "Steam",
-      "old": 2499,
-      "neu": 499,
-      "pct": 80,
-      "url": "https://store.steampowered.com/app/668580/",
-      "steamAppId": "668580"
-    },
-    {
-      "id": "steam-2183900",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "store": "Steam",
-      "old": 3199,
-      "neu": 799,
-      "pct": 75,
-      "url": "https://store.steampowered.com/app/2183900/",
-      "steamAppId": "2183900"
-    },
-    {
-      "id": "steam-72176",
-      "title": "Atomic Heart - Ultimate Edition",
-      "store": "Steam",
-      "old": 5091,
-      "neu": 852,
-      "pct": 58,
-      "url": "https://store.steampowered.com/app/72176/",
-      "steamAppId": "72176"
+      "old": 550,
+      "neu": 275,
+      "pct": 50,
+      "url": "https://store.steampowered.com/app/3247750/",
+      "steamAppId": "3247750"
     },
     {
       "id": "steam-5404950",
@@ -61,6 +41,26 @@
       "pct": 41,
       "url": "https://store.steampowered.com/app/5404950/",
       "steamAppId": "5404950"
+    },
+    {
+      "id": "steam-5122330",
+      "title": "Console Space",
+      "store": "Steam",
+      "old": 51,
+      "neu": 30,
+      "pct": 41,
+      "url": "https://store.steampowered.com/app/5122330/",
+      "steamAppId": "5122330"
+    },
+    {
+      "id": "steam-4708610",
+      "title": "PixelBoss: Shattered Depths",
+      "store": "Steam",
+      "old": 235,
+      "neu": 141,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/4708610/",
+      "steamAppId": "4708610"
     },
     {
       "id": "steam-5061340",
@@ -81,26 +81,6 @@
       "pct": 40,
       "url": "https://store.steampowered.com/app/5232250/",
       "steamAppId": "5232250"
-    },
-    {
-      "id": "steam-5151450",
-      "title": "Puzzle Nuts",
-      "store": "Steam",
-      "old": 210,
-      "neu": 126,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5151450/",
-      "steamAppId": "5151450"
-    },
-    {
-      "id": "steam-5232310",
-      "title": "Puzzle Penguins",
-      "store": "Steam",
-      "old": 210,
-      "neu": 126,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5232310/",
-      "steamAppId": "5232310"
     },
     {
       "id": "steam-4343600",
@@ -141,6 +121,26 @@
       "pct": 30,
       "url": "https://store.steampowered.com/app/739630/",
       "steamAppId": "739630"
+    },
+    {
+      "id": "steam-5385830",
+      "title": "Lily or Horse",
+      "store": "Steam",
+      "old": 240,
+      "neu": 168,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5385830/",
+      "steamAppId": "5385830"
+    },
+    {
+      "id": "steam-5328190",
+      "title": "Wild Draw",
+      "store": "Steam",
+      "old": 280,
+      "neu": 210,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/5328190/",
+      "steamAppId": "5328190"
     }
   ]
 }
