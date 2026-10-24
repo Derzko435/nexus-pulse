@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T21:51:59+03:00",
+  "updatedAt": "2026-10-25T01:35:19+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -23,26 +23,6 @@
       "steamAppId": "232090"
     },
     {
-      "id": "steam-3247750",
-      "title": "Mycopunk",
-      "store": "Steam",
-      "old": 550,
-      "neu": 275,
-      "pct": 50,
-      "url": "https://store.steampowered.com/app/3247750/",
-      "steamAppId": "3247750"
-    },
-    {
-      "id": "steam-5404950",
-      "title": "Foodland Puzzle",
-      "store": "Steam",
-      "old": 64,
-      "neu": 38,
-      "pct": 41,
-      "url": "https://store.steampowered.com/app/5404950/",
-      "steamAppId": "5404950"
-    },
-    {
       "id": "steam-5122330",
       "title": "Console Space",
       "store": "Steam",
@@ -53,6 +33,26 @@
       "steamAppId": "5122330"
     },
     {
+      "id": "steam-3330380",
+      "title": "Ad Nauseam - The Wrong Side",
+      "store": "Steam",
+      "old": 505,
+      "neu": 303,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/3330380/",
+      "steamAppId": "3330380"
+    },
+    {
+      "id": "steam-5385030",
+      "title": "Dawn Archive",
+      "store": "Steam",
+      "old": 242,
+      "neu": 145,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5385030/",
+      "steamAppId": "5385030"
+    },
+    {
       "id": "steam-4708610",
       "title": "PixelBoss: Shattered Depths",
       "store": "Steam",
@@ -61,26 +61,6 @@
       "pct": 40,
       "url": "https://store.steampowered.com/app/4708610/",
       "steamAppId": "4708610"
-    },
-    {
-      "id": "steam-5061340",
-      "title": "Puzzle Wild Cats",
-      "store": "Steam",
-      "old": 210,
-      "neu": 126,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5061340/",
-      "steamAppId": "5061340"
-    },
-    {
-      "id": "steam-5232250",
-      "title": "Puzzle Musical Instruments",
-      "store": "Steam",
-      "old": 210,
-      "neu": 126,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5232250/",
-      "steamAppId": "5232250"
     },
     {
       "id": "steam-4343600",
@@ -141,6 +121,26 @@
       "pct": 25,
       "url": "https://store.steampowered.com/app/5328190/",
       "steamAppId": "5328190"
+    },
+    {
+      "id": "steam-294100",
+      "title": "RimWorld",
+      "store": "Steam",
+      "old": 1099,
+      "neu": 879,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/294100/",
+      "steamAppId": "294100"
+    },
+    {
+      "id": "steam-2929250",
+      "title": "over the hill",
+      "store": "Steam",
+      "old": 1050,
+      "neu": 840,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/2929250/",
+      "steamAppId": "2929250"
     }
   ]
 }
