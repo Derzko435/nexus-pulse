@@ -1,19 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-10-24T21:52:20+03:00",
+ "updatedAt": "2026-10-25T00:14:56+03:00",
  "posted": {
   "news": [
-   "02c75bd688a4",
-   "378a615b82bb",
-   "b50d18f7c2ef",
-   "e0036a5ccb1c",
-   "d8854a591a4b",
-   "7f877bd2158b",
-   "c65ffca7ac38",
-   "84adc01b2104",
-   "ed0988d9e4bf",
-   "765a3f387ef2",
-   "30fe52960178",
    "e51175436d8c",
    "4c82281289ec",
    "04834d9dbcea",
@@ -502,7 +491,18 @@
    "c0382fd07457",
    "24e22a846f05",
    "2434c4732bfd",
-   "233f3cdb4db6"
+   "233f3cdb4db6",
+   "f11fe5d61b8a",
+   "d86b971e51ce",
+   "957e38615c45",
+   "1d1c90071981",
+   "e59d4a429134",
+   "a41cb0a94181",
+   "9d726c91831c",
+   "292b002ca7c7",
+   "fd1466384da8",
+   "e50233e4001c",
+   "3a8bace0c36c"
   ],
   "deals": [
    "steam-246420:90",
@@ -997,7 +997,19 @@
    "result:bo3-132174",
    "result:bo3-130800",
    "result:bo3-132170",
-   "result:bo3-132269"
+   "result:bo3-132269",
+   "result:bo3-130806",
+   "result:bo3-130805",
+   "live:bo3-132154",
+   "live:bo3-130807",
+   "digest:2026-10-25",
+   "result:bo3-132279",
+   "result:bo3-132176",
+   "result:bo3-132177",
+   "result:bo3-130808",
+   "result:bo3-132280",
+   "result:bo3-132153",
+   "result:bo3-130803"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -1034,11 +1046,6 @@
    "cs2:2026-10-23"
   ],
   "videos": [
-   "N9ZVAJ44gC4",
-   "IW-G_kWHgWU",
-   "GA0R2Eqz61Y",
-   "u-fJb5vKfmY",
-   "x1KQ-PPG-b8",
    "7P8B83s3cbU",
    "Uj0RPFQSNpk",
    "Nnq5fr9YLa4",
@@ -1533,7 +1540,12 @@
    "WuYwSxueXFY",
    "9hBha60quDg",
    "A-V43Ia86dU",
-   "Jxn66jKHY2w"
+   "Jxn66jKHY2w",
+   "gLw65-r-MSI",
+   "sLoG6iB0L2Q",
+   "fMzwAhCt-aY",
+   "E4-tQqZFm3Y",
+   "3WHpm7_Ej8E"
   ],
   "releases": [
    "week:2026-W39",
@@ -1601,15 +1613,14 @@
   ]
  },
  "matchPings": [
-  "2026-10-22T11:47+03:00",
-  "2026-10-22T15:32+03:00",
-  "2026-10-22T20:41+03:00",
   "2026-10-23T11:43+03:00",
   "2026-10-23T15:12+03:00",
   "2026-10-23T20:31+03:00",
   "2026-10-24T00:44+03:00",
   "2026-10-24T00:44+03:00",
-  "2026-10-24T03:05+03:00"
+  "2026-10-24T03:05+03:00",
+  "2026-10-25T00:14+03:00",
+  "2026-10-25T00:14+03:00"
  ],
  "weekly": {
   "gamenight": {
@@ -1631,8 +1642,6 @@
   }
  },
  "dealPosts": [
-  "2026-10-22T20:21+03:00",
-  "2026-10-22T22:12+03:00",
   "2026-10-23T21:30+03:00",
   "2026-10-24T21:52+03:00"
  ]
