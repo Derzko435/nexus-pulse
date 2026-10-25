@@ -1,34 +1,7 @@
 {
- "updatedAt": "2026-10-25T08:23:04+03:00",
+ "updatedAt": "2026-10-25T11:29:53+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-132224",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "FUT",
-   "teamB": "Liquid",
-   "logoA": "https://files.bo3.gg/uploads/team/20832/image/webp-3c31da5dd03e58f5041420c56c14ed52.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/790/image/webp-01cca8d35079cb4b21bc25268ac75bae.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "PGL Masters Bucharest 2026",
-   "tier": "S",
-   "startsAt": "2026-10-25T11:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/fut-cs2-vs-liquid-25-10-2026"
-  },
   {
    "id": "bo3-132223",
    "game": "CS2",
@@ -40,7 +13,7 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "PGL Masters Bucharest 2026",
    "tier": "S",
    "startsAt": "2026-10-25T11:00:00+03:00",
@@ -50,11 +23,78 @@
      "channel": "pgl",
      "lang": "en",
      "official": true,
-     "label": "pgl",
-     "fallback": true
+     "label": "pgl"
+    },
+    {
+     "type": "kick",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl"
+    },
+    {
+     "type": "twitch",
+     "channel": "krl_stream",
+     "lang": "fr",
+     "official": true,
+     "label": "krl_stream"
+    },
+    {
+     "type": "twitch",
+     "channel": "bysl4m",
+     "lang": "ru",
+     "official": false,
+     "label": "bysl4m"
     }
    ],
    "url": "https://bo3.gg/matches/spirit-vs-tyloo-cs-go-25-10-2026"
+  },
+  {
+   "id": "bo3-132224",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "FUT",
+   "teamB": "Liquid",
+   "logoA": "https://files.bo3.gg/uploads/team/20832/image/webp-3c31da5dd03e58f5041420c56c14ed52.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/790/image/webp-01cca8d35079cb4b21bc25268ac75bae.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "live",
+   "event": "PGL Masters Bucharest 2026",
+   "tier": "S",
+   "startsAt": "2026-10-25T11:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "keliencs",
+     "lang": "ru",
+     "official": true,
+     "label": "keliencs"
+    },
+    {
+     "type": "twitch",
+     "channel": "pgl_cs2",
+     "lang": "en",
+     "official": true,
+     "label": "pgl_cs2"
+    },
+    {
+     "type": "twitch",
+     "channel": "trottah",
+     "lang": "en",
+     "official": true,
+     "label": "trottah"
+    },
+    {
+     "type": "kick",
+     "channel": "pglcs2",
+     "lang": "en",
+     "official": true,
+     "label": "pglcs2"
+    }
+   ],
+   "url": "https://bo3.gg/matches/fut-cs2-vs-liquid-25-10-2026"
   },
   {
    "id": "bo3-132271",
@@ -70,7 +110,7 @@
    "status": "upcoming",
    "event": "PARI Universe",
    "tier": "S",
-   "startsAt": "2026-10-25T11:00:00+03:00",
+   "startsAt": "2026-10-25T12:00:00+03:00",
    "streams": [
     {
      "type": "kick",
@@ -99,12 +139,11 @@
    "startsAt": "2026-10-25T12:00:00+03:00",
    "streams": [
     {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
+     "type": "youtube",
+     "id": "dGCSuuhlySo",
+     "lang": "zh",
+     "official": false,
+     "label": "NOVA vs DRG - Week 1 - Day 5 - 2026 VCT CN Threshold"
     }
    ],
    "url": "https://bo3.gg/valorant/matches/dragon-ranger-gaming-vs-nova-esports-25-10-2026"
@@ -130,8 +169,28 @@
      "channel": "pgl",
      "lang": "en",
      "official": true,
-     "label": "pgl",
-     "fallback": true
+     "label": "pgl"
+    },
+    {
+     "type": "twitch",
+     "channel": "trottah",
+     "lang": "en",
+     "official": true,
+     "label": "trottah"
+    },
+    {
+     "type": "kick",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl"
+    },
+    {
+     "type": "twitch",
+     "channel": "krl_stream",
+     "lang": "fr",
+     "official": true,
+     "label": "krl_stream"
     }
    ],
    "url": "https://bo3.gg/matches/vitality-vs-the-mongolz-25-10-2026"
@@ -154,11 +213,31 @@
    "streams": [
     {
      "type": "twitch",
-     "channel": "pgl",
+     "channel": "pgl_cs2",
      "lang": "en",
      "official": true,
-     "label": "pgl",
-     "fallback": true
+     "label": "pgl_cs2"
+    },
+    {
+     "type": "kick",
+     "channel": "pglcs2",
+     "lang": "en",
+     "official": true,
+     "label": "pglcs2"
+    },
+    {
+     "type": "twitch",
+     "channel": "bysl4m",
+     "lang": "ru",
+     "official": false,
+     "label": "bysl4m"
+    },
+    {
+     "type": "twitch",
+     "channel": "watchfultv",
+     "lang": "ru",
+     "official": false,
+     "label": "watchfultv"
     }
    ],
    "url": "https://bo3.gg/matches/betboom-team-vs-nemiga-25-10-2026"
@@ -190,33 +269,6 @@
    "url": "https://bo3.gg/dota2/matches/team-yandex-vs-1win-dota2-25-10-2026"
   },
   {
-   "id": "bo3-132227",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "MOUZ",
-   "teamB": "9z",
-   "logoA": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
-   "logoB": "https://files.bo3.gg/uploads/team/324/image/webp-847d6324439266b5de80bcb2e23fa38e.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "PGL Masters Bucharest 2026",
-   "tier": "S",
-   "startsAt": "2026-10-25T17:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/mouz-cs2-vs-9z-25-10-2026"
-  },
-  {
    "id": "bo3-132228",
    "game": "CS2",
    "gameKey": "cs2",
@@ -233,15 +285,61 @@
    "startsAt": "2026-10-25T17:00:00+03:00",
    "streams": [
     {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
+     "type": "youtube",
+     "id": "op3rLeG1mzM",
+     "lang": "pl",
+     "official": false,
+     "label": "PGL Masters Bucharest 2026 | 18+ | Dzień 2"
+    },
+    {
+     "type": "kick",
+     "channel": "pelaajatcom",
+     "lang": "fi",
+     "official": false,
+     "label": "pelaajatcom"
     }
    ],
    "url": "https://bo3.gg/matches/g2-vs-aurora-gaming-25-10-2026"
+  },
+  {
+   "id": "bo3-132227",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "MOUZ",
+   "teamB": "9z",
+   "logoA": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
+   "logoB": "https://files.bo3.gg/uploads/team/324/image/webp-847d6324439266b5de80bcb2e23fa38e.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PGL Masters Bucharest 2026",
+   "tier": "S",
+   "startsAt": "2026-10-25T17:00:00+03:00",
+   "streams": [
+    {
+     "type": "youtube",
+     "id": "4b1vyWZzT7o",
+     "lang": "hu",
+     "official": false,
+     "label": "[HU] PGL Masters Bucharest 2026 - Swiss Stage - 2. nap (Porondon a MOUZ, Liquid "
+    },
+    {
+     "type": "kick",
+     "channel": "forg1",
+     "lang": "es",
+     "official": false,
+     "label": "forg1"
+    },
+    {
+     "type": "kick",
+     "channel": "polex",
+     "lang": "pt",
+     "official": false,
+     "label": "polex"
+    }
+   ],
+   "url": "https://bo3.gg/matches/mouz-cs2-vs-9z-25-10-2026"
   },
   {
    "id": "bo3-132281",
@@ -313,12 +411,18 @@
    "startsAt": "2026-10-25T20:00:00+03:00",
    "streams": [
     {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
+     "type": "youtube",
+     "id": "XYUtgpDDTmw",
+     "lang": "ru",
+     "official": false,
+     "label": "(RU) Spirit vs TYLOO | BO3 | PGL Masters Bucharest 2026 Group Stage | Day 2"
+    },
+    {
+     "type": "youtube",
+     "id": "aKs-MokK1bA",
+     "lang": "ro",
+     "official": false,
+     "label": "NAVI vs G2 - PGL MASTERS BUCURESTI 1.250.000$"
     }
    ],
    "url": "https://bo3.gg/matches/furia-vs-natus-vincere-25-10-2026"
@@ -350,13 +454,13 @@
    "url": "https://bo3.gg/dota2/matches/parivision-dota2-vs-betboom-team-dota2-25-10-2026"
   },
   {
-   "id": "bo3-130810",
+   "id": "bo3-130811",
    "game": "LoL",
    "gameKey": "lol",
-   "teamA": "Top Esports",
-   "teamB": "G2 Esports",
-   "logoA": "https://files.bo3.gg/uploads/team/17530/image/webp-41f36b9fa7a1b15522201bd725a76225.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/18141/image/webp-99e584728ada09f2c4564d2ad27e48ef.webp",
+   "teamA": "Hanwha Life Esports",
+   "teamB": "Invictus Gaming",
+   "logoA": "https://files.bo3.gg/uploads/team/17751/image/webp-9bc282d89df6dddee9df2515b789e47f.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17955/image/webp-6861d92d65e9df9cd93a5c87b0b08390.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 1,
@@ -374,7 +478,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/lol/matches/top-esports-lol-vs-g2-esports-lol-25-10-2026"
+   "url": "https://bo3.gg/lol/matches/hanwha-life-esports-vs-invictus-gaming-lol-25-10-2026"
   },
   {
    "id": "bo3-132156",
@@ -411,13 +515,13 @@
    "url": "https://bo3.gg/valorant/matches/gen-g-gc-vs-fennel-female-25-10-2026"
   },
   {
-   "id": "bo3-130811",
+   "id": "bo3-130810",
    "game": "LoL",
    "gameKey": "lol",
-   "teamA": "Hanwha Life Esports",
-   "teamB": "Invictus Gaming",
-   "logoA": "https://files.bo3.gg/uploads/team/17751/image/webp-9bc282d89df6dddee9df2515b789e47f.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17955/image/webp-6861d92d65e9df9cd93a5c87b0b08390.webp",
+   "teamA": "Top Esports",
+   "teamB": "G2 Esports",
+   "logoA": "https://files.bo3.gg/uploads/team/17530/image/webp-41f36b9fa7a1b15522201bd725a76225.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/18141/image/webp-99e584728ada09f2c4564d2ad27e48ef.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 1,
@@ -435,16 +539,16 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/lol/matches/hanwha-life-esports-vs-invictus-gaming-lol-25-10-2026"
+   "url": "https://bo3.gg/lol/matches/top-esports-lol-vs-g2-esports-lol-25-10-2026"
   },
   {
-   "id": "bo3-130812",
+   "id": "bo3-130813",
    "game": "LoL",
    "gameKey": "lol",
-   "teamA": "Gen.G Esports",
-   "teamB": "LYON",
-   "logoA": "https://files.bo3.gg/uploads/team/17752/image/webp-ef38415901fcee4f50e32603323dc0e2.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17950/image/webp-af6dd846f7f743f6416de79b288ec6ba.webp",
+   "teamA": "Dplus KIA",
+   "teamB": "Movistar KOI",
+   "logoA": "https://files.bo3.gg/uploads/team/16873/image/webp-50c5603a916c50660cf658ec473f9b84.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17163/image/webp-5c458310cc9419a944641899aee05ba3.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
@@ -462,7 +566,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/lol/matches/gen-g-vs-lyon-gaming-25-10-2026"
+   "url": "https://bo3.gg/lol/matches/dplus-kia-vs-koi-lol-25-10-2026"
   },
   {
    "id": "bo3-132155",
@@ -499,13 +603,13 @@
    "url": "https://bo3.gg/valorant/matches/team-liquid-brazil-vs-nova-esports-gc-25-10-2026"
   },
   {
-   "id": "bo3-130813",
+   "id": "bo3-130812",
    "game": "LoL",
    "gameKey": "lol",
-   "teamA": "Dplus KIA",
-   "teamB": "Movistar KOI",
-   "logoA": "https://files.bo3.gg/uploads/team/16873/image/webp-50c5603a916c50660cf658ec473f9b84.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17163/image/webp-5c458310cc9419a944641899aee05ba3.webp",
+   "teamA": "Gen.G Esports",
+   "teamB": "LYON",
+   "logoA": "https://files.bo3.gg/uploads/team/17752/image/webp-ef38415901fcee4f50e32603323dc0e2.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17950/image/webp-af6dd846f7f743f6416de79b288ec6ba.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
@@ -523,7 +627,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/lol/matches/dplus-kia-vs-koi-lol-25-10-2026"
+   "url": "https://bo3.gg/lol/matches/gen-g-vs-lyon-gaming-25-10-2026"
   },
   {
    "id": "bo3-132273",
@@ -630,13 +734,13 @@
    "url": "https://bo3.gg/dota2/matches/betboom-team-dota2-vs-legion_stack-26-10-2026"
   },
   {
-   "id": "bo3-130814",
+   "id": "bo3-130815",
    "game": "LoL",
    "gameKey": "lol",
-   "teamA": "Karmine Corp",
-   "teamB": "Bilibili Gaming",
-   "logoA": "https://files.bo3.gg/uploads/team/18342/image/webp-bee9ffd6f69f1a4036d9738f43107f12.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17842/image/webp-bff13ca353afd9ebfe12e7773fe7899a.webp",
+   "teamA": "T1",
+   "teamB": "CTBC Flying Oyster",
+   "logoA": "https://files.bo3.gg/uploads/team/17529/image/webp-b20f1387008fb6d93034220cc660a9a2.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17098/image/webp-3111c55f8f432618cb9f35b43d65b3a0.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 1,
@@ -654,16 +758,16 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/lol/matches/karmine-corp-lol-vs-bilibili-gaming-lol-26-10-2026"
+   "url": "https://bo3.gg/lol/matches/t1-lol-vs-ctbc-flying-oyster-26-10-2026"
   },
   {
-   "id": "bo3-130815",
+   "id": "bo3-130814",
    "game": "LoL",
    "gameKey": "lol",
-   "teamA": "T1",
-   "teamB": "CTBC Flying Oyster",
-   "logoA": "https://files.bo3.gg/uploads/team/17529/image/webp-b20f1387008fb6d93034220cc660a9a2.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17098/image/webp-3111c55f8f432618cb9f35b43d65b3a0.webp",
+   "teamA": "Karmine Corp",
+   "teamB": "Bilibili Gaming",
+   "logoA": "https://files.bo3.gg/uploads/team/18342/image/webp-bee9ffd6f69f1a4036d9738f43107f12.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17842/image/webp-bff13ca353afd9ebfe12e7773fe7899a.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 1,
@@ -681,7 +785,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/lol/matches/t1-lol-vs-ctbc-flying-oyster-26-10-2026"
+   "url": "https://bo3.gg/lol/matches/karmine-corp-lol-vs-bilibili-gaming-lol-26-10-2026"
   },
   {
    "id": "bo3-130816",

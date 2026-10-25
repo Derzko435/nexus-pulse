@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-24T11:14:28+03:00",
+ "updatedAt": "2026-10-25T11:32:46+03:00",
  "items": [
   {
    "appid": "x-avenging-spirit",
@@ -26,7 +26,7 @@
    "appid": 2295170,
    "title": "Emberville",
    "date": "2026-10-27",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2295170/99852482000e8eb5b7b75c52bf5f70406c6f6e5f/header.jpg?t=1792598817",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2295170/99852482000e8eb5b7b75c52bf5f70406c6f6e5f/header.jpg?t=1792852954",
    "desc": "Потеряв память, вы очнулись в огромном подземном мире. Вас приветствует Витромотус — магическое подземелье, где смерть — это новое начало. Погрузитесь в его глубины и узнайте правду об этой тюрьме, параллельно сражаясь с опасными тварями, помогая выжившим и отстраивая разрушенный город Эмбервилль.",
    "genres": [
     "Экшены",
@@ -67,6 +67,30 @@
     "wiki": "https://en.wikipedia.org/wiki/Mole_Mania"
    },
    "source": "wiki"
+  },
+  {
+   "appid": 2223980,
+   "title": "Nomad Drive",
+   "date": "2026-10-27",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223980/433d5727162af686f0e7d56de539f8476fb0cf0e/header.jpg?t=1792833611",
+   "desc": "Отремонтируйте свой запущенный дом на колесах и отправляйтесь в путь в одиночку или в кооперативе на 1–4 игроков по процедурно генерируемому постапокалиптическому миру. Собирайте ресурсы, настраивайте ваш дом на колесах и выживайте как можно дольше.",
+   "genres": [
+    "Приключенческие игры",
+    "Казуальные игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Indie Devil",
+   "price": "",
+   "url": "https://store.steampowered.com/app/2223980/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/2223980/"
+   }
   },
   {
    "appid": "x-revenge-of-gator",
@@ -452,6 +476,30 @@
    "source": "wiki"
   },
   {
+   "appid": 4576490,
+   "title": "Casualties: Unknown",
+   "date": "2026-11-09",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4576490/907888dce73f50c48410b5ab92971a0d95776b29/header.jpg?t=1792136865",
+   "desc": "Casualties: Unknown — это жестокий симулятор исследования пещер. Вы один из тысячи подопытных, отправленных на смерть. В поисках потерянного груза вам придётся пробраться через 11 подземных ярусов на чужой планете, давая отпор беспощадному окружению.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Симуляторы"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Orsoniks",
+   "price": "",
+   "url": "https://store.steampowered.com/app/4576490/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4576490/"
+   }
+  },
+  {
    "appid": 3629430,
    "title": "DREADMOOR",
    "date": "2026-11-09",
@@ -802,30 +850,6 @@
    "source": "wiki"
   },
   {
-   "appid": 4004820,
-   "title": "FreeStyle Football 2",
-   "date": "2026-12-03",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4004820/0e131f5e9ca2918c342e8c8679341fee49b1b75e/header.jpg?t=1792595842",
-   "desc": "Freestyle Football 2 — это динамичная многопользовательская онлайн-игра в футбол в формате матчей 5 на 5. Каждая позиция имеет уникальную роль, и вы будете использовать различные стратегии и навыки, чтобы добиться победы вместе со своей командой. Стильная игра и уникальные персонажи превращают поле в сцену.",
-   "genres": [
-    "Экшены",
-    "Многопользовательские игры",
-    "Спорт"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "WOORE",
-   "price": "1845 руб.",
-   "url": "https://store.steampowered.com/app/4004820/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4004820/"
-   }
-  },
-  {
    "appid": "x-million-depth",
    "title": "Million Depth",
    "date": "2026-12-03",
@@ -1014,12 +1038,12 @@
   },
   {
    "appid": 4452700,
-   "title": "STAGE TOUR",
+   "title": "Stage Tour",
    "date": "2026-12-10",
    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4452700/7074777401ca32c928e7702567ee08c282ff7393/header.jpg?t=1792510556",
-   "desc": "Создайте свою группу, выходите на сцену и отправляйтесь в турне в Stage Tour, новой эволюции музыкальных ритм-игр. Слушайте более 90 официально лицензированных треков, разблокируйте более 180 аутентичных гитар Gibson®, Epiphone® и Kramer® и испытайте пять игровых режимов, включая совершенно новый режим рогалика Tour.",
+   "desc": "Соберите группу, зажгите на сцене и отправьтесь в турне в Stage Tour — ритм-игре новой эры. Вас ждут свыше 90 лицензированных треков, более 180 настоящих гитар Gibson®, Epiphone® и Kramer® и новые стили игры. В комплекте новый рогалик-режим Tour Mode!",
    "genres": [
-    "Экшены"
+    "Ритм-игра"
    ],
    "platforms": [
     "PC",
@@ -1036,8 +1060,10 @@
    "url": "https://store.steampowered.com/app/4452700/",
    "links": {
     "steam": "https://store.steampowered.com/app/4452700/",
-    "epic": "https://store.epicgames.com/ru/p/stagetour-ac5b2f"
-   }
+    "epic": "https://store.epicgames.com/ru/p/stagetour-ac5b2f",
+    "wiki": "https://en.wikipedia.org/wiki/Stage_Tour"
+   },
+   "source": "wiki"
   },
   {
    "appid": 3751230,
@@ -1504,27 +1530,6 @@
    "links": {
     "steam": "https://store.steampowered.com/app/2141130/"
    }
-  },
-  {
-   "appid": "x-007-first-light",
-   "title": "007 First Light",
-   "date": "2027-03-18",
-   "image": "https://upload.wikimedia.org/wikipedia/en/2/2b/007_First_Light_%282026%29_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "desc": "007 First Light — компьютерная игра в жанре приключенческого экшена, разработанная и изданная компанией IO Interactive в сотрудничестве с Amazon MGM Studios и Eon Productions. Игра основана на серии книг Яна Флеминга и фильмов о британском разведчике Джеймсе Бонде. 007 First Light рассказывает…",
-   "genres": [
-    "Экшен-приключение"
-   ],
-   "platforms": [
-    "Switch"
-   ],
-   "stores": [],
-   "developer": "IO Interactive",
-   "price": "",
-   "url": "https://ru.wikipedia.org/wiki/007_First_Light",
-   "links": {
-    "wiki": "https://ru.wikipedia.org/wiki/007_First_Light"
-   },
-   "source": "wiki"
   }
  ]
 }
