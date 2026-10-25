@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T07:56:53+03:00",
+  "updatedAt": "2026-10-25T14:47:05+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -519,11 +519,12 @@
       "short_description": "Ad Nauseam is a choice-heavy psych horror / thriller about trauma, identity, love, and sickness. It combines many staples of Adventure, VN, and RPG games with its own flair to create something entirely unique. Solve mysteries, form bonds, blur the line between mind and body, and keep your eyes open."
     },
     {
-      "appid": "5385030",
-      "name": "Dawn Archive",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5385030/45decf5b954b856a01999f661c2e5f6197dc4c4b/header.jpg?t=1792830140",
+      "appid": "5358030",
+      "name": "Lumbrix",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5358030/4391375f4d14c46e75de48000347490246c29913/header.jpg?t=1792882977",
       "genres": [
-        "Приключенческие игры",
+        "Экшены",
+        "Казуальные игры",
         "Инди"
       ],
       "is_free": false,
@@ -533,7 +534,24 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Choose rooms. Rotate them. Connect your path. Shape a mysterious mansion in this exploration and puzzle adventure. With limited steps and keys, solve puzzles and follow clues in forgotten records to reach the archive deep within."
+      "short_description": "Lumbrix — шутер в жанре survivors, где каждый сегмент вашего растущего червя — это и оружие, и жизнь. Цельтесь из пушки на голове, прикрывайтесь телом, улучшайте оружие и продержитесь десять минут до встречи с боссом."
+    },
+    {
+      "appid": "5288620",
+      "name": "Поцелуй меня за счёт олигарха",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5288620/b6b1f9a37a8d4e5bb0f4512267b2223ba3730777/header_russian.jpg?t=1792866884",
+      "genres": [
+        "Приключенческие игры",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Увязший в долгах организатор свадеб Лука возвращается в адриатический город, откуда когда-то сбежал, чтобы устроить тайную свадьбу олигарха. За шесть дней взаперти выберите один из трёх романов: с поп-звездой-невестой, брошенной им портнихой или разгневанной местной активисткой."
     },
     {
       "appid": "4708610",
@@ -554,6 +572,24 @@
       "short_description": "PixelBoss: Shattered Depths — хардкорный 2D платформер в стиле pixel art, где важна каждая ошибка. Сражайся, избегай ловушек и проходи уровни, требующие точности, реакции и выдержки."
     },
     {
+      "appid": "4924290",
+      "name": "Fire Bug",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4924290/2a0db0d043d9bc8febc2b0974520791cef78ee0a/header.jpg?t=1792876542",
+      "genres": [
+        "Экшены",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Hold the sun in your hand in this fast-paced arcade game. Play as a magnifying glass and cook swarms of bugs before time runs out. Chain ignitions, defeat tier bosses, and spend your Sparks on upgrades tree to unlock explosive criticals, burn trails, and smoldering spore clouds."
+    },
+    {
       "appid": "4343600",
       "name": "墨武天工",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4343600/616083ae1eb5a045c92fffe9e3a2f85fa1d49ebd/header.jpg?t=1792848227",
@@ -570,6 +606,23 @@
       },
       "metacritic": null,
       "short_description": "《Безграничное Небо》 - это игра в жанре экшена на выживание с открытым миром, действие которой разворачивается в мифическом древнем Китае. Выступая одновременно в роли строителя и воина, вы будете «планировать тушью и сражаться сталью» в раздробленном,"
+    },
+    {
+      "appid": "3752410",
+      "name": "Dispatch Control",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3752410/a8728050be2e15452baeeae35568c7111d9053c4/header.jpg?t=1792881729",
+      "genres": [
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Run a fire and ambulance dispatch center on real-world maps. Answer emergency calls, assess incidents and send the right crews while keeping units in reserve. Play Dispatch Control solo or in online co-op with up to six players, in free play or 16 campaign chapters."
     },
     {
       "appid": "3892270",
@@ -608,78 +661,23 @@
       "short_description": "You signed up for an adult reality show, and now your dignity is the first thing to go. Tease your rivals, exploit their filthy fantasies, and do whatever it takes to win. The prize is huge, but the temptation is even bigger!"
     },
     {
-      "appid": "5385830",
-      "name": "Lily or Horse",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5385830/920ed26d1fef714a3dbad95210df9e36bdfa4ff3/header.jpg?t=1792853547",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Самая простая игра в мире. Подбросьте монету и угадайте: лилия или лошадь? Угадайте 10 раз подряд — и вы победили. Ошиблись — все поставленные золотые монеты потеряны. Если повезёт, хватит 10 бросков."
-    },
-    {
-      "appid": "5328190",
-      "name": "Wild Draw",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5328190/af9b61e9c16cb46c7dd06081e33c829847f5b869/header.jpg?t=1792852541",
-      "genres": [
-        "Экшены",
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Играйте в карты. Подставляйте друзей. А потом доставайте пушки. WILD DRAW — это шутер от первого лица для 3–6 игроков, где каждый раунд начинается за столом в салуне и заканчивается хаосом."
-    },
-    {
-      "appid": "294100",
-      "name": "RimWorld",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/76e0613b8197327299d5dbabb0a7fd7828a689a2/header.jpg?t=1782756789",
-      "genres": [
-        "Инди",
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": 87,
-      "short_description": "Научно-фантастический симулятор колонии с интеллектуальным AI-рассказчиком. Создаёт истории, моделируя психологию, экологию, стрельбу, ближний бой, климат, биомы, дипломатию, межличностные отношения, искусство, медицину, торговлю и многое другое."
-    },
-    {
-      "appid": "2929250",
-      "name": "over the hill",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/header.jpg?t=1792666389",
+      "appid": "4262030",
+      "name": "Last Fisherman",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4262030/086d1c597e2ea1b4918a6ad6163902bf8767bc48/header.jpg?t=1792887717",
       "genres": [
         "Приключенческие игры",
-        "Казуальные игры",
         "Инди",
-        "Гонки",
-        "Симуляторы",
-        "Спорт"
+        "Ролевые игры",
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
-        "linux": true
+        "linux": false
       },
       "metacritic": null,
-      "short_description": "Откройте для себя мир в золотой век бездорожья. За рулем культовых внедорожников 60–80-х годов — в одиночку или с друзьями — покоряйте сложные трассы и исследуйте живописные места."
+      "short_description": "In abandoned biomes, forgotten cities, and lifeless waters, you cast your line — often without knowing whether it is still worth it. Rare fish, fragile systems, and a world without explanation create an atmosphere that observes rather than entertains."
     }
   ]
 }

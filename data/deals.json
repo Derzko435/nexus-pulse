@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T07:56:58+03:00",
+  "updatedAt": "2026-10-25T14:47:10+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -23,14 +23,14 @@
       "steamAppId": "232090"
     },
     {
-      "id": "steam-5122330",
-      "title": "Console Space",
+      "id": "steam-1943730",
+      "title": "Wicked Island",
       "store": "Steam",
-      "old": 51,
-      "neu": 30,
-      "pct": 41,
-      "url": "https://store.steampowered.com/app/5122330/",
-      "steamAppId": "5122330"
+      "old": 1200,
+      "neu": 720,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/1943730/",
+      "steamAppId": "1943730"
     },
     {
       "id": "steam-3330380",
@@ -73,6 +73,36 @@
       "steamAppId": "4708610"
     },
     {
+      "id": "steam-5280220",
+      "title": "Task Bar Cube: Character Pack",
+      "store": "Steam",
+      "old": 170,
+      "neu": 102,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5280220/",
+      "steamAppId": "5280220"
+    },
+    {
+      "id": "steam-5280250",
+      "title": "Task Bar Cube: Support Package",
+      "store": "Steam",
+      "old": 170,
+      "neu": 102,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5280250/",
+      "steamAppId": "5280250"
+    },
+    {
+      "id": "steam-5280270",
+      "title": "Task Bar Cube: Inventory Package",
+      "store": "Steam",
+      "old": 170,
+      "neu": 102,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5280270/",
+      "steamAppId": "5280270"
+    },
+    {
       "id": "steam-4924290",
       "title": "Fire Bug",
       "store": "Steam",
@@ -81,16 +111,6 @@
       "pct": 40,
       "url": "https://store.steampowered.com/app/4924290/",
       "steamAppId": "4924290"
-    },
-    {
-      "id": "steam-4343600",
-      "title": "墨武天工",
-      "store": "Steam",
-      "old": 150,
-      "neu": 90,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/4343600/",
-      "steamAppId": "4343600"
     },
     {
       "id": "steam-3752410",
@@ -113,16 +133,6 @@
       "steamAppId": "3892270"
     },
     {
-      "id": "steam-5038160",
-      "title": "SQUIRT GAME 💦",
-      "store": "Steam",
-      "old": 556,
-      "neu": 350,
-      "pct": 37,
-      "url": "https://store.steampowered.com/app/5038160/",
-      "steamAppId": "5038160"
-    },
-    {
       "id": "steam-739630",
       "title": "Phasmophobia",
       "store": "Steam",
@@ -131,16 +141,6 @@
       "pct": 30,
       "url": "https://store.steampowered.com/app/739630/",
       "steamAppId": "739630"
-    },
-    {
-      "id": "steam-4262030",
-      "title": "Last Fisherman",
-      "store": "Steam",
-      "old": 240,
-      "neu": 168,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/4262030/",
-      "steamAppId": "4262030"
     }
   ]
 }
