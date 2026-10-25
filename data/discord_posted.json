@@ -1,24 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-10-25T02:47:02+03:00",
+ "updatedAt": "2026-10-25T23:59:46+03:00",
  "posted": {
   "news": [
-   "8289b76986c3",
-   "e93f9def68fd",
-   "e135b35c81f0",
-   "0ca5d670743e",
-   "6afa390e1afb",
-   "25d54a6e5dd7",
-   "beaf95b13a6c",
-   "a28c81623d3e",
-   "fc4236eb066a",
-   "3e029c3e205e",
-   "0d4a0ffb9d3f",
-   "e317fd1c50f2",
-   "267e23abb526",
-   "62bec90e5031",
-   "cb3ad46cb4f8",
-   "41f7137d0986",
    "0fcf0414f964",
    "1444a3303dc0",
    "3bfcc75dbabb",
@@ -502,7 +486,23 @@
    "3a8bace0c36c",
    "085511147664",
    "3b5e6ceac762",
-   "5d29c526074d"
+   "5d29c526074d",
+   "a0dc8e574a5a",
+   "38a1e46122f5",
+   "21c47a30784b",
+   "94e7fee0a182",
+   "41424cb63fd0",
+   "e1ebf0a6a263",
+   "ba3532e813ad",
+   "ee8346fb043b",
+   "794402032918",
+   "d25766899669",
+   "debdddfb2e1d",
+   "10752308323c",
+   "871f052316a1",
+   "206b5d87ae27",
+   "73fd9cd5c1cc",
+   "bd5843203ce0"
   ],
   "deals": [
    "steam-246420:90",
@@ -583,7 +583,8 @@
    "steam-1546080:60",
    "steam-1449690:90",
    "steam-1250:90",
-   "steam-232090:90"
+   "steam-232090:90",
+   "steam-245390:85"
   ],
   "freebies": [
    "epic-7ae00c3e89174012b175cc73b4737723:soon",
@@ -1013,7 +1014,16 @@
    "result:bo3-132154",
    "result:bo3-130807",
    "result:bo3-130804",
-   "live:bo3-130802"
+   "live:bo3-130802",
+   "result:bo3-132225",
+   "result:bo3-132226",
+   "result:bo3-132227",
+   "result:bo3-132228",
+   "result:bo3-132272",
+   "result:bo3-130802",
+   "result:bo3-130809",
+   "result:bo3-132224",
+   "result:bo3-132271"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -1050,18 +1060,6 @@
    "cs2:2026-10-23"
   ],
   "videos": [
-   "Nnq5fr9YLa4",
-   "FQW6K7TLvQA",
-   "lhqABmcwedw",
-   "3yCFXGuQFPc",
-   "J4nhMkYOWF0",
-   "n7KWLv7cYK8",
-   "vW37L2lAZJ4",
-   "JaKAttSHlcQ",
-   "cMW1-CW9tSs",
-   "FvjOIlMzd2U",
-   "x2LQevL0EIQ",
-   "UKwW3THqOdg",
    "NizCh53dF00",
    "_vlzIPpyJR0",
    "D3UxuG10z4s",
@@ -1549,7 +1547,19 @@
    "E4-tQqZFm3Y",
    "3WHpm7_Ej8E",
    "HgZFZSg3ydE",
-   "n68tMlqymqI"
+   "n68tMlqymqI",
+   "rDk3jA_nUSw",
+   "7gWuL_RkxCw",
+   "FkB1LvomXwE",
+   "GPn9wajnOWA",
+   "Cn-PWAEJgS8",
+   "UPqJb2tI09k",
+   "TWd8KU898Jw",
+   "8HsSDAV_TWA",
+   "Z0ADcd0wQYU",
+   "iN4MqBrlJkc",
+   "BFhXSgHdWJg",
+   "Mt-yh2ViUAw"
   ],
   "releases": [
    "week:2026-W39",
@@ -1648,6 +1658,7 @@
  },
  "dealPosts": [
   "2026-10-23T21:30+03:00",
-  "2026-10-24T21:52+03:00"
+  "2026-10-24T21:52+03:00",
+  "2026-10-25T23:59+03:00"
  ]
 }
