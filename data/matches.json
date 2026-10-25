@@ -1,101 +1,7 @@
 {
- "updatedAt": "2026-10-26T00:16:05+03:00",
+ "updatedAt": "2026-10-26T02:36:12+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-132155",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Team Liquid Brazil",
-   "teamB": "Nova Esports GC",
-   "logoA": "https://files.bo3.gg/uploads/team/6638/image/webp-fe70067142b7f6cba5573fb6e0ae3c76.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/8513/image/webp-ea40b313477c3fbd2d82afc8e904e1bf.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "VALORANT Game Changers Championship 2026",
-   "tier": "S",
-   "startsAt": "2026-10-25T23:45:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "loupiote3",
-     "lang": "en",
-     "official": true,
-     "label": "loupiote3"
-    },
-    {
-     "type": "twitch",
-     "channel": "valorant_br",
-     "lang": "pt",
-     "official": true,
-     "label": "valorant_br"
-    },
-    {
-     "type": "twitch",
-     "channel": "valorant_la",
-     "lang": "pt",
-     "official": true,
-     "label": "valorant_la"
-    },
-    {
-     "type": "twitch",
-     "channel": "wipr",
-     "lang": "fr",
-     "official": true,
-     "label": "wipr"
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/team-liquid-brazil-vs-nova-esports-gc-25-10-2026"
-  },
-  {
-   "id": "bo3-130812",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Gen.G Esports",
-   "teamB": "LYON",
-   "logoA": "https://files.bo3.gg/uploads/team/17752/image/webp-ef38415901fcee4f50e32603323dc0e2.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17950/image/webp-af6dd846f7f743f6416de79b288ec6ba.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "Worlds 2026",
-   "tier": "S",
-   "startsAt": "2026-10-25T23:55:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "ibai",
-     "lang": "es",
-     "official": true,
-     "label": "ibai"
-    },
-    {
-     "type": "twitch",
-     "channel": "otplol_",
-     "lang": "fr",
-     "official": true,
-     "label": "otplol_"
-    },
-    {
-     "type": "twitch",
-     "channel": "esport2tv",
-     "lang": "hu",
-     "official": true,
-     "label": "esport2tv"
-    },
-    {
-     "type": "twitch",
-     "channel": "nervarien",
-     "lang": "pl",
-     "official": true,
-     "label": "nervarien"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/gen-g-vs-lyon-gaming-25-10-2026"
-  },
   {
    "id": "bo3-132232",
    "game": "CS2",
@@ -177,33 +83,6 @@
    "url": "https://bo3.gg/dota2/matches/og-dota2-vs-gamerlegion-dota2-26-10-2026"
   },
   {
-   "id": "bo3-132233",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "9z",
-   "teamB": "TYLOO",
-   "logoA": "https://files.bo3.gg/uploads/team/324/image/webp-847d6324439266b5de80bcb2e23fa38e.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/757/image/17873415da0f03df35299283b43408d7.png",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "PGL Masters Bucharest 2026",
-   "tier": "S",
-   "startsAt": "2026-10-26T14:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/9z-vs-tyloo-cs-go-26-10-2026"
-  },
-  {
    "id": "bo3-132234",
    "game": "CS2",
    "gameKey": "cs2",
@@ -229,6 +108,33 @@
     }
    ],
    "url": "https://bo3.gg/matches/vitality-vs-fut-cs2-26-10-2026"
+  },
+  {
+   "id": "bo3-132233",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "9z",
+   "teamB": "TYLOO",
+   "logoA": "https://files.bo3.gg/uploads/team/324/image/webp-847d6324439266b5de80bcb2e23fa38e.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/757/image/17873415da0f03df35299283b43408d7.png",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PGL Masters Bucharest 2026",
+   "tier": "S",
+   "startsAt": "2026-10-26T14:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/9z-vs-tyloo-cs-go-26-10-2026"
   },
   {
    "id": "bo3-132274",
@@ -257,33 +163,6 @@
    "url": "https://bo3.gg/dota2/matches/team-yandex-vs-team-liquid-dota2-26-10-2026"
   },
   {
-   "id": "bo3-132236",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Liquid",
-   "teamB": "Legacy",
-   "logoA": "https://files.bo3.gg/uploads/team/790/image/webp-01cca8d35079cb4b21bc25268ac75bae.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/8118/image/webp-e4a3b023443f1f3ba4ef588164e73111.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "PGL Masters Bucharest 2026",
-   "tier": "S",
-   "startsAt": "2026-10-26T17:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/liquid-vs-legacy-br-26-10-2026"
-  },
-  {
    "id": "bo3-132235",
    "game": "CS2",
    "gameKey": "cs2",
@@ -309,6 +188,33 @@
     }
    ],
    "url": "https://bo3.gg/matches/spirit-vs-furia-26-10-2026"
+  },
+  {
+   "id": "bo3-132236",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Liquid",
+   "teamB": "Legacy",
+   "logoA": "https://files.bo3.gg/uploads/team/790/image/webp-01cca8d35079cb4b21bc25268ac75bae.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/8118/image/webp-e4a3b023443f1f3ba4ef588164e73111.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PGL Masters Bucharest 2026",
+   "tier": "S",
+   "startsAt": "2026-10-26T17:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/liquid-vs-legacy-br-26-10-2026"
   },
   {
    "id": "bo3-132283",
@@ -530,6 +436,40 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/los-vs-team-secret-whales-26-10-2026"
+  },
+  {
+   "id": "bo3-132157",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "G2 Gozen",
+   "teamB": "Team Liquid Brazil",
+   "logoA": "https://files.bo3.gg/uploads/team/6767/image/webp-88ad9952062e73df1d0638e31bd27339.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/6638/image/webp-fe70067142b7f6cba5573fb6e0ae3c76.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VALORANT Game Changers Championship 2026",
+   "tier": "S",
+   "startsAt": "2026-10-27T00:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    },
+    {
+     "type": "kick",
+     "channel": "valorant",
+     "lang": "en",
+     "official": false,
+     "label": "valorant"
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/g2-gozen-vs-team-liquid-brazil-26-10-2026"
   },
   {
    "id": "bo3-130817",
@@ -776,6 +716,100 @@
     }
    ],
    "url": "https://bo3.gg/valorant/matches/any-questions-vs-rare-atom-1-28-10-2026"
+  },
+  {
+   "id": "bo3-130812",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Gen.G Esports",
+   "teamB": "LYON",
+   "logoA": "https://files.bo3.gg/uploads/team/17752/image/webp-ef38415901fcee4f50e32603323dc0e2.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17950/image/webp-af6dd846f7f743f6416de79b288ec6ba.webp",
+   "scoreA": 2,
+   "scoreB": 1,
+   "bo": 3,
+   "status": "finished",
+   "event": "Worlds 2026",
+   "tier": "S",
+   "startsAt": "2026-10-25T23:55:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "ibai",
+     "lang": "es",
+     "official": true,
+     "label": "ibai"
+    },
+    {
+     "type": "twitch",
+     "channel": "otplol_",
+     "lang": "fr",
+     "official": true,
+     "label": "otplol_"
+    },
+    {
+     "type": "twitch",
+     "channel": "esport2tv",
+     "lang": "hu",
+     "official": true,
+     "label": "esport2tv"
+    },
+    {
+     "type": "twitch",
+     "channel": "nervarien",
+     "lang": "pl",
+     "official": true,
+     "label": "nervarien"
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/gen-g-vs-lyon-gaming-25-10-2026"
+  },
+  {
+   "id": "bo3-132155",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "Team Liquid Brazil",
+   "teamB": "Nova Esports GC",
+   "logoA": "https://files.bo3.gg/uploads/team/6638/image/webp-fe70067142b7f6cba5573fb6e0ae3c76.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/8513/image/webp-ea40b313477c3fbd2d82afc8e904e1bf.webp",
+   "scoreA": 2,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "finished",
+   "event": "VALORANT Game Changers Championship 2026",
+   "tier": "S",
+   "startsAt": "2026-10-25T23:45:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "loupiote3",
+     "lang": "en",
+     "official": true,
+     "label": "loupiote3"
+    },
+    {
+     "type": "twitch",
+     "channel": "valorant_br",
+     "lang": "pt",
+     "official": true,
+     "label": "valorant_br"
+    },
+    {
+     "type": "twitch",
+     "channel": "valorant_la",
+     "lang": "pt",
+     "official": true,
+     "label": "valorant_la"
+    },
+    {
+     "type": "twitch",
+     "channel": "wipr",
+     "lang": "fr",
+     "official": true,
+     "label": "wipr"
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/team-liquid-brazil-vs-nova-esports-gc-25-10-2026"
   },
   {
    "id": "bo3-130813",
@@ -1462,53 +1496,6 @@
    "url": "https://bo3.gg/lol/matches/team-liquid-lol-vs-bilibili-gaming-lol-25-10-2026"
   },
   {
-   "id": "bo3-130802",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Dplus KIA",
-   "teamB": "T1",
-   "logoA": "https://files.bo3.gg/uploads/team/16873/image/webp-50c5603a916c50660cf658ec473f9b84.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17529/image/webp-b20f1387008fb6d93034220cc660a9a2.webp",
-   "scoreA": 1,
-   "scoreB": 0,
-   "bo": 1,
-   "status": "finished",
-   "event": "Worlds 2026",
-   "tier": "S",
-   "startsAt": "2026-10-25T02:15:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "otplol_",
-     "lang": "fr",
-     "official": true,
-     "label": "otplol_"
-    },
-    {
-     "type": "twitch",
-     "channel": "esport2tv",
-     "lang": "hu",
-     "official": true,
-     "label": "esport2tv"
-    },
-    {
-     "type": "twitch",
-     "channel": "rtparenalol",
-     "lang": "pt",
-     "official": true,
-     "label": "rtparenalol"
-    },
-    {
-     "type": "twitch",
-     "channel": "nervarien",
-     "lang": "pl",
-     "official": true,
-     "label": "nervarien"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/dplus-kia-vs-t1-lol-24-10-2026"
-  },
-  {
    "id": "bo3-132154",
    "game": "Valorant",
    "gameKey": "valorant",
@@ -1635,39 +1622,6 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/astra-invicta-vs-legion_stack-24-10-2026"
-  },
-  {
-   "id": "bo3-132466",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Titan Esports Club",
-   "teamB": "Dragon Ranger Gaming",
-   "logoA": "https://files.bo3.gg/uploads/team/9377/image/webp-3c207928ff7b24c93a41d02e6ba2d8f3.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/6339/image/webp-32ec625310f64b3b2f1e8644ddac0816.webp",
-   "scoreA": 0,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "VCT Threshold China 2026",
-   "tier": "A",
-   "startsAt": "2026-10-24T14:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorantesports_cn",
-     "lang": "zh",
-     "official": true,
-     "label": "valorantesports_cn"
-    },
-    {
-     "type": "youtube",
-     "id": "KFbawuWGHTw",
-     "lang": "zh",
-     "official": false,
-     "label": "KBG vs NOVA - TEC vs DRG - Week 1 - Day 4 - 2026 VCT CN Threshold"
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/tec-esports-vs-dragon-ranger-gaming-24-10-2026"
   }
  ],
  "tournaments": [
