@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T14:47:05+03:00",
+  "updatedAt": "2026-10-25T19:35:34+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -484,12 +484,12 @@
       "short_description": "Совместная мясорубка на шестерых против мутантов. А теперь и режим «Выживание VS» на 12 игроков — почувствуйте себя в шкуре мутанта!"
     },
     {
-      "appid": "5122330",
-      "name": "Console Space",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5122330/6716d95034cd1774624c8224b9532a3bc7176719/header.jpg?t=1792847865",
+      "appid": "1943730",
+      "name": "Wicked Island",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943730/b2a1dbcf11a34b1f8e04fe1737db0ca06eecd11c/header.jpg?t=1782299299",
       "genres": [
-        "Казуальные игры",
-        "Инди"
+        "Ролевые игры",
+        "Ранний доступ"
       ],
       "is_free": false,
       "platforms": {
@@ -498,7 +498,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Вы — капитан на борту звездолета. Принимайте решения в текстовых логах терминала: от починки реактора до моральных дилемм, которые необратимо меняют судьбу экипажа."
+      "short_description": "Выживайте в суровом, манящем открытом мире этой survival RPG 18+. Создавайте снаряжение, стройте дом, настраивайте персонажа и управляйте драконами! Исследуйте подземелья и сражайтесь с монстрами. Побеждайте или поддайтесь желаниям с системой сексуального поражения и беременности."
     },
     {
       "appid": "3330380",
@@ -572,6 +572,63 @@
       "short_description": "PixelBoss: Shattered Depths — хардкорный 2D платформер в стиле pixel art, где важна каждая ошибка. Сражайся, избегай ловушек и проходи уровни, требующие точности, реакции и выдержки."
     },
     {
+      "appid": "5280220",
+      "name": "Task Bar Cube: Character Pack",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5280220/dd777b2b414e828f0be5603177215a5b80783ebf/header.jpg?t=1792922275",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Ролевые игры",
+        "Бесплатные"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Task Bar Cube - увлекательная idle-RPG, в которую можно играть прямо на рабочем столе. Откройте 10 эксклюзивных героев с более высокими базовыми характеристиками, а также получите постоянный бонус к золоту и увеличенную вместимость сундука AFK."
+    },
+    {
+      "appid": "5280250",
+      "name": "Task Bar Cube: Support Package",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5280250/af72d2ea7ac62c11eb3498762e0da9023ba22bbf/header.jpg?t=1792922274",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Ролевые игры",
+        "Бесплатные"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Task Bar Cube - увлекательная idle-RPG, в которую можно играть прямо на рабочем столе. Откройте 10 эксклюзивных питомцев с более высокими базовыми характеристиками, а также получите постоянный бонус к золоту и увеличенную вместимость сундука AFK."
+    },
+    {
+      "appid": "5280270",
+      "name": "Task Bar Cube: Inventory Package",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5280270/fec0554b4db196e9d41805088bc265bee2efbd0d/header.jpg?t=1792922271",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Ролевые игры",
+        "Бесплатные"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Task Bar Cube - увлекательная idle-RPG, в которую можно играть прямо на рабочем столе. Откройте все категории и страницы хранилища, включая дополнительные страницы инвентаря Steam, а также увеличенную вместимость сундука AFK."
+    },
+    {
       "appid": "4924290",
       "name": "Fire Bug",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4924290/2a0db0d043d9bc8febc2b0974520791cef78ee0a/header.jpg?t=1792876542",
@@ -590,27 +647,9 @@
       "short_description": "Hold the sun in your hand in this fast-paced arcade game. Play as a magnifying glass and cook swarms of bugs before time runs out. Chain ignitions, defeat tier bosses, and spend your Sparks on upgrades tree to unlock explosive criticals, burn trails, and smoldering spore clouds."
     },
     {
-      "appid": "4343600",
-      "name": "墨武天工",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4343600/616083ae1eb5a045c92fffe9e3a2f85fa1d49ebd/header.jpg?t=1792848227",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "《Безграничное Небо》 - это игра в жанре экшена на выживание с открытым миром, действие которой разворачивается в мифическом древнем Китае. Выступая одновременно в роли строителя и воина, вы будете «планировать тушью и сражаться сталью» в раздробленном,"
-    },
-    {
       "appid": "3752410",
       "name": "Dispatch Control",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3752410/a8728050be2e15452baeeae35568c7111d9053c4/header.jpg?t=1792881729",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3752410/a8728050be2e15452baeeae35568c7111d9053c4/header.jpg?t=1792930412",
       "genres": [
         "Симуляторы",
         "Стратегии"
@@ -622,7 +661,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Run a fire and ambulance dispatch center on real-world maps. Answer emergency calls, assess incidents and send the right crews while keeping units in reserve. Play Dispatch Control solo or in online co-op with up to six players, in free play or 16 campaign chapters."
+      "short_description": "Run a fire and ambulance dispatch center on real-world maps. Answer emergency calls, assess incidents and send the right crews while keeping units in reserve. Play Dispatch Control solo or in online co-op with up to six players, in free play or 16 campaign chapters. Available in English and German."
     },
     {
       "appid": "3892270",
@@ -641,43 +680,6 @@
       },
       "metacritic": null,
       "short_description": "Кооперативная игра про исследование казино для 1–6 человек. У вас с друзьями один банковский счёт и огромный долг на всех: играйте, покупайте предметы и делайте глупости на пути к вершине башни казино. Накопите на квоту для ростовщика за 5 минут или пожалеете..."
-    },
-    {
-      "appid": "5038160",
-      "name": "SQUIRT GAME 💦",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5038160/09a298fadf58eae82a6cb0235853c957fa484358/header.jpg?t=1792858234",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "You signed up for an adult reality show, and now your dignity is the first thing to go. Tease your rivals, exploit their filthy fantasies, and do whatever it takes to win. The prize is huge, but the temptation is even bigger!"
-    },
-    {
-      "appid": "4262030",
-      "name": "Last Fisherman",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4262030/086d1c597e2ea1b4918a6ad6163902bf8767bc48/header.jpg?t=1792887717",
-      "genres": [
-        "Приключенческие игры",
-        "Инди",
-        "Ролевые игры",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "In abandoned biomes, forgotten cities, and lifeless waters, you cast your line — often without knowing whether it is still worth it. Rare fish, fragile systems, and a world without explanation create an atmosphere that observes rather than entertains."
     }
   ]
 }

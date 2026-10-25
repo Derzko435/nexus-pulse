@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T14:47:10+03:00",
+  "updatedAt": "2026-10-25T19:35:40+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -21,16 +21,6 @@
       "pct": 90,
       "url": "https://store.steampowered.com/app/232090/",
       "steamAppId": "232090"
-    },
-    {
-      "id": "steam-1943730",
-      "title": "Wicked Island",
-      "store": "Steam",
-      "old": 1200,
-      "neu": 720,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/1943730/",
-      "steamAppId": "1943730"
     },
     {
       "id": "steam-3330380",
@@ -73,36 +63,6 @@
       "steamAppId": "4708610"
     },
     {
-      "id": "steam-5280220",
-      "title": "Task Bar Cube: Character Pack",
-      "store": "Steam",
-      "old": 170,
-      "neu": 102,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5280220/",
-      "steamAppId": "5280220"
-    },
-    {
-      "id": "steam-5280250",
-      "title": "Task Bar Cube: Support Package",
-      "store": "Steam",
-      "old": 170,
-      "neu": 102,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5280250/",
-      "steamAppId": "5280250"
-    },
-    {
-      "id": "steam-5280270",
-      "title": "Task Bar Cube: Inventory Package",
-      "store": "Steam",
-      "old": 170,
-      "neu": 102,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5280270/",
-      "steamAppId": "5280270"
-    },
-    {
       "id": "steam-4924290",
       "title": "Fire Bug",
       "store": "Steam",
@@ -123,6 +83,16 @@
       "steamAppId": "3752410"
     },
     {
+      "id": "steam-4764890",
+      "title": "+PROTECTUS-",
+      "store": "Steam",
+      "old": 75,
+      "neu": 45,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/4764890/",
+      "steamAppId": "4764890"
+    },
+    {
       "id": "steam-3892270",
       "title": "Казино с друзьями",
       "store": "Steam",
@@ -133,6 +103,16 @@
       "steamAppId": "3892270"
     },
     {
+      "id": "steam-5074200",
+      "title": "The Bots Want Your Gold!",
+      "store": "Steam",
+      "old": 240,
+      "neu": 156,
+      "pct": 35,
+      "url": "https://store.steampowered.com/app/5074200/",
+      "steamAppId": "5074200"
+    },
+    {
       "id": "steam-739630",
       "title": "Phasmophobia",
       "store": "Steam",
@@ -141,6 +121,26 @@
       "pct": 30,
       "url": "https://store.steampowered.com/app/739630/",
       "steamAppId": "739630"
+    },
+    {
+      "id": "steam-4461260",
+      "title": "Ball Bugz",
+      "store": "Steam",
+      "old": 290,
+      "neu": 203,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/4461260/",
+      "steamAppId": "4461260"
+    },
+    {
+      "id": "steam-5409020",
+      "title": "Spin To Win",
+      "store": "Steam",
+      "old": 245,
+      "neu": 171,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5409020/",
+      "steamAppId": "5409020"
     }
   ]
 }
