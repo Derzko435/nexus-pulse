@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T01:35:19+03:00",
+  "updatedAt": "2026-10-25T07:56:58+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -43,14 +43,24 @@
       "steamAppId": "3330380"
     },
     {
-      "id": "steam-5385030",
-      "title": "Dawn Archive",
+      "id": "steam-5358030",
+      "title": "Lumbrix",
       "store": "Steam",
-      "old": 242,
-      "neu": 145,
+      "old": 465,
+      "neu": 279,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5385030/",
-      "steamAppId": "5385030"
+      "url": "https://store.steampowered.com/app/5358030/",
+      "steamAppId": "5358030"
+    },
+    {
+      "id": "steam-5288620",
+      "title": "Поцелуй меня за счёт олигарха",
+      "store": "Steam",
+      "old": 335,
+      "neu": 201,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5288620/",
+      "steamAppId": "5288620"
     },
     {
       "id": "steam-4708610",
@@ -63,6 +73,16 @@
       "steamAppId": "4708610"
     },
     {
+      "id": "steam-4924290",
+      "title": "Fire Bug",
+      "store": "Steam",
+      "old": 150,
+      "neu": 90,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/4924290/",
+      "steamAppId": "4924290"
+    },
+    {
       "id": "steam-4343600",
       "title": "墨武天工",
       "store": "Steam",
@@ -71,6 +91,16 @@
       "pct": 40,
       "url": "https://store.steampowered.com/app/4343600/",
       "steamAppId": "4343600"
+    },
+    {
+      "id": "steam-3752410",
+      "title": "Dispatch Control",
+      "store": "Steam",
+      "old": 99,
+      "neu": 59,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/3752410/",
+      "steamAppId": "3752410"
     },
     {
       "id": "steam-3892270",
@@ -103,44 +133,14 @@
       "steamAppId": "739630"
     },
     {
-      "id": "steam-5385830",
-      "title": "Lily or Horse",
+      "id": "steam-4262030",
+      "title": "Last Fisherman",
       "store": "Steam",
       "old": 240,
       "neu": 168,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/5385830/",
-      "steamAppId": "5385830"
-    },
-    {
-      "id": "steam-5328190",
-      "title": "Wild Draw",
-      "store": "Steam",
-      "old": 280,
-      "neu": 210,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5328190/",
-      "steamAppId": "5328190"
-    },
-    {
-      "id": "steam-294100",
-      "title": "RimWorld",
-      "store": "Steam",
-      "old": 1099,
-      "neu": 879,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/294100/",
-      "steamAppId": "294100"
-    },
-    {
-      "id": "steam-2929250",
-      "title": "over the hill",
-      "store": "Steam",
-      "old": 1050,
-      "neu": 840,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/2929250/",
-      "steamAppId": "2929250"
+      "url": "https://store.steampowered.com/app/4262030/",
+      "steamAppId": "4262030"
     }
   ]
 }
