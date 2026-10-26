@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T08:25:29+03:00",
+ "updatedAt": "2026-10-26T12:02:05+03:00",
  "source": "bo3.gg",
  "matches": [
   {
@@ -13,18 +13,38 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "PGL Masters Bucharest 2026",
    "tier": "S",
    "startsAt": "2026-10-26T11:00:00+03:00",
    "streams": [
     {
      "type": "twitch",
-     "channel": "pgl",
+     "channel": "keliencs",
+     "lang": "ru",
+     "official": true,
+     "label": "keliencs"
+    },
+    {
+     "type": "twitch",
+     "channel": "pgl_cs2",
      "lang": "en",
      "official": true,
-     "label": "pgl",
-     "fallback": true
+     "label": "pgl_cs2"
+    },
+    {
+     "type": "twitch",
+     "channel": "watchfultv",
+     "lang": "ru",
+     "official": false,
+     "label": "watchfultv"
+    },
+    {
+     "type": "twitch",
+     "channel": "pelaajatcom",
+     "lang": "fi",
+     "official": false,
+     "label": "pelaajatcom"
     }
    ],
    "url": "https://bo3.gg/matches/nemiga-vs-aurora-gaming-26-10-2026"
@@ -38,20 +58,40 @@
    "logoA": "https://files.bo3.gg/uploads/team/736/image/webp-499cad826b4cd83ce22f8bd2b13261d6.webp",
    "logoB": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
    "scoreA": 0,
-   "scoreB": 0,
+   "scoreB": 1,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "PGL Masters Bucharest 2026",
    "tier": "S",
    "startsAt": "2026-10-26T11:00:00+03:00",
    "streams": [
     {
      "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
+     "channel": "cs2_maincast",
+     "lang": "uk",
      "official": true,
-     "label": "pgl",
-     "fallback": true
+     "label": "cs2_maincast"
+    },
+    {
+     "type": "twitch",
+     "channel": "krl_stream",
+     "lang": "fr",
+     "official": true,
+     "label": "krl_stream"
+    },
+    {
+     "type": "twitch",
+     "channel": "esport1tv",
+     "lang": "hu",
+     "official": true,
+     "label": "esport1tv"
+    },
+    {
+     "type": "twitch",
+     "channel": "mauisnake",
+     "lang": "en",
+     "official": false,
+     "label": "mauisnake"
     }
    ],
    "url": "https://bo3.gg/matches/the-mongolz-vs-mouz-cs2-26-10-2026"
@@ -67,7 +107,7 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "PARI Universe",
    "tier": "S",
    "startsAt": "2026-10-26T12:00:00+03:00",
@@ -81,33 +121,6 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/og-dota2-vs-gamerlegion-dota2-26-10-2026"
-  },
-  {
-   "id": "bo3-132233",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "9z",
-   "teamB": "TYLOO",
-   "logoA": "https://files.bo3.gg/uploads/team/324/image/webp-847d6324439266b5de80bcb2e23fa38e.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/757/image/17873415da0f03df35299283b43408d7.png",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "PGL Masters Bucharest 2026",
-   "tier": "S",
-   "startsAt": "2026-10-26T14:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/9z-vs-tyloo-cs-go-26-10-2026"
   },
   {
    "id": "bo3-132234",
@@ -127,14 +140,81 @@
    "streams": [
     {
      "type": "twitch",
-     "channel": "pgl",
+     "channel": "trottah",
      "lang": "en",
      "official": true,
-     "label": "pgl",
-     "fallback": true
+     "label": "trottah"
+    },
+    {
+     "type": "twitch",
+     "channel": "krl_stream",
+     "lang": "fr",
+     "official": true,
+     "label": "krl_stream"
+    },
+    {
+     "type": "twitch",
+     "channel": "esport1tv",
+     "lang": "hu",
+     "official": true,
+     "label": "esport1tv"
+    },
+    {
+     "type": "twitch",
+     "channel": "bysl4m",
+     "lang": "ru",
+     "official": false,
+     "label": "bysl4m"
     }
    ],
    "url": "https://bo3.gg/matches/vitality-vs-fut-cs2-26-10-2026"
+  },
+  {
+   "id": "bo3-132233",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "9z",
+   "teamB": "TYLOO",
+   "logoA": "https://files.bo3.gg/uploads/team/324/image/webp-847d6324439266b5de80bcb2e23fa38e.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/757/image/17873415da0f03df35299283b43408d7.png",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PGL Masters Bucharest 2026",
+   "tier": "S",
+   "startsAt": "2026-10-26T14:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl_cs2",
+     "lang": "en",
+     "official": true,
+     "label": "pgl_cs2"
+    },
+    {
+     "type": "twitch",
+     "channel": "watchfultvb",
+     "lang": "ru",
+     "official": false,
+     "label": "watchfultvb"
+    },
+    {
+     "type": "twitch",
+     "channel": "mikotohero",
+     "lang": "ru",
+     "official": false,
+     "label": "mikotohero"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast2",
+     "lang": "uk",
+     "official": false,
+     "label": "cs2_maincast2"
+    }
+   ],
+   "url": "https://bo3.gg/matches/9z-vs-tyloo-cs-go-26-10-2026"
   },
   {
    "id": "bo3-132274",
@@ -212,6 +292,13 @@
      "official": true,
      "label": "pgl",
      "fallback": true
+    },
+    {
+     "type": "kick",
+     "channel": "gaules",
+     "lang": "pt",
+     "official": false,
+     "label": "gaules"
     }
    ],
    "url": "https://bo3.gg/matches/spirit-vs-furia-26-10-2026"
@@ -292,6 +379,13 @@
      "official": true,
      "label": "pgl",
      "fallback": true
+    },
+    {
+     "type": "kick",
+     "channel": "gaules",
+     "lang": "pt",
+     "official": false,
+     "label": "gaules"
     }
    ],
    "url": "https://bo3.gg/matches/g2-vs-dendele-cs-26-10-2026"
@@ -313,12 +407,18 @@
    "startsAt": "2026-10-26T20:00:00+03:00",
    "streams": [
     {
-     "type": "twitch",
-     "channel": "riotgames",
+     "type": "youtube",
+     "id": "ECJoJ7ez7-4",
      "lang": "en",
      "official": true,
-     "label": "riotgames",
-     "fallback": true
+     "label": "CFO vs. T1 | WORLDS 2026 | Swiss Stage Day 4"
+    },
+    {
+     "type": "youtube",
+     "id": "ai8lSoaFobg",
+     "lang": "ko",
+     "official": false,
+     "label": "스위스 스테이지 Day 4 | 2026 월드 챔피언십"
     }
    ],
    "url": "https://bo3.gg/lol/matches/t1-lol-vs-ctbc-flying-oyster-26-10-2026"
@@ -366,12 +466,11 @@
    "startsAt": "2026-10-26T21:00:00+03:00",
    "streams": [
     {
-     "type": "twitch",
-     "channel": "valorant",
+     "type": "youtube",
+     "id": "-oohhaqLYx4",
      "lang": "en",
      "official": true,
-     "label": "valorant",
-     "fallback": true
+     "label": "FL vs. SK — VALORANT Game Changers Championship Sao Paulo — Knockout"
     },
     {
      "type": "kick",
@@ -400,12 +499,18 @@
    "startsAt": "2026-10-26T21:00:00+03:00",
    "streams": [
     {
-     "type": "twitch",
-     "channel": "riotgames",
+     "type": "youtube",
+     "id": "ECJoJ7ez7-4",
      "lang": "en",
      "official": true,
-     "label": "riotgames",
-     "fallback": true
+     "label": "CFO vs. T1 | WORLDS 2026 | Swiss Stage Day 4"
+    },
+    {
+     "type": "youtube",
+     "id": "ai8lSoaFobg",
+     "lang": "ko",
+     "official": false,
+     "label": "스위스 스테이지 Day 4 | 2026 월드 챔피언십"
     }
    ],
    "url": "https://bo3.gg/lol/matches/karmine-corp-lol-vs-bilibili-gaming-lol-26-10-2026"
@@ -427,12 +532,18 @@
    "startsAt": "2026-10-26T22:00:00+03:00",
    "streams": [
     {
-     "type": "twitch",
-     "channel": "riotgames",
+     "type": "youtube",
+     "id": "ECJoJ7ez7-4",
      "lang": "en",
      "official": true,
-     "label": "riotgames",
-     "fallback": true
+     "label": "CFO vs. T1 | WORLDS 2026 | Swiss Stage Day 4"
+    },
+    {
+     "type": "youtube",
+     "id": "ai8lSoaFobg",
+     "lang": "ko",
+     "official": false,
+     "label": "스위스 스테이지 Day 4 | 2026 월드 챔피언십"
     }
    ],
    "url": "https://bo3.gg/lol/matches/los-vs-team-secret-whales-26-10-2026"
@@ -454,12 +565,11 @@
    "startsAt": "2026-10-27T00:00:00+03:00",
    "streams": [
     {
-     "type": "twitch",
-     "channel": "valorant",
+     "type": "youtube",
+     "id": "-oohhaqLYx4",
      "lang": "en",
      "official": true,
-     "label": "valorant",
-     "fallback": true
+     "label": "FL vs. SK — VALORANT Game Changers Championship Sao Paulo — Knockout"
     },
     {
      "type": "kick",
@@ -488,12 +598,18 @@
    "startsAt": "2026-10-27T01:00:00+03:00",
    "streams": [
     {
-     "type": "twitch",
-     "channel": "riotgames",
+     "type": "youtube",
+     "id": "ECJoJ7ez7-4",
      "lang": "en",
      "official": true,
-     "label": "riotgames",
-     "fallback": true
+     "label": "CFO vs. T1 | WORLDS 2026 | Swiss Stage Day 4"
+    },
+    {
+     "type": "youtube",
+     "id": "ai8lSoaFobg",
+     "lang": "ko",
+     "official": false,
+     "label": "스위스 스테이지 Day 4 | 2026 월드 챔피언십"
     }
    ],
    "url": "https://bo3.gg/lol/matches/team-liquid-lol-vs-anyones-legend-26-10-2026"
