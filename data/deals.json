@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T23:59:23+03:00",
+  "updatedAt": "2026-10-26T03:28:57+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -53,16 +53,6 @@
       "steamAppId": "4078410"
     },
     {
-      "id": "steam-4764890",
-      "title": "+PROTECTUS-",
-      "store": "Steam",
-      "old": 75,
-      "neu": 45,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/4764890/",
-      "steamAppId": "4764890"
-    },
-    {
       "id": "steam-3892270",
       "title": "Казино с друзьями",
       "store": "Steam",
@@ -91,6 +81,16 @@
       "pct": 30,
       "url": "https://store.steampowered.com/app/739630/",
       "steamAppId": "739630"
+    },
+    {
+      "id": "steam-4898560",
+      "title": "Tetromancer",
+      "store": "Steam",
+      "old": 335,
+      "neu": 234,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/4898560/",
+      "steamAppId": "4898560"
     },
     {
       "id": "steam-4461260",
@@ -123,24 +123,24 @@
       "steamAppId": "5409020"
     },
     {
-      "id": "steam-4262030",
-      "title": "Last Fisherman",
+      "id": "steam-5315330",
+      "title": "Tiny Spellcaster",
       "store": "Steam",
       "old": 240,
       "neu": 168,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/4262030/",
-      "steamAppId": "4262030"
+      "url": "https://store.steampowered.com/app/5315330/",
+      "steamAppId": "5315330"
     },
     {
-      "id": "steam-5378020",
-      "title": "Blamcon's Cyber Range",
+      "id": "steam-3703300",
+      "title": "I Checkmate Thee",
       "store": "Steam",
-      "old": 335,
-      "neu": 251,
+      "old": 240,
+      "neu": 180,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/5378020/",
-      "steamAppId": "5378020"
+      "url": "https://store.steampowered.com/app/3703300/",
+      "steamAppId": "3703300"
     }
   ]
 }
