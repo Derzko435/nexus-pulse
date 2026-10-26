@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T03:28:57+03:00",
+  "updatedAt": "2026-10-26T10:56:00+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -43,16 +43,6 @@
       "steamAppId": "2058670"
     },
     {
-      "id": "steam-4078410",
-      "title": "Post-Utopia: Europe2999",
-      "store": "Steam",
-      "old": 385,
-      "neu": 231,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/4078410/",
-      "steamAppId": "4078410"
-    },
-    {
       "id": "steam-3892270",
       "title": "Казино с друзьями",
       "store": "Steam",
@@ -61,16 +51,6 @@
       "pct": 38,
       "url": "https://store.steampowered.com/app/3892270/",
       "steamAppId": "3892270"
-    },
-    {
-      "id": "steam-5074200",
-      "title": "The Bots Want Your Gold!",
-      "store": "Steam",
-      "old": 240,
-      "neu": 156,
-      "pct": 35,
-      "url": "https://store.steampowered.com/app/5074200/",
-      "steamAppId": "5074200"
     },
     {
       "id": "steam-739630",
@@ -93,16 +73,6 @@
       "steamAppId": "4898560"
     },
     {
-      "id": "steam-4461260",
-      "title": "Ball Bugz",
-      "store": "Steam",
-      "old": 290,
-      "neu": 203,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/4461260/",
-      "steamAppId": "4461260"
-    },
-    {
       "id": "steam-5169220",
       "title": "Campsite",
       "store": "Steam",
@@ -111,16 +81,6 @@
       "pct": 30,
       "url": "https://store.steampowered.com/app/5169220/",
       "steamAppId": "5169220"
-    },
-    {
-      "id": "steam-5409020",
-      "title": "Spin To Win",
-      "store": "Steam",
-      "old": 245,
-      "neu": 171,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/5409020/",
-      "steamAppId": "5409020"
     },
     {
       "id": "steam-5315330",
@@ -133,14 +93,54 @@
       "steamAppId": "5315330"
     },
     {
-      "id": "steam-3703300",
-      "title": "I Checkmate Thee",
+      "id": "steam-5265120",
+      "title": "Lyra Quinn - Black Hole",
       "store": "Steam",
-      "old": 240,
-      "neu": 180,
+      "old": 715,
+      "neu": 536,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/3703300/",
-      "steamAppId": "3703300"
+      "url": "https://store.steampowered.com/app/5265120/",
+      "steamAppId": "5265120"
+    },
+    {
+      "id": "steam-294100",
+      "title": "RimWorld",
+      "store": "Steam",
+      "old": 1099,
+      "neu": 879,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/294100/",
+      "steamAppId": "294100"
+    },
+    {
+      "id": "steam-2929250",
+      "title": "over the hill",
+      "store": "Steam",
+      "old": 1050,
+      "neu": 840,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/2929250/",
+      "steamAppId": "2929250"
+    },
+    {
+      "id": "steam-3124540",
+      "title": "Far Far West",
+      "store": "Steam",
+      "old": 610,
+      "neu": 488,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/3124540/",
+      "steamAppId": "3124540"
+    },
+    {
+      "id": "steam-5087180",
+      "title": "Excids: Endless Siege",
+      "store": "Steam",
+      "old": 590,
+      "neu": 472,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/5087180/",
+      "steamAppId": "5087180"
     }
   ]
 }

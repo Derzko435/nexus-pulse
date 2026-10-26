@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T03:28:51+03:00",
+  "updatedAt": "2026-10-26T10:55:55+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -539,22 +539,6 @@
       "short_description": "Europe2999 это шутер от третьего лица, сочетающий в себе элементы выживания, сюжетную линию и полную персонализацию. На островке в Средиземном море, где царит напряженная обстановка, найдите свое спасение, создайте свою легенду и решите судьбу мира, находящегося на грани краха."
     },
     {
-      "appid": "4764890",
-      "name": "+PROTECTUS-",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4764890/c72c18f08e07487656a8297124218a736b906a67/header.jpg?t=1792915136",
-      "genres": [
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "🧲 Минималистичная головоломка от первого лица, где вам предстоит выбраться из разрушенного лунного комплекса, используя экспериментальную магнитную пушку и раскрывая тайны проекта ЭХО вместе с дроном Круитни."
-    },
-    {
       "appid": "3892270",
       "name": "Казино с друзьями",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/395e6d7972474333a698b26f8aa5597bf38109a1/header.jpg?t=1792427976",
@@ -587,6 +571,24 @@
       },
       "metacritic": null,
       "short_description": "Defend your base from the robotic horde! Mine ores and sell them to make quick cash. Use your hard-earned money to buy weapons, attachments, and equipment that will assist you in defeating the bots! How long can you hold off the horde?"
+    },
+    {
+      "appid": "4898560",
+      "name": "Tetromancer",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4898560/e42d6f39f2ef88d98e38d6e86184bcbfd8769fed/header.jpg?t=1792963734",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Tetromancer is a Tetris battler where the board is your war economy. Clear lines to conjure an army, then command it in real time against wave after wave of invaders. Stack greedily and you'll field a bigger force, but crowd your board and one bad piece can bury you."
     },
     {
       "appid": "4461260",
@@ -643,14 +645,12 @@
       "short_description": "Flick, brake and reverse your way from one tiny fidget spinner to a bustling pixel arcade. Restore machines, build gadget combinations, master mouse driven minigames and spend earned Tickets on chance games and cosmetics."
     },
     {
-      "appid": "4262030",
-      "name": "Last Fisherman",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4262030/086d1c597e2ea1b4918a6ad6163902bf8767bc48/header.jpg?t=1792887717",
+      "appid": "5315330",
+      "name": "Tiny Spellcaster",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5315330/fdfd0ad708ae993220f6cddc8fd8ee2a3f03828c/header.jpg?t=1792965694",
       "genres": [
-        "Приключенческие игры",
-        "Инди",
-        "Ролевые игры",
-        "Симуляторы"
+        "Казуальные игры",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -659,15 +659,15 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "In abandoned biomes, forgotten cities, and lifeless waters, you cast your line — often without knowing whether it is still worth it. Rare fish, fragile systems, and a world without explanation create an atmosphere that observes rather than entertains."
+      "short_description": "Blast through endless hordes and hold the line against these demons! Tiny Spellcaster is a corner arcade idle shooter with rogue-lite upgrades, where rng and strategic builds help you overpower the rapid swarms of monsters closing in. Master the magic, unleash the chaos!"
     },
     {
-      "appid": "5378020",
-      "name": "Blamcon's Cyber Range",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5378020/9892acffc2aa1fb2c3605b07893803f790cbc553/header.jpg?t=1792965855",
+      "appid": "3703300",
+      "name": "I Checkmate Thee",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3703300/acf61e2e6044558149bae1491b62f06e6b1f2ad0/header_russian.jpg?t=1792940876",
       "genres": [
-        "Симуляторы",
-        "Спорт"
+        "Инди",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
@@ -676,7 +676,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "A day at the range for your Light Gun. Six real range target games on an outdoor range in the woods: paper, a speed plate rack, hanging steel, pop-up targets, a dueling tree, and a Texas star. This can be played with a mouse but it is a light gun game first, best played with Blamcon light guns."
+      "short_description": "«I Checkmate Thee» пошаговая головоломка с ограничением обзора, в сеттинге и жанре хоррора и шахмат. Король вооружен мечом, чтобы выйти из заточения шахматной доски. Пройдите шахматные партии, где каждый ход – шаг навстречу смерти!"
     }
   ]
 }
