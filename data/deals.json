@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T10:56:00+03:00",
+  "updatedAt": "2026-10-26T18:18:38+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -33,14 +33,34 @@
       "steamAppId": "1943730"
     },
     {
-      "id": "steam-2058670",
-      "title": "Viking Life",
+      "id": "steam-3024130",
+      "title": "PAO PAO",
       "store": "Steam",
-      "old": 445,
-      "neu": 267,
+      "old": 449,
+      "neu": 269,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/2058670/",
-      "steamAppId": "2058670"
+      "url": "https://store.steampowered.com/app/3024130/",
+      "steamAppId": "3024130"
+    },
+    {
+      "id": "steam-5385170",
+      "title": "ByeByeObake!",
+      "store": "Steam",
+      "old": 290,
+      "neu": 174,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5385170/",
+      "steamAppId": "5385170"
+    },
+    {
+      "id": "steam-5000550",
+      "title": "Nitro Nonsense",
+      "store": "Steam",
+      "old": 280,
+      "neu": 168,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5000550/",
+      "steamAppId": "5000550"
     },
     {
       "id": "steam-3892270",
@@ -53,6 +73,16 @@
       "steamAppId": "3892270"
     },
     {
+      "id": "steam-1737870",
+      "title": "REKA",
+      "store": "Steam",
+      "old": 710,
+      "neu": 461,
+      "pct": 35,
+      "url": "https://store.steampowered.com/app/1737870/",
+      "steamAppId": "1737870"
+    },
+    {
       "id": "steam-739630",
       "title": "Phasmophobia",
       "store": "Steam",
@@ -63,84 +93,54 @@
       "steamAppId": "739630"
     },
     {
-      "id": "steam-4898560",
-      "title": "Tetromancer",
+      "id": "steam-4742590",
+      "title": "Giraffe Champion 3: Halloween Party & The Ghost Guitar",
       "store": "Steam",
-      "old": 335,
-      "neu": 234,
+      "old": 720,
+      "neu": 504,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/4898560/",
-      "steamAppId": "4898560"
+      "url": "https://store.steampowered.com/app/4742590/",
+      "steamAppId": "4742590"
     },
     {
-      "id": "steam-5169220",
-      "title": "Campsite",
+      "id": "steam-4466850",
+      "title": "Where is My Pet?",
       "store": "Steam",
-      "old": 245,
-      "neu": 171,
+      "old": 320,
+      "neu": 224,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/5169220/",
-      "steamAppId": "5169220"
+      "url": "https://store.steampowered.com/app/4466850/",
+      "steamAppId": "4466850"
     },
     {
-      "id": "steam-5315330",
-      "title": "Tiny Spellcaster",
+      "id": "steam-1932910",
+      "title": "Cardopolis",
+      "store": "Steam",
+      "old": 320,
+      "neu": 224,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/1932910/",
+      "steamAppId": "1932910"
+    },
+    {
+      "id": "steam-4389980",
+      "title": "10 Hours Before Sunrise",
       "store": "Steam",
       "old": 240,
       "neu": 168,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/5315330/",
-      "steamAppId": "5315330"
+      "url": "https://store.steampowered.com/app/4389980/",
+      "steamAppId": "4389980"
     },
     {
-      "id": "steam-5265120",
-      "title": "Lyra Quinn - Black Hole",
+      "id": "steam-5236110",
+      "title": "Teleport Master",
       "store": "Steam",
-      "old": 715,
-      "neu": 536,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5265120/",
-      "steamAppId": "5265120"
-    },
-    {
-      "id": "steam-294100",
-      "title": "RimWorld",
-      "store": "Steam",
-      "old": 1099,
-      "neu": 879,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/294100/",
-      "steamAppId": "294100"
-    },
-    {
-      "id": "steam-2929250",
-      "title": "over the hill",
-      "store": "Steam",
-      "old": 1050,
-      "neu": 840,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/2929250/",
-      "steamAppId": "2929250"
-    },
-    {
-      "id": "steam-3124540",
-      "title": "Far Far West",
-      "store": "Steam",
-      "old": 610,
-      "neu": 488,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/3124540/",
-      "steamAppId": "3124540"
-    },
-    {
-      "id": "steam-5087180",
-      "title": "Excids: Endless Siege",
-      "store": "Steam",
-      "old": 590,
-      "neu": 472,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5087180/",
-      "steamAppId": "5087180"
+      "old": 240,
+      "neu": 168,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5236110/",
+      "steamAppId": "5236110"
     }
   ]
 }
