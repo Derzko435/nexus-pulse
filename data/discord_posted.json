@@ -1,33 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-10-26T12:08:02+03:00",
+ "updatedAt": "2026-10-27T00:06:51+03:00",
  "posted": {
   "news": [
-   "389d44e7777d",
-   "17598170566d",
-   "d06e54c17caa",
-   "3f73d326b980",
-   "05ffe2dc8d0a",
-   "54efb83aa208",
-   "81d0d258b0ec",
-   "580eef740e7e",
-   "f54a207cc18d",
-   "083355608222",
-   "7a51fd8b7ed5",
-   "8bb0c6e7ad93",
-   "262ca14c4038",
-   "080686a9a301",
-   "aba314b4f050",
-   "8567ee78c021",
-   "955e043905b4",
-   "7881725b0385",
-   "ac478a554308",
-   "e6de214ad6f0",
-   "c023cad3abc2",
-   "62f90cb524a5",
-   "aeda922f8a4e",
-   "884b73012f9b",
-   "3110befbc59a",
    "c2924300359e",
    "1cfb7b83cf5b",
    "676da1519edb",
@@ -502,7 +477,32 @@
    "bff18aa318f6",
    "03993f43ac86",
    "60b7b0aab17a",
-   "0c84859f89f6"
+   "0c84859f89f6",
+   "920d05c023c7",
+   "ffa543ccda8a",
+   "8f0abedf9424",
+   "5739b69d56d1",
+   "36994ac954e1",
+   "c7628b0ceadb",
+   "8de4a73a1b4a",
+   "f02919158044",
+   "dfbbcd205ffb",
+   "0b8464b38737",
+   "1c220422d81b",
+   "b3d3ffce182e",
+   "a5b622e52dee",
+   "f4efe0ac0bb9",
+   "be7461b1c4df",
+   "d38de6b14fa8",
+   "5a6cc1b980f2",
+   "bf6aa1c5d36e",
+   "1a5d7fa2095c",
+   "4e3697071924",
+   "41ef0b04698f",
+   "2dfd012e70e6",
+   "2005c5f9d2a8",
+   "ae65d110311c",
+   "b6060327f107"
   ],
   "deals": [
    "steam-246420:90",
@@ -584,7 +584,10 @@
    "steam-1449690:90",
    "steam-1250:90",
    "steam-232090:90",
-   "steam-245390:85"
+   "steam-245390:85",
+   "steam-221100:50",
+   "steam-1643310:50",
+   "steam-238320:90"
   ],
   "freebies": [
    "epic-7ae00c3e89174012b175cc73b4737723:soon",
@@ -1039,7 +1042,22 @@
    "result:bo3-130812",
    "live:bo3-132231",
    "live:bo3-132232",
-   "live:bo3-132273"
+   "live:bo3-132273",
+   "result:bo3-130814",
+   "live:bo3-130816",
+   "live:bo3-132157",
+   "live:bo3-132284",
+   "digest:2026-10-27",
+   "result:bo3-132273",
+   "result:bo3-132233",
+   "result:bo3-132274",
+   "result:bo3-132235",
+   "result:bo3-132236",
+   "result:bo3-132237",
+   "result:bo3-132283",
+   "result:bo3-132238",
+   "result:bo3-130815",
+   "result:bo3-132158"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -1076,16 +1094,6 @@
    "cs2:2026-10-23"
   ],
   "videos": [
-   "GOyY2CZRouc",
-   "teClq4qYyzQ",
-   "eGYJ2cYKTms",
-   "KRpHsI2lzlA",
-   "uoYFqz7uWtQ",
-   "vdnZggewTpM",
-   "4pYfBDwNWII",
-   "eA3BrR245mo",
-   "YxO0PvWKWjo",
-   "UBfqubyjkyI",
    "DwpvyqXFffA",
    "reWC_jQ2FMY",
    "x9al9bqwFNI",
@@ -1575,7 +1583,17 @@
    "3qNkvdSWDmc",
    "XWvvg_UwTSA",
    "-9qvDYA45mk",
-   "5fD8Ker-Bic"
+   "5fD8Ker-Bic",
+   "Lo6V52lXc94",
+   "WIixdJS0AaI",
+   "Ze3AtmkyWbw",
+   "tz6POiNeCqY",
+   "4TzZw08avBI",
+   "cehZHF-apk0",
+   "eCLWuau_k8c",
+   "6QPRMl0Scoc",
+   "cmct78Iytg8",
+   "aLB8lJBsnxw"
   ],
   "releases": [
    "week:2026-W39",
@@ -1637,22 +1655,28 @@
    "day:2026-10-22:3259780",
    "day:2026-10-23:x-vixen-357",
    "day:2026-10-23:3960600",
-   "week:2026-W44"
+   "week:2026-W44",
+   "day:2026-10-27:2295170",
+   "day:2026-10-27:x-mole-mania",
+   "day:2026-10-27:2223980",
+   "day:2026-10-27:x-revenge-of-gator",
+   "day:2026-10-27:x-s-ance-of-blake-manor",
+   "day:2026-10-27:x-avenging-spirit"
   ],
   "gotd": [
    "gotd:2026-09-24"
   ]
  },
  "matchPings": [
-  "2026-10-24T00:44+03:00",
-  "2026-10-24T00:44+03:00",
-  "2026-10-24T03:05+03:00",
   "2026-10-25T00:14+03:00",
   "2026-10-25T00:14+03:00",
   "2026-10-25T02:47+03:00",
   "2026-10-26T00:17+03:00",
   "2026-10-26T00:17+03:00",
-  "2026-10-26T12:08+03:00"
+  "2026-10-26T12:08+03:00",
+  "2026-10-27T00:06+03:00",
+  "2026-10-27T00:06+03:00",
+  "2026-10-27T00:06+03:00"
  ],
  "weekly": {
   "gamenight": {
@@ -1674,7 +1698,7 @@
   }
  },
  "dealPosts": [
-  "2026-10-24T21:52+03:00",
-  "2026-10-25T23:59+03:00"
+  "2026-10-25T23:59+03:00",
+  "2026-10-27T00:06+03:00"
  ]
 }
