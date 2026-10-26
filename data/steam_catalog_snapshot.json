@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T18:18:32+03:00",
+  "updatedAt": "2026-10-27T00:06:18+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -501,14 +501,14 @@
       "short_description": "Выживайте в суровом, манящем открытом мире этой survival RPG 18+. Создавайте снаряжение, стройте дом, настраивайте персонажа и управляйте драконами! Исследуйте подземелья и сражайтесь с монстрами. Побеждайте или поддайтесь желаниям с системой сексуального поражения и беременности."
     },
     {
-      "appid": "2058670",
-      "name": "Viking Life",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2058670/92f033a161559924ab911c2c1aff51368fc8db31/header.jpg?t=1792954944",
+      "appid": "3024130",
+      "name": "PAO PAO",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3024130/8d729d070576d199d119bff0de78022bb4151404/header.jpg?t=1793023708",
       "genres": [
-        "Экшены",
         "Приключенческие игры",
+        "Инди",
         "Симуляторы",
-        "Стратегии"
+        "Ранний доступ"
       ],
       "is_free": false,
       "platforms": {
@@ -517,7 +517,42 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Ведите дружину викингов от фьордов до Англии и Франции в роглайте со сражениями в реальном времени. Рубитесь в первом ряду, командуйте десятками воинов, а если падёте — очнитесь в Вальхалле и отстройте деревню к следующей саге."
+      "short_description": "Добро пожаловать в PAO PAO, уютный городок у моря, где каждый день наполнен маленькими радостями. Играйте в одиночку или вместе с друзьями в кооперативе до 4 игроков: готовьте вкусные блюда, рыбачьте, выращивайте урожай и создавайте свой уютный дом у моря."
+    },
+    {
+      "appid": "5385170",
+      "name": "ByeByeObake!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5385170/64f3dc5a737214f9df4ba225f998c4332ecc5dfc/header.jpg?t=1793008534",
+      "genres": [
+        "Экшены",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "“Those who can see can’t shoot. Those who can shoot can’t see!” An asymmetric online co-op action game for 2–8 players. Exorcists and Spirit Companions call out to banish the evil spirits you can’t see. Friendly fire included: yes, you can exorcise your teammates too."
+    },
+    {
+      "appid": "5000550",
+      "name": "Nitro Nonsense",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5000550/0f79a4ddfa404701a8eabd9973f4037f3a9aee6c/header.jpg?t=1793041448",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Гонки"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "A chaotic party racer for 1, 2, 4, 8, or up to 16 players, locally or online! Race in split-screen or share a top-down view, build custom tracks, and fill them with traps and obstacles when you win. If you lose, don’t worry: you get to upgrade your car and come back stronger for the next round!"
     },
     {
       "appid": "3892270",
@@ -538,80 +573,67 @@
       "short_description": "Кооперативная игра про исследование казино для 1–6 человек. У вас с друзьями один банковский счёт и огромный долг на всех: играйте, покупайте предметы и делайте глупости на пути к вершине башни казино. Накопите на квоту для ростовщика за 5 минут или пожалеете..."
     },
     {
-      "appid": "4898560",
-      "name": "Tetromancer",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4898560/e42d6f39f2ef88d98e38d6e86184bcbfd8769fed/header.jpg?t=1792963734",
+      "appid": "1737870",
+      "name": "REKA",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1737870/d8ea454a870af3d14aa41fbb58356185c9a7d29b/header_alt_assets_5.jpg?t=1793012900",
       "genres": [
+        "Приключенческие игры",
         "Казуальные игры",
         "Инди",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Окунитесь в уютный мир колдовства, навеянный славянским фольклором. Стройте и изменяйте под себя избушку на курьих ножках, а затем отправляйтесь в путешествие по туманной осенней чаще. Помогайте местным, приручайте лесных зверей и обучайтесь доброй магии у самой Бабы Яги."
+    },
+    {
+      "appid": "4742590",
+      "name": "Giraffe Champion 3: Halloween Party & The Ghost Guitar",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4742590/b90e353556938e51ce6684919e5681b6b5f8984a/header.jpg?t=1793022274",
+      "genres": [
+        "Экшены",
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Play rock and metal songs and compete against zombies, witches, ghosts in the guitar battle to get all your guitars back. You are going to perform at a Halloween party but zombies have stolen all your guitars. Collect all the guitars before the Halloween party starts!"
+    },
+    {
+      "appid": "4466850",
+      "name": "Where is My Pet?",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4466850/1d614c08652bde459d4214c7df4f0fc9a105c855/header.jpg?t=1793009680",
+      "genres": [
+        "Казуальные игры",
+        "Симуляторы",
         "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
+        "mac": true,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Tetromancer is a Tetris battler where the board is your war economy. Clear lines to conjure an army, then command it in real time against wave after wave of invaders. Stack greedily and you'll field a bigger force, but crowd your board and one bad piece can bury you."
+      "short_description": "Where is My Pet? — игра про поиск предметов, сортировку и животных! Управляйте приютом: размещайте зверей, отдавайте их в добрые руки, улучшайте здания, стройте дом мечты и ищите питомцев в городе. Сможете ли вы превратить скромный питомник в прибыльный бизнес?"
     },
     {
-      "appid": "5169220",
-      "name": "Campsite",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5169220/6f00c812052cec41867670beb755eb582a418fa8/header.jpg?t=1792957335",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Warm nights in the evergreen forest, the peace and quiet, the gentle flicker of fire. Too quiet, almost unnatural. Something sinister lurks in the dark. It's faster than you, it's smarter than you, and it wants you out of it's forest. Your only hope to keep the flames from hollowing. Good luck."
-    },
-    {
-      "appid": "5315330",
-      "name": "Tiny Spellcaster",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5315330/fdfd0ad708ae993220f6cddc8fd8ee2a3f03828c/header.jpg?t=1792965694",
+      "appid": "1932910",
+      "name": "Cardopolis",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1932910/99c5cd42ec4b5fdb5e3c7de5ebcb47e7d5f6a3fd/header.jpg?t=1793009688",
       "genres": [
         "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Blast through endless hordes and hold the line against these demons! Tiny Spellcaster is a corner arcade idle shooter with rogue-lite upgrades, where rng and strategic builds help you overpower the rapid swarms of monsters closing in. Master the magic, unleash the chaos!"
-    },
-    {
-      "appid": "5265120",
-      "name": "Lyra Quinn - Black Hole",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5265120/c2d97631e3d3d243bcf84b3c5b9ce8d423225e92/header.jpg?t=1792965690",
-      "genres": [
-        "Экшены",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "A fast-paced 2D sci-fi arcade shooter. Pilot Lyra through 26 action-packed levels, destroy dangerous space enemies, survive escalating threats, and defeat the final boss in a challenging cosmic adventure."
-    },
-    {
-      "appid": "294100",
-      "name": "RimWorld",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/76e0613b8197327299d5dbabb0a7fd7828a689a2/header.jpg?t=1782756789",
-      "genres": [
         "Инди",
         "Симуляторы",
         "Стратегии"
@@ -620,41 +642,38 @@
       "platforms": {
         "windows": true,
         "mac": true,
-        "linux": true
+        "linux": false
       },
-      "metacritic": 87,
-      "short_description": "Научно-фантастический симулятор колонии с интеллектуальным AI-рассказчиком. Создаёт истории, моделируя психологию, экологию, стрельбу, ближний бой, климат, биомы, дипломатию, межличностные отношения, искусство, медицину, торговлю и многое другое."
+      "metacritic": null,
+      "short_description": "Cardopolis — карточный градостроительный симулятор, где вы становитесь мэром. Стройте карту за картой, закон за законом и сектор за сектором, вовремя выполняя цели инвесторов по населению!"
     },
     {
-      "appid": "2929250",
-      "name": "over the hill",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/header.jpg?t=1792666389",
+      "appid": "4389980",
+      "name": "10 Hours Before Sunrise",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4389980/0c9fb8afea15c2b630aca96f3840e52a15bd2e2a/header.jpg?t=1793012488",
       "genres": [
+        "Экшены",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Жестокий 8-битный боомер-шутер, вдохновлённый лучшим трэш-хоррором 80-х. Вы — Самуэль Альварес, сломленный человек, который находит хижину хуже любого кошмара. Переживите ночь и столкнитесь с силами Вендакора — или не увидите рассвет."
+    },
+    {
+      "appid": "5236110",
+      "name": "Teleport Master",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5236110/96d6e31b41ef998c61595ad2b74b8437619be595/header.jpg?t=1793008448",
+      "genres": [
+        "Экшены",
         "Приключенческие игры",
         "Казуальные игры",
         "Инди",
-        "Гонки",
-        "Симуляторы",
-        "Спорт"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Откройте для себя мир в золотой век бездорожья. За рулем культовых внедорожников 60–80-х годов — в одиночку или с друзьями — покоряйте сложные трассы и исследуйте живописные места."
-    },
-    {
-      "appid": "3124540",
-      "name": "Far Far West",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124540/5473eb1bbfdcbd1d1585d47bdc07752caf3105c9/header_alt_assets_4.jpg?t=1792748527",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Ранний доступ"
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
@@ -663,25 +682,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "По коням, ковбои! Собирайтесь с друзьями в Far Far West, хаотичном кооперативном шутере для 1–4 игроков. Сражайтесь с монстрами, колдуйте, выполняйте задания и получайте награды. Работайте слаженно — и, возможно, вернётесь в целости и сохранности."
-    },
-    {
-      "appid": "5087180",
-      "name": "Excids: Endless Siege",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5087180/18547ff45b91de616b6f23a46443338fa1de4aa0/header.jpg?t=1792984356",
-      "genres": [
-        "Экшены",
-        "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Defend your castle in a dark fantasy action roguelite. Choose your hero, survive endless enemy waves, unlock relics, skills, and upgrades, to try and finish every level."
+      "short_description": "Teleport Master is a first-person puzzle adventure where you create portals to move through space, reach impossible places, and solve clever environmental challenges. Explore stylized sci-fi levels, experiment with movement, and find your way forward."
     }
   ]
 }
