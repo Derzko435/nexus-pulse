@@ -1,49 +1,131 @@
 {
- "updatedAt": "2026-10-27T12:22:06+03:00",
+ "updatedAt": "2026-10-27T18:34:05+03:00",
  "source": "bo3.gg",
  "matches": [
   {
-   "id": "bo3-132468",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Unsettled Resentment",
-   "teamB": "Victory No Limits Gaming",
-   "logoA": "https://files.bo3.gg/uploads/team/24033/image/webp-bb680245148be5c497f0354b922c2a79.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/25337/image/webp-8be8447269f72700cc6eb57c165fe0e4.webp",
-   "scoreA": 0,
+   "id": "bo3-132133",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Inner Circle",
+   "teamB": "Nemesis",
+   "logoA": "https://files.bo3.gg/uploads/team/19186/image/webp-6aedbd6f8fdc86d26052f90540031e1e.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/21388/image/webp-160641ad1ee216616765928a5ebc6a76.webp",
+   "scoreA": 1,
    "scoreB": 0,
    "bo": 3,
    "status": "live",
-   "event": "VCT Threshold China 2026",
+   "event": "Stake Ranked Episode 5",
    "tier": "A",
-   "startsAt": "2026-10-27T12:00:00+03:00",
+   "startsAt": "2026-10-27T17:25:00+03:00",
    "streams": [
     {
-     "type": "youtube",
-     "id": "qqauxAJWoFw",
-     "lang": "zh",
+     "type": "kick",
+     "channel": "starladder",
+     "lang": "en",
+     "official": true,
+     "label": "starladder"
+    },
+    {
+     "type": "kick",
+     "channel": "watchfultv",
+     "lang": "ru",
      "official": false,
-     "label": "UR vs VLG - WOL vs WSIG - Week 2 - Day 1 - 2026 VCT CN Threshold"
+     "label": "watchfultv"
+    },
+    {
+     "type": "kick",
+     "channel": "narodcast",
+     "lang": "ru",
+     "official": false,
+     "label": "narodcast"
+    },
+    {
+     "type": "kick",
+     "channel": "bandurka",
+     "lang": "ru",
+     "official": false,
+     "label": "bandurka"
     }
    ],
-   "url": "https://bo3.gg/valorant/matches/unsettled-resentment-vlr-vs-victory-no-limits-gaming-27-10-2026"
+   "url": "https://bo3.gg/matches/inner-circle-esports-vs-team-nemesis-cs-27-10-2026"
   },
   {
-   "id": "bo3-132240",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Liquid",
-   "teamB": "Aurora",
-   "logoA": "https://files.bo3.gg/uploads/team/790/image/webp-01cca8d35079cb4b21bc25268ac75bae.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/3598/image/webp-49b8df76b0d121cc89c760c1ec16ebea.webp",
+   "id": "bo3-132831",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "BetBoom Team",
+   "teamB": "Astra Invicta",
+   "logoA": "https://files.bo3.gg/uploads/team/15526/image/webp-cc299cab6bd25784c3c33f8302248ad9.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/25557/image/webp-71a130fa205305b3096d33cd360a428b.webp",
    "scoreA": 0,
    "scoreB": 0,
+   "bo": 1,
+   "status": "live",
+   "event": "PARI Universe",
+   "tier": "S",
+   "startsAt": "2026-10-27T17:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "afoninje",
+     "lang": "ru",
+     "official": false,
+     "label": "afoninje"
+    },
+    {
+     "type": "twitch",
+     "channel": "fissure_dota_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "fissure_dota_ru"
+    },
+    {
+     "type": "twitch",
+     "channel": "gorgc",
+     "lang": "en",
+     "official": false,
+     "label": "gorgc"
+    },
+    {
+     "type": "kick",
+     "channel": "fissure_dota_en",
+     "lang": "en",
+     "official": false,
+     "label": "fissure_dota_en"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/betboom-team-dota2-vs-astra-invicta-27-10-2026"
+  },
+  {
+   "id": "bo3-132241",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Spirit",
+   "teamB": "MOUZ",
+   "logoA": "https://files.bo3.gg/uploads/team/654/image/webp-41b22d18a871d982f8ff87652bbb0fe6.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
+   "scoreA": 1,
+   "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "PGL Masters Bucharest 2026",
    "tier": "S",
-   "startsAt": "2026-10-27T14:00:00+03:00",
+   "startsAt": "2026-10-27T17:35:00+03:00",
    "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl"
+    },
+    {
+     "type": "twitch",
+     "channel": "psp1g",
+     "lang": "en",
+     "official": true,
+     "label": "psp1g"
+    },
     {
      "type": "twitch",
      "channel": "trottah",
@@ -57,86 +139,25 @@
      "lang": "en",
      "official": true,
      "label": "pgl"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "cs2_maincast"
-    },
-    {
-     "type": "twitch",
-     "channel": "krl_stream",
-     "lang": "fr",
-     "official": true,
-     "label": "krl_stream"
     }
    ],
-   "url": "https://bo3.gg/matches/liquid-vs-aurora-gaming-27-10-2026"
+   "url": "https://bo3.gg/matches/spirit-vs-mouz-cs2-27-10-2026"
   },
   {
-   "id": "bo3-132132",
+   "id": "bo3-132244",
    "game": "CS2",
    "gameKey": "cs2",
-   "teamA": "magic",
-   "teamB": "BIG",
-   "logoA": "https://files.bo3.gg/uploads/team/22218/image/webp-239b86baa849b6da4911c1df5e5a3220.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/756/image/webp-4ced024b49ca43268e30797f61272016.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "Stake Ranked Episode 5",
-   "tier": "A",
-   "startsAt": "2026-10-27T14:00:00+03:00",
-   "streams": [
-    {
-     "type": "kick",
-     "channel": "starladder",
-     "lang": "en",
-     "official": true,
-     "label": "starladder"
-    },
-    {
-     "type": "twitch",
-     "channel": "albi1985",
-     "lang": "de",
-     "official": true,
-     "label": "albi1985"
-    },
-    {
-     "type": "twitch",
-     "channel": "watchfultv",
-     "lang": "ru",
-     "official": false,
-     "label": "watchfultv"
-    },
-    {
-     "type": "twitch",
-     "channel": "narodcast",
-     "lang": "ru",
-     "official": false,
-     "label": "narodcast"
-    }
-   ],
-   "url": "https://bo3.gg/matches/magic-ru-vs-big-27-10-2026"
-  },
-  {
-   "id": "bo3-132239",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Nemiga",
-   "teamB": "DENDELE",
-   "logoA": "https://files.bo3.gg/uploads/team/655/image/webp-998a59d1bbae3fd5e32b1e46a3f6204e.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/24956/image/webp-faa4b489f27e86c29c5d66ca95c14082.webp",
+   "teamA": "FURIA",
+   "teamB": "TYLOO",
+   "logoA": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/757/image/17873415da0f03df35299283b43408d7.png",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
    "status": "upcoming",
    "event": "PGL Masters Bucharest 2026",
    "tier": "S",
-   "startsAt": "2026-10-27T14:00:00+03:00",
+   "startsAt": "2026-10-27T19:00:00+03:00",
    "streams": [
     {
      "type": "twitch",
@@ -161,171 +182,13 @@
     },
     {
      "type": "twitch",
-     "channel": "cyberfocus",
-     "lang": "be",
-     "official": true,
-     "label": "cyberfocus"
-    }
-   ],
-   "url": "https://bo3.gg/matches/nemiga-vs-dendele-cs-27-10-2026"
-  },
-  {
-   "id": "bo3-132469",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Wolves Esports",
-   "teamB": "World Sports Invictus Gaming",
-   "logoA": "https://files.bo3.gg/uploads/team/8428/image/webp-7cba11c4433ce06715d9607250d5b172.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/23045/image/webp-e8c2992fad679abb1ae1618711b07c5d.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "VCT Threshold China 2026",
-   "tier": "A",
-   "startsAt": "2026-10-27T14:00:00+03:00",
-   "streams": [
-    {
-     "type": "youtube",
-     "id": "qqauxAJWoFw",
-     "lang": "zh",
+     "channel": "cs2_paragon_ru2",
+     "lang": "ru",
      "official": false,
-     "label": "UR vs VLG - WOL vs WSIG - Week 2 - Day 1 - 2026 VCT CN Threshold"
+     "label": "cs2_paragon_ru2"
     }
    ],
-   "url": "https://bo3.gg/valorant/matches/wolves-esports-vs-world-sports-invictus-gaming-27-10-2026"
-  },
-  {
-   "id": "bo3-132829",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Astra Invicta",
-   "teamB": "LEGION",
-   "logoA": "https://files.bo3.gg/uploads/team/25557/image/webp-71a130fa205305b3096d33cd360a428b.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/25401/image/webp-12311d6aa24e815ad6b9c3e66cc662d2.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 1,
-   "status": "upcoming",
-   "event": "PARI Universe",
-   "tier": "S",
-   "startsAt": "2026-10-27T16:00:00+03:00",
-   "streams": [
-    {
-     "type": "kick",
-     "channel": "fissure_dota_en",
-     "lang": "en",
-     "official": false,
-     "label": "fissure_dota_en"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/astra-invicta-vs-legion_stack-27-10-2026-1"
-  },
-  {
-   "id": "bo3-132133",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Inner Circle",
-   "teamB": "Nemesis",
-   "logoA": "https://files.bo3.gg/uploads/team/19186/image/webp-6aedbd6f8fdc86d26052f90540031e1e.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/21388/image/webp-160641ad1ee216616765928a5ebc6a76.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "Stake Ranked Episode 5",
-   "tier": "A",
-   "startsAt": "2026-10-27T16:30:00+03:00",
-   "streams": [
-    {
-     "type": "kick",
-     "channel": "starladder",
-     "lang": "en",
-     "official": true,
-     "label": "starladder"
-    }
-   ],
-   "url": "https://bo3.gg/matches/inner-circle-esports-vs-team-nemesis-cs-27-10-2026"
-  },
-  {
-   "id": "bo3-132241",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Spirit",
-   "teamB": "MOUZ",
-   "logoA": "https://files.bo3.gg/uploads/team/654/image/webp-41b22d18a871d982f8ff87652bbb0fe6.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "PGL Masters Bucharest 2026",
-   "tier": "S",
-   "startsAt": "2026-10-27T17:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/spirit-vs-mouz-cs2-27-10-2026"
-  },
-  {
-   "id": "bo3-132242",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "The MongolZ",
-   "teamB": "Legacy",
-   "logoA": "https://files.bo3.gg/uploads/team/736/image/webp-499cad826b4cd83ce22f8bd2b13261d6.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/8118/image/webp-e4a3b023443f1f3ba4ef588164e73111.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "PGL Masters Bucharest 2026",
-   "tier": "S",
-   "startsAt": "2026-10-27T17:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/the-mongolz-vs-legacy-br-27-10-2026"
-  },
-  {
-   "id": "bo3-132830",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "BetBoom Team",
-   "teamB": "LEGION",
-   "logoA": "https://files.bo3.gg/uploads/team/15526/image/webp-cc299cab6bd25784c3c33f8302248ad9.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/25401/image/webp-12311d6aa24e815ad6b9c3e66cc662d2.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 1,
-   "status": "upcoming",
-   "event": "PARI Universe",
-   "tier": "S",
-   "startsAt": "2026-10-27T17:30:00+03:00",
-   "streams": [
-    {
-     "type": "kick",
-     "channel": "fissure_dota_en",
-     "lang": "en",
-     "official": false,
-     "label": "fissure_dota_en"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/betboom-team-dota2-vs-legion_stack-27-10-2026"
+   "url": "https://bo3.gg/matches/furia-vs-tyloo-cs-go-27-10-2026"
   },
   {
    "id": "bo3-132134",
@@ -349,18 +212,39 @@
      "lang": "en",
      "official": true,
      "label": "starladder"
+    },
+    {
+     "type": "kick",
+     "channel": "analyticvictor",
+     "lang": "en",
+     "official": true,
+     "label": "analyticvictor"
+    },
+    {
+     "type": "kick",
+     "channel": "watchfultv",
+     "lang": "ru",
+     "official": false,
+     "label": "watchfultv"
+    },
+    {
+     "type": "kick",
+     "channel": "narodcast",
+     "lang": "ru",
+     "official": false,
+     "label": "narodcast"
     }
    ],
    "url": "https://bo3.gg/matches/astralis-vs-fnatic-27-10-2026"
   },
   {
-   "id": "bo3-132831",
+   "id": "bo3-132830",
    "game": "Dota 2",
    "gameKey": "dota2",
    "teamA": "BetBoom Team",
-   "teamB": "Astra Invicta",
+   "teamB": "LEGION",
    "logoA": "https://files.bo3.gg/uploads/team/15526/image/webp-cc299cab6bd25784c3c33f8302248ad9.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/25557/image/webp-71a130fa205305b3096d33cd360a428b.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/25401/image/webp-12311d6aa24e815ad6b9c3e66cc662d2.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 1,
@@ -371,40 +255,34 @@
    "streams": [
     {
      "type": "kick",
-     "channel": "fissure_dota_en",
-     "lang": "en",
-     "official": false,
-     "label": "fissure_dota_en"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/betboom-team-dota2-vs-astra-invicta-27-10-2026"
-  },
-  {
-   "id": "bo3-132244",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "FURIA",
-   "teamB": "TYLOO",
-   "logoA": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/757/image/17873415da0f03df35299283b43408d7.png",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "PGL Masters Bucharest 2026",
-   "tier": "S",
-   "startsAt": "2026-10-27T20:00:00+03:00",
-   "streams": [
+     "channel": "americaesportsdota2",
+     "lang": "es",
+     "official": true,
+     "label": "americaesportsdota2"
+    },
     {
      "type": "twitch",
-     "channel": "pgl",
+     "channel": "afoninje",
+     "lang": "ru",
+     "official": false,
+     "label": "afoninje"
+    },
+    {
+     "type": "twitch",
+     "channel": "fissure_dota_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "fissure_dota_ru"
+    },
+    {
+     "type": "twitch",
+     "channel": "gorgc",
      "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
+     "official": false,
+     "label": "gorgc"
     }
    ],
-   "url": "https://bo3.gg/matches/furia-vs-tyloo-cs-go-27-10-2026"
+   "url": "https://bo3.gg/dota2/matches/betboom-team-dota2-vs-legion_stack-27-10-2026"
   },
   {
    "id": "bo3-132243",
@@ -427,8 +305,28 @@
      "channel": "pgl",
      "lang": "en",
      "official": true,
-     "label": "pgl",
-     "fallback": true
+     "label": "pgl"
+    },
+    {
+     "type": "twitch",
+     "channel": "psp1g",
+     "lang": "en",
+     "official": true,
+     "label": "psp1g"
+    },
+    {
+     "type": "twitch",
+     "channel": "trottah",
+     "lang": "en",
+     "official": true,
+     "label": "trottah"
+    },
+    {
+     "type": "kick",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl"
     }
    ],
    "url": "https://bo3.gg/matches/vitality-vs-natus-vincere-27-10-2026"
@@ -507,6 +405,27 @@
      "lang": "en",
      "official": true,
      "label": "starladder"
+    },
+    {
+     "type": "kick",
+     "channel": "watchfultv",
+     "lang": "ru",
+     "official": false,
+     "label": "watchfultv"
+    },
+    {
+     "type": "kick",
+     "channel": "narodcast",
+     "lang": "ru",
+     "official": false,
+     "label": "narodcast"
+    },
+    {
+     "type": "kick",
+     "channel": "bandurka",
+     "lang": "ru",
+     "official": false,
+     "label": "bandurka"
     }
    ],
    "url": "https://bo3.gg/matches/mibr-vs-eternal-fire-27-10-2026"
@@ -654,6 +573,60 @@
    "url": "https://bo3.gg/lol/matches/invictus-gaming-lol-vs-lyon-gaming-28-10-2026"
   },
   {
+   "id": "bo3-132472",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "KeepBest Gaming",
+   "teamB": "Unsettled Resentment",
+   "logoA": "https://files.bo3.gg/uploads/team/8910/image/webp-e51ae9ae80b515f3259d1e6b72b39d7c.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/24033/image/webp-bb680245148be5c497f0354b922c2a79.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VCT Threshold China 2026",
+   "tier": "A",
+   "startsAt": "2026-10-29T12:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/keepbest-gaming-vs-unsettled-resentment-vlr-29-10-2026"
+  },
+  {
+   "id": "bo3-132473",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "World Sports Invictus Gaming",
+   "teamB": "Titan Esports Club",
+   "logoA": "https://files.bo3.gg/uploads/team/23045/image/webp-e8c2992fad679abb1ae1618711b07c5d.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/9377/image/webp-3c207928ff7b24c93a41d02e6ba2d8f3.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VCT Threshold China 2026",
+   "tier": "A",
+   "startsAt": "2026-10-29T14:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/world-sports-invictus-gaming-vs-tec-esports-29-10-2026"
+  },
+  {
    "id": "bo3-130821",
    "game": "LoL",
    "gameKey": "lol",
@@ -760,6 +733,307 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/hanwha-life-esports-vs-g2-esports-lol-30-10-2026"
+  },
+  {
+   "id": "bo3-132242",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "The MongolZ",
+   "teamB": "Legacy",
+   "logoA": "https://files.bo3.gg/uploads/team/736/image/webp-499cad826b4cd83ce22f8bd2b13261d6.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/8118/image/webp-e4a3b023443f1f3ba4ef588164e73111.webp",
+   "scoreA": 2,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "finished",
+   "event": "PGL Masters Bucharest 2026",
+   "tier": "S",
+   "startsAt": "2026-10-27T16:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "keliencs",
+     "lang": "ru",
+     "official": true,
+     "label": "keliencs"
+    },
+    {
+     "type": "twitch",
+     "channel": "pgl_cs2",
+     "lang": "en",
+     "official": true,
+     "label": "pgl_cs2"
+    },
+    {
+     "type": "twitch",
+     "channel": "psp1g",
+     "lang": "en",
+     "official": true,
+     "label": "psp1g"
+    },
+    {
+     "type": "kick",
+     "channel": "pglcs2",
+     "lang": "en",
+     "official": true,
+     "label": "pglcs2"
+    }
+   ],
+   "url": "https://bo3.gg/matches/the-mongolz-vs-legacy-br-27-10-2026"
+  },
+  {
+   "id": "bo3-132829",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Astra Invicta",
+   "teamB": "LEGION",
+   "logoA": "https://files.bo3.gg/uploads/team/25557/image/webp-71a130fa205305b3096d33cd360a428b.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/25401/image/webp-12311d6aa24e815ad6b9c3e66cc662d2.webp",
+   "scoreA": 0,
+   "scoreB": 1,
+   "bo": 1,
+   "status": "finished",
+   "event": "PARI Universe",
+   "tier": "S",
+   "startsAt": "2026-10-27T16:00:00+03:00",
+   "streams": [
+    {
+     "type": "kick",
+     "channel": "americaesportsdota2",
+     "lang": "es",
+     "official": true,
+     "label": "americaesportsdota2"
+    },
+    {
+     "type": "twitch",
+     "channel": "afoninje",
+     "lang": "ru",
+     "official": false,
+     "label": "afoninje"
+    },
+    {
+     "type": "twitch",
+     "channel": "fissure_dota_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "fissure_dota_ru"
+    },
+    {
+     "type": "twitch",
+     "channel": "gorgc",
+     "lang": "en",
+     "official": false,
+     "label": "gorgc"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/astra-invicta-vs-legion_stack-27-10-2026-1"
+  },
+  {
+   "id": "bo3-132469",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "Wolves Esports",
+   "teamB": "World Sports Invictus Gaming",
+   "logoA": "https://files.bo3.gg/uploads/team/8428/image/webp-7cba11c4433ce06715d9607250d5b172.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/23045/image/webp-e8c2992fad679abb1ae1618711b07c5d.webp",
+   "scoreA": 0,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "VCT Threshold China 2026",
+   "tier": "A",
+   "startsAt": "2026-10-27T16:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorantesports_cn",
+     "lang": "zh",
+     "official": true,
+     "label": "valorantesports_cn"
+    },
+    {
+     "type": "youtube",
+     "id": "qqauxAJWoFw",
+     "lang": "zh",
+     "official": false,
+     "label": "UR vs VLG - WOL vs WSIG - Week 2 - Day 1 - 2026 VCT CN Threshold"
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/wolves-esports-vs-world-sports-invictus-gaming-27-10-2026"
+  },
+  {
+   "id": "bo3-132240",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Liquid",
+   "teamB": "Aurora",
+   "logoA": "https://files.bo3.gg/uploads/team/790/image/webp-01cca8d35079cb4b21bc25268ac75bae.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/3598/image/webp-49b8df76b0d121cc89c760c1ec16ebea.webp",
+   "scoreA": 1,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "PGL Masters Bucharest 2026",
+   "tier": "S",
+   "startsAt": "2026-10-27T14:10:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl"
+    },
+    {
+     "type": "twitch",
+     "channel": "trottah",
+     "lang": "en",
+     "official": true,
+     "label": "trottah"
+    },
+    {
+     "type": "kick",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "cs2_maincast"
+    }
+   ],
+   "url": "https://bo3.gg/matches/liquid-vs-aurora-gaming-27-10-2026"
+  },
+  {
+   "id": "bo3-132132",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "magic",
+   "teamB": "BIG",
+   "logoA": "https://files.bo3.gg/uploads/team/22218/image/webp-239b86baa849b6da4911c1df5e5a3220.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/756/image/webp-4ced024b49ca43268e30797f61272016.webp",
+   "scoreA": 1,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "Stake Ranked Episode 5",
+   "tier": "A",
+   "startsAt": "2026-10-27T14:00:00+03:00",
+   "streams": [
+    {
+     "type": "kick",
+     "channel": "starladder",
+     "lang": "en",
+     "official": true,
+     "label": "starladder"
+    },
+    {
+     "type": "kick",
+     "channel": "watchfultv",
+     "lang": "ru",
+     "official": false,
+     "label": "watchfultv"
+    },
+    {
+     "type": "kick",
+     "channel": "narodcast",
+     "lang": "ru",
+     "official": false,
+     "label": "narodcast"
+    },
+    {
+     "type": "kick",
+     "channel": "bandurka",
+     "lang": "ru",
+     "official": false,
+     "label": "bandurka"
+    }
+   ],
+   "url": "https://bo3.gg/matches/magic-ru-vs-big-27-10-2026"
+  },
+  {
+   "id": "bo3-132239",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Nemiga",
+   "teamB": "DENDELE",
+   "logoA": "https://files.bo3.gg/uploads/team/655/image/webp-998a59d1bbae3fd5e32b1e46a3f6204e.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/24956/image/webp-faa4b489f27e86c29c5d66ca95c14082.webp",
+   "scoreA": 2,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "finished",
+   "event": "PGL Masters Bucharest 2026",
+   "tier": "S",
+   "startsAt": "2026-10-27T14:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "keliencs",
+     "lang": "ru",
+     "official": true,
+     "label": "keliencs"
+    },
+    {
+     "type": "twitch",
+     "channel": "pgl_cs2",
+     "lang": "en",
+     "official": true,
+     "label": "pgl_cs2"
+    },
+    {
+     "type": "kick",
+     "channel": "pglcs2",
+     "lang": "en",
+     "official": true,
+     "label": "pglcs2"
+    },
+    {
+     "type": "twitch",
+     "channel": "dmitry_lixxx",
+     "lang": "ru",
+     "official": false,
+     "label": "dmitry_lixxx"
+    }
+   ],
+   "url": "https://bo3.gg/matches/nemiga-vs-dendele-cs-27-10-2026"
+  },
+  {
+   "id": "bo3-132468",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "Unsettled Resentment",
+   "teamB": "Victory No Limits Gaming",
+   "logoA": "https://files.bo3.gg/uploads/team/24033/image/webp-bb680245148be5c497f0354b922c2a79.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/25337/image/webp-8be8447269f72700cc6eb57c165fe0e4.webp",
+   "scoreA": 2,
+   "scoreB": 1,
+   "bo": 3,
+   "status": "finished",
+   "event": "VCT Threshold China 2026",
+   "tier": "A",
+   "startsAt": "2026-10-27T12:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorantesports_cn",
+     "lang": "zh",
+     "official": true,
+     "label": "valorantesports_cn"
+    },
+    {
+     "type": "youtube",
+     "id": "qqauxAJWoFw",
+     "lang": "zh",
+     "official": false,
+     "label": "UR vs VLG - WOL vs WSIG - Week 2 - Day 1 - 2026 VCT CN Threshold"
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/unsettled-resentment-vlr-vs-victory-no-limits-gaming-27-10-2026"
   },
   {
    "id": "bo3-130817",
@@ -1185,147 +1459,6 @@
    "url": "https://bo3.gg/dota2/matches/team-spirit-vs-parivision-dota2-26-10-2026"
   },
   {
-   "id": "bo3-132237",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "G2",
-   "teamB": "DENDELE",
-   "logoA": "https://files.bo3.gg/uploads/team/793/image/webp-8f844f6a25c797dfe74b411d147983ff.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/24956/image/webp-faa4b489f27e86c29c5d66ca95c14082.webp",
-   "scoreA": 1,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "PGL Masters Bucharest 2026",
-   "tier": "S",
-   "startsAt": "2026-10-26T19:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl_cs2",
-     "lang": "en",
-     "official": true,
-     "label": "pgl_cs2"
-    },
-    {
-     "type": "kick",
-     "channel": "pglcs2",
-     "lang": "en",
-     "official": true,
-     "label": "pglcs2"
-    },
-    {
-     "type": "twitch",
-     "channel": "watchfultvb",
-     "lang": "ru",
-     "official": false,
-     "label": "watchfultvb"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_paragon_ru2",
-     "lang": "ru",
-     "official": false,
-     "label": "cs2_paragon_ru2"
-    }
-   ],
-   "url": "https://bo3.gg/matches/g2-vs-dendele-cs-26-10-2026"
-  },
-  {
-   "id": "bo3-132236",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Liquid",
-   "teamB": "Legacy",
-   "logoA": "https://files.bo3.gg/uploads/team/790/image/webp-01cca8d35079cb4b21bc25268ac75bae.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/8118/image/webp-e4a3b023443f1f3ba4ef588164e73111.webp",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "PGL Masters Bucharest 2026",
-   "tier": "S",
-   "startsAt": "2026-10-26T17:10:00+03:00",
-   "streams": [
-    {
-     "type": "kick",
-     "channel": "watchfultvb",
-     "lang": "ru",
-     "official": true,
-     "label": "watchfultvb"
-    },
-    {
-     "type": "twitch",
-     "channel": "pgl_cs2",
-     "lang": "en",
-     "official": true,
-     "label": "pgl_cs2"
-    },
-    {
-     "type": "twitch",
-     "channel": "trottah",
-     "lang": "en",
-     "official": true,
-     "label": "trottah"
-    },
-    {
-     "type": "kick",
-     "channel": "pglcs2",
-     "lang": "en",
-     "official": true,
-     "label": "pglcs2"
-    }
-   ],
-   "url": "https://bo3.gg/matches/liquid-vs-legacy-br-26-10-2026"
-  },
-  {
-   "id": "bo3-132235",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Spirit",
-   "teamB": "FURIA",
-   "logoA": "https://files.bo3.gg/uploads/team/654/image/webp-41b22d18a871d982f8ff87652bbb0fe6.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
-   "scoreA": 2,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "finished",
-   "event": "PGL Masters Bucharest 2026",
-   "tier": "S",
-   "startsAt": "2026-10-26T16:45:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl"
-    },
-    {
-     "type": "twitch",
-     "channel": "psp1g",
-     "lang": "en",
-     "official": true,
-     "label": "psp1g"
-    },
-    {
-     "type": "kick",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "cs2_maincast"
-    }
-   ],
-   "url": "https://bo3.gg/matches/spirit-vs-furia-26-10-2026"
-  },
-  {
    "id": "bo3-132274",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -1371,53 +1504,6 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/team-yandex-vs-team-liquid-dota2-26-10-2026"
-  },
-  {
-   "id": "bo3-132233",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "9z",
-   "teamB": "TYLOO",
-   "logoA": "https://files.bo3.gg/uploads/team/324/image/webp-847d6324439266b5de80bcb2e23fa38e.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/757/image/17873415da0f03df35299283b43408d7.png",
-   "scoreA": 1,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "PGL Masters Bucharest 2026",
-   "tier": "S",
-   "startsAt": "2026-10-26T14:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl_cs2",
-     "lang": "en",
-     "official": true,
-     "label": "pgl_cs2"
-    },
-    {
-     "type": "kick",
-     "channel": "pglcs2",
-     "lang": "en",
-     "official": true,
-     "label": "pglcs2"
-    },
-    {
-     "type": "twitch",
-     "channel": "watchfultvb",
-     "lang": "ru",
-     "official": false,
-     "label": "watchfultvb"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_paragon_ru2",
-     "lang": "ru",
-     "official": false,
-     "label": "cs2_paragon_ru2"
-    }
-   ],
-   "url": "https://bo3.gg/matches/9z-vs-tyloo-cs-go-26-10-2026"
   },
   {
    "id": "bo3-132273",
@@ -1559,126 +1645,6 @@
     }
    ],
    "url": "https://bo3.gg/valorant/matches/team-liquid-brazil-vs-nova-esports-gc-25-10-2026"
-  },
-  {
-   "id": "bo3-132282",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "PARIVISION",
-   "teamB": "BetBoom Team",
-   "logoA": "https://files.bo3.gg/uploads/team/18604/image/webp-6ff7974f420e977381734ce06515692b.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/15526/image/webp-cc299cab6bd25784c3c33f8302248ad9.webp",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "PARI Universe",
-   "tier": "S",
-   "startsAt": "2026-10-25T21:00:00+03:00",
-   "streams": [
-    {
-     "type": "kick",
-     "channel": "americaesportsdota2",
-     "lang": "es",
-     "official": true,
-     "label": "americaesportsdota2"
-    },
-    {
-     "type": "twitch",
-     "channel": "fissure_dota_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "fissure_dota_ru"
-    },
-    {
-     "type": "twitch",
-     "channel": "gorgc",
-     "lang": "en",
-     "official": false,
-     "label": "gorgc"
-    },
-    {
-     "type": "kick",
-     "channel": "fissure_dota_en",
-     "lang": "en",
-     "official": false,
-     "label": "fissure_dota_en"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/parivision-dota2-vs-betboom-team-dota2-25-10-2026"
-  },
-  {
-   "id": "bo3-132156",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Gen.G GC",
-   "teamB": "FENNEL Female",
-   "logoA": "https://files.bo3.gg/uploads/team/8164/image/webp-0beb711a967a6b391d3e7c5d91d42619.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/6558/image/webp-8919fa450a840a289e034e7190db8e60.webp",
-   "scoreA": 1,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "VALORANT Game Changers Championship 2026",
-   "tier": "S",
-   "startsAt": "2026-10-25T21:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "loupiote3",
-     "lang": "en",
-     "official": true,
-     "label": "loupiote3"
-    },
-    {
-     "type": "twitch",
-     "channel": "valorant_br",
-     "lang": "pt",
-     "official": true,
-     "label": "valorant_br"
-    },
-    {
-     "type": "twitch",
-     "channel": "valorant_la",
-     "lang": "pt",
-     "official": true,
-     "label": "valorant_la"
-    },
-    {
-     "type": "twitch",
-     "channel": "wipr",
-     "lang": "fr",
-     "official": true,
-     "label": "wipr"
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/gen-g-gc-vs-fennel-female-25-10-2026"
-  },
-  {
-   "id": "bo3-132467",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Dragon Ranger Gaming",
-   "teamB": "Nova Esports",
-   "logoA": "https://files.bo3.gg/uploads/team/6339/image/webp-32ec625310f64b3b2f1e8644ddac0816.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/6331/image/webp-40a807464ddc11691e7dc64d9ae1c689.webp",
-   "scoreA": 3,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "finished",
-   "event": "VCT Threshold China 2026",
-   "tier": "A",
-   "startsAt": "2026-10-25T12:10:00+03:00",
-   "streams": [
-    {
-     "type": "youtube",
-     "id": "dGCSuuhlySo",
-     "lang": "zh",
-     "official": false,
-     "label": "NOVA vs DRG - Week 1 - Day 5 - 2026 VCT CN Threshold"
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/dragon-ranger-gaming-vs-nova-esports-25-10-2026"
   }
  ],
  "tournaments": [
@@ -1756,7 +1722,7 @@
    "prize": 100000,
    "start": "2026-10-27",
    "end": "2026-10-31",
-   "status": "upcoming",
+   "status": "current",
    "url": "https://bo3.gg/tournaments/stake-ranked-episode-5"
   },
   {
