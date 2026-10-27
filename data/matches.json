@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T12:05:28+03:00",
+ "updatedAt": "2026-10-27T12:22:06+03:00",
  "source": "bo3.gg",
  "matches": [
   {
@@ -248,33 +248,6 @@
    "url": "https://bo3.gg/matches/inner-circle-esports-vs-team-nemesis-cs-27-10-2026"
   },
   {
-   "id": "bo3-132242",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "The MongolZ",
-   "teamB": "Legacy",
-   "logoA": "https://files.bo3.gg/uploads/team/736/image/webp-499cad826b4cd83ce22f8bd2b13261d6.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/8118/image/webp-e4a3b023443f1f3ba4ef588164e73111.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "PGL Masters Bucharest 2026",
-   "tier": "S",
-   "startsAt": "2026-10-27T17:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/the-mongolz-vs-legacy-br-27-10-2026"
-  },
-  {
    "id": "bo3-132241",
    "game": "CS2",
    "gameKey": "cs2",
@@ -300,6 +273,33 @@
     }
    ],
    "url": "https://bo3.gg/matches/spirit-vs-mouz-cs2-27-10-2026"
+  },
+  {
+   "id": "bo3-132242",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "The MongolZ",
+   "teamB": "Legacy",
+   "logoA": "https://files.bo3.gg/uploads/team/736/image/webp-499cad826b4cd83ce22f8bd2b13261d6.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/8118/image/webp-e4a3b023443f1f3ba4ef588164e73111.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PGL Masters Bucharest 2026",
+   "tier": "S",
+   "startsAt": "2026-10-27T17:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/the-mongolz-vs-legacy-br-27-10-2026"
   },
   {
    "id": "bo3-132830",
@@ -380,33 +380,6 @@
    "url": "https://bo3.gg/dota2/matches/betboom-team-dota2-vs-astra-invicta-27-10-2026"
   },
   {
-   "id": "bo3-132243",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Vitality",
-   "teamB": "Natus Vincere",
-   "logoA": "https://files.bo3.gg/uploads/team/667/image/webp-292c1f6c6dcfca35c7a52da7e02cef0a.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/787/image/webp-ea9885f81f1572c7a6c9fb6cbf747c99.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "PGL Masters Bucharest 2026",
-   "tier": "S",
-   "startsAt": "2026-10-27T20:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/vitality-vs-natus-vincere-27-10-2026"
-  },
-  {
    "id": "bo3-132244",
    "game": "CS2",
    "gameKey": "cs2",
@@ -432,6 +405,33 @@
     }
    ],
    "url": "https://bo3.gg/matches/furia-vs-tyloo-cs-go-27-10-2026"
+  },
+  {
+   "id": "bo3-132243",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Vitality",
+   "teamB": "Natus Vincere",
+   "logoA": "https://files.bo3.gg/uploads/team/667/image/webp-292c1f6c6dcfca35c7a52da7e02cef0a.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/787/image/webp-ea9885f81f1572c7a6c9fb6cbf747c99.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "PGL Masters Bucharest 2026",
+   "tier": "S",
+   "startsAt": "2026-10-27T20:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/vitality-vs-natus-vincere-27-10-2026"
   },
   {
    "id": "bo3-131716",
