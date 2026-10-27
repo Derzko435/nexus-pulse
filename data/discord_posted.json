@@ -1,39 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-10-27T11:02:55+03:00",
+ "updatedAt": "2026-10-28T00:16:41+03:00",
  "posted": {
   "news": [
-   "d930d0206f3e",
-   "f49294cd06bc",
-   "67bb410e602e",
-   "cd68f29a67c1",
-   "998f07407e03",
-   "79668d358f91",
-   "7a931dc73682",
-   "b9215ec569d0",
-   "b470cb5332c2",
-   "c592140db259",
-   "b3618abdaf16",
-   "040fd524e24c",
-   "7f692df0f018",
-   "c0b1b4775839",
-   "65cc6d8e34a9",
-   "892a0ba98668",
-   "23cbdc560b56",
-   "975e9bca93e6",
-   "a5646119c212",
-   "f75be113ba49",
-   "d44507cd7951",
-   "77e16a63cd22",
-   "230f7c183646",
-   "de48becca655",
-   "b170fbb26109",
-   "b74e87f8f4d9",
-   "2e20cdf22cb9",
-   "67b5760c69f1",
-   "e13d4a66e653",
-   "a028b6b98ec9",
-   "232d17316ad9",
    "f3740399367c",
    "a089a16aaee3",
    "67da593f38d1",
@@ -502,7 +471,38 @@
    "f8e29a2779e5",
    "54094c460d46",
    "f13c3a0fcfba",
-   "cecf6155e49a"
+   "cecf6155e49a",
+   "08e82c842816",
+   "86ca4a521f8e",
+   "f76fe9c7de8e",
+   "fed9f3893dbc",
+   "483197ca29f0",
+   "505d7b28b9de",
+   "f0105f37fa3b",
+   "28de72f54c01",
+   "1e0b25dbb661",
+   "b5c38a2f50e8",
+   "f04aa724c8a4",
+   "9515c53850d6",
+   "c4a3591a6a18",
+   "2f45a5395053",
+   "cc8b1bf63450",
+   "4ab6ecb1c23f",
+   "0fcbb4e8d2ef",
+   "89645d903c17",
+   "f31abeb5b19b",
+   "778af41d95b0",
+   "3b8860fb9b51",
+   "bc25eec8fbcc",
+   "42274217d00d",
+   "cba8fe821f82",
+   "44ebbf2857ad",
+   "5a7a902447a0",
+   "de30e0b50617",
+   "6071048b1d77",
+   "2b2b2b2ad55e",
+   "06c0c5806534",
+   "ae6ab09f4ebc"
   ],
   "deals": [
    "steam-246420:90",
@@ -589,7 +589,8 @@
    "steam-1643310:50",
    "steam-238320:90",
    "steam-5024:89",
-   "steam-414700:90"
+   "steam-414700:90",
+   "steam-1496590:90"
   ],
   "freebies": [
    "epic-7ae00c3e89174012b175cc73b4737723:soon",
@@ -1063,7 +1064,17 @@
    "result:bo3-130816",
    "result:bo3-132157",
    "result:bo3-132284",
-   "result:bo3-130817"
+   "result:bo3-130817",
+   "result:bo3-132243",
+   "result:bo3-132159",
+   "live:bo3-132135",
+   "live:bo3-132160",
+   "digest:2026-10-28",
+   "result:bo3-132829",
+   "result:bo3-132831",
+   "result:bo3-132241",
+   "result:bo3-132830",
+   "result:bo3-132244"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -1100,25 +1111,6 @@
    "cs2:2026-10-23"
   ],
   "videos": [
-   "9eWOGUrXmBg",
-   "WU450XCajms",
-   "tkfL2TsqL0g",
-   "x1c62NCfXCo",
-   "U8rE4RKjEtM",
-   "mvygLPRpH5w",
-   "_ZBPNTVJSZo",
-   "4fjmJQOLvek",
-   "NcypRmYfP5s",
-   "9BnhLJaxTA4",
-   "gwjEUsW6eIU",
-   "8sY_t2LeyRY",
-   "0_7kHG8Hpx8",
-   "amNj4VYFzOw",
-   "Y2yp0b8KGvs",
-   "L9Uh-RoRcJg",
-   "8Vu7c-8SCUc",
-   "TVre1TSKvgU",
-   "b9Wz88vFXxY",
    "qaoqPjbXk2Y",
    "G3WVFHEzX3w",
    "A75QYo8hTTM",
@@ -1599,7 +1591,26 @@
    "aLB8lJBsnxw",
    "a8PBJKGm3GM",
    "xKkrdVvSWA8",
-   "qqUH5vOSZys"
+   "qqUH5vOSZys",
+   "nQb_mWA4JZU",
+   "_p-mo6N_RJg",
+   "JzGKH6JUdUA",
+   "Wf9irsB_ETs",
+   "ECJoJ7ez7-4",
+   "ys6RaOaqCy0",
+   "Ki7L4P-6jNQ",
+   "N-juLrS2DXQ",
+   "NfBwIlWiNis",
+   "ID8iK3dvUo8",
+   "PdLVxNx5AHk",
+   "6Vw8fbA7HmA",
+   "t-8-io-fM_0",
+   "ZFSObjzCFes",
+   "x-QP1dG4NO4",
+   "bw_TKK96LgI",
+   "KyLCZWPn9Qc",
+   "2caQwnlGeOk",
+   "9V3cRV4aJtc"
   ],
   "releases": [
    "week:2026-W39",
@@ -1667,22 +1678,22 @@
    "day:2026-10-27:2223980",
    "day:2026-10-27:x-revenge-of-gator",
    "day:2026-10-27:x-s-ance-of-blake-manor",
-   "day:2026-10-27:x-avenging-spirit"
+   "day:2026-10-27:x-avenging-spirit",
+   "day:2026-10-28:4115450",
+   "day:2026-10-28:4348910"
   ],
   "gotd": [
    "gotd:2026-09-24"
   ]
  },
  "matchPings": [
-  "2026-10-25T00:14+03:00",
-  "2026-10-25T00:14+03:00",
-  "2026-10-25T02:47+03:00",
   "2026-10-26T00:17+03:00",
   "2026-10-26T00:17+03:00",
   "2026-10-26T12:08+03:00",
   "2026-10-27T00:06+03:00",
   "2026-10-27T00:06+03:00",
-  "2026-10-27T00:06+03:00"
+  "2026-10-27T00:06+03:00",
+  "2026-10-28T00:16+03:00"
  ],
  "weekly": {
   "gamenight": {
@@ -1704,9 +1715,9 @@
   }
  },
  "dealPosts": [
-  "2026-10-25T23:59+03:00",
   "2026-10-27T00:06+03:00",
   "2026-10-27T04:32+03:00",
-  "2026-10-27T11:02+03:00"
+  "2026-10-27T11:02+03:00",
+  "2026-10-28T00:16+03:00"
  ]
 }
