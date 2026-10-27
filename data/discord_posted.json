@@ -1,18 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-10-27T00:06:51+03:00",
+ "updatedAt": "2026-10-27T04:32:49+03:00",
  "posted": {
   "news": [
-   "c2924300359e",
-   "1cfb7b83cf5b",
-   "676da1519edb",
-   "ad25bf06c269",
-   "6d99ecdd1f86",
-   "a9badd2e5f7d",
-   "946350720c31",
-   "3466c3ccb00c",
-   "2d476a383ad2",
-   "da228b59af25",
    "d930d0206f3e",
    "f49294cd06bc",
    "67bb410e602e",
@@ -502,7 +492,17 @@
    "2dfd012e70e6",
    "2005c5f9d2a8",
    "ae65d110311c",
-   "b6060327f107"
+   "b6060327f107",
+   "0e1996f2cbb8",
+   "9bc370426032",
+   "c1599440d413",
+   "81f7d4b1cc98",
+   "251a5abb616b",
+   "871cedbcc6f5",
+   "f8e29a2779e5",
+   "54094c460d46",
+   "f13c3a0fcfba",
+   "cecf6155e49a"
   ],
   "deals": [
    "steam-246420:90",
@@ -587,7 +587,8 @@
    "steam-245390:85",
    "steam-221100:50",
    "steam-1643310:50",
-   "steam-238320:90"
+   "steam-238320:90",
+   "steam-5024:89"
   ],
   "freebies": [
    "epic-7ae00c3e89174012b175cc73b4737723:soon",
@@ -1057,7 +1058,11 @@
    "result:bo3-132283",
    "result:bo3-132238",
    "result:bo3-130815",
-   "result:bo3-132158"
+   "result:bo3-132158",
+   "result:bo3-130816",
+   "result:bo3-132157",
+   "result:bo3-132284",
+   "result:bo3-130817"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -1094,9 +1099,6 @@
    "cs2:2026-10-23"
   ],
   "videos": [
-   "DwpvyqXFffA",
-   "reWC_jQ2FMY",
-   "x9al9bqwFNI",
    "9eWOGUrXmBg",
    "WU450XCajms",
    "tkfL2TsqL0g",
@@ -1593,7 +1595,10 @@
    "eCLWuau_k8c",
    "6QPRMl0Scoc",
    "cmct78Iytg8",
-   "aLB8lJBsnxw"
+   "aLB8lJBsnxw",
+   "a8PBJKGm3GM",
+   "xKkrdVvSWA8",
+   "qqUH5vOSZys"
   ],
   "releases": [
    "week:2026-W39",
@@ -1699,6 +1704,7 @@
  },
  "dealPosts": [
   "2026-10-25T23:59+03:00",
-  "2026-10-27T00:06+03:00"
+  "2026-10-27T00:06+03:00",
+  "2026-10-27T04:32+03:00"
  ]
 }
