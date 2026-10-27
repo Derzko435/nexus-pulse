@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-27T00:06:18+03:00",
+  "updatedAt": "2026-10-27T04:32:20+03:00",
   "source": "steam-store-appdetails",
-  "count": 38,
+  "count": 39,
   "apps": [
     {
       "appid": "730",
       "name": "Counter-Strike 2",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/162664aa5da85f418105350c5d67ca565f6c3713/header.jpg?t=1791824795",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/162664aa5da85f418105350c5d67ca565f6c3713/header.jpg?t=1793054556",
       "genres": [
         "Экшены",
         "Бесплатные"
@@ -468,97 +468,48 @@
       "short_description": "The Walking Dead: The Telltale Definitive Series содержит все четыре сезона, дополнение 400 Days и The Walking Dead: Michonne — всего 23 уникальных эпизода, которые подарят игрокам более 50 часов игры."
     },
     {
-      "appid": "245390",
-      "name": "I Have No Mouth, and I Must Scream",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/245390/header.jpg?t=1773355242",
-      "genres": [
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "The adventure plunges you into the tortured and hidden past of five humans. Delve into their darkest fears. Outwit the Master Computer AM in a game of psychological warfare. Disturbing, compelling. An adventure you won't easily forget !!"
-    },
-    {
-      "appid": "1943730",
-      "name": "Wicked Island",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943730/b2a1dbcf11a34b1f8e04fe1737db0ca06eecd11c/header.jpg?t=1782299299",
-      "genres": [
-        "Ролевые игры",
-        "Ранний доступ"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Выживайте в суровом, манящем открытом мире этой survival RPG 18+. Создавайте снаряжение, стройте дом, настраивайте персонажа и управляйте драконами! Исследуйте подземелья и сражайтесь с монстрами. Побеждайте или поддайтесь желаниям с системой сексуального поражения и беременности."
-    },
-    {
-      "appid": "3024130",
-      "name": "PAO PAO",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3024130/8d729d070576d199d119bff0de78022bb4151404/header.jpg?t=1793023708",
-      "genres": [
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы",
-        "Ранний доступ"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Добро пожаловать в PAO PAO, уютный городок у моря, где каждый день наполнен маленькими радостями. Играйте в одиночку или вместе с друзьями в кооперативе до 4 игроков: готовьте вкусные блюда, рыбачьте, выращивайте урожай и создавайте свой уютный дом у моря."
-    },
-    {
-      "appid": "5385170",
-      "name": "ByeByeObake!",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5385170/64f3dc5a737214f9df4ba225f998c4332ecc5dfc/header.jpg?t=1793008534",
+      "appid": "238320",
+      "name": "Outlast",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238320/header.jpg?t=1666817106",
       "genres": [
         "Экшены",
+        "Приключенческие игры",
         "Инди"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
-        "linux": false
+        "mac": true,
+        "linux": true
       },
-      "metacritic": null,
-      "short_description": "“Those who can see can’t shoot. Those who can shoot can’t see!” An asymmetric online co-op action game for 2–8 players. Exorcists and Spirit Companions call out to banish the evil spirits you can’t see. Friendly fire included: yes, you can exorcise your teammates too."
+      "metacritic": 80,
+      "short_description": "Hell is an experiment you can't survive in Outlast, a first-person survival horror game developed by veterans of some of the biggest game franchises in history. As investigative journalist Miles Upshur, explore Mount Massive Asylum and try to survive long enough to discover its terrible secret... if you dare."
     },
     {
-      "appid": "5000550",
-      "name": "Nitro Nonsense",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5000550/0f79a4ddfa404701a8eabd9973f4037f3a9aee6c/header.jpg?t=1793041448",
+      "appid": "242760",
+      "name": "The Forest",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg?t=1699381053",
       "genres": [
-        "Казуальные игры",
+        "Экшены",
+        "Приключенческие игры",
         "Инди",
-        "Гонки"
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
-        "linux": true
+        "mac": false,
+        "linux": false
       },
-      "metacritic": null,
-      "short_description": "A chaotic party racer for 1, 2, 4, 8, or up to 16 players, locally or online! Race in split-screen or share a top-down view, build custom tracks, and fill them with traps and obstacles when you win. If you lose, don’t worry: you get to upgrade your car and come back stronger for the next round!"
+      "metacritic": 83,
+      "short_description": "As the lone survivor of a passenger jet crash, you find yourself in a mysterious forest battling to stay alive against a society of cannibalistic mutants. Build, explore, survive in this terrifying first person survival horror simulator."
     },
     {
-      "appid": "3892270",
-      "name": "Казино с друзьями",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/395e6d7972474333a698b26f8aa5597bf38109a1/header.jpg?t=1793026661",
+      "appid": "1326470",
+      "name": "Sons Of The Forest",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg?t=1708624856",
       "genres": [
+        "Экшены",
         "Приключенческие игры",
         "Инди",
         "Симуляторы"
@@ -570,33 +521,68 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Кооперативная игра про исследование казино для 1–6 человек. У вас с друзьями один банковский счёт и огромный долг на всех: играйте, покупайте предметы и делайте глупости на пути к вершине башни казино. Накопите на квоту для ростовщика за 5 минут или пожалеете..."
+      "short_description": "Sent to find a missing billionaire on a remote island, you find yourself in a cannibal-infested hellscape. Craft, build, and struggle to survive, alone or with friends, in this terrifying new open-world survival horror simulator."
     },
     {
-      "appid": "1737870",
-      "name": "REKA",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1737870/d8ea454a870af3d14aa41fbb58356185c9a7d29b/header_alt_assets_5.jpg?t=1793012900",
+      "appid": "1643310",
+      "name": "Dungeons 4",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643310/header.jpg?t=1786957609",
       "genres": [
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Абсолютное Зло и верная *кхм* ему темная эльфийка Талия возвращаются в Dungeons 4 после легендарных событий предыдущей части. Они готовы вновь одержать победу над силами добра."
+    },
+    {
+      "appid": "221100",
+      "name": "DayZ",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/header.jpg?t=1792059745",
+      "genres": [
+        "Экшены",
         "Приключенческие игры",
-        "Казуальные игры",
+        "Многопользовательские игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Как долго вы сможете выжить в пост-апокалипсисе? Мир пал под натиском зараженных. Боритесь против других выживших за ограниченные ресурсы. Сможете ли вы работать сообща с незнакомцами? Или же станете волком-одиночкой? Это ваша история, это DayZ."
+    },
+    {
+      "appid": "252490",
+      "name": "Rust",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1781536981",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
         "Инди",
+        "Многопользовательские игры",
         "Ролевые игры"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
+        "mac": true,
         "linux": false
       },
-      "metacritic": null,
-      "short_description": "Окунитесь в уютный мир колдовства, навеянный славянским фольклором. Стройте и изменяйте под себя избушку на курьих ножках, а затем отправляйтесь в путешествие по туманной осенней чаще. Помогайте местным, приручайте лесных зверей и обучайтесь доброй магии у самой Бабы Яги."
+      "metacritic": 69,
+      "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
-      "appid": "4742590",
-      "name": "Giraffe Champion 3: Halloween Party & The Ghost Guitar",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4742590/b90e353556938e51ce6684919e5681b6b5f8984a/header.jpg?t=1793022274",
+      "appid": "5394900",
+      "name": "Halloween Shop Simulator",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5394900/a038c7c1d4c027fe82359e56c671ab52d3a30856/header.jpg?t=1793039302",
       "genres": [
-        "Экшены",
         "Казуальные игры",
         "Инди",
         "Симуляторы"
@@ -608,51 +594,15 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Play rock and metal songs and compete against zombies, witches, ghosts in the guitar battle to get all your guitars back. You are going to perform at a Halloween party but zombies have stolen all your guitars. Collect all the guitars before the Halloween party starts!"
+      "short_description": "Управляйте магазином к Хэллоуину в городе, полном монстров. Обставьте свой дом, заведите странного питомца, исследуйте улицы и откройте ночную жизнь, полную тайн, контрабандистов и жутких сюрпризов."
     },
     {
-      "appid": "4466850",
-      "name": "Where is My Pet?",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4466850/1d614c08652bde459d4214c7df4f0fc9a105c855/header.jpg?t=1793009680",
-      "genres": [
-        "Казуальные игры",
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Where is My Pet? — игра про поиск предметов, сортировку и животных! Управляйте приютом: размещайте зверей, отдавайте их в добрые руки, улучшайте здания, стройте дом мечты и ищите питомцев в городе. Сможете ли вы превратить скромный питомник в прибыльный бизнес?"
-    },
-    {
-      "appid": "1932910",
-      "name": "Cardopolis",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1932910/99c5cd42ec4b5fdb5e3c7de5ebcb47e7d5f6a3fd/header.jpg?t=1793009688",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Cardopolis — карточный градостроительный симулятор, где вы становитесь мэром. Стройте карту за картой, закон за законом и сектор за сектором, вовремя выполняя цели инвесторов по населению!"
-    },
-    {
-      "appid": "4389980",
-      "name": "10 Hours Before Sunrise",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4389980/0c9fb8afea15c2b630aca96f3840e52a15bd2e2a/header.jpg?t=1793012488",
+      "appid": "5251530",
+      "name": "The Roc",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5251530/fa9f5ff3a65d9d015a5d7373a87987ae957c181e/header.jpg?t=1793042168",
       "genres": [
         "Экшены",
+        "Приключенческие игры",
         "Инди"
       ],
       "is_free": false,
@@ -662,15 +612,31 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Жестокий 8-битный боомер-шутер, вдохновлённый лучшим трэш-хоррором 80-х. Вы — Самуэль Альварес, сломленный человек, который находит хижину хуже любого кошмара. Переживите ночь и столкнитесь с силами Вендакора — или не увидите рассвет."
+      "short_description": "Venture into the dark realm of the legendary Roc, Run from cover to cover, Be wary of wild beasts and supernatural terrors and use your hand cannon if you have to, Find all ancient tablets and put an end to the Roc's Tyranny."
     },
     {
-      "appid": "5236110",
-      "name": "Teleport Master",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5236110/96d6e31b41ef998c61595ad2b74b8437619be595/header.jpg?t=1793008448",
+      "appid": "4831660",
+      "name": "Silver Valley Screams",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4831660/0837ce9ba590f3fe4fef99e4f248e1ba3168ce0d/header.jpg?t=1793041275",
       "genres": [
         "Экшены",
         "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Silver Valley may be full of dark corners, but your stomach won't fill itself. The year is 1975, and your father's disappearance is just the latest in a long string. Arm yourself if you plan to venture forth, find your father, and uncover the truth."
+    },
+    {
+      "appid": "3760770",
+      "name": "Space Savory",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3760770/f773d11996ef2bd826e1cb77079c585b7ac3b9a0/header.jpg?t=1793037643",
+      "genres": [
         "Казуальные игры",
         "Инди",
         "Симуляторы"
@@ -682,7 +648,58 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Teleport Master is a first-person puzzle adventure where you create portals to move through space, reach impossible places, and solve clever environmental challenges. Explore stylized sci-fi levels, experiment with movement, and find your way forward."
+      "short_description": "Недалеко в одной галактике... Закусочная с сомнительной гигиеной, полная тёмных секретов и чёрного юмора, в самом центре космической пустоты. Добро пожаловать в Space Savory. Не дайте внешности обмануть вас — лучший вкус во Вселенной готовится именно здесь. (Только в наблюдаемой части.)"
+    },
+    {
+      "appid": "3460540",
+      "name": "Cardtographer",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3460540/85336a2b659dfef0ea72c32450c2730b2b9225dd/header.jpg?t=1793036876",
+      "genres": [
+        "Инди",
+        "Ролевые игры",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Evil has returned! Complete the card collection to seal it away! Build synergistic decks for tactical battles. Survive procedurally generated roguelike runs—solo or in co-op—with danger lurking around every corner. Carve your path and become the cardtographer!"
+    },
+    {
+      "appid": "5282100",
+      "name": "Sonus",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5282100/128a7736caf84e2c91f9802b60aaba2e5b153a55/header.jpg?t=1793039156",
+      "genres": [
+        "Казуальные игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Seek the Sonus Stone while hiding from the Stone Keepers that lurk in the dark. Use echoes to navigate through the dark world, and use special echoes to give you an advantage with their unique abilities."
+    },
+    {
+      "appid": "2887580",
+      "name": "Active Matter",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2887580/191801a8de4db48075ef195473a922391cb4c6de/header.jpg?t=1793032833",
+      "genres": [
+        "Экшены",
+        "Многопользовательские игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Присоединяйтесь к рейдам за добычей или PvP-сражениям в этом новом реалистичном военном шутере, в мире расколотой мультивселенной. Сражайтесь в квантово-нестабильных зонах за контроль над активной материей — веществом, искривляющим время и пространство."
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T00:06:23+03:00",
+  "updatedAt": "2026-10-27T04:32:26+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -23,14 +23,14 @@
       "steamAppId": "238320"
     },
     {
-      "id": "steam-242760",
-      "title": "The Forest",
+      "id": "steam-5024",
+      "title": "Outlast Trinity",
       "store": "Steam",
-      "old": 435,
-      "neu": 87,
-      "pct": 80,
-      "url": "https://store.steampowered.com/app/242760/",
-      "steamAppId": "242760"
+      "old": 1460,
+      "neu": 133,
+      "pct": 89,
+      "url": "https://store.steampowered.com/app/5024/",
+      "steamAppId": "5024"
     },
     {
       "id": "steam-1326470",
@@ -73,6 +73,26 @@
       "steamAppId": "252490"
     },
     {
+      "id": "steam-251570",
+      "title": "7 Days to Die",
+      "store": "Steam",
+      "old": 1500,
+      "neu": 825,
+      "pct": 45,
+      "url": "https://store.steampowered.com/app/251570/",
+      "steamAppId": "251570"
+    },
+    {
+      "id": "steam-4209630",
+      "title": "ELbab",
+      "store": "Steam",
+      "old": 280,
+      "neu": 168,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/4209630/",
+      "steamAppId": "4209630"
+    },
+    {
       "id": "steam-5394900",
       "title": "Halloween Shop Simulator",
       "store": "Steam",
@@ -81,6 +101,26 @@
       "pct": 38,
       "url": "https://store.steampowered.com/app/5394900/",
       "steamAppId": "5394900"
+    },
+    {
+      "id": "steam-5290220",
+      "title": "Capsule Arcade",
+      "store": "Steam",
+      "old": 240,
+      "neu": 156,
+      "pct": 35,
+      "url": "https://store.steampowered.com/app/5290220/",
+      "steamAppId": "5290220"
+    },
+    {
+      "id": "steam-5399870",
+      "title": "Idle Hoops",
+      "store": "Steam",
+      "old": 385,
+      "neu": 269,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5399870/",
+      "steamAppId": "5399870"
     },
     {
       "id": "steam-5251530",
@@ -101,46 +141,6 @@
       "pct": 25,
       "url": "https://store.steampowered.com/app/4831660/",
       "steamAppId": "4831660"
-    },
-    {
-      "id": "steam-3760770",
-      "title": "Space Savory",
-      "store": "Steam",
-      "old": 465,
-      "neu": 348,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/3760770/",
-      "steamAppId": "3760770"
-    },
-    {
-      "id": "steam-3460540",
-      "title": "Cardtographer",
-      "store": "Steam",
-      "old": 445,
-      "neu": 333,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/3460540/",
-      "steamAppId": "3460540"
-    },
-    {
-      "id": "steam-5282100",
-      "title": "Sonus",
-      "store": "Steam",
-      "old": 385,
-      "neu": 288,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5282100/",
-      "steamAppId": "5282100"
-    },
-    {
-      "id": "steam-2887580",
-      "title": "Active Matter",
-      "store": "Steam",
-      "old": 1499,
-      "neu": 1199,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/2887580/",
-      "steamAppId": "2887580"
     }
   ]
 }
