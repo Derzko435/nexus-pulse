@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T11:02:36+03:00",
+  "updatedAt": "2026-10-27T17:40:55+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -53,16 +53,6 @@
       "steamAppId": "242760"
     },
     {
-      "id": "steam-264710",
-      "title": "Subnautica",
-      "store": "Steam",
-      "old": 1800,
-      "neu": 450,
-      "pct": 75,
-      "url": "https://store.steampowered.com/app/264710/",
-      "steamAppId": "264710"
-    },
-    {
       "id": "steam-1326470",
       "title": "Sons Of The Forest",
       "store": "Steam",
@@ -103,34 +93,34 @@
       "steamAppId": "252490"
     },
     {
-      "id": "steam-5367510",
-      "title": "RETROPULSE Halloween",
+      "id": "steam-4931550",
+      "title": "MOGUMOGU! POOP BATTLE",
       "store": "Steam",
-      "old": 150,
-      "neu": 90,
+      "old": 64,
+      "neu": 38,
+      "pct": 41,
+      "url": "https://store.steampowered.com/app/4931550/",
+      "steamAppId": "4931550"
+    },
+    {
+      "id": "steam-5049810",
+      "title": "Animal Mystery: 100 Hidden Cats",
+      "store": "Steam",
+      "old": 51,
+      "neu": 30,
+      "pct": 41,
+      "url": "https://store.steampowered.com/app/5049810/",
+      "steamAppId": "5049810"
+    },
+    {
+      "id": "steam-5121070",
+      "title": "Circle to another motion",
+      "store": "Steam",
+      "old": 200,
+      "neu": 120,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5367510/",
-      "steamAppId": "5367510"
-    },
-    {
-      "id": "steam-5044360",
-      "title": "Scuttled",
-      "store": "Steam",
-      "old": 335,
-      "neu": 251,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5044360/",
-      "steamAppId": "5044360"
-    },
-    {
-      "id": "steam-5032330",
-      "title": "Zombie Cropse",
-      "store": "Steam",
-      "old": 240,
-      "neu": 180,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5032330/",
-      "steamAppId": "5032330"
+      "url": "https://store.steampowered.com/app/5121070/",
+      "steamAppId": "5121070"
     },
     {
       "id": "steam-2887580",
@@ -141,6 +131,16 @@
       "pct": 20,
       "url": "https://store.steampowered.com/app/2887580/",
       "steamAppId": "2887580"
+    },
+    {
+      "id": "steam-2774040",
+      "title": "The Boss Gangster: Criminal Empire",
+      "store": "Steam",
+      "old": 680,
+      "neu": 544,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/2774040/",
+      "steamAppId": "2774040"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T11:02:31+03:00",
+  "updatedAt": "2026-10-27T17:40:50+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -468,6 +468,24 @@
       "short_description": "The Walking Dead: The Telltale Definitive Series содержит все четыре сезона, дополнение 400 Days и The Walking Dead: Michonne — всего 23 уникальных эпизода, которые подарят игрокам более 50 часов игры."
     },
     {
+      "appid": "414700",
+      "name": "Outlast 2",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/414700/header.jpg?t=1618944453",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 75,
+      "short_description": "Outlast 2 представляет вашему вниманию Sullivan Knoth и его последователей, которые оставили наш грешный мир позади, чтобы положить начало Вратам Храма, -городу, скрытому от цивилизации, в далекой глуши. Knoth и его группа, готовятся к испытаниям конца света, и вы находитесь прямов центре этих событий."
+    },
+    {
       "appid": "238320",
       "name": "Outlast",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238320/header.jpg?t=1666817106",
@@ -502,6 +520,42 @@
       "curated": true
     },
     {
+      "appid": "242760",
+      "name": "The Forest",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg?t=1699381053",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 83,
+      "short_description": "As the lone survivor of a passenger jet crash, you find yourself in a mysterious forest battling to stay alive against a society of cannibalistic mutants. Build, explore, survive in this terrifying first person survival horror simulator."
+    },
+    {
+      "appid": "264710",
+      "name": "Subnautica",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/header.jpg?t=1777456112",
+      "genres": [
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": 87,
+      "short_description": "Descend into the depths of an alien underwater world filled with wonder and peril. Craft equipment, pilot submarines and out-smart wildlife to explore lush coral reefs, volcanoes, cave systems, and more - all while trying to survive."
+    },
+    {
       "appid": "1326470",
       "name": "Sons Of The Forest",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg?t=1708624856",
@@ -521,6 +575,24 @@
       "short_description": "Sent to find a missing billionaire on a remote island, you find yourself in a cannibal-infested hellscape. Craft, build, and struggle to survive, alone or with friends, in this terrifying new open-world survival horror simulator."
     },
     {
+      "appid": "1304930",
+      "name": "The Outlast Trials",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/e3b17cf268afa51334b63124a2fe0aef3f1d136b/header_alt_assets_4.jpg?t=1792554994",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Red Barrels invites you to experience mind-numbing terror, this time with friends. Whether you go through the trials alone or in teams, if you survive long enough and complete the therapy, Murkoff will happily let you leave… but will you be the same?"
+    },
+    {
       "appid": "1643310",
       "name": "Dungeons 4",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643310/header.jpg?t=1786957609",
@@ -536,24 +608,6 @@
       },
       "metacritic": null,
       "short_description": "Абсолютное Зло и верная *кхм* ему темная эльфийка Талия возвращаются в Dungeons 4 после легендарных событий предыдущей части. Они готовы вновь одержать победу над силами добра."
-    },
-    {
-      "appid": "221100",
-      "name": "DayZ",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/header.jpg?t=1792059745",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Многопользовательские игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Как долго вы сможете выжить в пост-апокалипсисе? Мир пал под натиском зараженных. Боритесь против других выживших за ограниченные ресурсы. Сможете ли вы работать сообща с незнакомцами? Или же станете волком-одиночкой? Это ваша история, это DayZ."
     },
     {
       "appid": "252490",
@@ -576,16 +630,12 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
-      "appid": "251570",
-      "name": "7 Days to Die",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/251570/header.jpg?t=1793041682",
+      "appid": "5367510",
+      "name": "RETROPULSE Halloween",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5367510/5263df4f98fd4b78df7d6a0733a28deb2c386588/header.jpg?t=1793086227",
       "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Ролевые игры",
-        "Симуляторы",
-        "Стратегии"
+        "Казуальные игры",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -594,71 +644,48 @@
         "linux": true
       },
       "metacritic": null,
-      "short_description": "7 Days to Die — это единственная в своем роде игра с открытым миром, сочетающая в себе элементы шутера от первого лица, хоррора на выживание, защиты замка и ролевой игры. Приобретите изменившую жанр RPG-песочницу с выживанием среди зомби, которая задала тон другим похожим играм. Вас ждет Невезган!"
+      "short_description": "RETROPULSE Halloween is an atmospheric neon puzzle game in a Halloween RETROWAVE style, where vibrant lines, retro anime, spooky neon nights, and '80s aesthetics merge into one digital world. Connect matching colored dots, create neon waves, and unlock colorful Halloween-inspired illustrations."
     },
     {
-      "appid": "4209630",
-      "name": "ELbab",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209630/bace802cf4e227a6adf41470875cd4d654191585/header.jpg?t=1793056663",
+      "appid": "5044360",
+      "name": "Scuttled",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5044360/e15fc517ecc81c22ce60e124c1420e828d9afa4b/header.jpg?t=1793067318",
       "genres": [
         "Инди",
-        "Ролевые игры",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "ELbab is a pixel-art roguelite set in an endless library. Choose tiles to progress through dungeon-like paths and enjoy a build-crafting experience similar to ARPG planning tools. All battles are automated, letting you relax with coffee, videos, or even other games while refining your build."
-    },
-    {
-      "appid": "5394900",
-      "name": "Halloween Shop Simulator",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5394900/a038c7c1d4c027fe82359e56c671ab52d3a30856/header.jpg?t=1793039302",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Управляйте магазином к Хэллоуину в городе, полном монстров. Обставьте свой дом, заведите странного питомца, исследуйте улицы и откройте ночную жизнь, полную тайн, контрабандистов и жутких сюрпризов."
-    },
-    {
-      "appid": "5290220",
-      "name": "Capsule Arcade",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5290220/eefbd9a4f3fb518bb7c9b1542477844d30d833a0/header.jpg?t=1793038651",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Уютная игра про уборку от первого лица в неоновом зале капсульных игрушек. Открывайте капсулы, расставляйте 216 милых фигурок по витринам и возвращайте к жизни шесть погасших этажей зала Хосидзора — автомат за автоматом."
-    },
-    {
-      "appid": "5399870",
-      "name": "Idle Hoops",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5399870/17508b49a1b555fb0b9df70ec2fbf1613c96ea1c/header.jpg?t=1793055724",
-      "genres": [
-        "Казуальные игры",
-        "Симуляторы",
-        "Спорт",
         "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Your ship is gone. The derelict freighter you found was scuttled by her own crew - but her reactor is still warm. Shoot asteroids, refine ore, and rebuild her gun by gun to escape an asteroid belt that hunts the powered. A finite tower-defense / incremental crafting hybrid with an actual ending."
+    },
+    {
+      "appid": "5032330",
+      "name": "Zombie Cropse",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5032330/2e544187865270e4395b38f263633b71e6e6bc22/header.jpg?t=1793067801",
+      "genres": [
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Zombie Cropse is a cozy gothic idle management game where you plant zombie seeds to grow zombies, automate your graveyard, and raid the living. Build your horde, conquer a branching campaign, and ascend to begin again with permanent power."
+    },
+    {
+      "appid": "2887580",
+      "name": "Active Matter",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2887580/191801a8de4db48075ef195473a922391cb4c6de/header.jpg?t=1793032833",
+      "genres": [
+        "Экшены",
+        "Многопользовательские игры"
       ],
       "is_free": false,
       "platforms": {
@@ -667,43 +694,7 @@
         "linux": true
       },
       "metacritic": null,
-      "short_description": "Инкрементальная idle-игра про баскетбол. Бросайте мяч, соберите состав, который заканчивается настоящим козлом, и пусть команда набирает очки, пока вас нет. Выигрывайте чемпионаты, вешайте свой номер под свод и пройдите путь от дворовой дорожки до площадки в космосе."
-    },
-    {
-      "appid": "5251530",
-      "name": "The Roc",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5251530/fa9f5ff3a65d9d015a5d7373a87987ae957c181e/header.jpg?t=1793042168",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Venture into the dark realm of the legendary Roc, Run from cover to cover, Be wary of wild beasts and supernatural terrors and use your hand cannon if you have to, Find all ancient tablets and put an end to the Roc's Tyranny."
-    },
-    {
-      "appid": "4831660",
-      "name": "Silver Valley Screams",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4831660/0837ce9ba590f3fe4fef99e4f248e1ba3168ce0d/header.jpg?t=1793041275",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Silver Valley may be full of dark corners, but your stomach won't fill itself. The year is 1975, and your father's disappearance is just the latest in a long string. Arm yourself if you plan to venture forth, find your father, and uncover the truth."
+      "short_description": "Присоединяйтесь к рейдам за добычей или PvP-сражениям в этом новом реалистичном военном шутере, в мире расколотой мультивселенной. Сражайтесь в квантово-нестабильных зонах за контроль над активной материей — веществом, искривляющим время и пространство."
     }
   ]
 }
