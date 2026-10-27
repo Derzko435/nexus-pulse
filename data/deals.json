@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T04:32:26+03:00",
+  "updatedAt": "2026-10-27T11:02:36+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -11,6 +11,16 @@
       "pct": 90,
       "url": "https://store.steampowered.com/app/1449690/",
       "steamAppId": "1449690"
+    },
+    {
+      "id": "steam-414700",
+      "title": "Outlast 2",
+      "store": "Steam",
+      "old": 710,
+      "neu": 71,
+      "pct": 90,
+      "url": "https://store.steampowered.com/app/414700/",
+      "steamAppId": "414700"
     },
     {
       "id": "steam-238320",
@@ -33,6 +43,26 @@
       "steamAppId": "5024"
     },
     {
+      "id": "steam-242760",
+      "title": "The Forest",
+      "store": "Steam",
+      "old": 435,
+      "neu": 87,
+      "pct": 80,
+      "url": "https://store.steampowered.com/app/242760/",
+      "steamAppId": "242760"
+    },
+    {
+      "id": "steam-264710",
+      "title": "Subnautica",
+      "store": "Steam",
+      "old": 1800,
+      "neu": 450,
+      "pct": 75,
+      "url": "https://store.steampowered.com/app/264710/",
+      "steamAppId": "264710"
+    },
+    {
       "id": "steam-1326470",
       "title": "Sons Of The Forest",
       "store": "Steam",
@@ -41,6 +71,16 @@
       "pct": 72,
       "url": "https://store.steampowered.com/app/1326470/",
       "steamAppId": "1326470"
+    },
+    {
+      "id": "steam-1304930",
+      "title": "The Outlast Trials",
+      "store": "Steam",
+      "old": 1300,
+      "neu": 390,
+      "pct": 70,
+      "url": "https://store.steampowered.com/app/1304930/",
+      "steamAppId": "1304930"
     },
     {
       "id": "steam-1643310",
@@ -53,16 +93,6 @@
       "steamAppId": "1643310"
     },
     {
-      "id": "steam-221100",
-      "title": "DayZ",
-      "store": "Steam",
-      "old": 2790,
-      "neu": 1395,
-      "pct": 50,
-      "url": "https://store.steampowered.com/app/221100/",
-      "steamAppId": "221100"
-    },
-    {
       "id": "steam-252490",
       "title": "Rust",
       "store": "Steam",
@@ -73,74 +103,44 @@
       "steamAppId": "252490"
     },
     {
-      "id": "steam-251570",
-      "title": "7 Days to Die",
+      "id": "steam-5367510",
+      "title": "RETROPULSE Halloween",
       "store": "Steam",
-      "old": 1500,
-      "neu": 825,
-      "pct": 45,
-      "url": "https://store.steampowered.com/app/251570/",
-      "steamAppId": "251570"
-    },
-    {
-      "id": "steam-4209630",
-      "title": "ELbab",
-      "store": "Steam",
-      "old": 280,
-      "neu": 168,
+      "old": 150,
+      "neu": 90,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/4209630/",
-      "steamAppId": "4209630"
+      "url": "https://store.steampowered.com/app/5367510/",
+      "steamAppId": "5367510"
     },
     {
-      "id": "steam-5394900",
-      "title": "Halloween Shop Simulator",
+      "id": "steam-5044360",
+      "title": "Scuttled",
       "store": "Steam",
-      "old": 320,
-      "neu": 198,
-      "pct": 38,
-      "url": "https://store.steampowered.com/app/5394900/",
-      "steamAppId": "5394900"
+      "old": 335,
+      "neu": 251,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/5044360/",
+      "steamAppId": "5044360"
     },
     {
-      "id": "steam-5290220",
-      "title": "Capsule Arcade",
+      "id": "steam-5032330",
+      "title": "Zombie Cropse",
       "store": "Steam",
       "old": 240,
-      "neu": 156,
-      "pct": 35,
-      "url": "https://store.steampowered.com/app/5290220/",
-      "steamAppId": "5290220"
-    },
-    {
-      "id": "steam-5399870",
-      "title": "Idle Hoops",
-      "store": "Steam",
-      "old": 385,
-      "neu": 269,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/5399870/",
-      "steamAppId": "5399870"
-    },
-    {
-      "id": "steam-5251530",
-      "title": "The Roc",
-      "store": "Steam",
-      "old": 290,
-      "neu": 203,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/5251530/",
-      "steamAppId": "5251530"
-    },
-    {
-      "id": "steam-4831660",
-      "title": "Silver Valley Screams",
-      "store": "Steam",
-      "old": 855,
-      "neu": 641,
+      "neu": 180,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/4831660/",
-      "steamAppId": "4831660"
+      "url": "https://store.steampowered.com/app/5032330/",
+      "steamAppId": "5032330"
+    },
+    {
+      "id": "steam-2887580",
+      "title": "Active Matter",
+      "store": "Steam",
+      "old": 1499,
+      "neu": 1199,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/2887580/",
+      "steamAppId": "2887580"
     }
   ]
 }

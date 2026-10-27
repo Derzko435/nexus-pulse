@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T04:32:20+03:00",
+  "updatedAt": "2026-10-27T11:02:31+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -486,23 +486,20 @@
       "short_description": "Hell is an experiment you can't survive in Outlast, a first-person survival horror game developed by veterans of some of the biggest game franchises in history. As investigative journalist Miles Upshur, explore Mount Massive Asylum and try to survive long enough to discover its terrible secret... if you dare."
     },
     {
-      "appid": "242760",
-      "name": "The Forest",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg?t=1699381053",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы"
-      ],
+      "appid": "5024",
+      "name": "Steam App 5024",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/5024/header.jpg",
+      "genres": [],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
         "linux": false
       },
-      "metacritic": 83,
-      "short_description": "As the lone survivor of a passenger jet crash, you find yourself in a mysterious forest battling to stay alive against a society of cannibalistic mutants. Build, explore, survive in this terrifying first person survival horror simulator."
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
     },
     {
       "appid": "1326470",
@@ -579,6 +576,45 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
+      "appid": "251570",
+      "name": "7 Days to Die",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/251570/header.jpg?t=1793041682",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "7 Days to Die — это единственная в своем роде игра с открытым миром, сочетающая в себе элементы шутера от первого лица, хоррора на выживание, защиты замка и ролевой игры. Приобретите изменившую жанр RPG-песочницу с выживанием среди зомби, которая задала тон другим похожим играм. Вас ждет Невезган!"
+    },
+    {
+      "appid": "4209630",
+      "name": "ELbab",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209630/bace802cf4e227a6adf41470875cd4d654191585/header.jpg?t=1793056663",
+      "genres": [
+        "Инди",
+        "Ролевые игры",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "ELbab is a pixel-art roguelite set in an endless library. Choose tiles to progress through dungeon-like paths and enjoy a build-crafting experience similar to ARPG planning tools. All battles are automated, letting you relax with coffee, videos, or even other games while refining your build."
+    },
+    {
       "appid": "5394900",
       "name": "Halloween Shop Simulator",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5394900/a038c7c1d4c027fe82359e56c671ab52d3a30856/header.jpg?t=1793039302",
@@ -595,6 +631,43 @@
       },
       "metacritic": null,
       "short_description": "Управляйте магазином к Хэллоуину в городе, полном монстров. Обставьте свой дом, заведите странного питомца, исследуйте улицы и откройте ночную жизнь, полную тайн, контрабандистов и жутких сюрпризов."
+    },
+    {
+      "appid": "5290220",
+      "name": "Capsule Arcade",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5290220/eefbd9a4f3fb518bb7c9b1542477844d30d833a0/header.jpg?t=1793038651",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Уютная игра про уборку от первого лица в неоновом зале капсульных игрушек. Открывайте капсулы, расставляйте 216 милых фигурок по витринам и возвращайте к жизни шесть погасших этажей зала Хосидзора — автомат за автоматом."
+    },
+    {
+      "appid": "5399870",
+      "name": "Idle Hoops",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5399870/17508b49a1b555fb0b9df70ec2fbf1613c96ea1c/header.jpg?t=1793055724",
+      "genres": [
+        "Казуальные игры",
+        "Симуляторы",
+        "Спорт",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Инкрементальная idle-игра про баскетбол. Бросайте мяч, соберите состав, который заканчивается настоящим козлом, и пусть команда набирает очки, пока вас нет. Выигрывайте чемпионаты, вешайте свой номер под свод и пройдите путь от дворовой дорожки до площадки в космосе."
     },
     {
       "appid": "5251530",
@@ -631,75 +704,6 @@
       },
       "metacritic": null,
       "short_description": "Silver Valley may be full of dark corners, but your stomach won't fill itself. The year is 1975, and your father's disappearance is just the latest in a long string. Arm yourself if you plan to venture forth, find your father, and uncover the truth."
-    },
-    {
-      "appid": "3760770",
-      "name": "Space Savory",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3760770/f773d11996ef2bd826e1cb77079c585b7ac3b9a0/header.jpg?t=1793037643",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Недалеко в одной галактике... Закусочная с сомнительной гигиеной, полная тёмных секретов и чёрного юмора, в самом центре космической пустоты. Добро пожаловать в Space Savory. Не дайте внешности обмануть вас — лучший вкус во Вселенной готовится именно здесь. (Только в наблюдаемой части.)"
-    },
-    {
-      "appid": "3460540",
-      "name": "Cardtographer",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3460540/85336a2b659dfef0ea72c32450c2730b2b9225dd/header.jpg?t=1793036876",
-      "genres": [
-        "Инди",
-        "Ролевые игры",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Evil has returned! Complete the card collection to seal it away! Build synergistic decks for tactical battles. Survive procedurally generated roguelike runs—solo or in co-op—with danger lurking around every corner. Carve your path and become the cardtographer!"
-    },
-    {
-      "appid": "5282100",
-      "name": "Sonus",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5282100/128a7736caf84e2c91f9802b60aaba2e5b153a55/header.jpg?t=1793039156",
-      "genres": [
-        "Казуальные игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Seek the Sonus Stone while hiding from the Stone Keepers that lurk in the dark. Use echoes to navigate through the dark world, and use special echoes to give you an advantage with their unique abilities."
-    },
-    {
-      "appid": "2887580",
-      "name": "Active Matter",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2887580/191801a8de4db48075ef195473a922391cb4c6de/header.jpg?t=1793032833",
-      "genres": [
-        "Экшены",
-        "Многопользовательские игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Присоединяйтесь к рейдам за добычей или PvP-сражениям в этом новом реалистичном военном шутере, в мире расколотой мультивселенной. Сражайтесь в квантово-нестабильных зонах за контроль над активной материей — веществом, искривляющим время и пространство."
     }
   ]
 }
