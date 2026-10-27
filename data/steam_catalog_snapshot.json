@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T17:40:50+03:00",
+  "updatedAt": "2026-10-27T23:48:10+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -539,23 +539,6 @@
       "short_description": "As the lone survivor of a passenger jet crash, you find yourself in a mysterious forest battling to stay alive against a society of cannibalistic mutants. Build, explore, survive in this terrifying first person survival horror simulator."
     },
     {
-      "appid": "264710",
-      "name": "Subnautica",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/header.jpg?t=1777456112",
-      "genres": [
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": 87,
-      "short_description": "Descend into the depths of an alien underwater world filled with wonder and peril. Craft equipment, pilot submarines and out-smart wildlife to explore lush coral reefs, volcanoes, cave systems, and more - all while trying to survive."
-    },
-    {
       "appid": "1326470",
       "name": "Sons Of The Forest",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg?t=1708624856",
@@ -630,29 +613,13 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
-      "appid": "5367510",
-      "name": "RETROPULSE Halloween",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5367510/5263df4f98fd4b78df7d6a0733a28deb2c386588/header.jpg?t=1793086227",
+      "appid": "4931550",
+      "name": "MOGUMOGU! POOP BATTLE",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4931550/4820dc1407b454a28c4e6f0fb7d87f7f43b60458/header.jpg?t=1793092582",
       "genres": [
+        "Экшены",
         "Казуальные игры",
         "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "RETROPULSE Halloween is an atmospheric neon puzzle game in a Halloween RETROWAVE style, where vibrant lines, retro anime, spooky neon nights, and '80s aesthetics merge into one digital world. Connect matching colored dots, create neon waves, and unlock colorful Halloween-inspired illustrations."
-    },
-    {
-      "appid": "5044360",
-      "name": "Scuttled",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5044360/e15fc517ecc81c22ce60e124c1420e828d9afa4b/header.jpg?t=1793067318",
-      "genres": [
-        "Инди",
-        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
@@ -661,13 +628,33 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Your ship is gone. The derelict freighter you found was scuttled by her own crew - but her reactor is still warm. Shoot asteroids, refine ore, and rebuild her gun by gun to escape an asteroid belt that hunts the powered. A finite tower-defense / incremental crafting hybrid with an actual ending."
+      "short_description": "Управляй 🥕, собирай 🐰 и корми 🐺 вместе с напарником! Съеденные 🐰 превращаются в 💩... ЗАПУЛИ ИХ прямо во вражескую команду!! До 4 игроков, командные бои 2 на 2. Можно играть сольно или с друзьями!"
     },
     {
-      "appid": "5032330",
-      "name": "Zombie Cropse",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5032330/2e544187865270e4395b38f263633b71e6e6bc22/header.jpg?t=1793067801",
+      "appid": "5049810",
+      "name": "Animal Mystery: 100 Hidden Cats",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5049810/1cc54d0efe5345e9be57775b2ac229b1ab5171f9/header.jpg?t=1793097293",
       "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Animal Mystery: 100 Hidden Cats — это игра на поиск скрытых предметов, в которой ты соревнуешься со временем, чтобы найти 100 кошек, спрятанных в самых знаковых местах мира. Находи кошек, кликай внимательно и поднимись на вершину мирового рейтинга."
+    },
+    {
+      "appid": "5121070",
+      "name": "Circle to another motion",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5121070/9402dccc128fa84dfa012f2fa0cd6c37c50a232c/header.jpg?t=1793102442",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
         "Симуляторы"
       ],
       "is_free": false,
@@ -677,7 +664,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Zombie Cropse is a cozy gothic idle management game where you plant zombie seeds to grow zombies, automate your graveyard, and raid the living. Build your horde, conquer a branching campaign, and ascend to begin again with permanent power."
+      "short_description": "Your physical intuition will be put to the test. Connect the disc to objects using links and alter its circular motion to guide the target into the box."
     },
     {
       "appid": "2887580",
@@ -695,6 +682,26 @@
       },
       "metacritic": null,
       "short_description": "Присоединяйтесь к рейдам за добычей или PvP-сражениям в этом новом реалистичном военном шутере, в мире расколотой мультивселенной. Сражайтесь в квантово-нестабильных зонах за контроль над активной материей — веществом, искривляющим время и пространство."
+    },
+    {
+      "appid": "2774040",
+      "name": "The Boss Gangster: Criminal Empire",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2774040/633657e57def1d539ef868eb0c8d10fa1102dc33/header_alt_assets_2.jpg?t=1793109032",
+      "genres": [
+        "Экшены",
+        "Инди",
+        "Ролевые игры",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Постройте преступную империю с самых низов. Совершайте преступления от третьего лица, управляйте и автоматизируйте нелегальные бизнесы, создайте собственную криминальную семью, сражайтесь с конкурирующими группировками и захватите контроль над бесшовным открытым городом."
     }
   ]
 }
