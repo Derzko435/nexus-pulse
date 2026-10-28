@@ -1,101 +1,7 @@
 {
- "updatedAt": "2026-10-27T23:15:31+03:00",
+ "updatedAt": "2026-10-28T03:46:08+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-132135",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "MIBR",
-   "teamB": "Eternal Fire",
-   "logoA": "https://files.bo3.gg/uploads/team/755/image/webp-09b2efa76c36256f1084539ae6638f45.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/1527/image/webp-528d013ccb8d81fc2f4725b95ee04516.webp",
-   "scoreA": 1,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "live",
-   "event": "Stake Ranked Episode 5",
-   "tier": "A",
-   "startsAt": "2026-10-27T21:10:00+03:00",
-   "streams": [
-    {
-     "type": "kick",
-     "channel": "starladder",
-     "lang": "en",
-     "official": true,
-     "label": "starladder"
-    },
-    {
-     "type": "kick",
-     "channel": "watchfultv",
-     "lang": "ru",
-     "official": false,
-     "label": "watchfultv"
-    },
-    {
-     "type": "kick",
-     "channel": "narodcast",
-     "lang": "ru",
-     "official": false,
-     "label": "narodcast"
-    },
-    {
-     "type": "kick",
-     "channel": "bandurka",
-     "lang": "ru",
-     "official": false,
-     "label": "bandurka"
-    }
-   ],
-   "url": "https://bo3.gg/matches/mibr-vs-eternal-fire-27-10-2026"
-  },
-  {
-   "id": "bo3-132160",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Shopify Rebellion Gold",
-   "teamB": "KRÜ Blaze",
-   "logoA": "https://files.bo3.gg/uploads/team/6700/image/webp-8da16b04777636e65218d024a2e61c1c.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/6593/image/webp-7377e42c1706acd31226f1a369ecf619.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "VALORANT Game Changers Championship 2026",
-   "tier": "S",
-   "startsAt": "2026-10-27T23:15:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "loupiote3",
-     "lang": "en",
-     "official": true,
-     "label": "loupiote3"
-    },
-    {
-     "type": "twitch",
-     "channel": "valorant_br",
-     "lang": "pt",
-     "official": true,
-     "label": "valorant_br"
-    },
-    {
-     "type": "twitch",
-     "channel": "valorant_la",
-     "lang": "pt",
-     "official": true,
-     "label": "valorant_la"
-    },
-    {
-     "type": "twitch",
-     "channel": "valorant_th",
-     "lang": "th",
-     "official": true,
-     "label": "valorant_th"
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/shopify-rebellion-gc-vs-kru-blaze-27-10-2026"
-  },
   {
    "id": "bo3-132285",
    "game": "Dota 2",
@@ -254,6 +160,32 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/team-yandex-vs-astra-invicta-28-10-2026"
+  },
+  {
+   "id": "bo3-132137",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Nemesis",
+   "teamB": "Eternal Fire",
+   "logoA": "https://files.bo3.gg/uploads/team/21388/image/webp-160641ad1ee216616765928a5ebc6a76.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/1527/image/webp-528d013ccb8d81fc2f4725b95ee04516.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "Stake Ranked Episode 5",
+   "tier": "A",
+   "startsAt": "2026-10-28T16:30:00+03:00",
+   "streams": [
+    {
+     "type": "kick",
+     "channel": "starladder",
+     "lang": "en",
+     "official": true,
+     "label": "starladder"
+    }
+   ],
+   "url": "https://bo3.gg/matches/team-nemesis-cs-vs-eternal-fire-28-10-2026"
   },
   {
    "id": "bo3-132246",
@@ -419,7 +351,33 @@
      "label": "valorant"
     }
    ],
-   "url": "https://bo3.gg/valorant/matches/sk-nebula-vs-mibr-gc-28-10-2026"
+   "url": "https://bo3.gg/valorant/matches/mibr-gc-vs-sk-nebula-28-10-2026"
+  },
+  {
+   "id": "bo3-132139",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Inner Circle",
+   "teamB": "MIBR",
+   "logoA": "https://files.bo3.gg/uploads/team/19186/image/webp-6aedbd6f8fdc86d26052f90540031e1e.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/755/image/webp-09b2efa76c36256f1084539ae6638f45.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "Stake Ranked Episode 5",
+   "tier": "A",
+   "startsAt": "2026-10-28T21:30:00+03:00",
+   "streams": [
+    {
+     "type": "kick",
+     "channel": "starladder",
+     "lang": "en",
+     "official": true,
+     "label": "starladder"
+    }
+   ],
+   "url": "https://bo3.gg/matches/inner-circle-esports-vs-mibr-28-10-2026"
   },
   {
    "id": "bo3-130820",
@@ -447,6 +405,40 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/koi-lol-vs-t1-lol-28-10-2026"
+  },
+  {
+   "id": "bo3-132161",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "KRÜ Blaze",
+   "teamB": "Team Liquid Brazil",
+   "logoA": "https://files.bo3.gg/uploads/team/6593/image/webp-7377e42c1706acd31226f1a369ecf619.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/6638/image/webp-fe70067142b7f6cba5573fb6e0ae3c76.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VALORANT Game Changers Championship 2026",
+   "tier": "S",
+   "startsAt": "2026-10-29T00:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    },
+    {
+     "type": "kick",
+     "channel": "valorant",
+     "lang": "en",
+     "official": false,
+     "label": "valorant"
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/kru-blaze-vs-team-liquid-brazil-28-10-2026"
   },
   {
    "id": "bo3-130819",
@@ -584,6 +576,40 @@
    "url": "https://bo3.gg/lol/matches/top-esports-lol-vs-bilibili-gaming-lol-29-10-2026"
   },
   {
+   "id": "bo3-132163",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "Gentle Mates GC",
+   "teamB": "Shopify Rebellion Gold",
+   "logoA": "https://files.bo3.gg/uploads/team/22463/image/webp-6baac6966cffa1791d44b1ff9c886cee.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/6700/image/webp-8da16b04777636e65218d024a2e61c1c.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VALORANT Game Changers Championship 2026",
+   "tier": "S",
+   "startsAt": "2026-10-30T21:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    },
+    {
+     "type": "kick",
+     "channel": "valorant",
+     "lang": "en",
+     "official": false,
+     "label": "valorant"
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/gentle-mates-gc-vs-shopify-rebellion-gc-30-10-2026"
+  },
+  {
    "id": "bo3-130822",
    "game": "LoL",
    "gameKey": "lol",
@@ -636,6 +662,100 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/hanwha-life-esports-vs-g2-esports-lol-30-10-2026"
+  },
+  {
+   "id": "bo3-132160",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "Shopify Rebellion Gold",
+   "teamB": "KRÜ Blaze",
+   "logoA": "https://files.bo3.gg/uploads/team/6700/image/webp-8da16b04777636e65218d024a2e61c1c.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/6593/image/webp-7377e42c1706acd31226f1a369ecf619.webp",
+   "scoreA": 2,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "finished",
+   "event": "VALORANT Game Changers Championship 2026",
+   "tier": "S",
+   "startsAt": "2026-10-27T23:15:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "loupiote3",
+     "lang": "en",
+     "official": true,
+     "label": "loupiote3"
+    },
+    {
+     "type": "twitch",
+     "channel": "valorant_br",
+     "lang": "pt",
+     "official": true,
+     "label": "valorant_br"
+    },
+    {
+     "type": "twitch",
+     "channel": "valorant_la",
+     "lang": "pt",
+     "official": true,
+     "label": "valorant_la"
+    },
+    {
+     "type": "twitch",
+     "channel": "wipr",
+     "lang": "fr",
+     "official": true,
+     "label": "wipr"
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/shopify-rebellion-gc-vs-kru-blaze-27-10-2026"
+  },
+  {
+   "id": "bo3-132135",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "MIBR",
+   "teamB": "Eternal Fire",
+   "logoA": "https://files.bo3.gg/uploads/team/755/image/webp-09b2efa76c36256f1084539ae6638f45.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/1527/image/webp-528d013ccb8d81fc2f4725b95ee04516.webp",
+   "scoreA": 2,
+   "scoreB": 1,
+   "bo": 3,
+   "status": "finished",
+   "event": "Stake Ranked Episode 5",
+   "tier": "A",
+   "startsAt": "2026-10-27T21:10:00+03:00",
+   "streams": [
+    {
+     "type": "kick",
+     "channel": "starladder",
+     "lang": "en",
+     "official": true,
+     "label": "starladder"
+    },
+    {
+     "type": "kick",
+     "channel": "watchfultv",
+     "lang": "ru",
+     "official": false,
+     "label": "watchfultv"
+    },
+    {
+     "type": "kick",
+     "channel": "narodcast",
+     "lang": "ru",
+     "official": false,
+     "label": "narodcast"
+    },
+    {
+     "type": "kick",
+     "channel": "bandurka",
+     "lang": "ru",
+     "official": false,
+     "label": "bandurka"
+    }
+   ],
+   "url": "https://bo3.gg/matches/mibr-vs-eternal-fire-27-10-2026"
   },
   {
    "id": "bo3-132159",
@@ -1014,53 +1134,6 @@
    "url": "https://bo3.gg/dota2/matches/betboom-team-dota2-vs-astra-invicta-27-10-2026"
   },
   {
-   "id": "bo3-132133",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Inner Circle",
-   "teamB": "Nemesis",
-   "logoA": "https://files.bo3.gg/uploads/team/19186/image/webp-6aedbd6f8fdc86d26052f90540031e1e.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/21388/image/webp-160641ad1ee216616765928a5ebc6a76.webp",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "Stake Ranked Episode 5",
-   "tier": "A",
-   "startsAt": "2026-10-27T17:25:00+03:00",
-   "streams": [
-    {
-     "type": "kick",
-     "channel": "starladder",
-     "lang": "en",
-     "official": true,
-     "label": "starladder"
-    },
-    {
-     "type": "kick",
-     "channel": "watchfultv",
-     "lang": "ru",
-     "official": false,
-     "label": "watchfultv"
-    },
-    {
-     "type": "kick",
-     "channel": "narodcast",
-     "lang": "ru",
-     "official": false,
-     "label": "narodcast"
-    },
-    {
-     "type": "kick",
-     "channel": "bandurka",
-     "lang": "ru",
-     "official": false,
-     "label": "bandurka"
-    }
-   ],
-   "url": "https://bo3.gg/matches/inner-circle-esports-vs-team-nemesis-cs-27-10-2026"
-  },
-  {
    "id": "bo3-132829",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -1360,53 +1433,6 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/los-vs-team-secret-whales-26-10-2026"
-  },
-  {
-   "id": "bo3-132158",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "SK Nebula",
-   "teamB": "FENNEL Female",
-   "logoA": "https://files.bo3.gg/uploads/team/10587/image/webp-0af6f25285596442a636e2259b261db4.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/6558/image/webp-8919fa450a840a289e034e7190db8e60.webp",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "VALORANT Game Changers Championship 2026",
-   "tier": "S",
-   "startsAt": "2026-10-26T21:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "loupiote3",
-     "lang": "en",
-     "official": true,
-     "label": "loupiote3"
-    },
-    {
-     "type": "youtube",
-     "id": "-oohhaqLYx4",
-     "lang": "en",
-     "official": true,
-     "label": "FL vs. SK — VALORANT Game Changers Championship Sao Paulo — Knockout"
-    },
-    {
-     "type": "twitch",
-     "channel": "valorant_br",
-     "lang": "pt",
-     "official": true,
-     "label": "valorant_br"
-    },
-    {
-     "type": "twitch",
-     "channel": "valorant_la",
-     "lang": "pt",
-     "official": true,
-     "label": "valorant_la"
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/sk-nebula-vs-fennel-female-26-10-2026"
   },
   {
    "id": "bo3-130814",
