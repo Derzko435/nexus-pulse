@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T04:29:02+03:00",
+  "updatedAt": "2026-10-28T11:44:25+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -11,6 +11,16 @@
       "pct": 90,
       "url": "https://store.steampowered.com/app/1496590/",
       "steamAppId": "1496590"
+    },
+    {
+      "id": "steam-1449690",
+      "title": "The Walking Dead: The Telltale Definitive Series",
+      "store": "Steam",
+      "old": 1600,
+      "neu": 160,
+      "pct": 90,
+      "url": "https://store.steampowered.com/app/1449690/",
+      "steamAppId": "1449690"
     },
     {
       "id": "steam-238320",
@@ -63,74 +73,44 @@
       "steamAppId": "252490"
     },
     {
-      "id": "steam-4151560",
-      "title": "NULL SECTOR: LAST PROTOCOL",
+      "id": "steam-5402290",
+      "title": "Твоя жена и твоя мать",
       "store": "Steam",
       "old": 64,
       "neu": 38,
       "pct": 41,
-      "url": "https://store.steampowered.com/app/4151560/",
-      "steamAppId": "4151560"
+      "url": "https://store.steampowered.com/app/5402290/",
+      "steamAppId": "5402290"
     },
     {
-      "id": "steam-5239530",
-      "title": "Tetrahedron",
+      "id": "steam-3932010",
+      "title": "UNSEEN LAND: INTO THE MIST",
       "store": "Steam",
-      "old": 240,
-      "neu": 144,
+      "old": 445,
+      "neu": 267,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5239530/",
-      "steamAppId": "5239530"
+      "url": "https://store.steampowered.com/app/3932010/",
+      "steamAppId": "3932010"
     },
     {
-      "id": "steam-5423900",
-      "title": "Cashflow Empire",
+      "id": "steam-4588650",
+      "title": "Castle of the Zephyr",
       "store": "Steam",
-      "old": 195,
-      "neu": 117,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5423900/",
-      "steamAppId": "5423900"
-    },
-    {
-      "id": "steam-3982450",
-      "title": "HITLER WAIFU 2",
-      "store": "Steam",
-      "old": 42,
-      "neu": 25,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/3982450/",
-      "steamAppId": "3982450"
-    },
-    {
-      "id": "steam-4244190",
-      "title": "Guinea Pig Runaway Together",
-      "store": "Steam",
-      "old": 240,
-      "neu": 168,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/4244190/",
-      "steamAppId": "4244190"
-    },
-    {
-      "id": "steam-3690370",
-      "title": "Senior Survival Club",
-      "store": "Steam",
-      "old": 385,
-      "neu": 288,
+      "old": 465,
+      "neu": 348,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/3690370/",
-      "steamAppId": "3690370"
+      "url": "https://store.steampowered.com/app/4588650/",
+      "steamAppId": "4588650"
     },
     {
-      "id": "steam-5031360",
-      "title": "Halloween Pumpkin Simulator",
+      "id": "steam-4980110",
+      "title": "Cyber Volleyball",
       "store": "Steam",
-      "old": 132,
+      "old": 125,
       "neu": 99,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5031360/",
-      "steamAppId": "5031360"
+      "pct": 21,
+      "url": "https://store.steampowered.com/app/4980110/",
+      "steamAppId": "4980110"
     },
     {
       "id": "steam-2887580",
@@ -141,6 +121,26 @@
       "pct": 20,
       "url": "https://store.steampowered.com/app/2887580/",
       "steamAppId": "2887580"
+    },
+    {
+      "id": "steam-3690240",
+      "title": "Project Android",
+      "store": "Steam",
+      "old": 745,
+      "neu": 596,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/3690240/",
+      "steamAppId": "3690240"
+    },
+    {
+      "id": "steam-4725720",
+      "title": "Sabre Hunter: Keep On Moving",
+      "store": "Steam",
+      "old": 465,
+      "neu": 372,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/4725720/",
+      "steamAppId": "4725720"
     }
   ]
 }

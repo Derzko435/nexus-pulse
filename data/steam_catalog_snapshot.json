@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T04:28:56+03:00",
+  "updatedAt": "2026-10-28T11:44:19+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -526,6 +526,24 @@
       "short_description": "Sent to find a missing billionaire on a remote island, you find yourself in a cannibal-infested hellscape. Craft, build, and struggle to survive, alone or with friends, in this terrifying new open-world survival horror simulator."
     },
     {
+      "appid": "1304930",
+      "name": "The Outlast Trials",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/e3b17cf268afa51334b63124a2fe0aef3f1d136b/header_alt_assets_4.jpg?t=1792554994",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Red Barrels invites you to experience mind-numbing terror, this time with friends. Whether you go through the trials alone or in teams, if you survive long enough and complete the therapy, Murkoff will happily let you leave… but will you be the same?"
+    },
+    {
       "appid": "252490",
       "name": "Rust",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1781536981",
@@ -546,12 +564,12 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
-      "appid": "5247240",
-      "name": "MEGA TAG PANIC",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5247240/e015a2dfdb86f42ea1eea64066ba6af2ca6752c1/header.jpg?t=1793120439",
+      "appid": "4151560",
+      "name": "NULL SECTOR: LAST PROTOCOL",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4151560/7d6c2368a784f48c9a119b495da1659571c4d702/header.jpg?t=1793128413",
       "genres": [
         "Экшены",
-        "Казуальные игры",
+        "Приключенческие игры",
         "Инди"
       ],
       "is_free": false,
@@ -561,7 +579,23 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Салки — но водящий всё время РАСТЁТ. Великан не пролезает в узкие двери, и это твой путь к спасению. Заряди шлепок, отпусти в КРАСНОЙ зоне — и друг улетает. 2-10 игроков, 12 карт, 6 режимов, 10 персонажей с 10 особыми способностями. Никого в сети? Боты тебя не пожалеют."
+      "short_description": "После краха машины взяли под контроль города. Они наблюдают, слушают и реагируют. Сражайся в динамичном FPS, где внимание, тайминг и мастерство являются ключом к выживанию."
+    },
+    {
+      "appid": "5239530",
+      "name": "Tetrahedron",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5239530/fb4220167309c98ca58544c8f3e30b05c5d81d0b/header.jpg?t=1793131492",
+      "genres": [
+        "Экшены"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Fight for survival and glory in 4 directions of gravity. Jump, bounce, slide, and lunge around a fully explorable 3D environment, where floors, ceilings, and walls are matters of perspective and preference."
     },
     {
       "appid": "5423900",
@@ -582,11 +616,14 @@
       "short_description": "Построй бизнес-империю с нуля в ярком idle-симуляторе! Начни с выгула собак и вырасти до мирового магната. Покупай компании, нанимай управляющих, автоматизируй доходы и открывай улучшения. Активируй престиж, начни заново и стань ещё богаче!"
     },
     {
-      "appid": "4849240",
-      "name": "Duel: The Game Show",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4849240/3f224a642131c5b7ec8911bf54f7ebe767e68a88/header.jpg?t=1793120507",
+      "appid": "3982450",
+      "name": "HITLER WAIFU 2",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3982450/d38cd4b83187f8bbb30134bda1fcc3885bd45cad/header.jpg?t=1793144670",
       "genres": [
-        "Казуальные игры"
+        "Экшены",
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -595,12 +632,12 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "The ultimate 1v1 show game! Step up to the podium and challenge your rival in 6, 9, 12, or 15 rounds. Master 30 varied mini-games testing your knowledge, guessing, logic, memory, and speed. Who will keep their cool, buzz in faster, and claim the ultimate victory?"
+      "short_description": "Hitler Waifu 2 - это пародийный 3D-шутер от третьего лица с сатирой и чёрным юмором"
     },
     {
       "appid": "4244190",
       "name": "Guinea Pig Runaway Together",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4244190/0a72bdbac63e69305d8a07fb9c8daa47f071c3c0/header.jpg?t=1793128625",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4244190/0a72bdbac63e69305d8a07fb9c8daa47f071c3c0/header.jpg?t=1793170741",
       "genres": [
         "Приключенческие игры",
         "Казуальные игры",
@@ -616,11 +653,13 @@
       "short_description": "До четырёх морских свинок. Один шар. Бесконечный хаос. Работайте сообща или не сдвинетесь с места в этом кооперативном паркуре на основе физики!"
     },
     {
-      "appid": "5167700",
-      "name": "This Game Socks",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5167700/7f2c0d1f0873ab2c19a01ebf90177e4435018948/header.jpg?t=1793124789",
+      "appid": "3690370",
+      "name": "Senior Survival Club",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3690370/f73001bea4bda4ea44a31679aa59b58a79627e93/header_russian.jpg?t=1793143247",
       "genres": [
-        "Казуальные игры"
+        "Экшены",
+        "Казуальные игры",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -629,12 +668,12 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Находи, подбирай и бросай 3 000 носков в корзину вместе с друзьями. Покупай абсурдные гаджеты и улучшай их, чтобы облегчить задачу (или нет)."
+      "short_description": "Несмотря на медлительность, «Бабушка» обладает сокрушительной мощью. Крушите орды зомби, собирайте редкое снаряжение и пробудите истинный инстинкт выживания. Докажите всем, что её ярость невозможно остановить!"
     },
     {
       "appid": "5031360",
       "name": "Halloween Pumpkin Simulator",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5031360/2bbf9ab875542e23d34efadbbe20bc56585086fb/header.jpg?t=1793129037",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5031360/2bbf9ab875542e23d34efadbbe20bc56585086fb/header.jpg?t=1793165033",
       "genres": [
         "Приключенческие игры",
         "Казуальные игры",
@@ -666,43 +705,6 @@
       },
       "metacritic": null,
       "short_description": "Присоединяйтесь к рейдам за добычей или PvP-сражениям в этом новом реалистичном военном шутере, в мире расколотой мультивселенной. Сражайтесь в квантово-нестабильных зонах за контроль над активной материей — веществом, искривляющим время и пространство."
-    },
-    {
-      "appid": "3986340",
-      "name": "When the Embers Wake",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3986340/adb5ae0cf1782b440d1bd2abba2f64fa7a75b938/header.jpg?t=1793120561",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "When the Embers Wake сюжетное приключение от третьего лица с важной целью: привлечь внимание к реальным и крайне актуальным угрозам для дикой природы. Вы играете за красную панду, которой нужно выжить среди экологических испытаний, опасностей и горя."
-    },
-    {
-      "appid": "5272850",
-      "name": "Piecework: The Jigsaw Museum",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5272850/96ef0c615941988bee860387337280cf15aefafb/header.jpg?t=1793120434",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "В уютной игре Piecework от первого лица вам предстоит собирать пазлы и наводить порядок. В музее произошёл инцидент, и тридцать шедевров лежат на полу почти в двадцати восьми тысячах деталей. Администрация будет крайне признательна за их возвращение на стены."
     }
   ]
 }
