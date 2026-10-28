@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T19:43:48+03:00",
+  "updatedAt": "2026-10-29T01:42:51+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -470,40 +470,6 @@
       "short_description": "Тропическое приключение в открытом мире. Карабкайтесь, скользите, плавайте, управляйте лодкой, обходя чудесные острова и изучая мир-«песочницу» с реалистичной физикой. Берите под свой контроль животных предметы и играйте на укулеле."
     },
     {
-      "appid": "1449690",
-      "name": "The Walking Dead: The Telltale Definitive Series",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/header.jpg?t=1760651835",
-      "genres": [
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "The Walking Dead: The Telltale Definitive Series содержит все четыре сезона, дополнение 400 Days и The Walking Dead: Michonne — всего 23 уникальных эпизода, которые подарят игрокам более 50 часов игры."
-    },
-    {
-      "appid": "238320",
-      "name": "Outlast",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238320/header.jpg?t=1666817106",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": 80,
-      "short_description": "Hell is an experiment you can't survive in Outlast, a first-person survival horror game developed by veterans of some of the biggest game franchises in history. As investigative journalist Miles Upshur, explore Mount Massive Asylum and try to survive long enough to discover its terrible secret... if you dare."
-    },
-    {
       "appid": "242760",
       "name": "The Forest",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg?t=1699381053",
@@ -580,69 +546,28 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
-      "appid": "5402290",
-      "name": "Твоя жена и твоя мать",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5402290/94585e860d4c610830643b02c73941c6d515b305/header_russian.jpg?t=1793167213",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Жена и мама переехали к тебе на рабочий стол. Они хотят есть, устают, ссорятся и дуются, а ещё сами едят перец. Выращивай перец, отгоняй гусениц, запускай фейерверки — и смотри, как эти двое живут своей жизнью в углу экрана."
-    },
-    {
-      "appid": "3932010",
-      "name": "UNSEEN LAND: INTO THE MIST",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932010/79b37b8ee78f2481784067be96c58feb32194c76/header.jpg?t=1793152691",
+      "appid": "1782800",
+      "name": "Trivasion",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1782800/06ce7f3efee20225c1e8bfe3777e5deeb56aee0f/header.jpg?t=1793199461",
       "genres": [
         "Экшены",
-        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Survive against a swarm of geometric enemies and the bosses guarding your way forward in this fast, minimalist arcade survival game. Bounce, boost, and slide through the chaos, chain kills to build your multiplier, and chase the leaderboard. Simple to pick up, brutal to master."
+    },
+    {
+      "appid": "5369000",
+      "name": "Crownmason",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5369000/7c99ed7fd1e8bac1980777f52cbad26d3da42499/header.jpg?t=1793202921",
+      "genres": [
         "Инди",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Экшен-RPG встречается с tower defense. Сражайтесь героем, свободно переключающимся между ближним боем, дальним боем и магией, развивайте свою территорию и возводите башни, чтобы сдержать сотни чудовищ, хлынувших из межпространственных разломов."
-    },
-    {
-      "appid": "4588650",
-      "name": "Castle of the Zephyr",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4588650/67a5d5b8664c15b5a8d91c1d195da8c976379802/header.jpg?t=1793165467",
-      "genres": [
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Castle of the Zephyr is a spiritual remake of the classic roguelike Castle of the Winds. Explore procedurally generated dungeons and hand-crafted ruins, master spellbook magic, manage weight-and-bulk inventory, build your classless hero, and race against time to stop an ancient evil from awakening."
-    },
-    {
-      "appid": "4980110",
-      "name": "Cyber Volleyball",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4980110/0a1735bd4871b0270a47fa0f54f4d4b35c6599d5/header.jpg?t=1793155007",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Гонки",
-        "Ролевые игры",
-        "Симуляторы",
-        "Спорт",
         "Стратегии"
       ],
       "is_free": false,
@@ -652,7 +577,42 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Cyber Volleyball is a side-scrolling 2D volleyball game with realistic physics and character progression. Players serve, spike, block and dig under strict three-hit rules. It features over a dozen characters with unique AI skills, adventure mode, online multiplayer, and nine upgradeable attributes."
+      "short_description": "Crownmason is a turn-based, castle-building autobattler: armies fight on their own, and only a dead king ends the match. Seven factions, a card draft, and matches against the AI, on LAN or online."
+    },
+    {
+      "appid": "4057670",
+      "name": "The Midnighters",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4057670/2e0c7df5888b3c1ecae84109fd8e434e5758e272/header.jpg?t=1793203180",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Кооперативный хоррор для 1–4 игроков. Ищите зарытые сокровища с детектором, продавайте добычу и исследуйте проклятую деревню. По мере потери рассудка галлюцинации искажают реальность. Решайте ритуальные головоломки и встречайте скрывающихся во тьме существ."
+    },
+    {
+      "appid": "4559890",
+      "name": "Blockflow",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4559890/1d211f3a2234810e46937225135f0a5f971a6a57/header.jpg?t=1793203016",
+      "genres": [
+        "Казуальные игры",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Blockflow — рогалик-головоломка со стратегией и комбо. Очищайте линии, копите очки и выбирайте улучшения. Зарабатывайте Blockcoins, чтобы открывать фигуры и бонусы в этой затягивающей игре с мета-прогрессией!"
     },
     {
       "appid": "2887580",
@@ -672,10 +632,33 @@
       "short_description": "Присоединяйтесь к рейдам за добычей или PvP-сражениям в этом новом реалистичном военном шутере, в мире расколотой мультивселенной. Сражайтесь в квантово-нестабильных зонах за контроль над активной материей — веществом, искривляющим время и пространство."
     },
     {
-      "appid": "3690240",
-      "name": "Project Android",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3690240/95bbd99af8f79144dac672e3c43f1448b4de1a07/header.jpg?t=1793149189",
+      "appid": "2885530",
+      "name": "MeowPower!Yachiyo",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2885530/6f6dc31809ea8cec825ab191c5fa8f15d876d830/header.jpg?t=1793199678",
       "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Team up with the cats and take down the evil humans! A thrilling, cat-dancing Beat-'Em-Up Side Scroller begins!"
+    },
+    {
+      "appid": "4374670",
+      "name": "Timberworks",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4374670/f2f3f9b4d1fbd3ec96622a5b0b003f2e335c941a/header.jpg?t=1793199734",
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
         "Симуляторы"
       ],
       "is_free": false,
@@ -685,16 +668,16 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Project Android, the solution to tomorrow's problems. Perform various experiments and raise the android Femme into humanity's savior."
+      "short_description": "Timberworks — это инкрементальная игра об автоматизации и управлении фабриками. Начните с небольшой лесопилки, автоматизируйте производство, расширяйте железнодорожную сеть и постройте огромную промышленную империю."
     },
     {
-      "appid": "4725720",
-      "name": "Sabre Hunter: Keep On Moving",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4725720/94609b38f3f2024c6397a0f5a3e7a5e949412b77/header.jpg?t=1793166990",
+      "appid": "5345490",
+      "name": "Quarantine Lab Sort",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5345490/ba93d064b3e8cc399ed8b4258bb155ef0115deea/header.jpg?t=1793196473",
       "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Многопользовательские игры"
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
@@ -703,7 +686,23 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Sabre Hunter: Keep On Moving, кровавый боевик от третьего лица с глубокой фехтовальной системой. Пройди захватывающую компанию используя свой богатый арсенал. Исследуй уровни и открывай новый контент."
+      "short_description": "Наведите порядок в лаборатории после полного хаоса! Сортируйте более 7000 предметов, исследуйте неизвестные образцы в центрифуге, ловите сбежавших животных и осторожно обращайтесь с радиоактивным мусором. Открывайте навыки и превращайте завалы в аккуратно заполненные полки."
+    },
+    {
+      "appid": "3610830",
+      "name": "Gagged Love: My MILF Neighbor",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3610830/1c413c51ba71c598d9029a4c2af059a44ae522a2/header.jpg?t=1793199730",
+      "genres": [
+        "Приключенческие игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "В этой короткой визуальной новелле (20–30 минут) твоя сексуальная соседка-милфа Юи просит помочь тебя починить раковину. Возможно, это твой шанс наконец-то переспать с этой красивой и недавно разведенной женщиной. А так же заклеить ее рот скотчем, чтобы она возбудилась еще сильнее."
     }
   ]
 }
