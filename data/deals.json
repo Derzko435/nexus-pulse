@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T23:48:15+03:00",
+  "updatedAt": "2026-10-28T04:29:02+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -43,6 +43,16 @@
       "steamAppId": "1326470"
     },
     {
+      "id": "steam-1304930",
+      "title": "The Outlast Trials",
+      "store": "Steam",
+      "old": 1300,
+      "neu": 390,
+      "pct": 70,
+      "url": "https://store.steampowered.com/app/1304930/",
+      "steamAppId": "1304930"
+    },
+    {
       "id": "steam-252490",
       "title": "Rust",
       "store": "Steam",
@@ -53,14 +63,24 @@
       "steamAppId": "252490"
     },
     {
-      "id": "steam-5247240",
-      "title": "MEGA TAG PANIC",
+      "id": "steam-4151560",
+      "title": "NULL SECTOR: LAST PROTOCOL",
       "store": "Steam",
-      "old": 360,
-      "neu": 216,
+      "old": 64,
+      "neu": 38,
+      "pct": 41,
+      "url": "https://store.steampowered.com/app/4151560/",
+      "steamAppId": "4151560"
+    },
+    {
+      "id": "steam-5239530",
+      "title": "Tetrahedron",
+      "store": "Steam",
+      "old": 240,
+      "neu": 144,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5247240/",
-      "steamAppId": "5247240"
+      "url": "https://store.steampowered.com/app/5239530/",
+      "steamAppId": "5239530"
     },
     {
       "id": "steam-5423900",
@@ -73,14 +93,14 @@
       "steamAppId": "5423900"
     },
     {
-      "id": "steam-4849240",
-      "title": "Duel: The Game Show",
+      "id": "steam-3982450",
+      "title": "HITLER WAIFU 2",
       "store": "Steam",
-      "old": 465,
-      "neu": 302,
-      "pct": 35,
-      "url": "https://store.steampowered.com/app/4849240/",
-      "steamAppId": "4849240"
+      "old": 42,
+      "neu": 25,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/3982450/",
+      "steamAppId": "3982450"
     },
     {
       "id": "steam-4244190",
@@ -93,14 +113,14 @@
       "steamAppId": "4244190"
     },
     {
-      "id": "steam-5167700",
-      "title": "This Game Socks",
+      "id": "steam-3690370",
+      "title": "Senior Survival Club",
       "store": "Steam",
-      "old": 337,
-      "neu": 239,
-      "pct": 29,
-      "url": "https://store.steampowered.com/app/5167700/",
-      "steamAppId": "5167700"
+      "old": 385,
+      "neu": 288,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/3690370/",
+      "steamAppId": "3690370"
     },
     {
       "id": "steam-5031360",
@@ -121,26 +141,6 @@
       "pct": 20,
       "url": "https://store.steampowered.com/app/2887580/",
       "steamAppId": "2887580"
-    },
-    {
-      "id": "steam-3986340",
-      "title": "When the Embers Wake",
-      "store": "Steam",
-      "old": 320,
-      "neu": 256,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/3986340/",
-      "steamAppId": "3986340"
-    },
-    {
-      "id": "steam-5272850",
-      "title": "Piecework: The Jigsaw Museum",
-      "store": "Steam",
-      "old": 240,
-      "neu": 192,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5272850/",
-      "steamAppId": "5272850"
     }
   ]
 }
