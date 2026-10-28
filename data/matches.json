@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T03:46:08+03:00",
+ "updatedAt": "2026-10-28T09:22:25+03:00",
  "source": "bo3.gg",
  "matches": [
   {
@@ -56,6 +56,32 @@
    "url": "https://bo3.gg/valorant/matches/a-team-vlr-vs-octagonal-disposition-gaming-28-10-2026"
   },
   {
+   "id": "bo3-132136",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Astralis",
+   "teamB": "magic",
+   "logoA": "https://files.bo3.gg/uploads/team/794/image/webp-3c221c1ccd05db6a010e09d9f9f0e367.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/22218/image/webp-239b86baa849b6da4911c1df5e5a3220.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "Stake Ranked Episode 5",
+   "tier": "A",
+   "startsAt": "2026-10-28T14:00:00+03:00",
+   "streams": [
+    {
+     "type": "kick",
+     "channel": "starladder",
+     "lang": "en",
+     "official": true,
+     "label": "starladder"
+    }
+   ],
+   "url": "https://bo3.gg/matches/astralis-vs-magic-ru-28-10-2026"
+  },
+  {
    "id": "bo3-132245",
    "game": "CS2",
    "gameKey": "cs2",
@@ -81,32 +107,6 @@
     }
    ],
    "url": "https://bo3.gg/matches/the-mongolz-vs-nemiga-28-10-2026"
-  },
-  {
-   "id": "bo3-132136",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Astralis",
-   "teamB": "magic",
-   "logoA": "https://files.bo3.gg/uploads/team/794/image/webp-3c221c1ccd05db6a010e09d9f9f0e367.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/22218/image/webp-239b86baa849b6da4911c1df5e5a3220.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "Stake Ranked Episode 5",
-   "tier": "A",
-   "startsAt": "2026-10-28T14:00:00+03:00",
-   "streams": [
-    {
-     "type": "kick",
-     "channel": "starladder",
-     "lang": "en",
-     "official": true,
-     "label": "starladder"
-    }
-   ],
-   "url": "https://bo3.gg/matches/astralis-vs-magic-ru-28-10-2026"
   },
   {
    "id": "bo3-132471",
