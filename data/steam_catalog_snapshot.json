@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T11:44:19+03:00",
+  "updatedAt": "2026-10-28T19:43:48+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -470,6 +470,22 @@
       "short_description": "Тропическое приключение в открытом мире. Карабкайтесь, скользите, плавайте, управляйте лодкой, обходя чудесные острова и изучая мир-«песочницу» с реалистичной физикой. Берите под свой контроль животных предметы и играйте на укулеле."
     },
     {
+      "appid": "1449690",
+      "name": "The Walking Dead: The Telltale Definitive Series",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/header.jpg?t=1760651835",
+      "genres": [
+        "Приключенческие игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "The Walking Dead: The Telltale Definitive Series содержит все четыре сезона, дополнение 400 Days и The Walking Dead: Michonne — всего 23 уникальных эпизода, которые подарят игрокам более 50 часов игры."
+    },
+    {
       "appid": "238320",
       "name": "Outlast",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238320/header.jpg?t=1666817106",
@@ -564,118 +580,10 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
-      "appid": "4151560",
-      "name": "NULL SECTOR: LAST PROTOCOL",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4151560/7d6c2368a784f48c9a119b495da1659571c4d702/header.jpg?t=1793128413",
+      "appid": "5402290",
+      "name": "Твоя жена и твоя мать",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5402290/94585e860d4c610830643b02c73941c6d515b305/header_russian.jpg?t=1793167213",
       "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "После краха машины взяли под контроль города. Они наблюдают, слушают и реагируют. Сражайся в динамичном FPS, где внимание, тайминг и мастерство являются ключом к выживанию."
-    },
-    {
-      "appid": "5239530",
-      "name": "Tetrahedron",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5239530/fb4220167309c98ca58544c8f3e30b05c5d81d0b/header.jpg?t=1793131492",
-      "genres": [
-        "Экшены"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Fight for survival and glory in 4 directions of gravity. Jump, bounce, slide, and lunge around a fully explorable 3D environment, where floors, ceilings, and walls are matters of perspective and preference."
-    },
-    {
-      "appid": "5423900",
-      "name": "Cashflow Empire",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5423900/8f5193a008c6730871b935c76500bba302688612/header.jpg?t=1793131220",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Построй бизнес-империю с нуля в ярком idle-симуляторе! Начни с выгула собак и вырасти до мирового магната. Покупай компании, нанимай управляющих, автоматизируй доходы и открывай улучшения. Активируй престиж, начни заново и стань ещё богаче!"
-    },
-    {
-      "appid": "3982450",
-      "name": "HITLER WAIFU 2",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3982450/d38cd4b83187f8bbb30134bda1fcc3885bd45cad/header.jpg?t=1793144670",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Hitler Waifu 2 - это пародийный 3D-шутер от третьего лица с сатирой и чёрным юмором"
-    },
-    {
-      "appid": "4244190",
-      "name": "Guinea Pig Runaway Together",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4244190/0a72bdbac63e69305d8a07fb9c8daa47f071c3c0/header.jpg?t=1793170741",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "До четырёх морских свинок. Один шар. Бесконечный хаос. Работайте сообща или не сдвинетесь с места в этом кооперативном паркуре на основе физики!"
-    },
-    {
-      "appid": "3690370",
-      "name": "Senior Survival Club",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3690370/f73001bea4bda4ea44a31679aa59b58a79627e93/header_russian.jpg?t=1793143247",
-      "genres": [
-        "Экшены",
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Несмотря на медлительность, «Бабушка» обладает сокрушительной мощью. Крушите орды зомби, собирайте редкое снаряжение и пробудите истинный инстинкт выживания. Докажите всем, что её ярость невозможно остановить!"
-    },
-    {
-      "appid": "5031360",
-      "name": "Halloween Pumpkin Simulator",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5031360/2bbf9ab875542e23d34efadbbe20bc56585086fb/header.jpg?t=1793165033",
-      "genres": [
-        "Приключенческие игры",
         "Казуальные игры",
         "Инди",
         "Симуляторы"
@@ -687,7 +595,64 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Стань тыквой в ночь Хэллоуина! Абсолютный дзен, ночная меланхолия и ноль суеты. Идеальный план на вечер!"
+      "short_description": "Жена и мама переехали к тебе на рабочий стол. Они хотят есть, устают, ссорятся и дуются, а ещё сами едят перец. Выращивай перец, отгоняй гусениц, запускай фейерверки — и смотри, как эти двое живут своей жизнью в углу экрана."
+    },
+    {
+      "appid": "3932010",
+      "name": "UNSEEN LAND: INTO THE MIST",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932010/79b37b8ee78f2481784067be96c58feb32194c76/header.jpg?t=1793152691",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Экшен-RPG встречается с tower defense. Сражайтесь героем, свободно переключающимся между ближним боем, дальним боем и магией, развивайте свою территорию и возводите башни, чтобы сдержать сотни чудовищ, хлынувших из межпространственных разломов."
+    },
+    {
+      "appid": "4588650",
+      "name": "Castle of the Zephyr",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4588650/67a5d5b8664c15b5a8d91c1d195da8c976379802/header.jpg?t=1793165467",
+      "genres": [
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Castle of the Zephyr is a spiritual remake of the classic roguelike Castle of the Winds. Explore procedurally generated dungeons and hand-crafted ruins, master spellbook magic, manage weight-and-bulk inventory, build your classless hero, and race against time to stop an ancient evil from awakening."
+    },
+    {
+      "appid": "4980110",
+      "name": "Cyber Volleyball",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4980110/0a1735bd4871b0270a47fa0f54f4d4b35c6599d5/header.jpg?t=1793155007",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Гонки",
+        "Ролевые игры",
+        "Симуляторы",
+        "Спорт",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Cyber Volleyball is a side-scrolling 2D volleyball game with realistic physics and character progression. Players serve, spike, block and dig under strict three-hit rules. It features over a dozen characters with unique AI skills, adventure mode, online multiplayer, and nine upgradeable attributes."
     },
     {
       "appid": "2887580",
@@ -705,6 +670,40 @@
       },
       "metacritic": null,
       "short_description": "Присоединяйтесь к рейдам за добычей или PvP-сражениям в этом новом реалистичном военном шутере, в мире расколотой мультивселенной. Сражайтесь в квантово-нестабильных зонах за контроль над активной материей — веществом, искривляющим время и пространство."
+    },
+    {
+      "appid": "3690240",
+      "name": "Project Android",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3690240/95bbd99af8f79144dac672e3c43f1448b4de1a07/header.jpg?t=1793149189",
+      "genres": [
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Project Android, the solution to tomorrow's problems. Perform various experiments and raise the android Femme into humanity's savior."
+    },
+    {
+      "appid": "4725720",
+      "name": "Sabre Hunter: Keep On Moving",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4725720/94609b38f3f2024c6397a0f5a3e7a5e949412b77/header.jpg?t=1793166990",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Многопользовательские игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Sabre Hunter: Keep On Moving, кровавый боевик от третьего лица с глубокой фехтовальной системой. Пройди захватывающую компанию используя свой богатый арсенал. Исследуй уровни и открывай новый контент."
     }
   ]
 }
