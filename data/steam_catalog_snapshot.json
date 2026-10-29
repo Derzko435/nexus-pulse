@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T22:43:43+03:00",
+  "updatedAt": "2026-10-29T23:14:50+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -452,31 +452,13 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "1167950",
-      "name": "Vampire's Fall: Origins",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1167950/header.jpg?t=1723621830",
-      "genres": [
-        "Инди",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "В течение многих лет жители Вамп’Ира жили в мире и покое. Однако, всё чаще люди говорят о властелине тёмной магии - Чернокнижнике. Опасаясь, что слухи подтвердятся и готовясь к худшему, деревня собирает отряд сопротивления."
-    },
-    {
-      "appid": "242760",
-      "name": "The Forest",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg?t=1699381053",
+      "appid": "826940",
+      "name": "Maid of Sker",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/826940/header.jpg?t=1793283789",
       "genres": [
         "Экшены",
         "Приключенческие игры",
-        "Инди",
-        "Симуляторы"
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -484,8 +466,8 @@
         "mac": false,
         "linux": false
       },
-      "metacritic": 83,
-      "short_description": "As the lone survivor of a passenger jet crash, you find yourself in a mysterious forest battling to stay alive against a society of cannibalistic mutants. Build, explore, survive in this terrifying first person survival horror simulator."
+      "metacritic": 69,
+      "short_description": "Скерская дева — это игра &quot;ужастик&quot; в стиле выживания от первого лица, действие которой происходит в удаленном от цивилизации отеле с жуткой историей, позаимствованной из британского фольклора. Бросьте вызов ночным кошмарам Тихих Людей. Когда они прибудут, не паникуйте — лучше, даже, не дышите."
     },
     {
       "appid": "1326470",
@@ -505,42 +487,6 @@
       },
       "metacritic": null,
       "short_description": "Sent to find a missing billionaire on a remote island, you find yourself in a cannibal-infested hellscape. Craft, build, and struggle to survive, alone or with friends, in this terrifying new open-world survival horror simulator."
-    },
-    {
-      "appid": "1304930",
-      "name": "The Outlast Trials",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/e3b17cf268afa51334b63124a2fe0aef3f1d136b/header_alt_assets_4.jpg?t=1792554994",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Red Barrels invites you to experience mind-numbing terror, this time with friends. Whether you go through the trials alone or in teams, if you survive long enough and complete the therapy, Murkoff will happily let you leave… but will you be the same?"
-    },
-    {
-      "appid": "221100",
-      "name": "DayZ",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/header.jpg?t=1792059745",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Многопользовательские игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Как долго вы сможете выжить в пост-апокалипсисе? Мир пал под натиском зараженных. Боритесь против других выживших за ограниченные ресурсы. Сможете ли вы работать сообща с незнакомцами? Или же станете волком-одиночкой? Это ваша история, это DayZ."
     },
     {
       "appid": "252490",
@@ -563,6 +509,59 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
+      "appid": "5153830",
+      "name": "To Reign in Hell",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5153830/95f522e984ab9107a07ab36dd69be2fd6178f4f7/header.jpg?t=1793294161",
+      "genres": [
+        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "The empress of Hell is gone. Seize her throne, and wage war on Heaven! A text-based interactive dark fantasy novel, 630,000 words and hundreds of choices, without graphics or sound effects."
+    },
+    {
+      "appid": "4715160",
+      "name": "Finals Week: Последний экзамен",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4715160/3d05c4f85866620b0b47754e30414cb4414b42dc/header.jpg?t=1793289966",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Симулятор школьника для 1-4 игроков. Здесь вы с друзьями пытаетесь любой ценой сдать последние экзамены. Воруйте ответы, прячьтесь от учителя и используйте любые средства, чтобы списать. Закончите школу, не выучив ни одной страницы!"
+    },
+    {
+      "appid": "4306070",
+      "name": "Catch Meow If You Can",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4306070/ea62280b3d0256e1c4776b490fb1875db34ca5f9/header.jpg?t=1793300491",
+      "genres": [
+        "Приключенческие игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Онлайн-кооперативная игра на выживание для 4 игроков. Играйте за знаменитого кота — победителя конкурсов. Пока хозяина нет дома, в особняк проникают разные грабители. Исследуйте тёмные комнаты, решайте головоломки, перехитрите незваных гостей, дайте им отпор и сбегите, не попавшись."
+    },
+    {
       "appid": "3241660",
       "name": "R.E.P.O.",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/62177765c05399116f0453fe1177b00ceed698c4/header_alt_assets_3.jpg?t=1793278962",
@@ -578,57 +577,6 @@
       },
       "metacritic": null,
       "short_description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
-    },
-    {
-      "appid": "5429300",
-      "name": "Closing Time at the Wooden Toy Shop",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429300/bb568af7db3118e54d5a718c32aed75882545379/header.jpg?t=1793268968",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Наведите порядок в уютном магазине игрушек перед закрытием: разложите по местам до 11 520 разбросанных игрушек. Заполняйте полки, получайте улучшения и пользуйтесь удобными способностями. Отдохните у Plinko и монетного толкателя или выловите деревянных зверят из хватайки."
-    },
-    {
-      "appid": "2482760",
-      "name": "Hunting Simulator 3",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2482760/992c115fed93ff1cb6cf61acfa22dd3393e5899e/header_alt_assets_1_russian.jpg?t=1793285056",
-      "genres": [
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Эта игра в открытом мире позволит вам ощутить весь аzaрт охоты вместе со своей верной собакой! Выбирайте снаряжение официальных брендов и исследуйте дикую природу в поисках следующей добычи."
-    },
-    {
-      "appid": "2887580",
-      "name": "Active Matter",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2887580/191801a8de4db48075ef195473a922391cb4c6de/header.jpg?t=1793032833",
-      "genres": [
-        "Экшены",
-        "Многопользовательские игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Присоединяйтесь к рейдам за добычей или PvP-сражениям в этом новом реалистичном военном шутере, в мире расколотой мультивселенной. Сражайтесь в квантово-нестабильных зонах за контроль над активной материей — веществом, искривляющим время и пространство."
     },
     {
       "appid": "3884860",
@@ -649,30 +597,51 @@
       "short_description": "A dark detective thriller where folklore is real, violence is chilling, and every choice has consequences."
     },
     {
-      "appid": "5197480",
-      "name": "Everest: Survival Simulator",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5197480/5b31a97070e129a45c41691690ccafba71905e03/header.jpg?t=1793272149",
+      "appid": "2920220",
+      "name": "Terrible Lizards",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2920220/4b19bf2cbb1c1ef26cc0e898fc6e727776845b73/header.jpg?t=1793292736",
       "genres": [
+        "Экшены",
         "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы",
+        "Стратегии",
+        "Бесплатные"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Terrible Lizards — это паркур-хоррор в декорациях старого парка развлечений на трассе 66... под которым таится нечто зловещее. Чтобы спастись, тебе придется быстро двигаться, преодолевать сложные препятствия и выяснить, что скрывается в «Динозаврах Далтона». Лучше беги со всех ног."
+    },
+    {
+      "appid": "4053130",
+      "name": "Abyss Depth: Control",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4053130/93b460b80b1af78bac284605fdb5378e317c6b28/header.jpg?t=1793295895",
+      "genres": [
         "Инди",
         "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
+        "mac": false,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Survive a full expedition on a 1:1 satellite-mapped Mount Everest. Acclimatize, manage oxygen, cold, fatigue and supplies, pitch your tent at each camp, cross crevasses in the Khumbu Icefall and push for the 8,848 m summit — then make it back down alive."
+      "short_description": "A horror point and click set 2000m below the surface. Work off your debt, protect the diver, and survive the abyss—or die trying. In a world drowned by endless water."
     },
     {
-      "appid": "3407360",
-      "name": "Pardon My French Toast",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3407360/aad30c846db71fc49b63bab9e3f4e35922e80a50/header.jpg?t=1793271807",
+      "appid": "5010010",
+      "name": "WHAT NUMBER?",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5010010/753a46416536aeec83d30edebfcae5ecbe56d879/header.jpg?t=1793295566",
       "genres": [
         "Экшены",
-        "Приключенческие игры",
+        "Казуальные игры",
         "Инди"
       ],
       "is_free": false,
@@ -682,24 +651,60 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Pardon My French Toast is a 3D platformer starring a slice of toast who covers himself in sweet spreads to get fun abilities."
+      "short_description": "Press the numbers in order. Avoid the wrong ones. How far can you go?"
     },
     {
-      "appid": "5119940",
-      "name": "Shadow Rulers: World Order",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5119940/618b123099e835f12d051445e3833d1238d6fdc1/header.jpg?t=1793268148",
+      "appid": "95268",
+      "name": "Steam App 95268",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/95268/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
+    },
+    {
+      "appid": "1879270",
+      "name": "Into the Crypt",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1879270/86d369e93bff9c90d9869baacd3662e68c67e9e7/header.jpg?t=1793293248",
       "genres": [
+        "Экшены",
         "Инди",
         "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
+        "mac": false,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Rule the world from the shadows in a geopolitical strategy game. Shape a living 3D world, command six Lords, and choose how to attack. Play solo or in multiplayer across 10 distinct modes as rival powers fight to establish a new World Order."
+      "short_description": "Рогалик-декбилдер от первого лица в 3D, где вам предстоит сражаться с жуткими существами в процедурно генерируемом мире, находить редкие артефакты, участвовать в судьбоносных событиях, покупать улучшения и совершенствовать свою колоду, чтобы выжить в Крипте."
+    },
+    {
+      "appid": "3613550",
+      "name": "Checkmage!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3613550/72047f2962254ef385b6f19950b66a6a778d0e75/header.jpg?t=1793297059",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Ролевые игры",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "An adventure game with chess-themed deckbuilding battles. Build your strategy by trading cards and battling lovable, hand-drawn characters."
     }
   ]
 }

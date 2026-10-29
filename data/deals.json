@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T22:43:49+03:00",
+  "updatedAt": "2026-10-29T23:14:55+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -43,16 +43,6 @@
       "steamAppId": "5153830"
     },
     {
-      "id": "steam-4715160",
-      "title": "Finals Week: Последний экзамен",
-      "store": "Steam",
-      "old": 360,
-      "neu": 223,
-      "pct": 38,
-      "url": "https://store.steampowered.com/app/4715160/",
-      "steamAppId": "4715160"
-    },
-    {
       "id": "steam-4306070",
       "title": "Catch Meow If You Can",
       "store": "Steam",
@@ -73,6 +63,16 @@
       "steamAppId": "3241660"
     },
     {
+      "id": "steam-1297900",
+      "title": "Gothic 1 Remake",
+      "store": "Steam",
+      "old": 2699,
+      "neu": 2024,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/1297900/",
+      "steamAppId": "1297900"
+    },
+    {
       "id": "steam-3884860",
       "title": "The Wolf Among Us Remastered",
       "store": "Steam",
@@ -81,16 +81,6 @@
       "pct": 20,
       "url": "https://store.steampowered.com/app/3884860/",
       "steamAppId": "3884860"
-    },
-    {
-      "id": "steam-2920220",
-      "title": "Terrible Lizards",
-      "store": "Steam",
-      "old": 1050,
-      "neu": 840,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/2920220/",
-      "steamAppId": "2920220"
     },
     {
       "id": "steam-4053130",
@@ -141,6 +131,16 @@
       "pct": 15,
       "url": "https://store.steampowered.com/app/3613550/",
       "steamAppId": "3613550"
+    },
+    {
+      "id": "steam-4088370",
+      "title": "Two Dollar Suits",
+      "store": "Steam",
+      "old": 535,
+      "neu": 454,
+      "pct": 15,
+      "url": "https://store.steampowered.com/app/4088370/",
+      "steamAppId": "4088370"
     }
   ]
 }
