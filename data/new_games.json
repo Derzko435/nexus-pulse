@@ -1,30 +1,55 @@
 {
- "updatedAt": "2026-10-28T12:48:57+03:00",
+ "updatedAt": "2026-10-29T13:06:58+03:00",
  "items": [
   {
    "appid": 4115450,
    "title": "Phantom Blade Zero",
    "date": "2026-10-28",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/7f882f889630270d3d3fb93825ac6f55b55e7a6c/header.jpg?t=1793104881",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/7f882f889630270d3d3fb93825ac6f55b55e7a6c/header.jpg?t=1793261976",
    "desc": "Phantom Blade Zero от S-GAME – приключения в жанре уся плюс бодрый экшен на базе Unreal Engine 5. Главному герою по имени Соул осталось жить 66 дней. Отбивайтесь от убийц, раскройте мировой заговор и защищайте то, во что верите, ценой жизни.",
    "genres": [
     "Экшены",
     "Ролевые игры"
    ],
    "platforms": [
-    "PC"
+    "PC",
+    "PlayStation"
    ],
    "stores": [
-    "Steam",
-    "Epic"
+    "Steam"
    ],
    "developer": "S-GAME Studio",
    "price": "3999 руб.",
    "url": "https://store.steampowered.com/app/4115450/",
    "links": {
-    "steam": "https://store.steampowered.com/app/4115450/",
-    "epic": "https://store.epicgames.com/ru/p/phantom-blade-zero-e78a35"
-   }
+    "steam": "https://store.steampowered.com/app/4115450/"
+   },
+   "reviews": 4077
+  },
+  {
+   "appid": 4348910,
+   "title": "Probably Stolen – симулятор магазина в киберпанке",
+   "date": "2026-10-28",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/d80d1aaf073c202bc793247bdc4c0504dfe28869/header_alt_assets_3_russian.jpg?t=1793220934",
+   "desc": "В этом симуляторе магазина на мрачной киберпанковой космической станции вы будете создавать полезные вещи из хлама, торговать (легально и не очень) товарами сомнительного происхождения и разбираться в отношениях между фракциями. Решайте сами, на что вы готовы пойти, чтобы остаться на плаву.",
+   "genres": [
+    "Инди",
+    "Ролевые игры",
+    "Симуляторы"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Questing Goose Studio",
+   "price": "449 руб.",
+   "url": "https://store.steampowered.com/app/4348910/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4348910/"
+   },
+   "reviews": 1418
   },
   {
    "appid": 5335510,
@@ -49,7 +74,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/5335510/"
    },
-   "reviews": 1870
+   "reviews": 2439
   },
   {
    "appid": 2887580,
@@ -76,30 +101,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/2887580/"
    },
-   "reviews": 4150
-  },
-  {
-   "appid": 4760480,
-   "title": "You Are Empty: Абсолютное издание",
-   "date": "2026-10-27",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4760480/e969dc6ff67c3a1b67bda4a993a4594248aa5347/header_russian.jpg?t=1793109399",
-   "desc": "Альтернативные 1950-е годы, советский Киев. Большая часть населения города загадочным образом исчезла, а по заброшенным улицам бродят жуткие монстры. Сможете ли вы выяснить причину катастрофы и всё исправить?",
-   "genres": [
-    "Экшены"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Digital Spray Studios, Mandel ArtPlains",
-   "price": "385 руб.",
-   "url": "https://store.steampowered.com/app/4760480/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4760480/"
-   },
-   "reviews": 179
+   "reviews": 4204
   },
   {
    "appid": 1203620,
@@ -125,7 +127,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/1203620/"
    },
-   "reviews": 98173
+   "reviews": 98336
   },
   {
    "appid": 4312190,
@@ -151,18 +153,16 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4312190/"
    },
-   "reviews": 309
+   "reviews": 495
   },
   {
-   "appid": 4487060,
-   "title": "Northgard Battlegrounds",
+   "appid": 4760480,
+   "title": "You Are Empty: Абсолютное издание",
    "date": "2026-10-27",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4487060/a727cba49adb19cda24176c4314b049dfc999b42/header_alt_assets_4_russian.jpg?t=1793117773",
-   "desc": "Градостроительная стратегия с автобоями в мире викингов Нордгарде, где каждое построенное здание определяет судьбу клана. Развивайте деревню, заручайтесь благословением богов и посылайте свою дружину в бой против соперников! Считается каждый ход, ведь останется только один клан.",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4760480/e969dc6ff67c3a1b67bda4a993a4594248aa5347/header_russian.jpg?t=1793109399",
+   "desc": "Альтернативные 1950-е годы, советский Киев. Большая часть населения города загадочным образом исчезла, а по заброшенным улицам бродят жуткие монстры. Сможете ли вы выяснить причину катастрофы и всё исправить?",
    "genres": [
-    "Казуальные игры",
-    "Инди",
-    "Симуляторы"
+    "Экшены"
    ],
    "platforms": [
     "PC"
@@ -170,12 +170,13 @@
    "stores": [
     "Steam"
    ],
-   "developer": "Funday Games",
-   "price": "629 руб.",
-   "url": "https://store.steampowered.com/app/4487060/",
+   "developer": "Digital Spray Studios, Mandel ArtPlains",
+   "price": "385 руб.",
+   "url": "https://store.steampowered.com/app/4760480/",
    "links": {
-    "steam": "https://store.steampowered.com/app/4487060/"
-   }
+    "steam": "https://store.steampowered.com/app/4760480/"
+   },
+   "reviews": 278
   },
   {
    "appid": 2223980,
@@ -199,7 +200,8 @@
    "url": "https://store.steampowered.com/app/2223980/",
    "links": {
     "steam": "https://store.steampowered.com/app/2223980/"
-   }
+   },
+   "reviews": 168
   },
   {
    "appid": 1737870,
@@ -224,57 +226,31 @@
    "links": {
     "steam": "https://store.steampowered.com/app/1737870/"
    },
-   "reviews": 3163
+   "reviews": 3193
   },
   {
-   "appid": 4126040,
-   "title": "Aniimo",
-   "date": "2026-09-15",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/bf9b76d25ac135baf8f313d9a095e754fd2e950b/header.jpg?t=1792986240",
-   "desc": "Во время своего путешествия вы сможете объединяться с анимо и фактически становиться любым анимо из своей коллекции. Используйте навыки анимо, чтобы решать головоломки, побеждать в битвах и преодолевать испытания! Объединяйтесь с анимо и открывайте мир с совершенно новой стороны.",
+   "appid": 5072430,
+   "title": "Ghost in the SQL Data",
+   "date": "2026-10-29",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5072430/51f9c7715c2f874443595ae9e76269b02444c496/header.jpg?t=1793261054",
+   "desc": "Звонок о пожаре в школе поступил за 14 минут до того, как пожар заметил первый свидетель. Изучите с помощью SQL годовой архив экстренных вызовов Парижа и выясните, кто звонил.",
    "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Многопользовательские игры"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Pawprint Studio",
-   "price": "Бесплатно",
-   "url": "https://store.steampowered.com/app/4126040/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4126040/"
-   }
-  },
-  {
-   "appid": 2929250,
-   "title": "over the hill",
-   "date": "2026-10-14",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/header.jpg?t=1793102846",
-   "desc": "Откройте для себя мир в золотой век бездорожья. За рулем культовых внедорожников 60–80-х годов — в одиночку или с друзьями — покоряйте сложные трассы и исследуйте живописные места.",
-   "genres": [
-    "Приключенческие игры",
-    "Казуальные игры",
-    "Инди"
+    "Симуляторы",
+    "Стратегии"
    ],
    "platforms": [
     "PC",
-    "Linux"
+    "Mac"
    ],
    "stores": [
     "Steam"
    ],
-   "developer": "Funselektor Labs Inc.",
-   "price": "840 руб.",
-   "url": "https://store.steampowered.com/app/2929250/",
+   "developer": "Isaac MENARD",
+   "price": "418 руб.",
+   "url": "https://store.steampowered.com/app/5072430/",
    "links": {
-    "steam": "https://store.steampowered.com/app/2929250/"
-   },
-   "reviews": 4196
+    "steam": "https://store.steampowered.com/app/5072430/"
+   }
   },
   {
    "appid": 4954910,
@@ -299,7 +275,32 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4954910/"
    },
-   "reviews": 3884
+   "reviews": 4034
+  },
+  {
+   "appid": 940230,
+   "title": "Geoplanetical",
+   "date": "2026-10-28",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/940230/cd3828ba0e43c85eeccb5c1705112278bb32dcf6/header.jpg?t=1793199295",
+   "desc": "Геополитический симулятор, который начинается 1 января 2026 года, с миром таким, каким он был в тот день. Более 200 стран и территорий, в роли правительства или оппозиции: законы, бюджет, выборы, забастовки, дипломатия, война. Остальной мир не ждёт. Ни сценариев, ни даты окончания.",
+   "genres": [
+    "Инди",
+    "Симуляторы",
+    "Ранний доступ"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Polytale Games",
+   "price": "1709 руб.",
+   "url": "https://store.steampowered.com/app/940230/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/940230/"
+   },
+   "reviews": 130
   },
   {
    "appid": 4080220,

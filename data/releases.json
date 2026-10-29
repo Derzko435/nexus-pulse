@@ -1,56 +1,6 @@
 {
- "updatedAt": "2026-10-28T12:48:21+03:00",
+ "updatedAt": "2026-10-29T13:06:25+03:00",
  "items": [
-  {
-   "appid": 4115450,
-   "title": "Phantom Blade Zero",
-   "date": "2026-10-28",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/7f882f889630270d3d3fb93825ac6f55b55e7a6c/header.jpg?t=1793104881",
-   "desc": "Phantom Blade Zero от S-GAME – приключения в жанре уся плюс бодрый экшен на базе Unreal Engine 5. Главному герою по имени Соул осталось жить 66 дней. Отбивайтесь от убийц, раскройте мировой заговор и защищайте то, во что верите, ценой жизни.",
-   "genres": [
-    "Экшены",
-    "Ролевые игры"
-   ],
-   "platforms": [
-    "PC",
-    "PlayStation"
-   ],
-   "stores": [
-    "Steam",
-    "Epic"
-   ],
-   "developer": "S-GAME Studio",
-   "price": "3999 руб.",
-   "url": "https://store.steampowered.com/app/4115450/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4115450/",
-    "epic": "https://store.epicgames.com/ru/p/phantom-blade-zero-e78a35"
-   }
-  },
-  {
-   "appid": 4348910,
-   "title": "Probably Stolen – симулятор магазина в киберпанке",
-   "date": "2026-10-28",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/837d8597c8e8f6c8f75c4b35fc435d780803a922/header.jpg?t=1793171318",
-   "desc": "В этом симуляторе магазина на мрачной киберпанковой космической станции вы будете создавать полезные вещи из хлама, торговать (легально и не очень) товарами сомнительного происхождения и разбираться в отношениях между фракциями. Решайте сами, на что вы готовы пойти, чтобы остаться на плаву.",
-   "genres": [
-    "Инди",
-    "Ролевые игры",
-    "Симуляторы"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Questing Goose Studio",
-   "price": "",
-   "url": "https://store.steampowered.com/app/4348910/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4348910/"
-   }
-  },
   {
    "appid": 1798230,
    "title": "ATMOSFAR",
@@ -79,7 +29,7 @@
    "appid": 3672840,
    "title": "Joe & Mac Retro Collection",
    "date": "2026-10-29",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3672840/9d43a7feb261649b89724d8d50aa2a14f4cbd522/header.jpg?t=1791376692",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3672840/9d43a7feb261649b89724d8d50aa2a14f4cbd522/header.jpg?t=1793201374",
    "desc": "Joe & Mac: Caveman Ninja, известная как Joe & Mac и Caveman Ninja в США и как Joe & Mac: Tatakae Genshiji в Японии — видеоигра в жанре платформер, разработанная компанией New World Computing Incorporated и изданная Data East Corporation в 1991 году.",
    "genres": [
     "Платформер"
@@ -94,7 +44,7 @@
     "Steam"
    ],
    "developer": "Red Art Games",
-   "price": "",
+   "price": "900 руб.",
    "url": "https://store.steampowered.com/app/3672840/",
    "links": {
     "steam": "https://store.steampowered.com/app/3672840/",
@@ -127,6 +77,31 @@
    "source": "wiki"
   },
   {
+   "appid": 4115450,
+   "title": "Phantom Blade Zero",
+   "date": "2026-10-29",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/7f882f889630270d3d3fb93825ac6f55b55e7a6c/header.jpg?t=1793261976",
+   "desc": "Phantom Blade Zero — компьютерная игра в жанре action RPG, разработанная китайской студией S-GAME для Windows и PlayStation 5. Игра представляет собой экшен от третьего лица с динамичными боями, действие которого происходит в мрачном мире, вдохновлённом китайским боевым фэнтези (уся). Phantom Blade…",
+   "genres": [
+    "Экшен-RPG"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "S-GAME",
+   "price": "3999 руб.",
+   "url": "https://store.steampowered.com/app/4115450/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4115450/",
+    "wiki": "https://ru.wikipedia.org/wiki/Phantom_Blade_Zero"
+   },
+   "source": "wiki"
+  },
+  {
    "appid": "x-rv-there-yet",
    "title": "RV There Yet?",
    "date": "2026-10-29",
@@ -145,6 +120,28 @@
    "url": "https://en.wikipedia.org/wiki/RV_There_Yet%3F",
    "links": {
     "wiki": "https://en.wikipedia.org/wiki/RV_There_Yet%3F"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-sword-of-sea",
+   "title": "Sword of the Sea",
+   "date": "2026-10-29",
+   "image": "https://upload.wikimedia.org/wikipedia/en/f/f7/Sword_of_the_Sea_cover_art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Sword of the Sea — приключенческая видеоигра 2025 года, разработанная и изданная Giant Squid. В нем игрок берет на себя управление персонажем по имени Рэйф, который ездит на «парящем мече», чтобы вернуть жизнь в бесплодную пустошь. Игра вышла на PlayStation 5 и Windows 19 августа 2025 года.",
+   "genres": [
+    "Приключение"
+   ],
+   "platforms": [
+    "Xbox",
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Giant Squid",
+   "price": "",
+   "url": "https://en.wikipedia.org/wiki/Sword_of_the_Sea",
+   "links": {
+    "wiki": "https://en.wikipedia.org/wiki/Sword_of_the_Sea"
    },
    "source": "wiki"
   },
@@ -247,7 +244,7 @@
    "appid": 3218230,
    "title": "ArcheAge Chronicles",
    "date": "2026-11-03",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218230/header.jpg?t=1793118286",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218230/header.jpg?t=1793259958",
    "desc": "Откройте для себя Аврорию — бескрайний яркий мир, где хватает захватывающих историй и приключений. Игровой опыт ArcheAge Chronicles покорит и новичков в этом атмосферном мире, и опытных искателей приключений.",
    "genres": [
     "Экшены",
@@ -439,7 +436,7 @@
    "appid": 3629430,
    "title": "DREADMOOR",
    "date": "2026-11-09",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3629430/5b80c132b3479c69a92c25a5266db523850cfc36/header.jpg?t=1792583732",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3629430/5b80c132b3479c69a92c25a5266db523850cfc36/header.jpg?t=1793260945",
    "desc": "DREADMOOR – мрачное рыболовное приключение от первого лица в затопленном мире, пережившем страшную катастрофу. Ловите рыбу в мутных водах, улучшайте свой катер, создавайте снаряжение для выживания и сражайтесь с чудовищами, что таятся под водой и на суше.",
    "genres": [
     "Экшены",
@@ -463,7 +460,7 @@
    "appid": 2523740,
    "title": "DreamWorks Shrek 2 Remastered",
    "date": "2026-11-10",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523740/abfa94e9a286146554386662e218aae82716711f/header.jpg?t=1792599321",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523740/abfa94e9a286146554386662e218aae82716711f/header.jpg?t=1793228874",
    "desc": "DreamWorks Shrek 2 Remastered: культовое классическое совместное приключение, требующее нажатия кнопок, возвращается со всеми вашими любимыми персонажами и улучшенной графикой.",
    "genres": [
     "Приключенческие игры"
@@ -485,7 +482,7 @@
    "appid": 4530370,
    "title": "Football Manager 27",
    "date": "2026-11-10",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/32b41d18ffaac3d2e1dc1a9c3915538db0ba3fca/header.jpg?t=1793174618",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/32b41d18ffaac3d2e1dc1a9c3915538db0ba3fca/header.jpg?t=1793248831",
    "desc": "Пользуйтесь тактической доской, бегите к бровке — все меняется ради того, чтобы управление становилось удобнее, а мир футбола — живее. Выходит 10 ноября.",
    "genres": [
     "Спортивный менеджер"
@@ -532,29 +529,6 @@
    "url": "https://store.steampowered.com/app/3669620/",
    "links": {
     "steam": "https://store.steampowered.com/app/3669620/"
-   }
-  },
-  {
-   "appid": 4707700,
-   "title": "Gold Mining Simulator - Definitive Edition",
-   "date": "2026-11-11",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4707700/237c89fd2bc02e85a7c3ee9dc77821cce270d572/header_alt_assets_0.jpg?t=1793179521",
-   "desc": "Gold Mining Simulator: Definitive Edition - окончательная версия игры, включающая все ранее выпущенные дополнения, новый контент, улучшения игрового процесса и графики, а также множество изменений, повышающих удобство игры, - всё для максимально полного опыта золотодобычи.",
-   "genres": [
-    "Инди",
-    "Симуляторы"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Code Horizon",
-   "price": "1312,50 руб.",
-   "url": "https://store.steampowered.com/app/4707700/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4707700/"
    }
   },
   {
@@ -624,6 +598,53 @@
     "wiki": "https://en.wikipedia.org/wiki/Pikmin_4"
    },
    "source": "wiki"
+  },
+  {
+   "appid": 4171850,
+   "title": "Trees Hate You",
+   "date": "2026-11-16",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4171850/4550c09c2fa41435b7b695f31460bea297d4ce15/header.jpg?t=1793086727",
+   "desc": "Прогуляйтесь по самому худшему лесу с самыми отвратительными деревьями. Не доверяйте им. Деревья вас обманут. Они вас обидят. Сделают вам больно. Вот бы топор найти...",
+   "genres": [
+    "Приключенческие игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC",
+    "Linux"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Tykenn",
+   "price": "",
+   "url": "https://store.steampowered.com/app/4171850/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4171850/"
+   }
+  },
+  {
+   "appid": 4707700,
+   "title": "Gold Mining Simulator - Definitive Edition",
+   "date": "2026-11-17",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4707700/237c89fd2bc02e85a7c3ee9dc77821cce270d572/header_alt_assets_0.jpg?t=1793185065",
+   "desc": "Gold Mining Simulator: Definitive Edition - окончательная версия игры, включающая все ранее выпущенные дополнения, новый контент, улучшения игрового процесса и графики, а также множество изменений, повышающих удобство игры, - всё для максимально полного опыта золотодобычи.",
+   "genres": [
+    "Инди",
+    "Симуляторы"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Code Horizon",
+   "price": "1312,50 руб.",
+   "url": "https://store.steampowered.com/app/4707700/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4707700/"
+   }
   },
   {
    "appid": "x-grand-theft-auto-vi",
@@ -1301,6 +1322,30 @@
    "source": "wiki"
   },
   {
+   "appid": 1846700,
+   "title": "Witchbrook",
+   "date": "2027-01-28",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1846700/957b7e61bf8cb5e91f5dce21403a4288d78fb7b7/header.jpg?t=1793203606",
+   "desc": "Погрузитесь в очаровательный симулятор жизни волшебников максимум на 4 игроков. Постройте карьеру волшебника или ведьмы в оживленном приморском городке Мохопорте. Заводите друзей и возлюбленных, творите чудеса, исследуйте этот чудный мир и получите диплом волшебника!",
+   "genres": [
+    "Инди",
+    "Ролевые игры",
+    "Симуляторы"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Chucklefish, Robotality",
+   "price": "",
+   "url": "https://store.steampowered.com/app/1846700/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/1846700/"
+   }
+  },
+  {
    "appid": 5097820,
    "title": "Astonishia Story",
    "date": "2027-02-11",
@@ -1461,6 +1506,29 @@
    "url": "https://ru.wikipedia.org/wiki/007_First_Light",
    "links": {
     "wiki": "https://ru.wikipedia.org/wiki/007_First_Light"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-super-battle-golf",
+   "title": "Super Battle Golf",
+   "date": "2027-03-25",
+   "image": "https://upload.wikimedia.org/wikipedia/en/e/e8/Super_Battle_Golf_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Super Battle Golf — это многопользовательская видеоигра в гольф 2026 года, разработанная Brimstone и изданная Oro Interactive. Он был выпущен 19 февраля 2026 года для Windows, а версии для Nintendo Switch 2, PlayStation 5 и Xbox Series X/S появятся 25 марта 2027 года.",
+   "genres": [
+    "Спорт"
+   ],
+   "platforms": [
+    "PlayStation",
+    "Xbox",
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Brimstone",
+   "price": "",
+   "url": "https://en.wikipedia.org/wiki/Super_Battle_Golf",
+   "links": {
+    "wiki": "https://en.wikipedia.org/wiki/Super_Battle_Golf"
    },
    "source": "wiki"
   }
