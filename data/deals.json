@@ -1,17 +1,7 @@
 {
-  "updatedAt": "2026-10-29T09:01:11+03:00",
+  "updatedAt": "2026-10-29T16:20:49+03:00",
   "source": "steam-specials-ru",
   "deals": [
-    {
-      "id": "steam-1449690",
-      "title": "The Walking Dead: The Telltale Definitive Series",
-      "store": "Steam",
-      "old": 1600,
-      "neu": 160,
-      "pct": 90,
-      "url": "https://store.steampowered.com/app/1449690/",
-      "steamAppId": "1449690"
-    },
     {
       "id": "steam-1167950",
       "title": "Vampire's Fall: Origins",
@@ -53,6 +43,16 @@
       "steamAppId": "1304930"
     },
     {
+      "id": "steam-221100",
+      "title": "DayZ",
+      "store": "Steam",
+      "old": 2790,
+      "neu": 1395,
+      "pct": 50,
+      "url": "https://store.steampowered.com/app/221100/",
+      "steamAppId": "221100"
+    },
+    {
       "id": "steam-252490",
       "title": "Rust",
       "store": "Steam",
@@ -61,16 +61,6 @@
       "pct": 50,
       "url": "https://store.steampowered.com/app/252490/",
       "steamAppId": "252490"
-    },
-    {
-      "id": "steam-5107740",
-      "title": "Аспирантура по-британски",
-      "store": "Steam",
-      "old": 465,
-      "neu": 279,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5107740/",
-      "steamAppId": "5107740"
     },
     {
       "id": "steam-3241660",
@@ -83,24 +73,24 @@
       "steamAppId": "3241660"
     },
     {
-      "id": "steam-3870620",
-      "title": "Hand-me-downs",
+      "id": "steam-5429300",
+      "title": "Closing Time at the Wooden Toy Shop",
       "store": "Steam",
-      "old": 385,
-      "neu": 288,
+      "old": 195,
+      "neu": 146,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/3870620/",
-      "steamAppId": "3870620"
+      "url": "https://store.steampowered.com/app/5429300/",
+      "steamAppId": "5429300"
     },
     {
-      "id": "steam-1462700",
-      "title": "The Dark Method",
+      "id": "steam-2482760",
+      "title": "Hunting Simulator 3",
       "store": "Steam",
-      "old": 465,
-      "neu": 353,
-      "pct": 24,
-      "url": "https://store.steampowered.com/app/1462700/",
-      "steamAppId": "1462700"
+      "old": 2199,
+      "neu": 1759,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/2482760/",
+      "steamAppId": "2482760"
     },
     {
       "id": "steam-2887580",
@@ -113,34 +103,44 @@
       "steamAppId": "2887580"
     },
     {
-      "id": "steam-4849410",
-      "title": "LOOPY",
+      "id": "steam-3884860",
+      "title": "The Wolf Among Us Remastered",
       "store": "Steam",
-      "old": 465,
-      "neu": 372,
+      "old": 1050,
+      "neu": 840,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/4849410/",
-      "steamAppId": "4849410"
+      "url": "https://store.steampowered.com/app/3884860/",
+      "steamAppId": "3884860"
     },
     {
-      "id": "steam-5264110",
-      "title": "First Round Hit - The Long Range Shooting Simulator",
+      "id": "steam-5197480",
+      "title": "Everest: Survival Simulator",
       "store": "Steam",
-      "old": 385,
-      "neu": 308,
+      "old": 890,
+      "neu": 712,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/5264110/",
-      "steamAppId": "5264110"
+      "url": "https://store.steampowered.com/app/5197480/",
+      "steamAppId": "5197480"
     },
     {
-      "id": "steam-4985550",
-      "title": "Elder Hills",
+      "id": "steam-3407360",
+      "title": "Pardon My French Toast",
       "store": "Steam",
-      "old": 240,
-      "neu": 192,
+      "old": 710,
+      "neu": 568,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/4985550/",
-      "steamAppId": "4985550"
+      "url": "https://store.steampowered.com/app/3407360/",
+      "steamAppId": "3407360"
+    },
+    {
+      "id": "steam-5119940",
+      "title": "Shadow Rulers: World Order",
+      "store": "Steam",
+      "old": 445,
+      "neu": 356,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/5119940/",
+      "steamAppId": "5119940"
     }
   ]
 }

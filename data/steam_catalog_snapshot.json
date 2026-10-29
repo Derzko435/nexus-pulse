@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T09:01:06+03:00",
+  "updatedAt": "2026-10-29T16:20:44+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -452,6 +452,22 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
+      "appid": "1449690",
+      "name": "The Walking Dead: The Telltale Definitive Series",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/header.jpg?t=1760651835",
+      "genres": [
+        "Приключенческие игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "The Walking Dead: The Telltale Definitive Series содержит все четыре сезона, дополнение 400 Days и The Walking Dead: Michonne — всего 23 уникальных эпизода, которые подарят игрокам более 50 часов игры."
+    },
+    {
       "appid": "1167950",
       "name": "Vampire's Fall: Origins",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1167950/header.jpg?t=1723621830",
@@ -467,6 +483,25 @@
       },
       "metacritic": null,
       "short_description": "В течение многих лет жители Вамп’Ира жили в мире и покое. Однако, всё чаще люди говорят о властелине тёмной магии - Чернокнижнике. Опасаясь, что слухи подтвердятся и готовясь к худшему, деревня собирает отряд сопротивления."
+    },
+    {
+      "appid": "242760",
+      "name": "The Forest",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg?t=1699381053",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 83,
+      "short_description": "As the lone survivor of a passenger jet crash, you find yourself in a mysterious forest battling to stay alive against a society of cannibalistic mutants. Build, explore, survive in this terrifying first person survival horror simulator."
     },
     {
       "appid": "1326470",
@@ -526,15 +561,14 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
-      "appid": "3583270",
-      "name": "Shipwreck Discovery",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3583270/be14ea4720e38ba964d9121a524e11b3cc23a2c8/header.jpg?t=1793229827",
+      "appid": "5107740",
+      "name": "Аспирантура по-британски",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5107740/aebdc195b1349c8c44d36b0790e783a620635523/header_russian.jpg?t=1793230908",
       "genres": [
-        "Приключенческие игры",
         "Казуальные игры",
         "Инди",
-        "Симуляторы",
-        "Стратегии"
+        "Ролевые игры",
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
@@ -543,29 +577,12 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Dive real shipwrecks off Destin, Florida in VR. Every level starts with 70 to 100 lionfish. Spear them, burn algae off the hulls, race a scooter around the SS United States and grow coral that keeps growing between dives, guided by marine scientist Dr. Steve Gittings."
-    },
-    {
-      "appid": "5233670",
-      "name": "Just One More Coin",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5233670/5c92e128abf5282a42ca83670982cc9ab2aa9d8a/header.jpg?t=1793233572",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Just One More Coin — расслабляющая игра, в которой ты копаешься в огромной горе золота спящего дракона. Зарабатывай деньги, улучшай снаряжение и прокладывай себе путь сквозь триллионы монет в поисках единственного золотого ключа."
+      "short_description": "Пиксельный симулятор жизни о том, как пережить аспирантуру в Британии. Распределяйте время, пишите диссертацию, ходите на рыбалку, влюбляйтесь и испытывайте удачу в казино. Придирчивые рецензенты, горящие дедлайны и защита превращаются в пошаговые карточные бои."
     },
     {
       "appid": "3241660",
       "name": "R.E.P.O.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/1ea445e044a2d5b09cfa8291350b63ebed6e5741/header.jpg?t=1791817973",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/62177765c05399116f0453fe1177b00ceed698c4/header_alt_assets_3.jpg?t=1793278962",
       "genres": [
         "Экшены",
         "Ранний доступ"
@@ -580,64 +597,10 @@
       "short_description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
     },
     {
-      "appid": "1673030",
-      "name": "NyanGo",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1673030/9aa021922cde55074346e532511b87064842f7d5/header.jpg?t=1793226536",
+      "appid": "3870620",
+      "name": "Hand-me-downs",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3870620/6ddcb38ca1dcab51ab013bfbdf0ed6066395feb0/header.jpg?t=1793251337",
       "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "A 4×4 &quot;push-style Go&quot; played with adorable cat pieces. Place, move, and push—surround your opponent's cats to win. Pushed cats get stunned, and a cat stunned 3 times shatters! Easy to learn, deep to master. Play online or challenge the CPU."
-    },
-    {
-      "appid": "3228900",
-      "name": "The Kharzov Effect",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3228900/6aa320cac4d8978e5857329d0753aae7efce3589/header.jpg?t=1793206986",
-      "genres": [
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "1985 год. Ваш друг исчез в окутанном туманом поместье профессора Харзова. Скрывающиеся монстры. Загадки квест-комнат. Таинственные легенды. Теперь спасите его."
-    },
-    {
-      "appid": "5304700",
-      "name": "Coins Must Be Made",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5304700/9aa9b56dcd39516a25cfdc916fdc96d14a6cbe76/header.jpg?t=1793224986",
-      "genres": [
-        "Экшены",
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Дави гоблинов волшебным штампом и чекань монеты в этом инкрементальном рогалайте с активным геймплеем. Трать выручку на ветки дерева улучшений, но оставляй достаточно, чтобы заплатить королевский налог до истечения срока."
-    },
-    {
-      "appid": "5018030",
-      "name": "Duo Control",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5018030/81430df66642d96f4eb07316969e73a978e08c27/header.jpg?t=1793212425",
-      "genres": [
-        "Экшены",
         "Казуальные игры",
         "Инди",
         "Стратегии"
@@ -649,7 +612,25 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Two players, one character. One of you moves (Keyboard), the other aims and shoots (Mouse). Let's see if you and your friend are really as good a team as you think you are. ⭐"
+      "short_description": "A roguelike deckbuilder where your opponents steal your cards and use them against you. Outplay your opponents with card positioning. Corrupt your cards to bend the rules in your favour. Collect trinkets to gain full control of the table."
+    },
+    {
+      "appid": "1462700",
+      "name": "The Dark Method",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462700/header.jpg?t=1793241458",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Either play the lengthy 18 chapter story driven campaign where you get to explore scary environments, solve classic adventure game style puzzles and battle monsters along the way OR jump into randomly generated mansion to exorcise the hauntings for a scarier experience."
     },
     {
       "appid": "2887580",
@@ -669,32 +650,12 @@
       "short_description": "Присоединяйтесь к рейдам за добычей или PvP-сражениям в этом новом реалистичном военном шутере, в мире расколотой мультивселенной. Сражайтесь в квантово-нестабильных зонах за контроль над активной материей — веществом, искривляющим время и пространство."
     },
     {
-      "appid": "4614060",
-      "name": "Exium: Theia",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4614060/994718a73d35f9f9d88deb39509df821e8d8e2d5/header.jpg?t=1793206973",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "A solo-developed, old-school open-world sci-fi RPG. Explore the hostile world of Theia, complete quests, scavenge for weapons and supplies, survive dangerous creatures and factions, and uncover the secrets of an ancient civilization."
-    },
-    {
-      "appid": "5363360",
-      "name": "Old School Baseball",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5363360/6e6906c7cf2d11bf46f475eee4328af823519685/header.jpg?t=1793226204",
+      "appid": "4849410",
+      "name": "LOOPY",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4849410/4fa6dd2f58ef9437621d48f23601252561e98240/header.jpg?t=1793244582",
       "genres": [
         "Казуальные игры",
-        "Инди",
-        "Спорт"
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -703,7 +664,40 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Baseball like it's 1985. Fast arcade play where the field decides the hit: the scoring zones shuffle every half-inning. Time your swing, paint the corners, and play a 42-game season all the way to the playoffs."
+      "short_description": "LOOPY is the lab’s daily Slitherlink arena: Outrun neon, nine ranked protocols a day, arcade rules that shift under you, weekly/monthly circuits (Gauntlet, Megaloop, Throne Rush), and a synthwave score locked to every mode. Close the loop. Climb the board. No ads. No IAP."
+    },
+    {
+      "appid": "5264110",
+      "name": "First Round Hit - The Long Range Shooting Simulator",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5264110/11efef15113dd171b6c4c8c80a0ad2c9facc73f2/header.jpg?t=1793227891",
+      "genres": [
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "First Round Hit is a long-range shooting simulator focused on range estimation, ballistic reference data, environmental conditions, wind estimation, scope adjustments, and first-round accuracy."
+    },
+    {
+      "appid": "4985550",
+      "name": "Elder Hills",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4985550/eb1b9a2e80c0082dec7a2d2ec2e3c3f80c8846e1/header.jpg?t=1793253364",
+      "genres": [
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Survive fifteen minutes on six hills against rhythm-possessed hordes. Discover 29 weapons, 27 evolutions and 15 super evolutions across 8 classes. A dark-fantasy beat driven bullet-heaven roguelite. Let the rhythm set you free."
     }
   ]
 }
