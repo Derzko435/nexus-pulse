@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T01:42:51+03:00",
+  "updatedAt": "2026-10-29T09:01:06+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -452,13 +452,12 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "1496590",
-      "name": "Tchia",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1496590/header.jpg?t=1772227146",
+      "appid": "1167950",
+      "name": "Vampire's Fall: Origins",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1167950/header.jpg?t=1723621830",
       "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
+        "Инди",
+        "Ролевые игры"
       ],
       "is_free": false,
       "platforms": {
@@ -467,26 +466,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Тропическое приключение в открытом мире. Карабкайтесь, скользите, плавайте, управляйте лодкой, обходя чудесные острова и изучая мир-«песочницу» с реалистичной физикой. Берите под свой контроль животных предметы и играйте на укулеле."
-    },
-    {
-      "appid": "242760",
-      "name": "The Forest",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg?t=1699381053",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": 83,
-      "short_description": "As the lone survivor of a passenger jet crash, you find yourself in a mysterious forest battling to stay alive against a society of cannibalistic mutants. Build, explore, survive in this terrifying first person survival horror simulator."
+      "short_description": "В течение многих лет жители Вамп’Ира жили в мире и покое. Однако, всё чаще люди говорят о властелине тёмной магии - Чернокнижнике. Опасаясь, что слухи подтвердятся и готовясь к худшему, деревня собирает отряд сопротивления."
     },
     {
       "appid": "1326470",
@@ -546,28 +526,14 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
-      "appid": "1782800",
-      "name": "Trivasion",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1782800/06ce7f3efee20225c1e8bfe3777e5deeb56aee0f/header.jpg?t=1793199461",
+      "appid": "3583270",
+      "name": "Shipwreck Discovery",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3583270/be14ea4720e38ba964d9121a524e11b3cc23a2c8/header.jpg?t=1793229827",
       "genres": [
-        "Экшены",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Survive against a swarm of geometric enemies and the bosses guarding your way forward in this fast, minimalist arcade survival game. Bounce, boost, and slide through the chaos, chain kills to build your multiplier, and chase the leaderboard. Simple to pick up, brutal to master."
-    },
-    {
-      "appid": "5369000",
-      "name": "Crownmason",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5369000/7c99ed7fd1e8bac1980777f52cbad26d3da42499/header.jpg?t=1793202921",
-      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
         "Инди",
+        "Симуляторы",
         "Стратегии"
       ],
       "is_free": false,
@@ -577,14 +543,64 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Crownmason is a turn-based, castle-building autobattler: armies fight on their own, and only a dead king ends the match. Seven factions, a card draft, and matches against the AI, on LAN or online."
+      "short_description": "Dive real shipwrecks off Destin, Florida in VR. Every level starts with 70 to 100 lionfish. Spear them, burn algae off the hulls, race a scooter around the SS United States and grow coral that keeps growing between dives, guided by marine scientist Dr. Steve Gittings."
     },
     {
-      "appid": "4057670",
-      "name": "The Midnighters",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4057670/2e0c7df5888b3c1ecae84109fd8e434e5758e272/header.jpg?t=1793203180",
+      "appid": "5233670",
+      "name": "Just One More Coin",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5233670/5c92e128abf5282a42ca83670982cc9ab2aa9d8a/header.jpg?t=1793233572",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Just One More Coin — расслабляющая игра, в которой ты копаешься в огромной горе золота спящего дракона. Зарабатывай деньги, улучшай снаряжение и прокладывай себе путь сквозь триллионы монет в поисках единственного золотого ключа."
+    },
+    {
+      "appid": "3241660",
+      "name": "R.E.P.O.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/1ea445e044a2d5b09cfa8291350b63ebed6e5741/header.jpg?t=1791817973",
       "genres": [
         "Экшены",
+        "Ранний доступ"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
+    },
+    {
+      "appid": "1673030",
+      "name": "NyanGo",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1673030/9aa021922cde55074346e532511b87064842f7d5/header.jpg?t=1793226536",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A 4×4 &quot;push-style Go&quot; played with adorable cat pieces. Place, move, and push—surround your opponent's cats to win. Pushed cats get stunned, and a cat stunned 3 times shatters! Easy to learn, deep to master. Play online or challenge the CPU."
+    },
+    {
+      "appid": "3228900",
+      "name": "The Kharzov Effect",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3228900/6aa320cac4d8978e5857329d0753aae7efce3589/header.jpg?t=1793206986",
+      "genres": [
         "Приключенческие игры",
         "Инди"
       ],
@@ -595,14 +611,35 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Кооперативный хоррор для 1–4 игроков. Ищите зарытые сокровища с детектором, продавайте добычу и исследуйте проклятую деревню. По мере потери рассудка галлюцинации искажают реальность. Решайте ритуальные головоломки и встречайте скрывающихся во тьме существ."
+      "short_description": "1985 год. Ваш друг исчез в окутанном туманом поместье профессора Харзова. Скрывающиеся монстры. Загадки квест-комнат. Таинственные легенды. Теперь спасите его."
     },
     {
-      "appid": "4559890",
-      "name": "Blockflow",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4559890/1d211f3a2234810e46937225135f0a5f971a6a57/header.jpg?t=1793203016",
+      "appid": "5304700",
+      "name": "Coins Must Be Made",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5304700/9aa9b56dcd39516a25cfdc916fdc96d14a6cbe76/header.jpg?t=1793224986",
       "genres": [
+        "Экшены",
         "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Дави гоблинов волшебным штампом и чекань монеты в этом инкрементальном рогалайте с активным геймплеем. Трать выручку на ветки дерева улучшений, но оставляй достаточно, чтобы заплатить королевский налог до истечения срока."
+    },
+    {
+      "appid": "5018030",
+      "name": "Duo Control",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5018030/81430df66642d96f4eb07316969e73a978e08c27/header.jpg?t=1793212425",
+      "genres": [
+        "Экшены",
+        "Казуальные игры",
+        "Инди",
         "Стратегии"
       ],
       "is_free": false,
@@ -612,7 +649,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Blockflow — рогалик-головоломка со стратегией и комбо. Очищайте линии, копите очки и выбирайте улучшения. Зарабатывайте Blockcoins, чтобы открывать фигуры и бонусы в этой затягивающей игре с мета-прогрессией!"
+      "short_description": "Two players, one character. One of you moves (Keyboard), the other aims and shoots (Mouse). Let's see if you and your friend are really as good a team as you think you are. ⭐"
     },
     {
       "appid": "2887580",
@@ -632,13 +669,12 @@
       "short_description": "Присоединяйтесь к рейдам за добычей или PvP-сражениям в этом новом реалистичном военном шутере, в мире расколотой мультивселенной. Сражайтесь в квантово-нестабильных зонах за контроль над активной материей — веществом, искривляющим время и пространство."
     },
     {
-      "appid": "2885530",
-      "name": "MeowPower!Yachiyo",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2885530/6f6dc31809ea8cec825ab191c5fa8f15d876d830/header.jpg?t=1793199678",
+      "appid": "4614060",
+      "name": "Exium: Theia",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4614060/994718a73d35f9f9d88deb39509df821e8d8e2d5/header.jpg?t=1793206973",
       "genres": [
         "Экшены",
         "Приключенческие игры",
-        "Казуальные игры",
         "Инди",
         "Ролевые игры"
       ],
@@ -649,17 +685,16 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Team up with the cats and take down the evil humans! A thrilling, cat-dancing Beat-'Em-Up Side Scroller begins!"
+      "short_description": "A solo-developed, old-school open-world sci-fi RPG. Explore the hostile world of Theia, complete quests, scavenge for weapons and supplies, survive dangerous creatures and factions, and uncover the secrets of an ancient civilization."
     },
     {
-      "appid": "4374670",
-      "name": "Timberworks",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4374670/f2f3f9b4d1fbd3ec96622a5b0b003f2e335c941a/header.jpg?t=1793199734",
+      "appid": "5363360",
+      "name": "Old School Baseball",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5363360/6e6906c7cf2d11bf46f475eee4328af823519685/header.jpg?t=1793226204",
       "genres": [
-        "Приключенческие игры",
         "Казуальные игры",
         "Инди",
-        "Симуляторы"
+        "Спорт"
       ],
       "is_free": false,
       "platforms": {
@@ -668,41 +703,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Timberworks — это инкрементальная игра об автоматизации и управлении фабриками. Начните с небольшой лесопилки, автоматизируйте производство, расширяйте железнодорожную сеть и постройте огромную промышленную империю."
-    },
-    {
-      "appid": "5345490",
-      "name": "Quarantine Lab Sort",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5345490/ba93d064b3e8cc399ed8b4258bb155ef0115deea/header.jpg?t=1793196473",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Наведите порядок в лаборатории после полного хаоса! Сортируйте более 7000 предметов, исследуйте неизвестные образцы в центрифуге, ловите сбежавших животных и осторожно обращайтесь с радиоактивным мусором. Открывайте навыки и превращайте завалы в аккуратно заполненные полки."
-    },
-    {
-      "appid": "3610830",
-      "name": "Gagged Love: My MILF Neighbor",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3610830/1c413c51ba71c598d9029a4c2af059a44ae522a2/header.jpg?t=1793199730",
-      "genres": [
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "В этой короткой визуальной новелле (20–30 минут) твоя сексуальная соседка-милфа Юи просит помочь тебя починить раковину. Возможно, это твой шанс наконец-то переспать с этой красивой и недавно разведенной женщиной. А так же заклеить ее рот скотчем, чтобы она возбудилась еще сильнее."
+      "short_description": "Baseball like it's 1985. Fast arcade play where the field decides the hit: the scoring zones shuffle every half-inning. Time your swing, paint the corners, and play a 42-game season all the way to the playoffs."
     }
   ]
 }

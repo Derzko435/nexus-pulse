@@ -1,7 +1,17 @@
 {
-  "updatedAt": "2026-10-29T01:42:57+03:00",
+  "updatedAt": "2026-10-29T09:01:11+03:00",
   "source": "steam-specials-ru",
   "deals": [
+    {
+      "id": "steam-1449690",
+      "title": "The Walking Dead: The Telltale Definitive Series",
+      "store": "Steam",
+      "old": 1600,
+      "neu": 160,
+      "pct": 90,
+      "url": "https://store.steampowered.com/app/1449690/",
+      "steamAppId": "1449690"
+    },
     {
       "id": "steam-1167950",
       "title": "Vampire's Fall: Origins",
@@ -11,6 +21,16 @@
       "pct": 90,
       "url": "https://store.steampowered.com/app/1167950/",
       "steamAppId": "1167950"
+    },
+    {
+      "id": "steam-242760",
+      "title": "The Forest",
+      "store": "Steam",
+      "old": 435,
+      "neu": 87,
+      "pct": 80,
+      "url": "https://store.steampowered.com/app/242760/",
+      "steamAppId": "242760"
     },
     {
       "id": "steam-1326470",
@@ -43,24 +63,14 @@
       "steamAppId": "252490"
     },
     {
-      "id": "steam-3583270",
-      "title": "Shipwreck Discovery",
+      "id": "steam-5107740",
+      "title": "Аспирантура по-британски",
       "store": "Steam",
-      "old": 710,
-      "neu": 426,
+      "old": 465,
+      "neu": 279,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/3583270/",
-      "steamAppId": "3583270"
-    },
-    {
-      "id": "steam-5233670",
-      "title": "Just One More Coin",
-      "store": "Steam",
-      "old": 240,
-      "neu": 144,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5233670/",
-      "steamAppId": "5233670"
+      "url": "https://store.steampowered.com/app/5107740/",
+      "steamAppId": "5107740"
     },
     {
       "id": "steam-3241660",
@@ -73,44 +83,24 @@
       "steamAppId": "3241660"
     },
     {
-      "id": "steam-1673030",
-      "title": "NyanGo",
+      "id": "steam-3870620",
+      "title": "Hand-me-downs",
       "store": "Steam",
-      "old": 97,
-      "neu": 64,
-      "pct": 34,
-      "url": "https://store.steampowered.com/app/1673030/",
-      "steamAppId": "1673030"
-    },
-    {
-      "id": "steam-3228900",
-      "title": "The Kharzov Effect",
-      "store": "Steam",
-      "old": 625,
-      "neu": 443,
-      "pct": 29,
-      "url": "https://store.steampowered.com/app/3228900/",
-      "steamAppId": "3228900"
-    },
-    {
-      "id": "steam-5304700",
-      "title": "Coins Must Be Made",
-      "store": "Steam",
-      "old": 290,
-      "neu": 217,
+      "old": 385,
+      "neu": 288,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/5304700/",
-      "steamAppId": "5304700"
+      "url": "https://store.steampowered.com/app/3870620/",
+      "steamAppId": "3870620"
     },
     {
-      "id": "steam-5018030",
-      "title": "Duo Control",
+      "id": "steam-1462700",
+      "title": "The Dark Method",
       "store": "Steam",
-      "old": 240,
-      "neu": 180,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5018030/",
-      "steamAppId": "5018030"
+      "old": 465,
+      "neu": 353,
+      "pct": 24,
+      "url": "https://store.steampowered.com/app/1462700/",
+      "steamAppId": "1462700"
     },
     {
       "id": "steam-2887580",
@@ -123,24 +113,34 @@
       "steamAppId": "2887580"
     },
     {
-      "id": "steam-4614060",
-      "title": "Exium: Theia",
+      "id": "steam-4849410",
+      "title": "LOOPY",
       "store": "Steam",
       "old": 465,
       "neu": 372,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/4614060/",
-      "steamAppId": "4614060"
+      "url": "https://store.steampowered.com/app/4849410/",
+      "steamAppId": "4849410"
     },
     {
-      "id": "steam-5363360",
-      "title": "Old School Baseball",
+      "id": "steam-5264110",
+      "title": "First Round Hit - The Long Range Shooting Simulator",
       "store": "Steam",
       "old": 385,
       "neu": 308,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/5363360/",
-      "steamAppId": "5363360"
+      "url": "https://store.steampowered.com/app/5264110/",
+      "steamAppId": "5264110"
+    },
+    {
+      "id": "steam-4985550",
+      "title": "Elder Hills",
+      "store": "Steam",
+      "old": 240,
+      "neu": 192,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/4985550/",
+      "steamAppId": "4985550"
     }
   ]
 }
