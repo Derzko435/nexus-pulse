@@ -1,33 +1,32 @@
 {
-  "updatedAt": "2026-10-28T19:43:57+03:00",
+  "updatedAt": "2026-10-29T22:43:52+03:00",
   "source": "epic-promotions-api+curated",
   "note": "Epic Free Games API (RU) + кураторский Steam/GOG/Prime (Amazon Luna).",
   "items": [
     {
-      "id": "epic-6aab3ddef4f84fbc9dd81c60f9d8549c",
+      "id": "epic-a9748abde1c94b66aae5250bb9fc5503",
       "store": "Epic Games",
-      "title": "Sker Ritual",
-      "until": "2026-10-29",
-      "claimUrl": "https://store.epicgames.com/ru/p/sker-ritual-aac702",
-      "note": "Текущая раздача Epic",
-      "status": "now",
-      "startsAt": "2026-10-22T18:00:00+03:00",
-      "endsAt": "2026-10-29T18:00:00+03:00",
-      "price_rub": 749,
-      "image": "https://cdn1.epicgames.com/spt-assets/43d96f4437e34c87b7eff08831d1b1de/sker-ritual-14x61.jpg"
+      "title": "Idle Champions of the Forgotten Realms",
+      "until": "2026-11-12",
+      "claimUrl": "https://store.epicgames.com/ru/p/idle-champions-of-the-forgotten-realms",
+      "note": "Скоро бесплатно на Epic",
+      "status": "upcoming",
+      "startsAt": "2026-11-05T19:00:00+03:00",
+      "endsAt": "2026-11-12T19:00:00+03:00",
+      "image": "https://cdn1.epicgames.com/spt-assets/a53f91e55c6840018cb5de0b204f1ad9/idle-champions-of-the-forgotten-realms-1xbn9.jpg"
     },
     {
-      "id": "epic-06190191cede42afb633fe89ef08c27e",
+      "id": "epic-3be0a0d8479946d78f60d90c9442a0b4",
       "store": "Epic Games",
-      "title": "Home - A Unique Horror Adventure",
-      "until": "2026-10-29",
-      "claimUrl": "https://store.epicgames.com/ru/p/home-19212a",
-      "note": "Текущая раздача Epic",
-      "status": "now",
-      "startsAt": "2026-10-22T18:00:00+03:00",
-      "endsAt": "2026-10-29T18:00:00+03:00",
-      "price_rub": 150,
-      "image": "https://cdn1.epicgames.com/spt-assets/46fc0cdb9f164a848e916249a8f68fc7/home-1f6qi.png"
+      "title": "Flotsam",
+      "until": "2026-11-12",
+      "claimUrl": "https://store.epicgames.com/ru/p/flotsam-266287",
+      "note": "Скоро бесплатно на Epic",
+      "status": "upcoming",
+      "startsAt": "2026-11-05T19:00:00+03:00",
+      "endsAt": "2026-11-12T19:00:00+03:00",
+      "price_rub": 549,
+      "image": "https://cdn1.epicgames.com/spt-assets/5c36b876e80d4285b9993947efeeaf2b/flotsam-1yczl.jpg"
     },
     {
       "id": "steam-f2p-always",

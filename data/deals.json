@@ -1,26 +1,16 @@
 {
-  "updatedAt": "2026-10-29T16:20:49+03:00",
+  "updatedAt": "2026-10-29T22:43:49+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
-      "id": "steam-1167950",
-      "title": "Vampire's Fall: Origins",
+      "id": "steam-826940",
+      "title": "Maid of Sker",
       "store": "Steam",
-      "old": 299,
-      "neu": 29,
-      "pct": 90,
-      "url": "https://store.steampowered.com/app/1167950/",
-      "steamAppId": "1167950"
-    },
-    {
-      "id": "steam-242760",
-      "title": "The Forest",
-      "store": "Steam",
-      "old": 435,
-      "neu": 87,
-      "pct": 80,
-      "url": "https://store.steampowered.com/app/242760/",
-      "steamAppId": "242760"
+      "old": 465,
+      "neu": 88,
+      "pct": 81,
+      "url": "https://store.steampowered.com/app/826940/",
+      "steamAppId": "826940"
     },
     {
       "id": "steam-1326470",
@@ -33,26 +23,6 @@
       "steamAppId": "1326470"
     },
     {
-      "id": "steam-1304930",
-      "title": "The Outlast Trials",
-      "store": "Steam",
-      "old": 1300,
-      "neu": 390,
-      "pct": 70,
-      "url": "https://store.steampowered.com/app/1304930/",
-      "steamAppId": "1304930"
-    },
-    {
-      "id": "steam-221100",
-      "title": "DayZ",
-      "store": "Steam",
-      "old": 2790,
-      "neu": 1395,
-      "pct": 50,
-      "url": "https://store.steampowered.com/app/221100/",
-      "steamAppId": "221100"
-    },
-    {
       "id": "steam-252490",
       "title": "Rust",
       "store": "Steam",
@@ -61,6 +31,36 @@
       "pct": 50,
       "url": "https://store.steampowered.com/app/252490/",
       "steamAppId": "252490"
+    },
+    {
+      "id": "steam-5153830",
+      "title": "To Reign in Hell",
+      "store": "Steam",
+      "old": 385,
+      "neu": 238,
+      "pct": 38,
+      "url": "https://store.steampowered.com/app/5153830/",
+      "steamAppId": "5153830"
+    },
+    {
+      "id": "steam-4715160",
+      "title": "Finals Week: Последний экзамен",
+      "store": "Steam",
+      "old": 360,
+      "neu": 223,
+      "pct": 38,
+      "url": "https://store.steampowered.com/app/4715160/",
+      "steamAppId": "4715160"
+    },
+    {
+      "id": "steam-4306070",
+      "title": "Catch Meow If You Can",
+      "store": "Steam",
+      "old": 360,
+      "neu": 223,
+      "pct": 38,
+      "url": "https://store.steampowered.com/app/4306070/",
+      "steamAppId": "4306070"
     },
     {
       "id": "steam-3241660",
@@ -73,36 +73,6 @@
       "steamAppId": "3241660"
     },
     {
-      "id": "steam-5429300",
-      "title": "Closing Time at the Wooden Toy Shop",
-      "store": "Steam",
-      "old": 195,
-      "neu": 146,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5429300/",
-      "steamAppId": "5429300"
-    },
-    {
-      "id": "steam-2482760",
-      "title": "Hunting Simulator 3",
-      "store": "Steam",
-      "old": 2199,
-      "neu": 1759,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/2482760/",
-      "steamAppId": "2482760"
-    },
-    {
-      "id": "steam-2887580",
-      "title": "Active Matter",
-      "store": "Steam",
-      "old": 1499,
-      "neu": 1199,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/2887580/",
-      "steamAppId": "2887580"
-    },
-    {
       "id": "steam-3884860",
       "title": "The Wolf Among Us Remastered",
       "store": "Steam",
@@ -113,34 +83,64 @@
       "steamAppId": "3884860"
     },
     {
-      "id": "steam-5197480",
-      "title": "Everest: Survival Simulator",
+      "id": "steam-2920220",
+      "title": "Terrible Lizards",
+      "store": "Steam",
+      "old": 1050,
+      "neu": 840,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/2920220/",
+      "steamAppId": "2920220"
+    },
+    {
+      "id": "steam-4053130",
+      "title": "Abyss Depth: Control",
+      "store": "Steam",
+      "old": 170,
+      "neu": 136,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/4053130/",
+      "steamAppId": "4053130"
+    },
+    {
+      "id": "steam-5010010",
+      "title": "WHAT NUMBER?",
+      "store": "Steam",
+      "old": 150,
+      "neu": 120,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/5010010/",
+      "steamAppId": "5010010"
+    },
+    {
+      "id": "steam-95268",
+      "title": "FreshWomen Season 1 + 2 + 3",
+      "store": "Steam",
+      "old": 1254,
+      "neu": 932,
+      "pct": 17,
+      "url": "https://store.steampowered.com/app/95268/",
+      "steamAppId": "95268"
+    },
+    {
+      "id": "steam-1879270",
+      "title": "Into the Crypt",
       "store": "Steam",
       "old": 890,
-      "neu": 712,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5197480/",
-      "steamAppId": "5197480"
+      "neu": 756,
+      "pct": 15,
+      "url": "https://store.steampowered.com/app/1879270/",
+      "steamAppId": "1879270"
     },
     {
-      "id": "steam-3407360",
-      "title": "Pardon My French Toast",
+      "id": "steam-3613550",
+      "title": "Checkmage!",
       "store": "Steam",
-      "old": 710,
-      "neu": 568,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/3407360/",
-      "steamAppId": "3407360"
-    },
-    {
-      "id": "steam-5119940",
-      "title": "Shadow Rulers: World Order",
-      "store": "Steam",
-      "old": 445,
-      "neu": 356,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5119940/",
-      "steamAppId": "5119940"
+      "old": 855,
+      "neu": 726,
+      "pct": 15,
+      "url": "https://store.steampowered.com/app/3613550/",
+      "steamAppId": "3613550"
     }
   ]
 }
