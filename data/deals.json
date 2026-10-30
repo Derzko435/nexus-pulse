@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T22:30:29+03:00",
+  "updatedAt": "2026-10-31T02:54:48+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -63,6 +63,16 @@
       "steamAppId": "3949040"
     },
     {
+      "id": "steam-5421610",
+      "title": "Prismhold",
+      "store": "Steam",
+      "old": 245,
+      "neu": 147,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5421610/",
+      "steamAppId": "5421610"
+    },
+    {
       "id": "steam-3241660",
       "title": "R.E.P.O.",
       "store": "Steam",
@@ -71,6 +81,16 @@
       "pct": 35,
       "url": "https://store.steampowered.com/app/3241660/",
       "steamAppId": "3241660"
+    },
+    {
+      "id": "steam-5263510",
+      "title": "SLOW ORBIT: Idle Planet Conquest",
+      "store": "Steam",
+      "old": 150,
+      "neu": 97,
+      "pct": 35,
+      "url": "https://store.steampowered.com/app/5263510/",
+      "steamAppId": "5263510"
     },
     {
       "id": "steam-4880870",
@@ -93,54 +113,34 @@
       "steamAppId": "1297900"
     },
     {
-      "id": "steam-5285920",
-      "title": "THE MOUTHLESS STALKER",
+      "id": "steam-4162890",
+      "title": "Gnomed",
       "store": "Steam",
-      "old": 200,
-      "neu": 150,
+      "old": 299,
+      "neu": 224,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/5285920/",
-      "steamAppId": "5285920"
+      "url": "https://store.steampowered.com/app/4162890/",
+      "steamAppId": "4162890"
     },
     {
-      "id": "steam-5135070",
-      "title": "Nightshift; Nowhere",
+      "id": "steam-3884860",
+      "title": "The Wolf Among Us Remastered",
       "store": "Steam",
       "old": 1050,
       "neu": 840,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/5135070/",
-      "steamAppId": "5135070"
+      "url": "https://store.steampowered.com/app/3884860/",
+      "steamAppId": "3884860"
     },
     {
-      "id": "steam-4645790",
-      "title": "BURIED INSIDE ME",
+      "id": "steam-5424260",
+      "title": "ClipCabinet",
       "store": "Steam",
-      "old": 290,
-      "neu": 232,
+      "old": 360,
+      "neu": 288,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/4645790/",
-      "steamAppId": "4645790"
-    },
-    {
-      "id": "steam-5328310",
-      "title": "Eggsecution Squad",
-      "store": "Steam",
-      "old": 240,
-      "neu": 192,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5328310/",
-      "steamAppId": "5328310"
-    },
-    {
-      "id": "steam-4928440",
-      "title": "A Tiny Ghost Game",
-      "store": "Steam",
-      "old": 240,
-      "neu": 192,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/4928440/",
-      "steamAppId": "4928440"
+      "url": "https://store.steampowered.com/app/5424260/",
+      "steamAppId": "5424260"
     }
   ]
 }
