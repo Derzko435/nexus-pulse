@@ -1,7 +1,17 @@
 {
-  "updatedAt": "2026-10-30T03:00:29+03:00",
+  "updatedAt": "2026-10-30T09:02:21+03:00",
   "source": "steam-specials-ru",
   "deals": [
+    {
+      "id": "steam-1449690",
+      "title": "The Walking Dead: The Telltale Definitive Series",
+      "store": "Steam",
+      "old": 1600,
+      "neu": 160,
+      "pct": 90,
+      "url": "https://store.steampowered.com/app/1449690/",
+      "steamAppId": "1449690"
+    },
     {
       "id": "steam-826940",
       "title": "Maid of Sker",
@@ -11,6 +21,16 @@
       "pct": 81,
       "url": "https://store.steampowered.com/app/826940/",
       "steamAppId": "826940"
+    },
+    {
+      "id": "steam-242760",
+      "title": "The Forest",
+      "store": "Steam",
+      "old": 435,
+      "neu": 87,
+      "pct": 80,
+      "url": "https://store.steampowered.com/app/242760/",
+      "steamAppId": "242760"
     },
     {
       "id": "steam-1326470",
@@ -43,26 +63,6 @@
       "steamAppId": "252490"
     },
     {
-      "id": "steam-3949040",
-      "title": "RV There Yet?",
-      "store": "Steam",
-      "old": 320,
-      "neu": 192,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/3949040/",
-      "steamAppId": "3949040"
-    },
-    {
-      "id": "steam-4306070",
-      "title": "Catch Meow If You Can",
-      "store": "Steam",
-      "old": 360,
-      "neu": 223,
-      "pct": 38,
-      "url": "https://store.steampowered.com/app/4306070/",
-      "steamAppId": "4306070"
-    },
-    {
       "id": "steam-3241660",
       "title": "R.E.P.O.",
       "store": "Steam",
@@ -73,24 +73,14 @@
       "steamAppId": "3241660"
     },
     {
-      "id": "steam-5194420",
-      "title": "Hentai Arctic Beauty",
+      "id": "steam-5327990",
+      "title": "Pro Soccer Management 27",
       "store": "Steam",
-      "old": 51,
-      "neu": 33,
-      "pct": 35,
-      "url": "https://store.steampowered.com/app/5194420/",
-      "steamAppId": "5194420"
-    },
-    {
-      "id": "steam-648800",
-      "title": "Raft",
-      "store": "Steam",
-      "old": 855,
-      "neu": 572,
-      "pct": 33,
-      "url": "https://store.steampowered.com/app/648800/",
-      "steamAppId": "648800"
+      "old": 555,
+      "neu": 388,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5327990/",
+      "steamAppId": "5327990"
     },
     {
       "id": "steam-1297900",
@@ -103,14 +93,14 @@
       "steamAppId": "1297900"
     },
     {
-      "id": "steam-5015190",
-      "title": "Чудесная малышка Белла",
+      "id": "steam-5302180",
+      "title": "Everything Must Go!",
       "store": "Steam",
-      "old": 280,
-      "neu": 210,
+      "old": 200,
+      "neu": 150,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/5015190/",
-      "steamAppId": "5015190"
+      "url": "https://store.steampowered.com/app/5302180/",
+      "steamAppId": "5302180"
     },
     {
       "id": "steam-3884860",
@@ -123,24 +113,34 @@
       "steamAppId": "3884860"
     },
     {
-      "id": "steam-3676190",
-      "title": "Тёмные Руны: Запретное Начало",
+      "id": "steam-3859180",
+      "title": "The Electorate",
+      "store": "Steam",
+      "old": 1050,
+      "neu": 840,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/3859180/",
+      "steamAppId": "3859180"
+    },
+    {
+      "id": "steam-4999100",
+      "title": "Eucalyptus Edge: MegaBlast Mayhem",
       "store": "Steam",
       "old": 465,
       "neu": 372,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/3676190/",
-      "steamAppId": "3676190"
+      "url": "https://store.steampowered.com/app/4999100/",
+      "steamAppId": "4999100"
     },
     {
-      "id": "steam-3091340",
-      "title": "Метал Тандер (Metal Thunder)",
+      "id": "steam-5367210",
+      "title": "Cashgrind Simulator",
       "store": "Steam",
-      "old": 300,
-      "neu": 240,
+      "old": 385,
+      "neu": 308,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/3091340/",
-      "steamAppId": "3091340"
+      "url": "https://store.steampowered.com/app/5367210/",
+      "steamAppId": "5367210"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T03:00:24+03:00",
+  "updatedAt": "2026-10-30T09:02:16+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -489,6 +489,22 @@
       "short_description": "Sent to find a missing billionaire on a remote island, you find yourself in a cannibal-infested hellscape. Craft, build, and struggle to survive, alone or with friends, in this terrifying new open-world survival horror simulator."
     },
     {
+      "appid": "91583",
+      "name": "Steam App 91583",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/91583/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
+    },
+    {
       "appid": "252490",
       "name": "Rust",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1781536981",
@@ -509,22 +525,22 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
-      "appid": "5153830",
-      "name": "To Reign in Hell",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5153830/95f522e984ab9107a07ab36dd69be2fd6178f4f7/header.jpg?t=1793294161",
+      "appid": "3949040",
+      "name": "RV There Yet?",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949040/cae24b4ed7f4531be51f0d63f785b7d253f92dc3/header.jpg?t=1789134289",
       "genres": [
+        "Экшены",
         "Приключенческие игры",
-        "Инди",
-        "Ролевые игры"
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
-        "linux": true
+        "mac": false,
+        "linux": false
       },
       "metacritic": null,
-      "short_description": "The empress of Hell is gone. Seize her throne, and wage war on Heaven! A text-based interactive dark fantasy novel, 630,000 words and hundreds of choices, without graphics or sound effects."
+      "short_description": "Кооперативное приключение за рулём автодома."
     },
     {
       "appid": "4306070",
@@ -560,6 +576,42 @@
       "short_description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
     },
     {
+      "appid": "5194420",
+      "name": "Hentai Arctic Beauty",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5194420/8fdac86f30eaaf0e558a2995c7e3ea9760958d59/header.jpg?t=1793296711",
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Решай 24 головоломки, открывай красивые арктические иллюстрации, получай достижения и заполняй галерею в Hentai Arctic Beauty."
+    },
+    {
+      "appid": "648800",
+      "name": "Raft",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg?t=1727184011",
+      "genres": [
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Raft™ throws you and your friends into an epic oceanic adventure! Alone or together, players battle to survive a perilous voyage across a vast sea! Gather debris, scavenge reefs and build your own floating home, but be wary of the man-eating sharks!"
+    },
+    {
       "appid": "1297900",
       "name": "Gothic 1 Remake",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/6bc8c205a107e552f14631524f25cdf88743515a/header.jpg?t=1787564876",
@@ -575,6 +627,23 @@
       },
       "metacritic": null,
       "short_description": "Возвращение легенды! Исследуйте долину Рудников в потрясающем ремейке культовой ролевой игры. Путешествуйте по мрачному рукотворному открытому миру, который динамически реагирует на ваши действия. Ваши возможности безграничны!"
+    },
+    {
+      "appid": "5015190",
+      "name": "Чудесная малышка Белла",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5015190/1d066f14c398413e8b15ce7c2546aead6f88c49e/header.jpg?t=1793304937",
+      "genres": [
+        "Экшены",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Пока её муж находится за городом, Лиора вынуждена проводить свои дни в одиночестве. Но одиночество не так тихо, как ей кажется."
     },
     {
       "appid": "3884860",
@@ -595,12 +664,12 @@
       "short_description": "A dark detective thriller where folklore is real, violence is chilling, and every choice has consequences."
     },
     {
-      "appid": "4053130",
-      "name": "Abyss Depth: Control",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4053130/93b460b80b1af78bac284605fdb5378e317c6b28/header.jpg?t=1793295895",
+      "appid": "3676190",
+      "name": "Тёмные Руны: Запретное Начало",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3676190/ebfbab15145fa96199f236c5a3a1ae1f7bd05b6f/header_alt_assets_0_russian.jpg?t=1793317055",
       "genres": [
-        "Инди",
-        "Симуляторы"
+        "Экшены",
+        "Ролевые игры"
       ],
       "is_free": false,
       "platforms": {
@@ -609,96 +678,27 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "A horror point and click set 2000m below the surface. Work off your debt, protect the diver, and survive the abyss—or die trying. In a world drowned by endless water."
+      "short_description": "Тёмные Руны: Запретное Начало - Хардкорный ARPG с разнообразными рунами навыков и классическими Словами Рун. Пришло время начать вашу легенду о добыче! Каждый бой может принести добычу, меняющую судьбу, каждая комбинация рун может создать новые легенды. Вы готовы принять вызов?"
     },
     {
-      "appid": "5010010",
-      "name": "WHAT NUMBER?",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5010010/753a46416536aeec83d30edebfcae5ecbe56d879/header.jpg?t=1793295566",
+      "appid": "3091340",
+      "name": "Метал Тандер (Metal Thunder)",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3091340/5eaf0609b036dfdc08e175722a2e0eeee7ec07d2/header_alt_assets_3.jpg?t=1793311249",
       "genres": [
         "Экшены",
         "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Press the numbers in order. Avoid the wrong ones. How far can you go?"
-    },
-    {
-      "appid": "95268",
-      "name": "Steam App 95268",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/95268/header.jpg",
-      "genres": [],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "",
-      "catalogId": null,
-      "curated": true
-    },
-    {
-      "appid": "1879270",
-      "name": "Into the Crypt",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1879270/86d369e93bff9c90d9869baacd3662e68c67e9e7/header.jpg?t=1793293248",
-      "genres": [
-        "Экшены",
         "Инди",
+        "Симуляторы",
         "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
+        "mac": true,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Рогалик-декбилдер от первого лица в 3D, где вам предстоит сражаться с жуткими существами в процедурно генерируемом мире, находить редкие артефакты, участвовать в судьбоносных событиях, покупать улучшения и совершенствовать свою колоду, чтобы выжить в Крипте."
-    },
-    {
-      "appid": "3613550",
-      "name": "Checkmage!",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3613550/72047f2962254ef385b6f19950b66a6a778d0e75/header.jpg?t=1793297059",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Ролевые игры",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "An adventure game with chess-themed deckbuilding battles. Build your strategy by trading cards and battling lovable, hand-drawn characters."
-    },
-    {
-      "appid": "4088370",
-      "name": "Two Dollar Suits",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088370/b5ee4f7d008545e58044ea116025020e05f861a4/header.jpg?t=1793293221",
-      "genres": [
-        "Экшены",
-        "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Two Dollar Suits combines the very best of the Action-Strategy genre into a fast-moving criminal playground, where players thrive in creativity and exploration. Complete intricate levels and create your own paths using skill, ingenuity, and raw power."
+      "short_description": "Управляйте легендарным боевым кораблем в высокооктановом экшен-роге! Сражайтесь с повстанцами, используя разрушительную огневую мощь в меняющихся миссиях. Улучшайте арсенал, приспосабливайтесь к задачам и выживайте под натиском волн врагов. Каждый заход приносит новые тактики и хаос в небе."
     }
   ]
 }
