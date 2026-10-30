@@ -1,85 +1,7 @@
 {
- "updatedAt": "2026-10-30T13:07:10+03:00",
+ "updatedAt": "2026-10-30T16:38:40+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-132474",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "A Team",
-   "teamB": "Nova Esports",
-   "logoA": "https://files.bo3.gg/uploads/team/25012/image/webp-a44d827e23cd03ebc365e73e6df7859c.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/6331/image/webp-40a807464ddc11691e7dc64d9ae1c689.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "VCT Threshold China 2026",
-   "tier": "A",
-   "startsAt": "2026-10-30T12:00:00+03:00",
-   "streams": [
-    {
-     "type": "youtube",
-     "id": "Z1RS6-glaHY",
-     "lang": "zh",
-     "official": false,
-     "label": "NOVA vs AT - FPX vs AQ - Week 2 - Day 4 - 2026 VCT CN Threshold"
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/a-team-vlr-vs-nova-esports-30-10-2026"
-  },
-  {
-   "id": "bo3-132293",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "PARIVISION",
-   "teamB": "Team Spirit",
-   "logoA": "https://files.bo3.gg/uploads/team/18604/image/webp-6ff7974f420e977381734ce06515692b.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16704/image/webp-d50909a064a4533a3b594ed059eebc42.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "PARI Universe",
-   "tier": "S",
-   "startsAt": "2026-10-30T13:00:00+03:00",
-   "streams": [
-    {
-     "type": "kick",
-     "channel": "fissure_dota_en",
-     "lang": "en",
-     "official": false,
-     "label": "fissure_dota_en"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/team-spirit-vs-parivision-dota2-30-10-2026"
-  },
-  {
-   "id": "bo3-132475",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Any Questions",
-   "teamB": "FunPlus Phoenix",
-   "logoA": "https://files.bo3.gg/uploads/team/21733/image/webp-66d76e0073af161ad3174bd77f6806d6.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/7321/image/webp-207744bd4188f3dae8f8d5f21c5c6c16.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "VCT Threshold China 2026",
-   "tier": "A",
-   "startsAt": "2026-10-30T14:00:00+03:00",
-   "streams": [
-    {
-     "type": "youtube",
-     "id": "Z1RS6-glaHY",
-     "lang": "zh",
-     "official": false,
-     "label": "NOVA vs AT - FPX vs AQ - Week 2 - Day 4 - 2026 VCT CN Threshold"
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/any-questions-vs-funplus-phoenix-30-10-2026"
-  },
   {
    "id": "bo3-132251",
    "game": "CS2",
@@ -88,10 +10,10 @@
    "teamB": "Vitality",
    "logoA": "https://files.bo3.gg/uploads/team/655/image/webp-998a59d1bbae3fd5e32b1e46a3f6204e.webp",
    "logoB": "https://files.bo3.gg/uploads/team/667/image/webp-292c1f6c6dcfca35c7a52da7e02cef0a.webp",
-   "scoreA": 0,
+   "scoreA": 1,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "PGL Masters Bucharest 2026",
    "tier": "S",
    "startsAt": "2026-10-30T15:00:00+03:00",
@@ -128,6 +50,32 @@
    "url": "https://bo3.gg/matches/nemiga-vs-vitality-30-10-2026"
   },
   {
+   "id": "bo3-132475",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "Any Questions",
+   "teamB": "FunPlus Phoenix",
+   "logoA": "https://files.bo3.gg/uploads/team/21733/image/webp-66d76e0073af161ad3174bd77f6806d6.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/7321/image/webp-207744bd4188f3dae8f8d5f21c5c6c16.webp",
+   "scoreA": 0,
+   "scoreB": 1,
+   "bo": 3,
+   "status": "live",
+   "event": "VCT Threshold China 2026",
+   "tier": "A",
+   "startsAt": "2026-10-30T15:15:00+03:00",
+   "streams": [
+    {
+     "type": "youtube",
+     "id": "Z1RS6-glaHY",
+     "lang": "zh",
+     "official": false,
+     "label": "NOVA vs AT - FPX vs AQ - Week 2 - Day 4 - 2026 VCT CN Threshold"
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/any-questions-vs-funplus-phoenix-30-10-2026"
+  },
+  {
    "id": "bo3-132144",
    "game": "CS2",
    "gameKey": "cs2",
@@ -138,7 +86,7 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "Stake Ranked Episode 5",
    "tier": "A",
    "startsAt": "2026-10-30T16:00:00+03:00",
@@ -188,7 +136,7 @@
    "status": "upcoming",
    "event": "PARI Universe",
    "tier": "S",
-   "startsAt": "2026-10-30T16:00:00+03:00",
+   "startsAt": "2026-10-30T17:00:00+03:00",
    "streams": [
     {
      "type": "kick",
@@ -410,13 +358,13 @@
    "url": "https://bo3.gg/dota2/matches/team-yandex-vs-gamerlegion-dota2-31-10-2026"
   },
   {
-   "id": "bo3-132574",
+   "id": "bo3-132580",
    "game": "CS2",
    "gameKey": "cs2",
-   "teamA": "Legacy",
-   "teamB": "The MongolZ",
-   "logoA": "https://files.bo3.gg/uploads/team/8118/image/webp-e4a3b023443f1f3ba4ef588164e73111.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/736/image/webp-499cad826b4cd83ce22f8bd2b13261d6.webp",
+   "teamA": "MOUZ",
+   "teamB": "TYLOO",
+   "logoA": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
+   "logoB": "https://files.bo3.gg/uploads/team/757/image/17873415da0f03df35299283b43408d7.png",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
@@ -434,7 +382,61 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/matches/legacy-br-vs-the-mongolz-02-11-2026"
+   "url": "https://bo3.gg/matches/mouz-cs2-vs-tyloo-cs-go-02-11-2026"
+  },
+  {
+   "id": "bo3-132575",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Natus Vincere",
+   "teamB": "Falcons",
+   "logoA": "https://files.bo3.gg/uploads/team/787/image/webp-ea9885f81f1572c7a6c9fb6cbf747c99.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/2713/image/webp-86fd5a0653183a19cf750d195963ea10.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "Intel Extreme Masters Beijing 2026",
+   "tier": "S",
+   "startsAt": "2026-11-02T10:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/natus-vincere-vs-falcons-esports-02-11-2026"
+  },
+  {
+   "id": "bo3-132579",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "9z",
+   "teamB": "BetBoom",
+   "logoA": "https://files.bo3.gg/uploads/team/324/image/webp-0c639374c5bbd039126737081088a5fc.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "Intel Extreme Masters Beijing 2026",
+   "tier": "S",
+   "startsAt": "2026-11-02T10:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/9z-vs-betboom-team-02-11-2026"
   },
   {
    "id": "bo3-132573",
@@ -464,13 +466,13 @@
    "url": "https://bo3.gg/matches/heroic-vs-b8-02-11-2026"
   },
   {
-   "id": "bo3-132580",
+   "id": "bo3-132574",
    "game": "CS2",
    "gameKey": "cs2",
-   "teamA": "MOUZ",
-   "teamB": "TYLOO",
-   "logoA": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
-   "logoB": "https://files.bo3.gg/uploads/team/757/image/17873415da0f03df35299283b43408d7.png",
+   "teamA": "Legacy",
+   "teamB": "The MongolZ",
+   "logoA": "https://files.bo3.gg/uploads/team/8118/image/webp-e4a3b023443f1f3ba4ef588164e73111.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/736/image/webp-499cad826b4cd83ce22f8bd2b13261d6.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
@@ -488,7 +490,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/matches/mouz-cs2-vs-tyloo-cs-go-02-11-2026"
+   "url": "https://bo3.gg/matches/legacy-br-vs-the-mongolz-02-11-2026"
   },
   {
    "id": "bo3-132577",
@@ -545,58 +547,56 @@
    "url": "https://bo3.gg/matches/furia-vs-faze-02-11-2026"
   },
   {
-   "id": "bo3-132578",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Aurora",
-   "teamB": "Liquid",
-   "logoA": "https://files.bo3.gg/uploads/team/3598/image/webp-49b8df76b0d121cc89c760c1ec16ebea.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/790/image/webp-01cca8d35079cb4b21bc25268ac75bae.webp",
-   "scoreA": 0,
-   "scoreB": 0,
+   "id": "bo3-132293",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "PARIVISION",
+   "teamB": "Team Spirit",
+   "logoA": "https://files.bo3.gg/uploads/team/18604/image/webp-6ff7974f420e977381734ce06515692b.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16704/image/webp-d50909a064a4533a3b594ed059eebc42.webp",
+   "scoreA": 1,
+   "scoreB": 2,
    "bo": 3,
-   "status": "upcoming",
-   "event": "Intel Extreme Masters Beijing 2026",
+   "status": "finished",
+   "event": "PARI Universe",
    "tier": "S",
-   "startsAt": "2026-11-02T10:00:00+03:00",
+   "startsAt": "2026-10-30T13:00:00+03:00",
    "streams": [
     {
-     "type": "twitch",
-     "channel": "eslcs",
+     "type": "kick",
+     "channel": "fissure_dota_en",
      "lang": "en",
-     "official": true,
-     "label": "eslcs",
-     "fallback": true
+     "official": false,
+     "label": "fissure_dota_en"
     }
    ],
-   "url": "https://bo3.gg/matches/aurora-gaming-vs-liquid-02-11-2026"
+   "url": "https://bo3.gg/dota2/matches/team-spirit-vs-parivision-dota2-30-10-2026"
   },
   {
-   "id": "bo3-132575",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Natus Vincere",
-   "teamB": "Falcons",
-   "logoA": "https://files.bo3.gg/uploads/team/787/image/webp-ea9885f81f1572c7a6c9fb6cbf747c99.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/2713/image/webp-86fd5a0653183a19cf750d195963ea10.webp",
-   "scoreA": 0,
-   "scoreB": 0,
+   "id": "bo3-132474",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "A Team",
+   "teamB": "Nova Esports",
+   "logoA": "https://files.bo3.gg/uploads/team/25012/image/webp-a44d827e23cd03ebc365e73e6df7859c.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/6331/image/webp-40a807464ddc11691e7dc64d9ae1c689.webp",
+   "scoreA": 1,
+   "scoreB": 2,
    "bo": 3,
-   "status": "upcoming",
-   "event": "Intel Extreme Masters Beijing 2026",
-   "tier": "S",
-   "startsAt": "2026-11-02T10:00:00+03:00",
+   "status": "finished",
+   "event": "VCT Threshold China 2026",
+   "tier": "A",
+   "startsAt": "2026-10-30T12:00:00+03:00",
    "streams": [
     {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs",
-     "fallback": true
+     "type": "youtube",
+     "id": "Z1RS6-glaHY",
+     "lang": "zh",
+     "official": false,
+     "label": "NOVA vs AT - FPX vs AQ - Week 2 - Day 4 - 2026 VCT CN Threshold"
     }
    ],
-   "url": "https://bo3.gg/matches/natus-vincere-vs-falcons-esports-02-11-2026"
+   "url": "https://bo3.gg/valorant/matches/a-team-vlr-vs-nova-esports-30-10-2026"
   },
   {
    "id": "bo3-130818",
@@ -1133,53 +1133,6 @@
    "url": "https://bo3.gg/lol/matches/invictus-gaming-lol-vs-lyon-gaming-28-10-2026"
   },
   {
-   "id": "bo3-132288",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "GamerLegion",
-   "teamB": "LEGION",
-   "logoA": "https://files.bo3.gg/uploads/team/22027/image/webp-f42950afee48713daf40592585696801.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/25401/image/webp-12311d6aa24e815ad6b9c3e66cc662d2.webp",
-   "scoreA": 2,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "finished",
-   "event": "PARI Universe",
-   "tier": "S",
-   "startsAt": "2026-10-28T23:40:00+03:00",
-   "streams": [
-    {
-     "type": "kick",
-     "channel": "americaesportsdota2",
-     "lang": "es",
-     "official": true,
-     "label": "americaesportsdota2"
-    },
-    {
-     "type": "twitch",
-     "channel": "afoninje",
-     "lang": "ru",
-     "official": false,
-     "label": "afoninje"
-    },
-    {
-     "type": "twitch",
-     "channel": "fissure_dota_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "fissure_dota_ru"
-    },
-    {
-     "type": "twitch",
-     "channel": "gorgc",
-     "lang": "en",
-     "official": false,
-     "label": "gorgc"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/gamerlegion-dota2-vs-legion_stack-28-10-2026"
-  },
-  {
    "id": "bo3-130820",
    "game": "LoL",
    "gameKey": "lol",
@@ -1319,39 +1272,6 @@
     }
    ],
    "url": "https://bo3.gg/valorant/matches/mibr-gc-vs-sk-nebula-28-10-2026"
-  },
-  {
-   "id": "bo3-132471",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Any Questions",
-   "teamB": "Rare Atom",
-   "logoA": "https://files.bo3.gg/uploads/team/21733/image/webp-66d76e0073af161ad3174bd77f6806d6.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/6333/image/webp-fd3b813c9ecaebb0d9f403ac77ee06d2.webp",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "VCT Threshold China 2026",
-   "tier": "A",
-   "startsAt": "2026-10-28T14:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorantesports_cn",
-     "lang": "zh",
-     "official": true,
-     "label": "valorantesports_cn"
-    },
-    {
-     "type": "twitch",
-     "channel": "valbina",
-     "lang": "ru",
-     "official": false,
-     "label": "valbina"
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/any-questions-vs-rare-atom-1-28-10-2026"
   },
   {
    "id": "bo3-131716",
