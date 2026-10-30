@@ -1,174 +1,6 @@
 {
- "updatedAt": "2026-10-29T13:06:25+03:00",
+ "updatedAt": "2026-10-30T13:09:46+03:00",
  "items": [
-  {
-   "appid": 1798230,
-   "title": "ATMOSFAR",
-   "date": "2026-10-29",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1798230/96e6f00d5ecb7c37ba07577ac02ac75fad16055a/header.jpg?t=1793125323",
-   "desc": "Узнайте судьбу последнего аванпоста человечества, выживая и исследуя захватывающий мир плавучих островов. Поднимитесь в небо в одиночку или соберите эскадрилью друзей и собирайте металлолом, чтобы проектировать и модернизировать летающие корабли, взяв с собой в путешествие свой дирижабль.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Казуальные игры"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Apog Labs",
-   "price": "",
-   "url": "https://store.steampowered.com/app/1798230/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/1798230/"
-   }
-  },
-  {
-   "appid": 3672840,
-   "title": "Joe & Mac Retro Collection",
-   "date": "2026-10-29",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3672840/9d43a7feb261649b89724d8d50aa2a14f4cbd522/header.jpg?t=1793201374",
-   "desc": "Joe & Mac: Caveman Ninja, известная как Joe & Mac и Caveman Ninja в США и как Joe & Mac: Tatakae Genshiji в Японии — видеоигра в жанре платформер, разработанная компанией New World Computing Incorporated и изданная Data East Corporation в 1991 году.",
-   "genres": [
-    "Платформер"
-   ],
-   "platforms": [
-    "PC",
-    "PlayStation",
-    "Xbox",
-    "Switch"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Red Art Games",
-   "price": "900 руб.",
-   "url": "https://store.steampowered.com/app/3672840/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/3672840/",
-    "wiki": "https://ru.wikipedia.org/wiki/Joe_%26_Mac_Caveman_Ninja"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": "x-mouthwashing",
-   "title": "Mouthwashing",
-   "date": "2026-10-29",
-   "image": "https://upload.wikimedia.org/wikipedia/en/6/64/Mouthwashing_header_image_on_Steam.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "desc": "Mouthwashing — компьютерная игра в жанре психологического хоррора с элементами приключений, разработанная студией Wrong Organ и выпущенная Critical Reflex в 2024 году. Повествование ведётся от первого лица и рассказывает о пяти членах экипажа грузового космического корабля «Тулпар», оказавшихся в…",
-   "genres": [
-    "Приключение",
-    "Хоррор"
-   ],
-   "platforms": [
-    "PlayStation",
-    "Xbox",
-    "Switch"
-   ],
-   "stores": [],
-   "developer": "Wrong Organ",
-   "price": "",
-   "url": "https://ru.wikipedia.org/wiki/Mouthwashing",
-   "links": {
-    "wiki": "https://ru.wikipedia.org/wiki/Mouthwashing"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": 4115450,
-   "title": "Phantom Blade Zero",
-   "date": "2026-10-29",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/7f882f889630270d3d3fb93825ac6f55b55e7a6c/header.jpg?t=1793261976",
-   "desc": "Phantom Blade Zero — компьютерная игра в жанре action RPG, разработанная китайской студией S-GAME для Windows и PlayStation 5. Игра представляет собой экшен от третьего лица с динамичными боями, действие которого происходит в мрачном мире, вдохновлённом китайским боевым фэнтези (уся). Phantom Blade…",
-   "genres": [
-    "Экшен-RPG"
-   ],
-   "platforms": [
-    "PC",
-    "PlayStation"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "S-GAME",
-   "price": "3999 руб.",
-   "url": "https://store.steampowered.com/app/4115450/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4115450/",
-    "wiki": "https://ru.wikipedia.org/wiki/Phantom_Blade_Zero"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": "x-rv-there-yet",
-   "title": "RV There Yet?",
-   "date": "2026-10-29",
-   "image": "https://upload.wikimedia.org/wikipedia/en/7/7f/RV_There_Yet%3F_steam_header.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "desc": "Р.В. уже там? — это совместная приключенческая видеоигра, разработанная и изданная шведской игровой студией Nuggets Entertainment. Он был выпущен для Windows 21 октября 2025 года и завоевал популярность на витрине магазина Steam.",
-   "genres": [
-    "Приключение"
-   ],
-   "platforms": [
-    "PlayStation",
-    "Switch"
-   ],
-   "stores": [],
-   "developer": "Nuggets Entertainment",
-   "price": "",
-   "url": "https://en.wikipedia.org/wiki/RV_There_Yet%3F",
-   "links": {
-    "wiki": "https://en.wikipedia.org/wiki/RV_There_Yet%3F"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": "x-sword-of-sea",
-   "title": "Sword of the Sea",
-   "date": "2026-10-29",
-   "image": "https://upload.wikimedia.org/wikipedia/en/f/f7/Sword_of_the_Sea_cover_art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "desc": "Sword of the Sea — приключенческая видеоигра 2025 года, разработанная и изданная Giant Squid. В нем игрок берет на себя управление персонажем по имени Рэйф, который ездит на «парящем мече», чтобы вернуть жизнь в бесплодную пустошь. Игра вышла на PlayStation 5 и Windows 19 августа 2025 года.",
-   "genres": [
-    "Приключение"
-   ],
-   "platforms": [
-    "Xbox",
-    "Switch"
-   ],
-   "stores": [],
-   "developer": "Giant Squid",
-   "price": "",
-   "url": "https://en.wikipedia.org/wiki/Sword_of_the_Sea",
-   "links": {
-    "wiki": "https://en.wikipedia.org/wiki/Sword_of_the_Sea"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": "x-titanium-court",
-   "title": "Titanium Court",
-   "date": "2026-10-29",
-   "image": "https://upload.wikimedia.org/wikipedia/en/e/e2/Logo_for_the_video_game_Titanium_Court.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "desc": "Titanium Court — это стратегическая игра, разработанная нью-йоркским создателем AP Thomson и опубликованная Fellow Traveller и выпущенная 23 апреля 2026 года. В игре сочетаются жанры «три в ряд», защита башни и механика рогалика, в которой игрок управляет одноименным Судом и сражается с другими…",
-   "genres": [
-    "Соответствие плитки",
-    "Рогалик",
-    "Tower defense"
-   ],
-   "platforms": [
-    "PlayStation",
-    "Switch"
-   ],
-   "stores": [],
-   "developer": "AP Thomson",
-   "price": "",
-   "url": "https://en.wikipedia.org/wiki/Titanium_Court",
-   "links": {
-    "wiki": "https://en.wikipedia.org/wiki/Titanium_Court"
-   },
-   "source": "wiki"
-  },
   {
    "appid": "x-asylum",
    "title": "Asylum",
@@ -367,7 +199,7 @@
    "appid": 5160800,
    "title": "Find The Needle",
    "date": "2026-11-06",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5160800/9ad39ef753543a194a7546ee8a17dc4b821cd021/header.jpg?t=1793154313",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5160800/9ad39ef753543a194a7546ee8a17dc4b821cd021/header.jpg?t=1793315267",
    "desc": "У вас есть лопата и стог сена примерно из шести миллионов травинок. Где-то внутри спрятана иголка. Ищите её вручную, продавайте сено, а заработанные деньги тратьте на конвейеры и машины, пока в конце концов вам больше не придётся копаться в сене самому.",
    "genres": [
     "Казуальные игры",
@@ -380,7 +212,7 @@
    "stores": [
     "Steam"
    ],
-   "developer": "FindTheNeedleDev, Needless Games",
+   "developer": "Needless Games",
    "price": "",
    "url": "https://store.steampowered.com/app/5160800/",
    "links": {
@@ -436,7 +268,7 @@
    "appid": 3629430,
    "title": "DREADMOOR",
    "date": "2026-11-09",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3629430/5b80c132b3479c69a92c25a5266db523850cfc36/header.jpg?t=1793260945",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3629430/5b80c132b3479c69a92c25a5266db523850cfc36/header.jpg?t=1793299012",
    "desc": "DREADMOOR – мрачное рыболовное приключение от первого лица в затопленном мире, пережившем страшную катастрофу. Ловите рыбу в мутных водах, улучшайте свой катер, создавайте снаряжение для выживания и сражайтесь с чудовищами, что таятся под водой и на суше.",
    "genres": [
     "Экшены",
@@ -482,8 +314,8 @@
    "appid": 4530370,
    "title": "Football Manager 27",
    "date": "2026-11-10",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/32b41d18ffaac3d2e1dc1a9c3915538db0ba3fca/header.jpg?t=1793248831",
-   "desc": "Пользуйтесь тактической доской, бегите к бровке — все меняется ради того, чтобы управление становилось удобнее, а мир футбола — живее. Выходит 10 ноября.",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/32b41d18ffaac3d2e1dc1a9c3915538db0ba3fca/header.jpg?t=1793296899",
+   "desc": "Выберите клуб. Соберите команду. Разработайте тактику. Только вы творите собственное будущее. FM27 превращает футбольные мечты в реальность. Выбирать вам.",
    "genres": [
     "Спортивный менеджер"
    ],
@@ -672,7 +504,7 @@
    "appid": 4523120,
    "title": "Volvy’s Adventure: Reslimed",
    "date": "2026-11-19",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4523120/bd01ad0f41f47272b6f1459de015d2494b24a422/header.jpg?t=1787755813",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4523120/bd01ad0f41f47272b6f1459de015d2494b24a422/header.jpg?t=1793281784",
    "desc": "Volvy's Adventure: Reslimed — это захватывающий ремастер оригинального ремейка неизданного экшен-платформера, в котором главную роль играет самый известный талисман видеоигр всех времен.",
    "genres": [
     "Экшены",
@@ -896,6 +728,30 @@
    "url": "https://ru.wikipedia.org/wiki/Monster_Hunter_Wilds",
    "links": {
     "wiki": "https://ru.wikipedia.org/wiki/Monster_Hunter_Wilds"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": "x-petit-planet",
+   "title": "Petit Planet",
+   "date": "2026-12-04",
+   "image": "https://cdn1.epicgames.com/spt-assets/ae150f8b84cc44e392fa96dcbf498a3d/petit-planet-z8le1.jpg",
+   "desc": "Petit Planet — первая мультиплатформенная бесплатная игра в жанре уютного космического симулятора жизни от HoYoverse. Здесь вы можете построить свой дом, обзавестись пушистыми соседями и открыть бесконечные возможности жизни на своей планете!",
+   "genres": [
+    "Симулятор жизни"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Epic"
+   ],
+   "developer": "miHoYo",
+   "price": "",
+   "url": "https://store.epicgames.com/ru/p/petit-planet-5f821d",
+   "links": {
+    "epic": "https://store.epicgames.com/ru/p/petit-planet-5f821d",
+    "wiki": "https://en.wikipedia.org/wiki/Petit_Planet"
    },
    "source": "wiki"
   },
@@ -1223,6 +1079,31 @@
    "source": "wiki"
   },
   {
+   "appid": 2975260,
+   "title": "PRISON OF HUSKS",
+   "date": "2027-01-27",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2975260/a2d7147668ccf811747a0d49e31127144c3e4b20/header.jpg?t=1791954386",
+   "desc": "Пробудитесь в теле куклы и отправляйтесь на поиски своей возлюбленной. В этой ностальгической игре, созданной по канонам серии Souls, вам предстоит исследовать нарисованный загробный мир: вас ждут богатые событиями уровни — связанные друг с другом, полные секретов и коротких путей.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC",
+    "Linux"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Glass Head Dolls",
+   "price": "",
+   "url": "https://store.steampowered.com/app/2975260/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/2975260/"
+   }
+  },
+  {
    "appid": 2155070,
    "title": "Fate/Extra Record",
    "date": "2027-01-28",
@@ -1325,7 +1206,7 @@
    "appid": 1846700,
    "title": "Witchbrook",
    "date": "2027-01-28",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1846700/957b7e61bf8cb5e91f5dce21403a4288d78fb7b7/header.jpg?t=1793203606",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1846700/957b7e61bf8cb5e91f5dce21403a4288d78fb7b7/header.jpg?t=1793281852",
    "desc": "Погрузитесь в очаровательный симулятор жизни волшебников максимум на 4 игроков. Постройте карьеру волшебника или ведьмы в оживленном приморском городке Мохопорте. Заводите друзей и возлюбленных, творите чудеса, исследуйте этот чудный мир и получите диплом волшебника!",
    "genres": [
     "Инди",

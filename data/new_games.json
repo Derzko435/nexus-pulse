@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-29T13:06:58+03:00",
+ "updatedAt": "2026-10-30T13:10:24+03:00",
  "items": [
   {
    "appid": 4115450,
@@ -24,18 +24,18 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4115450/"
    },
-   "reviews": 4077
+   "reviews": 19021
   },
   {
-   "appid": 4348910,
-   "title": "Probably Stolen – симулятор магазина в киберпанке",
-   "date": "2026-10-28",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/d80d1aaf073c202bc793247bdc4c0504dfe28869/header_alt_assets_3_russian.jpg?t=1793220934",
-   "desc": "В этом симуляторе магазина на мрачной киберпанковой космической станции вы будете создавать полезные вещи из хлама, торговать (легально и не очень) товарами сомнительного происхождения и разбираться в отношениях между фракциями. Решайте сами, на что вы готовы пойти, чтобы остаться на плаву.",
+   "appid": 4126040,
+   "title": "Aniimo",
+   "date": "2026-09-15",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/c1ee5babadf5d46000587a5eaf5901bbb6b7013c/header.jpg?t=1793258293",
+   "desc": "Во время своего путешествия вы сможете объединяться с анимо и фактически становиться любым анимо из своей коллекции. Используйте навыки анимо, чтобы решать головоломки, побеждать в битвах и преодолевать испытания! Объединяйтесь с анимо и открывайте мир с совершенно новой стороны.",
    "genres": [
-    "Инди",
-    "Ролевые игры",
-    "Симуляторы"
+    "Экшены",
+    "Приключенческие игры",
+    "Многопользовательские игры"
    ],
    "platforms": [
     "PC"
@@ -43,13 +43,12 @@
    "stores": [
     "Steam"
    ],
-   "developer": "Questing Goose Studio",
-   "price": "449 руб.",
-   "url": "https://store.steampowered.com/app/4348910/",
+   "developer": "Pawprint Studio",
+   "price": "Бесплатно",
+   "url": "https://store.steampowered.com/app/4126040/",
    "links": {
-    "steam": "https://store.steampowered.com/app/4348910/"
-   },
-   "reviews": 1418
+    "steam": "https://store.steampowered.com/app/4126040/"
+   }
   },
   {
    "appid": 5335510,
@@ -74,7 +73,32 @@
    "links": {
     "steam": "https://store.steampowered.com/app/5335510/"
    },
-   "reviews": 2439
+   "reviews": 3033
+  },
+  {
+   "appid": 4348910,
+   "title": "Probably Stolen – симулятор магазина в киберпанке",
+   "date": "2026-10-28",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/d80d1aaf073c202bc793247bdc4c0504dfe28869/header_alt_assets_3_russian.jpg?t=1793220934",
+   "desc": "В этом симуляторе магазина на мрачной киберпанковой космической станции вы будете создавать полезные вещи из хлама, торговать (легально и не очень) товарами сомнительного происхождения и разбираться в отношениях между фракциями. Решайте сами, на что вы готовы пойти, чтобы остаться на плаву.",
+   "genres": [
+    "Инди",
+    "Ролевые игры",
+    "Симуляторы"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Questing Goose Studio",
+   "price": "449 руб.",
+   "url": "https://store.steampowered.com/app/4348910/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4348910/"
+   },
+   "reviews": 2654
   },
   {
    "appid": 2887580,
@@ -101,7 +125,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/2887580/"
    },
-   "reviews": 4204
+   "reviews": 4271
   },
   {
    "appid": 1203620,
@@ -122,18 +146,18 @@
     "Steam"
    ],
    "developer": "Keen Games GmbH",
-   "price": "1439 руб.",
+   "price": "1599 руб.",
    "url": "https://store.steampowered.com/app/1203620/",
    "links": {
     "steam": "https://store.steampowered.com/app/1203620/"
    },
-   "reviews": 98336
+   "reviews": 98483
   },
   {
    "appid": 4312190,
    "title": "CRACK",
    "date": "2026-10-26",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4312190/9dfa7d4efdcc88aa5663a31f02633391eb5ef843/header.jpg?t=1793035699",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4312190/4331f74523b5e0a99c4d9e88453d8ff7bb76434e/header_alt_assets_0_russian.jpg?t=1793285498",
    "desc": "Почему в этой лаборатории находится гигантское яйцо? Ваша задача проста: взломайте его. Не задавайте вопросов. CRACK – это пошаговое совместное приключение для 1-4 игроков, в котором вы узнаете, что находится внутри таинственного гигантского яйца.",
    "genres": [
     "Приключенческие игры",
@@ -153,37 +177,14 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4312190/"
    },
-   "reviews": 495
+   "reviews": 771
   },
   {
-   "appid": 4760480,
-   "title": "You Are Empty: Абсолютное издание",
-   "date": "2026-10-27",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4760480/e969dc6ff67c3a1b67bda4a993a4594248aa5347/header_russian.jpg?t=1793109399",
-   "desc": "Альтернативные 1950-е годы, советский Киев. Большая часть населения города загадочным образом исчезла, а по заброшенным улицам бродят жуткие монстры. Сможете ли вы выяснить причину катастрофы и всё исправить?",
-   "genres": [
-    "Экшены"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Digital Spray Studios, Mandel ArtPlains",
-   "price": "385 руб.",
-   "url": "https://store.steampowered.com/app/4760480/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4760480/"
-   },
-   "reviews": 278
-  },
-  {
-   "appid": 2223980,
-   "title": "Nomad Drive",
-   "date": "2026-10-27",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223980/433d5727162af686f0e7d56de539f8476fb0cf0e/header.jpg?t=1793144594",
-   "desc": "Отремонтируйте свой запущенный дом на колесах и отправляйтесь в путь в одиночку или в кооперативе на 1–4 игроков по процедурно генерируемому постапокалиптическому миру. Собирайте ресурсы, настраивайте ваш дом на колесах и выживайте как можно дольше.",
+   "appid": 4096830,
+   "title": "S.O.N.A.R. - Подводники вообще не готовы",
+   "date": "2026-10-29",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4096830/c470468a2b4caa5a1a460d95e6ad18158fedeca3/header_russian.jpg?t=1793347410",
+   "desc": "S.O.N.A.R. (Submarine Operators Not Actually Ready) — сетевой кооперативный симулятор подлодки для 1–6 игроков, где командная работа жизненно важна, паника неизбежна, а до затопления — одно неверное нажатие. Управляйте, сражайтесь, чините и молитесь, чтобы друзья знали, что делают.",
    "genres": [
     "Приключенческие игры",
     "Казуальные игры",
@@ -195,38 +196,12 @@
    "stores": [
     "Steam"
    ],
-   "developer": "Indie Devil",
-   "price": "621 руб.",
-   "url": "https://store.steampowered.com/app/2223980/",
+   "developer": "Abylight Barcelona",
+   "price": "360 руб.",
+   "url": "https://store.steampowered.com/app/4096830/",
    "links": {
-    "steam": "https://store.steampowered.com/app/2223980/"
-   },
-   "reviews": 168
-  },
-  {
-   "appid": 1737870,
-   "title": "REKA",
-   "date": "2026-10-26",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1737870/d8ea454a870af3d14aa41fbb58356185c9a7d29b/header_alt_assets_5.jpg?t=1793120469",
-   "desc": "Окунитесь в уютный мир колдовства, навеянный славянским фольклором. Стройте и изменяйте под себя избушку на курьих ножках, а затем отправляйтесь в путешествие по туманной осенней чаще. Помогайте местным, приручайте лесных зверей и обучайтесь доброй магии у самой Бабы Яги.",
-   "genres": [
-    "Приключенческие игры",
-    "Казуальные игры",
-    "Инди"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Emberstorm Entertainment",
-   "price": "461 руб.",
-   "url": "https://store.steampowered.com/app/1737870/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/1737870/"
-   },
-   "reviews": 3193
+    "steam": "https://store.steampowered.com/app/4096830/"
+   }
   },
   {
    "appid": 5072430,
@@ -253,13 +228,62 @@
    }
   },
   {
-   "appid": 4954910,
-   "title": "Scam With Your Friends",
-   "date": "2026-10-15",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4954910/128effac3212fc1b92b4f6cd8891995df0d4b199/header.jpg?t=1792556475",
-   "desc": "Управляйте call-центром мошенников с друзьями. Используйте всё более абсурдные планы для развода ИИ абонентов на их денежные сбережения. Достигните суточной нормы, наводите хаос в офисе и выживите жесткую оценку результатов от своего яростного босса.",
+   "appid": 4715160,
+   "title": "Finals Week: Последний экзамен",
+   "date": "2026-10-29",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4715160/3d05c4f85866620b0b47754e30414cb4414b42dc/header.jpg?t=1793289966",
+   "desc": "Симулятор школьника для 1-4 игроков. Здесь вы с друзьями пытаетесь любой ценой сдать последние экзамены. Воруйте ответы, прячьтесь от учителя и используйте любые средства, чтобы списать. Закончите школу, не выучив ни одной страницы!",
    "genres": [
     "Экшены",
+    "Приключенческие игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "DESTINYbit",
+   "price": "223 руб.",
+   "url": "https://store.steampowered.com/app/4715160/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4715160/"
+   }
+  },
+  {
+   "appid": 1798230,
+   "title": "ATMOSFAR",
+   "date": "2026-10-29",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1798230/96e6f00d5ecb7c37ba07577ac02ac75fad16055a/header.jpg?t=1793341656",
+   "desc": "Узнайте судьбу последнего аванпоста человечества, выживая и исследуя захватывающий мир плавучих островов. Поднимитесь в небо в одиночку или соберите эскадрилью друзей и собирайте металлолом, чтобы проектировать и модернизировать летающие корабли, взяв с собой в путешествие свой дирижабль.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Казуальные игры"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Apog Labs",
+   "price": "945 руб.",
+   "url": "https://store.steampowered.com/app/1798230/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/1798230/"
+   },
+   "reviews": 149
+  },
+  {
+   "appid": 1737870,
+   "title": "REKA",
+   "date": "2026-10-26",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1737870/d8ea454a870af3d14aa41fbb58356185c9a7d29b/header_alt_assets_5.jpg?t=1793120469",
+   "desc": "Окунитесь в уютный мир колдовства, навеянный славянским фольклором. Стройте и изменяйте под себя избушку на курьих ножках, а затем отправляйтесь в путешествие по туманной осенней чаще. Помогайте местным, приручайте лесных зверей и обучайтесь доброй магии у самой Бабы Яги.",
+   "genres": [
+    "Приключенческие игры",
     "Казуальные игры",
     "Инди"
    ],
@@ -269,38 +293,35 @@
    "stores": [
     "Steam"
    ],
-   "developer": "JakeHub, Metater",
-   "price": "418 руб.",
-   "url": "https://store.steampowered.com/app/4954910/",
+   "developer": "Emberstorm Entertainment",
+   "price": "461 руб.",
+   "url": "https://store.steampowered.com/app/1737870/",
    "links": {
-    "steam": "https://store.steampowered.com/app/4954910/"
+    "steam": "https://store.steampowered.com/app/1737870/"
    },
-   "reviews": 4034
+   "reviews": 3246
   },
   {
-   "appid": 940230,
-   "title": "Geoplanetical",
-   "date": "2026-10-28",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/940230/cd3828ba0e43c85eeccb5c1705112278bb32dcf6/header.jpg?t=1793199295",
-   "desc": "Геополитический симулятор, который начинается 1 января 2026 года, с миром таким, каким он был в тот день. Более 200 стран и территорий, в роли правительства или оппозиции: законы, бюджет, выборы, забастовки, дипломатия, война. Остальной мир не ждёт. Ни сценариев, ни даты окончания.",
+   "appid": "x-gothic-ii-complete-classic",
+   "title": "Gothic II Complete Classic",
+   "date": "2026-09-29",
+   "image": "https://upload.wikimedia.org/wikipedia/en/d/de/Gothic2cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Gothic II (локализованное название в России — «Готика II») — немецкая компьютерная ролевая игра, вторая в серии Gothic. Выпуск состоялся 29 ноября 2002 года. 22 августа 2003 года вышло официальное дополнение — Gothic II: Die Nacht des Raben («Gothic II: Ночь Ворона»), привнёсшее графические…",
    "genres": [
-    "Инди",
-    "Симуляторы",
-    "Ранний доступ"
+    "Экшен-RPG"
    ],
    "platforms": [
-    "PC"
+    "PlayStation",
+    "Xbox"
    ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Polytale Games",
-   "price": "1709 руб.",
-   "url": "https://store.steampowered.com/app/940230/",
+   "stores": [],
+   "developer": "Piranha Bytes",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/Gothic_II",
    "links": {
-    "steam": "https://store.steampowered.com/app/940230/"
+    "wiki": "https://ru.wikipedia.org/wiki/Gothic_II"
    },
-   "reviews": 130
+   "source": "wiki"
   },
   {
    "appid": 4080220,
@@ -380,7 +401,7 @@
    "appid": 3407390,
    "title": "Endless Legend 2",
    "date": "2026-09-17",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3407390/98fc2f1d471a6ba90cbf6c281f8d92c3b00800d3/header.jpg?t=1792743903",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3407390/98fc2f1d471a6ba90cbf6c281f8d92c3b00800d3/header.jpg?t=1793283742",
    "desc": "Ведите свой народ к победе в постоянно меняющемся мире стратегии с асимметричными фракциями и могущественными героями. Стройте империю, расширяйте политическое влияние и собирайте великие армии, чтобы раскрыть темные тайны, скрытые в недрах планеты.",
    "genres": [
     "Пошаговая стратегия",
@@ -464,27 +485,6 @@
    "url": "https://ru.wikipedia.org/wiki/Marvel%E2%80%99s_Wolverine",
    "links": {
     "wiki": "https://ru.wikipedia.org/wiki/Marvel%E2%80%99s_Wolverine"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": "x-truck-kun-is-supporting-me-from-another-world",
-   "title": "Truck-kun is Supporting Me from Another World?!",
-   "date": "2026-09-14",
-   "image": "https://upload.wikimedia.org/wikipedia/en/0/0b/Truck-kun-is-supporting-me-from-another-world-windows-apps-front.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "desc": "Трак-кун поддерживает меня из другого мира?! — видеоигра 2026 года, разработанная Strange Scaffold и изданная Frosty Pop Games. Игра пародирует японские СМИ исекай: в ней рассказывается о водителе грузовика, который врезается в женщину по имени Карисса Уорд и переносит ее в фантастический мир Талинфолд.",
-   "genres": [
-    "Боевые машины"
-   ],
-   "platforms": [
-    "Switch"
-   ],
-   "stores": [],
-   "developer": "Strange Scaffold",
-   "price": "",
-   "url": "https://en.wikipedia.org/wiki/Truck-kun_is_Supporting_Me_from_Another_World%3F%21",
-   "links": {
-    "wiki": "https://en.wikipedia.org/wiki/Truck-kun_is_Supporting_Me_from_Another_World%3F%21"
    },
    "source": "wiki"
   }
