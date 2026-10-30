@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T23:14:55+03:00",
+  "updatedAt": "2026-10-30T03:00:29+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -23,6 +23,16 @@
       "steamAppId": "1326470"
     },
     {
+      "id": "steam-91583",
+      "title": "Gothic Franchise Bundle",
+      "store": "Steam",
+      "old": 7178,
+      "neu": 2469,
+      "pct": 55,
+      "url": "https://store.steampowered.com/app/91583/",
+      "steamAppId": "91583"
+    },
+    {
       "id": "steam-252490",
       "title": "Rust",
       "store": "Steam",
@@ -33,14 +43,14 @@
       "steamAppId": "252490"
     },
     {
-      "id": "steam-5153830",
-      "title": "To Reign in Hell",
+      "id": "steam-3949040",
+      "title": "RV There Yet?",
       "store": "Steam",
-      "old": 385,
-      "neu": 238,
-      "pct": 38,
-      "url": "https://store.steampowered.com/app/5153830/",
-      "steamAppId": "5153830"
+      "old": 320,
+      "neu": 192,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/3949040/",
+      "steamAppId": "3949040"
     },
     {
       "id": "steam-4306070",
@@ -63,6 +73,26 @@
       "steamAppId": "3241660"
     },
     {
+      "id": "steam-5194420",
+      "title": "Hentai Arctic Beauty",
+      "store": "Steam",
+      "old": 51,
+      "neu": 33,
+      "pct": 35,
+      "url": "https://store.steampowered.com/app/5194420/",
+      "steamAppId": "5194420"
+    },
+    {
+      "id": "steam-648800",
+      "title": "Raft",
+      "store": "Steam",
+      "old": 855,
+      "neu": 572,
+      "pct": 33,
+      "url": "https://store.steampowered.com/app/648800/",
+      "steamAppId": "648800"
+    },
+    {
       "id": "steam-1297900",
       "title": "Gothic 1 Remake",
       "store": "Steam",
@@ -71,6 +101,16 @@
       "pct": 25,
       "url": "https://store.steampowered.com/app/1297900/",
       "steamAppId": "1297900"
+    },
+    {
+      "id": "steam-5015190",
+      "title": "Чудесная малышка Белла",
+      "store": "Steam",
+      "old": 280,
+      "neu": 210,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/5015190/",
+      "steamAppId": "5015190"
     },
     {
       "id": "steam-3884860",
@@ -83,64 +123,24 @@
       "steamAppId": "3884860"
     },
     {
-      "id": "steam-4053130",
-      "title": "Abyss Depth: Control",
+      "id": "steam-3676190",
+      "title": "Тёмные Руны: Запретное Начало",
       "store": "Steam",
-      "old": 170,
-      "neu": 136,
+      "old": 465,
+      "neu": 372,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/4053130/",
-      "steamAppId": "4053130"
+      "url": "https://store.steampowered.com/app/3676190/",
+      "steamAppId": "3676190"
     },
     {
-      "id": "steam-5010010",
-      "title": "WHAT NUMBER?",
+      "id": "steam-3091340",
+      "title": "Метал Тандер (Metal Thunder)",
       "store": "Steam",
-      "old": 150,
-      "neu": 120,
+      "old": 300,
+      "neu": 240,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/5010010/",
-      "steamAppId": "5010010"
-    },
-    {
-      "id": "steam-95268",
-      "title": "FreshWomen Season 1 + 2 + 3",
-      "store": "Steam",
-      "old": 1254,
-      "neu": 932,
-      "pct": 17,
-      "url": "https://store.steampowered.com/app/95268/",
-      "steamAppId": "95268"
-    },
-    {
-      "id": "steam-1879270",
-      "title": "Into the Crypt",
-      "store": "Steam",
-      "old": 890,
-      "neu": 756,
-      "pct": 15,
-      "url": "https://store.steampowered.com/app/1879270/",
-      "steamAppId": "1879270"
-    },
-    {
-      "id": "steam-3613550",
-      "title": "Checkmage!",
-      "store": "Steam",
-      "old": 855,
-      "neu": 726,
-      "pct": 15,
-      "url": "https://store.steampowered.com/app/3613550/",
-      "steamAppId": "3613550"
-    },
-    {
-      "id": "steam-4088370",
-      "title": "Two Dollar Suits",
-      "store": "Steam",
-      "old": 535,
-      "neu": 454,
-      "pct": 15,
-      "url": "https://store.steampowered.com/app/4088370/",
-      "steamAppId": "4088370"
+      "url": "https://store.steampowered.com/app/3091340/",
+      "steamAppId": "3091340"
     }
   ]
 }

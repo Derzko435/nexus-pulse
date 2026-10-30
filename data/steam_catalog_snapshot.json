@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T23:14:50+03:00",
+  "updatedAt": "2026-10-30T03:00:24+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -527,25 +527,6 @@
       "short_description": "The empress of Hell is gone. Seize her throne, and wage war on Heaven! A text-based interactive dark fantasy novel, 630,000 words and hundreds of choices, without graphics or sound effects."
     },
     {
-      "appid": "4715160",
-      "name": "Finals Week: Последний экзамен",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4715160/3d05c4f85866620b0b47754e30414cb4414b42dc/header.jpg?t=1793289966",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Симулятор школьника для 1-4 игроков. Здесь вы с друзьями пытаетесь любой ценой сдать последние экзамены. Воруйте ответы, прячьтесь от учителя и используйте любые средства, чтобы списать. Закончите школу, не выучив ни одной страницы!"
-    },
-    {
       "appid": "4306070",
       "name": "Catch Meow If You Can",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4306070/ea62280b3d0256e1c4776b490fb1875db34ca5f9/header.jpg?t=1793300491",
@@ -579,6 +560,23 @@
       "short_description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
     },
     {
+      "appid": "1297900",
+      "name": "Gothic 1 Remake",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/6bc8c205a107e552f14631524f25cdf88743515a/header.jpg?t=1787564876",
+      "genres": [
+        "Экшены",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Возвращение легенды! Исследуйте долину Рудников в потрясающем ремейке культовой ролевой игры. Путешествуйте по мрачному рукотворному открытому миру, который динамически реагирует на ваши действия. Ваши возможности безграничны!"
+    },
+    {
       "appid": "3884860",
       "name": "The Wolf Among Us Remastered",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3884860/80ddd096b6fdd5ab25162251bee4131c78cdf351/header.jpg?t=1793292108",
@@ -595,28 +593,6 @@
       },
       "metacritic": null,
       "short_description": "A dark detective thriller where folklore is real, violence is chilling, and every choice has consequences."
-    },
-    {
-      "appid": "2920220",
-      "name": "Terrible Lizards",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2920220/4b19bf2cbb1c1ef26cc0e898fc6e727776845b73/header.jpg?t=1793292736",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы",
-        "Стратегии",
-        "Бесплатные"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Terrible Lizards — это паркур-хоррор в декорациях старого парка развлечений на трассе 66... под которым таится нечто зловещее. Чтобы спастись, тебе придется быстро двигаться, преодолевать сложные препятствия и выяснить, что скрывается в «Динозаврах Далтона». Лучше беги со всех ног."
     },
     {
       "appid": "4053130",
@@ -705,6 +681,24 @@
       },
       "metacritic": null,
       "short_description": "An adventure game with chess-themed deckbuilding battles. Build your strategy by trading cards and battling lovable, hand-drawn characters."
+    },
+    {
+      "appid": "4088370",
+      "name": "Two Dollar Suits",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088370/b5ee4f7d008545e58044ea116025020e05f861a4/header.jpg?t=1793293221",
+      "genres": [
+        "Экшены",
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Two Dollar Suits combines the very best of the Action-Strategy genre into a fast-moving criminal playground, where players thrive in creativity and exploration. Complete intricate levels and create your own paths using skill, ingenuity, and raw power."
     }
   ]
 }
