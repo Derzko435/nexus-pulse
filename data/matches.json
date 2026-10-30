@@ -1,33 +1,7 @@
 {
- "updatedAt": "2026-10-30T01:59:56+03:00",
+ "updatedAt": "2026-10-30T09:31:24+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-130818",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Top Esports",
-   "teamB": "Bilibili Gaming",
-   "logoA": "https://files.bo3.gg/uploads/team/17530/image/webp-41f36b9fa7a1b15522201bd725a76225.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17842/image/webp-bff13ca353afd9ebfe12e7773fe7899a.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "Worlds 2026",
-   "tier": "S",
-   "startsAt": "2026-10-30T01:30:00+03:00",
-   "streams": [
-    {
-     "type": "youtube",
-     "id": "1t2HMUuiMpE",
-     "lang": "en",
-     "official": true,
-     "label": "KC vs CFO | WORLDS 2026 | Swiss Stage Day 6"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/top-esports-lol-vs-bilibili-gaming-lol-29-10-2026"
-  },
   {
    "id": "bo3-132474",
    "game": "Valorant",
@@ -390,13 +364,13 @@
    "url": "https://bo3.gg/dota2/matches/team-yandex-vs-gamerlegion-dota2-31-10-2026"
   },
   {
-   "id": "bo3-132574",
+   "id": "bo3-132578",
    "game": "CS2",
    "gameKey": "cs2",
-   "teamA": "Legacy",
-   "teamB": "The MongolZ",
-   "logoA": "https://files.bo3.gg/uploads/team/8118/image/webp-e4a3b023443f1f3ba4ef588164e73111.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/736/image/webp-499cad826b4cd83ce22f8bd2b13261d6.webp",
+   "teamA": "Aurora",
+   "teamB": "Liquid",
+   "logoA": "https://files.bo3.gg/uploads/team/3598/image/webp-49b8df76b0d121cc89c760c1ec16ebea.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/790/image/webp-01cca8d35079cb4b21bc25268ac75bae.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
@@ -414,61 +388,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/matches/legacy-br-vs-the-mongolz-02-11-2026"
-  },
-  {
-   "id": "bo3-132580",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "MOUZ",
-   "teamB": "TYLOO",
-   "logoA": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
-   "logoB": "https://files.bo3.gg/uploads/team/757/image/17873415da0f03df35299283b43408d7.png",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "Intel Extreme Masters Beijing 2026",
-   "tier": "S",
-   "startsAt": "2026-11-02T10:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/mouz-cs2-vs-tyloo-cs-go-02-11-2026"
-  },
-  {
-   "id": "bo3-132573",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "HEROIC",
-   "teamB": "B8",
-   "logoA": "https://files.bo3.gg/uploads/team/759/image/webp-1bfbd1b3d4fd35e75a874b7d032a0353.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/1539/image/webp-7f1f7b4413ceab164269700c71c0a186.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "Intel Extreme Masters Beijing 2026",
-   "tier": "S",
-   "startsAt": "2026-11-02T10:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/heroic-vs-b8-02-11-2026"
+   "url": "https://bo3.gg/matches/aurora-gaming-vs-liquid-02-11-2026"
   },
   {
    "id": "bo3-132576",
@@ -498,13 +418,13 @@
    "url": "https://bo3.gg/matches/furia-vs-faze-02-11-2026"
   },
   {
-   "id": "bo3-132577",
+   "id": "bo3-132573",
    "game": "CS2",
    "gameKey": "cs2",
-   "teamA": "PARIVISION",
-   "teamB": "G2",
-   "logoA": "https://files.bo3.gg/uploads/team/8171/image/webp-735594256ca5670882480debe25ffb69.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/793/image/webp-8f844f6a25c797dfe74b411d147983ff.webp",
+   "teamA": "HEROIC",
+   "teamB": "B8",
+   "logoA": "https://files.bo3.gg/uploads/team/759/image/webp-1bfbd1b3d4fd35e75a874b7d032a0353.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/1539/image/webp-7f1f7b4413ceab164269700c71c0a186.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
@@ -522,7 +442,34 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/matches/parivision-vs-g2-02-11-2026"
+   "url": "https://bo3.gg/matches/heroic-vs-b8-02-11-2026"
+  },
+  {
+   "id": "bo3-132580",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "MOUZ",
+   "teamB": "TYLOO",
+   "logoA": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
+   "logoB": "https://files.bo3.gg/uploads/team/757/image/17873415da0f03df35299283b43408d7.png",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "Intel Extreme Masters Beijing 2026",
+   "tier": "S",
+   "startsAt": "2026-11-02T10:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/mouz-cs2-vs-tyloo-cs-go-02-11-2026"
   },
   {
    "id": "bo3-132575",
@@ -577,6 +524,80 @@
     }
    ],
    "url": "https://bo3.gg/matches/9z-vs-betboom-team-02-11-2026"
+  },
+  {
+   "id": "bo3-132574",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Legacy",
+   "teamB": "The MongolZ",
+   "logoA": "https://files.bo3.gg/uploads/team/8118/image/webp-e4a3b023443f1f3ba4ef588164e73111.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/736/image/webp-499cad826b4cd83ce22f8bd2b13261d6.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "Intel Extreme Masters Beijing 2026",
+   "tier": "S",
+   "startsAt": "2026-11-02T10:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/legacy-br-vs-the-mongolz-02-11-2026"
+  },
+  {
+   "id": "bo3-130818",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Top Esports",
+   "teamB": "Bilibili Gaming",
+   "logoA": "https://files.bo3.gg/uploads/team/17530/image/webp-41f36b9fa7a1b15522201bd725a76225.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17842/image/webp-bff13ca353afd9ebfe12e7773fe7899a.webp",
+   "scoreA": 2,
+   "scoreB": 1,
+   "bo": 3,
+   "status": "finished",
+   "event": "Worlds 2026",
+   "tier": "S",
+   "startsAt": "2026-10-30T01:30:00+03:00",
+   "streams": [
+    {
+     "type": "youtube",
+     "id": "1t2HMUuiMpE",
+     "lang": "en",
+     "official": true,
+     "label": "KC vs CFO | WORLDS 2026 | Swiss Stage Day 6"
+    },
+    {
+     "type": "twitch",
+     "channel": "otplol_",
+     "lang": "fr",
+     "official": true,
+     "label": "otplol_"
+    },
+    {
+     "type": "twitch",
+     "channel": "riotgamesturkish",
+     "lang": "tr",
+     "official": true,
+     "label": "riotgamesturkish"
+    },
+    {
+     "type": "twitch",
+     "channel": "lolesportsla",
+     "lang": "es",
+     "official": false,
+     "label": "lolesportsla"
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/top-esports-lol-vs-bilibili-gaming-lol-29-10-2026"
   },
   {
    "id": "bo3-130821",
@@ -1332,53 +1353,6 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/rising-bees-vs-mental-rush-27-10-2026"
-  },
-  {
-   "id": "bo3-130817",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Team Liquid",
-   "teamB": "Anyone's Legend",
-   "logoA": "https://files.bo3.gg/uploads/team/17972/image/webp-ec509f9d9953cd165631ac7fc724fbe3.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17162/image/webp-64a70f700471af7efb76dd519358fcf0.webp",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "Worlds 2026",
-   "tier": "S",
-   "startsAt": "2026-10-27T00:00:00+03:00",
-   "streams": [
-    {
-     "type": "youtube",
-     "id": "ECJoJ7ez7-4",
-     "lang": "en",
-     "official": true,
-     "label": "CFO vs. T1 | WORLDS 2026 | Swiss Stage Day 4"
-    },
-    {
-     "type": "twitch",
-     "channel": "ibai",
-     "lang": "es",
-     "official": true,
-     "label": "ibai"
-    },
-    {
-     "type": "twitch",
-     "channel": "otplol_",
-     "lang": "fr",
-     "official": true,
-     "label": "otplol_"
-    },
-    {
-     "type": "twitch",
-     "channel": "esport2tv",
-     "lang": "hu",
-     "official": true,
-     "label": "esport2tv"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/team-liquid-lol-vs-anyones-legend-26-10-2026"
   }
  ],
  "tournaments": [
