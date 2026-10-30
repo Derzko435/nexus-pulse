@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-10-30T16:12:20+03:00",
+  "updatedAt": "2026-10-30T22:30:29+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
-      "id": "steam-826940",
-      "title": "Maid of Sker",
+      "id": "steam-466130",
+      "title": "White Day: A Labyrinth Named School",
       "store": "Steam",
-      "old": 465,
-      "neu": 88,
-      "pct": 81,
-      "url": "https://store.steampowered.com/app/826940/",
-      "steamAppId": "826940"
+      "old": 1300,
+      "neu": 130,
+      "pct": 90,
+      "url": "https://store.steampowered.com/app/466130/",
+      "steamAppId": "466130"
     },
     {
       "id": "steam-242760",
@@ -43,16 +43,6 @@
       "steamAppId": "1304930"
     },
     {
-      "id": "steam-91583",
-      "title": "Gothic Franchise Bundle",
-      "store": "Steam",
-      "old": 7178,
-      "neu": 2469,
-      "pct": 55,
-      "url": "https://store.steampowered.com/app/91583/",
-      "steamAppId": "91583"
-    },
-    {
       "id": "steam-252490",
       "title": "Rust",
       "store": "Steam",
@@ -63,34 +53,14 @@
       "steamAppId": "252490"
     },
     {
-      "id": "steam-5497430",
-      "title": "Lust Goddess — Mascot Cyphra",
+      "id": "steam-3949040",
+      "title": "RV There Yet?",
       "store": "Steam",
-      "old": 2300,
-      "neu": 1380,
+      "old": 320,
+      "neu": 192,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5497430/",
-      "steamAppId": "5497430"
-    },
-    {
-      "id": "steam-5025010",
-      "title": "Farm to Fortune",
-      "store": "Steam",
-      "old": 170,
-      "neu": 102,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5025010/",
-      "steamAppId": "5025010"
-    },
-    {
-      "id": "steam-4815880",
-      "title": "Детектив Нонограмма",
-      "store": "Steam",
-      "old": 170,
-      "neu": 102,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/4815880/",
-      "steamAppId": "4815880"
+      "url": "https://store.steampowered.com/app/3949040/",
+      "steamAppId": "3949040"
     },
     {
       "id": "steam-3241660",
@@ -103,14 +73,14 @@
       "steamAppId": "3241660"
     },
     {
-      "id": "steam-3423100",
-      "title": "Коин-Пушер Миллионер",
+      "id": "steam-4880870",
+      "title": "Debtbound",
       "store": "Steam",
-      "old": 170,
-      "neu": 119,
+      "old": 360,
+      "neu": 252,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/3423100/",
-      "steamAppId": "3423100"
+      "url": "https://store.steampowered.com/app/4880870/",
+      "steamAppId": "4880870"
     },
     {
       "id": "steam-1297900",
@@ -123,24 +93,54 @@
       "steamAppId": "1297900"
     },
     {
-      "id": "steam-5267350",
-      "title": "Lattice",
+      "id": "steam-5285920",
+      "title": "THE MOUTHLESS STALKER",
       "store": "Steam",
-      "old": 395,
-      "neu": 296,
+      "old": 200,
+      "neu": 150,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/5267350/",
-      "steamAppId": "5267350"
+      "url": "https://store.steampowered.com/app/5285920/",
+      "steamAppId": "5285920"
     },
     {
-      "id": "steam-5263460",
-      "title": "Sort Them Cats",
+      "id": "steam-5135070",
+      "title": "Nightshift; Nowhere",
       "store": "Steam",
-      "old": 261,
-      "neu": 195,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5263460/",
-      "steamAppId": "5263460"
+      "old": 1050,
+      "neu": 840,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/5135070/",
+      "steamAppId": "5135070"
+    },
+    {
+      "id": "steam-4645790",
+      "title": "BURIED INSIDE ME",
+      "store": "Steam",
+      "old": 290,
+      "neu": 232,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/4645790/",
+      "steamAppId": "4645790"
+    },
+    {
+      "id": "steam-5328310",
+      "title": "Eggsecution Squad",
+      "store": "Steam",
+      "old": 240,
+      "neu": 192,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/5328310/",
+      "steamAppId": "5328310"
+    },
+    {
+      "id": "steam-4928440",
+      "title": "A Tiny Ghost Game",
+      "store": "Steam",
+      "old": 240,
+      "neu": 192,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/4928440/",
+      "steamAppId": "4928440"
     }
   ]
 }
