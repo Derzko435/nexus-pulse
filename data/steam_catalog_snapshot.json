@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T09:02:16+03:00",
+  "updatedAt": "2026-10-30T16:12:15+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -452,6 +452,22 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
+      "appid": "1449690",
+      "name": "The Walking Dead: The Telltale Definitive Series",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/header.jpg?t=1760651835",
+      "genres": [
+        "Приключенческие игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "The Walking Dead: The Telltale Definitive Series содержит все четыре сезона, дополнение 400 Days и The Walking Dead: Michonne — всего 23 уникальных эпизода, которые подарят игрокам более 50 часов игры."
+    },
+    {
       "appid": "826940",
       "name": "Maid of Sker",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/826940/header.jpg?t=1793283789",
@@ -468,6 +484,25 @@
       },
       "metacritic": 69,
       "short_description": "Скерская дева — это игра &quot;ужастик&quot; в стиле выживания от первого лица, действие которой происходит в удаленном от цивилизации отеле с жуткой историей, позаимствованной из британского фольклора. Бросьте вызов ночным кошмарам Тихих Людей. Когда они прибудут, не паникуйте — лучше, даже, не дышите."
+    },
+    {
+      "appid": "242760",
+      "name": "The Forest",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg?t=1699381053",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 83,
+      "short_description": "As the lone survivor of a passenger jet crash, you find yourself in a mysterious forest battling to stay alive against a society of cannibalistic mutants. Build, explore, survive in this terrifying first person survival horror simulator."
     },
     {
       "appid": "1326470",
@@ -525,40 +560,6 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
-      "appid": "3949040",
-      "name": "RV There Yet?",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949040/cae24b4ed7f4531be51f0d63f785b7d253f92dc3/header.jpg?t=1789134289",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Кооперативное приключение за рулём автодома."
-    },
-    {
-      "appid": "4306070",
-      "name": "Catch Meow If You Can",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4306070/ea62280b3d0256e1c4776b490fb1875db34ca5f9/header.jpg?t=1793300491",
-      "genres": [
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Онлайн-кооперативная игра на выживание для 4 игроков. Играйте за знаменитого кота — победителя конкурсов. Пока хозяина нет дома, в особняк проникают разные грабители. Исследуйте тёмные комнаты, решайте головоломки, перехитрите незваных гостей, дайте им отпор и сбегите, не попавшись."
-    },
-    {
       "appid": "3241660",
       "name": "R.E.P.O.",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/62177765c05399116f0453fe1177b00ceed698c4/header_alt_assets_3.jpg?t=1793278962",
@@ -576,13 +577,13 @@
       "short_description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
     },
     {
-      "appid": "5194420",
-      "name": "Hentai Arctic Beauty",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5194420/8fdac86f30eaaf0e558a2995c7e3ea9760958d59/header.jpg?t=1793296711",
+      "appid": "5327990",
+      "name": "Pro Soccer Management 27",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5327990/7d78a20651bb85b97ebb8949f52776fa74b48d46/header.jpg?t=1793324800",
       "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди"
+        "Симуляторы",
+        "Спорт",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
@@ -591,25 +592,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Решай 24 головоломки, открывай красивые арктические иллюстрации, получай достижения и заполняй галерею в Hentai Arctic Beauty."
-    },
-    {
-      "appid": "648800",
-      "name": "Raft",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg?t=1727184011",
-      "genres": [
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Raft™ throws you and your friends into an epic oceanic adventure! Alone or together, players battle to survive a perilous voyage across a vast sea! Gather debris, scavenge reefs and build your own floating home, but be wary of the man-eating sharks!"
+      "short_description": "Полностью контролируйте футбольный клуб. Формируйте тактику, трансферы, развитие молодежи, персонал, финансы, инфраструктуру и рост стадиона — или рискуйте всем в андерграунде. Создайте свою футбольную вселенную с помощью datapacks, модов и Steam Workshop."
     },
     {
       "appid": "1297900",
@@ -629,12 +612,14 @@
       "short_description": "Возвращение легенды! Исследуйте долину Рудников в потрясающем ремейке культовой ролевой игры. Путешествуйте по мрачному рукотворному открытому миру, который динамически реагирует на ваши действия. Ваши возможности безграничны!"
     },
     {
-      "appid": "5015190",
-      "name": "Чудесная малышка Белла",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5015190/1d066f14c398413e8b15ce7c2546aead6f88c49e/header.jpg?t=1793304937",
+      "appid": "5302180",
+      "name": "Everything Must Go!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5302180/47e604133d875ed9a71712f8d66e4f2a91bcd1a4/header.jpg?t=1793322119",
       "genres": [
         "Экшены",
-        "Инди"
+        "Казуальные игры",
+        "Симуляторы",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
@@ -643,7 +628,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Пока её муж находится за городом, Лиора вынуждена проводить свои дни в одиночестве. Но одиночество не так тихо, как ей кажется."
+      "short_description": "Four broke thieves. One supermarket. One thousand items. Race your friends to steal, sell, and upgrade — then throw groceries at each other until only one thief walks away rich. 4-player online party chaos. Keyboard &amp; mouse."
     },
     {
       "appid": "3884860",
@@ -664,12 +649,12 @@
       "short_description": "A dark detective thriller where folklore is real, violence is chilling, and every choice has consequences."
     },
     {
-      "appid": "3676190",
-      "name": "Тёмные Руны: Запретное Начало",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3676190/ebfbab15145fa96199f236c5a3a1ae1f7bd05b6f/header_alt_assets_0_russian.jpg?t=1793317055",
+      "appid": "3859180",
+      "name": "The Electorate",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3859180/9752b9b9e72f8ece30ac51320126ed16ccd2bfd9/header.jpg?t=1793318734",
       "genres": [
-        "Экшены",
-        "Ролевые игры"
+        "Симуляторы",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
@@ -678,27 +663,45 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Тёмные Руны: Запретное Начало - Хардкорный ARPG с разнообразными рунами навыков и классическими Словами Рун. Пришло время начать вашу легенду о добыче! Каждый бой может принести добычу, меняющую судьбу, каждая комбинация рун может создать новые легенды. Вы готовы принять вызов?"
+      "short_description": "Campaign to victory in the ultimate election simulator, The Electorate. Rally voters, dominate the airwaves, attack rivals, and fight for glory and power across every county in the United States."
     },
     {
-      "appid": "3091340",
-      "name": "Метал Тандер (Metal Thunder)",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3091340/5eaf0609b036dfdc08e175722a2e0eeee7ec07d2/header_alt_assets_3.jpg?t=1793311249",
+      "appid": "4999100",
+      "name": "Eucalyptus Edge: MegaBlast Mayhem",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4999100/aa0cfab68a5d4631a0e57f0b5d6e3201a833777d/header.jpg?t=1793338058",
       "genres": [
         "Экшены",
+        "Приключенческие игры",
         "Казуальные игры",
         "Инди",
-        "Симуляторы",
         "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
+        "mac": false,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Управляйте легендарным боевым кораблем в высокооктановом экшен-роге! Сражайтесь с повстанцами, используя разрушительную огневую мощь в меняющихся миссиях. Улучшайте арсенал, приспосабливайтесь к задачам и выживайте под натиском волн врагов. Каждый заход приносит новые тактики и хаос в небе."
+      "short_description": "Сражайтесь с друзьями или ботами в безумных взрывных битвах для четырёх игроков в локальном мультиплеере по всему яркому миру Вердантии. Осваивайте усиления и непредсказуемые модификаторы Chaos, покорите Тур по регионам и докажите, что именно вы достойны стать чемпионом фестиваля MegaBlast."
+    },
+    {
+      "appid": "5367210",
+      "name": "Cashgrind Simulator",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5367210/2c6ee6fbca2a7b9557648b71119890b46a305b43/header.jpg?t=1793324414",
+      "genres": [
+        "Казуальные игры",
+        "Ролевые игры",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Most people earn money to spend on games. You have to run a game to earn money. Jobless and buried in debt, you take a shady offer: reroll accounts for the hit RPG Daydream Saga and sell them, then farm gold on your own account and cash it out. Can you pay off your debt, save up, and buy a home?"
     }
   ]
 }

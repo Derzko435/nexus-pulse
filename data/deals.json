@@ -1,17 +1,7 @@
 {
-  "updatedAt": "2026-10-30T09:02:21+03:00",
+  "updatedAt": "2026-10-30T16:12:20+03:00",
   "source": "steam-specials-ru",
   "deals": [
-    {
-      "id": "steam-1449690",
-      "title": "The Walking Dead: The Telltale Definitive Series",
-      "store": "Steam",
-      "old": 1600,
-      "neu": 160,
-      "pct": 90,
-      "url": "https://store.steampowered.com/app/1449690/",
-      "steamAppId": "1449690"
-    },
     {
       "id": "steam-826940",
       "title": "Maid of Sker",
@@ -43,6 +33,16 @@
       "steamAppId": "1326470"
     },
     {
+      "id": "steam-1304930",
+      "title": "The Outlast Trials",
+      "store": "Steam",
+      "old": 1300,
+      "neu": 390,
+      "pct": 70,
+      "url": "https://store.steampowered.com/app/1304930/",
+      "steamAppId": "1304930"
+    },
+    {
       "id": "steam-91583",
       "title": "Gothic Franchise Bundle",
       "store": "Steam",
@@ -63,6 +63,36 @@
       "steamAppId": "252490"
     },
     {
+      "id": "steam-5497430",
+      "title": "Lust Goddess — Mascot Cyphra",
+      "store": "Steam",
+      "old": 2300,
+      "neu": 1380,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5497430/",
+      "steamAppId": "5497430"
+    },
+    {
+      "id": "steam-5025010",
+      "title": "Farm to Fortune",
+      "store": "Steam",
+      "old": 170,
+      "neu": 102,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5025010/",
+      "steamAppId": "5025010"
+    },
+    {
+      "id": "steam-4815880",
+      "title": "Детектив Нонограмма",
+      "store": "Steam",
+      "old": 170,
+      "neu": 102,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/4815880/",
+      "steamAppId": "4815880"
+    },
+    {
       "id": "steam-3241660",
       "title": "R.E.P.O.",
       "store": "Steam",
@@ -73,14 +103,14 @@
       "steamAppId": "3241660"
     },
     {
-      "id": "steam-5327990",
-      "title": "Pro Soccer Management 27",
+      "id": "steam-3423100",
+      "title": "Коин-Пушер Миллионер",
       "store": "Steam",
-      "old": 555,
-      "neu": 388,
+      "old": 170,
+      "neu": 119,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/5327990/",
-      "steamAppId": "5327990"
+      "url": "https://store.steampowered.com/app/3423100/",
+      "steamAppId": "3423100"
     },
     {
       "id": "steam-1297900",
@@ -93,54 +123,24 @@
       "steamAppId": "1297900"
     },
     {
-      "id": "steam-5302180",
-      "title": "Everything Must Go!",
+      "id": "steam-5267350",
+      "title": "Lattice",
       "store": "Steam",
-      "old": 200,
-      "neu": 150,
+      "old": 395,
+      "neu": 296,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/5302180/",
-      "steamAppId": "5302180"
+      "url": "https://store.steampowered.com/app/5267350/",
+      "steamAppId": "5267350"
     },
     {
-      "id": "steam-3884860",
-      "title": "The Wolf Among Us Remastered",
+      "id": "steam-5263460",
+      "title": "Sort Them Cats",
       "store": "Steam",
-      "old": 1050,
-      "neu": 840,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/3884860/",
-      "steamAppId": "3884860"
-    },
-    {
-      "id": "steam-3859180",
-      "title": "The Electorate",
-      "store": "Steam",
-      "old": 1050,
-      "neu": 840,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/3859180/",
-      "steamAppId": "3859180"
-    },
-    {
-      "id": "steam-4999100",
-      "title": "Eucalyptus Edge: MegaBlast Mayhem",
-      "store": "Steam",
-      "old": 465,
-      "neu": 372,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/4999100/",
-      "steamAppId": "4999100"
-    },
-    {
-      "id": "steam-5367210",
-      "title": "Cashgrind Simulator",
-      "store": "Steam",
-      "old": 385,
-      "neu": 308,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5367210/",
-      "steamAppId": "5367210"
+      "old": 261,
+      "neu": 195,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/5263460/",
+      "steamAppId": "5263460"
     }
   ]
 }
