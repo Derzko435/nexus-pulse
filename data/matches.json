@@ -1,101 +1,7 @@
 {
- "updatedAt": "2026-10-31T20:23:17+03:00",
+ "updatedAt": "2026-11-01T00:54:14+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-130825",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Karmine Corp",
-   "teamB": "Movistar KOI",
-   "logoA": "https://files.bo3.gg/uploads/team/18342/image/webp-bee9ffd6f69f1a4036d9738f43107f12.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17163/image/webp-5c458310cc9419a944641899aee05ba3.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "Worlds 2026",
-   "tier": "S",
-   "startsAt": "2026-10-31T20:05:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "yamatocannon",
-     "lang": "en",
-     "official": true,
-     "label": "yamatocannon"
-    },
-    {
-     "type": "youtube",
-     "id": "J7wF_Cl4Fz4",
-     "lang": "en",
-     "official": true,
-     "label": "MKOI vs KC | WORLDS 2026 | Swiss Stage Day 8"
-    },
-    {
-     "type": "twitch",
-     "channel": "ibai",
-     "lang": "es",
-     "official": true,
-     "label": "ibai"
-    },
-    {
-     "type": "twitch",
-     "channel": "otplol_",
-     "lang": "fr",
-     "official": true,
-     "label": "otplol_"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/karmine-corp-lol-vs-koi-lol-31-10-2026"
-  },
-  {
-   "id": "bo3-132297",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "GamerLegion",
-   "teamB": "Team Spirit",
-   "logoA": "https://files.bo3.gg/uploads/team/22027/image/webp-f42950afee48713daf40592585696801.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16704/image/webp-d50909a064a4533a3b594ed059eebc42.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "PARI Universe",
-   "tier": "S",
-   "startsAt": "2026-10-31T20:25:00+03:00",
-   "streams": [
-    {
-     "type": "kick",
-     "channel": "americaesportsdota2",
-     "lang": "es",
-     "official": true,
-     "label": "americaesportsdota2"
-    },
-    {
-     "type": "twitch",
-     "channel": "afoninje",
-     "lang": "ru",
-     "official": false,
-     "label": "afoninje"
-    },
-    {
-     "type": "twitch",
-     "channel": "fissure_dota_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "fissure_dota_ru"
-    },
-    {
-     "type": "twitch",
-     "channel": "gorgc",
-     "lang": "en",
-     "official": false,
-     "label": "gorgc"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/team-spirit-vs-gamerlegion-dota2-31-10-2026"
-  },
   {
    "id": "bo3-132165",
    "game": "Valorant",
@@ -104,10 +10,10 @@
    "teamB": "KRÜ Blaze",
    "logoA": "https://files.bo3.gg/uploads/team/6700/image/webp-8da16b04777636e65218d024a2e61c1c.webp",
    "logoB": "https://files.bo3.gg/uploads/team/6593/image/webp-7377e42c1706acd31226f1a369ecf619.webp",
-   "scoreA": 0,
-   "scoreB": 0,
+   "scoreA": 1,
+   "scoreB": 2,
    "bo": 5,
-   "status": "upcoming",
+   "status": "live",
    "event": "VALORANT Game Changers Championship 2026",
    "tier": "S",
    "startsAt": "2026-10-31T21:00:00+03:00",
@@ -135,60 +41,13 @@
     },
     {
      "type": "twitch",
-     "channel": "valorant_th",
-     "lang": "th",
+     "channel": "wipr",
+     "lang": "fr",
      "official": true,
-     "label": "valorant_th"
+     "label": "wipr"
     }
    ],
    "url": "https://bo3.gg/valorant/matches/shopify-rebellion-gc-vs-kru-blaze-31-10-2026"
-  },
-  {
-   "id": "bo3-130824",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "LOS",
-   "teamB": "LYON",
-   "logoA": "https://files.bo3.gg/uploads/team/16923/image/webp-b1532153c183e4bee443587e846fcd79.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17950/image/webp-af6dd846f7f743f6416de79b288ec6ba.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "Worlds 2026",
-   "tier": "S",
-   "startsAt": "2026-10-31T23:00:00+03:00",
-   "streams": [
-    {
-     "type": "youtube",
-     "id": "J7wF_Cl4Fz4",
-     "lang": "en",
-     "official": true,
-     "label": "MKOI vs KC | WORLDS 2026 | Swiss Stage Day 8"
-    },
-    {
-     "type": "twitch",
-     "channel": "ibai",
-     "lang": "es",
-     "official": true,
-     "label": "ibai"
-    },
-    {
-     "type": "twitch",
-     "channel": "otplol_",
-     "lang": "fr",
-     "official": true,
-     "label": "otplol_"
-    },
-    {
-     "type": "twitch",
-     "channel": "starky",
-     "lang": "ru",
-     "official": false,
-     "label": "starky"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/los-vs-lyon-gaming-31-10-2026"
   },
   {
    "id": "bo3-130826",
@@ -204,7 +63,7 @@
    "status": "upcoming",
    "event": "Worlds 2026",
    "tier": "S",
-   "startsAt": "2026-11-01T02:00:00+03:00",
+   "startsAt": "2026-11-01T01:00:00+03:00",
    "streams": [
     {
      "type": "youtube",
@@ -251,31 +110,30 @@
    "url": "https://bo3.gg/valorant/matches/unsettled-resentment-vlr-vs-nova-esports-01-11-2026"
   },
   {
-   "id": "bo3-132573",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "HEROIC",
-   "teamB": "B8",
-   "logoA": "https://files.bo3.gg/uploads/team/759/image/webp-1bfbd1b3d4fd35e75a874b7d032a0353.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/1539/image/webp-7f1f7b4413ceab164269700c71c0a186.webp",
+   "id": "bo3-132298",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Team Yandex",
+   "teamB": "Team Spirit",
+   "logoA": "https://files.bo3.gg/uploads/team/20951/image/webp-102aceac7404bd2093f9b559afcad7b6.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16704/image/webp-d50909a064a4533a3b594ed059eebc42.webp",
    "scoreA": 0,
    "scoreB": 0,
-   "bo": 3,
+   "bo": 5,
    "status": "upcoming",
-   "event": "Intel Extreme Masters Beijing 2026",
+   "event": "PARI Universe",
    "tier": "S",
-   "startsAt": "2026-11-02T05:00:00+03:00",
+   "startsAt": "2026-11-01T16:00:00+03:00",
    "streams": [
     {
-     "type": "twitch",
-     "channel": "eslcs",
+     "type": "kick",
+     "channel": "fissure_dota_en",
      "lang": "en",
-     "official": true,
-     "label": "eslcs",
-     "fallback": true
+     "official": false,
+     "label": "fissure_dota_en"
     }
    ],
-   "url": "https://bo3.gg/matches/heroic-vs-b8-02-11-2026"
+   "url": "https://bo3.gg/dota2/matches/team-yandex-vs-team-spirit-01-11-2026"
   },
   {
    "id": "bo3-132574",
@@ -305,20 +163,20 @@
    "url": "https://bo3.gg/matches/legacy-br-vs-the-mongolz-02-11-2026"
   },
   {
-   "id": "bo3-132577",
+   "id": "bo3-132573",
    "game": "CS2",
    "gameKey": "cs2",
-   "teamA": "PARIVISION",
-   "teamB": "G2",
-   "logoA": "https://files.bo3.gg/uploads/team/8171/image/webp-735594256ca5670882480debe25ffb69.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/793/image/webp-8f844f6a25c797dfe74b411d147983ff.webp",
+   "teamA": "HEROIC",
+   "teamB": "B8",
+   "logoA": "https://files.bo3.gg/uploads/team/759/image/webp-1bfbd1b3d4fd35e75a874b7d032a0353.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/1539/image/webp-7f1f7b4413ceab164269700c71c0a186.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
    "status": "upcoming",
    "event": "Intel Extreme Masters Beijing 2026",
    "tier": "S",
-   "startsAt": "2026-11-02T07:30:00+03:00",
+   "startsAt": "2026-11-02T05:00:00+03:00",
    "streams": [
     {
      "type": "twitch",
@@ -329,7 +187,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/matches/parivision-vs-g2-02-11-2026"
+   "url": "https://bo3.gg/matches/heroic-vs-b8-02-11-2026"
   },
   {
    "id": "bo3-132578",
@@ -359,20 +217,20 @@
    "url": "https://bo3.gg/matches/aurora-gaming-vs-liquid-02-11-2026"
   },
   {
-   "id": "bo3-132579",
+   "id": "bo3-132577",
    "game": "CS2",
    "gameKey": "cs2",
-   "teamA": "9z",
-   "teamB": "BetBoom",
-   "logoA": "https://files.bo3.gg/uploads/team/324/image/webp-0c639374c5bbd039126737081088a5fc.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
+   "teamA": "PARIVISION",
+   "teamB": "G2",
+   "logoA": "https://files.bo3.gg/uploads/team/8171/image/webp-735594256ca5670882480debe25ffb69.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/793/image/webp-8f844f6a25c797dfe74b411d147983ff.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
    "status": "upcoming",
    "event": "Intel Extreme Masters Beijing 2026",
    "tier": "S",
-   "startsAt": "2026-11-02T10:00:00+03:00",
+   "startsAt": "2026-11-02T07:30:00+03:00",
    "streams": [
     {
      "type": "twitch",
@@ -383,7 +241,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/matches/9z-vs-betboom-team-02-11-2026"
+   "url": "https://bo3.gg/matches/parivision-vs-g2-02-11-2026"
   },
   {
    "id": "bo3-132576",
@@ -411,6 +269,33 @@
     }
    ],
    "url": "https://bo3.gg/matches/furia-vs-faze-02-11-2026"
+  },
+  {
+   "id": "bo3-132579",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "9z",
+   "teamB": "BetBoom",
+   "logoA": "https://files.bo3.gg/uploads/team/324/image/webp-0c639374c5bbd039126737081088a5fc.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "Intel Extreme Masters Beijing 2026",
+   "tier": "S",
+   "startsAt": "2026-11-02T10:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/9z-vs-betboom-team-02-11-2026"
   },
   {
    "id": "bo3-132575",
@@ -465,6 +350,147 @@
     }
    ],
    "url": "https://bo3.gg/matches/mouz-cs2-vs-tyloo-cs-go-02-11-2026"
+  },
+  {
+   "id": "bo3-130824",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "LOS",
+   "teamB": "LYON",
+   "logoA": "https://files.bo3.gg/uploads/team/16923/image/webp-b1532153c183e4bee443587e846fcd79.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17950/image/webp-af6dd846f7f743f6416de79b288ec6ba.webp",
+   "scoreA": 1,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "Worlds 2026",
+   "tier": "S",
+   "startsAt": "2026-10-31T21:55:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "yamatocannon",
+     "lang": "en",
+     "official": true,
+     "label": "yamatocannon"
+    },
+    {
+     "type": "youtube",
+     "id": "J7wF_Cl4Fz4",
+     "lang": "en",
+     "official": true,
+     "label": "MKOI vs KC | WORLDS 2026 | Swiss Stage Day 8"
+    },
+    {
+     "type": "twitch",
+     "channel": "ibai",
+     "lang": "es",
+     "official": true,
+     "label": "ibai"
+    },
+    {
+     "type": "twitch",
+     "channel": "otplol_",
+     "lang": "fr",
+     "official": true,
+     "label": "otplol_"
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/los-vs-lyon-gaming-31-10-2026"
+  },
+  {
+   "id": "bo3-132297",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "GamerLegion",
+   "teamB": "Team Spirit",
+   "logoA": "https://files.bo3.gg/uploads/team/22027/image/webp-f42950afee48713daf40592585696801.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16704/image/webp-d50909a064a4533a3b594ed059eebc42.webp",
+   "scoreA": 0,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "PARI Universe",
+   "tier": "S",
+   "startsAt": "2026-10-31T20:25:00+03:00",
+   "streams": [
+    {
+     "type": "kick",
+     "channel": "americaesportsdota2",
+     "lang": "es",
+     "official": true,
+     "label": "americaesportsdota2"
+    },
+    {
+     "type": "twitch",
+     "channel": "afoninje",
+     "lang": "ru",
+     "official": false,
+     "label": "afoninje"
+    },
+    {
+     "type": "twitch",
+     "channel": "fissure_dota_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "fissure_dota_ru"
+    },
+    {
+     "type": "twitch",
+     "channel": "gorgc",
+     "lang": "en",
+     "official": false,
+     "label": "gorgc"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/team-spirit-vs-gamerlegion-dota2-31-10-2026"
+  },
+  {
+   "id": "bo3-130825",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Karmine Corp",
+   "teamB": "Movistar KOI",
+   "logoA": "https://files.bo3.gg/uploads/team/18342/image/webp-bee9ffd6f69f1a4036d9738f43107f12.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17163/image/webp-5c458310cc9419a944641899aee05ba3.webp",
+   "scoreA": 2,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "finished",
+   "event": "Worlds 2026",
+   "tier": "S",
+   "startsAt": "2026-10-31T20:05:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "yamatocannon",
+     "lang": "en",
+     "official": true,
+     "label": "yamatocannon"
+    },
+    {
+     "type": "youtube",
+     "id": "J7wF_Cl4Fz4",
+     "lang": "en",
+     "official": true,
+     "label": "MKOI vs KC | WORLDS 2026 | Swiss Stage Day 8"
+    },
+    {
+     "type": "twitch",
+     "channel": "ibai",
+     "lang": "es",
+     "official": true,
+     "label": "ibai"
+    },
+    {
+     "type": "twitch",
+     "channel": "otplol_",
+     "lang": "fr",
+     "official": true,
+     "label": "otplol_"
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/karmine-corp-lol-vs-koi-lol-31-10-2026"
   },
   {
    "id": "bo3-133059",
@@ -1067,32 +1093,6 @@
    "url": "https://bo3.gg/valorant/matches/any-questions-vs-funplus-phoenix-30-10-2026"
   },
   {
-   "id": "bo3-132293",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "PARIVISION",
-   "teamB": "Team Spirit",
-   "logoA": "https://files.bo3.gg/uploads/team/18604/image/webp-6ff7974f420e977381734ce06515692b.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16704/image/webp-d50909a064a4533a3b594ed059eebc42.webp",
-   "scoreA": 1,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "PARI Universe",
-   "tier": "S",
-   "startsAt": "2026-10-30T13:00:00+03:00",
-   "streams": [
-    {
-     "type": "kick",
-     "channel": "fissure_dota_en",
-     "lang": "en",
-     "official": false,
-     "label": "fissure_dota_en"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/team-spirit-vs-parivision-dota2-30-10-2026"
-  },
-  {
    "id": "bo3-130818",
    "game": "LoL",
    "gameKey": "lol",
@@ -1138,100 +1138,6 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/top-esports-lol-vs-bilibili-gaming-lol-29-10-2026"
-  },
-  {
-   "id": "bo3-130821",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Karmine Corp",
-   "teamB": "CTBC Flying Oyster",
-   "logoA": "https://files.bo3.gg/uploads/team/18342/image/webp-bee9ffd6f69f1a4036d9738f43107f12.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17098/image/webp-3111c55f8f432618cb9f35b43d65b3a0.webp",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "Worlds 2026",
-   "tier": "S",
-   "startsAt": "2026-10-29T23:05:00+03:00",
-   "streams": [
-    {
-     "type": "youtube",
-     "id": "1t2HMUuiMpE",
-     "lang": "en",
-     "official": true,
-     "label": "KC vs CFO | WORLDS 2026 | Swiss Stage Day 6"
-    },
-    {
-     "type": "twitch",
-     "channel": "ibai",
-     "lang": "es",
-     "official": true,
-     "label": "ibai"
-    },
-    {
-     "type": "twitch",
-     "channel": "otplol_",
-     "lang": "fr",
-     "official": true,
-     "label": "otplol_"
-    },
-    {
-     "type": "twitch",
-     "channel": "caedrel",
-     "lang": "en",
-     "official": false,
-     "label": "caedrel"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/karmine-corp-lol-vs-ctbc-flying-oyster-29-10-2026"
-  },
-  {
-   "id": "bo3-130819",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Invictus Gaming",
-   "teamB": "LYON",
-   "logoA": "https://files.bo3.gg/uploads/team/17955/image/webp-6861d92d65e9df9cd93a5c87b0b08390.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17950/image/webp-af6dd846f7f743f6416de79b288ec6ba.webp",
-   "scoreA": 2,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "finished",
-   "event": "Worlds 2026",
-   "tier": "S",
-   "startsAt": "2026-10-29T01:00:00+03:00",
-   "streams": [
-    {
-     "type": "youtube",
-     "id": "hzpuL0g_E7E",
-     "lang": "en",
-     "official": true,
-     "label": "MKOI vs T1 | WORLDS 2026 | Swiss Stage Day 5"
-    },
-    {
-     "type": "twitch",
-     "channel": "ibai",
-     "lang": "es",
-     "official": true,
-     "label": "ibai"
-    },
-    {
-     "type": "twitch",
-     "channel": "esport2tv",
-     "lang": "hu",
-     "official": true,
-     "label": "esport2tv"
-    },
-    {
-     "type": "twitch",
-     "channel": "tl_nero",
-     "lang": "el",
-     "official": true,
-     "label": "tl_nero"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/invictus-gaming-lol-vs-lyon-gaming-28-10-2026"
   }
  ],
  "tournaments": [
