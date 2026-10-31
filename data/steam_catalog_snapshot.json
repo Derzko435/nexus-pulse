@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-31T21:39:26+03:00",
+  "updatedAt": "2026-11-01T02:29:21+03:00",
   "source": "steam-store-appdetails",
-  "count": 39,
+  "count": 38,
   "apps": [
     {
       "appid": "730",
@@ -452,24 +452,6 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "466130",
-      "name": "White Day: A Labyrinth Named School",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/466130/header.jpg?t=1792060774",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "«Школа: Белый день» — это приключенческий 3D хоррор, рассказывающий о загадочных событиях, произошедших в одной школе ночью 13-го марта. Вам предстоит разгадать секрет школы, спастись от множества призраков и сумасшедшего сторожа, а также попытаться выжить в атмосфере первобытного ужаса."
-    },
-    {
       "appid": "242760",
       "name": "The Forest",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg?t=1699381053",
@@ -526,6 +508,24 @@
       "short_description": "Red Barrels invites you to experience mind-numbing terror, this time with friends. Whether you go through the trials alone or in teams, if you survive long enough and complete the therapy, Murkoff will happily let you leave… but will you be the same?"
     },
     {
+      "appid": "335670",
+      "name": "LISA: The Painful",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/335670/header.jpg?t=1756162720",
+      "genres": [
+        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": 77,
+      "short_description": "Несчастные приключения сломленного человека..."
+    },
+    {
       "appid": "252490",
       "name": "Rust",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1781536981",
@@ -546,6 +546,24 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
+      "appid": "5370640",
+      "name": "Nodes",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5370640/27ef3eaa6d860b5a72d9ef04b8e559ef782ccd12/header.jpg?t=1793449068",
+      "genres": [
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Строй сеть. Сеть — это оружие. Собирай хакерский риг из узлов, балансируй питание, тепло и пропускную способность и взламывай 21 нарастающую по сложности цель — от почтового отделения до Deep Space Network NASA. Спокойная игра-автоматизация без таймеров и без провалов."
+    },
+    {
       "appid": "3949040",
       "name": "RV There Yet?",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949040/cae24b4ed7f4531be51f0d63f785b7d253f92dc3/header.jpg?t=1789134289",
@@ -564,13 +582,11 @@
       "short_description": "Кооперативное приключение за рулём автодома."
     },
     {
-      "appid": "4603280",
-      "name": "Triad of Victory",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4603280/e2edf7147c94503a13f0531493b9f9f9dc9fee47/header.jpg?t=1793421009",
+      "appid": "3058550",
+      "name": "РЕВОЛЬБОРО ТОМ 1",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3058550/629e2703b70a83457dadd80c4fffb4990b54785a/header_russian.jpg?t=1793460345",
       "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Стратегии"
+        "Экшены"
       ],
       "is_free": false,
       "platforms": {
@@ -579,7 +595,25 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Turn the world’s most familiar hand game into an addictive strategy adventure. Combine skills, gear, and progression choices—every decision can change the course of a run."
+      "short_description": "Добро пожаловать в Револьборо - суровый мегаполис, за безликим фасадом которого скрываются смрадные отходы человеческой психики."
+    },
+    {
+      "appid": "3426420",
+      "name": "LUST CURSE 🔞",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3426420/header.jpg?t=1793456947",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Paradise smells like salt and sin. 🌴 Lana Wett is stranded somewhere that wants her bare, breathless and on her knees. Fight it every step of the way… or let the curse show her what she’s been missing."
     },
     {
       "appid": "3241660",
@@ -599,13 +633,10 @@
       "short_description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
     },
     {
-      "appid": "5253800",
-      "name": "The Planet Miner",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5253800/77b8662c60596fb10e4b71f0702504dfc3964337/header.jpg?t=1793440851",
+      "appid": "5159930",
+      "name": "ODD ODDS",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5159930/fef83c5158a623ac780013148cdfa757c8c9803f/header.jpg?t=1793450834",
       "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Казуальные игры",
         "Инди",
         "Симуляторы",
         "Стратегии"
@@ -614,17 +645,17 @@
       "platforms": {
         "windows": true,
         "mac": false,
-        "linux": true
+        "linux": false
       },
       "metacritic": null,
-      "short_description": "Превращай крохотный шахтёрский кораблик в машину, которая сносит планету слой за слоем. Пробивайся всё глубже, собирай безумные комбо улучшений и отправляй дронов на добычу. Тебя ждут блестящие сокровища, милейшая живность и огромные чудеса, спящие в глубине."
+      "short_description": "Рогалик с азартными элементами. Хватайте монеты клешнёй в кран-машине, рискуйте в мини-играх и обналичивайте добычу через банкомат. Улучшайте оборудование, чтобы выплатить растущий долг. В дверь стучат. Согласиться на сделку или пойти против них? Ваш выбор решит вашу судьбу."
     },
     {
-      "appid": "648800",
-      "name": "Raft",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg?t=1727184011",
+      "appid": "5389390",
+      "name": "GayTeA VI",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5389390/133c44b43b9a7030d7c92d90cb327d085e8dd3e4/header.jpg?t=1793446114",
       "genres": [
-        "Приключенческие игры",
+        "Казуальные игры",
         "Инди",
         "Симуляторы"
       ],
@@ -635,24 +666,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Raft™ throws you and your friends into an epic oceanic adventure! Alone or together, players battle to survive a perilous voyage across a vast sea! Gather debris, scavenge reefs and build your own floating home, but be wary of the man-eating sharks!"
-    },
-    {
-      "appid": "4670040",
-      "name": "Blackboard Ponies",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4670040/a4fc7e5ecd57c4f340231fb2be2976b26c222a2a/header.jpg?t=1793441853",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "A game about a small pony in a blackboard world wreaking havoc and bringing color to everyone's lives.  In this puzzle platformer play as a student's rebellious fantasy pony, kicking its way through the blackboard and releasing colors from the environment, making the world seem less hopeless."
+      "short_description": "A cozy, very gay idle clicker about keeping one cup of tea hot. Click it to heat it, hold to pet it, fill a whole kitchen with things that talk back, pour out the pot for tea leaves, and keep the brew going while you are away. Cozy, silly, a little cheeky."
     },
     {
       "appid": "1297900",
@@ -670,41 +684,6 @@
       },
       "metacritic": null,
       "short_description": "Возвращение легенды! Исследуйте долину Рудников в потрясающем ремейке культовой ролевой игры. Путешествуйте по мрачному рукотворному открытому миру, который динамически реагирует на ваши действия. Ваши возможности безграничны!"
-    },
-    {
-      "appid": "4088940",
-      "name": "The Dark Forest Calls",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088940/a9b93c5f948d00490a03203ec3aec817a69a895e/header.jpg?t=1793411912",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "The world forgot Psara, but the island did not forget you. In this story-driven first-person survival horror, explore its fog-shrouded shores as Elias Whitmore, evade creatures drawn to light and sound, manage scarce supplies, and uncover why Psara vanished from human memory."
-    },
-    {
-      "appid": "2887580",
-      "name": "Active Matter",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2887580/191801a8de4db48075ef195473a922391cb4c6de/header.jpg?t=1793032833",
-      "genres": [
-        "Экшены",
-        "Многопользовательские игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Присоединяйтесь к рейдам за добычей или PvP-сражениям в этом новом реалистичном военном шутере, в мире расколотой мультивселенной. Сражайтесь в квантово-нестабильных зонах за контроль над активной материей — веществом, искривляющим время и пространство."
     }
   ]
 }

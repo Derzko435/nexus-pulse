@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T02:54:51+03:00",
+  "updatedAt": "2026-11-01T02:29:28+03:00",
   "source": "epic-promotions-api+curated",
   "note": "Epic Free Games API (RU) + кураторский Steam/GOG/Prime (Amazon Luna).",
   "items": [
@@ -37,18 +37,18 @@
       "note": "Постоянно бесплатные хиты"
     },
     {
-      "id": "gog-giveaway-2026-10",
+      "id": "gog-giveaway-2026-11",
       "store": "GOG",
       "title": "GOG Giveaway / free spotlight",
-      "until": "2026-10-31",
+      "until": "2026-11-30",
       "claimUrl": "https://www.gog.com/en/games?priceRange=0,0&discounted=true",
       "note": "Проверяй актуальный giveaway на GOG"
     },
     {
-      "id": "prime-2026-10",
+      "id": "prime-2026-11",
       "store": "Amazon Luna (Prime)",
       "title": "Free Games with Prime — игры месяца",
-      "until": "2026-10-31",
+      "until": "2026-11-30",
       "claimUrl": "https://luna.amazon.com/claims/home",
       "note": "Требуется подписка Amazon Prime, набор игр зависит от страны"
     }

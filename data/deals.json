@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T21:39:32+03:00",
+  "updatedAt": "2026-11-01T02:29:26+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -53,16 +53,6 @@
       "steamAppId": "252490"
     },
     {
-      "id": "steam-5370640",
-      "title": "Nodes",
-      "store": "Steam",
-      "old": 335,
-      "neu": 201,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5370640/",
-      "steamAppId": "5370640"
-    },
-    {
       "id": "steam-3949040",
       "title": "RV There Yet?",
       "store": "Steam",
@@ -73,6 +63,16 @@
       "steamAppId": "3949040"
     },
     {
+      "id": "steam-4545030",
+      "title": "Beyond The Mist",
+      "store": "Steam",
+      "old": 280,
+      "neu": 168,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/4545030/",
+      "steamAppId": "4545030"
+    },
+    {
       "id": "steam-3058550",
       "title": "РЕВОЛЬБОРО ТОМ 1",
       "store": "Steam",
@@ -81,16 +81,6 @@
       "pct": 40,
       "url": "https://store.steampowered.com/app/3058550/",
       "steamAppId": "3058550"
-    },
-    {
-      "id": "steam-3426420",
-      "title": "LUST CURSE 🔞",
-      "store": "Steam",
-      "old": 556,
-      "neu": 350,
-      "pct": 37,
-      "url": "https://store.steampowered.com/app/3426420/",
-      "steamAppId": "3426420"
     },
     {
       "id": "steam-3241660",
@@ -113,26 +103,6 @@
       "steamAppId": "739630"
     },
     {
-      "id": "steam-5159930",
-      "title": "ODD ODDS",
-      "store": "Steam",
-      "old": 335,
-      "neu": 234,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/5159930/",
-      "steamAppId": "5159930"
-    },
-    {
-      "id": "steam-5389390",
-      "title": "GayTeA VI",
-      "store": "Steam",
-      "old": 202,
-      "neu": 149,
-      "pct": 26,
-      "url": "https://store.steampowered.com/app/5389390/",
-      "steamAppId": "5389390"
-    },
-    {
       "id": "steam-1297900",
       "title": "Gothic 1 Remake",
       "store": "Steam",
@@ -141,6 +111,36 @@
       "pct": 25,
       "url": "https://store.steampowered.com/app/1297900/",
       "steamAppId": "1297900"
+    },
+    {
+      "id": "steam-4512150",
+      "title": "SICRUN",
+      "store": "Steam",
+      "old": 239,
+      "neu": 179,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/4512150/",
+      "steamAppId": "4512150"
+    },
+    {
+      "id": "steam-2887580",
+      "title": "Active Matter",
+      "store": "Steam",
+      "old": 1499,
+      "neu": 1199,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/2887580/",
+      "steamAppId": "2887580"
+    },
+    {
+      "id": "steam-4969270",
+      "title": "Jarkeeper",
+      "store": "Steam",
+      "old": 290,
+      "neu": 232,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/4969270/",
+      "steamAppId": "4969270"
     }
   ]
 }
