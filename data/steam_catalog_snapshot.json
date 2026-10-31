@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T15:48:10+03:00",
+  "updatedAt": "2026-10-31T21:39:26+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -546,12 +546,13 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
-      "appid": "3778650",
-      "name": "Wall Brawl",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3778650/a501a4ee757e487ddbd876232291e79c895c6a1e/header.jpg?t=1793401440",
+      "appid": "3949040",
+      "name": "RV There Yet?",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949040/cae24b4ed7f4531be51f0d63f785b7d253f92dc3/header.jpg?t=1789134289",
       "genres": [
         "Экшены",
-        "Стратегии"
+        "Приключенческие игры",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -560,25 +561,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Hold the line! Team up in this tactical multiplayer castle‑brawler where players raise fortresses, set up defenses, and smash through enemy strongholds with physics‑driven destruction. Heroic last stands! Questionable tactics! Bricks moving at unsafe speeds!"
-    },
-    {
-      "appid": "5421610",
-      "name": "Prismhold",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5421610/641d1d316169fda19e282d887a75ead753a56617/header.jpg?t=1793396895",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Карточная башенная защита: каждую волну набирайте башни из колоды, сливайте по три копии для эволюции без предела и сочетайте 14 стихий, чтобы выстоять против бесконечных волн, коронованных боссов и летающих врагов. Играйте соло, вместе на одной локации или бок о бок — до 6 игроков."
+      "short_description": "Кооперативное приключение за рулём автодома."
     },
     {
       "appid": "4603280",
@@ -616,6 +599,27 @@
       "short_description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
     },
     {
+      "appid": "5253800",
+      "name": "The Planet Miner",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5253800/77b8662c60596fb10e4b71f0702504dfc3964337/header.jpg?t=1793440851",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Превращай крохотный шахтёрский кораблик в машину, которая сносит планету слой за слоем. Пробивайся всё глубже, собирай безумные комбо улучшений и отправляй дронов на добычу. Тебя ждут блестящие сокровища, милейшая живность и огромные чудеса, спящие в глубине."
+    },
+    {
       "appid": "648800",
       "name": "Raft",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg?t=1727184011",
@@ -634,9 +638,9 @@
       "short_description": "Raft™ throws you and your friends into an epic oceanic adventure! Alone or together, players battle to survive a perilous voyage across a vast sea! Gather debris, scavenge reefs and build your own floating home, but be wary of the man-eating sharks!"
     },
     {
-      "appid": "5335830",
-      "name": "Vagina Sancta",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335830/fba911d640dccbb6a4fcffd9585ad13fee5fd5fb/header.jpg?t=1793409673",
+      "appid": "4670040",
+      "name": "Blackboard Ponies",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4670040/a4fc7e5ecd57c4f340231fb2be2976b26c222a2a/header.jpg?t=1793441853",
       "genres": [
         "Казуальные игры",
         "Инди"
@@ -645,28 +649,10 @@
       "platforms": {
         "windows": true,
         "mac": false,
-        "linux": false
+        "linux": true
       },
       "metacritic": null,
-      "short_description": "Vagina Sancta is a unique experience that allows u to interactively explore the fascinating world of female reproductive anatomy!"
-    },
-    {
-      "appid": "5249860",
-      "name": "Sticker Mirage",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5249860/1623c64d2f823232c759143c323ebb1b043ff8ad/header.jpg?t=1793397560",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Играйте за Стикера Лайна, сотрудника центра экстренной помощи 711. Он живёт тихой жизнью, пока не начинают происходить странные и трагические события, с которыми, возможно, он как-то связан. Узнайте правду о тихой жизни Стикера в этой визуальной новелле в стиле дримкор с элементами хоррора."
+      "short_description": "A game about a small pony in a blackboard world wreaking havoc and bringing color to everyone's lives.  In this puzzle platformer play as a student's rebellious fantasy pony, kicking its way through the blackboard and releasing colors from the environment, making the world seem less hopeless."
     },
     {
       "appid": "1297900",
@@ -686,12 +672,12 @@
       "short_description": "Возвращение легенды! Исследуйте долину Рудников в потрясающем ремейке культовой ролевой игры. Путешествуйте по мрачному рукотворному открытому миру, который динамически реагирует на ваши действия. Ваши возможности безграничны!"
     },
     {
-      "appid": "4162890",
-      "name": "Gnomed",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4162890/30187bf791dde06f3945f03545caf35609a4d42d/header.jpg?t=1793401639",
+      "appid": "4088940",
+      "name": "The Dark Forest Calls",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088940/a9b93c5f948d00490a03203ec3aec817a69a895e/header.jpg?t=1793411912",
       "genres": [
+        "Экшены",
         "Приключенческие игры",
-        "Казуальные игры",
         "Инди"
       ],
       "is_free": false,
@@ -701,7 +687,24 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Gnomed — рогалайт-кликер, где маленький гном защищает свой уютный домик. Отбейтесь от 20 волн врагов, открывайте новые способности и с каждым забегом становитесь сильнее!"
+      "short_description": "The world forgot Psara, but the island did not forget you. In this story-driven first-person survival horror, explore its fog-shrouded shores as Elias Whitmore, evade creatures drawn to light and sound, manage scarce supplies, and uncover why Psara vanished from human memory."
+    },
+    {
+      "appid": "2887580",
+      "name": "Active Matter",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2887580/191801a8de4db48075ef195473a922391cb4c6de/header.jpg?t=1793032833",
+      "genres": [
+        "Экшены",
+        "Многопользовательские игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Присоединяйтесь к рейдам за добычей или PvP-сражениям в этом новом реалистичном военном шутере, в мире расколотой мультивселенной. Сражайтесь в квантово-нестабильных зонах за контроль над активной материей — веществом, искривляющим время и пространство."
     }
   ]
 }

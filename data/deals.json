@@ -1,17 +1,7 @@
 {
-  "updatedAt": "2026-10-31T15:48:15+03:00",
+  "updatedAt": "2026-10-31T21:39:32+03:00",
   "source": "steam-specials-ru",
   "deals": [
-    {
-      "id": "steam-466130",
-      "title": "White Day: A Labyrinth Named School",
-      "store": "Steam",
-      "old": 1300,
-      "neu": 130,
-      "pct": 90,
-      "url": "https://store.steampowered.com/app/466130/",
-      "steamAppId": "466130"
-    },
     {
       "id": "steam-242760",
       "title": "The Forest",
@@ -43,6 +33,16 @@
       "steamAppId": "1304930"
     },
     {
+      "id": "steam-335670",
+      "title": "LISA: The Painful",
+      "store": "Steam",
+      "old": 966,
+      "neu": 386,
+      "pct": 60,
+      "url": "https://store.steampowered.com/app/335670/",
+      "steamAppId": "335670"
+    },
+    {
       "id": "steam-252490",
       "title": "Rust",
       "store": "Steam",
@@ -51,6 +51,16 @@
       "pct": 50,
       "url": "https://store.steampowered.com/app/252490/",
       "steamAppId": "252490"
+    },
+    {
+      "id": "steam-5370640",
+      "title": "Nodes",
+      "store": "Steam",
+      "old": 335,
+      "neu": 201,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5370640/",
+      "steamAppId": "5370640"
     },
     {
       "id": "steam-3949040",
@@ -63,14 +73,24 @@
       "steamAppId": "3949040"
     },
     {
-      "id": "steam-4603280",
-      "title": "Triad of Victory",
+      "id": "steam-3058550",
+      "title": "РЕВОЛЬБОРО ТОМ 1",
       "store": "Steam",
-      "old": 150,
-      "neu": 90,
+      "old": 125,
+      "neu": 75,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/4603280/",
-      "steamAppId": "4603280"
+      "url": "https://store.steampowered.com/app/3058550/",
+      "steamAppId": "3058550"
+    },
+    {
+      "id": "steam-3426420",
+      "title": "LUST CURSE 🔞",
+      "store": "Steam",
+      "old": 556,
+      "neu": 350,
+      "pct": 37,
+      "url": "https://store.steampowered.com/app/3426420/",
+      "steamAppId": "3426420"
     },
     {
       "id": "steam-3241660",
@@ -83,34 +103,34 @@
       "steamAppId": "3241660"
     },
     {
-      "id": "steam-5253800",
-      "title": "The Planet Miner",
+      "id": "steam-739630",
+      "title": "Phasmophobia",
+      "store": "Steam",
+      "old": 849,
+      "neu": 594,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/739630/",
+      "steamAppId": "739630"
+    },
+    {
+      "id": "steam-5159930",
+      "title": "ODD ODDS",
       "store": "Steam",
       "old": 335,
-      "neu": 218,
-      "pct": 35,
-      "url": "https://store.steampowered.com/app/5253800/",
-      "steamAppId": "5253800"
-    },
-    {
-      "id": "steam-648800",
-      "title": "Raft",
-      "store": "Steam",
-      "old": 855,
-      "neu": 572,
-      "pct": 33,
-      "url": "https://store.steampowered.com/app/648800/",
-      "steamAppId": "648800"
-    },
-    {
-      "id": "steam-4670040",
-      "title": "Blackboard Ponies",
-      "store": "Steam",
-      "old": 130,
-      "neu": 91,
+      "neu": 234,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/4670040/",
-      "steamAppId": "4670040"
+      "url": "https://store.steampowered.com/app/5159930/",
+      "steamAppId": "5159930"
+    },
+    {
+      "id": "steam-5389390",
+      "title": "GayTeA VI",
+      "store": "Steam",
+      "old": 202,
+      "neu": 149,
+      "pct": 26,
+      "url": "https://store.steampowered.com/app/5389390/",
+      "steamAppId": "5389390"
     },
     {
       "id": "steam-1297900",
@@ -121,26 +141,6 @@
       "pct": 25,
       "url": "https://store.steampowered.com/app/1297900/",
       "steamAppId": "1297900"
-    },
-    {
-      "id": "steam-4088940",
-      "title": "The Dark Forest Calls",
-      "store": "Steam",
-      "old": 590,
-      "neu": 442,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/4088940/",
-      "steamAppId": "4088940"
-    },
-    {
-      "id": "steam-2887580",
-      "title": "Active Matter",
-      "store": "Steam",
-      "old": 1499,
-      "neu": 1199,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/2887580/",
-      "steamAppId": "2887580"
     }
   ]
 }
