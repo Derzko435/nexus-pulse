@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T02:54:48+03:00",
+  "updatedAt": "2026-10-31T08:57:31+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -53,14 +53,14 @@
       "steamAppId": "252490"
     },
     {
-      "id": "steam-3949040",
-      "title": "RV There Yet?",
+      "id": "steam-3778650",
+      "title": "Wall Brawl",
       "store": "Steam",
       "old": 320,
       "neu": 192,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/3949040/",
-      "steamAppId": "3949040"
+      "url": "https://store.steampowered.com/app/3778650/",
+      "steamAppId": "3778650"
     },
     {
       "id": "steam-5421610",
@@ -73,6 +73,16 @@
       "steamAppId": "5421610"
     },
     {
+      "id": "steam-4603280",
+      "title": "Triad of Victory",
+      "store": "Steam",
+      "old": 150,
+      "neu": 90,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/4603280/",
+      "steamAppId": "4603280"
+    },
+    {
       "id": "steam-3241660",
       "title": "R.E.P.O.",
       "store": "Steam",
@@ -83,24 +93,34 @@
       "steamAppId": "3241660"
     },
     {
-      "id": "steam-5263510",
-      "title": "SLOW ORBIT: Idle Planet Conquest",
+      "id": "steam-648800",
+      "title": "Raft",
       "store": "Steam",
-      "old": 150,
-      "neu": 97,
-      "pct": 35,
-      "url": "https://store.steampowered.com/app/5263510/",
-      "steamAppId": "5263510"
+      "old": 855,
+      "neu": 572,
+      "pct": 33,
+      "url": "https://store.steampowered.com/app/648800/",
+      "steamAppId": "648800"
     },
     {
-      "id": "steam-4880870",
-      "title": "Debtbound",
+      "id": "steam-5335830",
+      "title": "Vagina Sancta",
       "store": "Steam",
-      "old": 360,
-      "neu": 252,
+      "old": 162,
+      "neu": 111,
+      "pct": 32,
+      "url": "https://store.steampowered.com/app/5335830/",
+      "steamAppId": "5335830"
+    },
+    {
+      "id": "steam-5249860",
+      "title": "Sticker Mirage",
+      "store": "Steam",
+      "old": 240,
+      "neu": 168,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/4880870/",
-      "steamAppId": "4880870"
+      "url": "https://store.steampowered.com/app/5249860/",
+      "steamAppId": "5249860"
     },
     {
       "id": "steam-1297900",
@@ -121,26 +141,6 @@
       "pct": 25,
       "url": "https://store.steampowered.com/app/4162890/",
       "steamAppId": "4162890"
-    },
-    {
-      "id": "steam-3884860",
-      "title": "The Wolf Among Us Remastered",
-      "store": "Steam",
-      "old": 1050,
-      "neu": 840,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/3884860/",
-      "steamAppId": "3884860"
-    },
-    {
-      "id": "steam-5424260",
-      "title": "ClipCabinet",
-      "store": "Steam",
-      "old": 360,
-      "neu": 288,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5424260/",
-      "steamAppId": "5424260"
     }
   ]
 }

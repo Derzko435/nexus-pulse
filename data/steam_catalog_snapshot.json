@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T02:54:43+03:00",
+  "updatedAt": "2026-10-31T08:57:26+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -564,6 +564,24 @@
       "short_description": "Кооперативное приключение за рулём автодома."
     },
     {
+      "appid": "5421610",
+      "name": "Prismhold",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5421610/641d1d316169fda19e282d887a75ead753a56617/header.jpg?t=1793396895",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Карточная башенная защита: каждую волну набирайте башни из колоды, сливайте по три копии для эволюции без предела и сочетайте 14 стихий, чтобы выстоять против бесконечных волн, коронованных боссов и летающих врагов. Играйте соло, вместе на одной локации или бок о бок — до 6 игроков."
+    },
+    {
       "appid": "3241660",
       "name": "R.E.P.O.",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/62177765c05399116f0453fe1177b00ceed698c4/header_alt_assets_3.jpg?t=1793278962",
@@ -579,6 +597,25 @@
       },
       "metacritic": null,
       "short_description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
+    },
+    {
+      "appid": "5263510",
+      "name": "SLOW ORBIT: Idle Planet Conquest",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5263510/9052f2adca9f8a3b43fa1cd26a0993cd42d893e9/header.jpg?t=1793392256",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Slow Orbit puts a tiny, self-running space war in the bottom corner of your screen. Leave your fleet to conquer planets while you do other things, then drop in to buy upgrades, pick promotions and take on tougher defenses."
     },
     {
       "appid": "4880870",
@@ -614,9 +651,9 @@
       "short_description": "Возвращение легенды! Исследуйте долину Рудников в потрясающем ремейке культовой ролевой игры. Путешествуйте по мрачному рукотворному открытому миру, который динамически реагирует на ваши действия. Ваши возможности безграничны!"
     },
     {
-      "appid": "5285920",
-      "name": "THE MOUTHLESS STALKER",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5285920/03d767b6d6dac73081db58aada5dda08fec53efb/header.jpg?t=1793384169",
+      "appid": "4162890",
+      "name": "Gnomed",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4162890/30187bf791dde06f3945f03545caf35609a4d42d/header.jpg?t=1793401639",
       "genres": [
         "Приключенческие игры",
         "Казуальные игры",
@@ -629,48 +666,15 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Исследуйте заброшенный лесной заповедник в психологическом хорроре от первого лица. Исследуйте мрачные места, находите подсказки, решайте загадки и раскрывайте тревожные события, пока таинственное присутствие следит за каждым вашим шагом."
+      "short_description": "Gnomed — рогалайт-кликер, где маленький гном защищает свой уютный домик. Отбейтесь от 20 волн врагов, открывайте новые способности и с каждым забегом становитесь сильнее!"
     },
     {
-      "appid": "5135070",
-      "name": "Nightshift; Nowhere",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5135070/276be99dd58a8f45c77dd539e371c36169c4522d/header.jpg?t=1793380689",
+      "appid": "3884860",
+      "name": "The Wolf Among Us Remastered",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3884860/80ddd096b6fdd5ab25162251bee4131c78cdf351/header.jpg?t=1793292108",
       "genres": [
         "Экшены",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Добро пожаловать в Nowhere Medical! Зарплата жалкая, эта ночная смена может стать последней, а о технике безопасности здесь давно забыли. Хватайте любое оружие, какое найдёте, и убирайтесь отсюда к чёрту!"
-    },
-    {
-      "appid": "4645790",
-      "name": "BURIED INSIDE ME",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4645790/9d381d21ed96bdcfccc420eeb68bd08ca1a1a83e/header.jpg?t=1793384382",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "What if you couldn’t wake up from your worst nightmare? BURIED INSIDE ME is a first-person psychological horror experience where you find yourself trapped within your own dream. Explore, solve puzzles, and survive yourself."
-    },
-    {
-      "appid": "5328310",
-      "name": "Eggsecution Squad",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5328310/f7b5721cbf72ad4878c8f0d9687bc8f025c21ff0/header.jpg?t=1793386822",
-      "genres": [
-        "Экшены",
+        "Приключенческие игры",
         "Казуальные игры"
       ],
       "is_free": false,
@@ -680,15 +684,15 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Eggsecution Squad is a fast, chaotic egg brawler for up to 4 players — local or online. Grab 14+ wild weapons, dash, block and punch across 5 maps, and knock the other eggs off or kill them. Last egg standing wins. Dress your egg up and beat up your friends (in game)."
+      "short_description": "A dark detective thriller where folklore is real, violence is chilling, and every choice has consequences."
     },
     {
-      "appid": "4928440",
-      "name": "A Tiny Ghost Game",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4928440/df73182c914b5e7ea74ef445ee459800ac17d548/header.jpg?t=1793381511",
+      "appid": "5424260",
+      "name": "ClipCabinet",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5424260/3aaf512d0a76a21ea1cf6f5fc18063d982bf4fd9/header.jpg?t=1793396301",
       "genres": [
-        "Экшены",
-        "Инди"
+        "Утилиты",
+        "Создание видео"
       ],
       "is_free": false,
       "platforms": {
@@ -697,7 +701,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "A Tiny Ghost Game - платформер, который можно пройти за один-два вечера. Планируйте в воздухе и совершайте рывки, чтобы выбраться из подземелья, досаждайте врагам и помогите привидению увидеть луну."
+      "short_description": "Соберите записи Steam, OBS Studio и NVIDIA GeForce / ShadowPlay в одной библиотеке. Добавляйте папки и теги, ищите клипы, смотрите их во встроенном плеере и экспортируйте MP4."
     }
   ]
 }
