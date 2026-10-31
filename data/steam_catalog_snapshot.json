@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T08:57:26+03:00",
+  "updatedAt": "2026-10-31T15:48:10+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -546,13 +546,12 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
-      "appid": "3949040",
-      "name": "RV There Yet?",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949040/cae24b4ed7f4531be51f0d63f785b7d253f92dc3/header.jpg?t=1789134289",
+      "appid": "3778650",
+      "name": "Wall Brawl",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3778650/a501a4ee757e487ddbd876232291e79c895c6a1e/header.jpg?t=1793401440",
       "genres": [
         "Экшены",
-        "Приключенческие игры",
-        "Инди"
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
@@ -561,7 +560,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Кооперативное приключение за рулём автодома."
+      "short_description": "Hold the line! Team up in this tactical multiplayer castle‑brawler where players raise fortresses, set up defenses, and smash through enemy strongholds with physics‑driven destruction. Heroic last stands! Questionable tactics! Bricks moving at unsafe speeds!"
     },
     {
       "appid": "5421610",
@@ -582,6 +581,24 @@
       "short_description": "Карточная башенная защита: каждую волну набирайте башни из колоды, сливайте по три копии для эволюции без предела и сочетайте 14 стихий, чтобы выстоять против бесконечных волн, коронованных боссов и летающих врагов. Играйте соло, вместе на одной локации или бок о бок — до 6 игроков."
     },
     {
+      "appid": "4603280",
+      "name": "Triad of Victory",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4603280/e2edf7147c94503a13f0531493b9f9f9dc9fee47/header.jpg?t=1793421009",
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Turn the world’s most familiar hand game into an addictive strategy adventure. Combine skills, gear, and progression choices—every decision can change the course of a run."
+    },
+    {
       "appid": "3241660",
       "name": "R.E.P.O.",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/62177765c05399116f0453fe1177b00ceed698c4/header_alt_assets_3.jpg?t=1793278962",
@@ -599,14 +616,13 @@
       "short_description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
     },
     {
-      "appid": "5263510",
-      "name": "SLOW ORBIT: Idle Planet Conquest",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5263510/9052f2adca9f8a3b43fa1cd26a0993cd42d893e9/header.jpg?t=1793392256",
+      "appid": "648800",
+      "name": "Raft",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg?t=1727184011",
       "genres": [
-        "Казуальные игры",
+        "Приключенческие игры",
         "Инди",
-        "Симуляторы",
-        "Стратегии"
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
@@ -615,14 +631,15 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Slow Orbit puts a tiny, self-running space war in the bottom corner of your screen. Leave your fleet to conquer planets while you do other things, then drop in to buy upgrades, pick promotions and take on tougher defenses."
+      "short_description": "Raft™ throws you and your friends into an epic oceanic adventure! Alone or together, players battle to survive a perilous voyage across a vast sea! Gather debris, scavenge reefs and build your own floating home, but be wary of the man-eating sharks!"
     },
     {
-      "appid": "4880870",
-      "name": "Debtbound",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4880870/8692b9bbffaad41d4424ed5c6ef2c2decb1a3d7a/header.jpg?t=1793387115",
+      "appid": "5335830",
+      "name": "Vagina Sancta",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335830/fba911d640dccbb6a4fcffd9585ad13fee5fd5fb/header.jpg?t=1793409673",
       "genres": [
-        "Казуальные игры"
+        "Казуальные игры",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -631,7 +648,25 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Buying this game puts you $5 million in debt. Can you escape the debt spiral? Collect money, unlock upgrades, and increase your earnings before the interest catches up with you in this incremental game!"
+      "short_description": "Vagina Sancta is a unique experience that allows u to interactively explore the fascinating world of female reproductive anatomy!"
+    },
+    {
+      "appid": "5249860",
+      "name": "Sticker Mirage",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5249860/1623c64d2f823232c759143c323ebb1b043ff8ad/header.jpg?t=1793397560",
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Играйте за Стикера Лайна, сотрудника центра экстренной помощи 711. Он живёт тихой жизнью, пока не начинают происходить странные и трагические события, с которыми, возможно, он как-то связан. Узнайте правду о тихой жизни Стикера в этой визуальной новелле в стиле дримкор с элементами хоррора."
     },
     {
       "appid": "1297900",
@@ -667,41 +702,6 @@
       },
       "metacritic": null,
       "short_description": "Gnomed — рогалайт-кликер, где маленький гном защищает свой уютный домик. Отбейтесь от 20 волн врагов, открывайте новые способности и с каждым забегом становитесь сильнее!"
-    },
-    {
-      "appid": "3884860",
-      "name": "The Wolf Among Us Remastered",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3884860/80ddd096b6fdd5ab25162251bee4131c78cdf351/header.jpg?t=1793292108",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Казуальные игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "A dark detective thriller where folklore is real, violence is chilling, and every choice has consequences."
-    },
-    {
-      "appid": "5424260",
-      "name": "ClipCabinet",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5424260/3aaf512d0a76a21ea1cf6f5fc18063d982bf4fd9/header.jpg?t=1793396301",
-      "genres": [
-        "Утилиты",
-        "Создание видео"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Соберите записи Steam, OBS Studio и NVIDIA GeForce / ShadowPlay в одной библиотеке. Добавляйте папки и теги, ищите клипы, смотрите их во встроенном плеере и экспортируйте MP4."
     }
   ]
 }
