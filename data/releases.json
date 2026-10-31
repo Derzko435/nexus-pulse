@@ -1,77 +1,6 @@
 {
- "updatedAt": "2026-10-30T13:09:46+03:00",
+ "updatedAt": "2026-10-31T12:46:06+03:00",
  "items": [
-  {
-   "appid": "x-asylum",
-   "title": "Asylum",
-   "date": "2026-10-30",
-   "image": "https://upload.wikimedia.org/wikipedia/en/4/41/Asylum_%28upcoming_video_game%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "desc": "Asylum — это видеоигра в жанре ужасов, разработанная Senscape, независимым разработчиком видеоигр из Буэнос-Айреса, Аргентина. Автором игры является Агустин Кордес, который ранее разработал игру Scratches для ныне несуществующего разработчика Nucleosys. Действие происходит в вымышленном доме для умалишенных под названием…",
-   "genres": [
-    "Приключение",
-    "Хоррор"
-   ],
-   "platforms": [
-    "PlayStation",
-    "Xbox",
-    "Switch"
-   ],
-   "stores": [],
-   "developer": "Senscape",
-   "price": "",
-   "url": "https://en.wikipedia.org/wiki/Asylum_%282025_video_game%29",
-   "links": {
-    "wiki": "https://en.wikipedia.org/wiki/Asylum_%282025_video_game%29"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": "x-look-outside",
-   "title": "Look Outside",
-   "date": "2026-10-30",
-   "image": "https://upload.wikimedia.org/wikipedia/en/0/04/Look_Outside_Game_Title_Banner.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "desc": "Look Outside — компьютерная ролевая игра в жанре survival horror, разработанная Фрэнсисом Куломбом и изданная Devolver Digital. Релиз игры состоялся в Steam 21 марта 2025 года.",
-   "genres": [
-    "RPG",
-    "Survival-хоррор"
-   ],
-   "platforms": [
-    "PlayStation",
-    "Switch"
-   ],
-   "stores": [],
-   "developer": "Francis Coulombe",
-   "price": "",
-   "url": "https://ru.wikipedia.org/wiki/Look_Outside",
-   "links": {
-    "wiki": "https://ru.wikipedia.org/wiki/Look_Outside"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": 1799840,
-   "title": "Queen's Domain",
-   "date": "2026-10-30",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1799840/1a209734951f53b019ec9fa03f835def14f2a968/header.jpg?t=1793124111",
-   "desc": "Ретрофэнтезийная экшен-RPG с жестокими боями и упором на исследование мира. Отправьтесь на поиски своего отца, который исчез на таинственном острове Неасид, где силы зла набирают мощь, за каждым углом таится неизведанное, а пробуждение спящей королевы становится всё ближе...",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Инди"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Freshly Baked Games LLC",
-   "price": "",
-   "url": "https://store.steampowered.com/app/1799840/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/1799840/"
-   }
-  },
   {
    "appid": 3218230,
    "title": "ArcheAge Chronicles",
@@ -432,28 +361,32 @@
    "source": "wiki"
   },
   {
-   "appid": 4171850,
-   "title": "Trees Hate You",
-   "date": "2026-11-16",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4171850/4550c09c2fa41435b7b695f31460bea297d4ce15/header.jpg?t=1793086727",
-   "desc": "Прогуляйтесь по самому худшему лесу с самыми отвратительными деревьями. Не доверяйте им. Деревья вас обманут. Они вас обидят. Сделают вам больно. Вот бы топор найти...",
+   "appid": 4304060,
+   "title": "Sonic Pico Park",
+   "date": "2026-11-12",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304060/193353d185ee1af3d51068346d9d1a32e81e8ec5/header.jpg?t=1792544482",
+   "desc": "Серия многопользовательских кооперативных экшен-головоломок PICO PARK возвращается с новым релизом — коллаборацией с Sonic the Hedgehog от SEGA! Вас ожидает новый кооперативный геймплей, сочетающий в себе харизму Соника и веселые головоломки PICO PARK! Играйте локально или онлайн с 2-8 игроками!",
    "genres": [
-    "Приключенческие игры",
-    "Инди"
+    "Головоломка"
    ],
    "platforms": [
     "PC",
-    "Linux"
+    "PlayStation",
+    "Xbox",
+    "Switch",
+    "Mac"
    ],
    "stores": [
     "Steam"
    ],
-   "developer": "Tykenn",
+   "developer": "TECOPARK",
    "price": "",
-   "url": "https://store.steampowered.com/app/4171850/",
+   "url": "https://store.steampowered.com/app/4304060/",
    "links": {
-    "steam": "https://store.steampowered.com/app/4171850/"
-   }
+    "steam": "https://store.steampowered.com/app/4304060/",
+    "wiki": "https://en.wikipedia.org/wiki/Sonic_Pico_Park"
+   },
+   "source": "wiki"
   },
   {
    "appid": 4707700,
@@ -544,6 +477,28 @@
     "wiki": "https://ru.wikipedia.org/wiki/Gothic_3"
    },
    "source": "wiki"
+  },
+  {
+   "appid": 3333850,
+   "title": "Arkheron",
+   "date": "2026-11-27",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/30aa0db1b4ee4eb19c72add82f8453f17053d309/header.jpg?t=1793380726",
+   "desc": "Динамичная командная игра в PvP-режиме с изометрической графикой, в которой каждый найденный вами предмет решает всё. Подстраивайте свой стиль боя под ситуацию, импровизируйте и пробивайте себе путь к вершине Башни.",
+   "genres": [
+    "Экшены"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Bonfire Studios",
+   "price": "",
+   "url": "https://store.steampowered.com/app/3333850/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/3333850/"
+   }
   },
   {
    "appid": 3161310,
@@ -851,12 +806,12 @@
   },
   {
    "appid": 4452700,
-   "title": "Stage Tour",
+   "title": "STAGE TOUR",
    "date": "2026-12-10",
    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4452700/7074777401ca32c928e7702567ee08c282ff7393/header.jpg?t=1792510556",
-   "desc": "Соберите группу, зажгите на сцене и отправьтесь в турне в Stage Tour — ритм-игре новой эры. Вас ждут свыше 90 лицензированных треков, более 180 настоящих гитар Gibson®, Epiphone® и Kramer® и новые стили игры. В комплекте новый рогалик-режим Tour Mode!",
+   "desc": "Создайте свою группу, выходите на сцену и отправляйтесь в турне в Stage Tour, новой эволюции музыкальных ритм-игр. Слушайте более 90 официально лицензированных треков, разблокируйте более 180 аутентичных гитар Gibson®, Epiphone® и Kramer® и испытайте пять игровых режимов, включая совершенно новый режим рогалика Tour.",
    "genres": [
-    "Ритм-игра"
+    "Экшены"
    ],
    "platforms": [
     "PC",
@@ -873,10 +828,8 @@
    "url": "https://store.steampowered.com/app/4452700/",
    "links": {
     "steam": "https://store.steampowered.com/app/4452700/",
-    "epic": "https://store.epicgames.com/ru/p/stagetour-ac5b2f",
-    "wiki": "https://en.wikipedia.org/wiki/Stage_Tour"
-   },
-   "source": "wiki"
+    "epic": "https://store.epicgames.com/ru/p/stagetour-ac5b2f"
+   }
   },
   {
    "appid": 3751230,
@@ -1079,31 +1032,6 @@
    "source": "wiki"
   },
   {
-   "appid": 2975260,
-   "title": "PRISON OF HUSKS",
-   "date": "2027-01-27",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2975260/a2d7147668ccf811747a0d49e31127144c3e4b20/header.jpg?t=1791954386",
-   "desc": "Пробудитесь в теле куклы и отправляйтесь на поиски своей возлюбленной. В этой ностальгической игре, созданной по канонам серии Souls, вам предстоит исследовать нарисованный загробный мир: вас ждут богатые событиями уровни — связанные друг с другом, полные секретов и коротких путей.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Инди"
-   ],
-   "platforms": [
-    "PC",
-    "Linux"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Glass Head Dolls",
-   "price": "",
-   "url": "https://store.steampowered.com/app/2975260/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/2975260/"
-   }
-  },
-  {
    "appid": 2155070,
    "title": "Fate/Extra Record",
    "date": "2027-01-28",
@@ -1224,6 +1152,30 @@
    "url": "https://store.steampowered.com/app/1846700/",
    "links": {
     "steam": "https://store.steampowered.com/app/1846700/"
+   }
+  },
+  {
+   "appid": 2659410,
+   "title": "Elta: Defy All Gods",
+   "date": "2027-02-02",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2659410/0fa44684db6c1ccfbbcc5d209bfc8a55b0c8565f/header_alt_assets_0_russian.jpg?t=1793270347",
+   "desc": "Выберитесь из оскверненных миров вместе со своим спутником, богом-драконом, в захватывающем экшен-платформере, сочетающим свободный ближний бой, динамичный платформинг и исследование мира в НФ-сеттинге. Станьте избранным своего падшего божества, Эльты.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Afterburner Studios",
+   "price": "1499 руб.",
+   "url": "https://store.steampowered.com/app/2659410/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/2659410/"
    }
   },
   {

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-31T04:05:30+03:00",
+ "updatedAt": "2026-10-31T12:43:32+03:00",
  "source": "bo3.gg",
  "matches": [
   {
@@ -11,9 +11,9 @@
    "logoA": "https://files.bo3.gg/uploads/team/667/image/webp-292c1f6c6dcfca35c7a52da7e02cef0a.webp",
    "logoB": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
    "scoreA": 0,
-   "scoreB": 0,
+   "scoreB": 1,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "PGL Masters Bucharest 2026",
    "tier": "S",
    "startsAt": "2026-10-31T11:00:00+03:00",
@@ -23,8 +23,28 @@
      "channel": "pgl",
      "lang": "en",
      "official": true,
-     "label": "pgl",
-     "fallback": true
+     "label": "pgl"
+    },
+    {
+     "type": "twitch",
+     "channel": "psp1g",
+     "lang": "en",
+     "official": true,
+     "label": "psp1g"
+    },
+    {
+     "type": "kick",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "cs2_maincast"
     }
    ],
    "url": "https://bo3.gg/matches/vitality-vs-mouz-cs2-31-10-2026"
@@ -37,21 +57,20 @@
    "teamB": "World Sports Invictus Gaming",
    "logoA": "https://files.bo3.gg/uploads/team/24033/image/webp-bb680245148be5c497f0354b922c2a79.webp",
    "logoB": "https://files.bo3.gg/uploads/team/23045/image/webp-e8c2992fad679abb1ae1618711b07c5d.webp",
-   "scoreA": 0,
+   "scoreA": 1,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "VCT Threshold China 2026",
    "tier": "A",
    "startsAt": "2026-10-31T12:00:00+03:00",
    "streams": [
     {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
+     "type": "youtube",
+     "id": "8E3H-84y0Xw",
+     "lang": "zh",
+     "official": false,
+     "label": "UR vs WSIG - NOVA vs AQ - Week 2 - Day 5 - 2026 VCT CN Threshold"
     }
    ],
    "url": "https://bo3.gg/valorant/matches/unsettled-resentment-vlr-vs-world-sports-invictus-gaming-31-10-2026"
@@ -77,8 +96,28 @@
      "channel": "pgl",
      "lang": "en",
      "official": true,
-     "label": "pgl",
-     "fallback": true
+     "label": "pgl"
+    },
+    {
+     "type": "twitch",
+     "channel": "psp1g",
+     "lang": "en",
+     "official": true,
+     "label": "psp1g"
+    },
+    {
+     "type": "kick",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "cs2_maincast"
     }
    ],
    "url": "https://bo3.gg/matches/nemiga-vs-furia-31-10-2026"
@@ -100,12 +139,11 @@
    "startsAt": "2026-10-31T14:00:00+03:00",
    "streams": [
     {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
+     "type": "youtube",
+     "id": "8E3H-84y0Xw",
+     "lang": "zh",
+     "official": false,
+     "label": "UR vs WSIG - NOVA vs AQ - Week 2 - Day 5 - 2026 VCT CN Threshold"
     }
    ],
    "url": "https://bo3.gg/valorant/matches/nova-esports-vs-any-questions-31-10-2026"
@@ -306,33 +344,6 @@
    "url": "https://bo3.gg/matches/legacy-br-vs-the-mongolz-02-11-2026"
   },
   {
-   "id": "bo3-132577",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "PARIVISION",
-   "teamB": "G2",
-   "logoA": "https://files.bo3.gg/uploads/team/8171/image/webp-735594256ca5670882480debe25ffb69.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/793/image/webp-8f844f6a25c797dfe74b411d147983ff.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "Intel Extreme Masters Beijing 2026",
-   "tier": "S",
-   "startsAt": "2026-11-02T07:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/parivision-vs-g2-02-11-2026"
-  },
-  {
    "id": "bo3-132578",
    "game": "CS2",
    "gameKey": "cs2",
@@ -360,20 +371,20 @@
    "url": "https://bo3.gg/matches/aurora-gaming-vs-liquid-02-11-2026"
   },
   {
-   "id": "bo3-132576",
+   "id": "bo3-132577",
    "game": "CS2",
    "gameKey": "cs2",
-   "teamA": "FURIA",
-   "teamB": "FaZe",
-   "logoA": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/791/image/webp-cdbadd061dbbc67c745592dcac6c71eb.webp",
+   "teamA": "PARIVISION",
+   "teamB": "G2",
+   "logoA": "https://files.bo3.gg/uploads/team/8171/image/webp-735594256ca5670882480debe25ffb69.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/793/image/webp-8f844f6a25c797dfe74b411d147983ff.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
    "status": "upcoming",
    "event": "Intel Extreme Masters Beijing 2026",
    "tier": "S",
-   "startsAt": "2026-11-02T10:00:00+03:00",
+   "startsAt": "2026-11-02T07:30:00+03:00",
    "streams": [
     {
      "type": "twitch",
@@ -384,7 +395,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/matches/furia-vs-faze-02-11-2026"
+   "url": "https://bo3.gg/matches/parivision-vs-g2-02-11-2026"
   },
   {
    "id": "bo3-132579",
@@ -412,6 +423,33 @@
     }
    ],
    "url": "https://bo3.gg/matches/9z-vs-betboom-team-02-11-2026"
+  },
+  {
+   "id": "bo3-132576",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "FURIA",
+   "teamB": "FaZe",
+   "logoA": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/791/image/webp-cdbadd061dbbc67c745592dcac6c71eb.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "Intel Extreme Masters Beijing 2026",
+   "tier": "S",
+   "startsAt": "2026-11-02T10:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/furia-vs-faze-02-11-2026"
   },
   {
    "id": "bo3-132580",
