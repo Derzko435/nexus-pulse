@@ -1,7 +1,17 @@
 {
-  "updatedAt": "2026-11-01T16:40:10+03:00",
+  "updatedAt": "2026-11-01T22:00:32+03:00",
   "source": "steam-specials-ru",
   "deals": [
+    {
+      "id": "steam-115800",
+      "title": "Owlboy",
+      "store": "Steam",
+      "old": 699,
+      "neu": 69,
+      "pct": 90,
+      "url": "https://store.steampowered.com/app/115800/",
+      "steamAppId": "115800"
+    },
     {
       "id": "steam-242760",
       "title": "The Forest",
@@ -33,16 +43,6 @@
       "steamAppId": "1304930"
     },
     {
-      "id": "steam-335670",
-      "title": "LISA: The Painful",
-      "store": "Steam",
-      "old": 966,
-      "neu": 386,
-      "pct": 60,
-      "url": "https://store.steampowered.com/app/335670/",
-      "steamAppId": "335670"
-    },
-    {
       "id": "steam-252490",
       "title": "Rust",
       "store": "Steam",
@@ -53,34 +53,24 @@
       "steamAppId": "252490"
     },
     {
-      "id": "steam-3412590",
-      "title": "Mystic 6",
-      "store": "Steam",
-      "old": 660,
-      "neu": 396,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/3412590/",
-      "steamAppId": "3412590"
-    },
-    {
-      "id": "steam-4553450",
-      "title": "Infinite Einstein Tiles3",
+      "id": "steam-5370330",
+      "title": "Desert Springs",
       "store": "Steam",
       "old": 465,
       "neu": 279,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/4553450/",
-      "steamAppId": "4553450"
+      "url": "https://store.steampowered.com/app/5370330/",
+      "steamAppId": "5370330"
     },
     {
-      "id": "steam-4812400",
-      "title": "Infinite Einstein Tiles Together",
+      "id": "steam-4844820",
+      "title": "DARK PGT 2: The Red Death",
       "store": "Steam",
-      "old": 465,
-      "neu": 279,
+      "old": 360,
+      "neu": 216,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/4812400/",
-      "steamAppId": "4812400"
+      "url": "https://store.steampowered.com/app/4844820/",
+      "steamAppId": "4844820"
     },
     {
       "id": "steam-3808500",
@@ -93,6 +83,16 @@
       "steamAppId": "3808500"
     },
     {
+      "id": "steam-5050520",
+      "title": "Moving Company Simulator",
+      "store": "Steam",
+      "old": 335,
+      "neu": 201,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5050520/",
+      "steamAppId": "5050520"
+    },
+    {
       "id": "steam-3949040",
       "title": "RV There Yet?",
       "store": "Steam",
@@ -103,14 +103,14 @@
       "steamAppId": "3949040"
     },
     {
-      "id": "steam-5301590",
-      "title": "Northgate Dispatch",
+      "id": "steam-5014710",
+      "title": "Idle Survivor",
       "store": "Steam",
-      "old": 150,
-      "neu": 90,
+      "old": 245,
+      "neu": 147,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5301590/",
-      "steamAppId": "5301590"
+      "url": "https://store.steampowered.com/app/5014710/",
+      "steamAppId": "5014710"
     },
     {
       "id": "steam-3527290",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T16:40:05+03:00",
+  "updatedAt": "2026-11-01T22:00:26+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -242,7 +242,7 @@
     {
       "appid": "739630",
       "name": "Phasmophobia",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/6283e4bf96c6e8160492ae12016f0c9a308a75d9/header_alt_assets_13.jpg?t=1791632508",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/c227a2855aba60f3657bc0c3a46515b8c41fb2b6/header.jpg?t=1791632508",
       "genres": [
         "Экшены",
         "Инди",
@@ -546,6 +546,75 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
+      "appid": "3412590",
+      "name": "Mystic 6",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3412590/5a73caf67918ec4c56ed4102b0cacb286555e65a/header.jpg?t=1793488449",
+      "genres": [
+        "Инди",
+        "Ролевые игры",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A tactical card RPG where each card strikes with a unique placeable grid pattern to outsmart your enemies. Along your journey, weapons, potions, skills, runes, and much more will shape every run."
+    },
+    {
+      "appid": "4553450",
+      "name": "Infinite Einstein Tiles3",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4553450/096002a0678197e312266c637c9bd2aa770602dd/header.jpg?t=1793500637",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Infinite Einstein Tiles3 — это казуальная головоломка, основанная на «настоящей плитке Эйнштейна», открытой Дэвидом Смитом и его коллегами."
+    },
+    {
+      "appid": "4812400",
+      "name": "Infinite Einstein Tiles Together",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4812400/04f354ce656696d2c42d8a821b0479e81cc75cee/header.jpg?t=1793500582",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Онлайн-кооперативный пазл Infinite Einstein Tiles Together основан на настоящей плитке Эйнштейна. Собирайте один пазл вместе, в компании до 8 игроков."
+    },
+    {
+      "appid": "3808500",
+      "name": "Undertaker",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3808500/b35656a9b06647d6a9885043074a72d49f0d4036/header.jpg?t=1793541898",
+      "genres": [
+        "Экшены",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "The veil between life and death is shattered. Corpses walk, the earth trembles, and chaos reigns. As the Undertaker, your duty is clear return the dead to the dead by any means necessary. Inspired by classic FPS games like DOOM and Blood fast-paced action in a world gone mad."
+    },
+    {
       "appid": "3949040",
       "name": "RV There Yet?",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949040/cae24b4ed7f4531be51f0d63f785b7d253f92dc3/header.jpg?t=1789134289",
@@ -562,6 +631,42 @@
       },
       "metacritic": null,
       "short_description": "Кооперативное приключение за рулём автодома."
+    },
+    {
+      "appid": "5301590",
+      "name": "Northgate Dispatch",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5301590/ffd74bf981e2be0029992cd59707a686cc9b533a/header_russian.jpg?t=1793518795",
+      "genres": [
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "В ночную смену вы дежурите на посту. Принимайте поезда, придерживайте опоздавшие и отправляйте их, пока график вас не похоронил. Один неверный маршрут, и линия заблокирована. Головоломка о движении поездов с управлением с клавиатуры на зелёном ЭЛТ-экране в стиле 80-х."
+    },
+    {
+      "appid": "3527290",
+      "name": "PEAK",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/31bac6b2eccf09b368f5e95ce510bae2baf3cfcd/header.jpg?t=1792684718",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "PEAK — это совместная игра о восхождении, где малейшая ошибка может привести к гибели. Играйте в одиночку или вместе с группой отчаянных бойскаутов. Сбегите с таинственного острова, для чего вам потребуется забраться на гору в его центре. Хватит ли вам сил, чтобы достичь ПИКА?"
     },
     {
       "appid": "3241660",
@@ -581,99 +686,11 @@
       "short_description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
     },
     {
-      "appid": "1297900",
-      "name": "Gothic 1 Remake",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/6bc8c205a107e552f14631524f25cdf88743515a/header.jpg?t=1787564876",
+      "appid": "648800",
+      "name": "Raft",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg?t=1727184011",
       "genres": [
-        "Экшены",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Возвращение легенды! Исследуйте долину Рудников в потрясающем ремейке культовой ролевой игры. Путешествуйте по мрачному рукотворному открытому миру, который динамически реагирует на ваши действия. Ваши возможности безграничны!"
-    },
-    {
-      "appid": "4512150",
-      "name": "SICRUN",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4512150/45f2c232ba6b1d8f1f1d73ab9937bbe19b597b43/header.jpg?t=1793485177",
-      "genres": [
-        "Экшены",
         "Приключенческие игры",
-        "Казуальные игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "A first-person arcade horror game about greed. Every level's exit costs SicCoins, and the goal is to buy your way out as fast as possible. Collect coins in the dark while something hunts you, gamble to multiply them, and spend them on upgrades and companions. High risk, high reward."
-    },
-    {
-      "appid": "3814510",
-      "name": "白线",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3814510/5133db4a1307c0506faf20f4c6387cbfa52586bd/header.jpg?t=1793498354",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Ролевые игры",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "《Hakusen》is a campus and racing-themed romance visual novel developed by PlanC. Told from the perspective of the protagonist, Jiang Yao, the story chronicles his journey of mutual growth alongside the heroines as they join hands to make their youth shine with a unique brilliance."
-    },
-    {
-      "appid": "2887580",
-      "name": "Active Matter",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2887580/191801a8de4db48075ef195473a922391cb4c6de/header.jpg?t=1793032833",
-      "genres": [
-        "Экшены",
-        "Многопользовательские игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Присоединяйтесь к рейдам за добычей или PvP-сражениям в этом новом реалистичном военном шутере, в мире расколотой мультивселенной. Сражайтесь в квантово-нестабильных зонах за контроль над активной материей — веществом, искривляющим время и пространство."
-    },
-    {
-      "appid": "5362630",
-      "name": "Vesper Vector",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5362630/7e1ee265204f7a3efd44cb8602820cbed53ffa90/header.jpg?t=1793508341",
-      "genres": [
-        "Экшены",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Blast through space and fight on the ground in Vesper Vector, a sci-fi arcade shooter. Dodge projectiles, battle bosses, and upgrade your ship and equipment. Play solo offline or team up with a friend in online or LAN co-op."
-    },
-    {
-      "appid": "4969270",
-      "name": "Jarkeeper",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4969270/9e0bd0e872f87c65d77e1ba673a151db6afea18c/header.jpg?t=1793466848",
-      "genres": [
-        "Казуальные игры",
         "Инди",
         "Симуляторы"
       ],
@@ -684,25 +701,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "A cozy first-person sorting game in a spooky old mansion on a stormy night. You sleepwalked out the front door, and all 3,120 specimen jars hit the floor. Carry armfuls, learn odd little spells from the bimbous and put every jar back on its shelf."
-    },
-    {
-      "appid": "5392290",
-      "name": "Too Many Orbs!",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5392290/6cf93a2b38e04972207b51fc81deae9809187960/header.jpg?t=1793481341",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Заснуть на уроке магии — плохая идея. Твоё наказание: разложить по местам 3493 магические сферы. Исследуй волшебную сферотеку и найди место для каждой сферы."
+      "short_description": "Raft™ throws you and your friends into an epic oceanic adventure! Alone or together, players battle to survive a perilous voyage across a vast sea! Gather debris, scavenge reefs and build your own floating home, but be wary of the man-eating sharks!"
     }
   ]
 }
