@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T09:25:55+03:00",
+  "updatedAt": "2026-11-01T16:40:10+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -53,6 +53,46 @@
       "steamAppId": "252490"
     },
     {
+      "id": "steam-3412590",
+      "title": "Mystic 6",
+      "store": "Steam",
+      "old": 660,
+      "neu": 396,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/3412590/",
+      "steamAppId": "3412590"
+    },
+    {
+      "id": "steam-4553450",
+      "title": "Infinite Einstein Tiles3",
+      "store": "Steam",
+      "old": 465,
+      "neu": 279,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/4553450/",
+      "steamAppId": "4553450"
+    },
+    {
+      "id": "steam-4812400",
+      "title": "Infinite Einstein Tiles Together",
+      "store": "Steam",
+      "old": 465,
+      "neu": 279,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/4812400/",
+      "steamAppId": "4812400"
+    },
+    {
+      "id": "steam-3808500",
+      "title": "Undertaker",
+      "store": "Steam",
+      "old": 350,
+      "neu": 210,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/3808500/",
+      "steamAppId": "3808500"
+    },
+    {
       "id": "steam-3949040",
       "title": "RV There Yet?",
       "store": "Steam",
@@ -61,6 +101,26 @@
       "pct": 40,
       "url": "https://store.steampowered.com/app/3949040/",
       "steamAppId": "3949040"
+    },
+    {
+      "id": "steam-5301590",
+      "title": "Northgate Dispatch",
+      "store": "Steam",
+      "old": 150,
+      "neu": 90,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5301590/",
+      "steamAppId": "5301590"
+    },
+    {
+      "id": "steam-3527290",
+      "title": "PEAK",
+      "store": "Steam",
+      "old": 359,
+      "neu": 222,
+      "pct": 38,
+      "url": "https://store.steampowered.com/app/3527290/",
+      "steamAppId": "3527290"
     },
     {
       "id": "steam-3241660",
@@ -73,74 +133,14 @@
       "steamAppId": "3241660"
     },
     {
-      "id": "steam-1297900",
-      "title": "Gothic 1 Remake",
+      "id": "steam-648800",
+      "title": "Raft",
       "store": "Steam",
-      "old": 2699,
-      "neu": 2024,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/1297900/",
-      "steamAppId": "1297900"
-    },
-    {
-      "id": "steam-4512150",
-      "title": "SICRUN",
-      "store": "Steam",
-      "old": 239,
-      "neu": 179,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/4512150/",
-      "steamAppId": "4512150"
-    },
-    {
-      "id": "steam-3814510",
-      "title": "白线",
-      "store": "Steam",
-      "old": 420,
-      "neu": 331,
-      "pct": 21,
-      "url": "https://store.steampowered.com/app/3814510/",
-      "steamAppId": "3814510"
-    },
-    {
-      "id": "steam-2887580",
-      "title": "Active Matter",
-      "store": "Steam",
-      "old": 1499,
-      "neu": 1199,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/2887580/",
-      "steamAppId": "2887580"
-    },
-    {
-      "id": "steam-5362630",
-      "title": "Vesper Vector",
-      "store": "Steam",
-      "old": 699,
-      "neu": 559,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5362630/",
-      "steamAppId": "5362630"
-    },
-    {
-      "id": "steam-4969270",
-      "title": "Jarkeeper",
-      "store": "Steam",
-      "old": 290,
-      "neu": 232,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/4969270/",
-      "steamAppId": "4969270"
-    },
-    {
-      "id": "steam-5392290",
-      "title": "Too Many Orbs!",
-      "store": "Steam",
-      "old": 245,
-      "neu": 196,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5392290/",
-      "steamAppId": "5392290"
+      "old": 855,
+      "neu": 572,
+      "pct": 33,
+      "url": "https://store.steampowered.com/app/648800/",
+      "steamAppId": "648800"
     }
   ]
 }

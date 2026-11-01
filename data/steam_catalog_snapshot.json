@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-01T09:25:50+03:00",
+  "updatedAt": "2026-11-01T16:40:05+03:00",
   "source": "steam-store-appdetails",
-  "count": 38,
+  "count": 39,
   "apps": [
     {
       "appid": "730",
@@ -564,39 +564,6 @@
       "short_description": "Кооперативное приключение за рулём автодома."
     },
     {
-      "appid": "4545030",
-      "name": "Beyond The Mist",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4545030/e07846142f13f45879ccceb294e0fcf91abf3993/header.jpg?t=1793459064",
-      "genres": [
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "M. Webb, the I.S.C. requests your immediate presence. Our previous keeper has vanished without explanation. A replacement is needed at once for the offshore lighthouse under our care. Report to the local office of the company as soon as possible. Do not be late."
-    },
-    {
-      "appid": "3058550",
-      "name": "РЕВОЛЬБОРО ТОМ 1",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3058550/629e2703b70a83457dadd80c4fffb4990b54785a/header_russian.jpg?t=1793460345",
-      "genres": [
-        "Экшены"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Добро пожаловать в Револьборо - суровый мегаполис, за безликим фасадом которого скрываются смрадные отходы человеческой психики."
-    },
-    {
       "appid": "3241660",
       "name": "R.E.P.O.",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/62177765c05399116f0453fe1177b00ceed698c4/header_alt_assets_3.jpg?t=1793278962",
@@ -649,6 +616,25 @@
       "short_description": "A first-person arcade horror game about greed. Every level's exit costs SicCoins, and the goal is to buy your way out as fast as possible. Collect coins in the dark while something hunts you, gamble to multiply them, and spend them on upgrades and companions. High risk, high reward."
     },
     {
+      "appid": "3814510",
+      "name": "白线",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3814510/5133db4a1307c0506faf20f4c6387cbfa52586bd/header.jpg?t=1793498354",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Ролевые игры",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "《Hakusen》is a campus and racing-themed romance visual novel developed by PlanC. Told from the perspective of the protagonist, Jiang Yao, the story chronicles his journey of mutual growth alongside the heroines as they join hands to make their youth shine with a unique brilliance."
+    },
+    {
       "appid": "2887580",
       "name": "Active Matter",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2887580/191801a8de4db48075ef195473a922391cb4c6de/header.jpg?t=1793032833",
@@ -664,6 +650,23 @@
       },
       "metacritic": null,
       "short_description": "Присоединяйтесь к рейдам за добычей или PvP-сражениям в этом новом реалистичном военном шутере, в мире расколотой мультивселенной. Сражайтесь в квантово-нестабильных зонах за контроль над активной материей — веществом, искривляющим время и пространство."
+    },
+    {
+      "appid": "5362630",
+      "name": "Vesper Vector",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5362630/7e1ee265204f7a3efd44cb8602820cbed53ffa90/header.jpg?t=1793508341",
+      "genres": [
+        "Экшены",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Blast through space and fight on the ground in Vesper Vector, a sci-fi arcade shooter. Dodge projectiles, battle bosses, and upgrade your ship and equipment. Play solo offline or team up with a friend in online or LAN co-op."
     },
     {
       "appid": "4969270",
@@ -682,6 +685,24 @@
       },
       "metacritic": null,
       "short_description": "A cozy first-person sorting game in a spooky old mansion on a stormy night. You sleepwalked out the front door, and all 3,120 specimen jars hit the floor. Carry armfuls, learn odd little spells from the bimbous and put every jar back on its shelf."
+    },
+    {
+      "appid": "5392290",
+      "name": "Too Many Orbs!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5392290/6cf93a2b38e04972207b51fc81deae9809187960/header.jpg?t=1793481341",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Заснуть на уроке магии — плохая идея. Твоё наказание: разложить по местам 3493 магические сферы. Исследуй волшебную сферотеку и найди место для каждой сферы."
     }
   ]
 }
