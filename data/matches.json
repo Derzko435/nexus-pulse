@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T09:53:31+03:00",
+ "updatedAt": "2026-11-01T13:32:47+03:00",
  "source": "bo3.gg",
  "matches": [
   {
@@ -11,20 +11,19 @@
    "logoA": "https://files.bo3.gg/uploads/team/24033/image/webp-bb680245148be5c497f0354b922c2a79.webp",
    "logoB": "https://files.bo3.gg/uploads/team/6331/image/webp-40a807464ddc11691e7dc64d9ae1c689.webp",
    "scoreA": 0,
-   "scoreB": 0,
+   "scoreB": 1,
    "bo": 5,
-   "status": "upcoming",
+   "status": "live",
    "event": "VCT Threshold China 2026",
    "tier": "A",
-   "startsAt": "2026-11-01T12:00:00+03:00",
+   "startsAt": "2026-11-01T12:10:00+03:00",
    "streams": [
     {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
+     "type": "youtube",
+     "id": "FaZ7dOdSVIY",
+     "lang": "zh",
+     "official": false,
+     "label": "UR vs NOVA - Week 2 - Day 6 - 2026 VCT CN Threshold"
     }
    ],
    "url": "https://bo3.gg/valorant/matches/unsettled-resentment-vlr-vs-nova-esports-01-11-2026"
@@ -112,6 +111,13 @@
      "official": true,
      "label": "eslcs",
      "fallback": true
+    },
+    {
+     "type": "kick",
+     "channel": "elmorocho7",
+     "lang": "es",
+     "official": false,
+     "label": "elmorocho7"
     }
    ],
    "url": "https://bo3.gg/matches/legacy-br-vs-the-mongolz-02-11-2026"
@@ -144,33 +150,6 @@
    "url": "https://bo3.gg/matches/heroic-vs-b8-02-11-2026"
   },
   {
-   "id": "bo3-132578",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Aurora",
-   "teamB": "Liquid",
-   "logoA": "https://files.bo3.gg/uploads/team/3598/image/webp-49b8df76b0d121cc89c760c1ec16ebea.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/790/image/webp-01cca8d35079cb4b21bc25268ac75bae.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "Intel Extreme Masters Beijing 2026",
-   "tier": "S",
-   "startsAt": "2026-11-02T07:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/aurora-gaming-vs-liquid-02-11-2026"
-  },
-  {
    "id": "bo3-132577",
    "game": "CS2",
    "gameKey": "cs2",
@@ -198,6 +177,47 @@
    "url": "https://bo3.gg/matches/parivision-vs-g2-02-11-2026"
   },
   {
+   "id": "bo3-132578",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Aurora",
+   "teamB": "Liquid",
+   "logoA": "https://files.bo3.gg/uploads/team/3598/image/webp-49b8df76b0d121cc89c760c1ec16ebea.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/790/image/webp-01cca8d35079cb4b21bc25268ac75bae.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "Intel Extreme Masters Beijing 2026",
+   "tier": "S",
+   "startsAt": "2026-11-02T07:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs",
+     "fallback": true
+    },
+    {
+     "type": "kick",
+     "channel": "elmorocho7",
+     "lang": "es",
+     "official": false,
+     "label": "elmorocho7"
+    },
+    {
+     "type": "kick",
+     "channel": "polex",
+     "lang": "pt",
+     "official": false,
+     "label": "polex"
+    }
+   ],
+   "url": "https://bo3.gg/matches/aurora-gaming-vs-liquid-02-11-2026"
+  },
+  {
    "id": "bo3-132576",
    "game": "CS2",
    "gameKey": "cs2",
@@ -220,6 +240,13 @@
      "official": true,
      "label": "eslcs",
      "fallback": true
+    },
+    {
+     "type": "kick",
+     "channel": "jaxi",
+     "lang": "ro",
+     "official": false,
+     "label": "jaxi"
     }
    ],
    "url": "https://bo3.gg/matches/furia-vs-faze-02-11-2026"
@@ -247,6 +274,13 @@
      "official": true,
      "label": "eslcs",
      "fallback": true
+    },
+    {
+     "type": "kick",
+     "channel": "forg1",
+     "lang": "es",
+     "official": false,
+     "label": "forg1"
     }
    ],
    "url": "https://bo3.gg/matches/9z-vs-betboom-team-02-11-2026"
