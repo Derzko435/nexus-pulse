@@ -1,33 +1,7 @@
 {
- "updatedAt": "2026-11-01T13:32:47+03:00",
+ "updatedAt": "2026-11-01T19:26:59+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-132478",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Unsettled Resentment",
-   "teamB": "Nova Esports",
-   "logoA": "https://files.bo3.gg/uploads/team/24033/image/webp-bb680245148be5c497f0354b922c2a79.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/6331/image/webp-40a807464ddc11691e7dc64d9ae1c689.webp",
-   "scoreA": 0,
-   "scoreB": 1,
-   "bo": 5,
-   "status": "live",
-   "event": "VCT Threshold China 2026",
-   "tier": "A",
-   "startsAt": "2026-11-01T12:10:00+03:00",
-   "streams": [
-    {
-     "type": "youtube",
-     "id": "FaZ7dOdSVIY",
-     "lang": "zh",
-     "official": false,
-     "label": "UR vs NOVA - Week 2 - Day 6 - 2026 VCT CN Threshold"
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/unsettled-resentment-vlr-vs-nova-esports-01-11-2026"
-  },
   {
    "id": "bo3-132298",
    "game": "Dota 2",
@@ -37,19 +11,40 @@
    "logoA": "https://files.bo3.gg/uploads/team/20951/image/webp-102aceac7404bd2093f9b559afcad7b6.webp",
    "logoB": "https://files.bo3.gg/uploads/team/16704/image/webp-d50909a064a4533a3b594ed059eebc42.webp",
    "scoreA": 0,
-   "scoreB": 0,
+   "scoreB": 2,
    "bo": 5,
-   "status": "upcoming",
+   "status": "live",
    "event": "PARI Universe",
    "tier": "S",
    "startsAt": "2026-11-01T16:00:00+03:00",
    "streams": [
     {
      "type": "kick",
-     "channel": "fissure_dota_en",
+     "channel": "americaesportsdota2",
+     "lang": "es",
+     "official": true,
+     "label": "americaesportsdota2"
+    },
+    {
+     "type": "twitch",
+     "channel": "afoninje",
+     "lang": "ru",
+     "official": false,
+     "label": "afoninje"
+    },
+    {
+     "type": "twitch",
+     "channel": "fissure_dota_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "fissure_dota_ru"
+    },
+    {
+     "type": "twitch",
+     "channel": "gorgc",
      "lang": "en",
      "official": false,
-     "label": "fissure_dota_en"
+     "label": "gorgc"
     }
    ],
    "url": "https://bo3.gg/dota2/matches/team-yandex-vs-team-spirit-01-11-2026"
@@ -72,21 +67,61 @@
    "streams": [
     {
      "type": "twitch",
-     "channel": "valorant",
+     "channel": "loupiote3",
      "lang": "en",
      "official": true,
-     "label": "valorant",
-     "fallback": true
+     "label": "loupiote3"
     },
     {
-     "type": "kick",
-     "channel": "valorant",
-     "lang": "en",
-     "official": false,
-     "label": "valorant"
+     "type": "twitch",
+     "channel": "valorant_br",
+     "lang": "pt",
+     "official": true,
+     "label": "valorant_br"
+    },
+    {
+     "type": "twitch",
+     "channel": "valorant_la",
+     "lang": "pt",
+     "official": true,
+     "label": "valorant_la"
+    },
+    {
+     "type": "twitch",
+     "channel": "wipr",
+     "lang": "fr",
+     "official": true,
+     "label": "wipr"
     }
    ],
    "url": "https://bo3.gg/valorant/matches/gentle-mates-gc-vs-kru-blaze-01-11-2026"
+  },
+  {
+   "id": "bo3-132573",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "HEROIC",
+   "teamB": "B8",
+   "logoA": "https://files.bo3.gg/uploads/team/759/image/webp-1bfbd1b3d4fd35e75a874b7d032a0353.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/1539/image/webp-7f1f7b4413ceab164269700c71c0a186.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "Intel Extreme Masters Beijing 2026",
+   "tier": "S",
+   "startsAt": "2026-11-02T05:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/heroic-vs-b8-02-11-2026"
   },
   {
    "id": "bo3-132574",
@@ -121,33 +156,6 @@
     }
    ],
    "url": "https://bo3.gg/matches/legacy-br-vs-the-mongolz-02-11-2026"
-  },
-  {
-   "id": "bo3-132573",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "HEROIC",
-   "teamB": "B8",
-   "logoA": "https://files.bo3.gg/uploads/team/759/image/webp-1bfbd1b3d4fd35e75a874b7d032a0353.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/1539/image/webp-7f1f7b4413ceab164269700c71c0a186.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "Intel Extreme Masters Beijing 2026",
-   "tier": "S",
-   "startsAt": "2026-11-02T05:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/heroic-vs-b8-02-11-2026"
   },
   {
    "id": "bo3-132577",
@@ -419,6 +427,32 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/dplus-kia-vs-bilibili-gaming-lol-05-11-2026"
+  },
+  {
+   "id": "bo3-132478",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "Unsettled Resentment",
+   "teamB": "Nova Esports",
+   "logoA": "https://files.bo3.gg/uploads/team/24033/image/webp-bb680245148be5c497f0354b922c2a79.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/6331/image/webp-40a807464ddc11691e7dc64d9ae1c689.webp",
+   "scoreA": 0,
+   "scoreB": 3,
+   "bo": 5,
+   "status": "finished",
+   "event": "VCT Threshold China 2026",
+   "tier": "A",
+   "startsAt": "2026-11-01T12:10:00+03:00",
+   "streams": [
+    {
+     "type": "youtube",
+     "id": "FaZ7dOdSVIY",
+     "lang": "zh",
+     "official": false,
+     "label": "UR vs NOVA - Week 2 - Day 6 - 2026 VCT CN Threshold"
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/unsettled-resentment-vlr-vs-nova-esports-01-11-2026"
   },
   {
    "id": "bo3-130826",
@@ -989,47 +1023,6 @@
    "url": "https://bo3.gg/lol/matches/team-liquid-lol-vs-los-30-10-2026"
   },
   {
-   "id": "bo3-132163",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Gentle Mates GC",
-   "teamB": "Shopify Rebellion Gold",
-   "logoA": "https://files.bo3.gg/uploads/team/22463/image/webp-6baac6966cffa1791d44b1ff9c886cee.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/6700/image/webp-8da16b04777636e65218d024a2e61c1c.webp",
-   "scoreA": 2,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "finished",
-   "event": "VALORANT Game Changers Championship 2026",
-   "tier": "S",
-   "startsAt": "2026-10-30T21:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
-    },
-    {
-     "type": "kick",
-     "channel": "valorant",
-     "lang": "en",
-     "official": false,
-     "label": "valorant"
-    },
-    {
-     "type": "kick",
-     "channel": "tck10",
-     "lang": "pt",
-     "official": false,
-     "label": "tck10"
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/gentle-mates-gc-vs-shopify-rebellion-gc-30-10-2026"
-  },
-  {
    "id": "bo3-132295",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -1241,17 +1234,6 @@
    "end": "2026-11-15",
    "status": "current",
    "url": "https://bo3.gg/lol/tournaments/worlds-2026"
-  },
-  {
-   "name": "VCT Threshold China 2026",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "tier": "A",
-   "prize": 0,
-   "start": "2026-10-21",
-   "end": "2026-11-01",
-   "status": "current",
-   "url": "https://bo3.gg/valorant/tournaments/vct-threshold-china-2026"
   },
   {
    "name": "PARI Universe",
