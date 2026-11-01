@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T22:00:32+03:00",
+  "updatedAt": "2026-11-02T02:42:39+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -43,6 +43,16 @@
       "steamAppId": "1304930"
     },
     {
+      "id": "steam-221100",
+      "title": "DayZ",
+      "store": "Steam",
+      "old": 2790,
+      "neu": 1395,
+      "pct": 50,
+      "url": "https://store.steampowered.com/app/221100/",
+      "steamAppId": "221100"
+    },
+    {
       "id": "steam-252490",
       "title": "Rust",
       "store": "Steam",
@@ -73,36 +83,6 @@
       "steamAppId": "4844820"
     },
     {
-      "id": "steam-3808500",
-      "title": "Undertaker",
-      "store": "Steam",
-      "old": 350,
-      "neu": 210,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/3808500/",
-      "steamAppId": "3808500"
-    },
-    {
-      "id": "steam-5050520",
-      "title": "Moving Company Simulator",
-      "store": "Steam",
-      "old": 335,
-      "neu": 201,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5050520/",
-      "steamAppId": "5050520"
-    },
-    {
-      "id": "steam-3949040",
-      "title": "RV There Yet?",
-      "store": "Steam",
-      "old": 320,
-      "neu": 192,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/3949040/",
-      "steamAppId": "3949040"
-    },
-    {
       "id": "steam-5014710",
       "title": "Idle Survivor",
       "store": "Steam",
@@ -111,6 +91,16 @@
       "pct": 40,
       "url": "https://store.steampowered.com/app/5014710/",
       "steamAppId": "5014710"
+    },
+    {
+      "id": "steam-5306640",
+      "title": "DOOD",
+      "store": "Steam",
+      "old": 170,
+      "neu": 102,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5306640/",
+      "steamAppId": "5306640"
     },
     {
       "id": "steam-3527290",
@@ -133,14 +123,24 @@
       "steamAppId": "3241660"
     },
     {
-      "id": "steam-648800",
-      "title": "Raft",
+      "id": "steam-739630",
+      "title": "Phasmophobia",
       "store": "Steam",
-      "old": 855,
-      "neu": 572,
-      "pct": 33,
-      "url": "https://store.steampowered.com/app/648800/",
-      "steamAppId": "648800"
+      "old": 849,
+      "neu": 594,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/739630/",
+      "steamAppId": "739630"
+    },
+    {
+      "id": "steam-4530170",
+      "title": "Run, Ronald, Run",
+      "store": "Steam",
+      "old": 170,
+      "neu": 119,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/4530170/",
+      "steamAppId": "4530170"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T22:00:26+03:00",
+  "updatedAt": "2026-11-02T02:42:33+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -452,6 +452,24 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
+      "appid": "115800",
+      "name": "Owlboy",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/115800/7c7fab5906b1ff7101e0932f0e6f0ad83c58e961/header_alt_assets_0.jpg?t=1793528438",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": 88,
+      "short_description": "Owlboy — сюжетная приключенческая игра, в которой вы можете летать и исследовать новый облачный мир! Соберите друзей и исследуйте вместе с ними открытые небеса."
+    },
+    {
       "appid": "242760",
       "name": "The Forest",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg?t=1699381053",
@@ -508,24 +526,6 @@
       "short_description": "Red Barrels invites you to experience mind-numbing terror, this time with friends. Whether you go through the trials alone or in teams, if you survive long enough and complete the therapy, Murkoff will happily let you leave… but will you be the same?"
     },
     {
-      "appid": "335670",
-      "name": "LISA: The Painful",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/335670/header.jpg?t=1756162720",
-      "genres": [
-        "Приключенческие игры",
-        "Инди",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": 77,
-      "short_description": "Несчастные приключения сломленного человека..."
-    },
-    {
       "appid": "252490",
       "name": "Rust",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1781536981",
@@ -546,56 +546,42 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
-      "appid": "3412590",
-      "name": "Mystic 6",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3412590/5a73caf67918ec4c56ed4102b0cacb286555e65a/header.jpg?t=1793488449",
+      "appid": "5370330",
+      "name": "Desert Springs",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5370330/5e42f8e9226e58a622997d5b31459e9e49924c41/header.jpg?t=1793544281",
       "genres": [
+        "Казуальные игры",
         "Инди",
-        "Ролевые игры",
         "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
+        "mac": false,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "A tactical card RPG where each card strikes with a unique placeable grid pattern to outsmart your enemies. Along your journey, weapons, potions, skills, runes, and much more will shape every run."
+      "short_description": "A cozy puzzle builder where one endless spring of water turns a floating desert island green. Play shape cards that raise, lower and flatten the land, and the water finds its own way down. No timer, unlimited undo. Plant, build a town and earn new cards by score across 70 levels in seven lands."
     },
     {
-      "appid": "4553450",
-      "name": "Infinite Einstein Tiles3",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4553450/096002a0678197e312266c637c9bd2aa770602dd/header.jpg?t=1793500637",
+      "appid": "4844820",
+      "name": "DARK PGT 2: The Red Death",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4844820/2c6c3413549268a2cbe60ee4d4e665ec78eba8a0/header.jpg?t=1793540824",
       "genres": [
-        "Казуальные игры",
-        "Инди"
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры",
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
+        "mac": false,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Infinite Einstein Tiles3 — это казуальная головоломка, основанная на «настоящей плитке Эйнштейна», открытой Дэвидом Смитом и его коллегами."
-    },
-    {
-      "appid": "4812400",
-      "name": "Infinite Einstein Tiles Together",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4812400/04f354ce656696d2c42d8a821b0479e81cc75cee/header.jpg?t=1793500582",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Онлайн-кооперативный пазл Infinite Einstein Tiles Together основан на настоящей плитке Эйнштейна. Собирайте один пазл вместе, в компании до 8 игроков."
+      "short_description": "DARK PGT 2 — мрачный постсоветский экшен с элементами souls-like и чёрного юмора. Макс Панин просыпается после алкогольной комы в мире мутантов, роботов и советских экспериментов. Выживай, дерись и разбирайся, кто устроил этот адский бардак."
     },
     {
       "appid": "3808500",
@@ -613,6 +599,24 @@
       },
       "metacritic": null,
       "short_description": "The veil between life and death is shattered. Corpses walk, the earth trembles, and chaos reigns. As the Undertaker, your duty is clear return the dead to the dead by any means necessary. Inspired by classic FPS games like DOOM and Blood fast-paced action in a world gone mad."
+    },
+    {
+      "appid": "5050520",
+      "name": "Moving Company Simulator",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5050520/6b15909dd4b2870a7402ea47b73cef8c64200a5b/header.jpg?t=1793528437",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Run your own moving company with friends! Pack fragile items, carry heavy furniture, load the truck, and deliver everything in one piece. Play solo or in 1–4 player co-op. Earn tips, build your reputation, and grow from a small crew into the city's top movers."
     },
     {
       "appid": "3949040",
@@ -633,22 +637,23 @@
       "short_description": "Кооперативное приключение за рулём автодома."
     },
     {
-      "appid": "5301590",
-      "name": "Northgate Dispatch",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5301590/ffd74bf981e2be0029992cd59707a686cc9b533a/header_russian.jpg?t=1793518795",
+      "appid": "5014710",
+      "name": "Idle Survivor",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5014710/e5e457b8761d85be46424ad03d077f92d78e8b6a/header.jpg?t=1793555533",
       "genres": [
+        "Экшены",
+        "Казуальные игры",
         "Инди",
-        "Симуляторы",
-        "Стратегии"
+        "Ролевые игры"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
-        "linux": true
+        "mac": false,
+        "linux": false
       },
       "metacritic": null,
-      "short_description": "В ночную смену вы дежурите на посту. Принимайте поезда, придерживайте опоздавшие и отправляйте их, пока график вас не похоронил. Один неверный маршрут, и линия заблокирована. Головоломка о движении поездов с управлением с клавиатуры на зелёном ЭЛТ-экране в стиле 80-х."
+      "short_description": "Твой корабль застрял в космосе. Его оружие — твоя единственная защита от новых волн врагов. Сочетай стихийные способности, открывай корабли и продержись как можно дольше в кампании или режиме «Бесконечность»."
     },
     {
       "appid": "3527290",
