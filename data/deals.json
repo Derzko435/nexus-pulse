@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T02:42:39+03:00",
+  "updatedAt": "2026-11-02T09:27:08+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -43,14 +43,14 @@
       "steamAppId": "1304930"
     },
     {
-      "id": "steam-221100",
-      "title": "DayZ",
+      "id": "steam-91583",
+      "title": "Gothic Franchise Bundle",
       "store": "Steam",
-      "old": 2790,
-      "neu": 1395,
-      "pct": 50,
-      "url": "https://store.steampowered.com/app/221100/",
-      "steamAppId": "221100"
+      "old": 7178,
+      "neu": 2469,
+      "pct": 55,
+      "url": "https://store.steampowered.com/app/91583/",
+      "steamAppId": "91583"
     },
     {
       "id": "steam-252490",
@@ -61,46 +61,6 @@
       "pct": 50,
       "url": "https://store.steampowered.com/app/252490/",
       "steamAppId": "252490"
-    },
-    {
-      "id": "steam-5370330",
-      "title": "Desert Springs",
-      "store": "Steam",
-      "old": 465,
-      "neu": 279,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5370330/",
-      "steamAppId": "5370330"
-    },
-    {
-      "id": "steam-4844820",
-      "title": "DARK PGT 2: The Red Death",
-      "store": "Steam",
-      "old": 360,
-      "neu": 216,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/4844820/",
-      "steamAppId": "4844820"
-    },
-    {
-      "id": "steam-5014710",
-      "title": "Idle Survivor",
-      "store": "Steam",
-      "old": 245,
-      "neu": 147,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5014710/",
-      "steamAppId": "5014710"
-    },
-    {
-      "id": "steam-5306640",
-      "title": "DOOD",
-      "store": "Steam",
-      "old": 170,
-      "neu": 102,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5306640/",
-      "steamAppId": "5306640"
     },
     {
       "id": "steam-3527290",
@@ -123,14 +83,24 @@
       "steamAppId": "3241660"
     },
     {
-      "id": "steam-739630",
-      "title": "Phasmophobia",
+      "id": "steam-648800",
+      "title": "Raft",
       "store": "Steam",
-      "old": 849,
-      "neu": 594,
+      "old": 855,
+      "neu": 572,
+      "pct": 33,
+      "url": "https://store.steampowered.com/app/648800/",
+      "steamAppId": "648800"
+    },
+    {
+      "id": "steam-4596310",
+      "title": "Outer Flame",
+      "store": "Steam",
+      "old": 465,
+      "neu": 325,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/739630/",
-      "steamAppId": "739630"
+      "url": "https://store.steampowered.com/app/4596310/",
+      "steamAppId": "4596310"
     },
     {
       "id": "steam-4530170",
@@ -141,6 +111,36 @@
       "pct": 30,
       "url": "https://store.steampowered.com/app/4530170/",
       "steamAppId": "4530170"
+    },
+    {
+      "id": "steam-1297900",
+      "title": "Gothic 1 Remake",
+      "store": "Steam",
+      "old": 2699,
+      "neu": 2024,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/1297900/",
+      "steamAppId": "1297900"
+    },
+    {
+      "id": "steam-4769670",
+      "title": "Hostile Takeover, Inc.",
+      "store": "Steam",
+      "old": 240,
+      "neu": 180,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/4769670/",
+      "steamAppId": "4769670"
+    },
+    {
+      "id": "steam-2887580",
+      "title": "Active Matter",
+      "store": "Steam",
+      "old": 1499,
+      "neu": 1199,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/2887580/",
+      "steamAppId": "2887580"
     }
   ]
 }

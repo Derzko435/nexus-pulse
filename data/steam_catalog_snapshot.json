@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-02T02:42:33+03:00",
+  "updatedAt": "2026-11-02T09:27:03+03:00",
   "source": "steam-store-appdetails",
-  "count": 39,
+  "count": 38,
   "apps": [
     {
       "appid": "730",
@@ -420,7 +420,7 @@
     {
       "appid": "227300",
       "name": "Euro Truck Simulator 2",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/d3c44cfff95e8223687121b05c80e594d35c4c53/header_alt_assets_9.jpg?t=1793285269",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/9a81dc3126c56637297b654f9dcac057cfd79b77/header.jpg?t=1793285269",
       "genres": [
         "Инди",
         "Симуляторы"
@@ -526,6 +526,24 @@
       "short_description": "Red Barrels invites you to experience mind-numbing terror, this time with friends. Whether you go through the trials alone or in teams, if you survive long enough and complete the therapy, Murkoff will happily let you leave… but will you be the same?"
     },
     {
+      "appid": "221100",
+      "name": "DayZ",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/header.jpg?t=1792059745",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Многопользовательские игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Как долго вы сможете выжить в пост-апокалипсисе? Мир пал под натиском зараженных. Боритесь против других выживших за ограниченные ресурсы. Сможете ли вы работать сообща с незнакомцами? Или же станете волком-одиночкой? Это ваша история, это DayZ."
+    },
+    {
       "appid": "252490",
       "name": "Rust",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1781536981",
@@ -584,59 +602,6 @@
       "short_description": "DARK PGT 2 — мрачный постсоветский экшен с элементами souls-like и чёрного юмора. Макс Панин просыпается после алкогольной комы в мире мутантов, роботов и советских экспериментов. Выживай, дерись и разбирайся, кто устроил этот адский бардак."
     },
     {
-      "appid": "3808500",
-      "name": "Undertaker",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3808500/b35656a9b06647d6a9885043074a72d49f0d4036/header.jpg?t=1793541898",
-      "genres": [
-        "Экшены",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "The veil between life and death is shattered. Corpses walk, the earth trembles, and chaos reigns. As the Undertaker, your duty is clear return the dead to the dead by any means necessary. Inspired by classic FPS games like DOOM and Blood fast-paced action in a world gone mad."
-    },
-    {
-      "appid": "5050520",
-      "name": "Moving Company Simulator",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5050520/6b15909dd4b2870a7402ea47b73cef8c64200a5b/header.jpg?t=1793528437",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Run your own moving company with friends! Pack fragile items, carry heavy furniture, load the truck, and deliver everything in one piece. Play solo or in 1–4 player co-op. Earn tips, build your reputation, and grow from a small crew into the city's top movers."
-    },
-    {
-      "appid": "3949040",
-      "name": "RV There Yet?",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949040/cae24b4ed7f4531be51f0d63f785b7d253f92dc3/header.jpg?t=1789134289",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Кооперативное приключение за рулём автодома."
-    },
-    {
       "appid": "5014710",
       "name": "Idle Survivor",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5014710/e5e457b8761d85be46424ad03d077f92d78e8b6a/header.jpg?t=1793555533",
@@ -654,6 +619,24 @@
       },
       "metacritic": null,
       "short_description": "Твой корабль застрял в космосе. Его оружие — твоя единственная защита от новых волн врагов. Сочетай стихийные способности, открывай корабли и продержись как можно дольше в кампании или режиме «Бесконечность»."
+    },
+    {
+      "appid": "5306640",
+      "name": "DOOD",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5306640/dcd9994eec9aa2170950d127d6a7cbfd018594d4/header.jpg?t=1793545288",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Рисуйте существ, добавляйте им глаза, ноги или крылья и отпускайте на Планету хлама в симуляторе рисования с экосистемой-песочницей. Размножайте и объединяйте неожиданных существ, выполняйте странные поручения трёх исследователей и восстановите утраченную экосистему родной планеты Сейджа."
     },
     {
       "appid": "3527290",
@@ -691,13 +674,13 @@
       "short_description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
     },
     {
-      "appid": "648800",
-      "name": "Raft",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg?t=1727184011",
+      "appid": "4530170",
+      "name": "Run, Ronald, Run",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530170/a706ecf13b7f9993b53aba557f23dc8d46cce290/header.jpg?t=1793556496",
       "genres": [
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы"
+        "Экшены",
+        "Казуальные игры",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -706,7 +689,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Raft™ throws you and your friends into an epic oceanic adventure! Alone or together, players battle to survive a perilous voyage across a vast sea! Gather debris, scavenge reefs and build your own floating home, but be wary of the man-eating sharks!"
+      "short_description": "Run, Ronald, Run — инкрементальный арена-шутер о маленьком круге, который пытается выжить среди огромного количества разъярённых геометрических фигур."
     }
   ]
 }
