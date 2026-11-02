@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-02T19:24:28+03:00",
+  "updatedAt": "2026-11-03T02:38:42+03:00",
   "source": "steam-store-appdetails",
-  "count": 39,
+  "count": 38,
   "apps": [
     {
       "appid": "730",
@@ -526,10 +526,14 @@
       "short_description": "Red Barrels invites you to experience mind-numbing terror, this time with friends. Whether you go through the trials alone or in teams, if you survive long enough and complete the therapy, Murkoff will happily let you leave… but will you be the same?"
     },
     {
-      "appid": "91583",
-      "name": "Steam App 91583",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/91583/header.jpg",
-      "genres": [],
+      "appid": "221100",
+      "name": "DayZ",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/header.jpg?t=1792059745",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Многопользовательские игры"
+      ],
       "is_free": false,
       "platforms": {
         "windows": true,
@@ -537,9 +541,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "",
-      "catalogId": null,
-      "curated": true
+      "short_description": "Как долго вы сможете выжить в пост-апокалипсисе? Мир пал под натиском зараженных. Боритесь против других выживших за ограниченные ресурсы. Сможете ли вы работать сообща с незнакомцами? Или же станете волком-одиночкой? Это ваша история, это DayZ."
     },
     {
       "appid": "252490",
@@ -562,12 +564,48 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
-      "appid": "3527290",
-      "name": "PEAK",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/31bac6b2eccf09b368f5e95ce510bae2baf3cfcd/header.jpg?t=1792684718",
+      "appid": "251570",
+      "name": "7 Days to Die",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/251570/header.jpg?t=1793138252",
       "genres": [
         "Экшены",
         "Приключенческие игры",
+        "Инди",
+        "Ролевые игры",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "7 Days to Die — это единственная в своем роде игра с открытым миром, сочетающая в себе элементы шутера от первого лица, хоррора на выживание, защиты замка и ролевой игры. Приобретите изменившую жанр RPG-песочницу с выживанием среди зомби, которая задала тон другим похожим играм. Вас ждет Невезган!"
+    },
+    {
+      "appid": "4961110",
+      "name": "NEVER TURN BACK",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4961110/a923fc276d479b1ad8cd70587d9cc5eb192ab79c/header.jpg?t=1793635551",
+      "genres": [
+        "Приключенческие игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A first-person psychological horror game about escaping a seemingly endless tunnel where something is always watching from the darkness."
+    },
+    {
+      "appid": "5399150",
+      "name": "Кошка или Картошка на Рабочем Столе",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5399150/234515862b2c191404e1ec0f01963a60e4463723/header.jpg?t=1793632149",
+      "genres": [
+        "Казуальные игры",
         "Инди"
       ],
       "is_free": false,
@@ -577,7 +615,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "PEAK — это совместная игра о восхождении, где малейшая ошибка может привести к гибели. Играйте в одиночку или вместе с группой отчаянных бойскаутов. Сбегите с таинственного острова, для чего вам потребуется забраться на гору в его центре. Хватит ли вам сил, чтобы достичь ПИКА?"
+      "short_description": "Клавиатура - лежанка. Монитор - препятствие между вами и котом. Продуктивность? Подождёт. Уютная idle-игра с кошками на рабочем столе: выращивайте картошку, кормите пушистых и открывайте новых специалистов по отвлечению внимания."
     },
     {
       "appid": "3241660",
@@ -597,11 +635,11 @@
       "short_description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
     },
     {
-      "appid": "648800",
-      "name": "Raft",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg?t=1727184011",
+      "appid": "4933450",
+      "name": "CLAWSTROPHOBIA",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4933450/779e351c9fe3bbb770c7b328593ede3d10bee89c/header.jpg?t=1793622002",
       "genres": [
-        "Приключенческие игры",
+        "Экшены",
         "Инди",
         "Симуляторы"
       ],
@@ -612,30 +650,13 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Raft™ throws you and your friends into an epic oceanic adventure! Alone or together, players battle to survive a perilous voyage across a vast sea! Gather debris, scavenge reefs and build your own floating home, but be wary of the man-eating sharks!"
+      "short_description": "You are trapped underground in a Japanese subway station and must pay off an impossible debt in this rogue-lite claw machine deckbuilder."
     },
     {
-      "appid": "4596310",
-      "name": "Outer Flame",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4596310/07669d0d491d910d321f37ebc3a6778e57587ea8/header.jpg?t=1793574908",
+      "appid": "4721020",
+      "name": "The Last Ores",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4721020/b2c87953c8668da1b7dc6af29b7d2cacf9cb2852/header.jpg?t=1793626047",
       "genres": [
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Outer Flame is a JRPG featuring a rich storyline, extensive exploration, and strategic turn‑based battles. The game presents an authentic, classic role‑playing experience."
-    },
-    {
-      "appid": "4530170",
-      "name": "Run, Ronald, Run",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530170/a706ecf13b7f9993b53aba557f23dc8d46cce290/header.jpg?t=1793556496",
-      "genres": [
-        "Экшены",
         "Казуальные игры",
         "Инди"
       ],
@@ -646,15 +667,15 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Run, Ronald, Run — инкрементальный арена-шутер о маленьком круге, который пытается выжить среди огромного количества разъярённых геометрических фигур."
+      "short_description": "Dig the earth, collect ores and sell them to upgrade your equipment. Explore a mysterious depths. And the deeper you go… the more you realize something ancient has been waiting for you down there, in the dark, for a very long time."
     },
     {
-      "appid": "1297900",
-      "name": "Gothic 1 Remake",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/6bc8c205a107e552f14631524f25cdf88743515a/header.jpg?t=1787564876",
+      "appid": "4687930",
+      "name": "Creative Aquarium",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4687930/60d0cc80e7ce9039453f1745cbb2410e0fe6a037/header.jpg?t=1793628099",
       "genres": [
-        "Экшены",
-        "Ролевые игры"
+        "Казуальные игры",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -663,41 +684,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Возвращение легенды! Исследуйте долину Рудников в потрясающем ремейке культовой ролевой игры. Путешествуйте по мрачному рукотворному открытому миру, который динамически реагирует на ваши действия. Ваши возможности безграничны!"
-    },
-    {
-      "appid": "4769670",
-      "name": "Hostile Takeover, Inc.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4769670/ef5c1af6c3ffc9d4a13c2f73c5958734332a021d/header.jpg?t=1793596766",
-      "genres": [
-        "Экшены",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Fight as the CEO, hire employees, and build offices to survive waves of disgruntled enemies in a top-down action tower defense about corporate &quot;leadership&quot; at its most predatory... and least competent. Maximize shareholder value, then fend off the hostile takeover before the board forces you out."
-    },
-    {
-      "appid": "2887580",
-      "name": "Active Matter",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2887580/191801a8de4db48075ef195473a922391cb4c6de/header.jpg?t=1793032833",
-      "genres": [
-        "Экшены",
-        "Многопользовательские игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Присоединяйтесь к рейдам за добычей или PvP-сражениям в этом новом реалистичном военном шутере, в мире расколотой мультивселенной. Сражайтесь в квантово-нестабильных зонах за контроль над активной материей — веществом, искривляющим время и пространство."
+      "short_description": "Что, если ваши рисунки оживут на рабочем столе? «Творческий аквариум» — спокойная игра, где каждая нарисованная рыба становится уникальным спутником. Давайте рыбам имена, украшайте аквариум, открывайте работы других игроков и создавайте собственный подводный мир."
     }
   ]
 }
