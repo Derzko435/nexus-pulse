@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-03T02:38:42+03:00",
+  "updatedAt": "2026-11-03T09:59:51+03:00",
   "source": "steam-store-appdetails",
-  "count": 38,
+  "count": 39,
   "apps": [
     {
       "appid": "730",
@@ -452,96 +452,56 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "115800",
-      "name": "Owlboy",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/115800/7c7fab5906b1ff7101e0932f0e6f0ad83c58e961/header_alt_assets_0.jpg?t=1793528438",
+      "appid": "1449690",
+      "name": "The Walking Dead: The Telltale Definitive Series",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/header.jpg?t=1760651835",
+      "genres": [
+        "Приключенческие игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "The Walking Dead: The Telltale Definitive Series содержит все четыре сезона, дополнение 400 Days и The Walking Dead: Michonne — всего 23 уникальных эпизода, которые подарят игрокам более 50 часов игры."
+    },
+    {
+      "appid": "1967630",
+      "name": "Survival: Fountain of Youth",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1967630/4bc4b959f540c1e13d7ed07f009956520380b389/header_alt_assets_9_russian.jpg?t=1793634882",
       "genres": [
         "Экшены",
         "Приключенческие игры",
-        "Инди"
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Survival: Fountain of Youth — суровое приключение в открытом мире Карибов для 1–4 игроков. Выживайте в одиночку или в кооперативев роли моряка XVI века: создавайте снаряжение и стройте убежище, попутно раскрывая тайны древней цивилизации и собственной судьбы."
+    },
+    {
+      "appid": "275850",
+      "name": "No Man's Sky",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/9f1ca9e3b7d1dccb7b5af404a6739ddc1118ef32/header_alt_assets_26.jpg?t=1793196605",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": true,
-        "linux": true
-      },
-      "metacritic": 88,
-      "short_description": "Owlboy — сюжетная приключенческая игра, в которой вы можете летать и исследовать новый облачный мир! Соберите друзей и исследуйте вместе с ними открытые небеса."
-    },
-    {
-      "appid": "242760",
-      "name": "The Forest",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg?t=1699381053",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
         "linux": false
       },
-      "metacritic": 83,
-      "short_description": "As the lone survivor of a passenger jet crash, you find yourself in a mysterious forest battling to stay alive against a society of cannibalistic mutants. Build, explore, survive in this terrifying first person survival horror simulator."
-    },
-    {
-      "appid": "1326470",
-      "name": "Sons Of The Forest",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg?t=1708624856",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Sent to find a missing billionaire on a remote island, you find yourself in a cannibal-infested hellscape. Craft, build, and struggle to survive, alone or with friends, in this terrifying new open-world survival horror simulator."
-    },
-    {
-      "appid": "1304930",
-      "name": "The Outlast Trials",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/e3b17cf268afa51334b63124a2fe0aef3f1d136b/header_alt_assets_4.jpg?t=1792554994",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Red Barrels invites you to experience mind-numbing terror, this time with friends. Whether you go through the trials alone or in teams, if you survive long enough and complete the therapy, Murkoff will happily let you leave… but will you be the same?"
-    },
-    {
-      "appid": "221100",
-      "name": "DayZ",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/header.jpg?t=1792059745",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Многопользовательские игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Как долго вы сможете выжить в пост-апокалипсисе? Мир пал под натиском зараженных. Боритесь против других выживших за ограниченные ресурсы. Сможете ли вы работать сообща с незнакомцами? Или же станете волком-одиночкой? Это ваша история, это DayZ."
+      "metacritic": 61,
+      "short_description": "No Man's Sky является научно-фантастической игрой об исследованиях и выживании в бесконечной, процедурно генерируемой вселенной."
     },
     {
       "appid": "252490",
@@ -564,48 +524,11 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
-      "appid": "251570",
-      "name": "7 Days to Die",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/251570/header.jpg?t=1793138252",
+      "appid": "3247750",
+      "name": "Mycopunk",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3247750/67b1dc819a93d4e855b213b518f25a9700f46434/header.jpg?t=1793358365",
       "genres": [
         "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Ролевые игры",
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "7 Days to Die — это единственная в своем роде игра с открытым миром, сочетающая в себе элементы шутера от первого лица, хоррора на выживание, защиты замка и ролевой игры. Приобретите изменившую жанр RPG-песочницу с выживанием среди зомби, которая задала тон другим похожим играм. Вас ждет Невезган!"
-    },
-    {
-      "appid": "4961110",
-      "name": "NEVER TURN BACK",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4961110/a923fc276d479b1ad8cd70587d9cc5eb192ab79c/header.jpg?t=1793635551",
-      "genres": [
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "A first-person psychological horror game about escaping a seemingly endless tunnel where something is always watching from the darkness."
-    },
-    {
-      "appid": "5399150",
-      "name": "Кошка или Картошка на Рабочем Столе",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5399150/234515862b2c191404e1ec0f01963a60e4463723/header.jpg?t=1793632149",
-      "genres": [
-        "Казуальные игры",
         "Инди"
       ],
       "is_free": false,
@@ -615,7 +538,43 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Клавиатура - лежанка. Монитор - препятствие между вами и котом. Продуктивность? Подождёт. Уютная idle-игра с кошками на рабочем столе: выращивайте картошку, кормите пушистых и открывайте новых специалистов по отвлечению внимания."
+      "short_description": "Пробивайтесь сквозь орды грибов в этом полностью кастомизируемом лутер-шутере. Вас ждут сотни улучшений, совместная сетевая игра на четверых и ветеран-таракан вам в наставники. Чего же вам ещё надо для счастья?"
+    },
+    {
+      "appid": "3949040",
+      "name": "RV There Yet?",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949040/cae24b4ed7f4531be51f0d63f785b7d253f92dc3/header.jpg?t=1789134289",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Кооперативное приключение за рулём автодома."
+    },
+    {
+      "appid": "3527290",
+      "name": "PEAK",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/31bac6b2eccf09b368f5e95ce510bae2baf3cfcd/header.jpg?t=1792684718",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "PEAK — это совместная игра о восхождении, где малейшая ошибка может привести к гибели. Играйте в одиночку или вместе с группой отчаянных бойскаутов. Сбегите с таинственного острова, для чего вам потребуется забраться на гору в его центре. Хватит ли вам сил, чтобы достичь ПИКА?"
     },
     {
       "appid": "3241660",
@@ -635,11 +594,47 @@
       "short_description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
     },
     {
-      "appid": "4933450",
-      "name": "CLAWSTROPHOBIA",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4933450/779e351c9fe3bbb770c7b328593ede3d10bee89c/header.jpg?t=1793622002",
+      "appid": "5170650",
+      "name": "Fishcremental",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5170650/bd83f9c161b48763f45600f97ebd8e964aa9dfee/header.jpg?t=1793650540",
       "genres": [
-        "Экшены",
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Fishcremental — до неприличия уютное подводное приключение: ловите милейших рыбок, открывайте улучшения, которые меняют всё, и наполняйте море фейерверками."
+    },
+    {
+      "appid": "4964260",
+      "name": "Cabin in Time",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4964260/d06ef8edf37a1e3a1d03fad5631f49e14dbe520e/header.jpg?t=1793656554",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Incremental game where you get to continually break an increasing speed of light across many universes in order to make the 100th gear of a googol machine spin"
+    },
+    {
+      "appid": "648800",
+      "name": "Raft",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg?t=1727184011",
+      "genres": [
+        "Приключенческие игры",
         "Инди",
         "Симуляторы"
       ],
@@ -650,13 +645,14 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "You are trapped underground in a Japanese subway station and must pay off an impossible debt in this rogue-lite claw machine deckbuilder."
+      "short_description": "Raft™ throws you and your friends into an epic oceanic adventure! Alone or together, players battle to survive a perilous voyage across a vast sea! Gather debris, scavenge reefs and build your own floating home, but be wary of the man-eating sharks!"
     },
     {
-      "appid": "4721020",
-      "name": "The Last Ores",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4721020/b2c87953c8668da1b7dc6af29b7d2cacf9cb2852/header.jpg?t=1793626047",
+      "appid": "4442840",
+      "name": "Crime Podcast: Welcome to the Neighborhood",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4442840/ef40b96fc8b12412c3ea9b506594701d6adf82eb/header.jpg?t=1793650506",
       "genres": [
+        "Приключенческие игры",
         "Казуальные игры",
         "Инди"
       ],
@@ -667,15 +663,15 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Dig the earth, collect ores and sell them to upgrade your equipment. Explore a mysterious depths. And the deeper you go… the more you realize something ancient has been waiting for you down there, in the dark, for a very long time."
+      "short_description": "Джесси Тёрнер, 29-летний сотрудник страховой компании, переезжает в соседний штат после назначения в местный филиал. Обустраиваясь на новом месте, он сталкивается с необычными событиями, которые вскоре превращают его жизнь в настоящий кошмар."
     },
     {
-      "appid": "4687930",
-      "name": "Creative Aquarium",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4687930/60d0cc80e7ce9039453f1745cbb2410e0fe6a037/header.jpg?t=1793628099",
+      "appid": "1297900",
+      "name": "Gothic 1 Remake",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/6bc8c205a107e552f14631524f25cdf88743515a/header.jpg?t=1787564876",
       "genres": [
-        "Казуальные игры",
-        "Инди"
+        "Экшены",
+        "Ролевые игры"
       ],
       "is_free": false,
       "platforms": {
@@ -684,7 +680,26 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Что, если ваши рисунки оживут на рабочем столе? «Творческий аквариум» — спокойная игра, где каждая нарисованная рыба становится уникальным спутником. Давайте рыбам имена, украшайте аквариум, открывайте работы других игроков и создавайте собственный подводный мир."
+      "short_description": "Возвращение легенды! Исследуйте долину Рудников в потрясающем ремейке культовой ролевой игры. Путешествуйте по мрачному рукотворному открытому миру, который динамически реагирует на ваши действия. Ваши возможности безграничны!"
+    },
+    {
+      "appid": "4285270",
+      "name": "marblebuilds",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4285270/36a0b86566d43b0b4f1a1a9142c985079cd2672a/header.jpg?t=1793669680",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A creative marble physics sandbox. Place blocks on an infinite grid to build anything you can imagine: marble runs, functional calculators, precision platformer courses, playable minigames, pinball machines, automated music tracks, and more."
     }
   ]
 }

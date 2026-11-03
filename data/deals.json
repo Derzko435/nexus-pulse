@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T02:38:47+03:00",
+  "updatedAt": "2026-11-03T09:59:56+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -33,6 +33,16 @@
       "steamAppId": "275850"
     },
     {
+      "id": "steam-1601570",
+      "title": "The Alters",
+      "store": "Steam",
+      "old": 1510,
+      "neu": 679,
+      "pct": 55,
+      "url": "https://store.steampowered.com/app/1601570/",
+      "steamAppId": "1601570"
+    },
+    {
       "id": "steam-252490",
       "title": "Rust",
       "store": "Steam",
@@ -43,14 +53,24 @@
       "steamAppId": "252490"
     },
     {
-      "id": "steam-3247750",
-      "title": "Mycopunk",
+      "id": "steam-1167630",
+      "title": "Teardown",
       "store": "Steam",
-      "old": 550,
-      "neu": 275,
+      "old": 1399,
+      "neu": 699,
       "pct": 50,
-      "url": "https://store.steampowered.com/app/3247750/",
-      "steamAppId": "3247750"
+      "url": "https://store.steampowered.com/app/1167630/",
+      "steamAppId": "1167630"
+    },
+    {
+      "id": "steam-4783870",
+      "title": "Mythopolis",
+      "store": "Steam",
+      "old": 395,
+      "neu": 237,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/4783870/",
+      "steamAppId": "4783870"
     },
     {
       "id": "steam-3949040",
@@ -83,46 +103,6 @@
       "steamAppId": "3241660"
     },
     {
-      "id": "steam-5170650",
-      "title": "Fishcremental",
-      "store": "Steam",
-      "old": 335,
-      "neu": 217,
-      "pct": 35,
-      "url": "https://store.steampowered.com/app/5170650/",
-      "steamAppId": "5170650"
-    },
-    {
-      "id": "steam-4964260",
-      "title": "Cabin in Time",
-      "store": "Steam",
-      "old": 170,
-      "neu": 113,
-      "pct": 34,
-      "url": "https://store.steampowered.com/app/4964260/",
-      "steamAppId": "4964260"
-    },
-    {
-      "id": "steam-648800",
-      "title": "Raft",
-      "store": "Steam",
-      "old": 855,
-      "neu": 572,
-      "pct": 33,
-      "url": "https://store.steampowered.com/app/648800/",
-      "steamAppId": "648800"
-    },
-    {
-      "id": "steam-4442840",
-      "title": "Crime Podcast: Welcome to the Neighborhood",
-      "store": "Steam",
-      "old": 320,
-      "neu": 224,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/4442840/",
-      "steamAppId": "4442840"
-    },
-    {
       "id": "steam-1297900",
       "title": "Gothic 1 Remake",
       "store": "Steam",
@@ -141,6 +121,26 @@
       "pct": 25,
       "url": "https://store.steampowered.com/app/4285270/",
       "steamAppId": "4285270"
+    },
+    {
+      "id": "steam-4659230",
+      "title": "What's the Word",
+      "store": "Steam",
+      "old": 275,
+      "neu": 206,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/4659230/",
+      "steamAppId": "4659230"
+    },
+    {
+      "id": "steam-94275",
+      "title": "Brotato + Abyssal Terrors DLC + Primal Dread DLC",
+      "store": "Steam",
+      "old": 558,
+      "neu": 380,
+      "pct": 24,
+      "url": "https://store.steampowered.com/app/94275/",
+      "steamAppId": "94275"
     }
   ]
 }
