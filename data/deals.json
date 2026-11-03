@@ -1,17 +1,7 @@
 {
-  "updatedAt": "2026-11-03T09:59:56+03:00",
+  "updatedAt": "2026-11-03T19:21:29+03:00",
   "source": "steam-specials-ru",
   "deals": [
-    {
-      "id": "steam-1449690",
-      "title": "The Walking Dead: The Telltale Definitive Series",
-      "store": "Steam",
-      "old": 1600,
-      "neu": 160,
-      "pct": 90,
-      "url": "https://store.steampowered.com/app/1449690/",
-      "steamAppId": "1449690"
-    },
     {
       "id": "steam-1967630",
       "title": "Survival: Fountain of Youth",
@@ -31,16 +21,6 @@
       "pct": 60,
       "url": "https://store.steampowered.com/app/275850/",
       "steamAppId": "275850"
-    },
-    {
-      "id": "steam-1601570",
-      "title": "The Alters",
-      "store": "Steam",
-      "old": 1510,
-      "neu": 679,
-      "pct": 55,
-      "url": "https://store.steampowered.com/app/1601570/",
-      "steamAppId": "1601570"
     },
     {
       "id": "steam-252490",
@@ -63,16 +43,6 @@
       "steamAppId": "1167630"
     },
     {
-      "id": "steam-4783870",
-      "title": "Mythopolis",
-      "store": "Steam",
-      "old": 395,
-      "neu": 237,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/4783870/",
-      "steamAppId": "4783870"
-    },
-    {
       "id": "steam-3949040",
       "title": "RV There Yet?",
       "store": "Steam",
@@ -81,6 +51,16 @@
       "pct": 40,
       "url": "https://store.steampowered.com/app/3949040/",
       "steamAppId": "3949040"
+    },
+    {
+      "id": "steam-5401770",
+      "title": "Tinker to the Moon",
+      "store": "Steam",
+      "old": 130,
+      "neu": 78,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5401770/",
+      "steamAppId": "5401770"
     },
     {
       "id": "steam-3527290",
@@ -93,6 +73,16 @@
       "steamAppId": "3527290"
     },
     {
+      "id": "steam-4982380",
+      "title": "STUFFED: Two Foot Hero",
+      "store": "Steam",
+      "old": 660,
+      "neu": 429,
+      "pct": 35,
+      "url": "https://store.steampowered.com/app/4982380/",
+      "steamAppId": "4982380"
+    },
+    {
       "id": "steam-3241660",
       "title": "R.E.P.O.",
       "store": "Steam",
@@ -103,44 +93,54 @@
       "steamAppId": "3241660"
     },
     {
-      "id": "steam-1297900",
-      "title": "Gothic 1 Remake",
+      "id": "steam-648800",
+      "title": "Raft",
       "store": "Steam",
-      "old": 2699,
-      "neu": 2024,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/1297900/",
-      "steamAppId": "1297900"
+      "old": 855,
+      "neu": 572,
+      "pct": 33,
+      "url": "https://store.steampowered.com/app/648800/",
+      "steamAppId": "648800"
     },
     {
-      "id": "steam-4285270",
-      "title": "marblebuilds",
+      "id": "steam-5400350",
+      "title": "Debounce: Double Click & Key Chatter Fix",
       "store": "Steam",
-      "old": 465,
-      "neu": 348,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/4285270/",
-      "steamAppId": "4285270"
+      "old": 78,
+      "neu": 54,
+      "pct": 31,
+      "url": "https://store.steampowered.com/app/5400350/",
+      "steamAppId": "5400350"
     },
     {
-      "id": "steam-4659230",
-      "title": "What's the Word",
+      "id": "steam-4410360",
+      "title": "HOLD MY WHEEL",
       "store": "Steam",
-      "old": 275,
-      "neu": 206,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/4659230/",
-      "steamAppId": "4659230"
+      "old": 385,
+      "neu": 269,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/4410360/",
+      "steamAppId": "4410360"
     },
     {
-      "id": "steam-94275",
-      "title": "Brotato + Abyssal Terrors DLC + Primal Dread DLC",
+      "id": "steam-3253530",
+      "title": "PIT OF GOBLIN",
       "store": "Steam",
-      "old": 558,
-      "neu": 380,
-      "pct": 24,
-      "url": "https://store.steampowered.com/app/94275/",
-      "steamAppId": "94275"
+      "old": 320,
+      "neu": 224,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/3253530/",
+      "steamAppId": "3253530"
+    },
+    {
+      "id": "steam-4673980",
+      "title": "Harvestide",
+      "store": "Steam",
+      "old": 280,
+      "neu": 196,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/4673980/",
+      "steamAppId": "4673980"
     }
   ]
 }

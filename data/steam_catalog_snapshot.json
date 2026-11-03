@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T09:59:51+03:00",
+  "updatedAt": "2026-11-03T19:21:23+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -504,6 +504,22 @@
       "short_description": "No Man's Sky является научно-фантастической игрой об исследованиях и выживании в бесконечной, процедурно генерируемой вселенной."
     },
     {
+      "appid": "1601570",
+      "name": "The Alters",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1601570/05e3c5b872152c1ba70f6a0def8cf49ae2123a4b/header.jpg?t=1793637508",
+      "genres": [
+        "Приключенческие игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 85,
+      "short_description": "Ознакомьтесь с удостоенной наград научно-фантастической игрой с элементами выживания. Помогите Яну Дольски, выжившему в ходе неудачной космической экспедиции, создать альтернативные версии себя, чтобы покинуть враждебную планету и справиться с личными проблемами."
+    },
+    {
       "appid": "252490",
       "name": "Rust",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1781536981",
@@ -524,12 +540,32 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
-      "appid": "3247750",
-      "name": "Mycopunk",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3247750/67b1dc819a93d4e855b213b518f25a9700f46434/header.jpg?t=1793358365",
+      "appid": "1167630",
+      "name": "Teardown",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1167630/38bac946654a2cc775607518fb5c8e4e0a0f9a87/header.jpg?t=1791807602",
       "genres": [
         "Экшены",
-        "Инди"
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 80,
+      "short_description": "Совершите идеальное ограбление в воксельном мире, не отказывая себе в разрушениях. Сносите стены, используя машины, или прокладывайте себе путь взрывчаткой. Меняйте окружающий мир под себя и дайте волю фантазии. Играйте в одиночку или в многопользовательском режиме, поддерживающем до 12 игроков."
+    },
+    {
+      "appid": "4783870",
+      "name": "Mythopolis",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4783870/77c174ca19f462701f9416bd5546c9aca56745ae/header.jpg?t=1793690913",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
@@ -538,7 +574,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Пробивайтесь сквозь орды грибов в этом полностью кастомизируемом лутер-шутере. Вас ждут сотни улучшений, совместная сетевая игра на четверых и ветеран-таракан вам в наставники. Чего же вам ещё надо для счастья?"
+      "short_description": "Mythopolis is an online board game for four to eight players. Race across four mythologies, buy the medallions that win the game, and swing your rivals' fortunes with a hand of mythic cards — or lose everything to a single one."
     },
     {
       "appid": "3949040",
@@ -594,78 +630,6 @@
       "short_description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
     },
     {
-      "appid": "5170650",
-      "name": "Fishcremental",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5170650/bd83f9c161b48763f45600f97ebd8e964aa9dfee/header.jpg?t=1793650540",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Fishcremental — до неприличия уютное подводное приключение: ловите милейших рыбок, открывайте улучшения, которые меняют всё, и наполняйте море фейерверками."
-    },
-    {
-      "appid": "4964260",
-      "name": "Cabin in Time",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4964260/d06ef8edf37a1e3a1d03fad5631f49e14dbe520e/header.jpg?t=1793656554",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Incremental game where you get to continually break an increasing speed of light across many universes in order to make the 100th gear of a googol machine spin"
-    },
-    {
-      "appid": "648800",
-      "name": "Raft",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg?t=1727184011",
-      "genres": [
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Raft™ throws you and your friends into an epic oceanic adventure! Alone or together, players battle to survive a perilous voyage across a vast sea! Gather debris, scavenge reefs and build your own floating home, but be wary of the man-eating sharks!"
-    },
-    {
-      "appid": "4442840",
-      "name": "Crime Podcast: Welcome to the Neighborhood",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4442840/ef40b96fc8b12412c3ea9b506594701d6adf82eb/header.jpg?t=1793650506",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Джесси Тёрнер, 29-летний сотрудник страховой компании, переезжает в соседний штат после назначения в местный филиал. Обустраиваясь на новом месте, он сталкивается с необычными событиями, которые вскоре превращают его жизнь в настоящий кошмар."
-    },
-    {
       "appid": "1297900",
       "name": "Gothic 1 Remake",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/6bc8c205a107e552f14631524f25cdf88743515a/header.jpg?t=1787564876",
@@ -700,6 +664,38 @@
       },
       "metacritic": null,
       "short_description": "A creative marble physics sandbox. Place blocks on an infinite grid to build anything you can imagine: marble runs, functional calculators, precision platformer courses, playable minigames, pinball machines, automated music tracks, and more."
+    },
+    {
+      "appid": "4659230",
+      "name": "What's the Word",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4659230/d0674565314a2cfcfe0f70eb8caa446671478bb8/header.jpg?t=1793677120",
+      "genres": [
+        "Казуальные игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "The word guessing puzzle game that allows you to create and download custom word lists from the Steam Workshop. Challenge yourself with a new daily word each day and unlock achievements along the way! Make the words short or long, from experienced players to young ones just starting out."
+    },
+    {
+      "appid": "94275",
+      "name": "Steam App 94275",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/94275/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
     }
   ]
 }
