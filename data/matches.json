@@ -1,101 +1,7 @@
 {
- "updatedAt": "2026-11-03T14:23:45+03:00",
+ "updatedAt": "2026-11-03T22:50:57+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-133036",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "FURIA",
-   "teamB": "Natus Vincere",
-   "logoA": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/787/image/webp-ea9885f81f1572c7a6c9fb6cbf747c99.webp",
-   "scoreA": 0,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "live",
-   "event": "Intel Extreme Masters Beijing 2026",
-   "tier": "S",
-   "startsAt": "2026-11-03T13:15:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs"
-    },
-    {
-     "type": "twitch",
-     "channel": "fl0m",
-     "lang": "en",
-     "official": true,
-     "label": "fl0m"
-    },
-    {
-     "type": "twitch",
-     "channel": "psp1g",
-     "lang": "en",
-     "official": true,
-     "label": "psp1g"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "cs2_maincast"
-    }
-   ],
-   "url": "https://bo3.gg/matches/furia-vs-natus-vincere-03-11-2026"
-  },
-  {
-   "id": "bo3-133039",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Legacy",
-   "teamB": "B8",
-   "logoA": "https://files.bo3.gg/uploads/team/8118/image/webp-e4a3b023443f1f3ba4ef588164e73111.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/1539/image/webp-7f1f7b4413ceab164269700c71c0a186.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "Intel Extreme Masters Beijing 2026",
-   "tier": "S",
-   "startsAt": "2026-11-03T13:55:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "vilacattv",
-     "lang": "pt",
-     "official": true,
-     "label": "vilacattv"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_paragon_ru2",
-     "lang": "ru",
-     "official": false,
-     "label": "cs2_paragon_ru2"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast2",
-     "lang": "uk",
-     "official": false,
-     "label": "cs2_maincast2"
-    },
-    {
-     "type": "twitch",
-     "channel": "tris_mara",
-     "lang": "pt",
-     "official": false,
-     "label": "tris_mara"
-    }
-   ],
-   "url": "https://bo3.gg/matches/legacy-br-vs-b8-03-11-2026"
-  },
   {
    "id": "bo3-130830",
    "game": "LoL",
@@ -198,6 +104,33 @@
    "url": "https://bo3.gg/matches/liquid-vs-tyloo-cs-go-04-11-2026"
   },
   {
+   "id": "bo3-133041",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Natus Vincere",
+   "teamB": "B8",
+   "logoA": "https://files.bo3.gg/uploads/team/787/image/webp-ea9885f81f1572c7a6c9fb6cbf747c99.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/1539/image/webp-7f1f7b4413ceab164269700c71c0a186.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "Intel Extreme Masters Beijing 2026",
+   "tier": "S",
+   "startsAt": "2026-11-04T07:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/natus-vincere-vs-b8-04-11-2026"
+  },
+  {
    "id": "bo3-133040",
    "game": "CS2",
    "gameKey": "cs2",
@@ -250,6 +183,33 @@
     }
    ],
    "url": "https://bo3.gg/matches/mouz-cs2-vs-parivision-04-11-2026"
+  },
+  {
+   "id": "bo3-133043",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "The MongolZ",
+   "teamB": "FURIA",
+   "logoA": "https://files.bo3.gg/uploads/team/736/image/webp-499cad826b4cd83ce22f8bd2b13261d6.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "Intel Extreme Masters Beijing 2026",
+   "tier": "S",
+   "startsAt": "2026-11-04T12:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/the-mongolz-vs-furia-04-11-2026"
   },
   {
    "id": "bo3-130829",
@@ -331,6 +291,100 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/karmine-corp-lol-vs-t1-lol-06-11-2026"
+  },
+  {
+   "id": "bo3-133039",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Legacy",
+   "teamB": "B8",
+   "logoA": "https://files.bo3.gg/uploads/team/8118/image/webp-e4a3b023443f1f3ba4ef588164e73111.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/1539/image/webp-7f1f7b4413ceab164269700c71c0a186.webp",
+   "scoreA": 1,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "Intel Extreme Masters Beijing 2026",
+   "tier": "S",
+   "startsAt": "2026-11-03T13:55:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcsb",
+     "lang": "en",
+     "official": true,
+     "label": "eslcsb"
+    },
+    {
+     "type": "twitch",
+     "channel": "vilacattv",
+     "lang": "pt",
+     "official": true,
+     "label": "vilacattv"
+    },
+    {
+     "type": "twitch",
+     "channel": "watchfultvb",
+     "lang": "ru",
+     "official": false,
+     "label": "watchfultvb"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_paragon_ru2",
+     "lang": "ru",
+     "official": false,
+     "label": "cs2_paragon_ru2"
+    }
+   ],
+   "url": "https://bo3.gg/matches/legacy-br-vs-b8-03-11-2026"
+  },
+  {
+   "id": "bo3-133036",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "FURIA",
+   "teamB": "Natus Vincere",
+   "logoA": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/787/image/webp-ea9885f81f1572c7a6c9fb6cbf747c99.webp",
+   "scoreA": 2,
+   "scoreB": 1,
+   "bo": 3,
+   "status": "finished",
+   "event": "Intel Extreme Masters Beijing 2026",
+   "tier": "S",
+   "startsAt": "2026-11-03T13:15:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs"
+    },
+    {
+     "type": "twitch",
+     "channel": "fl0m",
+     "lang": "en",
+     "official": true,
+     "label": "fl0m"
+    },
+    {
+     "type": "twitch",
+     "channel": "psp1g",
+     "lang": "en",
+     "official": true,
+     "label": "psp1g"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "cs2_maincast"
+    }
+   ],
+   "url": "https://bo3.gg/matches/furia-vs-natus-vincere-03-11-2026"
   },
   {
    "id": "bo3-133037",
@@ -472,100 +526,6 @@
     }
    ],
    "url": "https://bo3.gg/matches/mouz-cs2-vs-betboom-team-03-11-2026"
-  },
-  {
-   "id": "bo3-133047",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "TYLOO",
-   "teamB": "9z",
-   "logoA": "https://files.bo3.gg/uploads/team/757/image/17873415da0f03df35299283b43408d7.png",
-   "logoB": "https://files.bo3.gg/uploads/team/324/image/webp-0c639374c5bbd039126737081088a5fc.webp",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "Intel Extreme Masters Beijing 2026",
-   "tier": "S",
-   "startsAt": "2026-11-03T07:45:00+03:00",
-   "streams": [
-    {
-     "type": "kick",
-     "channel": "watchfultvb",
-     "lang": "ru",
-     "official": true,
-     "label": "watchfultvb"
-    },
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs"
-    },
-    {
-     "type": "twitch",
-     "channel": "trottah",
-     "lang": "en",
-     "official": true,
-     "label": "trottah"
-    },
-    {
-     "type": "twitch",
-     "channel": "watchfultvb",
-     "lang": "ru",
-     "official": false,
-     "label": "watchfultvb"
-    }
-   ],
-   "url": "https://bo3.gg/matches/tyloo-cs-go-vs-9z-03-11-2026"
-  },
-  {
-   "id": "bo3-133044",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Liquid",
-   "teamB": "PARIVISION",
-   "logoA": "https://files.bo3.gg/uploads/team/790/image/webp-01cca8d35079cb4b21bc25268ac75bae.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/8171/image/webp-735594256ca5670882480debe25ffb69.webp",
-   "scoreA": 0,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "Intel Extreme Masters Beijing 2026",
-   "tier": "S",
-   "startsAt": "2026-11-03T05:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs"
-    },
-    {
-     "type": "twitch",
-     "channel": "trottah",
-     "lang": "en",
-     "official": true,
-     "label": "trottah"
-    },
-    {
-     "type": "twitch",
-     "channel": "bysl4m",
-     "lang": "ru",
-     "official": false,
-     "label": "bysl4m"
-    },
-    {
-     "type": "twitch",
-     "channel": "watchfultvb",
-     "lang": "ru",
-     "official": false,
-     "label": "watchfultvb"
-    }
-   ],
-   "url": "https://bo3.gg/matches/liquid-vs-parivision-03-11-2026"
   },
   {
    "id": "bo3-132166",
@@ -1126,32 +1086,6 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/team-liquid-lol-vs-los-30-10-2026"
-  },
-  {
-   "id": "bo3-132295",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Team Liquid",
-   "teamB": "Team Spirit",
-   "logoA": "https://files.bo3.gg/uploads/team/16721/image/webp-dad0330773871073290e08d7d5baa9dc.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16704/image/webp-d50909a064a4533a3b594ed059eebc42.webp",
-   "scoreA": 1,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "PARI Universe",
-   "tier": "S",
-   "startsAt": "2026-10-30T20:20:00+03:00",
-   "streams": [
-    {
-     "type": "kick",
-     "channel": "fissure_dota_en",
-     "lang": "en",
-     "official": false,
-     "label": "fissure_dota_en"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/team-spirit-vs-team-liquid-dota2-30-10-2026"
   }
  ],
  "tournaments": [
@@ -1200,15 +1134,26 @@
    "url": "https://bo3.gg/dota2/tournaments/blast-slam-ix"
   },
   {
-   "name": "PGL Major Singapore 2026",
+   "name": "PGL Major Singapore 2026 Stage 1",
    "game": "CS2",
    "gameKey": "cs2",
    "tier": "S",
-   "prize": 1250000,
+   "prize": 0,
    "start": "2026-11-24",
-   "end": "2026-12-14",
+   "end": "2026-11-27",
    "status": "upcoming",
-   "url": "https://bo3.gg/tournaments/pgl-major-singapore-2026"
+   "url": "https://bo3.gg/tournaments/pgl-major-singapore-2026-stage-1"
+  },
+  {
+   "name": "PGL Major Singapore 2026 Stage 2",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "tier": "S",
+   "prize": 80000,
+   "start": "2026-11-28",
+   "end": "2026-12-01",
+   "status": "upcoming",
+   "url": "https://bo3.gg/tournaments/pgl-major-singapore-2026-stage-2"
   },
   {
    "name": "DreamLeague Season 30",
@@ -1220,6 +1165,17 @@
    "end": "2026-12-13",
    "status": "upcoming",
    "url": "https://bo3.gg/dota2/tournaments/dreamleague-season-30"
+  },
+  {
+   "name": "PGL Major Singapore 2026",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "tier": "S",
+   "prize": 1170000,
+   "start": "2026-12-02",
+   "end": "2026-12-14",
+   "status": "upcoming",
+   "url": "https://bo3.gg/tournaments/pgl-major-singapore-2026"
   },
   {
    "name": "PGL Bucharest 2027",
