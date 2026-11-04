@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T14:00:35+03:00",
+ "updatedAt": "2026-11-04T14:37:30+03:00",
  "source": "bo3.gg",
  "matches": [
   {
@@ -10,7 +10,7 @@
    "teamB": "FURIA",
    "logoA": "https://files.bo3.gg/uploads/team/736/image/webp-499cad826b4cd83ce22f8bd2b13261d6.webp",
    "logoB": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
-   "scoreA": 0,
+   "scoreA": 1,
    "scoreB": 1,
    "bo": 3,
    "status": "live",
@@ -58,7 +58,7 @@
    "logoA": "https://files.bo3.gg/uploads/team/787/image/webp-ea9885f81f1572c7a6c9fb6cbf747c99.webp",
    "logoB": "https://files.bo3.gg/uploads/team/2713/image/webp-86fd5a0653183a19cf750d195963ea10.webp",
    "scoreA": 0,
-   "scoreB": 0,
+   "scoreB": 1,
    "bo": 3,
    "status": "live",
    "event": "Intel Extreme Masters Beijing 2026",
@@ -366,13 +366,13 @@
    "url": "https://bo3.gg/matches/natus-vincere-vs-b8-04-11-2026"
   },
   {
-   "id": "bo3-133049",
+   "id": "bo3-133048",
    "game": "CS2",
    "gameKey": "cs2",
-   "teamA": "Liquid",
-   "teamB": "TYLOO",
-   "logoA": "https://files.bo3.gg/uploads/team/790/image/webp-01cca8d35079cb4b21bc25268ac75bae.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/757/image/17873415da0f03df35299283b43408d7.png",
+   "teamA": "BetBoom",
+   "teamB": "Aurora",
+   "logoA": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/3598/image/webp-49b8df76b0d121cc89c760c1ec16ebea.webp",
    "scoreA": 2,
    "scoreB": 0,
    "bo": 3,
@@ -382,35 +382,35 @@
    "startsAt": "2026-11-04T05:00:00+03:00",
    "streams": [
     {
-     "type": "kick",
-     "channel": "watchfultvb",
-     "lang": "ru",
-     "official": true,
-     "label": "watchfultvb"
-    },
-    {
      "type": "twitch",
-     "channel": "eslcs",
+     "channel": "eslcsb",
      "lang": "en",
      "official": true,
-     "label": "eslcs"
+     "label": "eslcsb"
     },
     {
      "type": "twitch",
-     "channel": "watchfultvb",
+     "channel": "bysl4m",
      "lang": "ru",
      "official": false,
-     "label": "watchfultvb"
+     "label": "bysl4m"
     },
     {
      "type": "twitch",
-     "channel": "mgfongabe",
+     "channel": "watchfultv",
      "lang": "ru",
      "official": false,
-     "label": "mgfongabe"
+     "label": "watchfultv"
+    },
+    {
+     "type": "twitch",
+     "channel": "pelaajatcom",
+     "lang": "fi",
+     "official": false,
+     "label": "pelaajatcom"
     }
    ],
-   "url": "https://bo3.gg/matches/liquid-vs-tyloo-cs-go-04-11-2026"
+   "url": "https://bo3.gg/matches/betboom-team-vs-aurora-gaming-04-11-2026"
   },
   {
    "id": "bo3-130830",
