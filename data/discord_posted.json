@@ -1,24 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-11-04T00:53:00+03:00",
+ "updatedAt": "2026-11-04T04:43:22+03:00",
  "posted": {
   "news": [
-   "6a99939af8ea",
-   "abd7080274ac",
-   "7a1e5a483c98",
-   "95bba42120f2",
-   "6e7016b8d425",
-   "3355535c343b",
-   "9321b44d435e",
-   "d0b40b496650",
-   "a2e4a965cb1a",
-   "dfffdd682faf",
-   "1359ffb66d96",
-   "5727b0d4f208",
-   "02e08ed1147f",
-   "318d7ab58f40",
-   "583f5927559a",
-   "eb8b33853aea",
    "0d2414b5f057",
    "7907c1093741",
    "5e6aa23b689d",
@@ -502,7 +486,23 @@
    "acf0fb8b2edd",
    "ac8f6fba3b77",
    "c2a77cf223f3",
-   "9d9e47ad302f"
+   "9d9e47ad302f",
+   "9a66bc13cab2",
+   "7567576df16e",
+   "238ea8d37306",
+   "1edcc48b4951",
+   "7bba53815410",
+   "6447c1452db1",
+   "6f35b8a51aaa",
+   "56caa5638af6",
+   "ae777e203311",
+   "f00fabf97796",
+   "9e254e776494",
+   "174f2968e2f2",
+   "3a9169ff976a",
+   "6349fb4ce4b5",
+   "bc2c1349ace0",
+   "8841bc549652"
   ],
   "deals": [
    "steam-246420:90",
@@ -625,7 +625,6 @@
    "epic-a9748abde1c94b66aae5250bb9fc5503:soon"
   ],
   "esports": [
-   "live:bo3-129908",
    "live:bo3-129616",
    "live:bo3-130147",
    "live:bo3-129619",
@@ -1124,7 +1123,8 @@
    "result:bo3-133047",
    "result:bo3-133036",
    "result:bo3-133039",
-   "digest:2026-11-04"
+   "digest:2026-11-04",
+   "live:bo3-130830"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -1168,8 +1168,6 @@
    "apex:2026-11-02"
   ],
   "videos": [
-   "qOIWeJIJmCM",
-   "VVz_3Eh8hDM",
    "2dUhJCbZeqc",
    "Hw3XU-C6ltM",
    "OoGxVW-_nZU",
@@ -1667,7 +1665,9 @@
    "IJCcHs78iBw",
    "T2AMv9_S_s0",
    "ZUPsRg7i4Bg",
-   "kooFPsjypak"
+   "kooFPsjypak",
+   "KSrxV1EcgzM",
+   "TKqvdLYEXsA"
   ],
   "releases": [
    "week:2026-W39",
@@ -1764,7 +1764,8 @@
   "2026-11-02T14:25+03:00",
   "2026-11-03T06:07+03:00",
   "2026-11-03T06:07+03:00",
-  "2026-11-03T14:03+03:00"
+  "2026-11-03T14:03+03:00",
+  "2026-11-04T04:43+03:00"
  ],
  "weekly": {
   "gamenight": {
