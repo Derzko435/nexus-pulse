@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T15:18:39+03:00",
+  "updatedAt": "2026-11-04T22:54:08+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -452,22 +452,6 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "1449690",
-      "name": "The Walking Dead: The Telltale Definitive Series",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/header.jpg?t=1760651835",
-      "genres": [
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "The Walking Dead: The Telltale Definitive Series содержит все четыре сезона, дополнение 400 Days и The Walking Dead: Michonne — всего 23 уникальных эпизода, которые подарят игрокам более 50 часов игры."
-    },
-    {
       "appid": "569480",
       "name": "Kingdoms and Castles",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/569480/8d81f621d1d7a7ec4ca34e21d658f89bad8b2929/header.jpg?t=1793662091",
@@ -484,6 +468,23 @@
       },
       "metacritic": null,
       "short_description": "Королевства и Замки это игра о том как вырастить королевство из маленькой деревушки до процветающего города и великолепного замка."
+    },
+    {
+      "appid": "275850",
+      "name": "No Man's Sky",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/9f1ca9e3b7d1dccb7b5af404a6739ddc1118ef32/header_alt_assets_26.jpg?t=1793196605",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": 61,
+      "short_description": "No Man's Sky является научно-фантастической игрой об исследованиях и выживании в бесконечной, процедурно генерируемой вселенной."
     },
     {
       "appid": "252490",
@@ -506,23 +507,6 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
-      "appid": "5436750",
-      "name": "101 Cats: Copenhagen",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5436750/04460e4d8c49eb3cdfbabbfb2ab2b420793ca64e/header.jpg?t=1793752954",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Присоединяйтесь к этому приключению и откройте для себя тайники 101 котенка 🐾 в воссозданном вручную пейзаже Копенгагена. 🏆 Зарабатывайте множество достижений. Сколько 😺 вы сможете найти? 🔎 Поторопитесь! ⏱️"
-    },
-    {
       "appid": "3949040",
       "name": "RV There Yet?",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949040/cae24b4ed7f4531be51f0d63f785b7d253f92dc3/header.jpg?t=1789134289",
@@ -539,24 +523,6 @@
       },
       "metacritic": null,
       "short_description": "Кооперативное приключение за рулём автодома."
-    },
-    {
-      "appid": "4635950",
-      "name": "Turbo Turkey: Feathered Frenzy!",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4635950/8bf9ac859611c13bb5063c2d34c57a620ec11753/header.jpg?t=1793728941",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Thanksgiving is coming and you're on the menu. Run, jump, and shoot your way through 16 levels of Turkeyland in this collectathon platformer inspired by Banjo Kazooie, Donkey Kong Country and Crash Bandicoot. Collect pumpkins, race time trials, and prove you're no one's dinner."
     },
     {
       "appid": "3527290",
@@ -577,25 +543,6 @@
       "short_description": "PEAK — это совместная игра о восхождении, где малейшая ошибка может привести к гибели. Играйте в одиночку или вместе с группой отчаянных бойскаутов. Сбегите с таинственного острова, для чего вам потребуется забраться на гору в его центре. Хватит ли вам сил, чтобы достичь ПИКА?"
     },
     {
-      "appid": "3053950",
-      "name": "Dungeon Rampage Remastered",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3053950/eac09ebd91ad5af0c09404e715ea7672c2404120/header_alt_assets_2.jpg?t=1793730506",
-      "genres": [
-        "Экшены",
-        "Казуальные игры",
-        "Инди",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Battle your way to victory in this 1-4 player co-op hack-n-slash dungeon crawler. Play as a dynamic cast of heroes slicing their way through dungeons, earning weapons and loot. Rampage past a gauntlet of enemies and destruction to end the evil Lord Dinglepus' reign!"
-    },
-    {
       "appid": "3241660",
       "name": "R.E.P.O.",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/62177765c05399116f0453fe1177b00ceed698c4/header_alt_assets_3.jpg?t=1793278962",
@@ -611,6 +558,59 @@
       },
       "metacritic": null,
       "short_description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
+    },
+    {
+      "appid": "5238060",
+      "name": "Lucky Shot VR",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5238060/8f264929fc196ea0d181a1108041814de27c7509/header.jpg?t=1793766643",
+      "genres": [
+        "Экшены",
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Стрелковая дофаминовая машина! Lucky Shot VR — roguelike mag-builder FPS, где вы осваиваете разное оружие, собираете безумные комбо и ломаете игру ради огромных рекордов."
+    },
+    {
+      "appid": "5418530",
+      "name": "Retro Coder 2000",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5418530/9c2035eed988c0e49c9051c20a7dcacc87c8d221/header.jpg?t=1793764512",
+      "genres": [
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "March 1991. Your brother Levan is gone, but his PC still boots and his mailbox still gets work. Fix code for clients, break into servers on a hidden network, write and share your own games on a programmable 90s PC, and follow what he left behind. Desktop or VR."
+    },
+    {
+      "appid": "4966560",
+      "name": "SUPER GAHAKU",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4966560/fa264c1429cc64a46c1ea585a363a779554355f4/header.jpg?t=1793782831",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Рисуйте прямо в 3D-пространстве! Изображайте заданные темы в 3D, смейтесь над неожиданными результатами и угадывайте, что хотели нарисовать другие! Здесь фантазия важнее навыков рисования. Игра, в которой каждый может проявить себя!"
     },
     {
       "appid": "1297900",
@@ -630,13 +630,30 @@
       "short_description": "Возвращение легенды! Исследуйте долину Рудников в потрясающем ремейке культовой ролевой игры. Путешествуйте по мрачному рукотворному открытому миру, который динамически реагирует на ваши действия. Ваши возможности безграничны!"
     },
     {
-      "appid": "4935730",
-      "name": "Fame & Fear: Dungeon Architect",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4935730/05204680d4d3eea2314c1df5c0ad8206a025f9f3/header.jpg?t=1793728811",
+      "appid": "4904200",
+      "name": "Civitas: World Simulator",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4904200/f1a5929008a4441e21157305d271b95dba5ab12c/header.jpg?t=1793794003",
+      "genres": [
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Civitas: World Simulator is a deep historical-fantasy simulation where nations will dynamically rise, fall, and evolve. In this game we model internal forces like ethnicity, culture, language and other inner political struggles. "
+    },
+    {
+      "appid": "5500000",
+      "name": "CRIME COAST",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5500000/a0946d9b097ccc6170e166ff20cc56dac3811d7d/header.jpg?t=1793761784",
       "genres": [
         "Приключенческие игры",
-        "Казуальные игры",
         "Инди",
+        "Ролевые игры",
         "Симуляторы",
         "Стратегии"
       ],
@@ -647,32 +664,15 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "A fantasy management sandbox where adventurers pay to risk their necks. Build rooms, set traps, hire monsters and run inns. Balance fame, fear and profit: someone has to survive to spread the word."
+      "short_description": "Chase dangerous money, drive your dream car, and get close to women with secrets—CRIME COAST is an illustrated narrative RPG where business, favors, and gunfire can open the way to a life on your own terms."
     },
     {
-      "appid": "3994790",
-      "name": "DJ Life Simulator: Learn to DJ for Real",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3994790/bc00b94a5aab07885ebb840008d543844b0e679c/header.jpg?t=1793742420",
+      "appid": "5367880",
+      "name": "HENTAI CONCENTRATION",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5367880/0a473d4df364fcee199caa1ddcbf3933ad91cc01/header.jpg?t=1793771442",
       "genres": [
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Научитесь сводить по-настоящему с USB DJ-контроллером или на мыши и клавиатуре. Освойте бит-мэтчинг, эквалайзер и эффекты в 26 уроках и пройдите путь от домашних вечеринок до фестивальных сцен под реакцию живой публики."
-    },
-    {
-      "appid": "3700350",
-      "name": "Kokuhaku Confessional",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3700350/a3bd77b517d4a389f886e3fb5a6d54f31181de20/header.jpg?t=1793754025",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры"
+        "Казуальные игры",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -681,24 +681,24 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Just as you’re finally ready to ask library crush Shiori out on a date, mean girls Maika, Rin, and Aoi swoop in with a twisted new game: Kokuhaku Confessional! Can you resist their charms and stay true to your beloved?"
+      "short_description": "Test your memory in a classic Concentration card game with 100 challenging levels! Match cards as the board grows larger with each level. Unlock a new CG after every level, including special video rewards every 5 levels. Collect all 80 images and 20 videos in the CG Gallery!"
     },
     {
-      "appid": "3793800",
-      "name": "Pulse Drive",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3793800/78dac9676b34ff9a66dc7aa5993e56fcf15a60b1/header.jpg?t=1793744447",
+      "appid": "5412340",
+      "name": "Orbit Reminders",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5412340/34e5d76210563ec4a67964282b8dfac67c20b094/header.jpg?t=1793791327",
       "genres": [
         "Инди",
-        "Гонки"
+        "Утилиты"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
-        "linux": false
+        "linux": true
       },
       "metacritic": null,
-      "short_description": "Tap to the beat to build speed! Pulse Drive is an arcade racer with a rhythm element. Casually enjoy a ride through original dreamlike environments, challenge yourself to complete all the tracks, or challenge your friends on the leaderboards!"
+      "short_description": "Close the window &amp; the reminder still lands. Orbit keeps your tasks, habits &amp; ideas on your own devices, encrypted, so you never forget. One purchase covers your PC, your laptop &amp; your phone, on Windows, Linux &amp; Android. No account."
     }
   ]
 }

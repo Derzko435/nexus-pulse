@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-11-04T15:18:44+03:00",
+  "updatedAt": "2026-11-04T22:54:13+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
-      "id": "steam-569480",
-      "title": "Kingdoms and Castles",
+      "id": "steam-1449690",
+      "title": "The Walking Dead: The Telltale Definitive Series",
       "store": "Steam",
-      "old": 855,
-      "neu": 290,
-      "pct": 66,
-      "url": "https://store.steampowered.com/app/569480/",
-      "steamAppId": "569480"
+      "old": 1600,
+      "neu": 160,
+      "pct": 90,
+      "url": "https://store.steampowered.com/app/1449690/",
+      "steamAppId": "1449690"
     },
     {
-      "id": "steam-275850",
-      "title": "No Man's Sky",
+      "id": "steam-1222500",
+      "title": "DOTEMU Advertising App",
       "store": "Steam",
-      "old": 1900,
-      "neu": 760,
-      "pct": 60,
-      "url": "https://store.steampowered.com/app/275850/",
-      "steamAppId": "275850"
+      "old": 880,
+      "neu": 220,
+      "pct": 75,
+      "url": "https://store.steampowered.com/app/1222500/",
+      "steamAppId": "1222500"
     },
     {
       "id": "steam-252490",
@@ -31,6 +31,16 @@
       "pct": 50,
       "url": "https://store.steampowered.com/app/252490/",
       "steamAppId": "252490"
+    },
+    {
+      "id": "steam-2615540",
+      "title": "VOID/BREAKER",
+      "store": "Steam",
+      "old": 1350,
+      "neu": 810,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/2615540/",
+      "steamAppId": "2615540"
     },
     {
       "id": "steam-3949040",
@@ -63,34 +73,24 @@
       "steamAppId": "3241660"
     },
     {
-      "id": "steam-5238060",
-      "title": "Lucky Shot VR",
+      "id": "steam-5139380",
+      "title": "Marble Stars",
       "store": "Steam",
-      "old": 590,
-      "neu": 413,
+      "old": 499,
+      "neu": 349,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/5238060/",
-      "steamAppId": "5238060"
+      "url": "https://store.steampowered.com/app/5139380/",
+      "steamAppId": "5139380"
     },
     {
-      "id": "steam-5418530",
-      "title": "Retro Coder 2000",
+      "id": "steam-3491960",
+      "title": "Lost Liminal",
       "store": "Steam",
-      "old": 445,
-      "neu": 311,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/5418530/",
-      "steamAppId": "5418530"
-    },
-    {
-      "id": "steam-4966560",
-      "title": "SUPER GAHAKU",
-      "store": "Steam",
-      "old": 240,
-      "neu": 168,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/4966560/",
-      "steamAppId": "4966560"
+      "old": 465,
+      "neu": 334,
+      "pct": 28,
+      "url": "https://store.steampowered.com/app/3491960/",
+      "steamAppId": "3491960"
     },
     {
       "id": "steam-1297900",
@@ -103,44 +103,44 @@
       "steamAppId": "1297900"
     },
     {
-      "id": "steam-4904200",
-      "title": "Civitas: World Simulator",
+      "id": "steam-4088720",
+      "title": "Pogo Together",
       "store": "Steam",
-      "old": 638,
-      "neu": 478,
+      "old": 195,
+      "neu": 146,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/4904200/",
-      "steamAppId": "4904200"
+      "url": "https://store.steampowered.com/app/4088720/",
+      "steamAppId": "4088720"
     },
     {
-      "id": "steam-5500000",
-      "title": "CRIME COAST",
+      "id": "steam-1677110",
+      "title": "Lightyear Frontier",
       "store": "Steam",
-      "old": 445,
-      "neu": 333,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5500000/",
-      "steamAppId": "5500000"
+      "old": 1299,
+      "neu": 1039,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/1677110/",
+      "steamAppId": "1677110"
     },
     {
-      "id": "steam-5367880",
-      "title": "HENTAI CONCENTRATION",
-      "store": "Steam",
-      "old": 200,
-      "neu": 150,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5367880/",
-      "steamAppId": "5367880"
-    },
-    {
-      "id": "steam-5412340",
-      "title": "Orbit Reminders",
+      "id": "steam-4555040",
+      "title": "Sushiamo",
       "store": "Steam",
       "old": 660,
       "neu": 528,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/5412340/",
-      "steamAppId": "5412340"
+      "url": "https://store.steampowered.com/app/4555040/",
+      "steamAppId": "4555040"
+    },
+    {
+      "id": "steam-5046850",
+      "title": "Stellar Nursery",
+      "store": "Steam",
+      "old": 465,
+      "neu": 372,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/5046850/",
+      "steamAppId": "5046850"
     }
   ]
 }
