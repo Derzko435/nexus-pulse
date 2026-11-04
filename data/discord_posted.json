@@ -1,19 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-11-04T14:07:12+03:00",
+ "updatedAt": "2026-11-04T22:54:41+03:00",
  "posted": {
   "news": [
-   "1c894b0dbf96",
-   "beacc37aea0a",
-   "c0382fd07457",
-   "24e22a846f05",
-   "2434c4732bfd",
-   "233f3cdb4db6",
-   "f11fe5d61b8a",
-   "d86b971e51ce",
-   "957e38615c45",
-   "1d1c90071981",
-   "e59d4a429134",
    "a41cb0a94181",
    "9d726c91831c",
    "292b002ca7c7",
@@ -502,7 +491,18 @@
    "18294246d7b4",
    "ed6ceeaa3878",
    "1e6b8dfdcffa",
-   "ce368fd34da8"
+   "ce368fd34da8",
+   "6750be9f6e6a",
+   "744eca80644e",
+   "3781fa137bcc",
+   "a9e8fe7c1b59",
+   "d26126bf17a8",
+   "4b4d5a548fe1",
+   "391d6392b2eb",
+   "2e9bf8e70311",
+   "7fcec38115d7",
+   "99d93e820bd1",
+   "722dea96fdf7"
   ],
   "deals": [
    "steam-246420:90",
@@ -601,7 +601,8 @@
    "steam-1967630:65",
    "steam-1167630:50",
    "steam-1601570:55",
-   "steam-569480:66"
+   "steam-569480:66",
+   "steam-1222500:75"
   ],
   "freebies": [
    "epic-7ae00c3e89174012b175cc73b4737723:soon",
@@ -625,7 +626,6 @@
    "epic-a9748abde1c94b66aae5250bb9fc5503:soon"
   ],
   "esports": [
-   "live:bo3-130687",
    "result:bo3-130688",
    "result:bo3-130674",
    "result:bo3-130675",
@@ -1124,7 +1124,8 @@
    "live:bo3-133042",
    "result:bo3-130830",
    "result:bo3-133049",
-   "result:bo3-133040"
+   "result:bo3-133040",
+   "result:bo3-133048"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -1169,8 +1170,6 @@
    "lol:2026-11-03"
   ],
   "videos": [
-   "290YrqdAvKI",
-   "fLPTnpYWugs",
    "K3WzZ5GIC0k",
    "jH063Tze3Ng",
    "w9VK9HzBPVM",
@@ -1668,7 +1667,9 @@
    "4_DUxJOktxY",
    "9w8_8Rbru7M",
    "Xbjo_TEfIXw",
-   "JsXLSRqm8no"
+   "JsXLSRqm8no",
+   "g0ipZ6UoLac",
+   "_xMM7L2XoMc"
   ],
   "releases": [
    "week:2026-W39",
@@ -1792,6 +1793,7 @@
  "dealPosts": [
   "2026-11-03T02:39+03:00",
   "2026-11-03T10:00+03:00",
-  "2026-11-04T00:52+03:00"
+  "2026-11-04T00:52+03:00",
+  "2026-11-04T22:54+03:00"
  ]
 }
