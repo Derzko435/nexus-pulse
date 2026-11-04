@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T05:27:49+03:00",
+  "updatedAt": "2026-11-04T15:18:39+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -452,6 +452,22 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
+      "appid": "1449690",
+      "name": "The Walking Dead: The Telltale Definitive Series",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/header.jpg?t=1760651835",
+      "genres": [
+        "Приключенческие игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "The Walking Dead: The Telltale Definitive Series содержит все четыре сезона, дополнение 400 Days и The Walking Dead: Michonne — всего 23 уникальных эпизода, которые подарят игрокам более 50 часов игры."
+    },
+    {
       "appid": "569480",
       "name": "Kingdoms and Castles",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/569480/8d81f621d1d7a7ec4ca34e21d658f89bad8b2929/header.jpg?t=1793662091",
@@ -490,13 +506,12 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
-      "appid": "4773050",
-      "name": "Bullet Rift",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4773050/d7f5775a43533480cc0ec4658b2863cbda468435/header.jpg?t=1793728766",
+      "appid": "5436750",
+      "name": "101 Cats: Copenhagen",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5436750/04460e4d8c49eb3cdfbabbfb2ab2b420793ca64e/header.jpg?t=1793752954",
       "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Ролевые игры"
+        "Казуальные игры",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -505,7 +520,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Bullet Rift is a top-down shooter ARPG packed with loot, builds, dungeons, rifts, crafting, bosses, and deep character progression. Blast through hordes, chase legendary gear, perfect your build, and push deeper into an endgame built for players who love grinding for power."
+      "short_description": "Присоединяйтесь к этому приключению и откройте для себя тайники 101 котенка 🐾 в воссозданном вручную пейзаже Копенгагена. 🏆 Зарабатывайте множество достижений. Сколько 😺 вы сможете найти? 🔎 Поторопитесь! ⏱️"
     },
     {
       "appid": "3949040",
@@ -598,24 +613,6 @@
       "short_description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
     },
     {
-      "appid": "648800",
-      "name": "Raft",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg?t=1727184011",
-      "genres": [
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Raft™ throws you and your friends into an epic oceanic adventure! Alone or together, players battle to survive a perilous voyage across a vast sea! Gather debris, scavenge reefs and build your own floating home, but be wary of the man-eating sharks!"
-    },
-    {
       "appid": "1297900",
       "name": "Gothic 1 Remake",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/6bc8c205a107e552f14631524f25cdf88743515a/header.jpg?t=1787564876",
@@ -653,52 +650,12 @@
       "short_description": "A fantasy management sandbox where adventurers pay to risk their necks. Build rooms, set traps, hire monsters and run inns. Balance fame, fear and profit: someone has to survive to spread the word."
     },
     {
-      "appid": "5243610",
-      "name": "BugPot",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5243610/afc1f614c35622dd4033aa453435a7bc88a3c9b6/header.jpg?t=1793758507",
+      "appid": "3994790",
+      "name": "DJ Life Simulator: Learn to DJ for Real",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3994790/bc00b94a5aab07885ebb840008d543844b0e679c/header.jpg?t=1793742420",
       "genres": [
-        "Экшены",
-        "Казуальные игры",
         "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "В казуальном рогалике BugPot каждое вращение меняет ход боя. Сочетайте оружие и талисманы, улучшайте оружие, создавайте мощные комбинации и меняйте стратегию в сражениях с причудливыми жуками."
-    },
-    {
-      "appid": "5274720",
-      "name": "Hearsay",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5274720/fb0f1fbd4e9f0b6b942773e7c35a9e98de755e0e/header.jpg?t=1793728893",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "An archive of 164 recordings, from hundred-year-old records to country, funk, jazz, horror and video game music, cut into 724 unlabeled tapes. No titles, no search. Ten cabinets, a tape deck and your ears. Fill each set in order and find out if you heard it right. Free demo available now!"
-    },
-    {
-      "appid": "5029430",
-      "name": "Empty House",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5029430/7c5bcd5b9e1477012391dcece7961631f980f6ad/header.jpg?t=1793739862",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Многопользовательские игры",
-        "Стратегии"
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
@@ -707,7 +664,41 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Online co-op survival horror for up to 4 players. Mimic zombies and walk boldly through the horde. Search abandoned houses for vaccines and bring them back to the base. Stay alert: different zombies threaten your journey. Gear up, work together, and meet your quota."
+      "short_description": "Научитесь сводить по-настоящему с USB DJ-контроллером или на мыши и клавиатуре. Освойте бит-мэтчинг, эквалайзер и эффекты в 26 уроках и пройдите путь от домашних вечеринок до фестивальных сцен под реакцию живой публики."
+    },
+    {
+      "appid": "3700350",
+      "name": "Kokuhaku Confessional",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3700350/a3bd77b517d4a389f886e3fb5a6d54f31181de20/header.jpg?t=1793754025",
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Just as you’re finally ready to ask library crush Shiori out on a date, mean girls Maika, Rin, and Aoi swoop in with a twisted new game: Kokuhaku Confessional! Can you resist their charms and stay true to your beloved?"
+    },
+    {
+      "appid": "3793800",
+      "name": "Pulse Drive",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3793800/78dac9676b34ff9a66dc7aa5993e56fcf15a60b1/header.jpg?t=1793744447",
+      "genres": [
+        "Инди",
+        "Гонки"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Tap to the beat to build speed! Pulse Drive is an arcade racer with a rhythm element. Casually enjoy a ride through original dreamlike environments, challenge yourself to complete all the tracks, or challenge your friends on the leaderboards!"
     }
   ]
 }
