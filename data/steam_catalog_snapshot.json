@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T00:52:24+03:00",
+  "updatedAt": "2026-11-04T05:27:49+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -452,40 +452,22 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "1967630",
-      "name": "Survival: Fountain of Youth",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1967630/4bc4b959f540c1e13d7ed07f009956520380b389/header_alt_assets_9_russian.jpg?t=1793634882",
+      "appid": "569480",
+      "name": "Kingdoms and Castles",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/569480/8d81f621d1d7a7ec4ca34e21d658f89bad8b2929/header.jpg?t=1793662091",
       "genres": [
-        "Экшены",
-        "Приключенческие игры",
         "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Survival: Fountain of Youth — суровое приключение в открытом мире Карибов для 1–4 игроков. Выживайте в одиночку или в кооперативев роли моряка XVI века: создавайте снаряжение и стройте убежище, попутно раскрывая тайны древней цивилизации и собственной судьбы."
-    },
-    {
-      "appid": "275850",
-      "name": "No Man's Sky",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/9f1ca9e3b7d1dccb7b5af404a6739ddc1118ef32/header_alt_assets_26.jpg?t=1793196605",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры"
+        "Симуляторы",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": true,
-        "linux": false
+        "linux": true
       },
-      "metacritic": 61,
-      "short_description": "No Man's Sky является научно-фантастической игрой об исследованиях и выживании в бесконечной, процедурно генерируемой вселенной."
+      "metacritic": null,
+      "short_description": "Королевства и Замки это игра о том как вырастить королевство из маленькой деревушки до процветающего города и великолепного замка."
     },
     {
       "appid": "252490",
@@ -508,14 +490,13 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
-      "appid": "1167630",
-      "name": "Teardown",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1167630/38bac946654a2cc775607518fb5c8e4e0a0f9a87/header.jpg?t=1791807602",
+      "appid": "4773050",
+      "name": "Bullet Rift",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4773050/d7f5775a43533480cc0ec4658b2863cbda468435/header.jpg?t=1793728766",
       "genres": [
         "Экшены",
-        "Инди",
-        "Симуляторы",
-        "Стратегии"
+        "Приключенческие игры",
+        "Ролевые игры"
       ],
       "is_free": false,
       "platforms": {
@@ -523,8 +504,8 @@
         "mac": false,
         "linux": false
       },
-      "metacritic": 80,
-      "short_description": "Совершите идеальное ограбление в воксельном мире, не отказывая себе в разрушениях. Сносите стены, используя машины, или прокладывайте себе путь взрывчаткой. Меняйте окружающий мир под себя и дайте волю фантазии. Играйте в одиночку или в многопользовательском режиме, поддерживающем до 12 игроков."
+      "metacritic": null,
+      "short_description": "Bullet Rift is a top-down shooter ARPG packed with loot, builds, dungeons, rifts, crafting, bosses, and deep character progression. Blast through hordes, chase legendary gear, perfect your build, and push deeper into an endgame built for players who love grinding for power."
     },
     {
       "appid": "3949040",
@@ -545,13 +526,13 @@
       "short_description": "Кооперативное приключение за рулём автодома."
     },
     {
-      "appid": "5401770",
-      "name": "Tinker to the Moon",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5401770/cef0d7d366a0d2775a347b1345786c6b9e5581ad/header_russian.jpg?t=1793718012",
+      "appid": "4635950",
+      "name": "Turbo Turkey: Feathered Frenzy!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4635950/8bf9ac859611c13bb5063c2d34c57a620ec11753/header.jpg?t=1793728941",
       "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -560,7 +541,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Начните со стула на пружинах. Зарабатывайте деньги, ставьте новые детали и летите выше. Превратите своё необычное изобретение в воздушный шар, винтовой самолёт, а затем в ракету. Стройте, летайте, улучшайте. Цель — Луна."
+      "short_description": "Thanksgiving is coming and you're on the menu. Run, jump, and shoot your way through 16 levels of Turkeyland in this collectathon platformer inspired by Banjo Kazooie, Donkey Kong Country and Crash Bandicoot. Collect pumpkins, race time trials, and prove you're no one's dinner."
     },
     {
       "appid": "3527290",
@@ -581,13 +562,14 @@
       "short_description": "PEAK — это совместная игра о восхождении, где малейшая ошибка может привести к гибели. Играйте в одиночку или вместе с группой отчаянных бойскаутов. Сбегите с таинственного острова, для чего вам потребуется забраться на гору в его центре. Хватит ли вам сил, чтобы достичь ПИКА?"
     },
     {
-      "appid": "4982380",
-      "name": "STUFFED: Two Foot Hero",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4982380/d0c2eb667e83117d53d27bec9dfe9d04755db229/header.jpg?t=1793721676",
+      "appid": "3053950",
+      "name": "Dungeon Rampage Remastered",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3053950/eac09ebd91ad5af0c09404e715ea7672c2404120/header_alt_assets_2.jpg?t=1793730506",
       "genres": [
         "Экшены",
+        "Казуальные игры",
         "Инди",
-        "Стратегии"
+        "Ролевые игры"
       ],
       "is_free": false,
       "platforms": {
@@ -596,7 +578,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Become a two-foot-tall teddy bear in this VR wave shooter where you wield homemade weapons, build defences, and protect a little girl from her nightmares. Play solo or online in up to 4 player co-op."
+      "short_description": "Battle your way to victory in this 1-4 player co-op hack-n-slash dungeon crawler. Play as a dynamic cast of heroes slicing their way through dungeons, earning weapons and loot. Rampage past a gauntlet of enemies and destruction to end the evil Lord Dinglepus' reign!"
     },
     {
       "appid": "3241660",
@@ -634,11 +616,12 @@
       "short_description": "Raft™ throws you and your friends into an epic oceanic adventure! Alone or together, players battle to survive a perilous voyage across a vast sea! Gather debris, scavenge reefs and build your own floating home, but be wary of the man-eating sharks!"
     },
     {
-      "appid": "5400350",
-      "name": "Debounce: Double Click & Key Chatter Fix",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5400350/f33d6fef3ab8a404f49c2dc80067567ce70eaf7c/header.jpg?t=1793714852",
+      "appid": "1297900",
+      "name": "Gothic 1 Remake",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/6bc8c205a107e552f14631524f25cdf88743515a/header.jpg?t=1787564876",
       "genres": [
-        "Утилиты"
+        "Экшены",
+        "Ролевые игры"
       ],
       "is_free": false,
       "platforms": {
@@ -647,17 +630,18 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Debounce фильтрует повторяющиеся клики мыши и нажатия клавиш, предотвращая нежелательные дублирующие действия. Программа отслеживает работу мыши и клавиатуры, помогая выявить неисправные клавиши или случаи их самопроизвольного многократного срабатывания."
+      "short_description": "Возвращение легенды! Исследуйте долину Рудников в потрясающем ремейке культовой ролевой игры. Путешествуйте по мрачному рукотворному открытому миру, который динамически реагирует на ваши действия. Ваши возможности безграничны!"
     },
     {
-      "appid": "4410360",
-      "name": "HOLD MY WHEEL",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4410360/57ee8eba4058a019d1dd2346d67c87b9f7ac9e5e/header.jpg?t=1793734052",
+      "appid": "4935730",
+      "name": "Fame & Fear: Dungeon Architect",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4935730/05204680d4d3eea2314c1df5c0ad8206a025f9f3/header.jpg?t=1793728811",
       "genres": [
-        "Экшены",
         "Приключенческие игры",
         "Казуальные игры",
-        "Инди"
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
@@ -666,31 +650,14 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Вам нужно навестить бабушку — вместе с непутёвыми братьями и уже случившимся апокалипсисом в придачу. Держите автобус на ходу и старайтесь не съесть друг друга, когда голод даст о себе знать."
+      "short_description": "A fantasy management sandbox where adventurers pay to risk their necks. Build rooms, set traps, hire monsters and run inns. Balance fame, fear and profit: someone has to survive to spread the word."
     },
     {
-      "appid": "3253530",
-      "name": "PIT OF GOBLIN",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3253530/7ed466827327d7e7bc6d90d5d1e2605e67f3bd0f/header_alt_assets_1.jpg?t=1793723264",
+      "appid": "5243610",
+      "name": "BugPot",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5243610/afc1f614c35622dd4033aa453435a7bc88a3c9b6/header.jpg?t=1793758507",
       "genres": [
         "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "In this online horror co-op, you play as a scrappy goblin, scavenging dungeons, dodging traps, and fleeing monsters to feed the Goblin King-Queen. Team up with goblin pals, or go rogue, as you dive deep and cause chaos! Fail to feed them, and you might be the next meal!"
-    },
-    {
-      "appid": "4673980",
-      "name": "Harvestide",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4673980/9ec4c0c9e947e7c833efb465d7d0f46f8faf4eb0/header.jpg?t=1793720769",
-      "genres": [
         "Казуальные игры",
         "Инди",
         "Стратегии"
@@ -702,7 +669,45 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "A unique Roguelike farming game blending deckbuilding with farm management! Farm with cards, survive the Wither Moons. Build your deck, tend your farm, and reap the harvest—or starve."
+      "short_description": "В казуальном рогалике BugPot каждое вращение меняет ход боя. Сочетайте оружие и талисманы, улучшайте оружие, создавайте мощные комбинации и меняйте стратегию в сражениях с причудливыми жуками."
+    },
+    {
+      "appid": "5274720",
+      "name": "Hearsay",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5274720/fb0f1fbd4e9f0b6b942773e7c35a9e98de755e0e/header.jpg?t=1793728893",
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "An archive of 164 recordings, from hundred-year-old records to country, funk, jazz, horror and video game music, cut into 724 unlabeled tapes. No titles, no search. Ten cabinets, a tape deck and your ears. Fill each set in order and find out if you heard it right. Free demo available now!"
+    },
+    {
+      "appid": "5029430",
+      "name": "Empty House",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5029430/7c5bcd5b9e1477012391dcece7961631f980f6ad/header.jpg?t=1793739862",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Многопользовательские игры",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Online co-op survival horror for up to 4 players. Mimic zombies and walk boldly through the horde. Search abandoned houses for vaccines and bring them back to the base. Stay alert: different zombies threaten your journey. Gear up, work together, and meet your quota."
     }
   ]
 }

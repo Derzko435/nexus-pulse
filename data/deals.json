@@ -1,7 +1,17 @@
 {
-  "updatedAt": "2026-11-04T00:52:29+03:00",
+  "updatedAt": "2026-11-04T05:27:55+03:00",
   "source": "steam-specials-ru",
   "deals": [
+    {
+      "id": "steam-1449690",
+      "title": "The Walking Dead: The Telltale Definitive Series",
+      "store": "Steam",
+      "old": 1600,
+      "neu": 160,
+      "pct": 90,
+      "url": "https://store.steampowered.com/app/1449690/",
+      "steamAppId": "1449690"
+    },
     {
       "id": "steam-569480",
       "title": "Kingdoms and Castles",
@@ -23,14 +33,14 @@
       "steamAppId": "252490"
     },
     {
-      "id": "steam-4773050",
-      "title": "Bullet Rift",
+      "id": "steam-5436750",
+      "title": "101 Cats: Copenhagen",
       "store": "Steam",
-      "old": 505,
-      "neu": 303,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/4773050/",
-      "steamAppId": "4773050"
+      "old": 64,
+      "neu": 38,
+      "pct": 41,
+      "url": "https://store.steampowered.com/app/5436750/",
+      "steamAppId": "5436750"
     },
     {
       "id": "steam-3949040",
@@ -83,16 +93,6 @@
       "steamAppId": "3241660"
     },
     {
-      "id": "steam-648800",
-      "title": "Raft",
-      "store": "Steam",
-      "old": 855,
-      "neu": 572,
-      "pct": 33,
-      "url": "https://store.steampowered.com/app/648800/",
-      "steamAppId": "648800"
-    },
-    {
       "id": "steam-1297900",
       "title": "Gothic 1 Remake",
       "store": "Steam",
@@ -113,34 +113,34 @@
       "steamAppId": "4935730"
     },
     {
-      "id": "steam-5243610",
-      "title": "BugPot",
+      "id": "steam-3994790",
+      "title": "DJ Life Simulator: Learn to DJ for Real",
       "store": "Steam",
-      "old": 105,
-      "neu": 80,
-      "pct": 24,
-      "url": "https://store.steampowered.com/app/5243610/",
-      "steamAppId": "5243610"
+      "old": 855,
+      "neu": 684,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/3994790/",
+      "steamAppId": "3994790"
     },
     {
-      "id": "steam-5274720",
-      "title": "Hearsay",
+      "id": "steam-3700350",
+      "title": "Kokuhaku Confessional",
       "store": "Steam",
-      "old": 420,
-      "neu": 336,
+      "old": 690,
+      "neu": 552,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/5274720/",
-      "steamAppId": "5274720"
+      "url": "https://store.steampowered.com/app/3700350/",
+      "steamAppId": "3700350"
     },
     {
-      "id": "steam-5029430",
-      "title": "Empty House",
+      "id": "steam-3793800",
+      "title": "Pulse Drive",
       "store": "Steam",
-      "old": 360,
-      "neu": 288,
+      "old": 403,
+      "neu": 322,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/5029430/",
-      "steamAppId": "5029430"
+      "url": "https://store.steampowered.com/app/3793800/",
+      "steamAppId": "3793800"
     }
   ]
 }
