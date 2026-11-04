@@ -1,57 +1,6 @@
 {
- "updatedAt": "2026-11-03T14:00:02+03:00",
+ "updatedAt": "2026-11-04T14:03:11+03:00",
  "items": [
-  {
-   "appid": 3218230,
-   "title": "ArcheAge Chronicles",
-   "date": "2026-11-03",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218230/header.jpg?t=1793259958",
-   "desc": "Откройте для себя Аврорию — бескрайний яркий мир, где хватает захватывающих историй и приключений. Игровой опыт ArcheAge Chronicles покорит и новичков в этом атмосферном мире, и опытных искателей приключений.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Многопользовательские игры"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "XLGAMES",
-   "price": "1500 руб.",
-   "url": "https://store.steampowered.com/app/3218230/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/3218230/"
-   }
-  },
-  {
-   "appid": 2320980,
-   "title": "Loftia",
-   "date": "2026-11-03",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2320980/header.jpg?t=1793685954",
-   "desc": "Вас приветствует Loftia — уютная многопользовательская игра, в которой вам предстоит построить экологически надёжное будущее. Находите друзей, возделывайте землю, мастерите предметы, исследуйте острова — и вместе сделайте этот мир лучше!",
-   "genres": [
-    "Приключенческие игры",
-    "Казуальные игры",
-    "Инди"
-   ],
-   "platforms": [
-    "PC",
-    "Mac"
-   ],
-   "stores": [
-    "Steam",
-    "Epic"
-   ],
-   "developer": "Qloud Games",
-   "price": "",
-   "url": "https://store.steampowered.com/app/2320980/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/2320980/",
-    "epic": "https://store.epicgames.com/ru/p/loftia-2b7234"
-   }
-  },
   {
    "appid": 3581230,
    "title": "Cozy Game Restoration",
@@ -243,7 +192,7 @@
    "appid": 4530370,
    "title": "Football Manager 27",
    "date": "2026-11-10",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/32b41d18ffaac3d2e1dc1a9c3915538db0ba3fca/header.jpg?t=1793296899",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/32b41d18ffaac3d2e1dc1a9c3915538db0ba3fca/header.jpg?t=1793774487",
    "desc": "Выберите клуб. Соберите команду. Разработайте тактику. Только вы творите собственное будущее. FM27 превращает футбольные мечты в реальность. Выбирать вам.",
    "genres": [
     "Спортивный менеджер"
@@ -389,6 +338,30 @@
    "source": "wiki"
   },
   {
+   "appid": 4171850,
+   "title": "Trees Hate You",
+   "date": "2026-11-16",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4171850/4550c09c2fa41435b7b695f31460bea297d4ce15/header.jpg?t=1793641997",
+   "desc": "Прогуляйтесь по самому худшему лесу с самыми отвратительными деревьями. Не доверяйте им. Деревья вас обманут. Они вас обидят. Сделают вам больно. Вот бы топор найти...",
+   "genres": [
+    "Приключенческие игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC",
+    "Linux"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Tykenn",
+   "price": "",
+   "url": "https://store.steampowered.com/app/4171850/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4171850/"
+   }
+  },
+  {
    "appid": 4707700,
    "title": "Gold Mining Simulator - Definitive Edition",
    "date": "2026-11-17",
@@ -432,6 +405,29 @@
     "wiki": "https://ru.wikipedia.org/wiki/Grand_Theft_Auto_VI"
    },
    "source": "wiki"
+  },
+  {
+   "appid": 4523120,
+   "title": "Volvy’s Adventure: Reslimed",
+   "date": "2026-11-19",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4523120/bd01ad0f41f47272b6f1459de015d2494b24a422/header.jpg?t=1793281784",
+   "desc": "Volvy's Adventure: Reslimed — это захватывающий ремастер оригинального ремейка неизданного экшен-платформера, в котором главную роль играет самый известный талисман видеоигр всех времен.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "doinksoft",
+   "price": "180 руб.",
+   "url": "https://store.steampowered.com/app/4523120/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4523120/"
+   }
   },
   {
    "appid": "x-gothic-3-classic",
@@ -713,30 +709,6 @@
    "source": "wiki"
   },
   {
-   "appid": 2153760,
-   "title": "Stronghold 4",
-   "date": "2026-12-07",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2153760/954165955d8a2aa9827444bb1532cecea5b9c2dd/header_alt_assets_2.jpg?t=1792773563",
-   "desc": "Нужно дерево! Вернитесь к истокам Stronghold в этом сюжетном приквеле легендарного симулятора замка. Погрузитесь в кинематографичную кампанию, отточите искусство осады благодаря новым механикам режима битвы и создайте собственный замок с помощью широкого выбора построек и декоративных элементов.",
-   "genres": [
-    "Симуляторы",
-    "Стратегии",
-    "Ранний доступ"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Firefly Studios",
-   "price": "",
-   "url": "https://store.steampowered.com/app/2153760/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/2153760/"
-   }
-  },
-  {
    "appid": 4150720,
    "title": "PUKEY GODDESS SHOT TRICK",
    "date": "2026-12-08",
@@ -808,12 +780,12 @@
   },
   {
    "appid": 4452700,
-   "title": "STAGE TOUR",
+   "title": "Stage Tour",
    "date": "2026-12-10",
    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4452700/7074777401ca32c928e7702567ee08c282ff7393/header.jpg?t=1792510556",
-   "desc": "Создайте свою группу, выходите на сцену и отправляйтесь в турне в Stage Tour, новой эволюции музыкальных ритм-игр. Слушайте более 90 официально лицензированных треков, разблокируйте более 180 аутентичных гитар Gibson®, Epiphone® и Kramer® и испытайте пять игровых режимов, включая совершенно новый режим рогалика Tour.",
+   "desc": "Соберите группу, зажгите на сцене и отправьтесь в турне в Stage Tour — ритм-игре новой эры. Вас ждут свыше 90 лицензированных треков, более 180 настоящих гитар Gibson®, Epiphone® и Kramer® и новые стили игры. В комплекте новый рогалик-режим Tour Mode!",
    "genres": [
-    "Экшены"
+    "Ритм-игра"
    ],
    "platforms": [
     "PC",
@@ -830,8 +802,10 @@
    "url": "https://store.steampowered.com/app/4452700/",
    "links": {
     "steam": "https://store.steampowered.com/app/4452700/",
-    "epic": "https://store.epicgames.com/ru/p/stagetour-ac5b2f"
-   }
+    "epic": "https://store.epicgames.com/ru/p/stagetour-ac5b2f",
+    "wiki": "https://en.wikipedia.org/wiki/Stage_Tour"
+   },
+   "source": "wiki"
   },
   {
    "appid": 2295170,
@@ -1058,6 +1032,31 @@
    "source": "wiki"
   },
   {
+   "appid": 2975260,
+   "title": "PRISON OF HUSKS",
+   "date": "2027-01-27",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2975260/a2d7147668ccf811747a0d49e31127144c3e4b20/header.jpg?t=1791954386",
+   "desc": "Пробудитесь в теле куклы и отправляйтесь на поиски своей возлюбленной. В этой ностальгической игре, созданной по канонам серии Souls, вам предстоит исследовать нарисованный загробный мир: вас ждут богатые событиями уровни — связанные друг с другом, полные секретов и коротких путей.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC",
+    "Linux"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Glass Head Dolls",
+   "price": "",
+   "url": "https://store.steampowered.com/app/2975260/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/2975260/"
+   }
+  },
+  {
    "appid": 2155070,
    "title": "Fate/Extra Record",
    "date": "2027-01-28",
@@ -1108,7 +1107,7 @@
    "appid": 1853440,
    "title": "Tropico 7",
    "date": "2027-01-28",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1853440/cfa41f10c2e878497d77e100f9be08224eb686b9/header.jpg?t=1792422518",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1853440/cfa41f10c2e878497d77e100f9be08224eb686b9/header.jpg?t=1793722109",
    "desc": "Разбогатей или сдохни! Tropico 7 снова предлагает попробовать себя в роли лидера островного государства. Эль Президенте ведет нацию (а заодно и свой счет в швейцарском банке) сквозь эпохи к процветанию и для этого готов буквально сдвинуть горы!",
    "genres": [
     "Строительство и менеджмент",
@@ -1343,6 +1342,28 @@
     "wiki": "https://ru.wikipedia.org/wiki/007_First_Light"
    },
    "source": "wiki"
+  },
+  {
+   "appid": 3295000,
+   "title": "ReVamp",
+   "date": "2027-03-25",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3295000/3d46949c47d132561d825f992738f357826e6e3c/header.jpg?t=1792153706",
+   "desc": "В этой роглайт-стратегии правь как Дракула и защищай свой замок от вторжения. Проектируй и строй лабиринты смерти, подними армию чудовищ и преврати свою крепость в поле вечной битвы. Битвы из-за любви, которую ты не смог спасти.",
+   "genres": [
+    "Стратегии"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Digital Sun",
+   "price": "",
+   "url": "https://store.steampowered.com/app/3295000/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/3295000/"
+   }
   },
   {
    "appid": "x-super-battle-golf",
