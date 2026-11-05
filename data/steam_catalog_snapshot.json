@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T22:54:08+03:00",
+  "updatedAt": "2026-11-05T03:57:17+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -452,13 +452,28 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "569480",
-      "name": "Kingdoms and Castles",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/569480/8d81f621d1d7a7ec4ca34e21d658f89bad8b2929/header.jpg?t=1793662091",
+      "appid": "1449690",
+      "name": "The Walking Dead: The Telltale Definitive Series",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/header.jpg?t=1760651835",
       "genres": [
-        "Инди",
-        "Симуляторы",
-        "Стратегии"
+        "Приключенческие игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "The Walking Dead: The Telltale Definitive Series содержит все четыре сезона, дополнение 400 Days и The Walking Dead: Michonne — всего 23 уникальных эпизода, которые подарят игрокам более 50 часов игры."
+    },
+    {
+      "appid": "1222500",
+      "name": "Streets of Rage 4",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/985890/header.jpg?t=1763718423",
+      "genres": [
+        "Экшены",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -466,25 +481,8 @@
         "mac": true,
         "linux": true
       },
-      "metacritic": null,
-      "short_description": "Королевства и Замки это игра о том как вырастить королевство из маленькой деревушки до процветающего города и великолепного замка."
-    },
-    {
-      "appid": "275850",
-      "name": "No Man's Sky",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/9f1ca9e3b7d1dccb7b5af404a6739ddc1118ef32/header_alt_assets_26.jpg?t=1793196605",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": 61,
-      "short_description": "No Man's Sky является научно-фантастической игрой об исследованиях и выживании в бесконечной, процедурно генерируемой вселенной."
+      "metacritic": 84,
+      "short_description": "Amongst the best beat’em up series ever created, jammin’ ‘90s beats and over the top street fighting, the iconic series Streets of Rage comes back with a masterful tribute to and revitalization of the classic action fans adore."
     },
     {
       "appid": "252490",
@@ -505,6 +503,24 @@
       },
       "metacritic": 69,
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
+    },
+    {
+      "appid": "2615540",
+      "name": "VOID/BREAKER",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2615540/4f3789458cfd9c3375c2926620b19640135f7c4a/header_alt_assets_8.jpg?t=1793821113",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Адреналиновый шутер-roguelite от первого лица 🔴 Сражайтесь с машинами, которыми управляет ИИ. Разорвите бесконечный цикл. Создавайте бесконечные варианты оружия благодаря модам. Создавайте смертоносные синергии. Уничтожайте всё вокруг. /СЛОМАЙТЕ СИСТЕМУ /СЛОМАЙТЕ ТЮРЬМУ"
     },
     {
       "appid": "3949040",
@@ -560,47 +576,31 @@
       "short_description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
     },
     {
-      "appid": "5238060",
-      "name": "Lucky Shot VR",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5238060/8f264929fc196ea0d181a1108041814de27c7509/header.jpg?t=1793766643",
+      "appid": "5139380",
+      "name": "Marble Stars",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5139380/c22ea60fdd65ea2e168b044ddb335d558faf9241/header.jpg?t=1793815713",
       "genres": [
         "Экшены",
-        "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Стрелковая дофаминовая машина! Lucky Shot VR — roguelike mag-builder FPS, где вы осваиваете разное оружие, собираете безумные комбо и ломаете игру ради огромных рекордов."
-    },
-    {
-      "appid": "5418530",
-      "name": "Retro Coder 2000",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5418530/9c2035eed988c0e49c9051c20a7dcacc87c8d221/header.jpg?t=1793764512",
-      "genres": [
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "March 1991. Your brother Levan is gone, but his PC still boots and his mailbox still gets work. Fix code for clients, break into servers on a hidden network, write and share your own games on a programmable 90s PC, and follow what he left behind. Desktop or VR."
-    },
-    {
-      "appid": "4966560",
-      "name": "SUPER GAHAKU",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4966560/fa264c1429cc64a46c1ea585a363a779554355f4/header.jpg?t=1793782831",
-      "genres": [
         "Казуальные игры",
+        "Инди",
+        "Гонки"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Marble Stars — сложный платформер, созданный одним разработчиком. Исследуйте 55 уровней, парящих над океаном, освойте каждую трассу, соревнуйтесь в мировых таблицах лидеров и зарабатывайте медали по мере прохождения."
+    },
+    {
+      "appid": "3491960",
+      "name": " Lost Liminal",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3491960/3ed5ca5e5f6d6a2aa229928fa928e0e0adfe0a2c/header.jpg?t=1793815406",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
         "Инди"
       ],
       "is_free": false,
@@ -610,7 +610,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Рисуйте прямо в 3D-пространстве! Изображайте заданные темы в 3D, смейтесь над неожиданными результатами и угадывайте, что хотели нарисовать другие! Здесь фантазия важнее навыков рисования. Игра, в которой каждый может проявить себя!"
+      "short_description": "&quot;Descend into liminal space—evade lurking horrors, solve cryptic puzzles, and use your camera to preserve the memories you leave behind in this eerie world. Switch to night vision to uncover hidden clues and trace what's amiss. This first-person indie horror will keep you guessing at every turn.&quot;"
     },
     {
       "appid": "1297900",
@@ -630,46 +630,9 @@
       "short_description": "Возвращение легенды! Исследуйте долину Рудников в потрясающем ремейке культовой ролевой игры. Путешествуйте по мрачному рукотворному открытому миру, который динамически реагирует на ваши действия. Ваши возможности безграничны!"
     },
     {
-      "appid": "4904200",
-      "name": "Civitas: World Simulator",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4904200/f1a5929008a4441e21157305d271b95dba5ab12c/header.jpg?t=1793794003",
-      "genres": [
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Civitas: World Simulator is a deep historical-fantasy simulation where nations will dynamically rise, fall, and evolve. In this game we model internal forces like ethnicity, culture, language and other inner political struggles. "
-    },
-    {
-      "appid": "5500000",
-      "name": "CRIME COAST",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5500000/a0946d9b097ccc6170e166ff20cc56dac3811d7d/header.jpg?t=1793761784",
-      "genres": [
-        "Приключенческие игры",
-        "Инди",
-        "Ролевые игры",
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Chase dangerous money, drive your dream car, and get close to women with secrets—CRIME COAST is an illustrated narrative RPG where business, favors, and gunfire can open the way to a life on your own terms."
-    },
-    {
-      "appid": "5367880",
-      "name": "HENTAI CONCENTRATION",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5367880/0a473d4df364fcee199caa1ddcbf3933ad91cc01/header.jpg?t=1793771442",
+      "appid": "4088720",
+      "name": "Pogo Together",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088720/d859b6a38b219af4810902e5f730176ecd7b6fd5/header.jpg?t=1793821750",
       "genres": [
         "Казуальные игры",
         "Инди"
@@ -681,24 +644,57 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Test your memory in a classic Concentration card game with 100 challenging levels! Match cards as the board grows larger with each level. Unlock a new CG after every level, including special video rewards every 5 levels. Collect all 80 images and 20 videos in the CG Gallery!"
+      "short_description": "Прыгайте, падайте, злитесь и карабкайтесь вместе. Pogo Together — физический платформер на точность для 1-4 игроков, где нелепо накачанные животные пытаются преодолеть жестокие препятствия на пого-стиках. Помогайте друг другу, сбрасывайте друзей пинками или отправляйтесь наверх в одиночку."
     },
     {
-      "appid": "5412340",
-      "name": "Orbit Reminders",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5412340/34e5d76210563ec4a67964282b8dfac67c20b094/header.jpg?t=1793791327",
-      "genres": [
-        "Инди",
-        "Утилиты"
-      ],
+      "appid": "1677110",
+      "name": "Lightyear Frontier",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1677110/f4aec944f634f189990fe69e6d353b5609787955/header_alt_assets_7.jpg?t=1793811955",
+      "genres": [],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
-        "linux": true
+        "linux": false
       },
       "metacritic": null,
-      "short_description": "Close the window &amp; the reminder still lands. Orbit keeps your tasks, habits &amp; ideas on your own devices, encrypted, so you never forget. One purchase covers your PC, your laptop &amp; your phone, on Windows, Linux &amp; Android. No account."
+      "short_description": "Приглашаем в расслабляющую игру о ферме в открытом мире, где всю тяжёлую работу выполняет робот. Обустройте идеальную ферму и автоматизируйте её обслуживание. Настройте робота, чтобы он валил лес и пахал просторные поля, или отдохните и пригласите до трёх друзей полюбоваться закатом."
+    },
+    {
+      "appid": "4555040",
+      "name": "Sushiamo",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4555040/192bba964fd44411120b9a812eac0b4addf4952d/header.jpg?t=1793814734",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Sushiamo — это рогалик-декбилдер, в котором вы готовите суши, чтобы набирать абсурдные очки. Открывайте уникальные ингредиенты, соусы, мощные инструменты и путешествуйте по карте, чтобы сломать игру безумными комбо!"
+    },
+    {
+      "appid": "5046850",
+      "name": "Stellar Nursery",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5046850/0673b76aa5936326dec6bf3f46df415b6f78554b/header.jpg?t=1793815011",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Relight a dead sun and tend the worlds that circle it. Earth comes back to life, builds a city you name, and keeps a written record of all that follows. P.O.R.T.I.A., the caretaker who waited a hundred thousand years, keeps the watch with you. A calm idle game: close it, and she counts the hours."
     }
   ]
 }

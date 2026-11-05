@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T22:54:13+03:00",
+  "updatedAt": "2026-11-05T03:57:22+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -23,6 +23,16 @@
       "steamAppId": "1222500"
     },
     {
+      "id": "steam-3375780",
+      "title": "Trails in the Sky 1st Chapter",
+      "store": "Steam",
+      "old": 1900,
+      "neu": 950,
+      "pct": 50,
+      "url": "https://store.steampowered.com/app/3375780/",
+      "steamAppId": "3375780"
+    },
+    {
       "id": "steam-252490",
       "title": "Rust",
       "store": "Steam",
@@ -33,16 +43,6 @@
       "steamAppId": "252490"
     },
     {
-      "id": "steam-2615540",
-      "title": "VOID/BREAKER",
-      "store": "Steam",
-      "old": 1350,
-      "neu": 810,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/2615540/",
-      "steamAppId": "2615540"
-    },
-    {
       "id": "steam-3949040",
       "title": "RV There Yet?",
       "store": "Steam",
@@ -51,6 +51,26 @@
       "pct": 40,
       "url": "https://store.steampowered.com/app/3949040/",
       "steamAppId": "3949040"
+    },
+    {
+      "id": "steam-4962500",
+      "title": "Dread Rune",
+      "store": "Steam",
+      "old": 240,
+      "neu": 144,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/4962500/",
+      "steamAppId": "4962500"
+    },
+    {
+      "id": "steam-5371500",
+      "title": "Cats Here",
+      "store": "Steam",
+      "old": 99,
+      "neu": 59,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5371500/",
+      "steamAppId": "5371500"
     },
     {
       "id": "steam-3527290",
@@ -93,54 +113,34 @@
       "steamAppId": "3491960"
     },
     {
-      "id": "steam-1297900",
-      "title": "Gothic 1 Remake",
+      "id": "steam-4832510",
+      "title": "Trolley Dilemma",
       "store": "Steam",
-      "old": 2699,
-      "neu": 2024,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/1297900/",
-      "steamAppId": "1297900"
+      "old": 171,
+      "neu": 136,
+      "pct": 21,
+      "url": "https://store.steampowered.com/app/4832510/",
+      "steamAppId": "4832510"
     },
     {
-      "id": "steam-4088720",
-      "title": "Pogo Together",
-      "store": "Steam",
-      "old": 195,
-      "neu": 146,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/4088720/",
-      "steamAppId": "4088720"
-    },
-    {
-      "id": "steam-1677110",
-      "title": "Lightyear Frontier",
-      "store": "Steam",
-      "old": 1299,
-      "neu": 1039,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/1677110/",
-      "steamAppId": "1677110"
-    },
-    {
-      "id": "steam-4555040",
-      "title": "Sushiamo",
+      "id": "steam-5348470",
+      "title": "CrossVeil",
       "store": "Steam",
       "old": 660,
       "neu": 528,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/4555040/",
-      "steamAppId": "4555040"
+      "url": "https://store.steampowered.com/app/5348470/",
+      "steamAppId": "5348470"
     },
     {
-      "id": "steam-5046850",
-      "title": "Stellar Nursery",
+      "id": "steam-5279240",
+      "title": "FarmLife",
       "store": "Steam",
-      "old": 465,
-      "neu": 372,
+      "old": 535,
+      "neu": 428,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/5046850/",
-      "steamAppId": "5046850"
+      "url": "https://store.steampowered.com/app/5279240/",
+      "steamAppId": "5279240"
     }
   ]
 }
