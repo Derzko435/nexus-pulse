@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T21:08:03+03:00",
+  "updatedAt": "2026-11-06T00:27:48+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -63,7 +63,7 @@
     {
       "appid": "1172470",
       "name": "Apex Legends™",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/4219c147f1e094297c726d537518babba7f3ae2d/header.jpg?t=1793731328",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/4219c147f1e094297c726d537518babba7f3ae2d/header.jpg?t=1793909605",
       "genres": [
         "Экшены",
         "Приключенческие игры",
@@ -452,28 +452,14 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "1449690",
-      "name": "The Walking Dead: The Telltale Definitive Series",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/header.jpg?t=1760651835",
+      "appid": "527230",
+      "name": "For The King",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/527230/header.jpg?t=1793907567",
       "genres": [
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "The Walking Dead: The Telltale Definitive Series содержит все четыре сезона, дополнение 400 Days и The Walking Dead: Michonne — всего 23 уникальных эпизода, которые подарят игрокам более 50 часов игры."
-    },
-    {
-      "appid": "1222500",
-      "name": "Streets of Rage 4",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/985890/header.jpg?t=1763718423",
-      "genres": [
-        "Экшены",
-        "Инди"
+        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
@@ -481,8 +467,25 @@
         "mac": true,
         "linux": true
       },
-      "metacritic": 84,
-      "short_description": "Amongst the best beat’em up series ever created, jammin’ ‘90s beats and over the top street fighting, the iconic series Streets of Rage comes back with a masterful tribute to and revitalization of the classic action fans adore."
+      "metacritic": 79,
+      "short_description": "For The King — это стратегическая RPG, которая сочетает в себе элементы настолки и рогалика в захватывающем приключении, меняющем судьбы королевств. Можно играть в одиночку или в компании с другими игроками как онлайн, так и по локальной сети."
+    },
+    {
+      "appid": "275850",
+      "name": "No Man's Sky",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/9f1ca9e3b7d1dccb7b5af404a6739ddc1118ef32/header_alt_assets_26.jpg?t=1793196605",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": 61,
+      "short_description": "No Man's Sky является научно-фантастической игрой об исследованиях и выживании в бесконечной, процедурно генерируемой вселенной."
     },
     {
       "appid": "252490",
@@ -505,9 +508,28 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
-      "appid": "3949040",
-      "name": "RV There Yet?",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949040/cae24b4ed7f4531be51f0d63f785b7d253f92dc3/header.jpg?t=1789134289",
+      "appid": "1167630",
+      "name": "Teardown",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1167630/38bac946654a2cc775607518fb5c8e4e0a0f9a87/header.jpg?t=1791807602",
+      "genres": [
+        "Экшены",
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 80,
+      "short_description": "Совершите идеальное ограбление в воксельном мире, не отказывая себе в разрушениях. Сносите стены, используя машины, или прокладывайте себе путь взрывчаткой. Меняйте окружающий мир под себя и дайте волю фантазии. Играйте в одиночку или в многопользовательском режиме, поддерживающем до 12 игроков."
+    },
+    {
+      "appid": "2615540",
+      "name": "VOID/BREAKER",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2615540/4f3789458cfd9c3375c2926620b19640135f7c4a/header_alt_assets_8.jpg?t=1793821113",
       "genres": [
         "Экшены",
         "Приключенческие игры",
@@ -520,42 +542,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Кооперативное приключение за рулём автодома."
-    },
-    {
-      "appid": "4446030",
-      "name": "Stellar Smash",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4446030/64693b8264101fc4dcdbb7bb234b10f7783c59c6/header.jpg?t=1793858421",
-      "genres": [
-        "Экшены",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Save the universe from complete darkness by destroying bricks one by one in this brick breaking game. Challenge bosses, master ball control and upgrade your ship. Let the main character, Astra, guide you through the game."
-    },
-    {
-      "appid": "5402190",
-      "name": "Digging Up Together",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5402190/ccd17d107bc00d488ae8a6a37d72a9d729382eb1/header.jpg?t=1793865653",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Раскопайте египетскую пустыню. Ищите металлоискателем, пробивайтесь сквозь слои лопатой и буром в кооперативе на 1–4 игроков, очищайте древние сокровища и кости динозавров в натуральную величину, везите их на тачке или вагонетке и постройте свой музей."
+      "short_description": "Адреналиновый шутер-roguelite от первого лица 🔴 Сражайтесь с машинами, которыми управляет ИИ. Разорвите бесконечный цикл. Создавайте бесконечные варианты оружия благодаря модам. Создавайте смертоносные синергии. Уничтожайте всё вокруг. /СЛОМАЙТЕ СИСТЕМУ /СЛОМАЙТЕ ТЮРЬМУ"
     },
     {
       "appid": "3527290",
@@ -593,76 +580,44 @@
       "short_description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
     },
     {
-      "appid": "648800",
-      "name": "Raft",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg?t=1727184011",
+      "appid": "4323260",
+      "name": "Ship Happens",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4323260/87caa7161510bd199f0c95b6feb4fa215e3735b4/header.jpg?t=1793898023",
       "genres": [
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Raft™ throws you and your friends into an epic oceanic adventure! Alone or together, players battle to survive a perilous voyage across a vast sea! Gather debris, scavenge reefs and build your own floating home, but be wary of the man-eating sharks!"
-    },
-    {
-      "appid": "5432290",
-      "name": "奶蛙坤坤大战外星人（不要对游戏过度解读，我自己都不知道自己想要表达什么）",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432290/e07f3b5535c24be53b059d2679420e520d878daa/header.jpg?t=1793874701",
-      "genres": [
-        "Казуальные игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "This is a simple 2D funny little game. In this game, you'll become a milk frog and experience some weird and random stories."
-    },
-    {
-      "appid": "1297900",
-      "name": "Gothic 1 Remake",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/6bc8c205a107e552f14631524f25cdf88743515a/header.jpg?t=1787564876",
-      "genres": [
-        "Экшены",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Возвращение легенды! Исследуйте долину Рудников в потрясающем ремейке культовой ролевой игры. Путешествуйте по мрачному рукотворному открытому миру, который динамически реагирует на ваши действия. Ваши возможности безграничны!"
-    },
-    {
-      "appid": "4553100",
-      "name": "FEED ME MORE BRAINS",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4553100/bdd01ef91c69a264aa8b4e1d6dd8c161e9672c30/header.jpg?t=1793871298",
-      "genres": [
+        "Казуальные игры",
         "Инди"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A chaotic co-op game for 2-4 players set in space. Think fast and work together to rescue ridiculously designed spaceships from the clutches of a black hole."
+    },
+    {
+      "appid": "2522120",
+      "name": "Airframe Ultra",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2522120/85ae9c79253627eb019c581e2fb2ace76f12cc97/header.jpg?t=1793904667",
+      "genres": [
+        "Экшены",
+        "Инди",
+        "Гонки"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
         "mac": false,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Безумная инкрементальная игра от первого лица, в которой вы кормите древнего Бога мозгами. Хватайте их, швыряйте и автоматизируйте их доставку, открывая мутации, призывая верных культистов и превращая свой храм в идеальную машину по кормлению мозгами."
+      "short_description": "На улицах Мегасити-Вест бывает лишь два вида гонщиков. Победители и мертвецы. Собранный из нелегальных запчастей эйрфрейм, ржавое мачете и кровь на автостраде — вот и все, что у тебя есть. Добро пожаловать в жестокий мир подпольных гонок серии «Ультра»!"
     },
     {
-      "appid": "5372430",
-      "name": "Neuroflip",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5372430/ef2af4728bd00528c09df1552029da32b166fb24/header.jpg?t=1793847749",
+      "appid": "4267480",
+      "name": "Just A Dice Game",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4267480/289e5c4eb6838995337571ec703a04dd6c1fb860/header.jpg?t=1793899218",
       "genres": [
         "Казуальные игры",
         "Инди",
@@ -675,13 +630,28 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Карточный roguelike на память. Открывай карты, запоминай, где появилось каждое лицо, и собирай пары, чтобы одолеть Писаря, Даму и Короля. Ошибиться на новой карте ничего не стоит; забыть пару, которую уже видел, может дорого обойтись."
+      "short_description": "Рогалик, в котором ваша колода представляет собой мешок костей. Бросайте, набирайте очки и перебрасывайте, чтобы достигать всё более высоких целей. Лава извергается обсидианом, призраки появляются на пустых полях, а бомбы перебрасывают всё вокруг себя."
     },
     {
-      "appid": "5441360",
-      "name": "Localhost Hero",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5441360/84a8f58778c1b03e11b4d9ce15cc26461a7c4903/header.jpg?t=1793850022",
+      "appid": "1677110",
+      "name": "Lightyear Frontier",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1677110/f4aec944f634f189990fe69e6d353b5609787955/header_alt_assets_7.jpg?t=1793891345",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Приглашаем в расслабляющую игру о ферме в открытом мире, где всю тяжёлую работу выполняет робот. Обустройте идеальную ферму и автоматизируйте её обслуживание. Настройте робота, чтобы он валил лес и пахал просторные поля, или отдохните и пригласите до трёх друзей полюбоваться закатом."
+    },
+    {
+      "appid": "4140700",
+      "name": "Cash is King! Business Simulator",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4140700/94f6b303b94fdf443b351efa586a9e0791c2cff4/header.jpg?t=1793902305",
       "genres": [
+        "Казуальные игры",
         "Инди",
         "Симуляторы"
       ],
@@ -692,7 +662,42 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Start with a broken café website and work toward your first release. Type commands, fix code, test your changes, and help your neighbors on a simulated desktop. Build your own website or web app, with optional hints whenever you need them."
+      "short_description": "Начни с нуля и построй собственную бизнес-империю на солнечном Майами-Бич! Продавай лимонад, управляй торговыми автоматами, автоматизируй свои предприятия и превращай мелкие подработки в большие прибыли в этом расслабленном симуляторе от первого лица."
+    },
+    {
+      "appid": "4944880",
+      "name": "Cube Sweeper: 3D Minesweeper",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4944880/73583f8f5461c5fd20c23bbcc14c2f44e012b662/header.jpg?t=1793907967",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Classic Minesweeper, carved into three dimensions. Orbit each board and read the numbers around corners and down through tunnels. Every board is guaranteed solvable by logic alone, never a guess. Dig for hidden gems and climb from your first click to Expert."
+    },
+    {
+      "appid": "4681680",
+      "name": "Cat Caffeine",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4681680/4ec86ce56a590ea57530edd9d2a2810efd58c759/header.jpg?t=1793901695",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Уютное idle ASMR-кафе с котиками, которое живёт на вашем экране. Готовьте блюда, обслуживайте гостей и украшайте кафе, пока работаете или отдыхаете."
     }
   ]
 }

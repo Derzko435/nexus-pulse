@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T21:08:09+03:00",
+  "updatedAt": "2026-11-06T00:27:53+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -11,6 +11,16 @@
       "pct": 90,
       "url": "https://store.steampowered.com/app/527230/",
       "steamAppId": "527230"
+    },
+    {
+      "id": "steam-1272080",
+      "title": "PAYDAY 3",
+      "store": "Steam",
+      "old": 1269,
+      "neu": 380,
+      "pct": 70,
+      "url": "https://store.steampowered.com/app/1272080/",
+      "steamAppId": "1272080"
     },
     {
       "id": "steam-275850",
@@ -33,26 +43,6 @@
       "steamAppId": "252490"
     },
     {
-      "id": "steam-1167630",
-      "title": "Teardown",
-      "store": "Steam",
-      "old": 1399,
-      "neu": 699,
-      "pct": 50,
-      "url": "https://store.steampowered.com/app/1167630/",
-      "steamAppId": "1167630"
-    },
-    {
-      "id": "steam-2615540",
-      "title": "VOID/BREAKER",
-      "store": "Steam",
-      "old": 1350,
-      "neu": 810,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/2615540/",
-      "steamAppId": "2615540"
-    },
-    {
       "id": "steam-3527290",
       "title": "PEAK",
       "store": "Steam",
@@ -73,34 +63,24 @@
       "steamAppId": "3241660"
     },
     {
-      "id": "steam-4323260",
-      "title": "Ship Happens",
+      "id": "steam-3426850",
+      "title": "Chronicles of Veldoria",
       "store": "Steam",
-      "old": 335,
-      "neu": 234,
+      "old": 535,
+      "neu": 374,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/4323260/",
-      "steamAppId": "4323260"
+      "url": "https://store.steampowered.com/app/3426850/",
+      "steamAppId": "3426850"
     },
     {
-      "id": "steam-2522120",
-      "title": "Airframe Ultra",
+      "id": "steam-2640820",
+      "title": "Veiled Whispers",
       "store": "Steam",
-      "old": 590,
-      "neu": 442,
+      "old": 245,
+      "neu": 183,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/2522120/",
-      "steamAppId": "2522120"
-    },
-    {
-      "id": "steam-4267480",
-      "title": "Just A Dice Game",
-      "store": "Steam",
-      "old": 270,
-      "neu": 202,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/4267480/",
-      "steamAppId": "4267480"
+      "url": "https://store.steampowered.com/app/2640820/",
+      "steamAppId": "2640820"
     },
     {
       "id": "steam-1677110",
@@ -111,16 +91,6 @@
       "pct": 20,
       "url": "https://store.steampowered.com/app/1677110/",
       "steamAppId": "1677110"
-    },
-    {
-      "id": "steam-4140700",
-      "title": "Cash is King! Business Simulator",
-      "store": "Steam",
-      "old": 799,
-      "neu": 639,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/4140700/",
-      "steamAppId": "4140700"
     },
     {
       "id": "steam-4944880",
@@ -141,6 +111,36 @@
       "pct": 20,
       "url": "https://store.steampowered.com/app/4681680/",
       "steamAppId": "4681680"
+    },
+    {
+      "id": "steam-5208830",
+      "title": "Method in the Witchness",
+      "store": "Steam",
+      "old": 245,
+      "neu": 196,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/5208830/",
+      "steamAppId": "5208830"
+    },
+    {
+      "id": "steam-5154200",
+      "title": "Tabletop TD",
+      "store": "Steam",
+      "old": 240,
+      "neu": 192,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/5154200/",
+      "steamAppId": "5154200"
+    },
+    {
+      "id": "steam-5088660",
+      "title": "Dungeon Miner",
+      "store": "Steam",
+      "old": 240,
+      "neu": 192,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/5088660/",
+      "steamAppId": "5088660"
     }
   ]
 }
