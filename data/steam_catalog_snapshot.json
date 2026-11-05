@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T12:39:41+03:00",
+  "updatedAt": "2026-11-05T21:08:03+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -485,24 +485,6 @@
       "short_description": "Amongst the best beat’em up series ever created, jammin’ ‘90s beats and over the top street fighting, the iconic series Streets of Rage comes back with a masterful tribute to and revitalization of the classic action fans adore."
     },
     {
-      "appid": "3375780",
-      "name": "Trails in the Sky 1st Chapter",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3375780/header.jpg?t=1791225209",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": 89,
-      "short_description": "Trails in the Sky 1st Chapter reimagines the first chapter of a beloved series, infusing it with enhanced visuals and refined gameplay. Join Estelle and Joshua, partners bound by fate, as they unravel dark conspiracies threatening the peace of the Liberl Kingdom."
-    },
-    {
       "appid": "252490",
       "name": "Rust",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1781536981",
@@ -541,13 +523,12 @@
       "short_description": "Кооперативное приключение за рулём автодома."
     },
     {
-      "appid": "4962500",
-      "name": "Dread Rune",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4962500/18e73f958823be1e80888c65b218db437e864882/header.jpg?t=1793823732",
+      "appid": "4446030",
+      "name": "Stellar Smash",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4446030/64693b8264101fc4dcdbb7bb234b10f7783c59c6/header.jpg?t=1793858421",
       "genres": [
         "Экшены",
-        "Приключенческие игры",
-        "Ролевые игры"
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -556,13 +537,14 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Роглайк-RPG, вдохновлённая Pixel Dungeon. Выбери одного из 12 героев, исследуй постоянно меняющиеся подземелья и освой более 130 предметов, изнашивающихся по мере использования. Каждый забег — это испытание боевого мастерства, стратегии и умения вовремя пустить в ход то, что у тебя есть."
+      "short_description": "Save the universe from complete darkness by destroying bricks one by one in this brick breaking game. Challenge bosses, master ball control and upgrade your ship. Let the main character, Astra, guide you through the game."
     },
     {
-      "appid": "5371500",
-      "name": "Cats Here",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371500/17d8cf002b8533d504edc7d7ca02b608bd899e69/header.jpg?t=1793835935",
+      "appid": "5402190",
+      "name": "Digging Up Together",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5402190/ccd17d107bc00d488ae8a6a37d72a9d729382eb1/header.jpg?t=1793865653",
       "genres": [
+        "Приключенческие игры",
         "Казуальные игры",
         "Инди"
       ],
@@ -573,7 +555,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "😺 Найдите более 100 спрятанных кошек 🐾 в красочном пейзаже. 🏆 Заработайте МНОГО ДОСТИЖЕНИЙ. Сколько кошек 🐈 вы сможете найти? 🔎 Поторопитесь! ⏱️"
+      "short_description": "Раскопайте египетскую пустыню. Ищите металлоискателем, пробивайтесь сквозь слои лопатой и буром в кооперативе на 1–4 игроков, очищайте древние сокровища и кости динозавров в натуральную величину, везите их на тачке или вагонетке и постройте свой музей."
     },
     {
       "appid": "3527290",
@@ -611,86 +593,12 @@
       "short_description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
     },
     {
-      "appid": "5139380",
-      "name": "Marble Stars",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5139380/c22ea60fdd65ea2e168b044ddb335d558faf9241/header.jpg?t=1793815713",
-      "genres": [
-        "Экшены",
-        "Казуальные игры",
-        "Инди",
-        "Гонки"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Marble Stars — сложный платформер, созданный одним разработчиком. Исследуйте 55 уровней, парящих над океаном, освойте каждую трассу, соревнуйтесь в мировых таблицах лидеров и зарабатывайте медали по мере прохождения."
-    },
-    {
-      "appid": "3491960",
-      "name": " Lost Liminal",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3491960/3ed5ca5e5f6d6a2aa229928fa928e0e0adfe0a2c/header.jpg?t=1793815406",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "&quot;Descend into liminal space—evade lurking horrors, solve cryptic puzzles, and use your camera to preserve the memories you leave behind in this eerie world. Switch to night vision to uncover hidden clues and trace what's amiss. This first-person indie horror will keep you guessing at every turn.&quot;"
-    },
-    {
-      "appid": "4832510",
-      "name": "Trolley Dilemma",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4832510/8423659d6a2b2e501d946d9764299d79b9367cab/header.jpg?t=1793815588",
+      "appid": "648800",
+      "name": "Raft",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg?t=1727184011",
       "genres": [
         "Приключенческие игры",
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Столкнитесь с неразрешимыми дилеммами, познакомьтесь с необычными персонажами и узнайте, как каждый перевод стрелки меняет ход истории. Пока вагонетка продолжает свой путь, ваши решения определят, кому вы доверитесь, кого предадите и станете ли вы тем, кем никогда не хотели стать."
-    },
-    {
-      "appid": "5348470",
-      "name": "CrossVeil",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5348470/7031765b5558fb703ebbf963614b032ebac0ea70/header.jpg?t=1793833492",
-      "genres": [
         "Инди",
-        "Ролевые игры",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "A card battler across four painted worlds. Hire guardians in the Exchange, build a deck for each world and battle through lantern-lit swamps, a neon arcade city, a crooked carnival and storm-torn sky islands. Every guardian brings its own ability to the fight."
-    },
-    {
-      "appid": "5279240",
-      "name": "FarmLife",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5279240/dd471b356d6959bb54abb759fe77c0949b94bb61/header.jpg?t=1793832702",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Ролевые игры",
         "Симуляторы"
       ],
       "is_free": false,
@@ -700,7 +608,91 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Build a farm and shape a life in this single-player, text-based simulation. Grow crops, raise animals, pursue careers, build relationships, and manage your finances through choices that shape your future."
+      "short_description": "Raft™ throws you and your friends into an epic oceanic adventure! Alone or together, players battle to survive a perilous voyage across a vast sea! Gather debris, scavenge reefs and build your own floating home, but be wary of the man-eating sharks!"
+    },
+    {
+      "appid": "5432290",
+      "name": "奶蛙坤坤大战外星人（不要对游戏过度解读，我自己都不知道自己想要表达什么）",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432290/e07f3b5535c24be53b059d2679420e520d878daa/header.jpg?t=1793874701",
+      "genres": [
+        "Казуальные игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "This is a simple 2D funny little game. In this game, you'll become a milk frog and experience some weird and random stories."
+    },
+    {
+      "appid": "1297900",
+      "name": "Gothic 1 Remake",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/6bc8c205a107e552f14631524f25cdf88743515a/header.jpg?t=1787564876",
+      "genres": [
+        "Экшены",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Возвращение легенды! Исследуйте долину Рудников в потрясающем ремейке культовой ролевой игры. Путешествуйте по мрачному рукотворному открытому миру, который динамически реагирует на ваши действия. Ваши возможности безграничны!"
+    },
+    {
+      "appid": "4553100",
+      "name": "FEED ME MORE BRAINS",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4553100/bdd01ef91c69a264aa8b4e1d6dd8c161e9672c30/header.jpg?t=1793871298",
+      "genres": [
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Безумная инкрементальная игра от первого лица, в которой вы кормите древнего Бога мозгами. Хватайте их, швыряйте и автоматизируйте их доставку, открывая мутации, призывая верных культистов и превращая свой храм в идеальную машину по кормлению мозгами."
+    },
+    {
+      "appid": "5372430",
+      "name": "Neuroflip",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5372430/ef2af4728bd00528c09df1552029da32b166fb24/header.jpg?t=1793847749",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Карточный roguelike на память. Открывай карты, запоминай, где появилось каждое лицо, и собирай пары, чтобы одолеть Писаря, Даму и Короля. Ошибиться на новой карте ничего не стоит; забыть пару, которую уже видел, может дорого обойтись."
+    },
+    {
+      "appid": "5441360",
+      "name": "Localhost Hero",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5441360/84a8f58778c1b03e11b4d9ce15cc26461a7c4903/header.jpg?t=1793850022",
+      "genres": [
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Start with a broken café website and work toward your first release. Type commands, fix code, test your changes, and help your neighbors on a simulated desktop. Build your own website or web app, with optional hints whenever you need them."
     }
   ]
 }

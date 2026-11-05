@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T02:29:28+03:00",
+  "updatedAt": "2026-11-05T21:08:13+03:00",
   "source": "epic-promotions-api+curated",
   "note": "Epic Free Games API (RU) + кураторский Steam/GOG/Prime (Amazon Luna).",
   "items": [
@@ -9,8 +9,8 @@
       "title": "Idle Champions of the Forgotten Realms",
       "until": "2026-11-12",
       "claimUrl": "https://store.epicgames.com/ru/p/idle-champions-of-the-forgotten-realms",
-      "note": "Скоро бесплатно на Epic",
-      "status": "upcoming",
+      "note": "Текущая раздача Epic",
+      "status": "now",
       "startsAt": "2026-11-05T19:00:00+03:00",
       "endsAt": "2026-11-12T19:00:00+03:00",
       "image": "https://cdn1.epicgames.com/spt-assets/a53f91e55c6840018cb5de0b204f1ad9/idle-champions-of-the-forgotten-realms-1s1xq.jpg"
@@ -21,12 +21,25 @@
       "title": "Flotsam",
       "until": "2026-11-12",
       "claimUrl": "https://store.epicgames.com/ru/p/flotsam-266287",
-      "note": "Скоро бесплатно на Epic",
-      "status": "upcoming",
+      "note": "Текущая раздача Epic",
+      "status": "now",
       "startsAt": "2026-11-05T19:00:00+03:00",
       "endsAt": "2026-11-12T19:00:00+03:00",
       "price_rub": 549,
       "image": "https://cdn1.epicgames.com/spt-assets/5c36b876e80d4285b9993947efeeaf2b/flotsam-1yczl.jpg"
+    },
+    {
+      "id": "epic-9975548b6d404a94b8a9bdb34cad49e9",
+      "store": "Epic Games",
+      "title": "Knightica",
+      "until": "2026-11-19",
+      "claimUrl": "https://store.epicgames.com/ru/p/knightica-3be45c",
+      "note": "Скоро бесплатно на Epic",
+      "status": "upcoming",
+      "startsAt": "2026-11-12T19:00:00+03:00",
+      "endsAt": "2026-11-19T19:00:00+03:00",
+      "price_rub": 449,
+      "image": "https://cdn1.epicgames.com/spt-assets/357100ca5613420e98208c5f14585e9d/knightica-1nuxm.png"
     },
     {
       "id": "steam-f2p-always",
