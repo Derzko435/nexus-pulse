@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T03:57:22+03:00",
+  "updatedAt": "2026-11-05T12:39:47+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -23,16 +23,6 @@
       "steamAppId": "1222500"
     },
     {
-      "id": "steam-3375780",
-      "title": "Trails in the Sky 1st Chapter",
-      "store": "Steam",
-      "old": 1900,
-      "neu": 950,
-      "pct": 50,
-      "url": "https://store.steampowered.com/app/3375780/",
-      "steamAppId": "3375780"
-    },
-    {
       "id": "steam-252490",
       "title": "Rust",
       "store": "Steam",
@@ -53,24 +43,24 @@
       "steamAppId": "3949040"
     },
     {
-      "id": "steam-4962500",
-      "title": "Dread Rune",
+      "id": "steam-4446030",
+      "title": "Stellar Smash",
       "store": "Steam",
-      "old": 240,
-      "neu": 144,
+      "old": 165,
+      "neu": 99,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/4962500/",
-      "steamAppId": "4962500"
+      "url": "https://store.steampowered.com/app/4446030/",
+      "steamAppId": "4446030"
     },
     {
-      "id": "steam-5371500",
-      "title": "Cats Here",
+      "id": "steam-5402190",
+      "title": "Digging Up Together",
       "store": "Steam",
-      "old": 99,
-      "neu": 59,
+      "old": 130,
+      "neu": 78,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5371500/",
-      "steamAppId": "5371500"
+      "url": "https://store.steampowered.com/app/5402190/",
+      "steamAppId": "5402190"
     },
     {
       "id": "steam-3527290",
@@ -93,54 +83,64 @@
       "steamAppId": "3241660"
     },
     {
-      "id": "steam-5139380",
-      "title": "Marble Stars",
+      "id": "steam-648800",
+      "title": "Raft",
       "store": "Steam",
-      "old": 499,
-      "neu": 349,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/5139380/",
-      "steamAppId": "5139380"
+      "old": 855,
+      "neu": 572,
+      "pct": 33,
+      "url": "https://store.steampowered.com/app/648800/",
+      "steamAppId": "648800"
     },
     {
-      "id": "steam-3491960",
-      "title": "Lost Liminal",
+      "id": "steam-5432290",
+      "title": "奶蛙坤坤大战外星人（不要对游戏过度解读，我自己都不知道自己想要表达什么）",
       "store": "Steam",
-      "old": 465,
-      "neu": 334,
-      "pct": 28,
-      "url": "https://store.steampowered.com/app/3491960/",
-      "steamAppId": "3491960"
+      "old": 64,
+      "neu": 44,
+      "pct": 31,
+      "url": "https://store.steampowered.com/app/5432290/",
+      "steamAppId": "5432290"
     },
     {
-      "id": "steam-4832510",
-      "title": "Trolley Dilemma",
+      "id": "steam-1297900",
+      "title": "Gothic 1 Remake",
       "store": "Steam",
-      "old": 171,
-      "neu": 136,
-      "pct": 21,
-      "url": "https://store.steampowered.com/app/4832510/",
-      "steamAppId": "4832510"
+      "old": 2699,
+      "neu": 2024,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/1297900/",
+      "steamAppId": "1297900"
     },
     {
-      "id": "steam-5348470",
-      "title": "CrossVeil",
+      "id": "steam-4553100",
+      "title": "FEED ME MORE BRAINS",
       "store": "Steam",
-      "old": 660,
-      "neu": 528,
+      "old": 360,
+      "neu": 270,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/4553100/",
+      "steamAppId": "4553100"
+    },
+    {
+      "id": "steam-5372430",
+      "title": "Neuroflip",
+      "store": "Steam",
+      "old": 280,
+      "neu": 210,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/5372430/",
+      "steamAppId": "5372430"
+    },
+    {
+      "id": "steam-5441360",
+      "title": "Localhost Hero",
+      "store": "Steam",
+      "old": 710,
+      "neu": 568,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/5348470/",
-      "steamAppId": "5348470"
-    },
-    {
-      "id": "steam-5279240",
-      "title": "FarmLife",
-      "store": "Steam",
-      "old": 535,
-      "neu": 428,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5279240/",
-      "steamAppId": "5279240"
+      "url": "https://store.steampowered.com/app/5441360/",
+      "steamAppId": "5441360"
     }
   ]
 }

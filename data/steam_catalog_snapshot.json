@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T03:57:17+03:00",
+  "updatedAt": "2026-11-05T12:39:41+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -485,6 +485,24 @@
       "short_description": "Amongst the best beat’em up series ever created, jammin’ ‘90s beats and over the top street fighting, the iconic series Streets of Rage comes back with a masterful tribute to and revitalization of the classic action fans adore."
     },
     {
+      "appid": "3375780",
+      "name": "Trails in the Sky 1st Chapter",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3375780/header.jpg?t=1791225209",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 89,
+      "short_description": "Trails in the Sky 1st Chapter reimagines the first chapter of a beloved series, infusing it with enhanced visuals and refined gameplay. Join Estelle and Joshua, partners bound by fate, as they unravel dark conspiracies threatening the peace of the Liberl Kingdom."
+    },
+    {
       "appid": "252490",
       "name": "Rust",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1781536981",
@@ -505,24 +523,6 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
-      "appid": "2615540",
-      "name": "VOID/BREAKER",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2615540/4f3789458cfd9c3375c2926620b19640135f7c4a/header_alt_assets_8.jpg?t=1793821113",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Адреналиновый шутер-roguelite от первого лица 🔴 Сражайтесь с машинами, которыми управляет ИИ. Разорвите бесконечный цикл. Создавайте бесконечные варианты оружия благодаря модам. Создавайте смертоносные синергии. Уничтожайте всё вокруг. /СЛОМАЙТЕ СИСТЕМУ /СЛОМАЙТЕ ТЮРЬМУ"
-    },
-    {
       "appid": "3949040",
       "name": "RV There Yet?",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949040/cae24b4ed7f4531be51f0d63f785b7d253f92dc3/header.jpg?t=1789134289",
@@ -539,6 +539,41 @@
       },
       "metacritic": null,
       "short_description": "Кооперативное приключение за рулём автодома."
+    },
+    {
+      "appid": "4962500",
+      "name": "Dread Rune",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4962500/18e73f958823be1e80888c65b218db437e864882/header.jpg?t=1793823732",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Роглайк-RPG, вдохновлённая Pixel Dungeon. Выбери одного из 12 героев, исследуй постоянно меняющиеся подземелья и освой более 130 предметов, изнашивающихся по мере использования. Каждый забег — это испытание боевого мастерства, стратегии и умения вовремя пустить в ход то, что у тебя есть."
+    },
+    {
+      "appid": "5371500",
+      "name": "Cats Here",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371500/17d8cf002b8533d504edc7d7ca02b608bd899e69/header.jpg?t=1793835935",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "😺 Найдите более 100 спрятанных кошек 🐾 в красочном пейзаже. 🏆 Заработайте МНОГО ДОСТИЖЕНИЙ. Сколько кошек 🐈 вы сможете найти? 🔎 Поторопитесь! ⏱️"
     },
     {
       "appid": "3527290",
@@ -613,88 +648,59 @@
       "short_description": "&quot;Descend into liminal space—evade lurking horrors, solve cryptic puzzles, and use your camera to preserve the memories you leave behind in this eerie world. Switch to night vision to uncover hidden clues and trace what's amiss. This first-person indie horror will keep you guessing at every turn.&quot;"
     },
     {
-      "appid": "1297900",
-      "name": "Gothic 1 Remake",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/6bc8c205a107e552f14631524f25cdf88743515a/header.jpg?t=1787564876",
+      "appid": "4832510",
+      "name": "Trolley Dilemma",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4832510/8423659d6a2b2e501d946d9764299d79b9367cab/header.jpg?t=1793815588",
       "genres": [
-        "Экшены",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Возвращение легенды! Исследуйте долину Рудников в потрясающем ремейке культовой ролевой игры. Путешествуйте по мрачному рукотворному открытому миру, который динамически реагирует на ваши действия. Ваши возможности безграничны!"
-    },
-    {
-      "appid": "4088720",
-      "name": "Pogo Together",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088720/d859b6a38b219af4810902e5f730176ecd7b6fd5/header.jpg?t=1793821750",
-      "genres": [
+        "Приключенческие игры",
         "Казуальные игры",
         "Инди"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
-        "linux": false
+        "mac": true,
+        "linux": true
       },
       "metacritic": null,
-      "short_description": "Прыгайте, падайте, злитесь и карабкайтесь вместе. Pogo Together — физический платформер на точность для 1-4 игроков, где нелепо накачанные животные пытаются преодолеть жестокие препятствия на пого-стиках. Помогайте друг другу, сбрасывайте друзей пинками или отправляйтесь наверх в одиночку."
+      "short_description": "Столкнитесь с неразрешимыми дилеммами, познакомьтесь с необычными персонажами и узнайте, как каждый перевод стрелки меняет ход истории. Пока вагонетка продолжает свой путь, ваши решения определят, кому вы доверитесь, кого предадите и станете ли вы тем, кем никогда не хотели стать."
     },
     {
-      "appid": "1677110",
-      "name": "Lightyear Frontier",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1677110/f4aec944f634f189990fe69e6d353b5609787955/header_alt_assets_7.jpg?t=1793811955",
-      "genres": [],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Приглашаем в расслабляющую игру о ферме в открытом мире, где всю тяжёлую работу выполняет робот. Обустройте идеальную ферму и автоматизируйте её обслуживание. Настройте робота, чтобы он валил лес и пахал просторные поля, или отдохните и пригласите до трёх друзей полюбоваться закатом."
-    },
-    {
-      "appid": "4555040",
-      "name": "Sushiamo",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4555040/192bba964fd44411120b9a812eac0b4addf4952d/header.jpg?t=1793814734",
+      "appid": "5348470",
+      "name": "CrossVeil",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5348470/7031765b5558fb703ebbf963614b032ebac0ea70/header.jpg?t=1793833492",
       "genres": [
-        "Казуальные игры",
         "Инди",
+        "Ролевые игры",
         "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
+        "mac": false,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Sushiamo — это рогалик-декбилдер, в котором вы готовите суши, чтобы набирать абсурдные очки. Открывайте уникальные ингредиенты, соусы, мощные инструменты и путешествуйте по карте, чтобы сломать игру безумными комбо!"
+      "short_description": "A card battler across four painted worlds. Hire guardians in the Exchange, build a deck for each world and battle through lantern-lit swamps, a neon arcade city, a crooked carnival and storm-torn sky islands. Every guardian brings its own ability to the fight."
     },
     {
-      "appid": "5046850",
-      "name": "Stellar Nursery",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5046850/0673b76aa5936326dec6bf3f46df415b6f78554b/header.jpg?t=1793815011",
+      "appid": "5279240",
+      "name": "FarmLife",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5279240/dd471b356d6959bb54abb759fe77c0949b94bb61/header.jpg?t=1793832702",
       "genres": [
         "Казуальные игры",
         "Инди",
+        "Ролевые игры",
         "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
+        "mac": false,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Relight a dead sun and tend the worlds that circle it. Earth comes back to life, builds a city you name, and keeps a written record of all that follows. P.O.R.T.I.A., the caretaker who waited a hundred thousand years, keeps the watch with you. A calm idle game: close it, and she counts the hours."
+      "short_description": "Build a farm and shape a life in this single-player, text-based simulation. Grow crops, raise animals, pursue careers, build relationships, and manage your finances through choices that shape your future."
     }
   ]
 }
