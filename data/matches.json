@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-05T04:50:21+03:00",
+ "updatedAt": "2026-11-05T14:01:45+03:00",
  "source": "bo3.gg",
  "matches": [
   {
@@ -316,6 +316,42 @@
    "startsAt": "2026-11-09T16:00:00+03:00",
    "streams": [],
    "url": "https://bo3.gg/dota2/matches/astra-invicta-vs-ka4kanarskie-cyxariki-09-11-2026"
+  },
+  {
+   "id": "bo3-132698",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "FENNEL",
+   "teamB": "Nothin'Here",
+   "logoA": "https://files.bo3.gg/uploads/team/16841/image/webp-e3fade7ce22aed40d7e7f43bd993525c.webp",
+   "logoB": "",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "upcoming",
+   "event": "LCP 2027 Promotion",
+   "tier": "A",
+   "startsAt": "2026-11-10T08:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/lol/matches/fennel-lol-vs-nothinhere-10-11-2026"
+  },
+  {
+   "id": "bo3-132699",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Saigon Warriors",
+   "teamB": "Gromp Esports",
+   "logoA": "https://files.bo3.gg/uploads/team/22895/image/webp-985a0514e1f1e5bb6063a593364677c8.webp",
+   "logoB": "",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "upcoming",
+   "event": "LCP 2027 Promotion",
+   "tier": "A",
+   "startsAt": "2026-11-10T12:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/lol/matches/saigon-warriors-vs-gromp-esports-10-11-2026"
   },
   {
    "id": "bo3-130829",
@@ -739,32 +775,6 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/team-yandex-vs-team-spirit-01-11-2026"
-  },
-  {
-   "id": "bo3-132478",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Unsettled Resentment",
-   "teamB": "Nova Esports",
-   "logoA": "https://files.bo3.gg/uploads/team/24033/image/webp-bb680245148be5c497f0354b922c2a79.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/6331/image/webp-40a807464ddc11691e7dc64d9ae1c689.webp",
-   "scoreA": 0,
-   "scoreB": 3,
-   "bo": 5,
-   "status": "finished",
-   "event": "VCT Threshold China 2026",
-   "tier": "A",
-   "startsAt": "2026-11-01T12:10:00+03:00",
-   "streams": [
-    {
-     "type": "youtube",
-     "id": "FaZ7dOdSVIY",
-     "lang": "zh",
-     "official": false,
-     "label": "UR vs NOVA - Week 2 - Day 6 - 2026 VCT CN Threshold"
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/unsettled-resentment-vlr-vs-nova-esports-01-11-2026"
   }
  ],
  "tournaments": [
@@ -800,6 +810,17 @@
    "end": "2026-11-12",
    "status": "upcoming",
    "url": "https://bo3.gg/dota2/tournaments/1win-essence-iii-play-in"
+  },
+  {
+   "name": "LCP 2027 Promotion",
+   "game": "LoL",
+   "gameKey": "lol",
+   "tier": "A",
+   "prize": null,
+   "start": "2026-11-10",
+   "end": "2026-11-13",
+   "status": "upcoming",
+   "url": "https://bo3.gg/lol/tournaments/lcp-2027-promotion"
   },
   {
    "name": "BLAST Rivals Fall 2026",

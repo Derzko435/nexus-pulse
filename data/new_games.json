@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T14:03:47+03:00",
+ "updatedAt": "2026-11-05T14:05:10+03:00",
  "items": [
   {
    "appid": 4115450,
@@ -24,38 +24,13 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4115450/"
    },
-   "reviews": 66940
-  },
-  {
-   "appid": 3218230,
-   "title": "ArcheAge Chronicles",
-   "date": "2026-11-03",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218230/header.jpg?t=1793752512",
-   "desc": "Откройте для себя Аврорию — бескрайний яркий мир, где хватает захватывающих историй и приключений. Игровой опыт ArcheAge Chronicles покорит и новичков в этом атмосферном мире, и опытных искателей приключений.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Многопользовательские игры"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "XLGAMES",
-   "price": "1500 руб.",
-   "url": "https://store.steampowered.com/app/3218230/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/3218230/"
-   },
-   "reviews": 911
+   "reviews": 75568
   },
   {
    "appid": 4348910,
    "title": "Probably Stolen – симулятор магазина в киберпанке",
    "date": "2026-10-28",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/d80d1aaf073c202bc793247bdc4c0504dfe28869/header_alt_assets_3_russian.jpg?t=1793711740",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/d80d1aaf073c202bc793247bdc4c0504dfe28869/header_alt_assets_3_russian.jpg?t=1793801444",
    "desc": "В этом симуляторе магазина на мрачной киберпанковой космической станции вы будете создавать полезные вещи из хлама, торговать (легально и не очень) товарами сомнительного происхождения и разбираться в отношениях между фракциями. Решайте сами, на что вы готовы пойти, чтобы остаться на плаву.",
    "genres": [
     "Инди",
@@ -74,32 +49,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4348910/"
    },
-   "reviews": 8583
-  },
-  {
-   "appid": 5335510,
-   "title": "Moon Sweepers",
-   "date": "2026-10-23",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/41e1e802dfc069cc245b91043e451a2f9ffa80e3/header.jpg?t=1792950881",
-   "desc": "Целая Луна для уборки. Одна зубная щётка для начала. Соберите команду до 16 игроков, собирайте и продавайте лунную пыль, улучшайте инструменты и открывайте уборочную технику. Превратите нелепую работу в процветающий бизнес, если друзья вообще будут помогать.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Казуальные игры"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "DragDrop Games",
-   "price": "420 руб.",
-   "url": "https://store.steampowered.com/app/5335510/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/5335510/"
-   },
-   "reviews": 5627
+   "reviews": 9528
   },
   {
    "appid": 5266240,
@@ -124,7 +74,32 @@
    "links": {
     "steam": "https://store.steampowered.com/app/5266240/"
    },
-   "reviews": 279
+   "reviews": 617
+  },
+  {
+   "appid": 5335510,
+   "title": "Moon Sweepers",
+   "date": "2026-10-23",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/41e1e802dfc069cc245b91043e451a2f9ffa80e3/header.jpg?t=1792950881",
+   "desc": "Целая Луна для уборки. Одна зубная щётка для начала. Соберите команду до 16 игроков, собирайте и продавайте лунную пыль, улучшайте инструменты и открывайте уборочную технику. Превратите нелепую работу в процветающий бизнес, если друзья вообще будут помогать.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Казуальные игры"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "DragDrop Games",
+   "price": "420 руб.",
+   "url": "https://store.steampowered.com/app/5335510/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/5335510/"
+   },
+   "reviews": 5973
   },
   {
    "appid": 1203620,
@@ -150,7 +125,108 @@
    "links": {
     "steam": "https://store.steampowered.com/app/1203620/"
    },
-   "reviews": 99440
+   "reviews": 99600
+  },
+  {
+   "appid": 3727090,
+   "title": "Horses of Hoofprint Bay",
+   "date": "2026-11-04",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/05ecc629bbeefe5b64ea3acc33da82009bccf968/header.jpg?t=1793830906",
+   "desc": "это милая, нарисованная от руки 2D-игра в жанре «point-and-click», в которой вам предстоит построить свою конюшню. Ухаживайте за лошадьми, тренируйте их, чтобы укрепить их силу и уверенность, и участвуйте в соревнованиях! Выращивайте милых жеребят, нанимайте сотрудников и стройте конюшню своей мечты",
+   "genres": [
+    "Казуальные игры",
+    "Симуляторы",
+    "Спорт"
+   ],
+   "platforms": [
+    "PC",
+    "Linux"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Thogli Studios",
+   "price": "1070,96 руб.",
+   "url": "https://store.steampowered.com/app/3727090/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/3727090/"
+   },
+   "reviews": 559
+  },
+  {
+   "appid": 3218230,
+   "title": "ArcheAge Chronicles",
+   "date": "2026-11-03",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218230/header.jpg?t=1793752512",
+   "desc": "Откройте для себя Аврорию — бескрайний яркий мир, где хватает захватывающих историй и приключений. Игровой опыт ArcheAge Chronicles покорит и новичков в этом атмосферном мире, и опытных искателей приключений.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Многопользовательские игры"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "XLGAMES",
+   "price": "1500 руб.",
+   "url": "https://store.steampowered.com/app/3218230/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/3218230/"
+   },
+   "reviews": 2366
+  },
+  {
+   "appid": 4358660,
+   "title": "Hull Rupture",
+   "date": "2026-11-04",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4358660/afbca0effb676627d4cf563b7eb23dc86b21dcad/header_alt_assets_4_russian.jpg?t=1793808075",
+   "desc": "Если он остановится, человечество обречено. Управляй космическим кораблем, отражай атаки инопланетян и эксплуатируй жалких человеков. В этом роглайт-менеджере ресурсов с элементами Tower Defense ты - Искусственный Интеллект, который мстит пришельцам за уничтожение Земли!",
+   "genres": [
+    "Экшены",
+    "Инди",
+    "Стратегии"
+   ],
+   "platforms": [
+    "PC",
+    "Mac",
+    "Linux"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Konfa Games",
+   "price": "621 руб.",
+   "url": "https://store.steampowered.com/app/4358660/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4358660/"
+   }
+  },
+  {
+   "appid": 5181520,
+   "title": "Mycelarium",
+   "date": "2026-11-03",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5181520/5b6220116b49c7e7a968cc608d32e47bc8fe722f/header.jpg?t=1793730446",
+   "desc": "Выращивайте бесконечно разрастающуюся грибницу в расслабляющей игре об исследовании и постепенном развитии. Находите скрытые ресурсы, выращивайте грибы, автоматизирующие производство, и превратите свой мицелий в настоящую подземную империю.",
+   "genres": [
+    "Симуляторы",
+    "Стратегии"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "PLAN KAPKAN",
+   "price": "196 руб.",
+   "url": "https://store.steampowered.com/app/5181520/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/5181520/"
+   },
+   "reviews": 329
   },
   {
    "appid": 1799840,
@@ -175,31 +251,28 @@
    "links": {
     "steam": "https://store.steampowered.com/app/1799840/"
    },
-   "reviews": 1973
+   "reviews": 2470
   },
   {
-   "appid": 5181520,
-   "title": "Mycelarium",
-   "date": "2026-11-03",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5181520/5b6220116b49c7e7a968cc608d32e47bc8fe722f/header.jpg?t=1793730446",
-   "desc": "Выращивайте бесконечно разрастающуюся грибницу в расслабляющей игре об исследовании и постепенном развитии. Находите скрытые ресурсы, выращивайте грибы, автоматизирующие производство, и превратите свой мицелий в настоящую подземную империю.",
-   "genres": [
-    "Симуляторы",
-    "Стратегии"
-   ],
+   "appid": 1677110,
+   "title": "Lightyear Frontier",
+   "date": "2026-11-04",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1677110/f4aec944f634f189990fe69e6d353b5609787955/header_alt_assets_7.jpg?t=1793811955",
+   "desc": "Приглашаем в расслабляющую игру о ферме в открытом мире, где всю тяжёлую работу выполняет робот. Обустройте идеальную ферму и автоматизируйте её обслуживание. Настройте робота, чтобы он валил лес и пахал просторные поля, или отдохните и пригласите до трёх друзей полюбоваться закатом.",
+   "genres": [],
    "platforms": [
     "PC"
    ],
    "stores": [
     "Steam"
    ],
-   "developer": "PLAN KAPKAN",
-   "price": "196 руб.",
-   "url": "https://store.steampowered.com/app/5181520/",
+   "developer": "FRAME BREAK",
+   "price": "1039 руб.",
+   "url": "https://store.steampowered.com/app/1677110/",
    "links": {
-    "steam": "https://store.steampowered.com/app/5181520/"
+    "steam": "https://store.steampowered.com/app/1677110/"
    },
-   "reviews": 154
+   "reviews": 4380
   },
   {
    "appid": 4954910,
@@ -224,82 +297,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4954910/"
    },
-   "reviews": 4603
-  },
-  {
-   "appid": 4312190,
-   "title": "CRACK",
-   "date": "2026-10-26",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4312190/4331f74523b5e0a99c4d9e88453d8ff7bb76434e/header_alt_assets_0_russian.jpg?t=1793567520",
-   "desc": "Почему в этой лаборатории находится гигантское яйцо? Ваша задача проста: взломайте его. Не задавайте вопросов. CRACK – это пошаговое совместное приключение для 1-4 игроков, в котором вы узнаете, что находится внутри таинственного гигантского яйца.",
-   "genres": [
-    "Приключенческие игры",
-    "Симуляторы"
-   ],
-   "platforms": [
-    "PC",
-    "Mac",
-    "Linux"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Rafoli",
-   "price": "359 руб.",
-   "url": "https://store.steampowered.com/app/4312190/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4312190/"
-   },
-   "reviews": 1724
-  },
-  {
-   "appid": 5228920,
-   "title": "Brick by Brick: Tidy Up the Small Town!",
-   "date": "2026-10-15",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5228920/8c57f18ab6a1940b328584fe5556f4c87839e1a0/header.jpg?t=1793541032",
-   "desc": "Brick By Brick — расслабляющая игра о наведении порядка, соло или в кооперативе до 5 игроков. Собирай, сортируй и укладывай 18 490 кирпичей, чтобы восстановить милый городок. Открывай полезные способности и смотри, как кучи превращаются в здания. Кирпич за кирпичом!",
-   "genres": [
-    "Казуальные игры",
-    "Инди",
-    "Симуляторы"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "PaperPixel Games",
-   "price": "385 руб.",
-   "url": "https://store.steampowered.com/app/5228920/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/5228920/"
-   },
-   "reviews": 823
-  },
-  {
-   "appid": 1892100,
-   "title": "HEART ABYSS",
-   "date": "2026-11-03",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1892100/12cb132b72d5b60611ec16713abadc769418ebf6/header_alt_assets_3_russian.jpg?t=1793775458",
-   "desc": "Heart Abyss - это брутальный экшен-платформер, вдохновленный Японией 17-18 веков. Разбуди своего внутреннего зверя и отомсти тем, кто надел на тебя ошейник. Разыщи свою сестру и раскрой тайну, которая стоит за исчезновением всех дзинко.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Инди"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "DEADMAP",
-   "price": "712 руб.",
-   "url": "https://store.steampowered.com/app/1892100/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/1892100/"
-   }
+   "reviews": 4674
   },
   {
    "appid": "x-octopath-traveler",
