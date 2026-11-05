@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T00:27:48+03:00",
+  "updatedAt": "2026-11-06T02:43:23+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -471,6 +471,24 @@
       "short_description": "For The King — это стратегическая RPG, которая сочетает в себе элементы настолки и рогалика в захватывающем приключении, меняющем судьбы королевств. Можно играть в одиночку или в компании с другими игроками как онлайн, так и по локальной сети."
     },
     {
+      "appid": "1272080",
+      "name": "PAYDAY 3",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1272080/3d85d86a3d2c792046792b19df83ceca0e6c58d3/header_alt_assets_12.jpg?t=1793901809",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 66,
+      "short_description": "PAYDAY 3 — это кооперативный шутер от первого лица для 1-4 игроков и абсолютная фантазия об ограблении, действие которой разворачивается в самом узнаваемом городе мира. Исчезните без следа или прорвитесь сквозь град пуль. В любом случае вы уйдете с добычей."
+    },
+    {
       "appid": "275850",
       "name": "No Man's Sky",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/9f1ca9e3b7d1dccb7b5af404a6739ddc1118ef32/header_alt_assets_26.jpg?t=1793196605",
@@ -508,43 +526,6 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
-      "appid": "1167630",
-      "name": "Teardown",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1167630/38bac946654a2cc775607518fb5c8e4e0a0f9a87/header.jpg?t=1791807602",
-      "genres": [
-        "Экшены",
-        "Инди",
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": 80,
-      "short_description": "Совершите идеальное ограбление в воксельном мире, не отказывая себе в разрушениях. Сносите стены, используя машины, или прокладывайте себе путь взрывчаткой. Меняйте окружающий мир под себя и дайте волю фантазии. Играйте в одиночку или в многопользовательском режиме, поддерживающем до 12 игроков."
-    },
-    {
-      "appid": "2615540",
-      "name": "VOID/BREAKER",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2615540/4f3789458cfd9c3375c2926620b19640135f7c4a/header_alt_assets_8.jpg?t=1793821113",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Адреналиновый шутер-roguelite от первого лица 🔴 Сражайтесь с машинами, которыми управляет ИИ. Разорвите бесконечный цикл. Создавайте бесконечные варианты оружия благодаря модам. Создавайте смертоносные синергии. Уничтожайте всё вокруг. /СЛОМАЙТЕ СИСТЕМУ /СЛОМАЙТЕ ТЮРЬМУ"
-    },
-    {
       "appid": "3527290",
       "name": "PEAK",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/31bac6b2eccf09b368f5e95ce510bae2baf3cfcd/header.jpg?t=1792684718",
@@ -580,57 +561,40 @@
       "short_description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
     },
     {
-      "appid": "4323260",
-      "name": "Ship Happens",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4323260/87caa7161510bd199f0c95b6feb4fa215e3735b4/header.jpg?t=1793898023",
+      "appid": "3426850",
+      "name": "Chronicles of Veldoria",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3426850/370b9ad1c87ff822a03a2853f4eb20e703fa41ab/header.jpg?t=1793909913",
       "genres": [
-        "Казуальные игры",
+        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Fuse enemies into unstoppable allies. Outsmart every fight where one wrong move flips the battle. Hit a weakness, act again; miss, and your team's turn ends early. Explore six regions, craft gear, and fight to save a world already rotting from within, in this JRPG built the old way."
+    },
+    {
+      "appid": "2640820",
+      "name": "Veiled Whispers",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2640820/header.jpg?t=1793912900",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
         "Инди"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "A chaotic co-op game for 2-4 players set in space. Think fast and work together to rescue ridiculously designed spaceships from the clutches of a black hole."
-    },
-    {
-      "appid": "2522120",
-      "name": "Airframe Ultra",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2522120/85ae9c79253627eb019c581e2fb2ace76f12cc97/header.jpg?t=1793904667",
-      "genres": [
-        "Экшены",
-        "Инди",
-        "Гонки"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
         "mac": false,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "На улицах Мегасити-Вест бывает лишь два вида гонщиков. Победители и мертвецы. Собранный из нелегальных запчастей эйрфрейм, ржавое мачете и кровь на автостраде — вот и все, что у тебя есть. Добро пожаловать в жестокий мир подпольных гонок серии «Ультра»!"
-    },
-    {
-      "appid": "4267480",
-      "name": "Just A Dice Game",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4267480/289e5c4eb6838995337571ec703a04dd6c1fb860/header.jpg?t=1793899218",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Рогалик, в котором ваша колода представляет собой мешок костей. Бросайте, набирайте очки и перебрасывайте, чтобы достигать всё более высоких целей. Лава извергается обсидианом, призраки появляются на пустых полях, а бомбы перебрасывают всё вокруг себя."
+      "short_description": "A school at night. A girl missing for 23 days. Seven children you can still hear singing. Veiled Whispers is first-person psychological horror with two stories set in the same school, choices that matter, and a building that knows exactly what you did."
     },
     {
       "appid": "1677110",
@@ -645,24 +609,6 @@
       },
       "metacritic": null,
       "short_description": "Приглашаем в расслабляющую игру о ферме в открытом мире, где всю тяжёлую работу выполняет робот. Обустройте идеальную ферму и автоматизируйте её обслуживание. Настройте робота, чтобы он валил лес и пахал просторные поля, или отдохните и пригласите до трёх друзей полюбоваться закатом."
-    },
-    {
-      "appid": "4140700",
-      "name": "Cash is King! Business Simulator",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4140700/94f6b303b94fdf443b351efa586a9e0791c2cff4/header.jpg?t=1793902305",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Начни с нуля и построй собственную бизнес-империю на солнечном Майами-Бич! Продавай лимонад, управляй торговыми автоматами, автоматизируй свои предприятия и превращай мелкие подработки в большие прибыли в этом расслабленном симуляторе от первого лица."
     },
     {
       "appid": "4944880",
@@ -698,6 +644,58 @@
       },
       "metacritic": null,
       "short_description": "Уютное idle ASMR-кафе с котиками, которое живёт на вашем экране. Готовьте блюда, обслуживайте гостей и украшайте кафе, пока работаете или отдыхаете."
+    },
+    {
+      "appid": "5208830",
+      "name": "Method in the Witchness",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5208830/2610c51948c8ab1d1f60991270129839c69efdbc/header.jpg?t=1793900350",
+      "genres": [
+        "Казуальные игры",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Method in the Witchness — уютная игра про сортировку ведьминских штучек, загадки и головоломки. Сортируйте предметы, решайте загадки и головоломки и открывайте удивительные истории, наполненные волшебством!"
+    },
+    {
+      "appid": "5154200",
+      "name": "Tabletop TD",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5154200/3a2ac6bb9544306f561f97b79efc0699cb4a0b6d/header.jpg?t=1793901846",
+      "genres": [
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A random tower defense around a tavern table, where everyone guards their own board. Draw towers with gold, from Spearman to Railgun, and set them by hand beside the rail. Merge three of a kind to grow stronger; it never fails. One lucky draw can turn the board around. Hold out solo or with friends."
+    },
+    {
+      "appid": "5088660",
+      "name": "Dungeon Miner",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5088660/52f04d02e622e4926269514d7f8cc3f9f31c1698/header.jpg?t=1793904541",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A 1–4 player online co-op mining game: go down the mine, dig up ore, and carry it back to the ship. Small gear stays on your body, but giant crystals must be carried in your own two arms. Pull the Dungeon Core and the mine starts to collapse. You have three minutes to get the cart back to the ship."
     }
   ]
 }

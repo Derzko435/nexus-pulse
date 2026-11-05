@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T00:27:53+03:00",
+  "updatedAt": "2026-11-06T02:43:28+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -23,16 +23,6 @@
       "steamAppId": "1272080"
     },
     {
-      "id": "steam-275850",
-      "title": "No Man's Sky",
-      "store": "Steam",
-      "old": 1900,
-      "neu": 760,
-      "pct": 60,
-      "url": "https://store.steampowered.com/app/275850/",
-      "steamAppId": "275850"
-    },
-    {
       "id": "steam-252490",
       "title": "Rust",
       "store": "Steam",
@@ -41,6 +31,26 @@
       "pct": 50,
       "url": "https://store.steampowered.com/app/252490/",
       "steamAppId": "252490"
+    },
+    {
+      "id": "steam-2615540",
+      "title": "VOID/BREAKER",
+      "store": "Steam",
+      "old": 1350,
+      "neu": 810,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/2615540/",
+      "steamAppId": "2615540"
+    },
+    {
+      "id": "steam-5260030",
+      "title": "Высадись во мне",
+      "store": "Steam",
+      "old": 335,
+      "neu": 201,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5260030/",
+      "steamAppId": "5260030"
     },
     {
       "id": "steam-3527290",
@@ -63,6 +73,16 @@
       "steamAppId": "3241660"
     },
     {
+      "id": "steam-5458320",
+      "title": "Hentai Furry Sheepy 2",
+      "store": "Steam",
+      "old": 64,
+      "neu": 44,
+      "pct": 31,
+      "url": "https://store.steampowered.com/app/5458320/",
+      "steamAppId": "5458320"
+    },
+    {
       "id": "steam-3426850",
       "title": "Chronicles of Veldoria",
       "store": "Steam",
@@ -71,6 +91,16 @@
       "pct": 30,
       "url": "https://store.steampowered.com/app/3426850/",
       "steamAppId": "3426850"
+    },
+    {
+      "id": "steam-4857840",
+      "title": "Crops & Coops",
+      "store": "Steam",
+      "old": 240,
+      "neu": 168,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/4857840/",
+      "steamAppId": "4857840"
     },
     {
       "id": "steam-2640820",
@@ -93,54 +123,24 @@
       "steamAppId": "1677110"
     },
     {
-      "id": "steam-4944880",
-      "title": "Cube Sweeper: 3D Minesweeper",
+      "id": "steam-5037670",
+      "title": "We're Gonna Need More Fireballs",
       "store": "Steam",
-      "old": 465,
-      "neu": 372,
+      "old": 555,
+      "neu": 444,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/4944880/",
-      "steamAppId": "4944880"
+      "url": "https://store.steampowered.com/app/5037670/",
+      "steamAppId": "5037670"
     },
     {
-      "id": "steam-4681680",
-      "title": "Cat Caffeine",
+      "id": "steam-5357940",
+      "title": "Levant Guard",
       "store": "Steam",
-      "old": 280,
-      "neu": 224,
+      "old": 385,
+      "neu": 308,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/4681680/",
-      "steamAppId": "4681680"
-    },
-    {
-      "id": "steam-5208830",
-      "title": "Method in the Witchness",
-      "store": "Steam",
-      "old": 245,
-      "neu": 196,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5208830/",
-      "steamAppId": "5208830"
-    },
-    {
-      "id": "steam-5154200",
-      "title": "Tabletop TD",
-      "store": "Steam",
-      "old": 240,
-      "neu": 192,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5154200/",
-      "steamAppId": "5154200"
-    },
-    {
-      "id": "steam-5088660",
-      "title": "Dungeon Miner",
-      "store": "Steam",
-      "old": 240,
-      "neu": 192,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5088660/",
-      "steamAppId": "5088660"
+      "url": "https://store.steampowered.com/app/5357940/",
+      "steamAppId": "5357940"
     }
   ]
 }
