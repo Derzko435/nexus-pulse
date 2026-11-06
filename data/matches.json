@@ -1,54 +1,7 @@
 {
- "updatedAt": "2026-11-06T13:59:20+03:00",
+ "updatedAt": "2026-11-06T22:43:27+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-133053",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "FURIA",
-   "teamB": "BetBoom",
-   "logoA": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "Intel Extreme Masters Beijing 2026",
-   "tier": "S",
-   "startsAt": "2026-11-06T14:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs"
-    },
-    {
-     "type": "kick",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "cs2_maincast"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_paragon_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "cs2_paragon_ru"
-    }
-   ],
-   "url": "https://bo3.gg/matches/furia-vs-betboom-team-06-11-2026"
-  },
   {
    "id": "bo3-130828",
    "game": "LoL",
@@ -101,6 +54,33 @@
     }
    ],
    "url": "https://bo3.gg/matches/the-mongolz-vs-natus-vincere-07-11-2026"
+  },
+  {
+   "id": "bo3-133055",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "MOUZ",
+   "teamB": "BetBoom",
+   "logoA": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
+   "logoB": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "Intel Extreme Masters Beijing 2026",
+   "tier": "S",
+   "startsAt": "2026-11-07T12:45:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/mouz-cs2-vs-betboom-team-07-11-2026"
   },
   {
    "id": "bo3-133623",
@@ -472,6 +452,53 @@
    "url": "https://bo3.gg/matches/mouz-cs2-vs-g2-11-11-2026"
   },
   {
+   "id": "bo3-133053",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "FURIA",
+   "teamB": "BetBoom",
+   "logoA": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
+   "scoreA": 1,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "Intel Extreme Masters Beijing 2026",
+   "tier": "S",
+   "startsAt": "2026-11-06T14:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs"
+    },
+    {
+     "type": "kick",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "cs2_maincast"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_paragon_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "cs2_paragon_ru"
+    }
+   ],
+   "url": "https://bo3.gg/matches/furia-vs-betboom-team-06-11-2026"
+  },
+  {
    "id": "bo3-133052",
    "game": "CS2",
    "gameKey": "cs2",
@@ -731,53 +758,6 @@
     }
    ],
    "url": "https://bo3.gg/matches/mouz-cs2-vs-parivision-04-11-2026"
-  },
-  {
-   "id": "bo3-133050",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Liquid",
-   "teamB": "BetBoom",
-   "logoA": "https://files.bo3.gg/uploads/team/790/image/webp-01cca8d35079cb4b21bc25268ac75bae.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
-   "scoreA": 1,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "Intel Extreme Masters Beijing 2026",
-   "tier": "S",
-   "startsAt": "2026-11-04T10:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs"
-    },
-    {
-     "type": "twitch",
-     "channel": "fl0m",
-     "lang": "en",
-     "official": true,
-     "label": "fl0m"
-    },
-    {
-     "type": "twitch",
-     "channel": "tvarenaesport",
-     "lang": "sr",
-     "official": true,
-     "label": "tvarenaesport"
-    },
-    {
-     "type": "twitch",
-     "channel": "mauisnake",
-     "lang": "en",
-     "official": false,
-     "label": "mauisnake"
-    }
-   ],
-   "url": "https://bo3.gg/matches/liquid-vs-betboom-team-04-11-2026"
   },
   {
    "id": "bo3-130830",
