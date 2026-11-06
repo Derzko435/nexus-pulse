@@ -1,52 +1,6 @@
 {
- "updatedAt": "2026-11-05T14:04:32+03:00",
+ "updatedAt": "2026-11-06T14:02:09+03:00",
  "items": [
-  {
-   "appid": "x-marvel-s-guardians-of-galaxy-encore",
-   "title": "Marvel's Guardians of the Galaxy Encore Edition",
-   "date": "2026-11-05",
-   "image": "https://upload.wikimedia.org/wikipedia/en/2/22/Guardians_of_the_Galaxy_game_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "desc": "Marvel’s Guardians of the Galaxy (в официальной русской локализации — «Стражи Галактики Marvel») — приключенческая компьютерная игра, разработанная Eidos Montreal в сотрудничестве с Marvel Games и изданная Square Enix. Игра основана на серии комиксов Marvel Comics «Стражи Галактики». Релиз игры…",
-   "genres": [
-    "Экшен-приключение"
-   ],
-   "platforms": [
-    "Switch"
-   ],
-   "stores": [],
-   "developer": "Eidos-Montréal",
-   "price": "",
-   "url": "https://ru.wikipedia.org/wiki/Marvel%E2%80%99s_Guardians_of_the_Galaxy",
-   "links": {
-    "wiki": "https://ru.wikipedia.org/wiki/Marvel%E2%80%99s_Guardians_of_the_Galaxy"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": 3204330,
-   "title": "Графство Фортуны",
-   "date": "2026-11-05",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3204330/214795a1e8e9d3aa811f8dd27c066ca6b41ef198/header.jpg?t=1793765403",
-   "desc": "Постройте средневековое графство, а не просто город. Основывайте деревни на обширной местности, налаживайте торговые связи вдоль рек и дорог, управляйте мэрами и культурами. Это масштабный симулятор строительства городов, где нет двух одинаковых графств.",
-   "genres": [
-    "Казуальные игры",
-    "Инди",
-    "Симуляторы"
-   ],
-   "platforms": [
-    "PC",
-    "Linux"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Nepos Games",
-   "price": "",
-   "url": "https://store.steampowered.com/app/3204330/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/3204330/"
-   }
-  },
   {
    "appid": 5160800,
    "title": "Find The Needle",
@@ -379,6 +333,29 @@
     "wiki": "https://ru.wikipedia.org/wiki/Grand_Theft_Auto_VI"
    },
    "source": "wiki"
+  },
+  {
+   "appid": 4523120,
+   "title": "Volvy’s Adventure: Reslimed",
+   "date": "2026-11-19",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4523120/bd01ad0f41f47272b6f1459de015d2494b24a422/header.jpg?t=1793281784",
+   "desc": "Volvy's Adventure: Reslimed — это захватывающий ремастер оригинального ремейка неизданного экшен-платформера, в котором главную роль играет самый известный талисман видеоигр всех времен.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "doinksoft",
+   "price": "180 руб.",
+   "url": "https://store.steampowered.com/app/4523120/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4523120/"
+   }
   },
   {
    "appid": "x-gothic-3-classic",
@@ -731,12 +708,12 @@
   },
   {
    "appid": 4452700,
-   "title": "Stage Tour",
+   "title": "STAGE TOUR",
    "date": "2026-12-10",
    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4452700/7074777401ca32c928e7702567ee08c282ff7393/header.jpg?t=1792510556",
-   "desc": "Соберите группу, зажгите на сцене и отправьтесь в турне в Stage Tour — ритм-игре новой эры. Вас ждут свыше 90 лицензированных треков, более 180 настоящих гитар Gibson®, Epiphone® и Kramer® и новые стили игры. В комплекте новый рогалик-режим Tour Mode!",
+   "desc": "Создайте свою группу, выходите на сцену и отправляйтесь в турне в Stage Tour, новой эволюции музыкальных ритм-игр. Слушайте более 90 официально лицензированных треков, разблокируйте более 180 аутентичных гитар Gibson®, Epiphone® и Kramer® и испытайте пять игровых режимов, включая совершенно новый режим рогалика Tour.",
    "genres": [
-    "Ритм-игра"
+    "Экшены"
    ],
    "platforms": [
     "PC",
@@ -753,33 +730,7 @@
    "url": "https://store.steampowered.com/app/4452700/",
    "links": {
     "steam": "https://store.steampowered.com/app/4452700/",
-    "epic": "https://store.epicgames.com/ru/p/stagetour-ac5b2f",
-    "wiki": "https://en.wikipedia.org/wiki/Stage_Tour"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": 3660710,
-   "title": "Armatus",
-   "date": "2027-01-07",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3660710/b5b7ba15558e1c278799ff66092b2ff4b5decc20/header.jpg?t=1787845839",
-   "desc": "ARMATUS — roguelite-шутер от третьего лица, действия которого разворачиваются среди руин Парижа, населенных демонами. Станьте последним воином древнего ордена, чтобы с помощью сверхъестественных способностей и мощного оружия очистить город и отыскать затерянный путь к небесам — Темные ворота.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Ролевые игры"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Counterplay Games Inc",
-   "price": "",
-   "url": "https://store.steampowered.com/app/3660710/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/3660710/"
+    "epic": "https://store.epicgames.com/ru/p/stagetour-ac5b2f"
    }
   },
   {
@@ -948,7 +899,7 @@
     "Steam"
    ],
    "developer": "Grimlore Games",
-   "price": "1540 руб.",
+   "price": "1999 руб.",
    "url": "https://store.steampowered.com/app/1154030/",
    "links": {
     "steam": "https://store.steampowered.com/app/1154030/",
