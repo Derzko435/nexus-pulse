@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T02:43:28+03:00",
+  "updatedAt": "2026-11-06T10:00:49+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -23,6 +23,16 @@
       "steamAppId": "1272080"
     },
     {
+      "id": "steam-275850",
+      "title": "No Man's Sky",
+      "store": "Steam",
+      "old": 1900,
+      "neu": 760,
+      "pct": 60,
+      "url": "https://store.steampowered.com/app/275850/",
+      "steamAppId": "275850"
+    },
+    {
       "id": "steam-252490",
       "title": "Rust",
       "store": "Steam",
@@ -33,24 +43,24 @@
       "steamAppId": "252490"
     },
     {
-      "id": "steam-2615540",
-      "title": "VOID/BREAKER",
+      "id": "steam-4982850",
+      "title": "Captive 3000",
       "store": "Steam",
-      "old": 1350,
-      "neu": 810,
+      "old": 855,
+      "neu": 513,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/2615540/",
-      "steamAppId": "2615540"
+      "url": "https://store.steampowered.com/app/4982850/",
+      "steamAppId": "4982850"
     },
     {
-      "id": "steam-5260030",
-      "title": "Высадись во мне",
+      "id": "steam-5455830",
+      "title": "Wrong Mine",
       "store": "Steam",
-      "old": 335,
-      "neu": 201,
+      "old": 360,
+      "neu": 216,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5260030/",
-      "steamAppId": "5260030"
+      "url": "https://store.steampowered.com/app/5455830/",
+      "steamAppId": "5455830"
     },
     {
       "id": "steam-3527290",
@@ -73,44 +83,44 @@
       "steamAppId": "3241660"
     },
     {
-      "id": "steam-5458320",
-      "title": "Hentai Furry Sheepy 2",
-      "store": "Steam",
-      "old": 64,
-      "neu": 44,
-      "pct": 31,
-      "url": "https://store.steampowered.com/app/5458320/",
-      "steamAppId": "5458320"
-    },
-    {
-      "id": "steam-3426850",
-      "title": "Chronicles of Veldoria",
-      "store": "Steam",
-      "old": 535,
-      "neu": 374,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/3426850/",
-      "steamAppId": "3426850"
-    },
-    {
-      "id": "steam-4857840",
-      "title": "Crops & Coops",
-      "store": "Steam",
-      "old": 240,
-      "neu": 168,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/4857840/",
-      "steamAppId": "4857840"
-    },
-    {
-      "id": "steam-2640820",
-      "title": "Veiled Whispers",
+      "id": "steam-4960570",
+      "title": "小贼修仙记",
       "store": "Steam",
       "old": 245,
-      "neu": 183,
+      "neu": 159,
+      "pct": 35,
+      "url": "https://store.steampowered.com/app/4960570/",
+      "steamAppId": "4960570"
+    },
+    {
+      "id": "steam-5437530",
+      "title": "RETRO NIGHT CHASE",
+      "store": "Steam",
+      "old": 196,
+      "neu": 137,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5437530/",
+      "steamAppId": "5437530"
+    },
+    {
+      "id": "steam-4903070",
+      "title": "PURR DIEM",
+      "store": "Steam",
+      "old": 385,
+      "neu": 288,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/2640820/",
-      "steamAppId": "2640820"
+      "url": "https://store.steampowered.com/app/4903070/",
+      "steamAppId": "4903070"
+    },
+    {
+      "id": "steam-5057340",
+      "title": "Дни в аквариуме",
+      "store": "Steam",
+      "old": 128,
+      "neu": 96,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/5057340/",
+      "steamAppId": "5057340"
     },
     {
       "id": "steam-1677110",
@@ -123,24 +133,14 @@
       "steamAppId": "1677110"
     },
     {
-      "id": "steam-5037670",
-      "title": "We're Gonna Need More Fireballs",
+      "id": "steam-4926360",
+      "title": "UBAI Ending",
       "store": "Steam",
-      "old": 555,
-      "neu": 444,
+      "old": 660,
+      "neu": 528,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/5037670/",
-      "steamAppId": "5037670"
-    },
-    {
-      "id": "steam-5357940",
-      "title": "Levant Guard",
-      "store": "Steam",
-      "old": 385,
-      "neu": 308,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5357940/",
-      "steamAppId": "5357940"
+      "url": "https://store.steampowered.com/app/4926360/",
+      "steamAppId": "4926360"
     }
   ]
 }
