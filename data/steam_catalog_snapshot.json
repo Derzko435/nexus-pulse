@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T10:00:44+03:00",
+  "updatedAt": "2026-11-06T19:00:57+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -473,7 +473,7 @@
     {
       "appid": "1272080",
       "name": "PAYDAY 3",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1272080/3d85d86a3d2c792046792b19df83ceca0e6c58d3/header_alt_assets_12.jpg?t=1793901809",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1272080/3d85d86a3d2c792046792b19df83ceca0e6c58d3/header_alt_assets_12.jpg?t=1793958317",
       "genres": [
         "Экшены",
         "Приключенческие игры",
@@ -487,6 +487,23 @@
       },
       "metacritic": 66,
       "short_description": "PAYDAY 3 — это кооперативный шутер от первого лица для 1-4 игроков и абсолютная фантазия об ограблении, действие которой разворачивается в самом узнаваемом городе мира. Исчезните без следа или прорвитесь сквозь град пуль. В любом случае вы уйдете с добычей."
+    },
+    {
+      "appid": "275850",
+      "name": "No Man's Sky",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/9f1ca9e3b7d1dccb7b5af404a6739ddc1118ef32/header_alt_assets_26.jpg?t=1793196605",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": 61,
+      "short_description": "No Man's Sky является научно-фантастической игрой об исследованиях и выживании в бесконечной, процедурно генерируемой вселенной."
     },
     {
       "appid": "252490",
@@ -509,12 +526,29 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
-      "appid": "2615540",
-      "name": "VOID/BREAKER",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2615540/4f3789458cfd9c3375c2926620b19640135f7c4a/header_alt_assets_8.jpg?t=1793821113",
+      "appid": "4982850",
+      "name": "Captive 3000",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4982850/e3efb7605eeda8af483744a294cccc65da0435e3/header.jpg?t=1793926790",
       "genres": [
         "Экшены",
         "Приключенческие игры",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Научно-фантастический данжен-кроулер от первого лица с боями в реальном времени. Исследуйте огромные космические базы и станции. Пошаговое перемещение по клеткам и классическая спрайтовая графика. Вдохновлён Dungeon Master, Eye of the Beholder, Grimrock и Captive."
+    },
+    {
+      "appid": "5455830",
+      "name": "Wrong Mine",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5455830/1fa50a4d47504aa8bc15edf053aabc3c9eeefa8f/header.jpg?t=1793927751",
+      "genres": [
+        "Казуальные игры",
         "Инди"
       ],
       "is_free": false,
@@ -524,24 +558,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Адреналиновый шутер-roguelite от первого лица 🔴 Сражайтесь с машинами, которыми управляет ИИ. Разорвите бесконечный цикл. Создавайте бесконечные варианты оружия благодаря модам. Создавайте смертоносные синергии. Уничтожайте всё вокруг. /СЛОМАЙТЕ СИСТЕМУ /СЛОМАЙТЕ ТЮРЬМУ"
-    },
-    {
-      "appid": "5260030",
-      "name": "Высадись во мне",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5260030/466b01b1a52be61c4d1e7c1edbacf24da49a4cec/header_russian.jpg?t=1793902682",
-      "genres": [
-        "Приключенческие игры",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "В городке в центральной Ирландии, где помнят каждое обещание, руководитель проекта встречает трех разных женщин и три способа остаться. В этой романтической визуальной новелле для взрослых ваши решения определят, с кем Малаки разделит осень города."
+      "short_description": "Оказавшись в ловушке из-за поломки экскаватора, исследуйте лабиринты шахт, чтобы найти детали и сбежать. Избегайте инопланетного паука, используя электрические ловушки, или предайте команду ради добычи. Будете бороться вместе или бросите всех, чтобы забрать всё себе?"
     },
     {
       "appid": "3527290",
@@ -579,28 +596,11 @@
       "short_description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
     },
     {
-      "appid": "5458320",
-      "name": "Hentai Furry Sheepy 2",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5458320/1f8ed931e2a724588c034f993d896fcf695cb5c4/header.jpg?t=1793902957",
+      "appid": "4960570",
+      "name": "小贼修仙记",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4960570/1d3527c02e3f6a188036909a5b41d653a1ff8065/header.jpg?t=1793928648",
       "genres": [
         "Казуальные игры",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Hentai Furry Sheepy 2 — красочная аниме-головоломка с очаровательной девушкой-овечкой! Пройди 24 уровня, открой красивые иллюстрации, собери достижения и насладись галереей ярких furry-артов. 🐑💜"
-    },
-    {
-      "appid": "3426850",
-      "name": "Chronicles of Veldoria",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3426850/370b9ad1c87ff822a03a2853f4eb20e703fa41ab/header.jpg?t=1793909913",
-      "genres": [
-        "Приключенческие игры",
         "Инди",
         "Ролевые игры"
       ],
@@ -611,12 +611,47 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Fuse enemies into unstoppable allies. Outsmart every fight where one wrong move flips the battle. Hit a weakness, act again; miss, and your team's turn ends early. Explore six regions, craft gear, and fight to save a world already rotting from within, in this JRPG built the old way."
+      "short_description": "An idle cultivation game at the bottom of your desktop. While you work, your thief steals, sells fakes and auctions loot to ascend. When Heaven notices, can he still steal his way to the top?"
     },
     {
-      "appid": "4857840",
-      "name": "Crops & Coops",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4857840/d8eb0a1d8686d3df00e516a1679d9bb521a90b85/header.jpg?t=1793919471",
+      "appid": "5437530",
+      "name": "RETRO NIGHT CHASE",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5437530/0d16ba1b664029b6362a3920fcf491300b55cfc3/header.jpg?t=1793939438",
+      "genres": [
+        "Инди",
+        "Гонки"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "RETRO NIGHT CHASE is a top-down highway escape game. Drift, shoot, drop oil slicks and deploy spike strips. Keep police behind you. The longer you hold out, the tougher things get!"
+    },
+    {
+      "appid": "4903070",
+      "name": "PURR DIEM",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4903070/a6ef949d6536aaf74e92c179496716d629a1debf/header.jpg?t=1793933351",
+      "genres": [
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "PURR DIEM is a first-person atmospheric horror game where you work shifts at a cyberpunk facility, trading credits and humanity for cybernetic upgrades to earn enough to save someone you love. Manage your quota, explore what's left behind, and decide what you're willing to give up."
+    },
+    {
+      "appid": "5057340",
+      "name": "Дни в аквариуме",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5057340/ec867924f5c9aef2f5b735a9f415e4bae752c22d/header_russian.jpg?t=1793931255",
       "genres": [
         "Казуальные игры"
       ],
@@ -627,25 +662,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Развивайте небольшую островную ферму в одиночку или по сети с тремя друзьями. Выращивайте урожай, рыбачьте и автоматизируйте ферму в уютной пиксельной инкрементальной игре."
-    },
-    {
-      "appid": "2640820",
-      "name": "Veiled Whispers",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2640820/header.jpg?t=1793912900",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "A school at night. A girl missing for 23 days. Seven children you can still hear singing. Veiled Whispers is first-person psychological horror with two stories set in the same school, choices that matter, and a building that knows exactly what you did."
+      "short_description": "«Дни в аквариуме» — уютная игра, в которой вы собираете коллекцию милых рыбок. Здесь 60 видов, 117 обликов и 18 сцен аквариума. Его можно уменьшить до маленького окна на рабочем столе или установить как живые обои."
     },
     {
       "appid": "1677110",
@@ -662,12 +679,11 @@
       "short_description": "Приглашаем в расслабляющую игру о ферме в открытом мире, где всю тяжёлую работу выполняет робот. Обустройте идеальную ферму и автоматизируйте её обслуживание. Настройте робота, чтобы он валил лес и пахал просторные поля, или отдохните и пригласите до трёх друзей полюбоваться закатом."
     },
     {
-      "appid": "5037670",
-      "name": "We're Gonna Need More Fireballs",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5037670/37cafcf98773e7dfe19fe570454fb01e0ddcc285/header.jpg?t=1793913961",
+      "appid": "4926360",
+      "name": "UBAI Ending",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4926360/36ccedad663595fdd33e95a1f8e7fea1276f4dff/header.jpg?t=1793937610",
       "genres": [
-        "Инди",
-        "Стратегии"
+        "Ролевые игры"
       ],
       "is_free": false,
       "platforms": {
@@ -676,24 +692,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "You're gonna need a bigger tower. Then thirty of them. A million bugs are coming down tunnels the size of a city, and the only correct answer is more fire. Burn them, rot them, feed them to hungry trees - whatever you do, don't stop casting."
-    },
-    {
-      "appid": "5357940",
-      "name": "Levant Guard",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5357940/9f3a4cb8134d24b455382589a6566cfa9410caac/header.jpg?t=1793911769",
-      "genres": [
-        "Экшены",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Lead the Levant Guard through five districts of an occupied city. Blind their surveillance, free the prisoners, protect the people and bring a family home in a story-driven tactical shooter set in the fictional Levantine city of Qasria."
+      "short_description": "Ryousuke is suddenly confronted with a difficult decision regarding the future of Ubai."
     }
   ]
 }

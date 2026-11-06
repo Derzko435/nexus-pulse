@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T10:00:49+03:00",
+  "updatedAt": "2026-11-06T19:01:05+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -23,16 +23,6 @@
       "steamAppId": "1272080"
     },
     {
-      "id": "steam-275850",
-      "title": "No Man's Sky",
-      "store": "Steam",
-      "old": 1900,
-      "neu": 760,
-      "pct": 60,
-      "url": "https://store.steampowered.com/app/275850/",
-      "steamAppId": "275850"
-    },
-    {
       "id": "steam-252490",
       "title": "Rust",
       "store": "Steam",
@@ -43,24 +33,54 @@
       "steamAppId": "252490"
     },
     {
-      "id": "steam-4982850",
-      "title": "Captive 3000",
+      "id": "steam-1167630",
+      "title": "Teardown",
       "store": "Steam",
-      "old": 855,
-      "neu": 513,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/4982850/",
-      "steamAppId": "4982850"
+      "old": 1399,
+      "neu": 699,
+      "pct": 50,
+      "url": "https://store.steampowered.com/app/1167630/",
+      "steamAppId": "1167630"
     },
     {
-      "id": "steam-5455830",
-      "title": "Wrong Mine",
+      "id": "steam-5203610",
+      "title": "Futanari Planet",
+      "store": "Steam",
+      "old": 500,
+      "neu": 300,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5203610/",
+      "steamAppId": "5203610"
+    },
+    {
+      "id": "steam-1211600",
+      "title": "ZED ZONE",
+      "store": "Steam",
+      "old": 460,
+      "neu": 276,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/1211600/",
+      "steamAppId": "1211600"
+    },
+    {
+      "id": "steam-5483470",
+      "title": "Алхимическая жизнь Серены",
+      "store": "Steam",
+      "old": 426,
+      "neu": 255,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5483470/",
+      "steamAppId": "5483470"
+    },
+    {
+      "id": "steam-3846920",
+      "title": "Anomaly Express",
       "store": "Steam",
       "old": 360,
       "neu": 216,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5455830/",
-      "steamAppId": "5455830"
+      "url": "https://store.steampowered.com/app/3846920/",
+      "steamAppId": "3846920"
     },
     {
       "id": "steam-3527290",
@@ -83,64 +103,44 @@
       "steamAppId": "3241660"
     },
     {
-      "id": "steam-4960570",
-      "title": "小贼修仙记",
+      "id": "steam-4280650",
+      "title": "Marble Ranch",
       "store": "Steam",
-      "old": 245,
-      "neu": 159,
+      "old": 195,
+      "neu": 126,
       "pct": 35,
-      "url": "https://store.steampowered.com/app/4960570/",
-      "steamAppId": "4960570"
+      "url": "https://store.steampowered.com/app/4280650/",
+      "steamAppId": "4280650"
     },
     {
-      "id": "steam-5437530",
-      "title": "RETRO NIGHT CHASE",
+      "id": "steam-4735200",
+      "title": "VOID ARMOR: FORM DRIVE",
       "store": "Steam",
-      "old": 196,
-      "neu": 137,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/5437530/",
-      "steamAppId": "5437530"
-    },
-    {
-      "id": "steam-4903070",
-      "title": "PURR DIEM",
-      "store": "Steam",
-      "old": 385,
-      "neu": 288,
+      "old": 290,
+      "neu": 217,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/4903070/",
-      "steamAppId": "4903070"
+      "url": "https://store.steampowered.com/app/4735200/",
+      "steamAppId": "4735200"
     },
     {
-      "id": "steam-5057340",
-      "title": "Дни в аквариуме",
+      "id": "steam-4159290",
+      "title": "The Rusted",
       "store": "Steam",
-      "old": 128,
-      "neu": 96,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5057340/",
-      "steamAppId": "5057340"
-    },
-    {
-      "id": "steam-1677110",
-      "title": "Lightyear Frontier",
-      "store": "Steam",
-      "old": 1299,
-      "neu": 1039,
+      "old": 690,
+      "neu": 552,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/1677110/",
-      "steamAppId": "1677110"
+      "url": "https://store.steampowered.com/app/4159290/",
+      "steamAppId": "4159290"
     },
     {
-      "id": "steam-4926360",
-      "title": "UBAI Ending",
+      "id": "steam-3208460",
+      "title": "Rogue Braver | 勇者ローグ",
       "store": "Steam",
-      "old": 660,
-      "neu": 528,
+      "old": 625,
+      "neu": 500,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/4926360/",
-      "steamAppId": "4926360"
+      "url": "https://store.steampowered.com/app/3208460/",
+      "steamAppId": "3208460"
     }
   ]
 }
