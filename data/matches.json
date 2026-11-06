@@ -1,34 +1,7 @@
 {
- "updatedAt": "2026-11-05T23:18:05+03:00",
+ "updatedAt": "2026-11-06T04:50:07+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-130827",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Dplus KIA",
-   "teamB": "Bilibili Gaming",
-   "logoA": "https://files.bo3.gg/uploads/team/16873/image/webp-50c5603a916c50660cf658ec473f9b84.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17842/image/webp-bff13ca353afd9ebfe12e7773fe7899a.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "upcoming",
-   "event": "Worlds 2026",
-   "tier": "S",
-   "startsAt": "2026-11-06T01:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "riotgames",
-     "lang": "en",
-     "official": true,
-     "label": "riotgames",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/dplus-kia-vs-bilibili-gaming-lol-05-11-2026"
-  },
   {
    "id": "bo3-133052",
    "game": "CS2",
@@ -50,8 +23,28 @@
      "channel": "eslcs",
      "lang": "en",
      "official": true,
-     "label": "eslcs",
-     "fallback": true
+     "label": "eslcs"
+    },
+    {
+     "type": "twitch",
+     "channel": "trottah",
+     "lang": "en",
+     "official": true,
+     "label": "trottah"
+    },
+    {
+     "type": "kick",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "cs2_maincast"
     }
    ],
    "url": "https://bo3.gg/matches/parivision-vs-natus-vincere-06-11-2026"
@@ -77,8 +70,28 @@
      "channel": "eslcs",
      "lang": "en",
      "official": true,
-     "label": "eslcs",
-     "fallback": true
+     "label": "eslcs"
+    },
+    {
+     "type": "kick",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "cs2_maincast"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_paragon_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "cs2_paragon_ru"
     }
    ],
    "url": "https://bo3.gg/matches/furia-vs-betboom-team-06-11-2026"
@@ -354,6 +367,32 @@
    "url": "https://bo3.gg/lol/matches/saigon-warriors-vs-gromp-esports-10-11-2026"
   },
   {
+   "id": "bo3-130827",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Dplus KIA",
+   "teamB": "Bilibili Gaming",
+   "logoA": "https://files.bo3.gg/uploads/team/16873/image/webp-50c5603a916c50660cf658ec473f9b84.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17842/image/webp-bff13ca353afd9ebfe12e7773fe7899a.webp",
+   "scoreA": 0,
+   "scoreB": 3,
+   "bo": 5,
+   "status": "finished",
+   "event": "Worlds 2026",
+   "tier": "S",
+   "startsAt": "2026-11-06T01:10:00+03:00",
+   "streams": [
+    {
+     "type": "youtube",
+     "id": "vePKTpsyWOU",
+     "lang": "ko",
+     "official": true,
+     "label": "DK vs BLG | 녹아웃 스테이지 8강 Day3 | 2026 월드 챔피언십"
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/dplus-kia-vs-bilibili-gaming-lol-05-11-2026"
+  },
+  {
    "id": "bo3-130829",
    "game": "LoL",
    "gameKey": "lol",
@@ -495,53 +534,6 @@
    "url": "https://bo3.gg/matches/the-mongolz-vs-furia-04-11-2026"
   },
   {
-   "id": "bo3-133050",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Liquid",
-   "teamB": "BetBoom",
-   "logoA": "https://files.bo3.gg/uploads/team/790/image/webp-01cca8d35079cb4b21bc25268ac75bae.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
-   "scoreA": 1,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "Intel Extreme Masters Beijing 2026",
-   "tier": "S",
-   "startsAt": "2026-11-04T10:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs"
-    },
-    {
-     "type": "twitch",
-     "channel": "fl0m",
-     "lang": "en",
-     "official": true,
-     "label": "fl0m"
-    },
-    {
-     "type": "twitch",
-     "channel": "tvarenaesport",
-     "lang": "sr",
-     "official": true,
-     "label": "tvarenaesport"
-    },
-    {
-     "type": "twitch",
-     "channel": "mauisnake",
-     "lang": "en",
-     "official": false,
-     "label": "mauisnake"
-    }
-   ],
-   "url": "https://bo3.gg/matches/liquid-vs-betboom-team-04-11-2026"
-  },
-  {
    "id": "bo3-133051",
    "game": "CS2",
    "gameKey": "cs2",
@@ -587,6 +579,53 @@
     }
    ],
    "url": "https://bo3.gg/matches/mouz-cs2-vs-parivision-04-11-2026"
+  },
+  {
+   "id": "bo3-133050",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Liquid",
+   "teamB": "BetBoom",
+   "logoA": "https://files.bo3.gg/uploads/team/790/image/webp-01cca8d35079cb4b21bc25268ac75bae.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
+   "scoreA": 1,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "Intel Extreme Masters Beijing 2026",
+   "tier": "S",
+   "startsAt": "2026-11-04T10:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs"
+    },
+    {
+     "type": "twitch",
+     "channel": "fl0m",
+     "lang": "en",
+     "official": true,
+     "label": "fl0m"
+    },
+    {
+     "type": "twitch",
+     "channel": "tvarenaesport",
+     "lang": "sr",
+     "official": true,
+     "label": "tvarenaesport"
+    },
+    {
+     "type": "twitch",
+     "channel": "mauisnake",
+     "lang": "en",
+     "official": false,
+     "label": "mauisnake"
+    }
+   ],
+   "url": "https://bo3.gg/matches/liquid-vs-betboom-team-04-11-2026"
   },
   {
    "id": "bo3-133041",
