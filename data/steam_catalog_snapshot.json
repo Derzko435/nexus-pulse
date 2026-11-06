@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T19:00:57+03:00",
+  "updatedAt": "2026-11-07T00:37:58+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -489,23 +489,6 @@
       "short_description": "PAYDAY 3 — это кооперативный шутер от первого лица для 1-4 игроков и абсолютная фантазия об ограблении, действие которой разворачивается в самом узнаваемом городе мира. Исчезните без следа или прорвитесь сквозь град пуль. В любом случае вы уйдете с добычей."
     },
     {
-      "appid": "275850",
-      "name": "No Man's Sky",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/9f1ca9e3b7d1dccb7b5af404a6739ddc1118ef32/header_alt_assets_26.jpg?t=1793196605",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": 61,
-      "short_description": "No Man's Sky является научно-фантастической игрой об исследованиях и выживании в бесконечной, процедурно генерируемой вселенной."
-    },
-    {
       "appid": "252490",
       "name": "Rust",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1781536981",
@@ -526,29 +509,80 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
-      "appid": "4982850",
-      "name": "Captive 3000",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4982850/e3efb7605eeda8af483744a294cccc65da0435e3/header.jpg?t=1793926790",
+      "appid": "1167630",
+      "name": "Teardown",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1167630/38bac946654a2cc775607518fb5c8e4e0a0f9a87/header.jpg?t=1791807602",
       "genres": [
         "Экшены",
-        "Приключенческие игры",
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 80,
+      "short_description": "Совершите идеальное ограбление в воксельном мире, не отказывая себе в разрушениях. Сносите стены, используя машины, или прокладывайте себе путь взрывчаткой. Меняйте окружающий мир под себя и дайте волю фантазии. Играйте в одиночку или в многопользовательском режиме, поддерживающем до 12 игроков."
+    },
+    {
+      "appid": "5203610",
+      "name": "Futanari Planet",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5203610/65ef3b9ed8e7c31c606dc92ed63b1a8e87713efc/header_russian.jpg?t=1793968525",
+      "genres": [
+        "Приключенческие игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Что, если бы у женщин-инопланетянок вместо вагины был член? 👽🍆 Познакомься с женщинами с других планет, андроидами и даже с демоницей... и наслаждайся сексом по всей галактике! 🌌❤️🔥 Насладитесь этой визуальной новеллой!"
+    },
+    {
+      "appid": "1211600",
+      "name": "ZED ZONE",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211600/aac7446006d1fb3898eccf697406d0c357cf20a3/header_alt_assets_2.jpg?t=1793949713",
+      "genres": [
+        "Экшены",
+        "Инди",
+        "Ролевые игры",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Мир охватила великая катастрофа. На задании ваш борт терпит крушение, и вы оказываетесь заперты в Zed Zone. Вокруг зомби и монстры. Чтобы выбраться, собирайте ресурсы, прокачивайте навыки, стройте убежища и громите орды зомби и загадочных мехов, следуя за проблеском надежды."
+    },
+    {
+      "appid": "5483470",
+      "name": "Алхимическая жизнь Серены",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5483470/c63f3d44acc2740326ad4d3bb3fd926fbfda2604/header_russian.jpg?t=1793972214",
+      "genres": [
         "Ролевые игры"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
+        "mac": false,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Научно-фантастический данжен-кроулер от первого лица с боями в реальном времени. Исследуйте огромные космические базы и станции. Пошаговое перемещение по клеткам и классическая спрайтовая графика. Вдохновлён Dungeon Master, Eye of the Beholder, Grimrock и Captive."
+      "short_description": "«Алхимическая жизнь Серены» — фэнтезийная RPG, где пять лет решений определяют будущее. Исследуйте 50 локаций, создавайте 169 видов предметов и сражайтесь с 600 видами монстров в пошаговых боях. Выполняйте заказы гильдии, дружите с Рио и Луной и откройте одну из 11 концовок."
     },
     {
-      "appid": "5455830",
-      "name": "Wrong Mine",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5455830/1fa50a4d47504aa8bc15edf053aabc3c9eeefa8f/header.jpg?t=1793927751",
+      "appid": "3846920",
+      "name": "Anomaly Express",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3846920/0be948c98f3895bfa96b06fbdeeedad84b73ddde/header.jpg?t=1793977025",
       "genres": [
-        "Казуальные игры",
         "Инди"
       ],
       "is_free": false,
@@ -558,7 +592,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Оказавшись в ловушке из-за поломки экскаватора, исследуйте лабиринты шахт, чтобы найти детали и сбежать. Избегайте инопланетного паука, используя электрические ловушки, или предайте команду ради добычи. Будете бороться вместе или бросите всех, чтобы забрать всё себе?"
+      "short_description": "Anomaly Express — кооперативный психологический хоррор для 1-4 игроков на борту зимнего поезда. Находите аномалии, переживайте смертельные столкновения и попытайтесь выбраться из бесконечного путешествия"
     },
     {
       "appid": "3527290",
@@ -596,13 +630,13 @@
       "short_description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
     },
     {
-      "appid": "4960570",
-      "name": "小贼修仙记",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4960570/1d3527c02e3f6a188036909a5b41d653a1ff8065/header.jpg?t=1793928648",
+      "appid": "4280650",
+      "name": "Marble Ranch",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4280650/10a135f077b2b0c4a5c9bd3831d4feb2265b6f4c/header.jpg?t=1793968953",
       "genres": [
         "Казуальные игры",
         "Инди",
-        "Ролевые игры"
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
@@ -611,15 +645,15 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "An idle cultivation game at the bottom of your desktop. While you work, your thief steals, sells fakes and auctions loot to ascend. When Heaven notices, can he still steal his way to the top?"
+      "short_description": "Уютная игра про шарики и ранчо с 16 нарисованными от руки зверями. Целься, заряжай и запускай стальные шарики, включай режимы «Буст», «Парение» и «Залп», собирай карточки, открывай друзей с уникальными навыками и смотри, как они живут на твоём ранчо днём и ночью круглый год."
     },
     {
-      "appid": "5437530",
-      "name": "RETRO NIGHT CHASE",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5437530/0d16ba1b664029b6362a3920fcf491300b55cfc3/header.jpg?t=1793939438",
+      "appid": "4735200",
+      "name": "VOID ARMOR: FORM DRIVE",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4735200/802f8f2839754e254995b5f351dddd6e3cd0a155/header.jpg?t=1793973403",
       "genres": [
-        "Инди",
-        "Гонки"
+        "Экшены",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -628,16 +662,15 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "RETRO NIGHT CHASE is a top-down highway escape game. Drift, shoot, drop oil slicks and deploy spike strips. Keep police behind you. The longer you hold out, the tougher things get!"
+      "short_description": "A top-down mecha action shooter where you instantly switch between an Energy Blade, rifle, launcher, and defense system to destroy enemy machines. Close the distance to slash, attack from range, or defend against incoming fire. Clear missions, improve your performance, and aim for higher ranks."
     },
     {
-      "appid": "4903070",
-      "name": "PURR DIEM",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4903070/a6ef949d6536aaf74e92c179496716d629a1debf/header.jpg?t=1793933351",
+      "appid": "4159290",
+      "name": "The Rusted",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4159290/a909fcdf1f66392266d591cadb134eecb636faf4/header.jpg?t=1793973112",
       "genres": [
         "Приключенческие игры",
-        "Инди",
-        "Симуляторы"
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -646,14 +679,16 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "PURR DIEM is a first-person atmospheric horror game where you work shifts at a cyberpunk facility, trading credits and humanity for cybernetic upgrades to earn enough to save someone you love. Manage your quota, explore what's left behind, and decide what you're willing to give up."
+      "short_description": "Теперь мир принадлежит машинам. Отправьтесь вместе с верным псом-роботом в путешествие по опустевшему ржавеющему миру в поисках его потерянной человеческой семьи. THE RUSTED — нарисованное вручную 2D action-puzzle платформенное приключение."
     },
     {
-      "appid": "5057340",
-      "name": "Дни в аквариуме",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5057340/ec867924f5c9aef2f5b735a9f415e4bae752c22d/header_russian.jpg?t=1793931255",
+      "appid": "3208460",
+      "name": "Rogue Braver | 勇者ローグ",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3208460/header.jpg?t=1793969991",
       "genres": [
-        "Казуальные игры"
+        "Инди",
+        "Ролевые игры",
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
@@ -662,37 +697,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "«Дни в аквариуме» — уютная игра, в которой вы собираете коллекцию милых рыбок. Здесь 60 видов, 117 обликов и 18 сцен аквариума. Его можно уменьшить до маленького окна на рабочем столе или установить как живые обои."
-    },
-    {
-      "appid": "1677110",
-      "name": "Lightyear Frontier",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1677110/f4aec944f634f189990fe69e6d353b5609787955/header_alt_assets_7.jpg?t=1793891345",
-      "genres": [],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Приглашаем в расслабляющую игру о ферме в открытом мире, где всю тяжёлую работу выполняет робот. Обустройте идеальную ферму и автоматизируйте её обслуживание. Настройте робота, чтобы он валил лес и пахал просторные поля, или отдохните и пригласите до трёх друзей полюбоваться закатом."
-    },
-    {
-      "appid": "4926360",
-      "name": "UBAI Ending",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4926360/36ccedad663595fdd33e95a1f8e7fea1276f4dff/header.jpg?t=1793937610",
-      "genres": [
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Ryousuke is suddenly confronted with a difficult decision regarding the future of Ubai."
+      "short_description": "A Classic Turn-Based Roguelike RPG with Procedurally Generated Dungeons"
     }
   ]
 }
