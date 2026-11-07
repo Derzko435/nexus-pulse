@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T19:32:37+03:00",
+  "updatedAt": "2026-11-08T01:00:52+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -524,6 +524,44 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
+      "appid": "1167630",
+      "name": "Teardown",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1167630/38bac946654a2cc775607518fb5c8e4e0a0f9a87/header.jpg?t=1791807602",
+      "genres": [
+        "Экшены",
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 80,
+      "short_description": "Совершите идеальное ограбление в воксельном мире, не отказывая себе в разрушениях. Сносите стены, используя машины, или прокладывайте себе путь взрывчаткой. Меняйте окружающий мир под себя и дайте волю фантазии. Играйте в одиночку или в многопользовательском режиме, поддерживающем до 12 игроков."
+    },
+    {
+      "appid": "5451370",
+      "name": "Legend of Cina 2",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5451370/2f11476fb2f7c54776cf9dd95b4ee712f9474e25/header.jpg?t=1794038555",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Ролевые игры",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "This game is made from the foundations of Legend of Cina, it's a turn-based strategy game and has 10 stages and 15 OSTs, each map will introduce a new character. The maximum level is 20 and characters can promote after level 10, they can also learn skills once they reach level 5 and 15."
+    },
+    {
       "appid": "1211600",
       "name": "ZED ZONE",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211600/aac7446006d1fb3898eccf697406d0c357cf20a3/header_alt_assets_2.jpg?t=1794035207",
@@ -543,13 +581,12 @@
       "short_description": "Мир охватила великая катастрофа. На задании ваш борт терпит крушение, и вы оказываетесь заперты в Zed Zone. Вокруг зомби и монстры. Чтобы выбраться, собирайте ресурсы, прокачивайте навыки, стройте убежища и громите орды зомби и загадочных мехов, следуя за проблеском надежды."
     },
     {
-      "appid": "5461940",
-      "name": "Black King's Defense",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5461940/f7fe25b44c583d607513bb394f4389554e08b2ed/header.jpg?t=1794001264",
+      "appid": "5150150",
+      "name": "Arcade Lacrosse",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5150150/4c45a76b9a65ffa8eb1356a38c56a02e28d96906/header.jpg?t=1794054588",
       "genres": [
-        "Казуальные игры",
         "Инди",
-        "Стратегии"
+        "Спорт"
       ],
       "is_free": false,
       "platforms": {
@@ -558,7 +595,24 @@
         "linux": true
       },
       "metacritic": null,
-      "short_description": "Build a maze out of chess pieces and defend your king in this Tower Defense take on the timeless classic, Chess! Pawns, rooks, bishops, knights and queens strike by their own moves as the white army marches across a 3D board, through a full hand balanced campaign."
+      "short_description": "Top-down arcade box lacrosse inspired by an all-time childhood favorite. Pick skinny, medium, or heavy body types - each with radically different speed, power, and checking. Versus, Co-Op, Multiplayer. Global leaderboard. GET IN EARLY. Lowest price during inaugural version."
+    },
+    {
+      "appid": "5230360",
+      "name": "One Night at Kevin's VR",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5230360/a00c28d6fc8e7eb10943270a006e0527dabd1414/header.jpg?t=1794042200",
+      "genres": [
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "One Night at Kevin's VR is a VR game that includes 6 mainline nights, 2 challenge nights, original mechanics, a cast of unique characters, and an interesting story to uncover as you survive your shifts at Highes."
     },
     {
       "appid": "4971330",
@@ -613,6 +667,24 @@
       "short_description": "PEAK — это совместная игра о восхождении, где малейшая ошибка может привести к гибели. Играйте в одиночку или вместе с группой отчаянных бойскаутов. Сбегите с таинственного острова, для чего вам потребуется забраться на гору в его центре. Хватит ли вам сил, чтобы достичь ПИКА?"
     },
     {
+      "appid": "4900110",
+      "name": "Oops… I Hooked Up with a Mermaid 🎣😳",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4900110/c2196ad8efee5dfa537eecc4f6b6c61214d45e08/header.jpg?t=1794079524",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Well, nice catch! You caught a mermaid with a tempting smile and she isn’t going to let you go that easily. Reel her closer, uncover the secrets of the deep and chase six endings: from sweet romance to something much darker."
+    },
+    {
       "appid": "3241660",
       "name": "R.E.P.O.",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/62177765c05399116f0453fe1177b00ceed698c4/header_alt_assets_3.jpg?t=1793278962",
@@ -628,79 +700,6 @@
       },
       "metacritic": null,
       "short_description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
-    },
-    {
-      "appid": "5047920",
-      "name": "Blind Route",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5047920/b097e2a7ec50761ecb462e092ba66ffd1590115f/header.jpg?t=1794012599",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Многопользовательские игры",
-        "Гонки",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Blind не видит маршрут; его товарищи по команде должны описать его голосом. Общайтесь как Blind и Guide, преодолевайте опасные 3D-полосы препятствий и доберитесь до финиша раньше команды соперников в одиночном, кооперативном и соревновательном онлайн-режимах."
-    },
-    {
-      "appid": "5013580",
-      "name": "Picrand",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5013580/5da8af031f1daac2a89c737ecf9bb5374affa0e7/header.jpg?t=1794031189",
-      "genres": [
-        "Казуальные игры",
-        "Анимация и моделирование",
-        "Дизайн и иллюстрация",
-        "Обработка фото",
-        "Разработка игр"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Picrand — мощный локальный менеджер изображений и материалов для художников, дизайнеров, разработчиков игр, коллекционеров изображений и других творческих специалистов. Просматривайте, собирайте, систематизируйте, находите, анализируйте и используйте изображения для референсов — всё в одном месте!"
-    },
-    {
-      "appid": "5483650",
-      "name": "The Perfect Part",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5483650/0a2b94bb75ce9a2832dd963abd9411a016bc4ae4/header.jpg?t=1794013278",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Program a CNC mill and lathe with simple steps, press CYCLE START and watch it cut real G-code. Then the inspector measures your part against the drawing. A short, relaxing game about making things."
-    },
-    {
-      "appid": "1677110",
-      "name": "Lightyear Frontier",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1677110/f4aec944f634f189990fe69e6d353b5609787955/header_alt_assets_7.jpg?t=1793891345",
-      "genres": [],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Приглашаем в расслабляющую игру о ферме в открытом мире, где всю тяжёлую работу выполняет робот. Обустройте идеальную ферму и автоматизируйте её обслуживание. Настройте робота, чтобы он валил лес и пахал просторные поля, или отдохните и пригласите до трёх друзей полюбоваться закатом."
     }
   ]
 }

@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-11-07T19:32:42+03:00",
+  "updatedAt": "2026-11-08T01:00:58+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
-      "id": "steam-584980",
-      "title": "Late Shift",
+      "id": "steam-512790",
+      "title": "Quern. Вечные мысли",
       "store": "Steam",
-      "old": 550,
-      "neu": 132,
-      "pct": 76,
-      "url": "https://store.steampowered.com/app/584980/",
-      "steamAppId": "584980"
+      "old": 449,
+      "neu": 44,
+      "pct": 90,
+      "url": "https://store.steampowered.com/app/512790/",
+      "steamAppId": "512790"
     },
     {
       "id": "steam-1272080",
@@ -53,14 +53,24 @@
       "steamAppId": "1167630"
     },
     {
-      "id": "steam-5451370",
-      "title": "Legend of Cina 2",
+      "id": "steam-2540670",
+      "title": "Terralysia",
+      "store": "Steam",
+      "old": 460,
+      "neu": 230,
+      "pct": 50,
+      "url": "https://store.steampowered.com/app/2540670/",
+      "steamAppId": "2540670"
+    },
+    {
+      "id": "steam-5444410",
+      "title": "Dungeon Survivor",
       "store": "Steam",
       "old": 64,
       "neu": 38,
       "pct": 41,
-      "url": "https://store.steampowered.com/app/5451370/",
-      "steamAppId": "5451370"
+      "url": "https://store.steampowered.com/app/5444410/",
+      "steamAppId": "5444410"
     },
     {
       "id": "steam-1211600",
@@ -81,36 +91,6 @@
       "pct": 40,
       "url": "https://store.steampowered.com/app/5150150/",
       "steamAppId": "5150150"
-    },
-    {
-      "id": "steam-5230360",
-      "title": "One Night at Kevin's VR",
-      "store": "Steam",
-      "old": 240,
-      "neu": 144,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5230360/",
-      "steamAppId": "5230360"
-    },
-    {
-      "id": "steam-4971330",
-      "title": "Depth Charge",
-      "store": "Steam",
-      "old": 240,
-      "neu": 144,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/4971330/",
-      "steamAppId": "4971330"
-    },
-    {
-      "id": "steam-5339950",
-      "title": "GENNADIYYY",
-      "store": "Steam",
-      "old": 99,
-      "neu": 59,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5339950/",
-      "steamAppId": "5339950"
     },
     {
       "id": "steam-3527290",
@@ -141,6 +121,26 @@
       "pct": 35,
       "url": "https://store.steampowered.com/app/3241660/",
       "steamAppId": "3241660"
+    },
+    {
+      "id": "steam-5273050",
+      "title": "Your Friend's Mom 2",
+      "store": "Steam",
+      "old": 220,
+      "neu": 154,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5273050/",
+      "steamAppId": "5273050"
+    },
+    {
+      "id": "steam-5437570",
+      "title": "Cabin Life",
+      "store": "Steam",
+      "old": 333,
+      "neu": 249,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/5437570/",
+      "steamAppId": "5437570"
     }
   ]
 }
