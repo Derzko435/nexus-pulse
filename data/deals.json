@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T11:57:42+03:00",
+  "updatedAt": "2026-11-07T19:32:42+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -43,6 +43,26 @@
       "steamAppId": "252490"
     },
     {
+      "id": "steam-1167630",
+      "title": "Teardown",
+      "store": "Steam",
+      "old": 1399,
+      "neu": 699,
+      "pct": 50,
+      "url": "https://store.steampowered.com/app/1167630/",
+      "steamAppId": "1167630"
+    },
+    {
+      "id": "steam-5451370",
+      "title": "Legend of Cina 2",
+      "store": "Steam",
+      "old": 64,
+      "neu": 38,
+      "pct": 41,
+      "url": "https://store.steampowered.com/app/5451370/",
+      "steamAppId": "5451370"
+    },
+    {
       "id": "steam-1211600",
       "title": "ZED ZONE",
       "store": "Steam",
@@ -53,14 +73,24 @@
       "steamAppId": "1211600"
     },
     {
-      "id": "steam-5461940",
-      "title": "Black King's Defense",
+      "id": "steam-5150150",
+      "title": "Arcade Lacrosse",
       "store": "Steam",
-      "old": 445,
-      "neu": 267,
+      "old": 240,
+      "neu": 144,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5461940/",
-      "steamAppId": "5461940"
+      "url": "https://store.steampowered.com/app/5150150/",
+      "steamAppId": "5150150"
+    },
+    {
+      "id": "steam-5230360",
+      "title": "One Night at Kevin's VR",
+      "store": "Steam",
+      "old": 240,
+      "neu": 144,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5230360/",
+      "steamAppId": "5230360"
     },
     {
       "id": "steam-4971330",
@@ -93,6 +123,16 @@
       "steamAppId": "3527290"
     },
     {
+      "id": "steam-4900110",
+      "title": "Oops… I Hooked Up with a Mermaid 🎣😳",
+      "store": "Steam",
+      "old": 556,
+      "neu": 350,
+      "pct": 37,
+      "url": "https://store.steampowered.com/app/4900110/",
+      "steamAppId": "4900110"
+    },
+    {
       "id": "steam-3241660",
       "title": "R.E.P.O.",
       "store": "Steam",
@@ -101,46 +141,6 @@
       "pct": 35,
       "url": "https://store.steampowered.com/app/3241660/",
       "steamAppId": "3241660"
-    },
-    {
-      "id": "steam-5047920",
-      "title": "Blind Route",
-      "store": "Steam",
-      "old": 535,
-      "neu": 401,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5047920/",
-      "steamAppId": "5047920"
-    },
-    {
-      "id": "steam-5013580",
-      "title": "Picrand",
-      "store": "Steam",
-      "old": 380,
-      "neu": 285,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5013580/",
-      "steamAppId": "5013580"
-    },
-    {
-      "id": "steam-5483650",
-      "title": "The Perfect Part",
-      "store": "Steam",
-      "old": 240,
-      "neu": 180,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5483650/",
-      "steamAppId": "5483650"
-    },
-    {
-      "id": "steam-1677110",
-      "title": "Lightyear Frontier",
-      "store": "Steam",
-      "old": 1299,
-      "neu": 1039,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/1677110/",
-      "steamAppId": "1677110"
     }
   ]
 }

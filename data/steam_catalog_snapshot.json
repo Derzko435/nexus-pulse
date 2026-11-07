@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T11:57:36+03:00",
+  "updatedAt": "2026-11-07T19:32:37+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -543,12 +543,30 @@
       "short_description": "Мир охватила великая катастрофа. На задании ваш борт терпит крушение, и вы оказываетесь заперты в Zed Zone. Вокруг зомби и монстры. Чтобы выбраться, собирайте ресурсы, прокачивайте навыки, стройте убежища и громите орды зомби и загадочных мехов, следуя за проблеском надежды."
     },
     {
-      "appid": "5379080",
-      "name": "Vast Mines",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5379080/e3fbf0127cb4d7caed947371371b1af8649ba371/header.jpg?t=1793994021",
+      "appid": "5461940",
+      "name": "Black King's Defense",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5461940/f7fe25b44c583d607513bb394f4389554e08b2ed/header.jpg?t=1794001264",
       "genres": [
         "Казуальные игры",
-        "Инди"
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Build a maze out of chess pieces and defend your king in this Tower Defense take on the timeless classic, Chess! Pawns, rooks, bishops, knights and queens strike by their own moves as the white army marches across a 3D board, through a full hand balanced campaign."
+    },
+    {
+      "appid": "4971330",
+      "name": "Depth Charge",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4971330/c5e8d2ff9efc80293f17728e37485d4bcc234803/header.jpg?t=1794024823",
+      "genres": [
+        "Инди",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
@@ -557,7 +575,24 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "A simple but addictive isometric mining game, get upgrades, forge pickaxes, and travel deeper into the mines."
+      "short_description": "Fate pulls your soul into the orange deep."
+    },
+    {
+      "appid": "5339950",
+      "name": "GENNADIYYY",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5339950/d2fc46acc231ef2a9ff04a72aef7973e1d147cc5/header.jpg?t=1794027401",
+      "genres": [
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Комедийная головоломка от третьего лица. Геннадий пытается прожить обычный вечер: достать хлеб, накормить гостей из холодильника и записать спокойное видео. Мешают ожившие табуретки, которые замирают только в кадре включённой камеры."
     },
     {
       "appid": "3527290",
@@ -616,85 +651,48 @@
       "short_description": "Blind не видит маршрут; его товарищи по команде должны описать его голосом. Общайтесь как Blind и Guide, преодолевайте опасные 3D-полосы препятствий и доберитесь до финиша раньше команды соперников в одиночном, кооперативном и соревновательном онлайн-режимах."
     },
     {
-      "appid": "5425490",
-      "name": "Pet Store: Tidy Up Sorting Simulator",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5425490/c2aa4cf0d3ecf9eeb8a11c6890b5f1b3512f1fcc/header.jpg?t=1793993498",
+      "appid": "5013580",
+      "name": "Picrand",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5013580/5da8af031f1daac2a89c737ecf9bb5374affa0e7/header.jpg?t=1794031189",
       "genres": [
-        "Экшены",
-        "Приключенческие игры",
+        "Казуальные игры",
+        "Анимация и моделирование",
+        "Дизайн и иллюстрация",
+        "Обработка фото",
+        "Разработка игр"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Picrand — мощный локальный менеджер изображений и материалов для художников, дизайнеров, разработчиков игр, коллекционеров изображений и других творческих специалистов. Просматривайте, собирайте, систематизируйте, находите, анализируйте и используйте изображения для референсов — всё в одном месте!"
+    },
+    {
+      "appid": "5483650",
+      "name": "The Perfect Part",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5483650/0a2b94bb75ce9a2832dd963abd9411a016bc4ae4/header.jpg?t=1794013278",
+      "genres": [
         "Казуальные игры",
         "Инди",
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Tidy up, sort, and organize your very own pet store! Put pet toys, food, and accessories back on the shelves, clean up the mess, and turn a chaotic shop into a perfectly organized pet paradise!"
-    },
-    {
-      "appid": "4536940",
-      "name": "Relicta In Memoriam",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4536940/ecb2907da97dcd4d7eeb00b0c99f39aa30e1b942/header.jpg?t=1793993315",
-      "genres": [
-        "Приключенческие игры",
-        "Инди",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Relicta In Memoriam is a 2.5D pixel-art noir detective game. Explore the secrets of a world where supernatural phenomena threaten human life. Encounter and battle folklore creatures in intense turn-based combat, gather clues, and solve puzzles to unravel dark mysteries."
-    },
-    {
-      "appid": "1903340",
-      "name": "Clair Obscur: Expedition 33",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1903340/be3305b02d4db0dffa3458537118423bf2792d7e/header.jpg?t=1793903997",
-      "genres": [
-        "Экшены",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": 91,
-      "short_description": "Возглавьте Экспедицию 33 и уничтожьте Художницу, чтобы она никогда больше не смогла нарисовать смерть. Исследуйте мир чудес, созданный на основе Прекрасной эпохи Франции, и побеждайте уникальных врагов в пошаговой ролевой игре с механикой реального времени."
-    },
-    {
-      "appid": "5114030",
-      "name": "Retro TV Tycoon",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5114030/b0aae65447f9cb481a51cfcd156e5f75bcae0e38/header.jpg?t=1794004224",
-      "genres": [
         "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
-        "linux": true
+        "linux": false
       },
       "metacritic": null,
-      "short_description": "Возглавьте телеканал 90-х в Retro TV Tycoon! Покупайте права на ситкомы и культовое кино, составляйте сетку 24/7, заключайте выгодные контракты, улучшайте новости и расширяйте вещание на всю планету."
+      "short_description": "Program a CNC mill and lathe with simple steps, press CYCLE START and watch it cut real G-code. Then the inspector measures your part against the drawing. A short, relaxing game about making things."
     },
     {
-      "appid": "5268180",
-      "name": "Bannerborn",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5268180/6a6f6493ad9c457236c313ed916771a5f713951b/header.jpg?t=1794010834",
-      "genres": [
-        "Инди",
-        "Стратегии"
-      ],
+      "appid": "1677110",
+      "name": "Lightyear Frontier",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1677110/f4aec944f634f189990fe69e6d353b5609787955/header_alt_assets_7.jpg?t=1793891345",
+      "genres": [],
       "is_free": false,
       "platforms": {
         "windows": true,
@@ -702,7 +700,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Соберите необычную армию и доведите её мощь до абсурда. Нанимайте бойцов, объединяйте их способности, накапливайте улучшения и наблюдайте, как ваши планы оживают в бою. Отправляйтесь в фэнтезийную экспедицию с развилками в одиночку или в онлайн-кооперативе до 4 игроков."
+      "short_description": "Приглашаем в расслабляющую игру о ферме в открытом мире, где всю тяжёлую работу выполняет робот. Обустройте идеальную ферму и автоматизируйте её обслуживание. Настройте робота, чтобы он валил лес и пахал просторные поля, или отдохните и пригласите до трёх друзей полюбоваться закатом."
     }
   ]
 }
