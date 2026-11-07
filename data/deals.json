@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T00:38:04+03:00",
+  "updatedAt": "2026-11-07T05:02:23+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -23,6 +23,16 @@
       "steamAppId": "1272080"
     },
     {
+      "id": "steam-275850",
+      "title": "No Man's Sky",
+      "store": "Steam",
+      "old": 1900,
+      "neu": 760,
+      "pct": 60,
+      "url": "https://store.steampowered.com/app/275850/",
+      "steamAppId": "275850"
+    },
+    {
       "id": "steam-252490",
       "title": "Rust",
       "store": "Steam",
@@ -31,26 +41,6 @@
       "pct": 50,
       "url": "https://store.steampowered.com/app/252490/",
       "steamAppId": "252490"
-    },
-    {
-      "id": "steam-1167630",
-      "title": "Teardown",
-      "store": "Steam",
-      "old": 1399,
-      "neu": 699,
-      "pct": 50,
-      "url": "https://store.steampowered.com/app/1167630/",
-      "steamAppId": "1167630"
-    },
-    {
-      "id": "steam-1876930",
-      "title": "Saloon Simulator",
-      "store": "Steam",
-      "old": 680,
-      "neu": 408,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/1876930/",
-      "steamAppId": "1876930"
     },
     {
       "id": "steam-1211600",
@@ -73,36 +63,6 @@
       "steamAppId": "5379080"
     },
     {
-      "id": "steam-3977320",
-      "title": "Grave Of Voices",
-      "store": "Steam",
-      "old": 240,
-      "neu": 144,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/3977320/",
-      "steamAppId": "3977320"
-    },
-    {
-      "id": "steam-5333530",
-      "title": "WILD SEX",
-      "store": "Steam",
-      "old": 200,
-      "neu": 120,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5333530/",
-      "steamAppId": "5333530"
-    },
-    {
-      "id": "steam-5131730",
-      "title": "Trap Testers",
-      "store": "Steam",
-      "old": 385,
-      "neu": 238,
-      "pct": 38,
-      "url": "https://store.steampowered.com/app/5131730/",
-      "steamAppId": "5131730"
-    },
-    {
       "id": "steam-3527290",
       "title": "PEAK",
       "store": "Steam",
@@ -123,24 +83,64 @@
       "steamAppId": "3241660"
     },
     {
-      "id": "steam-4754460",
-      "title": "Crystalyn",
+      "id": "steam-5047920",
+      "title": "Blind Route",
       "store": "Steam",
-      "old": 385,
-      "neu": 269,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/4754460/",
-      "steamAppId": "4754460"
+      "old": 535,
+      "neu": 401,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/5047920/",
+      "steamAppId": "5047920"
     },
     {
-      "id": "steam-5466870",
-      "title": "Dark And Me",
+      "id": "steam-5425490",
+      "title": "Pet Store: Tidy Up Sorting Simulator",
       "store": "Steam",
-      "old": 245,
-      "neu": 171,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/5466870/",
-      "steamAppId": "5466870"
+      "old": 195,
+      "neu": 146,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/5425490/",
+      "steamAppId": "5425490"
+    },
+    {
+      "id": "steam-4536940",
+      "title": "Relicta In Memoriam",
+      "store": "Steam",
+      "old": 575,
+      "neu": 437,
+      "pct": 24,
+      "url": "https://store.steampowered.com/app/4536940/",
+      "steamAppId": "4536940"
+    },
+    {
+      "id": "steam-1903340",
+      "title": "Clair Obscur: Expedition 33",
+      "store": "Steam",
+      "old": 3499,
+      "neu": 2799,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/1903340/",
+      "steamAppId": "1903340"
+    },
+    {
+      "id": "steam-5114030",
+      "title": "Retro TV Tycoon",
+      "store": "Steam",
+      "old": 555,
+      "neu": 444,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/5114030/",
+      "steamAppId": "5114030"
+    },
+    {
+      "id": "steam-5268180",
+      "title": "Bannerborn",
+      "store": "Steam",
+      "old": 360,
+      "neu": 288,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/5268180/",
+      "steamAppId": "5268180"
     }
   ]
 }
