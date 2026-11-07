@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T05:02:23+03:00",
+  "updatedAt": "2026-11-07T11:57:42+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -53,14 +53,34 @@
       "steamAppId": "1211600"
     },
     {
-      "id": "steam-5379080",
-      "title": "Vast Mines",
+      "id": "steam-5461940",
+      "title": "Black King's Defense",
       "store": "Steam",
-      "old": 245,
-      "neu": 147,
+      "old": 445,
+      "neu": 267,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5379080/",
-      "steamAppId": "5379080"
+      "url": "https://store.steampowered.com/app/5461940/",
+      "steamAppId": "5461940"
+    },
+    {
+      "id": "steam-4971330",
+      "title": "Depth Charge",
+      "store": "Steam",
+      "old": 240,
+      "neu": 144,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/4971330/",
+      "steamAppId": "4971330"
+    },
+    {
+      "id": "steam-5339950",
+      "title": "GENNADIYYY",
+      "store": "Steam",
+      "old": 99,
+      "neu": 59,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5339950/",
+      "steamAppId": "5339950"
     },
     {
       "id": "steam-3527290",
@@ -93,54 +113,34 @@
       "steamAppId": "5047920"
     },
     {
-      "id": "steam-5425490",
-      "title": "Pet Store: Tidy Up Sorting Simulator",
+      "id": "steam-5013580",
+      "title": "Picrand",
       "store": "Steam",
-      "old": 195,
-      "neu": 146,
+      "old": 380,
+      "neu": 285,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/5425490/",
-      "steamAppId": "5425490"
+      "url": "https://store.steampowered.com/app/5013580/",
+      "steamAppId": "5013580"
     },
     {
-      "id": "steam-4536940",
-      "title": "Relicta In Memoriam",
+      "id": "steam-5483650",
+      "title": "The Perfect Part",
       "store": "Steam",
-      "old": 575,
-      "neu": 437,
-      "pct": 24,
-      "url": "https://store.steampowered.com/app/4536940/",
-      "steamAppId": "4536940"
+      "old": 240,
+      "neu": 180,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/5483650/",
+      "steamAppId": "5483650"
     },
     {
-      "id": "steam-1903340",
-      "title": "Clair Obscur: Expedition 33",
+      "id": "steam-1677110",
+      "title": "Lightyear Frontier",
       "store": "Steam",
-      "old": 3499,
-      "neu": 2799,
+      "old": 1299,
+      "neu": 1039,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/1903340/",
-      "steamAppId": "1903340"
-    },
-    {
-      "id": "steam-5114030",
-      "title": "Retro TV Tycoon",
-      "store": "Steam",
-      "old": 555,
-      "neu": 444,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5114030/",
-      "steamAppId": "5114030"
-    },
-    {
-      "id": "steam-5268180",
-      "title": "Bannerborn",
-      "store": "Steam",
-      "old": 360,
-      "neu": 288,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5268180/",
-      "steamAppId": "5268180"
+      "url": "https://store.steampowered.com/app/1677110/",
+      "steamAppId": "1677110"
     }
   ]
 }
