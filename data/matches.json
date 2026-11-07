@@ -1,67 +1,7 @@
 {
- "updatedAt": "2026-11-07T04:17:13+03:00",
+ "updatedAt": "2026-11-07T13:19:18+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-130828",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Karmine Corp",
-   "teamB": "T1",
-   "logoA": "https://files.bo3.gg/uploads/team/18342/image/webp-bee9ffd6f69f1a4036d9738f43107f12.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17529/image/webp-b20f1387008fb6d93034220cc660a9a2.webp",
-   "scoreA": 1,
-   "scoreB": 2,
-   "bo": 5,
-   "status": "live",
-   "event": "Worlds 2026",
-   "tier": "S",
-   "startsAt": "2026-11-07T01:05:00+03:00",
-   "streams": [
-    {
-     "type": "youtube",
-     "id": "p6RlMYWzW0U",
-     "lang": "ko",
-     "official": true,
-     "label": "T1 vs KC | 녹아웃 스테이지 8강 Day4 | 2026 월드 챔피언십"
-    },
-    {
-     "type": "youtube",
-     "id": "3bjMhxxyc-4",
-     "lang": "en",
-     "official": false,
-     "label": "T1 vs KC | WORLDS 2026 | Quarters Day 4"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/karmine-corp-lol-vs-t1-lol-06-11-2026"
-  },
-  {
-   "id": "bo3-133054",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "The MongolZ",
-   "teamB": "Natus Vincere",
-   "logoA": "https://files.bo3.gg/uploads/team/736/image/webp-499cad826b4cd83ce22f8bd2b13261d6.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/787/image/webp-ea9885f81f1572c7a6c9fb6cbf747c99.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "Intel Extreme Masters Beijing 2026",
-   "tier": "S",
-   "startsAt": "2026-11-07T09:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/the-mongolz-vs-natus-vincere-07-11-2026"
-  },
   {
    "id": "bo3-133055",
    "game": "CS2",
@@ -73,7 +13,7 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "Intel Extreme Masters Beijing 2026",
    "tier": "S",
    "startsAt": "2026-11-07T12:45:00+03:00",
@@ -83,8 +23,28 @@
      "channel": "eslcs",
      "lang": "en",
      "official": true,
-     "label": "eslcs",
-     "fallback": true
+     "label": "eslcs"
+    },
+    {
+     "type": "twitch",
+     "channel": "fl0m",
+     "lang": "en",
+     "official": true,
+     "label": "fl0m"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "cs2_maincast"
+    },
+    {
+     "type": "twitch",
+     "channel": "dachcs",
+     "lang": "de",
+     "official": true,
+     "label": "dachcs"
     }
    ],
    "url": "https://bo3.gg/matches/mouz-cs2-vs-betboom-team-07-11-2026"
@@ -100,7 +60,7 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "1win Essence III: Play-In",
    "tier": "A",
    "startsAt": "2026-11-07T13:00:00+03:00",
@@ -259,6 +219,33 @@
    "startsAt": "2026-11-08T22:00:00+03:00",
    "streams": [],
    "url": "https://bo3.gg/dota2/matches/froglings-vs-ka4kanarskie-cyxariki-08-11-2026"
+  },
+  {
+   "id": "bo3-130831",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Bilibili Gaming",
+   "teamB": "T1",
+   "logoA": "https://files.bo3.gg/uploads/team/17842/image/webp-bff13ca353afd9ebfe12e7773fe7899a.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17529/image/webp-b20f1387008fb6d93034220cc660a9a2.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "upcoming",
+   "event": "Worlds 2026",
+   "tier": "S",
+   "startsAt": "2026-11-09T01:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "riotgames",
+     "lang": "en",
+     "official": true,
+     "label": "riotgames",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/bilibili-gaming-lol-vs-t1-lol-08-11-2026"
   },
   {
    "id": "bo3-133631",
@@ -457,6 +444,86 @@
     }
    ],
    "url": "https://bo3.gg/matches/mouz-cs2-vs-g2-11-11-2026"
+  },
+  {
+   "id": "bo3-133054",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "The MongolZ",
+   "teamB": "Natus Vincere",
+   "logoA": "https://files.bo3.gg/uploads/team/736/image/webp-499cad826b4cd83ce22f8bd2b13261d6.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/787/image/webp-ea9885f81f1572c7a6c9fb6cbf747c99.webp",
+   "scoreA": 2,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "finished",
+   "event": "Intel Extreme Masters Beijing 2026",
+   "tier": "S",
+   "startsAt": "2026-11-07T09:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs"
+    },
+    {
+     "type": "twitch",
+     "channel": "fl0m",
+     "lang": "en",
+     "official": true,
+     "label": "fl0m"
+    },
+    {
+     "type": "twitch",
+     "channel": "trottah",
+     "lang": "en",
+     "official": true,
+     "label": "trottah"
+    },
+    {
+     "type": "twitch",
+     "channel": "kabrafps",
+     "lang": "pt",
+     "official": true,
+     "label": "kabrafps"
+    }
+   ],
+   "url": "https://bo3.gg/matches/the-mongolz-vs-natus-vincere-07-11-2026"
+  },
+  {
+   "id": "bo3-130828",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Karmine Corp",
+   "teamB": "T1",
+   "logoA": "https://files.bo3.gg/uploads/team/18342/image/webp-bee9ffd6f69f1a4036d9738f43107f12.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17529/image/webp-b20f1387008fb6d93034220cc660a9a2.webp",
+   "scoreA": 1,
+   "scoreB": 3,
+   "bo": 5,
+   "status": "finished",
+   "event": "Worlds 2026",
+   "tier": "S",
+   "startsAt": "2026-11-07T01:05:00+03:00",
+   "streams": [
+    {
+     "type": "youtube",
+     "id": "p6RlMYWzW0U",
+     "lang": "ko",
+     "official": true,
+     "label": "T1 vs KC | 녹아웃 스테이지 8강 Day4 | 2026 월드 챔피언십"
+    },
+    {
+     "type": "youtube",
+     "id": "3bjMhxxyc-4",
+     "lang": "en",
+     "official": false,
+     "label": "T1 vs KC | WORLDS 2026 | Quarters Day 4"
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/karmine-corp-lol-vs-t1-lol-06-11-2026"
   },
   {
    "id": "bo3-133053",
@@ -720,53 +787,6 @@
    "url": "https://bo3.gg/matches/the-mongolz-vs-furia-04-11-2026"
   },
   {
-   "id": "bo3-133051",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "MOUZ",
-   "teamB": "PARIVISION",
-   "logoA": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
-   "logoB": "https://files.bo3.gg/uploads/team/8171/image/webp-735594256ca5670882480debe25ffb69.webp",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "Intel Extreme Masters Beijing 2026",
-   "tier": "S",
-   "startsAt": "2026-11-04T10:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcsb",
-     "lang": "en",
-     "official": true,
-     "label": "eslcsb"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "cs2_maincast"
-    },
-    {
-     "type": "youtube",
-     "id": "TYh9AUNxWN8",
-     "lang": "en",
-     "official": false,
-     "label": "MOUZ vs. PVISION - IEM Beijing 2026 - Group B"
-    },
-    {
-     "type": "twitch",
-     "channel": "zonixxcs",
-     "lang": "de",
-     "official": false,
-     "label": "zonixxcs"
-    }
-   ],
-   "url": "https://bo3.gg/matches/mouz-cs2-vs-parivision-04-11-2026"
-  },
-  {
    "id": "bo3-130830",
    "game": "LoL",
    "gameKey": "lol",
@@ -798,17 +818,17 @@
     },
     {
      "type": "twitch",
-     "channel": "nervarien",
-     "lang": "pl",
+     "channel": "fortuna",
+     "lang": "sr",
      "official": true,
-     "label": "nervarien"
+     "label": "fortuna"
     },
     {
      "type": "twitch",
-     "channel": "hitpointcz",
-     "lang": "cs",
+     "channel": "riotgamesturkish",
+     "lang": "tr",
      "official": true,
-     "label": "hitpointcz"
+     "label": "riotgamesturkish"
     }
    ],
    "url": "https://bo3.gg/lol/matches/top-esports-lol-vs-invictus-gaming-lol-03-11-2026"
@@ -845,7 +865,7 @@
    "prize": 0,
    "start": "2026-11-07",
    "end": "2026-11-12",
-   "status": "upcoming",
+   "status": "current",
    "url": "https://bo3.gg/dota2/tournaments/1win-essence-iii-play-in"
   },
   {
