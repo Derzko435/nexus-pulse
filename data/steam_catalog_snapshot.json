@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T19:44:32+03:00",
+  "updatedAt": "2026-11-09T01:16:32+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -523,43 +523,6 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
-      "appid": "1167630",
-      "name": "Teardown",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1167630/38bac946654a2cc775607518fb5c8e4e0a0f9a87/header.jpg?t=1791807602",
-      "genres": [
-        "Экшены",
-        "Инди",
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": 80,
-      "short_description": "Совершите идеальное ограбление в воксельном мире, не отказывая себе в разрушениях. Сносите стены, используя машины, или прокладывайте себе путь взрывчаткой. Меняйте окружающий мир под себя и дайте волю фантазии. Играйте в одиночку или в многопользовательском режиме, поддерживающем до 12 игроков."
-    },
-    {
-      "appid": "2540670",
-      "name": "Terralysia",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2540670/header.jpg?t=1794077983",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "В Терралисии множество врагов: в этом рогалике вас ждут сложные миссии, бесконечные бои и сражения с боссами. Правильная стратегия и заклинания помогут выжить, но будьте начеку: не только вы становитесь сильнее, но и ваши враги."
-    },
-    {
       "appid": "5444410",
       "name": "Dungeon Survivor",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5444410/4b2ba010ae3d455ee9894481fbeef38a82538b0b/header.jpg?t=1794080956",
@@ -595,6 +558,23 @@
       },
       "metacritic": null,
       "short_description": "Мир охватила великая катастрофа. На задании ваш борт терпит крушение, и вы оказываетесь заперты в Zed Zone. Вокруг зомби и монстры. Чтобы выбраться, собирайте ресурсы, прокачивайте навыки, стройте убежища и громите орды зомби и загадочных мехов, следуя за проблеском надежды."
+    },
+    {
+      "appid": "5465870",
+      "name": "ゾンビ盛り！",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5465870/a35bb3a5019567987cb324e2d0a80eecaf655120/header.jpg?t=1794137752",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Stack zombies, clear lines, and chase high scores! Zombie Mori! is a fast-paced falling-block puzzle game packed with quirky zombies! Clear multiple lines, combine zombie types for huge score multipliers, and unlock all 50 zombies in your collection. The higher you stack, the higher you score!"
     },
     {
       "appid": "4763220",
@@ -651,6 +631,25 @@
       "short_description": "PEAK — это совместная игра о восхождении, где малейшая ошибка может привести к гибели. Играйте в одиночку или вместе с группой отчаянных бойскаутов. Сбегите с таинственного острова, для чего вам потребуется забраться на гору в его центре. Хватит ли вам сил, чтобы достичь ПИКА?"
     },
     {
+      "appid": "4715160",
+      "name": "Finals Week: Последний экзамен",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4715160/3d05c4f85866620b0b47754e30414cb4414b42dc/header.jpg?t=1793289966",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Симулятор школьника для 1-4 игроков. Здесь вы с друзьями пытаетесь любой ценой сдать последние экзамены. Воруйте ответы, прячьтесь от учителя и используйте любые средства, чтобы списать. Закончите школу, не выучив ни одной страницы!"
+    },
+    {
       "appid": "3241660",
       "name": "R.E.P.O.",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/62177765c05399116f0453fe1177b00ceed698c4/header_alt_assets_3.jpg?t=1793278962",
@@ -668,25 +667,6 @@
       "short_description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
     },
     {
-      "appid": "5076430",
-      "name": "Wandering Bard",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5076430/462adc3040b5d6843090bcc8e2035f2709df3729/header.jpg?t=1794094116",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Carry a song from a quiet tavern to the Grand Concord. Meet townsfolk, earn their trust, build the right set for each crowd and perform on five instrument-themed rhythm boards in a story-rich medieval adventure."
-    },
-    {
       "appid": "5381260",
       "name": "Terrum DeepDrill",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5381260/75a72803ff24e5c3ba387cb6b197c855d22e3f26/header.jpg?t=1794093996",
@@ -701,6 +681,22 @@
       },
       "metacritic": null,
       "short_description": "Terrum DeepDrill is a single-player drilling game in a 2.5D side view. Terrum Corp owns your debt and calls it a contract. Win tenders against rival firms, drill through the rock, and haul enough ore to stay ahead of the bill."
+    },
+    {
+      "appid": "5404190",
+      "name": "Bomb Disposal",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5404190/1cdf78c2f8aadbd32dbe5cebbca643047e616e7e/header.jpg?t=1794118975",
+      "genres": [
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A touch-based puzzle simulation game. A woman has been strapped to a new type of bomb, and her heart rate is linked to its trigger. Remove the restraints and tasks across her body, make her climax, and defuse the bomb. Features animated scenes and 2 endings."
     }
   ]
 }
