@@ -1,24 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-11-08T01:22:20+03:00",
+ "updatedAt": "2026-11-09T00:06:56+03:00",
  "posted": {
   "news": [
-   "a143e6e07f4d",
-   "13ab4c311dad",
-   "ce8abc090f28",
-   "8190b7dd1b64",
-   "b382befb2118",
-   "c7c082f46fba",
-   "25dc1c7b47ce",
-   "09f1eaa3947a",
-   "51f2866099d1",
-   "7a4fbee56be5",
-   "722df0933302",
-   "a640f22ab20a",
-   "c274eb7ef7f6",
-   "6f85abae98a2",
-   "1a284e77249d",
-   "6495eef678db",
    "7d0bd2e3005c",
    "06a310839bd6",
    "e76ca8be07bb",
@@ -502,7 +486,23 @@
    "805718481821",
    "9627f9f20f53",
    "8aa3c59f8c75",
-   "6c88afcd919c"
+   "6c88afcd919c",
+   "3eb3f1c614bf",
+   "a31e238a1f9f",
+   "713e9e94e28f",
+   "298e3e1f94fb",
+   "4f92141c4cc1",
+   "51e408ef064c",
+   "e063b2ef9603",
+   "edb5ef365a17",
+   "e323afb0963b",
+   "a0eb18da9b48",
+   "47e0bdc5c138",
+   "07283ff090c9",
+   "4700343ec8d8",
+   "244ebd31ba85",
+   "44f0699069cb",
+   "0671d6488928"
   ],
   "deals": [
    "steam-246420:90",
@@ -635,11 +635,6 @@
    "epic-a9748abde1c94b66aae5250bb9fc5503:now"
   ],
   "esports": [
-   "result:bo3-130689",
-   "result:bo3-130684",
-   "digest:2026-10-02",
-   "result:bo3-130685",
-   "live:bo3-129910",
    "result:bo3-129910",
    "live:bo3-129617",
    "live:bo3-130148",
@@ -1134,7 +1129,12 @@
    "result:bo3-133055",
    "digest:2026-11-08",
    "live:bo3-133632",
-   "live:bo3-130832"
+   "live:bo3-130832",
+   "result:bo3-130832",
+   "result:bo3-133056",
+   "result:bo3-133057",
+   "live:bo3-133636",
+   "digest:2026-11-09"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -1184,21 +1184,6 @@
    "apex:2026-11-06"
   ],
   "videos": [
-   "bd5-cvN7QX8",
-   "-OQw_U-cfg8",
-   "Jmg4VJdAc4U",
-   "UoX7mmYE5lM",
-   "4iWPZZ3jp-M",
-   "5wfrtSZ-qZo",
-   "Iu95EHMRf1c",
-   "sSwPm6Fy6Gk",
-   "43BJRdXD8t4",
-   "nyiOS88mPyo",
-   "3Pa58nQcNX4",
-   "oncWPrntAVc",
-   "cOsD-WO1ScQ",
-   "X4QZM2FMNwQ",
-   "1730_cjUjfE",
    "BJYgx_2PxHA",
    "Ksqs_V_67AU",
    "jJueLPftrYo",
@@ -1683,7 +1668,22 @@
    "cPiY5ma1teE",
    "w2tweCvwUPU",
    "FNMHx_bX9Lw",
-   "VGAoPhsShC4"
+   "VGAoPhsShC4",
+   "lmp262_60gI",
+   "BFi4ZAmFKjw",
+   "UjB432B1Pg4",
+   "Mgx1X2yrWto",
+   "I9Md-gU9TGE",
+   "_ZrGCA8_XsA",
+   "U8_Ow5RNI2g",
+   "4BhIlGCWgno",
+   "BcP0HVRp3pE",
+   "5qlYqcyC8B4",
+   "qOxyLmDUsFY",
+   "rH-XexiOBCA",
+   "AawydnDa790",
+   "51gF1BL8n20",
+   "Se6OL_DsGo8"
   ],
   "releases": [
    "week:2026-W39",
@@ -1772,14 +1772,16 @@
    "day:2026-11-05:x-marvel-s-guardians-of-galaxy-encore",
    "day:2026-11-05:3204330",
    "day:2026-11-06:5160800",
-   "day:2026-11-06:x-stellar-blade-complete"
+   "day:2026-11-06:x-stellar-blade-complete",
+   "week:2026-W46",
+   "day:2026-11-09:4576490",
+   "day:2026-11-09:3629430"
   ],
   "gotd": [
    "gotd:2026-09-24"
   ]
  },
  "matchPings": [
-  "2026-11-06T14:05+03:00",
   "2026-11-07T04:18+03:00",
   "2026-11-07T13:25+03:00",
   "2026-11-08T01:22+03:00"
@@ -1804,7 +1806,6 @@
   }
  },
  "dealPosts": [
-  "2026-11-06T00:28+03:00",
   "2026-11-07T00:38+03:00",
   "2026-11-08T01:01+03:00"
  ]
