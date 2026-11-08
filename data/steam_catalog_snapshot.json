@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T01:00:52+03:00",
+  "updatedAt": "2026-11-08T04:31:26+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -452,21 +452,20 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "584980",
-      "name": "Late Shift",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/584980/header.jpg?t=1727963993",
+      "appid": "512790",
+      "name": "Quern. Вечные мысли",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/512790/header.jpg?t=1790011335",
       "genres": [
-        "Приключенческие игры",
-        "Инди"
+        "Приключенческие игры"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": true,
-        "linux": false
+        "linux": true
       },
-      "metacritic": 79,
-      "short_description": "Late Shift - криминальный FMV-триллер с невероятно высокими ставками. Вы окажетесь в эпицентре лондонского ограбления и выберете своё приключение в интерактивном кинофильме с меняющейся историей, ведущей к одной из семи концовок. Ваши решения определяют вас."
+      "metacritic": 83,
+      "short_description": "Узнайте правду о прошлом Кверна. Раскройте тайны его настоящего. Станьте исследователем и определите его будущее. Объекты в Quern можно использовать разными способами в различных головоломках, за счет чего игра воспринимается как единое целое, а не как набор отдельных испытаний."
     },
     {
       "appid": "1272080",
@@ -543,14 +542,13 @@
       "short_description": "Совершите идеальное ограбление в воксельном мире, не отказывая себе в разрушениях. Сносите стены, используя машины, или прокладывайте себе путь взрывчаткой. Меняйте окружающий мир под себя и дайте волю фантазии. Играйте в одиночку или в многопользовательском режиме, поддерживающем до 12 игроков."
     },
     {
-      "appid": "5451370",
-      "name": "Legend of Cina 2",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5451370/2f11476fb2f7c54776cf9dd95b4ee712f9474e25/header.jpg?t=1794038555",
+      "appid": "2540670",
+      "name": "Terralysia",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2540670/header.jpg?t=1794077983",
       "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Ролевые игры",
-        "Стратегии"
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -559,7 +557,25 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "This game is made from the foundations of Legend of Cina, it's a turn-based strategy game and has 10 stages and 15 OSTs, each map will introduce a new character. The maximum level is 20 and characters can promote after level 10, they can also learn skills once they reach level 5 and 15."
+      "short_description": "В Терралисии множество врагов: в этом рогалике вас ждут сложные миссии, бесконечные бои и сражения с боссами. Правильная стратегия и заклинания помогут выжить, но будьте начеку: не только вы становитесь сильнее, но и ваши враги."
+    },
+    {
+      "appid": "5444410",
+      "name": "Dungeon Survivor",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5444410/4b2ba010ae3d455ee9894481fbeef38a82538b0b/header.jpg?t=1794080956",
+      "genres": [
+        "Экшены",
+        "Инди",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Battle enemy hordes, build powerful ability combinations, and defeat challenging bosses in this single-player bullet heaven roguelike. Choose distinct characters, unlock evolutions, and earn permanent upgrades—all with offline gameplay."
     },
     {
       "appid": "1211600",
@@ -598,57 +614,6 @@
       "short_description": "Top-down arcade box lacrosse inspired by an all-time childhood favorite. Pick skinny, medium, or heavy body types - each with radically different speed, power, and checking. Versus, Co-Op, Multiplayer. Global leaderboard. GET IN EARLY. Lowest price during inaugural version."
     },
     {
-      "appid": "5230360",
-      "name": "One Night at Kevin's VR",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5230360/a00c28d6fc8e7eb10943270a006e0527dabd1414/header.jpg?t=1794042200",
-      "genres": [
-        "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "One Night at Kevin's VR is a VR game that includes 6 mainline nights, 2 challenge nights, original mechanics, a cast of unique characters, and an interesting story to uncover as you survive your shifts at Highes."
-    },
-    {
-      "appid": "4971330",
-      "name": "Depth Charge",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4971330/c5e8d2ff9efc80293f17728e37485d4bcc234803/header.jpg?t=1794024823",
-      "genres": [
-        "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Fate pulls your soul into the orange deep."
-    },
-    {
-      "appid": "5339950",
-      "name": "GENNADIYYY",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5339950/d2fc46acc231ef2a9ff04a72aef7973e1d147cc5/header.jpg?t=1794027401",
-      "genres": [
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Комедийная головоломка от третьего лица. Геннадий пытается прожить обычный вечер: достать хлеб, накормить гостей из холодильника и записать спокойное видео. Мешают ожившие табуретки, которые замирают только в кадре включённой камеры."
-    },
-    {
       "appid": "3527290",
       "name": "PEAK",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/31bac6b2eccf09b368f5e95ce510bae2baf3cfcd/header.jpg?t=1792684718",
@@ -669,7 +634,7 @@
     {
       "appid": "4900110",
       "name": "Oops… I Hooked Up with a Mermaid 🎣😳",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4900110/c2196ad8efee5dfa537eecc4f6b6c61214d45e08/header.jpg?t=1794079524",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4900110/c2196ad8efee5dfa537eecc4f6b6c61214d45e08/header.jpg?t=1794091606",
       "genres": [
         "Казуальные игры",
         "Инди",
@@ -700,6 +665,42 @@
       },
       "metacritic": null,
       "short_description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
+    },
+    {
+      "appid": "5273050",
+      "name": "Your Friend's Mom 2",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5273050/5d6496523574981dd0eb76051c06ba8ee466c4d1/header.jpg?t=1794068305",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "💕 Ваша новая спутница на рабочем столе — мама одного из друзей в Steam! Общайтесь, закрутите роман и меняйте её внешность. Играйте в мини-игры, собирайте пазлы и открывайте фото, приглашайте друзей в сетевой кооператив, заводите питомцев и пользуйтесь множеством полезных инструментов! 🥵"
+    },
+    {
+      "appid": "5437570",
+      "name": "Cabin Life",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5437570/4350ce8a875b06deaa85526d4f93b9f5b6d80526/header.jpg?t=1794059236",
+      "genres": [
+        "Казуальные игры",
+        "Ролевые игры",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Create your character, pick your starting gear, and settle into a rented cabin in this immersive, relaxing life simulator. Forage, work odd jobs, sell junk at the thrift store, and keep yourself fed and clean as you save up for the cabin of your dreams."
     }
   ]
 }

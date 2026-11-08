@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T01:00:58+03:00",
+  "updatedAt": "2026-11-08T04:31:31+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -83,16 +83,6 @@
       "steamAppId": "1211600"
     },
     {
-      "id": "steam-5150150",
-      "title": "Arcade Lacrosse",
-      "store": "Steam",
-      "old": 240,
-      "neu": 144,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5150150/",
-      "steamAppId": "5150150"
-    },
-    {
       "id": "steam-3527290",
       "title": "PEAK",
       "store": "Steam",
@@ -123,6 +113,26 @@
       "steamAppId": "3241660"
     },
     {
+      "id": "steam-5381260",
+      "title": "Terrum DeepDrill",
+      "store": "Steam",
+      "old": 93,
+      "neu": 64,
+      "pct": 31,
+      "url": "https://store.steampowered.com/app/5381260/",
+      "steamAppId": "5381260"
+    },
+    {
+      "id": "steam-5472270",
+      "title": "Backrooms Found Hentai",
+      "store": "Steam",
+      "old": 64,
+      "neu": 44,
+      "pct": 31,
+      "url": "https://store.steampowered.com/app/5472270/",
+      "steamAppId": "5472270"
+    },
+    {
       "id": "steam-5273050",
       "title": "Your Friend's Mom 2",
       "store": "Steam",
@@ -131,16 +141,6 @@
       "pct": 30,
       "url": "https://store.steampowered.com/app/5273050/",
       "steamAppId": "5273050"
-    },
-    {
-      "id": "steam-5437570",
-      "title": "Cabin Life",
-      "store": "Steam",
-      "old": 333,
-      "neu": 249,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5437570/",
-      "steamAppId": "5437570"
     }
   ]
 }
