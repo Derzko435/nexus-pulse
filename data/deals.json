@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T04:31:31+03:00",
+  "updatedAt": "2026-11-08T12:12:32+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -83,6 +83,26 @@
       "steamAppId": "1211600"
     },
     {
+      "id": "steam-4763220",
+      "title": "ONE SKILL - Drive or Fall",
+      "store": "Steam",
+      "old": 195,
+      "neu": 117,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/4763220/",
+      "steamAppId": "4763220"
+    },
+    {
+      "id": "steam-3010300",
+      "title": "One-Hour Hero",
+      "store": "Steam",
+      "old": 42,
+      "neu": 25,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/3010300/",
+      "steamAppId": "3010300"
+    },
+    {
       "id": "steam-3527290",
       "title": "PEAK",
       "store": "Steam",
@@ -91,16 +111,6 @@
       "pct": 38,
       "url": "https://store.steampowered.com/app/3527290/",
       "steamAppId": "3527290"
-    },
-    {
-      "id": "steam-4900110",
-      "title": "Oops… I Hooked Up with a Mermaid 🎣😳",
-      "store": "Steam",
-      "old": 556,
-      "neu": 350,
-      "pct": 37,
-      "url": "https://store.steampowered.com/app/4900110/",
-      "steamAppId": "4900110"
     },
     {
       "id": "steam-3241660",
@@ -113,6 +123,16 @@
       "steamAppId": "3241660"
     },
     {
+      "id": "steam-5076430",
+      "title": "Wandering Bard",
+      "store": "Steam",
+      "old": 385,
+      "neu": 250,
+      "pct": 35,
+      "url": "https://store.steampowered.com/app/5076430/",
+      "steamAppId": "5076430"
+    },
+    {
       "id": "steam-5381260",
       "title": "Terrum DeepDrill",
       "store": "Steam",
@@ -121,26 +141,6 @@
       "pct": 31,
       "url": "https://store.steampowered.com/app/5381260/",
       "steamAppId": "5381260"
-    },
-    {
-      "id": "steam-5472270",
-      "title": "Backrooms Found Hentai",
-      "store": "Steam",
-      "old": 64,
-      "neu": 44,
-      "pct": 31,
-      "url": "https://store.steampowered.com/app/5472270/",
-      "steamAppId": "5472270"
-    },
-    {
-      "id": "steam-5273050",
-      "title": "Your Friend's Mom 2",
-      "store": "Steam",
-      "old": 220,
-      "neu": 154,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/5273050/",
-      "steamAppId": "5273050"
     }
   ]
 }

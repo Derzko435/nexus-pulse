@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T04:31:26+03:00",
+  "updatedAt": "2026-11-08T12:12:27+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -597,23 +597,6 @@
       "short_description": "Мир охватила великая катастрофа. На задании ваш борт терпит крушение, и вы оказываетесь заперты в Zed Zone. Вокруг зомби и монстры. Чтобы выбраться, собирайте ресурсы, прокачивайте навыки, стройте убежища и громите орды зомби и загадочных мехов, следуя за проблеском надежды."
     },
     {
-      "appid": "5150150",
-      "name": "Arcade Lacrosse",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5150150/4c45a76b9a65ffa8eb1356a38c56a02e28d96906/header.jpg?t=1794054588",
-      "genres": [
-        "Инди",
-        "Спорт"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Top-down arcade box lacrosse inspired by an all-time childhood favorite. Pick skinny, medium, or heavy body types - each with radically different speed, power, and checking. Versus, Co-Op, Multiplayer. Global leaderboard. GET IN EARLY. Lowest price during inaugural version."
-    },
-    {
       "appid": "3527290",
       "name": "PEAK",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/31bac6b2eccf09b368f5e95ce510bae2baf3cfcd/header.jpg?t=1792684718",
@@ -667,6 +650,43 @@
       "short_description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
     },
     {
+      "appid": "5381260",
+      "name": "Terrum DeepDrill",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5381260/75a72803ff24e5c3ba387cb6b197c855d22e3f26/header.jpg?t=1794093996",
+      "genres": [
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Terrum DeepDrill is a single-player drilling game in a 2.5D side view. Terrum Corp owns your debt and calls it a contract. Win tenders against rival firms, drill through the rock, and haul enough ore to stay ahead of the bill."
+    },
+    {
+      "appid": "5472270",
+      "name": "Backrooms Found Hentai",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5472270/d0ba78f7377f83eef910dac64a6c7eafcaa53e94/header.jpg?t=1794072584",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Ролевые игры",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Самый эмоциональный хоррор. Найдите все картинки прежде, чем сущности найдут вас."
+    },
+    {
       "appid": "5273050",
       "name": "Your Friend's Mom 2",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5273050/5d6496523574981dd0eb76051c06ba8ee466c4d1/header.jpg?t=1794068305",
@@ -683,24 +703,6 @@
       },
       "metacritic": null,
       "short_description": "💕 Ваша новая спутница на рабочем столе — мама одного из друзей в Steam! Общайтесь, закрутите роман и меняйте её внешность. Играйте в мини-игры, собирайте пазлы и открывайте фото, приглашайте друзей в сетевой кооператив, заводите питомцев и пользуйтесь множеством полезных инструментов! 🥵"
-    },
-    {
-      "appid": "5437570",
-      "name": "Cabin Life",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5437570/4350ce8a875b06deaa85526d4f93b9f5b6d80526/header.jpg?t=1794059236",
-      "genres": [
-        "Казуальные игры",
-        "Ролевые игры",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Create your character, pick your starting gear, and settle into a rented cabin in this immersive, relaxing life simulator. Forage, work odd jobs, sell junk at the thrift store, and keep yourself fed and clean as you save up for the cabin of your dreams."
     }
   ]
 }
