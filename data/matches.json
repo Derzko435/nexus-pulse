@@ -1,25 +1,7 @@
 {
- "updatedAt": "2026-11-08T13:28:29+03:00",
+ "updatedAt": "2026-11-08T16:54:42+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-133635",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "CyberHero",
-   "teamB": "angry birds",
-   "logoA": "https://files.bo3.gg/uploads/team/25398/image/webp-8560e60c7b3b107d8fa95472b1bc5ee5.webp",
-   "logoB": "",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "1win Essence III: Play-In",
-   "tier": "A",
-   "startsAt": "2026-11-08T13:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/cyberhero-vs-angry-birds-08-11-2026"
-  },
   {
    "id": "bo3-133623",
    "game": "Dota 2",
@@ -31,11 +13,26 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "1win Essence III: Play-In",
    "tier": "A",
-   "startsAt": "2026-11-08T16:00:00+03:00",
-   "streams": [],
+   "startsAt": "2026-11-08T16:15:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "1win_dota_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "1win_dota_ru"
+    },
+    {
+     "type": "twitch",
+     "channel": "1win_dota",
+     "lang": "en",
+     "official": false,
+     "label": "1win_dota"
+    }
+   ],
    "url": "https://bo3.gg/dota2/matches/l1ga-team-vs-yellow-submarine-08-11-2026"
   },
   {
@@ -53,7 +50,22 @@
    "event": "1win Essence III: Play-In",
    "tier": "A",
    "startsAt": "2026-11-08T19:00:00+03:00",
-   "streams": [],
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "1win_dota_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "1win_dota_ru"
+    },
+    {
+     "type": "twitch",
+     "channel": "1win_dota",
+     "lang": "en",
+     "official": false,
+     "label": "1win_dota"
+    }
+   ],
    "url": "https://bo3.gg/dota2/matches/playtime-vs-legion_stack-08-11-2026"
   },
   {
@@ -71,7 +83,22 @@
    "event": "1win Essence III: Play-In",
    "tier": "A",
    "startsAt": "2026-11-08T22:00:00+03:00",
-   "streams": [],
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "1win_dota_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "1win_dota_ru"
+    },
+    {
+     "type": "twitch",
+     "channel": "1win_dota",
+     "lang": "en",
+     "official": false,
+     "label": "1win_dota"
+    }
+   ],
    "url": "https://bo3.gg/dota2/matches/froglings-vs-ka4kanarskie-cyxariki-08-11-2026"
   },
   {
@@ -246,6 +273,24 @@
    "url": "https://bo3.gg/dota2/matches/xipto-esports-dota2-vs-playtime-10-11-2026"
   },
   {
+   "id": "bo3-133639",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Froglings",
+   "teamB": "Power Rangers",
+   "logoA": "",
+   "logoB": "https://files.bo3.gg/uploads/team/16653/image/webp-7a3038132e882126990e4bb43ef0f5d2.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "1win Essence III: Play-In",
+   "tier": "A",
+   "startsAt": "2026-11-10T19:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/dota2/matches/froglings-vs-power-rangers-dota2-10-11-2026-1"
+  },
+  {
    "id": "bo3-132588",
    "game": "CS2",
    "gameKey": "cs2",
@@ -370,6 +415,39 @@
     }
    ],
    "url": "https://bo3.gg/matches/mouz-cs2-vs-g2-11-11-2026"
+  },
+  {
+   "id": "bo3-133635",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "CyberHero",
+   "teamB": "angry birds",
+   "logoA": "https://files.bo3.gg/uploads/team/25398/image/webp-8560e60c7b3b107d8fa95472b1bc5ee5.webp",
+   "logoB": "",
+   "scoreA": 2,
+   "scoreB": 1,
+   "bo": 3,
+   "status": "finished",
+   "event": "1win Essence III: Play-In",
+   "tier": "A",
+   "startsAt": "2026-11-08T13:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "1win_dota_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "1win_dota_ru"
+    },
+    {
+     "type": "twitch",
+     "channel": "1win_dota",
+     "lang": "en",
+     "official": false,
+     "label": "1win_dota"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/cyberhero-vs-angry-birds-08-11-2026"
   },
   {
    "id": "bo3-133057",
