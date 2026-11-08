@@ -1,31 +1,6 @@
 {
- "updatedAt": "2026-11-07T13:23:02+03:00",
+ "updatedAt": "2026-11-08T13:31:33+03:00",
  "items": [
-  {
-   "appid": 4115450,
-   "title": "Phantom Blade Zero",
-   "date": "2026-10-28",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/7f882f889630270d3d3fb93825ac6f55b55e7a6c/header.jpg?t=1793261976",
-   "desc": "Phantom Blade Zero от S-GAME – приключения в жанре уся плюс бодрый экшен на базе Unreal Engine 5. Главному герою по имени Соул осталось жить 66 дней. Отбивайтесь от убийц, раскройте мировой заговор и защищайте то, во что верите, ценой жизни.",
-   "genres": [
-    "Экшены",
-    "Ролевые игры"
-   ],
-   "platforms": [
-    "PC",
-    "PlayStation"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "S-GAME Studio",
-   "price": "3999 руб.",
-   "url": "https://store.steampowered.com/app/4115450/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4115450/"
-   },
-   "reviews": 86525
-  },
   {
    "appid": 4348910,
    "title": "Probably Stolen – симулятор магазина в киберпанке",
@@ -49,7 +24,32 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4348910/"
    },
-   "reviews": 11472
+   "reviews": 12595
+  },
+  {
+   "appid": 4115450,
+   "title": "Phantom Blade Zero",
+   "date": "2026-10-28",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/7f882f889630270d3d3fb93825ac6f55b55e7a6c/header.jpg?t=1793261976",
+   "desc": "Phantom Blade Zero от S-GAME – приключения в жанре уся плюс бодрый экшен на базе Unreal Engine 5. Главному герою по имени Соул осталось жить 66 дней. Отбивайтесь от убийц, раскройте мировой заговор и защищайте то, во что верите, ценой жизни.",
+   "genres": [
+    "Экшены",
+    "Ролевые игры"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "S-GAME Studio",
+   "price": "3999 руб.",
+   "url": "https://store.steampowered.com/app/4115450/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4115450/"
+   },
+   "reviews": 92934
   },
   {
    "appid": 5266240,
@@ -74,32 +74,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/5266240/"
    },
-   "reviews": 1104
-  },
-  {
-   "appid": 2411200,
-   "title": "Underkeep",
-   "date": "2026-11-05",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2411200/be22c58d9f42d3d349198e87b3c192998047b053/header.jpg?t=1794008212",
-   "desc": "Исследуйте опасный фэнтезийный мир в этой ролевой игре в жанре «dungeon-crawler» с тактическими пошаговыми боями. Соберите отряд искателей приключений, улучшайте своё снаряжение и спуститесь в глубины Underkeep, чтобы раскрыть, что там скрывается.",
-   "genres": [
-    "Приключенческие игры",
-    "Инди",
-    "Ролевые игры"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Rake in Grass",
-   "price": "1274 руб.",
-   "url": "https://store.steampowered.com/app/2411200/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/2411200/"
-   },
-   "reviews": 365
+   "reviews": 1369
   },
   {
    "appid": 5335510,
@@ -124,32 +99,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/5335510/"
    },
-   "reviews": 6633
-  },
-  {
-   "appid": 5160800,
-   "title": "Find The Needle",
-   "date": "2026-11-06",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5160800/9ad39ef753543a194a7546ee8a17dc4b821cd021/header.jpg?t=1793980111",
-   "desc": "У вас есть лопата и стог сена примерно из шести миллионов травинок. Где-то внутри спрятана иголка. Ищите её вручную, продавайте сено, а заработанные деньги тратьте на конвейеры и машины, пока в конце концов вам больше не придётся копаться в сене самому.",
-   "genres": [
-    "Казуальные игры",
-    "Инди",
-    "Симуляторы"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Needless Games",
-   "price": "586 руб.",
-   "url": "https://store.steampowered.com/app/5160800/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/5160800/"
-   },
-   "reviews": 148
+   "reviews": 7010
   },
   {
    "appid": 1203620,
@@ -175,7 +125,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/1203620/"
    },
-   "reviews": 99816
+   "reviews": 99944
   },
   {
    "appid": 1211600,
@@ -200,7 +150,83 @@
    "links": {
     "steam": "https://store.steampowered.com/app/1211600/"
    },
-   "reviews": 3707
+   "reviews": 3823
+  },
+  {
+   "appid": 2411200,
+   "title": "Underkeep",
+   "date": "2026-11-05",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2411200/be22c58d9f42d3d349198e87b3c192998047b053/header.jpg?t=1794008212",
+   "desc": "Исследуйте опасный фэнтезийный мир в этой ролевой игре в жанре «dungeon-crawler» с тактическими пошаговыми боями. Соберите отряд искателей приключений, улучшайте своё снаряжение и спуститесь в глубины Underkeep, чтобы раскрыть, что там скрывается.",
+   "genres": [
+    "Приключенческие игры",
+    "Инди",
+    "Ролевые игры"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Rake in Grass",
+   "price": "1274 руб.",
+   "url": "https://store.steampowered.com/app/2411200/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/2411200/"
+   },
+   "reviews": 513
+  },
+  {
+   "appid": 5160800,
+   "title": "Find The Needle",
+   "date": "2026-11-06",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5160800/9ad39ef753543a194a7546ee8a17dc4b821cd021/header.jpg?t=1793980111",
+   "desc": "У вас есть лопата и стог сена примерно из шести миллионов травинок. Где-то внутри спрятана иголка. Ищите её вручную, продавайте сено, а заработанные деньги тратьте на конвейеры и машины, пока в конце концов вам больше не придётся копаться в сене самому.",
+   "genres": [
+    "Казуальные игры",
+    "Инди",
+    "Симуляторы"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Needless Games",
+   "price": "586 руб.",
+   "url": "https://store.steampowered.com/app/5160800/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/5160800/"
+   },
+   "reviews": 292
+  },
+  {
+   "appid": 4312190,
+   "title": "CRACK",
+   "date": "2026-10-26",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4312190/4331f74523b5e0a99c4d9e88453d8ff7bb76434e/header_alt_assets_0_russian.jpg?t=1794129294",
+   "desc": "Почему в этой лаборатории находится гигантское яйцо? Ваша задача проста: взломайте его. Не задавайте вопросов. CRACK – это пошаговое совместное приключение для 1-4 игроков, в котором вы узнаете, что находится внутри таинственного гигантского яйца.",
+   "genres": [
+    "Приключенческие игры",
+    "Симуляторы"
+   ],
+   "platforms": [
+    "PC",
+    "Mac",
+    "Linux"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Rafoli",
+   "price": "359 руб.",
+   "url": "https://store.steampowered.com/app/4312190/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4312190/"
+   },
+   "reviews": 2128
   },
   {
    "appid": 1677110,
@@ -221,18 +247,18 @@
    "links": {
     "steam": "https://store.steampowered.com/app/1677110/"
    },
-   "reviews": 4436
+   "reviews": 4467
   },
   {
-   "appid": 4725170,
-   "title": "Elven Huntress: Sunveil",
-   "date": "2026-11-06",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4725170/a76455e3cba81a03cda09148f164ad06d5505758/header.jpg?t=1793959270",
-   "desc": "Атмосферная экшен РПГ о эльфийской охотнице, исследующей фэнтезийные миры через магические порталы. Сражайтесь, собирайте редкое снаряжение и совершенствуйте своего персонажа.",
+   "appid": 3218230,
+   "title": "ArcheAge Chronicles",
+   "date": "2026-11-03",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218230/header.jpg?t=1793752512",
+   "desc": "Откройте для себя Аврорию — бескрайний яркий мир, где хватает захватывающих историй и приключений. Игровой опыт ArcheAge Chronicles покорит и новичков в этом атмосферном мире, и опытных искателей приключений.",
    "genres": [
     "Экшены",
     "Приключенческие игры",
-    "Ролевые игры"
+    "Многопользовательские игры"
    ],
    "platforms": [
     "PC"
@@ -240,37 +266,13 @@
    "stores": [
     "Steam"
    ],
-   "developer": "Satur Entertainment",
-   "price": "528 руб.",
-   "url": "https://store.steampowered.com/app/4725170/",
+   "developer": "XLGAMES",
+   "price": "1500 руб.",
+   "url": "https://store.steampowered.com/app/3218230/",
    "links": {
-    "steam": "https://store.steampowered.com/app/4725170/"
-   }
-  },
-  {
-   "appid": 3204330,
-   "title": "Графство Фортуны",
-   "date": "2026-11-05",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3204330/d3a9cbb44d4c839da3b69584302d81a7e27a593a/header_alt_assets_3_russian.jpg?t=1793894371",
-   "desc": "Постройте средневековое графство, а не просто город. Основывайте деревни на обширной местности, налаживайте торговые связи вдоль рек и дорог, управляйте мэрами и культурами. Это масштабный симулятор строительства городов, где нет двух одинаковых графств.",
-   "genres": [
-    "Казуальные игры",
-    "Инди",
-    "Симуляторы"
-   ],
-   "platforms": [
-    "PC",
-    "Linux"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Nepos Games",
-   "price": "1079 руб.",
-   "url": "https://store.steampowered.com/app/3204330/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/3204330/"
-   }
+    "steam": "https://store.steampowered.com/app/3218230/"
+   },
+   "reviews": 4049
   },
   {
    "appid": 1799840,
@@ -295,7 +297,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/1799840/"
    },
-   "reviews": 3351
+   "reviews": 3770
   },
   {
    "appid": "x-octopath-traveler",

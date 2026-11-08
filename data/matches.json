@@ -1,54 +1,7 @@
 {
- "updatedAt": "2026-11-08T09:44:31+03:00",
+ "updatedAt": "2026-11-08T13:28:29+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-133057",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "The MongolZ",
-   "teamB": "MOUZ",
-   "logoA": "https://files.bo3.gg/uploads/team/736/image/webp-499cad826b4cd83ce22f8bd2b13261d6.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "upcoming",
-   "event": "Intel Extreme Masters Beijing 2026",
-   "tier": "S",
-   "startsAt": "2026-11-08T10:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs"
-    },
-    {
-     "type": "twitch",
-     "channel": "psp1g",
-     "lang": "en",
-     "official": true,
-     "label": "psp1g"
-    },
-    {
-     "type": "twitch",
-     "channel": "trottah",
-     "lang": "en",
-     "official": true,
-     "label": "trottah"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "cs2_maincast"
-    }
-   ],
-   "url": "https://bo3.gg/matches/the-mongolz-vs-mouz-cs2-08-11-2026"
-  },
   {
    "id": "bo3-133635",
    "game": "Dota 2",
@@ -60,7 +13,7 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "1win Essence III: Play-In",
    "tier": "A",
    "startsAt": "2026-11-08T13:00:00+03:00",
@@ -417,6 +370,53 @@
     }
    ],
    "url": "https://bo3.gg/matches/mouz-cs2-vs-g2-11-11-2026"
+  },
+  {
+   "id": "bo3-133057",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "The MongolZ",
+   "teamB": "MOUZ",
+   "logoA": "https://files.bo3.gg/uploads/team/736/image/webp-499cad826b4cd83ce22f8bd2b13261d6.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
+   "scoreA": 0,
+   "scoreB": 3,
+   "bo": 5,
+   "status": "finished",
+   "event": "Intel Extreme Masters Beijing 2026",
+   "tier": "S",
+   "startsAt": "2026-11-08T10:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "eslcs",
+     "lang": "en",
+     "official": true,
+     "label": "eslcs"
+    },
+    {
+     "type": "twitch",
+     "channel": "psp1g",
+     "lang": "en",
+     "official": true,
+     "label": "psp1g"
+    },
+    {
+     "type": "twitch",
+     "channel": "trottah",
+     "lang": "en",
+     "official": true,
+     "label": "trottah"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "cs2_maincast"
+    }
+   ],
+   "url": "https://bo3.gg/matches/the-mongolz-vs-mouz-cs2-08-11-2026"
   },
   {
    "id": "bo3-133056",
@@ -819,53 +819,6 @@
    "url": "https://bo3.gg/matches/furia-vs-betboom-team-06-11-2026"
   },
   {
-   "id": "bo3-133052",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "PARIVISION",
-   "teamB": "Natus Vincere",
-   "logoA": "https://files.bo3.gg/uploads/team/8171/image/webp-735594256ca5670882480debe25ffb69.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/787/image/webp-ea9885f81f1572c7a6c9fb6cbf747c99.webp",
-   "scoreA": 1,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "Intel Extreme Masters Beijing 2026",
-   "tier": "S",
-   "startsAt": "2026-11-06T09:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs"
-    },
-    {
-     "type": "twitch",
-     "channel": "trottah",
-     "lang": "en",
-     "official": true,
-     "label": "trottah"
-    },
-    {
-     "type": "kick",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "cs2_maincast"
-    }
-   ],
-   "url": "https://bo3.gg/matches/parivision-vs-natus-vincere-06-11-2026"
-  },
-  {
    "id": "bo3-130827",
    "game": "LoL",
    "gameKey": "lol",
@@ -950,17 +903,6 @@
    "end": "2026-11-15",
    "status": "current",
    "url": "https://bo3.gg/lol/tournaments/worlds-2026"
-  },
-  {
-   "name": "Intel Extreme Masters Beijing 2026",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "tier": "S",
-   "prize": 1250000,
-   "start": "2026-11-02",
-   "end": "2026-11-08",
-   "status": "current",
-   "url": "https://bo3.gg/tournaments/intel-extreme-masters-beijing-2026"
   },
   {
    "name": "1win Essence III: Play-In",
