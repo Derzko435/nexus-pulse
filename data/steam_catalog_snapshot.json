@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T12:57:12+03:00",
+  "updatedAt": "2026-11-09T23:52:04+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -471,7 +471,7 @@
     {
       "appid": "1272080",
       "name": "PAYDAY 3",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1272080/3d85d86a3d2c792046792b19df83ceca0e6c58d3/header_alt_assets_12.jpg?t=1793958317",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1272080/1d66ef7e731a18e40b037d39618f7c3dfd614a90/header.jpg?t=1793958317",
       "genres": [
         "Экшены",
         "Приключенческие игры",
@@ -524,22 +524,6 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
-      "appid": "86249",
-      "name": "Steam App 86249",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/86249/header.jpg",
-      "genres": [],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "",
-      "catalogId": null,
-      "curated": true
-    },
-    {
       "appid": "1211600",
       "name": "ZED ZONE",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211600/aac7446006d1fb3898eccf697406d0c357cf20a3/header_alt_assets_2.jpg?t=1794210733",
@@ -561,7 +545,7 @@
     {
       "appid": "1859550",
       "name": "Raise",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1859550/98e1f9ff5b06622dd0207b618314ebd9b2773329/header.jpg?t=1794175810",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1859550/98e1f9ff5b06622dd0207b618314ebd9b2773329/header.jpg?t=1794234978",
       "genres": [
         "Экшены"
       ],
@@ -592,21 +576,39 @@
       "short_description": "Через четыре дня после урагана Хонора оценщик Арло Фонтено прибывает на обесточенный остров Корвина-Ки, чтобы быстро выносить окончательные решения. Выберите одну из трёх разных романтических линий с Вивьен, Тесс или Поппи, которые заставят его понять, что он должен острову и каждой из них."
     },
     {
-      "appid": "5465870",
-      "name": "ゾンビ盛り！",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5465870/a35bb3a5019567987cb324e2d0a80eecaf655120/header.jpg?t=1794137752",
+      "appid": "5416650",
+      "name": "Masyu: Line Logic",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5416650/d1f87890e2a6fbb115b3eafa5a18919542bf195a/header.jpg?t=1794214390",
       "genres": [
         "Казуальные игры",
-        "Инди"
+        "Инди",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
+        "mac": false,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Stack zombies, clear lines, and chase high scores! Zombie Mori! is a fast-paced falling-block puzzle game packed with quirky zombies! Clear multiple lines, combine zombie types for huge score multipliers, and unlock all 50 zombies in your collection. The higher you stack, the higher you score!"
+      "short_description": "A relaxing logic puzzle where you draw one loop through every circle, going straight through the white ones and turning on the black ones. Every puzzle has exactly one answer you can reach with logic alone, no guessing. Play the daily puzzle or choose from 15,000 more, Easy to Expert."
+    },
+    {
+      "appid": "4863540",
+      "name": "Progress98",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4863540/6a1ae3e5dbc9f3df32db8408f780fa81a472b4d4/header.jpg?t=1794211345",
+      "genres": [
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A satisfying incremental idle game that drops the pretense to give you pure unadulterated progress. Boost, earn bonuses and buy upgrades to speed up your progress or take it easy and let it make progress by itself while you make progress elsewhere. No stress, only progress!"
     },
     {
       "appid": "3527290",
@@ -646,7 +648,7 @@
     {
       "appid": "4861910",
       "name": "Pin-Finite",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4861910/9184f4a070308fb35b9f5192e5824a0adbfd72fb/header.jpg?t=1794178404",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4861910/9184f4a070308fb35b9f5192e5824a0adbfd72fb/header.jpg?t=1794243152",
       "genres": [
         "Инди",
         "Стратегии"
@@ -678,21 +680,25 @@
       "short_description": "Build and run your own kebab restaurant in a single-player management simulation. Set prices, hire staff, serve customers, keep the shop clean, upgrade the interior, and turn a small counter into a thriving food business."
     },
     {
-      "appid": "4643110",
-      "name": "Garden Of Being",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4643110/61adcf3bb76e04b47d6ed329766ea230606befdf/header.jpg?t=1794155939",
+      "appid": "3499520",
+      "name": "Piano Glow",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499520/header.jpg?t=1794204025",
       "genres": [
         "Казуальные игры",
-        "Инди"
+        "Инди",
+        "Симуляторы",
+        "Анимация и моделирование",
+        "Работа со звуком",
+        "Создание видео"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
-        "linux": false
+        "mac": true,
+        "linux": true
       },
       "metacritic": null,
-      "short_description": "Garden of Being is a hand-drawn oil pastel art game and a quiet journal of moods. Plant flowers, dedicate gardens to loved ones, and create downloadable prints. A fusion of art and code where gardens come alive while you are in them, and wait silently when you leave."
+      "short_description": "Играйте на пианино в онлайн-лобби с другими игроками: таблицы лидеров, игровые тренировки слуха, чтения нот, ритма, 4K/7K и игры по падающим нотам. Любая песня на QWERTY-клавиатуре или пианино. Превращайте любое видео с пианино или ноты в урок с падающими нотами или MIDI."
     }
   ]
 }
