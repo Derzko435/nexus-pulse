@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-09T14:40:27+03:00",
+ "updatedAt": "2026-11-09T15:11:02+03:00",
  "source": "bo3.gg",
  "matches": [
   {
@@ -11,20 +11,13 @@
    "logoA": "https://files.bo3.gg/uploads/team/25259/image/webp-a52f5bcd6f1e1e76b848789e653b75f1.webp",
    "logoB": "https://files.bo3.gg/uploads/team/15098/image/webp-c19b8494eb3fbc8d84d25b8dab49b883.webp",
    "scoreA": 1,
-   "scoreB": 0,
+   "scoreB": 1,
    "bo": 3,
    "status": "live",
    "event": "1win Essence III: Play-In",
    "tier": "A",
    "startsAt": "2026-11-09T13:00:00+03:00",
    "streams": [
-    {
-     "type": "twitch",
-     "channel": "cispapa",
-     "lang": "ru",
-     "official": true,
-     "label": "cispapa"
-    },
     {
      "type": "twitch",
      "channel": "1win_dota_ru",
@@ -57,7 +50,22 @@
    "event": "1win Essence III: Play-In",
    "tier": "A",
    "startsAt": "2026-11-09T16:00:00+03:00",
-   "streams": [],
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "1win_dota_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "1win_dota_ru"
+    },
+    {
+     "type": "twitch",
+     "channel": "1win_dota",
+     "lang": "en",
+     "official": false,
+     "label": "1win_dota"
+    }
+   ],
    "url": "https://bo3.gg/dota2/matches/angry-birds-vs-ka4kanarskie-cyxariki-09-11-2026"
   },
   {
@@ -75,7 +83,22 @@
    "event": "1win Essence III: Play-In",
    "tier": "A",
    "startsAt": "2026-11-09T19:00:00+03:00",
-   "streams": [],
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "1win_dota_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "1win_dota_ru"
+    },
+    {
+     "type": "twitch",
+     "channel": "1win_dota",
+     "lang": "en",
+     "official": false,
+     "label": "1win_dota"
+    }
+   ],
    "url": "https://bo3.gg/dota2/matches/power-rangers-dota2-vs-ka4kanarskie-cyxariki-09-11-2026"
   },
   {
@@ -93,7 +116,22 @@
    "event": "1win Essence III: Play-In",
    "tier": "A",
    "startsAt": "2026-11-09T22:00:00+03:00",
-   "streams": [],
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "1win_dota_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "1win_dota_ru"
+    },
+    {
+     "type": "twitch",
+     "channel": "1win_dota",
+     "lang": "en",
+     "official": false,
+     "label": "1win_dota"
+    }
+   ],
    "url": "https://bo3.gg/dota2/matches/xipto-esports-dota2-vs-yellow-submarine-09-11-2026"
   },
   {
