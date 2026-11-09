@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T04:47:03+03:00",
+  "updatedAt": "2026-11-09T12:57:17+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -43,16 +43,6 @@
       "steamAppId": "252490"
     },
     {
-      "id": "steam-86249",
-      "title": "PAYDAY 3: комплект «Большой куш»",
-      "store": "Steam",
-      "old": 3448,
-      "neu": 1739,
-      "pct": 44,
-      "url": "https://store.steampowered.com/app/86249/",
-      "steamAppId": "86249"
-    },
-    {
       "id": "steam-1211600",
       "title": "ZED ZONE",
       "store": "Steam",
@@ -83,14 +73,24 @@
       "steamAppId": "5279740"
     },
     {
-      "id": "steam-5465870",
-      "title": "ゾンビ盛り！",
+      "id": "steam-5416650",
+      "title": "Masyu: Line Logic",
       "store": "Steam",
-      "old": 195,
-      "neu": 117,
+      "old": 245,
+      "neu": 147,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5465870/",
-      "steamAppId": "5465870"
+      "url": "https://store.steampowered.com/app/5416650/",
+      "steamAppId": "5416650"
+    },
+    {
+      "id": "steam-4863540",
+      "title": "Progress98",
+      "store": "Steam",
+      "old": 200,
+      "neu": 120,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/4863540/",
+      "steamAppId": "4863540"
     },
     {
       "id": "steam-3527290",
@@ -133,14 +133,14 @@
       "steamAppId": "4947250"
     },
     {
-      "id": "steam-4643110",
-      "title": "Garden Of Being",
+      "id": "steam-3499520",
+      "title": "Piano Glow",
       "store": "Steam",
-      "old": 150,
-      "neu": 100,
-      "pct": 33,
-      "url": "https://store.steampowered.com/app/4643110/",
-      "steamAppId": "4643110"
+      "old": 880,
+      "neu": 616,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/3499520/",
+      "steamAppId": "3499520"
     }
   ]
 }

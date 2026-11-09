@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T04:46:58+03:00",
+  "updatedAt": "2026-11-09T12:57:12+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -524,9 +524,25 @@
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
     },
     {
+      "appid": "86249",
+      "name": "Steam App 86249",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/86249/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
+    },
+    {
       "appid": "1211600",
       "name": "ZED ZONE",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211600/aac7446006d1fb3898eccf697406d0c357cf20a3/header_alt_assets_2.jpg?t=1794035207",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211600/aac7446006d1fb3898eccf697406d0c357cf20a3/header_alt_assets_2.jpg?t=1794210733",
       "genres": [
         "Экшены",
         "Инди",
@@ -541,6 +557,39 @@
       },
       "metacritic": null,
       "short_description": "Мир охватила великая катастрофа. На задании ваш борт терпит крушение, и вы оказываетесь заперты в Zed Zone. Вокруг зомби и монстры. Чтобы выбраться, собирайте ресурсы, прокачивайте навыки, стройте убежища и громите орды зомби и загадочных мехов, следуя за проблеском надежды."
+    },
+    {
+      "appid": "1859550",
+      "name": "Raise",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1859550/98e1f9ff5b06622dd0207b618314ebd9b2773329/header.jpg?t=1794175810",
+      "genres": [
+        "Экшены"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Восстаньте из могилы в компактном soulslike от третьего лица. Сражайтесь с нежитью и боссами, развивайте героя и проходите испытания на время. Полученные удары добавляют секунды, парирования их убирают. Улучшайте рекорды и соревнуйтесь в таблицах Steam."
+    },
+    {
+      "appid": "5279740",
+      "name": "Забери меня после урагана",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5279740/5d7ef24e4b7850929d3f58fd060e38d059708434/header_russian.jpg?t=1794162393",
+      "genres": [
+        "Приключенческие игры",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Через четыре дня после урагана Хонора оценщик Арло Фонтено прибывает на обесточенный остров Корвина-Ки, чтобы быстро выносить окончательные решения. Выберите одну из трёх разных романтических линий с Вивьен, Тесс или Поппи, которые заставят его понять, что он должен острову и каждой из них."
     },
     {
       "appid": "5465870",
@@ -558,42 +607,6 @@
       },
       "metacritic": null,
       "short_description": "Stack zombies, clear lines, and chase high scores! Zombie Mori! is a fast-paced falling-block puzzle game packed with quirky zombies! Clear multiple lines, combine zombie types for huge score multipliers, and unlock all 50 zombies in your collection. The higher you stack, the higher you score!"
-    },
-    {
-      "appid": "4763220",
-      "name": "ONE SKILL - Drive or Fall",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4763220/0ac26b1ccfd3bf1f785ae2978366f9780d6ccea8/header.jpg?t=1794108324",
-      "genres": [
-        "Приключенческие игры",
-        "Гонки",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Test your skills on various platforms and obstacles built high in the sky! Master your driving as you maneuver through thrilling challenges and perilous situations to reach the finish line."
-    },
-    {
-      "appid": "3010300",
-      "name": "One-Hour Hero",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010300/196e2d66e77b6645d70a9417d4f3171154ea3ea3/header.jpg?t=1794118381",
-      "genres": [
-        "Приключенческие игры",
-        "Инди",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "A compact 2.5D pixel-art, turn-based JRPG designed to be completed in about an hour. Train as a hero, explore White Mountain, learn new skills, collect gear, and fight beside your companion on the road to the Dragon King."
     },
     {
       "appid": "3527290",
@@ -631,6 +644,40 @@
       "short_description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
     },
     {
+      "appid": "4861910",
+      "name": "Pin-Finite",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4861910/9184f4a070308fb35b9f5192e5824a0adbfd72fb/header.jpg?t=1794178404",
+      "genres": [
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Pin-Finite is a Roguelike deck-builder pinball game. Purchase unique and powerful upgrades to blow the lid on your points! Unlock rare pinballs and combos to scale your runs to infinity!"
+    },
+    {
+      "appid": "4947250",
+      "name": "Kebab Dynasty",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4947250/0be98370fe83ef2e7ff17237309824f78634ad2c/header.jpg?t=1794176684",
+      "genres": [
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Build and run your own kebab restaurant in a single-player management simulation. Set prices, hire staff, serve customers, keep the shop clean, upgrade the interior, and turn a small counter into a thriving food business."
+    },
+    {
       "appid": "4643110",
       "name": "Garden Of Being",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4643110/61adcf3bb76e04b47d6ed329766ea230606befdf/header.jpg?t=1794155939",
@@ -646,54 +693,6 @@
       },
       "metacritic": null,
       "short_description": "Garden of Being is a hand-drawn oil pastel art game and a quiet journal of moods. Plant flowers, dedicate gardens to loved ones, and create downloadable prints. A fusion of art and code where gardens come alive while you are in them, and wait silently when you leave."
-    },
-    {
-      "appid": "5404190",
-      "name": "Bomb Disposal",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5404190/1cdf78c2f8aadbd32dbe5cebbca643047e616e7e/header.jpg?t=1794118975",
-      "genres": [
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "A touch-based puzzle simulation game. A woman has been strapped to a new type of bomb, and her heart rate is linked to its trigger. Remove the restraints and tasks across her body, make her climax, and defuse the bomb. Features animated scenes and 2 endings."
-    },
-    {
-      "appid": "4961250",
-      "name": "みならい王子のみならい防衛",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4961250/06a03f64aeba689b2e51a12b9ce3dbc3df04d197/header.jpg?t=1794151330",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "You are the prince of a small kingdom. Defend its castles from monsters in this tower defense game!"
-    },
-    {
-      "appid": "1677110",
-      "name": "Lightyear Frontier",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1677110/f4aec944f634f189990fe69e6d353b5609787955/header_alt_assets_7.jpg?t=1793891345",
-      "genres": [],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Приглашаем в расслабляющую игру о ферме в открытом мире, где всю тяжёлую работу выполняет робот. Обустройте идеальную ферму и автоматизируйте её обслуживание. Настройте робота, чтобы он валил лес и пахал просторные поля, или отдохните и пригласите до трёх друзей полюбоваться закатом."
     }
   ]
 }
