@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T01:16:32+03:00",
+  "updatedAt": "2026-11-09T04:46:58+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -452,20 +452,21 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "512790",
-      "name": "Quern. Вечные мысли",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/512790/header.jpg?t=1790011335",
+      "appid": "1227690",
+      "name": "Severed Steel",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1227690/header.jpg?t=1723920018",
       "genres": [
-        "Приключенческие игры"
+        "Экшены",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
-        "linux": true
+        "mac": false,
+        "linux": false
       },
-      "metacritic": 83,
-      "short_description": "Узнайте правду о прошлом Кверна. Раскройте тайны его настоящего. Станьте исследователем и определите его будущее. Объекты в Quern можно использовать разными способами в различных головоломках, за счет чего игра воспринимается как единое целое, а не как набор отдельных испытаний."
+      "metacritic": null,
+      "short_description": "Стильный и интуитивно понятный шутер от первого лица для одного игрока с динамической системой трюков, уничтожаемым объемным окружением, множеством визуальных эффектов «bullet time», необычной однорукой героиней и мрачным электронным саундтреком."
     },
     {
       "appid": "1272080",
@@ -521,24 +522,6 @@
       },
       "metacritic": 69,
       "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
-    },
-    {
-      "appid": "5444410",
-      "name": "Dungeon Survivor",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5444410/4b2ba010ae3d455ee9894481fbeef38a82538b0b/header.jpg?t=1794080956",
-      "genres": [
-        "Экшены",
-        "Инди",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Battle enemy hordes, build powerful ability combinations, and defeat challenging bosses in this single-player bullet heaven roguelike. Choose distinct characters, unlock evolutions, and earn permanent upgrades—all with offline gameplay."
     },
     {
       "appid": "1211600",
@@ -631,25 +614,6 @@
       "short_description": "PEAK — это совместная игра о восхождении, где малейшая ошибка может привести к гибели. Играйте в одиночку или вместе с группой отчаянных бойскаутов. Сбегите с таинственного острова, для чего вам потребуется забраться на гору в его центре. Хватит ли вам сил, чтобы достичь ПИКА?"
     },
     {
-      "appid": "4715160",
-      "name": "Finals Week: Последний экзамен",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4715160/3d05c4f85866620b0b47754e30414cb4414b42dc/header.jpg?t=1793289966",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Симулятор школьника для 1-4 игроков. Здесь вы с друзьями пытаетесь любой ценой сдать последние экзамены. Воруйте ответы, прячьтесь от учителя и используйте любые средства, чтобы списать. Закончите школу, не выучив ни одной страницы!"
-    },
-    {
       "appid": "3241660",
       "name": "R.E.P.O.",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/62177765c05399116f0453fe1177b00ceed698c4/header_alt_assets_3.jpg?t=1793278962",
@@ -667,11 +631,12 @@
       "short_description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
     },
     {
-      "appid": "5381260",
-      "name": "Terrum DeepDrill",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5381260/75a72803ff24e5c3ba387cb6b197c855d22e3f26/header.jpg?t=1794093996",
+      "appid": "4643110",
+      "name": "Garden Of Being",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4643110/61adcf3bb76e04b47d6ed329766ea230606befdf/header.jpg?t=1794155939",
       "genres": [
-        "Симуляторы"
+        "Казуальные игры",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -680,7 +645,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Terrum DeepDrill is a single-player drilling game in a 2.5D side view. Terrum Corp owns your debt and calls it a contract. Win tenders against rival firms, drill through the rock, and haul enough ore to stay ahead of the bill."
+      "short_description": "Garden of Being is a hand-drawn oil pastel art game and a quiet journal of moods. Plant flowers, dedicate gardens to loved ones, and create downloadable prints. A fusion of art and code where gardens come alive while you are in them, and wait silently when you leave."
     },
     {
       "appid": "5404190",
@@ -697,6 +662,38 @@
       },
       "metacritic": null,
       "short_description": "A touch-based puzzle simulation game. A woman has been strapped to a new type of bomb, and her heart rate is linked to its trigger. Remove the restraints and tasks across her body, make her climax, and defuse the bomb. Features animated scenes and 2 endings."
+    },
+    {
+      "appid": "4961250",
+      "name": "みならい王子のみならい防衛",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4961250/06a03f64aeba689b2e51a12b9ce3dbc3df04d197/header.jpg?t=1794151330",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "You are the prince of a small kingdom. Defend its castles from monsters in this tower defense game!"
+    },
+    {
+      "appid": "1677110",
+      "name": "Lightyear Frontier",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1677110/f4aec944f634f189990fe69e6d353b5609787955/header_alt_assets_7.jpg?t=1793891345",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Приглашаем в расслабляющую игру о ферме в открытом мире, где всю тяжёлую работу выполняет робот. Обустройте идеальную ферму и автоматизируйте её обслуживание. Настройте робота, чтобы он валил лес и пахал просторные поля, или отдохните и пригласите до трёх друзей полюбоваться закатом."
     }
   ]
 }

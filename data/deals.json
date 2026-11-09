@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T01:16:38+03:00",
+  "updatedAt": "2026-11-09T04:47:03+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -43,6 +43,16 @@
       "steamAppId": "252490"
     },
     {
+      "id": "steam-86249",
+      "title": "PAYDAY 3: комплект «Большой куш»",
+      "store": "Steam",
+      "old": 3448,
+      "neu": 1739,
+      "pct": 44,
+      "url": "https://store.steampowered.com/app/86249/",
+      "steamAppId": "86249"
+    },
+    {
       "id": "steam-1211600",
       "title": "ZED ZONE",
       "store": "Steam",
@@ -53,6 +63,26 @@
       "steamAppId": "1211600"
     },
     {
+      "id": "steam-1859550",
+      "title": "Raise",
+      "store": "Steam",
+      "old": 360,
+      "neu": 216,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/1859550/",
+      "steamAppId": "1859550"
+    },
+    {
+      "id": "steam-5279740",
+      "title": "Забери меня после урагана",
+      "store": "Steam",
+      "old": 335,
+      "neu": 201,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5279740/",
+      "steamAppId": "5279740"
+    },
+    {
       "id": "steam-5465870",
       "title": "ゾンビ盛り！",
       "store": "Steam",
@@ -61,26 +91,6 @@
       "pct": 40,
       "url": "https://store.steampowered.com/app/5465870/",
       "steamAppId": "5465870"
-    },
-    {
-      "id": "steam-4763220",
-      "title": "ONE SKILL - Drive or Fall",
-      "store": "Steam",
-      "old": 195,
-      "neu": 117,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/4763220/",
-      "steamAppId": "4763220"
-    },
-    {
-      "id": "steam-3010300",
-      "title": "One-Hour Hero",
-      "store": "Steam",
-      "old": 42,
-      "neu": 25,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/3010300/",
-      "steamAppId": "3010300"
     },
     {
       "id": "steam-3527290",
@@ -103,6 +113,26 @@
       "steamAppId": "3241660"
     },
     {
+      "id": "steam-4861910",
+      "title": "Pin-Finite",
+      "store": "Steam",
+      "old": 335,
+      "neu": 217,
+      "pct": 35,
+      "url": "https://store.steampowered.com/app/4861910/",
+      "steamAppId": "4861910"
+    },
+    {
+      "id": "steam-4947250",
+      "title": "Kebab Dynasty",
+      "store": "Steam",
+      "old": 260,
+      "neu": 169,
+      "pct": 35,
+      "url": "https://store.steampowered.com/app/4947250/",
+      "steamAppId": "4947250"
+    },
+    {
       "id": "steam-4643110",
       "title": "Garden Of Being",
       "store": "Steam",
@@ -111,36 +141,6 @@
       "pct": 33,
       "url": "https://store.steampowered.com/app/4643110/",
       "steamAppId": "4643110"
-    },
-    {
-      "id": "steam-5404190",
-      "title": "Bomb Disposal",
-      "store": "Steam",
-      "old": 775,
-      "neu": 542,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/5404190/",
-      "steamAppId": "5404190"
-    },
-    {
-      "id": "steam-4961250",
-      "title": "みならい王子のみならい防衛",
-      "store": "Steam",
-      "old": 245,
-      "neu": 171,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/4961250/",
-      "steamAppId": "4961250"
-    },
-    {
-      "id": "steam-1677110",
-      "title": "Lightyear Frontier",
-      "store": "Steam",
-      "old": 1299,
-      "neu": 1039,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/1677110/",
-      "steamAppId": "1677110"
     }
   ]
 }
