@@ -1,25 +1,7 @@
 {
- "updatedAt": "2026-11-10T10:47:46+03:00",
+ "updatedAt": "2026-11-10T14:18:18+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-132699",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Saigon Warriors",
-   "teamB": "Gromp Esports",
-   "logoA": "https://files.bo3.gg/uploads/team/22895/image/webp-3eb9d9c59ba43176bbcc9388ca57c8c7.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/25190/image/webp-206f877dcef3510f015c3e0f9502e8a9.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "upcoming",
-   "event": "LCP 2027 Promotion",
-   "tier": "A",
-   "startsAt": "2026-11-10T12:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/lol/matches/saigon-warriors-vs-gromp-esports-10-11-2026"
-  },
   {
    "id": "bo3-133629",
    "game": "Dota 2",
@@ -28,14 +10,36 @@
    "teamB": "LEGION",
    "logoA": "https://files.bo3.gg/uploads/team/16486/image/webp-db8fb0a62365deefa26db24e4fb46f10.webp",
    "logoB": "https://files.bo3.gg/uploads/team/25401/image/webp-12311d6aa24e815ad6b9c3e66cc662d2.webp",
-   "scoreA": 0,
+   "scoreA": 1,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "1win Essence III: Play-In",
    "tier": "A",
    "startsAt": "2026-11-10T13:00:00+03:00",
-   "streams": [],
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "cispapa",
+     "lang": "ru",
+     "official": true,
+     "label": "cispapa"
+    },
+    {
+     "type": "twitch",
+     "channel": "1win_dota_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "1win_dota_ru"
+    },
+    {
+     "type": "twitch",
+     "channel": "1win_dota",
+     "lang": "en",
+     "official": false,
+     "label": "1win_dota"
+    }
+   ],
    "url": "https://bo3.gg/dota2/matches/yellow-submarine-vs-legion_stack-10-11-2026"
   },
   {
@@ -291,6 +295,24 @@
    "url": "https://bo3.gg/dota2/matches/playtime-vs-yellow-submarine-11-11-2026"
   },
   {
+   "id": "bo3-132701",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Nothin'Here",
+   "teamB": "Saigon Warriors",
+   "logoA": "https://files.bo3.gg/uploads/team/25433/image/webp-ab393f1025ef522f78f231581fd631de.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/22895/image/webp-3eb9d9c59ba43176bbcc9388ca57c8c7.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "upcoming",
+   "event": "LCP 2027 Promotion",
+   "tier": "A",
+   "startsAt": "2026-11-12T12:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/lol/matches/nothinhere-vs-saigon-warriors-12-11-2026"
+  },
+  {
    "id": "bo3-130833",
    "game": "LoL",
    "gameKey": "lol",
@@ -316,6 +338,32 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/bilibili-gaming-lol-vs-gen-g-14-11-2026"
+  },
+  {
+   "id": "bo3-132699",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Saigon Warriors",
+   "teamB": "Gromp Esports",
+   "logoA": "https://files.bo3.gg/uploads/team/22895/image/webp-3eb9d9c59ba43176bbcc9388ca57c8c7.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/25190/image/webp-206f877dcef3510f015c3e0f9502e8a9.webp",
+   "scoreA": 3,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "finished",
+   "event": "LCP 2027 Promotion",
+   "tier": "A",
+   "startsAt": "2026-11-10T11:00:00+03:00",
+   "streams": [
+    {
+     "type": "youtube",
+     "id": "3TR1ARK2OB4",
+     "lang": "en",
+     "official": false,
+     "label": "[EN] FL vs NTH - SGW vs TGM | LCP 2026 Promotion Series FFA Day 1"
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/saigon-warriors-vs-gromp-esports-10-11-2026"
   },
   {
    "id": "bo3-132698",
@@ -822,53 +870,6 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/karmine-corp-lol-vs-t1-lol-06-11-2026"
-  },
-  {
-   "id": "bo3-133053",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "FURIA",
-   "teamB": "BetBoom",
-   "logoA": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
-   "scoreA": 1,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "Intel Extreme Masters Beijing 2026",
-   "tier": "S",
-   "startsAt": "2026-11-06T14:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs"
-    },
-    {
-     "type": "kick",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "cs2_maincast"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_paragon_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "cs2_paragon_ru"
-    }
-   ],
-   "url": "https://bo3.gg/matches/furia-vs-betboom-team-06-11-2026"
   }
  ],
  "tournaments": [

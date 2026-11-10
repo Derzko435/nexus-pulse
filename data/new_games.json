@@ -1,6 +1,80 @@
 {
- "updatedAt": "2026-11-09T14:43:46+03:00",
+ "updatedAt": "2026-11-10T14:22:16+03:00",
  "items": [
+  {
+   "appid": 3629430,
+   "title": "DREADMOOR",
+   "date": "2026-11-09",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3629430/5b80c132b3479c69a92c25a5266db523850cfc36/header.jpg?t=1794233002",
+   "desc": "DREADMOOR – мрачное рыболовное приключение от первого лица в затопленном мире, пережившем страшную катастрофу. Ловите рыбу в мутных водах, улучшайте свой катер, создавайте снаряжение для выживания и сражайтесь с чудовищами, что таятся под водой и на суше.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Dream Dock",
+   "price": "769 руб.",
+   "url": "https://store.steampowered.com/app/3629430/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/3629430/"
+   },
+   "reviews": 471
+  },
+  {
+   "appid": 4576490,
+   "title": "Casualties: Unknown",
+   "date": "2026-11-09",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4576490/907888dce73f50c48410b5ab92971a0d95776b29/header.jpg?t=1794232782",
+   "desc": "Casualties: Unknown — безжалостный симулятор выживания про исследование пещер. Вы — один из тысяч подопытных, отправленных на верную смерть. В поисках потерянного груза вам придётся пробраться сквозь одиннадцать подземных слоёв неизведанной планеты, выживая во враждебной среде.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Симуляторы"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Orsoniks",
+   "price": "679 руб.",
+   "url": "https://store.steampowered.com/app/4576490/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4576490/"
+   },
+   "reviews": 1151
+  },
+  {
+   "appid": 3669620,
+   "title": "Warhammer Survivors",
+   "date": "2026-11-10",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669620/dc61fccdeec6b05a58fbcdd7b1d0bbbe1f6999ea/header.jpg?t=1794304261",
+   "desc": "Warhammer Survivors — это мрачная официальная игра на выживание в стиле bullet heaven от разработчиков Warhammer 40,000 Boltgun. Играйте более чем за 40 культовых персонажей вселенных Warhammer 40,000 и Warhammer Age of Sigmar и уничтожайте всех, кто несет смерть и разрушение.",
+   "genres": [
+    "Экшены",
+    "Казуальные игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Auroch Digital",
+   "price": "346 руб.",
+   "url": "https://store.steampowered.com/app/3669620/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/3669620/"
+   }
+  },
   {
    "appid": 4348910,
    "title": "Probably Stolen – симулятор магазина в киберпанке",
@@ -24,7 +98,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4348910/"
    },
-   "reviews": 17008
+   "reviews": 20204
   },
   {
    "appid": 4115450,
@@ -49,7 +123,29 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4115450/"
    },
-   "reviews": 97649
+   "reviews": 100853
+  },
+  {
+   "appid": 2523740,
+   "title": "DreamWorks Shrek 2 Remastered",
+   "date": "2026-11-10",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523740/abfa94e9a286146554386662e218aae82716711f/header.jpg?t=1794005630",
+   "desc": "DreamWorks Shrek 2 Remastered: культовое классическое совместное приключение, требующее нажатия кнопок, возвращается со всеми вашими любимыми персонажами и улучшенной графикой.",
+   "genres": [
+    "Приключенческие игры"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Aspyr Media",
+   "price": "1260 руб.",
+   "url": "https://store.steampowered.com/app/2523740/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/2523740/"
+   }
   },
   {
    "appid": 5266240,
@@ -74,7 +170,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/5266240/"
    },
-   "reviews": 1652
+   "reviews": 1841
   },
   {
    "appid": 5335510,
@@ -99,7 +195,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/5335510/"
    },
-   "reviews": 7390
+   "reviews": 7691
   },
   {
    "appid": 1203620,
@@ -125,7 +221,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/1203620/"
    },
-   "reviews": 100067
+   "reviews": 100155
   },
   {
    "appid": 1211600,
@@ -150,7 +246,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/1211600/"
    },
-   "reviews": 3938
+   "reviews": 4019
   },
   {
    "appid": 2411200,
@@ -170,71 +266,19 @@
     "Steam"
    ],
    "developer": "Rake in Grass",
-   "price": "1274 руб.",
+   "price": "1019,15 руб.",
    "url": "https://store.steampowered.com/app/2411200/",
    "links": {
     "steam": "https://store.steampowered.com/app/2411200/"
    },
-   "reviews": 659
+   "reviews": 751
   },
   {
-   "appid": 2929250,
-   "title": "over the hill",
-   "date": "2026-10-14",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/header.jpg?t=1793102846",
-   "desc": "Откройте для себя мир в золотой век бездорожья. За рулем культовых внедорожников 60–80-х годов — в одиночку или с друзьями — покоряйте сложные трассы и исследуйте живописные места.",
-   "genres": [
-    "Приключенческие игры",
-    "Казуальные игры",
-    "Инди"
-   ],
-   "platforms": [
-    "PC",
-    "Linux"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Funselektor Labs Inc.",
-   "price": "1050 руб.",
-   "url": "https://store.steampowered.com/app/2929250/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/2929250/"
-   },
-   "reviews": 5091
-  },
-  {
-   "appid": 4312190,
-   "title": "CRACK",
-   "date": "2026-10-26",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4312190/9dfa7d4efdcc88aa5663a31f02633391eb5ef843/header.jpg?t=1794129294",
-   "desc": "Почему в этой лаборатории находится гигантское яйцо? Ваша задача проста: взломайте его. Не задавайте вопросов. CRACK – это пошаговое совместное приключение для 1-4 игроков, в котором вы узнаете, что находится внутри таинственного гигантского яйца.",
-   "genres": [
-    "Приключенческие игры",
-    "Симуляторы"
-   ],
-   "platforms": [
-    "PC",
-    "Mac",
-    "Linux"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Rafoli",
-   "price": "359 руб.",
-   "url": "https://store.steampowered.com/app/4312190/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4312190/"
-   },
-   "reviews": 2223
-  },
-  {
-   "appid": 1799840,
-   "title": "Queen's Domain",
-   "date": "2026-10-30",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1799840/1a209734951f53b019ec9fa03f835def14f2a968/header.jpg?t=1793982850",
-   "desc": "Ретрофэнтезийная экшен-RPG с жестокими боями и упором на исследование мира. Отправьтесь на поиски своего отца, который исчез на таинственном острове Неасид, где силы зла набирают мощь, за каждым углом таится неизведанное, а пробуждение спящей королевы становится всё ближе...",
+   "appid": 5019800,
+   "title": "System Arrival",
+   "date": "2026-11-10",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5019800/b5ed787da79db0adf52d0a1d3ce85a4908652565/header.jpg?t=1794301238",
+   "desc": "Кооперативная экшен-RPG на выживание с видом сверху для 1–4 игроков в мире, который Система превратила в игру. Получайте уровни, задания и пси-силы, обыскивайте руины, сражайтесь с зомби и стройте подземный бункер для выживших — а потом узнайте, чего на самом деле хочет Система.",
    "genres": [
     "Экшены",
     "Приключенческие игры",
@@ -246,65 +290,12 @@
    "stores": [
     "Steam"
    ],
-   "developer": "Freshly Baked Games LLC",
-   "price": "890 руб.",
-   "url": "https://store.steampowered.com/app/1799840/",
+   "developer": "ANLI GAMES",
+   "price": "594 руб.",
+   "url": "https://store.steampowered.com/app/5019800/",
    "links": {
-    "steam": "https://store.steampowered.com/app/1799840/"
-   },
-   "reviews": 4232
-  },
-  {
-   "appid": 5160800,
-   "title": "Find The Needle",
-   "date": "2026-11-06",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5160800/9ad39ef753543a194a7546ee8a17dc4b821cd021/header.jpg?t=1793980111",
-   "desc": "У вас есть лопата и стог сена примерно из шести миллионов травинок. Где-то внутри спрятана иголка. Ищите её вручную, продавайте сено, а заработанные деньги тратьте на конвейеры и машины, пока в конце концов вам больше не придётся копаться в сене самому.",
-   "genres": [
-    "Казуальные игры",
-    "Инди",
-    "Симуляторы"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Needless Games",
-   "price": "586 руб.",
-   "url": "https://store.steampowered.com/app/5160800/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/5160800/"
-   },
-   "reviews": 384
-  },
-  {
-   "appid": 3499520,
-   "title": "Piano Glow",
-   "date": "2026-11-06",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499520/header.jpg?t=1794204025",
-   "desc": "Играйте на пианино в онлайн-лобби с другими игроками: таблицы лидеров, игровые тренировки слуха, чтения нот, ритма, 4K/7K и игры по падающим нотам. Любая песня на QWERTY-клавиатуре или пианино. Превращайте любое видео с пианино или ноты в урок с падающими нотами или MIDI.",
-   "genres": [
-    "Казуальные игры",
-    "Инди",
-    "Симуляторы"
-   ],
-   "platforms": [
-    "PC",
-    "Mac",
-    "Linux"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "TheAlanski",
-   "price": "616 руб.",
-   "url": "https://store.steampowered.com/app/3499520/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/3499520/"
-   },
-   "reviews": 334
+    "steam": "https://store.steampowered.com/app/5019800/"
+   }
   },
   {
    "appid": "x-earth-defense-force-5",
@@ -324,6 +315,33 @@
    "url": "https://en.wikipedia.org/wiki/Earth_Defense_Force_5",
    "links": {
     "wiki": "https://en.wikipedia.org/wiki/Earth_Defense_Force_5"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": 1215940,
+   "title": "Forever Ago",
+   "date": "2026-10-08",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1215940/463f75c014bc0ee1c6daf2ccda036edb28a0bb36/header.jpg?t=1791579249",
+   "desc": "Присоединитесь к Альфреду в его путешествии на север, куда он отправился в поисках искупления после трагического удара судьбы.",
+   "genres": [
+    "Приключение"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Xbox",
+    "Switch"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Third Shift",
+   "price": "849 руб.",
+   "url": "https://store.steampowered.com/app/1215940/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/1215940/",
+    "wiki": "https://en.wikipedia.org/wiki/Forever_Ago"
    },
    "source": "wiki"
   },
@@ -472,33 +490,6 @@
    "links": {
     "steam": "https://store.steampowered.com/app/3493540/",
     "wiki": "https://ru.wikipedia.org/wiki/Transport_Fever_3"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": 4080220,
-   "title": "EA Sports FC 27",
-   "date": "2026-09-25",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4080220/ff6a3779f1ca83aae8ad3878454f6c11008ea24d/header.jpg?t=1793610006",
-   "desc": "EA Sports FC 27 — видеоигра, футбольный симулятор, разработанная EA Vancouver и EA Romania. Официальный релиз был во всём мире 25 сентября 2026 года на следующих платформах: Microsoft Windows, Sony PlayStation 4, Sony PlayStation 5, Xbox One, Xbox Series X/S, Nintendo Switch, Nintendo Switch 2…",
-   "genres": [
-    "Спорт"
-   ],
-   "platforms": [
-    "PC",
-    "PlayStation",
-    "Xbox",
-    "Switch"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "EA Vancouver , EA Romania",
-   "price": "",
-   "url": "https://store.steampowered.com/app/4080220/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4080220/",
-    "wiki": "https://ru.wikipedia.org/wiki/EA_Sports_FC_27"
    },
    "source": "wiki"
   }
