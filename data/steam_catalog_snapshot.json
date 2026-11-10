@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T07:12:20+03:00",
+  "updatedAt": "2026-11-10T15:47:47+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -242,7 +242,7 @@
     {
       "appid": "739630",
       "name": "Phasmophobia",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/c227a2855aba60f3657bc0c3a46515b8c41fb2b6/header.jpg?t=1793615120",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/c227a2855aba60f3657bc0c3a46515b8c41fb2b6/header.jpg?t=1794312564",
       "genres": [
         "Экшены",
         "Инди",
@@ -454,7 +454,7 @@
     {
       "appid": "1272080",
       "name": "PAYDAY 3",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1272080/1d66ef7e731a18e40b037d39618f7c3dfd614a90/header.jpg?t=1793958317",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1272080/1d66ef7e731a18e40b037d39618f7c3dfd614a90/header.jpg?t=1794297037",
       "genres": [
         "Экшены",
         "Приключенческие игры",
@@ -487,6 +487,24 @@
       "short_description": "Darwinia blends real-time strategy, action, and puzzles with a unique gesture-based control system. Save the Darwinians, battle viruses, and restore order in a retro-inspired digital world. Winner of multiple prestigious  awards, including the Seumas McNally Grand Prize at IGF 2006."
     },
     {
+      "appid": "5431250",
+      "name": "Anime Art Generator – Furry & Anthro Art Pack",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5431250/6dd71cc284637fadb120ef1e178787b86bbdbd77/header.jpg?t=1794261262",
+      "genres": [
+        "Анимация и моделирование",
+        "Дизайн и иллюстрация",
+        "Разработка игр"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Оживите свою фурсону с Furry &amp; Anthro Art Pack. Создавайте ИИ-арт с фурри-, антро- и кемоно-персонажами: выразительные портреты, пушистые герои и образы в фэнтези-доспехах. Дополнение добавляет модель Wildheart для локальной генерации на вашем ПК."
+    },
+    {
       "appid": "1211600",
       "name": "ZED ZONE",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211600/aac7446006d1fb3898eccf697406d0c357cf20a3/header_alt_assets_2.jpg?t=1794210733",
@@ -504,25 +522,6 @@
       },
       "metacritic": null,
       "short_description": "Мир охватила великая катастрофа. На задании ваш борт терпит крушение, и вы оказываетесь заперты в Zed Zone. Вокруг зомби и монстры. Чтобы выбраться, собирайте ресурсы, прокачивайте навыки, стройте убежища и громите орды зомби и загадочных мехов, следуя за проблеском надежды."
-    },
-    {
-      "appid": "5085890",
-      "name": "Bouncemetry",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5085890/5ac4a8b668aaf072b4dcda70b6fc710fc52fd0e7/header.jpg?t=1794246877",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Инкрементальная игра из семи физических симуляций. Бросайте шары в кольцо, пока оно не разлетится вдребезги, отбирайте связи на решетке без гравитации, водите лучом по реактору. Улучшения меняют саму физику, а автоматизированные симуляции продолжают приносить доход, пока вы заняты следующей."
     },
     {
       "appid": "3527290",
@@ -543,11 +542,15 @@
       "short_description": "PEAK — это совместная игра о восхождении, где малейшая ошибка может привести к гибели. Играйте в одиночку или вместе с группой отчаянных бойскаутов. Сбегите с таинственного острова, для чего вам потребуется забраться на гору в его центре. Хватит ли вам сил, чтобы достичь ПИКА?"
     },
     {
-      "appid": "5130120",
-      "name": "Evenicle - Next Fragment Medica",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5130120/a381f53a484a1acd8a679718aa55c86200e0bc82/header.jpg?t=1794247187",
+      "appid": "5175310",
+      "name": "Worst Class Ever",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5175310/a53c176293212f69941c443bf595238853135ae3/header.jpg?t=1794305415",
       "genres": [
-        "Ролевые игры"
+        "Экшены",
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
@@ -556,26 +559,23 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "In a world where human civilization is threatened by monsters, only the rare few individuals who wield forbidden skills dare challenge them. However, these brave warriors have to face an even more dangerous hazard... The Hero Syndrome. Only a young doctor can hope to cure the disease in this JRPG!"
+      "short_description": "Асимметричная онлайн-игра для компании до 8 человек. Один игрок — строгий учитель, остальные — ученики-проказники. Затеряйтесь среди десятков одноклассников (NPC), чтобы тайком перекусить или посидеть в телефоне прямо на уроке. А если вы учитель, поймайте всех проказников!"
     },
     {
-      "appid": "4832970",
-      "name": "What the Buck?!",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4832970/ed62607b2b309bfd36bf34e5bd765558bea73307/header.jpg?t=1794261182",
+      "appid": "5111700",
+      "name": "Political Life",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5111700/0b9efa8001d8dc14e34b27ae1a6b0fb9505f4c53/header.jpg?t=1794277026",
       "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы",
-        "Стратегии"
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
-        "linux": true
+        "mac": false,
+        "linux": false
       },
       "metacritic": null,
-      "short_description": "What the Buck?! — инкрементальная игра, в которой приятно уничтожать деньги. Измельчай пачки купюр, запускай цепные реакции по всему столу, уходи в престиж ради постоянных улучшений и автоматизируй своё уничтожение денег. Прогресс из демоверсии переносится в полную версию."
+      "short_description": "Симуляция политической жизни. Девять происхождений — юрист, журналист, чиновник, наследник — и каждый приходит в политику в середине жизни. Собирай законопроекты, иди на выборы, бери деньги, заметай следы. Срок жизни скрыт; вопросы на твоих слушаниях — из твоей же папки."
     },
     {
       "appid": "2584270",
@@ -595,47 +595,9 @@
       "short_description": "Их плоть — ваше оружие. Mortal Shell II — полноценное продолжение первой части. Это ролевой боевик с жестокими и напряженными сражениями. Вселяйтесь в тела выдающихся воинов, свергайте лжебогов и верните к жизни опустошенный мир."
     },
     {
-      "appid": "4955600",
-      "name": "Capy of Gods",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4955600/e1899508aa51cf9fd8bc021080fe0793fcd9dbfe/header.jpg?t=1794254365",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди",
-        "Ролевые игры",
-        "Ранний доступ"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Экшен-роглайк с вертикальным подъёмом: взбирайтесь на огромную башню в роли капибары, пока оружие стреляет само — в стиле bullet heaven. Повышайте уровень, собирайте билд, выполняйте задания и открывайте новое оружие и персонажей. Каждый забег генерирует совершенно новую башню."
-    },
-    {
-      "appid": "5486980",
-      "name": "Grim Deck",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5486980/da35cfb3f70f405b199954f10078fbd7825de3df/header.jpg?t=1794251545",
-      "genres": [
-        "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Пасьянс с одной колодой. Трефы и пики — чудища. Бубны — оружие. Червы — зелья. Каждая раздача — 4 карты: сыграй 3, оставь 1. Пройди колоду и выживи. Любую колоду можно пройти. Каждый день новая колода дня, а ещё походы из шести колод."
-    },
-    {
-      "appid": "5403800",
-      "name": "Golden Pan",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5403800/bdb54b3eb34ab9010fedf24c589b7509fad00f7e/header.jpg?t=1794247277",
+      "appid": "5398160",
+      "name": "Gopher It: Office Intern Simulator",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5398160/f07a3ae5ced30e7f861dd6803531e56bf2e44746/header.jpg?t=1794260742",
       "genres": [
         "Казуальные игры",
         "Инди",
@@ -644,56 +606,21 @@
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Уютная игра о промывке золота. Промывайте речную гальку, смотрите, как золото оседает на дне лотка, продавайте находки в деревне и превращайте пустую комнату в дом. Ни таймеров, ни поражения. Только тихие золотые деньки."
-    },
-    {
-      "appid": "5033060",
-      "name": "Menthal",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5033060/aeecce2971c62b8147c09de5a7157f07cee5b668/header.jpg?t=1794247229",
-      "genres": [
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
         "mac": false,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Menthal - это хоррор от первого лица, в котором ты становишься испытуемым. Принимай экспериментальные лекарства, выдерживай их побочные эффекты и постарайся выжить в том, что произойдёт дальше."
+      "short_description": "В уютном симуляторе работы от первого лица Gopher It вы новый стажёр в офисе, полном зверей. Кто-то зовёт, вы идёте и делаете, что просят: копии, кофе, почта, открытка, которую должны подписать все. Играйте в одиночку или с компанией до трёх друзей. Никаких таймеров и никакого game over."
     },
     {
-      "appid": "3962650",
-      "name": "Pixel Pegz",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3962650/ce7703948707f2090f1b3a6180781c2029a82c86/header.jpg?t=1794247600",
+      "appid": "4841210",
+      "name": "Coliseum Slap",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4841210/143a18979546ad545472e3a4b7f91cbbde6b66c9/header.jpg?t=1794264847",
       "genres": [
         "Экшены",
         "Казуальные игры",
         "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Cozy puzzle and arcade games to play your way: in a little window that stays on top while you work, on Steam Deck, or on the couch with a controller. Untangle arrows, pour sand, sort hex stacks or squish jelly, one bite-sized round at a time."
-    },
-    {
-      "appid": "5351930",
-      "name": "Against Heroes",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5351930/6c5f37d68b9ede7f9fbfd2e96cda738c72e76f2d/header.jpg?t=1794249023",
-      "genres": [
-        "Инди",
-        "Стратегии"
+        "Спорт"
       ],
       "is_free": false,
       "platforms": {
@@ -702,7 +629,74 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Why wait for heroes to come for you? Build and deploy a monster army to eliminate them before they grow strong enough to defeat you. A strategy roguelite from the Demon Lord’s perspective!"
+      "short_description": "Бросай гладиаторов, зарабатывай деньги и выкупи свободу в хаотичном Колизее. Настраивай голоса 7 типов гладиаторов с помощью микрофона, открывай улучшения, переживай абсурдные события и увеличивай доход благодаря непредсказуемой физике."
+    },
+    {
+      "appid": "5204140",
+      "name": "a strange journey into the backrooms",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5204140/1b3e7b6d17e6a29ea70ab747cf06eb6455b5c953/header.jpg?t=1794271819",
+      "genres": [
+        "Приключенческие игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A strange journey into the backrooms is an atmospheric exploration game focused on an introspective psychological voyage rather than mere survival. Navigate a lethal, endless labyrinth filled with forgotten stories and liminal spaces that stretch beyond the limits of human imagination."
+    },
+    {
+      "appid": "1903340",
+      "name": "Clair Obscur: Expedition 33",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1903340/be3305b02d4db0dffa3458537118423bf2792d7e/header.jpg?t=1793903997",
+      "genres": [
+        "Экшены",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 91,
+      "short_description": "Возглавьте Экспедицию 33 и уничтожьте Художницу, чтобы она никогда больше не смогла нарисовать смерть. Исследуйте мир чудес, созданный на основе Прекрасной эпохи Франции, и побеждайте уникальных врагов в пошаговой ролевой игре с механикой реального времени."
+    },
+    {
+      "appid": "4215660",
+      "name": "TORAWASE: The Girl in the Mirror",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4215660/5928158a9293bc6469d431d19e4ae3ea56250497/header.jpg?t=1794272334",
+      "genres": [
+        "Казуальные игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "After his fiancée returns to Japan for work in this visual novel by Dark One!, our protagonist begins dreaming of being a woman in the Middle Ages. The more he has these dreams, the more he becomes a woman in real life. Can he reverse his transformation, or will his life take a different turn?"
+    },
+    {
+      "appid": "4099810",
+      "name": "1999TOKOYO Building",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4099810/b6cc300848c6d5186272fb10361dca827fb864a2/header.jpg?t=1794279450",
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "1999. The protagonist, a boy named Akira, finds himself lost in the TOKOYO Building—an indoor amusement park filled with secrets and eerie rumors. There, he begins living and working alongside its peculiar staff, but... did you know? People disappear in the TOKOYO Building."
     }
   ]
 }
