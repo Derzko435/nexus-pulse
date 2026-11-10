@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T23:52:04+03:00",
+  "updatedAt": "2026-11-10T07:12:20+03:00",
   "source": "steam-store-appdetails",
   "count": 39,
   "apps": [
@@ -452,23 +452,6 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "1227690",
-      "name": "Severed Steel",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1227690/header.jpg?t=1723920018",
-      "genres": [
-        "Экшены",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Стильный и интуитивно понятный шутер от первого лица для одного игрока с динамической системой трюков, уничтожаемым объемным окружением, множеством визуальных эффектов «bullet time», необычной однорукой героиней и мрачным электронным саундтреком."
-    },
-    {
       "appid": "1272080",
       "name": "PAYDAY 3",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1272080/1d66ef7e731a18e40b037d39618f7c3dfd614a90/header.jpg?t=1793958317",
@@ -487,41 +470,21 @@
       "short_description": "PAYDAY 3 — это кооперативный шутер от первого лица для 1-4 игроков и абсолютная фантазия об ограблении, действие которой разворачивается в самом узнаваемом городе мира. Исчезните без следа или прорвитесь сквозь град пуль. В любом случае вы уйдете с добычей."
     },
     {
-      "appid": "275850",
-      "name": "No Man's Sky",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/9f1ca9e3b7d1dccb7b5af404a6739ddc1118ef32/header_alt_assets_26.jpg?t=1793196605",
+      "appid": "1500",
+      "name": "Darwinia",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1500/header.jpg?t=1779028568",
       "genres": [
-        "Экшены",
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": 61,
-      "short_description": "No Man's Sky является научно-фантастической игрой об исследованиях и выживании в бесконечной, процедурно генерируемой вселенной."
-    },
-    {
-      "appid": "252490",
-      "name": "Rust",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1781536981",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
         "Инди",
-        "Многопользовательские игры",
-        "Ролевые игры"
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": true,
-        "linux": false
+        "linux": true
       },
-      "metacritic": 69,
-      "short_description": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь."
+      "metacritic": 84,
+      "short_description": "Darwinia blends real-time strategy, action, and puzzles with a unique gesture-based control system. Save the Darwinians, battle viruses, and restore order in a retro-inspired digital world. Winner of multiple prestigious  awards, including the Seumas McNally Grand Prize at IGF 2006."
     },
     {
       "appid": "1211600",
@@ -543,28 +506,14 @@
       "short_description": "Мир охватила великая катастрофа. На задании ваш борт терпит крушение, и вы оказываетесь заперты в Zed Zone. Вокруг зомби и монстры. Чтобы выбраться, собирайте ресурсы, прокачивайте навыки, стройте убежища и громите орды зомби и загадочных мехов, следуя за проблеском надежды."
     },
     {
-      "appid": "1859550",
-      "name": "Raise",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1859550/98e1f9ff5b06622dd0207b618314ebd9b2773329/header.jpg?t=1794234978",
+      "appid": "5085890",
+      "name": "Bouncemetry",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5085890/5ac4a8b668aaf072b4dcda70b6fc710fc52fd0e7/header.jpg?t=1794246877",
       "genres": [
-        "Экшены"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Восстаньте из могилы в компактном soulslike от третьего лица. Сражайтесь с нежитью и боссами, развивайте героя и проходите испытания на время. Полученные удары добавляют секунды, парирования их убирают. Улучшайте рекорды и соревнуйтесь в таблицах Steam."
-    },
-    {
-      "appid": "5279740",
-      "name": "Забери меня после урагана",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5279740/5d7ef24e4b7850929d3f58fd060e38d059708434/header_russian.jpg?t=1794162393",
-      "genres": [
-        "Приключенческие игры",
-        "Симуляторы"
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
@@ -573,42 +522,7 @@
         "linux": true
       },
       "metacritic": null,
-      "short_description": "Через четыре дня после урагана Хонора оценщик Арло Фонтено прибывает на обесточенный остров Корвина-Ки, чтобы быстро выносить окончательные решения. Выберите одну из трёх разных романтических линий с Вивьен, Тесс или Поппи, которые заставят его понять, что он должен острову и каждой из них."
-    },
-    {
-      "appid": "5416650",
-      "name": "Masyu: Line Logic",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5416650/d1f87890e2a6fbb115b3eafa5a18919542bf195a/header.jpg?t=1794214390",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "A relaxing logic puzzle where you draw one loop through every circle, going straight through the white ones and turning on the black ones. Every puzzle has exactly one answer you can reach with logic alone, no guessing. Play the daily puzzle or choose from 15,000 more, Easy to Expert."
-    },
-    {
-      "appid": "4863540",
-      "name": "Progress98",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4863540/6a1ae3e5dbc9f3df32db8408f780fa81a472b4d4/header.jpg?t=1794211345",
-      "genres": [
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "A satisfying incremental idle game that drops the pretense to give you pure unadulterated progress. Boost, earn bonuses and buy upgrades to speed up your progress or take it easy and let it make progress by itself while you make progress elsewhere. No stress, only progress!"
+      "short_description": "Инкрементальная игра из семи физических симуляций. Бросайте шары в кольцо, пока оно не разлетится вдребезги, отбирайте связи на решетке без гравитации, водите лучом по реактору. Улучшения меняют саму физику, а автоматизированные симуляции продолжают приносить доход, пока вы заняты следующей."
     },
     {
       "appid": "3527290",
@@ -629,26 +543,82 @@
       "short_description": "PEAK — это совместная игра о восхождении, где малейшая ошибка может привести к гибели. Играйте в одиночку или вместе с группой отчаянных бойскаутов. Сбегите с таинственного острова, для чего вам потребуется забраться на гору в его центре. Хватит ли вам сил, чтобы достичь ПИКА?"
     },
     {
-      "appid": "3241660",
-      "name": "R.E.P.O.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/62177765c05399116f0453fe1177b00ceed698c4/header_alt_assets_3.jpg?t=1793278962",
+      "appid": "5130120",
+      "name": "Evenicle - Next Fragment Medica",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5130120/a381f53a484a1acd8a679718aa55c86200e0bc82/header.jpg?t=1794247187",
+      "genres": [
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "In a world where human civilization is threatened by monsters, only the rare few individuals who wield forbidden skills dare challenge them. However, these brave warriors have to face an even more dangerous hazard... The Hero Syndrome. Only a young doctor can hope to cure the disease in this JRPG!"
+    },
+    {
+      "appid": "4832970",
+      "name": "What the Buck?!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4832970/ed62607b2b309bfd36bf34e5bd765558bea73307/header.jpg?t=1794261182",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "What the Buck?! — инкрементальная игра, в которой приятно уничтожать деньги. Измельчай пачки купюр, запускай цепные реакции по всему столу, уходи в престиж ради постоянных улучшений и автоматизируй своё уничтожение денег. Прогресс из демоверсии переносится в полную версию."
+    },
+    {
+      "appid": "2584270",
+      "name": "Mortal Shell II",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/0a4c23b70ced29fac344186ea564dae67c80cfd6/header.jpg?t=1794241756",
       "genres": [
         "Экшены",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Их плоть — ваше оружие. Mortal Shell II — полноценное продолжение первой части. Это ролевой боевик с жестокими и напряженными сражениями. Вселяйтесь в тела выдающихся воинов, свергайте лжебогов и верните к жизни опустошенный мир."
+    },
+    {
+      "appid": "4955600",
+      "name": "Capy of Gods",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4955600/e1899508aa51cf9fd8bc021080fe0793fcd9dbfe/header.jpg?t=1794254365",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Ролевые игры",
         "Ранний доступ"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
-        "linux": false
+        "mac": true,
+        "linux": true
       },
       "metacritic": null,
-      "short_description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
+      "short_description": "Экшен-роглайк с вертикальным подъёмом: взбирайтесь на огромную башню в роли капибары, пока оружие стреляет само — в стиле bullet heaven. Повышайте уровень, собирайте билд, выполняйте задания и открывайте новое оружие и персонажей. Каждый забег генерирует совершенно новую башню."
     },
     {
-      "appid": "4861910",
-      "name": "Pin-Finite",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4861910/9184f4a070308fb35b9f5192e5824a0adbfd72fb/header.jpg?t=1794243152",
+      "appid": "5486980",
+      "name": "Grim Deck",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5486980/da35cfb3f70f405b199954f10078fbd7825de3df/header.jpg?t=1794251545",
       "genres": [
         "Инди",
         "Стратегии"
@@ -657,39 +627,19 @@
       "platforms": {
         "windows": true,
         "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Pin-Finite is a Roguelike deck-builder pinball game. Purchase unique and powerful upgrades to blow the lid on your points! Unlock rare pinballs and combos to scale your runs to infinity!"
-    },
-    {
-      "appid": "4947250",
-      "name": "Kebab Dynasty",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4947250/0be98370fe83ef2e7ff17237309824f78634ad2c/header.jpg?t=1794176684",
-      "genres": [
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Build and run your own kebab restaurant in a single-player management simulation. Set prices, hire staff, serve customers, keep the shop clean, upgrade the interior, and turn a small counter into a thriving food business."
+      "short_description": "Пасьянс с одной колодой. Трефы и пики — чудища. Бубны — оружие. Червы — зелья. Каждая раздача — 4 карты: сыграй 3, оставь 1. Пройди колоду и выживи. Любую колоду можно пройти. Каждый день новая колода дня, а ещё походы из шести колод."
     },
     {
-      "appid": "3499520",
-      "name": "Piano Glow",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499520/header.jpg?t=1794204025",
+      "appid": "5403800",
+      "name": "Golden Pan",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5403800/bdb54b3eb34ab9010fedf24c589b7509fad00f7e/header.jpg?t=1794247277",
       "genres": [
         "Казуальные игры",
         "Инди",
-        "Симуляторы",
-        "Анимация и моделирование",
-        "Работа со звуком",
-        "Создание видео"
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
@@ -698,7 +648,61 @@
         "linux": true
       },
       "metacritic": null,
-      "short_description": "Играйте на пианино в онлайн-лобби с другими игроками: таблицы лидеров, игровые тренировки слуха, чтения нот, ритма, 4K/7K и игры по падающим нотам. Любая песня на QWERTY-клавиатуре или пианино. Превращайте любое видео с пианино или ноты в урок с падающими нотами или MIDI."
+      "short_description": "Уютная игра о промывке золота. Промывайте речную гальку, смотрите, как золото оседает на дне лотка, продавайте находки в деревне и превращайте пустую комнату в дом. Ни таймеров, ни поражения. Только тихие золотые деньки."
+    },
+    {
+      "appid": "5033060",
+      "name": "Menthal",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5033060/aeecce2971c62b8147c09de5a7157f07cee5b668/header.jpg?t=1794247229",
+      "genres": [
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Menthal - это хоррор от первого лица, в котором ты становишься испытуемым. Принимай экспериментальные лекарства, выдерживай их побочные эффекты и постарайся выжить в том, что произойдёт дальше."
+    },
+    {
+      "appid": "3962650",
+      "name": "Pixel Pegz",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3962650/ce7703948707f2090f1b3a6180781c2029a82c86/header.jpg?t=1794247600",
+      "genres": [
+        "Экшены",
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Cozy puzzle and arcade games to play your way: in a little window that stays on top while you work, on Steam Deck, or on the couch with a controller. Untangle arrows, pour sand, sort hex stacks or squish jelly, one bite-sized round at a time."
+    },
+    {
+      "appid": "5351930",
+      "name": "Against Heroes",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5351930/6c5f37d68b9ede7f9fbfd2e96cda738c72e76f2d/header.jpg?t=1794249023",
+      "genres": [
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Why wait for heroes to come for you? Build and deploy a monster army to eliminate them before they grow strong enough to defeat you. A strategy roguelite from the Demon Lord’s perspective!"
     }
   ]
 }
