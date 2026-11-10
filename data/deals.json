@@ -1,7 +1,27 @@
 {
-  "updatedAt": "2026-11-10T15:47:52+03:00",
+  "updatedAt": "2026-11-10T23:55:07+03:00",
   "source": "steam-specials-ru",
   "deals": [
+    {
+      "id": "steam-774861",
+      "title": "Project Winter",
+      "store": "Steam",
+      "old": 259,
+      "neu": 51,
+      "pct": 80,
+      "url": "https://store.steampowered.com/app/774861/",
+      "steamAppId": "774861"
+    },
+    {
+      "id": "steam-227300",
+      "title": "Euro Truck Simulator 2",
+      "store": "Steam",
+      "old": 1269,
+      "neu": 317,
+      "pct": 75,
+      "url": "https://store.steampowered.com/app/227300/",
+      "steamAppId": "227300"
+    },
     {
       "id": "steam-1272080",
       "title": "PAYDAY 3",
@@ -13,44 +33,14 @@
       "steamAppId": "1272080"
     },
     {
-      "id": "steam-1500",
-      "title": "Darwinia",
+      "id": "steam-58368",
+      "title": "Euro Truck Simulator 2: Ultimate Edition",
       "store": "Steam",
-      "old": 460,
-      "neu": 138,
-      "pct": 70,
-      "url": "https://store.steampowered.com/app/1500/",
-      "steamAppId": "1500"
-    },
-    {
-      "id": "steam-5486060",
-      "title": "Your account has been banned",
-      "store": "Steam",
-      "old": 64,
-      "neu": 38,
-      "pct": 41,
-      "url": "https://store.steampowered.com/app/5486060/",
-      "steamAppId": "5486060"
-    },
-    {
-      "id": "steam-1211600",
-      "title": "ZED ZONE",
-      "store": "Steam",
-      "old": 460,
-      "neu": 276,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/1211600/",
-      "steamAppId": "1211600"
-    },
-    {
-      "id": "steam-5405820",
-      "title": "Moonbow Idle: Dark Fantasy Auto Battler",
-      "store": "Steam",
-      "old": 170,
-      "neu": 102,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5405820/",
-      "steamAppId": "5405820"
+      "old": 14500,
+      "neu": 3599,
+      "pct": 50,
+      "url": "https://store.steampowered.com/app/58368/",
+      "steamAppId": "58368"
     },
     {
       "id": "steam-3527290",
@@ -63,14 +53,14 @@
       "steamAppId": "3527290"
     },
     {
-      "id": "steam-2848990",
-      "title": "Mates and Crates",
+      "id": "steam-2195710",
+      "title": "The Ghost and The Phoenix",
       "store": "Steam",
-      "old": 465,
-      "neu": 325,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/2848990/",
-      "steamAppId": "2848990"
+      "old": 520,
+      "neu": 369,
+      "pct": 29,
+      "url": "https://store.steampowered.com/app/2195710/",
+      "steamAppId": "2195710"
     },
     {
       "id": "steam-2584270",
@@ -83,64 +73,74 @@
       "steamAppId": "2584270"
     },
     {
-      "id": "steam-4858460",
-      "title": "PARLEY",
+      "id": "steam-5341270",
+      "title": "Veiled Legions: Fantasy Board Game",
       "store": "Steam",
-      "old": 245,
-      "neu": 196,
+      "old": 690,
+      "neu": 517,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/5341270/",
+      "steamAppId": "5341270"
+    },
+    {
+      "id": "steam-3005700",
+      "title": "Последний смотритель",
+      "store": "Steam",
+      "old": 465,
+      "neu": 348,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/3005700/",
+      "steamAppId": "3005700"
+    },
+    {
+      "id": "steam-4185770",
+      "title": "cenker's mod",
+      "store": "Steam",
+      "old": 195,
+      "neu": 146,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/4185770/",
+      "steamAppId": "4185770"
+    },
+    {
+      "id": "steam-4863180",
+      "title": "Defend The HexCore",
+      "store": "Steam",
+      "old": 195,
+      "neu": 146,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/4863180/",
+      "steamAppId": "4863180"
+    },
+    {
+      "id": "steam-4683860",
+      "title": "Calmaria: Wild Growth",
+      "store": "Steam",
+      "old": 465,
+      "neu": 372,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/4858460/",
-      "steamAppId": "4858460"
+      "url": "https://store.steampowered.com/app/4683860/",
+      "steamAppId": "4683860"
     },
     {
-      "id": "steam-4546340",
-      "title": "One More Adventure",
+      "id": "steam-4876650",
+      "title": "Никогда не сортируй по цвету",
       "store": "Steam",
-      "old": 197,
-      "neu": 157,
+      "old": 445,
+      "neu": 356,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/4546340/",
-      "steamAppId": "4546340"
+      "url": "https://store.steampowered.com/app/4876650/",
+      "steamAppId": "4876650"
     },
     {
-      "id": "steam-5174560",
-      "title": "Motive Power",
+      "id": "steam-5057050",
+      "title": "Rulebound",
       "store": "Steam",
-      "old": 1550,
-      "neu": 1317,
-      "pct": 15,
-      "url": "https://store.steampowered.com/app/5174560/",
-      "steamAppId": "5174560"
-    },
-    {
-      "id": "steam-2411200",
-      "title": "Underkeep",
-      "store": "Steam",
-      "old": 1199,
-      "neu": 1019,
-      "pct": 15,
-      "url": "https://store.steampowered.com/app/2411200/",
-      "steamAppId": "2411200"
-    },
-    {
-      "id": "steam-4911430",
-      "title": "About Frontlines",
-      "store": "Steam",
-      "old": 877,
-      "neu": 745,
-      "pct": 15,
-      "url": "https://store.steampowered.com/app/4911430/",
-      "steamAppId": "4911430"
-    },
-    {
-      "id": "steam-4576490",
-      "title": "Casualties: Unknown",
-      "store": "Steam",
-      "old": 799,
-      "neu": 679,
-      "pct": 15,
-      "url": "https://store.steampowered.com/app/4576490/",
-      "steamAppId": "4576490"
+      "old": 320,
+      "neu": 256,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/5057050/",
+      "steamAppId": "5057050"
     }
   ]
 }
