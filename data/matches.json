@@ -1,58 +1,7 @@
 {
- "updatedAt": "2026-11-10T01:44:13+03:00",
+ "updatedAt": "2026-11-10T10:47:46+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-133627",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Xipto Esports",
-   "teamB": "Yellow Submarine",
-   "logoA": "https://files.bo3.gg/uploads/team/25259/image/webp-a52f5bcd6f1e1e76b848789e653b75f1.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16486/image/webp-db8fb0a62365deefa26db24e4fb46f10.webp",
-   "scoreA": 1,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "live",
-   "event": "1win Essence III: Play-In",
-   "tier": "A",
-   "startsAt": "2026-11-09T22:15:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "1win_dota_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "1win_dota_ru"
-    },
-    {
-     "type": "twitch",
-     "channel": "1win_dota",
-     "lang": "en",
-     "official": false,
-     "label": "1win_dota"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/xipto-esports-dota2-vs-yellow-submarine-09-11-2026"
-  },
-  {
-   "id": "bo3-132698",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "FENNEL",
-   "teamB": "Nothin'Here",
-   "logoA": "https://files.bo3.gg/uploads/team/16841/image/webp-e3fade7ce22aed40d7e7f43bd993525c.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/25433/image/webp-ab393f1025ef522f78f231581fd631de.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "upcoming",
-   "event": "LCP 2027 Promotion",
-   "tier": "A",
-   "startsAt": "2026-11-10T08:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/lol/matches/fennel-lol-vs-nothinhere-10-11-2026"
-  },
   {
    "id": "bo3-132699",
    "game": "LoL",
@@ -369,6 +318,65 @@
    "url": "https://bo3.gg/lol/matches/bilibili-gaming-lol-vs-gen-g-14-11-2026"
   },
   {
+   "id": "bo3-132698",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "FENNEL",
+   "teamB": "Nothin'Here",
+   "logoA": "https://files.bo3.gg/uploads/team/16841/image/webp-e3fade7ce22aed40d7e7f43bd993525c.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/25433/image/webp-ab393f1025ef522f78f231581fd631de.webp",
+   "scoreA": 0,
+   "scoreB": 3,
+   "bo": 5,
+   "status": "finished",
+   "event": "LCP 2027 Promotion",
+   "tier": "A",
+   "startsAt": "2026-11-10T08:10:00+03:00",
+   "streams": [
+    {
+     "type": "youtube",
+     "id": "3TR1ARK2OB4",
+     "lang": "en",
+     "official": false,
+     "label": "[EN] FL vs NTH - SGW vs TGM | LCP 2026 Promotion Series FFA Day 1"
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/fennel-lol-vs-nothinhere-10-11-2026"
+  },
+  {
+   "id": "bo3-133627",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Xipto Esports",
+   "teamB": "Yellow Submarine",
+   "logoA": "https://files.bo3.gg/uploads/team/25259/image/webp-a52f5bcd6f1e1e76b848789e653b75f1.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16486/image/webp-db8fb0a62365deefa26db24e4fb46f10.webp",
+   "scoreA": 1,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "1win Essence III: Play-In",
+   "tier": "A",
+   "startsAt": "2026-11-09T22:15:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "1win_dota_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "1win_dota_ru"
+    },
+    {
+     "type": "twitch",
+     "channel": "1win_dota",
+     "lang": "en",
+     "official": false,
+     "label": "1win_dota"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/xipto-esports-dota2-vs-yellow-submarine-09-11-2026"
+  },
+  {
    "id": "bo3-133638",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -546,39 +554,6 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/froglings-vs-ka4kanarskie-cyxariki-08-11-2026"
-  },
-  {
-   "id": "bo3-133624",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "PlayTime",
-   "teamB": "LEGION",
-   "logoA": "https://files.bo3.gg/uploads/team/22354/image/webp-f5f3c4896d1f5df9573053ef85802a38.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/25401/image/webp-12311d6aa24e815ad6b9c3e66cc662d2.webp",
-   "scoreA": 0,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "1win Essence III: Play-In",
-   "tier": "A",
-   "startsAt": "2026-11-08T19:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "1win_dota_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "1win_dota_ru"
-    },
-    {
-     "type": "twitch",
-     "channel": "1win_dota",
-     "lang": "en",
-     "official": false,
-     "label": "1win_dota"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/playtime-vs-legion_stack-08-11-2026"
   },
   {
    "id": "bo3-133057",
@@ -927,7 +902,7 @@
    "prize": null,
    "start": "2026-11-10",
    "end": "2026-11-13",
-   "status": "upcoming",
+   "status": "current",
    "url": "https://bo3.gg/lol/tournaments/lcp-2027-promotion"
   },
   {
