@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T12:36:14+03:00",
+  "updatedAt": "2026-11-11T20:57:23+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -23,6 +23,16 @@
       "steamAppId": "227300"
     },
     {
+      "id": "steam-1272080",
+      "title": "PAYDAY 3",
+      "store": "Steam",
+      "old": 1269,
+      "neu": 380,
+      "pct": 70,
+      "url": "https://store.steampowered.com/app/1272080/",
+      "steamAppId": "1272080"
+    },
+    {
       "id": "steam-58368",
       "title": "Euro Truck Simulator 2: Ultimate Edition",
       "store": "Steam",
@@ -33,34 +43,24 @@
       "steamAppId": "58368"
     },
     {
-      "id": "steam-5482540",
-      "title": "MISCONDUCTOR | 迷指揮者",
+      "id": "steam-4822740",
+      "title": "Tiny Conquests",
       "store": "Steam",
-      "old": 600,
-      "neu": 360,
+      "old": 890,
+      "neu": 534,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5482540/",
-      "steamAppId": "5482540"
+      "url": "https://store.steampowered.com/app/4822740/",
+      "steamAppId": "4822740"
     },
     {
-      "id": "steam-5379640",
-      "title": "HEADSHOT: Zombie Doomsday",
+      "id": "steam-4842090",
+      "title": "Grab Your Deck",
       "store": "Steam",
-      "old": 195,
-      "neu": 117,
+      "old": 465,
+      "neu": 279,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5379640/",
-      "steamAppId": "5379640"
-    },
-    {
-      "id": "steam-2792080",
-      "title": "Stock:Retail investors",
-      "store": "Steam",
-      "old": 165,
-      "neu": 99,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/2792080/",
-      "steamAppId": "2792080"
+      "url": "https://store.steampowered.com/app/4842090/",
+      "steamAppId": "4842090"
     },
     {
       "id": "steam-3527290",
@@ -73,6 +73,16 @@
       "steamAppId": "3527290"
     },
     {
+      "id": "steam-5464840",
+      "title": "FatInfantry",
+      "store": "Steam",
+      "old": 170,
+      "neu": 119,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5464840/",
+      "steamAppId": "5464840"
+    },
+    {
       "id": "steam-2584270",
       "title": "Mortal Shell II",
       "store": "Steam",
@@ -83,44 +93,44 @@
       "steamAppId": "2584270"
     },
     {
-      "id": "steam-4825260",
-      "title": "Great Space Race of 3032",
+      "id": "steam-5438730",
+      "title": "Fishing Shop: Tidy Up",
       "store": "Steam",
-      "old": 460,
-      "neu": 345,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/4825260/",
-      "steamAppId": "4825260"
+      "old": 195,
+      "neu": 150,
+      "pct": 23,
+      "url": "https://store.steampowered.com/app/5438730/",
+      "steamAppId": "5438730"
     },
     {
-      "id": "steam-4940980",
-      "title": "The Ramen Bar",
+      "id": "steam-5066680",
+      "title": "Enkhbayar's Olympiad Chess: Multi-Board Team Matches",
       "store": "Steam",
-      "old": 290,
-      "neu": 217,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/4940980/",
-      "steamAppId": "4940980"
-    },
-    {
-      "id": "steam-4249520",
-      "title": "異界ノ宿帳",
-      "store": "Steam",
-      "old": 1050,
-      "neu": 840,
+      "old": 800,
+      "neu": 640,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/4249520/",
-      "steamAppId": "4249520"
+      "url": "https://store.steampowered.com/app/5066680/",
+      "steamAppId": "5066680"
     },
     {
-      "id": "steam-3699850",
-      "title": "The Devil's Due",
+      "id": "steam-4983460",
+      "title": "The Rouge Casino",
       "store": "Steam",
-      "old": 499,
-      "neu": 399,
+      "old": 790,
+      "neu": 632,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/3699850/",
-      "steamAppId": "3699850"
+      "url": "https://store.steampowered.com/app/4983460/",
+      "steamAppId": "4983460"
+    },
+    {
+      "id": "steam-3301000",
+      "title": "The Vast White",
+      "store": "Steam",
+      "old": 590,
+      "neu": 472,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/3301000/",
+      "steamAppId": "3301000"
     },
     {
       "id": "steam-4876650",
@@ -131,16 +141,6 @@
       "pct": 20,
       "url": "https://store.steampowered.com/app/4876650/",
       "steamAppId": "4876650"
-    },
-    {
-      "id": "steam-5187700",
-      "title": "Confess To Me",
-      "store": "Steam",
-      "old": 395,
-      "neu": 316,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5187700/",
-      "steamAppId": "5187700"
     }
   ]
 }

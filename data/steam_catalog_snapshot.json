@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T12:36:09+03:00",
+  "updatedAt": "2026-11-11T20:57:17+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -437,7 +437,7 @@
     {
       "appid": "281990",
       "name": "Stellaris",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/header.jpg?t=1792590966",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/header.jpg?t=1794419057",
       "genres": [
         "Симуляторы",
         "Стратегии"
@@ -472,13 +472,27 @@
       "short_description": "Project Winter — многопользовательская игра для 8 игроков, основанная на социальной маскировке и выживании. Чтобы спастись, выжившим необходимо общаться и работать в команде. Собирайте ресурсы, ремонтируйте постройки и покоряйте дикую природу плечом к плечу."
     },
     {
-      "appid": "1272080",
-      "name": "PAYDAY 3",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1272080/1d66ef7e731a18e40b037d39618f7c3dfd614a90/header.jpg?t=1794297037",
+      "appid": "58368",
+      "name": "Steam App 58368",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/58368/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
+    },
+    {
+      "appid": "5482540",
+      "name": "MISCONDUCTOR | 迷指揮者",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5482540/f211e86e8632008b043dc1a23f6b8e101961b60e/header.jpg?t=1794385723",
       "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Ролевые игры"
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
@@ -486,15 +500,15 @@
         "mac": false,
         "linux": false
       },
-      "metacritic": 66,
-      "short_description": "PAYDAY 3 — это кооперативный шутер от первого лица для 1-4 игроков и абсолютная фантазия об ограблении, действие которой разворачивается в самом узнаваемом городе мира. Исчезните без следа или прорвитесь сквозь град пуль. В любом случае вы уйдете с добычей."
+      "metacritic": null,
+      "short_description": "Conduct an orchestra with your mouse as the baton. The catch: they're terrible. The flute can't be heard, the horn is deafening, and the choir in Beethoven's Ninth only sings &quot;Aaah&quot;. Had enough? Throw the baton at them. Instruments break, the damage piles up, and they throw it back."
     },
     {
-      "appid": "4904730",
-      "name": "Achievement Fly Clicker",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4904730/3e6570672ff096d877921615cad8c733499a8d45/header.jpg?t=1794365501",
+      "appid": "5379640",
+      "name": "HEADSHOT: Zombie Doomsday",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5379640/21b690c7680bf13af260718f0c22fb1bc9215796/header.jpg?t=1794385425",
       "genres": [
-        "Казуальные игры",
+        "Экшены",
         "Инди"
       ],
       "is_free": false,
@@ -504,7 +518,27 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Click flies, unlock achievements, and complete your collection. A simple and satisfying clicker designed for achievement hunters."
+      "short_description": "Aim for the head as zombies close in through darkness and fear. Earn gold, unlock permanent upgrades, and survive escalating waves of special infected and bosses in this 2D pixel survival shooter. Choose upgrades carefully, control the horde, and push for a higher score in every short run."
+    },
+    {
+      "appid": "2792080",
+      "name": "Stock:Retail investors",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2792080/header.jpg?t=1794367338",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Ролевые игры",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "If you have ideas about stocks, you should buy this game. Before you use real money to verify your ideas, come here to verify them. It provides 1-minute data for nearly 20 years of mainstream markets, as well as conditional order functions. There is also unrealistic simulated stock trading."
     },
     {
       "appid": "3527290",
@@ -525,114 +559,6 @@
       "short_description": "PEAK — это совместная игра о восхождении, где малейшая ошибка может привести к гибели. Играйте в одиночку или вместе с группой отчаянных бойскаутов. Сбегите с таинственного острова, для чего вам потребуется забраться на гору в его центре. Хватит ли вам сил, чтобы достичь ПИКА?"
     },
     {
-      "appid": "3305190",
-      "name": "One More Plate!",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3305190/9125526cddb0eaff77274b529c69cb90545edb45/header.jpg?t=1794371495",
-      "genres": [
-        "Экшены",
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Feed your fellow Shape Buddies to a bizarre cast of Glutton Monsters before they put you on the menu. Catch, balance and fling food with absurd, anything-but-proper plates — solo, or 2 players on one PC or via Steam Remote Play Together. Everything obeys physics; nothing obeys you."
-    },
-    {
-      "appid": "5433870",
-      "name": "百鬼退散",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5433870/aec31f595e48893cd999a8859e70c56612aff5de/header.jpg?t=1794382299",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Survive a night of Chinese folklore in Ghosts Before Dawn, a pixel-art survivor-like. Wield auto-casting talismans, flying swords, and spirit-banishing gongs. Combine weapons and the Five Elements, brave haunted villages and ghost markets, then face the final bosses after ten minutes of survival."
-    },
-    {
-      "appid": "4618570",
-      "name": "Booster Pack Heroes",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4618570/b23824cde8f828abb42f3ef497f37657475ba505/header.jpg?t=1794316433",
-      "genres": [
-        "Казуальные игры",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Вскрывайте бустеры и доставайте одного фойлового героя за другим! Это Booster Pack Heroes — инкрементальная игра, где в каждом новом наборе может лежать очередная имба. Защищайте башню от бесконечных вражеских атак и пробивайтесь к новым мирам!"
-    },
-    {
-      "appid": "2195710",
-      "name": "The Ghost and The Phoenix",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2195710/header.jpg?t=1794339603",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Peer beyond the veil and experience the ethereal in The Ghost and The Phoenix, a captivating neo-classical top-down shooter. Navigate the realms between life and death in this supernatural action-packed adventure."
-    },
-    {
-      "appid": "5373260",
-      "name": "Ferro - 3D Audio Visualizer",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5373260/def2d64a8a0bccb19cb547648d7959880b443ab3/header.jpg?t=1794349676",
-      "genres": [
-        "Симуляторы",
-        "Работа со звуком",
-        "Дизайн и иллюстрация",
-        "Утилиты",
-        "Создание видео"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Sound in liquid form. Ferro is a real-time 3D audio-reactive fluid simulation. Shape liquid, light and motion with music, MIDI, automation, or even your microphone. Infinitely customizable, place on your desktop or add to your livestream for an expressive companion to your sound."
-    },
-    {
-      "appid": "3850230",
-      "name": "Гайд по выживанию: 99 дней",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3850230/4b1bcedeb1223684785e333b42a370bdc897832a/header_russian.jpg?t=1794360625",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Быстрый кооперативный зомби-экшен на выживание, в котором игроки сражаются с ордами врагов, открывают случайные усиления, создают разные билды и вместе пытаются сбежать."
-    },
-    {
       "appid": "2584270",
       "name": "Mortal Shell II",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/0a4c23b70ced29fac344186ea564dae67c80cfd6/header.jpg?t=1794241756",
@@ -650,11 +576,30 @@
       "short_description": "Их плоть — ваше оружие. Mortal Shell II — полноценное продолжение первой части. Это ролевой боевик с жестокими и напряженными сражениями. Вселяйтесь в тела выдающихся воинов, свергайте лжебогов и верните к жизни опустошенный мир."
     },
     {
-      "appid": "4514060",
-      "name": "Taimanin Asagi 2",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4514060/ba26d9c8885e104f9679f4ddfef8f16a51a43167/header.jpg?t=1794358813",
+      "appid": "4825260",
+      "name": "Great Space Race of 3032",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4825260/8deac86b6fcbc50bb8e47dd7db8ebabcc88002f9/header.jpg?t=1794384165",
       "genres": [
-        "Приключенческие игры"
+        "Казуальные игры",
+        "Инди",
+        "Гонки"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Test your piloting skills in a 6-DOF space racer. Match up against others in the matchmaking mode, compete against AI, or race the clock solo. Clear as many rings as you can, and clear the finish line to lock in your time, top speed and accuracy. Get there first to win."
+    },
+    {
+      "appid": "4940980",
+      "name": "The Ramen Bar",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4940980/8c303a9e8ab21bc4e8f9a0bed433d9401b070f79/header.jpg?t=1794374389",
+      "genres": [
+        "Казуальные игры",
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
@@ -663,17 +608,32 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Taimanin Asagi, the legendary anti-demon ninja, returns in the second installment of this classic visual novel series! Asagi and Sakura head to Tokyo Kingdom, a lawless district overrun with demons and criminals, to determine the whereabouts of their fellow Taimanin who have gone missing in action."
+      "short_description": "Управляйте уютным рамен-баром в оживлённом японском городе. Готовьте блюда, обслуживайте клиентов и поддерживайте порядок, одновременно расширяя своё меню с каждым днём. Но когда вы остаётесь один... что-то кажется не совсем правильным..."
     },
     {
-      "appid": "4683860",
-      "name": "Calmaria: Wild Growth",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4683860/904ba7504fc07d6676ae131079d4a90c7e2e820f/header.jpg?t=1794339055",
+      "appid": "4249520",
+      "name": "異界ノ宿帳",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4249520/422845ec9625b8a8b9337204e79c59cc44c873ab/header.jpg?t=1794387575",
       "genres": [
         "Приключенческие игры",
         "Инди",
-        "Ролевые игры",
-        "Симуляторы",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Run an inn in the Otherworld, where forgotten things become tsukumogami. By day, tend to guests burdened by Kegare. By night, survive the horrors born from the impurity left behind. Your choices shape the guests’ healing and the inn’s fate."
+    },
+    {
+      "appid": "3699850",
+      "name": "The Devil's Due",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3699850/cb83990ef1a4ffd7e360d2b00a3d5fe7b39f0227/header.jpg?t=1794411367",
+      "genres": [
+        "Инди",
         "Стратегии"
       ],
       "is_free": false,
@@ -683,7 +643,42 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Build and automate your settlement in this island survival game, play solo or with friends, but it’s better with friends! Start by tilling the soil and planting your first crops, delegate tasks to your settlers. Sail to new islands, loot dungeons, and prepare your defenses for the next wave."
+      "short_description": "Вы проиграли душу Дьяволу. В покер. Теперь вы томитесь в адских глубинах и мечтаете лишь о том, чтобы с боем вырваться на свободу. Вас ждут безумные покерные дуэли и целый паноптикум жутких монстров. Но, какая удача, вы — шулер."
+    },
+    {
+      "appid": "4876650",
+      "name": "Никогда не сортируй по цвету",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4876650/93c52dfa6a8a9193844ba301efeae5231e1d9df9/header_russian.jpg?t=1794327933",
+      "genres": [
+        "Казуальные игры",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Где-то под этой горой деталей - ваш пол. Сортируйте невозможную Кучу: магнитная перчатка, сита, зрение, выслеживающее детали. Наполняйте подписанные ящики, доставайте детали, смотрите, как MOC-модели собираются деталь за деталью. Одно правило: никогда не сортируйте по цвету."
+    },
+    {
+      "appid": "5187700",
+      "name": "Confess To Me",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5187700/1eeef150e2dbf4cd0e741e03c34b2b7ae531f5f0/header.jpg?t=1794384420",
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Confess to Me — мрачная 18+ кинетическая новелла о власти, психологическом давлении и опасном притяжении."
     }
   ]
 }
