@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-10T23:55:02+03:00",
+  "updatedAt": "2026-11-11T05:00:11+03:00",
   "source": "steam-store-appdetails",
-  "count": 39,
+  "count": 38,
   "apps": [
     {
       "appid": "730",
@@ -452,6 +452,26 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
+      "appid": "774861",
+      "name": "Project Winter",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774861/6f25285a73c7aa9c652ee701f8080dca790c1961/header.jpg?t=1759330361",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Project Winter — многопользовательская игра для 8 игроков, основанная на социальной маскировке и выживании. Чтобы спастись, выжившим необходимо общаться и работать в команде. Собирайте ресурсы, ремонтируйте постройки и покоряйте дикую природу плечом к плечу."
+    },
+    {
       "appid": "1272080",
       "name": "PAYDAY 3",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1272080/1d66ef7e731a18e40b037d39618f7c3dfd614a90/header.jpg?t=1794297037",
@@ -470,32 +490,10 @@
       "short_description": "PAYDAY 3 — это кооперативный шутер от первого лица для 1-4 игроков и абсолютная фантазия об ограблении, действие которой разворачивается в самом узнаваемом городе мира. Исчезните без следа или прорвитесь сквозь град пуль. В любом случае вы уйдете с добычей."
     },
     {
-      "appid": "1500",
-      "name": "Darwinia",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1500/header.jpg?t=1779028568",
-      "genres": [
-        "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": 84,
-      "short_description": "Darwinia blends real-time strategy, action, and puzzles with a unique gesture-based control system. Save the Darwinians, battle viruses, and restore order in a retro-inspired digital world. Winner of multiple prestigious  awards, including the Seumas McNally Grand Prize at IGF 2006."
-    },
-    {
-      "appid": "5486060",
-      "name": "Your account has been banned",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5486060/ba2af299c3ef3ec6ca1495ca7d2acb23cae220b7/header.jpg?t=1794297814",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Ролевые игры",
-        "Симуляторы"
-      ],
+      "appid": "58368",
+      "name": "Steam App 58368",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/58368/header.jpg",
+      "genres": [],
       "is_free": false,
       "platforms": {
         "windows": true,
@@ -503,46 +501,9 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "This is a surreal and hilarious choice-based dialogue game. You’ve signed up for the latest AI assistant, but its decision-making algorithm clearly has some issues—it’s currently banning users left and right."
-    },
-    {
-      "appid": "1211600",
-      "name": "ZED ZONE",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211600/aac7446006d1fb3898eccf697406d0c357cf20a3/header_alt_assets_2.jpg?t=1794210733",
-      "genres": [
-        "Экшены",
-        "Инди",
-        "Ролевые игры",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Мир охватила великая катастрофа. На задании ваш борт терпит крушение, и вы оказываетесь заперты в Zed Zone. Вокруг зомби и монстры. Чтобы выбраться, собирайте ресурсы, прокачивайте навыки, стройте убежища и громите орды зомби и загадочных мехов, следуя за проблеском надежды."
-    },
-    {
-      "appid": "5405820",
-      "name": "Moonbow Idle: Dark Fantasy Auto Battler",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5405820/e0004429f448fad687462e7809e109159ecf8f46/header.jpg?t=1794318671",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди",
-        "Ролевые игры",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "A red-hooded archer, a silver moon bow and a horde that never runs out. Moonbow Idle is a dark fantasy auto battler: leave it on a second monitor or sit down and min-max. Hatch pets, farm boss gear, ascend, go deeper."
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
     },
     {
       "appid": "3527290",
@@ -563,11 +524,12 @@
       "short_description": "PEAK — это совместная игра о восхождении, где малейшая ошибка может привести к гибели. Играйте в одиночку или вместе с группой отчаянных бойскаутов. Сбегите с таинственного острова, для чего вам потребуется забраться на гору в его центре. Хватит ли вам сил, чтобы достичь ПИКА?"
     },
     {
-      "appid": "2848990",
-      "name": "Mates and Crates",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2848990/c4fd06f77262c25d275d88d29390d199a85c4051/header.jpg?t=1794304928",
+      "appid": "2195710",
+      "name": "The Ghost and The Phoenix",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2195710/header.jpg?t=1794339603",
       "genres": [
         "Экшены",
+        "Приключенческие игры",
         "Инди"
       ],
       "is_free": false,
@@ -577,7 +539,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Steal crates, drop them on your crafting pad and turn them into guns, vehicles and squadmates. Team battles online or against bots: blow up the enemy HQ before they blow up yours."
+      "short_description": "Peer beyond the veil and experience the ethereal in The Ghost and The Phoenix, a captivating neo-classical top-down shooter. Navigate the realms between life and death in this supernatural action-packed adventure."
     },
     {
       "appid": "2584270",
@@ -597,30 +559,45 @@
       "short_description": "Их плоть — ваше оружие. Mortal Shell II — полноценное продолжение первой части. Это ролевой боевик с жестокими и напряженными сражениями. Вселяйтесь в тела выдающихся воинов, свергайте лжебогов и верните к жизни опустошенный мир."
     },
     {
-      "appid": "4858460",
-      "name": "PARLEY",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4858460/d30dd38eb54a8ed185fea25effdb270fde6c777c/header.jpg?t=1794297076",
+      "appid": "5341270",
+      "name": "Veiled Legions: Fantasy Board Game",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5341270/4bf4c8eac0134019bae4ea75648168505f84c590/header.jpg?t=1794333944",
       "genres": [
-        "Экшены",
-        "Казуальные игры",
-        "Инди",
         "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
-        "linux": true
+        "mac": false,
+        "linux": false
       },
       "metacritic": null,
-      "short_description": "Средневековая битва всех против всех для 2–8 друзей. Веди армию в бой героем, возводи Крепость, запускай себя из собственной Мангонели и договаривайся о союзах в голосовом чате по близости — а потом предавай. Переживи соперников или возглавь итоговый рейтинг."
+      "short_description": "Командуй скрытой армией фэнтезийных существ в тактической настольной игре на блеф и дедукцию. Враг видит только завуалированные фигуры, пока не скрестятся клинки, а каждая схватка — кинематографичная дуэль над столом. Переиграй бота, друга в Steam или онлайн-соперника и захвати вражескую Реликвию."
     },
     {
-      "appid": "4546340",
-      "name": "One More Adventure",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4546340/a2a1472cb5f46d2e04882148d7d0b3f79cd31bdc/header.jpg?t=1794314475",
+      "appid": "3005700",
+      "name": "Последний смотритель",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3005700/0805267b7b21ddb4ea3ff2ae6a5e706204a62177/header.jpg?t=1794334862",
       "genres": [
-        "Ролевые игры"
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Возьмите на себя роль смотрителя маяка на отдаленном острове. Поддерживайте работу механизмов, используйте радио и карту, чтобы провести корабли в гавань. Выживайте и раскрывайте загадки острова Фарпоинт в хорроре, вдохновленном Voices of the Void и No One Lives Under the Lighthouse."
+    },
+    {
+      "appid": "4185770",
+      "name": "cenker's mod",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4185770/714dd8dbb24945c585427b163160bb4704193486/header.jpg?t=1794336145",
+      "genres": [
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -629,76 +606,77 @@
         "linux": true
       },
       "metacritic": null,
-      "short_description": "One More Adventure is a hexcrawl roguelike inspired by Nethack and Castle of the Winds. It is part of the Old School Renaissance (OSR), and has heavy influences from TTRPGs from the 1970s and 1980s. Each world map and dungeon is new, allowing for a high amount of replayability."
+      "short_description": "cenker's mod - это многопользовательская физическая песочница с множеством модов. Каждый мод предлагает разный опыт. Играйте в включенные, созданные сообществом и свои собственные моды вместе с друзьями."
     },
     {
-      "appid": "5174560",
-      "name": "Motive Power",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5174560/326d9eb081a92a43d6f37a812df6a050d1f0334c/header.jpg?t=1794311364",
+      "appid": "4863180",
+      "name": "Defend The HexCore",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4863180/6827e12a19328269e721f5966a0687674af330a6/header.jpg?t=1794334909",
       "genres": [
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Fast-Paced Tower Defense Game Where Space Is Used To Manipulate Enemy Behavior | Towers And Upgrades Take Up Space On The Board | Make The Enemy Decide Whether They Should Attack The Tower, Or Go Around!"
+    },
+    {
+      "appid": "4683860",
+      "name": "Calmaria: Wild Growth",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4683860/904ba7504fc07d6676ae131079d4a90c7e2e820f/header.jpg?t=1794339055",
+      "genres": [
+        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры",
         "Симуляторы",
         "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Run British Railways' locomotive fleet from 1955 to 1994. Order the classes history built — or take your own choices. Manage overhauls, depots, budgets and withdrawals across four decades, and answer for it in a graded annual report against the real record. Deterministic, deeply researched."
-    },
-    {
-      "appid": "2411200",
-      "name": "Underkeep",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2411200/be22c58d9f42d3d349198e87b3c192998047b053/header.jpg?t=1794141969",
-      "genres": [
-        "Приключенческие игры",
-        "Инди",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
         "mac": false,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Исследуйте опасный фэнтезийный мир в этой ролевой игре в жанре «dungeon-crawler» с тактическими пошаговыми боями. Соберите отряд искателей приключений, улучшайте своё снаряжение и спуститесь в глубины Underkeep, чтобы раскрыть, что там скрывается."
+      "short_description": "Build and automate your settlement in this island survival game, play solo or with friends, but it’s better with friends! Start by tilling the soil and planting your first crops, delegate tasks to your settlers. Sail to new islands, loot dungeons, and prepare your defenses for the next wave."
     },
     {
-      "appid": "4911430",
-      "name": "About Frontlines",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4911430/dbfcf188aa6c900f8c392a7079530d32e211f7db/header.jpg?t=1794302603",
+      "appid": "4876650",
+      "name": "Никогда не сортируй по цвету",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4876650/93c52dfa6a8a9193844ba301efeae5231e1d9df9/header_russian.jpg?t=1794327933",
       "genres": [
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Пошаговая стратегия с полной свободой. Создавайте карты, куйте юниты и устанавливайте правила войны. Играйте в любую эпоху: быстрые, тактические сражения против ИИ, друзей или игроков со всего мира."
-    },
-    {
-      "appid": "4576490",
-      "name": "Casualties: Unknown",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4576490/907888dce73f50c48410b5ab92971a0d95776b29/header.jpg?t=1794232782",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
+        "Казуальные игры",
         "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Где-то под этой горой деталей - ваш пол. Сортируйте невозможную Кучу: магнитная перчатка, сита, зрение, выслеживающее детали. Наполняйте подписанные ящики, доставайте детали, смотрите, как MOC-модели собираются деталь за деталью. Одно правило: никогда не сортируйте по цвету."
+    },
+    {
+      "appid": "5057050",
+      "name": "Rulebound",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5057050/9656d7d5d306e17791a80ebb26a85a68ecf9ede7/header.jpg?t=1794335751",
+      "genres": [
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Casualties: Unknown — безжалостный симулятор выживания про исследование пещер. Вы — один из тысяч подопытных, отправленных на верную смерть. В поисках потерянного груза вам придётся пробраться сквозь одиннадцать подземных слоёв неизведанной планеты, выживая во враждебной среде."
+      "short_description": "Rulebound — сюрреалистичный хоррор-инкрементал, где выживание зависит от разделения внимания. В ловушке Пустоты ваш выход — странная игра с объединением дисков на старом ЭЛТ-телевизоре. Отбивайте и объединяйте диски, покупайте улучшения и выкуйте 3 Золотых Диска, следя за сущностями во тьме."
     }
   ]
 }
