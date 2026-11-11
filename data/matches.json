@@ -1,54 +1,7 @@
 {
- "updatedAt": "2026-11-11T10:14:09+03:00",
+ "updatedAt": "2026-11-11T14:04:14+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-132592",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Spirit",
-   "teamB": "FUT",
-   "logoA": "https://files.bo3.gg/uploads/team/654/image/webp-41b22d18a871d982f8ff87652bbb0fe6.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/20832/image/webp-3c31da5dd03e58f5041420c56c14ed52.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "BLAST Rivals Fall 2026",
-   "tier": "S",
-   "startsAt": "2026-11-11T09:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "blastpremier",
-     "lang": "en",
-     "official": true,
-     "label": "blastpremier"
-    },
-    {
-     "type": "twitch",
-     "channel": "fl0m",
-     "lang": "en",
-     "official": true,
-     "label": "fl0m"
-    },
-    {
-     "type": "kick",
-     "channel": "blastpremier",
-     "lang": "en",
-     "official": true,
-     "label": "blastpremier"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "cs2_maincast"
-    }
-   ],
-   "url": "https://bo3.gg/matches/spirit-vs-fut-cs2-11-11-2026"
-  },
   {
    "id": "bo3-132700",
    "game": "LoL",
@@ -58,9 +11,9 @@
    "logoA": "https://files.bo3.gg/uploads/team/16864/image/webp-689606c26556ef52886f71521cd370dd.webp",
    "logoB": "https://files.bo3.gg/uploads/team/17099/image/webp-61cb6c246adec4d5559a6b46c499f26b.webp",
    "scoreA": 0,
-   "scoreB": 0,
+   "scoreB": 2,
    "bo": 5,
-   "status": "upcoming",
+   "status": "live",
    "event": "LCP 2027 Promotion",
    "tier": "A",
    "startsAt": "2026-11-11T12:00:00+03:00",
@@ -75,10 +28,10 @@
    "teamB": "G2",
    "logoA": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
    "logoB": "https://files.bo3.gg/uploads/team/793/image/webp-8f844f6a25c797dfe74b411d147983ff.webp",
-   "scoreA": 0,
+   "scoreA": 1,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "BLAST Rivals Fall 2026",
    "tier": "S",
    "startsAt": "2026-11-11T12:30:00+03:00",
@@ -123,13 +76,42 @@
    "logoA": "https://files.bo3.gg/uploads/team/25259/image/webp-a52f5bcd6f1e1e76b848789e653b75f1.webp",
    "logoB": "https://files.bo3.gg/uploads/team/25401/image/webp-12311d6aa24e815ad6b9c3e66cc662d2.webp",
    "scoreA": 0,
-   "scoreB": 0,
+   "scoreB": 1,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "1win Essence III: Play-In",
    "tier": "A",
    "startsAt": "2026-11-11T13:00:00+03:00",
-   "streams": [],
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "cispapa",
+     "lang": "ru",
+     "official": true,
+     "label": "cispapa"
+    },
+    {
+     "type": "twitch",
+     "channel": "1win_dota_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "1win_dota_ru"
+    },
+    {
+     "type": "twitch",
+     "channel": "1win_dota",
+     "lang": "en",
+     "official": false,
+     "label": "1win_dota"
+    },
+    {
+     "type": "twitch",
+     "channel": "lightfurylf",
+     "lang": "th",
+     "official": false,
+     "label": "lightfurylf"
+    }
+   ],
    "url": "https://bo3.gg/dota2/matches/xipto-esports-dota2-vs-legion_stack-11-11-2026"
   },
   {
@@ -284,6 +266,53 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/bilibili-gaming-lol-vs-gen-g-14-11-2026"
+  },
+  {
+   "id": "bo3-132592",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Spirit",
+   "teamB": "FUT",
+   "logoA": "https://files.bo3.gg/uploads/team/654/image/webp-41b22d18a871d982f8ff87652bbb0fe6.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/20832/image/webp-3c31da5dd03e58f5041420c56c14ed52.webp",
+   "scoreA": 2,
+   "scoreB": 1,
+   "bo": 3,
+   "status": "finished",
+   "event": "BLAST Rivals Fall 2026",
+   "tier": "S",
+   "startsAt": "2026-11-11T09:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "blastpremier",
+     "lang": "en",
+     "official": true,
+     "label": "blastpremier"
+    },
+    {
+     "type": "twitch",
+     "channel": "fl0m",
+     "lang": "en",
+     "official": true,
+     "label": "fl0m"
+    },
+    {
+     "type": "kick",
+     "channel": "blastpremier",
+     "lang": "en",
+     "official": true,
+     "label": "blastpremier"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "cs2_maincast"
+    }
+   ],
+   "url": "https://bo3.gg/matches/spirit-vs-fut-cs2-11-11-2026"
   },
   {
    "id": "bo3-132589",
@@ -797,53 +826,6 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/invictus-gaming-lol-vs-gen-g-07-11-2026"
-  },
-  {
-   "id": "bo3-133055",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "MOUZ",
-   "teamB": "BetBoom",
-   "logoA": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
-   "logoB": "https://files.bo3.gg/uploads/team/7498/image/webp-0ea46f32f16140a97fa47ed839e5bb69.webp",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "Intel Extreme Masters Beijing 2026",
-   "tier": "S",
-   "startsAt": "2026-11-07T12:45:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs"
-    },
-    {
-     "type": "twitch",
-     "channel": "fl0m",
-     "lang": "en",
-     "official": true,
-     "label": "fl0m"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "cs2_maincast"
-    },
-    {
-     "type": "twitch",
-     "channel": "dachcs",
-     "lang": "de",
-     "official": true,
-     "label": "dachcs"
-    }
-   ],
-   "url": "https://bo3.gg/matches/mouz-cs2-vs-betboom-team-07-11-2026"
   }
  ],
  "tournaments": [
