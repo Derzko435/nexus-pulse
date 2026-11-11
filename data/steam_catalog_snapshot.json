@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T05:00:11+03:00",
+  "updatedAt": "2026-11-11T12:36:09+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -490,10 +490,13 @@
       "short_description": "PAYDAY 3 — это кооперативный шутер от первого лица для 1-4 игроков и абсолютная фантазия об ограблении, действие которой разворачивается в самом узнаваемом городе мира. Исчезните без следа или прорвитесь сквозь град пуль. В любом случае вы уйдете с добычей."
     },
     {
-      "appid": "58368",
-      "name": "Steam App 58368",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/58368/header.jpg",
-      "genres": [],
+      "appid": "4904730",
+      "name": "Achievement Fly Clicker",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4904730/3e6570672ff096d877921615cad8c733499a8d45/header.jpg?t=1794365501",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
       "is_free": false,
       "platforms": {
         "windows": true,
@@ -501,9 +504,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "",
-      "catalogId": null,
-      "curated": true
+      "short_description": "Click flies, unlock achievements, and complete your collection. A simple and satisfying clicker designed for achievement hunters."
     },
     {
       "appid": "3527290",
@@ -524,6 +525,58 @@
       "short_description": "PEAK — это совместная игра о восхождении, где малейшая ошибка может привести к гибели. Играйте в одиночку или вместе с группой отчаянных бойскаутов. Сбегите с таинственного острова, для чего вам потребуется забраться на гору в его центре. Хватит ли вам сил, чтобы достичь ПИКА?"
     },
     {
+      "appid": "3305190",
+      "name": "One More Plate!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3305190/9125526cddb0eaff77274b529c69cb90545edb45/header.jpg?t=1794371495",
+      "genres": [
+        "Экшены",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Feed your fellow Shape Buddies to a bizarre cast of Glutton Monsters before they put you on the menu. Catch, balance and fling food with absurd, anything-but-proper plates — solo, or 2 players on one PC or via Steam Remote Play Together. Everything obeys physics; nothing obeys you."
+    },
+    {
+      "appid": "5433870",
+      "name": "百鬼退散",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5433870/aec31f595e48893cd999a8859e70c56612aff5de/header.jpg?t=1794382299",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Survive a night of Chinese folklore in Ghosts Before Dawn, a pixel-art survivor-like. Wield auto-casting talismans, flying swords, and spirit-banishing gongs. Combine weapons and the Five Elements, brave haunted villages and ghost markets, then face the final bosses after ten minutes of survival."
+    },
+    {
+      "appid": "4618570",
+      "name": "Booster Pack Heroes",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4618570/b23824cde8f828abb42f3ef497f37657475ba505/header.jpg?t=1794316433",
+      "genres": [
+        "Казуальные игры",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Вскрывайте бустеры и доставайте одного фойлового героя за другим! Это Booster Pack Heroes — инкрементальная игра, где в каждом новом наборе может лежать очередная имба. Защищайте башню от бесконечных вражеских атак и пробивайтесь к новым мирам!"
+    },
+    {
       "appid": "2195710",
       "name": "The Ghost and The Phoenix",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2195710/header.jpg?t=1794339603",
@@ -540,6 +593,44 @@
       },
       "metacritic": null,
       "short_description": "Peer beyond the veil and experience the ethereal in The Ghost and The Phoenix, a captivating neo-classical top-down shooter. Navigate the realms between life and death in this supernatural action-packed adventure."
+    },
+    {
+      "appid": "5373260",
+      "name": "Ferro - 3D Audio Visualizer",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5373260/def2d64a8a0bccb19cb547648d7959880b443ab3/header.jpg?t=1794349676",
+      "genres": [
+        "Симуляторы",
+        "Работа со звуком",
+        "Дизайн и иллюстрация",
+        "Утилиты",
+        "Создание видео"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Sound in liquid form. Ferro is a real-time 3D audio-reactive fluid simulation. Shape liquid, light and motion with music, MIDI, automation, or even your microphone. Infinitely customizable, place on your desktop or add to your livestream for an expressive companion to your sound."
+    },
+    {
+      "appid": "3850230",
+      "name": "Гайд по выживанию: 99 дней",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3850230/4b1bcedeb1223684785e333b42a370bdc897832a/header_russian.jpg?t=1794360625",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Быстрый кооперативный зомби-экшен на выживание, в котором игроки сражаются с ордами врагов, открывают случайные усиления, создают разные билды и вместе пытаются сбежать."
     },
     {
       "appid": "2584270",
@@ -559,11 +650,11 @@
       "short_description": "Их плоть — ваше оружие. Mortal Shell II — полноценное продолжение первой части. Это ролевой боевик с жестокими и напряженными сражениями. Вселяйтесь в тела выдающихся воинов, свергайте лжебогов и верните к жизни опустошенный мир."
     },
     {
-      "appid": "5341270",
-      "name": "Veiled Legions: Fantasy Board Game",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5341270/4bf4c8eac0134019bae4ea75648168505f84c590/header.jpg?t=1794333944",
+      "appid": "4514060",
+      "name": "Taimanin Asagi 2",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4514060/ba26d9c8885e104f9679f4ddfef8f16a51a43167/header.jpg?t=1794358813",
       "genres": [
-        "Стратегии"
+        "Приключенческие игры"
       ],
       "is_free": false,
       "platforms": {
@@ -572,58 +663,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Командуй скрытой армией фэнтезийных существ в тактической настольной игре на блеф и дедукцию. Враг видит только завуалированные фигуры, пока не скрестятся клинки, а каждая схватка — кинематографичная дуэль над столом. Переиграй бота, друга в Steam или онлайн-соперника и захвати вражескую Реликвию."
-    },
-    {
-      "appid": "3005700",
-      "name": "Последний смотритель",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3005700/0805267b7b21ddb4ea3ff2ae6a5e706204a62177/header.jpg?t=1794334862",
-      "genres": [
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Возьмите на себя роль смотрителя маяка на отдаленном острове. Поддерживайте работу механизмов, используйте радио и карту, чтобы провести корабли в гавань. Выживайте и раскрывайте загадки острова Фарпоинт в хорроре, вдохновленном Voices of the Void и No One Lives Under the Lighthouse."
-    },
-    {
-      "appid": "4185770",
-      "name": "cenker's mod",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4185770/714dd8dbb24945c585427b163160bb4704193486/header.jpg?t=1794336145",
-      "genres": [
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "cenker's mod - это многопользовательская физическая песочница с множеством модов. Каждый мод предлагает разный опыт. Играйте в включенные, созданные сообществом и свои собственные моды вместе с друзьями."
-    },
-    {
-      "appid": "4863180",
-      "name": "Defend The HexCore",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4863180/6827e12a19328269e721f5966a0687674af330a6/header.jpg?t=1794334909",
-      "genres": [
-        "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Fast-Paced Tower Defense Game Where Space Is Used To Manipulate Enemy Behavior | Towers And Upgrades Take Up Space On The Board | Make The Enemy Decide Whether They Should Attack The Tower, Or Go Around!"
+      "short_description": "Taimanin Asagi, the legendary anti-demon ninja, returns in the second installment of this classic visual novel series! Asagi and Sakura head to Tokyo Kingdom, a lawless district overrun with demons and criminals, to determine the whereabouts of their fellow Taimanin who have gone missing in action."
     },
     {
       "appid": "4683860",
@@ -644,39 +684,6 @@
       },
       "metacritic": null,
       "short_description": "Build and automate your settlement in this island survival game, play solo or with friends, but it’s better with friends! Start by tilling the soil and planting your first crops, delegate tasks to your settlers. Sail to new islands, loot dungeons, and prepare your defenses for the next wave."
-    },
-    {
-      "appid": "4876650",
-      "name": "Никогда не сортируй по цвету",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4876650/93c52dfa6a8a9193844ba301efeae5231e1d9df9/header_russian.jpg?t=1794327933",
-      "genres": [
-        "Казуальные игры",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Где-то под этой горой деталей - ваш пол. Сортируйте невозможную Кучу: магнитная перчатка, сита, зрение, выслеживающее детали. Наполняйте подписанные ящики, доставайте детали, смотрите, как MOC-модели собираются деталь за деталью. Одно правило: никогда не сортируйте по цвету."
-    },
-    {
-      "appid": "5057050",
-      "name": "Rulebound",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5057050/9656d7d5d306e17791a80ebb26a85a68ecf9ede7/header.jpg?t=1794335751",
-      "genres": [
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Rulebound — сюрреалистичный хоррор-инкрементал, где выживание зависит от разделения внимания. В ловушке Пустоты ваш выход — странная игра с объединением дисков на старом ЭЛТ-телевизоре. Отбивайте и объединяйте диски, покупайте улучшения и выкуйте 3 Золотых Диска, следя за сущностями во тьме."
     }
   ]
 }
