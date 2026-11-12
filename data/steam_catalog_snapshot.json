@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T12:57:48+03:00",
+  "updatedAt": "2026-11-12T21:25:42+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -420,7 +420,7 @@
     {
       "appid": "227300",
       "name": "Euro Truck Simulator 2",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/9a81dc3126c56637297b654f9dcac057cfd79b77/header.jpg?t=1793285269",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/9a81dc3126c56637297b654f9dcac057cfd79b77/header.jpg?t=1794502925",
       "genres": [
         "Инди",
         "Симуляторы"
@@ -470,21 +470,23 @@
       "short_description": "PAYDAY 3 — это кооперативный шутер от первого лица для 1-4 игроков и абсолютная фантазия об ограблении, действие которой разворачивается в самом узнаваемом городе мира. Исчезните без следа или прорвитесь сквозь град пуль. В любом случае вы уйдете с добычей."
     },
     {
-      "appid": "5301110",
-      "name": "Похоть и возмещение",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5301110/50e0871146b8af240afe2e33b0172e60f0731f94/header_russian.jpg?t=1794422718",
+      "appid": "1211600",
+      "name": "ZED ZONE",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211600/aac7446006d1fb3898eccf697406d0c357cf20a3/header_alt_assets_2.jpg?t=1794210733",
       "genres": [
-        "Приключенческие игры",
+        "Экшены",
+        "Инди",
+        "Ролевые игры",
         "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
-        "linux": true
+        "mac": false,
+        "linux": false
       },
       "metacritic": null,
-      "short_description": "В Похоть и возмещение проведите музейного реставратора Рейфа Соуэрби через шестинедельную программу реституции. Выберите одну из трех линий, примите профессиональные и личные последствия и постройте отношения с Йеванде, Элспет или Блайт."
+      "short_description": "Мир охватила великая катастрофа. На задании ваш борт терпит крушение, и вы оказываетесь заперты в Zed Zone. Вокруг зомби и монстры. Чтобы выбраться, собирайте ресурсы, прокачивайте навыки, стройте убежища и громите орды зомби и загадочных мехов, следуя за проблеском надежды."
     },
     {
       "appid": "3527290",
@@ -505,44 +507,6 @@
       "short_description": "PEAK — это совместная игра о восхождении, где малейшая ошибка может привести к гибели. Играйте в одиночку или вместе с группой отчаянных бойскаутов. Сбегите с таинственного острова, для чего вам потребуется забраться на гору в его центре. Хватит ли вам сил, чтобы достичь ПИКА?"
     },
     {
-      "appid": "4558350",
-      "name": "Roll with Splonk",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4558350/8265341e87613e8aee2f93eb091f9519d4b253d9/header.jpg?t=1794421432",
-      "genres": [
-        "Казуальные игры",
-        "Ролевые игры",
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Посели Сплонка в углу своего экрана! Он расположится поверх других окон, схватит кубики и будет радостно выигрывать деньги, пока ты смотришь видео, зависаешь в соцсетях или создаёшь видимость работы. Бросай кубики, богатей, покупай улучшения — и так до бесконечности."
-    },
-    {
-      "appid": "2287150",
-      "name": "Revenge of the Mage",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2287150/0fec8e0a19c84d0aec5b69cecf8b1ce52b2fab40/header_alt_assets_2.jpg?t=1794421439",
-      "genres": [
-        "Экшены",
-        "Казуальные игры",
-        "Инди",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "RotM — это экшен Roguelite FPS, в котором игроки облачаются в мантию мага. Пусть руки судьбы откроют путь к силе вашей магии! Спасите мультивселенную, чтобы стать сильнее! Разблокируйте, собирайте, исследуйте, живите, умирайте, повторяйте!"
-    },
-    {
       "appid": "2584270",
       "name": "Mortal Shell II",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/0a4c23b70ced29fac344186ea564dae67c80cfd6/header.jpg?t=1794241756",
@@ -558,43 +522,6 @@
       },
       "metacritic": null,
       "short_description": "Их плоть — ваше оружие. Mortal Shell II — полноценное продолжение первой части. Это ролевой боевик с жестокими и напряженными сражениями. Вселяйтесь в тела выдающихся воинов, свергайте лжебогов и верните к жизни опустошенный мир."
-    },
-    {
-      "appid": "3159350",
-      "name": "Match In Peace",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159350/6b5dc5416d5d9f42b9ea898e66ffce4b463987be/header.jpg?t=1794431000",
-      "genres": [
-        "Экшены",
-        "Казуальные игры",
-        "Инди",
-        "Ролевые игры",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Match in Peace is a pair-matching roguelike. Monster pairs are hiding inside cursed tombstones, match them fast to unleash their unique effects. Use special Stone cards, powerful Statues and magical Potions to defeat haunting enemies ahead."
-    },
-    {
-      "appid": "1903340",
-      "name": "Clair Obscur: Expedition 33",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1903340/be3305b02d4db0dffa3458537118423bf2792d7e/header.jpg?t=1793903997",
-      "genres": [
-        "Экшены",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": 91,
-      "short_description": "Возглавьте Экспедицию 33 и уничтожьте Художницу, чтобы она никогда больше не смогла нарисовать смерть. Исследуйте мир чудес, созданный на основе Прекрасной эпохи Франции, и побеждайте уникальных врагов в пошаговой ролевой игре с механикой реального времени."
     },
     {
       "appid": "1286220",
@@ -633,11 +560,30 @@
       "short_description": "Где-то под этой горой деталей - ваш пол. Сортируйте невозможную Кучу: магнитная перчатка, сита, зрение, выслеживающее детали. Наполняйте подписанные ящики, доставайте детали, смотрите, как MOC-модели собираются деталь за деталью. Одно правило: никогда не сортируйте по цвету."
     },
     {
-      "appid": "5304170",
-      "name": "Monkey Overdrive",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5304170/3da1c570a14ae2a5847c40ebf40966fe22448ffb/header_alt_assets_0.jpg?t=1794429494",
+      "appid": "3802500",
+      "name": "Splatchinko",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3802500/995c140d3af1ff93da52aab1a73b3827dbacf96d/header.jpg?t=1794462074",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Пачинко-рогалик — метай свои Глаза в нервные планеты в погоне за вечной любовью. Открывай нелепые мутации, собирай безумные билды и, если ради неё придётся уничтожить пару галактик… что ж, это любовь. Да?"
+    },
+    {
+      "appid": "2280360",
+      "name": "Scarecrow: 90s Crime Story",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2280360/00bf57d3ca4e2cfc1ef62bb5248b9630cd3a6c2f/header.jpg?t=1794473122",
       "genres": [
         "Экшены",
+        "Приключенческие игры",
         "Казуальные игры",
         "Инди"
       ],
@@ -648,14 +594,13 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "MONKEY OVERDRIVE — экшен-рогалик, где вы тараните монстров летающей тарелкой. Зажмите для зарядки, отпустите для рывка — и толпы желейных слизней полетят под машины, прессы и поезда. Победите 24 боссов и заберите их приёмы."
+      "short_description": "Scarecrow 90s Crime Story — комбо из адвенчуры и адреналинового top-down шутера. В бандитском городе 90-х, где выживают люди и звери, днём ты обычный житель, а ночью наёмный убийца. Разгадай тайны своего тёмного прошлого, пока не стало слишком поздно."
     },
     {
-      "appid": "5020720",
-      "name": "A BILLION GOLD DEBT",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5020720/6e8208d16b8a2828ae433c562ded19a65302b105/header.jpg?t=1794421235",
+      "appid": "4549920",
+      "name": "Coastal Cargo",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4549920/1095a2c53d906c4c7e9c7a40e44a6db1d42b7d06/header.jpg?t=1794453384",
       "genres": [
-        "Казуальные игры",
         "Инди",
         "Симуляторы",
         "Стратегии"
@@ -663,16 +608,16 @@
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
+        "mac": false,
         "linux": true
       },
       "metacritic": null,
-      "short_description": "Развивай свое поселение, автоматизируй производство, исследуй окрестности, торгуй с соседями, чтобы выплатить долг в 1 МИЛЛИАРД золотых!"
+      "short_description": "«Coastal Cargo» — это стратегическая симуляторная игра, в которой вам предстоит стать лучшим в мире специалистом по морской логистике. Прокладывайте торговые маршруты между портами обширного архипелага. Спускайте на воду суда, начинайте перевозить грузы и зарабатывайте награды."
     },
     {
-      "appid": "5191540",
-      "name": "The Keyless: Forbidden Door",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5191540/120d04656ee24f072f609a1687bce37bbab4ca2e/header.jpg?t=1794423951",
+      "appid": "5516730",
+      "name": "Beware of Ants",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5516730/b3b13cbb2c7ed387ad5cbca838c5965e43e5fefe/header.jpg?t=1794472018",
       "genres": [
         "Экшены",
         "Приключенческие игры",
@@ -685,7 +630,59 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "The Keyless: Forbidden Door — это сказочное и сюрреалистическое путешествие, в котором вы станете свидетелем причудливых метафорических и сюрреалистических сцен в мире, который меняет форму по мере того, как вы преодолеваете простые испытания."
+      "short_description": "You're an ant, the first worker hatched in a formicarium on somebody's desk, so you lay pheromone trails, grow the colony and walk your queen across the whole house and out through the veranda drain, past the homeowner's tweezers, bug spray, robot vacuum and feet. Outside there's a toad."
+    },
+    {
+      "appid": "5507930",
+      "name": "MARK IT",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5507930/e9f51713ad69b549adc9a73e87bf5e39aa02bbd5/header.jpg?t=1794472934",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Нарисуйте метки на чистом белом пазле — только ваши собственные подсказки помогут собрать его обратно! Но с каждым уровнем метки могут стереть, скопировать, отразить, повернуть… Продумайте их так, чтобы они всё равно оставались подсказками."
+    },
+    {
+      "appid": "5443380",
+      "name": "Farm Island",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5443380/1045c71b6c41bd0f7bf49ab075aa92a6da941c03/header.jpg?t=1794463829",
+      "genres": [
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Превратите крошечный участок земли в живую островную ферму. Выращивайте 20 культур, стройте дома для жителей и поручайте им полив и сбор урожая. Производите муку, хлеб и консервы, выполняйте поставки и обустраивайте остров, который меняется вместе с временами года."
+    },
+    {
+      "appid": "5234480",
+      "name": "Королевство судоку",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5234480/6c74190a68e04252d2bd9e7d2351b60b09977909/header.jpg?t=1794447098",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Больше классики 9×9: 22 режима судоку и десятки тысяч головоломок — Killer, Термометр, Стрела, Jigsaw, круг, треугольник, снежинка и куб. Уровни сложности, заметки, отмена и подсказки. Одна покупка, без рекламы и микротранзакций."
     }
   ]
 }
