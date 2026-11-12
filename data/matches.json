@@ -1,146 +1,7 @@
 {
- "updatedAt": "2026-11-12T04:03:11+03:00",
+ "updatedAt": "2026-11-12T14:23:14+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-132590",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Legacy",
-   "teamB": "Falcons",
-   "logoA": "https://files.bo3.gg/uploads/team/8118/image/webp-e4a3b023443f1f3ba4ef588164e73111.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/2713/image/webp-86fd5a0653183a19cf750d195963ea10.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "BLAST Rivals Fall 2026",
-   "tier": "S",
-   "startsAt": "2026-11-12T05:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "blastpremier",
-     "lang": "en",
-     "official": true,
-     "label": "blastpremier"
-    },
-    {
-     "type": "kick",
-     "channel": "blastpremier",
-     "lang": "en",
-     "official": true,
-     "label": "blastpremier"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "cs2_maincast"
-    },
-    {
-     "type": "twitch",
-     "channel": "betboom_cs_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "betboom_cs_ru"
-    }
-   ],
-   "url": "https://bo3.gg/matches/legacy-br-vs-falcons-esports-12-11-2026"
-  },
-  {
-   "id": "bo3-132591",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "FURIA",
-   "teamB": "Vitality",
-   "logoA": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/667/image/webp-292c1f6c6dcfca35c7a52da7e02cef0a.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "BLAST Rivals Fall 2026",
-   "tier": "S",
-   "startsAt": "2026-11-12T07:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "blastpremier",
-     "lang": "en",
-     "official": true,
-     "label": "blastpremier"
-    },
-    {
-     "type": "kick",
-     "channel": "blastpremier",
-     "lang": "en",
-     "official": true,
-     "label": "blastpremier"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "cs2_maincast"
-    },
-    {
-     "type": "twitch",
-     "channel": "betboom_cs_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "betboom_cs_ru"
-    }
-   ],
-   "url": "https://bo3.gg/matches/furia-vs-vitality-12-11-2026"
-  },
-  {
-   "id": "bo3-132701",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Nothin'Here",
-   "teamB": "Saigon Warriors",
-   "logoA": "https://files.bo3.gg/uploads/team/25433/image/webp-ab393f1025ef522f78f231581fd631de.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/22895/image/webp-3eb9d9c59ba43176bbcc9388ca57c8c7.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "upcoming",
-   "event": "LCP 2027 Promotion",
-   "tier": "A",
-   "startsAt": "2026-11-12T09:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/lol/matches/nothinhere-vs-saigon-warriors-12-11-2026"
-  },
-  {
-   "id": "bo3-132594",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "FUT",
-   "teamB": "MOUZ",
-   "logoA": "https://files.bo3.gg/uploads/team/20832/image/webp-3c31da5dd03e58f5041420c56c14ed52.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "BLAST Rivals Fall 2026",
-   "tier": "S",
-   "startsAt": "2026-11-12T10:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "blastpremier",
-     "lang": "en",
-     "official": true,
-     "label": "blastpremier",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/fut-cs2-vs-mouz-cs2-12-11-2026"
-  },
   {
    "id": "bo3-132595",
    "game": "CS2",
@@ -152,18 +13,38 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "BLAST Rivals Fall 2026",
    "tier": "S",
-   "startsAt": "2026-11-12T12:30:00+03:00",
+   "startsAt": "2026-11-12T13:50:00+03:00",
    "streams": [
     {
      "type": "twitch",
-     "channel": "blastpremier",
+     "channel": "fl0m",
      "lang": "en",
      "official": true,
-     "label": "blastpremier",
-     "fallback": true
+     "label": "fl0m"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "cs2_maincast"
+    },
+    {
+     "type": "twitch",
+     "channel": "krl_stream",
+     "lang": "fr",
+     "official": true,
+     "label": "krl_stream"
+    },
+    {
+     "type": "twitch",
+     "channel": "betboom_cs_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "betboom_cs_ru"
     }
    ],
    "url": "https://bo3.gg/matches/spirit-vs-g2-12-11-2026"
@@ -221,6 +102,24 @@
    "startsAt": "2026-11-12T22:00:00+03:00",
    "streams": [],
    "url": "https://bo3.gg/dota2/matches/team-spirit-vs-1win-dota2-12-11-2026"
+  },
+  {
+   "id": "bo3-132702",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "DetonatioN FocusMe",
+   "teamB": "Saigon Warriors",
+   "logoA": "https://files.bo3.gg/uploads/team/18140/image/webp-22a2b3fb789ca339b2da8e642ee6d4ce.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/22895/image/webp-3eb9d9c59ba43176bbcc9388ca57c8c7.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 5,
+   "status": "upcoming",
+   "event": "LCP 2027 Promotion",
+   "tier": "A",
+   "startsAt": "2026-11-13T12:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/lol/matches/detonation-focusme-lol-vs-saigon-warriors-13-11-2026"
   },
   {
    "id": "bo3-133701",
@@ -374,6 +273,199 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/bilibili-gaming-lol-vs-gen-g-14-11-2026"
+  },
+  {
+   "id": "bo3-133479",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Inner Circle",
+   "teamB": "Betclic",
+   "logoA": "https://files.bo3.gg/uploads/team/19186/image/webp-6aedbd6f8fdc86d26052f90540031e1e.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/11101/image/webp-31317f85a872f9a1913120d2fba707be.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "Stake Ranked Episode 6",
+   "tier": "A",
+   "startsAt": "2026-11-17T14:00:00+03:00",
+   "streams": [
+    {
+     "type": "kick",
+     "channel": "starladder",
+     "lang": "en",
+     "official": true,
+     "label": "starladder"
+    }
+   ],
+   "url": "https://bo3.gg/matches/inner-circle-esports-vs-betclic-apogee-esports-17-11-2026"
+  },
+  {
+   "id": "bo3-132594",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "FUT",
+   "teamB": "MOUZ",
+   "logoA": "https://files.bo3.gg/uploads/team/20832/image/webp-3c31da5dd03e58f5041420c56c14ed52.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
+   "scoreA": 1,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "BLAST Rivals Fall 2026",
+   "tier": "S",
+   "startsAt": "2026-11-12T10:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "fl0m",
+     "lang": "en",
+     "official": true,
+     "label": "fl0m"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "cs2_maincast"
+    },
+    {
+     "type": "twitch",
+     "channel": "krl_stream",
+     "lang": "fr",
+     "official": true,
+     "label": "krl_stream"
+    },
+    {
+     "type": "twitch",
+     "channel": "betboom_cs_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "betboom_cs_ru"
+    }
+   ],
+   "url": "https://bo3.gg/matches/fut-cs2-vs-mouz-cs2-12-11-2026"
+  },
+  {
+   "id": "bo3-132701",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Nothin'Here",
+   "teamB": "Saigon Warriors",
+   "logoA": "https://files.bo3.gg/uploads/team/25433/image/webp-ab393f1025ef522f78f231581fd631de.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/22895/image/webp-3eb9d9c59ba43176bbcc9388ca57c8c7.webp",
+   "scoreA": 0,
+   "scoreB": 3,
+   "bo": 5,
+   "status": "finished",
+   "event": "LCP 2027 Promotion",
+   "tier": "A",
+   "startsAt": "2026-11-12T09:10:00+03:00",
+   "streams": [
+    {
+     "type": "youtube",
+     "id": "OTh0mq2VJ_Y",
+     "lang": "en",
+     "official": true,
+     "label": "[EN] NTH vs SGW | LCP 2026 Promotion Series Day 3 FFA"
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/nothinhere-vs-saigon-warriors-12-11-2026"
+  },
+  {
+   "id": "bo3-132591",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "FURIA",
+   "teamB": "Vitality",
+   "logoA": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/667/image/webp-292c1f6c6dcfca35c7a52da7e02cef0a.webp",
+   "scoreA": 2,
+   "scoreB": 1,
+   "bo": 3,
+   "status": "finished",
+   "event": "BLAST Rivals Fall 2026",
+   "tier": "S",
+   "startsAt": "2026-11-12T07:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "blastpremier",
+     "lang": "en",
+     "official": true,
+     "label": "blastpremier"
+    },
+    {
+     "type": "kick",
+     "channel": "blastpremier",
+     "lang": "en",
+     "official": true,
+     "label": "blastpremier"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "cs2_maincast"
+    },
+    {
+     "type": "twitch",
+     "channel": "betboom_cs_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "betboom_cs_ru"
+    }
+   ],
+   "url": "https://bo3.gg/matches/furia-vs-vitality-12-11-2026"
+  },
+  {
+   "id": "bo3-132590",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Legacy",
+   "teamB": "Falcons",
+   "logoA": "https://files.bo3.gg/uploads/team/8118/image/webp-e4a3b023443f1f3ba4ef588164e73111.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/2713/image/webp-86fd5a0653183a19cf750d195963ea10.webp",
+   "scoreA": 0,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "BLAST Rivals Fall 2026",
+   "tier": "S",
+   "startsAt": "2026-11-12T05:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "blastpremier",
+     "lang": "en",
+     "official": true,
+     "label": "blastpremier"
+    },
+    {
+     "type": "kick",
+     "channel": "blastpremier",
+     "lang": "en",
+     "official": true,
+     "label": "blastpremier"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "cs2_maincast"
+    },
+    {
+     "type": "twitch",
+     "channel": "betboom_cs_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "betboom_cs_ru"
+    }
+   ],
+   "url": "https://bo3.gg/matches/legacy-br-vs-falcons-esports-12-11-2026"
   },
   {
    "id": "bo3-133626",
@@ -670,100 +762,6 @@
    "url": "https://bo3.gg/matches/spirit-vs-fut-cs2-11-11-2026"
   },
   {
-   "id": "bo3-132589",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Vitality",
-   "teamB": "Falcons",
-   "logoA": "https://files.bo3.gg/uploads/team/667/image/webp-292c1f6c6dcfca35c7a52da7e02cef0a.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/2713/image/webp-86fd5a0653183a19cf750d195963ea10.webp",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "BLAST Rivals Fall 2026",
-   "tier": "S",
-   "startsAt": "2026-11-11T07:15:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "blastpremier",
-     "lang": "en",
-     "official": true,
-     "label": "blastpremier"
-    },
-    {
-     "type": "kick",
-     "channel": "blastpremier",
-     "lang": "en",
-     "official": true,
-     "label": "blastpremier"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "cs2_maincast"
-    },
-    {
-     "type": "twitch",
-     "channel": "krl_stream",
-     "lang": "fr",
-     "official": true,
-     "label": "krl_stream"
-    }
-   ],
-   "url": "https://bo3.gg/matches/vitality-vs-falcons-esports-11-11-2026"
-  },
-  {
-   "id": "bo3-132588",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Legacy",
-   "teamB": "FURIA",
-   "logoA": "https://files.bo3.gg/uploads/team/8118/image/webp-e4a3b023443f1f3ba4ef588164e73111.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
-   "scoreA": 0,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "BLAST Rivals Fall 2026",
-   "tier": "S",
-   "startsAt": "2026-11-11T05:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "mariomax11",
-     "lang": "ru",
-     "official": true,
-     "label": "mariomax11"
-    },
-    {
-     "type": "twitch",
-     "channel": "blastpremier",
-     "lang": "en",
-     "official": true,
-     "label": "blastpremier"
-    },
-    {
-     "type": "kick",
-     "channel": "blastpremier",
-     "lang": "en",
-     "official": true,
-     "label": "blastpremier"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "cs2_maincast"
-    }
-   ],
-   "url": "https://bo3.gg/matches/legacy-br-vs-furia-11-11-2026"
-  },
-  {
    "id": "bo3-133640",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -894,53 +892,6 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/bilibili-gaming-lol-vs-t1-lol-08-11-2026"
-  },
-  {
-   "id": "bo3-133057",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "The MongolZ",
-   "teamB": "MOUZ",
-   "logoA": "https://files.bo3.gg/uploads/team/736/image/webp-499cad826b4cd83ce22f8bd2b13261d6.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
-   "scoreA": 0,
-   "scoreB": 3,
-   "bo": 5,
-   "status": "finished",
-   "event": "Intel Extreme Masters Beijing 2026",
-   "tier": "S",
-   "startsAt": "2026-11-08T10:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "eslcs",
-     "lang": "en",
-     "official": true,
-     "label": "eslcs"
-    },
-    {
-     "type": "twitch",
-     "channel": "psp1g",
-     "lang": "en",
-     "official": true,
-     "label": "psp1g"
-    },
-    {
-     "type": "twitch",
-     "channel": "trottah",
-     "lang": "en",
-     "official": true,
-     "label": "trottah"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "cs2_maincast"
-    }
-   ],
-   "url": "https://bo3.gg/matches/the-mongolz-vs-mouz-cs2-08-11-2026"
   }
  ],
  "tournaments": [
@@ -985,8 +936,19 @@
    "prize": 200000,
    "start": "2026-11-12",
    "end": "2026-11-19",
-   "status": "upcoming",
+   "status": "current",
    "url": "https://bo3.gg/dota2/tournaments/1win-essence-iii"
+  },
+  {
+   "name": "Stake Ranked Episode 6",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "tier": "A",
+   "prize": 100000,
+   "start": "2026-11-17",
+   "end": "2026-11-21",
+   "status": "upcoming",
+   "url": "https://bo3.gg/tournaments/stake-ranked-episode-6"
   },
   {
    "name": "BLAST Slam IX",
