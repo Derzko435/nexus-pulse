@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T21:25:42+03:00",
+  "updatedAt": "2026-11-13T00:50:10+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -452,13 +452,31 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "1272080",
-      "name": "PAYDAY 3",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1272080/1d66ef7e731a18e40b037d39618f7c3dfd614a90/header.jpg?t=1794297037",
+      "appid": "597170",
+      "name": "Clone Drone in the Danger Zone",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/597170/header.jpg?t=1784069375",
       "genres": [
         "Экшены",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": 82,
+      "short_description": "В Clone Drone in the Danger Zone вас ждут сражения на мечах, которыми можно отрубить любую часть тела. Ваш разум был загружен в робота-гладиатора. Чтобы выжить — проходите коварные испытания на арене."
+    },
+    {
+      "appid": "1676840",
+      "name": "For The King II",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1676840/bdf72eeb37b9f9bb02ad4a47f2478a5206b2980b/header_alt_assets_13_russian.jpg?t=1794248102",
+      "genres": [
         "Приключенческие игры",
-        "Ролевые игры"
+        "Инди",
+        "Ролевые игры",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
@@ -466,18 +484,34 @@
         "mac": false,
         "linux": false
       },
-      "metacritic": 66,
-      "short_description": "PAYDAY 3 — это кооперативный шутер от первого лица для 1-4 игроков и абсолютная фантазия об ограблении, действие которой разворачивается в самом узнаваемом городе мира. Исчезните без следа или прорвитесь сквозь град пуль. В любом случае вы уйдете с добычей."
+      "metacritic": 76,
+      "short_description": "Сражайтесь против королевы Фарула в одиночку или в составе группы из четырех игроков в продолжении For The King — знаменитой и популярной пошаговой настольной roguelite-RPG. Сможете ли вы разгадать ужасную тайну когда-то всеми любимой королевы?"
     },
     {
-      "appid": "1211600",
-      "name": "ZED ZONE",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211600/aac7446006d1fb3898eccf697406d0c357cf20a3/header_alt_assets_2.jpg?t=1794210733",
+      "appid": "2672700",
+      "name": "Lands of Fury",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2672700/efc6041eaa0a7ea52d0d0f008e4c7da969af1898/header.jpg?t=1794506404",
       "genres": [
         "Экшены",
         "Инди",
-        "Ролевые игры",
-        "Симуляторы"
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Пробивайся с боем на вершину суровой горы. Сочетай оружие, картриджи, руны и спутников, создавай разрушительные билды и прорубайся сквозь безжалостных врагов в этом боевом рогалик-ARPG."
+    },
+    {
+      "appid": "1077310",
+      "name": "Whiskers of Yesterday",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1077310/20aa97eb641db4cf4c6f364c873d0c78f978e482/header.jpg?t=1794506538",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -486,7 +520,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Мир охватила великая катастрофа. На задании ваш борт терпит крушение, и вы оказываетесь заперты в Zed Zone. Вокруг зомби и монстры. Чтобы выбраться, собирайте ресурсы, прокачивайте навыки, стройте убежища и громите орды зомби и загадочных мехов, следуя за проблеском надежды."
+      "short_description": "Ты — кот, и весь дом твой. Позови до 7 друзей: сбрасывай тарелки со стола, играй в кошачий футбол в саду, плавай в бассейне или свернись с ними клубком в солнечном луче. Без таймеров и поражений. Просто тёплое место."
     },
     {
       "appid": "3527290",
@@ -507,6 +541,40 @@
       "short_description": "PEAK — это совместная игра о восхождении, где малейшая ошибка может привести к гибели. Играйте в одиночку или вместе с группой отчаянных бойскаутов. Сбегите с таинственного острова, для чего вам потребуется забраться на гору в его центре. Хватит ли вам сил, чтобы достичь ПИКА?"
     },
     {
+      "appid": "4698160",
+      "name": "Cats Don't Carry Car Parts",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4698160/e87e4eb421896e077a0c627e8e3dad1d323fc473/header.jpg?t=1794510761",
+      "genres": [
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A 1–4 player co-op horror game where a train crash strands you in a dark Soviet forest. With your friends, scavenge and carry parts to rebuild a dismantled truck, escape the Soviet Oblast of Novak, and survive cat-themed tests to convince IT you belong there."
+    },
+    {
+      "appid": "5463710",
+      "name": "Cards: Tidy Up!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5463710/3fde134abe50e5938150ad91b1d71d450aa396f5/header.jpg?t=1794507298",
+      "genres": [
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Наведите порядок в комнате с разбросанными картами и соберите полные колоды. Сортируйте по теме, масти и достоинству в этой расслабляющей игре от первого лица. Получайте улучшения, открывайте машины для автоматизации и найдите свой способ освободить стол."
+    },
+    {
       "appid": "2584270",
       "name": "Mortal Shell II",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/0a4c23b70ced29fac344186ea564dae67c80cfd6/header.jpg?t=1794241756",
@@ -524,11 +592,11 @@
       "short_description": "Их плоть — ваше оружие. Mortal Shell II — полноценное продолжение первой части. Это ролевой боевик с жестокими и напряженными сражениями. Вселяйтесь в тела выдающихся воинов, свергайте лжебогов и верните к жизни опустошенный мир."
     },
     {
-      "appid": "1286220",
-      "name": "Sea Power : Naval Combat in the Missile Age",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1286220/9784cdd9ced4fe83e38234aabd6f92aa3813af0e/header_alt_assets_2.jpg?t=1794420145",
+      "appid": "2487190",
+      "name": "Main Sequence",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2487190/9f75d23dd877267e001e58afe082b7b3eaf53caa/header_alt_assets_1.jpg?t=1794507021",
       "genres": [
-        "Экшены",
+        "Инди",
         "Симуляторы",
         "Стратегии",
         "Ранний доступ"
@@ -540,32 +608,31 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Используйте доступное вам современное военно-морское вооружение и системы обнаружения, чтобы соблюдая правила ведения боя, победить силы противника в напряженной борьбе за господство на море и в воздухе."
+      "short_description": "Main Sequence — это симулятор космической фабрики, где вы проектируете корабли, строите станции и автоматизируете все, что только можно. Начав с одного корабля, со временем вы построите свою межзвездную промышленную империю и оставите след в истории галактики."
     },
     {
-      "appid": "4876650",
-      "name": "Никогда не сортируй по цвету",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4876650/93c52dfa6a8a9193844ba301efeae5231e1d9df9/header_russian.jpg?t=1794327933",
+      "appid": "3856990",
+      "name": "Spin Tactics",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3856990/34280c794b53c19b6e4dc8d5e313b73cf0f4fc75/header.jpg?t=1794507237",
       "genres": [
-        "Казуальные игры",
-        "Симуляторы"
+        "Инди",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
-        "linux": true
+        "mac": true,
+        "linux": false
       },
       "metacritic": null,
-      "short_description": "Где-то под этой горой деталей - ваш пол. Сортируйте невозможную Кучу: магнитная перчатка, сита, зрение, выслеживающее детали. Наполняйте подписанные ящики, доставайте детали, смотрите, как MOC-модели собираются деталь за деталью. Одно правило: никогда не сортируйте по цвету."
+      "short_description": "Стратегический рогалик о сборке движка. Возьми 8 из 90+ Спутников и задай порядок их срабатывания, меняй символы Самоцветами и трать каждое Действие на вращение или обмен. Побеждай боссов движком, который постоянно растёт. Внутри игрового автомата, без реальных денег."
     },
     {
-      "appid": "3802500",
-      "name": "Splatchinko",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3802500/995c140d3af1ff93da52aab1a73b3827dbacf96d/header.jpg?t=1794462074",
+      "appid": "5490580",
+      "name": "FRONTLINE ADVANCE: DARK FRONTIER",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5490580/3e22c5f44ff45138a058d7c47537e11702ad080c/header.jpg?t=1794506379",
       "genres": [
-        "Казуальные игры",
-        "Инди",
+        "Экшены",
         "Стратегии"
       ],
       "is_free": false,
@@ -575,7 +642,24 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Пачинко-рогалик — метай свои Глаза в нервные планеты в погоне за вечной любовью. Открывай нелепые мутации, собирай безумные билды и, если ради неё придётся уничтожить пару галактик… что ж, это любовь. Да?"
+      "short_description": "FRONTLINE ADVANCE: DARK FRONTIER — это классическая 2D-стратегия в реальном времени в духе «золотой эры» RTS, но с собственной индивидуальностью: три фракции, мрачный научно-фантастический конфликт и настоящий геймплей со строительством баз, которого так не хватало на протяжении многих лет."
+    },
+    {
+      "appid": "4475810",
+      "name": "Auto Battle Buddies",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4475810/89222ebd310673420bfb0ee772440d13cbd35003/header.jpg?t=1794505990",
+      "genres": [
+        "Казуальные игры",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Уютный автобаттлер в стиле кукольного театра! Наряжайте героев в уникальную экипировку, собирайте сильные команды и сражайтесь с другими артистами на большой сцене. Настраивайте облик кукол, поднимайтесь в рейтинге и создайте лучшую команду Battle Buddies."
     },
     {
       "appid": "2280360",
@@ -595,94 +679,6 @@
       },
       "metacritic": null,
       "short_description": "Scarecrow 90s Crime Story — комбо из адвенчуры и адреналинового top-down шутера. В бандитском городе 90-х, где выживают люди и звери, днём ты обычный житель, а ночью наёмный убийца. Разгадай тайны своего тёмного прошлого, пока не стало слишком поздно."
-    },
-    {
-      "appid": "4549920",
-      "name": "Coastal Cargo",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4549920/1095a2c53d906c4c7e9c7a40e44a6db1d42b7d06/header.jpg?t=1794453384",
-      "genres": [
-        "Инди",
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "«Coastal Cargo» — это стратегическая симуляторная игра, в которой вам предстоит стать лучшим в мире специалистом по морской логистике. Прокладывайте торговые маршруты между портами обширного архипелага. Спускайте на воду суда, начинайте перевозить грузы и зарабатывайте награды."
-    },
-    {
-      "appid": "5516730",
-      "name": "Beware of Ants",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5516730/b3b13cbb2c7ed387ad5cbca838c5965e43e5fefe/header.jpg?t=1794472018",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "You're an ant, the first worker hatched in a formicarium on somebody's desk, so you lay pheromone trails, grow the colony and walk your queen across the whole house and out through the veranda drain, past the homeowner's tweezers, bug spray, robot vacuum and feet. Outside there's a toad."
-    },
-    {
-      "appid": "5507930",
-      "name": "MARK IT",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5507930/e9f51713ad69b549adc9a73e87bf5e39aa02bbd5/header.jpg?t=1794472934",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Нарисуйте метки на чистом белом пазле — только ваши собственные подсказки помогут собрать его обратно! Но с каждым уровнем метки могут стереть, скопировать, отразить, повернуть… Продумайте их так, чтобы они всё равно оставались подсказками."
-    },
-    {
-      "appid": "5443380",
-      "name": "Farm Island",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5443380/1045c71b6c41bd0f7bf49ab075aa92a6da941c03/header.jpg?t=1794463829",
-      "genres": [
-        "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Превратите крошечный участок земли в живую островную ферму. Выращивайте 20 культур, стройте дома для жителей и поручайте им полив и сбор урожая. Производите муку, хлеб и консервы, выполняйте поставки и обустраивайте остров, который меняется вместе с временами года."
-    },
-    {
-      "appid": "5234480",
-      "name": "Королевство судоку",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5234480/6c74190a68e04252d2bd9e7d2351b60b09977909/header.jpg?t=1794447098",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Больше классики 9×9: 22 режима судоку и десятки тысяч головоломок — Killer, Термометр, Стрела, Jigsaw, круг, треугольник, снежинка и куб. Уровни сложности, заметки, отмена и подсказки. Одна покупка, без рекламы и микротранзакций."
     }
   ]
 }
