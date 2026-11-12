@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T20:57:17+03:00",
+  "updatedAt": "2026-11-12T03:51:49+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -472,6 +472,24 @@
       "short_description": "Project Winter — многопользовательская игра для 8 игроков, основанная на социальной маскировке и выживании. Чтобы спастись, выжившим необходимо общаться и работать в команде. Собирайте ресурсы, ремонтируйте постройки и покоряйте дикую природу плечом к плечу."
     },
     {
+      "appid": "1272080",
+      "name": "PAYDAY 3",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1272080/1d66ef7e731a18e40b037d39618f7c3dfd614a90/header.jpg?t=1794297037",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 66,
+      "short_description": "PAYDAY 3 — это кооперативный шутер от первого лица для 1-4 игроков и абсолютная фантазия об ограблении, действие которой разворачивается в самом узнаваемом городе мира. Исчезните без следа или прорвитесь сквозь град пуль. В любом случае вы уйдете с добычей."
+    },
+    {
       "appid": "58368",
       "name": "Steam App 58368",
       "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/58368/header.jpg",
@@ -488,47 +506,12 @@
       "curated": true
     },
     {
-      "appid": "5482540",
-      "name": "MISCONDUCTOR | 迷指揮者",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5482540/f211e86e8632008b043dc1a23f6b8e101961b60e/header.jpg?t=1794385723",
-      "genres": [
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Conduct an orchestra with your mouse as the baton. The catch: they're terrible. The flute can't be heard, the horn is deafening, and the choir in Beethoven's Ninth only sings &quot;Aaah&quot;. Had enough? Throw the baton at them. Instruments break, the damage piles up, and they throw it back."
-    },
-    {
-      "appid": "5379640",
-      "name": "HEADSHOT: Zombie Doomsday",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5379640/21b690c7680bf13af260718f0c22fb1bc9215796/header.jpg?t=1794385425",
-      "genres": [
-        "Экшены",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Aim for the head as zombies close in through darkness and fear. Earn gold, unlock permanent upgrades, and survive escalating waves of special infected and bosses in this 2D pixel survival shooter. Choose upgrades carefully, control the horde, and push for a higher score in every short run."
-    },
-    {
-      "appid": "2792080",
-      "name": "Stock:Retail investors",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2792080/header.jpg?t=1794367338",
+      "appid": "4822740",
+      "name": "Tiny Conquests",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4822740/5034156dd928b05c2dc041dfc569443fe949237e/header.jpg?t=1794423980",
       "genres": [
         "Казуальные игры",
         "Инди",
-        "Ролевые игры",
-        "Симуляторы",
         "Стратегии"
       ],
       "is_free": false,
@@ -538,7 +521,24 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "If you have ideas about stocks, you should buy this game. Before you use real money to verify your ideas, come here to verify them. It provides 1-minute data for nearly 20 years of mainstream markets, as well as conditional order functions. There is also unrealistic simulated stock trading."
+      "short_description": "Build tiny empires with big ambitions. A cozy, bite-sized 4X where every turn counts: grow cities, research three historical ages, and outscore rivals through building, conquest, or exploration in short single player or multiplayer matches."
+    },
+    {
+      "appid": "4842090",
+      "name": "Grab Your Deck",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4842090/1bcee2cff6be2666687e2a4be64af328c224b821/header.jpg?t=1794417152",
+      "genres": [
+        "Спорт",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Build real skateboard tricks from cards: an Ollie paired with a Kickflip and two Shove-its fuse into a Tre Flip. Roll each trick into a manual or grind and land the line before bailing. Beat bosses that tape over your stickers to climb the ranks from AM to PRO. A press-your-luck skate deckbuilder."
     },
     {
       "appid": "3527290",
@@ -559,6 +559,24 @@
       "short_description": "PEAK — это совместная игра о восхождении, где малейшая ошибка может привести к гибели. Играйте в одиночку или вместе с группой отчаянных бойскаутов. Сбегите с таинственного острова, для чего вам потребуется забраться на гору в его центре. Хватит ли вам сил, чтобы достичь ПИКА?"
     },
     {
+      "appid": "5464840",
+      "name": "FatInfantry",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5464840/972ec7a43d4946da8d35bd855388136531c3a912/header.jpg?t=1794418446",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Сразись с овощной армией, похитившей поваров! FatInfantry — 2D-экшен-платформер, в котором еда делает тебя сильнее. Стреляй в любом направлении, бей животом, размахивай вилкой на цепи и преодолевай опасные участки. Преврати набранные килограммы в свой боевой стиль."
+    },
+    {
       "appid": "2584270",
       "name": "Mortal Shell II",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/0a4c23b70ced29fac344186ea564dae67c80cfd6/header.jpg?t=1794241756",
@@ -576,13 +594,48 @@
       "short_description": "Их плоть — ваше оружие. Mortal Shell II — полноценное продолжение первой части. Это ролевой боевик с жестокими и напряженными сражениями. Вселяйтесь в тела выдающихся воинов, свергайте лжебогов и верните к жизни опустошенный мир."
     },
     {
-      "appid": "4825260",
-      "name": "Great Space Race of 3032",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4825260/8deac86b6fcbc50bb8e47dd7db8ebabcc88002f9/header.jpg?t=1794384165",
+      "appid": "5438730",
+      "name": "Fishing Shop: Tidy Up",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5438730/dfd591a6dce50bae4cf7885aff0cfd4f5101dbb8/header.jpg?t=1794416155",
       "genres": [
         "Казуальные игры",
         "Инди",
-        "Гонки"
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Fishing Shop: Tidy Up — расслабляющая игра от первого лица, в которой тебе предстоит навести порядок в рыболовном магазине. Подбирай разбросанные товары, сортируй их по категориям, цветам и размерам, расставляй на полках, улучшай свои способности и выбирай музыку под настроение!"
+    },
+    {
+      "appid": "5066680",
+      "name": "Enkhbayar's Olympiad Chess: Multi-Board Team Matches",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066680/65034cfda402a95c359061fcdbc76aa3e7e28bc4/header.jpg?t=1794415279",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Olympiad Chess превращает классическую игру в настоящий командный киберспорт формата 4 на 4. Через общий центральный «Нексус» фигуры прорываются на соседние доски, атакуя врагов с флангов и спасая союзников синхронными ходами. Первый в мире соревновательный командный многодосочный шахматный вариант."
+    },
+    {
+      "appid": "4983460",
+      "name": "The Rouge Casino",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4983460/f9eb1c9c85a7d598c461347d7cedc801bfe14e36/header.jpg?t=1794418192",
+      "genres": [
+        "Инди",
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
@@ -591,33 +644,17 @@
         "linux": true
       },
       "metacritic": null,
-      "short_description": "Test your piloting skills in a 6-DOF space racer. Match up against others in the matchmaking mode, compete against AI, or race the clock solo. Clear as many rings as you can, and clear the finish line to lock in your time, top speed and accuracy. Get there first to win."
+      "short_description": "Eight crooked casino tables, one roguelite spine. Rig the wheel, load the dice, mark the cards — stack charms, omens and gilded editions until the house edge is yours. Eight antes, eight stakes, eighty challenges, Endless beyond. No real gambling — just a casino you finally get to cheat."
     },
     {
-      "appid": "4940980",
-      "name": "The Ramen Bar",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4940980/8c303a9e8ab21bc4e8f9a0bed433d9401b070f79/header.jpg?t=1794374389",
-      "genres": [
-        "Казуальные игры",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Управляйте уютным рамен-баром в оживлённом японском городе. Готовьте блюда, обслуживайте клиентов и поддерживайте порядок, одновременно расширяя своё меню с каждым днём. Но когда вы остаётесь один... что-то кажется не совсем правильным..."
-    },
-    {
-      "appid": "4249520",
-      "name": "異界ノ宿帳",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4249520/422845ec9625b8a8b9337204e79c59cc44c873ab/header.jpg?t=1794387575",
+      "appid": "3301000",
+      "name": "The Vast White",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3301000/0a4195a2cf0b53ea2477aa234599c0fa2908a4cb/header.jpg?t=1794416519",
       "genres": [
         "Приключенческие игры",
+        "Казуальные игры",
         "Инди",
-        "Симуляторы"
+        "Спорт"
       ],
       "is_free": false,
       "platforms": {
@@ -626,24 +663,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Run an inn in the Otherworld, where forgotten things become tsukumogami. By day, tend to guests burdened by Kegare. By night, survive the horrors born from the impurity left behind. Your choices shape the guests’ healing and the inn’s fate."
-    },
-    {
-      "appid": "3699850",
-      "name": "The Devil's Due",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3699850/cb83990ef1a4ffd7e360d2b00a3d5fe7b39f0227/header.jpg?t=1794411367",
-      "genres": [
-        "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Вы проиграли душу Дьяволу. В покер. Теперь вы томитесь в адских глубинах и мечтаете лишь о том, чтобы с боем вырваться на свободу. Вас ждут безумные покерные дуэли и целый паноптикум жутких монстров. Но, какая удача, вы — шулер."
+      "short_description": "A snowy mountain, the stillness, and you. With the help of your snowboard, rediscover the memories buried in the snow. Meet the locals, explore every path, and bring the ski resort back to life."
     },
     {
       "appid": "4876650",
@@ -661,24 +681,6 @@
       },
       "metacritic": null,
       "short_description": "Где-то под этой горой деталей - ваш пол. Сортируйте невозможную Кучу: магнитная перчатка, сита, зрение, выслеживающее детали. Наполняйте подписанные ящики, доставайте детали, смотрите, как MOC-модели собираются деталь за деталью. Одно правило: никогда не сортируйте по цвету."
-    },
-    {
-      "appid": "5187700",
-      "name": "Confess To Me",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5187700/1eeef150e2dbf4cd0e741e03c34b2b7ae531f5f0/header.jpg?t=1794384420",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Confess to Me — мрачная 18+ кинетическая новелла о власти, психологическом давлении и опасном притяжении."
     }
   ]
 }
