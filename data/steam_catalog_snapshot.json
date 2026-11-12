@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T00:50:10+03:00",
+  "updatedAt": "2026-11-13T02:43:55+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -469,41 +469,40 @@
       "short_description": "В Clone Drone in the Danger Zone вас ждут сражения на мечах, которыми можно отрубить любую часть тела. Ваш разум был загружен в робота-гладиатора. Чтобы выжить — проходите коварные испытания на арене."
     },
     {
-      "appid": "1676840",
-      "name": "For The King II",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1676840/bdf72eeb37b9f9bb02ad4a47f2478a5206b2980b/header_alt_assets_13_russian.jpg?t=1794248102",
+      "appid": "2784470",
+      "name": "9 Kings",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784470/640a138fbc6918daa276a4653360eca9e4488b65/header.jpg?t=1794518469",
       "genres": [
-        "Приключенческие игры",
-        "Инди",
         "Ролевые игры",
         "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
+        "mac": true,
         "linux": false
       },
-      "metacritic": 76,
-      "short_description": "Сражайтесь против королевы Фарула в одиночку или в составе группы из четырех игроков в продолжении For The King — знаменитой и популярной пошаговой настольной roguelite-RPG. Сможете ли вы разгадать ужасную тайну когда-то всеми любимой королевы?"
+      "metacritic": null,
+      "short_description": "Динамичная стратегия о строительстве королевства в жанре «роглайк», в которой вы будете расширять империю и сражаться в масштабных битвах против могучих правителей. Побеждайте, применяя безумные стратегии, и станьте сильнейшим из королей!"
     },
     {
-      "appid": "2672700",
-      "name": "Lands of Fury",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2672700/efc6041eaa0a7ea52d0d0f008e4c7da969af1898/header.jpg?t=1794506404",
+      "appid": "5298430",
+      "name": "Detonator Squad",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5298430/002e5703ac55119107b862f6edb428c4dc2f3fb3/header.jpg?t=1794517988",
       "genres": [
         "Экшены",
+        "Казуальные игры",
         "Инди",
-        "Ролевые игры"
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
+        "mac": true,
         "linux": true
       },
       "metacritic": null,
-      "short_description": "Пробивайся с боем на вершину суровой горы. Сочетай оружие, картриджи, руны и спутников, создавай разрушительные билды и прорубайся сквозь безжалостных врагов в этом боевом рогалик-ARPG."
+      "short_description": "Team up for explosive co-op, take on the campaign solo, or challenge friends in Arena PvP. Clear 20 levels of enemies and spawners, find upgrades and plan your escape before the bombs go off. Play with up to four in campaign or eight in continuous Arena battles."
     },
     {
       "appid": "1077310",
@@ -556,23 +555,6 @@
       },
       "metacritic": null,
       "short_description": "A 1–4 player co-op horror game where a train crash strands you in a dark Soviet forest. With your friends, scavenge and carry parts to rebuild a dismantled truck, escape the Soviet Oblast of Novak, and survive cat-themed tests to convince IT you belong there."
-    },
-    {
-      "appid": "5463710",
-      "name": "Cards: Tidy Up!",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5463710/3fde134abe50e5938150ad91b1d71d450aa396f5/header.jpg?t=1794507298",
-      "genres": [
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Наведите порядок в комнате с разбросанными картами и соберите полные колоды. Сортируйте по теме, масти и достоинству в этой расслабляющей игре от первого лица. Получайте улучшения, открывайте машины для автоматизации и найдите свой способ освободить стол."
     },
     {
       "appid": "2584270",
@@ -628,29 +610,13 @@
       "short_description": "Стратегический рогалик о сборке движка. Возьми 8 из 90+ Спутников и задай порядок их срабатывания, меняй символы Самоцветами и трать каждое Действие на вращение или обмен. Побеждай боссов движком, который постоянно растёт. Внутри игрового автомата, без реальных денег."
     },
     {
-      "appid": "5490580",
-      "name": "FRONTLINE ADVANCE: DARK FRONTIER",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5490580/3e22c5f44ff45138a058d7c47537e11702ad080c/header.jpg?t=1794506379",
-      "genres": [
-        "Экшены",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "FRONTLINE ADVANCE: DARK FRONTIER — это классическая 2D-стратегия в реальном времени в духе «золотой эры» RTS, но с собственной индивидуальностью: три фракции, мрачный научно-фантастический конфликт и настоящий геймплей со строительством баз, которого так не хватало на протяжении многих лет."
-    },
-    {
-      "appid": "4475810",
-      "name": "Auto Battle Buddies",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4475810/89222ebd310673420bfb0ee772440d13cbd35003/header.jpg?t=1794505990",
+      "appid": "5462360",
+      "name": "牛丼店シミュレーター",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5462360/409435c744d6eb71a7ef6f2375a8520da0c18b3a/header.jpg?t=1794517655",
       "genres": [
         "Казуальные игры",
-        "Стратегии"
+        "Инди",
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
@@ -659,15 +625,46 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Уютный автобаттлер в стиле кукольного театра! Наряжайте героев в уникальную экипировку, собирайте сильные команды и сражайтесь с другими артистами на большой сцене. Настраивайте облик кукол, поднимайтесь в рейтинге и создайте лучшую команду Battle Buddies."
+      "short_description": "Made by someone with nearly 10 years in a gyudon (beef bowl) shop. A first-person shop sim where you wash rice, simmer beef, plate bowls, juggle IH burners and ring up orders like the real job. Run out of rice and the shop closes. Shout through the lunch rush solo or with up to 4 friends online."
     },
     {
-      "appid": "2280360",
-      "name": "Scarecrow: 90s Crime Story",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2280360/00bf57d3ca4e2cfc1ef62bb5248b9630cd3a6c2f/header.jpg?t=1794473122",
+      "appid": "4866510",
+      "name": "Purrfect Beats",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4866510/5380388116eeb22986375e66536e2d5d1fdfc180/header.jpg?t=1794510976",
+      "genres": [
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Кот, синтвейв и всего одна кнопка, чтобы проверить твоё чувство ритма. Ну и что тут сложного?"
+    },
+    {
+      "appid": "4640230",
+      "name": "Counter Targets Clicker",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4640230/6f08b5cb1617c6526e4a5f48c2671e79e4ddab20/header.jpg?t=1794510316",
+      "genres": [
+        "Казуальные игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Небольшая инкрементальная игра о стрельбе по мишеням: всё начинается просто, а затем превращается в БЕЗУМИЕ. Стреляйте по мишеням, зарабатывайте деньги, покупайте улучшения, открывайте и настраивайте новое оружие — и всё это, чтобы зарабатывать ещё больше денег."
+    },
+    {
+      "appid": "4715000",
+      "name": "Patience Balls",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4715000/443d02d51fe721f6b9375d6163d96e04402f3580/header.jpg?t=1794506950",
       "genres": [
         "Экшены",
-        "Приключенческие игры",
         "Казуальные игры",
         "Инди"
       ],
@@ -678,7 +675,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Scarecrow 90s Crime Story — комбо из адвенчуры и адреналинового top-down шутера. В бандитском городе 90-х, где выживают люди и звери, днём ты обычный житель, а ночью наёмный убийца. Разгадай тайны своего тёмного прошлого, пока не стало слишком поздно."
+      "short_description": "Наклоняйте связанные доски, чтобы направлять шарики в лунки. Освойте 100 уровней в режиме «Дзен» с бортиками и режиме «Терпение» без бортиков, создавайте головоломки в Редакторе уровней и покоряйте таблицы лидеров."
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T00:50:15+03:00",
+  "updatedAt": "2026-11-13T02:44:00+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -23,6 +23,16 @@
       "steamAppId": "597170"
     },
     {
+      "id": "steam-394360",
+      "title": "Hearts of Iron IV",
+      "store": "Steam",
+      "old": 3049,
+      "neu": 914,
+      "pct": 70,
+      "url": "https://store.steampowered.com/app/394360/",
+      "steamAppId": "394360"
+    },
+    {
       "id": "steam-2784470",
       "title": "9 Kings",
       "store": "Steam",
@@ -31,6 +41,26 @@
       "pct": 50,
       "url": "https://store.steampowered.com/app/2784470/",
       "steamAppId": "2784470"
+    },
+    {
+      "id": "steam-5211040",
+      "title": "DESIRO.",
+      "store": "Steam",
+      "old": 51,
+      "neu": 30,
+      "pct": 41,
+      "url": "https://store.steampowered.com/app/5211040/",
+      "steamAppId": "5211040"
+    },
+    {
+      "id": "steam-5428510",
+      "title": "Nowhere to Land",
+      "store": "Steam",
+      "old": 753,
+      "neu": 451,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5428510/",
+      "steamAppId": "5428510"
     },
     {
       "id": "steam-5298430",
@@ -43,16 +73,6 @@
       "steamAppId": "5298430"
     },
     {
-      "id": "steam-1077310",
-      "title": "Whiskers of Yesterday",
-      "store": "Steam",
-      "old": 385,
-      "neu": 238,
-      "pct": 38,
-      "url": "https://store.steampowered.com/app/1077310/",
-      "steamAppId": "1077310"
-    },
-    {
       "id": "steam-3527290",
       "title": "PEAK",
       "store": "Steam",
@@ -63,14 +83,14 @@
       "steamAppId": "3527290"
     },
     {
-      "id": "steam-4698160",
-      "title": "Cats Don't Carry Car Parts",
+      "id": "steam-5182970",
+      "title": "Objecipher",
       "store": "Steam",
-      "old": 385,
-      "neu": 269,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/4698160/",
-      "steamAppId": "4698160"
+      "old": 198,
+      "neu": 128,
+      "pct": 35,
+      "url": "https://store.steampowered.com/app/5182970/",
+      "steamAppId": "5182970"
     },
     {
       "id": "steam-2584270",
@@ -93,14 +113,24 @@
       "steamAppId": "2487190"
     },
     {
-      "id": "steam-3856990",
-      "title": "Spin Tactics",
+      "id": "steam-2868840",
+      "title": "Slay the Spire 2",
       "store": "Steam",
-      "old": 690,
-      "neu": 552,
+      "old": 1099,
+      "neu": 879,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/3856990/",
-      "steamAppId": "3856990"
+      "url": "https://store.steampowered.com/app/2868840/",
+      "steamAppId": "2868840"
+    },
+    {
+      "id": "steam-5356510",
+      "title": "X-Dolls Squad",
+      "store": "Steam",
+      "old": 660,
+      "neu": 528,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/5356510/",
+      "steamAppId": "5356510"
     },
     {
       "id": "steam-5462360",
@@ -111,36 +141,6 @@
       "pct": 20,
       "url": "https://store.steampowered.com/app/5462360/",
       "steamAppId": "5462360"
-    },
-    {
-      "id": "steam-4866510",
-      "title": "Purrfect Beats",
-      "store": "Steam",
-      "old": 280,
-      "neu": 224,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/4866510/",
-      "steamAppId": "4866510"
-    },
-    {
-      "id": "steam-4640230",
-      "title": "Counter Targets Clicker",
-      "store": "Steam",
-      "old": 280,
-      "neu": 224,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/4640230/",
-      "steamAppId": "4640230"
-    },
-    {
-      "id": "steam-4715000",
-      "title": "Patience Balls",
-      "store": "Steam",
-      "old": 280,
-      "neu": 224,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/4715000/",
-      "steamAppId": "4715000"
     }
   ]
 }
