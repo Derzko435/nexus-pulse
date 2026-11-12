@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T03:51:55+03:00",
+  "updatedAt": "2026-11-12T12:57:53+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -23,14 +23,14 @@
       "steamAppId": "1272080"
     },
     {
-      "id": "steam-5301110",
-      "title": "Похоть и возмещение",
+      "id": "steam-1211600",
+      "title": "ZED ZONE",
       "store": "Steam",
-      "old": 335,
-      "neu": 201,
+      "old": 460,
+      "neu": 276,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5301110/",
-      "steamAppId": "5301110"
+      "url": "https://store.steampowered.com/app/1211600/",
+      "steamAppId": "1211600"
     },
     {
       "id": "steam-3527290",
@@ -43,26 +43,6 @@
       "steamAppId": "3527290"
     },
     {
-      "id": "steam-4558350",
-      "title": "Roll with Splonk",
-      "store": "Steam",
-      "old": 245,
-      "neu": 159,
-      "pct": 35,
-      "url": "https://store.steampowered.com/app/4558350/",
-      "steamAppId": "4558350"
-    },
-    {
-      "id": "steam-2287150",
-      "title": "Revenge of the Mage",
-      "store": "Steam",
-      "old": 445,
-      "neu": 311,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/2287150/",
-      "steamAppId": "2287150"
-    },
-    {
       "id": "steam-2584270",
       "title": "Mortal Shell II",
       "store": "Steam",
@@ -71,26 +51,6 @@
       "pct": 25,
       "url": "https://store.steampowered.com/app/2584270/",
       "steamAppId": "2584270"
-    },
-    {
-      "id": "steam-3159350",
-      "title": "Match In Peace",
-      "store": "Steam",
-      "old": 445,
-      "neu": 333,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/3159350/",
-      "steamAppId": "3159350"
-    },
-    {
-      "id": "steam-1903340",
-      "title": "Clair Obscur: Expedition 33",
-      "store": "Steam",
-      "old": 3499,
-      "neu": 2799,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/1903340/",
-      "steamAppId": "1903340"
     },
     {
       "id": "steam-1286220",
@@ -113,34 +73,74 @@
       "steamAppId": "4876650"
     },
     {
-      "id": "steam-5304170",
-      "title": "Monkey Overdrive",
+      "id": "steam-3802500",
+      "title": "Splatchinko",
       "store": "Steam",
-      "old": 445,
-      "neu": 356,
+      "old": 435,
+      "neu": 348,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/5304170/",
-      "steamAppId": "5304170"
+      "url": "https://store.steampowered.com/app/3802500/",
+      "steamAppId": "3802500"
     },
     {
-      "id": "steam-5020720",
-      "title": "A BILLION GOLD DEBT",
+      "id": "steam-2280360",
+      "title": "Scarecrow: 90s Crime Story",
+      "store": "Steam",
+      "old": 399,
+      "neu": 319,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/2280360/",
+      "steamAppId": "2280360"
+    },
+    {
+      "id": "steam-4549920",
+      "title": "Coastal Cargo",
+      "store": "Steam",
+      "old": 335,
+      "neu": 268,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/4549920/",
+      "steamAppId": "4549920"
+    },
+    {
+      "id": "steam-5516730",
+      "title": "Beware of Ants",
       "store": "Steam",
       "old": 280,
       "neu": 224,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/5020720/",
-      "steamAppId": "5020720"
+      "url": "https://store.steampowered.com/app/5516730/",
+      "steamAppId": "5516730"
     },
     {
-      "id": "steam-5191540",
-      "title": "The Keyless: Forbidden Door",
+      "id": "steam-5507930",
+      "title": "MARK IT",
       "store": "Steam",
-      "old": 240,
-      "neu": 192,
+      "old": 245,
+      "neu": 196,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/5191540/",
-      "steamAppId": "5191540"
+      "url": "https://store.steampowered.com/app/5507930/",
+      "steamAppId": "5507930"
+    },
+    {
+      "id": "steam-5443380",
+      "title": "Farm Island",
+      "store": "Steam",
+      "old": 170,
+      "neu": 136,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/5443380/",
+      "steamAppId": "5443380"
+    },
+    {
+      "id": "steam-5234480",
+      "title": "Королевство судоку",
+      "store": "Steam",
+      "old": 150,
+      "neu": 120,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/5234480/",
+      "steamAppId": "5234480"
     }
   ]
 }
