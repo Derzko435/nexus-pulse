@@ -1,72 +1,7 @@
 {
- "updatedAt": "2026-11-13T05:09:58+03:00",
+ "updatedAt": "2026-11-13T14:06:02+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-132702",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "DetonatioN FocusMe",
-   "teamB": "Saigon Warriors",
-   "logoA": "https://files.bo3.gg/uploads/team/18140/image/webp-22a2b3fb789ca339b2da8e642ee6d4ce.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/22895/image/webp-3eb9d9c59ba43176bbcc9388ca57c8c7.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "upcoming",
-   "event": "LCP 2027 Promotion",
-   "tier": "A",
-   "startsAt": "2026-11-13T09:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/lol/matches/detonation-focusme-lol-vs-saigon-warriors-13-11-2026"
-  },
-  {
-   "id": "bo3-132596",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Vitality",
-   "teamB": "MOUZ",
-   "logoA": "https://files.bo3.gg/uploads/team/667/image/webp-292c1f6c6dcfca35c7a52da7e02cef0a.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "BLAST Rivals Fall 2026",
-   "tier": "S",
-   "startsAt": "2026-11-13T11:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "blastpremier",
-     "lang": "en",
-     "official": true,
-     "label": "blastpremier"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "cs2_maincast"
-    },
-    {
-     "type": "twitch",
-     "channel": "97zoner",
-     "lang": "ru",
-     "official": false,
-     "label": "97zoner"
-    },
-    {
-     "type": "twitch",
-     "channel": "krat0ntv",
-     "lang": "ru",
-     "official": false,
-     "label": "krat0ntv"
-    }
-   ],
-   "url": "https://bo3.gg/matches/vitality-vs-mouz-cs2-13-11-2026"
-  },
   {
    "id": "bo3-133701",
    "game": "Dota 2",
@@ -78,7 +13,7 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "1win Essence III",
    "tier": "A",
    "startsAt": "2026-11-13T13:00:00+03:00",
@@ -96,10 +31,10 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "BLAST Rivals Fall 2026",
    "tier": "S",
-   "startsAt": "2026-11-13T13:30:00+03:00",
+   "startsAt": "2026-11-13T14:00:00+03:00",
    "streams": [
     {
      "type": "twitch",
@@ -185,6 +120,33 @@
    "startsAt": "2026-11-13T22:00:00+03:00",
    "streams": [],
    "url": "https://bo3.gg/dota2/matches/team-spirit-vs-froglings-13-11-2026"
+  },
+  {
+   "id": "bo3-132598",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Spirit",
+   "teamB": "MOUZ",
+   "logoA": "https://files.bo3.gg/uploads/team/654/image/webp-41b22d18a871d982f8ff87652bbb0fe6.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "BLAST Rivals Fall 2026",
+   "tier": "S",
+   "startsAt": "2026-11-14T11:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "blastpremier",
+     "lang": "en",
+     "official": true,
+     "label": "blastpremier",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/spirit-vs-mouz-cs2-14-11-2026"
   },
   {
    "id": "bo3-133703",
@@ -406,6 +368,79 @@
     }
    ],
    "url": "https://bo3.gg/matches/gamerlegion-vs-luminosity-cs-go-17-11-2026"
+  },
+  {
+   "id": "bo3-132596",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Vitality",
+   "teamB": "MOUZ",
+   "logoA": "https://files.bo3.gg/uploads/team/667/image/webp-292c1f6c6dcfca35c7a52da7e02cef0a.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
+   "scoreA": 0,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "BLAST Rivals Fall 2026",
+   "tier": "S",
+   "startsAt": "2026-11-13T11:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "blastpremier",
+     "lang": "en",
+     "official": true,
+     "label": "blastpremier"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "cs2_maincast"
+    },
+    {
+     "type": "twitch",
+     "channel": "97zoner",
+     "lang": "ru",
+     "official": false,
+     "label": "97zoner"
+    },
+    {
+     "type": "twitch",
+     "channel": "krat0ntv",
+     "lang": "ru",
+     "official": false,
+     "label": "krat0ntv"
+    }
+   ],
+   "url": "https://bo3.gg/matches/vitality-vs-mouz-cs2-13-11-2026"
+  },
+  {
+   "id": "bo3-132702",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "DetonatioN FocusMe",
+   "teamB": "Saigon Warriors",
+   "logoA": "https://files.bo3.gg/uploads/team/18140/image/webp-22a2b3fb789ca339b2da8e642ee6d4ce.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/22895/image/webp-3eb9d9c59ba43176bbcc9388ca57c8c7.webp",
+   "scoreA": 1,
+   "scoreB": 3,
+   "bo": 5,
+   "status": "finished",
+   "event": "LCP 2027 Promotion",
+   "tier": "A",
+   "startsAt": "2026-11-13T09:10:00+03:00",
+   "streams": [
+    {
+     "type": "youtube",
+     "id": "i97EzknTwOo",
+     "lang": "en",
+     "official": true,
+     "label": "[EN] DFM vs SGW | LCP 2026 Promotion Series Day 4 | FFA Final"
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/detonation-focusme-lol-vs-saigon-warriors-13-11-2026"
   },
   {
    "id": "bo3-133708",
@@ -742,53 +777,6 @@
    "url": "https://bo3.gg/dota2/matches/power-rangers-dota2-vs-angry-birds-11-11-2026"
   },
   {
-   "id": "bo3-132593",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "MOUZ",
-   "teamB": "G2",
-   "logoA": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
-   "logoB": "https://files.bo3.gg/uploads/team/793/image/webp-8f844f6a25c797dfe74b411d147983ff.webp",
-   "scoreA": 1,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "BLAST Rivals Fall 2026",
-   "tier": "S",
-   "startsAt": "2026-11-11T12:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "alrumtv",
-     "lang": "ru",
-     "official": true,
-     "label": "alrumtv"
-    },
-    {
-     "type": "twitch",
-     "channel": "blastpremier",
-     "lang": "en",
-     "official": true,
-     "label": "blastpremier"
-    },
-    {
-     "type": "twitch",
-     "channel": "fl0m",
-     "lang": "en",
-     "official": true,
-     "label": "fl0m"
-    },
-    {
-     "type": "kick",
-     "channel": "blastpremier",
-     "lang": "en",
-     "official": true,
-     "label": "blastpremier"
-    }
-   ],
-   "url": "https://bo3.gg/matches/mouz-cs2-vs-g2-11-11-2026"
-  },
-  {
    "id": "bo3-132700",
    "game": "LoL",
    "gameKey": "lol",
@@ -899,17 +887,6 @@
    "end": "2026-11-15",
    "status": "current",
    "url": "https://bo3.gg/lol/tournaments/worlds-2026"
-  },
-  {
-   "name": "LCP 2027 Promotion",
-   "game": "LoL",
-   "gameKey": "lol",
-   "tier": "A",
-   "prize": null,
-   "start": "2026-11-10",
-   "end": "2026-11-13",
-   "status": "current",
-   "url": "https://bo3.gg/lol/tournaments/lcp-2027-promotion"
   },
   {
    "name": "BLAST Rivals Fall 2026",

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-12T14:26:32+03:00",
+ "updatedAt": "2026-11-13T14:09:28+03:00",
  "items": [
   {
    "appid": 3629430,
@@ -24,7 +24,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/3629430/"
    },
-   "reviews": 994
+   "reviews": 1157
   },
   {
    "appid": 4115450,
@@ -49,13 +49,13 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4115450/"
    },
-   "reviews": 106371
+   "reviews": 108800
   },
   {
    "appid": 4348910,
    "title": "Probably Stolen – симулятор магазина в киберпанке",
    "date": "2026-10-28",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/d80d1aaf073c202bc793247bdc4c0504dfe28869/header_alt_assets_3_russian.jpg?t=1794473922",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/d80d1aaf073c202bc793247bdc4c0504dfe28869/header_alt_assets_3_russian.jpg?t=1794554990",
    "desc": "В этом симуляторе магазина на мрачной киберпанковой космической станции вы будете создавать полезные вещи из хлама, торговать (легально и не очень) товарами сомнительного происхождения и разбираться в отношениях между фракциями. Решайте сами, на что вы готовы пойти, чтобы остаться на плаву.",
    "genres": [
     "Инди",
@@ -74,7 +74,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4348910/"
    },
-   "reviews": 23200
+   "reviews": 24003
   },
   {
    "appid": 4576490,
@@ -99,56 +99,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4576490/"
    },
-   "reviews": 2270
-  },
-  {
-   "appid": 3669620,
-   "title": "Warhammer Survivors",
-   "date": "2026-11-10",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669620/dc61fccdeec6b05a58fbcdd7b1d0bbbe1f6999ea/header.jpg?t=1794409627",
-   "desc": "Warhammer Survivors — это мрачная официальная игра на выживание в стиле bullet heaven от разработчиков Warhammer 40,000 Boltgun. Играйте более чем за 40 культовых персонажей вселенных Warhammer 40,000 и Warhammer Age of Sigmar и уничтожайте всех, кто несет смерть и разрушение.",
-   "genres": [
-    "Экшены",
-    "Казуальные игры",
-    "Инди"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Auroch Digital",
-   "price": "346 руб.",
-   "url": "https://store.steampowered.com/app/3669620/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/3669620/"
-   },
-   "reviews": 1460
-  },
-  {
-   "appid": 4218360,
-   "title": "Wall World Strategy",
-   "date": "2026-11-11",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4218360/affb6b94d152a5a52e6c5a75bb246be70e07ae3a/header.jpg?t=1794427468",
-   "desc": "Создай и возглавь колонию на поверхности бесконечной Стены. Управляй ресурсами и жителями, развивай новые технологии, отражай непрекращающиеся атаки зайрексов и отправляй робо-пауков в рискованные экспедиции. Не дай колонии рухнуть – в мире Стены легко пасть.",
-   "genres": [
-    "Симуляторы",
-    "Стратегии"
-   ],
-   "platforms": [
-    "PC",
-    "Mac"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Alawar",
-   "price": "680 руб.",
-   "url": "https://store.steampowered.com/app/4218360/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4218360/"
-   }
+   "reviews": 2614
   },
   {
    "appid": 2280360,
@@ -172,7 +123,82 @@
    "url": "https://store.steampowered.com/app/2280360/",
    "links": {
     "steam": "https://store.steampowered.com/app/2280360/"
+   },
+   "reviews": 161
+  },
+  {
+   "appid": 2487190,
+   "title": "Main Sequence",
+   "date": "2026-11-12",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2487190/9f75d23dd877267e001e58afe082b7b3eaf53caa/header_alt_assets_1.jpg?t=1794507021",
+   "desc": "Main Sequence — это симулятор космической фабрики, где вы проектируете корабли, строите станции и автоматизируете все, что только можно. Начав с одного корабля, со временем вы построите свою межзвездную промышленную империю и оставите след в истории галактики.",
+   "genres": [
+    "Инди",
+    "Симуляторы",
+    "Стратегии"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Tumbling Dumpling Studio",
+   "price": "920 руб.",
+   "url": "https://store.steampowered.com/app/2487190/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/2487190/"
    }
+  },
+  {
+   "appid": 3669620,
+   "title": "Warhammer Survivors",
+   "date": "2026-11-10",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669620/dc61fccdeec6b05a58fbcdd7b1d0bbbe1f6999ea/header.jpg?t=1794485359",
+   "desc": "Warhammer Survivors — это мрачная официальная игра на выживание в стиле bullet heaven от разработчиков Warhammer 40,000 Boltgun. Играйте более чем за 40 культовых персонажей вселенных Warhammer 40,000 и Warhammer Age of Sigmar и уничтожайте всех, кто несет смерть и разрушение.",
+   "genres": [
+    "Экшены",
+    "Казуальные игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Auroch Digital",
+   "price": "346 руб.",
+   "url": "https://store.steampowered.com/app/3669620/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/3669620/"
+   },
+   "reviews": 1916
+  },
+  {
+   "appid": 5335510,
+   "title": "Moon Sweepers",
+   "date": "2026-10-23",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/41e1e802dfc069cc245b91043e451a2f9ffa80e3/header.jpg?t=1794330734",
+   "desc": "Целая Луна для уборки. Одна зубная щётка для начала. Соберите команду до 16 игроков, собирайте и продавайте лунную пыль, улучшайте инструменты и открывайте уборочную технику. Превратите нелепую работу в процветающий бизнес, если друзья вообще будут помогать.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Казуальные игры"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "DragDrop Games",
+   "price": "420 руб.",
+   "url": "https://store.steampowered.com/app/5335510/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/5335510/"
+   },
+   "reviews": 8413
   },
   {
    "appid": 1203620,
@@ -198,32 +224,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/1203620/"
    },
-   "reviews": 100344
-  },
-  {
-   "appid": 5335510,
-   "title": "Moon Sweepers",
-   "date": "2026-10-23",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/41e1e802dfc069cc245b91043e451a2f9ffa80e3/header.jpg?t=1794330734",
-   "desc": "Целая Луна для уборки. Одна зубная щётка для начала. Соберите команду до 16 игроков, собирайте и продавайте лунную пыль, улучшайте инструменты и открывайте уборочную технику. Превратите нелепую работу в процветающий бизнес, если друзья вообще будут помогать.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Казуальные игры"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "DragDrop Games",
-   "price": "420 руб.",
-   "url": "https://store.steampowered.com/app/5335510/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/5335510/"
-   },
-   "reviews": 8188
+   "reviews": 100452
   },
   {
    "appid": 5266240,
@@ -248,32 +249,32 @@
    "links": {
     "steam": "https://store.steampowered.com/app/5266240/"
    },
-   "reviews": 2138
+   "reviews": 2272
   },
   {
-   "appid": 4876650,
-   "title": "Никогда не сортируй по цвету",
-   "date": "2026-11-10",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4876650/93c52dfa6a8a9193844ba301efeae5231e1d9df9/header_russian.jpg?t=1794327933",
-   "desc": "Где-то под этой горой деталей - ваш пол. Сортируйте невозможную Кучу: магнитная перчатка, сита, зрение, выслеживающее детали. Наполняйте подписанные ящики, доставайте детали, смотрите, как MOC-модели собираются деталь за деталью. Одно правило: никогда не сортируйте по цвету.",
+   "appid": 4218360,
+   "title": "Wall World Strategy",
+   "date": "2026-11-11",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4218360/affb6b94d152a5a52e6c5a75bb246be70e07ae3a/header.jpg?t=1794427468",
+   "desc": "Создай и возглавь колонию на поверхности бесконечной Стены. Управляй ресурсами и жителями, развивай новые технологии, отражай непрекращающиеся атаки зайрексов и отправляй робо-пауков в рискованные экспедиции. Не дай колонии рухнуть – в мире Стены легко пасть.",
    "genres": [
-    "Казуальные игры",
-    "Симуляторы"
+    "Симуляторы",
+    "Стратегии"
    ],
    "platforms": [
     "PC",
-    "Linux"
+    "Mac"
    ],
    "stores": [
     "Steam"
    ],
-   "developer": "Bryan Livingston",
-   "price": "356 руб.",
-   "url": "https://store.steampowered.com/app/4876650/",
+   "developer": "Alawar",
+   "price": "680 руб.",
+   "url": "https://store.steampowered.com/app/4218360/",
    "links": {
-    "steam": "https://store.steampowered.com/app/4876650/"
+    "steam": "https://store.steampowered.com/app/4218360/"
    },
-   "reviews": 120
+   "reviews": 107
   },
   {
    "appid": 4463520,
