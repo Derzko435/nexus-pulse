@@ -1,7 +1,17 @@
 {
-  "updatedAt": "2026-11-13T19:33:56+03:00",
+  "updatedAt": "2026-11-14T02:42:33+03:00",
   "source": "steam-specials-ru",
   "deals": [
+    {
+      "id": "steam-773370",
+      "title": "Exo One",
+      "store": "Steam",
+      "old": 620,
+      "neu": 93,
+      "pct": 85,
+      "url": "https://store.steampowered.com/app/773370/",
+      "steamAppId": "773370"
+    },
     {
       "id": "steam-227300",
       "title": "Euro Truck Simulator 2",
@@ -11,16 +21,6 @@
       "pct": 75,
       "url": "https://store.steampowered.com/app/227300/",
       "steamAppId": "227300"
-    },
-    {
-      "id": "steam-597170",
-      "title": "Clone Drone in the Danger Zone",
-      "store": "Steam",
-      "old": 435,
-      "neu": 108,
-      "pct": 75,
-      "url": "https://store.steampowered.com/app/597170/",
-      "steamAppId": "597170"
     },
     {
       "id": "steam-394360",
@@ -33,14 +33,14 @@
       "steamAppId": "394360"
     },
     {
-      "id": "steam-4535710",
-      "title": "Data Center Simulator",
+      "id": "steam-1504100",
+      "title": "Playground VR",
       "store": "Steam",
-      "old": 385,
-      "neu": 192,
-      "pct": 50,
-      "url": "https://store.steampowered.com/app/4535710/",
-      "steamAppId": "4535710"
+      "old": 259,
+      "neu": 155,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/1504100/",
+      "steamAppId": "1504100"
     },
     {
       "id": "steam-3527290",
@@ -53,24 +53,44 @@
       "steamAppId": "3527290"
     },
     {
-      "id": "steam-5118570",
-      "title": "MOGA TD",
+      "id": "steam-3763040",
+      "title": "Mellings",
       "store": "Steam",
-      "old": 1329,
-      "neu": 917,
-      "pct": 31,
-      "url": "https://store.steampowered.com/app/5118570/",
-      "steamAppId": "5118570"
+      "old": 360,
+      "neu": 252,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/3763040/",
+      "steamAppId": "3763040"
     },
     {
-      "id": "steam-5256610",
-      "title": "Business Tycoon",
+      "id": "steam-5441160",
+      "title": "Squirrel Defender VR",
       "store": "Steam",
-      "old": 320,
-      "neu": 224,
+      "old": 280,
+      "neu": 196,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/5256610/",
-      "steamAppId": "5256610"
+      "url": "https://store.steampowered.com/app/5441160/",
+      "steamAppId": "5441160"
+    },
+    {
+      "id": "steam-5189780",
+      "title": "Aspect Arena",
+      "store": "Steam",
+      "old": 242,
+      "neu": 169,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5189780/",
+      "steamAppId": "5189780"
+    },
+    {
+      "id": "steam-5465790",
+      "title": "Gold Idle",
+      "store": "Steam",
+      "old": 234,
+      "neu": 163,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5465790/",
+      "steamAppId": "5465790"
     },
     {
       "id": "steam-2584270",
@@ -83,64 +103,44 @@
       "steamAppId": "2584270"
     },
     {
-      "id": "steam-3454650",
-      "title": "BitCraft Online",
+      "id": "steam-2406770",
+      "title": "Bodycam",
       "store": "Steam",
-      "old": 950,
-      "neu": 712,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/3454650/",
-      "steamAppId": "3454650"
+      "old": 1200,
+      "neu": 960,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/2406770/",
+      "steamAppId": "2406770"
     },
     {
-      "id": "steam-2718320",
-      "title": "Green Again",
+      "id": "steam-5296680",
+      "title": "House of Pips: домино-рогалик",
       "store": "Steam",
       "old": 725,
-      "neu": 543,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/2718320/",
-      "steamAppId": "2718320"
-    },
-    {
-      "id": "steam-4529690",
-      "title": "Cowgirl Milk Cafe",
-      "store": "Steam",
-      "old": 450,
-      "neu": 337,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/4529690/",
-      "steamAppId": "4529690"
-    },
-    {
-      "id": "steam-2418490",
-      "title": "Trakonius",
-      "store": "Steam",
-      "old": 385,
-      "neu": 288,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/2418490/",
-      "steamAppId": "2418490"
-    },
-    {
-      "id": "steam-2487190",
-      "title": "Main Sequence",
-      "store": "Steam",
-      "old": 1150,
-      "neu": 920,
+      "neu": 580,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/2487190/",
-      "steamAppId": "2487190"
+      "url": "https://store.steampowered.com/app/5296680/",
+      "steamAppId": "5296680"
     },
     {
-      "id": "steam-4045480",
-      "title": "Drawquarium",
+      "id": "steam-4614660",
+      "title": "Gooning for Gold",
       "store": "Steam",
-      "old": 555,
-      "neu": 444,
+      "old": 599,
+      "neu": 479,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/4045480/",
-      "steamAppId": "4045480"
+      "url": "https://store.steampowered.com/app/4614660/",
+      "steamAppId": "4614660"
+    },
+    {
+      "id": "steam-4959060",
+      "title": "Legacy Miner",
+      "store": "Steam",
+      "old": 340,
+      "neu": 272,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/4959060/",
+      "steamAppId": "4959060"
     }
   ]
 }
