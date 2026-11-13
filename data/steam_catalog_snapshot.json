@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T02:43:55+03:00",
+  "updatedAt": "2026-11-13T09:57:58+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -469,6 +469,23 @@
       "short_description": "В Clone Drone in the Danger Zone вас ждут сражения на мечах, которыми можно отрубить любую часть тела. Ваш разум был загружен в робота-гладиатора. Чтобы выжить — проходите коварные испытания на арене."
     },
     {
+      "appid": "394360",
+      "name": "Hearts of Iron IV",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/67bbd0057627fc2244793bcdd09260c2539499cf/header.jpg?t=1794491980",
+      "genres": [
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": 83,
+      "short_description": "Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation in World War II; the most engaging conflict in world history."
+    },
+    {
       "appid": "2784470",
       "name": "9 Kings",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784470/640a138fbc6918daa276a4653360eca9e4488b65/header.jpg?t=1794518469",
@@ -484,6 +501,44 @@
       },
       "metacritic": null,
       "short_description": "Динамичная стратегия о строительстве королевства в жанре «роглайк», в которой вы будете расширять империю и сражаться в масштабных битвах против могучих правителей. Побеждайте, применяя безумные стратегии, и станьте сильнейшим из королей!"
+    },
+    {
+      "appid": "5211040",
+      "name": "DESIRO.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5211040/2dddcffe16141c9040929e84592361c54dfdb933/header.jpg?t=1794518484",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Hello there, kind stranger!! DESIR〇. Find your inner peace and the cosmic truth in this minimalist, relaxed network-building thingy. Build systems. Observe tiny commuters. Discover bottlenecks. Attain enlightenment... &gt;&gt; Chill tunes and nice visuals to boot ◯∘"
+    },
+    {
+      "appid": "5428510",
+      "name": "Nowhere to Land",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5428510/b0100e060d44302ec64bb49443051f1b692e3285/header.jpg?t=1794525326",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Survive a flooded world in this open-world survival adventure. Recruit a crew, build floating homes, dive for supplies, and battle pirate captains. Discover an island and confront the alien force behind the rising seas."
     },
     {
       "appid": "5298430",
@@ -505,23 +560,6 @@
       "short_description": "Team up for explosive co-op, take on the campaign solo, or challenge friends in Arena PvP. Clear 20 levels of enemies and spawners, find upgrades and plan your escape before the bombs go off. Play with up to four in campaign or eight in continuous Arena battles."
     },
     {
-      "appid": "1077310",
-      "name": "Whiskers of Yesterday",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1077310/20aa97eb641db4cf4c6f364c873d0c78f978e482/header.jpg?t=1794506538",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Ты — кот, и весь дом твой. Позови до 7 друзей: сбрасывай тарелки со стола, играй в кошачий футбол в саду, плавай в бассейне или свернись с ними клубком в солнечном луче. Без таймеров и поражений. Просто тёплое место."
-    },
-    {
       "appid": "3527290",
       "name": "PEAK",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/31bac6b2eccf09b368f5e95ce510bae2baf3cfcd/header.jpg?t=1792684718",
@@ -540,12 +578,12 @@
       "short_description": "PEAK — это совместная игра о восхождении, где малейшая ошибка может привести к гибели. Играйте в одиночку или вместе с группой отчаянных бойскаутов. Сбегите с таинственного острова, для чего вам потребуется забраться на гору в его центре. Хватит ли вам сил, чтобы достичь ПИКА?"
     },
     {
-      "appid": "4698160",
-      "name": "Cats Don't Carry Car Parts",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4698160/e87e4eb421896e077a0c627e8e3dad1d323fc473/header.jpg?t=1794510761",
+      "appid": "5182970",
+      "name": "Objecipher",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5182970/232657f46455059edef1d649ede9ea965417aa94/header.jpg?t=1794524550",
       "genres": [
-        "Приключенческие игры",
-        "Инди"
+        "Инди",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
@@ -554,7 +592,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "A 1–4 player co-op horror game where a train crash strands you in a dark Soviet forest. With your friends, scavenge and carry parts to rebuild a dismantled truck, escape the Soviet Oblast of Novak, and survive cat-themed tests to convince IT you belong there."
+      "short_description": "Командное состязание с хитроумными подсказками, сомнительной логикой и совершенно разными трактовками. Найдите предметы своей команды раньше, чем соперники найдут свои."
     },
     {
       "appid": "2584270",
@@ -593,21 +631,39 @@
       "short_description": "Main Sequence — это симулятор космической фабрики, где вы проектируете корабли, строите станции и автоматизируете все, что только можно. Начав с одного корабля, со временем вы построите свою межзвездную промышленную империю и оставите след в истории галактики."
     },
     {
-      "appid": "3856990",
-      "name": "Spin Tactics",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3856990/34280c794b53c19b6e4dc8d5e313b73cf0f4fc75/header.jpg?t=1794507237",
+      "appid": "2868840",
+      "name": "Slay the Spire 2",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868840/b0958d387dc366211e0f353443710cfcf9fdb020/header.jpg?t=1787169309",
       "genres": [
         "Инди",
-        "Стратегии"
+        "Стратегии",
+        "Ранний доступ"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Культовый карточный рогалик возвращается! Соберите уникальную колоду, повстречайте причудливых монстров и отыщите множество могущественных реликвий в Slay the Spire 2!"
+    },
+    {
+      "appid": "5356510",
+      "name": "X-Dolls Squad",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5356510/5649affe589fe23e777b612d32132d545d31f660/header.jpg?t=1794510322",
+      "genres": [
+        "Экшены",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Стратегический рогалик о сборке движка. Возьми 8 из 90+ Спутников и задай порядок их срабатывания, меняй символы Самоцветами и трать каждое Действие на вращение или обмен. Побеждай боссов движком, который постоянно растёт. Внутри игрового автомата, без реальных денег."
+      "short_description": "Сражайтесь вместе с X-Dolls в динамичных операциях шутера от первого лица. Выполняйте задачи, улучшайте оружие и способности, находите секреты и побеждайте могучих боссов. Выживите в кампании среди враждебных мест, сверхъестественных угроз и смертоносных врагов."
     },
     {
       "appid": "5462360",
@@ -626,56 +682,6 @@
       },
       "metacritic": null,
       "short_description": "Made by someone with nearly 10 years in a gyudon (beef bowl) shop. A first-person shop sim where you wash rice, simmer beef, plate bowls, juggle IH burners and ring up orders like the real job. Run out of rice and the shop closes. Shout through the lunch rush solo or with up to 4 friends online."
-    },
-    {
-      "appid": "4866510",
-      "name": "Purrfect Beats",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4866510/5380388116eeb22986375e66536e2d5d1fdfc180/header.jpg?t=1794510976",
-      "genres": [
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Кот, синтвейв и всего одна кнопка, чтобы проверить твоё чувство ритма. Ну и что тут сложного?"
-    },
-    {
-      "appid": "4640230",
-      "name": "Counter Targets Clicker",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4640230/6f08b5cb1617c6526e4a5f48c2671e79e4ddab20/header.jpg?t=1794510316",
-      "genres": [
-        "Казуальные игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Небольшая инкрементальная игра о стрельбе по мишеням: всё начинается просто, а затем превращается в БЕЗУМИЕ. Стреляйте по мишеням, зарабатывайте деньги, покупайте улучшения, открывайте и настраивайте новое оружие — и всё это, чтобы зарабатывать ещё больше денег."
-    },
-    {
-      "appid": "4715000",
-      "name": "Patience Balls",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4715000/443d02d51fe721f6b9375d6163d96e04402f3580/header.jpg?t=1794506950",
-      "genres": [
-        "Экшены",
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Наклоняйте связанные доски, чтобы направлять шарики в лунки. Освойте 100 уровней в режиме «Дзен» с бортиками и режиме «Терпение» без бортиков, создавайте головоломки в Редакторе уровней и покоряйте таблицы лидеров."
     }
   ]
 }
