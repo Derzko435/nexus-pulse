@@ -1,108 +1,7 @@
 {
- "updatedAt": "2026-11-13T14:37:40+03:00",
+ "updatedAt": "2026-11-13T23:05:43+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-133701",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "GamerLegion",
-   "teamB": "CyberHero",
-   "logoA": "https://files.bo3.gg/uploads/team/22027/image/webp-ee0b8db9ff2c256d59eb11b6592e86f5.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/25398/image/webp-8560e60c7b3b107d8fa95472b1bc5ee5.webp",
-   "scoreA": 1,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "1win Essence III",
-   "tier": "A",
-   "startsAt": "2026-11-13T13:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/gamerlegion-dota2-vs-cyberhero-13-11-2026"
-  },
-  {
-   "id": "bo3-132597",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "G2",
-   "teamB": "Falcons",
-   "logoA": "https://files.bo3.gg/uploads/team/793/image/webp-8f844f6a25c797dfe74b411d147983ff.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/2713/image/webp-86fd5a0653183a19cf750d195963ea10.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "BLAST Rivals Fall 2026",
-   "tier": "S",
-   "startsAt": "2026-11-13T14:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "mariomax11",
-     "lang": "ru",
-     "official": true,
-     "label": "mariomax11"
-    },
-    {
-     "type": "twitch",
-     "channel": "blastpremier",
-     "lang": "en",
-     "official": true,
-     "label": "blastpremier"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "cs2_maincast"
-    },
-    {
-     "type": "twitch",
-     "channel": "97zoner",
-     "lang": "ru",
-     "official": false,
-     "label": "97zoner"
-    }
-   ],
-   "url": "https://bo3.gg/matches/g2-vs-falcons-esports-13-11-2026"
-  },
-  {
-   "id": "bo3-133698",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "PARIVISION",
-   "teamB": "Yellow Submarine",
-   "logoA": "https://files.bo3.gg/uploads/team/18604/image/webp-6ff7974f420e977381734ce06515692b.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16486/image/webp-db8fb0a62365deefa26db24e4fb46f10.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "1win Essence III",
-   "tier": "A",
-   "startsAt": "2026-11-13T16:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/parivision-dota2-vs-yellow-submarine-13-11-2026"
-  },
-  {
-   "id": "bo3-134074",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Team Liquid",
-   "teamB": "LGD Gaming",
-   "logoA": "https://files.bo3.gg/uploads/team/16721/image/webp-dad0330773871073290e08d7d5baa9dc.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16711/image/webp-cf9143a16e0462f173c2587341f7ff08.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "1win Essence III",
-   "tier": "A",
-   "startsAt": "2026-11-13T19:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/team-liquid-dota2-vs-lgd-gaming-dota2-13-11-2026"
-  },
   {
    "id": "bo3-133707",
    "game": "Dota 2",
@@ -114,10 +13,10 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "1win Essence III",
    "tier": "A",
-   "startsAt": "2026-11-13T22:00:00+03:00",
+   "startsAt": "2026-11-13T23:10:00+03:00",
    "streams": [],
    "url": "https://bo3.gg/dota2/matches/team-spirit-vs-froglings-13-11-2026"
   },
@@ -165,6 +64,33 @@
    "startsAt": "2026-11-14T12:00:00+03:00",
    "streams": [],
    "url": "https://bo3.gg/dota2/matches/lgd-gaming-dota2-vs-legion_stack-14-11-2026"
+  },
+  {
+   "id": "bo3-132599",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "FURIA",
+   "teamB": "Falcons",
+   "logoA": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/2713/image/webp-86fd5a0653183a19cf750d195963ea10.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "BLAST Rivals Fall 2026",
+   "tier": "S",
+   "startsAt": "2026-11-14T13:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "blastpremier",
+     "lang": "en",
+     "official": true,
+     "label": "blastpremier",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/furia-vs-falcons-esports-14-11-2026"
   },
   {
    "id": "bo3-133699",
@@ -370,6 +296,144 @@
    "url": "https://bo3.gg/matches/gamerlegion-vs-luminosity-cs-go-17-11-2026"
   },
   {
+   "id": "bo3-134074",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Team Liquid",
+   "teamB": "LGD Gaming",
+   "logoA": "https://files.bo3.gg/uploads/team/16721/image/webp-dad0330773871073290e08d7d5baa9dc.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16711/image/webp-cf9143a16e0462f173c2587341f7ff08.webp",
+   "scoreA": 1,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "1win Essence III",
+   "tier": "A",
+   "startsAt": "2026-11-13T19:10:00+03:00",
+   "streams": [
+    {
+     "type": "kick",
+     "channel": "richicaster",
+     "lang": "es",
+     "official": false,
+     "label": "richicaster"
+    },
+    {
+     "type": "kick",
+     "channel": "olagheparande",
+     "lang": "fa",
+     "official": false,
+     "label": "olagheparande"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/team-liquid-dota2-vs-lgd-gaming-dota2-13-11-2026"
+  },
+  {
+   "id": "bo3-133698",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "PARIVISION",
+   "teamB": "Yellow Submarine",
+   "logoA": "https://files.bo3.gg/uploads/team/18604/image/webp-6ff7974f420e977381734ce06515692b.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16486/image/webp-db8fb0a62365deefa26db24e4fb46f10.webp",
+   "scoreA": 2,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "finished",
+   "event": "1win Essence III",
+   "tier": "A",
+   "startsAt": "2026-11-13T16:55:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/dota2/matches/parivision-dota2-vs-yellow-submarine-13-11-2026"
+  },
+  {
+   "id": "bo3-132597",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "G2",
+   "teamB": "Falcons",
+   "logoA": "https://files.bo3.gg/uploads/team/793/image/webp-8f844f6a25c797dfe74b411d147983ff.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/2713/image/webp-86fd5a0653183a19cf750d195963ea10.webp",
+   "scoreA": 1,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "BLAST Rivals Fall 2026",
+   "tier": "S",
+   "startsAt": "2026-11-13T14:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "mariomax11",
+     "lang": "ru",
+     "official": true,
+     "label": "mariomax11"
+    },
+    {
+     "type": "twitch",
+     "channel": "blastpremier",
+     "lang": "en",
+     "official": true,
+     "label": "blastpremier"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "cs2_maincast"
+    },
+    {
+     "type": "twitch",
+     "channel": "97zoner",
+     "lang": "ru",
+     "official": false,
+     "label": "97zoner"
+    }
+   ],
+   "url": "https://bo3.gg/matches/g2-vs-falcons-esports-13-11-2026"
+  },
+  {
+   "id": "bo3-133701",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "GamerLegion",
+   "teamB": "CyberHero",
+   "logoA": "https://files.bo3.gg/uploads/team/22027/image/webp-ee0b8db9ff2c256d59eb11b6592e86f5.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/25398/image/webp-8560e60c7b3b107d8fa95472b1bc5ee5.webp",
+   "scoreA": 2,
+   "scoreB": 1,
+   "bo": 3,
+   "status": "finished",
+   "event": "1win Essence III",
+   "tier": "A",
+   "startsAt": "2026-11-13T13:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "cispapa",
+     "lang": "ru",
+     "official": true,
+     "label": "cispapa"
+    },
+    {
+     "type": "twitch",
+     "channel": "1win_dota_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "1win_dota_ru"
+    },
+    {
+     "type": "twitch",
+     "channel": "1win_dota",
+     "lang": "en",
+     "official": false,
+     "label": "1win_dota"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/gamerlegion-dota2-vs-cyberhero-13-11-2026"
+  },
+  {
    "id": "bo3-132596",
    "game": "CS2",
    "gameKey": "cs2",
@@ -477,24 +541,6 @@
    "startsAt": "2026-11-12T19:35:00+03:00",
    "streams": [],
    "url": "https://bo3.gg/dota2/matches/parivision-dota2-vs-do-konca-12-11-2026"
-  },
-  {
-   "id": "bo3-133700",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Aurora Gaming",
-   "teamB": "GamerLegion",
-   "logoA": "https://files.bo3.gg/uploads/team/15143/image/webp-235f54dc6e1d478c8536240a49197cc4.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/22027/image/webp-ee0b8db9ff2c256d59eb11b6592e86f5.webp",
-   "scoreA": 2,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "finished",
-   "event": "1win Essence III",
-   "tier": "A",
-   "startsAt": "2026-11-12T16:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/aurora-vs-gamerlegion-dota2-12-11-2026"
   },
   {
    "id": "bo3-132595",
@@ -662,119 +708,6 @@
     }
    ],
    "url": "https://bo3.gg/matches/furia-vs-vitality-12-11-2026"
-  },
-  {
-   "id": "bo3-132590",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Legacy",
-   "teamB": "Falcons",
-   "logoA": "https://files.bo3.gg/uploads/team/8118/image/webp-e4a3b023443f1f3ba4ef588164e73111.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/2713/image/webp-86fd5a0653183a19cf750d195963ea10.webp",
-   "scoreA": 0,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "BLAST Rivals Fall 2026",
-   "tier": "S",
-   "startsAt": "2026-11-12T05:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "blastpremier",
-     "lang": "en",
-     "official": true,
-     "label": "blastpremier"
-    },
-    {
-     "type": "kick",
-     "channel": "blastpremier",
-     "lang": "en",
-     "official": true,
-     "label": "blastpremier"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "cs2_maincast"
-    },
-    {
-     "type": "twitch",
-     "channel": "betboom_cs_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "betboom_cs_ru"
-    }
-   ],
-   "url": "https://bo3.gg/matches/legacy-br-vs-falcons-esports-12-11-2026"
-  },
-  {
-   "id": "bo3-133626",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "PlayTime",
-   "teamB": "Yellow Submarine",
-   "logoA": "https://files.bo3.gg/uploads/team/22354/image/webp-f5f3c4896d1f5df9573053ef85802a38.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16486/image/webp-db8fb0a62365deefa26db24e4fb46f10.webp",
-   "scoreA": 0,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "1win Essence III: Play-In",
-   "tier": "A",
-   "startsAt": "2026-11-11T23:10:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "1win_dota_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "1win_dota_ru"
-    },
-    {
-     "type": "twitch",
-     "channel": "1win_dota",
-     "lang": "en",
-     "official": false,
-     "label": "1win_dota"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/playtime-vs-yellow-submarine-11-11-2026"
-  },
-  {
-   "id": "bo3-133642",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Power Rangers",
-   "teamB": "angry birds",
-   "logoA": "https://files.bo3.gg/uploads/team/16653/image/webp-7a3038132e882126990e4bb43ef0f5d2.webp",
-   "logoB": "",
-   "scoreA": 2,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "finished",
-   "event": "1win Essence III: Play-In",
-   "tier": "A",
-   "startsAt": "2026-11-11T20:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "1win_dota_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "1win_dota_ru"
-    },
-    {
-     "type": "twitch",
-     "channel": "1win_dota",
-     "lang": "en",
-     "official": false,
-     "label": "1win_dota"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/power-rangers-dota2-vs-angry-birds-11-11-2026"
   },
   {
    "id": "bo3-132700",
