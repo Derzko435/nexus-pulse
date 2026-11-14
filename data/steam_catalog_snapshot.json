@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T02:42:27+03:00",
+  "updatedAt": "2026-11-14T09:44:21+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -452,21 +452,23 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "597170",
-      "name": "Clone Drone in the Danger Zone",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/597170/header.jpg?t=1784069375",
+      "appid": "773370",
+      "name": "Exo One",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/773370/header.jpg?t=1786705563",
       "genres": [
-        "Экшены",
-        "Инди"
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
+        "mac": false,
         "linux": false
       },
-      "metacritic": 82,
-      "short_description": "В Clone Drone in the Danger Zone вас ждут сражения на мечах, которыми можно отрубить любую часть тела. Ваш разум был загружен в робота-гладиатора. Чтобы выжить — проходите коварные испытания на арене."
+      "metacritic": null,
+      "short_description": "Странный сигнал… внеземной аппарат… межпланетное, неподвластное гравитации, путешествие сквозь пространство и время."
     },
     {
       "appid": "394360",
@@ -486,10 +488,13 @@
       "short_description": "Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation in World War II; the most engaging conflict in world history."
     },
     {
-      "appid": "4535710",
-      "name": "Data Center Simulator",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4535710/fd4cd55e29d6c1116e54b08a0e1dbbb95276434d/header.jpg?t=1794578459",
+      "appid": "1504100",
+      "name": "Playground VR",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1504100/3afcc640a7766307ed9ccceb63cb8b19ef1c308f/header.jpg?t=1794602041",
       "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Казуальные игры",
         "Инди",
         "Симуляторы"
       ],
@@ -500,7 +505,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Night shift at a data center, first person. Tickets come in from the NOC: run the diagnostic, strap in, pull the right part, swap it, close it by the book, and get graded. 45 real procedures, a sandbox where you can break the facility, and interview prep for data center tech jobs."
+      "short_description": "Полететь на воздушном шаре? Запрыгивай! Предпочитаешь пушку? Залезай! Гоняй на Sunset Circuit, собирай вездеход или пробирайся по крышам в этой VR-песочнице с открытым миром и физикой. Дороги тоже есть, если тебе так хочется."
     },
     {
       "appid": "3527290",
@@ -521,11 +526,29 @@
       "short_description": "PEAK — это совместная игра о восхождении, где малейшая ошибка может привести к гибели. Играйте в одиночку или вместе с группой отчаянных бойскаутов. Сбегите с таинственного острова, для чего вам потребуется забраться на гору в его центре. Хватит ли вам сил, чтобы достичь ПИКА?"
     },
     {
-      "appid": "5118570",
-      "name": "MOGA TD",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5118570/31ef5ea368d4a45d37ce737482dc74a3fa3c1975/header.jpg?t=1794577566",
+      "appid": "3763040",
+      "name": "Mellings",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3763040/c27a089d1db6e5a8ef6a151887cbade164eb9f66/header.jpg?t=1794604082",
       "genres": [
-        "Инди",
+        "Экшены",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Mellings are striking back! Control an excavator and grab resources to bring them back to the burrow, defend yourself with various cannons while harvesting, and destroy huge buildings and bosses!"
+    },
+    {
+      "appid": "5441160",
+      "name": "Squirrel Defender VR",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5441160/487812659b28ead844e534db7cbe6e23372a1b27/header.jpg?t=1794594617",
+      "genres": [
+        "Казуальные игры",
         "Стратегии"
       ],
       "is_free": false,
@@ -535,16 +558,17 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Friendships are forged by beating something hard together. MOGA TD is a co-op tower defense for four: one shared board, one pool of lives, four races that cannot win alone — against four element armies, their kings and the Orc Warlord. Nobody holds the Gate alone."
+      "short_description": "You are the last squirrel standing. Perched on your treetop platform, draw your repeating crossbow and hold off wave after wave of wolves, bees and groundhogs. Build auto-turrets, chain power-ups, defend the tree."
     },
     {
-      "appid": "5256610",
-      "name": "Business Tycoon",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5256610/9d511a6b3c4966b386acb291bc9a7805ceab94a7/header.jpg?t=1794586105",
+      "appid": "5189780",
+      "name": "Aspect Arena",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5189780/b24ae7a4927dc21fa152cdea613c8b969b868ff3/header.jpg?t=1794606500",
       "genres": [
-        "Казуальные игры",
+        "Экшены",
         "Инди",
-        "Симуляторы"
+        "Симуляторы",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
@@ -553,7 +577,24 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Постройте бизнес-империю в США! Создавайте компании, открывайте и улучшайте активы. Расширяйтесь в разных индустриях, захватывайте рынки, контролируйте всё большую долю экономики и сделайте себе состояние в триллионы долларов."
+      "short_description": "A siege auto-battler. Buy fighters, arm them, order the line, then watch sixty seconds decide it without you. Fifteen wins takes a campaign, one castle carries every wound it took getting there, and the rival Aspect opposite is building too."
+    },
+    {
+      "appid": "5465790",
+      "name": "Gold Idle",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5465790/8fc5ffa80035af1a45b415753d122073f3633512/header.jpg?t=1794611535",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Start with a single coin. Flip, upgrade, and automate your way to a fortune in an incremental game where flips determine power."
     },
     {
       "appid": "2584270",
@@ -573,83 +614,13 @@
       "short_description": "Их плоть — ваше оружие. Mortal Shell II — полноценное продолжение первой части. Это ролевой боевик с жестокими и напряженными сражениями. Вселяйтесь в тела выдающихся воинов, свергайте лжебогов и верните к жизни опустошенный мир."
     },
     {
-      "appid": "3454650",
-      "name": "BitCraft Online",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3454650/c81158850eb9aaee1686694333f9040392fd22ec/header.jpg?t=1794593033",
-      "genres": [
-        "Инди",
-        "Многопользовательские игры",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Присоединяйся к тысячам игроков в настоящей MMORPG-песочнице и меняй живой мир. Осваивай профессии в своём темпе, открывай ездовых животных и лодки, превращай поселение в уютную усадьбу или процветающий мегаполис. Гринди в одиночку, строй с друзьями или играй в пассивном режиме."
-    },
-    {
-      "appid": "2718320",
-      "name": "Green Again",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2718320/5c415646bc6ddc227a9035a298f12c728266a974/header.jpg?t=1794584422",
-      "genres": [
-        "Казуальные игры",
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Make the planet Green Again in this relaxing colony sim game! Help a nation of little plant people reclaim their planet taken over by defective robots, as you build, decorate, and defend your settlement. Grow crops for your citizens, explore the unknown, and protect the new natural order!"
-    },
-    {
-      "appid": "4529690",
-      "name": "Cowgirl Milk Cafe",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4529690/4e3fed1be6171574ef34cc16ec7a2461178d170a/header.jpg?t=1794582165",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Вы приехали в город продавать ягоды, а стали управляющим кафе с очаровательными девушками-коровками! Готовьте вкусные коктейли, спасайте заведение от разорения и сближайтесь со своими сотрудницами — и их привлекательной начальницей. Кто бы мог подумать, что смена работы так изменит вашу жизнь?"
-    },
-    {
-      "appid": "2418490",
-      "name": "Trakonius",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2418490/e51d7dc0c142754a08b4f05bb87acfae76ccbbd1/header.jpg?t=1794587741",
+      "appid": "2406770",
+      "name": "Bodycam",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/b533bca55927692f0cf812ebb91c6e6e8f5cb4a6/header_alt_assets_4.jpg?t=1794590337",
       "genres": [
         "Экшены",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "In the merciless sands of the arena, a gladiator is forced to fight for survival. Trakonius defies Mars, the God of War, in this Action Roguelike experience! Face gladiators, mythological creatures, and deadly challenges across four brutal arenas. The truth can only be revealed through combat!"
-    },
-    {
-      "appid": "2487190",
-      "name": "Main Sequence",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2487190/9f75d23dd877267e001e58afe082b7b3eaf53caa/header_alt_assets_1.jpg?t=1794507021",
-      "genres": [
         "Инди",
+        "Многопользовательские игры",
         "Симуляторы",
         "Стратегии",
         "Ранний доступ"
@@ -661,14 +632,16 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Main Sequence — это симулятор космической фабрики, где вы проектируете корабли, строите станции и автоматизируете все, что только можно. Начав с одного корабля, со временем вы построите свою межзвездную промышленную империю и оставите след в истории галактики."
+      "short_description": "Bodycam — это первый тактический многопользовательский шутер от первого лица с настоящим обзором с нательной камеры на движке Unreal Engine 5. Ближние бои кажутся резкими и громкими. Каждый ракурс, выноска и пуля имеют значение. Играйте в Deathmatch, Team Deathmatch и Wingman на фотореалистичных."
     },
     {
-      "appid": "4045480",
-      "name": "Drawquarium",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045480/84e76865a2649679dfb1687354ba0e5a05f44b0b/header.jpg?t=1794578546",
+      "appid": "5296680",
+      "name": "House of Pips: домино-рогалик",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5296680/7318fb14d5fc54d9d301579866092629d870ecce/header_russian.jpg?t=1794612492",
       "genres": [
-        "Симуляторы"
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
@@ -677,7 +650,41 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Нарисуй собственных рыбок и создай уютный аквариум, который можно поставить на рабочий стол как анимированные обои! Наблюдай, как рисунки оживают, корми рыбок, заботься о них и собирай золотые чешуйки, чтобы открывать украшения. Есть и полезные инструменты для работы и отдыха."
+      "short_description": "Пошаговый домино-рогалик, где вы выбираете необычные бонусы, комбинируете их эффекты и формируете свой стиль игры с помощью дерева навыков. Читайте игровое поле и адаптируйтесь к каждой раздаче, чтобы перехитрить противников в одиночной игре или в онлайн-мультиплеере."
+    },
+    {
+      "appid": "4614660",
+      "name": "Gooning for Gold",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4614660/90837bbe4faa75f7665130ef2c01a85be4cc2e31/header.jpg?t=1794607205",
+      "genres": [
+        "Казуальные игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Your squat squad of 4 top tier ASSthletes are doing their best to achieve new personal records in all categories. Your role, as a hired hand, is to give these perfect figured beauties the competitive advantage they need. "
+    },
+    {
+      "appid": "4959060",
+      "name": "Legacy Miner",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4959060/f977bf4c4e93e967c028313f5f53b17f57d7a30b/header.jpg?t=1794597524",
+      "genres": [
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "A 2D mining game about digging your way off a dead planet. Drill deep for rare ores, dodge lava and gas pockets, upgrade your rig, then pool your haul with friends to smelt bars, craft parts, and build the rocket that gets your crew home. Solo or 1–16 players."
     }
   ]
 }
