@@ -1,25 +1,7 @@
 {
- "updatedAt": "2026-11-13T23:05:43+03:00",
+ "updatedAt": "2026-11-14T04:51:56+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-133707",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Team Spirit",
-   "teamB": "Froglings",
-   "logoA": "https://files.bo3.gg/uploads/team/16704/image/webp-d50909a064a4533a3b594ed059eebc42.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/25665/image/webp-1e0c10ab6e99636475306cdaab3be0df.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "1win Essence III",
-   "tier": "A",
-   "startsAt": "2026-11-13T23:10:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/team-spirit-vs-froglings-13-11-2026"
-  },
   {
    "id": "bo3-132598",
    "game": "CS2",
@@ -296,6 +278,32 @@
    "url": "https://bo3.gg/matches/gamerlegion-vs-luminosity-cs-go-17-11-2026"
   },
   {
+   "id": "bo3-133707",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Team Spirit",
+   "teamB": "Froglings",
+   "logoA": "https://files.bo3.gg/uploads/team/16704/image/webp-d50909a064a4533a3b594ed059eebc42.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/25665/image/webp-1e0c10ab6e99636475306cdaab3be0df.webp",
+   "scoreA": 0,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "1win Essence III",
+   "tier": "A",
+   "startsAt": "2026-11-13T23:10:00+03:00",
+   "streams": [
+    {
+     "type": "kick",
+     "channel": "madaradota2",
+     "lang": "es",
+     "official": false,
+     "label": "madaradota2"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/team-spirit-vs-froglings-13-11-2026"
+  },
+  {
    "id": "bo3-134074",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -523,24 +531,6 @@
    "startsAt": "2026-11-12T22:00:00+03:00",
    "streams": [],
    "url": "https://bo3.gg/dota2/matches/team-spirit-vs-1win-dota2-12-11-2026"
-  },
-  {
-   "id": "bo3-133697",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "PARIVISION",
-   "teamB": "DO KONCA",
-   "logoA": "https://files.bo3.gg/uploads/team/18604/image/webp-6ff7974f420e977381734ce06515692b.webp",
-   "logoB": "",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "1win Essence III",
-   "tier": "A",
-   "startsAt": "2026-11-12T19:35:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/parivision-dota2-vs-do-konca-12-11-2026"
   },
   {
    "id": "bo3-132595",
