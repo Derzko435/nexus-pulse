@@ -1,16 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-11-15T00:26:13+03:00",
+ "updatedAt": "2026-11-15T01:47:16+03:00",
  "posted": {
   "news": [
-   "391d6392b2eb",
-   "2e9bf8e70311",
-   "7fcec38115d7",
-   "99d93e820bd1",
-   "722dea96fdf7",
-   "9345bb88b60e",
-   "c9b450ed1485",
-   "2e04842aa95d",
    "1927b0102063",
    "60a59734ffe3",
    "2101f7cacec8",
@@ -502,7 +494,15 @@
    "cd3510393d5c",
    "dfcb1bb961d2",
    "5bba90f6c3d6",
-   "a3b7a38ab748"
+   "a3b7a38ab748",
+   "a844e14a79f6",
+   "8751c81c8c68",
+   "2c1cce8b9ce5",
+   "0fca75015dfe",
+   "c5d93dfd9064",
+   "1118ae4d819e",
+   "653d576b67e0",
+   "b2387e9a7613"
   ],
   "deals": [
    "steam-246420:90",
@@ -647,8 +647,6 @@
    "epic-9975548b6d404a94b8a9bdb34cad49e9:now"
   ],
   "esports": [
-   "result:bo3-129612",
-   "result:bo3-129957",
    "result:bo3-128581",
    "result:bo3-130761",
    "result:bo3-130695",
@@ -1146,7 +1144,9 @@
    "live:bo3-133703",
    "live:bo3-132599",
    "result:bo3-132599",
-   "digest:2026-11-15"
+   "digest:2026-11-15",
+   "live:bo3-130833",
+   "live:bo3-133706"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -1202,10 +1202,6 @@
    "apex:2026-11-12"
   ],
   "videos": [
-   "-SAL0vyCF44",
-   "_u0F7qH7SLc",
-   "9CN5rou_zjY",
-   "NPZCxTl7Y0s",
    "BtfXgIuUVf0",
    "JCjK1mVQQ_8",
    "HUTqtvHA5ms",
@@ -1701,7 +1697,11 @@
    "tUzuII3Htug",
    "bxVx8AAkOno",
    "LFBNujtKgRg",
-   "A9fifS608C8"
+   "A9fifS608C8",
+   "7HGDnLygvIc",
+   "p2W24uruYTs",
+   "8G204kxlKyk",
+   "Pql9mu-1Nms"
   ],
   "releases": [
    "week:2026-W39",
@@ -1808,7 +1808,8 @@
  },
  "matchPings": [
   "2026-11-13T14:12+03:00",
-  "2026-11-14T13:38+03:00"
+  "2026-11-14T13:38+03:00",
+  "2026-11-15T01:47+03:00"
  ],
  "weekly": {
   "gamenight": {
