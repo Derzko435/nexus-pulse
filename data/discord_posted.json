@@ -1,6 +1,6 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-11-14T23:48:43+03:00",
+ "updatedAt": "2026-11-15T00:26:13+03:00",
  "posted": {
   "news": [
    "391d6392b2eb",
@@ -647,7 +647,6 @@
    "epic-9975548b6d404a94b8a9bdb34cad49e9:now"
   ],
   "esports": [
-   "result:bo3-130755",
    "result:bo3-129612",
    "result:bo3-129957",
    "result:bo3-128581",
@@ -1146,7 +1145,8 @@
    "result:bo3-132598",
    "live:bo3-133703",
    "live:bo3-132599",
-   "result:bo3-132599"
+   "result:bo3-132599",
+   "digest:2026-11-15"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -1807,7 +1807,6 @@
   ]
  },
  "matchPings": [
-  "2026-11-12T14:29+03:00",
   "2026-11-13T14:12+03:00",
   "2026-11-14T13:38+03:00"
  ],
@@ -1831,7 +1830,6 @@
   }
  },
  "dealPosts": [
-  "2026-11-12T21:26+03:00",
   "2026-11-13T00:50+03:00",
   "2026-11-13T19:34+03:00",
   "2026-11-14T02:42+03:00",
