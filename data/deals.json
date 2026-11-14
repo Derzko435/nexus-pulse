@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-11-14T18:12:27+03:00",
+  "updatedAt": "2026-11-14T23:48:19+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
-      "id": "steam-773370",
-      "title": "Exo One",
+      "id": "steam-238370",
+      "title": "Magicka 2",
       "store": "Steam",
-      "old": 620,
-      "neu": 93,
-      "pct": 85,
-      "url": "https://store.steampowered.com/app/773370/",
-      "steamAppId": "773370"
+      "old": 829,
+      "neu": 165,
+      "pct": 80,
+      "url": "https://store.steampowered.com/app/238370/",
+      "steamAppId": "238370"
     },
     {
       "id": "steam-227300",
@@ -33,16 +33,6 @@
       "steamAppId": "394360"
     },
     {
-      "id": "steam-5418940",
-      "title": "Morphic Wallpaper",
-      "store": "Steam",
-      "old": 64,
-      "neu": 38,
-      "pct": 41,
-      "url": "https://store.steampowered.com/app/5418940/",
-      "steamAppId": "5418940"
-    },
-    {
       "id": "steam-5356830",
       "title": "GRAND TIDDY ADVENTURES 🚨",
       "store": "Steam",
@@ -51,6 +41,16 @@
       "pct": 40,
       "url": "https://store.steampowered.com/app/5356830/",
       "steamAppId": "5356830"
+    },
+    {
+      "id": "steam-5421010",
+      "title": "피지컬 윷놀이",
+      "store": "Steam",
+      "old": 195,
+      "neu": 117,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5421010/",
+      "steamAppId": "5421010"
     },
     {
       "id": "steam-3527290",
@@ -63,36 +63,6 @@
       "steamAppId": "3527290"
     },
     {
-      "id": "steam-5405940",
-      "title": "Rosaline: The Dragon Girl",
-      "store": "Steam",
-      "old": 245,
-      "neu": 171,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/5405940/",
-      "steamAppId": "5405940"
-    },
-    {
-      "id": "steam-4484970",
-      "title": "Wallpaper Animator",
-      "store": "Steam",
-      "old": 240,
-      "neu": 168,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/4484970/",
-      "steamAppId": "4484970"
-    },
-    {
-      "id": "steam-4951770",
-      "title": "Door Code",
-      "store": "Steam",
-      "old": 195,
-      "neu": 136,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/4951770/",
-      "steamAppId": "4951770"
-    },
-    {
       "id": "steam-2584270",
       "title": "Mortal Shell II",
       "store": "Steam",
@@ -103,14 +73,14 @@
       "steamAppId": "2584270"
     },
     {
-      "id": "steam-4945780",
-      "title": "Squadron 404",
+      "id": "steam-5443350",
+      "title": "Chisel Me This",
       "store": "Steam",
       "old": 360,
       "neu": 270,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/4945780/",
-      "steamAppId": "4945780"
+      "url": "https://store.steampowered.com/app/5443350/",
+      "steamAppId": "5443350"
     },
     {
       "id": "steam-2406770",
@@ -123,14 +93,24 @@
       "steamAppId": "2406770"
     },
     {
-      "id": "steam-5045780",
-      "title": "Suspicious Minds: interrogation simulator",
+      "id": "steam-2392710",
+      "title": "Tactics: Setting Sun",
       "store": "Steam",
-      "old": 465,
-      "neu": 372,
+      "old": 1150,
+      "neu": 920,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/5045780/",
-      "steamAppId": "5045780"
+      "url": "https://store.steampowered.com/app/2392710/",
+      "steamAppId": "2392710"
+    },
+    {
+      "id": "steam-3552240",
+      "title": "LEGRADA",
+      "store": "Steam",
+      "old": 245,
+      "neu": 196,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/3552240/",
+      "steamAppId": "3552240"
     },
     {
       "id": "steam-5160550",
@@ -141,6 +121,26 @@
       "pct": 20,
       "url": "https://store.steampowered.com/app/5160550/",
       "steamAppId": "5160550"
+    },
+    {
+      "id": "steam-4627220",
+      "title": "Untold Memories: Grandma's House",
+      "store": "Steam",
+      "old": 195,
+      "neu": 156,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/4627220/",
+      "steamAppId": "4627220"
+    },
+    {
+      "id": "steam-5247920",
+      "title": "Forgotten Horizons",
+      "store": "Steam",
+      "old": 159,
+      "neu": 127,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/5247920/",
+      "steamAppId": "5247920"
     }
   ]
 }
