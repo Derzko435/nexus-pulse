@@ -1,34 +1,7 @@
 {
- "updatedAt": "2026-11-14T04:51:56+03:00",
+ "updatedAt": "2026-11-14T13:33:07+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-132598",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Spirit",
-   "teamB": "MOUZ",
-   "logoA": "https://files.bo3.gg/uploads/team/654/image/webp-41b22d18a871d982f8ff87652bbb0fe6.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "BLAST Rivals Fall 2026",
-   "tier": "S",
-   "startsAt": "2026-11-14T11:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "blastpremier",
-     "lang": "en",
-     "official": true,
-     "label": "blastpremier",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/spirit-vs-mouz-cs2-14-11-2026"
-  },
   {
    "id": "bo3-133703",
    "game": "Dota 2",
@@ -40,7 +13,7 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "1win Essence III",
    "tier": "A",
    "startsAt": "2026-11-14T12:00:00+03:00",
@@ -58,18 +31,38 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "BLAST Rivals Fall 2026",
    "tier": "S",
    "startsAt": "2026-11-14T13:30:00+03:00",
    "streams": [
     {
      "type": "twitch",
-     "channel": "blastpremier",
-     "lang": "en",
+     "channel": "mariomax11",
+     "lang": "ru",
      "official": true,
-     "label": "blastpremier",
-     "fallback": true
+     "label": "mariomax11"
+    },
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "cs2_maincast"
+    },
+    {
+     "type": "twitch",
+     "channel": "krl_stream",
+     "lang": "fr",
+     "official": true,
+     "label": "krl_stream"
+    },
+    {
+     "type": "twitch",
+     "channel": "mager1337",
+     "lang": "ru",
+     "official": false,
+     "label": "mager1337"
     }
    ],
    "url": "https://bo3.gg/matches/furia-vs-falcons-esports-14-11-2026"
@@ -276,6 +269,53 @@
     }
    ],
    "url": "https://bo3.gg/matches/gamerlegion-vs-luminosity-cs-go-17-11-2026"
+  },
+  {
+   "id": "bo3-132598",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Spirit",
+   "teamB": "MOUZ",
+   "logoA": "https://files.bo3.gg/uploads/team/654/image/webp-41b22d18a871d982f8ff87652bbb0fe6.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png",
+   "scoreA": 2,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "finished",
+   "event": "BLAST Rivals Fall 2026",
+   "tier": "S",
+   "startsAt": "2026-11-14T11:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "cs2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "cs2_maincast"
+    },
+    {
+     "type": "twitch",
+     "channel": "krl_stream",
+     "lang": "fr",
+     "official": true,
+     "label": "krl_stream"
+    },
+    {
+     "type": "twitch",
+     "channel": "lamm1k",
+     "lang": "ru",
+     "official": false,
+     "label": "lamm1k"
+    },
+    {
+     "type": "youtube",
+     "id": "uuqPGz1xDro",
+     "lang": "en",
+     "official": false,
+     "label": "BLAST Rivals Hong Kong 2026, Semi-Finals - Spirit vs MOUZ, FURIA vs Falcons"
+    }
+   ],
+   "url": "https://bo3.gg/matches/spirit-vs-mouz-cs2-14-11-2026"
   },
   {
    "id": "bo3-133707",
@@ -653,53 +693,6 @@
    "url": "https://bo3.gg/lol/matches/nothinhere-vs-saigon-warriors-12-11-2026"
   },
   {
-   "id": "bo3-132591",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "FURIA",
-   "teamB": "Vitality",
-   "logoA": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/667/image/webp-292c1f6c6dcfca35c7a52da7e02cef0a.webp",
-   "scoreA": 2,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "finished",
-   "event": "BLAST Rivals Fall 2026",
-   "tier": "S",
-   "startsAt": "2026-11-12T07:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "blastpremier",
-     "lang": "en",
-     "official": true,
-     "label": "blastpremier"
-    },
-    {
-     "type": "kick",
-     "channel": "blastpremier",
-     "lang": "en",
-     "official": true,
-     "label": "blastpremier"
-    },
-    {
-     "type": "twitch",
-     "channel": "cs2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "cs2_maincast"
-    },
-    {
-     "type": "twitch",
-     "channel": "betboom_cs_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "betboom_cs_ru"
-    }
-   ],
-   "url": "https://bo3.gg/matches/furia-vs-vitality-12-11-2026"
-  },
-  {
    "id": "bo3-132700",
    "game": "LoL",
    "gameKey": "lol",
@@ -745,58 +738,6 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/ground-zero-gaming-vs-frank-esports-11-11-2026"
-  },
-  {
-   "id": "bo3-132699",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Saigon Warriors",
-   "teamB": "Gromp Esports",
-   "logoA": "https://files.bo3.gg/uploads/team/22895/image/webp-3eb9d9c59ba43176bbcc9388ca57c8c7.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/25190/image/webp-206f877dcef3510f015c3e0f9502e8a9.webp",
-   "scoreA": 3,
-   "scoreB": 0,
-   "bo": 5,
-   "status": "finished",
-   "event": "LCP 2027 Promotion",
-   "tier": "A",
-   "startsAt": "2026-11-10T11:00:00+03:00",
-   "streams": [
-    {
-     "type": "youtube",
-     "id": "3TR1ARK2OB4",
-     "lang": "en",
-     "official": false,
-     "label": "[EN] FL vs NTH - SGW vs TGM | LCP 2026 Promotion Series FFA Day 1"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/saigon-warriors-vs-gromp-esports-10-11-2026"
-  },
-  {
-   "id": "bo3-132698",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "FENNEL",
-   "teamB": "Nothin'Here",
-   "logoA": "https://files.bo3.gg/uploads/team/16841/image/webp-e3fade7ce22aed40d7e7f43bd993525c.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/25433/image/webp-ab393f1025ef522f78f231581fd631de.webp",
-   "scoreA": 0,
-   "scoreB": 3,
-   "bo": 5,
-   "status": "finished",
-   "event": "LCP 2027 Promotion",
-   "tier": "A",
-   "startsAt": "2026-11-10T08:10:00+03:00",
-   "streams": [
-    {
-     "type": "youtube",
-     "id": "3TR1ARK2OB4",
-     "lang": "en",
-     "official": false,
-     "label": "[EN] FL vs NTH - SGW vs TGM | LCP 2026 Promotion Series FFA Day 1"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/fennel-lol-vs-nothinhere-10-11-2026"
   }
  ],
  "tournaments": [
