@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-14T13:33:07+03:00",
+ "updatedAt": "2026-11-14T13:58:58+03:00",
  "source": "bo3.gg",
  "matches": [
   {
@@ -10,14 +10,29 @@
    "teamB": "LEGION",
    "logoA": "https://files.bo3.gg/uploads/team/16711/image/webp-cf9143a16e0462f173c2587341f7ff08.webp",
    "logoB": "https://files.bo3.gg/uploads/team/25401/image/webp-12311d6aa24e815ad6b9c3e66cc662d2.webp",
-   "scoreA": 0,
+   "scoreA": 1,
    "scoreB": 0,
    "bo": 3,
    "status": "live",
    "event": "1win Essence III",
    "tier": "A",
    "startsAt": "2026-11-14T12:00:00+03:00",
-   "streams": [],
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "1win_dota_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "1win_dota_ru"
+    },
+    {
+     "type": "twitch",
+     "channel": "1win_dota",
+     "lang": "en",
+     "official": false,
+     "label": "1win_dota"
+    }
+   ],
    "url": "https://bo3.gg/dota2/matches/lgd-gaming-dota2-vs-legion_stack-14-11-2026"
   },
   {
@@ -34,7 +49,7 @@
    "status": "live",
    "event": "BLAST Rivals Fall 2026",
    "tier": "S",
-   "startsAt": "2026-11-14T13:30:00+03:00",
+   "startsAt": "2026-11-14T13:45:00+03:00",
    "streams": [
     {
      "type": "twitch",
