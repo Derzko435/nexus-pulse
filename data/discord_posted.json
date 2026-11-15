@@ -1,22 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-11-15T14:09:54+03:00",
+ "updatedAt": "2026-11-16T00:44:33+03:00",
  "posted": {
   "news": [
-   "2334714eb657",
-   "75eb0dc854b8",
-   "14beb2ea9264",
-   "d26d0c01d27d",
-   "3f10bf83a761",
-   "f190c20b699b",
-   "9e7e64b91c7c",
-   "3a0743bc7517",
-   "458a705417ff",
-   "f44c1a26058f",
-   "8dd3878d7b7b",
-   "7de87890bd28",
-   "8692b34a70b5",
-   "996e696648dd",
    "ad6cf4966733",
    "064f7841f0ef",
    "3ee6212cfe45",
@@ -502,7 +488,21 @@
    "915e1ec598e4",
    "e00647326d6d",
    "fa5954ae0dad",
-   "7019a22c8f17"
+   "7019a22c8f17",
+   "8a8a6b6b2040",
+   "600793c4ee70",
+   "e355e7b06c72",
+   "5b68aaf4d2ec",
+   "19f654e0d9c1",
+   "70f8c0e89fa0",
+   "c85c3d2f176c",
+   "132edcd4b5be",
+   "bfe466cea0d4",
+   "d23e23704bd4",
+   "7c3c6e32b570",
+   "60da4acc8caf",
+   "e9829842d024",
+   "18fb28724393"
   ],
   "deals": [
    "steam-246420:90",
@@ -647,7 +647,6 @@
    "epic-9975548b6d404a94b8a9bdb34cad49e9:now"
   ],
   "esports": [
-   "result:bo3-130759",
    "live:bo3-128591",
    "result:bo3-130692",
    "result:bo3-130693",
@@ -1146,7 +1145,8 @@
    "live:bo3-133706",
    "result:bo3-130833",
    "live:bo3-132600",
-   "live:bo3-133709"
+   "live:bo3-133709",
+   "result:bo3-132600"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -1202,15 +1202,6 @@
    "apex:2026-11-12"
   ],
   "videos": [
-   "zzqGbNaOROA",
-   "2basSWv9xuw",
-   "bExkalnhGcs",
-   "RLm-uI9t0I8",
-   "mJxRh7R6NuU",
-   "UGfib158nGY",
-   "xHMraA-55xA",
-   "FUhTmvDS15I",
-   "NRkw2TD4_a4",
    "dD-q2HtyO2o",
    "ZE3IKtYRa9Y",
    "hJfFFqDOtnU",
@@ -1701,7 +1692,16 @@
    "fFlOTEiQ9x0",
    "c5ZgeZ0QdDI",
    "DPAay3UOWsc",
-   "Ce62N8N1cxw"
+   "Ce62N8N1cxw",
+   "2xDoiIRqGrI",
+   "yAt6ymyo8Hc",
+   "YrTJe3Z-E3g",
+   "-DS-y7Ou4ro",
+   "F0zpRdXdFjY",
+   "NeWJYJzSDRU",
+   "mx9lQK3RhxM",
+   "Hz9lmh9NBp0",
+   "QG5jR-lKKCU"
   ],
   "releases": [
    "week:2026-W39",
@@ -1800,14 +1800,15 @@
    "day:2026-11-12:4082030",
    "day:2026-11-12:x-harold-halibut",
    "day:2026-11-12:x-pikmin-4-nintendo-switch-2-dandori-academy",
-   "day:2026-11-12:4304060"
+   "day:2026-11-12:4304060",
+   "week:2026-W47",
+   "day:2026-11-16:4171850"
   ],
   "gotd": [
    "gotd:2026-09-24"
   ]
  },
  "matchPings": [
-  "2026-11-13T14:12+03:00",
   "2026-11-14T13:38+03:00",
   "2026-11-15T01:47+03:00",
   "2026-11-15T14:09+03:00"
@@ -1832,8 +1833,6 @@
   }
  },
  "dealPosts": [
-  "2026-11-13T00:50+03:00",
-  "2026-11-13T19:34+03:00",
   "2026-11-14T02:42+03:00",
   "2026-11-14T23:48+03:00"
  ]
