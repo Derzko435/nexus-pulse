@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T23:48:19+03:00",
+  "updatedAt": "2026-11-15T05:00:02+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -23,6 +23,16 @@
       "steamAppId": "227300"
     },
     {
+      "id": "steam-2138710",
+      "title": "Sifu",
+      "store": "Steam",
+      "old": 1199,
+      "neu": 299,
+      "pct": 75,
+      "url": "https://store.steampowered.com/app/2138710/",
+      "steamAppId": "2138710"
+    },
+    {
       "id": "steam-394360",
       "title": "Hearts of Iron IV",
       "store": "Steam",
@@ -33,14 +43,24 @@
       "steamAppId": "394360"
     },
     {
-      "id": "steam-5356830",
-      "title": "GRAND TIDDY ADVENTURES 🚨",
+      "id": "steam-5122610",
+      "title": "Lust Isles",
       "store": "Steam",
-      "old": 556,
-      "neu": 333,
+      "old": 625,
+      "neu": 375,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5356830/",
-      "steamAppId": "5356830"
+      "url": "https://store.steampowered.com/app/5122610/",
+      "steamAppId": "5122610"
+    },
+    {
+      "id": "steam-5339970",
+      "title": "Любовники первого отжима",
+      "store": "Steam",
+      "old": 335,
+      "neu": 201,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5339970/",
+      "steamAppId": "5339970"
     },
     {
       "id": "steam-5421010",
@@ -103,26 +123,6 @@
       "steamAppId": "2392710"
     },
     {
-      "id": "steam-3552240",
-      "title": "LEGRADA",
-      "store": "Steam",
-      "old": 245,
-      "neu": 196,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/3552240/",
-      "steamAppId": "3552240"
-    },
-    {
-      "id": "steam-5160550",
-      "title": "Astral Phase",
-      "store": "Steam",
-      "old": 245,
-      "neu": 196,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5160550/",
-      "steamAppId": "5160550"
-    },
-    {
       "id": "steam-4627220",
       "title": "Untold Memories: Grandma's House",
       "store": "Steam",
@@ -133,14 +133,14 @@
       "steamAppId": "4627220"
     },
     {
-      "id": "steam-5247920",
-      "title": "Forgotten Horizons",
+      "id": "steam-4950060",
+      "title": "Bid Wars",
       "store": "Steam",
-      "old": 159,
-      "neu": 127,
+      "old": 170,
+      "neu": 136,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/5247920/",
-      "steamAppId": "5247920"
+      "url": "https://store.steampowered.com/app/4950060/",
+      "steamAppId": "4950060"
     }
   ]
 }
