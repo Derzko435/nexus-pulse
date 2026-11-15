@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T12:37:41+03:00",
+  "updatedAt": "2026-11-15T20:17:18+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -43,14 +43,24 @@
       "steamAppId": "394360"
     },
     {
-      "id": "steam-5122610",
-      "title": "Lust Isles",
+      "id": "steam-5434520",
+      "title": "Little Seed",
       "store": "Steam",
-      "old": 625,
-      "neu": 375,
+      "old": 4450,
+      "neu": 2670,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5122610/",
-      "steamAppId": "5122610"
+      "url": "https://store.steampowered.com/app/5434520/",
+      "steamAppId": "5434520"
+    },
+    {
+      "id": "steam-5446440",
+      "title": "Вилла Ансуэло: Биограф мёртвых",
+      "store": "Steam",
+      "old": 757,
+      "neu": 454,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5446440/",
+      "steamAppId": "5446440"
     },
     {
       "id": "steam-5485210",
@@ -63,16 +73,6 @@
       "steamAppId": "5485210"
     },
     {
-      "id": "steam-3527290",
-      "title": "PEAK",
-      "store": "Steam",
-      "old": 359,
-      "neu": 222,
-      "pct": 38,
-      "url": "https://store.steampowered.com/app/3527290/",
-      "steamAppId": "3527290"
-    },
-    {
       "id": "steam-5462420",
       "title": "Ballpeak",
       "store": "Steam",
@@ -81,6 +81,26 @@
       "pct": 34,
       "url": "https://store.steampowered.com/app/5462420/",
       "steamAppId": "5462420"
+    },
+    {
+      "id": "steam-3175580",
+      "title": "Water Maid",
+      "store": "Steam",
+      "old": 290,
+      "neu": 203,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/3175580/",
+      "steamAppId": "3175580"
+    },
+    {
+      "id": "steam-5458210",
+      "title": "How They Built the Pyramids",
+      "store": "Steam",
+      "old": 280,
+      "neu": 196,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5458210/",
+      "steamAppId": "5458210"
     },
     {
       "id": "steam-2584270",
@@ -113,16 +133,6 @@
       "steamAppId": "5354240"
     },
     {
-      "id": "steam-5482710",
-      "title": "Silicon Tycoon",
-      "store": "Steam",
-      "old": 360,
-      "neu": 288,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5482710/",
-      "steamAppId": "5482710"
-    },
-    {
       "id": "steam-5451060",
       "title": "Crowns & Colossi",
       "store": "Steam",
@@ -131,16 +141,6 @@
       "pct": 20,
       "url": "https://store.steampowered.com/app/5451060/",
       "steamAppId": "5451060"
-    },
-    {
-      "id": "steam-5275070",
-      "title": "I Ching: Chinese Tarot & Wisdom of Change",
-      "store": "Steam",
-      "old": 200,
-      "neu": 160,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5275070/",
-      "steamAppId": "5275070"
     }
   ]
 }
