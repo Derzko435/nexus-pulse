@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-11-15T20:17:18+03:00",
+  "updatedAt": "2026-11-16T01:59:04+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
-      "id": "steam-238370",
-      "title": "Magicka 2",
+      "id": "steam-40700",
+      "title": "Machinarium",
       "store": "Steam",
-      "old": 829,
-      "neu": 165,
-      "pct": 80,
-      "url": "https://store.steampowered.com/app/238370/",
-      "steamAppId": "238370"
+      "old": 749,
+      "neu": 112,
+      "pct": 85,
+      "url": "https://store.steampowered.com/app/40700/",
+      "steamAppId": "40700"
     },
     {
       "id": "steam-227300",
@@ -63,26 +63,6 @@
       "steamAppId": "5446440"
     },
     {
-      "id": "steam-5485210",
-      "title": "내 여동생(My Sister)",
-      "store": "Steam",
-      "old": 130,
-      "neu": 78,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5485210/",
-      "steamAppId": "5485210"
-    },
-    {
-      "id": "steam-5462420",
-      "title": "Ballpeak",
-      "store": "Steam",
-      "old": 170,
-      "neu": 112,
-      "pct": 34,
-      "url": "https://store.steampowered.com/app/5462420/",
-      "steamAppId": "5462420"
-    },
-    {
       "id": "steam-3175580",
       "title": "Water Maid",
       "store": "Steam",
@@ -113,6 +93,46 @@
       "steamAppId": "2584270"
     },
     {
+      "id": "steam-4684960",
+      "title": "The Kings Last Hand",
+      "store": "Steam",
+      "old": 465,
+      "neu": 348,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/4684960/",
+      "steamAppId": "4684960"
+    },
+    {
+      "id": "steam-4638900",
+      "title": "Greedy Getaways",
+      "store": "Steam",
+      "old": 360,
+      "neu": 270,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/4638900/",
+      "steamAppId": "4638900"
+    },
+    {
+      "id": "steam-5443080",
+      "title": "Where are my keys?",
+      "store": "Steam",
+      "old": 360,
+      "neu": 270,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/5443080/",
+      "steamAppId": "5443080"
+    },
+    {
+      "id": "steam-4995460",
+      "title": "Tiny Chef",
+      "store": "Steam",
+      "old": 590,
+      "neu": 448,
+      "pct": 24,
+      "url": "https://store.steampowered.com/app/4995460/",
+      "steamAppId": "4995460"
+    },
+    {
       "id": "steam-2406770",
       "title": "Bodycam",
       "store": "Steam",
@@ -121,26 +141,6 @@
       "pct": 20,
       "url": "https://store.steampowered.com/app/2406770/",
       "steamAppId": "2406770"
-    },
-    {
-      "id": "steam-5354240",
-      "title": "THE BACKLOG",
-      "store": "Steam",
-      "old": 385,
-      "neu": 308,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5354240/",
-      "steamAppId": "5354240"
-    },
-    {
-      "id": "steam-5451060",
-      "title": "Crowns & Colossi",
-      "store": "Steam",
-      "old": 320,
-      "neu": 256,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5451060/",
-      "steamAppId": "5451060"
     }
   ]
 }

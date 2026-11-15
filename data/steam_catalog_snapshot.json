@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T20:17:13+03:00",
+  "updatedAt": "2026-11-16T01:58:59+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -503,12 +503,29 @@
       "short_description": "Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation in World War II; the most engaging conflict in world history."
     },
     {
-      "appid": "5122610",
-      "name": "Lust Isles",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5122610/b60725512df54e906d225c88ec477799c3b6b856/header.jpg?t=1794710733",
+      "appid": "5434520",
+      "name": "Little Seed",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5434520/1faf639968bd3c29971b552a6700d0fc6a85c756/header_russian.jpg?t=1794739514",
       "genres": [
-        "Инди",
-        "Симуляторы"
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Маленькое семечко — огромный мир. Ловите ветер, отскакивайте от листьев и пройдите 20 ботанических уровней в спокойном физическом приключении. Найдите место, чтобы пустить корни. По желанию можно поддуть в микрофон и немного помочь семечку подняться."
+    },
+    {
+      "appid": "5446440",
+      "name": "Вилла Ансуэло: Биограф мёртвых",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5446440/0311c48a41a7fcc70f48d9ad3b0ee40de778369e/header_russian.jpg?t=1794743536",
+      "genres": [
+        "Приключенческие игры",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -517,7 +534,7 @@
         "linux": true
       },
       "metacritic": null,
-      "short_description": "Reclaim the Forsaken Isles in this NSFW fantasy adventure blending visual novel storytelling, RPG progression, and strategic match-3 combat. Battle monsters, unlock powerful abilities, upgrade your character, and build spicy relationships with the exotic and horny characters you meet along the way."
+      "short_description": "Литературный заказ приводит вас в особняк над морем. Раскройте его тайны, выслушайте обитателей и восстановите историю, в которой даже мёртвым ещё есть что сказать."
     },
     {
       "appid": "5485210",
@@ -537,24 +554,6 @@
       "short_description": "'My Sister' is a casual Visual Novel JRPG. Play as 25-year-old Jung-boong, taking on jobs and adventures to heal his depressed younger sister. Complete non-combat quests, and battles to unlock multiple endings and event CGs!"
     },
     {
-      "appid": "3527290",
-      "name": "PEAK",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/31bac6b2eccf09b368f5e95ce510bae2baf3cfcd/header.jpg?t=1792684718",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "PEAK — это совместная игра о восхождении, где малейшая ошибка может привести к гибели. Играйте в одиночку или вместе с группой отчаянных бойскаутов. Сбегите с таинственного острова, для чего вам потребуется забраться на гору в его центре. Хватит ли вам сил, чтобы достичь ПИКА?"
-    },
-    {
       "appid": "5462420",
       "name": "Ballpeak",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5462420/05fd63fef8205e0438620da828a3175d8f79f9d8/header.jpg?t=1794733745",
@@ -570,6 +569,42 @@
       },
       "metacritic": null,
       "short_description": "Roll, balance, and find your way through a world of challenging courses in this relaxing physics-based adventure. Control balls made from different materials, each with unique physical properties, and master the art of rolling your way to the finish. Stay balanced and complete every level!"
+    },
+    {
+      "appid": "3175580",
+      "name": "Water Maid",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3175580/header.jpg?t=1794745722",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Water Maid is all about fetching water. Run, jump and dash to avoid enemies and find the elusive fresh water springs scattered around the island. Fill up your pot and make it back to the village, safe and sound."
+    },
+    {
+      "appid": "5458210",
+      "name": "How They Built the Pyramids",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5458210/e8525d1cf30149534fbc6b2ee780a2dddc2f328b/header.jpg?t=1794589252",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Безумная онлайн-игра про строительство в кооперативе для 1–8 игроков. Создавайте кирпичи, стройте огромную пирамиду и автоматизируйте производство. Собирайте друзей, нанимайте помощников и придумывайте всё более безумные способы доставить кирпичи на вершину!"
     },
     {
       "appid": "2584270",
@@ -628,25 +663,6 @@
       "short_description": "Магазин подержанных игр закрыт, на полу — больше 5000 игр и консолей. Берите по одной, читайте этикетку и ставьте на полку её консоли, пока не станет чисто. Уборка от первого лица без таймера и проигрыша, с наградами и кооперативом до 4 игроков."
     },
     {
-      "appid": "5482710",
-      "name": "Silicon Tycoon",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5482710/adf78ba6d4981826b6e06b5c97f00e3d37305b7e/header.jpg?t=1794700710",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "A pixel-art business tycoon. Run an electronics and car company from 1980 to today: research 45 years of tech, design desktops, laptops, phones, cars and engines part by part in 3D, build your campus and fight twelve rival companies for every market."
-    },
-    {
       "appid": "5451060",
       "name": "Crowns & Colossi",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5451060/02e7c851195a20c858cc393eeed2c0459c317a7b/header.jpg?t=1794724414",
@@ -662,22 +678,6 @@
       },
       "metacritic": null,
       "short_description": "Выберите одно из 13 уникальных фэнтезийных королевств: назначайте министров, пополняйте казну и ведите дипломатию на карте мира, а затем командуйте легионами в пошаговых битвах с картами стратегий и исполинскими гигантами. Рогалик, разветвлённые сюжеты и несколько концовок."
-    },
-    {
-      "appid": "5275070",
-      "name": "I Ching: Chinese Tarot & Wisdom of Change",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5275070/475aa35622099f92d38e8f8b07012fa08abafee2/header.jpg?t=1794712692",
-      "genres": [
-        "Образование"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "I Ching — Chinese Tarot &amp; Wisdom of Change is an interactive divination experience based on the 64 hexagrams of the ancient I Ching. Ask questions about love, career, study, choices, or the future, then explore your hexagram to reflect on change, timing, balance, and the paths ahead."
     }
   ]
 }
