@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T04:59:56+03:00",
+  "updatedAt": "2026-11-15T12:37:36+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -469,6 +469,23 @@
       "short_description": "The world’s most irreverent co-op action adventure returns! In the next chapter of Magicka, players ascend from the ruins of Aldrheim to experience a Midgård almost wiped free of Wizards after the Wizard Wars, with the few that do remain having either gone mad or extremely hostile toward all others"
     },
     {
+      "appid": "2138710",
+      "name": "Sifu",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138710/header.jpg?t=1782742326",
+      "genres": [
+        "Экшены",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 81,
+      "short_description": "Sifu — это реалистичный боевик от третьего лица с напряженными боями в стиле кунг-фу и кинематографическими драками. Герой игры — одинокий воин, который ищет возмездия."
+    },
+    {
       "appid": "394360",
       "name": "Hearts of Iron IV",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/67bbd0057627fc2244793bcdd09260c2539499cf/header.jpg?t=1794491980",
@@ -486,13 +503,12 @@
       "short_description": "Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation in World War II; the most engaging conflict in world history."
     },
     {
-      "appid": "5356830",
-      "name": "GRAND TIDDY ADVENTURES 🚨",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5356830/7e27c3b7be1f178586b198edc43f89171643ac44/header.jpg?t=1794687827",
+      "appid": "5122610",
+      "name": "Lust Isles",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5122610/b60725512df54e906d225c88ec477799c3b6b856/header.jpg?t=1794710733",
       "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди"
+        "Инди",
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
@@ -501,7 +517,24 @@
         "linux": true
       },
       "metacritic": null,
-      "short_description": "Crime pays in this city, but the girls want their cut too. 💋 Rise from small-time crook to legend of the neon streets, charm the women who can open the right doors, and keep your foot on the gas when the sirens get too close"
+      "short_description": "Reclaim the Forsaken Isles in this NSFW fantasy adventure blending visual novel storytelling, RPG progression, and strategic match-3 combat. Battle monsters, unlock powerful abilities, upgrade your character, and build spicy relationships with the exotic and horny characters you meet along the way."
+    },
+    {
+      "appid": "5339970",
+      "name": "Любовники первого отжима",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5339970/c0bf43da28d4a9961b08f13c5181b542bf23bf90/header_russian.jpg?t=1794680048",
+      "genres": [
+        "Приключенческие игры",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Проведите мастера Альваро через пораженный засухой урожай оливок в романтической визуальной новелле для взрослых. Выберите ветку Росио, Химены или Ньевес и столкнитесь с личной ценой долгов, соперничества, тайн и жизни деревни под давлением."
     },
     {
       "appid": "5421010",
@@ -598,7 +631,7 @@
     {
       "appid": "2392710",
       "name": "Tactics: Setting Sun",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2392710/d2014ebd093f21ed2e679208ba729ac112fd0c69/header.jpg?t=1794689756",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2392710/d2014ebd093f21ed2e679208ba729ac112fd0c69/header.jpg?t=1794725390",
       "genres": [
         "Стратегии"
       ],
@@ -610,42 +643,6 @@
       },
       "metacritic": null,
       "short_description": "«Tactics: Setting Sun» — пошаговая стратегическая игра, действие которой разворачивается на Тихоокеанском театре военных действий Второй мировой войны. Оснащайте и командуйте своими войсками по своему усмотрению."
-    },
-    {
-      "appid": "3552240",
-      "name": "LEGRADA",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3552240/63fa77c1cdee550db6250cf940b5f66ac81c0b64/header.jpg?t=1794666972",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Многопользовательские игры",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "LEGRADA - настольная стратегия с онлайн-дуэлями 1 на 1. Ставь стены, отправляй соперника в обход и первым доберись до противоположного края поля. Собирай фигурки Лекамонов, используй способности семи стихий или выбирай «Классику» без способностей."
-    },
-    {
-      "appid": "5160550",
-      "name": "Astral Phase",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5160550/5a4cc14cfe9a447338b989c29f61785538130d4b/header.jpg?t=1794700997",
-      "genres": [
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Wake in your own home, only to discover your body is still lying in bed. Trapped outside yourself, explore a familiar house shared with beings from other dimensions, uncover the truth, and find a way back before reality collapses."
     },
     {
       "appid": "4627220",
@@ -665,20 +662,21 @@
       "short_description": "Rick is forced to spend a week at his grandmother’s house, where every night grows more disturbing. Explore a house filled with whispers, survive paranormal events, and uncover the secret hidden beneath it all while one warning echoes in your mind: never enter the basement.."
     },
     {
-      "appid": "5247920",
-      "name": "Forgotten Horizons",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5247920/265edaffcf5865842631d18fab72194275dbac14/header_russian.jpg?t=1794664986",
+      "appid": "4950060",
+      "name": "Bid Wars",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4950060/423441174965bc0538b79ba4f70ada3b85e8f8b3/header.jpg?t=1794698345",
       "genres": [
-        "Приключенческие игры"
+        "Симуляторы",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
-        "linux": true
+        "linux": false
       },
       "metacritic": null,
-      "short_description": "Очнитесь у гаснущего костра без памяти и исследуйте мир, который забывает сам себя: пять областей, Забытый храм, Безмолвную крепость, глубокие шахты и парящие острова Эфира. Сражайтесь, рыбачьте, стройте дом и растите дракона."
+      "short_description": "Enter round-based auctions and engage in psychological warfare! Outbid to secure rare loot or deceive your opponents with lowballs, bluffs, and everything in between. Arm your warriors and send them out on raids to get even more loot! Grow your fame and become the ultimate KING."
     }
   ]
 }
