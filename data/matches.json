@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-15T10:15:04+03:00",
+ "updatedAt": "2026-11-15T14:01:42+03:00",
  "source": "bo3.gg",
  "matches": [
   {
@@ -11,9 +11,9 @@
    "logoA": "https://files.bo3.gg/uploads/team/654/image/webp-41b22d18a871d982f8ff87652bbb0fe6.webp",
    "logoB": "https://files.bo3.gg/uploads/team/648/image/webp-e1c203706e78b4167ad6fd6f70eb55bb.webp",
    "scoreA": 0,
-   "scoreB": 0,
+   "scoreB": 2,
    "bo": 5,
-   "status": "upcoming",
+   "status": "live",
    "event": "BLAST Rivals Fall 2026",
    "tier": "S",
    "startsAt": "2026-11-15T11:00:00+03:00",
@@ -60,7 +60,7 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "1win Essence III",
    "tier": "A",
    "startsAt": "2026-11-15T13:00:00+03:00",
@@ -750,53 +750,6 @@
     }
    ],
    "url": "https://bo3.gg/lol/matches/nothinhere-vs-saigon-warriors-12-11-2026"
-  },
-  {
-   "id": "bo3-132700",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Ground Zero Gaming",
-   "teamB": "Frank Esports",
-   "logoA": "https://files.bo3.gg/uploads/team/16864/image/webp-689606c26556ef52886f71521cd370dd.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17099/image/webp-61cb6c246adec4d5559a6b46c499f26b.webp",
-   "scoreA": 3,
-   "scoreB": 2,
-   "bo": 5,
-   "status": "finished",
-   "event": "LCP 2027 Promotion",
-   "tier": "A",
-   "startsAt": "2026-11-11T12:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "lolpacificen",
-     "lang": "en",
-     "official": true,
-     "label": "lolpacificen"
-    },
-    {
-     "type": "twitch",
-     "channel": "kmtlol",
-     "lang": "en",
-     "official": false,
-     "label": "kmtlol"
-    },
-    {
-     "type": "youtube",
-     "id": "0SAVe0dbslM",
-     "lang": "en",
-     "official": false,
-     "label": "[EN] GZ v FAK | LCP 2026 Promotion Series Day 2 | Regional Merit Match"
-    },
-    {
-     "type": "twitch",
-     "channel": "toadamarillo",
-     "lang": "es",
-     "official": false,
-     "label": "toadamarillo"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/ground-zero-gaming-vs-frank-esports-11-11-2026"
   }
  ],
  "tournaments": [
