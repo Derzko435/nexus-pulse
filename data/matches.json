@@ -1,72 +1,7 @@
 {
- "updatedAt": "2026-11-15T01:45:56+03:00",
+ "updatedAt": "2026-11-15T10:15:04+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-130833",
-   "game": "LoL",
-   "gameKey": "lol",
-   "teamA": "Bilibili Gaming",
-   "teamB": "Gen.G Esports",
-   "logoA": "https://files.bo3.gg/uploads/team/17842/image/webp-bff13ca353afd9ebfe12e7773fe7899a.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/17752/image/webp-ef38415901fcee4f50e32603323dc0e2.webp",
-   "scoreA": 1,
-   "scoreB": 1,
-   "bo": 5,
-   "status": "live",
-   "event": "Worlds 2026",
-   "tier": "S",
-   "startsAt": "2026-11-14T22:40:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "yamatocannon",
-     "lang": "en",
-     "official": true,
-     "label": "yamatocannon"
-    },
-    {
-     "type": "twitch",
-     "channel": "ibai",
-     "lang": "es",
-     "official": true,
-     "label": "ibai"
-    },
-    {
-     "type": "twitch",
-     "channel": "otplol_",
-     "lang": "fr",
-     "official": true,
-     "label": "otplol_"
-    },
-    {
-     "type": "twitch",
-     "channel": "esport2tv",
-     "lang": "hu",
-     "official": true,
-     "label": "esport2tv"
-    }
-   ],
-   "url": "https://bo3.gg/lol/matches/bilibili-gaming-lol-vs-gen-g-14-11-2026"
-  },
-  {
-   "id": "bo3-133706",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "1w Team",
-   "teamB": "Froglings",
-   "logoA": "https://files.bo3.gg/uploads/team/15038/image/webp-9df00f89ea17c5d1512eff71fcbce70f.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/25665/image/webp-1e0c10ab6e99636475306cdaab3be0df.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "live",
-   "event": "1win Essence III",
-   "tier": "A",
-   "startsAt": "2026-11-15T01:15:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/1win-dota2-vs-froglings-14-11-2026"
-  },
   {
    "id": "bo3-132600",
    "game": "CS2",
@@ -133,6 +68,24 @@
    "url": "https://bo3.gg/dota2/matches/parivision-dota2-vs-gamerlegion-dota2-15-11-2026"
   },
   {
+   "id": "bo3-133712",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Froglings",
+   "teamB": "LEGION",
+   "logoA": "https://files.bo3.gg/uploads/team/25665/image/webp-1e0c10ab6e99636475306cdaab3be0df.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/25401/image/webp-12311d6aa24e815ad6b9c3e66cc662d2.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "1win Essence III",
+   "tier": "A",
+   "startsAt": "2026-11-15T16:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/dota2/matches/froglings-vs-legion_stack-15-11-2026"
+  },
+  {
    "id": "bo3-133711",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -149,6 +102,24 @@
    "startsAt": "2026-11-15T19:00:00+03:00",
    "streams": [],
    "url": "https://bo3.gg/dota2/matches/aurora-vs-do-konca-15-11-2026"
+  },
+  {
+   "id": "bo3-133710",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "LGD Gaming",
+   "teamB": "Team Spirit",
+   "logoA": "https://files.bo3.gg/uploads/team/16711/image/webp-cf9143a16e0462f173c2587341f7ff08.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16704/image/webp-d50909a064a4533a3b594ed059eebc42.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "1win Essence III",
+   "tier": "A",
+   "startsAt": "2026-11-15T22:00:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/dota2/matches/lgd-gaming-dota2-vs-team-spirit-15-11-2026"
   },
   {
    "id": "bo3-133479",
@@ -255,6 +226,24 @@
    "url": "https://bo3.gg/matches/gamerlegion-vs-luminosity-cs-go-17-11-2026"
   },
   {
+   "id": "bo3-133706",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "1w Team",
+   "teamB": "Froglings",
+   "logoA": "https://files.bo3.gg/uploads/team/15038/image/webp-9df00f89ea17c5d1512eff71fcbce70f.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/25665/image/webp-1e0c10ab6e99636475306cdaab3be0df.webp",
+   "scoreA": 2,
+   "scoreB": 1,
+   "bo": 3,
+   "status": "finished",
+   "event": "1win Essence III",
+   "tier": "A",
+   "startsAt": "2026-11-15T01:15:00+03:00",
+   "streams": [],
+   "url": "https://bo3.gg/dota2/matches/1win-dota2-vs-froglings-14-11-2026"
+  },
+  {
    "id": "bo3-133702",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -300,6 +289,53 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/aurora-vs-cyberhero-14-11-2026"
+  },
+  {
+   "id": "bo3-130833",
+   "game": "LoL",
+   "gameKey": "lol",
+   "teamA": "Bilibili Gaming",
+   "teamB": "Gen.G Esports",
+   "logoA": "https://files.bo3.gg/uploads/team/17842/image/webp-bff13ca353afd9ebfe12e7773fe7899a.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/17752/image/webp-ef38415901fcee4f50e32603323dc0e2.webp",
+   "scoreA": 3,
+   "scoreB": 1,
+   "bo": 5,
+   "status": "finished",
+   "event": "Worlds 2026",
+   "tier": "S",
+   "startsAt": "2026-11-14T22:40:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "yamatocannon",
+     "lang": "en",
+     "official": true,
+     "label": "yamatocannon"
+    },
+    {
+     "type": "twitch",
+     "channel": "ibai",
+     "lang": "es",
+     "official": true,
+     "label": "ibai"
+    },
+    {
+     "type": "twitch",
+     "channel": "otplol_",
+     "lang": "fr",
+     "official": true,
+     "label": "otplol_"
+    },
+    {
+     "type": "twitch",
+     "channel": "esport2tv",
+     "lang": "hu",
+     "official": true,
+     "label": "esport2tv"
+    }
+   ],
+   "url": "https://bo3.gg/lol/matches/bilibili-gaming-lol-vs-gen-g-14-11-2026"
   },
   {
    "id": "bo3-133704",
@@ -521,32 +557,6 @@
     }
    ],
    "url": "https://bo3.gg/matches/spirit-vs-mouz-cs2-14-11-2026"
-  },
-  {
-   "id": "bo3-133707",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Team Spirit",
-   "teamB": "Froglings",
-   "logoA": "https://files.bo3.gg/uploads/team/16704/image/webp-d50909a064a4533a3b594ed059eebc42.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/25665/image/webp-1e0c10ab6e99636475306cdaab3be0df.webp",
-   "scoreA": 0,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "1win Essence III",
-   "tier": "A",
-   "startsAt": "2026-11-13T23:10:00+03:00",
-   "streams": [
-    {
-     "type": "kick",
-     "channel": "madaradota2",
-     "lang": "es",
-     "official": false,
-     "label": "madaradota2"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/team-spirit-vs-froglings-13-11-2026"
   },
   {
    "id": "bo3-132597",
@@ -790,17 +800,6 @@
   }
  ],
  "tournaments": [
-  {
-   "name": "Worlds 2026",
-   "game": "LoL",
-   "gameKey": "lol",
-   "tier": "S",
-   "prize": 5000000,
-   "start": "2026-10-15",
-   "end": "2026-11-15",
-   "status": "current",
-   "url": "https://bo3.gg/lol/tournaments/worlds-2026"
-  },
   {
    "name": "BLAST Rivals Fall 2026",
    "game": "CS2",
