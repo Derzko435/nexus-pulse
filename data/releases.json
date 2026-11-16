@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-15T14:06:36+03:00",
+ "updatedAt": "2026-11-16T14:34:17+03:00",
  "items": [
   {
    "appid": 4171850,
@@ -29,7 +29,7 @@
    "appid": 4707700,
    "title": "Gold Mining Simulator - Definitive Edition",
    "date": "2026-11-17",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4707700/e25d301bd345da1734990375d2669e9f34f438fb/header.jpg?t=1794663443",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4707700/e25d301bd345da1734990375d2669e9f34f438fb/header.jpg?t=1794825201",
    "desc": "Gold Mining Simulator: Definitive Edition - окончательная версия игры, включающая все ранее выпущенные дополнения, новый контент, улучшения игрового процесса и графики, а также множество изменений, повышающих удобство игры, - всё для максимально полного опыта золотодобычи.",
    "genres": [
     "Инди",
@@ -53,7 +53,7 @@
    "title": "Grand Theft Auto VI",
    "date": "2026-11-19",
    "image": "https://upload.wikimedia.org/wikipedia/en/4/46/Grand_Theft_Auto_VI.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "desc": "Grand Theft Auto VI (сокр. — GTA VI или GTA 6) — будущая компьютерная игра в жанре action-adventure с открытым миром, разрабатываемая компанией Rockstar Games. Станет шестнадцатой по счёту и восьмой крупной игрой в серии Grand Theft Auto.",
+   "desc": "Grand Theft Auto VI (сокр. — GTA VI или GTA 6) — будущая компьютерная игра в жанре приключенческого экшена с открытым миром, разрабатываемая компанией Rockstar Games. Станет шестнадцатой по счёту и восьмой крупной игрой в серии Grand Theft Auto.",
    "genres": [
     "Экшен-приключение"
    ],
@@ -468,6 +468,30 @@
    }
   },
   {
+   "appid": 3384600,
+   "title": "Professor Layton and the New World of Steam",
+   "date": "2026-12-09",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3384600/7ca8815e48a947c0b2890a56fb115f03d1cf02c9/header.jpg?t=1794478966",
+   "desc": "Новая история профессора Лейтона в серии приключенческих головоломок, проданной по всему миру тиражом более 20 миллионов копий. Профессор Лейтон и Люк оказываются втянуты в загадочное дело в Паровом Бизоне — удивительном городе изобретателей, функционирующем на паровых технологиях.",
+   "genres": [
+    "Приключенческие игры"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Switch"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "LEVEL5 Inc.",
+   "price": "4639 руб.",
+   "url": "https://store.steampowered.com/app/3384600/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/3384600/"
+   }
+  },
+  {
    "appid": "x-riders-republic",
    "title": "Riders Republic",
    "date": "2026-12-09",
@@ -486,33 +510,6 @@
    "url": "https://en.wikipedia.org/wiki/Riders_Republic",
    "links": {
     "wiki": "https://en.wikipedia.org/wiki/Riders_Republic"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": 3384600,
-   "title": "Professor Layton and the New World of Steam",
-   "date": "2026-12-10",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3384600/7ca8815e48a947c0b2890a56fb115f03d1cf02c9/header.jpg?t=1794478966",
-   "desc": "Новая история профессора Лейтона в серии приключенческих головоломок, проданной по всему миру тиражом более 20 миллионов копий. Профессор Лейтон и Люк оказываются втянуты в загадочное дело в Паровом Бизоне — удивительном городе изобретателей, функционирующем на паровых технологиях.",
-   "genres": [
-    "Головоломка",
-    "Приключение"
-   ],
-   "platforms": [
-    "PC",
-    "PlayStation",
-    "Switch"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Level-5 Osaka Office",
-   "price": "4639 руб.",
-   "url": "https://store.steampowered.com/app/3384600/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/3384600/",
-    "wiki": "https://en.wikipedia.org/wiki/Professor_Layton_and_the_New_World_of_Steam"
    },
    "source": "wiki"
   },
@@ -620,7 +617,7 @@
    "appid": 3751230,
    "title": "Danganronpa 2x2",
    "date": "2027-01-13",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751230/fc422cd5527bbb4a9386edabd75f5280593c164c/header.jpg?t=1792990033",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751230/fc422cd5527bbb4a9386edabd75f5280593c164c/header.jpg?t=1794808061",
    "desc": "Во время школьной поездки на остров Бармаглот ученики попадают в ловушку смертельной игры Монокумы, вынуждены совершать взаимные убийства и классные суды, чтобы разоблачить преступника. Разрушайте противоречия в скоростном детективном действии. Включает как совершенно новый сценарий, так и улучшенный оригинал!",
    "genres": [
     "Приключенческие игры"
@@ -986,30 +983,6 @@
    "url": "https://store.steampowered.com/app/1846700/",
    "links": {
     "steam": "https://store.steampowered.com/app/1846700/"
-   }
-  },
-  {
-   "appid": 2659410,
-   "title": "Elta: Defy All Gods",
-   "date": "2027-02-02",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2659410/0fa44684db6c1ccfbbcc5d209bfc8a55b0c8565f/header_alt_assets_0_russian.jpg?t=1794230229",
-   "desc": "Выберитесь из оскверненных миров вместе со своим спутником, богом-драконом, в захватывающем экшен-платформере, сочетающим свободный ближний бой, динамичный платформинг и исследование мира в НФ-сеттинге. Станьте избранным своего падшего божества, Эльты.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Инди"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Afterburner Studios",
-   "price": "1499 руб.",
-   "url": "https://store.steampowered.com/app/2659410/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/2659410/"
    }
   },
   {

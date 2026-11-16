@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-16T10:21:24+03:00",
+ "updatedAt": "2026-11-16T14:31:46+03:00",
  "source": "bo3.gg",
  "matches": [
   {
@@ -8,16 +8,45 @@
    "gameKey": "dota2",
    "teamA": "DO KONCA",
    "teamB": "Froglings",
-   "logoA": "",
+   "logoA": "https://files.bo3.gg/uploads/team/25700/image/webp-5cf16cbb4a04ab7b1f3e8158ec335d56.webp",
    "logoB": "https://files.bo3.gg/uploads/team/25665/image/webp-1e0c10ab6e99636475306cdaab3be0df.webp",
    "scoreA": 0,
-   "scoreB": 0,
+   "scoreB": 1,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "1win Essence III",
    "tier": "A",
    "startsAt": "2026-11-16T13:00:00+03:00",
-   "streams": [],
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "1win_dota_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "1win_dota_ru"
+    },
+    {
+     "type": "twitch",
+     "channel": "dotaburgertwitch",
+     "lang": "ru",
+     "official": false,
+     "label": "dotaburgertwitch"
+    },
+    {
+     "type": "twitch",
+     "channel": "1win_dota",
+     "lang": "en",
+     "official": false,
+     "label": "1win_dota"
+    },
+    {
+     "type": "twitch",
+     "channel": "ns_art",
+     "lang": "pt",
+     "official": false,
+     "label": "ns_art"
+    }
+   ],
    "url": "https://bo3.gg/dota2/matches/froglings-vs-do-konca-16-11-2026"
   },
   {
@@ -232,7 +261,7 @@
    "teamA": "Aurora Gaming",
    "teamB": "DO KONCA",
    "logoA": "https://files.bo3.gg/uploads/team/15143/image/webp-235f54dc6e1d478c8536240a49197cc4.webp",
-   "logoB": "",
+   "logoB": "https://files.bo3.gg/uploads/team/25700/image/webp-5cf16cbb4a04ab7b1f3e8158ec335d56.webp",
    "scoreA": 2,
    "scoreB": 0,
    "bo": 3,
