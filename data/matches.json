@@ -1,22 +1,22 @@
 {
- "updatedAt": "2026-11-16T14:31:46+03:00",
+ "updatedAt": "2026-11-16T22:53:11+03:00",
  "source": "bo3.gg",
  "matches": [
   {
-   "id": "bo3-133714",
+   "id": "bo3-133715",
    "game": "Dota 2",
    "gameKey": "dota2",
-   "teamA": "DO KONCA",
-   "teamB": "Froglings",
-   "logoA": "https://files.bo3.gg/uploads/team/25700/image/webp-5cf16cbb4a04ab7b1f3e8158ec335d56.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/25665/image/webp-1e0c10ab6e99636475306cdaab3be0df.webp",
+   "teamA": "PARIVISION",
+   "teamB": "Team Spirit",
+   "logoA": "https://files.bo3.gg/uploads/team/18604/image/webp-6ff7974f420e977381734ce06515692b.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16704/image/webp-d50909a064a4533a3b594ed059eebc42.webp",
    "scoreA": 0,
    "scoreB": 1,
    "bo": 3,
    "status": "live",
    "event": "1win Essence III",
    "tier": "A",
-   "startsAt": "2026-11-16T13:00:00+03:00",
+   "startsAt": "2026-11-16T21:00:00+03:00",
    "streams": [
     {
      "type": "twitch",
@@ -27,10 +27,10 @@
     },
     {
      "type": "twitch",
-     "channel": "dotaburgertwitch",
-     "lang": "ru",
+     "channel": "gorgc",
+     "lang": "en",
      "official": false,
-     "label": "dotaburgertwitch"
+     "label": "gorgc"
     },
     {
      "type": "twitch",
@@ -41,48 +41,12 @@
     },
     {
      "type": "twitch",
-     "channel": "ns_art",
-     "lang": "pt",
+     "channel": "wxcdota",
+     "lang": "tl",
      "official": false,
-     "label": "ns_art"
+     "label": "wxcdota"
     }
    ],
-   "url": "https://bo3.gg/dota2/matches/froglings-vs-do-konca-16-11-2026"
-  },
-  {
-   "id": "bo3-133713",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "GamerLegion",
-   "teamB": "LGD Gaming",
-   "logoA": "https://files.bo3.gg/uploads/team/22027/image/webp-ee0b8db9ff2c256d59eb11b6592e86f5.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16711/image/webp-cf9143a16e0462f173c2587341f7ff08.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "1win Essence III",
-   "tier": "A",
-   "startsAt": "2026-11-16T16:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/gamerlegion-dota2-vs-lgd-gaming-dota2-16-11-2026"
-  },
-  {
-   "id": "bo3-133715",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "PARIVISION",
-   "teamB": "Team Spirit",
-   "logoA": "https://files.bo3.gg/uploads/team/18604/image/webp-6ff7974f420e977381734ce06515692b.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16704/image/webp-d50909a064a4533a3b594ed059eebc42.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "1win Essence III",
-   "tier": "A",
-   "startsAt": "2026-11-16T19:00:00+03:00",
-   "streams": [],
    "url": "https://bo3.gg/dota2/matches/parivision-dota2-vs-team-spirit-16-11-2026"
   },
   {
@@ -99,9 +63,38 @@
    "status": "upcoming",
    "event": "1win Essence III",
    "tier": "A",
-   "startsAt": "2026-11-16T22:00:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/legion_stack-vs-aurora-16-11-2026"
+   "startsAt": "2026-11-16T23:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "1win_dota_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "1win_dota_ru"
+    },
+    {
+     "type": "twitch",
+     "channel": "1win_dota",
+     "lang": "en",
+     "official": false,
+     "label": "1win_dota"
+    },
+    {
+     "type": "twitch",
+     "channel": "wxcdota",
+     "lang": "tl",
+     "official": false,
+     "label": "wxcdota"
+    },
+    {
+     "type": "twitch",
+     "channel": "23dotatv",
+     "lang": "vi",
+     "official": false,
+     "label": "23dotatv"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/legion_dota2-vs-aurora-16-11-2026"
   },
   {
    "id": "bo3-133479",
@@ -208,12 +201,322 @@
    "url": "https://bo3.gg/matches/gamerlegion-vs-luminosity-cs-go-17-11-2026"
   },
   {
+   "id": "bo3-134318",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Team Spirit",
+   "teamB": "Team Nemesis",
+   "logoA": "https://files.bo3.gg/uploads/team/16704/image/webp-d50909a064a4533a3b594ed059eebc42.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/20355/image/webp-3013ddfe8da8ee14d18085640590a9d7.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "BLAST Slam IX",
+   "tier": "S",
+   "startsAt": "2026-11-20T14:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "blastpremier",
+     "lang": "en",
+     "official": true,
+     "label": "blastpremier",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/team-spirit-vs-team-nemesis-20-11-2026"
+  },
+  {
+   "id": "bo3-134323",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Team Yandex",
+   "teamB": "PlayTime",
+   "logoA": "https://files.bo3.gg/uploads/team/20951/image/webp-102aceac7404bd2093f9b559afcad7b6.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/22354/image/webp-f5f3c4896d1f5df9573053ef85802a38.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "BLAST Slam IX",
+   "tier": "S",
+   "startsAt": "2026-11-20T14:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "blastpremier",
+     "lang": "en",
+     "official": true,
+     "label": "blastpremier",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/team-yandex-vs-playtime-20-11-2026"
+  },
+  {
+   "id": "bo3-134324",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Natus Vincere",
+   "teamB": "OG",
+   "logoA": "https://files.bo3.gg/uploads/team/16676/image/webp-2738710d6606b200e541749870dd65a0.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16714/image/webp-cd2e61b09557041544426a7b536a0856.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "BLAST Slam IX",
+   "tier": "S",
+   "startsAt": "2026-11-20T17:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "blastpremier",
+     "lang": "en",
+     "official": true,
+     "label": "blastpremier",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/natus-vincere-dota2-vs-og-dota2-20-11-2026"
+  },
+  {
+   "id": "bo3-134319",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "GamerLegion",
+   "teamB": "Xtreme Gaming",
+   "logoA": "https://files.bo3.gg/uploads/team/22027/image/webp-ee0b8db9ff2c256d59eb11b6592e86f5.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/15776/image/webp-10e9cfcdcbb4a0192c4b328975ad6292.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "BLAST Slam IX",
+   "tier": "S",
+   "startsAt": "2026-11-20T17:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "blastpremier",
+     "lang": "en",
+     "official": true,
+     "label": "blastpremier",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/gamerlegion-dota2-vs-xtreme-gaming-dota2-20-11-2026"
+  },
+  {
+   "id": "bo3-134334",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "PARIVISION",
+   "teamB": "LEGION",
+   "logoA": "https://files.bo3.gg/uploads/team/18604/image/webp-6ff7974f420e977381734ce06515692b.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/25401/image/webp-12311d6aa24e815ad6b9c3e66cc662d2.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "BLAST Slam IX",
+   "tier": "S",
+   "startsAt": "2026-11-20T20:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "blastpremier",
+     "lang": "en",
+     "official": true,
+     "label": "blastpremier",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/parivision-dota2-vs-legion_stack-20-11-2026"
+  },
+  {
+   "id": "bo3-134333",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Team Liquid",
+   "teamB": "DO KONCA",
+   "logoA": "https://files.bo3.gg/uploads/team/16721/image/webp-dad0330773871073290e08d7d5baa9dc.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/25700/image/webp-5cf16cbb4a04ab7b1f3e8158ec335d56.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "BLAST Slam IX",
+   "tier": "S",
+   "startsAt": "2026-11-20T20:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "blastpremier",
+     "lang": "en",
+     "official": true,
+     "label": "blastpremier",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/team-liquid-dota2-vs-do-konca-20-11-2026"
+  },
+  {
+   "id": "bo3-134328",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "LGD Gaming",
+   "teamB": "1w Team",
+   "logoA": "https://files.bo3.gg/uploads/team/16711/image/webp-d9e05f029b2d1655b3bdb967f5b6f62a.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/15038/image/webp-9df00f89ea17c5d1512eff71fcbce70f.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "BLAST Slam IX",
+   "tier": "S",
+   "startsAt": "2026-11-21T14:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "blastpremier",
+     "lang": "en",
+     "official": true,
+     "label": "blastpremier",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/lgd-gaming-dota2-vs-1win-dota2-21-11-2026"
+  },
+  {
+   "id": "bo3-134329",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Aurora Gaming",
+   "teamB": "Astra Invicta",
+   "logoA": "https://files.bo3.gg/uploads/team/15143/image/webp-235f54dc6e1d478c8536240a49197cc4.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/25557/image/webp-71a130fa205305b3096d33cd360a428b.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "BLAST Slam IX",
+   "tier": "S",
+   "startsAt": "2026-11-21T14:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "blastpremier",
+     "lang": "en",
+     "official": true,
+     "label": "blastpremier",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/aurora-vs-astra-invicta-21-11-2026"
+  },
+  {
+   "id": "bo3-133713",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "GamerLegion",
+   "teamB": "LGD Gaming",
+   "logoA": "https://files.bo3.gg/uploads/team/22027/image/webp-ee0b8db9ff2c256d59eb11b6592e86f5.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16711/image/webp-d9e05f029b2d1655b3bdb967f5b6f62a.webp",
+   "scoreA": 1,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "1win Essence III",
+   "tier": "A",
+   "startsAt": "2026-11-16T16:55:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "1win_dota_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "1win_dota_ru"
+    },
+    {
+     "type": "twitch",
+     "channel": "gorgc",
+     "lang": "en",
+     "official": false,
+     "label": "gorgc"
+    },
+    {
+     "type": "twitch",
+     "channel": "1win_dota",
+     "lang": "en",
+     "official": false,
+     "label": "1win_dota"
+    },
+    {
+     "type": "twitch",
+     "channel": "ns_art",
+     "lang": "pt",
+     "official": false,
+     "label": "ns_art"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/gamerlegion-dota2-vs-lgd-gaming-dota2-16-11-2026"
+  },
+  {
+   "id": "bo3-133714",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "DO KONCA",
+   "teamB": "Froglings",
+   "logoA": "https://files.bo3.gg/uploads/team/25700/image/webp-5cf16cbb4a04ab7b1f3e8158ec335d56.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/25665/image/webp-1e0c10ab6e99636475306cdaab3be0df.webp",
+   "scoreA": 1,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "1win Essence III",
+   "tier": "A",
+   "startsAt": "2026-11-16T13:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "1win_dota_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "1win_dota_ru"
+    },
+    {
+     "type": "twitch",
+     "channel": "1win_dota",
+     "lang": "en",
+     "official": false,
+     "label": "1win_dota"
+    },
+    {
+     "type": "twitch",
+     "channel": "ns_art",
+     "lang": "pt",
+     "official": false,
+     "label": "ns_art"
+    },
+    {
+     "type": "twitch",
+     "channel": "23dotatv",
+     "lang": "vi",
+     "official": false,
+     "label": "23dotatv"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/froglings-vs-do-konca-16-11-2026"
+  },
+  {
    "id": "bo3-133710",
    "game": "Dota 2",
    "gameKey": "dota2",
    "teamA": "LGD Gaming",
    "teamB": "Team Spirit",
-   "logoA": "https://files.bo3.gg/uploads/team/16711/image/webp-cf9143a16e0462f173c2587341f7ff08.webp",
+   "logoA": "https://files.bo3.gg/uploads/team/16711/image/webp-d9e05f029b2d1655b3bdb967f5b6f62a.webp",
    "logoB": "https://files.bo3.gg/uploads/team/16704/image/webp-d50909a064a4533a3b594ed059eebc42.webp",
    "scoreA": 0,
    "scoreB": 2,
@@ -349,53 +652,6 @@
    "url": "https://bo3.gg/dota2/matches/froglings-vs-legion_stack-15-11-2026"
   },
   {
-   "id": "bo3-133709",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "PARIVISION",
-   "teamB": "GamerLegion",
-   "logoA": "https://files.bo3.gg/uploads/team/18604/image/webp-6ff7974f420e977381734ce06515692b.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/22027/image/webp-ee0b8db9ff2c256d59eb11b6592e86f5.webp",
-   "scoreA": 2,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "finished",
-   "event": "1win Essence III",
-   "tier": "A",
-   "startsAt": "2026-11-15T13:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "1win_dota_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "1win_dota_ru"
-    },
-    {
-     "type": "twitch",
-     "channel": "gorgc",
-     "lang": "en",
-     "official": false,
-     "label": "gorgc"
-    },
-    {
-     "type": "twitch",
-     "channel": "1win_dota",
-     "lang": "en",
-     "official": false,
-     "label": "1win_dota"
-    },
-    {
-     "type": "twitch",
-     "channel": "23dotatv",
-     "lang": "vi",
-     "official": false,
-     "label": "23dotatv"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/parivision-dota2-vs-gamerlegion-dota2-15-11-2026"
-  },
-  {
    "id": "bo3-132600",
    "game": "CS2",
    "gameKey": "cs2",
@@ -441,24 +697,6 @@
     }
    ],
    "url": "https://bo3.gg/matches/spirit-vs-furia-15-11-2026"
-  },
-  {
-   "id": "bo3-133706",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "1w Team",
-   "teamB": "Froglings",
-   "logoA": "https://files.bo3.gg/uploads/team/15038/image/webp-9df00f89ea17c5d1512eff71fcbce70f.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/25665/image/webp-1e0c10ab6e99636475306cdaab3be0df.webp",
-   "scoreA": 2,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "finished",
-   "event": "1win Essence III",
-   "tier": "A",
-   "startsAt": "2026-11-15T01:15:00+03:00",
-   "streams": [],
-   "url": "https://bo3.gg/dota2/matches/1win-dota2-vs-froglings-14-11-2026"
   },
   {
    "id": "bo3-130833",
