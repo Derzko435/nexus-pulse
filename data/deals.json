@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T01:59:04+03:00",
+  "updatedAt": "2026-11-16T09:49:15+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -43,34 +43,74 @@
       "steamAppId": "394360"
     },
     {
-      "id": "steam-5434520",
-      "title": "Little Seed",
+      "id": "steam-2680010",
+      "title": "The First Berserker: Khazan",
       "store": "Steam",
-      "old": 4450,
-      "neu": 2670,
+      "old": 3579,
+      "neu": 2147,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5434520/",
-      "steamAppId": "5434520"
+      "url": "https://store.steampowered.com/app/2680010/",
+      "steamAppId": "2680010"
     },
     {
-      "id": "steam-5446440",
-      "title": "Вилла Ансуэло: Биограф мёртвых",
+      "id": "steam-3231540",
+      "title": "FaceTrack",
       "store": "Steam",
-      "old": 757,
-      "neu": 454,
+      "old": 1150,
+      "neu": 690,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5446440/",
-      "steamAppId": "5446440"
+      "url": "https://store.steampowered.com/app/3231540/",
+      "steamAppId": "3231540"
     },
     {
-      "id": "steam-3175580",
-      "title": "Water Maid",
+      "id": "steam-5401480",
+      "title": "Memory Games Apple",
       "store": "Steam",
-      "old": 290,
-      "neu": 203,
+      "old": 210,
+      "neu": 126,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5401480/",
+      "steamAppId": "5401480"
+    },
+    {
+      "id": "steam-5401460",
+      "title": "Memory Games Ice cream",
+      "store": "Steam",
+      "old": 210,
+      "neu": 126,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5401460/",
+      "steamAppId": "5401460"
+    },
+    {
+      "id": "steam-5401490",
+      "title": "Memory Games Trains",
+      "store": "Steam",
+      "old": 210,
+      "neu": 126,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5401490/",
+      "steamAppId": "5401490"
+    },
+    {
+      "id": "steam-5476120",
+      "title": "Cruisopolis: Cruise Line Tycoon",
+      "store": "Steam",
+      "old": 445,
+      "neu": 311,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/3175580/",
-      "steamAppId": "3175580"
+      "url": "https://store.steampowered.com/app/5476120/",
+      "steamAppId": "5476120"
+    },
+    {
+      "id": "steam-5493880",
+      "title": "Home Sweet Bunker: Bunker Tycoon",
+      "store": "Steam",
+      "old": 445,
+      "neu": 311,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5493880/",
+      "steamAppId": "5493880"
     },
     {
       "id": "steam-5458210",
@@ -93,16 +133,6 @@
       "steamAppId": "2584270"
     },
     {
-      "id": "steam-4684960",
-      "title": "The Kings Last Hand",
-      "store": "Steam",
-      "old": 465,
-      "neu": 348,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/4684960/",
-      "steamAppId": "4684960"
-    },
-    {
       "id": "steam-4638900",
       "title": "Greedy Getaways",
       "store": "Steam",
@@ -111,36 +141,6 @@
       "pct": 25,
       "url": "https://store.steampowered.com/app/4638900/",
       "steamAppId": "4638900"
-    },
-    {
-      "id": "steam-5443080",
-      "title": "Where are my keys?",
-      "store": "Steam",
-      "old": 360,
-      "neu": 270,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5443080/",
-      "steamAppId": "5443080"
-    },
-    {
-      "id": "steam-4995460",
-      "title": "Tiny Chef",
-      "store": "Steam",
-      "old": 590,
-      "neu": 448,
-      "pct": 24,
-      "url": "https://store.steampowered.com/app/4995460/",
-      "steamAppId": "4995460"
-    },
-    {
-      "id": "steam-2406770",
-      "title": "Bodycam",
-      "store": "Steam",
-      "old": 1200,
-      "neu": 960,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/2406770/",
-      "steamAppId": "2406770"
     }
   ]
 }

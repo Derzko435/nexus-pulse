@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T01:58:59+03:00",
+  "updatedAt": "2026-11-16T09:49:10+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -452,21 +452,21 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "238370",
-      "name": "Magicka 2",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238370/header.jpg?t=1709831158",
+      "appid": "40700",
+      "name": "Machinarium",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/40700/header.jpg?t=1791501193",
       "genres": [
-        "Экшены",
-        "Приключенческие игры"
+        "Приключенческие игры",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": true,
-        "linux": true
+        "linux": false
       },
-      "metacritic": null,
-      "short_description": "The world’s most irreverent co-op action adventure returns! In the next chapter of Magicka, players ascend from the ruins of Aldrheim to experience a Midgård almost wiped free of Wizards after the Wizard Wars, with the few that do remain having either gone mad or extremely hostile toward all others"
+      "metacritic": 85,
+      "short_description": "Machinarium — это отмеченная наградами приключенческая игра от создателей Phonopolis, CHUCHEL и серии Samorost. Помогите роботу Йозефу спасти его подружку Берту, похищенную бандитами из Братства Чёрных Шляп!"
     },
     {
       "appid": "2138710",
@@ -537,40 +537,6 @@
       "short_description": "Литературный заказ приводит вас в особняк над морем. Раскройте его тайны, выслушайте обитателей и восстановите историю, в которой даже мёртвым ещё есть что сказать."
     },
     {
-      "appid": "5485210",
-      "name": "내 여동생(My Sister)",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5485210/9f70391b1f2d9434d4ab4893d43ce52c904cbdd0/header.jpg?t=1794756467",
-      "genres": [
-        "Инди",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "'My Sister' is a casual Visual Novel JRPG. Play as 25-year-old Jung-boong, taking on jobs and adventures to heal his depressed younger sister. Complete non-combat quests, and battles to unlock multiple endings and event CGs!"
-    },
-    {
-      "appid": "5462420",
-      "name": "Ballpeak",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5462420/05fd63fef8205e0438620da828a3175d8f79f9d8/header.jpg?t=1794733745",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Roll, balance, and find your way through a world of challenging courses in this relaxing physics-based adventure. Control balls made from different materials, each with unique physical properties, and master the art of rolling your way to the finish. Stay balanced and complete every level!"
-    },
-    {
       "appid": "3175580",
       "name": "Water Maid",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3175580/header.jpg?t=1794745722",
@@ -624,6 +590,80 @@
       "short_description": "Их плоть — ваше оружие. Mortal Shell II — полноценное продолжение первой части. Это ролевой боевик с жестокими и напряженными сражениями. Вселяйтесь в тела выдающихся воинов, свергайте лжебогов и верните к жизни опустошенный мир."
     },
     {
+      "appid": "4684960",
+      "name": "The Kings Last Hand",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4684960/410a116e3e2f0d3f84be57c0405ca7fede134dae/header.jpg?t=1794775225",
+      "genres": [
+        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "The Kingdom is under siege. Gather powerful cards, and build unique defensive strategies to withstand increasingly deadly enemy assaults. Each defeat teaches a lesson. Each victory unlocks new possibilities."
+    },
+    {
+      "appid": "4638900",
+      "name": "Greedy Getaways",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4638900/9d6d350db85d3a0523908bdf843c4dfb831441e7/header.jpg?t=1794775871",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Grab your friends and cruise aboard Greedy Getaways! Explore tropical islands, haul gold back to the captain, and pocket a little on the side. Wobbly physics, exclusive upgrades, questionable outfits, and a good laugh on every excursion!"
+    },
+    {
+      "appid": "5443080",
+      "name": "Where are my keys?",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5443080/f526c3e3975b87ced7bc8f1ca51df618f6dd0197/header.jpg?t=1794769894",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Lost your car keys at the beach? Or was it the woods? Grab a metal detector and a shovel, dig up junk and treasure, flog it to a shady Fence for upgrades and find those keys, with no rush, before a tsunami hits, or before the bear comes. Play solo or with up to 3 friends in online co-op."
+    },
+    {
+      "appid": "4995460",
+      "name": "Tiny Chef",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4995460/976e580fdf0b1b3d5cbd3087a5e88a0fb27c6b57/header.jpg?t=1794751860",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A co-op restaurant management sim for 1-4 players. Chop, fry and plate orders against a ticking clock, then spend the takings between shifts on new appliances, conveyor automation, knocked-down walls and a second restaurant across town."
+    },
+    {
       "appid": "2406770",
       "name": "Bodycam",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/b533bca55927692f0cf812ebb91c6e6e8f5cb4a6/header_alt_assets_4.jpg?t=1794683329",
@@ -643,41 +683,6 @@
       },
       "metacritic": null,
       "short_description": "Bodycam — это первый тактический многопользовательский шутер от первого лица с настоящим обзором с нательной камеры на движке Unreal Engine 5. Ближние бои кажутся резкими и громкими. Каждый ракурс, выноска и пуля имеют значение. Играйте в Deathmatch, Team Deathmatch и Wingman на фотореалистичных."
-    },
-    {
-      "appid": "5354240",
-      "name": "THE BACKLOG",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5354240/e3da7fa6658f8dab1370d44cf3778f023bd91919/header.jpg?t=1794716552",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Магазин подержанных игр закрыт, на полу — больше 5000 игр и консолей. Берите по одной, читайте этикетку и ставьте на полку её консоли, пока не станет чисто. Уборка от первого лица без таймера и проигрыша, с наградами и кооперативом до 4 игроков."
-    },
-    {
-      "appid": "5451060",
-      "name": "Crowns & Colossi",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5451060/02e7c851195a20c858cc393eeed2c0459c317a7b/header.jpg?t=1794724414",
-      "genres": [
-        "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Выберите одно из 13 уникальных фэнтезийных королевств: назначайте министров, пополняйте казну и ведите дипломатию на карте мира, а затем командуйте легионами в пошаговых битвах с картами стратегий и исполинскими гигантами. Рогалик, разветвлённые сюжеты и несколько концовок."
     }
   ]
 }
