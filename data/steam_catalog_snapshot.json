@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T09:49:10+03:00",
+  "updatedAt": "2026-11-16T21:41:38+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -503,9 +503,46 @@
       "short_description": "Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation in World War II; the most engaging conflict in world history."
     },
     {
-      "appid": "5434520",
-      "name": "Little Seed",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5434520/1faf639968bd3c29971b552a6700d0fc6a85c756/header_russian.jpg?t=1794739514",
+      "appid": "2680010",
+      "name": "The First Berserker: Khazan",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680010/header.jpg?t=1776936760",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "The First Berserker: Khazan — это беспощадный ролевой экшен, в котором вам предстоит стать Казаном, великим генералом империи Пелос, сумевшим преодолеть саму смерть. Отправьтесь на поиски тех, кто обрёк вас на погибель, и расквитайтесь с ними."
+    },
+    {
+      "appid": "3231540",
+      "name": "FaceTrack",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3231540/aeb1ca63a1d6e38acb63646a95a8909f0ffd32a1/header.jpg?t=1794802052",
+      "genres": [
+        "Анимация и моделирование",
+        "Утилиты",
+        "Создание видео",
+        "Разработка игр"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Захватывайте лицевую анимацию с веб-камеры, видео или аудиофайлов для ваших игр, анимаций, VFX и других творческих проектов!"
+    },
+    {
+      "appid": "5401480",
+      "name": "Memory Games Apple",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5401480/eab6f07ad227b3d67b8d408251c327f9ca302601/header.jpg?t=1794798891",
       "genres": [
         "Казуальные игры",
         "Инди"
@@ -517,32 +554,14 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Маленькое семечко — огромный мир. Ловите ветер, отскакивайте от листьев и пройдите 20 ботанических уровней в спокойном физическом приключении. Найдите место, чтобы пустить корни. По желанию можно поддуть в микрофон и немного помочь семечку подняться."
+      "short_description": "This game is a memory game with multiple levels and beautiful graphics. Enjoy!"
     },
     {
-      "appid": "5446440",
-      "name": "Вилла Ансуэло: Биограф мёртвых",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5446440/0311c48a41a7fcc70f48d9ad3b0ee40de778369e/header_russian.jpg?t=1794743536",
+      "appid": "5401460",
+      "name": "Memory Games Ice cream",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5401460/c2db4e5e9ad3fc0c019c8e010c4dc840855e65c0/header.jpg?t=1794798872",
       "genres": [
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Литературный заказ приводит вас в особняк над морем. Раскройте его тайны, выслушайте обитателей и восстановите историю, в которой даже мёртвым ещё есть что сказать."
-    },
-    {
-      "appid": "3175580",
-      "name": "Water Maid",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3175580/header.jpg?t=1794745722",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
+        "Казуальные игры",
         "Инди"
       ],
       "is_free": false,
@@ -552,7 +571,60 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Water Maid is all about fetching water. Run, jump and dash to avoid enemies and find the elusive fresh water springs scattered around the island. Fill up your pot and make it back to the village, safe and sound."
+      "short_description": "This game is a memory game with multiple levels and beautiful graphics. Enjoy!"
+    },
+    {
+      "appid": "5401490",
+      "name": "Memory Games Trains",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5401490/6320f80e43468b86f3b15c764a63cb9fe7ebbabd/header.jpg?t=1794798812",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "This game is a memory game with multiple levels and beautiful graphics. Enjoy!"
+    },
+    {
+      "appid": "5476120",
+      "name": "Cruisopolis: Cruise Line Tycoon",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5476120/5f1b17343e140d3b19497eea3d9fa9de8d7b589b/header.jpg?t=1794783887",
+      "genres": [
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Создайте свою круизную компанию: от речного теплоходика на Рейне до мегалайнера на 5,000 гостей. Обустройте каждую палубу, наймите экипаж, проложите маршруты и порадуйте тысячи пассажиров - или выпустите кракена, грозу и пиратов и проверьте, удержится ли корабль на плаву."
+    },
+    {
+      "appid": "5493880",
+      "name": "Home Sweet Bunker: Bunker Tycoon",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5493880/0daa3a4798bd40ab2544100b5f39e7c7d0c82eb6/header_alt_assets_0_russian.jpg?t=1794785971",
+      "genres": [
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Симулятор управления бункером с чёрным юмором. Стройте вглубь, впускайте выживших и молитесь, чтобы никто не был заражён. Каждую ночь новая напасть: копатели под полом, ползуны в вентиляции, споры в воздухе и крикуны, идущие на шум генераторов."
     },
     {
       "appid": "5458210",
@@ -590,25 +662,6 @@
       "short_description": "Их плоть — ваше оружие. Mortal Shell II — полноценное продолжение первой части. Это ролевой боевик с жестокими и напряженными сражениями. Вселяйтесь в тела выдающихся воинов, свергайте лжебогов и верните к жизни опустошенный мир."
     },
     {
-      "appid": "4684960",
-      "name": "The Kings Last Hand",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4684960/410a116e3e2f0d3f84be57c0405ca7fede134dae/header.jpg?t=1794775225",
-      "genres": [
-        "Приключенческие игры",
-        "Инди",
-        "Ролевые игры",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "The Kingdom is under siege. Gather powerful cards, and build unique defensive strategies to withstand increasingly deadly enemy assaults. Each defeat teaches a lesson. Each victory unlocks new possibilities."
-    },
-    {
       "appid": "4638900",
       "name": "Greedy Getaways",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4638900/9d6d350db85d3a0523908bdf843c4dfb831441e7/header.jpg?t=1794775871",
@@ -625,64 +678,6 @@
       },
       "metacritic": null,
       "short_description": "Grab your friends and cruise aboard Greedy Getaways! Explore tropical islands, haul gold back to the captain, and pocket a little on the side. Wobbly physics, exclusive upgrades, questionable outfits, and a good laugh on every excursion!"
-    },
-    {
-      "appid": "5443080",
-      "name": "Where are my keys?",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5443080/f526c3e3975b87ced7bc8f1ca51df618f6dd0197/header.jpg?t=1794769894",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Lost your car keys at the beach? Or was it the woods? Grab a metal detector and a shovel, dig up junk and treasure, flog it to a shady Fence for upgrades and find those keys, with no rush, before a tsunami hits, or before the bear comes. Play solo or with up to 3 friends in online co-op."
-    },
-    {
-      "appid": "4995460",
-      "name": "Tiny Chef",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4995460/976e580fdf0b1b3d5cbd3087a5e88a0fb27c6b57/header.jpg?t=1794751860",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "A co-op restaurant management sim for 1-4 players. Chop, fry and plate orders against a ticking clock, then spend the takings between shifts on new appliances, conveyor automation, knocked-down walls and a second restaurant across town."
-    },
-    {
-      "appid": "2406770",
-      "name": "Bodycam",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/b533bca55927692f0cf812ebb91c6e6e8f5cb4a6/header_alt_assets_4.jpg?t=1794683329",
-      "genres": [
-        "Экшены",
-        "Инди",
-        "Многопользовательские игры",
-        "Симуляторы",
-        "Стратегии",
-        "Ранний доступ"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Bodycam — это первый тактический многопользовательский шутер от первого лица с настоящим обзором с нательной камеры на движке Unreal Engine 5. Ближние бои кажутся резкими и громкими. Каждый ракурс, выноска и пуля имеют значение. Играйте в Deathmatch, Team Deathmatch и Wingman на фотореалистичных."
     }
   ]
 }
