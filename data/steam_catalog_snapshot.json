@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T21:41:38+03:00",
+  "updatedAt": "2026-11-17T06:00:07+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -469,21 +469,22 @@
       "short_description": "Machinarium — это отмеченная наградами приключенческая игра от создателей Phonopolis, CHUCHEL и серии Samorost. Помогите роботу Йозефу спасти его подружку Берту, похищенную бандитами из Братства Чёрных Шляп!"
     },
     {
-      "appid": "2138710",
-      "name": "Sifu",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138710/header.jpg?t=1782742326",
+      "appid": "362890",
+      "name": "Black Mesa",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/362890/d20df1f51d7569184d35367daaed267ec078a6a3/header_alt_assets_3.jpg?t=1794879173",
       "genres": [
         "Экшены",
+        "Приключенческие игры",
         "Инди"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
-        "linux": false
+        "linux": true
       },
-      "metacritic": 81,
-      "short_description": "Sifu — это реалистичный боевик от третьего лица с напряженными боями в стиле кунг-фу и кинематографическими драками. Герой игры — одинокий воин, который ищет возмездия."
+      "metacritic": 84,
+      "short_description": "Переживите заново Half-Life."
     },
     {
       "appid": "394360",
@@ -503,128 +504,75 @@
       "short_description": "Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation in World War II; the most engaging conflict in world history."
     },
     {
-      "appid": "2680010",
-      "name": "The First Berserker: Khazan",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680010/header.jpg?t=1776936760",
+      "appid": "2605790",
+      "name": "Deep Rock Galactic: Rogue Core",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2605790/8a84d291390183d33a9629e68cdd35ad27d6217b/header_alt_assets_2.jpg?t=1794615194",
       "genres": [
         "Экшены",
+        "Ранний доступ"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "DEEP ROCK GALACTIC: ROGUE CORE — кооперативный роглайт-шутер до 4 игроков. Космические дворфы, инопланетные ужасы и процедурно генерируемые пещеры! Вступайте в элитный отряд Покорителей и прорывайтесь сквозь шахтёрские объекты, кишащие опасными ядрожденными. За скалу и камень!"
+    },
+    {
+      "appid": "5170980",
+      "name": "Crime and Punishment",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5170980/4f2446aa82ae5a511cc9b8a58be568db79e01a06/header_russian.jpg?t=1794848468",
+      "genres": [
         "Приключенческие игры",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "The First Berserker: Khazan — это беспощадный ролевой экшен, в котором вам предстоит стать Казаном, великим генералом империи Пелос, сумевшим преодолеть саму смерть. Отправьтесь на поиски тех, кто обрёк вас на погибель, и расквитайтесь с ними."
-    },
-    {
-      "appid": "3231540",
-      "name": "FaceTrack",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3231540/aeb1ca63a1d6e38acb63646a95a8909f0ffd32a1/header.jpg?t=1794802052",
-      "genres": [
-        "Анимация и моделирование",
-        "Утилиты",
-        "Создание видео",
-        "Разработка игр"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Захватывайте лицевую анимацию с веб-камеры, видео или аудиофайлов для ваших игр, анимаций, VFX и других творческих проектов!"
-    },
-    {
-      "appid": "5401480",
-      "name": "Memory Games Apple",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5401480/eab6f07ad227b3d67b8d408251c327f9ca302601/header.jpg?t=1794798891",
-      "genres": [
         "Казуальные игры",
         "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "This game is a memory game with multiple levels and beautiful graphics. Enjoy!"
-    },
-    {
-      "appid": "5401460",
-      "name": "Memory Games Ice cream",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5401460/c2db4e5e9ad3fc0c019c8e010c4dc840855e65c0/header.jpg?t=1794798872",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "This game is a memory game with multiple levels and beautiful graphics. Enjoy!"
-    },
-    {
-      "appid": "5401490",
-      "name": "Memory Games Trains",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5401490/6320f80e43468b86f3b15c764a63cb9fe7ebbabd/header.jpg?t=1794798812",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "This game is a memory game with multiple levels and beautiful graphics. Enjoy!"
-    },
-    {
-      "appid": "5476120",
-      "name": "Cruisopolis: Cruise Line Tycoon",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5476120/5f1b17343e140d3b19497eea3d9fa9de8d7b589b/header.jpg?t=1794783887",
-      "genres": [
-        "Инди",
-        "Симуляторы",
-        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": true,
-        "linux": false
+        "linux": true
       },
       "metacritic": null,
-      "short_description": "Создайте свою круизную компанию: от речного теплоходика на Рейне до мегалайнера на 5,000 гостей. Обустройте каждую палубу, наймите экипаж, проложите маршруты и порадуйте тысячи пассажиров - или выпустите кракена, грозу и пиратов и проверьте, удержится ли корабль на плаву."
+      "short_description": "Полный, несокращённый текст романа Достоевского в формате визуальной новеллы — с иллюстрированными сценами и необязательными выборами, сохраняющими оригинал."
     },
     {
-      "appid": "5493880",
-      "name": "Home Sweet Bunker: Bunker Tycoon",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5493880/0daa3a4798bd40ab2544100b5f39e7c7d0c82eb6/header_alt_assets_0_russian.jpg?t=1794785971",
+      "appid": "5051520",
+      "name": "Trust Me Fellow",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5051520/5fe304015cbd56517903526be626e0e350c46a5a/header.jpg?t=1794852465",
       "genres": [
-        "Инди",
-        "Симуляторы",
+        "Казуальные игры",
         "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
+        "mac": false,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Симулятор управления бункером с чёрным юмором. Стройте вглубь, впускайте выживших и молитесь, чтобы никто не был заражён. Каждую ночь новая напасть: копатели под полом, ползуны в вентиляции, споры в воздухе и крикуны, идущие на шум генераторов."
+      "short_description": "Психологическая головоломка на дедукцию, в которой вы — слепой крупье. Ваши карты скрыты от вас, но публика их видит. Слушайте подсказки, разоблачайте ложь и откройте все карты O, чтобы победить — одна-единственная X, и игра окончена. Доверяйте с умом!"
+    },
+    {
+      "appid": "5037200",
+      "name": "just volleyball",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5037200/cd1b5a290d15e7379b31dcacc12f1e5b25d37577/header.jpg?t=1794852941",
+      "genres": [
+        "Экшены",
+        "Казуальные игры",
+        "Инди",
+        "Спорт"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "just volleyball is an online and offline volleyball game with unique yet intuitive controls and deep player expression. take on others in anything from 1v1s &amp; 2v2s to full team-based 6v6 matches. there's no right way to play, it's just volleyball!"
     },
     {
       "appid": "5458210",
@@ -645,12 +593,15 @@
       "short_description": "Безумная онлайн-игра про строительство в кооперативе для 1–8 игроков. Создавайте кирпичи, стройте огромную пирамиду и автоматизируйте производство. Собирайте друзей, нанимайте помощников и придумывайте всё более безумные способы доставить кирпичи на вершину!"
     },
     {
-      "appid": "2584270",
-      "name": "Mortal Shell II",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/0a4c23b70ced29fac344186ea564dae67c80cfd6/header.jpg?t=1794241756",
+      "appid": "4405080",
+      "name": "Island Idle RPG: Build and Conquer",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4405080/18bdcf8b6bf6998b61e127699c728ed052ffcf9f/header.jpg?t=1794849151",
       "genres": [
-        "Экшены",
-        "Ролевые игры"
+        "Казуальные игры",
+        "Инди",
+        "Ролевые игры",
+        "Симуляторы",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
@@ -659,25 +610,78 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Их плоть — ваше оружие. Mortal Shell II — полноценное продолжение первой части. Это ролевой боевик с жестокими и напряженными сражениями. Вселяйтесь в тела выдающихся воинов, свергайте лжебогов и верните к жизни опустошенный мир."
+      "short_description": "Lead a team of fox workers to build a thriving settlement, click to gather resources or let them work, and craft powerful gear. Prepare your leader to explore dungeons, defeat bosses, and bring home valuable loot as you conquer new islands in this relaxing idle RPG with clicker mechanics."
     },
     {
-      "appid": "4638900",
-      "name": "Greedy Getaways",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4638900/9d6d350db85d3a0523908bdf843c4dfb831441e7/header.jpg?t=1794775871",
+      "appid": "4101480",
+      "name": "The Christmas Bakeshop",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4101480/a8de6ce393e31d81e9ce0cd3e4fe9f66257e0d90/header.jpg?t=1794867304",
+      "genres": [
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Supply festive breads, pastries, and sweet treats while serving cheerful customers and keeping your shop warm and welcoming. Expand your bakery, discover new recipes, and make your cozy little corner the heart of the town this holiday season."
+    },
+    {
+      "appid": "5380110",
+      "name": "Peekour",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5380110/9cc5078862762103a667deea60af9023f19ed4fd/header.jpg?t=1794847361",
       "genres": [
         "Экшены",
-        "Приключенческие игры",
         "Инди"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Peekour is a 2D pixel art platformer. YOU desperately need to pee and only the final toilet counts! Run, jump and parkour through 6+ levels. Collect coins and bottles of water to get more pee, and customize your experience with 40+ skins."
+    },
+    {
+      "appid": "3321460",
+      "name": "Crimson Desert Enhanced",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/236f3814be7a97d86831800691b6096d449222a8/header.jpg?t=1794478066",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Grab your friends and cruise aboard Greedy Getaways! Explore tropical islands, haul gold back to the captain, and pocket a little on the side. Wobbly physics, exclusive upgrades, questionable outfits, and a good laugh on every excursion!"
+      "short_description": "Crimson Desert – это action adventure игра с открытым миром, действие которой разворачивается на континенте Пайвел. Присоединяйтесь к Клиффу, чтобы вернуть потерянное и спасти мир от надвигающейся угрозы. Исследуйте бескрайние просторы и тайны Бездны, прокладывая свой путь через сражения и открытия."
+    },
+    {
+      "appid": "2406770",
+      "name": "Bodycam",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/b533bca55927692f0cf812ebb91c6e6e8f5cb4a6/header_alt_assets_4.jpg?t=1794683329",
+      "genres": [
+        "Экшены",
+        "Инди",
+        "Многопользовательские игры",
+        "Симуляторы",
+        "Стратегии",
+        "Ранний доступ"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Bodycam — это первый тактический многопользовательский шутер от первого лица с настоящим обзором с нательной камеры на движке Unreal Engine 5. Ближние бои кажутся резкими и громкими. Каждый ракурс, выноска и пуля имеют значение. Играйте в Deathmatch, Team Deathmatch и Wingman на фотореалистичных."
     }
   ]
 }
