@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T06:00:07+03:00",
+  "updatedAt": "2026-11-17T16:39:06+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -452,23 +452,6 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "40700",
-      "name": "Machinarium",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/40700/header.jpg?t=1791501193",
-      "genres": [
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": 85,
-      "short_description": "Machinarium — это отмеченная наградами приключенческая игра от создателей Phonopolis, CHUCHEL и серии Samorost. Помогите роботу Йозефу спасти его подружку Берту, похищенную бандитами из Братства Чёрных Шляп!"
-    },
-    {
       "appid": "362890",
       "name": "Black Mesa",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/362890/d20df1f51d7569184d35367daaed267ec078a6a3/header_alt_assets_3.jpg?t=1794879173",
@@ -504,66 +487,65 @@
       "short_description": "Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation in World War II; the most engaging conflict in world history."
     },
     {
-      "appid": "2605790",
-      "name": "Deep Rock Galactic: Rogue Core",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2605790/8a84d291390183d33a9629e68cdd35ad27d6217b/header_alt_assets_2.jpg?t=1794615194",
-      "genres": [
-        "Экшены",
-        "Ранний доступ"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "DEEP ROCK GALACTIC: ROGUE CORE — кооперативный роглайт-шутер до 4 игроков. Космические дворфы, инопланетные ужасы и процедурно генерируемые пещеры! Вступайте в элитный отряд Покорителей и прорывайтесь сквозь шахтёрские объекты, кишащие опасными ядрожденными. За скалу и камень!"
-    },
-    {
-      "appid": "5170980",
-      "name": "Crime and Punishment",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5170980/4f2446aa82ae5a511cc9b8a58be568db79e01a06/header_russian.jpg?t=1794848468",
+      "appid": "1569580",
+      "name": "Blue Prince",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1569580/879ac248a3b548a6bbc32771b950756378e7e922/header.jpg?t=1794319403",
       "genres": [
         "Приключенческие игры",
-        "Казуальные игры",
-        "Инди"
+        "Инди",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": true,
-        "linux": true
+        "linux": false
       },
-      "metacritic": null,
-      "short_description": "Полный, несокращённый текст романа Достоевского в формате визуальной новеллы — с иллюстрированными сценами и необязательными выборами, сохраняющими оригинал."
+      "metacritic": 92,
+      "short_description": "Разгадайте все тайны особняка Маунт-Холли в новой игре с элементами стратегии и головоломки. Пробирайтесь по коридорам, меняющим направление, исследуйте комнаты, разгадывайте загадки и найдите дорогу к таинственной комнате номер 46."
     },
     {
-      "appid": "5051520",
-      "name": "Trust Me Fellow",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5051520/5fe304015cbd56517903526be626e0e350c46a5a/header.jpg?t=1794852465",
+      "appid": "3506150",
+      "name": "Booty Battler",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3506150/d2e474450177726f64b4f6a10fbfef3a6694c96d/header.jpg?t=1794872561",
       "genres": [
-        "Казуальные игры",
+        "Инди",
         "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
-        "linux": false
+        "linux": true
       },
       "metacritic": null,
-      "short_description": "Психологическая головоломка на дедукцию, в которой вы — слепой крупье. Ваши карты скрыты от вас, но публика их видит. Слушайте подсказки, разоблачайте ложь и откройте все карты O, чтобы победить — одна-единственная X, и игра окончена. Доверяйте с умом!"
+      "short_description": "SinglePlayer Roguelike meets Auto-Battler Card game! Manage a crew of pirates to fight through endless auto-battles while collecting powerful relics, managing cursed loot, upgrading the ship and casting spells."
     },
     {
-      "appid": "5037200",
-      "name": "just volleyball",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5037200/cd1b5a290d15e7379b31dcacc12f1e5b25d37577/header.jpg?t=1794852941",
+      "appid": "4832280",
+      "name": "Kern",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4832280/854f33bcb16566e4eb5c6fe15eeae8631b18f6f5/header.jpg?t=1794872150",
       "genres": [
         "Экшены",
+        "Казуальные игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "It's a tower defence game with a skill tree. Play as the pilot that crash the spaceship in the unknown white space. Defend the spaceship from a horde of enemies through multiple stages while fixing the ship to escape from this place."
+    },
+    {
+      "appid": "5066010",
+      "name": "Here Comes the Horde",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066010/660ba25cbec114093ff8245eeafc64e779518a05/header.jpg?t=1794853555",
+      "genres": [
         "Казуальные игры",
         "Инди",
-        "Спорт"
+        "Ролевые игры"
       ],
       "is_free": false,
       "platforms": {
@@ -572,34 +554,14 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "just volleyball is an online and offline volleyball game with unique yet intuitive controls and deep player expression. take on others in anything from 1v1s &amp; 2v2s to full team-based 6v6 matches. there's no right way to play, it's just volleyball!"
+      "short_description": "В авто-баттлере Here Comes the Horde вам предстоит собирать несметные армии, чтобы защитить замок от орд нежити! Сражайтесь с волнами врагов, открывайте новых бойцов, усиливайте войска и превращайте поле боя в настоящее море из тысяч солдат!"
     },
     {
-      "appid": "5458210",
-      "name": "How They Built the Pyramids",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5458210/e8525d1cf30149534fbc6b2ee780a2dddc2f328b/header.jpg?t=1794589252",
+      "appid": "5489550",
+      "name": "溪桥志",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5489550/46f3bcc69f0f168936b2f7089e239e9f0e2b6b7d/header.jpg?t=1794922337",
       "genres": [
-        "Казуальные игры",
         "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Безумная онлайн-игра про строительство в кооперативе для 1–8 игроков. Создавайте кирпичи, стройте огромную пирамиду и автоматизируйте производство. Собирайте друзей, нанимайте помощников и придумывайте всё более безумные способы доставить кирпичи на вершину!"
-    },
-    {
-      "appid": "4405080",
-      "name": "Island Idle RPG: Build and Conquer",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4405080/18bdcf8b6bf6998b61e127699c728ed052ffcf9f/header.jpg?t=1794849151",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Ролевые игры",
         "Симуляторы",
         "Стратегии"
       ],
@@ -610,40 +572,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Lead a team of fox workers to build a thriving settlement, click to gather resources or let them work, and craft powerful gear. Prepare your leader to explore dungeons, defeat bosses, and bring home valuable loot as you conquer new islands in this relaxing idle RPG with clicker mechanics."
-    },
-    {
-      "appid": "4101480",
-      "name": "The Christmas Bakeshop",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4101480/a8de6ce393e31d81e9ce0cd3e4fe9f66257e0d90/header.jpg?t=1794867304",
-      "genres": [
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Supply festive breads, pastries, and sweet treats while serving cheerful customers and keeping your shop warm and welcoming. Expand your bakery, discover new recipes, and make your cozy little corner the heart of the town this holiday season."
-    },
-    {
-      "appid": "5380110",
-      "name": "Peekour",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5380110/9cc5078862762103a667deea60af9023f19ed4fd/header.jpg?t=1794847361",
-      "genres": [
-        "Экшены",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Peekour is a 2D pixel art platformer. YOU desperately need to pee and only the final toilet counts! Run, jump and parkour through 6+ levels. Collect coins and bottles of water to get more pee, and customize your experience with 40+ skins."
+      "short_description": "Build a village in Song-era China with knowledge from the modern world. Plan homes and workshops, assign villagers, research and trade. Muster a roster of up to 24 soldiers for two three-battle campaigns, then return home to tend your growing settlement."
     },
     {
       "appid": "3321460",
@@ -682,6 +611,77 @@
       },
       "metacritic": null,
       "short_description": "Bodycam — это первый тактический многопользовательский шутер от первого лица с настоящим обзором с нательной камеры на движке Unreal Engine 5. Ближние бои кажутся резкими и громкими. Каждый ракурс, выноска и пуля имеют значение. Играйте в Deathmatch, Team Deathmatch и Wingman на фотореалистичных."
+    },
+    {
+      "appid": "3883050",
+      "name": "Monkeys!¡",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883050/05b7ce261f4098cb45ab1163626ac8f5a44d8c07/header.jpg?t=1794900659",
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A romanti-slapstick comedy visual novel from the creative team at HARUKAZE. Saruyoshi, the world's greatest delinquent, must infiltrate the world's most prestigious school for ladies in order to save his boys'-school comrades!"
+    },
+    {
+      "appid": "4626680",
+      "name": "STEEL GULLET",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4626680/18ecf80120ebd7e2e46a9a6a5f0f5d9718b2dee2/header.jpg?t=1794878363",
+      "genres": [
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Игра про автоматизацию завода, где всё решает физика. Плавьте, разделяйте и очищайте хаотичный лом по законам термодинамики. Материалы считаются по массе, а не поштучно, изделия зависят от их свойств, а сложные линии нужно уместить в тесное пространство."
+    },
+    {
+      "appid": "5073610",
+      "name": "Pegs of Hell",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5073610/da2ddb0c60f29fb6ced4c068fd2bd56597b4743b/header.jpg?t=1794909283",
+      "genres": [
+        "Казуальные игры",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Физический рогалик, где ты сам строишь поле для патинко. Расставляй и улучшай колышки, сочетай мощные арканы, разделяй шарики и запускай цепи стихий. Создавай безумные машины для набора очков, пока тебя не настигла адская аренда."
+    },
+    {
+      "appid": "5197010",
+      "name": "Pump And Dump",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5197010/3be4ce252949a8ec4716f5e0de1ac6783c7350b0/header.jpg?t=1794911618",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A trading roguelite set in 1987. Play scheme cards to pump stocks, sell to dentists over the phone and keep the SEC off your back. Eight weeks to get your name on the door, then the dot-com bubble, the 2008 crash and the 2021 app craze."
     }
   ]
 }
