@@ -1,35 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-11-16T21:42:12+03:00",
+ "updatedAt": "2026-11-17T03:46:30+03:00",
  "posted": {
   "news": [
-   "2e6171225d76",
-   "d38ea285f691",
-   "a6e37c8cc2d6",
-   "cf836c4ad09b",
-   "766137b3f3af",
-   "41c25a9f8527",
-   "261581642150",
-   "52cd820d5cc4",
-   "4f5fcadd8111",
-   "917c9005ffcc",
-   "ba3504129c68",
-   "bba725845c0e",
-   "4aa946cc97df",
-   "1e7470765f80",
-   "303e575fa268",
-   "81faf1ba0509",
-   "a3ac23ba7085",
-   "ffcf1f7aa688",
-   "d767e8150fa3",
-   "9ddaed22c9c1",
-   "19bba8922d1d",
-   "4c58e6830490",
-   "864f1b62db5c",
-   "7b078525f3e2",
-   "384cba0b0b67",
-   "471b02d9bc75",
-   "c115864db9bb",
    "048fac7b2c9d",
    "81740f3f422c",
    "57d45f9e4195",
@@ -502,7 +475,34 @@
    "69ace064e40e",
    "284794d55f0b",
    "e1236011deb7",
-   "8f80a867e225"
+   "8f80a867e225",
+   "8f37501e0189",
+   "e9f58155a3d5",
+   "6e5450f316bf",
+   "834f7db223b0",
+   "4d7e5e15a9de",
+   "161fcc611ba2",
+   "6377fcc26510",
+   "98a4844c401a",
+   "a26dd5dbf17a",
+   "9a9fd863e404",
+   "11405b92c1cd",
+   "aed2ea4ac3e5",
+   "676594624176",
+   "3cbbcfadde67",
+   "6c4001af35ad",
+   "6cb853d27d90",
+   "d40eca71c677",
+   "ca8a4cf01202",
+   "4422ceee2dda",
+   "c245c4c09f0c",
+   "1ae66e777904",
+   "e32bf8291143",
+   "202c6dffec0c",
+   "1f2265541d45",
+   "f7af54774c1c",
+   "fa84cee3e9e5",
+   "afa5bd7da4ca"
   ],
   "deals": [
    "steam-246420:90",
@@ -650,7 +650,6 @@
    "epic-9975548b6d404a94b8a9bdb34cad49e9:now"
   ],
   "esports": [
-   "result:bo3-130692",
    "result:bo3-130693",
    "result:bo3-130757",
    "result:bo3-129961",
@@ -1149,7 +1148,8 @@
    "live:bo3-132600",
    "live:bo3-133709",
    "result:bo3-132600",
-   "digest:2026-11-16"
+   "digest:2026-11-16",
+   "digest:2026-11-17"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -1205,19 +1205,6 @@
    "apex:2026-11-12"
   ],
   "videos": [
-   "wTvU7qE4TUc",
-   "gCqw0DkWoUk",
-   "Zp8zyWrVUTY",
-   "CTYFJAi6e2A",
-   "n93j-y53SGI",
-   "ILXsBB3UwSQ",
-   "qJwibMqAi98",
-   "AI0JhqZGfv4",
-   "iQ5V4f0zy1I",
-   "rdipIxgqMsI",
-   "oZzjrFdW8Z8",
-   "M6QVk4odkog",
-   "gFmb1P1fs8k",
    "z2j4zkmNcSI",
    "M3baRMZ1fes",
    "_TtYdxUstmA",
@@ -1704,7 +1691,20 @@
    "0oEZJqtM5xc",
    "ti1EwTZyfN8",
    "Q747LpUuLTA",
-   "E60k_Zzs4NE"
+   "E60k_Zzs4NE",
+   "-U3O0r-fhNM",
+   "G27VQ8-DXuk",
+   "71ep0-aJJMQ",
+   "7y-J4bzeI_g",
+   "GkgCA7ziXkY",
+   "H7aN8BDbOVo",
+   "IyvqAS4QIq4",
+   "U3vfDjKSOKQ",
+   "7PLhEMgXdQs",
+   "4gLuiOwwAR4",
+   "HDO9OTNlptw",
+   "5xGsiOB2nc8",
+   "nMD6WHdV9ss"
   ],
   "releases": [
    "week:2026-W39",
@@ -1805,14 +1805,14 @@
    "day:2026-11-12:x-pikmin-4-nintendo-switch-2-dandori-academy",
    "day:2026-11-12:4304060",
    "week:2026-W47",
-   "day:2026-11-16:4171850"
+   "day:2026-11-16:4171850",
+   "day:2026-11-17:4707700"
   ],
   "gotd": [
    "gotd:2026-09-24"
   ]
  },
  "matchPings": [
-  "2026-11-14T13:38+03:00",
   "2026-11-15T01:47+03:00",
   "2026-11-15T14:09+03:00"
  ],
@@ -1836,8 +1836,6 @@
   }
  },
  "dealPosts": [
-  "2026-11-14T02:42+03:00",
-  "2026-11-14T23:48+03:00",
   "2026-11-16T01:59+03:00",
   "2026-11-16T21:42+03:00"
  ]
