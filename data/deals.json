@@ -1,7 +1,17 @@
 {
-  "updatedAt": "2026-11-18T01:30:08+03:00",
+  "updatedAt": "2026-11-18T10:43:13+03:00",
   "source": "steam-specials-ru",
   "deals": [
+    {
+      "id": "steam-1544020",
+      "title": "The Callisto Protocol",
+      "store": "Steam",
+      "old": 1900,
+      "neu": 285,
+      "pct": 85,
+      "url": "https://store.steampowered.com/app/1544020/",
+      "steamAppId": "1544020"
+    },
     {
       "id": "steam-227300",
       "title": "Euro Truck Simulator 2",
@@ -13,14 +23,14 @@
       "steamAppId": "227300"
     },
     {
-      "id": "steam-362890",
-      "title": "Black Mesa",
+      "id": "steam-1817230",
+      "title": "Hi-Fi RUSH",
       "store": "Steam",
-      "old": 710,
-      "neu": 177,
-      "pct": 75,
-      "url": "https://store.steampowered.com/app/362890/",
-      "steamAppId": "362890"
+      "old": 1199,
+      "neu": 539,
+      "pct": 55,
+      "url": "https://store.steampowered.com/app/1817230/",
+      "steamAppId": "1817230"
     },
     {
       "id": "steam-1627720",
@@ -43,34 +53,14 @@
       "steamAppId": "332570"
     },
     {
-      "id": "steam-5464740",
-      "title": "Observation Post 7",
+      "id": "steam-4917760",
+      "title": "Hentai Academy: UNDERTOW",
       "store": "Steam",
-      "old": 690,
-      "neu": 414,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5464740/",
-      "steamAppId": "5464740"
-    },
-    {
-      "id": "steam-4330500",
-      "title": "Zone Idle",
-      "store": "Steam",
-      "old": 385,
-      "neu": 231,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/4330500/",
-      "steamAppId": "4330500"
-    },
-    {
-      "id": "steam-5340870",
-      "title": "Underbloom",
-      "store": "Steam",
-      "old": 150,
-      "neu": 90,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5340870/",
-      "steamAppId": "5340870"
+      "old": 465,
+      "neu": 325,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/4917760/",
+      "steamAppId": "4917760"
     },
     {
       "id": "steam-5066010",
@@ -83,14 +73,24 @@
       "steamAppId": "5066010"
     },
     {
-      "id": "steam-5423090",
-      "title": "The Magician: Tidy Up the Magic Decks!",
+      "id": "steam-5426860",
+      "title": "Elf World Adventure 14",
       "store": "Steam",
-      "old": 245,
-      "neu": 171,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/5423090/",
-      "steamAppId": "5423090"
+      "old": 195,
+      "neu": 146,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/5426860/",
+      "steamAppId": "5426860"
+    },
+    {
+      "id": "steam-4787650",
+      "title": "Elf World Adventure 13",
+      "store": "Steam",
+      "old": 195,
+      "neu": 146,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/4787650/",
+      "steamAppId": "4787650"
     },
     {
       "id": "steam-3321460",
@@ -113,34 +113,34 @@
       "steamAppId": "2406770"
     },
     {
-      "id": "steam-5226670",
-      "title": "Type to Survive",
+      "id": "steam-5501410",
+      "title": "REACTIONESE",
       "store": "Steam",
-      "old": 790,
-      "neu": 632,
+      "old": 395,
+      "neu": 316,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/5226670/",
-      "steamAppId": "5226670"
+      "url": "https://store.steampowered.com/app/5501410/",
+      "steamAppId": "5501410"
     },
     {
-      "id": "steam-5461360",
-      "title": "Dungeon Delvers",
+      "id": "steam-5120640",
+      "title": "世界防衛少女!!-DEFENDER MAIDEN-",
       "store": "Steam",
-      "old": 445,
-      "neu": 356,
+      "old": 280,
+      "neu": 224,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/5461360/",
-      "steamAppId": "5461360"
+      "url": "https://store.steampowered.com/app/5120640/",
+      "steamAppId": "5120640"
     },
     {
-      "id": "steam-5438180",
-      "title": "vlaina",
+      "id": "steam-5071360",
+      "title": "Prevail",
       "store": "Steam",
-      "old": 445,
-      "neu": 356,
+      "old": 245,
+      "neu": 196,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/5438180/",
-      "steamAppId": "5438180"
+      "url": "https://store.steampowered.com/app/5071360/",
+      "steamAppId": "5071360"
     }
   ]
 }

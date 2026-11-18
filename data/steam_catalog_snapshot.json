@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T01:30:03+03:00",
+  "updatedAt": "2026-11-18T10:43:08+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -63,7 +63,7 @@
     {
       "appid": "1172470",
       "name": "Apex Legends™",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/dc5c390e9a273a7248f75c1b2d59987f6179323c/header_alt_assets_7.jpg?t=1794339458",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/dc5c390e9a273a7248f75c1b2d59987f6179323c/header_alt_assets_7.jpg?t=1794958367",
       "genres": [
         "Экшены",
         "Приключенческие игры",
@@ -470,47 +470,105 @@
       "short_description": "Переживите заново Half-Life."
     },
     {
-      "appid": "394360",
-      "name": "Hearts of Iron IV",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/67bbd0057627fc2244793bcdd09260c2539499cf/header.jpg?t=1794491980",
+      "appid": "1627720",
+      "name": "Lies of P",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627720/header.jpg?t=1794963244",
       "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Lies of P — захватывающая игра в жанре soulslike, в которой знакомый сюжет сказки «Пиноккио» развернется в мрачных, но элегантных декорациях Прекрасной эпохи."
+    },
+    {
+      "appid": "332570",
+      "name": "Amazing Frog?",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/332570/822e30280a7320a70c6ed05cb7b0eb7e504b33c8/header_alt_assets_7.jpg?t=1794929790",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Ранний доступ"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Amazing Frog? is an openworld, sandbox, physics game. Grand Frog Auto in Swindon, with farting ragdoll frogs."
+    },
+    {
+      "appid": "5464740",
+      "name": "Observation Post 7",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5464740/22f455e2e78c856e0d6a658c1b1e3ce1397ef860/header.jpg?t=1794952472",
+      "genres": [
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A dystopian surveillance sim. Work the CCTV cameras of Observation Post 7: spot the crime, judge the citizens, meet your quota. Then walk home through five island cities to the daughter who waits for you. Every report has a price. Every choice decides how it ends."
+    },
+    {
+      "appid": "4330500",
+      "name": "Zone Idle",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4330500/e28de95a917335f96b1760a21ecc648973f64d13/header.jpg?t=1794947889",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
         "Симуляторы",
         "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
-        "linux": true
+        "mac": false,
+        "linux": false
       },
-      "metacritic": 83,
-      "short_description": "Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation in World War II; the most engaging conflict in world history."
+      "metacritic": null,
+      "short_description": "An incremental extraction simulator set in a ruthless world inspired by the extraction genre and book Roadside Picnic. Manage your inventory, navigate hazardous events, and upgrade your hideout. Same tension, but with time to think."
     },
     {
-      "appid": "850190",
-      "name": "Goat Simulator 3",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/850190/1fdfd5943b8b4a5a50a7b0868c680b1d8618d0e3/header_alt_assets_8_russian.jpg?t=1794494565",
+      "appid": "5340870",
+      "name": "Underbloom",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5340870/fa63a0fdbf38c83c6482fc148073c806df6507e6/header.jpg?t=1794940251",
       "genres": [
-        "Приключенческие игры",
         "Казуальные игры",
+        "Инди",
         "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
-        "linux": false
+        "linux": true
       },
       "metacritic": null,
-      "short_description": "Пилгор вернулась! Собирайте стадо и отправляйтесь в Goat Simulator 3 — новую (для Steam, во всяком случае) реалистичную «песочницу» на ферме. Пригласите до трёх друзей в совместную игру локально или по сети. Сейте хаос, соперничайте в мини-играх. А потом можете рассориться навеки."
+      "short_description": "Под лесом, который забыл, как расти, просыпается маленький гриб. Раскинь светящуюся грибницу по девяти скрытым мирам, познакомься со странными соседями и разбуди Сердцесемя. Уютная инкрементальная игра с настоящим финалом."
     },
     {
-      "appid": "5537920",
-      "name": "101 Dogs Hidden in Kuala Lumpur",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5537920/7410ad535baa6be68c52747819b4227c2943064f/header.jpg?t=1794906449",
+      "appid": "5066010",
+      "name": "Here Comes the Horde",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066010/660ba25cbec114093ff8245eeafc64e779518a05/header.jpg?t=1794853555",
       "genres": [
         "Казуальные игры",
-        "Инди"
+        "Инди",
+        "Ролевые игры"
       ],
       "is_free": false,
       "platforms": {
@@ -519,63 +577,12 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Присоединяйтесь к этому приключению и откройте для себя тайники 101 собаки в Куала-Лумпуре 🐾 на созданном вручную ландшафте. 🏆 Зарабатывайте множество достижений. Сколько 🐶 вы сможете найти? 🔎 Поторопитесь! ⏱️"
+      "short_description": "В авто-баттлере Here Comes the Horde вам предстоит собирать несметные армии, чтобы защитить замок от орд нежити! Сражайтесь с волнами врагов, открывайте новых бойцов, усиливайте войска и превращайте поле боя в настоящее море из тысяч солдат!"
     },
     {
-      "appid": "5401530",
-      "name": "Memory Games Cows",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5401530/f8a1dd733d783d9520c869c369cd6c0d621e60a2/header.jpg?t=1794919399",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "This game is a memory game with multiple levels and beautiful graphics. Enjoy!"
-    },
-    {
-      "appid": "5401520",
-      "name": "Memory Games Fairytale Birds",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5401520/f7e04db1e30ccf4f1686dce6e064b6fa20ec3cf5/header.jpg?t=1794919384",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "This game is a memory game with multiple levels and beautiful graphics. Enjoy!"
-    },
-    {
-      "appid": "5401500",
-      "name": "Memory Games Dragonflies",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5401500/29d5a8acd974314157cc8f2b449a7e0fad57b41a/header.jpg?t=1794919305",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "This game is a memory game with multiple levels and beautiful graphics. Enjoy!"
-    },
-    {
-      "appid": "5337410",
-      "name": "桌面仙尊",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5337410/a25b2c108820dc0bfe670497f7927490796a712e/header.jpg?t=1794912870",
+      "appid": "5423090",
+      "name": "The Magician: Tidy Up the Magic Decks!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5423090/9baa0b5dc15f5e10506546abba069dabe27eebb0/header.jpg?t=1794944007",
       "genres": [
         "Казуальные игры",
         "Инди",
@@ -588,58 +595,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "An idle cultivation game that lives in the corner of your desktop. Meditate for Qi, break through realms by hand, hunt monsters for gear, and keep cultivating after you close the window."
-    },
-    {
-      "appid": "5441620",
-      "name": "Shadow at Noon",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5441620/8f481eb37ec24dd2b2d8c93fe8256d794f7d7003/header.jpg?t=1794910789",
-      "genres": [
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Noon casts the shortest shadows. A honkaku mystery told as an interactive sound novel: every clue is in black and white, on pages you've read. Amesaka, winter 2015. A son lies dead at the foot of the stairs; by morning the housekeeper has confessed. The soup spilled on the steps is still warm."
-    },
-    {
-      "appid": "4707700",
-      "name": "Gold Mining Simulator - Definitive Edition",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4707700/e25d301bd345da1734990375d2669e9f34f438fb/header.jpg?t=1794923888",
-      "genres": [
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Gold Mining Simulator: Definitive Edition - окончательная версия игры, включающая все ранее выпущенные дополнения, новый контент, улучшения игрового процесса и графики, а также множество изменений, повышающих удобство игры, - всё для максимально полного опыта золотодобычи."
-    },
-    {
-      "appid": "4546380",
-      "name": "Zero Sum",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4546380/3ab5c8a0a0f200008eafde6b4ac588074379153e/header.jpg?t=1794913614",
-      "genres": [
-        "Экшены",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Твин-стик рогалик-головоломка, где враги — живые числа, а ваше оружие — операторы. Комбинируйте +, −, ÷, ×, %, √ и Σ, избегайте остатков, собирайте мощные Чистые комбо и сводите орду к точному нулю. Ты завалил математику. А математика не забыла."
+      "short_description": "A cozy single-player simulation where you play as a magician bringing order to a magical mess. Search for scattered cards, sort them into their proper decks, and use your magic to tidy up. Don't forget to find your missing rabbits and doves along the way!"
     },
     {
       "appid": "3321460",
@@ -659,21 +615,76 @@
       "short_description": "Crimson Desert – это action adventure игра с открытым миром, действие которой разворачивается на континенте Пайвел. Присоединяйтесь к Клиффу, чтобы вернуть потерянное и спасти мир от надвигающейся угрозы. Исследуйте бескрайние просторы и тайны Бездны, прокладывая свой путь через сражения и открытия."
     },
     {
-      "appid": "5012180",
-      "name": "Stellar Courier",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5012180/babd115cdbea5eaa5f06e4f6977924fae76fa6f9/header.jpg?t=1794914077",
+      "appid": "2406770",
+      "name": "Bodycam",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/677415ebaf02fc7ae5fe8960e6055e65e9fa21a4/header_alt_assets_4.jpg?t=1794951323",
       "genres": [
         "Экшены",
-        "Симуляторы"
+        "Инди",
+        "Многопользовательские игры",
+        "Симуляторы",
+        "Стратегии",
+        "Ранний доступ"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
-        "linux": true
+        "linux": false
       },
       "metacritic": null,
-      "short_description": "Arcade space shooter. You are a courier with one package to deliver across a broken galaxy. Plane-like flight, fights with pirates, the old army and aliens in a 20+ mission story campaign. Pick your ship and mods between missions. No grind, no filler."
+      "short_description": "Bodycam — это первый тактический многопользовательский шутер от первого лица с настоящим обзором с нательной камеры на движке Unreal Engine 5. Ближние бои кажутся резкими и громкими. Каждый ракурс, выноска и пуля имеют значение. Играйте в Deathmatch, Team Deathmatch и Wingman на фотореалистичных."
+    },
+    {
+      "appid": "5226670",
+      "name": "Type to Survive",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5226670/f348bdcb0e603e4ad00a93bf03d506fccb4c307a/header.jpg?t=1794951897",
+      "genres": [
+        "Экшены",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Steer through the horde while your weapons fire. Type words or enter controller sequences to kill elites and crack shields. Build a ridiculous arsenal in this survival roguelike, chase solo keyboard scores, or share one hero in local co-op: keyboard + gamepad or two controllers."
+    },
+    {
+      "appid": "5461360",
+      "name": "Dungeon Delvers",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5461360/3f2a9897b898650c65a25fafffdd27ccca7208fd/header.jpg?t=1794950938",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Battle through ten shifting voxel regions with 100+ weapons, breakable cover, traps and bosses. Dodge bullets, flip tables and make the most of every lucky drop. Rescue allies, unlock pets and customise your delver. Play solo or with a friend in online or shared-screen local co-op."
+    },
+    {
+      "appid": "5438180",
+      "name": "vlaina",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5438180/f387fb3a4c61323130762dd7eb3414c0159bb079/header.jpg?t=1794983990",
+      "genres": [
+        "Утилиты"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Vlaina — милое приложение для рабочего стола с поддержкой Live2D. Любимые персонажи составят вам компанию во время работы, учёбы и игр. Они реагируют на клавиатуру и мышь. Меняйте модели, размер и положение, чтобы создать своего настольного компаньона."
     }
   ]
 }
