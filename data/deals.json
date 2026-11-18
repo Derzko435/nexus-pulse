@@ -1,17 +1,7 @@
 {
-  "updatedAt": "2026-11-18T10:43:13+03:00",
+  "updatedAt": "2026-11-18T20:22:20+03:00",
   "source": "steam-specials-ru",
   "deals": [
-    {
-      "id": "steam-1544020",
-      "title": "The Callisto Protocol",
-      "store": "Steam",
-      "old": 1900,
-      "neu": 285,
-      "pct": 85,
-      "url": "https://store.steampowered.com/app/1544020/",
-      "steamAppId": "1544020"
-    },
     {
       "id": "steam-227300",
       "title": "Euro Truck Simulator 2",
@@ -23,14 +13,24 @@
       "steamAppId": "227300"
     },
     {
-      "id": "steam-1817230",
-      "title": "Hi-Fi RUSH",
+      "id": "steam-394360",
+      "title": "Hearts of Iron IV",
       "store": "Steam",
-      "old": 1199,
-      "neu": 539,
-      "pct": 55,
-      "url": "https://store.steampowered.com/app/1817230/",
-      "steamAppId": "1817230"
+      "old": 3049,
+      "neu": 914,
+      "pct": 70,
+      "url": "https://store.steampowered.com/app/394360/",
+      "steamAppId": "394360"
+    },
+    {
+      "id": "steam-850190",
+      "title": "Goat Simulator 3",
+      "store": "Steam",
+      "old": 1100,
+      "neu": 330,
+      "pct": 70,
+      "url": "https://store.steampowered.com/app/850190/",
+      "steamAppId": "850190"
     },
     {
       "id": "steam-1627720",
@@ -53,14 +53,54 @@
       "steamAppId": "332570"
     },
     {
-      "id": "steam-4917760",
-      "title": "Hentai Academy: UNDERTOW",
+      "id": "steam-3739580",
+      "title": "KORRIDOR",
       "store": "Steam",
-      "old": 465,
-      "neu": 325,
+      "old": 360,
+      "neu": 216,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/3739580/",
+      "steamAppId": "3739580"
+    },
+    {
+      "id": "steam-2464640",
+      "title": "Forsaken Lands",
+      "store": "Steam",
+      "old": 505,
+      "neu": 328,
+      "pct": 35,
+      "url": "https://store.steampowered.com/app/2464640/",
+      "steamAppId": "2464640"
+    },
+    {
+      "id": "steam-2960760",
+      "title": "Greed Forest TD",
+      "store": "Steam",
+      "old": 460,
+      "neu": 299,
+      "pct": 35,
+      "url": "https://store.steampowered.com/app/2960760/",
+      "steamAppId": "2960760"
+    },
+    {
+      "id": "steam-5509560",
+      "title": "Beauty Store Tidy Up Together",
+      "store": "Steam",
+      "old": 171,
+      "neu": 116,
+      "pct": 32,
+      "url": "https://store.steampowered.com/app/5509560/",
+      "steamAppId": "5509560"
+    },
+    {
+      "id": "steam-2384980",
+      "title": "Cafe Simulator",
+      "store": "Steam",
+      "old": 690,
+      "neu": 483,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/4917760/",
-      "steamAppId": "4917760"
+      "url": "https://store.steampowered.com/app/2384980/",
+      "steamAppId": "2384980"
     },
     {
       "id": "steam-5066010",
@@ -73,74 +113,34 @@
       "steamAppId": "5066010"
     },
     {
-      "id": "steam-5426860",
-      "title": "Elf World Adventure 14",
+      "id": "steam-2772330",
+      "title": "Goblington",
       "store": "Steam",
-      "old": 195,
-      "neu": 146,
+      "old": 690,
+      "neu": 517,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/5426860/",
-      "steamAppId": "5426860"
+      "url": "https://store.steampowered.com/app/2772330/",
+      "steamAppId": "2772330"
     },
     {
-      "id": "steam-4787650",
-      "title": "Elf World Adventure 13",
-      "store": "Steam",
-      "old": 195,
-      "neu": 146,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/4787650/",
-      "steamAppId": "4787650"
-    },
-    {
-      "id": "steam-3321460",
-      "title": "Crimson Desert Enhanced",
-      "store": "Steam",
-      "old": 4299,
-      "neu": 3439,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/3321460/",
-      "steamAppId": "3321460"
-    },
-    {
-      "id": "steam-2406770",
-      "title": "Bodycam",
-      "store": "Steam",
-      "old": 1200,
-      "neu": 960,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/2406770/",
-      "steamAppId": "2406770"
-    },
-    {
-      "id": "steam-5501410",
-      "title": "REACTIONESE",
-      "store": "Steam",
-      "old": 395,
-      "neu": 316,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5501410/",
-      "steamAppId": "5501410"
-    },
-    {
-      "id": "steam-5120640",
-      "title": "世界防衛少女!!-DEFENDER MAIDEN-",
-      "store": "Steam",
-      "old": 280,
-      "neu": 224,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5120640/",
-      "steamAppId": "5120640"
-    },
-    {
-      "id": "steam-5071360",
-      "title": "Prevail",
+      "id": "steam-4450600",
+      "title": "Crackheads",
       "store": "Steam",
       "old": 245,
-      "neu": 196,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5071360/",
-      "steamAppId": "5071360"
+      "neu": 183,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/4450600/",
+      "steamAppId": "4450600"
+    },
+    {
+      "id": "steam-5511570",
+      "title": "Space Golf - A golf game in space...",
+      "store": "Steam",
+      "old": 170,
+      "neu": 127,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/5511570/",
+      "steamAppId": "5511570"
     }
   ]
 }

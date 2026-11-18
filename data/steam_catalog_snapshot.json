@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T10:43:08+03:00",
+  "updatedAt": "2026-11-18T20:22:14+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -452,22 +452,37 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "362890",
-      "name": "Black Mesa",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/362890/d20df1f51d7569184d35367daaed267ec078a6a3/header_alt_assets_3.jpg?t=1794939413",
+      "appid": "1544020",
+      "name": "The Callisto Protocol™",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1544020/header.jpg?t=1760331403",
       "genres": [
         "Экшены",
-        "Приключенческие игры",
-        "Инди"
+        "Приключенческие игры"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
-        "linux": true
+        "linux": false
       },
-      "metacritic": 84,
-      "short_description": "Переживите заново Half-Life."
+      "metacritic": null,
+      "short_description": "Survive to escape the horrors of Callisto and uncover the dark secrets of Jupiter’s dead moon."
+    },
+    {
+      "appid": "1817230",
+      "name": "Hi-Fi RUSH",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817230/header.jpg?t=1764916407",
+      "genres": [
+        "Экшены"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 90,
+      "short_description": "Поймайте ритм вместе с начинающей рок-звездой Чаем и его командой, чтобы бросить вызов злобной мегакорпорации! Hi-Fi RUSH — это новый боевик от Tango Gameworks, в котором всем заправляет музыка!"
     },
     {
       "appid": "1627720",
@@ -507,13 +522,12 @@
       "short_description": "Amazing Frog? is an openworld, sandbox, physics game. Grand Frog Auto in Swindon, with farting ragdoll frogs."
     },
     {
-      "appid": "5464740",
-      "name": "Observation Post 7",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5464740/22f455e2e78c856e0d6a658c1b1e3ce1397ef860/header.jpg?t=1794952472",
+      "appid": "4917760",
+      "name": "Hentai Academy: UNDERTOW",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4917760/8b7d57b43d515d49f9fac92b01accb10949ba23e/header.jpg?t=1794960551",
       "genres": [
-        "Приключенческие игры",
-        "Инди",
-        "Симуляторы"
+        "Казуальные игры",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -522,49 +536,12 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "A dystopian surveillance sim. Work the CCTV cameras of Observation Post 7: spot the crime, judge the citizens, meet your quota. Then walk home through five island cities to the daughter who waits for you. Every report has a price. Every choice decides how it ends."
-    },
-    {
-      "appid": "4330500",
-      "name": "Zone Idle",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4330500/e28de95a917335f96b1760a21ecc648973f64d13/header.jpg?t=1794947889",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "An incremental extraction simulator set in a ruthless world inspired by the extraction genre and book Roadside Picnic. Manage your inventory, navigate hazardous events, and upgrade your hideout. Same tension, but with time to think."
-    },
-    {
-      "appid": "5340870",
-      "name": "Underbloom",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5340870/fa63a0fdbf38c83c6482fc148073c806df6507e6/header.jpg?t=1794940251",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Под лесом, который забыл, как расти, просыпается маленький гриб. Раскинь светящуюся грибницу по девяти скрытым мирам, познакомься со странными соседями и разбуди Сердцесемя. Уютная инкрементальная игра с настоящим финалом."
+      "short_description": "Визуальная новелла 18+ о кораблекрушении, которое разлучило её со всем знакомым миром — и о заброшенном острове, чьи секреты ждали много лет в глубине джунглей."
     },
     {
       "appid": "5066010",
       "name": "Here Comes the Horde",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066010/660ba25cbec114093ff8245eeafc64e779518a05/header.jpg?t=1794853555",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066010/660ba25cbec114093ff8245eeafc64e779518a05/header.jpg?t=1795004849",
       "genres": [
         "Казуальные игры",
         "Инди",
@@ -580,13 +557,12 @@
       "short_description": "В авто-баттлере Here Comes the Horde вам предстоит собирать несметные армии, чтобы защитить замок от орд нежити! Сражайтесь с волнами врагов, открывайте новых бойцов, усиливайте войска и превращайте поле боя в настоящее море из тысяч солдат!"
     },
     {
-      "appid": "5423090",
-      "name": "The Magician: Tidy Up the Magic Decks!",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5423090/9baa0b5dc15f5e10506546abba069dabe27eebb0/header.jpg?t=1794944007",
+      "appid": "5426860",
+      "name": "Elf World Adventure 14",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5426860/caa928e7afa96f1169f09f7b5f028e353d708ba2/header.jpg?t=1794967873",
       "genres": [
         "Казуальные игры",
-        "Инди",
-        "Симуляторы"
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -595,7 +571,27 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "A cozy single-player simulation where you play as a magician bringing order to a magical mess. Search for scattered cards, sort them into their proper decks, and use your magic to tidy up. Don't forget to find your missing rabbits and doves along the way!"
+      "short_description": "Elf World Adventure 14 — продолжение серии хентай-пазлов с прекрасными эльфийками в аниме-стиле. Собирайте откровенные иллюстрации по частям, наслаждайтесь фэнтезийной атмосферой и выбирайте один из двух уровней сложности под своё настроение."
+    },
+    {
+      "appid": "4787650",
+      "name": "Elf World Adventure 13",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4787650/b8462f24ac46ad4403e0f7a587cfe5de9f9e23fa/header.jpg?t=1794967856",
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы",
+        "Спорт"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Elf World Adventure 13 — продолжение серии хентай-пазлов с прекрасными эльфийками в аниме-стиле. Собирайте откровенные иллюстрации по частям, наслаждайтесь фэнтезийной атмосферой и выбирайте один из двух уровней сложности под своё настроение."
     },
     {
       "appid": "3321460",
@@ -636,29 +632,12 @@
       "short_description": "Bodycam — это первый тактический многопользовательский шутер от первого лица с настоящим обзором с нательной камеры на движке Unreal Engine 5. Ближние бои кажутся резкими и громкими. Каждый ракурс, выноска и пуля имеют значение. Играйте в Deathmatch, Team Deathmatch и Wingman на фотореалистичных."
     },
     {
-      "appid": "5226670",
-      "name": "Type to Survive",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5226670/f348bdcb0e603e4ad00a93bf03d506fccb4c307a/header.jpg?t=1794951897",
+      "appid": "5501410",
+      "name": "REACTIONESE",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5501410/9ef2b03a19394e8f722a3d3eebbbb5612b0c0e64/header.jpg?t=1794968474",
       "genres": [
         "Экшены",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Steer through the horde while your weapons fire. Type words or enter controller sequences to kill elites and crack shields. Build a ridiculous arsenal in this survival roguelike, chase solo keyboard scores, or share one hero in local co-op: keyboard + gamepad or two controllers."
-    },
-    {
-      "appid": "5461360",
-      "name": "Dungeon Delvers",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5461360/3f2a9897b898650c65a25fafffdd27ccca7208fd/header.jpg?t=1794950938",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
+        "Казуальные игры",
         "Инди"
       ],
       "is_free": false,
@@ -668,14 +647,15 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Battle through ten shifting voxel regions with 100+ weapons, breakable cover, traps and bosses. Dodge bullets, flip tables and make the most of every lucky drop. Rescue allies, unlock pets and customise your delver. Play solo or with a friend in online or shared-screen local co-op."
+      "short_description": "REACTIONESE is a fast-paced online multiplayer party game for up to 6 players. Challenge your friends in 17 unique minigames that test your reflexes, timing, knowledge, and quick thinking. React fast, earn points, and prove you're the ultimate champion!"
     },
     {
-      "appid": "5438180",
-      "name": "vlaina",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5438180/f387fb3a4c61323130762dd7eb3414c0159bb079/header.jpg?t=1794983990",
+      "appid": "5120640",
+      "name": "世界防衛少女!!-DEFENDER MAIDEN-",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5120640/2039a73875d444d4cac2060b5ff6a317c8407c04/header.jpg?t=1794981556",
       "genres": [
-        "Утилиты"
+        "Экшены",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -684,7 +664,25 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Vlaina — милое приложение для рабочего стола с поддержкой Live2D. Любимые персонажи составят вам компанию во время работы, учёбы и игр. Они реагируют на клавиатуру и мышь. Меняйте модели, размер и положение, чтобы создать своего настольного компаньона."
+      "short_description": "This is an action game featuring a mysterious girl who takes on hordes of monsters with her sword and bombs."
+    },
+    {
+      "appid": "5071360",
+      "name": "Prevail",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5071360/287724b7f340b8c59ce7bc3c06ab3442d430bf82/header.jpg?t=1794983018",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A turn-based tactics roguelike on a hex board. Command a group of miniatures, outmaneuver enemies, and spend your gold between fights on weapons, gear and potions. Lose your party and the run is over. Every run is completely different than the last."
     }
   ]
 }

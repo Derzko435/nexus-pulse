@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T21:25:50+03:00",
+  "updatedAt": "2026-11-18T20:22:23+03:00",
   "source": "epic-promotions-api+curated",
   "note": "Epic Free Games API (RU) + кураторский Steam/GOG/Prime (Amazon Luna).",
   "items": [
@@ -28,6 +28,18 @@
       "endsAt": "2026-11-26T19:00:00+03:00",
       "price_rub": 710,
       "image": "https://cdn1.epicgames.com/spt-assets/83a240506a884c10ad8fb99694e57a0d/mark-of-the-deep-w1ygr.png"
+    },
+    {
+      "id": "epic-0623017cf9f341efbe07557f46beb4e8",
+      "store": "Epic Games",
+      "title": "Firestone - кликер idle онлайн RPG",
+      "until": "2026-12-03",
+      "claimUrl": "https://store.epicgames.com/ru/p/firestone-online-idle-rpg-bfd04b",
+      "note": "Скоро бесплатно на Epic",
+      "status": "upcoming",
+      "startsAt": "2026-11-26T19:00:00+03:00",
+      "endsAt": "2026-12-03T19:00:00+03:00",
+      "image": "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-1pfbu.jpg"
     },
     {
       "id": "steam-f2p-always",
