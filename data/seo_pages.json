@@ -65,9 +65,9 @@
    "priority": "0.7"
   },
   "guides/apex-movement/": {
-   "hash": "9fd404b1901aafc0",
+   "hash": "ae129f14babdefb5",
    "created": "2026-09-28",
-   "lastmod": "2026-11-11",
+   "lastmod": "2026-11-18",
    "changefreq": "monthly",
    "priority": "0.7"
   },
@@ -394,9 +394,9 @@
    "priority": "0.6"
   },
   "games/apex/": {
-   "hash": "84aed72c8b658b55",
+   "hash": "f1454453dbb7555a",
    "created": "2026-09-28",
-   "lastmod": "2026-11-11",
+   "lastmod": "2026-11-18",
    "changefreq": "monthly",
    "priority": "0.6"
   },
@@ -457,9 +457,9 @@
    "priority": "0.6"
   },
   "games/aoe4/": {
-   "hash": "eb113d6314b9a451",
+   "hash": "561e8fb2ead1e932",
    "created": "2026-09-28",
-   "lastmod": "2026-10-31",
+   "lastmod": "2026-11-18",
    "changefreq": "monthly",
    "priority": "0.6"
   },
@@ -478,9 +478,9 @@
    "priority": "0.6"
   },
   "games/ck3/": {
-   "hash": "6b2903d5086c2c57",
+   "hash": "d29510a39b61a2e1",
    "created": "2026-09-28",
-   "lastmod": "2026-10-20",
+   "lastmod": "2026-11-18",
    "changefreq": "monthly",
    "priority": "0.6"
   },
@@ -856,28 +856,28 @@
    "priority": "0.7"
   },
   "esports/": {
-   "hash": "a4768aab235350f8",
+   "hash": "1a7616b8c87a2e91",
    "created": "2026-09-29",
    "lastmod": "2026-11-18",
    "changefreq": "hourly",
    "priority": "0.7"
   },
   "esports/cs2/": {
-   "hash": "ee268493d1a38017",
+   "hash": "2487af70dfb23860",
    "created": "2026-09-29",
    "lastmod": "2026-11-18",
    "changefreq": "hourly",
    "priority": "0.7"
   },
   "esports/dota2/": {
-   "hash": "62f7677988fac1d9",
+   "hash": "6676b76590745502",
    "created": "2026-09-29",
    "lastmod": "2026-11-18",
    "changefreq": "hourly",
    "priority": "0.7"
   },
   "esports/valorant/": {
-   "hash": "4ec0ee12959c6078",
+   "hash": "ad93c13c65759f15",
    "created": "2026-09-29",
    "lastmod": "2026-11-18",
    "changefreq": "hourly",
@@ -905,147 +905,287 @@
    "priority": "0.5"
   },
   "news/": {
-   "hash": "3589fe4060157499",
+   "hash": "cded489ab6d876ba",
    "created": "2026-09-28",
    "lastmod": "2026-11-18",
    "changefreq": "hourly",
    "priority": "0.8"
   },
   "news/page/2/": {
-   "hash": "69b792dbdf49f032",
+   "hash": "7f9084d3904f9948",
    "created": "2026-09-29",
    "lastmod": "2026-11-18",
    "changefreq": "daily",
    "priority": "0.4"
   },
   "news/page/3/": {
-   "hash": "9a53871b4c6be81a",
+   "hash": "f3119f00281b01ed",
    "created": "2026-09-30",
    "lastmod": "2026-11-18",
    "changefreq": "daily",
    "priority": "0.4"
   },
   "news/page/4/": {
-   "hash": "433316c6cb7e8127",
+   "hash": "1e5b2cf4f4791d52",
    "created": "2026-10-02",
    "lastmod": "2026-11-18",
    "changefreq": "daily",
    "priority": "0.4"
   },
   "news/page/5/": {
-   "hash": "391bf3f36ec2e3a5",
+   "hash": "f9cb35ec9ea25099",
    "created": "2026-10-04",
    "lastmod": "2026-11-18",
    "changefreq": "daily",
    "priority": "0.4"
   },
   "news/page/6/": {
-   "hash": "3d37975406deadcc",
+   "hash": "54f29fa89cdc92db",
    "created": "2026-10-05",
    "lastmod": "2026-11-18",
    "changefreq": "daily",
    "priority": "0.4"
   },
   "news/page/7/": {
-   "hash": "4e2b5e9873ea2d0a",
+   "hash": "42fbf4a47b82d906",
    "created": "2026-10-07",
    "lastmod": "2026-11-18",
    "changefreq": "daily",
    "priority": "0.4"
   },
   "news/page/8/": {
-   "hash": "e7c78aab78736bf3",
+   "hash": "2001a30ec254ee28",
    "created": "2026-10-08",
    "lastmod": "2026-11-18",
    "changefreq": "daily",
    "priority": "0.4"
   },
   "news/page/9/": {
-   "hash": "cb2080b7742589d9",
+   "hash": "45d5039140ac555e",
    "created": "2026-10-09",
    "lastmod": "2026-11-18",
    "changefreq": "daily",
    "priority": "0.4"
   },
   "news/page/10/": {
-   "hash": "cef1c9a7d10a45f5",
+   "hash": "460fda8c7b9c6dae",
    "created": "2026-10-11",
    "lastmod": "2026-11-18",
    "changefreq": "daily",
    "priority": "0.4"
   },
   "news/page/11/": {
-   "hash": "7e6614f4d41c001a",
+   "hash": "cf2e62044eb17b7a",
    "created": "2026-10-13",
    "lastmod": "2026-11-18",
    "changefreq": "daily",
    "priority": "0.4"
   },
   "news/page/12/": {
-   "hash": "66292ec9f5d0a023",
+   "hash": "802c7a21777224f2",
    "created": "2026-10-14",
    "lastmod": "2026-11-18",
    "changefreq": "daily",
    "priority": "0.4"
   },
   "news/page/13/": {
-   "hash": "440f22ed5ccaca51",
+   "hash": "edd57ab78adb18cb",
    "created": "2026-10-15",
    "lastmod": "2026-11-18",
    "changefreq": "daily",
    "priority": "0.4"
   },
   "news/page/14/": {
-   "hash": "59a936c4f9886f40",
+   "hash": "0b796bbbebc67b04",
    "created": "2026-10-17",
    "lastmod": "2026-11-18",
    "changefreq": "daily",
    "priority": "0.4"
   },
   "news/page/15/": {
-   "hash": "7af324c50a1b9464",
+   "hash": "96de98574da9920f",
    "created": "2026-10-19",
    "lastmod": "2026-11-18",
    "changefreq": "daily",
    "priority": "0.4"
   },
   "news/page/16/": {
-   "hash": "69c2331dff72e5d4",
+   "hash": "c105fe07bac761db",
    "created": "2026-10-20",
    "lastmod": "2026-11-18",
    "changefreq": "daily",
    "priority": "0.4"
   },
   "news/page/17/": {
-   "hash": "c746b01c9bd5cc1a",
+   "hash": "6adec94d80868a15",
    "created": "2026-10-21",
    "lastmod": "2026-11-18",
    "changefreq": "daily",
    "priority": "0.4"
   },
   "news/page/18/": {
-   "hash": "90ffd024e0dad53b",
+   "hash": "89c1f5d05a36e13b",
    "created": "2026-10-23",
    "lastmod": "2026-11-18",
    "changefreq": "daily",
    "priority": "0.4"
   },
   "news/page/19/": {
-   "hash": "27a904ad2aac47b4",
+   "hash": "80d0765946a9b635",
    "created": "2026-10-24",
    "lastmod": "2026-11-18",
    "changefreq": "daily",
    "priority": "0.4"
   },
   "news/page/20/": {
-   "hash": "ffc98424f12b08d5",
+   "hash": "2d137fe80683e19a",
    "created": "2026-10-26",
    "lastmod": "2026-11-18",
    "changefreq": "daily",
    "priority": "0.4"
   },
+  "news/0b64f38c7fdb/": {
+   "hash": "eee8dbbeb7f36285",
+   "created": "2026-11-18",
+   "lastmod": "2026-11-18",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/38257e2bd7cb/": {
+   "hash": "7156618f1bca4557",
+   "created": "2026-11-18",
+   "lastmod": "2026-11-18",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/efdea9fbd210/": {
+   "hash": "62da8fdefa05f6a5",
+   "created": "2026-11-18",
+   "lastmod": "2026-11-18",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/cdca896bf594/": {
+   "hash": "1e9c24e53fb01734",
+   "created": "2026-11-18",
+   "lastmod": "2026-11-18",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/3afe7fd667da/": {
+   "hash": "5d8d6fbc53e24cbd",
+   "created": "2026-11-18",
+   "lastmod": "2026-11-18",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/ddce70277612/": {
+   "hash": "1ec66ffac4feca77",
+   "created": "2026-11-18",
+   "lastmod": "2026-11-18",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/69c2a93a17c0/": {
+   "hash": "c818e89313e21438",
+   "created": "2026-11-18",
+   "lastmod": "2026-11-18",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/aefa7c00a636/": {
+   "hash": "b4fd940c4d6e5789",
+   "created": "2026-11-18",
+   "lastmod": "2026-11-18",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/d89a54b31eef/": {
+   "hash": "5dde45c97c572239",
+   "created": "2026-11-18",
+   "lastmod": "2026-11-18",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/3b9428f402ba/": {
+   "hash": "161c217195592414",
+   "created": "2026-11-18",
+   "lastmod": "2026-11-18",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/0873e5eb81c3/": {
+   "hash": "a18ee00ef6537625",
+   "created": "2026-11-18",
+   "lastmod": "2026-11-18",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/d7387335c32e/": {
+   "hash": "fd6e9d163cdc94d8",
+   "created": "2026-11-18",
+   "lastmod": "2026-11-18",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/1feb91b5188a/": {
+   "hash": "bd490525148676de",
+   "created": "2026-11-18",
+   "lastmod": "2026-11-18",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/27f3fbfca51b/": {
+   "hash": "e3b72ffbfb6be373",
+   "created": "2026-11-18",
+   "lastmod": "2026-11-18",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/025c59c10ae4/": {
+   "hash": "3226ff1c1a4167f4",
+   "created": "2026-11-18",
+   "lastmod": "2026-11-18",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/122057fe779f/": {
+   "hash": "dbce345033260dea",
+   "created": "2026-11-18",
+   "lastmod": "2026-11-18",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/2e69ffb0ed9c/": {
+   "hash": "299b394eea8cef8b",
+   "created": "2026-11-18",
+   "lastmod": "2026-11-18",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/a19e5a89a5eb/": {
+   "hash": "73e12345e0028d6f",
+   "created": "2026-11-18",
+   "lastmod": "2026-11-18",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/32fe0172a17b/": {
+   "hash": "45cc1728c60f7a38",
+   "created": "2026-11-18",
+   "lastmod": "2026-11-18",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
+  "news/85a7f7dcae2f/": {
+   "hash": "9aaab82a96967b4e",
+   "created": "2026-11-18",
+   "lastmod": "2026-11-18",
+   "changefreq": "monthly",
+   "priority": "0.5"
+  },
   "news/13e0d330ccaa/": {
-   "hash": "4b339dba09c0d62a",
+   "hash": "10d411d629066c1d",
    "created": "2026-11-18",
    "lastmod": "2026-11-18",
    "changefreq": "monthly",
@@ -14520,126 +14660,7 @@
    "priority": "0.5"
   },
   "news/0029d4da57ba/": {
-   "hash": "ce3af5ff10b14754",
-   "created": "2026-10-19",
-   "lastmod": "2026-10-19",
-   "changefreq": "monthly",
-   "priority": "0.5"
-  },
-  "news/b6c76f8e195b/": {
-   "hash": "ad7a16e306199c15",
-   "created": "2026-10-19",
-   "lastmod": "2026-10-19",
-   "changefreq": "monthly",
-   "priority": "0.5"
-  },
-  "news/01257a15101a/": {
-   "hash": "057268f88ae560ae",
-   "created": "2026-10-19",
-   "lastmod": "2026-10-19",
-   "changefreq": "monthly",
-   "priority": "0.5"
-  },
-  "news/85323d827d26/": {
-   "hash": "c3019fc576a2e439",
-   "created": "2026-10-19",
-   "lastmod": "2026-10-19",
-   "changefreq": "monthly",
-   "priority": "0.5"
-  },
-  "news/55645f384de6/": {
-   "hash": "4434aa0790c16d6f",
-   "created": "2026-10-19",
-   "lastmod": "2026-10-19",
-   "changefreq": "monthly",
-   "priority": "0.5"
-  },
-  "news/94173e366e04/": {
-   "hash": "ce5918ae74e0d065",
-   "created": "2026-10-19",
-   "lastmod": "2026-10-19",
-   "changefreq": "monthly",
-   "priority": "0.5"
-  },
-  "news/c68dd4aa8efb/": {
-   "hash": "3fe605125a1779bc",
-   "created": "2026-10-19",
-   "lastmod": "2026-10-19",
-   "changefreq": "monthly",
-   "priority": "0.5"
-  },
-  "news/589d619561b1/": {
-   "hash": "947a290448363396",
-   "created": "2026-10-19",
-   "lastmod": "2026-10-19",
-   "changefreq": "monthly",
-   "priority": "0.5"
-  },
-  "news/704801888d9d/": {
-   "hash": "d80031a327e6592f",
-   "created": "2026-10-19",
-   "lastmod": "2026-10-19",
-   "changefreq": "monthly",
-   "priority": "0.5"
-  },
-  "news/0dbdf4a8a6d1/": {
-   "hash": "c214aaf7bfd52669",
-   "created": "2026-10-19",
-   "lastmod": "2026-10-19",
-   "changefreq": "monthly",
-   "priority": "0.5"
-  },
-  "news/5015cc10098f/": {
-   "hash": "923b97df5e492dc7",
-   "created": "2026-10-19",
-   "lastmod": "2026-10-19",
-   "changefreq": "monthly",
-   "priority": "0.5"
-  },
-  "news/0a113fdc48c4/": {
-   "hash": "572ab57b1e6e33f4",
-   "created": "2026-10-19",
-   "lastmod": "2026-10-19",
-   "changefreq": "monthly",
-   "priority": "0.5"
-  },
-  "news/bfcfd7a36f87/": {
-   "hash": "6084e5751c17c844",
-   "created": "2026-10-19",
-   "lastmod": "2026-10-19",
-   "changefreq": "monthly",
-   "priority": "0.5"
-  },
-  "news/edd6269ba21e/": {
-   "hash": "666afd28e04600d7",
-   "created": "2026-10-19",
-   "lastmod": "2026-10-19",
-   "changefreq": "monthly",
-   "priority": "0.5"
-  },
-  "news/a83d30d6c396/": {
-   "hash": "16ddebf86ac48c5c",
-   "created": "2026-10-19",
-   "lastmod": "2026-10-19",
-   "changefreq": "monthly",
-   "priority": "0.5"
-  },
-  "news/9c7568e3879f/": {
-   "hash": "be9e03464f6aecae",
-   "created": "2026-10-19",
-   "lastmod": "2026-10-19",
-   "changefreq": "monthly",
-   "priority": "0.5"
-  },
-  "news/dfc65e6119ac/": {
-   "hash": "495295bdea15a099",
-   "created": "2026-10-19",
-   "lastmod": "2026-10-19",
-   "changefreq": "monthly",
-   "priority": "0.5"
-  },
-  "news/958348fd3cbf/": {
-   "hash": "3e6e4bbc8e7a7a77",
+   "hash": "423c0fbe088b2133",
    "created": "2026-10-19",
    "lastmod": "2026-10-19",
    "changefreq": "monthly",
