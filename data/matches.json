@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-18T14:49:46+03:00",
+ "updatedAt": "2026-11-18T15:19:08+03:00",
  "source": "bo3.gg",
  "matches": [
   {
@@ -60,11 +60,33 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "1win Essence III",
    "tier": "A",
    "startsAt": "2026-11-18T15:00:00+03:00",
-   "streams": [],
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "1win_dota_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "1win_dota_ru"
+    },
+    {
+     "type": "twitch",
+     "channel": "gorgc",
+     "lang": "en",
+     "official": false,
+     "label": "gorgc"
+    },
+    {
+     "type": "twitch",
+     "channel": "1win_dota",
+     "lang": "en",
+     "official": false,
+     "label": "1win_dota"
+    }
+   ],
    "url": "https://bo3.gg/dota2/matches/aurora-vs-parivision-dota2-18-11-2026"
   },
   {
@@ -167,33 +189,6 @@
    "url": "https://bo3.gg/matches/nip-vs-luminosity-cs-go-18-11-2026"
   },
   {
-   "id": "bo3-134318",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Team Spirit",
-   "teamB": "Team Nemesis",
-   "logoA": "https://files.bo3.gg/uploads/team/16704/image/webp-d50909a064a4533a3b594ed059eebc42.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/20355/image/webp-3013ddfe8da8ee14d18085640590a9d7.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "BLAST Slam IX",
-   "tier": "S",
-   "startsAt": "2026-11-20T14:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "blastpremier",
-     "lang": "en",
-     "official": true,
-     "label": "blastpremier",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/team-spirit-vs-team-nemesis-20-11-2026"
-  },
-  {
    "id": "bo3-134323",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -221,20 +216,20 @@
    "url": "https://bo3.gg/dota2/matches/team-yandex-vs-playtime-20-11-2026"
   },
   {
-   "id": "bo3-134324",
+   "id": "bo3-134318",
    "game": "Dota 2",
    "gameKey": "dota2",
-   "teamA": "Natus Vincere",
-   "teamB": "OG",
-   "logoA": "https://files.bo3.gg/uploads/team/16676/image/webp-2738710d6606b200e541749870dd65a0.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16714/image/webp-cd2e61b09557041544426a7b536a0856.webp",
+   "teamA": "Team Spirit",
+   "teamB": "Team Nemesis",
+   "logoA": "https://files.bo3.gg/uploads/team/16704/image/webp-d50909a064a4533a3b594ed059eebc42.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/20355/image/webp-3013ddfe8da8ee14d18085640590a9d7.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
    "status": "upcoming",
    "event": "BLAST Slam IX",
    "tier": "S",
-   "startsAt": "2026-11-20T17:00:00+03:00",
+   "startsAt": "2026-11-20T14:00:00+03:00",
    "streams": [
     {
      "type": "twitch",
@@ -245,7 +240,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/dota2/matches/natus-vincere-dota2-vs-og-dota2-20-11-2026"
+   "url": "https://bo3.gg/dota2/matches/team-spirit-vs-team-nemesis-20-11-2026"
   },
   {
    "id": "bo3-134319",
@@ -273,6 +268,33 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/gamerlegion-dota2-vs-xtreme-gaming-dota2-20-11-2026"
+  },
+  {
+   "id": "bo3-134324",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Natus Vincere",
+   "teamB": "OG",
+   "logoA": "https://files.bo3.gg/uploads/team/16676/image/webp-2738710d6606b200e541749870dd65a0.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16714/image/webp-cd2e61b09557041544426a7b536a0856.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "BLAST Slam IX",
+   "tier": "S",
+   "startsAt": "2026-11-20T17:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "blastpremier",
+     "lang": "en",
+     "official": true,
+     "label": "blastpremier",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/natus-vincere-dota2-vs-og-dota2-20-11-2026"
   },
   {
    "id": "bo3-134333",
@@ -329,12 +351,12 @@
    "url": "https://bo3.gg/dota2/matches/parivision-dota2-vs-legion_stack-20-11-2026"
   },
   {
-   "id": "bo3-134674",
+   "id": "bo3-134677",
    "game": "Valorant",
    "gameKey": "valorant",
-   "teamA": "QoR",
-   "teamB": "Oafs",
-   "logoA": "https://files.bo3.gg/uploads/team/6658/image/webp-70b072397024dce88bbea5ffe4cd52dc.webp",
+   "teamA": "Cloud9",
+   "teamB": "counterfeit",
+   "logoA": "https://files.bo3.gg/uploads/team/7250/image/webp-522aa2198e14d6afe2ad4f95a66951ac.webp",
    "logoB": "",
    "scoreA": 0,
    "scoreB": 0,
@@ -353,7 +375,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/valorant/matches/qor-vs-oafs-20-11-2026"
+   "url": "https://bo3.gg/valorant/matches/cloud9-1-vs-counterfeit-20-11-2026"
   },
   {
    "id": "bo3-134675",
@@ -410,12 +432,12 @@
    "url": "https://bo3.gg/valorant/matches/team-envy-vs-yellow-dragon-gaming-20-11-2026"
   },
   {
-   "id": "bo3-134677",
+   "id": "bo3-134674",
    "game": "Valorant",
    "gameKey": "valorant",
-   "teamA": "Cloud9",
-   "teamB": "counterfeit",
-   "logoA": "https://files.bo3.gg/uploads/team/7250/image/webp-522aa2198e14d6afe2ad4f95a66951ac.webp",
+   "teamA": "QoR",
+   "teamB": "Oafs",
+   "logoA": "https://files.bo3.gg/uploads/team/6658/image/webp-70b072397024dce88bbea5ffe4cd52dc.webp",
    "logoB": "",
    "scoreA": 0,
    "scoreB": 0,
@@ -434,7 +456,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/valorant/matches/cloud9-1-vs-counterfeit-20-11-2026"
+   "url": "https://bo3.gg/valorant/matches/qor-vs-oafs-20-11-2026"
   },
   {
    "id": "bo3-134678",
@@ -545,33 +567,6 @@
    "url": "https://bo3.gg/valorant/matches/shopify-rebellion-vs-xora-esports-21-11-2026"
   },
   {
-   "id": "bo3-134329",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Aurora Gaming",
-   "teamB": "Astra Invicta",
-   "logoA": "https://files.bo3.gg/uploads/team/15143/image/webp-235f54dc6e1d478c8536240a49197cc4.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/25557/image/webp-71a130fa205305b3096d33cd360a428b.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "BLAST Slam IX",
-   "tier": "S",
-   "startsAt": "2026-11-21T14:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "blastpremier",
-     "lang": "en",
-     "official": true,
-     "label": "blastpremier",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/aurora-vs-astra-invicta-21-11-2026"
-  },
-  {
    "id": "bo3-134328",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -597,6 +592,33 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/lgd-gaming-dota2-vs-1win-dota2-21-11-2026"
+  },
+  {
+   "id": "bo3-134329",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Aurora Gaming",
+   "teamB": "Astra Invicta",
+   "logoA": "https://files.bo3.gg/uploads/team/15143/image/webp-235f54dc6e1d478c8536240a49197cc4.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/25557/image/webp-71a130fa205305b3096d33cd360a428b.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "BLAST Slam IX",
+   "tier": "S",
+   "startsAt": "2026-11-21T14:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "blastpremier",
+     "lang": "en",
+     "official": true,
+     "label": "blastpremier",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/aurora-vs-astra-invicta-21-11-2026"
   },
   {
    "id": "bo3-133720",
