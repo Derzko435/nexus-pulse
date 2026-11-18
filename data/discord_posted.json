@@ -1,31 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-11-18T01:30:29+03:00",
+ "updatedAt": "2026-11-18T10:43:35+03:00",
  "posted": {
   "news": [
-   "19ffbee53a3a",
-   "a04982aadc98",
-   "553d5041dd97",
-   "b938f96c6ef9",
-   "22ff77b38108",
-   "b6d46ca1e554",
-   "cdc614c5c77a",
-   "20059b378d2f",
-   "d5f1d1f85330",
-   "6e45ed4550df",
-   "99f3e09f3814",
-   "35b3ccda4b08",
-   "b8a663d1418a",
-   "b9448a50f73f",
-   "d274e239e946",
-   "b5f31a04b59e",
-   "c707f2a163ae",
-   "bb4e68581cd2",
-   "ccca41149b23",
-   "297f21a80268",
-   "9dfa920cc359",
-   "5faad6df2f47",
-   "4a28bf4d26a6",
    "8ee4455f443a",
    "c0f8db8a33d0",
    "2cec98241a0b",
@@ -502,7 +479,30 @@
    "da559cf408d0",
    "8207b36b6343",
    "bb3e2e11adbb",
-   "294013ec9a61"
+   "294013ec9a61",
+   "34b619e9bfe8",
+   "d6d2d30d8d02",
+   "13e0d330ccaa",
+   "7051972ed19b",
+   "292b3d8dc15f",
+   "c7d883b892f9",
+   "526de69b53d0",
+   "0640cd02c94d",
+   "e0475c364bae",
+   "93847eefd7f9",
+   "1dde6d0e2ad8",
+   "4f2dfebcb2f5",
+   "2c69eb507029",
+   "5a85b1138e82",
+   "3b651d274d4c",
+   "1c7f406ef420",
+   "6697a0000917",
+   "21174f5e3dcc",
+   "e54c61590d5c",
+   "92a40c6a6585",
+   "193b1889cfde",
+   "e3494e07dba5",
+   "26241b4c824e"
   ],
   "deals": [
    "steam-246420:90",
@@ -624,7 +624,9 @@
    "steam-362890:75",
    "steam-850190:70",
    "steam-332570:50",
-   "steam-1627720:50"
+   "steam-1627720:50",
+   "steam-1817230:55",
+   "steam-1544020:85"
   ],
   "freebies": [
    "epic-7ae00c3e89174012b175cc73b4737723:soon",
@@ -1208,15 +1210,6 @@
    "apex:2026-11-12"
   ],
   "videos": [
-   "bxZh6pAj0p8",
-   "DtbsI78ACkk",
-   "Dhub-di0rxw",
-   "7bt33fWjH6c",
-   "I4V_Mx5vlQg",
-   "AWLoPghMI6o",
-   "WuYwSxueXFY",
-   "9hBha60quDg",
-   "A-V43Ia86dU",
    "Jxn66jKHY2w",
    "gLw65-r-MSI",
    "sLoG6iB0L2Q",
@@ -1707,7 +1700,16 @@
    "DrmTMGp7O6U",
    "yeS7aAxxSDM",
    "p-o2GXKNk2g",
-   "7IdXnxWm9LA"
+   "7IdXnxWm9LA",
+   "iFcAN9t77X4",
+   "IrpS1G5tB7w",
+   "oMmr0c6bQME",
+   "qE_Mo_g1ckw",
+   "xxntqe0HKso",
+   "_sY0poG-j1k",
+   "G9xEc6T27fg",
+   "IEtv9pqKcyk",
+   "eJwqVBKA3nk"
   ],
   "releases": [
    "week:2026-W39",
@@ -1839,6 +1841,7 @@
   "2026-11-16T01:59+03:00",
   "2026-11-16T21:42+03:00",
   "2026-11-17T16:39+03:00",
-  "2026-11-18T01:30+03:00"
+  "2026-11-18T01:30+03:00",
+  "2026-11-18T10:43+03:00"
  ]
 }
