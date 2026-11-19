@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T20:22:14+03:00",
+  "updatedAt": "2026-11-19T03:32:58+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -452,12 +452,30 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "1544020",
-      "name": "The Callisto Protocol™",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1544020/header.jpg?t=1760331403",
+      "appid": "394360",
+      "name": "Hearts of Iron IV",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/67bbd0057627fc2244793bcdd09260c2539499cf/header.jpg?t=1794491980",
       "genres": [
-        "Экшены",
-        "Приключенческие игры"
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": 83,
+      "short_description": "Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation in World War II; the most engaging conflict in world history."
+    },
+    {
+      "appid": "850190",
+      "name": "Goat Simulator 3",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/850190/1fdfd5943b8b4a5a50a7b0868c680b1d8618d0e3/header_alt_assets_8_russian.jpg?t=1794494565",
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
@@ -466,23 +484,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Survive to escape the horrors of Callisto and uncover the dark secrets of Jupiter’s dead moon."
-    },
-    {
-      "appid": "1817230",
-      "name": "Hi-Fi RUSH",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817230/header.jpg?t=1764916407",
-      "genres": [
-        "Экшены"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": 90,
-      "short_description": "Поймайте ритм вместе с начинающей рок-звездой Чаем и его командой, чтобы бросить вызов злобной мегакорпорации! Hi-Fi RUSH — это новый боевик от Tango Gameworks, в котором всем заправляет музыка!"
+      "short_description": "Пилгор вернулась! Собирайте стадо и отправляйтесь в Goat Simulator 3 — новую (для Steam, во всяком случае) реалистичную «песочницу» на ферме. Пригласите до трёх друзей в совместную игру локально или по сети. Сейте хаос, соперничайте в мини-играх. А потом можете рассориться навеки."
     },
     {
       "appid": "1627720",
@@ -522,10 +524,11 @@
       "short_description": "Amazing Frog? is an openworld, sandbox, physics game. Grand Frog Auto in Swindon, with farting ragdoll frogs."
     },
     {
-      "appid": "4917760",
-      "name": "Hentai Academy: UNDERTOW",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4917760/8b7d57b43d515d49f9fac92b01accb10949ba23e/header.jpg?t=1794960551",
+      "appid": "3739580",
+      "name": "KORRIDOR",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3739580/6d6fea5275ce8f5455c72b50aa44581147329ec5/header.jpg?t=1795037341",
       "genres": [
+        "Экшены",
         "Казуальные игры",
         "Инди"
       ],
@@ -536,12 +539,85 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Визуальная новелла 18+ о кораблекрушении, которое разлучило её со всем знакомым миром — и о заброшенном острове, чьи секреты ждали много лет в глубине джунглей."
+      "short_description": "Сражайтесь с ордами демонов в этом безжалостном gates shooter! Создайте невероятно мощный build и уничтожайте боссов под хэви-метал саундтрек. Катакомбы и их тайны ждут вас."
+    },
+    {
+      "appid": "2464640",
+      "name": "Forsaken Lands",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2464640/193372af77c04829068d494efb4aff12881616f6/header.jpg?t=1795012837",
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Ролевые игры",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Приглашаем в карточный рогалик с кооперативом, в котором вашу судьбу определят храбрость и стратегия! Собирайте команду героев-смельчаков, исследуйте Заброшенные земли, создавайте мощные колоды, сражайтесь с загадочными существами и бросайте вызов самим богам."
+    },
+    {
+      "appid": "2960760",
+      "name": "Greed Forest TD",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2960760/688d25c28b4c8c4d775cdbf67bf0db4e5f7cc0b0/header.jpg?t=1795017352",
+      "genres": [
+        "Экшены",
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Стройте огромные лабиринты, соединяйте башни ради диких синергий, открывайте нелепые заклинания и усиления и превратите своего Buildy в злодея."
+    },
+    {
+      "appid": "5509560",
+      "name": "Beauty Store Tidy Up Together",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5509560/36b7b1e20ebca5a6e48480070f4f7b4ebcfbaaa1/header.jpg?t=1795005335",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Разбирайте горы косметики, создавайте красивые витрины и обустройте идеальный магазин красоты! Расслабьтесь за уборкой в одиночку или в компании до 4 игроков в этом уютном симуляторе сортировки и наведения порядка от первого лица."
+    },
+    {
+      "appid": "2384980",
+      "name": "Cafe Simulator",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2384980/fa177aeb18e86f458b6076aca04b6df2a103e464/header.jpg?t=1795004736",
+      "genres": [
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Создайте и управляйте своим кафе - бизнесом . Украсьте своё заведение с помощью мебели и декораций, варите различные напитки, обслуживайте клиентов , расширяйте пространство и конкурируйте . Вырастите из маленького магазинчика в процветающую империю . О , и ещё есть петушиные бои ."
     },
     {
       "appid": "5066010",
       "name": "Here Comes the Horde",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066010/660ba25cbec114093ff8245eeafc64e779518a05/header.jpg?t=1795004849",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066010/660ba25cbec114093ff8245eeafc64e779518a05/header.jpg?t=1795022963",
       "genres": [
         "Казуальные игры",
         "Инди",
@@ -557,122 +633,12 @@
       "short_description": "В авто-баттлере Here Comes the Horde вам предстоит собирать несметные армии, чтобы защитить замок от орд нежити! Сражайтесь с волнами врагов, открывайте новых бойцов, усиливайте войска и превращайте поле боя в настоящее море из тысяч солдат!"
     },
     {
-      "appid": "5426860",
-      "name": "Elf World Adventure 14",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5426860/caa928e7afa96f1169f09f7b5f028e353d708ba2/header.jpg?t=1794967873",
+      "appid": "2772330",
+      "name": "Goblington",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2772330/98fa8fa497a4470c0157b24c9f0c11abbc197b9c/header.jpg?t=1795021092",
       "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Elf World Adventure 14 — продолжение серии хентай-пазлов с прекрасными эльфийками в аниме-стиле. Собирайте откровенные иллюстрации по частям, наслаждайтесь фэнтезийной атмосферой и выбирайте один из двух уровней сложности под своё настроение."
-    },
-    {
-      "appid": "4787650",
-      "name": "Elf World Adventure 13",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4787650/b8462f24ac46ad4403e0f7a587cfe5de9f9e23fa/header.jpg?t=1794967856",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
         "Инди",
-        "Симуляторы",
-        "Спорт"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Elf World Adventure 13 — продолжение серии хентай-пазлов с прекрасными эльфийками в аниме-стиле. Собирайте откровенные иллюстрации по частям, наслаждайтесь фэнтезийной атмосферой и выбирайте один из двух уровней сложности под своё настроение."
-    },
-    {
-      "appid": "3321460",
-      "name": "Crimson Desert Enhanced",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/236f3814be7a97d86831800691b6096d449222a8/header.jpg?t=1794478066",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Crimson Desert – это action adventure игра с открытым миром, действие которой разворачивается на континенте Пайвел. Присоединяйтесь к Клиффу, чтобы вернуть потерянное и спасти мир от надвигающейся угрозы. Исследуйте бескрайние просторы и тайны Бездны, прокладывая свой путь через сражения и открытия."
-    },
-    {
-      "appid": "2406770",
-      "name": "Bodycam",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/677415ebaf02fc7ae5fe8960e6055e65e9fa21a4/header_alt_assets_4.jpg?t=1794951323",
-      "genres": [
-        "Экшены",
-        "Инди",
-        "Многопользовательские игры",
-        "Симуляторы",
-        "Стратегии",
-        "Ранний доступ"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Bodycam — это первый тактический многопользовательский шутер от первого лица с настоящим обзором с нательной камеры на движке Unreal Engine 5. Ближние бои кажутся резкими и громкими. Каждый ракурс, выноска и пуля имеют значение. Играйте в Deathmatch, Team Deathmatch и Wingman на фотореалистичных."
-    },
-    {
-      "appid": "5501410",
-      "name": "REACTIONESE",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5501410/9ef2b03a19394e8f722a3d3eebbbb5612b0c0e64/header.jpg?t=1794968474",
-      "genres": [
-        "Экшены",
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "REACTIONESE is a fast-paced online multiplayer party game for up to 6 players. Challenge your friends in 17 unique minigames that test your reflexes, timing, knowledge, and quick thinking. React fast, earn points, and prove you're the ultimate champion!"
-    },
-    {
-      "appid": "5120640",
-      "name": "世界防衛少女!!-DEFENDER MAIDEN-",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5120640/2039a73875d444d4cac2060b5ff6a317c8407c04/header.jpg?t=1794981556",
-      "genres": [
-        "Экшены",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "This is an action game featuring a mysterious girl who takes on hordes of monsters with her sword and bombs."
-    },
-    {
-      "appid": "5071360",
-      "name": "Prevail",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5071360/287724b7f340b8c59ce7bc3c06ab3442d430bf82/header.jpg?t=1794983018",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
+        "Ролевые игры",
         "Стратегии"
       ],
       "is_free": false,
@@ -682,7 +648,47 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "A turn-based tactics roguelike on a hex board. Command a group of miniatures, outmaneuver enemies, and spend your gold between fights on weapons, gear and potions. Lose your party and the run is over. Every run is completely different than the last."
+      "short_description": "Rebuild a ruined goblin village, put your goblins to work and explore the Mistlands. Loot dungeons, beat raid bosses, collect gear sets, mounts and companions. And every night you hold the line against the horde. Solo or online with up to three friends."
+    },
+    {
+      "appid": "4450600",
+      "name": "Crackheads",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450600/e8ec00895e5d1af512cbcdb56e8803771ea69643/header.jpg?t=1795019158",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Гонки",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Исследуй удивительный мир крэка в одиночку или вместе с 50 игроками. Предай своих друзей или работайте вместе, чтобы зарабатывать деньги и построить свою империю. Воруй и убивай, пробивая себе путь к вершине, и оставайся под кайфом, пока делаешь это."
+    },
+    {
+      "appid": "5511570",
+      "name": "Space Golf - A golf game in space...",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5511570/f273c9297bc91e84bcf482c04935e3ed957af8bc/header.jpg?t=1795019233",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы",
+        "Спорт"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Гольф среди планет. Каждая планета притягивает ваш мяч: направляйте удары в обход лун, используйте солнечные ветры, совершайте гравитационные маневры вокруг пульсаров и приземляйтесь на крошечные миры. 12 полей, 216 лунок, 4 клюшки и множество вариантов мяча — играйте в одиночку или с друзьями."
     }
   ]
 }

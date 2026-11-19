@@ -1,7 +1,17 @@
 {
-  "updatedAt": "2026-11-18T20:22:20+03:00",
+  "updatedAt": "2026-11-19T03:33:03+03:00",
   "source": "steam-specials-ru",
   "deals": [
+    {
+      "id": "steam-1544020",
+      "title": "The Callisto Protocol",
+      "store": "Steam",
+      "old": 1900,
+      "neu": 285,
+      "pct": 85,
+      "url": "https://store.steampowered.com/app/1544020/",
+      "steamAppId": "1544020"
+    },
     {
       "id": "steam-227300",
       "title": "Euro Truck Simulator 2",
@@ -11,26 +21,6 @@
       "pct": 75,
       "url": "https://store.steampowered.com/app/227300/",
       "steamAppId": "227300"
-    },
-    {
-      "id": "steam-394360",
-      "title": "Hearts of Iron IV",
-      "store": "Steam",
-      "old": 3049,
-      "neu": 914,
-      "pct": 70,
-      "url": "https://store.steampowered.com/app/394360/",
-      "steamAppId": "394360"
-    },
-    {
-      "id": "steam-850190",
-      "title": "Goat Simulator 3",
-      "store": "Steam",
-      "old": 1100,
-      "neu": 330,
-      "pct": 70,
-      "url": "https://store.steampowered.com/app/850190/",
-      "steamAppId": "850190"
     },
     {
       "id": "steam-1627720",
@@ -43,64 +33,74 @@
       "steamAppId": "1627720"
     },
     {
-      "id": "steam-332570",
-      "title": "Amazing Frog?",
+      "id": "steam-5362770",
+      "title": "Dookie Clicker: The Big Pfft",
       "store": "Steam",
-      "old": 710,
-      "neu": 355,
-      "pct": 50,
-      "url": "https://store.steampowered.com/app/332570/",
-      "steamAppId": "332570"
+      "old": 64,
+      "neu": 38,
+      "pct": 41,
+      "url": "https://store.steampowered.com/app/5362770/",
+      "steamAppId": "5362770"
     },
     {
-      "id": "steam-3739580",
-      "title": "KORRIDOR",
+      "id": "steam-1158160",
+      "title": "Coral Island",
       "store": "Steam",
-      "old": 360,
-      "neu": 216,
+      "old": 1100,
+      "neu": 660,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/3739580/",
-      "steamAppId": "3739580"
+      "url": "https://store.steampowered.com/app/1158160/",
+      "steamAppId": "1158160"
     },
     {
-      "id": "steam-2464640",
-      "title": "Forsaken Lands",
+      "id": "steam-5059840",
+      "title": "Spike Force",
       "store": "Steam",
-      "old": 505,
-      "neu": 328,
-      "pct": 35,
-      "url": "https://store.steampowered.com/app/2464640/",
-      "steamAppId": "2464640"
+      "old": 445,
+      "neu": 267,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5059840/",
+      "steamAppId": "5059840"
     },
     {
-      "id": "steam-2960760",
-      "title": "Greed Forest TD",
+      "id": "steam-5290430",
+      "title": "Choo chop",
       "store": "Steam",
-      "old": 460,
-      "neu": 299,
-      "pct": 35,
-      "url": "https://store.steampowered.com/app/2960760/",
-      "steamAppId": "2960760"
+      "old": 290,
+      "neu": 174,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5290430/",
+      "steamAppId": "5290430"
     },
     {
-      "id": "steam-5509560",
-      "title": "Beauty Store Tidy Up Together",
+      "id": "steam-4018330",
+      "title": "Lord of Undead",
       "store": "Steam",
-      "old": 171,
-      "neu": 116,
-      "pct": 32,
-      "url": "https://store.steampowered.com/app/5509560/",
-      "steamAppId": "5509560"
-    },
-    {
-      "id": "steam-2384980",
-      "title": "Cafe Simulator",
-      "store": "Steam",
-      "old": 690,
-      "neu": 483,
+      "old": 890,
+      "neu": 623,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/2384980/",
-      "steamAppId": "2384980"
+      "url": "https://store.steampowered.com/app/4018330/",
+      "steamAppId": "4018330"
+    },
+    {
+      "id": "steam-4986360",
+      "title": "Untitled Shop Game",
+      "store": "Steam",
+      "old": 660,
+      "neu": 462,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/4986360/",
+      "steamAppId": "4986360"
+    },
+    {
+      "id": "steam-4884790",
+      "title": "Grave Profits",
+      "store": "Steam",
+      "old": 625,
+      "neu": 437,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/4884790/",
+      "steamAppId": "4884790"
     },
     {
       "id": "steam-5066010",
@@ -113,34 +113,34 @@
       "steamAppId": "5066010"
     },
     {
-      "id": "steam-2772330",
-      "title": "Goblington",
+      "id": "steam-4192780",
+      "title": "Cloud Getaway",
       "store": "Steam",
-      "old": 690,
-      "neu": 517,
+      "old": 360,
+      "neu": 270,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/2772330/",
-      "steamAppId": "2772330"
+      "url": "https://store.steampowered.com/app/4192780/",
+      "steamAppId": "4192780"
     },
     {
-      "id": "steam-4450600",
-      "title": "Crackheads",
-      "store": "Steam",
-      "old": 245,
-      "neu": 183,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/4450600/",
-      "steamAppId": "4450600"
-    },
-    {
-      "id": "steam-5511570",
-      "title": "Space Golf - A golf game in space...",
+      "id": "steam-4960590",
+      "title": "Liminal Desktop",
       "store": "Steam",
       "old": 170,
       "neu": 127,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/5511570/",
-      "steamAppId": "5511570"
+      "url": "https://store.steampowered.com/app/4960590/",
+      "steamAppId": "4960590"
+    },
+    {
+      "id": "steam-5490940",
+      "title": "Bank Vault: Tidy Up Together",
+      "store": "Steam",
+      "old": 165,
+      "neu": 123,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/5490940/",
+      "steamAppId": "5490940"
     }
   ]
 }
