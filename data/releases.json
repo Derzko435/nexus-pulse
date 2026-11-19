@@ -1,12 +1,12 @@
 {
- "updatedAt": "2026-11-18T14:52:29+03:00",
+ "updatedAt": "2026-11-19T14:49:33+03:00",
  "items": [
   {
    "appid": "x-grand-theft-auto-vi",
    "title": "Grand Theft Auto VI",
    "date": "2026-11-19",
    "image": "https://upload.wikimedia.org/wikipedia/en/4/46/Grand_Theft_Auto_VI.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "desc": "Grand Theft Auto VI (сокр. — GTA VI или GTA 6) — будущая компьютерная игра в жанре приключенческого экшена с открытым миром, разрабатываемая компанией Rockstar Games. Станет шестнадцатой по счёту и восьмой крупной игрой в серии Grand Theft Auto.",
+   "desc": "Grand Theft Auto VI (сокр. — GTA VI или GTA 6) — компьютерная игра в жанре приключенческого экшена с открытым миром, разработанная и изданная компанией Rockstar Games. Является шестнадцатой по счёту и восьмой крупной игрой в серии Grand Theft Auto.",
    "genres": [
     "Экшен-приключение"
    ],
@@ -24,14 +24,15 @@
    "source": "wiki"
   },
   {
-   "appid": 4523120,
-   "title": "Volvy’s Adventure: Reslimed",
+   "appid": 4928450,
+   "title": "Grand Theft Timeline",
    "date": "2026-11-19",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4523120/bd01ad0f41f47272b6f1459de015d2494b24a422/header.jpg?t=1793281784",
-   "desc": "Volvy's Adventure: Reslimed — это захватывающий ремастер оригинального ремейка неизданного экшен-платформера, в котором главную роль играет самый известный талисман видеоигр всех времен.",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4928450/9856eb60fb023ea4c10ed38270e8fbd0159522ed/header.jpg?t=1794006027",
+   "desc": "Кооперативное ограбление сквозь время на 1-4+ игроков с физикой, пушками, боссами, ареной, базой, скинами и биржей! Похищайте людей в 200+ мирах истории и вымысла, тащите их домой в клетках и фармите парадокс в гараже. 25+ тематических наборов, 2000+ NPC и моды из Мастерской!",
    "genres": [
     "Экшены",
-    "Приключенческие игры"
+    "Приключенческие игры",
+    "Казуальные игры"
    ],
    "platforms": [
     "PC"
@@ -39,11 +40,11 @@
    "stores": [
     "Steam"
    ],
-   "developer": "doinksoft",
-   "price": "180 руб.",
-   "url": "https://store.steampowered.com/app/4523120/",
+   "developer": "REAL PLAYERS",
+   "price": "",
+   "url": "https://store.steampowered.com/app/4928450/",
    "links": {
-    "steam": "https://store.steampowered.com/app/4523120/"
+    "steam": "https://store.steampowered.com/app/4928450/"
    }
   },
   {
@@ -206,30 +207,6 @@
    "url": "https://store.steampowered.com/app/2870790/",
    "links": {
     "steam": "https://store.steampowered.com/app/2870790/"
-   }
-  },
-  {
-   "appid": 4004820,
-   "title": "FreeStyle Football 2",
-   "date": "2026-12-03",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4004820/0e131f5e9ca2918c342e8c8679341fee49b1b75e/header.jpg?t=1792979830",
-   "desc": "Freestyle Football 2 — это динамичная многопользовательская онлайн-игра в футбол в формате матчей 5 на 5. Каждая позиция имеет уникальную роль, и вы будете использовать различные стратегии и навыки, чтобы добиться победы вместе со своей командой. Стильная игра и уникальные персонажи превращают поле в сцену.",
-   "genres": [
-    "Экшены",
-    "Многопользовательские игры",
-    "Спорт"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "WOORE",
-   "price": "1845 руб.",
-   "url": "https://store.steampowered.com/app/4004820/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4004820/"
    }
   },
   {
@@ -446,6 +423,30 @@
    }
   },
   {
+   "appid": 3384600,
+   "title": "Professor Layton and the New World of Steam",
+   "date": "2026-12-09",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3384600/7ca8815e48a947c0b2890a56fb115f03d1cf02c9/header.jpg?t=1794478966",
+   "desc": "Новая история профессора Лейтона в серии приключенческих головоломок, проданной по всему миру тиражом более 20 миллионов копий. Профессор Лейтон и Люк оказываются втянуты в загадочное дело в Паровом Бизоне — удивительном городе изобретателей, функционирующем на паровых технологиях.",
+   "genres": [
+    "Приключенческие игры"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Switch"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "LEVEL5 Inc.",
+   "price": "4639 руб.",
+   "url": "https://store.steampowered.com/app/3384600/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/3384600/"
+   }
+  },
+  {
    "appid": "x-riders-republic",
    "title": "Riders Republic",
    "date": "2026-12-09",
@@ -468,31 +469,28 @@
    "source": "wiki"
   },
   {
-   "appid": 3384600,
-   "title": "Professor Layton and the New World of Steam",
+   "appid": 2828020,
+   "title": "Citystate Metropolis",
    "date": "2026-12-10",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3384600/7ca8815e48a947c0b2890a56fb115f03d1cf02c9/header.jpg?t=1794478966",
-   "desc": "Новая история профессора Лейтона в серии приключенческих головоломок, проданной по всему миру тиражом более 20 миллионов копий. Профессор Лейтон и Люк оказываются втянуты в загадочное дело в Паровом Бизоне — удивительном городе изобретателей, функционирующем на паровых технологиях.",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2828020/202d4765edcc3372f2a406cee58d38cc63139d5a/header.jpg?t=1795023150",
+   "desc": "Творческий, прагматичный и безграничный градостроительный симулятор. Спроектируйте шедевр городского дизайна, небольшой экологичный городок или футуристический мегаполис. Благодаря процедурной генерации зданий, зонированию без сетки и мощным инструментам редактора всё можно настроить: город — ваш.",
    "genres": [
-    "Головоломка",
-    "Приключение"
+    "Казуальные игры",
+    "Инди",
+    "Симуляторы"
    ],
    "platforms": [
-    "PC",
-    "PlayStation",
-    "Switch"
+    "PC"
    ],
    "stores": [
     "Steam"
    ],
-   "developer": "Level-5 Osaka Office",
-   "price": "4639 руб.",
-   "url": "https://store.steampowered.com/app/3384600/",
+   "developer": "Andy Sztark",
+   "price": "",
+   "url": "https://store.steampowered.com/app/2828020/",
    "links": {
-    "steam": "https://store.steampowered.com/app/3384600/",
-    "wiki": "https://en.wikipedia.org/wiki/Professor_Layton_and_the_New_World_of_Steam"
-   },
-   "source": "wiki"
+    "steam": "https://store.steampowered.com/app/2828020/"
+   }
   },
   {
    "appid": 4452700,
@@ -525,10 +523,11 @@
    "appid": 5246700,
    "title": "Defilade",
    "date": "2026-12-15",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5246700/318c61bb0156ded3e25429d95f92d09a50b56f8c/header.jpg?t=1793993457",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5246700/318c61bb0156ded3e25429d95f92d09a50b56f8c/header.jpg?t=1795035256",
    "desc": "Defilade — это изометрическая стратегия в реальном времени старой школы, действие которой происходит в современной войне. Командуйте умными войсками, которые укрываются, спасают раненых товарищей, ныряют от гранат, преодолевают препятствия и роют траншеи. Постройте свою базу, обеспечьте безопасность линий снабжения и сражайтесь на полностью разрушаемых огромных полях сражений, которые кажутся живыми.",
    "genres": [
-    "Стратегии"
+    "Стратегии",
+    "Ранний доступ"
    ],
    "platforms": [
     "PC",
@@ -697,7 +696,7 @@
    "appid": 1637460,
    "title": "TankRat",
    "date": "2027-01-15",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1637460/2c6d522ef6026113b561b60000c813d7e2df6a93/header.jpg?t=1787688772",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1637460/2c6d522ef6026113b561b60000c813d7e2df6a93/header.jpg?t=1795087488",
    "desc": "Мир умирает, плоть уступила место стали, и повсюду стаи механических чудовищ. Ищите и уничтожайте, собирайте и демонтируйте, воссоздавайте себя из обломков. Становитесь тем, что вы берете. Выживите в пустошах. Доберитесь до Highpoint.",
    "genres": [
     "Экшены",
@@ -920,7 +919,7 @@
    "appid": 3710600,
    "title": "Warhammer 40,000: Dark Heresy",
    "date": "2027-01-28",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3710600/c9cff4a2e091c0590909762a6d4296eeee5859a1/header.jpg?t=1794240130",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3710600/c9cff4a2e091c0590909762a6d4296eeee5859a1/header.jpg?t=1795082608",
    "desc": "Станьте аколитом Инквизиции в партийной, сюжетной cRPG. Ведите расследования, раскрывайте великие заговоры, осваивайте тактические бои и вступите в тайную войну против ереси. Станьте проводником воли Бога-Императора и принимайте сложные решения.",
    "genres": [
     "Приключенческие игры",
@@ -928,7 +927,8 @@
     "Ролевые игры"
    ],
    "platforms": [
-    "PC"
+    "PC",
+    "Mac"
    ],
    "stores": [
     "Steam"
@@ -989,30 +989,6 @@
     "wiki": "https://en.wikipedia.org/wiki/Astonishia_Story"
    },
    "source": "wiki"
-  },
-  {
-   "appid": 2365790,
-   "title": "Let's Build a Dungeon",
-   "date": "2027-02-11",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2365790/571d930eb0c001f3ddf00b98978e1e2e0f64061a/header.jpg?t=1790154101",
-   "desc": "Управляйте студией по разработке игр и создайте лучшую MMORPG в мире. Нанимайте дизайнеров, программистов и тестеров! Создайте мир фэнтези для сотен виртуальных игроков. Если игра им наскучит, они отменят подписку, а ваши инвесторы придут по вашу голову! Вы и сами можете поиграть в свою игру.",
-   "genres": [
-    "Инди",
-    "Ролевые игры",
-    "Симуляторы"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Springloaded",
-   "price": "",
-   "url": "https://store.steampowered.com/app/2365790/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/2365790/"
-   }
   },
   {
    "appid": 2769570,
