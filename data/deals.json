@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T03:33:03+03:00",
+  "updatedAt": "2026-11-19T13:30:33+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -23,6 +23,26 @@
       "steamAppId": "227300"
     },
     {
+      "id": "steam-394360",
+      "title": "Hearts of Iron IV",
+      "store": "Steam",
+      "old": 3049,
+      "neu": 914,
+      "pct": 70,
+      "url": "https://store.steampowered.com/app/394360/",
+      "steamAppId": "394360"
+    },
+    {
+      "id": "steam-850190",
+      "title": "Goat Simulator 3",
+      "store": "Steam",
+      "old": 1100,
+      "neu": 330,
+      "pct": 70,
+      "url": "https://store.steampowered.com/app/850190/",
+      "steamAppId": "850190"
+    },
+    {
       "id": "steam-1627720",
       "title": "Lies of P",
       "store": "Steam",
@@ -31,16 +51,6 @@
       "pct": 50,
       "url": "https://store.steampowered.com/app/1627720/",
       "steamAppId": "1627720"
-    },
-    {
-      "id": "steam-5362770",
-      "title": "Dookie Clicker: The Big Pfft",
-      "store": "Steam",
-      "old": 64,
-      "neu": 38,
-      "pct": 41,
-      "url": "https://store.steampowered.com/app/5362770/",
-      "steamAppId": "5362770"
     },
     {
       "id": "steam-1158160",
@@ -53,24 +63,34 @@
       "steamAppId": "1158160"
     },
     {
-      "id": "steam-5059840",
-      "title": "Spike Force",
+      "id": "steam-5450190",
+      "title": "Miko Rhythm",
       "store": "Steam",
-      "old": 445,
-      "neu": 267,
+      "old": 690,
+      "neu": 414,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5059840/",
-      "steamAppId": "5059840"
+      "url": "https://store.steampowered.com/app/5450190/",
+      "steamAppId": "5450190"
     },
     {
-      "id": "steam-5290430",
-      "title": "Choo chop",
+      "id": "steam-4135380",
+      "title": "Wink Out",
       "store": "Steam",
-      "old": 290,
-      "neu": 174,
+      "old": 379,
+      "neu": 227,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5290430/",
-      "steamAppId": "5290430"
+      "url": "https://store.steampowered.com/app/4135380/",
+      "steamAppId": "4135380"
+    },
+    {
+      "id": "steam-5481890",
+      "title": "Spaceship Wars Together",
+      "store": "Steam",
+      "old": 130,
+      "neu": 78,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5481890/",
+      "steamAppId": "5481890"
     },
     {
       "id": "steam-4018330",
@@ -83,64 +103,44 @@
       "steamAppId": "4018330"
     },
     {
-      "id": "steam-4986360",
-      "title": "Untitled Shop Game",
+      "id": "steam-5153550",
+      "title": "Pokart",
       "store": "Steam",
-      "old": 660,
-      "neu": 462,
+      "old": 82,
+      "neu": 57,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/4986360/",
-      "steamAppId": "4986360"
+      "url": "https://store.steampowered.com/app/5153550/",
+      "steamAppId": "5153550"
     },
     {
-      "id": "steam-4884790",
-      "title": "Grave Profits",
+      "id": "steam-5184410",
+      "title": "Crown and Coup",
       "store": "Steam",
-      "old": 625,
-      "neu": 437,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/4884790/",
-      "steamAppId": "4884790"
-    },
-    {
-      "id": "steam-5066010",
-      "title": "Here Comes the Horde",
-      "store": "Steam",
-      "old": 300,
-      "neu": 210,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/5066010/",
-      "steamAppId": "5066010"
-    },
-    {
-      "id": "steam-4192780",
-      "title": "Cloud Getaway",
-      "store": "Steam",
-      "old": 360,
-      "neu": 270,
+      "old": 555,
+      "neu": 416,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/4192780/",
-      "steamAppId": "4192780"
+      "url": "https://store.steampowered.com/app/5184410/",
+      "steamAppId": "5184410"
     },
     {
-      "id": "steam-4960590",
-      "title": "Liminal Desktop",
+      "id": "steam-3321460",
+      "title": "Crimson Desert Enhanced",
       "store": "Steam",
-      "old": 170,
-      "neu": 127,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/4960590/",
-      "steamAppId": "4960590"
+      "old": 4299,
+      "neu": 3439,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/3321460/",
+      "steamAppId": "3321460"
     },
     {
-      "id": "steam-5490940",
-      "title": "Bank Vault: Tidy Up Together",
+      "id": "steam-2406770",
+      "title": "Bodycam",
       "store": "Steam",
-      "old": 165,
-      "neu": 123,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5490940/",
-      "steamAppId": "5490940"
+      "old": 1200,
+      "neu": 960,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/2406770/",
+      "steamAppId": "2406770"
     }
   ]
 }

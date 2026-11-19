@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T03:32:58+03:00",
+  "updatedAt": "2026-11-19T13:30:28+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -452,30 +452,12 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "394360",
-      "name": "Hearts of Iron IV",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/67bbd0057627fc2244793bcdd09260c2539499cf/header.jpg?t=1794491980",
+      "appid": "1544020",
+      "name": "The Callisto Protocol™",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1544020/header.jpg?t=1760331403",
       "genres": [
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": 83,
-      "short_description": "Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation in World War II; the most engaging conflict in world history."
-    },
-    {
-      "appid": "850190",
-      "name": "Goat Simulator 3",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/850190/1fdfd5943b8b4a5a50a7b0868c680b1d8618d0e3/header_alt_assets_8_russian.jpg?t=1794494565",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Симуляторы"
+        "Экшены",
+        "Приключенческие игры"
       ],
       "is_free": false,
       "platforms": {
@@ -484,7 +466,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Пилгор вернулась! Собирайте стадо и отправляйтесь в Goat Simulator 3 — новую (для Steam, во всяком случае) реалистичную «песочницу» на ферме. Пригласите до трёх друзей в совместную игру локально или по сети. Сейте хаос, соперничайте в мини-играх. А потом можете рассориться навеки."
+      "short_description": "Survive to escape the horrors of Callisto and uncover the dark secrets of Jupiter’s dead moon."
     },
     {
       "appid": "1627720",
@@ -505,32 +487,34 @@
       "short_description": "Lies of P — захватывающая игра в жанре soulslike, в которой знакомый сюжет сказки «Пиноккио» развернется в мрачных, но элегантных декорациях Прекрасной эпохи."
     },
     {
-      "appid": "332570",
-      "name": "Amazing Frog?",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/332570/822e30280a7320a70c6ed05cb7b0eb7e504b33c8/header_alt_assets_7.jpg?t=1794929790",
+      "appid": "5362770",
+      "name": "Dookie Clicker: The Big Pfft",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5362770/0e3f155c12689a85de05e7a4dc83d9dd4f809f3e/header.jpg?t=1795045280",
       "genres": [
-        "Экшены",
-        "Приключенческие игры",
+        "Казуальные игры",
         "Инди",
-        "Ранний доступ"
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": true,
-        "linux": true
+        "linux": false
       },
       "metacritic": null,
-      "short_description": "Amazing Frog? is an openworld, sandbox, physics game. Grand Frog Auto in Swindon, with farting ragdoll frogs."
+      "short_description": "Dookie Clicker: The Big Pfft is a Peachy-themed incremental clicker game, set in a bubbling sewer laboratory. Click to make pffts, build ridiculous factories from the Whoopie Cushion to the Methane Volcano, snatch random power-ups and grow your stinkiest empire yet OH YEAH..keep eyes peeled for fly!"
     },
     {
-      "appid": "3739580",
-      "name": "KORRIDOR",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3739580/6d6fea5275ce8f5455c72b50aa44581147329ec5/header.jpg?t=1795037341",
+      "appid": "1158160",
+      "name": "Coral Island",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158160/header.jpg?t=1781768008",
       "genres": [
-        "Экшены",
+        "Приключенческие игры",
         "Казуальные игры",
-        "Инди"
+        "Инди",
+        "Ролевые игры",
+        "Симуляторы",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
@@ -539,15 +523,86 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Сражайтесь с ордами демонов в этом безжалостном gates shooter! Создайте невероятно мощный build и уничтожайте боссов под хэви-метал саундтрек. Катакомбы и их тайны ждут вас."
+      "short_description": "Coral Island — яркая и расслабляющая игра, новый взгляд на симулятор фермы. Будьте кем хотите и наслаждайтесь очаровательной жизнью на острове в своём ритме: растите овощи, заведите животных, налаживайте связи с островитянами и делайте мир вокруг живее и гармоничнее."
     },
     {
-      "appid": "2464640",
-      "name": "Forsaken Lands",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2464640/193372af77c04829068d494efb4aff12881616f6/header.jpg?t=1795012837",
+      "appid": "5059840",
+      "name": "Spike Force",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5059840/1217c0ef96380bc447d2c226453a6b2eb1e6385b/header.jpg?t=1795037525",
       "genres": [
-        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры",
+        "Спорт",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Spike Force is a roguelite deckbuilder soaked in 90's action anime. Build your volleyball team, draft your cards, and represent your school in a supernatural battle for the fate of humanity. Every match is a fight for survival, and every card is a move in the game."
+    },
+    {
+      "appid": "5290430",
+      "name": "Choo chop",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5290430/430a0acfa6f78262946358f67604792cb740faa4/header.jpg?t=1795029871",
+      "genres": [
         "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "По вагонам — и играй короткими днями! Расслабляющая инкрементальная игра: твой поезд едет через лес, а лесорубы рубят каждое дерево в зоне досягаемости. Брёвна летят в вагоны, вагоны запускают пилы и дроны, а каждое улучшение делает следующий день больше. Ещё один день!"
+    },
+    {
+      "appid": "4018330",
+      "name": "Lord of Undead",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4018330/72cf7fb00e1fa2e1a314a2454fe05da9a188c5ff/header_alt_assets_0_russian.jpg?t=1795024906",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры",
+        "Ранний доступ"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Уничтожьте замок на холме в мрачной RPG, где вы играете за Темного Лорда. Собирайте души, призывайте армию нежити, изучайте запретные таланты и создавайте легендарное снаряжение. Возведите неприступную цитадель и станьте истинной погибелью этого мира."
+    },
+    {
+      "appid": "4986360",
+      "name": "Untitled Shop Game",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4986360/65b2b9acad0d1fde23cbe1033c77b7bf9185dab1/header.jpg?t=1795045710",
+      "genres": [
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Untitled Shop Game in a nutshell: anime stylized graphics, wide open area in a fictional Polish city, 50+ songs in the playlist, and 300+ decorations to place without any limits. Oh, I almost forgot... Yes, you can pet the cat!"
+    },
+    {
+      "appid": "4884790",
+      "name": "Grave Profits",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4884790/0e45981c763b2d139f4a2f61cb3fa6f7c8e38feb/header.jpg?t=1795030113",
+      "genres": [
         "Инди",
         "Ролевые игры",
         "Стратегии"
@@ -559,60 +614,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Приглашаем в карточный рогалик с кооперативом, в котором вашу судьбу определят храбрость и стратегия! Собирайте команду героев-смельчаков, исследуйте Заброшенные земли, создавайте мощные колоды, сражайтесь с загадочными существами и бросайте вызов самим богам."
-    },
-    {
-      "appid": "2960760",
-      "name": "Greed Forest TD",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2960760/688d25c28b4c8c4d775cdbf67bf0db4e5f7cc0b0/header.jpg?t=1795017352",
-      "genres": [
-        "Экшены",
-        "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Стройте огромные лабиринты, соединяйте башни ради диких синергий, открывайте нелепые заклинания и усиления и превратите своего Buildy в злодея."
-    },
-    {
-      "appid": "5509560",
-      "name": "Beauty Store Tidy Up Together",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5509560/36b7b1e20ebca5a6e48480070f4f7b4ebcfbaaa1/header.jpg?t=1795005335",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Разбирайте горы косметики, создавайте красивые витрины и обустройте идеальный магазин красоты! Расслабьтесь за уборкой в одиночку или в компании до 4 игроков в этом уютном симуляторе сортировки и наведения порядка от первого лица."
-    },
-    {
-      "appid": "2384980",
-      "name": "Cafe Simulator",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2384980/fa177aeb18e86f458b6076aca04b6df2a103e464/header.jpg?t=1795004736",
-      "genres": [
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Создайте и управляйте своим кафе - бизнесом . Украсьте своё заведение с помощью мебели и декораций, варите различные напитки, обслуживайте клиентов , расширяйте пространство и конкурируйте . Вырастите из маленького магазинчика в процветающую империю . О , и ещё есть петушиные бои ."
+      "short_description": "Auto-battler Dungeoncrawler without PvP in a Dark Fantasy setting. Recruit, Match 3 to level up, build game breaking synergies with items and unlocks. Supports 2 player online CO-OP"
     },
     {
       "appid": "5066010",
@@ -633,13 +635,34 @@
       "short_description": "В авто-баттлере Here Comes the Horde вам предстоит собирать несметные армии, чтобы защитить замок от орд нежити! Сражайтесь с волнами врагов, открывайте новых бойцов, усиливайте войска и превращайте поле боя в настоящее море из тысяч солдат!"
     },
     {
-      "appid": "2772330",
-      "name": "Goblington",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2772330/98fa8fa497a4470c0157b24c9f0c11abbc197b9c/header.jpg?t=1795021092",
+      "appid": "4192780",
+      "name": "Cloud Getaway",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4192780/56f0e2ba1c1260fe4433664f6ebfd45ac452fc37/header.jpg?t=1795053248",
       "genres": [
+        "Казуальные игры",
         "Инди",
-        "Ролевые игры",
-        "Стратегии"
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Мирный и расслабляющий конструктор диорам с интерактивными жителями и обменом картами! Создайте уютный уголок для любопытных посетителей!"
+    },
+    {
+      "appid": "4960590",
+      "name": "Liminal Desktop",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4960590/e7ba85ef0db62c7d591b2e7af57d0d86af8e1a0b/header.jpg?t=1795039230",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы",
+        "Анимация и моделирование",
+        "Дизайн и иллюстрация",
+        "Утилиты"
       ],
       "is_free": false,
       "platforms": {
@@ -648,18 +671,16 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Rebuild a ruined goblin village, put your goblins to work and explore the Mistlands. Loot dungeons, beat raid bosses, collect gear sets, mounts and companions. And every night you hold the line against the horde. Solo or online with up to three friends."
+      "short_description": "A window wallpaper app that transform every monitor into a living dream with original dreamcore and liminal video wallpapers, independent multi-monitor control, custom imports, music playlists, Steam Workshop support, and lightweight performance."
     },
     {
-      "appid": "4450600",
-      "name": "Crackheads",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450600/e8ec00895e5d1af512cbcdb56e8803771ea69643/header.jpg?t=1795019158",
+      "appid": "5490940",
+      "name": "Bank Vault: Tidy Up Together",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5490940/9a90fb0035f3033bd7127badc64e767f6424b3ff/header.jpg?t=1795031481",
       "genres": [
-        "Экшены",
-        "Приключенческие игры",
         "Казуальные игры",
         "Инди",
-        "Гонки",
+        "Многопользовательские игры",
         "Симуляторы"
       ],
       "is_free": false,
@@ -669,26 +690,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Исследуй удивительный мир крэка в одиночку или вместе с 50 игроками. Предай своих друзей или работайте вместе, чтобы зарабатывать деньги и построить свою империю. Воруй и убивай, пробивая себе путь к вершине, и оставайся под кайфом, пока делаешь это."
-    },
-    {
-      "appid": "5511570",
-      "name": "Space Golf - A golf game in space...",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5511570/f273c9297bc91e84bcf482c04935e3ed957af8bc/header.jpg?t=1795019233",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы",
-        "Спорт"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Гольф среди планет. Каждая планета притягивает ваш мяч: направляйте удары в обход лун, используйте солнечные ветры, совершайте гравитационные маневры вокруг пульсаров и приземляйтесь на крошечные миры. 12 полей, 216 лунок, 4 клюшки и множество вариантов мяча — играйте в одиночку или с друзьями."
+      "short_description": "Наведи порядок в банковском хранилище с 2 345 уникальными предметами! Сортируй деньги, золото и драгоценности, заполняй полки и превращай хаос в порядок. Объединяйся с друзьями в увлекательном приключении по наведению чистоты!"
     }
   ]
 }
