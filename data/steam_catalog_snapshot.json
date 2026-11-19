@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T23:48:49+03:00",
+  "updatedAt": "2026-11-20T01:39:23+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -452,23 +452,6 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "1544020",
-      "name": "The Callisto Protocol™",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1544020/header.jpg?t=1760331403",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Survive to escape the horrors of Callisto and uncover the dark secrets of Jupiter’s dead moon."
-    },
-    {
       "appid": "394360",
       "name": "Hearts of Iron IV",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/67bbd0057627fc2244793bcdd09260c2539499cf/header.jpg?t=1794491980",
@@ -484,24 +467,6 @@
       },
       "metacritic": 83,
       "short_description": "Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation in World War II; the most engaging conflict in world history."
-    },
-    {
-      "appid": "850190",
-      "name": "Goat Simulator 3",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/850190/7a5ea1e3aa39d603db3e25d8d57d405c654facf2/header_alt_assets_9_russian.jpg?t=1795097262",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Пилгор вернулась! Собирайте стадо и отправляйтесь в Goat Simulator 3 — новую (для Steam, во всяком случае) реалистичную «песочницу» на ферме. Пригласите до трёх друзей в совместную игру локально или по сети. Сейте хаос, соперничайте в мини-играх. А потом можете рассориться навеки."
     },
     {
       "appid": "1627720",
@@ -522,13 +487,62 @@
       "short_description": "Lies of P — захватывающая игра в жанре soulslike, в которой знакомый сюжет сказки «Пиноккио» развернется в мрачных, но элегантных декорациях Прекрасной эпохи."
     },
     {
-      "appid": "1158160",
-      "name": "Coral Island",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158160/header.jpg?t=1781768008",
+      "appid": "1808500",
+      "name": "ARC Raiders",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/41ee6c5c81a5797132879892586465b917acc563/header_alt_assets_9.jpg?t=1794215815",
       "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди",
+        "Экшены"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "ARC Raiders — многопользовательская игра жанра extraction adventure, действие которой разворачивается в суровом будущем на Земле, атакованной загадочными механическими захватчиками ARC."
+    },
+    {
+      "appid": "887570",
+      "name": "NEBULOUS: Fleet Command",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/887570/header.jpg?t=1795107503",
+      "genres": [
+        "Симуляторы",
+        "Стратегии",
+        "Ранний доступ"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "В этой уникальной тактической игре с элементами симулятора вам предстоит командовать собственноручно созданным космическим флотом в трехмерном боевом пространстве, используя смоделированные системы кораблей и маневры для разгрома сил противника."
+    },
+    {
+      "appid": "2292800",
+      "name": "Blacksmith Master",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2292800/a4e8efa3d8a738c3011f6b50dd57475a7ba2c782/header.jpg?t=1795111301",
+      "genres": [
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Управляйте средневековой кузницей в Blacksmith Master. Руководите всеми процессами, от добычи руды и самоцветов до создания и продажи готовых товаров. Производите оружие, броню, инструменты и посуду и станьте настоящим мастером-кузнецом."
+    },
+    {
+      "appid": "5361610",
+      "name": "Expeditionary Sustainment Command",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5361610/573701ba4dd789a4c6db8c275ae9f35fe657ca33/header.jpg?t=1795115962",
+      "genres": [
+        "Экшены",
         "Ролевые игры",
         "Симуляторы",
         "Стратегии"
@@ -540,12 +554,12 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Coral Island — яркая и расслабляющая игра, новый взгляд на симулятор фермы. Будьте кем хотите и наслаждайтесь очаровательной жизнью на острове в своём ритме: растите овощи, заведите животных, налаживайте связи с островитянами и делайте мир вокруг живее и гармоничнее."
+      "short_description": "Command a U.S. Army Sustainment Company in a punishing military strategy campaign. Scout threats, clear routes, escort supplies, and lead armored and infantry offensives. Upgrade your fleet, develop your NCOs, and face the consequences of every loss."
     },
     {
-      "appid": "5450190",
-      "name": "Miko Rhythm",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5450190/d6b544e21e6847b72436a5fbb3a635946a49672f/header.jpg?t=1795068032",
+      "appid": "5389460",
+      "name": "Pocket Furry",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5389460/17f00dd6da693a1a484ed62d0be55b41ae1c3201/header.jpg?t=1795118749",
       "genres": [
         "Казуальные игры",
         "Инди"
@@ -557,44 +571,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Miko Rhythm is a four-lane arrow rhythm game with a cute-goth heart. Hit the beat on a neon 3D highway or a classic flat lane, play 55 songs on four difficulties, dress up Miko in over 90 looks, chase the daily challenge, and make your own charts."
-    },
-    {
-      "appid": "4135380",
-      "name": "Wink Out",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4135380/e8f4b06566740de9edbe54085eb1f377e2e72932/header.jpg?t=1795064722",
-      "genres": [
-        "Экшены",
-        "Казуальные игры",
-        "Инди",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Отталкивайте соперников в этом соревновательном шутере 1v1 с продвинутой физикой! Собирайте продуманные комбинации карт, адаптируйтесь между раундами и побеждайте, выбивая оппонентов за пределы арены."
-    },
-    {
-      "appid": "5481890",
-      "name": "Spaceship Wars Together",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5481890/22c07db3c857754bb44dee3656b4ebd599e2156c/header.jpg?t=1795075709",
-      "genres": [
-        "Экшены",
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Садитесь в кабину полностью трёхмерного звёздного истребителя и сражайтесь с бесконечными волнами пришельцев вместе с 3 друзьями. Копите улучшения, связывайте комбо классов, выпускайте ультимативный луч и сокрушайте 11 колоссальных боссов — или сойдитесь друг с другом в PvP-боях."
+      "short_description": "Pocket Furry is a relaxing and heartfelt dating simulator where your choices matter. There are no right or wrong answers. Just choose what she likes."
     },
     {
       "appid": "4018330",
@@ -617,14 +594,13 @@
       "short_description": "Уничтожьте замок на холме в мрачной RPG, где вы играете за Темного Лорда. Собирайте души, призывайте армию нежити, изучайте запретные таланты и создавайте легендарное снаряжение. Возведите неприступную цитадель и станьте истинной погибелью этого мира."
     },
     {
-      "appid": "5153550",
-      "name": "Pokart",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5153550/8934ec9be598b5fb547159b03ebd3277a564f264/header.jpg?t=1795067041",
+      "appid": "5085520",
+      "name": "Tiny Tycoons",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5085520/d9c593dfc8da985c3de9fc486e865d040598a941/header.jpg?t=1795110671",
       "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Гонки",
-        "Спорт",
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы",
         "Стратегии"
       ],
       "is_free": false,
@@ -634,23 +610,24 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Покер выходит на трассу! Гоняйте с друзьями, соберите лучшую комбинацию и доберитесь до финиша, пока её не потеряли!"
+      "short_description": "Build and decorate cozy little businesses for a community of hamsters. Design the layout, choose furniture and style, hire staff to keep things running, and unlock new shop types as you grow."
     },
     {
-      "appid": "5184410",
-      "name": "Crown and Coup",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5184410/3460e3a5160873acd55cf7b6d4cc1e19b5dd321b/header.jpg?t=1795072216",
+      "appid": "4523120",
+      "name": "Volvy’s Adventure: Reslimed",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4523120/bd01ad0f41f47272b6f1459de015d2494b24a422/header.jpg?t=1795112316",
       "genres": [
-        "Стратегии"
+        "Экшены",
+        "Приключенческие игры"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
-        "linux": true
+        "linux": false
       },
       "metacritic": null,
-      "short_description": "Chess is the deck. Draft an army, march it through escalating sieges, and stack stratagems until one rook move scores like an avalanche. A score-chasing roguelike where every capture feeds the combo - and checkmate is the jackpot."
+      "short_description": "«Volvy’s Adventure: Reslimed» — потрясающий ремастер оригинального ремейка оставшегося невыпущенным легендарного экшен-платформера. С самым узнаваемым персонажем в истории видеоигр в главной роли!"
     },
     {
       "appid": "3321460",
@@ -689,6 +666,24 @@
       },
       "metacritic": null,
       "short_description": "Bodycam — это первый тактический многопользовательский шутер от первого лица с настоящим обзором с нательной камеры на движке Unreal Engine 5. Ближние бои кажутся резкими и громкими. Каждый ракурс, выноска и пуля имеют значение. Играйте в Deathmatch, Team Deathmatch и Wingman на фотореалистичных."
+    },
+    {
+      "appid": "5196330",
+      "name": "IT THINKS! - Build Your Own GPU",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5196330/792d0e1bcce8bc8a03f6419bfaf00f388ff83b08/header.jpg?t=1795111352",
+      "genres": [
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Спроектируйте чип, на котором работает ИИ. Начните с одного логического вентиля и постройте компьютер: соединяйте схемы, превращайте проекты в многоразовые чипы, пишите небольшие kernel и масштабируйте архитектуру до работающего GPU."
     }
   ]
 }

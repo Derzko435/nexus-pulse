@@ -1,7 +1,17 @@
 {
-  "updatedAt": "2026-11-19T23:48:54+03:00",
+  "updatedAt": "2026-11-20T01:39:28+03:00",
   "source": "steam-specials-ru",
   "deals": [
+    {
+      "id": "steam-1850570",
+      "title": "DEATH STRANDING DIRECTOR'S CUT",
+      "store": "Steam",
+      "old": 3299,
+      "neu": 824,
+      "pct": 75,
+      "url": "https://store.steampowered.com/app/1850570/",
+      "steamAppId": "1850570"
+    },
     {
       "id": "steam-227300",
       "title": "Euro Truck Simulator 2",
@@ -13,14 +23,14 @@
       "steamAppId": "227300"
     },
     {
-      "id": "steam-394360",
-      "title": "Hearts of Iron IV",
+      "id": "steam-1158310",
+      "title": "Crusader Kings III",
       "store": "Steam",
       "old": 3049,
       "neu": 914,
       "pct": 70,
-      "url": "https://store.steampowered.com/app/394360/",
-      "steamAppId": "394360"
+      "url": "https://store.steampowered.com/app/1158310/",
+      "steamAppId": "1158310"
     },
     {
       "id": "steam-1627720",
@@ -83,16 +93,6 @@
       "steamAppId": "5389460"
     },
     {
-      "id": "steam-4018330",
-      "title": "Lord of Undead",
-      "store": "Steam",
-      "old": 890,
-      "neu": 623,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/4018330/",
-      "steamAppId": "4018330"
-    },
-    {
       "id": "steam-5085520",
       "title": "Tiny Tycoons",
       "store": "Steam",
@@ -113,6 +113,16 @@
       "steamAppId": "4523120"
     },
     {
+      "id": "steam-5488360",
+      "title": "Auto Mutant Creatures",
+      "store": "Steam",
+      "old": 195,
+      "neu": 146,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/5488360/",
+      "steamAppId": "5488360"
+    },
+    {
       "id": "steam-3321460",
       "title": "Crimson Desert Enhanced",
       "store": "Steam",
@@ -131,16 +141,6 @@
       "pct": 20,
       "url": "https://store.steampowered.com/app/2406770/",
       "steamAppId": "2406770"
-    },
-    {
-      "id": "steam-5196330",
-      "title": "IT THINKS! - Build Your Own GPU",
-      "store": "Steam",
-      "old": 690,
-      "neu": 552,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5196330/",
-      "steamAppId": "5196330"
     }
   ]
 }
