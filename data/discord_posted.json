@@ -1,30 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-11-19T02:22:22+03:00",
+ "updatedAt": "2026-11-19T23:49:21+03:00",
  "posted": {
   "news": [
-   "aae62d9dfafc",
-   "15f4218691b6",
-   "cabae1cd4fc7",
-   "805718481821",
-   "9627f9f20f53",
-   "8aa3c59f8c75",
-   "6c88afcd919c",
-   "3eb3f1c614bf",
-   "a31e238a1f9f",
-   "713e9e94e28f",
-   "298e3e1f94fb",
-   "4f92141c4cc1",
-   "51e408ef064c",
-   "e063b2ef9603",
-   "edb5ef365a17",
-   "e323afb0963b",
-   "a0eb18da9b48",
-   "47e0bdc5c138",
-   "07283ff090c9",
-   "4700343ec8d8",
-   "244ebd31ba85",
-   "44f0699069cb",
    "0671d6488928",
    "b0be6d890ef1",
    "a4215f31a1dd",
@@ -502,7 +480,29 @@
    "b38bd2a8e726",
    "1299202a3371",
    "e9a0302e4fb5",
-   "3180e8dc0a0d"
+   "3180e8dc0a0d",
+   "210bb7de9df7",
+   "43420413cca7",
+   "8c5784f3b990",
+   "4a9f6cc0a99c",
+   "72abb0834177",
+   "6a54564db2df",
+   "18cbf62138eb",
+   "4a55acc0fcbd",
+   "64883adc3948",
+   "aaa82feaf3c7",
+   "cb48a347c0bb",
+   "b61b3677c665",
+   "3840785f381e",
+   "9ea36e0c4721",
+   "ab753d1faca1",
+   "7de5f3fd99e8",
+   "90c5474231bd",
+   "aa395d9ee31b",
+   "bb1c81d2a814",
+   "4dd2c988216c",
+   "f39e388d2d5a",
+   "aebb0b968654"
   ],
   "deals": [
    "steam-246420:90",
@@ -626,7 +626,9 @@
    "steam-332570:50",
    "steam-1627720:50",
    "steam-1817230:55",
-   "steam-1544020:85"
+   "steam-1544020:85",
+   "steam-2292800:50",
+   "steam-887570:50"
   ],
   "freebies": [
    "epic-7ae00c3e89174012b175cc73b4737723:soon",
@@ -653,7 +655,8 @@
    "epic-a9748abde1c94b66aae5250bb9fc5503:now",
    "epic-1f9a12b06b4f437790b6913ad136a08c:soon",
    "epic-9975548b6d404a94b8a9bdb34cad49e9:now",
-   "epic-0623017cf9f341efbe07557f46beb4e8:soon"
+   "epic-0623017cf9f341efbe07557f46beb4e8:soon",
+   "epic-1f9a12b06b4f437790b6913ad136a08c:now"
   ],
   "esports": [
    "result:bo3-129961",
@@ -1211,16 +1214,11 @@
    "apex:2026-11-12",
    "r6:2026-11-17",
    "lol:2026-11-17",
-   "cs2:2026-11-18"
+   "cs2:2026-11-18",
+   "cs2:2026-11-19",
+   "rivals:2026-11-19"
   ],
   "videos": [
-   "UPqJb2tI09k",
-   "TWd8KU898Jw",
-   "8HsSDAV_TWA",
-   "Z0ADcd0wQYU",
-   "iN4MqBrlJkc",
-   "BFhXSgHdWJg",
-   "Mt-yh2ViUAw",
    "ae6RiRqpVGE",
    "XjHdv_8qLLA",
    "0QU9ZWDhpC0",
@@ -1713,7 +1711,14 @@
    "UPc1mADxzdo",
    "v58WK1LKgAc",
    "vVVIWEGciKk",
-   "9aCVhYoLZ7s"
+   "9aCVhYoLZ7s",
+   "_6-oej6u-mM",
+   "fIWUHYFBmrI",
+   "Om4W6tYMF-0",
+   "AQKVBt3g4v8",
+   "dJDf76QVv70",
+   "qQdxbUZqRZ4",
+   "uWcy5yQ9wvc"
   ],
   "releases": [
    "week:2026-W39",
@@ -1817,7 +1822,8 @@
    "day:2026-11-16:4171850",
    "day:2026-11-17:4707700",
    "day:2026-11-19:x-grand-theft-auto-vi",
-   "day:2026-11-19:4523120"
+   "day:2026-11-19:4523120",
+   "day:2026-11-19:4928450"
   ],
   "gotd": [
    "gotd:2026-09-24"
@@ -1846,6 +1852,7 @@
  "dealPosts": [
   "2026-11-17T16:39+03:00",
   "2026-11-18T01:30+03:00",
-  "2026-11-18T10:43+03:00"
+  "2026-11-18T10:43+03:00",
+  "2026-11-19T23:49+03:00"
  ]
 }
