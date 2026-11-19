@@ -1,15 +1,15 @@
 {
- "updatedAt": "2026-11-18T23:55:31+03:00",
+ "updatedAt": "2026-11-19T05:50:53+03:00",
  "source": "bo3.gg",
  "matches": [
   {
-   "id": "bo3-133487",
+   "id": "bo3-133488",
    "game": "CS2",
    "gameKey": "cs2",
-   "teamA": "Ninjas in Pyjamas",
-   "teamB": "BIG",
-   "logoA": "https://files.bo3.gg/uploads/team/785/image/webp-d03dcb2f765afe8ad74a619984e5adcd.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/756/image/webp-4ced024b49ca43268e30797f61272016.webp",
+   "teamA": "Inner Circle",
+   "teamB": "GamerLegion",
+   "logoA": "https://files.bo3.gg/uploads/team/19186/image/webp-6aedbd6f8fdc86d26052f90540031e1e.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/594/image/webp-bcc947826ef96f444af02ed0ee79c537.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
@@ -26,16 +26,16 @@
      "label": "starladder"
     }
    ],
-   "url": "https://bo3.gg/matches/big-vs-nip-19-11-2026"
+   "url": "https://bo3.gg/matches/gamerlegion-vs-inner-circle-esports-19-11-2026"
   },
   {
-   "id": "bo3-133488",
+   "id": "bo3-133487",
    "game": "CS2",
    "gameKey": "cs2",
-   "teamA": "Inner Circle",
-   "teamB": "GamerLegion",
-   "logoA": "https://files.bo3.gg/uploads/team/19186/image/webp-6aedbd6f8fdc86d26052f90540031e1e.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/594/image/webp-bcc947826ef96f444af02ed0ee79c537.webp",
+   "teamA": "Ninjas in Pyjamas",
+   "teamB": "BIG",
+   "logoA": "https://files.bo3.gg/uploads/team/785/image/webp-d03dcb2f765afe8ad74a619984e5adcd.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/756/image/webp-4ced024b49ca43268e30797f61272016.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
@@ -52,7 +52,7 @@
      "label": "starladder"
     }
    ],
-   "url": "https://bo3.gg/matches/gamerlegion-vs-inner-circle-esports-19-11-2026"
+   "url": "https://bo3.gg/matches/big-vs-nip-19-11-2026"
   },
   {
    "id": "bo3-133489",
@@ -243,13 +243,13 @@
    "url": "https://bo3.gg/dota2/matches/team-liquid-dota2-vs-do-konca-20-11-2026"
   },
   {
-   "id": "bo3-134675",
+   "id": "bo3-134676",
    "game": "Valorant",
    "gameKey": "valorant",
-   "teamA": "YFP",
-   "teamB": "Wildcard",
-   "logoA": "https://files.bo3.gg/uploads/team/7089/image/webp-ce3901004358ff26a835ac0e1d10d4c6.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/25724/image/webp-305e85364c9ed08bbbaaa8d2fa2f38e2.webp",
+   "teamA": "ENVY",
+   "teamB": "Yellow Dragon Gaming",
+   "logoA": "https://files.bo3.gg/uploads/team/7348/image/webp-2cfc6405da3ba515f20239b74c699e71.webp",
+   "logoB": "",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
@@ -267,7 +267,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/valorant/matches/yfp-gaming-vs-wildcard-us-20-11-2026"
+   "url": "https://bo3.gg/valorant/matches/team-envy-vs-yellow-dragon-gaming-20-11-2026"
   },
   {
    "id": "bo3-134677",
@@ -324,13 +324,13 @@
    "url": "https://bo3.gg/valorant/matches/qor-vs-oafs-20-11-2026"
   },
   {
-   "id": "bo3-134676",
+   "id": "bo3-134675",
    "game": "Valorant",
    "gameKey": "valorant",
-   "teamA": "ENVY",
-   "teamB": "Yellow Dragon Gaming",
-   "logoA": "https://files.bo3.gg/uploads/team/7348/image/webp-2cfc6405da3ba515f20239b74c699e71.webp",
-   "logoB": "",
+   "teamA": "YFP",
+   "teamB": "Wildcard",
+   "logoA": "https://files.bo3.gg/uploads/team/7089/image/webp-ce3901004358ff26a835ac0e1d10d4c6.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/25724/image/webp-305e85364c9ed08bbbaaa8d2fa2f38e2.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
@@ -348,61 +348,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/valorant/matches/team-envy-vs-yellow-dragon-gaming-20-11-2026"
-  },
-  {
-   "id": "bo3-134678",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Shopify Rebellion Gold",
-   "teamB": "Maryville University",
-   "logoA": "https://files.bo3.gg/uploads/team/6700/image/webp-8da16b04777636e65218d024a2e61c1c.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/18655/image/webp-382f3762fcd770c6b833b488f0a0c932.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "VCT 2027: Americas Kickoff: North America - Qualifier Playoffs",
-   "tier": "A",
-   "startsAt": "2026-11-21T03:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/shopify-rebellion-gc-vs-maryville-university-vlr-21-11-2026"
-  },
-  {
-   "id": "bo3-134681",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "FlyQuest",
-   "teamB": "Masterclass",
-   "logoA": "https://files.bo3.gg/uploads/team/23122/image/webp-279ef2654296d6575b676a5eb4e1ac83.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/25832/image/webp-088cdcd1b192ea88c62ec076b74926b7.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "VCT 2027: Americas Kickoff: North America - Qualifier Playoffs",
-   "tier": "A",
-   "startsAt": "2026-11-21T03:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/flyquest-us-vs-masterclass-vlr-21-11-2026"
+   "url": "https://bo3.gg/valorant/matches/yfp-gaming-vs-wildcard-us-20-11-2026"
   },
   {
    "id": "bo3-134679",
@@ -457,6 +403,60 @@
     }
    ],
    "url": "https://bo3.gg/valorant/matches/shopify-rebellion-vs-xora-esports-21-11-2026"
+  },
+  {
+   "id": "bo3-134681",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "FlyQuest",
+   "teamB": "Masterclass",
+   "logoA": "https://files.bo3.gg/uploads/team/23122/image/webp-279ef2654296d6575b676a5eb4e1ac83.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/25832/image/webp-088cdcd1b192ea88c62ec076b74926b7.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VCT 2027: Americas Kickoff: North America - Qualifier Playoffs",
+   "tier": "A",
+   "startsAt": "2026-11-21T03:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/flyquest-us-vs-masterclass-vlr-21-11-2026"
+  },
+  {
+   "id": "bo3-134678",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "Shopify Rebellion Gold",
+   "teamB": "Maryville University",
+   "logoA": "https://files.bo3.gg/uploads/team/6700/image/webp-8da16b04777636e65218d024a2e61c1c.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/18655/image/webp-382f3762fcd770c6b833b488f0a0c932.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VCT 2027: Americas Kickoff: North America - Qualifier Playoffs",
+   "tier": "A",
+   "startsAt": "2026-11-21T03:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/shopify-rebellion-gc-vs-maryville-university-vlr-21-11-2026"
   },
   {
    "id": "bo3-134329",
