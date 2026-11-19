@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T13:30:28+03:00",
+  "updatedAt": "2026-11-19T23:48:49+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -469,6 +469,41 @@
       "short_description": "Survive to escape the horrors of Callisto and uncover the dark secrets of Jupiter’s dead moon."
     },
     {
+      "appid": "394360",
+      "name": "Hearts of Iron IV",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/67bbd0057627fc2244793bcdd09260c2539499cf/header.jpg?t=1794491980",
+      "genres": [
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": 83,
+      "short_description": "Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation in World War II; the most engaging conflict in world history."
+    },
+    {
+      "appid": "850190",
+      "name": "Goat Simulator 3",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/850190/7a5ea1e3aa39d603db3e25d8d57d405c654facf2/header_alt_assets_9_russian.jpg?t=1795097262",
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Пилгор вернулась! Собирайте стадо и отправляйтесь в Goat Simulator 3 — новую (для Steam, во всяком случае) реалистичную «песочницу» на ферме. Пригласите до трёх друзей в совместную игру локально или по сети. Сейте хаос, соперничайте в мини-играх. А потом можете рассориться навеки."
+    },
+    {
       "appid": "1627720",
       "name": "Lies of P",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627720/header.jpg?t=1794963244",
@@ -485,24 +520,6 @@
       },
       "metacritic": null,
       "short_description": "Lies of P — захватывающая игра в жанре soulslike, в которой знакомый сюжет сказки «Пиноккио» развернется в мрачных, но элегантных декорациях Прекрасной эпохи."
-    },
-    {
-      "appid": "5362770",
-      "name": "Dookie Clicker: The Big Pfft",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5362770/0e3f155c12689a85de05e7a4dc83d9dd4f809f3e/header.jpg?t=1795045280",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Dookie Clicker: The Big Pfft is a Peachy-themed incremental clicker game, set in a bubbling sewer laboratory. Click to make pffts, build ridiculous factories from the Whoopie Cushion to the Methane Volcano, snatch random power-ups and grow your stinkiest empire yet OH YEAH..keep eyes peeled for fly!"
     },
     {
       "appid": "1158160",
@@ -526,32 +543,12 @@
       "short_description": "Coral Island — яркая и расслабляющая игра, новый взгляд на симулятор фермы. Будьте кем хотите и наслаждайтесь очаровательной жизнью на острове в своём ритме: растите овощи, заведите животных, налаживайте связи с островитянами и делайте мир вокруг живее и гармоничнее."
     },
     {
-      "appid": "5059840",
-      "name": "Spike Force",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5059840/1217c0ef96380bc447d2c226453a6b2eb1e6385b/header.jpg?t=1795037525",
-      "genres": [
-        "Инди",
-        "Ролевые игры",
-        "Спорт",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Spike Force is a roguelite deckbuilder soaked in 90's action anime. Build your volleyball team, draft your cards, and represent your school in a supernatural battle for the fate of humanity. Every match is a fight for survival, and every card is a move in the game."
-    },
-    {
-      "appid": "5290430",
-      "name": "Choo chop",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5290430/430a0acfa6f78262946358f67604792cb740faa4/header.jpg?t=1795029871",
+      "appid": "5450190",
+      "name": "Miko Rhythm",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5450190/d6b544e21e6847b72436a5fbb3a635946a49672f/header.jpg?t=1795068032",
       "genres": [
         "Казуальные игры",
-        "Инди",
-        "Симуляторы"
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -560,12 +557,49 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "По вагонам — и играй короткими днями! Расслабляющая инкрементальная игра: твой поезд едет через лес, а лесорубы рубят каждое дерево в зоне досягаемости. Брёвна летят в вагоны, вагоны запускают пилы и дроны, а каждое улучшение делает следующий день больше. Ещё один день!"
+      "short_description": "Miko Rhythm is a four-lane arrow rhythm game with a cute-goth heart. Hit the beat on a neon 3D highway or a classic flat lane, play 55 songs on four difficulties, dress up Miko in over 90 looks, chase the daily challenge, and make your own charts."
+    },
+    {
+      "appid": "4135380",
+      "name": "Wink Out",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4135380/e8f4b06566740de9edbe54085eb1f377e2e72932/header.jpg?t=1795064722",
+      "genres": [
+        "Экшены",
+        "Казуальные игры",
+        "Инди",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Отталкивайте соперников в этом соревновательном шутере 1v1 с продвинутой физикой! Собирайте продуманные комбинации карт, адаптируйтесь между раундами и побеждайте, выбивая оппонентов за пределы арены."
+    },
+    {
+      "appid": "5481890",
+      "name": "Spaceship Wars Together",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5481890/22c07db3c857754bb44dee3656b4ebd599e2156c/header.jpg?t=1795075709",
+      "genres": [
+        "Экшены",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Садитесь в кабину полностью трёхмерного звёздного истребителя и сражайтесь с бесконечными волнами пришельцев вместе с 3 друзьями. Копите улучшения, связывайте комбо классов, выпускайте ультимативный луч и сокрушайте 11 колоссальных боссов — или сойдитесь друг с другом в PvP-боях."
     },
     {
       "appid": "4018330",
       "name": "Lord of Undead",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4018330/72cf7fb00e1fa2e1a314a2454fe05da9a188c5ff/header_alt_assets_0_russian.jpg?t=1795024906",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4018330/72cf7fb00e1fa2e1a314a2454fe05da9a188c5ff/header_alt_assets_0_russian.jpg?t=1795106627",
       "genres": [
         "Экшены",
         "Приключенческие игры",
@@ -583,28 +617,14 @@
       "short_description": "Уничтожьте замок на холме в мрачной RPG, где вы играете за Темного Лорда. Собирайте души, призывайте армию нежити, изучайте запретные таланты и создавайте легендарное снаряжение. Возведите неприступную цитадель и станьте истинной погибелью этого мира."
     },
     {
-      "appid": "4986360",
-      "name": "Untitled Shop Game",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4986360/65b2b9acad0d1fde23cbe1033c77b7bf9185dab1/header.jpg?t=1795045710",
+      "appid": "5153550",
+      "name": "Pokart",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5153550/8934ec9be598b5fb547159b03ebd3277a564f264/header.jpg?t=1795067041",
       "genres": [
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Untitled Shop Game in a nutshell: anime stylized graphics, wide open area in a fictional Polish city, 50+ songs in the playlist, and 300+ decorations to place without any limits. Oh, I almost forgot... Yes, you can pet the cat!"
-    },
-    {
-      "appid": "4884790",
-      "name": "Grave Profits",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4884790/0e45981c763b2d139f4a2f61cb3fa6f7c8e38feb/header.jpg?t=1795030113",
-      "genres": [
-        "Инди",
-        "Ролевые игры",
+        "Экшены",
+        "Приключенческие игры",
+        "Гонки",
+        "Спорт",
         "Стратегии"
       ],
       "is_free": false,
@@ -614,34 +634,31 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Auto-battler Dungeoncrawler without PvP in a Dark Fantasy setting. Recruit, Match 3 to level up, build game breaking synergies with items and unlocks. Supports 2 player online CO-OP"
+      "short_description": "Покер выходит на трассу! Гоняйте с друзьями, соберите лучшую комбинацию и доберитесь до финиша, пока её не потеряли!"
     },
     {
-      "appid": "5066010",
-      "name": "Here Comes the Horde",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066010/660ba25cbec114093ff8245eeafc64e779518a05/header.jpg?t=1795022963",
+      "appid": "5184410",
+      "name": "Crown and Coup",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5184410/3460e3a5160873acd55cf7b6d4cc1e19b5dd321b/header.jpg?t=1795072216",
       "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Ролевые игры"
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
-        "linux": false
+        "linux": true
       },
       "metacritic": null,
-      "short_description": "В авто-баттлере Here Comes the Horde вам предстоит собирать несметные армии, чтобы защитить замок от орд нежити! Сражайтесь с волнами врагов, открывайте новых бойцов, усиливайте войска и превращайте поле боя в настоящее море из тысяч солдат!"
+      "short_description": "Chess is the deck. Draft an army, march it through escalating sieges, and stack stratagems until one rook move scores like an avalanche. A score-chasing roguelike where every capture feeds the combo - and checkmate is the jackpot."
     },
     {
-      "appid": "4192780",
-      "name": "Cloud Getaway",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4192780/56f0e2ba1c1260fe4433664f6ebfd45ac452fc37/header.jpg?t=1795053248",
+      "appid": "3321460",
+      "name": "Crimson Desert Enhanced",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/236f3814be7a97d86831800691b6096d449222a8/header.jpg?t=1794478066",
       "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
+        "Экшены",
+        "Приключенческие игры"
       ],
       "is_free": false,
       "platforms": {
@@ -650,38 +667,19 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Мирный и расслабляющий конструктор диорам с интерактивными жителями и обменом картами! Создайте уютный уголок для любопытных посетителей!"
+      "short_description": "Crimson Desert – это action adventure игра с открытым миром, действие которой разворачивается на континенте Пайвел. Присоединяйтесь к Клиффу, чтобы вернуть потерянное и спасти мир от надвигающейся угрозы. Исследуйте бескрайние просторы и тайны Бездны, прокладывая свой путь через сражения и открытия."
     },
     {
-      "appid": "4960590",
-      "name": "Liminal Desktop",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4960590/e7ba85ef0db62c7d591b2e7af57d0d86af8e1a0b/header.jpg?t=1795039230",
+      "appid": "2406770",
+      "name": "Bodycam",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/677415ebaf02fc7ae5fe8960e6055e65e9fa21a4/header_alt_assets_4.jpg?t=1794951323",
       "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы",
-        "Анимация и моделирование",
-        "Дизайн и иллюстрация",
-        "Утилиты"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "A window wallpaper app that transform every monitor into a living dream with original dreamcore and liminal video wallpapers, independent multi-monitor control, custom imports, music playlists, Steam Workshop support, and lightweight performance."
-    },
-    {
-      "appid": "5490940",
-      "name": "Bank Vault: Tidy Up Together",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5490940/9a90fb0035f3033bd7127badc64e767f6424b3ff/header.jpg?t=1795031481",
-      "genres": [
-        "Казуальные игры",
+        "Экшены",
         "Инди",
         "Многопользовательские игры",
-        "Симуляторы"
+        "Симуляторы",
+        "Стратегии",
+        "Ранний доступ"
       ],
       "is_free": false,
       "platforms": {
@@ -690,7 +688,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Наведи порядок в банковском хранилище с 2 345 уникальными предметами! Сортируй деньги, золото и драгоценности, заполняй полки и превращай хаос в порядок. Объединяйся с друзьями в увлекательном приключении по наведению чистоты!"
+      "short_description": "Bodycam — это первый тактический многопользовательский шутер от первого лица с настоящим обзором с нательной камеры на движке Unreal Engine 5. Ближние бои кажутся резкими и громкими. Каждый ракурс, выноска и пуля имеют значение. Играйте в Deathmatch, Team Deathmatch и Wingman на фотореалистичных."
     }
   ]
 }

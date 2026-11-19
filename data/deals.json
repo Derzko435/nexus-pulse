@@ -1,17 +1,7 @@
 {
-  "updatedAt": "2026-11-19T13:30:33+03:00",
+  "updatedAt": "2026-11-19T23:48:54+03:00",
   "source": "steam-specials-ru",
   "deals": [
-    {
-      "id": "steam-1544020",
-      "title": "The Callisto Protocol",
-      "store": "Steam",
-      "old": 1900,
-      "neu": 285,
-      "pct": 85,
-      "url": "https://store.steampowered.com/app/1544020/",
-      "steamAppId": "1544020"
-    },
     {
       "id": "steam-227300",
       "title": "Euro Truck Simulator 2",
@@ -33,16 +23,6 @@
       "steamAppId": "394360"
     },
     {
-      "id": "steam-850190",
-      "title": "Goat Simulator 3",
-      "store": "Steam",
-      "old": 1100,
-      "neu": 330,
-      "pct": 70,
-      "url": "https://store.steampowered.com/app/850190/",
-      "steamAppId": "850190"
-    },
-    {
       "id": "steam-1627720",
       "title": "Lies of P",
       "store": "Steam",
@@ -53,44 +33,54 @@
       "steamAppId": "1627720"
     },
     {
-      "id": "steam-1158160",
-      "title": "Coral Island",
+      "id": "steam-1808500",
+      "title": "ARC Raiders",
       "store": "Steam",
-      "old": 1100,
-      "neu": 660,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/1158160/",
-      "steamAppId": "1158160"
+      "old": 3220,
+      "neu": 1610,
+      "pct": 50,
+      "url": "https://store.steampowered.com/app/1808500/",
+      "steamAppId": "1808500"
     },
     {
-      "id": "steam-5450190",
-      "title": "Miko Rhythm",
+      "id": "steam-887570",
+      "title": "NEBULOUS: Fleet Command",
       "store": "Steam",
-      "old": 690,
-      "neu": 414,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5450190/",
-      "steamAppId": "5450190"
+      "old": 999,
+      "neu": 499,
+      "pct": 50,
+      "url": "https://store.steampowered.com/app/887570/",
+      "steamAppId": "887570"
     },
     {
-      "id": "steam-4135380",
-      "title": "Wink Out",
+      "id": "steam-2292800",
+      "title": "Blacksmith Master",
       "store": "Steam",
-      "old": 379,
-      "neu": 227,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/4135380/",
-      "steamAppId": "4135380"
+      "old": 599,
+      "neu": 299,
+      "pct": 50,
+      "url": "https://store.steampowered.com/app/2292800/",
+      "steamAppId": "2292800"
     },
     {
-      "id": "steam-5481890",
-      "title": "Spaceship Wars Together",
+      "id": "steam-5361610",
+      "title": "Expeditionary Sustainment Command",
       "store": "Steam",
-      "old": 130,
-      "neu": 78,
+      "old": 1050,
+      "neu": 630,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5481890/",
-      "steamAppId": "5481890"
+      "url": "https://store.steampowered.com/app/5361610/",
+      "steamAppId": "5361610"
+    },
+    {
+      "id": "steam-5389460",
+      "title": "Pocket Furry",
+      "store": "Steam",
+      "old": 249,
+      "neu": 166,
+      "pct": 33,
+      "url": "https://store.steampowered.com/app/5389460/",
+      "steamAppId": "5389460"
     },
     {
       "id": "steam-4018330",
@@ -103,24 +93,24 @@
       "steamAppId": "4018330"
     },
     {
-      "id": "steam-5153550",
-      "title": "Pokart",
+      "id": "steam-5085520",
+      "title": "Tiny Tycoons",
       "store": "Steam",
-      "old": 82,
-      "neu": 57,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/5153550/",
-      "steamAppId": "5153550"
+      "old": 275,
+      "neu": 206,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/5085520/",
+      "steamAppId": "5085520"
     },
     {
-      "id": "steam-5184410",
-      "title": "Crown and Coup",
+      "id": "steam-4523120",
+      "title": "Volvy’s Adventure: Reslimed",
       "store": "Steam",
-      "old": 555,
-      "neu": 416,
+      "old": 240,
+      "neu": 180,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/5184410/",
-      "steamAppId": "5184410"
+      "url": "https://store.steampowered.com/app/4523120/",
+      "steamAppId": "4523120"
     },
     {
       "id": "steam-3321460",
@@ -141,6 +131,16 @@
       "pct": 20,
       "url": "https://store.steampowered.com/app/2406770/",
       "steamAppId": "2406770"
+    },
+    {
+      "id": "steam-5196330",
+      "title": "IT THINKS! - Build Your Own GPU",
+      "store": "Steam",
+      "old": 690,
+      "neu": 552,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/5196330/",
+      "steamAppId": "5196330"
     }
   ]
 }
