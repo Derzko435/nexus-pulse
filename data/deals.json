@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T06:31:50+03:00",
+  "updatedAt": "2026-11-20T16:12:52+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -33,6 +33,16 @@
       "steamAppId": "1158310"
     },
     {
+      "id": "steam-394360",
+      "title": "Hearts of Iron IV",
+      "store": "Steam",
+      "old": 3049,
+      "neu": 914,
+      "pct": 70,
+      "url": "https://store.steampowered.com/app/394360/",
+      "steamAppId": "394360"
+    },
+    {
       "id": "steam-1627720",
       "title": "Lies of P",
       "store": "Steam",
@@ -63,54 +73,14 @@
       "steamAppId": "887570"
     },
     {
-      "id": "steam-2292800",
-      "title": "Blacksmith Master",
+      "id": "steam-5616880",
+      "title": "Lust Goddess — Mascot Arxia",
       "store": "Steam",
-      "old": 599,
-      "neu": 299,
-      "pct": 50,
-      "url": "https://store.steampowered.com/app/2292800/",
-      "steamAppId": "2292800"
-    },
-    {
-      "id": "steam-36586",
-      "title": "Crusader Kings III: Collection",
-      "store": "Steam",
-      "old": 18917,
-      "neu": 8108,
-      "pct": 43,
-      "url": "https://store.steampowered.com/app/36586/",
-      "steamAppId": "36586"
-    },
-    {
-      "id": "steam-5361610",
-      "title": "Expeditionary Sustainment Command",
-      "store": "Steam",
-      "old": 1050,
-      "neu": 630,
+      "old": 2300,
+      "neu": 1380,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5361610/",
-      "steamAppId": "5361610"
-    },
-    {
-      "id": "steam-5210230",
-      "title": "Horny Hotel",
-      "store": "Steam",
-      "old": 245,
-      "neu": 147,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5210230/",
-      "steamAppId": "5210230"
-    },
-    {
-      "id": "steam-5430940",
-      "title": "Secret Lesbian Love",
-      "store": "Steam",
-      "old": 64,
-      "neu": 41,
-      "pct": 36,
-      "url": "https://store.steampowered.com/app/5430940/",
-      "steamAppId": "5430940"
+      "url": "https://store.steampowered.com/app/5616880/",
+      "steamAppId": "5616880"
     },
     {
       "id": "steam-2416450",
@@ -123,24 +93,54 @@
       "steamAppId": "2416450"
     },
     {
-      "id": "steam-5389460",
-      "title": "Pocket Furry",
+      "id": "steam-4903900",
+      "title": "Find Cats 9: Скрытые сокровища",
       "store": "Steam",
-      "old": 249,
-      "neu": 166,
-      "pct": 33,
-      "url": "https://store.steampowered.com/app/5389460/",
-      "steamAppId": "5389460"
+      "old": 99,
+      "neu": 68,
+      "pct": 31,
+      "url": "https://store.steampowered.com/app/4903900/",
+      "steamAppId": "4903900"
     },
     {
-      "id": "steam-5429150",
-      "title": "Fallen City",
+      "id": "steam-5359810",
+      "title": "太平战纪：穿越成上帝次子，就要拿出真本事！",
       "store": "Steam",
-      "old": 575,
-      "neu": 402,
+      "old": 360,
+      "neu": 252,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/5429150/",
-      "steamAppId": "5429150"
+      "url": "https://store.steampowered.com/app/5359810/",
+      "steamAppId": "5359810"
+    },
+    {
+      "id": "steam-3321460",
+      "title": "Crimson Desert Enhanced",
+      "store": "Steam",
+      "old": 4299,
+      "neu": 3439,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/3321460/",
+      "steamAppId": "3321460"
+    },
+    {
+      "id": "steam-2406770",
+      "title": "Bodycam",
+      "store": "Steam",
+      "old": 1200,
+      "neu": 960,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/2406770/",
+      "steamAppId": "2406770"
+    },
+    {
+      "id": "steam-4626650",
+      "title": "Evil Maiden: The Noble Warrior and the Demon Armor",
+      "store": "Steam",
+      "old": 590,
+      "neu": 472,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/4626650/",
+      "steamAppId": "4626650"
     }
   ]
 }

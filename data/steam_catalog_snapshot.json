@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T06:31:44+03:00",
+  "updatedAt": "2026-11-20T16:12:47+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -471,7 +471,7 @@
     {
       "appid": "1158310",
       "name": "Crusader Kings III",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/8c0c09b4da78eda3e2fedf4ed792173596e68841/header_alt_assets_12_russian.jpg?t=1795111327",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/8c0c09b4da78eda3e2fedf4ed792173596e68841/header_alt_assets_12_russian.jpg?t=1795167672",
       "genres": [
         "Ролевые игры",
         "Симуляторы",
@@ -556,6 +556,22 @@
       "short_description": "Управляйте средневековой кузницей в Blacksmith Master. Руководите всеми процессами, от добычи руды и самоцветов до создания и продажи готовых товаров. Производите оружие, броню, инструменты и посуду и станьте настоящим мастером-кузнецом."
     },
     {
+      "appid": "36586",
+      "name": "Steam App 36586",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/36586/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
+    },
+    {
       "appid": "5361610",
       "name": "Expeditionary Sustainment Command",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5361610/573701ba4dd789a4c6db8c275ae9f35fe657ca33/header.jpg?t=1795115962",
@@ -575,6 +591,58 @@
       "short_description": "Command a U.S. Army Sustainment Company in a punishing military strategy campaign. Scout threats, clear routes, escort supplies, and lead armored and infantry offensives. Upgrade your fleet, develop your NCOs, and face the consequences of every loss."
     },
     {
+      "appid": "5210230",
+      "name": "Horny Hotel",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5210230/a8fcd1c0f1061a61e2836a520142e555dd1882d0/header.jpg?t=1795116357",
+      "genres": [
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Унаследуйте старый отель и начните новую жизнь рядом с тремя девушками. Знакомьтесь, переписывайтесь и сближайтесь в иллюстрированных историях с выбором реплик. Между встречами принимайте гостей, ремонтируйте номера и возвращайте поместью уют. Романтическое приключение для взрослых от первого лица."
+    },
+    {
+      "appid": "5430940",
+      "name": "Secret Lesbian Love",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5430940/fe94a308c2f713bf6fa46a03e2acb780a420e565/header.jpg?t=1795119993",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Secret Lesbian Love — игра для взрослых о двух очаровательных продавщицах, которые скрывают тайный роман! Решайте увлекательные головоломки, открывайте всё более откровенные иллюстрации и узнайте, что происходит в подсобке, когда никто не видит!"
+    },
+    {
+      "appid": "2416450",
+      "name": "Частный детектив МАУС",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2416450/298ff2fc3f6a700d022b8d3ec58047f2b426be03/header.jpg?t=1794953576",
+      "genres": [
+        "Экшены",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 80,
+      "short_description": "Вместе с частным детективом Джеком Пеппером докопайтесь до истины в остросюжетных расследованиях с нотками джаза. «Частный детектив МАУС» сочетает в себе очарование классических мультяшных персонажей с адреналиновым азартом шутера от первого лица."
+    },
+    {
       "appid": "5389460",
       "name": "Pocket Furry",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5389460/17f00dd6da693a1a484ed62d0be55b41ae1c3201/header.jpg?t=1795118749",
@@ -592,66 +660,12 @@
       "short_description": "Pocket Furry is a relaxing and heartfelt dating simulator where your choices matter. There are no right or wrong answers. Just choose what she likes."
     },
     {
-      "appid": "5085520",
-      "name": "Tiny Tycoons",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5085520/d9c593dfc8da985c3de9fc486e865d040598a941/header.jpg?t=1795110671",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Build and decorate cozy little businesses for a community of hamsters. Design the layout, choose furniture and style, hire staff to keep things running, and unlock new shop types as you grow."
-    },
-    {
-      "appid": "4523120",
-      "name": "Volvy’s Adventure: Reslimed",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4523120/bd01ad0f41f47272b6f1459de015d2494b24a422/header.jpg?t=1795112316",
+      "appid": "5429150",
+      "name": "Fallen City",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429150/35e9b263fa9824799b0bd11feeb58b414705832a/header.jpg?t=1795125201",
       "genres": [
         "Экшены",
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "«Volvy’s Adventure: Reslimed» — потрясающий ремастер оригинального ремейка оставшегося невыпущенным легендарного экшен-платформера. С самым узнаваемым персонажем в истории видеоигр в главной роли!"
-    },
-    {
-      "appid": "5488360",
-      "name": "Auto Mutant Creatures",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5488360/6a1fe039fd5d09dd56ab7e306692060f57a93f24/header.jpg?t=1795108943",
-      "genres": [
-        "Инди",
-        "Ролевые игры",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Роглайт с автобоями, где сборка может пережить своих носителей. Расставь трёх мутантов с рискованными силами и необычными сочетаниями способностей и наблюдай за боем. Выбери мутацию и передай часть улучшений следующему поколению. Играй соло или в асинхронном PvP по сети."
-    },
-    {
-      "appid": "3321460",
-      "name": "Crimson Desert Enhanced",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/236f3814be7a97d86831800691b6096d449222a8/header.jpg?t=1794478066",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры"
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -660,28 +674,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Crimson Desert – это action adventure игра с открытым миром, действие которой разворачивается на континенте Пайвел. Присоединяйтесь к Клиффу, чтобы вернуть потерянное и спасти мир от надвигающейся угрозы. Исследуйте бескрайние просторы и тайны Бездны, прокладывая свой путь через сражения и открытия."
-    },
-    {
-      "appid": "2406770",
-      "name": "Bodycam",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/677415ebaf02fc7ae5fe8960e6055e65e9fa21a4/header_alt_assets_4.jpg?t=1794951323",
-      "genres": [
-        "Экшены",
-        "Инди",
-        "Многопользовательские игры",
-        "Симуляторы",
-        "Стратегии",
-        "Ранний доступ"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Bodycam — это первый тактический многопользовательский шутер от первого лица с настоящим обзором с нательной камеры на движке Unreal Engine 5. Ближние бои кажутся резкими и громкими. Каждый ракурс, выноска и пуля имеют значение. Играйте в Deathmatch, Team Deathmatch и Wingman на фотореалистичных."
+      "short_description": "Изометрический зомби-шутер: прорывайтесь сквозь толпы в сотни мертвецов, прокачивайте стволы и подствольники, выжигайте багрянец в обесточенном городе. Три истории, 75 глав, боссы со своими приёмами и сетевая игра до 4 игроков — вместе или друг против друга."
     }
   ]
 }
