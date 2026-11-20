@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T01:39:23+03:00",
+  "updatedAt": "2026-11-20T06:31:44+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -452,10 +452,28 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "394360",
-      "name": "Hearts of Iron IV",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/67bbd0057627fc2244793bcdd09260c2539499cf/header.jpg?t=1794491980",
+      "appid": "1850570",
+      "name": "DEATH STRANDING DIRECTOR'S CUT",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/header.jpg?t=1793287496",
       "genres": [
+        "Экшены",
+        "Приключенческие игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 85,
+      "short_description": "Легендарный творец Хидэо Кодзима представляет окончательную версию DIRECTOR’S CUT знаковой для жанра игры. Действуя от лица Сэма Бриджеса и объединяя последних выживших на территории Америки, вам предстоит возродить надежду человечества. Удастся ли вам шаг за шагом воссоединить разрушенный мир?"
+    },
+    {
+      "appid": "1158310",
+      "name": "Crusader Kings III",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/8c0c09b4da78eda3e2fedf4ed792173596e68841/header_alt_assets_12_russian.jpg?t=1795111327",
+      "genres": [
+        "Ролевые игры",
         "Симуляторы",
         "Стратегии"
       ],
@@ -465,8 +483,8 @@
         "mac": true,
         "linux": true
       },
-      "metacritic": 83,
-      "short_description": "Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation in World War II; the most engaging conflict in world history."
+      "metacritic": 91,
+      "short_description": "Любовь, война, интриги и величие. Определите наследие своего знатного рода в безграничной глобальной стратегии Crusader Kings III. Смерть — это только начало вашего пути по истории выбранной династии в этой полной неожиданностей и славы симуляции Средних веков."
     },
     {
       "appid": "1627720",
@@ -574,26 +592,6 @@
       "short_description": "Pocket Furry is a relaxing and heartfelt dating simulator where your choices matter. There are no right or wrong answers. Just choose what she likes."
     },
     {
-      "appid": "4018330",
-      "name": "Lord of Undead",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4018330/72cf7fb00e1fa2e1a314a2454fe05da9a188c5ff/header_alt_assets_0_russian.jpg?t=1795106627",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди",
-        "Ролевые игры",
-        "Ранний доступ"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Уничтожьте замок на холме в мрачной RPG, где вы играете за Темного Лорда. Собирайте души, призывайте армию нежити, изучайте запретные таланты и создавайте легендарное снаряжение. Возведите неприступную цитадель и станьте истинной погибелью этого мира."
-    },
-    {
       "appid": "5085520",
       "name": "Tiny Tycoons",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5085520/d9c593dfc8da985c3de9fc486e865d040598a941/header.jpg?t=1795110671",
@@ -628,6 +626,24 @@
       },
       "metacritic": null,
       "short_description": "«Volvy’s Adventure: Reslimed» — потрясающий ремастер оригинального ремейка оставшегося невыпущенным легендарного экшен-платформера. С самым узнаваемым персонажем в истории видеоигр в главной роли!"
+    },
+    {
+      "appid": "5488360",
+      "name": "Auto Mutant Creatures",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5488360/6a1fe039fd5d09dd56ab7e306692060f57a93f24/header.jpg?t=1795108943",
+      "genres": [
+        "Инди",
+        "Ролевые игры",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Роглайт с автобоями, где сборка может пережить своих носителей. Расставь трёх мутантов с рискованными силами и необычными сочетаниями способностей и наблюдай за боем. Выбери мутацию и передай часть улучшений следующему поколению. Играй соло или в асинхронном PvP по сети."
     },
     {
       "appid": "3321460",
@@ -666,24 +682,6 @@
       },
       "metacritic": null,
       "short_description": "Bodycam — это первый тактический многопользовательский шутер от первого лица с настоящим обзором с нательной камеры на движке Unreal Engine 5. Ближние бои кажутся резкими и громкими. Каждый ракурс, выноска и пуля имеют значение. Играйте в Deathmatch, Team Deathmatch и Wingman на фотореалистичных."
-    },
-    {
-      "appid": "5196330",
-      "name": "IT THINKS! - Build Your Own GPU",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5196330/792d0e1bcce8bc8a03f6419bfaf00f388ff83b08/header.jpg?t=1795111352",
-      "genres": [
-        "Инди",
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Спроектируйте чип, на котором работает ИИ. Начните с одного логического вентиля и постройте компьютер: соединяйте схемы, превращайте проекты в многоразовые чипы, пишите небольшие kernel и масштабируйте архитектуру до работающего GPU."
     }
   ]
 }

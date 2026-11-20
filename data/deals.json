@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T01:39:28+03:00",
+  "updatedAt": "2026-11-20T06:31:50+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -73,6 +73,16 @@
       "steamAppId": "2292800"
     },
     {
+      "id": "steam-36586",
+      "title": "Crusader Kings III: Collection",
+      "store": "Steam",
+      "old": 18917,
+      "neu": 8108,
+      "pct": 43,
+      "url": "https://store.steampowered.com/app/36586/",
+      "steamAppId": "36586"
+    },
+    {
       "id": "steam-5361610",
       "title": "Expeditionary Sustainment Command",
       "store": "Steam",
@@ -81,6 +91,36 @@
       "pct": 40,
       "url": "https://store.steampowered.com/app/5361610/",
       "steamAppId": "5361610"
+    },
+    {
+      "id": "steam-5210230",
+      "title": "Horny Hotel",
+      "store": "Steam",
+      "old": 245,
+      "neu": 147,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5210230/",
+      "steamAppId": "5210230"
+    },
+    {
+      "id": "steam-5430940",
+      "title": "Secret Lesbian Love",
+      "store": "Steam",
+      "old": 64,
+      "neu": 41,
+      "pct": 36,
+      "url": "https://store.steampowered.com/app/5430940/",
+      "steamAppId": "5430940"
+    },
+    {
+      "id": "steam-2416450",
+      "title": "Частный детектив МАУС",
+      "store": "Steam",
+      "old": 1100,
+      "neu": 726,
+      "pct": 34,
+      "url": "https://store.steampowered.com/app/2416450/",
+      "steamAppId": "2416450"
     },
     {
       "id": "steam-5389460",
@@ -93,54 +133,14 @@
       "steamAppId": "5389460"
     },
     {
-      "id": "steam-5085520",
-      "title": "Tiny Tycoons",
+      "id": "steam-5429150",
+      "title": "Fallen City",
       "store": "Steam",
-      "old": 275,
-      "neu": 206,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5085520/",
-      "steamAppId": "5085520"
-    },
-    {
-      "id": "steam-4523120",
-      "title": "Volvy’s Adventure: Reslimed",
-      "store": "Steam",
-      "old": 240,
-      "neu": 180,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/4523120/",
-      "steamAppId": "4523120"
-    },
-    {
-      "id": "steam-5488360",
-      "title": "Auto Mutant Creatures",
-      "store": "Steam",
-      "old": 195,
-      "neu": 146,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5488360/",
-      "steamAppId": "5488360"
-    },
-    {
-      "id": "steam-3321460",
-      "title": "Crimson Desert Enhanced",
-      "store": "Steam",
-      "old": 4299,
-      "neu": 3439,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/3321460/",
-      "steamAppId": "3321460"
-    },
-    {
-      "id": "steam-2406770",
-      "title": "Bodycam",
-      "store": "Steam",
-      "old": 1200,
-      "neu": 960,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/2406770/",
-      "steamAppId": "2406770"
+      "old": 575,
+      "neu": 402,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5429150/",
+      "steamAppId": "5429150"
     }
   ]
 }
