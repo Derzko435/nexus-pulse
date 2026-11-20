@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-19T14:50:11+03:00",
+ "updatedAt": "2026-11-20T14:50:29+03:00",
  "items": [
   {
    "appid": 3629430,
@@ -24,7 +24,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/3629430/"
    },
-   "reviews": 1924
+   "reviews": 2000
   },
   {
    "appid": 4115450,
@@ -49,7 +49,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4115450/"
    },
-   "reviews": 121254
+   "reviews": 122235
   },
   {
    "appid": 4576490,
@@ -74,7 +74,32 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4576490/"
    },
-   "reviews": 4310
+   "reviews": 4501
+  },
+  {
+   "appid": 4348910,
+   "title": "Probably Stolen – симулятор магазина в киберпанке",
+   "date": "2026-10-28",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/837d8597c8e8f6c8f75c4b35fc435d780803a922/header.jpg?t=1795024727",
+   "desc": "В этом симуляторе магазина на мрачной киберпанковой космической станции вы будете создавать полезные вещи из хлама, торговать (легально и не очень) товарами сомнительного происхождения и разбираться в отношениях между фракциями. Решайте сами, на что вы готовы пойти, чтобы остаться на плаву.",
+   "genres": [
+    "Инди",
+    "Ролевые игры",
+    "Симуляторы"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Questing Goose Studio",
+   "price": "499 руб.",
+   "url": "https://store.steampowered.com/app/4348910/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4348910/"
+   },
+   "reviews": 27345
   },
   {
    "appid": 1203620,
@@ -100,38 +125,13 @@
    "links": {
     "steam": "https://store.steampowered.com/app/1203620/"
    },
-   "reviews": 101026
-  },
-  {
-   "appid": 4348910,
-   "title": "Probably Stolen – симулятор магазина в киберпанке",
-   "date": "2026-10-28",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/837d8597c8e8f6c8f75c4b35fc435d780803a922/header.jpg?t=1795024727",
-   "desc": "В этом симуляторе магазина на мрачной киберпанковой космической станции вы будете создавать полезные вещи из хлама, торговать (легально и не очень) товарами сомнительного происхождения и разбираться в отношениях между фракциями. Решайте сами, на что вы готовы пойти, чтобы остаться на плаву.",
-   "genres": [
-    "Инди",
-    "Ролевые игры",
-    "Симуляторы"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Questing Goose Studio",
-   "price": "499 руб.",
-   "url": "https://store.steampowered.com/app/4348910/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4348910/"
-   },
-   "reviews": 27065
+   "reviews": 101108
   },
   {
    "appid": 4018330,
    "title": "Lord of Undead",
    "date": "2026-11-18",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4018330/72cf7fb00e1fa2e1a314a2454fe05da9a188c5ff/header_alt_assets_0_russian.jpg?t=1795024906",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4018330/72cf7fb00e1fa2e1a314a2454fe05da9a188c5ff/header_alt_assets_0_russian.jpg?t=1795106627",
    "desc": "Уничтожьте замок на холме в мрачной RPG, где вы играете за Темного Лорда. Собирайте души, призывайте армию нежити, изучайте запретные таланты и создавайте легендарное снаряжение. Возведите неприступную цитадель и станьте истинной погибелью этого мира.",
    "genres": [
     "Экшены",
@@ -149,7 +149,8 @@
    "url": "https://store.steampowered.com/app/4018330/",
    "links": {
     "steam": "https://store.steampowered.com/app/4018330/"
-   }
+   },
+   "reviews": 101
   },
   {
    "appid": 5335510,
@@ -175,7 +176,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/5335510/"
    },
-   "reviews": 9892
+   "reviews": 10055
   },
   {
    "appid": 1799840,
@@ -200,18 +201,44 @@
    "links": {
     "steam": "https://store.steampowered.com/app/1799840/"
    },
-   "reviews": 7703
+   "reviews": 7987
   },
   {
-   "appid": 5066010,
-   "title": "Here Comes the Horde",
-   "date": "2026-11-16",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066010/660ba25cbec114093ff8245eeafc64e779518a05/header.jpg?t=1795022963",
-   "desc": "В авто-баттлере Here Comes the Horde вам предстоит собирать несметные армии, чтобы защитить замок от орд нежити! Сражайтесь с волнами врагов, открывайте новых бойцов, усиливайте войска и превращайте поле боя в настоящее море из тысяч солдат!",
+   "appid": 2292800,
+   "title": "Blacksmith Master",
+   "date": "2026-11-19",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2292800/a4e8efa3d8a738c3011f6b50dd57475a7ba2c782/header.jpg?t=1795111301",
+   "desc": "Управляйте средневековой кузницей в Blacksmith Master. Руководите всеми процессами, от добычи руды и самоцветов до создания и продажи готовых товаров. Производите оружие, броню, инструменты и посуду и станьте настоящим мастером-кузнецом.",
+   "genres": [
+    "Симуляторы",
+    "Стратегии"
+   ],
+   "platforms": [
+    "PC",
+    "Mac",
+    "Linux"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Untitled Studio",
+   "price": "299 руб.",
+   "url": "https://store.steampowered.com/app/2292800/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/2292800/"
+   },
+   "reviews": 2631
+  },
+  {
+   "appid": 5458210,
+   "title": "How They Built the Pyramids",
+   "date": "2026-11-13",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5458210/e8525d1cf30149534fbc6b2ee780a2dddc2f328b/header.jpg?t=1794589252",
+   "desc": "Безумная онлайн-игра про строительство в кооперативе для 1–8 игроков. Создавайте кирпичи, стройте огромную пирамиду и автоматизируйте производство. Собирайте друзей, нанимайте помощников и придумывайте всё более безумные способы доставить кирпичи на вершину!",
    "genres": [
     "Казуальные игры",
     "Инди",
-    "Ролевые игры"
+    "Симуляторы"
    ],
    "platforms": [
     "PC"
@@ -219,45 +246,45 @@
    "stores": [
     "Steam"
    ],
-   "developer": "Polished Games",
-   "price": "210 руб.",
-   "url": "https://store.steampowered.com/app/5066010/",
+   "developer": "Pattez Games",
+   "price": "196 руб.",
+   "url": "https://store.steampowered.com/app/5458210/",
    "links": {
-    "steam": "https://store.steampowered.com/app/5066010/"
+    "steam": "https://store.steampowered.com/app/5458210/"
    },
-   "reviews": 661
+   "reviews": 445
   },
   {
-   "appid": 5200620,
-   "title": "Dungeonbound",
-   "date": "2026-11-16",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5200620/b3a32d9086038acf42c9457c2bc062f93d90ea3e/header.jpg?t=1794984507",
-   "desc": "Dungeonbound - ретро-автобаттлер и данжен-кроулер от первого лица. Отправьте Воина, Мага или Плута в полные монстров глубины, следите за пошаговыми боями и крепните с каждым забегом. Смерть лишь возвращает вас домой с добычей. Объединяйте предметы, покупайте улучшения и спускайтесь снова.",
+   "appid": 5196330,
+   "title": "IT THINKS! - Build Your Own GPU",
+   "date": "2026-11-19",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5196330/792d0e1bcce8bc8a03f6419bfaf00f388ff83b08/header.jpg?t=1795166083",
+   "desc": "Спроектируйте чип, на котором работает ИИ. Начните с одного логического вентиля и постройте компьютер: соединяйте схемы, превращайте проекты в многоразовые чипы, пишите небольшие kernel и масштабируйте архитектуру до работающего GPU.",
    "genres": [
-    "Приключенческие игры",
     "Инди",
-    "Ролевые игры"
+    "Симуляторы",
+    "Стратегии"
    ],
    "platforms": [
     "PC",
-    "Mac"
+    "Mac",
+    "Linux"
    ],
    "stores": [
     "Steam"
    ],
-   "developer": "louidev",
-   "price": "481 руб.",
-   "url": "https://store.steampowered.com/app/5200620/",
+   "developer": "Catchy",
+   "price": "552 руб.",
+   "url": "https://store.steampowered.com/app/5196330/",
    "links": {
-    "steam": "https://store.steampowered.com/app/5200620/"
-   },
-   "reviews": 501
+    "steam": "https://store.steampowered.com/app/5196330/"
+   }
   },
   {
    "appid": 3724300,
    "title": "Toto's Journey",
    "date": "2026-11-18",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3724300/92e1d5509cb77280e69a080068dcc16effa0d3ab/header.jpg?t=1795035325",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3724300/92e1d5509cb77280e69a080068dcc16effa0d3ab/header.jpg?t=1795115436",
    "desc": "Toto’s Journey — это уютное приключение, вдохновлённое вселенной «Волшебник страны Оз». Играйте за собаку Тото, помогайте жителям сказочного мира, решайте головоломки и следуйте за Ураганом, чтобы раскрыть тайны этого мира.",
    "genres": [
     "Экшены",
@@ -276,30 +303,6 @@
    "links": {
     "steam": "https://store.steampowered.com/app/3724300/"
    }
-  },
-  {
-   "appid": 5185890,
-   "title": "Zombies Aren't Real",
-   "date": "2026-11-13",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5185890/cd54755b9d15a2cad33471464fb630d6a5363ff0/header.jpg?t=1794839706",
-   "desc": "Zombies Aren't Real — это стратегическая игра в жанре защиты орды, в которой вы развертываете военные силы, пытаясь подавить быстро распространяющуюся инфекцию зомби и спасти как можно больше мирных жителей!",
-   "genres": [
-    "Стратегии",
-    "Ранний доступ"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Jogamedev",
-   "price": "220 руб.",
-   "url": "https://store.steampowered.com/app/5185890/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/5185890/"
-   },
-   "reviews": 1782
   },
   {
    "appid": "x-earth-defense-force-5",

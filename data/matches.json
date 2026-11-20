@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20T05:40:01+03:00",
+ "updatedAt": "2026-11-20T14:47:04+03:00",
  "source": "bo3.gg",
  "matches": [
   {
@@ -13,18 +13,38 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "BLAST Slam IX",
    "tier": "S",
    "startsAt": "2026-11-20T14:00:00+03:00",
    "streams": [
     {
      "type": "twitch",
-     "channel": "blastpremier",
+     "channel": "cispapa",
+     "lang": "ru",
+     "official": true,
+     "label": "cispapa"
+    },
+    {
+     "type": "twitch",
+     "channel": "blastdotab",
      "lang": "en",
      "official": true,
-     "label": "blastpremier",
-     "fallback": true
+     "label": "blastdotab"
+    },
+    {
+     "type": "kick",
+     "channel": "papita",
+     "lang": "es",
+     "official": true,
+     "label": "papita"
+    },
+    {
+     "type": "twitch",
+     "channel": "betboom_dota_ru",
+     "lang": "ru",
+     "official": false,
+     "label": "betboom_dota_ru"
     }
    ],
    "url": "https://bo3.gg/dota2/matches/team-spirit-vs-team-nemesis-20-11-2026"
@@ -40,18 +60,38 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "BLAST Slam IX",
    "tier": "S",
    "startsAt": "2026-11-20T14:00:00+03:00",
    "streams": [
     {
      "type": "twitch",
-     "channel": "blastpremier",
+     "channel": "betboom_dota_ru2",
+     "lang": "ru",
+     "official": true,
+     "label": "betboom_dota_ru2"
+    },
+    {
+     "type": "twitch",
+     "channel": "blastdota",
      "lang": "en",
      "official": true,
-     "label": "blastpremier",
-     "fallback": true
+     "label": "blastdota"
+    },
+    {
+     "type": "twitch",
+     "channel": "lamm1k",
+     "lang": "ru",
+     "official": false,
+     "label": "lamm1k"
+    },
+    {
+     "type": "kick",
+     "channel": "lightfurylf",
+     "lang": "th",
+     "official": false,
+     "label": "lightfurylf"
     }
    ],
    "url": "https://bo3.gg/dota2/matches/team-yandex-vs-playtime-20-11-2026"
@@ -78,6 +118,27 @@
      "lang": "en",
      "official": true,
      "label": "starladder"
+    },
+    {
+     "type": "kick",
+     "channel": "watchfultv",
+     "lang": "ru",
+     "official": false,
+     "label": "watchfultv"
+    },
+    {
+     "type": "kick",
+     "channel": "bandurka",
+     "lang": "ru",
+     "official": false,
+     "label": "bandurka"
+    },
+    {
+     "type": "kick",
+     "channel": "luffastream",
+     "lang": "pl",
+     "official": false,
+     "label": "luffastream"
     }
    ],
    "url": "https://bo3.gg/matches/luminosity-cs-go-vs-big-20-11-2026"
@@ -569,33 +630,6 @@
    "url": "https://bo3.gg/matches/100-thieves-vs-chinggis-warriors-24-11-2026"
   },
   {
-   "id": "bo3-133417",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Liquid",
-   "teamB": "BC.Game",
-   "logoA": "https://files.bo3.gg/uploads/team/790/image/webp-01cca8d35079cb4b21bc25268ac75bae.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/10844/image/webp-af00945fca6e79b15d240acc1d1e3148.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 1,
-   "status": "upcoming",
-   "event": "PGL Major Singapore 2026 Stage 1",
-   "tier": "S",
-   "startsAt": "2026-11-24T09:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/liquid-vs-gosh-24-11-2026"
-  },
-  {
    "id": "bo3-133418",
    "game": "CS2",
    "gameKey": "cs2",
@@ -623,20 +657,20 @@
    "url": "https://bo3.gg/matches/parivision-vs-dendele-cs-24-11-2026"
   },
   {
-   "id": "bo3-133422",
+   "id": "bo3-133417",
    "game": "CS2",
    "gameKey": "cs2",
-   "teamA": "Eternal Fire",
-   "teamB": "FlyQuest",
-   "logoA": "https://files.bo3.gg/uploads/team/1527/image/webp-528d013ccb8d81fc2f4725b95ee04516.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/10398/image/webp-107b435e36c92fdda2ade7d3a01046ae.webp",
+   "teamA": "Liquid",
+   "teamB": "BC.Game",
+   "logoA": "https://files.bo3.gg/uploads/team/790/image/webp-01cca8d35079cb4b21bc25268ac75bae.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/10844/image/webp-af00945fca6e79b15d240acc1d1e3148.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 1,
    "status": "upcoming",
    "event": "PGL Major Singapore 2026 Stage 1",
    "tier": "S",
-   "startsAt": "2026-11-24T10:00:00+03:00",
+   "startsAt": "2026-11-24T09:00:00+03:00",
    "streams": [
     {
      "type": "twitch",
@@ -647,7 +681,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/matches/eternal-fire-vs-flyquest-24-11-2026"
+   "url": "https://bo3.gg/matches/liquid-vs-gosh-24-11-2026"
   },
   {
    "id": "bo3-133421",
@@ -675,6 +709,33 @@
     }
    ],
    "url": "https://bo3.gg/matches/faze-vs-wildcard-gaming-24-11-2026"
+  },
+  {
+   "id": "bo3-133422",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Eternal Fire",
+   "teamB": "FlyQuest",
+   "logoA": "https://files.bo3.gg/uploads/team/1527/image/webp-528d013ccb8d81fc2f4725b95ee04516.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/10398/image/webp-107b435e36c92fdda2ade7d3a01046ae.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 1,
+   "status": "upcoming",
+   "event": "PGL Major Singapore 2026 Stage 1",
+   "tier": "S",
+   "startsAt": "2026-11-24T10:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/eternal-fire-vs-flyquest-24-11-2026"
   },
   {
    "id": "bo3-133490",

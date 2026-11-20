@@ -1,52 +1,6 @@
 {
- "updatedAt": "2026-11-19T14:49:33+03:00",
+ "updatedAt": "2026-11-20T14:49:57+03:00",
  "items": [
-  {
-   "appid": "x-grand-theft-auto-vi",
-   "title": "Grand Theft Auto VI",
-   "date": "2026-11-19",
-   "image": "https://upload.wikimedia.org/wikipedia/en/4/46/Grand_Theft_Auto_VI.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "desc": "Grand Theft Auto VI (сокр. — GTA VI или GTA 6) — компьютерная игра в жанре приключенческого экшена с открытым миром, разработанная и изданная компанией Rockstar Games. Является шестнадцатой по счёту и восьмой крупной игрой в серии Grand Theft Auto.",
-   "genres": [
-    "Экшен-приключение"
-   ],
-   "platforms": [
-    "PlayStation",
-    "Xbox"
-   ],
-   "stores": [],
-   "developer": "Rockstar Games",
-   "price": "",
-   "url": "https://ru.wikipedia.org/wiki/Grand_Theft_Auto_VI",
-   "links": {
-    "wiki": "https://ru.wikipedia.org/wiki/Grand_Theft_Auto_VI"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": 4928450,
-   "title": "Grand Theft Timeline",
-   "date": "2026-11-19",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4928450/9856eb60fb023ea4c10ed38270e8fbd0159522ed/header.jpg?t=1794006027",
-   "desc": "Кооперативное ограбление сквозь время на 1-4+ игроков с физикой, пушками, боссами, ареной, базой, скинами и биржей! Похищайте людей в 200+ мирах истории и вымысла, тащите их домой в клетках и фармите парадокс в гараже. 25+ тематических наборов, 2000+ NPC и моды из Мастерской!",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Казуальные игры"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "REAL PLAYERS",
-   "price": "",
-   "url": "https://store.steampowered.com/app/4928450/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4928450/"
-   }
-  },
   {
    "appid": "x-gothic-3-classic",
    "title": "Gothic 3 Classic",
@@ -375,6 +329,27 @@
    "source": "wiki"
   },
   {
+   "appid": "x-coral-island",
+   "title": "Coral Island",
+   "date": "2026-12-07",
+   "image": "https://upload.wikimedia.org/wikipedia/en/c/c8/Coral_Island_video_game_poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "Coral Island — это игра-симулятор сельского хозяйства 2023 года, разработанная Stairway Games и изданная Humble Games. Coral Island вышел в ранний доступ для ПК в октябре 2022 года и был полностью выпущен для ПК и игровых консолей 14 ноября 2023 года. Версия для Nintendo Switch 2 выйдет 7 декабря…",
+   "genres": [
+    "Симулятор"
+   ],
+   "platforms": [
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Stairway Games",
+   "price": "",
+   "url": "https://en.wikipedia.org/wiki/Coral_Island_%28video_game%29",
+   "links": {
+    "wiki": "https://en.wikipedia.org/wiki/Coral_Island_%28video_game%29"
+   },
+   "source": "wiki"
+  },
+  {
    "appid": 2988120,
    "title": "Never Be Alone",
    "date": "2026-12-08",
@@ -423,27 +398,25 @@
    }
   },
   {
-   "appid": 3384600,
-   "title": "Professor Layton and the New World of Steam",
+   "appid": 5006320,
+   "title": "A-Train 9 PRIME LINE",
    "date": "2026-12-09",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3384600/7ca8815e48a947c0b2890a56fb115f03d1cf02c9/header.jpg?t=1794478966",
-   "desc": "Новая история профессора Лейтона в серии приключенческих головоломок, проданной по всему миру тиражом более 20 миллионов копий. Профессор Лейтон и Люк оказываются втянуты в загадочное дело в Паровом Бизоне — удивительном городе изобретателей, функционирующем на паровых технологиях.",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5006320/a887ad56fb795e412b92a0ae443a05a810b4b8f7/header.jpg?t=1794219899",
+   "desc": "Полное издание градостроительного симулятора A-Train 9! Будучи президентом железнодорожной компании, постройте город своей мечты, занимаясь городским строительством и управлением железной дорогой. A-Train 9 PRIME LINE выводит городское строительство за рамки эволюции, предоставляя незабываемые впечатления от городского строительства.",
    "genres": [
-    "Приключенческие игры"
+    "Симуляторы"
    ],
    "platforms": [
-    "PC",
-    "PlayStation",
-    "Switch"
+    "PC"
    ],
    "stores": [
     "Steam"
    ],
-   "developer": "LEVEL5 Inc.",
-   "price": "4639 руб.",
-   "url": "https://store.steampowered.com/app/3384600/",
+   "developer": "ARTDINK",
+   "price": "3150 руб.",
+   "url": "https://store.steampowered.com/app/5006320/",
    "links": {
-    "steam": "https://store.steampowered.com/app/3384600/"
+    "steam": "https://store.steampowered.com/app/5006320/"
    }
   },
   {
@@ -491,6 +464,33 @@
    "links": {
     "steam": "https://store.steampowered.com/app/2828020/"
    }
+  },
+  {
+   "appid": 3384600,
+   "title": "Professor Layton and the New World of Steam",
+   "date": "2026-12-10",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3384600/7ca8815e48a947c0b2890a56fb115f03d1cf02c9/header.jpg?t=1794478966",
+   "desc": "Новая история профессора Лейтона в серии приключенческих головоломок, проданной по всему миру тиражом более 20 миллионов копий. Профессор Лейтон и Люк оказываются втянуты в загадочное дело в Паровом Бизоне — удивительном городе изобретателей, функционирующем на паровых технологиях.",
+   "genres": [
+    "Головоломка",
+    "Приключение"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Switch"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Level-5 Osaka Office",
+   "price": "4639 руб.",
+   "url": "https://store.steampowered.com/app/3384600/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/3384600/",
+    "wiki": "https://en.wikipedia.org/wiki/Professor_Layton_and_the_New_World_of_Steam"
+   },
+   "source": "wiki"
   },
   {
    "appid": 4452700,
@@ -571,7 +571,7 @@
    "appid": 2295170,
    "title": "Emberville",
    "date": "2027-01-07",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2295170/99852482000e8eb5b7b75c52bf5f70406c6f6e5f/header.jpg?t=1793641621",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2295170/99852482000e8eb5b7b75c52bf5f70406c6f6e5f/header.jpg?t=1795171328",
    "desc": "Потеряв память, вы очнулись в огромном подземном мире. Вас приветствует Витромотус — магическое подземелье, где смерть — это новое начало. Погрузитесь в его глубины и узнайте правду об этой тюрьме, параллельно сражаясь с опасными тварями, помогая выжившим и отстраивая разрушенный город Эмбервилль.",
    "genres": [
     "Экшены",
@@ -795,7 +795,7 @@
    "appid": 2975260,
    "title": "PRISON OF HUSKS",
    "date": "2027-01-27",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2975260/a2d7147668ccf811747a0d49e31127144c3e4b20/header.jpg?t=1791954386",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2975260/a2d7147668ccf811747a0d49e31127144c3e4b20/header.jpg?t=1795164267",
    "desc": "Пробудитесь в теле куклы и отправляйтесь на поиски своей возлюбленной. В этой ностальгической игре, созданной по канонам серии Souls, вам предстоит исследовать нарисованный загробный мир: вас ждут богатые событиями уровни — связанные друг с другом, полные секретов и коротких путей.",
    "genres": [
     "Экшены",
@@ -803,8 +803,7 @@
     "Инди"
    ],
    "platforms": [
-    "PC",
-    "Linux"
+    "PC"
    ],
    "stores": [
     "Steam"
@@ -867,7 +866,7 @@
    "appid": 1853440,
    "title": "Tropico 7",
    "date": "2027-01-28",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1853440/cfa41f10c2e878497d77e100f9be08224eb686b9/header.jpg?t=1794995115",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1853440/cfa41f10c2e878497d77e100f9be08224eb686b9/header.jpg?t=1795158286",
    "desc": "Разбогатей или сдохни! Tropico 7 снова предлагает попробовать себя в роли лидера островного государства. Эль Президенте ведет нацию (а заодно и свой счет в швейцарском банке) сквозь эпохи к процветанию и для этого готов буквально сдвинуть горы!",
    "genres": [
     "Строительство и менеджмент",
@@ -944,7 +943,7 @@
    "appid": 1846700,
    "title": "Witchbrook",
    "date": "2027-01-28",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1846700/957b7e61bf8cb5e91f5dce21403a4288d78fb7b7/header.jpg?t=1793281852",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1846700/957b7e61bf8cb5e91f5dce21403a4288d78fb7b7/header.jpg?t=1795105957",
    "desc": "Погрузитесь в очаровательный симулятор жизни волшебников максимум на 4 игроков. Постройте карьеру волшебника или ведьмы в оживленном приморском городке Мохопорте. Заводите друзей и возлюбленных, творите чудеса, исследуйте этот чудный мир и получите диплом волшебника!",
    "genres": [
     "Инди",
@@ -962,6 +961,30 @@
    "url": "https://store.steampowered.com/app/1846700/",
    "links": {
     "steam": "https://store.steampowered.com/app/1846700/"
+   }
+  },
+  {
+   "appid": 2659410,
+   "title": "Elta: Defy All Gods",
+   "date": "2027-02-02",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2659410/0fa44684db6c1ccfbbcc5d209bfc8a55b0c8565f/header_alt_assets_0_russian.jpg?t=1794230229",
+   "desc": "Выберитесь из оскверненных миров вместе со своим спутником, богом-драконом, в захватывающем экшен-платформере, сочетающим свободный ближний бой, динамичный платформинг и исследование мира в НФ-сеттинге. Станьте избранным своего падшего божества, Эльты.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Afterburner Studios",
+   "price": "1499 руб.",
+   "url": "https://store.steampowered.com/app/2659410/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/2659410/"
    }
   },
   {
