@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20T14:47:04+03:00",
+ "updatedAt": "2026-11-20T15:14:09+03:00",
  "source": "bo3.gg",
  "matches": [
   {
@@ -11,7 +11,7 @@
    "logoA": "https://files.bo3.gg/uploads/team/16704/image/webp-d50909a064a4533a3b594ed059eebc42.webp",
    "logoB": "https://files.bo3.gg/uploads/team/20355/image/webp-3013ddfe8da8ee14d18085640590a9d7.webp",
    "scoreA": 0,
-   "scoreB": 0,
+   "scoreB": 1,
    "bo": 3,
    "status": "live",
    "event": "BLAST Slam IX",
@@ -57,7 +57,7 @@
    "teamB": "PlayTime",
    "logoA": "https://files.bo3.gg/uploads/team/20951/image/webp-102aceac7404bd2093f9b559afcad7b6.webp",
    "logoB": "https://files.bo3.gg/uploads/team/22354/image/webp-f5f3c4896d1f5df9573053ef85802a38.webp",
-   "scoreA": 0,
+   "scoreA": 1,
    "scoreB": 0,
    "bo": 3,
    "status": "live",
@@ -630,33 +630,6 @@
    "url": "https://bo3.gg/matches/100-thieves-vs-chinggis-warriors-24-11-2026"
   },
   {
-   "id": "bo3-133418",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "PARIVISION",
-   "teamB": "DENDELE",
-   "logoA": "https://files.bo3.gg/uploads/team/8171/image/webp-735594256ca5670882480debe25ffb69.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/24956/image/webp-faa4b489f27e86c29c5d66ca95c14082.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 1,
-   "status": "upcoming",
-   "event": "PGL Major Singapore 2026 Stage 1",
-   "tier": "S",
-   "startsAt": "2026-11-24T09:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/parivision-vs-dendele-cs-24-11-2026"
-  },
-  {
    "id": "bo3-133417",
    "game": "CS2",
    "gameKey": "cs2",
@@ -682,6 +655,33 @@
     }
    ],
    "url": "https://bo3.gg/matches/liquid-vs-gosh-24-11-2026"
+  },
+  {
+   "id": "bo3-133418",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "PARIVISION",
+   "teamB": "DENDELE",
+   "logoA": "https://files.bo3.gg/uploads/team/8171/image/webp-735594256ca5670882480debe25ffb69.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/24956/image/webp-faa4b489f27e86c29c5d66ca95c14082.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 1,
+   "status": "upcoming",
+   "event": "PGL Major Singapore 2026 Stage 1",
+   "tier": "S",
+   "startsAt": "2026-11-24T09:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/parivision-vs-dendele-cs-24-11-2026"
   },
   {
    "id": "bo3-133421",
