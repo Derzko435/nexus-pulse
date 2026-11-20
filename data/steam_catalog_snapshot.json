@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T16:12:47+03:00",
+  "updatedAt": "2026-11-21T00:53:13+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -487,6 +487,23 @@
       "short_description": "Любовь, война, интриги и величие. Определите наследие своего знатного рода в безграничной глобальной стратегии Crusader Kings III. Смерть — это только начало вашего пути по истории выбранной династии в этой полной неожиданностей и славы симуляции Средних веков."
     },
     {
+      "appid": "394360",
+      "name": "Hearts of Iron IV",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/67bbd0057627fc2244793bcdd09260c2539499cf/header.jpg?t=1794491980",
+      "genres": [
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": 83,
+      "short_description": "Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation in World War II; the most engaging conflict in world history."
+    },
+    {
       "appid": "1627720",
       "name": "Lies of P",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627720/header.jpg?t=1794963244",
@@ -523,7 +540,7 @@
     {
       "appid": "887570",
       "name": "NEBULOUS: Fleet Command",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/887570/header.jpg?t=1795107503",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/887570/header.jpg?t=1795190128",
       "genres": [
         "Симуляторы",
         "Стратегии",
@@ -539,91 +556,25 @@
       "short_description": "В этой уникальной тактической игре с элементами симулятора вам предстоит командовать собственноручно созданным космическим флотом в трехмерном боевом пространстве, используя смоделированные системы кораблей и маневры для разгрома сил противника."
     },
     {
-      "appid": "2292800",
-      "name": "Blacksmith Master",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2292800/a4e8efa3d8a738c3011f6b50dd57475a7ba2c782/header.jpg?t=1795111301",
+      "appid": "5616880",
+      "name": "Lust Goddess — Mascot Arxia",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5616880/689368b019e6e7a7346d915ef8515d50b080987b/header.jpg?t=1795168708",
       "genres": [
-        "Симуляторы",
-        "Стратегии"
+        "Экшены",
+        "Приключенческие игры",
+        "Многопользовательские игры",
+        "Ролевые игры",
+        "Стратегии",
+        "Бесплатные"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Управляйте средневековой кузницей в Blacksmith Master. Руководите всеми процессами, от добычи руды и самоцветов до создания и продажи готовых товаров. Производите оружие, броню, инструменты и посуду и станьте настоящим мастером-кузнецом."
-    },
-    {
-      "appid": "36586",
-      "name": "Steam App 36586",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/36586/header.jpg",
-      "genres": [],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "",
-      "catalogId": null,
-      "curated": true
-    },
-    {
-      "appid": "5361610",
-      "name": "Expeditionary Sustainment Command",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5361610/573701ba4dd789a4c6db8c275ae9f35fe657ca33/header.jpg?t=1795115962",
-      "genres": [
-        "Экшены",
-        "Ролевые игры",
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Command a U.S. Army Sustainment Company in a punishing military strategy campaign. Scout threats, clear routes, escort supplies, and lead armored and infantry offensives. Upgrade your fleet, develop your NCOs, and face the consequences of every loss."
-    },
-    {
-      "appid": "5210230",
-      "name": "Horny Hotel",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5210230/a8fcd1c0f1061a61e2836a520142e555dd1882d0/header.jpg?t=1795116357",
-      "genres": [
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Унаследуйте старый отель и начните новую жизнь рядом с тремя девушками. Знакомьтесь, переписывайтесь и сближайтесь в иллюстрированных историях с выбором реплик. Между встречами принимайте гостей, ремонтируйте номера и возвращайте поместью уют. Романтическое приключение для взрослых от первого лица."
-    },
-    {
-      "appid": "5430940",
-      "name": "Secret Lesbian Love",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5430940/fe94a308c2f713bf6fa46a03e2acb780a420e565/header.jpg?t=1795119993",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Secret Lesbian Love — игра для взрослых о двух очаровательных продавщицах, которые скрывают тайный роман! Решайте увлекательные головоломки, открывайте всё более откровенные иллюстрации и узнайте, что происходит в подсобке, когда никто не видит!"
+      "short_description": "Разблокируйте уникальный маскот, и Арксия будет развлекать вас каждый раз, когда вы заходите на главный экран! Наслаждайтесь Lust Goddess с этим суперпомощником и дополнительными ресурсами для ускорения вашего прогресса."
     },
     {
       "appid": "2416450",
@@ -643,9 +594,9 @@
       "short_description": "Вместе с частным детективом Джеком Пеппером докопайтесь до истины в остросюжетных расследованиях с нотками джаза. «Частный детектив МАУС» сочетает в себе очарование классических мультяшных персонажей с адреналиновым азартом шутера от первого лица."
     },
     {
-      "appid": "5389460",
-      "name": "Pocket Furry",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5389460/17f00dd6da693a1a484ed62d0be55b41ae1c3201/header.jpg?t=1795118749",
+      "appid": "4903900",
+      "name": "Find Cats 9: Скрытые сокровища",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4903900/4e4d4e893df1a5122cfb321c6d4a465be83134c1/header.jpg?t=1795150596",
       "genres": [
         "Казуальные игры",
         "Инди"
@@ -654,18 +605,35 @@
       "platforms": {
         "windows": true,
         "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Три эпических фэнтези-поля сражения, полные спрятанных кошек! Битва за корону в сокровищнице, русалки против пиратов в глубоководном кораблекрушении, гномы против гоблинов в золотом хранилище—найди их всех."
+    },
+    {
+      "appid": "5359810",
+      "name": "Peaceward Chronicles",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5359810/8185bdb91b466a3b6b8042bee3f2728224c5a564/header.jpg?t=1795198417",
+      "genres": [
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Pocket Furry is a relaxing and heartfelt dating simulator where your choices matter. There are no right or wrong answers. Just choose what she likes."
+      "short_description": "A turn-based card strategy game set in the Taiping Rebellion. Guided by Heaven, you become Hong Xiuquan, God's Second Son. Unlock characters, build a team, and exploit Five Elements matchups and formation bonuses. Complete six story chapters; unlock roguelike challenges after clearing Stage 1-1."
     },
     {
-      "appid": "5429150",
-      "name": "Fallen City",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429150/35e9b263fa9824799b0bd11feeb58b414705832a/header.jpg?t=1795125201",
+      "appid": "3321460",
+      "name": "Crimson Desert Enhanced",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/236f3814be7a97d86831800691b6096d449222a8/header.jpg?t=1794478066",
       "genres": [
         "Экшены",
-        "Инди"
+        "Приключенческие игры"
       ],
       "is_free": false,
       "platforms": {
@@ -674,7 +642,46 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Изометрический зомби-шутер: прорывайтесь сквозь толпы в сотни мертвецов, прокачивайте стволы и подствольники, выжигайте багрянец в обесточенном городе. Три истории, 75 глав, боссы со своими приёмами и сетевая игра до 4 игроков — вместе или друг против друга."
+      "short_description": "Crimson Desert – это action adventure игра с открытым миром, действие которой разворачивается на континенте Пайвел. Присоединяйтесь к Клиффу, чтобы вернуть потерянное и спасти мир от надвигающейся угрозы. Исследуйте бескрайние просторы и тайны Бездны, прокладывая свой путь через сражения и открытия."
+    },
+    {
+      "appid": "2406770",
+      "name": "Bodycam",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/677415ebaf02fc7ae5fe8960e6055e65e9fa21a4/header_alt_assets_4.jpg?t=1794951323",
+      "genres": [
+        "Экшены",
+        "Инди",
+        "Многопользовательские игры",
+        "Симуляторы",
+        "Стратегии",
+        "Ранний доступ"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Bodycam — это первый тактический многопользовательский шутер от первого лица с настоящим обзором с нательной камеры на движке Unreal Engine 5. Ближние бои кажутся резкими и громкими. Каждый ракурс, выноска и пуля имеют значение. Играйте в Deathmatch, Team Deathmatch и Wingman на фотореалистичных."
+    },
+    {
+      "appid": "4626650",
+      "name": "Evil Maiden: The Noble Warrior and the Demon Armor",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4626650/870f5f68ff1d548fe1231cbafa124fcee9a1bf90/header.jpg?t=1795157344",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Once upon a time, there was a world so brutal and chaotic, wars would break out left and right, taking the lives of many innocent people on a daily basis. In that world, Alice, who has lost everything, wants to avenge her comrades."
     }
   ]
 }

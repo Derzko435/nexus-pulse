@@ -1,7 +1,17 @@
 {
-  "updatedAt": "2026-11-20T16:12:52+03:00",
+  "updatedAt": "2026-11-21T00:53:18+03:00",
   "source": "steam-specials-ru",
   "deals": [
+    {
+      "id": "steam-302670",
+      "title": "Call to Arms",
+      "store": "Steam",
+      "old": 550,
+      "neu": 55,
+      "pct": 90,
+      "url": "https://store.steampowered.com/app/302670/",
+      "steamAppId": "302670"
+    },
     {
       "id": "steam-1850570",
       "title": "DEATH STRANDING DIRECTOR'S CUT",
@@ -33,16 +43,6 @@
       "steamAppId": "1158310"
     },
     {
-      "id": "steam-394360",
-      "title": "Hearts of Iron IV",
-      "store": "Steam",
-      "old": 3049,
-      "neu": 914,
-      "pct": 70,
-      "url": "https://store.steampowered.com/app/394360/",
-      "steamAppId": "394360"
-    },
-    {
       "id": "steam-1627720",
       "title": "Lies of P",
       "store": "Steam",
@@ -63,24 +63,74 @@
       "steamAppId": "1808500"
     },
     {
-      "id": "steam-887570",
-      "title": "NEBULOUS: Fleet Command",
+      "id": "steam-1144200",
+      "title": "Ready or Not",
       "store": "Steam",
-      "old": 999,
-      "neu": 499,
+      "old": 2240,
+      "neu": 1120,
       "pct": 50,
-      "url": "https://store.steampowered.com/app/887570/",
-      "steamAppId": "887570"
+      "url": "https://store.steampowered.com/app/1144200/",
+      "steamAppId": "1144200"
     },
     {
-      "id": "steam-5616880",
-      "title": "Lust Goddess — Mascot Arxia",
+      "id": "steam-5531790",
+      "title": "Desert Cleaner",
       "store": "Steam",
-      "old": 2300,
-      "neu": 1380,
+      "old": 249,
+      "neu": 149,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5616880/",
-      "steamAppId": "5616880"
+      "url": "https://store.steampowered.com/app/5531790/",
+      "steamAppId": "5531790"
+    },
+    {
+      "id": "steam-1916210",
+      "title": "Moto Mouse Stunt Mania",
+      "store": "Steam",
+      "old": 245,
+      "neu": 147,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/1916210/",
+      "steamAppId": "1916210"
+    },
+    {
+      "id": "steam-5424270",
+      "title": "Tidy Up: Street Market",
+      "store": "Steam",
+      "old": 195,
+      "neu": 117,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5424270/",
+      "steamAppId": "5424270"
+    },
+    {
+      "id": "steam-2854640",
+      "title": "EtheriiA - Travelogue",
+      "store": "Steam",
+      "old": 161,
+      "neu": 96,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/2854640/",
+      "steamAppId": "2854640"
+    },
+    {
+      "id": "steam-4953250",
+      "title": "Pirate Waifu",
+      "store": "Steam",
+      "old": 99,
+      "neu": 59,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/4953250/",
+      "steamAppId": "4953250"
+    },
+    {
+      "id": "steam-4183130",
+      "title": "WE'RE ALL IN!",
+      "store": "Steam",
+      "old": 360,
+      "neu": 223,
+      "pct": 38,
+      "url": "https://store.steampowered.com/app/4183130/",
+      "steamAppId": "4183130"
     },
     {
       "id": "steam-2416450",
@@ -91,56 +141,6 @@
       "pct": 34,
       "url": "https://store.steampowered.com/app/2416450/",
       "steamAppId": "2416450"
-    },
-    {
-      "id": "steam-4903900",
-      "title": "Find Cats 9: Скрытые сокровища",
-      "store": "Steam",
-      "old": 99,
-      "neu": 68,
-      "pct": 31,
-      "url": "https://store.steampowered.com/app/4903900/",
-      "steamAppId": "4903900"
-    },
-    {
-      "id": "steam-5359810",
-      "title": "太平战纪：穿越成上帝次子，就要拿出真本事！",
-      "store": "Steam",
-      "old": 360,
-      "neu": 252,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/5359810/",
-      "steamAppId": "5359810"
-    },
-    {
-      "id": "steam-3321460",
-      "title": "Crimson Desert Enhanced",
-      "store": "Steam",
-      "old": 4299,
-      "neu": 3439,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/3321460/",
-      "steamAppId": "3321460"
-    },
-    {
-      "id": "steam-2406770",
-      "title": "Bodycam",
-      "store": "Steam",
-      "old": 1200,
-      "neu": 960,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/2406770/",
-      "steamAppId": "2406770"
-    },
-    {
-      "id": "steam-4626650",
-      "title": "Evil Maiden: The Noble Warrior and the Demon Armor",
-      "store": "Steam",
-      "old": 590,
-      "neu": 472,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/4626650/",
-      "steamAppId": "4626650"
     }
   ]
 }
