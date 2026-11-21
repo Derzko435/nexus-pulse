@@ -1,27 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-11-21T00:53:46+03:00",
+ "updatedAt": "2026-11-21T14:19:20+03:00",
  "posted": {
   "news": [
-   "ab27d519473c",
-   "baa8b352d1bf",
-   "396d34dce0d6",
-   "8084fff733af",
-   "a3cf3c803516",
-   "86330ca9227c",
-   "7bb55305ec6c",
-   "81145f657a39",
-   "91f3a5e0af88",
-   "24079b0c9617",
-   "c427c076cd6d",
-   "2c051f879c1a",
-   "c03e5af50170",
-   "acf783482df2",
-   "5310003b221b",
-   "f729dbe1dab7",
-   "b0e603fc332e",
-   "e5b2a5d4d4a6",
-   "e02fe47fcae6",
    "2f29344e78c5",
    "05e72370c9e5",
    "deb4a631a541",
@@ -502,7 +483,26 @@
    "7da37dce487a",
    "225e012fe98e",
    "ad4f35ffd2e6",
-   "932b4fcc3513"
+   "932b4fcc3513",
+   "70f828f606de",
+   "92daa2265e9a",
+   "97a1c144b4cf",
+   "bb629945d0a9",
+   "4839ab654216",
+   "08756741a30b",
+   "853f55adb429",
+   "c82f2472325d",
+   "f2567bf6acab",
+   "a1b835ea7fc9",
+   "7f81ac95ac36",
+   "8955c79047ed",
+   "bf52021048a4",
+   "7e3185ef8673",
+   "00f29e2f75d7",
+   "644787ca71b1",
+   "b6dabdb67eb7",
+   "9338138822ff",
+   "252356f7cf39"
   ],
   "deals": [
    "steam-246420:90",
@@ -660,8 +660,6 @@
    "epic-1f9a12b06b4f437790b6913ad136a08c:now"
   ],
   "esports": [
-   "digest:2026-10-05",
-   "result:bo3-129618",
    "result:bo3-129959",
    "result:bo3-129960",
    "result:bo3-130766",
@@ -1159,7 +1157,9 @@
    "result:bo3-134334",
    "result:bo3-134333",
    "digest:2026-11-21",
-   "result:bo3-134323"
+   "result:bo3-134323",
+   "live:bo3-134329",
+   "live:bo3-134328"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -1221,16 +1221,6 @@
    "apex:2026-11-20"
   ],
   "videos": [
-   "N-juLrS2DXQ",
-   "NfBwIlWiNis",
-   "ID8iK3dvUo8",
-   "PdLVxNx5AHk",
-   "6Vw8fbA7HmA",
-   "t-8-io-fM_0",
-   "ZFSObjzCFes",
-   "x-QP1dG4NO4",
-   "bw_TKK96LgI",
-   "KyLCZWPn9Qc",
    "2caQwnlGeOk",
    "9V3cRV4aJtc",
    "14yDpPTrYwg",
@@ -1720,7 +1710,17 @@
    "rDJVx4dw848",
    "bcwCWXldxak",
    "MOsermqqc5c",
-   "E6dUJDCl-ko"
+   "E6dUJDCl-ko",
+   "7H6YGeREMgY",
+   "mlnfgO4G0n0",
+   "k8X8Gt5KhKI",
+   "GByr1iCu1_Y",
+   "TaAUEl4Q1bE",
+   "Yp3obVgBL6o",
+   "Xqd3KSBYvn8",
+   "OAN_BXmVR0g",
+   "MiUAC8ukAFQ",
+   "WlJRdnItvec"
   ],
   "releases": [
    "week:2026-W39",
@@ -1833,7 +1833,9 @@
  },
  "matchPings": [
   "2026-11-20T14:53+03:00",
-  "2026-11-20T14:53+03:00"
+  "2026-11-20T14:53+03:00",
+  "2026-11-21T14:19+03:00",
+  "2026-11-21T14:19+03:00"
  ],
  "weekly": {
   "gamenight": {
