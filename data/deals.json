@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T06:17:47+03:00",
+  "updatedAt": "2026-11-21T15:50:04+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -63,44 +63,14 @@
       "steamAppId": "1144200"
     },
     {
-      "id": "steam-5435010",
-      "title": "Streaming Tycoon",
+      "id": "steam-4118150",
+      "title": "Recast:DeathOps",
       "store": "Steam",
       "old": 445,
       "neu": 267,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5435010/",
-      "steamAppId": "5435010"
-    },
-    {
-      "id": "steam-1916210",
-      "title": "Moto Mouse Stunt Mania",
-      "store": "Steam",
-      "old": 245,
-      "neu": 147,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/1916210/",
-      "steamAppId": "1916210"
-    },
-    {
-      "id": "steam-4953250",
-      "title": "Pirate Waifu",
-      "store": "Steam",
-      "old": 99,
-      "neu": 59,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/4953250/",
-      "steamAppId": "4953250"
-    },
-    {
-      "id": "steam-4183130",
-      "title": "WE'RE ALL IN!",
-      "store": "Steam",
-      "old": 360,
-      "neu": 223,
-      "pct": 38,
-      "url": "https://store.steampowered.com/app/4183130/",
-      "steamAppId": "4183130"
+      "url": "https://store.steampowered.com/app/4118150/",
+      "steamAppId": "4118150"
     },
     {
       "id": "steam-2416450",
@@ -113,16 +83,6 @@
       "steamAppId": "2416450"
     },
     {
-      "id": "steam-4860910",
-      "title": "Prison Legacy",
-      "store": "Steam",
-      "old": 890,
-      "neu": 667,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/4860910/",
-      "steamAppId": "4860910"
-    },
-    {
       "id": "steam-3321460",
       "title": "Crimson Desert Enhanced",
       "store": "Steam",
@@ -133,14 +93,54 @@
       "steamAppId": "3321460"
     },
     {
-      "id": "steam-5526720",
-      "title": "Dispatch Simulator",
+      "id": "steam-4974650",
+      "title": "Streetwalker Life!",
       "store": "Steam",
-      "old": 890,
-      "neu": 712,
+      "old": 660,
+      "neu": 528,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/5526720/",
-      "steamAppId": "5526720"
+      "url": "https://store.steampowered.com/app/4974650/",
+      "steamAppId": "4974650"
+    },
+    {
+      "id": "steam-4596440",
+      "title": "【パパたび】パパさ、旅系インフルエンサーで食っていこうと思っているんだ。",
+      "store": "Steam",
+      "old": 465,
+      "neu": 372,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/4596440/",
+      "steamAppId": "4596440"
+    },
+    {
+      "id": "steam-5526200",
+      "title": "Let's Build a Naughty Toy Factory!",
+      "store": "Steam",
+      "old": 367,
+      "neu": 293,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/5526200/",
+      "steamAppId": "5526200"
+    },
+    {
+      "id": "steam-5535690",
+      "title": "The Dragon's Mint",
+      "store": "Steam",
+      "old": 245,
+      "neu": 196,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/5535690/",
+      "steamAppId": "5535690"
+    },
+    {
+      "id": "steam-5490920",
+      "title": "无限数独",
+      "store": "Steam",
+      "old": 165,
+      "neu": 132,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/5490920/",
+      "steamAppId": "5490920"
     }
   ]
 }

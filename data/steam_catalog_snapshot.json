@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T06:17:42+03:00",
+  "updatedAt": "2026-11-21T15:49:58+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -506,24 +506,6 @@
       "short_description": "Любовь, война, интриги и величие. Определите наследие своего знатного рода в безграничной глобальной стратегии Crusader Kings III. Смерть — это только начало вашего пути по истории выбранной династии в этой полной неожиданностей и славы симуляции Средних веков."
     },
     {
-      "appid": "1627720",
-      "name": "Lies of P",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627720/header.jpg?t=1794963244",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Lies of P — захватывающая игра в жанре soulslike, в которой знакомый сюжет сказки «Пиноккио» развернется в мрачных, но элегантных декорациях Прекрасной эпохи."
-    },
-    {
       "appid": "1808500",
       "name": "ARC Raiders",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/41ee6c5c81a5797132879892586465b917acc563/header_alt_assets_9.jpg?t=1794215815",
@@ -558,22 +540,22 @@
       "short_description": "Лос-Суэнос. Полиция Лос-Суэноса сообщает о всплеске преступности в городе. Отряды спецназа направлены для урегулирования таких опасных ситуаций, как захват заложников, угрозы взрыва и перестрелки с подозреваемыми."
     },
     {
-      "appid": "5531790",
-      "name": "Desert Cleaner",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5531790/af9e456d45a9d6080e52bc791d6f95ed6fb088a5/header.jpg?t=1795230788",
+      "appid": "5435010",
+      "name": "Streaming Tycoon",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5435010/73f1b05a8d7ff51660e6b6ec7ed46b4771b96b19/header.jpg?t=1795204006",
       "genres": [
-        "Казуальные игры",
         "Инди",
-        "Симуляторы"
+        "Симуляторы",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
-        "linux": true
+        "mac": false,
+        "linux": false
       },
       "metacritic": null,
-      "short_description": "Наведите порядок в оазисе! Сгребайте пустыню в рюкзак, превращайте песок в золото и пройдите путь от хлопковой перчатки до настоящей песчаной бури. Откройте зелёный оазис, спрятанные сокровища и роботов-помощников в одиночку или с компанией до трёх друзей в сетевом кооперативе."
+      "short_description": "Run a streaming company under a board that can fire you. Negotiate with stars, produce films, series and shows, and refresh your catalogue as audiences lose interest. Build a talent agency and choose which contracts, productions and risks are worth taking."
     },
     {
       "appid": "1916210",
@@ -595,43 +577,6 @@
       },
       "metacritic": null,
       "short_description": "Ride, flip and wheelie a daredevil mouse through 30 physics stunt levels. Lean to land your jumps, earn three stars on every track and unlock 8 bikes with coins earned by playing. Full controller support. No ads, no in-game purchases."
-    },
-    {
-      "appid": "5424270",
-      "name": "Tidy Up: Street Market",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5424270/cf754c4ab3954d449f87c84cff5e9b42e8d1f032/header.jpg?t=1795195948",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Tidy Up Street Market — уютная игра про наведение порядка от первого лица. На открытом рынке лежат горы из более чем 6 000 предметов: фрукты, рыба, обувь, цветы, игрушки и многое другое. Разносите их по прилавкам, зарабатывайте, покупайте улучшения и превращайте хаос в яркий рынок."
-    },
-    {
-      "appid": "2854640",
-      "name": "EtheriiA - Travelogue",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2854640/header.jpg?t=1795193602",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Etheriia - Travelogue: визуальная новелла для взрослых, в которой ты отправляешься в чувственное путешествие по разным вселенным, от научной фантастики до средневековья и эльфийских земель, исправляя визуальные сбои и восстанавливая порядок."
     },
     {
       "appid": "4953250",
@@ -682,6 +627,58 @@
       },
       "metacritic": 80,
       "short_description": "Вместе с частным детективом Джеком Пеппером докопайтесь до истины в остросюжетных расследованиях с нотками джаза. «Частный детектив МАУС» сочетает в себе очарование классических мультяшных персонажей с адреналиновым азартом шутера от первого лица."
+    },
+    {
+      "appid": "4860910",
+      "name": "Prison Legacy",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4860910/3b24e3e549bdd3bd123d89862cb96f1409f693fb/header.jpg?t=1795212914",
+      "genres": [
+        "Инди",
+        "Многопользовательские игры",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "What are you in for? Prison Legacy is a social MMORPG set inside a mixed-gender maximum-security prison. Choose one of 12 criminal classes, then fight turn-based battles, craft contraband, trade, steal, chat, and build a clan strong enough to outlast the hilarious darkness rising behind bars."
+    },
+    {
+      "appid": "3321460",
+      "name": "Crimson Desert Enhanced",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/236f3814be7a97d86831800691b6096d449222a8/header.jpg?t=1794478066",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Crimson Desert – это action adventure игра с открытым миром, действие которой разворачивается на континенте Пайвел. Присоединяйтесь к Клиффу, чтобы вернуть потерянное и спасти мир от надвигающейся угрозы. Исследуйте бескрайние просторы и тайны Бездны, прокладывая свой путь через сражения и открытия."
+    },
+    {
+      "appid": "5526720",
+      "name": "Dispatch Simulator",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5526720/2f42af60e96e40ce732bf63f9dbfc5e33b48947b/header.jpg?t=1795208542",
+      "genres": [
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Answer 911 calls with your own voice. Every caller hears what you say and answers back: panicked, confused, sometimes barely able to speak. Pull out the details that matter, find them on the map, and send police, fire, and EMS. Work the shift solo or with up to six dispatchers."
     }
   ]
 }
