@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T00:53:13+03:00",
+  "updatedAt": "2026-11-21T06:17:42+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -452,6 +452,25 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
+      "appid": "302670",
+      "name": "Call to Arms",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/302670/header.jpg?t=1755264771",
+      "genres": [
+        "Экшены",
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Call to Arms offers an innovative mix of real-time strategy and 3rd, as well as 1st person controls. Set in the time of modern warfare, the game offers realistically modeled vehicles and heavy weaponry. Command your troops to victory or fight by yourself in the 3rd or 1st person action mode."
+    },
+    {
       "appid": "1850570",
       "name": "DEATH STRANDING DIRECTOR'S CUT",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/header.jpg?t=1793287496",
@@ -485,23 +504,6 @@
       },
       "metacritic": 91,
       "short_description": "Любовь, война, интриги и величие. Определите наследие своего знатного рода в безграничной глобальной стратегии Crusader Kings III. Смерть — это только начало вашего пути по истории выбранной династии в этой полной неожиданностей и славы симуляции Средних веков."
-    },
-    {
-      "appid": "394360",
-      "name": "Hearts of Iron IV",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/67bbd0057627fc2244793bcdd09260c2539499cf/header.jpg?t=1794491980",
-      "genres": [
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": 83,
-      "short_description": "Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation in World War II; the most engaging conflict in world history."
     },
     {
       "appid": "1627720",
@@ -538,13 +540,13 @@
       "short_description": "ARC Raiders — многопользовательская игра жанра extraction adventure, действие которой разворачивается в суровом будущем на Земле, атакованной загадочными механическими захватчиками ARC."
     },
     {
-      "appid": "887570",
-      "name": "NEBULOUS: Fleet Command",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/887570/header.jpg?t=1795190128",
+      "appid": "1144200",
+      "name": "Ready or Not",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/2b44644b033a996a9efb95051bb01809215d0d23/header.jpg?t=1790846188",
       "genres": [
-        "Симуляторы",
-        "Стратегии",
-        "Ранний доступ"
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -553,19 +555,55 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "В этой уникальной тактической игре с элементами симулятора вам предстоит командовать собственноручно созданным космическим флотом в трехмерном боевом пространстве, используя смоделированные системы кораблей и маневры для разгрома сил противника."
+      "short_description": "Лос-Суэнос. Полиция Лос-Суэноса сообщает о всплеске преступности в городе. Отряды спецназа направлены для урегулирования таких опасных ситуаций, как захват заложников, угрозы взрыва и перестрелки с подозреваемыми."
     },
     {
-      "appid": "5616880",
-      "name": "Lust Goddess — Mascot Arxia",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5616880/689368b019e6e7a7346d915ef8515d50b080987b/header.jpg?t=1795168708",
+      "appid": "5531790",
+      "name": "Desert Cleaner",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5531790/af9e456d45a9d6080e52bc791d6f95ed6fb088a5/header.jpg?t=1795230788",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Наведите порядок в оазисе! Сгребайте пустыню в рюкзак, превращайте песок в золото и пройдите путь от хлопковой перчатки до настоящей песчаной бури. Откройте зелёный оазис, спрятанные сокровища и роботов-помощников в одиночку или с компанией до трёх друзей в сетевом кооперативе."
+    },
+    {
+      "appid": "1916210",
+      "name": "Moto Mouse Stunt Mania",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1916210/5470e319ed83dabe01e8f0eb97eea1ba21896ea0/header.jpg?t=1795201111",
       "genres": [
         "Экшены",
         "Приключенческие игры",
-        "Многопользовательские игры",
-        "Ролевые игры",
-        "Стратегии",
-        "Бесплатные"
+        "Казуальные игры",
+        "Инди",
+        "Гонки",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Ride, flip and wheelie a daredevil mouse through 30 physics stunt levels. Lean to land your jumps, earn three stars on every track and unlock 8 bikes with coins earned by playing. Full controller support. No ads, no in-game purchases."
+    },
+    {
+      "appid": "5424270",
+      "name": "Tidy Up: Street Market",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5424270/cf754c4ab3954d449f87c84cff5e9b42e8d1f032/header.jpg?t=1795195948",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
@@ -574,7 +612,59 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Разблокируйте уникальный маскот, и Арксия будет развлекать вас каждый раз, когда вы заходите на главный экран! Наслаждайтесь Lust Goddess с этим суперпомощником и дополнительными ресурсами для ускорения вашего прогресса."
+      "short_description": "Tidy Up Street Market — уютная игра про наведение порядка от первого лица. На открытом рынке лежат горы из более чем 6 000 предметов: фрукты, рыба, обувь, цветы, игрушки и многое другое. Разносите их по прилавкам, зарабатывайте, покупайте улучшения и превращайте хаос в яркий рынок."
+    },
+    {
+      "appid": "2854640",
+      "name": "EtheriiA - Travelogue",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2854640/header.jpg?t=1795193602",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Etheriia - Travelogue: визуальная новелла для взрослых, в которой ты отправляешься в чувственное путешествие по разным вселенным, от научной фантастики до средневековья и эльфийских земель, исправляя визуальные сбои и восстанавливая порядок."
+    },
+    {
+      "appid": "4953250",
+      "name": "Pirate Waifu",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4953250/b9b74c66a677972fa66e4b7458853b16c7b26dce/header.jpg?t=1795199272",
+      "genres": [
+        "Казуальные игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Pirate Waifu — это игра-пазл про очаровательных вайфу-пираток и дух морских приключений. Собирайте 30 уровней, открывайте красочные иллюстрации девушек в пиратских образах и сохраняйте все изображения в личной галерее в высоком качестве."
+    },
+    {
+      "appid": "4183130",
+      "name": "WE'RE ALL IN!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4183130/0917f5c4a4c932dda6acc54eee0060b23cf3488b/header.jpg?t=1795210096",
+      "genres": [
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Окунитесь в хаос мини-игр в WE’RE ALL IN! — онлайн-игре для вечеринок на 1–8 игроков, где побеждает тот, кто удачнее ставит на друзей в серии динамичных игр и испытаний."
     },
     {
       "appid": "2416450",
@@ -592,96 +682,6 @@
       },
       "metacritic": 80,
       "short_description": "Вместе с частным детективом Джеком Пеппером докопайтесь до истины в остросюжетных расследованиях с нотками джаза. «Частный детектив МАУС» сочетает в себе очарование классических мультяшных персонажей с адреналиновым азартом шутера от первого лица."
-    },
-    {
-      "appid": "4903900",
-      "name": "Find Cats 9: Скрытые сокровища",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4903900/4e4d4e893df1a5122cfb321c6d4a465be83134c1/header.jpg?t=1795150596",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Три эпических фэнтези-поля сражения, полные спрятанных кошек! Битва за корону в сокровищнице, русалки против пиратов в глубоководном кораблекрушении, гномы против гоблинов в золотом хранилище—найди их всех."
-    },
-    {
-      "appid": "5359810",
-      "name": "Peaceward Chronicles",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5359810/8185bdb91b466a3b6b8042bee3f2728224c5a564/header.jpg?t=1795198417",
-      "genres": [
-        "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "A turn-based card strategy game set in the Taiping Rebellion. Guided by Heaven, you become Hong Xiuquan, God's Second Son. Unlock characters, build a team, and exploit Five Elements matchups and formation bonuses. Complete six story chapters; unlock roguelike challenges after clearing Stage 1-1."
-    },
-    {
-      "appid": "3321460",
-      "name": "Crimson Desert Enhanced",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/236f3814be7a97d86831800691b6096d449222a8/header.jpg?t=1794478066",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Crimson Desert – это action adventure игра с открытым миром, действие которой разворачивается на континенте Пайвел. Присоединяйтесь к Клиффу, чтобы вернуть потерянное и спасти мир от надвигающейся угрозы. Исследуйте бескрайние просторы и тайны Бездны, прокладывая свой путь через сражения и открытия."
-    },
-    {
-      "appid": "2406770",
-      "name": "Bodycam",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/677415ebaf02fc7ae5fe8960e6055e65e9fa21a4/header_alt_assets_4.jpg?t=1794951323",
-      "genres": [
-        "Экшены",
-        "Инди",
-        "Многопользовательские игры",
-        "Симуляторы",
-        "Стратегии",
-        "Ранний доступ"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Bodycam — это первый тактический многопользовательский шутер от первого лица с настоящим обзором с нательной камеры на движке Unreal Engine 5. Ближние бои кажутся резкими и громкими. Каждый ракурс, выноска и пуля имеют значение. Играйте в Deathmatch, Team Deathmatch и Wingman на фотореалистичных."
-    },
-    {
-      "appid": "4626650",
-      "name": "Evil Maiden: The Noble Warrior and the Demon Armor",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4626650/870f5f68ff1d548fe1231cbafa124fcee9a1bf90/header.jpg?t=1795157344",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Once upon a time, there was a world so brutal and chaotic, wars would break out left and right, taking the lives of many innocent people on a daily basis. In that world, Alice, who has lost everything, wants to avenge her comrades."
     }
   ]
 }

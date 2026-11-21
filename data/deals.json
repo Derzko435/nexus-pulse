@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T00:53:18+03:00",
+  "updatedAt": "2026-11-21T06:17:47+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -43,16 +43,6 @@
       "steamAppId": "1158310"
     },
     {
-      "id": "steam-1627720",
-      "title": "Lies of P",
-      "store": "Steam",
-      "old": 3999,
-      "neu": 1999,
-      "pct": 50,
-      "url": "https://store.steampowered.com/app/1627720/",
-      "steamAppId": "1627720"
-    },
-    {
       "id": "steam-1808500",
       "title": "ARC Raiders",
       "store": "Steam",
@@ -73,14 +63,14 @@
       "steamAppId": "1144200"
     },
     {
-      "id": "steam-5531790",
-      "title": "Desert Cleaner",
+      "id": "steam-5435010",
+      "title": "Streaming Tycoon",
       "store": "Steam",
-      "old": 249,
-      "neu": 149,
+      "old": 445,
+      "neu": 267,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5531790/",
-      "steamAppId": "5531790"
+      "url": "https://store.steampowered.com/app/5435010/",
+      "steamAppId": "5435010"
     },
     {
       "id": "steam-1916210",
@@ -91,26 +81,6 @@
       "pct": 40,
       "url": "https://store.steampowered.com/app/1916210/",
       "steamAppId": "1916210"
-    },
-    {
-      "id": "steam-5424270",
-      "title": "Tidy Up: Street Market",
-      "store": "Steam",
-      "old": 195,
-      "neu": 117,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5424270/",
-      "steamAppId": "5424270"
-    },
-    {
-      "id": "steam-2854640",
-      "title": "EtheriiA - Travelogue",
-      "store": "Steam",
-      "old": 161,
-      "neu": 96,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/2854640/",
-      "steamAppId": "2854640"
     },
     {
       "id": "steam-4953250",
@@ -141,6 +111,36 @@
       "pct": 34,
       "url": "https://store.steampowered.com/app/2416450/",
       "steamAppId": "2416450"
+    },
+    {
+      "id": "steam-4860910",
+      "title": "Prison Legacy",
+      "store": "Steam",
+      "old": 890,
+      "neu": 667,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/4860910/",
+      "steamAppId": "4860910"
+    },
+    {
+      "id": "steam-3321460",
+      "title": "Crimson Desert Enhanced",
+      "store": "Steam",
+      "old": 4299,
+      "neu": 3439,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/3321460/",
+      "steamAppId": "3321460"
+    },
+    {
+      "id": "steam-5526720",
+      "title": "Dispatch Simulator",
+      "store": "Steam",
+      "old": 890,
+      "neu": 712,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/5526720/",
+      "steamAppId": "5526720"
     }
   ]
 }
