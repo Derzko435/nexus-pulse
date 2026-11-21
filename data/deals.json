@@ -1,17 +1,7 @@
 {
-  "updatedAt": "2026-11-21T15:50:04+03:00",
+  "updatedAt": "2026-11-21T23:36:29+03:00",
   "source": "steam-specials-ru",
   "deals": [
-    {
-      "id": "steam-302670",
-      "title": "Call to Arms",
-      "store": "Steam",
-      "old": 550,
-      "neu": 55,
-      "pct": 90,
-      "url": "https://store.steampowered.com/app/302670/",
-      "steamAppId": "302670"
-    },
     {
       "id": "steam-1850570",
       "title": "DEATH STRANDING DIRECTOR'S CUT",
@@ -33,6 +23,16 @@
       "steamAppId": "227300"
     },
     {
+      "id": "steam-394360",
+      "title": "Hearts of Iron IV",
+      "store": "Steam",
+      "old": 3049,
+      "neu": 914,
+      "pct": 70,
+      "url": "https://store.steampowered.com/app/394360/",
+      "steamAppId": "394360"
+    },
+    {
       "id": "steam-1158310",
       "title": "Crusader Kings III",
       "store": "Steam",
@@ -41,6 +41,16 @@
       "pct": 70,
       "url": "https://store.steampowered.com/app/1158310/",
       "steamAppId": "1158310"
+    },
+    {
+      "id": "steam-1740300",
+      "title": "Smushi Come Home",
+      "store": "Steam",
+      "old": 710,
+      "neu": 284,
+      "pct": 60,
+      "url": "https://store.steampowered.com/app/1740300/",
+      "steamAppId": "1740300"
     },
     {
       "id": "steam-1808500",
@@ -63,6 +73,16 @@
       "steamAppId": "1144200"
     },
     {
+      "id": "steam-5307180",
+      "title": "Fuck Everything 👉👌💦",
+      "store": "Steam",
+      "old": 556,
+      "neu": 333,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5307180/",
+      "steamAppId": "5307180"
+    },
+    {
       "id": "steam-4118150",
       "title": "Recast:DeathOps",
       "store": "Steam",
@@ -73,14 +93,34 @@
       "steamAppId": "4118150"
     },
     {
-      "id": "steam-2416450",
-      "title": "Частный детектив МАУС",
+      "id": "steam-5371390",
+      "title": "Finnigan's Magical Puppets",
       "store": "Steam",
-      "old": 1100,
-      "neu": 726,
-      "pct": 34,
-      "url": "https://store.steampowered.com/app/2416450/",
-      "steamAppId": "2416450"
+      "old": 385,
+      "neu": 231,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5371390/",
+      "steamAppId": "5371390"
+    },
+    {
+      "id": "steam-4623890",
+      "title": "Boom Rush: Desert OPS",
+      "store": "Steam",
+      "old": 385,
+      "neu": 231,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/4623890/",
+      "steamAppId": "4623890"
+    },
+    {
+      "id": "steam-4682120",
+      "title": "desert island time",
+      "store": "Steam",
+      "old": 320,
+      "neu": 224,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/4682120/",
+      "steamAppId": "4682120"
     },
     {
       "id": "steam-3321460",
@@ -93,54 +133,14 @@
       "steamAppId": "3321460"
     },
     {
-      "id": "steam-4974650",
-      "title": "Streetwalker Life!",
+      "id": "steam-4288310",
+      "title": "Blobby Bash",
       "store": "Steam",
-      "old": 660,
-      "neu": 528,
+      "old": 200,
+      "neu": 160,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/4974650/",
-      "steamAppId": "4974650"
-    },
-    {
-      "id": "steam-4596440",
-      "title": "【パパたび】パパさ、旅系インフルエンサーで食っていこうと思っているんだ。",
-      "store": "Steam",
-      "old": 465,
-      "neu": 372,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/4596440/",
-      "steamAppId": "4596440"
-    },
-    {
-      "id": "steam-5526200",
-      "title": "Let's Build a Naughty Toy Factory!",
-      "store": "Steam",
-      "old": 367,
-      "neu": 293,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5526200/",
-      "steamAppId": "5526200"
-    },
-    {
-      "id": "steam-5535690",
-      "title": "The Dragon's Mint",
-      "store": "Steam",
-      "old": 245,
-      "neu": 196,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5535690/",
-      "steamAppId": "5535690"
-    },
-    {
-      "id": "steam-5490920",
-      "title": "无限数独",
-      "store": "Steam",
-      "old": 165,
-      "neu": 132,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5490920/",
-      "steamAppId": "5490920"
+      "url": "https://store.steampowered.com/app/4288310/",
+      "steamAppId": "4288310"
     }
   ]
 }

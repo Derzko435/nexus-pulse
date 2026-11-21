@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T15:49:58+03:00",
+  "updatedAt": "2026-11-21T23:36:23+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -540,13 +540,15 @@
       "short_description": "Лос-Суэнос. Полиция Лос-Суэноса сообщает о всплеске преступности в городе. Отряды спецназа направлены для урегулирования таких опасных ситуаций, как захват заложников, угрозы взрыва и перестрелки с подозреваемыми."
     },
     {
-      "appid": "5435010",
-      "name": "Streaming Tycoon",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5435010/73f1b05a8d7ff51660e6b6ec7ed46b4771b96b19/header.jpg?t=1795204006",
+      "appid": "4118150",
+      "name": "Recast:DeathOps",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4118150/59bda6d9268cec890dd9faeb7c96cda2ad43b4ce/header.jpg?t=1795243471",
       "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Казуальные игры",
         "Инди",
-        "Симуляторы",
-        "Стратегии"
+        "Ролевые игры"
       ],
       "is_free": false,
       "platforms": {
@@ -555,61 +557,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Run a streaming company under a board that can fire you. Negotiate with stars, produce films, series and shows, and refresh your catalogue as audiences lose interest. Build a talent agency and choose which contracts, productions and risks are worth taking."
-    },
-    {
-      "appid": "1916210",
-      "name": "Moto Mouse Stunt Mania",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1916210/5470e319ed83dabe01e8f0eb97eea1ba21896ea0/header.jpg?t=1795201111",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди",
-        "Гонки",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Ride, flip and wheelie a daredevil mouse through 30 physics stunt levels. Lean to land your jumps, earn three stars on every track and unlock 8 bikes with coins earned by playing. Full controller support. No ads, no in-game purchases."
-    },
-    {
-      "appid": "4953250",
-      "name": "Pirate Waifu",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4953250/b9b74c66a677972fa66e4b7458853b16c7b26dce/header.jpg?t=1795199272",
-      "genres": [
-        "Казуальные игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Pirate Waifu — это игра-пазл про очаровательных вайфу-пираток и дух морских приключений. Собирайте 30 уровней, открывайте красочные иллюстрации девушек в пиратских образах и сохраняйте все изображения в личной галерее в высоком качестве."
-    },
-    {
-      "appid": "4183130",
-      "name": "WE'RE ALL IN!",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4183130/0917f5c4a4c932dda6acc54eee0060b23cf3488b/header.jpg?t=1795210096",
-      "genres": [
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Окунитесь в хаос мини-игр в WE’RE ALL IN! — онлайн-игре для вечеринок на 1–8 игроков, где побеждает тот, кто удачнее ставит на друзей в серии динамичных игр и испытаний."
+      "short_description": "Revived from a Cryonic state after World War III, you are a Recast clone waking to an Earth overrun by alien pirates and gigantic monsters pouring out from random portals. Explore an open world, forge alliances, and take your planet back. Play solo or in multiplayer."
     },
     {
       "appid": "2416450",
@@ -629,24 +577,6 @@
       "short_description": "Вместе с частным детективом Джеком Пеппером докопайтесь до истины в остросюжетных расследованиях с нотками джаза. «Частный детектив МАУС» сочетает в себе очарование классических мультяшных персонажей с адреналиновым азартом шутера от первого лица."
     },
     {
-      "appid": "4860910",
-      "name": "Prison Legacy",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4860910/3b24e3e549bdd3bd123d89862cb96f1409f693fb/header.jpg?t=1795212914",
-      "genres": [
-        "Инди",
-        "Многопользовательские игры",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "What are you in for? Prison Legacy is a social MMORPG set inside a mixed-gender maximum-security prison. Choose one of 12 criminal classes, then fight turn-based battles, craft contraband, trade, steal, chat, and build a clan strong enough to outlast the hilarious darkness rising behind bars."
-    },
-    {
       "appid": "3321460",
       "name": "Crimson Desert Enhanced",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/236f3814be7a97d86831800691b6096d449222a8/header.jpg?t=1794478066",
@@ -664,10 +594,64 @@
       "short_description": "Crimson Desert – это action adventure игра с открытым миром, действие которой разворачивается на континенте Пайвел. Присоединяйтесь к Клиффу, чтобы вернуть потерянное и спасти мир от надвигающейся угрозы. Исследуйте бескрайние просторы и тайны Бездны, прокладывая свой путь через сражения и открытия."
     },
     {
-      "appid": "5526720",
-      "name": "Dispatch Simulator",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5526720/2f42af60e96e40ce732bf63f9dbfc5e33b48947b/header.jpg?t=1795208542",
+      "appid": "4974650",
+      "name": "Streetwalker Life!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4974650/c599bb185840569633808b9fe740b5d0b1687f12/header.jpg?t=1795224570",
       "genres": [
+        "Ролевые игры",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "In this life sim management play as a young woman stranded with crushing debts. Manage time between odd jobs, street clients, upgrading outfits, gambling, and helping townsfolk. Use your body to earn fast cash to repay your loan before the Debt Collector comes calling!"
+    },
+    {
+      "appid": "4596440",
+      "name": "【パパたび】パパさ、旅系インフルエンサーで食っていこうと思っているんだ。",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4596440/61125575c87b65dd10e0e6c57f1e02d7d6ece8ac/header.jpg?t=1795223366",
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "An unemployed dad and his college-student daughter set out to make a living as travel influencers. Puzzle out destinations from clues, pin them on the world map, and grow your channel with videos: geo-guessing meets streamer sim. Aim for one million followers, with 200+ history and geography trivia."
+    },
+    {
+      "appid": "5526200",
+      "name": "Let's Build a Naughty Toy Factory!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5526200/6774c246969531ec6a1543680b6531b31775105d/header.jpg?t=1795262124",
+      "genres": [
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Automate your factory while building deep relationships with the heroines."
+    },
+    {
+      "appid": "5535690",
+      "name": "The Dragon's Mint",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5535690/b0bdaeb92be08d90aa9cd13f2901cd7dcd470d93/header.jpg?t=1795232395",
+      "genres": [
+        "Казуальные игры",
         "Инди",
         "Симуляторы"
       ],
@@ -678,7 +662,24 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Answer 911 calls with your own voice. Every caller hears what you say and answers back: panicked, confused, sometimes barely able to speak. Pull out the details that matter, find them on the map, and send police, fire, and EMS. Work the shift solo or with up to six dispatchers."
+      "short_description": "Meet Kebbo, a sleepy dragon and master coinmaker, running a tiny mint in the corner of your desktop. He strikes coins and earns marks while you get on with your day. Check in when you like to answer letters, travel the kingdoms and help him fill his book."
+    },
+    {
+      "appid": "5490920",
+      "name": "无限数独",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5490920/cbd803801eb5a633ad77d64b8e8eb4eaf65bfb1b/header.jpg?t=1795248318",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A quiet place for Sudoku. Explore 20 variants and five difficulty levels with illustrated rules, a hands-on tutorial and hints beside the board. Save favourite puzzles, build a relay, or create and share your own puzzle files. Play solo offline with autosave."
     }
   ]
 }
