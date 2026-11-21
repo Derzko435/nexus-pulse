@@ -1,61 +1,7 @@
 {
- "updatedAt": "2026-11-21T05:51:30+03:00",
+ "updatedAt": "2026-11-21T14:13:09+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-134681",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "FlyQuest",
-   "teamB": "Masterclass",
-   "logoA": "https://files.bo3.gg/uploads/team/23122/image/webp-279ef2654296d6575b676a5eb4e1ac83.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/25832/image/webp-088cdcd1b192ea88c62ec076b74926b7.webp",
-   "scoreA": 1,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "live",
-   "event": "VCT 2027: Americas Kickoff: North America - Qualifier Playoffs",
-   "tier": "A",
-   "startsAt": "2026-11-21T03:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/flyquest-us-vs-masterclass-vlr-21-11-2026"
-  },
-  {
-   "id": "bo3-134679",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "SaD Esports",
-   "teamB": "Winthrop University",
-   "logoA": "https://files.bo3.gg/uploads/team/9467/image/webp-296849939e1f5ced2bae70a2fd5b7a1f.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/7855/image/webp-e991fe3e4a91a07c66a886c7563fcc2d.webp",
-   "scoreA": 0,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "live",
-   "event": "VCT 2027: Americas Kickoff: North America - Qualifier Playoffs",
-   "tier": "A",
-   "startsAt": "2026-11-21T04:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/sad-esports-vs-winthrop-university-21-11-2026"
-  },
   {
    "id": "bo3-134329",
    "game": "Dota 2",
@@ -67,7 +13,7 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "BLAST Slam IX",
    "tier": "S",
    "startsAt": "2026-11-21T14:00:00+03:00",
@@ -94,7 +40,7 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "BLAST Slam IX",
    "tier": "S",
    "startsAt": "2026-11-21T14:00:00+03:00",
@@ -192,33 +138,6 @@
    "url": "https://bo3.gg/valorant/matches/no-org-no-problem-vs-phantom-troupe-vlr-21-11-2026"
   },
   {
-   "id": "bo3-134321",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Team Spirit",
-   "teamB": "Xtreme Gaming",
-   "logoA": "https://files.bo3.gg/uploads/team/16704/image/webp-d50909a064a4533a3b594ed059eebc42.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/15776/image/webp-10e9cfcdcbb4a0192c4b328975ad6292.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "BLAST Slam IX",
-   "tier": "S",
-   "startsAt": "2026-11-21T20:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "blastpremier",
-     "lang": "en",
-     "official": true,
-     "label": "blastpremier",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/team-spirit-vs-xtreme-gaming-dota2-21-11-2026"
-  },
-  {
    "id": "bo3-134326",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -244,6 +163,33 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/playtime-vs-og-dota2-21-11-2026"
+  },
+  {
+   "id": "bo3-134321",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Team Spirit",
+   "teamB": "Xtreme Gaming",
+   "logoA": "https://files.bo3.gg/uploads/team/16704/image/webp-d50909a064a4533a3b594ed059eebc42.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/15776/image/webp-10e9cfcdcbb4a0192c4b328975ad6292.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "BLAST Slam IX",
+   "tier": "S",
+   "startsAt": "2026-11-21T20:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "blastpremier",
+     "lang": "en",
+     "official": true,
+     "label": "blastpremier",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/team-spirit-vs-xtreme-gaming-dota2-21-11-2026"
   },
   {
    "id": "bo3-134795",
@@ -273,31 +219,220 @@
    "url": "https://bo3.gg/valorant/matches/mix-my-miks-vs-gamax-esports-21-11-2026"
   },
   {
-   "id": "bo3-134336",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "PARIVISION",
-   "teamB": "Team Liquid",
-   "logoA": "https://files.bo3.gg/uploads/team/18604/image/webp-6ff7974f420e977381734ce06515692b.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16721/image/webp-dad0330773871073290e08d7d5baa9dc.webp",
+   "id": "bo3-134684",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "FlyQuest",
+   "teamB": "ENVY",
+   "logoA": "https://files.bo3.gg/uploads/team/23122/image/webp-279ef2654296d6575b676a5eb4e1ac83.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/7348/image/webp-2cfc6405da3ba515f20239b74c699e71.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
    "status": "upcoming",
-   "event": "BLAST Slam IX",
-   "tier": "S",
-   "startsAt": "2026-11-22T17:00:00+03:00",
+   "event": "VCT 2027: Americas Kickoff: North America - Qualifier Playoffs",
+   "tier": "A",
+   "startsAt": "2026-11-22T01:00:00+03:00",
    "streams": [
     {
      "type": "twitch",
-     "channel": "blastpremier",
+     "channel": "valorant",
      "lang": "en",
      "official": true,
-     "label": "blastpremier",
+     "label": "valorant",
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/dota2/matches/parivision-dota2-vs-team-liquid-dota2-22-11-2026"
+   "url": "https://bo3.gg/valorant/matches/flyquest-us-vs-team-envy-21-11-2026"
+  },
+  {
+   "id": "bo3-134683",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "Yellow Dragon Gaming",
+   "teamB": "Wildcard",
+   "logoA": "https://files.bo3.gg/uploads/team/25728/image/webp-31aeece60320d239965b41f328376d1f.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/25724/image/webp-305e85364c9ed08bbbaaa8d2fa2f38e2.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VCT 2027: Americas Kickoff: North America - Qualifier Playoffs",
+   "tier": "A",
+   "startsAt": "2026-11-22T01:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/yellow-dragon-gaming-vs-wildcard-us-21-11-2026"
+  },
+  {
+   "id": "bo3-134682",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "QoR",
+   "teamB": "Shopify Rebellion Gold",
+   "logoA": "https://files.bo3.gg/uploads/team/6658/image/webp-70b072397024dce88bbea5ffe4cd52dc.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/6700/image/webp-8da16b04777636e65218d024a2e61c1c.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VCT 2027: Americas Kickoff: North America - Qualifier Playoffs",
+   "tier": "A",
+   "startsAt": "2026-11-22T01:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/qor-vs-shopify-rebellion-gc-21-11-2026"
+  },
+  {
+   "id": "bo3-134685",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "Winthrop University",
+   "teamB": "YFP",
+   "logoA": "https://files.bo3.gg/uploads/team/7855/image/webp-e991fe3e4a91a07c66a886c7563fcc2d.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/7089/image/webp-ce3901004358ff26a835ac0e1d10d4c6.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VCT 2027: Americas Kickoff: North America - Qualifier Playoffs",
+   "tier": "A",
+   "startsAt": "2026-11-22T01:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/winthrop-university-vs-yfp-gaming-21-11-2026"
+  },
+  {
+   "id": "bo3-134687",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "Masterclass",
+   "teamB": "counterfeit",
+   "logoA": "https://files.bo3.gg/uploads/team/25832/image/webp-088cdcd1b192ea88c62ec076b74926b7.webp",
+   "logoB": "",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VCT 2027: Americas Kickoff: North America - Qualifier Playoffs",
+   "tier": "A",
+   "startsAt": "2026-11-22T03:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/masterclass-vlr-vs-counterfeit-22-11-2026"
+  },
+  {
+   "id": "bo3-134689",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "Oafs",
+   "teamB": "Shopify Rebellion Black",
+   "logoA": "https://files.bo3.gg/uploads/team/25831/image/webp-e05bcc294a5492922d610ec0c4397a54.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/6703/image/webp-5e9139313f6b470e1f45acd425fd77af.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VCT 2027: Americas Kickoff: North America - Qualifier Playoffs",
+   "tier": "A",
+   "startsAt": "2026-11-22T03:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/oafs-vs-shopify-rebellion-22-11-2026"
+  },
+  {
+   "id": "bo3-134688",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "Cloud9",
+   "teamB": "Maryville University",
+   "logoA": "https://files.bo3.gg/uploads/team/7250/image/webp-522aa2198e14d6afe2ad4f95a66951ac.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/18655/image/webp-382f3762fcd770c6b833b488f0a0c932.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VCT 2027: Americas Kickoff: North America - Qualifier Playoffs",
+   "tier": "A",
+   "startsAt": "2026-11-22T03:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/cloud9-1-vs-maryville-university-vlr-22-11-2026"
+  },
+  {
+   "id": "bo3-134686",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "Xora Esports",
+   "teamB": "SaD Esports",
+   "logoA": "https://files.bo3.gg/uploads/team/25727/image/webp-ac70f3df3ddd8c7168f7c2472e893900.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/9467/image/webp-296849939e1f5ced2bae70a2fd5b7a1f.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VCT 2027: Americas Kickoff: North America - Qualifier Playoffs",
+   "tier": "A",
+   "startsAt": "2026-11-22T03:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/xora-esports-vs-sad-esports-22-11-2026"
   },
   {
    "id": "bo3-134335",
@@ -325,6 +460,33 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/legion_dota2-vs-do-konca-22-11-2026"
+  },
+  {
+   "id": "bo3-134336",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "PARIVISION",
+   "teamB": "Team Liquid",
+   "logoA": "https://files.bo3.gg/uploads/team/18604/image/webp-6ff7974f420e977381734ce06515692b.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16721/image/webp-dad0330773871073290e08d7d5baa9dc.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "BLAST Slam IX",
+   "tier": "S",
+   "startsAt": "2026-11-22T17:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "blastpremier",
+     "lang": "en",
+     "official": true,
+     "label": "blastpremier",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/parivision-dota2-vs-team-liquid-dota2-22-11-2026"
   },
   {
    "id": "bo3-133420",
@@ -543,6 +705,60 @@
    "url": "https://bo3.gg/matches/faze-vs-wildcard-gaming-24-11-2026"
   },
   {
+   "id": "bo3-134679",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "SaD Esports",
+   "teamB": "Winthrop University",
+   "logoA": "https://files.bo3.gg/uploads/team/9467/image/webp-296849939e1f5ced2bae70a2fd5b7a1f.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/7855/image/webp-e991fe3e4a91a07c66a886c7563fcc2d.webp",
+   "scoreA": 0,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "VCT 2027: Americas Kickoff: North America - Qualifier Playoffs",
+   "tier": "A",
+   "startsAt": "2026-11-21T04:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/sad-esports-vs-winthrop-university-21-11-2026"
+  },
+  {
+   "id": "bo3-134681",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "FlyQuest",
+   "teamB": "Masterclass",
+   "logoA": "https://files.bo3.gg/uploads/team/23122/image/webp-279ef2654296d6575b676a5eb4e1ac83.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/25832/image/webp-088cdcd1b192ea88c62ec076b74926b7.webp",
+   "scoreA": 2,
+   "scoreB": 1,
+   "bo": 3,
+   "status": "finished",
+   "event": "VCT 2027: Americas Kickoff: North America - Qualifier Playoffs",
+   "tier": "A",
+   "startsAt": "2026-11-21T03:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/flyquest-us-vs-masterclass-vlr-21-11-2026"
+  },
+  {
    "id": "bo3-134680",
    "game": "Valorant",
    "gameKey": "valorant",
@@ -622,60 +838,6 @@
     }
    ],
    "url": "https://bo3.gg/valorant/matches/yfp-gaming-vs-wildcard-us-20-11-2026"
-  },
-  {
-   "id": "bo3-134677",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Cloud9",
-   "teamB": "counterfeit",
-   "logoA": "https://files.bo3.gg/uploads/team/7250/image/webp-522aa2198e14d6afe2ad4f95a66951ac.webp",
-   "logoB": "",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "VCT 2027: Americas Kickoff: North America - Qualifier Playoffs",
-   "tier": "A",
-   "startsAt": "2026-11-21T01:10:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/cloud9-1-vs-counterfeit-20-11-2026"
-  },
-  {
-   "id": "bo3-134676",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "ENVY",
-   "teamB": "Yellow Dragon Gaming",
-   "logoA": "https://files.bo3.gg/uploads/team/7348/image/webp-2cfc6405da3ba515f20239b74c699e71.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/25728/image/webp-31aeece60320d239965b41f328376d1f.webp",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "VCT 2027: Americas Kickoff: North America - Qualifier Playoffs",
-   "tier": "A",
-   "startsAt": "2026-11-21T01:10:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/team-envy-vs-yellow-dragon-gaming-20-11-2026"
   },
   {
    "id": "bo3-134333",
@@ -1087,7 +1249,7 @@
    "tier": "A",
    "prize": null,
    "start": "2026-11-21",
-   "end": "2026-11-07",
+   "end": "2026-12-07",
    "status": "current",
    "url": "https://bo3.gg/valorant/tournaments/vct-2027-americas-kickoff-north-america-qualifier-playoffs"
   },
@@ -1145,6 +1307,17 @@
    "end": "2026-12-14",
    "status": "upcoming",
    "url": "https://bo3.gg/tournaments/pgl-major-singapore-2026"
+  },
+  {
+   "name": "VCT 2027: Americas Kickoff",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "tier": "S",
+   "prize": 0,
+   "start": "2027-01-03",
+   "end": "2027-02-26",
+   "status": "upcoming",
+   "url": "https://bo3.gg/valorant/tournaments/vct-2027-americas-kickoff"
   },
   {
    "name": "PGL Bucharest 2027",
