@@ -1,34 +1,7 @@
 {
- "updatedAt": "2026-11-22T14:32:11+03:00",
+ "updatedAt": "2026-11-22T15:01:27+03:00",
  "source": "bo3.gg",
  "matches": [
-  {
-   "id": "bo3-134335",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "LEGION",
-   "teamB": "DO KONCA",
-   "logoA": "https://files.bo3.gg/uploads/team/25401/image/webp-12311d6aa24e815ad6b9c3e66cc662d2.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/25700/image/webp-5cf16cbb4a04ab7b1f3e8158ec335d56.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "BLAST Slam IX",
-   "tier": "S",
-   "startsAt": "2026-11-22T17:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "blastpremier",
-     "lang": "en",
-     "official": true,
-     "label": "blastpremier",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/legion_dota2-vs-do-konca-22-11-2026"
-  },
   {
    "id": "bo3-134336",
    "game": "Dota 2",
@@ -57,20 +30,20 @@
    "url": "https://bo3.gg/dota2/matches/parivision-dota2-vs-team-liquid-dota2-22-11-2026"
   },
   {
-   "id": "bo3-134331",
+   "id": "bo3-134335",
    "game": "Dota 2",
    "gameKey": "dota2",
-   "teamA": "1w Team",
-   "teamB": "Aurora Gaming",
-   "logoA": "https://files.bo3.gg/uploads/team/15038/image/webp-9df00f89ea17c5d1512eff71fcbce70f.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/15143/image/webp-235f54dc6e1d478c8536240a49197cc4.webp",
+   "teamA": "LEGION",
+   "teamB": "DO KONCA",
+   "logoA": "https://files.bo3.gg/uploads/team/25401/image/webp-12311d6aa24e815ad6b9c3e66cc662d2.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/25700/image/webp-5cf16cbb4a04ab7b1f3e8158ec335d56.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
    "status": "upcoming",
    "event": "BLAST Slam IX",
    "tier": "S",
-   "startsAt": "2026-11-22T20:00:00+03:00",
+   "startsAt": "2026-11-22T17:00:00+03:00",
    "streams": [
     {
      "type": "twitch",
@@ -81,7 +54,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/dota2/matches/1win-dota2-vs-aurora-22-11-2026"
+   "url": "https://bo3.gg/dota2/matches/legion_dota2-vs-do-konca-22-11-2026"
   },
   {
    "id": "bo3-134330",
@@ -111,38 +84,31 @@
    "url": "https://bo3.gg/dota2/matches/lgd-gaming-dota2-vs-astra-invicta-22-11-2026"
   },
   {
-   "id": "bo3-134826",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Manticore",
-   "teamB": "Next",
-   "logoA": "https://files.bo3.gg/uploads/team/25864/image/webp-36e21f141de7f82434ed21d410140795.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/22224/image/webp-d8876974303a817967090e59e2fe544b.webp",
+   "id": "bo3-134331",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "1w Team",
+   "teamB": "Aurora Gaming",
+   "logoA": "https://files.bo3.gg/uploads/team/15038/image/webp-9df00f89ea17c5d1512eff71fcbce70f.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/15143/image/webp-235f54dc6e1d478c8536240a49197cc4.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
    "status": "upcoming",
-   "event": "VCT 2027: Americas Kickoff: Brazil - Qualifier Playoffs",
-   "tier": "A",
-   "startsAt": "2026-11-22T23:00:00+03:00",
+   "event": "BLAST Slam IX",
+   "tier": "S",
+   "startsAt": "2026-11-22T20:00:00+03:00",
    "streams": [
     {
      "type": "twitch",
-     "channel": "valorant",
+     "channel": "blastpremier",
      "lang": "en",
      "official": true,
-     "label": "valorant",
+     "label": "blastpremier",
      "fallback": true
-    },
-    {
-     "type": "kick",
-     "channel": "valorant_br",
-     "lang": "pt",
-     "official": true,
-     "label": "valorant_br"
     }
    ],
-   "url": "https://bo3.gg/valorant/matches/manticore-vs-next-brazil-22-11-2026"
+   "url": "https://bo3.gg/dota2/matches/1win-dota2-vs-aurora-22-11-2026"
   },
   {
    "id": "bo3-134825",
@@ -177,6 +143,40 @@
     }
    ],
    "url": "https://bo3.gg/valorant/matches/elevate-vlr-vs-arashi-22-11-2026"
+  },
+  {
+   "id": "bo3-134826",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "Manticore",
+   "teamB": "Next",
+   "logoA": "https://files.bo3.gg/uploads/team/25864/image/webp-36e21f141de7f82434ed21d410140795.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/22224/image/webp-d8876974303a817967090e59e2fe544b.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VCT 2027: Americas Kickoff: Brazil - Qualifier Playoffs",
+   "tier": "A",
+   "startsAt": "2026-11-22T23:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    },
+    {
+     "type": "kick",
+     "channel": "valorant_br",
+     "lang": "pt",
+     "official": true,
+     "label": "valorant_br"
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/manticore-vs-next-brazil-22-11-2026"
   },
   {
    "id": "bo3-134690",
@@ -233,40 +233,6 @@
    "url": "https://bo3.gg/valorant/matches/counterfeit-vs-flyquest-us-22-11-2026"
   },
   {
-   "id": "bo3-134827",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Mafiosos",
-   "teamB": "Master Bank",
-   "logoA": "",
-   "logoB": "https://files.bo3.gg/uploads/team/25850/image/webp-2de1e757b13a7e35f7661a29ab6fe2f9.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "VCT 2027: Americas Kickoff: Brazil - Qualifier Playoffs",
-   "tier": "A",
-   "startsAt": "2026-11-23T01:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
-    },
-    {
-     "type": "kick",
-     "channel": "valorant_br",
-     "lang": "pt",
-     "official": true,
-     "label": "valorant_br"
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/mafiosos-vs-master-bank-22-11-2026"
-  },
-  {
    "id": "bo3-134828",
    "game": "Valorant",
    "gameKey": "valorant",
@@ -299,6 +265,40 @@
     }
    ],
    "url": "https://bo3.gg/valorant/matches/brasil2002-vs-arranca-dreams-22-11-2026"
+  },
+  {
+   "id": "bo3-134827",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "Mafiosos",
+   "teamB": "Master Bank",
+   "logoA": "",
+   "logoB": "https://files.bo3.gg/uploads/team/25850/image/webp-2de1e757b13a7e35f7661a29ab6fe2f9.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VCT 2027: Americas Kickoff: Brazil - Qualifier Playoffs",
+   "tier": "A",
+   "startsAt": "2026-11-23T01:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    },
+    {
+     "type": "kick",
+     "channel": "valorant_br",
+     "lang": "pt",
+     "official": true,
+     "label": "valorant_br"
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/mafiosos-vs-master-bank-22-11-2026"
   },
   {
    "id": "bo3-134693",
@@ -355,33 +355,6 @@
    "url": "https://bo3.gg/valorant/matches/maryville-university-vlr-vs-qor-23-11-2026"
   },
   {
-   "id": "bo3-134327",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Natus Vincere",
-   "teamB": "OG",
-   "logoA": "https://files.bo3.gg/uploads/team/16676/image/webp-2738710d6606b200e541749870dd65a0.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16714/image/webp-cd2e61b09557041544426a7b536a0856.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "BLAST Slam IX",
-   "tier": "S",
-   "startsAt": "2026-11-23T17:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "blastpremier",
-     "lang": "en",
-     "official": true,
-     "label": "blastpremier",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/natus-vincere-dota2-vs-og-dota2-23-11-2026"
-  },
-  {
    "id": "bo3-134322",
    "game": "Dota 2",
    "gameKey": "dota2",
@@ -407,6 +380,33 @@
     }
    ],
    "url": "https://bo3.gg/dota2/matches/team-nemesis-vs-xtreme-gaming-dota2-23-11-2026"
+  },
+  {
+   "id": "bo3-134327",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Natus Vincere",
+   "teamB": "OG",
+   "logoA": "https://files.bo3.gg/uploads/team/16676/image/webp-2738710d6606b200e541749870dd65a0.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16714/image/webp-cd2e61b09557041544426a7b536a0856.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "BLAST Slam IX",
+   "tier": "S",
+   "startsAt": "2026-11-23T17:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "blastpremier",
+     "lang": "en",
+     "official": true,
+     "label": "blastpremier",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/natus-vincere-dota2-vs-og-dota2-23-11-2026"
   },
   {
    "id": "bo3-133423",
