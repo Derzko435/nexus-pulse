@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T20:55:06+03:00",
+  "updatedAt": "2026-11-23T02:41:12+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -23,6 +23,16 @@
       "steamAppId": "227300"
     },
     {
+      "id": "steam-1715130",
+      "title": "Crysis Remastered",
+      "store": "Steam",
+      "old": 1289,
+      "neu": 373,
+      "pct": 71,
+      "url": "https://store.steampowered.com/app/1715130/",
+      "steamAppId": "1715130"
+    },
+    {
       "id": "steam-1158310",
       "title": "Crusader Kings III",
       "store": "Steam",
@@ -33,14 +43,14 @@
       "steamAppId": "1158310"
     },
     {
-      "id": "steam-1740300",
-      "title": "Smushi Come Home",
+      "id": "steam-28590",
+      "title": "Crysis Remastered Trilogy",
       "store": "Steam",
-      "old": 710,
-      "neu": 284,
-      "pct": 60,
-      "url": "https://store.steampowered.com/app/1740300/",
-      "steamAppId": "1740300"
+      "old": 3867,
+      "neu": 510,
+      "pct": 67,
+      "url": "https://store.steampowered.com/app/28590/",
+      "steamAppId": "28590"
     },
     {
       "id": "steam-1808500",
@@ -83,24 +93,14 @@
       "steamAppId": "5542640"
     },
     {
-      "id": "steam-5371390",
-      "title": "Finnigan's Magical Puppets",
+      "id": "steam-4873240",
+      "title": "Bug Huntress wants to battle!",
       "store": "Steam",
-      "old": 385,
-      "neu": 231,
+      "old": 690,
+      "neu": 414,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5371390/",
-      "steamAppId": "5371390"
-    },
-    {
-      "id": "steam-5529590",
-      "title": "Entropic Signal",
-      "store": "Steam",
-      "old": 245,
-      "neu": 147,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5529590/",
-      "steamAppId": "5529590"
+      "url": "https://store.steampowered.com/app/4873240/",
+      "steamAppId": "4873240"
     },
     {
       "id": "steam-5511850",
@@ -123,6 +123,16 @@
       "steamAppId": "5001650"
     },
     {
+      "id": "steam-5352510",
+      "title": "Game Translation",
+      "store": "Steam",
+      "old": 461,
+      "neu": 322,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5352510/",
+      "steamAppId": "5352510"
+    },
+    {
       "id": "steam-5191120",
       "title": "PERI.CO",
       "store": "Steam",
@@ -131,16 +141,6 @@
       "pct": 30,
       "url": "https://store.steampowered.com/app/5191120/",
       "steamAppId": "5191120"
-    },
-    {
-      "id": "steam-5499750",
-      "title": "It’s Table Time",
-      "store": "Steam",
-      "old": 320,
-      "neu": 230,
-      "pct": 28,
-      "url": "https://store.steampowered.com/app/5499750/",
-      "steamAppId": "5499750"
     }
   ]
 }

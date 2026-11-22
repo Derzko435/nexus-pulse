@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T20:55:01+03:00",
+  "updatedAt": "2026-11-23T02:41:07+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -557,6 +557,23 @@
       "short_description": "Потерявшемуся, одинокому, оторванному от семьи бродячему коту предстоит разгадать древнюю тайну, вырваться из давно заброшенного кибергорода и найти дорогу домой."
     },
     {
+      "appid": "5542640",
+      "name": "WeirdBus",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5542640/900f2748816281cac97787fbfb9afc052303e48b/header.jpg?t=1795346552",
+      "genres": [
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Один автобус, четыре колеса и очень разные мнения о том, куда ехать. Делите управление с друзьями, ловите выпадающих пассажиров и пробирайтесь через город, каньоны, лёд и болота к крыше мегабашни. Играйте в одиночку или добирайтесь до финиша компанией до четырёх человек."
+    },
+    {
       "appid": "5371390",
       "name": "Finnigan's Magical Puppets",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371390/843d51d76c2d0bebb61674f8bd1e65a349e668f1/header.jpg?t=1795288440",
@@ -575,11 +592,12 @@
       "short_description": "Найдите и Переживите записи с потерянных VHS-кассет, обнаруженных в этом приключении. Откройте для себя новых Кукол и тайны в этой хоррор-игре в жанре point and-click. У Кукол припасено много трюков, так что используйте всю доступную вам технику, чтобы оставаться... в безопасности."
     },
     {
-      "appid": "4623890",
-      "name": "Boom Rush: Desert OPS",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4623890/50b36617baed27b3f0e9dead806ca6db3f067143/header.jpg?t=1795276086",
+      "appid": "5529590",
+      "name": "Entropic Signal",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5529590/7a2a17c39eb1451d43c12a39c383f25576080455/header.jpg?t=1795285957",
       "genres": [
-        "Экшены"
+        "Экшены",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -588,7 +606,44 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "После аварийной посадки в пустыне начинается ваша борьба за выживание. База «Нира» засекла ваши координаты и сигналы врага. Сражайтесь с нарастающими волнами противников при поддержке радиосвязи. Это динамичный FPS, где каждая волна несет новые угрозы."
+      "short_description": "Вы ответили на сигнал, которого не должно было быть. Пройдите за ним назад через семь миров: каждый из них — способ, которым люди когда-то связывались друг с другом, и у каждого своё правило. Оружие стреляет само. Вы идёте, выбираете и узнаёте, кто ещё на линии."
+    },
+    {
+      "appid": "5511850",
+      "name": "Save the Sandcastle",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5511850/9e50d122040328bec855de60298915f6e8f69888/header_russian.jpg?t=1795367233",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Стройте свои замки из песка и создавайте собственные пляжи. Ройте каналы и возводите валы против прилива на 36 пляжах кампании или проверьте, сколько продержится замок в Endless."
+    },
+    {
+      "appid": "5001650",
+      "name": "blörbit",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5001650/9762ef1f9e865b694056a1676079344be4a0f416/header.jpg?t=1795357225",
+      "genres": [
+        "Экшены",
+        "Казуальные игры",
+        "Инди",
+        "Гонки"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Blörbit, blob it, orbit, beat it. Now hiring: blobs for smooth 2D twin-stick combat. Couch co-op welcome. Build your own roguelite career against endless opposition. No experience necessary."
     },
     {
       "appid": "5191120",
@@ -610,53 +665,12 @@
       "short_description": "Кооперативный экшен от первого лица на 4 игроков (до 8). Отправляйтесь на меняющийся объект, выполняйте задания, уничтожайте гигантских боссов и возвращайтесь в срок. Тратьте зарплату на снаряжение для следующей смены. Оружие на двух руках, навыки на Q, дебаффы за надбавку, воскрешение через SSD."
     },
     {
-      "appid": "4682120",
-      "name": "desert island time",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4682120/85b5a88f50fc297ebebe65b4b42809d409cae869/header.jpg?t=1795346593",
+      "appid": "5499750",
+      "name": "It’s Table Time",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5499750/72f312934660aa29a3607064820f75086b89a90b/header.jpg?t=1795346548",
       "genres": [
         "Казуальные игры",
         "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "On this island, you can grow crops, fish, capture island creatures, mine, chop wood, and craft tools and items. Come explore the island world and experience its peaceful life."
-    },
-    {
-      "appid": "5208650",
-      "name": "Eko36 and the gang",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5208650/06ba1ae3955e51957cdea0a20751c0eb8c37cb70/header.jpg?t=1795334788",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Гонки",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "A driving and drifting game about good roads, big skids, and having a good time behind the wheel."
-    },
-    {
-      "appid": "5463810",
-      "name": "Wall Punch: Escape The Walls Simulator",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5463810/cf8f98b9ce6e63374eb35f99c9552c71ea75091e/header.jpg?t=1795302694",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди",
-        "Ролевые игры",
-        "Симуляторы",
         "Стратегии"
       ],
       "is_free": false,
@@ -666,23 +680,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Break through 50,000 bricks. Time to escape the walls. Punch your way to freedom! Break through walls, punch out the walls and escape prison one punch at a time! Smash through tougher walls, discover new areas, and become the ultimate wall-breaking machine in WALL PUNCH: ESCAPE THE WALLS SIMULATOR"
-    },
-    {
-      "appid": "5374580",
-      "name": "A to Zen: Cozy Anime Puzzle",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5374580/f3156b8643e0da6993d72bd570be9e664401b61f/header.jpg?t=1795283846",
-      "genres": [
-        "Казуальные игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Уютный пазл с аниме-картинками. Собирай 32 иллюстрации, доработанные вручную, в спокойных пятнашках и классических пазлах, собери весь алфавит от A до Z и сохраняй любую картину как обои. Тёплая музыка, без таймеров и спешки."
+      "short_description": "It’s Table Time packs 30 classic board games, card tables, dice battles, and quick-pick arcades—from Chess and Ludo to Mahjong, Code Breaker, Pool, and Tank Battle! Play solo vs. smart AI, gather 2–4 friends locally or in Party Cup, or jump into Steam Online Play!"
     }
   ]
 }
