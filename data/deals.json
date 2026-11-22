@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T12:56:47+03:00",
+  "updatedAt": "2026-11-22T20:55:06+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -73,6 +73,16 @@
       "steamAppId": "1332010"
     },
     {
+      "id": "steam-5542640",
+      "title": "WeirdBus",
+      "store": "Steam",
+      "old": 65,
+      "neu": 38,
+      "pct": 41,
+      "url": "https://store.steampowered.com/app/5542640/",
+      "steamAppId": "5542640"
+    },
+    {
       "id": "steam-5371390",
       "title": "Finnigan's Magical Puppets",
       "store": "Steam",
@@ -83,14 +93,34 @@
       "steamAppId": "5371390"
     },
     {
-      "id": "steam-4623890",
-      "title": "Boom Rush: Desert OPS",
+      "id": "steam-5529590",
+      "title": "Entropic Signal",
       "store": "Steam",
-      "old": 385,
-      "neu": 231,
+      "old": 245,
+      "neu": 147,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/4623890/",
-      "steamAppId": "4623890"
+      "url": "https://store.steampowered.com/app/5529590/",
+      "steamAppId": "5529590"
+    },
+    {
+      "id": "steam-5511850",
+      "title": "Save the Sandcastle",
+      "store": "Steam",
+      "old": 82,
+      "neu": 49,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5511850/",
+      "steamAppId": "5511850"
+    },
+    {
+      "id": "steam-5001650",
+      "title": "blörbit",
+      "store": "Steam",
+      "old": 2000,
+      "neu": 1320,
+      "pct": 34,
+      "url": "https://store.steampowered.com/app/5001650/",
+      "steamAppId": "5001650"
     },
     {
       "id": "steam-5191120",
@@ -103,44 +133,14 @@
       "steamAppId": "5191120"
     },
     {
-      "id": "steam-4682120",
-      "title": "desert island time",
+      "id": "steam-5499750",
+      "title": "It’s Table Time",
       "store": "Steam",
       "old": 320,
-      "neu": 224,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/4682120/",
-      "steamAppId": "4682120"
-    },
-    {
-      "id": "steam-5208650",
-      "title": "Eko36 and the gang",
-      "store": "Steam",
-      "old": 555,
-      "neu": 416,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5208650/",
-      "steamAppId": "5208650"
-    },
-    {
-      "id": "steam-5463810",
-      "title": "Wall Punch: Escape The Walls Simulator",
-      "store": "Steam",
-      "old": 245,
-      "neu": 183,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5463810/",
-      "steamAppId": "5463810"
-    },
-    {
-      "id": "steam-5374580",
-      "title": "A to Zen: Cozy Anime Puzzle",
-      "store": "Steam",
-      "old": 200,
-      "neu": 150,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5374580/",
-      "steamAppId": "5374580"
+      "neu": 230,
+      "pct": 28,
+      "url": "https://store.steampowered.com/app/5499750/",
+      "steamAppId": "5499750"
     }
   ]
 }

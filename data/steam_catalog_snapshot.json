@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T12:56:42+03:00",
+  "updatedAt": "2026-11-22T20:55:01+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -557,24 +557,6 @@
       "short_description": "Потерявшемуся, одинокому, оторванному от семьи бродячему коту предстоит разгадать древнюю тайну, вырваться из давно заброшенного кибергорода и найти дорогу домой."
     },
     {
-      "appid": "5307180",
-      "name": "Fuck Everything 👉👌💦",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5307180/d0a4af9120342e7f75ad32a91d288a9514a03d6a/header.jpg?t=1795272763",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Your brand-new AI sex doll asked what you’re into, and you had no fucking clue. Luckily, your home is full of objects that would love to help, from a clingy teddy bear to a bathtub with serious mommy energy. Try more than ten kinks and come back to her knowing exactly what you want."
-    },
-    {
       "appid": "5371390",
       "name": "Finnigan's Magical Puppets",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371390/843d51d76c2d0bebb61674f8bd1e65a349e668f1/header.jpg?t=1795288440",
@@ -609,9 +591,28 @@
       "short_description": "После аварийной посадки в пустыне начинается ваша борьба за выживание. База «Нира» засекла ваши координаты и сигналы врага. Сражайтесь с нарастающими волнами противников при поддержке радиосвязи. Это динамичный FPS, где каждая волна несет новые угрозы."
     },
     {
+      "appid": "5191120",
+      "name": "PERI.CO",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5191120/05716b623368b0b4aa263373181d18a04225e722/header.jpg?t=1795337421",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Кооперативный экшен от первого лица на 4 игроков (до 8). Отправляйтесь на меняющийся объект, выполняйте задания, уничтожайте гигантских боссов и возвращайтесь в срок. Тратьте зарплату на снаряжение для следующей смены. Оружие на двух руках, навыки на Q, дебаффы за надбавку, воскрешение через SSD."
+    },
+    {
       "appid": "4682120",
       "name": "desert island time",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4682120/85b5a88f50fc297ebebe65b4b42809d409cae869/header.jpg?t=1795281821",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4682120/85b5a88f50fc297ebebe65b4b42809d409cae869/header.jpg?t=1795346593",
       "genres": [
         "Казуальные игры",
         "Инди",
@@ -625,6 +626,47 @@
       },
       "metacritic": null,
       "short_description": "On this island, you can grow crops, fish, capture island creatures, mine, chop wood, and craft tools and items. Come explore the island world and experience its peaceful life."
+    },
+    {
+      "appid": "5208650",
+      "name": "Eko36 and the gang",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5208650/06ba1ae3955e51957cdea0a20751c0eb8c37cb70/header.jpg?t=1795334788",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Гонки",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A driving and drifting game about good roads, big skids, and having a good time behind the wheel."
+    },
+    {
+      "appid": "5463810",
+      "name": "Wall Punch: Escape The Walls Simulator",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5463810/cf8f98b9ce6e63374eb35f99c9552c71ea75091e/header.jpg?t=1795302694",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Ролевые игры",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Break through 50,000 bricks. Time to escape the walls. Punch your way to freedom! Break through walls, punch out the walls and escape prison one punch at a time! Smash through tougher walls, discover new areas, and become the ultimate wall-breaking machine in WALL PUNCH: ESCAPE THE WALLS SIMULATOR"
     },
     {
       "appid": "5374580",
@@ -641,41 +683,6 @@
       },
       "metacritic": null,
       "short_description": "Уютный пазл с аниме-картинками. Собирай 32 иллюстрации, доработанные вручную, в спокойных пятнашках и классических пазлах, собери весь алфавит от A до Z и сохраняй любую картину как обои. Тёплая музыка, без таймеров и спешки."
-    },
-    {
-      "appid": "5533720",
-      "name": "Fuck Everything 👉👌💦 - WALLPAPERS🔞",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5533720/7732e8142ba11e4634b6b7ef8ae3ccbe560e0d29/header.jpg?t=1795272502",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Give your desktop a bold new look with this exclusive wallpaper pack for Fuck Everything 👉👌💦. Explore a collection of high-quality artworks inspired by the game’s characters, cheeky atmosphere, and unforgettable moments."
-    },
-    {
-      "appid": "3321460",
-      "name": "Crimson Desert Enhanced",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/236f3814be7a97d86831800691b6096d449222a8/header.jpg?t=1794478066",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Crimson Desert – это action adventure игра с открытым миром, действие которой разворачивается на континенте Пайвел. Присоединяйтесь к Клиффу, чтобы вернуть потерянное и спасти мир от надвигающейся угрозы. Исследуйте бескрайние просторы и тайны Бездны, прокладывая свой путь через сражения и открытия."
     }
   ]
 }
