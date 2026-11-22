@@ -1,6 +1,6 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-11-22T23:01:03+03:00",
+ "updatedAt": "2026-11-23T01:26:47+03:00",
  "posted": {
   "news": [
    "3d34b124e592",
@@ -661,7 +661,6 @@
    "epic-1f9a12b06b4f437790b6913ad136a08c:now"
   ],
   "esports": [
-   "result:bo3-130771",
    "result:bo3-130772",
    "result:bo3-129964",
    "result:bo3-130777",
@@ -1160,7 +1159,8 @@
    "live:bo3-134825",
    "live:bo3-134826",
    "result:bo3-134321",
-   "result:bo3-134336"
+   "result:bo3-134336",
+   "digest:2026-11-23"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -1826,15 +1826,14 @@
    "day:2026-11-17:4707700",
    "day:2026-11-19:x-grand-theft-auto-vi",
    "day:2026-11-19:4523120",
-   "day:2026-11-19:4928450"
+   "day:2026-11-19:4928450",
+   "week:2026-W48"
   ],
   "gotd": [
    "gotd:2026-09-24"
   ]
  },
  "matchPings": [
-  "2026-11-20T14:53+03:00",
-  "2026-11-20T14:53+03:00",
   "2026-11-21T14:19+03:00",
   "2026-11-21T14:19+03:00",
   "2026-11-21T22:51+03:00",
