@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T23:36:29+03:00",
+  "updatedAt": "2026-11-22T05:22:05+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -21,16 +21,6 @@
       "pct": 75,
       "url": "https://store.steampowered.com/app/227300/",
       "steamAppId": "227300"
-    },
-    {
-      "id": "steam-394360",
-      "title": "Hearts of Iron IV",
-      "store": "Steam",
-      "old": 3049,
-      "neu": 914,
-      "pct": 70,
-      "url": "https://store.steampowered.com/app/394360/",
-      "steamAppId": "394360"
     },
     {
       "id": "steam-1158310",
@@ -73,6 +63,16 @@
       "steamAppId": "1144200"
     },
     {
+      "id": "steam-1332010",
+      "title": "Stray",
+      "store": "Steam",
+      "old": 1269,
+      "neu": 634,
+      "pct": 50,
+      "url": "https://store.steampowered.com/app/1332010/",
+      "steamAppId": "1332010"
+    },
+    {
       "id": "steam-5307180",
       "title": "Fuck Everything 👉👌💦",
       "store": "Steam",
@@ -81,16 +81,6 @@
       "pct": 40,
       "url": "https://store.steampowered.com/app/5307180/",
       "steamAppId": "5307180"
-    },
-    {
-      "id": "steam-4118150",
-      "title": "Recast:DeathOps",
-      "store": "Steam",
-      "old": 445,
-      "neu": 267,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/4118150/",
-      "steamAppId": "4118150"
     },
     {
       "id": "steam-5371390",
@@ -123,6 +113,26 @@
       "steamAppId": "4682120"
     },
     {
+      "id": "steam-5374580",
+      "title": "A to Zen: Cozy Anime Puzzle",
+      "store": "Steam",
+      "old": 200,
+      "neu": 150,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/5374580/",
+      "steamAppId": "5374580"
+    },
+    {
+      "id": "steam-5533720",
+      "title": "Fuck Everything 👉👌💦 - WALLPAPERS🔞",
+      "store": "Steam",
+      "old": 170,
+      "neu": 127,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/5533720/",
+      "steamAppId": "5533720"
+    },
+    {
       "id": "steam-3321460",
       "title": "Crimson Desert Enhanced",
       "store": "Steam",
@@ -131,16 +141,6 @@
       "pct": 20,
       "url": "https://store.steampowered.com/app/3321460/",
       "steamAppId": "3321460"
-    },
-    {
-      "id": "steam-4288310",
-      "title": "Blobby Bash",
-      "store": "Steam",
-      "old": 200,
-      "neu": 160,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/4288310/",
-      "steamAppId": "4288310"
     }
   ]
 }

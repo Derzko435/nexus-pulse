@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T23:36:23+03:00",
+  "updatedAt": "2026-11-22T05:21:59+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -452,25 +452,6 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
-      "appid": "302670",
-      "name": "Call to Arms",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/302670/header.jpg?t=1755264771",
-      "genres": [
-        "Экшены",
-        "Инди",
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Call to Arms offers an innovative mix of real-time strategy and 3rd, as well as 1st person controls. Set in the time of modern warfare, the game offers realistically modeled vehicles and heavy weaponry. Command your troops to victory or fight by yourself in the 3rd or 1st person action mode."
-    },
-    {
       "appid": "1850570",
       "name": "DEATH STRANDING DIRECTOR'S CUT",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/header.jpg?t=1793287496",
@@ -486,6 +467,23 @@
       },
       "metacritic": 85,
       "short_description": "Легендарный творец Хидэо Кодзима представляет окончательную версию DIRECTOR’S CUT знаковой для жанра игры. Действуя от лица Сэма Бриджеса и объединяя последних выживших на территории Америки, вам предстоит возродить надежду человечества. Удастся ли вам шаг за шагом воссоединить разрушенный мир?"
+    },
+    {
+      "appid": "394360",
+      "name": "Hearts of Iron IV",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/67bbd0057627fc2244793bcdd09260c2539499cf/header.jpg?t=1794491980",
+      "genres": [
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": 83,
+      "short_description": "Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation in World War II; the most engaging conflict in world history."
     },
     {
       "appid": "1158310",
@@ -504,6 +502,25 @@
       },
       "metacritic": 91,
       "short_description": "Любовь, война, интриги и величие. Определите наследие своего знатного рода в безграничной глобальной стратегии Crusader Kings III. Смерть — это только начало вашего пути по истории выбранной династии в этой полной неожиданностей и славы симуляции Средних веков."
+    },
+    {
+      "appid": "1740300",
+      "name": "Smushi Come Home",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1740300/header.jpg?t=1788375443",
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Сыграйте за крошечного грибочка, который потерялся в лесу и не может найти дорогу домой. Исследуйте уникальные области в собственном темпе и без ограничений, беседуйте с дружелюбными обитателями леса и окунайтесь в разнообразные приключения, чтобы вернуться домой!"
     },
     {
       "appid": "1808500",
@@ -540,6 +557,24 @@
       "short_description": "Лос-Суэнос. Полиция Лос-Суэноса сообщает о всплеске преступности в городе. Отряды спецназа направлены для урегулирования таких опасных ситуаций, как захват заложников, угрозы взрыва и перестрелки с подозреваемыми."
     },
     {
+      "appid": "5307180",
+      "name": "Fuck Everything 👉👌💦",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5307180/d0a4af9120342e7f75ad32a91d288a9514a03d6a/header.jpg?t=1795272763",
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Your brand-new AI sex doll asked what you’re into, and you had no fucking clue. Luckily, your home is full of objects that would love to help, from a clingy teddy bear to a bathtub with serious mommy energy. Try more than ten kinks and come back to her knowing exactly what you want."
+    },
+    {
       "appid": "4118150",
       "name": "Recast:DeathOps",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4118150/59bda6d9268cec890dd9faeb7c96cda2ad43b4ce/header.jpg?t=1795243471",
@@ -560,11 +595,12 @@
       "short_description": "Revived from a Cryonic state after World War III, you are a Recast clone waking to an Earth overrun by alien pirates and gigantic monsters pouring out from random portals. Explore an open world, forge alliances, and take your planet back. Play solo or in multiplayer."
     },
     {
-      "appid": "2416450",
-      "name": "Частный детектив МАУС",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2416450/298ff2fc3f6a700d022b8d3ec58047f2b426be03/header.jpg?t=1794953576",
+      "appid": "5371390",
+      "name": "Finnigan's Magical Puppets",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371390/843d51d76c2d0bebb61674f8bd1e65a349e668f1/header.jpg?t=1795288440",
       "genres": [
         "Экшены",
+        "Приключенческие игры",
         "Инди"
       ],
       "is_free": false,
@@ -573,8 +609,42 @@
         "mac": false,
         "linux": false
       },
-      "metacritic": 80,
-      "short_description": "Вместе с частным детективом Джеком Пеппером докопайтесь до истины в остросюжетных расследованиях с нотками джаза. «Частный детектив МАУС» сочетает в себе очарование классических мультяшных персонажей с адреналиновым азартом шутера от первого лица."
+      "metacritic": null,
+      "short_description": "Найдите и Переживите записи с потерянных VHS-кассет, обнаруженных в этом приключении. Откройте для себя новых Кукол и тайны в этой хоррор-игре в жанре point and-click. У Кукол припасено много трюков, так что используйте всю доступную вам технику, чтобы оставаться... в безопасности."
+    },
+    {
+      "appid": "4623890",
+      "name": "Boom Rush: Desert OPS",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4623890/50b36617baed27b3f0e9dead806ca6db3f067143/header.jpg?t=1795276086",
+      "genres": [
+        "Экшены"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "После аварийной посадки в пустыне начинается ваша борьба за выживание. База «Нира» засекла ваши координаты и сигналы врага. Сражайтесь с нарастающими волнами противников при поддержке радиосвязи. Это динамичный FPS, где каждая волна несет новые угрозы."
+    },
+    {
+      "appid": "4682120",
+      "name": "desert island time",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4682120/85b5a88f50fc297ebebe65b4b42809d409cae869/header.jpg?t=1795281821",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "On this island, you can grow crops, fish, capture island creatures, mine, chop wood, and craft tools and items. Come explore the island world and experience its peaceful life."
     },
     {
       "appid": "3321460",
@@ -594,12 +664,12 @@
       "short_description": "Crimson Desert – это action adventure игра с открытым миром, действие которой разворачивается на континенте Пайвел. Присоединяйтесь к Клиффу, чтобы вернуть потерянное и спасти мир от надвигающейся угрозы. Исследуйте бескрайние просторы и тайны Бездны, прокладывая свой путь через сражения и открытия."
     },
     {
-      "appid": "4974650",
-      "name": "Streetwalker Life!",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4974650/c599bb185840569633808b9fe740b5d0b1687f12/header.jpg?t=1795224570",
+      "appid": "4288310",
+      "name": "Blobby Bash",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4288310/18ffd6b3289b4e76d86ec3e3fcca92a16f509dce/header.jpg?t=1795280773",
       "genres": [
-        "Ролевые игры",
-        "Симуляторы"
+        "Экшены",
+        "Казуальные игры"
       ],
       "is_free": false,
       "platforms": {
@@ -608,78 +678,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "In this life sim management play as a young woman stranded with crushing debts. Manage time between odd jobs, street clients, upgrading outfits, gambling, and helping townsfolk. Use your body to earn fast cash to repay your loan before the Debt Collector comes calling!"
-    },
-    {
-      "appid": "4596440",
-      "name": "【パパたび】パパさ、旅系インフルエンサーで食っていこうと思っているんだ。",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4596440/61125575c87b65dd10e0e6c57f1e02d7d6ece8ac/header.jpg?t=1795223366",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "An unemployed dad and his college-student daughter set out to make a living as travel influencers. Puzzle out destinations from clues, pin them on the world map, and grow your channel with videos: geo-guessing meets streamer sim. Aim for one million followers, with 200+ history and geography trivia."
-    },
-    {
-      "appid": "5526200",
-      "name": "Let's Build a Naughty Toy Factory!",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5526200/6774c246969531ec6a1543680b6531b31775105d/header.jpg?t=1795262124",
-      "genres": [
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Automate your factory while building deep relationships with the heroines."
-    },
-    {
-      "appid": "5535690",
-      "name": "The Dragon's Mint",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5535690/b0bdaeb92be08d90aa9cd13f2901cd7dcd470d93/header.jpg?t=1795232395",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Meet Kebbo, a sleepy dragon and master coinmaker, running a tiny mint in the corner of your desktop. He strikes coins and earns marks while you get on with your day. Check in when you like to answer letters, travel the kingdoms and help him fill his book."
-    },
-    {
-      "appid": "5490920",
-      "name": "无限数独",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5490920/cbd803801eb5a633ad77d64b8e8eb4eaf65bfb1b/header.jpg?t=1795248318",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "A quiet place for Sudoku. Explore 20 variants and five difficulty levels with illustrated rules, a hands-on tutorial and hints beside the board. Save favourite puzzles, build a relay, or create and share your own puzzle files. Play solo offline with autosave."
+      "short_description": "BOUNCE, BATTLE AND BASH your friends in this fast paced movement party game! Engage in 7 different game modes where winning requires speed, strategy and skill! Customise your Bert with unlockable outfits galore!"
     }
   ]
 }
