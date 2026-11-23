@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23T15:56:29+03:00",
+ "updatedAt": "2026-11-23T16:42:54+03:00",
  "source": "bo3.gg",
  "matches": [
   {
@@ -273,33 +273,6 @@
    "url": "https://bo3.gg/matches/liquid-vs-gosh-24-11-2026"
   },
   {
-   "id": "bo3-133422",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Eternal Fire",
-   "teamB": "FlyQuest",
-   "logoA": "https://files.bo3.gg/uploads/team/1527/image/webp-528d013ccb8d81fc2f4725b95ee04516.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/10398/image/webp-107b435e36c92fdda2ade7d3a01046ae.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 1,
-   "status": "upcoming",
-   "event": "PGL Major Singapore 2026 Stage 1",
-   "tier": "S",
-   "startsAt": "2026-11-24T10:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/eternal-fire-vs-flyquest-24-11-2026"
-  },
-  {
    "id": "bo3-133421",
    "game": "CS2",
    "gameKey": "cs2",
@@ -325,6 +298,33 @@
     }
    ],
    "url": "https://bo3.gg/matches/faze-vs-wildcard-gaming-24-11-2026"
+  },
+  {
+   "id": "bo3-133422",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Eternal Fire",
+   "teamB": "FlyQuest",
+   "logoA": "https://files.bo3.gg/uploads/team/1527/image/webp-528d013ccb8d81fc2f4725b95ee04516.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/10398/image/webp-107b435e36c92fdda2ade7d3a01046ae.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 1,
+   "status": "upcoming",
+   "event": "PGL Major Singapore 2026 Stage 1",
+   "tier": "S",
+   "startsAt": "2026-11-24T10:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/eternal-fire-vs-flyquest-24-11-2026"
   },
   {
    "id": "bo3-134338",
@@ -482,7 +482,7 @@
    "teamA": "PCIFIC Esports",
    "teamB": "Apanthe",
    "logoA": "https://files.bo3.gg/uploads/team/8765/image/webp-71cc580610b014f14e5b158a77f32cd3.webp",
-   "logoB": "",
+   "logoB": "https://files.bo3.gg/uploads/team/25853/image/webp-e27c3c2717a694ca97fdc139da607857.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
