@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T02:41:07+03:00",
+  "updatedAt": "2026-11-23T10:54:25+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -469,6 +469,22 @@
       "short_description": "Легендарный творец Хидэо Кодзима представляет окончательную версию DIRECTOR’S CUT знаковой для жанра игры. Действуя от лица Сэма Бриджеса и объединяя последних выживших на территории Америки, вам предстоит возродить надежду человечества. Удастся ли вам шаг за шагом воссоединить разрушенный мир?"
     },
     {
+      "appid": "1715130",
+      "name": "Crysis Remastered",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1715130/0c28c46e93f734d31b035e13057472b51b377936/header.jpg?t=1785838535",
+      "genres": [
+        "Экшены"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Классический шутер от первого лица от Crytek возвращается с динамическим игровым процессом, режимом &quot;&quot;песочницы&quot;&quot; и захватывающими эпическими битвами. В игре вас ждет обновленная графика, оптимизированная для оборудования нового поколения."
+    },
+    {
       "appid": "1158310",
       "name": "Crusader Kings III",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/8c0c09b4da78eda3e2fedf4ed792173596e68841/header_alt_assets_12_russian.jpg?t=1795167672",
@@ -487,23 +503,20 @@
       "short_description": "Любовь, война, интриги и величие. Определите наследие своего знатного рода в безграничной глобальной стратегии Crusader Kings III. Смерть — это только начало вашего пути по истории выбранной династии в этой полной неожиданностей и славы симуляции Средних веков."
     },
     {
-      "appid": "1740300",
-      "name": "Smushi Come Home",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1740300/header.jpg?t=1788375443",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди",
-        "Ролевые игры"
-      ],
+      "appid": "28590",
+      "name": "Steam App 28590",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/28590/header.jpg",
+      "genres": [],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
+        "mac": false,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Сыграйте за крошечного грибочка, который потерялся в лесу и не может найти дорогу домой. Исследуйте уникальные области в собственном темпе и без ограничений, беседуйте с дружелюбными обитателями леса и окунайтесь в разнообразные приключения, чтобы вернуться домой!"
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
     },
     {
       "appid": "1808500",
@@ -574,13 +587,13 @@
       "short_description": "Один автобус, четыре колеса и очень разные мнения о том, куда ехать. Делите управление с друзьями, ловите выпадающих пассажиров и пробирайтесь через город, каньоны, лёд и болота к крыше мегабашни. Играйте в одиночку или добирайтесь до финиша компанией до четырёх человек."
     },
     {
-      "appid": "5371390",
-      "name": "Finnigan's Magical Puppets",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371390/843d51d76c2d0bebb61674f8bd1e65a349e668f1/header.jpg?t=1795288440",
+      "appid": "4873240",
+      "name": "Bug Huntress wants to battle!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4873240/960555bce4a3e9ebbdd7032a6205ae5ae4364c57/header.jpg?t=1795418843",
       "genres": [
         "Экшены",
         "Приключенческие игры",
-        "Инди"
+        "Казуальные игры"
       ],
       "is_free": false,
       "platforms": {
@@ -589,29 +602,12 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Найдите и Переживите записи с потерянных VHS-кассет, обнаруженных в этом приключении. Откройте для себя новых Кукол и тайны в этой хоррор-игре в жанре point and-click. У Кукол припасено много трюков, так что используйте всю доступную вам технику, чтобы оставаться... в безопасности."
-    },
-    {
-      "appid": "5529590",
-      "name": "Entropic Signal",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5529590/7a2a17c39eb1451d43c12a39c383f25576080455/header.jpg?t=1795285957",
-      "genres": [
-        "Экшены",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Вы ответили на сигнал, которого не должно было быть. Пройдите за ним назад через семь миров: каждый из них — способ, которым люди когда-то связывались друг с другом, и у каждого своё правило. Оружие стреляет само. Вы идёте, выбираете и узнаёте, кто ещё на линии."
+      "short_description": "&quot;Fight me!!&quot; A Bug Huntress who suddenly challenges you to battle — I've never met anyone this cocky. Hand over that ridiculous water gun of yours; I'm going to soak you from head to toe. Take this! Rapid-fire piston attacks straight to your weak point for massive damage!"
     },
     {
       "appid": "5511850",
       "name": "Save the Sandcastle",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5511850/9e50d122040328bec855de60298915f6e8f69888/header_russian.jpg?t=1795367233",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5511850/9e50d122040328bec855de60298915f6e8f69888/header_russian.jpg?t=1795419442",
       "genres": [
         "Казуальные игры",
         "Инди",
@@ -646,6 +642,22 @@
       "short_description": "Blörbit, blob it, orbit, beat it. Now hiring: blobs for smooth 2D twin-stick combat. Couch co-op welcome. Build your own roguelite career against endless opposition. No experience necessary."
     },
     {
+      "appid": "5352510",
+      "name": "Game Translation",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5352510/d8d170b0a480d05647ad2c02c35996942e9876fb/header.jpg?t=1795340125",
+      "genres": [
+        "Утилиты"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Understand game chat and write back in another language. Capture your saved chat region with a shortcut, read original messages beside their translations, then translate and copy your reply. Local OCR and translation are included, with optional support for your own external service."
+    },
+    {
       "appid": "5191120",
       "name": "PERI.CO",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5191120/05716b623368b0b4aa263373181d18a04225e722/header.jpg?t=1795337421",
@@ -663,24 +675,6 @@
       },
       "metacritic": null,
       "short_description": "Кооперативный экшен от первого лица на 4 игроков (до 8). Отправляйтесь на меняющийся объект, выполняйте задания, уничтожайте гигантских боссов и возвращайтесь в срок. Тратьте зарплату на снаряжение для следующей смены. Оружие на двух руках, навыки на Q, дебаффы за надбавку, воскрешение через SSD."
-    },
-    {
-      "appid": "5499750",
-      "name": "It’s Table Time",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5499750/72f312934660aa29a3607064820f75086b89a90b/header.jpg?t=1795346548",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "It’s Table Time packs 30 classic board games, card tables, dice battles, and quick-pick arcades—from Chess and Ludo to Mahjong, Code Breaker, Pool, and Tank Battle! Play solo vs. smart AI, gather 2–4 friends locally or in Party Cup, or jump into Steam Online Play!"
     }
   ]
 }
