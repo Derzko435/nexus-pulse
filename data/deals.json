@@ -1,7 +1,17 @@
 {
-  "updatedAt": "2026-11-23T10:54:30+03:00",
+  "updatedAt": "2026-11-23T23:21:25+03:00",
   "source": "steam-specials-ru",
   "deals": [
+    {
+      "id": "steam-1222140",
+      "title": "Detroit: Become Human",
+      "store": "Steam",
+      "old": 2999,
+      "neu": 299,
+      "pct": 90,
+      "url": "https://store.steampowered.com/app/1222140/",
+      "steamAppId": "1222140"
+    },
     {
       "id": "steam-1850570",
       "title": "DEATH STRANDING DIRECTOR'S CUT",
@@ -21,16 +31,6 @@
       "pct": 75,
       "url": "https://store.steampowered.com/app/227300/",
       "steamAppId": "227300"
-    },
-    {
-      "id": "steam-1715130",
-      "title": "Crysis Remastered",
-      "store": "Steam",
-      "old": 1289,
-      "neu": 373,
-      "pct": 71,
-      "url": "https://store.steampowered.com/app/1715130/",
-      "steamAppId": "1715130"
     },
     {
       "id": "steam-1158310",
@@ -83,54 +83,54 @@
       "steamAppId": "1332010"
     },
     {
-      "id": "steam-5519340",
-      "title": "Jumping Cow",
+      "id": "steam-224460",
+      "title": "Contrast",
       "store": "Steam",
-      "old": 360,
-      "neu": 216,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5519340/",
-      "steamAppId": "5519340"
+      "old": 279,
+      "neu": 139,
+      "pct": 50,
+      "url": "https://store.steampowered.com/app/224460/",
+      "steamAppId": "224460"
     },
     {
-      "id": "steam-2416450",
-      "title": "Частный детектив МАУС",
+      "id": "steam-42732",
+      "title": "Workers & Resources: Soviet Republic: полный",
       "store": "Steam",
-      "old": 1100,
-      "neu": 726,
-      "pct": 34,
-      "url": "https://store.steampowered.com/app/2416450/",
-      "steamAppId": "2416450"
+      "old": 3494,
+      "neu": 1718,
+      "pct": 45,
+      "url": "https://store.steampowered.com/app/42732/",
+      "steamAppId": "42732"
     },
     {
-      "id": "steam-5514250",
-      "title": "DeepBreaker",
+      "id": "steam-4443690",
+      "title": "Cornerwitch",
       "store": "Steam",
       "old": 245,
-      "neu": 171,
+      "neu": 147,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/4443690/",
+      "steamAppId": "4443690"
+    },
+    {
+      "id": "steam-1086940",
+      "title": "Baldur's Gate 3",
+      "store": "Steam",
+      "old": 1999,
+      "neu": 1399,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/5514250/",
-      "steamAppId": "5514250"
+      "url": "https://store.steampowered.com/app/1086940/",
+      "steamAppId": "1086940"
     },
     {
-      "id": "steam-1419970",
-      "title": "ZULMARASH: Echoes of Zaltar",
+      "id": "steam-5179660",
+      "title": "Armorer: Tidy Up the Armory Before Dawn",
       "store": "Steam",
-      "old": 575,
-      "neu": 431,
+      "old": 240,
+      "neu": 180,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/1419970/",
-      "steamAppId": "1419970"
-    },
-    {
-      "id": "steam-5014420",
-      "title": "にゃんこサバイバー",
-      "store": "Steam",
-      "old": 290,
-      "neu": 217,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5014420/",
-      "steamAppId": "5014420"
+      "url": "https://store.steampowered.com/app/5179660/",
+      "steamAppId": "5179660"
     },
     {
       "id": "steam-3321460",

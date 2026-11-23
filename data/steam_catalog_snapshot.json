@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T10:54:25+03:00",
+  "updatedAt": "2026-11-23T23:21:20+03:00",
   "source": "steam-store-appdetails",
   "count": 38,
   "apps": [
@@ -437,7 +437,7 @@
     {
       "appid": "281990",
       "name": "Stellaris",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/header.jpg?t=1794419057",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/fe615e9253a276211212ce6398199c68455850c9/header_alt_assets_15_russian.jpg?t=1795442199",
       "genres": [
         "Симуляторы",
         "Стратегии"
@@ -487,7 +487,7 @@
     {
       "appid": "1158310",
       "name": "Crusader Kings III",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/8c0c09b4da78eda3e2fedf4ed792173596e68841/header_alt_assets_12_russian.jpg?t=1795167672",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/ff2e53b4f4a08246b70b779bd587f8fbbcf6fb7e/header_alt_assets_14_russian.jpg?t=1795448229",
       "genres": [
         "Ролевые игры",
         "Симуляторы",
@@ -521,7 +521,7 @@
     {
       "appid": "1808500",
       "name": "ARC Raiders",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/41ee6c5c81a5797132879892586465b917acc563/header_alt_assets_9.jpg?t=1794215815",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/04baafaf64a5aa5f46ecda5d71889a4848dc0628/header.jpg?t=1794215815",
       "genres": [
         "Экшены"
       ],
@@ -570,100 +570,10 @@
       "short_description": "Потерявшемуся, одинокому, оторванному от семьи бродячему коту предстоит разгадать древнюю тайну, вырваться из давно заброшенного кибергорода и найти дорогу домой."
     },
     {
-      "appid": "5542640",
-      "name": "WeirdBus",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5542640/900f2748816281cac97787fbfb9afc052303e48b/header.jpg?t=1795346552",
+      "appid": "5519340",
+      "name": "Jumping Cow",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5519340/31e3e3b61db138fb169aa77b33230b6bade0cb03/header.jpg?t=1795402325",
       "genres": [
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Один автобус, четыре колеса и очень разные мнения о том, куда ехать. Делите управление с друзьями, ловите выпадающих пассажиров и пробирайтесь через город, каньоны, лёд и болота к крыше мегабашни. Играйте в одиночку или добирайтесь до финиша компанией до четырёх человек."
-    },
-    {
-      "appid": "4873240",
-      "name": "Bug Huntress wants to battle!",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4873240/960555bce4a3e9ebbdd7032a6205ae5ae4364c57/header.jpg?t=1795418843",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Казуальные игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "&quot;Fight me!!&quot; A Bug Huntress who suddenly challenges you to battle — I've never met anyone this cocky. Hand over that ridiculous water gun of yours; I'm going to soak you from head to toe. Take this! Rapid-fire piston attacks straight to your weak point for massive damage!"
-    },
-    {
-      "appid": "5511850",
-      "name": "Save the Sandcastle",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5511850/9e50d122040328bec855de60298915f6e8f69888/header_russian.jpg?t=1795419442",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Стройте свои замки из песка и создавайте собственные пляжи. Ройте каналы и возводите валы против прилива на 36 пляжах кампании или проверьте, сколько продержится замок в Endless."
-    },
-    {
-      "appid": "5001650",
-      "name": "blörbit",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5001650/9762ef1f9e865b694056a1676079344be4a0f416/header.jpg?t=1795357225",
-      "genres": [
-        "Экшены",
-        "Казуальные игры",
-        "Инди",
-        "Гонки"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Blörbit, blob it, orbit, beat it. Now hiring: blobs for smooth 2D twin-stick combat. Couch co-op welcome. Build your own roguelite career against endless opposition. No experience necessary."
-    },
-    {
-      "appid": "5352510",
-      "name": "Game Translation",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5352510/d8d170b0a480d05647ad2c02c35996942e9876fb/header.jpg?t=1795340125",
-      "genres": [
-        "Утилиты"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Understand game chat and write back in another language. Capture your saved chat region with a shortcut, read original messages beside their translations, then translate and copy your reply. Local OCR and translation are included, with optional support for your own external service."
-    },
-    {
-      "appid": "5191120",
-      "name": "PERI.CO",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5191120/05716b623368b0b4aa263373181d18a04225e722/header.jpg?t=1795337421",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
         "Казуальные игры",
         "Инди"
       ],
@@ -674,7 +584,95 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Кооперативный экшен от первого лица на 4 игроков (до 8). Отправляйтесь на меняющийся объект, выполняйте задания, уничтожайте гигантских боссов и возвращайтесь в срок. Тратьте зарплату на снаряжение для следующей смены. Оружие на двух руках, навыки на Q, дебаффы за надбавку, воскрешение через SSD."
+      "short_description": "A cooperative puzzle platformer for 1 to 4 players who share the controls of a single cow. Split the keys, time synced jumps, clear wacky obstacles, and find meme dances hidden behind secret NPCs!"
+    },
+    {
+      "appid": "2416450",
+      "name": "Частный детектив МАУС",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2416450/298ff2fc3f6a700d022b8d3ec58047f2b426be03/header.jpg?t=1794953576",
+      "genres": [
+        "Экшены",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 80,
+      "short_description": "Вместе с частным детективом Джеком Пеппером докопайтесь до истины в остросюжетных расследованиях с нотками джаза. «Частный детектив МАУС» сочетает в себе очарование классических мультяшных персонажей с адреналиновым азартом шутера от первого лица."
+    },
+    {
+      "appid": "5514250",
+      "name": "DeepBreaker",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5514250/66a94e1ee5bd8e06329156e29d605c3e078db229/header.jpg?t=1795408413",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Никакой кирки. Только твои кулаки. Крушите скалу блок за блоком, улучшайте перчатки, сражайтесь со скорпионами и четырьмя древними стражами и встретьтесь с соперником, который ждёт в глубине."
+    },
+    {
+      "appid": "1419970",
+      "name": "ZULMARASH: Echoes of Zaltar",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1419970/f8228ac44321d2b649202c7f434118383eb1504c/header.jpg?t=1795380168",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "A turn-based, tile-by-tile tactical RPG in pixel art. Randomized loot in five rarities, gear that shows on your hero, generated dungeons, spreading fire. And a living village where the children sing at vespers. Several endings."
+    },
+    {
+      "appid": "5014420",
+      "name": "にゃんこサバイバー",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5014420/c105386c6f563cccb96dd6130ff9d187fce56716/header.jpg?t=1795397254",
+      "genres": [
+        "Экшены",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Cat Survivor is a minefield auto-battler where mines become your greatest weapon. Read the numbers, place your flags, trigger explosive chain reactions, and wipe out entire hordes. Win with strategy, not brute force."
+    },
+    {
+      "appid": "3321460",
+      "name": "Crimson Desert Enhanced",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/236f3814be7a97d86831800691b6096d449222a8/header.jpg?t=1794478066",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Crimson Desert – это action adventure игра с открытым миром, действие которой разворачивается на континенте Пайвел. Присоединяйтесь к Клиффу, чтобы вернуть потерянное и спасти мир от надвигающейся угрозы. Исследуйте бескрайние просторы и тайны Бездны, прокладывая свой путь через сражения и открытия."
     }
   ]
 }
