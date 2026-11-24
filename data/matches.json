@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T16:49:58+03:00",
+ "updatedAt": "2026-11-24T17:19:37+03:00",
  "source": "bo3.gg",
  "matches": [
   {
@@ -13,7 +13,7 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "BLAST Slam IX",
    "tier": "S",
    "startsAt": "2026-11-24T17:00:00+03:00",
@@ -33,18 +33,18 @@
      "label": "blastdota"
     },
     {
-     "type": "twitch",
-     "channel": "betboom_dota_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "betboom_dota_ru"
+     "type": "kick",
+     "channel": "gorgc",
+     "lang": "en",
+     "official": true,
+     "label": "gorgc"
     },
     {
-     "type": "kick",
-     "channel": "betboom_dota_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "betboom_dota_ru"
+     "type": "twitch",
+     "channel": "dota2_maincast",
+     "lang": "uk",
+     "official": true,
+     "label": "dota2_maincast"
     }
    ],
    "url": "https://bo3.gg/dota2/matches/team-yandex-vs-1win-dota2-24-11-2026"
@@ -60,7 +60,7 @@
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
-   "status": "upcoming",
+   "status": "live",
    "event": "BLAST Slam IX",
    "tier": "S",
    "startsAt": "2026-11-24T17:00:00+03:00",
@@ -87,11 +87,11 @@
      "label": "blastdotab"
     },
     {
-     "type": "kick",
-     "channel": "betboom_dota_ru2",
-     "lang": "ru",
-     "official": false,
-     "label": "betboom_dota_ru2"
+     "type": "twitch",
+     "channel": "dota2_maincast2",
+     "lang": "uk",
+     "official": true,
+     "label": "dota2_maincast2"
     }
    ],
    "url": "https://bo3.gg/dota2/matches/gamerlegion-dota2-vs-parivision-dota2-24-11-2026"
@@ -467,13 +467,13 @@
    "url": "https://bo3.gg/valorant/matches/pcific-esports-vs-apanthe-25-11-2026"
   },
   {
-   "id": "bo3-134959",
+   "id": "bo3-134961",
    "game": "Valorant",
    "gameKey": "valorant",
-   "teamA": "Mandatory",
-   "teamB": "Barça eSports",
-   "logoA": "https://files.bo3.gg/uploads/team/6820/image/webp-57b8fb3d22793ace14c5c620e7730e35.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/9819/image/webp-3edf38da737933fd935107fc1e7cb4e1.webp",
+   "teamA": "UCAM Esports Club",
+   "teamB": "CGN Esports",
+   "logoA": "https://files.bo3.gg/uploads/team/7140/image/webp-fe14ab352ddcdecc993868c0803ca075.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/6845/image/webp-67eb2ee048797b791684fc860913308f.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
@@ -491,7 +491,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/valorant/matches/mandatory-vs-barca-esports-25-11-2026"
+   "url": "https://bo3.gg/valorant/matches/ucam-esports-club-vs-cgn-esports-25-11-2026"
   },
   {
    "id": "bo3-134960",
@@ -548,13 +548,13 @@
    "url": "https://bo3.gg/valorant/matches/giantx-vs-pixel-lumina-25-11-2026"
   },
   {
-   "id": "bo3-134961",
+   "id": "bo3-134959",
    "game": "Valorant",
    "gameKey": "valorant",
-   "teamA": "UCAM Esports Club",
-   "teamB": "CGN Esports",
-   "logoA": "https://files.bo3.gg/uploads/team/7140/image/webp-fe14ab352ddcdecc993868c0803ca075.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/6845/image/webp-67eb2ee048797b791684fc860913308f.webp",
+   "teamA": "Mandatory",
+   "teamB": "Barça eSports",
+   "logoA": "https://files.bo3.gg/uploads/team/6820/image/webp-57b8fb3d22793ace14c5c620e7730e35.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/9819/image/webp-3edf38da737933fd935107fc1e7cb4e1.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
@@ -572,7 +572,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/valorant/matches/ucam-esports-club-vs-cgn-esports-25-11-2026"
+   "url": "https://bo3.gg/valorant/matches/mandatory-vs-barca-esports-25-11-2026"
   },
   {
    "id": "bo3-134947",
@@ -609,33 +609,6 @@
    "url": "https://bo3.gg/valorant/matches/besiktas-esports-vs-galatasaray-esports-25-11-2026"
   },
   {
-   "id": "bo3-134962",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Joblife",
-   "teamB": "WIP Esports",
-   "logoA": "https://files.bo3.gg/uploads/team/6501/image/webp-8e7f55a2f5106d00c0fc5aa4798b4709.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/21040/image/webp-38ed72067b9733e0d1048dae8568ddd3.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "VCT 2027: EMEA Kickoff: Europe - Qualifier Playoffs",
-   "tier": "A",
-   "startsAt": "2026-11-25T21:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/joblife-vs-wip-esports-25-11-2026"
-  },
-  {
    "id": "bo3-134964",
    "game": "Valorant",
    "gameKey": "valorant",
@@ -661,6 +634,33 @@
     }
    ],
    "url": "https://bo3.gg/valorant/matches/enterprise-esports-1-vs-xxxmasterpromegateamxxx-25-11-2026"
+  },
+  {
+   "id": "bo3-134965",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "Eintracht Frankfurt",
+   "teamB": "F9 EICAR",
+   "logoA": "https://files.bo3.gg/uploads/team/9870/image/webp-79c2789b81a43de90712cd658d105028.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/20561/image/webp-54846af0debc33bcd2fc24d77fb4a8c4.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VCT 2027: EMEA Kickoff: Europe - Qualifier Playoffs",
+   "tier": "A",
+   "startsAt": "2026-11-25T21:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/eintracht-frankfurt-vs-f9-eicar-25-11-2026"
   },
   {
    "id": "bo3-134380",
