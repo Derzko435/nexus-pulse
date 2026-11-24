@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T07:51:48+03:00",
+  "updatedAt": "2026-11-24T20:57:37+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -21,36 +21,6 @@
       "pct": 75,
       "url": "https://store.steampowered.com/app/1850570/",
       "steamAppId": "1850570"
-    },
-    {
-      "id": "steam-227300",
-      "title": "Euro Truck Simulator 2",
-      "store": "Steam",
-      "old": 1269,
-      "neu": 317,
-      "pct": 75,
-      "url": "https://store.steampowered.com/app/227300/",
-      "steamAppId": "227300"
-    },
-    {
-      "id": "steam-28590",
-      "title": "Crysis Remastered Trilogy",
-      "store": "Steam",
-      "old": 3867,
-      "neu": 510,
-      "pct": 67,
-      "url": "https://store.steampowered.com/app/28590/",
-      "steamAppId": "28590"
-    },
-    {
-      "id": "steam-94174",
-      "title": "DARK SOULS III Deluxe Edition",
-      "store": "Steam",
-      "old": 3499,
-      "neu": 1749,
-      "pct": 50,
-      "url": "https://store.steampowered.com/app/94174/",
-      "steamAppId": "94174"
     },
     {
       "id": "steam-1808500",
@@ -93,6 +63,46 @@
       "steamAppId": "224460"
     },
     {
+      "id": "steam-5403320",
+      "title": "寻长生",
+      "store": "Steam",
+      "old": 64,
+      "neu": 38,
+      "pct": 41,
+      "url": "https://store.steampowered.com/app/5403320/",
+      "steamAppId": "5403320"
+    },
+    {
+      "id": "steam-5486380",
+      "title": "Taenera's Offer",
+      "store": "Steam",
+      "old": 445,
+      "neu": 267,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5486380/",
+      "steamAppId": "5486380"
+    },
+    {
+      "id": "steam-5489920",
+      "title": "Why Not Fly That?",
+      "store": "Steam",
+      "old": 170,
+      "neu": 102,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5489920/",
+      "steamAppId": "5489920"
+    },
+    {
+      "id": "steam-1442430",
+      "title": "Storage Hunter Simulator",
+      "store": "Steam",
+      "old": 880,
+      "neu": 572,
+      "pct": 35,
+      "url": "https://store.steampowered.com/app/1442430/",
+      "steamAppId": "1442430"
+    },
+    {
       "id": "steam-1086940",
       "title": "Baldur's Gate 3",
       "store": "Steam",
@@ -103,24 +113,24 @@
       "steamAppId": "1086940"
     },
     {
-      "id": "steam-5508060",
-      "title": "再来亿竿 One Last Cast",
+      "id": "steam-1551980",
+      "title": "Clive Barker's Hellraiser: Revival",
       "store": "Steam",
-      "old": 245,
-      "neu": 171,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/5508060/",
-      "steamAppId": "5508060"
+      "old": 2399,
+      "neu": 1799,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/1551980/",
+      "steamAppId": "1551980"
     },
     {
-      "id": "steam-5518480",
-      "title": "ZERO MASS: Deep Field Operations",
+      "id": "steam-3220460",
+      "title": "Lucky Scoop",
       "store": "Steam",
-      "old": 195,
-      "neu": 136,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/5518480/",
-      "steamAppId": "5518480"
+      "old": 171,
+      "neu": 128,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/3220460/",
+      "steamAppId": "3220460"
     },
     {
       "id": "steam-3751260",
@@ -131,16 +141,6 @@
       "pct": 20,
       "url": "https://store.steampowered.com/app/3751260/",
       "steamAppId": "3751260"
-    },
-    {
-      "id": "steam-3321460",
-      "title": "Crimson Desert Enhanced",
-      "store": "Steam",
-      "old": 4299,
-      "neu": 3439,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/3321460/",
-      "steamAppId": "3321460"
     }
   ]
 }

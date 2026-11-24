@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T07:51:43+03:00",
+  "updatedAt": "2026-11-24T20:57:31+03:00",
   "source": "steam-store-appdetails",
   "count": 36,
   "apps": [
@@ -242,7 +242,7 @@
     {
       "appid": "739630",
       "name": "Phasmophobia",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/c227a2855aba60f3657bc0c3a46515b8c41fb2b6/header.jpg?t=1794312564",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/8fc6642a091321343695b2273f8f7137c5d26483/header_alt_assets_14.jpg?t=1795522435",
       "genres": [
         "Экшены",
         "Инди",
@@ -469,24 +469,6 @@
       "short_description": "Легендарный творец Хидэо Кодзима представляет окончательную версию DIRECTOR’S CUT знаковой для жанра игры. Действуя от лица Сэма Бриджеса и объединяя последних выживших на территории Америки, вам предстоит возродить надежду человечества. Удастся ли вам шаг за шагом воссоединить разрушенный мир?"
     },
     {
-      "appid": "1158310",
-      "name": "Crusader Kings III",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/ff2e53b4f4a08246b70b779bd587f8fbbcf6fb7e/header_alt_assets_14_russian.jpg?t=1795448229",
-      "genres": [
-        "Ролевые игры",
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": 91,
-      "short_description": "Любовь, война, интриги и величие. Определите наследие своего знатного рода в безграничной глобальной стратегии Crusader Kings III. Смерть — это только начало вашего пути по истории выбранной династии в этой полной неожиданностей и славы симуляции Средних веков."
-    },
-    {
       "appid": "28590",
       "name": "Steam App 28590",
       "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/28590/header.jpg",
@@ -503,9 +485,25 @@
       "curated": true
     },
     {
+      "appid": "94174",
+      "name": "Steam App 94174",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/94174/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
+    },
+    {
       "appid": "1808500",
       "name": "ARC Raiders",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/04baafaf64a5aa5f46ecda5d71889a4848dc0628/header.jpg?t=1794215815",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/28261332e481ebd131af413063dbda81f145641b/header_alt_assets_10.jpg?t=1795511323",
       "genres": [
         "Экшены"
       ],
@@ -519,13 +517,11 @@
       "short_description": "ARC Raiders — многопользовательская игра жанра extraction adventure, действие которой разворачивается в суровом будущем на Земле, атакованной загадочными механическими захватчиками ARC."
     },
     {
-      "appid": "1144200",
-      "name": "Ready or Not",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/2b44644b033a996a9efb95051bb01809215d0d23/header.jpg?t=1790846188",
+      "appid": "570940",
+      "name": "DARK SOULS™: REMASTERED",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/header.jpg?t=1778518110",
       "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
+        "Экшены"
       ],
       "is_free": false,
       "platforms": {
@@ -533,25 +529,24 @@
         "mac": false,
         "linux": false
       },
-      "metacritic": null,
-      "short_description": "Лос-Суэнос. Полиция Лос-Суэноса сообщает о всплеске преступности в городе. Отряды спецназа направлены для урегулирования таких опасных ситуаций, как захват заложников, угрозы взрыва и перестрелки с подозреваемыми."
+      "metacritic": 84,
+      "short_description": "…Затем появился огонь. Заново переживите события легендарной игры, с которой всё началось. В новом воплощении вас ждёт возвращение в Лордран, представленный в HD-графике с поддержкой 60 кадров/с."
     },
     {
-      "appid": "1332010",
-      "name": "Stray",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/71daca1910d664d31240b9623a495e0c0828807f/header.jpg?t=1785424330",
+      "appid": "374320",
+      "name": "DARK SOULS™ III",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/header.jpg?t=1748630784",
       "genres": [
-        "Приключенческие игры",
-        "Инди"
+        "Экшены"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
+        "mac": false,
         "linux": false
       },
-      "metacritic": 82,
-      "short_description": "Потерявшемуся, одинокому, оторванному от семьи бродячему коту предстоит разгадать древнюю тайну, вырваться из давно заброшенного кибергорода и найти дорогу домой."
+      "metacritic": 89,
+      "short_description": "Dark Souls продолжит испытывать игроков на прочность в новой главе знаменитой серии, собравшей множество наград и определившей лицо жанра. Соберитесь с духом и погрузитесь во тьму!"
     },
     {
       "appid": "224460",
@@ -571,10 +566,13 @@
       "short_description": "CONTRAST is a puzzle/platform game where you can move between a fantastic 3D world and a mysterious shadowy universe in 2D in the blink of an eye. Delve into a dreamlike and surreal 1920s world, inspired by the performance art world of vaudeville and film noir, and cradled by a smooth and sultry jazz ambiance."
     },
     {
-      "appid": "42732",
-      "name": "Steam App 42732",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/42732/header.jpg",
-      "genres": [],
+      "appid": "5508060",
+      "name": "再来亿竿 One Last Cast",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5508060/a3f92f9ab988d154516f259625be378e374c168c/header_russian.jpg?t=1795505963",
+      "genres": [
+        "Казуальные игры",
+        "Инди"
+      ],
       "is_free": false,
       "platforms": {
         "windows": true,
@@ -582,20 +580,34 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "",
-      "catalogId": null,
-      "curated": true
+      "short_description": "Устройтесь с удочкой в уголке рабочего стола. В One Last Cast рыбалка идёт своим чередом, пока вы заняты. Загляните в перерыве: кто попался на этот раз? Собирайте рыб со всего света, улучшайте снасти и следите за поплавком — вдруг клюнет рыба редкой расцветки?"
     },
     {
-      "appid": "4443690",
-      "name": "Cornerwitch",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4443690/e72ab07b8d53a25ea9cebcdf6bc01570c26cfdbe/header.jpg?t=1795456847",
+      "appid": "5518480",
+      "name": "ZERO MASS: Deep Field Operations",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5518480/cd491d8bd6b7f0e698dc8576be0100f9b18598ec/header.jpg?t=1795476500",
       "genres": [
+        "Экшены",
+        "Симуляторы",
+        "Бесплатные"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Беритесь за крупнейшие добывающие проекты. Deep Field Operations открывает Full Shift в ZERO MASS: огромные астероиды, обширные поля и масштабные контракты. Управляйте дронами и буровыми установками, ищите скрытые находки и стройте дело, к которому хочется вернуться."
+    },
+    {
+      "appid": "3751260",
+      "name": "The Blood of Dawnwalker",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751260/0f02fbee77e36562f7ecbd0dac1382bb013ccd89/header_alt_assets_1.jpg?t=1795190297",
+      "genres": [
+        "Экшены",
         "Приключенческие игры",
-        "Казуальные игры",
-        "Инди",
-        "Ролевые игры",
-        "Симуляторы"
+        "Ролевые игры"
       ],
       "is_free": false,
       "platforms": {
@@ -604,25 +616,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Cornerwitch — уютная idle-игра, которая располагается в углу экрана. Изучайте новые заклинания и отправляйтесь в волшебное путешествие. Открывайте косметические предметы, наряжайте свою маленькую ведьмочку, повышайте уровень и становитесь сильнее."
-    },
-    {
-      "appid": "5179660",
-      "name": "Armorer: Tidy Up the Armory Before Dawn",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5179660/3d7d454e1b063ed01244b57b1691806c05fa9584/header.jpg?t=1795456122",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Уютная игра о наведении порядка от первого лица. Три тысячи единиц оружия свалены в кучу в двухэтажной средневековой оружейной, и у каждой есть ровно одно верное место. Изучите зал, откройте навыки, которые его раскрывают, и расставьте всё по местам до рассвета — в одиночку или с друзьями."
+      "short_description": "The Blood of Dawnwalker — это ролевой экшен с открытым миром в мрачном фэнтезийном сеттинге Европы XIV века. Вы играете за Коэна: днем он человек, а ночью становится вампиром. Спасите свою семью — развитие сюжета зависит от ваших решений и того, какие тайны вы откроете."
     },
     {
       "appid": "3321460",
