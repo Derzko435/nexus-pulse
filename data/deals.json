@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T23:21:25+03:00",
+  "updatedAt": "2026-11-24T07:51:48+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -33,16 +33,6 @@
       "steamAppId": "227300"
     },
     {
-      "id": "steam-1158310",
-      "title": "Crusader Kings III",
-      "store": "Steam",
-      "old": 3049,
-      "neu": 914,
-      "pct": 70,
-      "url": "https://store.steampowered.com/app/1158310/",
-      "steamAppId": "1158310"
-    },
-    {
       "id": "steam-28590",
       "title": "Crysis Remastered Trilogy",
       "store": "Steam",
@@ -51,6 +41,16 @@
       "pct": 67,
       "url": "https://store.steampowered.com/app/28590/",
       "steamAppId": "28590"
+    },
+    {
+      "id": "steam-94174",
+      "title": "DARK SOULS III Deluxe Edition",
+      "store": "Steam",
+      "old": 3499,
+      "neu": 1749,
+      "pct": 50,
+      "url": "https://store.steampowered.com/app/94174/",
+      "steamAppId": "94174"
     },
     {
       "id": "steam-1808500",
@@ -63,24 +63,24 @@
       "steamAppId": "1808500"
     },
     {
-      "id": "steam-1144200",
-      "title": "Ready or Not",
+      "id": "steam-570940",
+      "title": "DARK SOULS: REMASTERED",
       "store": "Steam",
-      "old": 2240,
-      "neu": 1120,
+      "old": 2399,
+      "neu": 1199,
       "pct": 50,
-      "url": "https://store.steampowered.com/app/1144200/",
-      "steamAppId": "1144200"
+      "url": "https://store.steampowered.com/app/570940/",
+      "steamAppId": "570940"
     },
     {
-      "id": "steam-1332010",
-      "title": "Stray",
+      "id": "steam-374320",
+      "title": "DARK SOULS III",
       "store": "Steam",
-      "old": 1269,
-      "neu": 634,
+      "old": 2399,
+      "neu": 1199,
       "pct": 50,
-      "url": "https://store.steampowered.com/app/1332010/",
-      "steamAppId": "1332010"
+      "url": "https://store.steampowered.com/app/374320/",
+      "steamAppId": "374320"
     },
     {
       "id": "steam-224460",
@@ -93,26 +93,6 @@
       "steamAppId": "224460"
     },
     {
-      "id": "steam-42732",
-      "title": "Workers & Resources: Soviet Republic: полный",
-      "store": "Steam",
-      "old": 3494,
-      "neu": 1718,
-      "pct": 45,
-      "url": "https://store.steampowered.com/app/42732/",
-      "steamAppId": "42732"
-    },
-    {
-      "id": "steam-4443690",
-      "title": "Cornerwitch",
-      "store": "Steam",
-      "old": 245,
-      "neu": 147,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/4443690/",
-      "steamAppId": "4443690"
-    },
-    {
       "id": "steam-1086940",
       "title": "Baldur's Gate 3",
       "store": "Steam",
@@ -123,14 +103,34 @@
       "steamAppId": "1086940"
     },
     {
-      "id": "steam-5179660",
-      "title": "Armorer: Tidy Up the Armory Before Dawn",
+      "id": "steam-5508060",
+      "title": "再来亿竿 One Last Cast",
       "store": "Steam",
-      "old": 240,
-      "neu": 180,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/5179660/",
-      "steamAppId": "5179660"
+      "old": 245,
+      "neu": 171,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5508060/",
+      "steamAppId": "5508060"
+    },
+    {
+      "id": "steam-5518480",
+      "title": "ZERO MASS: Deep Field Operations",
+      "store": "Steam",
+      "old": 195,
+      "neu": 136,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5518480/",
+      "steamAppId": "5518480"
+    },
+    {
+      "id": "steam-3751260",
+      "title": "The Blood of Dawnwalker",
+      "store": "Steam",
+      "old": 4999,
+      "neu": 3999,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/3751260/",
+      "steamAppId": "3751260"
     },
     {
       "id": "steam-3321460",

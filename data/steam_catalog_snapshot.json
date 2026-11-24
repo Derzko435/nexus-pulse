@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-23T23:21:20+03:00",
+  "updatedAt": "2026-11-24T07:51:43+03:00",
   "source": "steam-store-appdetails",
-  "count": 38,
+  "count": 36,
   "apps": [
     {
       "appid": "730",
@@ -469,22 +469,6 @@
       "short_description": "Легендарный творец Хидэо Кодзима представляет окончательную версию DIRECTOR’S CUT знаковой для жанра игры. Действуя от лица Сэма Бриджеса и объединяя последних выживших на территории Америки, вам предстоит возродить надежду человечества. Удастся ли вам шаг за шагом воссоединить разрушенный мир?"
     },
     {
-      "appid": "1715130",
-      "name": "Crysis Remastered",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1715130/0c28c46e93f734d31b035e13057472b51b377936/header.jpg?t=1785838535",
-      "genres": [
-        "Экшены"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Классический шутер от первого лица от Crytek возвращается с динамическим игровым процессом, режимом &quot;&quot;песочницы&quot;&quot; и захватывающими эпическими битвами. В игре вас ждет обновленная графика, оптимизированная для оборудования нового поколения."
-    },
-    {
       "appid": "1158310",
       "name": "Crusader Kings III",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/ff2e53b4f4a08246b70b779bd587f8fbbcf6fb7e/header_alt_assets_14_russian.jpg?t=1795448229",
@@ -570,92 +554,75 @@
       "short_description": "Потерявшемуся, одинокому, оторванному от семьи бродячему коту предстоит разгадать древнюю тайну, вырваться из давно заброшенного кибергорода и найти дорогу домой."
     },
     {
-      "appid": "5519340",
-      "name": "Jumping Cow",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5519340/31e3e3b61db138fb169aa77b33230b6bade0cb03/header.jpg?t=1795402325",
+      "appid": "224460",
+      "name": "Contrast",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/224460/header.jpg?t=1791208946",
+      "genres": [
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 62,
+      "short_description": "CONTRAST is a puzzle/platform game where you can move between a fantastic 3D world and a mysterious shadowy universe in 2D in the blink of an eye. Delve into a dreamlike and surreal 1920s world, inspired by the performance art world of vaudeville and film noir, and cradled by a smooth and sultry jazz ambiance."
+    },
+    {
+      "appid": "42732",
+      "name": "Steam App 42732",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/42732/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
+    },
+    {
+      "appid": "4443690",
+      "name": "Cornerwitch",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4443690/e72ab07b8d53a25ea9cebcdf6bc01570c26cfdbe/header.jpg?t=1795456847",
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Ролевые игры",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Cornerwitch — уютная idle-игра, которая располагается в углу экрана. Изучайте новые заклинания и отправляйтесь в волшебное путешествие. Открывайте косметические предметы, наряжайте свою маленькую ведьмочку, повышайте уровень и становитесь сильнее."
+    },
+    {
+      "appid": "5179660",
+      "name": "Armorer: Tidy Up the Armory Before Dawn",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5179660/3d7d454e1b063ed01244b57b1691806c05fa9584/header.jpg?t=1795456122",
       "genres": [
         "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "A cooperative puzzle platformer for 1 to 4 players who share the controls of a single cow. Split the keys, time synced jumps, clear wacky obstacles, and find meme dances hidden behind secret NPCs!"
-    },
-    {
-      "appid": "2416450",
-      "name": "Частный детектив МАУС",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2416450/298ff2fc3f6a700d022b8d3ec58047f2b426be03/header.jpg?t=1794953576",
-      "genres": [
-        "Экшены",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": 80,
-      "short_description": "Вместе с частным детективом Джеком Пеппером докопайтесь до истины в остросюжетных расследованиях с нотками джаза. «Частный детектив МАУС» сочетает в себе очарование классических мультяшных персонажей с адреналиновым азартом шутера от первого лица."
-    },
-    {
-      "appid": "5514250",
-      "name": "DeepBreaker",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5514250/66a94e1ee5bd8e06329156e29d605c3e078db229/header.jpg?t=1795408413",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Никакой кирки. Только твои кулаки. Крушите скалу блок за блоком, улучшайте перчатки, сражайтесь со скорпионами и четырьмя древними стражами и встретьтесь с соперником, который ждёт в глубине."
-    },
-    {
-      "appid": "1419970",
-      "name": "ZULMARASH: Echoes of Zaltar",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1419970/f8228ac44321d2b649202c7f434118383eb1504c/header.jpg?t=1795380168",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
         "Инди",
-        "Ролевые игры"
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
+        "mac": true,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "A turn-based, tile-by-tile tactical RPG in pixel art. Randomized loot in five rarities, gear that shows on your hero, generated dungeons, spreading fire. And a living village where the children sing at vespers. Several endings."
-    },
-    {
-      "appid": "5014420",
-      "name": "にゃんこサバイバー",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5014420/c105386c6f563cccb96dd6130ff9d187fce56716/header.jpg?t=1795397254",
-      "genres": [
-        "Экшены",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Cat Survivor is a minefield auto-battler where mines become your greatest weapon. Read the numbers, place your flags, trigger explosive chain reactions, and wipe out entire hordes. Win with strategy, not brute force."
+      "short_description": "Уютная игра о наведении порядка от первого лица. Три тысячи единиц оружия свалены в кучу в двухэтажной средневековой оружейной, и у каждой есть ровно одно верное место. Изучите зал, откройте навыки, которые его раскрывают, и расставьте всё по местам до рассвета — в одиночку или с друзьями."
     },
     {
       "appid": "3321460",
