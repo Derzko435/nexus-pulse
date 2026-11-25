@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T05:37:18+03:00",
+  "updatedAt": "2026-11-25T17:38:26+03:00",
   "source": "steam-store-appdetails",
   "count": 37,
   "apps": [
@@ -452,6 +452,24 @@
       "short_description": "Исследуйте полную чудес галактику в научно-фантастической глобальной стратегии от Paradox Development Studios. Знакомьтесь с инопланетянами разных рас, открывайте новые планеты, справляйтесь с неожиданными испытаниями и расширяйте границы своей империи. Ваши возможности практически безграничны."
     },
     {
+      "appid": "668580",
+      "name": "Atomic Heart",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/header.jpg?t=1786632138",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 76,
+      "short_description": "Погрузитесь в безумную и прекрасную техноутопию, где вас на каждом шагу поджидает смерть. Выполните порученное вам задание, подстраиваясь под необычных противников, используя элементы окружения и улучшая свой арсенал. Узнайте правду — любой ценой!"
+    },
+    {
       "appid": "1850570",
       "name": "DEATH STRANDING DIRECTOR'S CUT",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/header.jpg?t=1793287496",
@@ -467,6 +485,57 @@
       },
       "metacritic": 85,
       "short_description": "Легендарный творец Хидэо Кодзима представляет окончательную версию DIRECTOR’S CUT знаковой для жанра игры. Действуя от лица Сэма Бриджеса и объединяя последних выживших на территории Америки, вам предстоит возродить надежду человечества. Удастся ли вам шаг за шагом воссоединить разрушенный мир?"
+    },
+    {
+      "appid": "2183900",
+      "name": "Warhammer 40,000: Space Marine 2",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg?t=1790874369",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 82,
+      "short_description": "Обретите сверхчеловеческую мощь космодесантника. Пустите в ход смертоносные навыки и разрушительное оружие, чтобы истребить безжалостных тиранидов. Защитите Империум в ярких одиночных боях или многопользовательских режимах с видом от третьего лица."
+    },
+    {
+      "appid": "475190",
+      "name": "Scanner Sombre",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/475190/header.jpg?t=1785603575",
+      "genres": [
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": 67,
+      "short_description": "Scanner Sombre - это 3d хоррор-игра про исследование пещер, где тьма - ваш главный враг. Освещайте невидимое с помощью сканера LIDAR, открывая жуткую красоту и опасность бездны. От создателей Prison Architect это захватывающее приключение использует свет и тень для создания захватывающего опыта."
+    },
+    {
+      "appid": "72176",
+      "name": "Steam App 72176",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/72176/header.jpg",
+      "genres": [],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
     },
     {
       "appid": "1808500",
@@ -485,22 +554,6 @@
       "short_description": "ARC Raiders — многопользовательская игра жанра extraction adventure, действие которой разворачивается в суровом будущем на Земле, атакованной загадочными механическими захватчиками ARC."
     },
     {
-      "appid": "570940",
-      "name": "DARK SOULS™: REMASTERED",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/header.jpg?t=1778518110",
-      "genres": [
-        "Экшены"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": 84,
-      "short_description": "…Затем появился огонь. Заново переживите события легендарной игры, с которой всё началось. В новом воплощении вас ждёт возвращение в Лордран, представленный в HD-графике с поддержкой 60 кадров/с."
-    },
-    {
       "appid": "374320",
       "name": "DARK SOULS™ III",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/header.jpg?t=1748630784",
@@ -517,98 +570,9 @@
       "short_description": "Dark Souls продолжит испытывать игроков на прочность в новой главе знаменитой серии, собравшей множество наград и определившей лицо жанра. Соберитесь с духом и погрузитесь во тьму!"
     },
     {
-      "appid": "224460",
-      "name": "Contrast",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/224460/header.jpg?t=1791208946",
-      "genres": [
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": 62,
-      "short_description": "CONTRAST is a puzzle/platform game where you can move between a fantastic 3D world and a mysterious shadowy universe in 2D in the blink of an eye. Delve into a dreamlike and surreal 1920s world, inspired by the performance art world of vaudeville and film noir, and cradled by a smooth and sultry jazz ambiance."
-    },
-    {
-      "appid": "5403320",
-      "name": "寻长生",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5403320/e7fb38a90c80c1e528408c16e9d403bc6891bba7/header.jpg?t=1795536390",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди",
-        "Ролевые игры",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "A match-3 combat RPG set in the Qin Dynasty. Play as a soldier, a Taoist, or an imperial shadow agent, traveling from Xianyang to Kunlun in search of the elixir of immortality. Match tiles to build energy and unleash skills in strategic battles. Three characters, three difficulties, one epic journey"
-    },
-    {
-      "appid": "5486380",
-      "name": "Taenera's Offer",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5486380/641304fd7ee031049e4b1260583a35cca8162892/header.jpg?t=1795540889",
-      "genres": [
-        "Экшены",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Научно-фантастический extraction-шутер на умирающей пустынной планете. Добывай оружие, припасы и ценности, выполняй рискованные контракты и сражайся за путь к эвакуации. Используй точное прицеливание, акробатические уклонения и физику окружения, чтобы выжить и заработать достаточно для побега."
-    },
-    {
-      "appid": "5489920",
-      "name": "Why Not Fly That?",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5489920/1034c09aa6043ae6f193ed7711698045269372bc/header.jpg?t=1795533212",
-      "genres": [
-        "Казуальные игры",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Strap thrusters to shopping carts, fridges, and everyday objects in this single-player physics sandbox. Build your own flying machine, assign its controls, and fly, tumble, and tackle obstacles. Experiment with each design and see how far it goes."
-    },
-    {
-      "appid": "1442430",
-      "name": "Storage Hunter Simulator",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1442430/7e80101e998d9bed0bac2fe7c73f4a13b1150a14/header.jpg?t=1788881598",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Научитесь выигрывать аукционы и пополните свою коллекцию сокровищ в Storage Hunter Simulator! Вас ждет полный азарта и превосходных наград мир распродаж чужого имущества, так что постарайтесь обойти соперников!"
-    },
-    {
-      "appid": "1551980",
-      "name": "Clive Barker's Hellraiser: Revival",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551980/d1e7111b93b6a8b3eb029908887648348c2c55e6/header.jpg?t=1795519744",
+      "appid": "570940",
+      "name": "DARK SOULS™: REMASTERED",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/header.jpg?t=1778518110",
       "genres": [
         "Экшены"
       ],
@@ -618,15 +582,16 @@
         "mac": false,
         "linux": false
       },
-      "metacritic": null,
-      "short_description": "Откройте для себя очередную главу легендарной хоррор-саги в совершенно новом формате. Clive Barker’s Hellraiser: Revival выводит хоррор-выживание от первого лица на новый уровень."
+      "metacritic": 84,
+      "short_description": "…Затем появился огонь. Заново переживите события легендарной игры, с которой всё началось. В новом воплощении вас ждёт возвращение в Лордран, представленный в HD-графике с поддержкой 60 кадров/с."
     },
     {
-      "appid": "3220460",
-      "name": "Lucky Scoop",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3220460/a547734a782a7eba20dc9918983ca24c2b458678/header.jpg?t=1795543792",
+      "appid": "5323210",
+      "name": "Dead Last",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5323210/8f40e8a2969185e62a2cab7b0064dd2bdeee7f23/header.jpg?t=1795543209",
       "genres": [
-        "Казуальные игры"
+        "Экшены",
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
@@ -635,15 +600,16 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Добро пожаловать в LUCKY SCOOP — уютный магазин подарков, где каждый заказ начинается с ложки разноцветных гемов! Собирайте подарки по пожеланиям покупателей, упаковывайте их в коробки, зарабатывайте деньги и развивайте свой магазин."
+      "short_description": "Dead Last — пати-хоррор для 2-8 друзей, где монстры — лишь половина опасности. Выживайте в жутких мини-играх, используйте предметы, чтобы спастись самим и подставить всех остальных, и, что бы ни случилось, не окажитесь на последнем месте."
     },
     {
-      "appid": "3751260",
-      "name": "The Blood of Dawnwalker",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751260/0f02fbee77e36562f7ecbd0dac1382bb013ccd89/header_alt_assets_1.jpg?t=1795190297",
+      "appid": "5013700",
+      "name": "无人归家",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5013700/7ae5af3cce7c74ca3a6dc9a582b7e22da6575752/header.jpg?t=1795611388",
       "genres": [
-        "Экшены",
         "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
         "Ролевые игры"
       ],
       "is_free": false,
@@ -653,7 +619,41 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "The Blood of Dawnwalker — это ролевой экшен с открытым миром в мрачном фэнтезийном сеттинге Европы XIV века. Вы играете за Коэна: днем он человек, а ночью становится вампиром. Спасите свою семью — развитие сюжета зависит от ваших решений и того, какие тайны вы откроете."
+      "short_description": "Read immersive dialogue sequences, make crucial choices to shift the storyline, and unlock multiple distinct endings in this story-focused visual novel. Your decisions alter character relationships and rewrite the fate of every role."
+    },
+    {
+      "appid": "4562970",
+      "name": "ChimpType",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4562970/c5ff63abf236e61fa17c351d9127c6f5a3c55aa1/header.jpg?t=1795561334",
+      "genres": [
+        "Работа со звуком",
+        "Утилиты"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Transcribe audio to text with automatic speaker labels for recordings with multiple speakers, 100% on your own computer. No cloud, no uploads, no account. Your recordings never leave your machine. On-device AI starts instantly and uses a fraction of the energy a datacenter would burn."
+    },
+    {
+      "appid": "3321460",
+      "name": "Crimson Desert Enhanced",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/236f3814be7a97d86831800691b6096d449222a8/header.jpg?t=1794478066",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Crimson Desert – это action adventure игра с открытым миром, действие которой разворачивается на континенте Пайвел. Присоединяйтесь к Клиффу, чтобы вернуть потерянное и спасти мир от надвигающейся угрозы. Исследуйте бескрайние просторы и тайны Бездны, прокладывая свой путь через сражения и открытия."
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T05:37:23+03:00",
+  "updatedAt": "2026-11-25T17:38:32+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -73,16 +73,6 @@
       "steamAppId": "1808500"
     },
     {
-      "id": "steam-374320",
-      "title": "DARK SOULS III",
-      "store": "Steam",
-      "old": 2399,
-      "neu": 1199,
-      "pct": 50,
-      "url": "https://store.steampowered.com/app/374320/",
-      "steamAppId": "374320"
-    },
-    {
       "id": "steam-570940",
       "title": "DARK SOULS: REMASTERED",
       "store": "Steam",
@@ -93,14 +83,34 @@
       "steamAppId": "570940"
     },
     {
-      "id": "steam-5323210",
-      "title": "Dead Last",
+      "id": "steam-5531610",
+      "title": "GBald",
       "store": "Steam",
-      "old": 360,
-      "neu": 223,
-      "pct": 38,
-      "url": "https://store.steampowered.com/app/5323210/",
-      "steamAppId": "5323210"
+      "old": 64,
+      "neu": 38,
+      "pct": 41,
+      "url": "https://store.steampowered.com/app/5531610/",
+      "steamAppId": "5531610"
+    },
+    {
+      "id": "steam-5332920",
+      "title": "ShotMachine",
+      "store": "Steam",
+      "old": 354,
+      "neu": 230,
+      "pct": 35,
+      "url": "https://store.steampowered.com/app/5332920/",
+      "steamAppId": "5332920"
+    },
+    {
+      "id": "steam-4779290",
+      "title": "Meme Paint",
+      "store": "Steam",
+      "old": 51,
+      "neu": 35,
+      "pct": 31,
+      "url": "https://store.steampowered.com/app/4779290/",
+      "steamAppId": "4779290"
     },
     {
       "id": "steam-1086940",
@@ -113,34 +123,24 @@
       "steamAppId": "1086940"
     },
     {
-      "id": "steam-5013700",
-      "title": "无人归家",
+      "id": "steam-5029630",
+      "title": "All Peaceful at the Adventurer's Guild Today",
       "store": "Steam",
-      "old": 170,
-      "neu": 119,
+      "old": 245,
+      "neu": 171,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/5013700/",
-      "steamAppId": "5013700"
+      "url": "https://store.steampowered.com/app/5029630/",
+      "steamAppId": "5029630"
     },
     {
-      "id": "steam-4562970",
-      "title": "ChimpType",
+      "id": "steam-3972980",
+      "title": "Mirklurk: Every Step Matters",
       "store": "Steam",
-      "old": 855,
-      "neu": 641,
+      "old": 690,
+      "neu": 517,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/4562970/",
-      "steamAppId": "4562970"
-    },
-    {
-      "id": "steam-3321460",
-      "title": "Crimson Desert Enhanced",
-      "store": "Steam",
-      "old": 4299,
-      "neu": 3439,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/3321460/",
-      "steamAppId": "3321460"
+      "url": "https://store.steampowered.com/app/3972980/",
+      "steamAppId": "3972980"
     }
   ]
 }
