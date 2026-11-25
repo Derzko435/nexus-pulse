@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T20:57:37+03:00",
+  "updatedAt": "2026-11-25T05:37:23+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -13,6 +13,16 @@
       "steamAppId": "1222140"
     },
     {
+      "id": "steam-668580",
+      "title": "Atomic Heart",
+      "store": "Steam",
+      "old": 2499,
+      "neu": 499,
+      "pct": 80,
+      "url": "https://store.steampowered.com/app/668580/",
+      "steamAppId": "668580"
+    },
+    {
       "id": "steam-1850570",
       "title": "DEATH STRANDING DIRECTOR'S CUT",
       "store": "Steam",
@@ -21,6 +31,36 @@
       "pct": 75,
       "url": "https://store.steampowered.com/app/1850570/",
       "steamAppId": "1850570"
+    },
+    {
+      "id": "steam-2183900",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "store": "Steam",
+      "old": 3199,
+      "neu": 799,
+      "pct": 75,
+      "url": "https://store.steampowered.com/app/2183900/",
+      "steamAppId": "2183900"
+    },
+    {
+      "id": "steam-475190",
+      "title": "Scanner Sombre",
+      "store": "Steam",
+      "old": 280,
+      "neu": 84,
+      "pct": 70,
+      "url": "https://store.steampowered.com/app/475190/",
+      "steamAppId": "475190"
+    },
+    {
+      "id": "steam-72176",
+      "title": "Atomic Heart - Ultimate Edition",
+      "store": "Steam",
+      "old": 5091,
+      "neu": 852,
+      "pct": 58,
+      "url": "https://store.steampowered.com/app/72176/",
+      "steamAppId": "72176"
     },
     {
       "id": "steam-1808500",
@@ -33,16 +73,6 @@
       "steamAppId": "1808500"
     },
     {
-      "id": "steam-570940",
-      "title": "DARK SOULS: REMASTERED",
-      "store": "Steam",
-      "old": 2399,
-      "neu": 1199,
-      "pct": 50,
-      "url": "https://store.steampowered.com/app/570940/",
-      "steamAppId": "570940"
-    },
-    {
       "id": "steam-374320",
       "title": "DARK SOULS III",
       "store": "Steam",
@@ -53,54 +83,24 @@
       "steamAppId": "374320"
     },
     {
-      "id": "steam-224460",
-      "title": "Contrast",
+      "id": "steam-570940",
+      "title": "DARK SOULS: REMASTERED",
       "store": "Steam",
-      "old": 279,
-      "neu": 139,
+      "old": 2399,
+      "neu": 1199,
       "pct": 50,
-      "url": "https://store.steampowered.com/app/224460/",
-      "steamAppId": "224460"
+      "url": "https://store.steampowered.com/app/570940/",
+      "steamAppId": "570940"
     },
     {
-      "id": "steam-5403320",
-      "title": "寻长生",
+      "id": "steam-5323210",
+      "title": "Dead Last",
       "store": "Steam",
-      "old": 64,
-      "neu": 38,
-      "pct": 41,
-      "url": "https://store.steampowered.com/app/5403320/",
-      "steamAppId": "5403320"
-    },
-    {
-      "id": "steam-5486380",
-      "title": "Taenera's Offer",
-      "store": "Steam",
-      "old": 445,
-      "neu": 267,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5486380/",
-      "steamAppId": "5486380"
-    },
-    {
-      "id": "steam-5489920",
-      "title": "Why Not Fly That?",
-      "store": "Steam",
-      "old": 170,
-      "neu": 102,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/5489920/",
-      "steamAppId": "5489920"
-    },
-    {
-      "id": "steam-1442430",
-      "title": "Storage Hunter Simulator",
-      "store": "Steam",
-      "old": 880,
-      "neu": 572,
-      "pct": 35,
-      "url": "https://store.steampowered.com/app/1442430/",
-      "steamAppId": "1442430"
+      "old": 360,
+      "neu": 223,
+      "pct": 38,
+      "url": "https://store.steampowered.com/app/5323210/",
+      "steamAppId": "5323210"
     },
     {
       "id": "steam-1086940",
@@ -113,34 +113,34 @@
       "steamAppId": "1086940"
     },
     {
-      "id": "steam-1551980",
-      "title": "Clive Barker's Hellraiser: Revival",
+      "id": "steam-5013700",
+      "title": "无人归家",
       "store": "Steam",
-      "old": 2399,
-      "neu": 1799,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/1551980/",
-      "steamAppId": "1551980"
+      "old": 170,
+      "neu": 119,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5013700/",
+      "steamAppId": "5013700"
     },
     {
-      "id": "steam-3220460",
-      "title": "Lucky Scoop",
+      "id": "steam-4562970",
+      "title": "ChimpType",
       "store": "Steam",
-      "old": 171,
-      "neu": 128,
+      "old": 855,
+      "neu": 641,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/3220460/",
-      "steamAppId": "3220460"
+      "url": "https://store.steampowered.com/app/4562970/",
+      "steamAppId": "4562970"
     },
     {
-      "id": "steam-3751260",
-      "title": "The Blood of Dawnwalker",
+      "id": "steam-3321460",
+      "title": "Crimson Desert Enhanced",
       "store": "Steam",
-      "old": 4999,
-      "neu": 3999,
+      "old": 4299,
+      "neu": 3439,
       "pct": 20,
-      "url": "https://store.steampowered.com/app/3751260/",
-      "steamAppId": "3751260"
+      "url": "https://store.steampowered.com/app/3321460/",
+      "steamAppId": "3321460"
     }
   ]
 }

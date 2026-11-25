@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-24T20:57:31+03:00",
+  "updatedAt": "2026-11-25T05:37:18+03:00",
   "source": "steam-store-appdetails",
-  "count": 36,
+  "count": 37,
   "apps": [
     {
       "appid": "730",
@@ -63,7 +63,7 @@
     {
       "appid": "1172470",
       "name": "Apex Legends™",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/dc5c390e9a273a7248f75c1b2d59987f6179323c/header_alt_assets_7.jpg?t=1794958367",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/4219c147f1e094297c726d537518babba7f3ae2d/header.jpg?t=1794958367",
       "genres": [
         "Экшены",
         "Приключенческие игры",
@@ -469,38 +469,6 @@
       "short_description": "Легендарный творец Хидэо Кодзима представляет окончательную версию DIRECTOR’S CUT знаковой для жанра игры. Действуя от лица Сэма Бриджеса и объединяя последних выживших на территории Америки, вам предстоит возродить надежду человечества. Удастся ли вам шаг за шагом воссоединить разрушенный мир?"
     },
     {
-      "appid": "28590",
-      "name": "Steam App 28590",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/28590/header.jpg",
-      "genres": [],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "",
-      "catalogId": null,
-      "curated": true
-    },
-    {
-      "appid": "94174",
-      "name": "Steam App 94174",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/94174/header.jpg",
-      "genres": [],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "",
-      "catalogId": null,
-      "curated": true
-    },
-    {
       "appid": "1808500",
       "name": "ARC Raiders",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/28261332e481ebd131af413063dbda81f145641b/header_alt_assets_10.jpg?t=1795511323",
@@ -566,12 +534,15 @@
       "short_description": "CONTRAST is a puzzle/platform game where you can move between a fantastic 3D world and a mysterious shadowy universe in 2D in the blink of an eye. Delve into a dreamlike and surreal 1920s world, inspired by the performance art world of vaudeville and film noir, and cradled by a smooth and sultry jazz ambiance."
     },
     {
-      "appid": "5508060",
-      "name": "再来亿竿 One Last Cast",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5508060/a3f92f9ab988d154516f259625be378e374c168c/header_russian.jpg?t=1795505963",
+      "appid": "5403320",
+      "name": "寻长生",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5403320/e7fb38a90c80c1e528408c16e9d403bc6891bba7/header.jpg?t=1795536390",
       "genres": [
+        "Приключенческие игры",
         "Казуальные игры",
-        "Инди"
+        "Инди",
+        "Ролевые игры",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
@@ -580,16 +551,15 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Устройтесь с удочкой в уголке рабочего стола. В One Last Cast рыбалка идёт своим чередом, пока вы заняты. Загляните в перерыве: кто попался на этот раз? Собирайте рыб со всего света, улучшайте снасти и следите за поплавком — вдруг клюнет рыба редкой расцветки?"
+      "short_description": "A match-3 combat RPG set in the Qin Dynasty. Play as a soldier, a Taoist, or an imperial shadow agent, traveling from Xianyang to Kunlun in search of the elixir of immortality. Match tiles to build energy and unleash skills in strategic battles. Three characters, three difficulties, one epic journey"
     },
     {
-      "appid": "5518480",
-      "name": "ZERO MASS: Deep Field Operations",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5518480/cd491d8bd6b7f0e698dc8576be0100f9b18598ec/header.jpg?t=1795476500",
+      "appid": "5486380",
+      "name": "Taenera's Offer",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5486380/641304fd7ee031049e4b1260583a35cca8162892/header.jpg?t=1795540889",
       "genres": [
         "Экшены",
-        "Симуляторы",
-        "Бесплатные"
+        "Ролевые игры"
       ],
       "is_free": false,
       "platforms": {
@@ -598,7 +568,74 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Беритесь за крупнейшие добывающие проекты. Deep Field Operations открывает Full Shift в ZERO MASS: огромные астероиды, обширные поля и масштабные контракты. Управляйте дронами и буровыми установками, ищите скрытые находки и стройте дело, к которому хочется вернуться."
+      "short_description": "Научно-фантастический extraction-шутер на умирающей пустынной планете. Добывай оружие, припасы и ценности, выполняй рискованные контракты и сражайся за путь к эвакуации. Используй точное прицеливание, акробатические уклонения и физику окружения, чтобы выжить и заработать достаточно для побега."
+    },
+    {
+      "appid": "5489920",
+      "name": "Why Not Fly That?",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5489920/1034c09aa6043ae6f193ed7711698045269372bc/header.jpg?t=1795533212",
+      "genres": [
+        "Казуальные игры",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Strap thrusters to shopping carts, fridges, and everyday objects in this single-player physics sandbox. Build your own flying machine, assign its controls, and fly, tumble, and tackle obstacles. Experiment with each design and see how far it goes."
+    },
+    {
+      "appid": "1442430",
+      "name": "Storage Hunter Simulator",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1442430/7e80101e998d9bed0bac2fe7c73f4a13b1150a14/header.jpg?t=1788881598",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Научитесь выигрывать аукционы и пополните свою коллекцию сокровищ в Storage Hunter Simulator! Вас ждет полный азарта и превосходных наград мир распродаж чужого имущества, так что постарайтесь обойти соперников!"
+    },
+    {
+      "appid": "1551980",
+      "name": "Clive Barker's Hellraiser: Revival",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551980/d1e7111b93b6a8b3eb029908887648348c2c55e6/header.jpg?t=1795519744",
+      "genres": [
+        "Экшены"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Откройте для себя очередную главу легендарной хоррор-саги в совершенно новом формате. Clive Barker’s Hellraiser: Revival выводит хоррор-выживание от первого лица на новый уровень."
+    },
+    {
+      "appid": "3220460",
+      "name": "Lucky Scoop",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3220460/a547734a782a7eba20dc9918983ca24c2b458678/header.jpg?t=1795543792",
+      "genres": [
+        "Казуальные игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Добро пожаловать в LUCKY SCOOP — уютный магазин подарков, где каждый заказ начинается с ложки разноцветных гемов! Собирайте подарки по пожеланиям покупателей, упаковывайте их в коробки, зарабатывайте деньги и развивайте свой магазин."
     },
     {
       "appid": "3751260",
@@ -617,23 +654,6 @@
       },
       "metacritic": null,
       "short_description": "The Blood of Dawnwalker — это ролевой экшен с открытым миром в мрачном фэнтезийном сеттинге Европы XIV века. Вы играете за Коэна: днем он человек, а ночью становится вампиром. Спасите свою семью — развитие сюжета зависит от ваших решений и того, какие тайны вы откроете."
-    },
-    {
-      "appid": "3321460",
-      "name": "Crimson Desert Enhanced",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/236f3814be7a97d86831800691b6096d449222a8/header.jpg?t=1794478066",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Crimson Desert – это action adventure игра с открытым миром, действие которой разворачивается на континенте Пайвел. Присоединяйтесь к Клиффу, чтобы вернуть потерянное и спасти мир от надвигающейся угрозы. Исследуйте бескрайние просторы и тайны Бездны, прокладывая свой путь через сражения и открытия."
     }
   ]
 }
