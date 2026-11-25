@@ -1,28 +1,6 @@
 {
- "updatedAt": "2026-11-24T16:52:53+03:00",
+ "updatedAt": "2026-11-25T16:05:10+03:00",
  "items": [
-  {
-   "appid": "x-gothic-3-classic",
-   "title": "Gothic 3 Classic",
-   "date": "2026-11-24",
-   "image": "https://upload.wikimedia.org/wikipedia/en/c/c4/Gothic3_EUcover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "desc": "Gothic 3 (локализованное название в России — «Готика 3») — немецкая компьютерная игра, третья часть ролевого экшена Gothic от немецкой студии Piranha Bytes, выпущенная 13 октября 2006 года издателем JoWooD Productions. Это прямое продолжение Gothic II. Вместе с игрой было выпущено коллекционное…",
-   "genres": [
-    "Экшен-RPG"
-   ],
-   "platforms": [
-    "PlayStation",
-    "Xbox"
-   ],
-   "stores": [],
-   "developer": "Piranha Bytes",
-   "price": "",
-   "url": "https://ru.wikipedia.org/wiki/Gothic_3",
-   "links": {
-    "wiki": "https://ru.wikipedia.org/wiki/Gothic_3"
-   },
-   "source": "wiki"
-  },
   {
    "appid": 3224600,
    "title": "Am I Nima",
@@ -47,8 +25,8 @@
    "appid": 3333850,
    "title": "Arkheron",
    "date": "2026-11-27",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/30aa0db1b4ee4eb19c72add82f8453f17053d309/header.jpg?t=1795469731",
-   "desc": "Динамичная командная игра в PvP-режиме с изометрической графикой, в которой каждый найденный вами предмет решает всё. Подстраивайте свой стиль боя под ситуацию, импровизируйте и пробивайте себе путь к вершине Башни.",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/30aa0db1b4ee4eb19c72add82f8453f17053d309/header.jpg?t=1795580929",
+   "desc": "Arkheron — динамичная командная PvP-игра, в которой предметы дают вам боевые способности. Сочетая их, вы должны обыграть команды соперников и прорваться к вершине Башни. Каждая попытка требует действовать по ситуации, бороться за выживание и осваивать новые комбинации.",
    "genres": [
     "Экшены",
     "Ранний доступ"
@@ -70,7 +48,7 @@
    "appid": 3161310,
    "title": "Hela: of Mice & Magic",
    "date": "2026-12-01",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3161310/868b1938e4540924707c8db978d494322757e28d/header.jpg?t=1794321826",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3161310/868b1938e4540924707c8db978d494322757e28d/header.jpg?t=1795541601",
    "desc": "Взгляните на мир глазами храброй маленькой мышки в этом очаровательном 3D-приключении. Изучайте пейзажи, вдохновленные севером Швеции, решайте головоломки и попробуйте творить добро в мире, где равно важны трогательные истории и красота природы.",
    "genres": [
     "Приключенческие игры"
@@ -94,7 +72,7 @@
    "appid": 1209970,
    "title": "Blind Descent",
    "date": "2026-12-02",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1209970/2a78b2ad9dbc443e4d8df15e49be792e64a01287/header.jpg?t=1794995373",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1209970/2a78b2ad9dbc443e4d8df15e49be792e64a01287/header.jpg?t=1795558080",
    "desc": "Blind Descent — новое приключение под поверхностью Марса. В одиночку или с друзьями исследуйте открытый мир таинственных глубин красной планеты в поисках пропавшей команды. Улучшайте базу и пользуйтесь инструментами. Адаптируйтесь и мутируйте, чтобы выжить в непривычных условиях.",
    "genres": [
     "Экшены",
@@ -394,30 +372,6 @@
    }
   },
   {
-   "appid": 3384600,
-   "title": "Professor Layton and the New World of Steam",
-   "date": "2026-12-09",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3384600/7ca8815e48a947c0b2890a56fb115f03d1cf02c9/header.jpg?t=1795523597",
-   "desc": "Новая история профессора Лейтона в серии приключенческих головоломок, проданной по всему миру тиражом более 20 миллионов копий. Профессор Лейтон и Люк оказываются втянуты в загадочное дело в Паровом Бизоне — удивительном городе изобретателей, функционирующем на паровых технологиях.",
-   "genres": [
-    "Приключенческие игры"
-   ],
-   "platforms": [
-    "PC",
-    "PlayStation",
-    "Switch"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "LEVEL5 Inc.",
-   "price": "4639 руб.",
-   "url": "https://store.steampowered.com/app/3384600/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/3384600/"
-   }
-  },
-  {
    "appid": "x-riders-republic",
    "title": "Riders Republic",
    "date": "2026-12-09",
@@ -462,6 +416,33 @@
    "links": {
     "steam": "https://store.steampowered.com/app/2828020/"
    }
+  },
+  {
+   "appid": 3384600,
+   "title": "Professor Layton and the New World of Steam",
+   "date": "2026-12-10",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3384600/7ca8815e48a947c0b2890a56fb115f03d1cf02c9/header.jpg?t=1795523597",
+   "desc": "Новая история профессора Лейтона в серии приключенческих головоломок, проданной по всему миру тиражом более 20 миллионов копий. Профессор Лейтон и Люк оказываются втянуты в загадочное дело в Паровом Бизоне — удивительном городе изобретателей, функционирующем на паровых технологиях.",
+   "genres": [
+    "Головоломка",
+    "Приключение"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Switch"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Level-5 Osaka Office",
+   "price": "4639 руб.",
+   "url": "https://store.steampowered.com/app/3384600/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/3384600/",
+    "wiki": "https://en.wikipedia.org/wiki/Professor_Layton_and_the_New_World_of_Steam"
+   },
+   "source": "wiki"
   },
   {
    "appid": 4452700,
@@ -560,6 +541,30 @@
    "url": "https://store.steampowered.com/app/2295170/",
    "links": {
     "steam": "https://store.steampowered.com/app/2295170/"
+   }
+  },
+  {
+   "appid": 4894750,
+   "title": "Paper Shredder",
+   "date": "2027-01-12",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4894750/83d9422ad06611a0a64e0203495ac64524533677/header.jpg?t=1795536973",
+   "desc": "Уничтожайте бумаги компании ради 1 000 000 $. Paper Shredder — инкрементальная игра, где рутинный труд лист за листом перерастает в массовое уничтожение документов. Шреддерите, подметайте, улучшайте и кромсайте горы секретных архивов, чтобы узнать, что скрыто на дне. Подпишете контракт?",
+   "genres": [
+    "Казуальные игры",
+    "Инди",
+    "Симуляторы"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Embers",
+   "price": "",
+   "url": "https://store.steampowered.com/app/4894750/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4894750/"
    }
   },
   {
@@ -692,7 +697,7 @@
    "appid": 3438920,
    "title": "VOID DIVER: Escape from the Abyss",
    "date": "2027-01-20",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3438920/566f35d41371a2c6102fb92632edb430948aaa9a/header.jpg?t=1795509124",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3438920/566f35d41371a2c6102fb92632edb430948aaa9a/header.jpg?t=1795577107",
    "desc": "Погрузитесь в город, поглощенный Бездной. Убивайте аберрации, собирайте артефакты и выживайте, пока не появится Дайвинг-будка. Ролевая игра с 2,5D-пиксельной графикой и возможностью совместной игры до 3 игроков. Управляйте антикварным магазином «БАЛУША» и раскройте тайны города.",
    "genres": [
     "Экшены",
@@ -889,7 +894,7 @@
    "appid": 3710600,
    "title": "Warhammer 40,000: Dark Heresy",
    "date": "2027-01-28",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3710600/c9cff4a2e091c0590909762a6d4296eeee5859a1/header.jpg?t=1795520661",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3710600/c9cff4a2e091c0590909762a6d4296eeee5859a1/header.jpg?t=1795608973",
    "desc": "Станьте аколитом Инквизиции в партийной, сюжетной cRPG. Ведите расследования, раскрывайте великие заговоры, осваивайте тактические бои и вступите в тайную войну против ереси. Станьте проводником воли Бога-Императора и принимайте сложные решения.",
    "genres": [
     "Приключенческие игры",
