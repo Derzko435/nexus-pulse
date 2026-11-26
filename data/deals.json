@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T00:44:28+03:00",
+  "updatedAt": "2026-11-27T02:46:51+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -33,16 +33,6 @@
       "steamAppId": "2183900"
     },
     {
-      "id": "steam-1603731",
-      "title": "Squad Fireteam Edition",
-      "store": "Steam",
-      "old": 2553,
-      "neu": 1021,
-      "pct": 60,
-      "url": "https://store.steampowered.com/app/1603731/",
-      "steamAppId": "1603731"
-    },
-    {
       "id": "steam-72176",
       "title": "Atomic Heart - Ultimate Edition",
       "store": "Steam",
@@ -63,6 +53,36 @@
       "steamAppId": "1808500"
     },
     {
+      "id": "steam-1332010",
+      "title": "Stray",
+      "store": "Steam",
+      "old": 1269,
+      "neu": 634,
+      "pct": 50,
+      "url": "https://store.steampowered.com/app/1332010/",
+      "steamAppId": "1332010"
+    },
+    {
+      "id": "steam-3636060",
+      "title": "RogueDiceR",
+      "store": "Steam",
+      "old": 550,
+      "neu": 319,
+      "pct": 42,
+      "url": "https://store.steampowered.com/app/3636060/",
+      "steamAppId": "3636060"
+    },
+    {
+      "id": "steam-3571940",
+      "title": "Demon of the time",
+      "store": "Steam",
+      "old": 275,
+      "neu": 165,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/3571940/",
+      "steamAppId": "3571940"
+    },
+    {
       "id": "steam-5497300",
       "title": "Fruit Frenzy Clicker",
       "store": "Steam",
@@ -71,16 +91,6 @@
       "pct": 35,
       "url": "https://store.steampowered.com/app/5497300/",
       "steamAppId": "5497300"
-    },
-    {
-      "id": "steam-5446340",
-      "title": "Hentai Goth Raven",
-      "store": "Steam",
-      "old": 64,
-      "neu": 44,
-      "pct": 31,
-      "url": "https://store.steampowered.com/app/5446340/",
-      "steamAppId": "5446340"
     },
     {
       "id": "steam-1086940",
@@ -113,6 +123,16 @@
       "steamAppId": "1551980"
     },
     {
+      "id": "steam-2214824",
+      "title": "Atomic Heart - Blood On Crystal",
+      "store": "Steam",
+      "old": 399,
+      "neu": 299,
+      "pct": 25,
+      "url": "https://store.steampowered.com/app/2214824/",
+      "steamAppId": "2214824"
+    },
+    {
       "id": "steam-4773720",
       "title": "A Real Life Party",
       "store": "Steam",
@@ -121,26 +141,6 @@
       "pct": 25,
       "url": "https://store.steampowered.com/app/4773720/",
       "steamAppId": "4773720"
-    },
-    {
-      "id": "steam-3321460",
-      "title": "Crimson Desert Enhanced",
-      "store": "Steam",
-      "old": 4299,
-      "neu": 3439,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/3321460/",
-      "steamAppId": "3321460"
-    },
-    {
-      "id": "steam-5463290",
-      "title": "Train Station Staff Simulator",
-      "store": "Steam",
-      "old": 775,
-      "neu": 620,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/5463290/",
-      "steamAppId": "5463290"
     }
   ]
 }

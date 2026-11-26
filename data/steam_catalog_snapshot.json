@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T00:44:23+03:00",
+  "updatedAt": "2026-11-27T02:46:46+03:00",
   "source": "steam-store-appdetails",
   "count": 37,
   "apps": [
@@ -488,14 +488,10 @@
       "short_description": "Обретите сверхчеловеческую мощь космодесантника. Пустите в ход смертоносные навыки и разрушительное оружие, чтобы истребить безжалостных тиранидов. Защитите Империум в ярких одиночных боях или многопользовательских режимах с видом от третьего лица."
     },
     {
-      "appid": "1354830",
-      "name": "Cat Cafe Manager",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1354830/header.jpg?t=1795563357",
-      "genres": [
-        "Инди",
-        "Симуляторы",
-        "Стратегии"
-      ],
+      "appid": "1603731",
+      "name": "Steam App 1603731",
+      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1603731/header.jpg",
+      "genres": [],
       "is_free": false,
       "platforms": {
         "windows": true,
@@ -503,7 +499,9 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Отправляйтесь в тихую деревушку Кейтеруол Вэй и восстановите котокафе вашей бабушки. Ремонтируйте заведение, дружите с котами и жителями, раскрывайте кошачьи тайны и подарите дом десяткам уникальных котиков."
+      "short_description": "",
+      "catalogId": null,
+      "curated": true
     },
     {
       "appid": "72176",
@@ -538,83 +536,81 @@
       "short_description": "ARC Raiders — многопользовательская игра жанра extraction adventure, действие которой разворачивается в суровом будущем на Земле, атакованной загадочными механическими захватчиками ARC."
     },
     {
-      "appid": "4000",
-      "name": "Garry's Mod",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4000/header.jpg?t=1776868682",
+      "appid": "5497300",
+      "name": "Fruit Frenzy Clicker",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5497300/3f57ecd42246b46a69b79547a5d95e6517ac5a94/header.jpg?t=1795716949",
       "genres": [
+        "Приключенческие игры",
         "Казуальные игры",
-        "Инди",
-        "Симуляторы"
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
-        "linux": true
+        "mac": false,
+        "linux": false
       },
       "metacritic": null,
-      "short_description": "Garry's Mod is a physics sandbox. There aren't any predefined aims or goals. We give you the tools and leave you to play."
+      "short_description": "Выжимайте сок из фруктов, копите монеты и превратите маленькую лавку в огромную соковую империю! Покупайте улучшения, автоматизируйте производство, собирайте редкие фрукты, исследуйте сады и получайте постоянные бонусы за престиж."
     },
     {
-      "appid": "1517160",
-      "name": "Under The Ghost Mountain",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1517160/fa92d1e18575fcfa85690e8d3755b3fc9d9785dd/header.jpg?t=1795692935",
+      "appid": "5446340",
+      "name": "Hentai Goth Raven",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5446340/e4b81c76788bd07c086f075f2e2148edfbd9abdf/header.jpg?t=1795715434",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Hentai Goth Raven — игра для взрослых, сочетающая увлекательные пазлы, откровенные аниме-иллюстрации и атмосферу готической романтики. Познакомьтесь с загадочной готкой Raven, проходите уровни, открывайте её самые смелые образы и пополняйте свою галерею. 🖤🥀"
+    },
+    {
+      "appid": "4255780",
+      "name": "No Mercy",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4255780/8c161bc7abe5f64deb3aeea0f4a48d5bccdc9475/header.jpg?t=1795722534",
       "genres": [
         "Экшены",
         "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Мрачный шутер от первого лица в стиле Bodycam, в котором неудачная попытка переворота погружает город в хаос. Пробивайтесь через улицы, захваченные бандами, раскройте правду об исчезновении жены и верните то, что у вас отняли, — по одной пуле за раз."
+    },
+    {
+      "appid": "1551980",
+      "name": "Clive Barker's Hellraiser: Revival",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551980/d1e7111b93b6a8b3eb029908887648348c2c55e6/header.jpg?t=1795519744",
+      "genres": [
+        "Экшены"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Откройте для себя очередную главу легендарной хоррор-саги в совершенно новом формате. Clive Barker’s Hellraiser: Revival выводит хоррор-выживание от первого лица на новый уровень."
+    },
+    {
+      "appid": "4773720",
+      "name": "A Real Life Party",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4773720/96ce1b1c0fec392d69634e2a3546ab077f692261/header.jpg?t=1795716047",
+      "genres": [
         "Инди",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Leap a gap, loose a crossbow bolt, then slash as you land. In this pixel-art action platformer, chaining kills earns you souls. Buy a three-bolt spread, build a foothold in midair, or pay the mountain crew to open a shortcut for future runs."
-    },
-    {
-      "appid": "5383780",
-      "name": "Stompworks",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5383780/d2987c7d1c5f41319e9cf6f569a0d2e13f68737e/header.jpg?t=1795669272",
-      "genres": [
-        "Экшены",
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "They fired you, then repossessed your whole town. They missed the mech under the tarp. Build a war machine from 59 parts, put a different gun on each arm, and stomp through 10 levels of wave combat and boss fights to take it all back. One mech. One run. No continues."
-    },
-    {
-      "appid": "5581700",
-      "name": "Zombie Outbreak - Co-Op Edition",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5581700/4966e512d43f98d91e2b05309b0dfc695c17ddf2/header.jpg?t=1795680013",
-      "genres": [
-        "Экшены",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Survive with your allies with up to 4-Player Online Co-Op survival and try to resist death in classic round-based zombies. Can you survive the zombie outbreak?"
-    },
-    {
-      "appid": "4635290",
-      "name": "Grave Mistakes",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4635290/030756c1074184aec7df1c2b35e1e7bb8bc5c550/header.jpg?t=1795702948",
-      "genres": [
-        "Экшены",
         "Симуляторы"
       ],
       "is_free": false,
@@ -624,7 +620,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Заведуйте похоронным домом «Спокойной ночи™» в кооперативе для 2–4 игроков. Скорбящей семье без вас не обойтись: готовьте тела покойных к прощанию, произносите проникновенные речи и не забывайте стащить парочку конечностей. Кушать-то надо."
+      "short_description": "A 30 minute photographed social disaster. And you're invited!"
     },
     {
       "appid": "3321460",
@@ -644,21 +640,21 @@
       "short_description": "Crimson Desert – это action adventure игра с открытым миром, действие которой разворачивается на континенте Пайвел. Присоединяйтесь к Клиффу, чтобы вернуть потерянное и спасти мир от надвигающейся угрозы. Исследуйте бескрайние просторы и тайны Бездны, прокладывая свой путь через сражения и открытия."
     },
     {
-      "appid": "4738220",
-      "name": "NGL Biathlon 2027",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4738220/e654da3b683e2ee8089c95814ba297eba12742fa/header_russian.jpg?t=1795676379",
+      "appid": "5463290",
+      "name": "Train Station Staff Simulator",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5463290/d54736e46217aff418f72b7d558e435fbae197cc/header.jpg?t=1795712129",
       "genres": [
-        "Симуляторы",
-        "Спорт"
+        "Инди",
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
+        "mac": false,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "NGL Biathlon 2027 — симулятор биатлона. Выступайте за любимого спортсмена, развивайте его в карьере от юниора до Большого хрустального глобуса, собирайте свои турниры и соревнуйтесь с живыми игроками онлайн. Все дисциплины, включая эстафеты, и 15 трасс"
+      "short_description": "Симулятор от первого лица: работа на маленькой новой станции в Японии с одной линией. Откройте станцию утром, помогите у турникетов, объявите о задержке, нажмите аварийную кнопку, если кто-то упал на пути: 60+ видов настоящей станционной работы. Даже с метро рук у вас всего две, и работу вы делите."
     }
   ]
 }
