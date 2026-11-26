@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T14:06:28+03:00",
+  "updatedAt": "2026-11-27T00:44:23+03:00",
   "source": "steam-store-appdetails",
   "count": 37,
   "apps": [
@@ -472,7 +472,7 @@
     {
       "appid": "2183900",
       "name": "Warhammer 40,000: Space Marine 2",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg?t=1795687613",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/6d3f9b4e26774f18941ee447b9912310403f9d9f/header_alt_assets_15_russian.jpg?t=1795711428",
       "genres": [
         "Экшены",
         "Приключенческие игры",
@@ -538,96 +538,9 @@
       "short_description": "ARC Raiders — многопользовательская игра жанра extraction adventure, действие которой разворачивается в суровом будущем на Земле, атакованной загадочными механическими захватчиками ARC."
     },
     {
-      "appid": "374320",
-      "name": "DARK SOULS™ III",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/header.jpg?t=1748630784",
-      "genres": [
-        "Экшены"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": 89,
-      "short_description": "Dark Souls продолжит испытывать игроков на прочность в новой главе знаменитой серии, собравшей множество наград и определившей лицо жанра. Соберитесь с духом и погрузитесь во тьму!"
-    },
-    {
-      "appid": "3098060",
-      "name": "Business Simulator",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3098060/5d760359372cbeef8a44c631cb9809172d301821/header.jpg?t=1795630175",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "В этой игре вы начинаете с небольшого капитала и стремитесь построить бизнес-империю в городе, решая, какой бизнес открыть в том или ином магазине, и определяя цены. Business Simulator 2026 - это бизнес-симулятор, который проверит вашу деловую хватку и навыки стратегического планирования."
-    },
-    {
-      "appid": "5507950",
-      "name": "Chess Lords",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5507950/ebd6db2e8395cf80f05fbd04fb63437f53ba4f77/header.jpg?t=1795632627",
-      "genres": [
-        "Инди",
-        "Спорт",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Кинематографичная средневековая шахматная сага! Сразитесь с 12 соперниками в Кампании, играйте в Свободный бой, решайте 24 задачи на мат и смотрите, как каждое взятие превращается в жестокую казнь, уникальную для каждой фигуры."
-    },
-    {
-      "appid": "5547640",
-      "name": "投資家になろう",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5547640/c0e115aafb9f78e626994cd28acdc7363c1adb1d/header.jpg?t=1795647029",
-      "genres": [
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Start an investment company with JPY 100 million in 1956. Study financial reports, invest in shares, and acquire businesses. Reinvest dividends and sale proceeds, face changing economic conditions, and build your own conglomerate."
-    },
-    {
-      "appid": "4934480",
-      "name": "Decrypting Life",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4934480/d98a94640760f855e99ecfd81b297b0fdc8a3df9/header.jpg?t=1795629636",
-      "genres": [
-        "Казуальные игры",
-        "Симуляторы",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Decrypting Life — короткая инкрементальная игра, в которой вам предстоит восстанавливать поврежденные файлы, чтобы собрать по кусочкам историю из нулевых"
-    },
-    {
-      "appid": "5521470",
-      "name": "Needle in a Haystack Simulator in a Haystack of Needle in a Haystack Simulators",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5521470/cef934cf63ba7468d4d2001fe235e34e1106371a/header.jpg?t=1795629417",
+      "appid": "4000",
+      "name": "Garry's Mod",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4000/header.jpg?t=1776868682",
       "genres": [
         "Казуальные игры",
         "Инди",
@@ -636,19 +549,20 @@
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
-        "linux": false
+        "mac": true,
+        "linux": true
       },
       "metacritic": null,
-      "short_description": "5,000,000 games on VAPOR, and all but one are clones. From your bedroom PC, screen procedurally generated store pages, stamp each fake on the detail that gives it away, put bots to work, and dig through the haystack for the one original. An incremental hidden object parody."
+      "short_description": "Garry's Mod is a physics sandbox. There aren't any predefined aims or goals. We give you the tools and leave you to play."
     },
     {
-      "appid": "3751260",
-      "name": "The Blood of Dawnwalker",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751260/0f02fbee77e36562f7ecbd0dac1382bb013ccd89/header_alt_assets_1.jpg?t=1795190297",
+      "appid": "1517160",
+      "name": "Under The Ghost Mountain",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1517160/fa92d1e18575fcfa85690e8d3755b3fc9d9785dd/header.jpg?t=1795692935",
       "genres": [
         "Экшены",
         "Приключенческие игры",
+        "Инди",
         "Ролевые игры"
       ],
       "is_free": false,
@@ -658,7 +572,93 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "The Blood of Dawnwalker — это ролевой экшен с открытым миром в мрачном фэнтезийном сеттинге Европы XIV века. Вы играете за Коэна: днем он человек, а ночью становится вампиром. Спасите свою семью — развитие сюжета зависит от ваших решений и того, какие тайны вы откроете."
+      "short_description": "Leap a gap, loose a crossbow bolt, then slash as you land. In this pixel-art action platformer, chaining kills earns you souls. Buy a three-bolt spread, build a foothold in midair, or pay the mountain crew to open a shortcut for future runs."
+    },
+    {
+      "appid": "5383780",
+      "name": "Stompworks",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5383780/d2987c7d1c5f41319e9cf6f569a0d2e13f68737e/header.jpg?t=1795669272",
+      "genres": [
+        "Экшены",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "They fired you, then repossessed your whole town. They missed the mech under the tarp. Build a war machine from 59 parts, put a different gun on each arm, and stomp through 10 levels of wave combat and boss fights to take it all back. One mech. One run. No continues."
+    },
+    {
+      "appid": "5581700",
+      "name": "Zombie Outbreak - Co-Op Edition",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5581700/4966e512d43f98d91e2b05309b0dfc695c17ddf2/header.jpg?t=1795680013",
+      "genres": [
+        "Экшены",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Survive with your allies with up to 4-Player Online Co-Op survival and try to resist death in classic round-based zombies. Can you survive the zombie outbreak?"
+    },
+    {
+      "appid": "4635290",
+      "name": "Grave Mistakes",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4635290/030756c1074184aec7df1c2b35e1e7bb8bc5c550/header.jpg?t=1795702948",
+      "genres": [
+        "Экшены",
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Заведуйте похоронным домом «Спокойной ночи™» в кооперативе для 2–4 игроков. Скорбящей семье без вас не обойтись: готовьте тела покойных к прощанию, произносите проникновенные речи и не забывайте стащить парочку конечностей. Кушать-то надо."
+    },
+    {
+      "appid": "3321460",
+      "name": "Crimson Desert Enhanced",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/236f3814be7a97d86831800691b6096d449222a8/header.jpg?t=1794478066",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Crimson Desert – это action adventure игра с открытым миром, действие которой разворачивается на континенте Пайвел. Присоединяйтесь к Клиффу, чтобы вернуть потерянное и спасти мир от надвигающейся угрозы. Исследуйте бескрайние просторы и тайны Бездны, прокладывая свой путь через сражения и открытия."
+    },
+    {
+      "appid": "4738220",
+      "name": "NGL Biathlon 2027",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4738220/e654da3b683e2ee8089c95814ba297eba12742fa/header_russian.jpg?t=1795676379",
+      "genres": [
+        "Симуляторы",
+        "Спорт"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "NGL Biathlon 2027 — симулятор биатлона. Выступайте за любимого спортсмена, развивайте его в карьере от юниора до Большого хрустального глобуса, собирайте свои турниры и соревнуйтесь с живыми игроками онлайн. Все дисциплины, включая эстафеты, и 15 трасс"
     }
   ]
 }

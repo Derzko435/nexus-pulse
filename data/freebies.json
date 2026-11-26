@@ -1,32 +1,32 @@
 {
-  "updatedAt": "2026-11-19T23:48:58+03:00",
+  "updatedAt": "2026-11-27T00:44:30+03:00",
   "source": "epic-promotions-api+curated",
   "note": "Epic Free Games API (RU) + кураторский Steam/GOG/Prime (Amazon Luna).",
   "items": [
-    {
-      "id": "epic-1f9a12b06b4f437790b6913ad136a08c",
-      "store": "Epic Games",
-      "title": "Mark of the Deep",
-      "until": "2026-11-26",
-      "claimUrl": "https://store.epicgames.com/ru/p/mark-of-the-deep-f7dc08",
-      "note": "Текущая раздача Epic",
-      "status": "now",
-      "startsAt": "2026-11-19T19:00:00+03:00",
-      "endsAt": "2026-11-26T19:00:00+03:00",
-      "price_rub": 710,
-      "image": "https://cdn1.epicgames.com/spt-assets/83a240506a884c10ad8fb99694e57a0d/mark-of-the-deep-w1ygr.png"
-    },
     {
       "id": "epic-0623017cf9f341efbe07557f46beb4e8",
       "store": "Epic Games",
       "title": "Firestone - кликер idle онлайн RPG",
       "until": "2026-12-03",
       "claimUrl": "https://store.epicgames.com/ru/p/firestone-online-idle-rpg-bfd04b",
-      "note": "Скоро бесплатно на Epic",
-      "status": "upcoming",
+      "note": "Текущая раздача Epic",
+      "status": "now",
       "startsAt": "2026-11-26T19:00:00+03:00",
       "endsAt": "2026-12-03T19:00:00+03:00",
       "image": "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-ja4c7.jpg"
+    },
+    {
+      "id": "epic-72bd05148adb4e2cacb8b2efaa4c0297",
+      "store": "Epic Games",
+      "title": "Strange Antiquities",
+      "until": "2026-12-10",
+      "claimUrl": "https://store.epicgames.com/ru/p/strange-antiquities-e37660",
+      "note": "Скоро бесплатно на Epic",
+      "status": "upcoming",
+      "startsAt": "2026-12-03T19:00:00+03:00",
+      "endsAt": "2026-12-10T19:00:00+03:00",
+      "price_rub": 539,
+      "image": "https://cdn1.epicgames.com/spt-assets/d0e3b7c3690c485ca7a435d298262ab2/strange-antiquities-1kl5s.png"
     },
     {
       "id": "steam-f2p-always",
