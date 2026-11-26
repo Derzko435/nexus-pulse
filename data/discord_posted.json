@@ -1,27 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-11-26T14:07:02+03:00",
+ "updatedAt": "2026-11-26T15:49:01+03:00",
  "posted": {
   "news": [
-   "c5d93dfd9064",
-   "1118ae4d819e",
-   "653d576b67e0",
-   "b2387e9a7613",
-   "1d27656d664b",
-   "048b7bd4ebe7",
-   "4bfc087d3405",
-   "ef713d46cc0e",
-   "a4bbfd8b1b88",
-   "2d5a9dbb1932",
-   "0ce33a017d4e",
-   "4d8fdc46aed4",
-   "20ba02b15abe",
-   "b734634fb0e2",
-   "bec22924faf3",
-   "f80433f37f6f",
-   "915e1ec598e4",
-   "e00647326d6d",
-   "fa5954ae0dad",
    "7019a22c8f17",
    "8a8a6b6b2040",
    "600793c4ee70",
@@ -502,7 +483,26 @@
    "9b5b1161208e",
    "ce5ebb55c2a8",
    "98ffc00b0053",
-   "05e9eb568656"
+   "05e9eb568656",
+   "169cb9080e80",
+   "6d348868c14b",
+   "9df80549432f",
+   "9552d94c763e",
+   "9c51b2f47cd2",
+   "172878d46e4c",
+   "d587c271a351",
+   "450f62f4ffb7",
+   "8b85b54134c6",
+   "2decdefff9a4",
+   "28dcc1f24b92",
+   "5116079000ff",
+   "2c5736b3f35d",
+   "4b4d463e083e",
+   "d003be030ed8",
+   "8e113b20615d",
+   "35aea40cda1d",
+   "38837d05b1aa",
+   "f5367bfd1394"
   ],
   "deals": [
    "steam-246420:90",
@@ -670,14 +670,6 @@
    "epic-1f9a12b06b4f437790b6913ad136a08c:now"
   ],
   "esports": [
-   "live:bo3-129970",
-   "result:bo3-130786",
-   "result:bo3-130787",
-   "result:bo3-130785",
-   "live:bo3-131224",
-   "digest:2026-10-08",
-   "result:bo3-129622",
-   "result:bo3-129970",
    "result:bo3-129623",
    "result:bo3-129916",
    "live:bo3-130696",
@@ -1169,7 +1161,15 @@
    "result:bo3-134388",
    "live:bo3-134389",
    "result:bo3-134389",
-   "digest:2026-11-26"
+   "digest:2026-11-26",
+   "result:bo3-134392",
+   "result:bo3-134342",
+   "live:bo3-134395",
+   "live:bo3-134394",
+   "live:bo3-134343",
+   "result:bo3-134391",
+   "result:bo3-134390",
+   "result:bo3-134393"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -1230,14 +1230,11 @@
    "rivals:2026-11-19",
    "apex:2026-11-20",
    "cs2:2026-11-24",
-   "dota2:2026-11-25"
+   "dota2:2026-11-25",
+   "apex:2026-11-25",
+   "rivals:2026-11-26"
   ],
   "videos": [
-   "jzAf7NwOcko",
-   "bfz5lFEoGj8",
-   "6jwa9J_8xdM",
-   "GWCru5W9Nb4",
-   "sGgNvGbwrH4",
    "EovntZi3WIk",
    "J7wF_Cl4Fz4",
    "UYNGAih2QEw",
@@ -1732,7 +1729,12 @@
    "N9lKYTUa9rg",
    "VcsrApeybuI",
    "jK6gZA2cK7A",
-   "aV8X7e4I-qw"
+   "aV8X7e4I-qw",
+   "5X68Bw2KjIw",
+   "a55WmP7l_8I",
+   "5FuzrhCY27Q",
+   "QShWdre4DV8",
+   "GqUI1CqXc48"
   ],
   "releases": [
    "week:2026-W39",
@@ -1850,7 +1852,10 @@
   "2026-11-24T17:20+03:00",
   "2026-11-25T12:17+03:00",
   "2026-11-25T12:17+03:00",
-  "2026-11-25T16:08+03:00"
+  "2026-11-25T16:08+03:00",
+  "2026-11-26T15:48+03:00",
+  "2026-11-26T15:48+03:00",
+  "2026-11-26T15:48+03:00"
  ],
  "weekly": {
   "gamenight": {
