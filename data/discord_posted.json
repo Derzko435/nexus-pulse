@@ -1,18 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-11-26T03:32:48+03:00",
+ "updatedAt": "2026-11-26T14:07:02+03:00",
  "posted": {
   "news": [
-   "9e072a385de5",
-   "5879c5d342cb",
-   "cd3510393d5c",
-   "dfcb1bb961d2",
-   "5bba90f6c3d6",
-   "a3b7a38ab748",
-   "a844e14a79f6",
-   "8751c81c8c68",
-   "2c1cce8b9ce5",
-   "0fca75015dfe",
    "c5d93dfd9064",
    "1118ae4d819e",
    "653d576b67e0",
@@ -502,7 +492,17 @@
    "81e0d8a06b5f",
    "c70c34c5854b",
    "e20de6e9daa3",
-   "df49de0fe932"
+   "df49de0fe932",
+   "6146a564ae80",
+   "fe06a98dbbb8",
+   "6d271a1d5655",
+   "9e4baf863657",
+   "7098f5941e21",
+   "650efafdb1d8",
+   "9b5b1161208e",
+   "ce5ebb55c2a8",
+   "98ffc00b0053",
+   "05e9eb568656"
   ],
   "deals": [
    "steam-246420:90",
@@ -638,7 +638,8 @@
    "steam-570940:50",
    "steam-94174:50",
    "steam-475190:70",
-   "steam-1354830:70"
+   "steam-1354830:70",
+   "steam-4000:50"
   ],
   "freebies": [
    "epic-7ae00c3e89174012b175cc73b4737723:soon",
@@ -1232,10 +1233,6 @@
    "dota2:2026-11-25"
   ],
   "videos": [
-   "q79tBeH6FfQ",
-   "XDIKB-ODN_U",
-   "RhFZa5rnOII",
-   "6AsZFrfaxr8",
    "jzAf7NwOcko",
    "bfz5lFEoGj8",
    "6jwa9J_8xdM",
@@ -1731,7 +1728,11 @@
    "dbovF0PJOl4",
    "2-lmNjsyfos",
    "pH4wT5kdsC8",
-   "o4k0yMr_B94"
+   "o4k0yMr_B94",
+   "N9lKYTUa9rg",
+   "VcsrApeybuI",
+   "jK6gZA2cK7A",
+   "aV8X7e4I-qw"
   ],
   "releases": [
    "week:2026-W39",
@@ -1873,6 +1874,7 @@
  "dealPosts": [
   "2026-11-24T07:52+03:00",
   "2026-11-25T05:37+03:00",
-  "2026-11-26T03:32+03:00"
+  "2026-11-26T03:32+03:00",
+  "2026-11-26T14:07+03:00"
  ]
 }
