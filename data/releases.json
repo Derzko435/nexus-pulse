@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T16:05:10+03:00",
+ "updatedAt": "2026-11-26T15:45:35+03:00",
  "items": [
   {
    "appid": 3224600,
@@ -25,7 +25,7 @@
    "appid": 3333850,
    "title": "Arkheron",
    "date": "2026-11-27",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/30aa0db1b4ee4eb19c72add82f8453f17053d309/header.jpg?t=1795580929",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/30aa0db1b4ee4eb19c72add82f8453f17053d309/header.jpg?t=1795629628",
    "desc": "Arkheron — динамичная командная PvP-игра, в которой предметы дают вам боевые способности. Сочетая их, вы должны обыграть команды соперников и прорваться к вершине Башни. Каждая попытка требует действовать по ситуации, бороться за выживание и осваивать новые комбинации.",
    "genres": [
     "Экшены",
@@ -159,6 +159,30 @@
    "url": "https://store.steampowered.com/app/2870790/",
    "links": {
     "steam": "https://store.steampowered.com/app/2870790/"
+   }
+  },
+  {
+   "appid": 4004820,
+   "title": "FreeStyle Football 2",
+   "date": "2026-12-03",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4004820/0e131f5e9ca2918c342e8c8679341fee49b1b75e/header.jpg?t=1792979830",
+   "desc": "Freestyle Football 2 — это динамичная многопользовательская онлайн-игра в футбол в формате матчей 5 на 5. Каждая позиция имеет уникальную роль, и вы будете использовать различные стратегии и навыки, чтобы добиться победы вместе со своей командой. Стильная игра и уникальные персонажи превращают поле в сцену.",
+   "genres": [
+    "Экшены",
+    "Многопользовательские игры",
+    "Спорт"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "WOORE",
+   "price": "1845 руб.",
+   "url": "https://store.steampowered.com/app/4004820/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4004820/"
    }
   },
   {
@@ -421,7 +445,7 @@
    "appid": 3384600,
    "title": "Professor Layton and the New World of Steam",
    "date": "2026-12-10",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3384600/7ca8815e48a947c0b2890a56fb115f03d1cf02c9/header.jpg?t=1795523597",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3384600/7ca8815e48a947c0b2890a56fb115f03d1cf02c9/header.jpg?t=1795654022",
    "desc": "Новая история профессора Лейтона в серии приключенческих головоломок, проданной по всему миру тиражом более 20 миллионов копий. Профессор Лейтон и Люк оказываются втянуты в загадочное дело в Паровом Бизоне — удивительном городе изобретателей, функционирующем на паровых технологиях.",
    "genres": [
     "Головоломка",
@@ -446,12 +470,12 @@
   },
   {
    "appid": 4452700,
-   "title": "STAGE TOUR",
+   "title": "Stage Tour",
    "date": "2026-12-10",
    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4452700/7074777401ca32c928e7702567ee08c282ff7393/header.jpg?t=1795002091",
-   "desc": "Создайте свою группу, выходите на сцену и отправляйтесь в турне в Stage Tour, новой эволюции музыкальных ритм-игр. Слушайте более 90 официально лицензированных треков, разблокируйте более 180 аутентичных гитар Gibson®, Epiphone® и Kramer® и испытайте пять игровых режимов, включая совершенно новый режим рогалика Tour.",
+   "desc": "Соберите группу, зажгите на сцене и отправьтесь в турне в Stage Tour — ритм-игре новой эры. Вас ждут свыше 90 лицензированных треков, более 180 настоящих гитар Gibson®, Epiphone® и Kramer® и новые стили игры. В комплекте новый рогалик-режим Tour Mode!",
    "genres": [
-    "Экшены"
+    "Ритм-игра"
    ],
    "platforms": [
     "PC",
@@ -468,8 +492,10 @@
    "url": "https://store.steampowered.com/app/4452700/",
    "links": {
     "steam": "https://store.steampowered.com/app/4452700/",
-    "epic": "https://store.epicgames.com/ru/p/stagetour-ac5b2f"
-   }
+    "epic": "https://store.epicgames.com/ru/p/stagetour-ac5b2f",
+    "wiki": "https://en.wikipedia.org/wiki/Stage_Tour"
+   },
+   "source": "wiki"
   },
   {
    "appid": 5246700,
@@ -523,7 +549,7 @@
    "appid": 2295170,
    "title": "Emberville",
    "date": "2027-01-07",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2295170/99852482000e8eb5b7b75c52bf5f70406c6f6e5f/header.jpg?t=1795171328",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2295170/99852482000e8eb5b7b75c52bf5f70406c6f6e5f/header.jpg?t=1795649607",
    "desc": "Потеряв память, вы очнулись в огромном подземном мире. Вас приветствует Витромотус — магическое подземелье, где смерть — это новое начало. Погрузитесь в его глубины и узнайте правду об этой тюрьме, параллельно сражаясь с опасными тварями, помогая выжившим и отстраивая разрушенный город Эмбервилль.",
    "genres": [
     "Экшены",
@@ -547,7 +573,7 @@
    "appid": 4894750,
    "title": "Paper Shredder",
    "date": "2027-01-12",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4894750/83d9422ad06611a0a64e0203495ac64524533677/header.jpg?t=1795536973",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4894750/83d9422ad06611a0a64e0203495ac64524533677/header.jpg?t=1795689018",
    "desc": "Уничтожайте бумаги компании ради 1 000 000 $. Paper Shredder — инкрементальная игра, где рутинный труд лист за листом перерастает в массовое уничтожение документов. Шреддерите, подметайте, улучшайте и кромсайте горы секретных архивов, чтобы узнать, что скрыто на дне. Подпишете контракт?",
    "genres": [
     "Казуальные игры",
@@ -672,7 +698,7 @@
    "title": "Titan Quest II",
    "date": "2027-01-19",
    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1154030/header.jpg?t=1791968871",
-   "desc": "Titan Quest II — компьютерная игра в жанре Action/RPG, разрабатываемая студией Grimlore Games и издаваемая THQ Nordic для Windows, PlayStation 5 и Xbox Series X/S. Является продолжением игры Titan Quest 2006 года, разработанной Iron Lore Entertainment. Ранний доступ на ПК открылся 1 августа 2025…",
+   "desc": "Titan Quest II — компьютерная игра в жанре action RPG, разрабатываемая студией Grimlore Games и издаваемая THQ Nordic для Windows, PlayStation 5 и Xbox Series X/S. Является продолжением игры Titan Quest 2006 года, разработанной Iron Lore Entertainment. Ранний доступ на ПК открылся 1 августа 2025…",
    "genres": [
     "Экшен-RPG"
    ],
@@ -771,7 +797,7 @@
    "appid": 2975260,
    "title": "PRISON OF HUSKS",
    "date": "2027-01-27",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2975260/a2d7147668ccf811747a0d49e31127144c3e4b20/header.jpg?t=1795520970",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2975260/a2d7147668ccf811747a0d49e31127144c3e4b20/header.jpg?t=1795695898",
    "desc": "Пробудитесь в теле куклы и отправляйтесь на поиски своей возлюбленной. В этой ностальгической игре, созданной по канонам серии Souls, вам предстоит исследовать нарисованный загробный мир: вас ждут богатые событиями уровни — связанные друг с другом, полные секретов и коротких путей.",
    "genres": [
     "Экшены",
@@ -1160,7 +1186,7 @@
    "appid": 2153760,
    "title": "Stronghold 4",
    "date": "2027-04-20",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2153760/70ad4e6b18647e9a3610fd12245bb1a48b4ab571/header_alt_assets_5_russian.jpg?t=1794931828",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2153760/70ad4e6b18647e9a3610fd12245bb1a48b4ab571/header_alt_assets_5_russian.jpg?t=1795688756",
    "desc": "Нужно дерево! Вернитесь к истокам Stronghold в этом сюжетном приквеле легендарного симулятора замка. Погрузитесь в кинематографичную кампанию, отточите искусство осады благодаря новым механикам режима битвы и создайте собственный замок с помощью широкого выбора построек и декоративных элементов.",
    "genres": [
     "Симуляторы",
