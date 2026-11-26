@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T03:32:14+03:00",
+  "updatedAt": "2026-11-26T14:06:28+03:00",
   "source": "steam-store-appdetails",
   "count": 37,
   "apps": [
@@ -470,26 +470,9 @@
       "short_description": "Погрузитесь в безумную и прекрасную техноутопию, где вас на каждом шагу поджидает смерть. Выполните порученное вам задание, подстраиваясь под необычных противников, используя элементы окружения и улучшая свой арсенал. Узнайте правду — любой ценой!"
     },
     {
-      "appid": "1850570",
-      "name": "DEATH STRANDING DIRECTOR'S CUT",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/header.jpg?t=1793287496",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": 85,
-      "short_description": "Легендарный творец Хидэо Кодзима представляет окончательную версию DIRECTOR’S CUT знаковой для жанра игры. Действуя от лица Сэма Бриджеса и объединяя последних выживших на территории Америки, вам предстоит возродить надежду человечества. Удастся ли вам шаг за шагом воссоединить разрушенный мир?"
-    },
-    {
       "appid": "2183900",
       "name": "Warhammer 40,000: Space Marine 2",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg?t=1790874369",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg?t=1795687613",
       "genres": [
         "Экшены",
         "Приключенческие игры",
@@ -505,21 +488,22 @@
       "short_description": "Обретите сверхчеловеческую мощь космодесантника. Пустите в ход смертоносные навыки и разрушительное оружие, чтобы истребить безжалостных тиранидов. Защитите Империум в ярких одиночных боях или многопользовательских режимах с видом от третьего лица."
     },
     {
-      "appid": "475190",
-      "name": "Scanner Sombre",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/475190/header.jpg?t=1785603575",
+      "appid": "1354830",
+      "name": "Cat Cafe Manager",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1354830/header.jpg?t=1795563357",
       "genres": [
-        "Приключенческие игры",
-        "Инди"
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
+        "mac": false,
         "linux": false
       },
-      "metacritic": 67,
-      "short_description": "Scanner Sombre - это 3d хоррор-игра про исследование пещер, где тьма - ваш главный враг. Освещайте невидимое с помощью сканера LIDAR, открывая жуткую красоту и опасность бездны. От создателей Prison Architect это захватывающее приключение использует свет и тень для создания захватывающего опыта."
+      "metacritic": null,
+      "short_description": "Отправляйтесь в тихую деревушку Кейтеруол Вэй и восстановите котокафе вашей бабушки. Ремонтируйте заведение, дружите с котами и жителями, раскрывайте кошачьи тайны и подарите дом десяткам уникальных котиков."
     },
     {
       "appid": "72176",
@@ -554,9 +538,9 @@
       "short_description": "ARC Raiders — многопользовательская игра жанра extraction adventure, действие которой разворачивается в суровом будущем на Земле, атакованной загадочными механическими захватчиками ARC."
     },
     {
-      "appid": "570940",
-      "name": "DARK SOULS™: REMASTERED",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/header.jpg?t=1778518110",
+      "appid": "374320",
+      "name": "DARK SOULS™ III",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/header.jpg?t=1748630784",
       "genres": [
         "Экшены"
       ],
@@ -566,15 +550,18 @@
         "mac": false,
         "linux": false
       },
-      "metacritic": 84,
-      "short_description": "…Затем появился огонь. Заново переживите события легендарной игры, с которой всё началось. В новом воплощении вас ждёт возвращение в Лордран, представленный в HD-графике с поддержкой 60 кадров/с."
+      "metacritic": 89,
+      "short_description": "Dark Souls продолжит испытывать игроков на прочность в новой главе знаменитой серии, собравшей множество наград и определившей лицо жанра. Соберитесь с духом и погрузитесь во тьму!"
     },
     {
-      "appid": "5531610",
-      "name": "GBald",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5531610/ae9cfc777a29255738ea886ef7946068bbef2873/header.jpg?t=1795595626",
+      "appid": "3098060",
+      "name": "Business Simulator",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3098060/5d760359372cbeef8a44c631cb9809172d301821/header.jpg?t=1795630175",
       "genres": [
-        "Экшены"
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
@@ -583,33 +570,16 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Горничная спрашивает, записан ли ты на приём. Вообще-то особняк твой. GBald — аркадный шутер от третьего лица, где за ключами придётся пробиться через 30 волн прислуги и петухов. Хватай хавчик на бегу и качайся между волнами."
+      "short_description": "В этой игре вы начинаете с небольшого капитала и стремитесь построить бизнес-империю в городе, решая, какой бизнес открыть в том или ином магазине, и определяя цены. Business Simulator 2026 - это бизнес-симулятор, который проверит вашу деловую хватку и навыки стратегического планирования."
     },
     {
-      "appid": "5332920",
-      "name": "ShotMachine",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5332920/3d27a79d1e2d6e110a943aefc5b4e9bcf42a4cce/header.jpg?t=1795614885",
+      "appid": "5507950",
+      "name": "Chess Lords",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5507950/ebd6db2e8395cf80f05fbd04fb63437f53ba4f77/header.jpg?t=1795632627",
       "genres": [
-        "Экшены",
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "A turn-based western roguelite where your revolver is a slot machine. Load it round by round, fuse bullets into jackpot rounds, let your winnings ride at THE COUNT and take the rails all the way to The House, the casino at the end of the line."
-    },
-    {
-      "appid": "4779290",
-      "name": "Meme Paint",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4779290/888719b6d70b24b5dff28dfc2779326a4103e403/header.jpg?t=1795593616",
-      "genres": [
-        "Казуальные игры",
-        "Инди"
+        "Инди",
+        "Спорт",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
@@ -618,13 +588,48 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Meme Paint - это нестандартная версия всем известного Paint."
+      "short_description": "Кинематографичная средневековая шахматная сага! Сразитесь с 12 соперниками в Кампании, играйте в Свободный бой, решайте 24 задачи на мат и смотрите, как каждое взятие превращается в жестокую казнь, уникальную для каждой фигуры."
     },
     {
-      "appid": "5029630",
-      "name": "All Peaceful at the Adventurer's Guild Today",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5029630/1439d12d67b033e0f78b6a4aa29e57f144f78dae/header.jpg?t=1795595099",
+      "appid": "5547640",
+      "name": "投資家になろう",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5547640/c0e115aafb9f78e626994cd28acdc7363c1adb1d/header.jpg?t=1795647029",
       "genres": [
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Start an investment company with JPY 100 million in 1956. Study financial reports, invest in shares, and acquire businesses. Reinvest dividends and sale proceeds, face changing economic conditions, and build your own conglomerate."
+    },
+    {
+      "appid": "4934480",
+      "name": "Decrypting Life",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4934480/d98a94640760f855e99ecfd81b297b0fdc8a3df9/header.jpg?t=1795629636",
+      "genres": [
+        "Казуальные игры",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Decrypting Life — короткая инкрементальная игра, в которой вам предстоит восстанавливать поврежденные файлы, чтобы собрать по кусочкам историю из нулевых"
+    },
+    {
+      "appid": "5521470",
+      "name": "Needle in a Haystack Simulator in a Haystack of Needle in a Haystack Simulators",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5521470/cef934cf63ba7468d4d2001fe235e34e1106371a/header.jpg?t=1795629417",
+      "genres": [
+        "Казуальные игры",
         "Инди",
         "Симуляторы"
       ],
@@ -635,13 +640,15 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "All Peaceful at the Adventurer's Guild Today is the ultimate tiny idle RPG, designed to fit neatly at the bottom of your desktop. Just leave it running on the side of your screen, and watch your very own guild grow. Become the Guild Master and build a guild that's truly yours!"
+      "short_description": "5,000,000 games on VAPOR, and all but one are clones. From your bedroom PC, screen procedurally generated store pages, stamp each fake on the detail that gives it away, put bots to work, and dig through the haystack for the one original. An incremental hidden object parody."
     },
     {
-      "appid": "3972980",
-      "name": "Mirklurk: Every Step Matters",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3972980/c7a6790363e9dff712e3e820b4a278593577d4e3/header.jpg?t=1795593723",
+      "appid": "3751260",
+      "name": "The Blood of Dawnwalker",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751260/0f02fbee77e36562f7ecbd0dac1382bb013ccd89/header_alt_assets_1.jpg?t=1795190297",
       "genres": [
+        "Экшены",
+        "Приключенческие игры",
         "Ролевые игры"
       ],
       "is_free": false,
@@ -651,7 +658,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "You've been exiled to The Mirk - an unforgiving swampland where every step could be your last. You must constantly make choices: what paths to take, which tree to shelter under, what beasts to engage or avoid, what items to bring into the darkness of dungeons, and what treasures to leave behind."
+      "short_description": "The Blood of Dawnwalker — это ролевой экшен с открытым миром в мрачном фэнтезийном сеттинге Европы XIV века. Вы играете за Коэна: днем он человек, а ночью становится вампиром. Спасите свою семью — развитие сюжета зависит от ваших решений и того, какие тайны вы откроете."
     }
   ]
 }
