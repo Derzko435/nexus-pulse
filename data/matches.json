@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-27T15:32:34+03:00",
+ "updatedAt": "2026-11-27T16:11:27+03:00",
  "source": "bo3.gg",
  "matches": [
   {
@@ -38,7 +38,7 @@
    "logoA": "https://files.bo3.gg/uploads/team/7430/image/webp-962834dcfa8bef22f2c4cbdbf777bfbf.webp",
    "logoB": "https://files.bo3.gg/uploads/team/464/image/webp-bd818cfc7eab50ef00569e5874b817fe.webp",
    "scoreA": 0,
-   "scoreB": 0,
+   "scoreB": 1,
    "bo": 3,
    "status": "live",
    "event": "PGL Major Singapore 2026 Stage 1",
@@ -212,13 +212,13 @@
    "url": "https://bo3.gg/valorant/matches/enterprise-esports-1-vs-cgn-esports-27-11-2026"
   },
   {
-   "id": "bo3-135190",
+   "id": "bo3-135192",
    "game": "Valorant",
    "gameKey": "valorant",
-   "teamA": "xXxMasterProMegaTeamxXx",
-   "teamB": "Pixel Lumina",
-   "logoA": "",
-   "logoB": "https://files.bo3.gg/uploads/team/19034/image/webp-a5808c608e0065089fc5dac49f321f53.webp",
+   "teamA": "Barça eSports",
+   "teamB": "la Masia",
+   "logoA": "https://files.bo3.gg/uploads/team/9819/image/webp-3edf38da737933fd935107fc1e7cb4e1.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/20470/image/webp-24084e0c5c800bb99de011749b2dd0c8.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
@@ -236,7 +236,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/valorant/matches/xxxmasterpromegateamxxx-vs-pixel-lumina-27-11-2026"
+   "url": "https://bo3.gg/valorant/matches/barca-esports-vs-la-masia-27-11-2026"
   },
   {
    "id": "bo3-135193",
@@ -266,13 +266,13 @@
    "url": "https://bo3.gg/valorant/matches/joblife-vs-navi-junior-vlr-27-11-2026"
   },
   {
-   "id": "bo3-135192",
+   "id": "bo3-135190",
    "game": "Valorant",
    "gameKey": "valorant",
-   "teamA": "Barça eSports",
-   "teamB": "la Masia",
-   "logoA": "https://files.bo3.gg/uploads/team/9819/image/webp-3edf38da737933fd935107fc1e7cb4e1.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/20470/image/webp-24084e0c5c800bb99de011749b2dd0c8.webp",
+   "teamA": "xXxMasterProMegaTeamxXx",
+   "teamB": "Pixel Lumina",
+   "logoA": "",
+   "logoB": "https://files.bo3.gg/uploads/team/19034/image/webp-a5808c608e0065089fc5dac49f321f53.webp",
    "scoreA": 0,
    "scoreB": 0,
    "bo": 3,
@@ -290,7 +290,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/valorant/matches/barca-esports-vs-la-masia-27-11-2026"
+   "url": "https://bo3.gg/valorant/matches/xxxmasterpromegateamxxx-vs-pixel-lumina-27-11-2026"
   },
   {
    "id": "bo3-135191",
