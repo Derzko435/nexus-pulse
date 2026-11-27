@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T17:00:58+03:00",
+  "updatedAt": "2026-11-28T01:47:16+03:00",
   "source": "steam-store-appdetails",
   "count": 37,
   "apps": [
@@ -537,49 +537,92 @@
       "short_description": "Потерявшемуся, одинокому, оторванному от семьи бродячему коту предстоит разгадать древнюю тайну, вырваться из давно заброшенного кибергорода и найти дорогу домой."
     },
     {
-      "appid": "3636060",
-      "name": "RogueDiceR",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3636060/ffe90f2037c885fe1a2754ed9bc7d90ba4dc5d39/header.jpg?t=1795729223",
+      "appid": "4000",
+      "name": "Garry's Mod",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4000/header.jpg?t=1776868682",
       "genres": [
         "Казуальные игры",
         "Инди",
-        "Стратегии"
+        "Симуляторы"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "metacritic": null,
+      "short_description": "Garry's Mod is a physics sandbox. There aren't any predefined aims or goals. We give you the tools and leave you to play."
+    },
+    {
+      "appid": "5489580",
+      "name": "Everlusting Life - Mascot Calliope",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5489580/d8f272853819b3a60f46c464576daf04fcaffd48/header.jpg?t=1795781738",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Многопользовательские игры",
+        "Ролевые игры",
+        "Стратегии",
+        "Бесплатные"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Разблокируйте уникального маскота Каллиопу, чтобы видеть её на главном экране каждый раз, когда заходите в игру! Может, именно утонченной музыкантше предстоит стать вашей новой любимицей?"
+    },
+    {
+      "appid": "5329820",
+      "name": "Island Sort",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5329820/edbac6cc2788ab5ed1eed2cd420a6a4158f1e085/header.jpg?t=1795789385",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
-        "linux": false
+        "linux": true
       },
       "metacritic": null,
-      "short_description": "RogueDiceR is a Roguelite Dice-builder. Buy randomly generated dice and modify their values. Attach stickers to grant special effects or strengthen your dice deck with powerful artifacts. Fight your way through randomly generated dungeons filled with monsters, events and bosses."
+      "short_description": "Пираты разгромили остров! Собирай тысячи разбросанных товаров и раскладывай их по нужным ящикам и полкам в одиночку или в кооперативе на троих. Открывай порталы, раскрывай секреты и соревнуйся с другом в дуэлях по сортировке 1 на 1."
     },
     {
-      "appid": "4308270",
-      "name": "Hunter Road",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4308270/761fd6f3a376d909b7f761f7055ba6491c3fc9f8/header.jpg?t=1795745179",
+      "appid": "5484900",
+      "name": "Sinful States of America",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5484900/7f9d4fd019343da39bdef7d80a62a8aa8052b699/header.jpg?t=1795783922",
       "genres": [
         "Приключенческие игры",
+        "Казуальные игры",
         "Инди",
         "Ролевые игры",
-        "Стратегии"
+        "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
-        "linux": false
+        "mac": true,
+        "linux": true
       },
       "metacritic": null,
-      "short_description": "Earn gold by capturing and dismantling monsters? Buy rifles at the shop? Defeated allies vanish forever? Welcome to the new standard of permadeath monster RPGs. Experience a retro, yet refreshingly addictive gaming adventure."
+      "short_description": "Одна длинная поездка по Америке — и на каждой остановке новое искушение."
     },
     {
-      "appid": "5417420",
-      "name": "やさ死くシて",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5417420/1ec723f9433dd263642d540aa55d02e85e4238a1/header.jpg?t=1795737610",
+      "appid": "5592630",
+      "name": "Visual Novel: 3:17 PM",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5592630/b4a08381930eee4576185b310704fee5a527356d/header.jpg?t=1795774468",
       "genres": [
+        "Экшены",
         "Приключенческие игры",
-        "Инди"
+        "Казуальные игры",
+        "Инди",
+        "Ролевые игры"
       ],
       "is_free": false,
       "platforms": {
@@ -588,16 +631,14 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Welcome, Subject 03. It's time for your psychological experiments. Four experiments. 56 endings. Save others, abandon them, or put yourself first. Every choice is yours. A simple game, really. Just decide how to use your kindness. Heh. Can you be kind? To yourself—and to others."
+      "short_description": "Ася приезжает на каникулы к дедушке-часовщику в городок Часовец и обнаруживает, что время здесь остановилось ровно в 3:17. Вместе с говорящим котом и мальчиком, собирающим потерянные минутки в банку, вам предстоит подняться на старую башню, разгадать тайну города и вернуть людям их завтрашний день!"
     },
     {
-      "appid": "5230320",
-      "name": "The Legend of Legendaria: Where Legends are Born",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5230320/37d323fd23d1fbffc5e5d77046783d5d4c3a1afd/header.jpg?t=1795751620",
+      "appid": "5494160",
+      "name": "Taccy: TacFPS Aim Trainer",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5494160/b5ee16cdf7cd6797b818ccb91e3560d3f6f2774c/header.jpg?t=1795787172",
       "genres": [
-        "Инди",
-        "Ролевые игры",
-        "Стратегии"
+        "Экшены"
       ],
       "is_free": false,
       "platforms": {
@@ -606,7 +647,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Four hundred years ago the sky broke. Now three townsfolk refuse a warlord his star-tithe, and the long road east begins. A hex-grid tactics RPG in the spirit of an eighties fantasy film: forty heroes to recruit, dragons to raise, and death that sticks."
+      "short_description": "Taccy is a lightweight tactical FPS aim trainer built around actual in-game scenarios. Train corner clears, holds, counter-strafing and aim duels, then replay every rep to see what caused each miss."
     },
     {
       "appid": "3321460",
@@ -624,39 +665,6 @@
       },
       "metacritic": null,
       "short_description": "Crimson Desert – это action adventure игра с открытым миром, действие которой разворачивается на континенте Пайвел. Присоединяйтесь к Клиффу, чтобы вернуть потерянное и спасти мир от надвигающейся угрозы. Исследуйте бескрайние просторы и тайны Бездны, прокладывая свой путь через сражения и открытия."
-    },
-    {
-      "appid": "4013270",
-      "name": "The False Alice -Retold Tale-",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4013270/e02e7ef017aa8a9efbb9554ad9acb2ecdeb1a3cb/header.jpg?t=1795742617",
-      "genres": [
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "This is the trash can where all failed works gather. When you awaken, you come across three false Alices. In order to become the one true Alice, they attempt to kill each other. Who will become the real Alice? This is a visual novel where your decisions, will change the ending of the story."
-    },
-    {
-      "appid": "4019220",
-      "name": "Dressmaker",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/f1cd08127872e60e4c47a4bc3e40d682d94741bf/header.jpg?t=1794041965",
-      "genres": [
-        "Казуальные игры",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Создавайте собственную одежду в милой игре, вдохновлённой работой настоящих портных. Подбирайте ткани, вырезайте детали по выкройкам и шейте из них восхитительные наряды."
     }
   ]
 }

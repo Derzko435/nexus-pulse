@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T17:01:03+03:00",
+  "updatedAt": "2026-11-28T01:47:21+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -21,6 +21,16 @@
       "pct": 80,
       "url": "https://store.steampowered.com/app/668580/",
       "steamAppId": "668580"
+    },
+    {
+      "id": "steam-1850570",
+      "title": "DEATH STRANDING DIRECTOR'S CUT",
+      "store": "Steam",
+      "old": 3299,
+      "neu": 824,
+      "pct": 75,
+      "url": "https://store.steampowered.com/app/1850570/",
+      "steamAppId": "1850570"
     },
     {
       "id": "steam-2183900",
@@ -63,44 +73,34 @@
       "steamAppId": "1332010"
     },
     {
-      "id": "steam-4000",
-      "title": "Garry's Mod",
+      "id": "steam-5165650",
+      "title": "Mind the Clown: Reborn",
       "store": "Steam",
-      "old": 750,
-      "neu": 375,
-      "pct": 50,
-      "url": "https://store.steampowered.com/app/4000/",
-      "steamAppId": "4000"
-    },
-    {
-      "id": "steam-5489580",
-      "title": "Everlusting Life - Mascot Calliope",
-      "store": "Steam",
-      "old": 2300,
-      "neu": 1380,
+      "old": 385,
+      "neu": 231,
       "pct": 40,
-      "url": "https://store.steampowered.com/app/5489580/",
-      "steamAppId": "5489580"
+      "url": "https://store.steampowered.com/app/5165650/",
+      "steamAppId": "5165650"
     },
     {
-      "id": "steam-5329820",
-      "title": "Island Sort",
+      "id": "steam-5564710",
+      "title": "HOT HALLOWEEN",
       "store": "Steam",
-      "old": 280,
-      "neu": 182,
+      "old": 195,
+      "neu": 117,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5564710/",
+      "steamAppId": "5564710"
+    },
+    {
+      "id": "steam-4469040",
+      "title": "Catollector",
+      "store": "Steam",
+      "old": 171,
+      "neu": 111,
       "pct": 35,
-      "url": "https://store.steampowered.com/app/5329820/",
-      "steamAppId": "5329820"
-    },
-    {
-      "id": "steam-5484900",
-      "title": "Sinful States of America",
-      "store": "Steam",
-      "old": 490,
-      "neu": 333,
-      "pct": 32,
-      "url": "https://store.steampowered.com/app/5484900/",
-      "steamAppId": "5484900"
+      "url": "https://store.steampowered.com/app/4469040/",
+      "steamAppId": "4469040"
     },
     {
       "id": "steam-1086940",
@@ -113,34 +113,34 @@
       "steamAppId": "1086940"
     },
     {
-      "id": "steam-5592630",
-      "title": "Visual Novel: 3:17 PM",
+      "id": "steam-4997480",
+      "title": "Mapping Creator",
       "store": "Steam",
-      "old": 70,
-      "neu": 49,
+      "old": 395,
+      "neu": 276,
       "pct": 30,
-      "url": "https://store.steampowered.com/app/5592630/",
-      "steamAppId": "5592630"
+      "url": "https://store.steampowered.com/app/4997480/",
+      "steamAppId": "4997480"
     },
     {
-      "id": "steam-5494160",
-      "title": "Taccy: TacFPS Aim Trainer",
+      "id": "steam-4459990",
+      "title": "Screen Survivors",
       "store": "Steam",
-      "old": 360,
-      "neu": 270,
+      "old": 195,
+      "neu": 136,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/4459990/",
+      "steamAppId": "4459990"
+    },
+    {
+      "id": "steam-5364230",
+      "title": "Winky!: Find the Golden Ticket",
+      "store": "Steam",
+      "old": 465,
+      "neu": 348,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/5494160/",
-      "steamAppId": "5494160"
-    },
-    {
-      "id": "steam-3321460",
-      "title": "Crimson Desert Enhanced",
-      "store": "Steam",
-      "old": 4299,
-      "neu": 3439,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/3321460/",
-      "steamAppId": "3321460"
+      "url": "https://store.steampowered.com/app/5364230/",
+      "steamAppId": "5364230"
     }
   ]
 }
