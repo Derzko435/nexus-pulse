@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T15:46:05+03:00",
+ "updatedAt": "2026-11-27T15:35:24+03:00",
  "items": [
   {
    "appid": 5527800,
@@ -25,7 +25,183 @@
    "links": {
     "steam": "https://store.steampowered.com/app/5527800/"
    },
-   "reviews": 647
+   "reviews": 1005
+  },
+  {
+   "appid": 4253570,
+   "title": "Reshine",
+   "date": "2026-11-26",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4253570/646bb149524f3e9fbe8e294fccf88c6d91247ac2/header_alt_assets_1.jpg?t=1795708896",
+   "desc": "Бережно восстанавливайте старые предметы, счищая с них слои пыли, ржавчины и времени. Reshine - это минималистичная расслабляющая игра: используйте ряд инструментов и наблюдайте, как годы въевшейся грязи исчезают на ваших глазах. Без лишних хлопот и давления.",
+   "genres": [
+    "Казуальные игры",
+    "Инди",
+    "Симуляторы"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Quite OK Games",
+   "price": "319 руб.",
+   "url": "https://store.steampowered.com/app/4253570/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4253570/"
+   },
+   "reviews": 245
+  },
+  {
+   "appid": 1799840,
+   "title": "Queen's Domain",
+   "date": "2026-10-30",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1799840/1a209734951f53b019ec9fa03f835def14f2a968/header.jpg?t=1795428375",
+   "desc": "Ретрофэнтезийная экшен-RPG с жестокими боями и упором на исследование мира. Отправьтесь на поиски своего отца, который исчез на таинственном острове Неасид, где силы зла набирают мощь, за каждым углом таится неизведанное, а пробуждение спящей королевы становится всё ближе...",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Freshly Baked Games LLC",
+   "price": "890 руб.",
+   "url": "https://store.steampowered.com/app/1799840/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/1799840/"
+   },
+   "reviews": 12858
+  },
+  {
+   "appid": 4088520,
+   "title": "МурЗавод",
+   "date": "2026-11-26",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088520/cfa33d06dc1a12b549c8df3b8b628f9d4a688727/header_russian.jpg?t=1795764633",
+   "desc": "Добро пожаловать на МУРЗАВОД! Автоматизируйте линии и работайте с ограниченным пространством, чтобы достичь совершенства. Соединяйте станки конвейерными линиями и минимизируйте лапковый труд! Когда мир стоит на краю гибели, ТОЛЬКО КОТЫ-РАБОТЯГИ смогут возродить производство!",
+   "genres": [
+    "Инди",
+    "Симуляторы",
+    "Стратегии"
+   ],
+   "platforms": [
+    "PC",
+    "Mac"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Smola Game Studio",
+   "price": "509 руб.",
+   "url": "https://store.steampowered.com/app/4088520/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4088520/"
+   }
+  },
+  {
+   "appid": 4348910,
+   "title": "Probably Stolen – симулятор магазина в киберпанке",
+   "date": "2026-10-28",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/837d8597c8e8f6c8f75c4b35fc435d780803a922/header.jpg?t=1795024727",
+   "desc": "В этом симуляторе магазина на мрачной киберпанковой космической станции вы будете создавать полезные вещи из хлама, торговать (легально и не очень) товарами сомнительного происхождения и разбираться в отношениях между фракциями. Решайте сами, на что вы готовы пойти, чтобы остаться на плаву.",
+   "genres": [
+    "Инди",
+    "Ролевые игры",
+    "Симуляторы"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Questing Goose Studio",
+   "price": "499 руб.",
+   "url": "https://store.steampowered.com/app/4348910/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4348910/"
+   },
+   "reviews": 40507
+  },
+  {
+   "appid": 1203620,
+   "title": "Enshrouded",
+   "date": "2026-10-15",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/731368301f231d622bd0b1e34afd2afcd86a1dcf/header.jpg?t=1792078032",
+   "desc": "Enshrouded — ролевая игра для одиночного или совместного прохождения, поощряющая креативность. Ваша главная задача — одолеть коварную Пелену, которая поглощает королевство Эмбервэйл. Изучите таинственный мир, создайте уникального героя и постройте или преобразуйте все, что хотите.",
+   "genres": [
+    "Экшены",
+    "Приключенческие игры",
+    "Инди"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Keen Games GmbH",
+   "price": "1599 руб.",
+   "url": "https://store.steampowered.com/app/1203620/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/1203620/"
+   },
+   "reviews": 105724
+  },
+  {
+   "appid": 4115450,
+   "title": "Phantom Blade Zero",
+   "date": "2026-10-28",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/7f882f889630270d3d3fb93825ac6f55b55e7a6c/header.jpg?t=1793261976",
+   "desc": "Phantom Blade Zero от S-GAME – приключения в жанре уся плюс бодрый экшен на базе Unreal Engine 5. Главному герою по имени Соул осталось жить 66 дней. Отбивайтесь от убийц, раскройте мировой заговор и защищайте то, во что верите, ценой жизни.",
+   "genres": [
+    "Экшены",
+    "Ролевые игры"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "S-GAME Studio",
+   "price": "3999 руб.",
+   "url": "https://store.steampowered.com/app/4115450/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4115450/"
+   },
+   "reviews": 144809
+  },
+  {
+   "appid": 5185890,
+   "title": "Zombies Aren't Real",
+   "date": "2026-11-13",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5185890/cd54755b9d15a2cad33471464fb630d6a5363ff0/header.jpg?t=1795454637",
+   "desc": "Zombies Aren't Real — это стратегическая игра в жанре защиты орды, в которой вы развертываете военные силы, пытаясь подавить быстро распространяющуюся инфекцию зомби и спасти как можно больше мирных жителей!",
+   "genres": [
+    "Стратегии",
+    "Ранний доступ"
+   ],
+   "platforms": [
+    "PC",
+    "Mac"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Jogamedev",
+   "price": "245 руб.",
+   "url": "https://store.steampowered.com/app/5185890/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/5185890/"
+   },
+   "reviews": 3433
   },
   {
    "appid": 4732690,
@@ -52,86 +228,10 @@
    }
   },
   {
-   "appid": 1799840,
-   "title": "Queen's Domain",
-   "date": "2026-10-30",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1799840/1a209734951f53b019ec9fa03f835def14f2a968/header.jpg?t=1795428375",
-   "desc": "Ретрофэнтезийная экшен-RPG с жестокими боями и упором на исследование мира. Отправьтесь на поиски своего отца, который исчез на таинственном острове Неасид, где силы зла набирают мощь, за каждым углом таится неизведанное, а пробуждение спящей королевы становится всё ближе...",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Инди"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Freshly Baked Games LLC",
-   "price": "890 руб.",
-   "url": "https://store.steampowered.com/app/1799840/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/1799840/"
-   },
-   "reviews": 12320
-  },
-  {
-   "appid": 4348910,
-   "title": "Probably Stolen – симулятор магазина в киберпанке",
-   "date": "2026-10-28",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/837d8597c8e8f6c8f75c4b35fc435d780803a922/header.jpg?t=1795024727",
-   "desc": "В этом симуляторе магазина на мрачной киберпанковой космической станции вы будете создавать полезные вещи из хлама, торговать (легально и не очень) товарами сомнительного происхождения и разбираться в отношениях между фракциями. Решайте сами, на что вы готовы пойти, чтобы остаться на плаву.",
-   "genres": [
-    "Инди",
-    "Ролевые игры",
-    "Симуляторы"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Questing Goose Studio",
-   "price": "499 руб.",
-   "url": "https://store.steampowered.com/app/4348910/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4348910/"
-   },
-   "reviews": 38742
-  },
-  {
-   "appid": 1203620,
-   "title": "Enshrouded",
-   "date": "2026-10-15",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/731368301f231d622bd0b1e34afd2afcd86a1dcf/header.jpg?t=1792078032",
-   "desc": "Enshrouded — ролевая игра для одиночного или совместного прохождения, поощряющая креативность. Ваша главная задача — одолеть коварную Пелену, которая поглощает королевство Эмбервэйл. Изучите таинственный мир, создайте уникального героя и постройте или преобразуйте все, что хотите.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Инди"
-   ],
-   "platforms": [
-    "PC",
-    "PlayStation"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Keen Games GmbH",
-   "price": "1599 руб.",
-   "url": "https://store.steampowered.com/app/1203620/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/1203620/"
-   },
-   "reviews": 105164
-  },
-  {
    "appid": 5472080,
    "title": "SHRED A BILLION",
    "date": "2026-11-24",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5472080/4584864fda356b4d391b69cc2c0ea73bc286db3d/header.jpg?t=1795542942",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5472080/4584864fda356b4d391b69cc2c0ea73bc286db3d/header.jpg?t=1795766675",
    "desc": "SHRED A BILLION — инкрементальная игра от первого лица про гору денег! Хватай купюры руками, греби их ведром, прокачивайся и скорми шредеру миллиард долларов. Осталось всего-то 999.999.999 купюр!",
    "genres": [
     "Казуальные игры",
@@ -150,32 +250,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/5472080/"
    },
-   "reviews": 981
-  },
-  {
-   "appid": 4115450,
-   "title": "Phantom Blade Zero",
-   "date": "2026-10-28",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/7f882f889630270d3d3fb93825ac6f55b55e7a6c/header.jpg?t=1793261976",
-   "desc": "Phantom Blade Zero от S-GAME – приключения в жанре уся плюс бодрый экшен на базе Unreal Engine 5. Главному герою по имени Соул осталось жить 66 дней. Отбивайтесь от убийц, раскройте мировой заговор и защищайте то, во что верите, ценой жизни.",
-   "genres": [
-    "Экшены",
-    "Ролевые игры"
-   ],
-   "platforms": [
-    "PC",
-    "PlayStation"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "S-GAME Studio",
-   "price": "3999 руб.",
-   "url": "https://store.steampowered.com/app/4115450/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4115450/"
-   },
-   "reviews": 141016
+   "reviews": 1441
   },
   {
    "appid": 4576490,
@@ -200,55 +275,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4576490/"
    },
-   "reviews": 9201
-  },
-  {
-   "appid": 4009490,
-   "title": "Arctic Drive",
-   "date": "2026-11-25",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4009490/aed480407ed537b798a2dfa23ec840b4507a2b64/header.jpg?t=1795610102",
-   "desc": "Исследуйте Арктику и выживайте там, где лишь автомобиль поддерживает в вас жизнь. Arctic Drive — кооперативный симулятор выживания для 1–4 игроков в процедурно генерируемой зимней глуши. Ищите припасы, чините машину и двигайтесь дальше с одной надеждой: где-то там должно быть безопасное место.",
-   "genres": [
-    "Приключенческие игры",
-    "Гонки",
-    "Симуляторы"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Pebbles Games, PlayTogether Studio",
-   "price": "890 руб.",
-   "url": "https://store.steampowered.com/app/4009490/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4009490/"
-   }
-  },
-  {
-   "appid": 4738220,
-   "title": "NGL Biathlon 2027",
-   "date": "2026-11-25",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4738220/e654da3b683e2ee8089c95814ba297eba12742fa/header_russian.jpg?t=1795676379",
-   "desc": "NGL Biathlon 2027 — симулятор биатлона. Выступайте за любимого спортсмена, развивайте его в карьере от юниора до Большого хрустального глобуса, собирайте свои турниры и соревнуйтесь с живыми игроками онлайн. Все дисциплины, включая эстафеты, и 15 трасс",
-   "genres": [
-    "Симуляторы",
-    "Спорт"
-   ],
-   "platforms": [
-    "PC",
-    "Mac"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "NordicGamesLab",
-   "price": "1039 руб.",
-   "url": "https://store.steampowered.com/app/4738220/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4738220/"
-   }
+   "reviews": 9753
   },
   {
    "appid": 3629430,
@@ -273,33 +300,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/3629430/"
    },
-   "reviews": 2841
-  },
-  {
-   "appid": 5057800,
-   "title": "When Chests Rain Tons of Loot",
-   "date": "2026-11-25",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5057800/b5d39447154225bb636567d630130f43ab161c7c/header.jpg?t=1795645131",
-   "desc": "Инкрементальная игра о добыче: бросай героев на орды слизней. Они сражаются, а ты собираешь добычу и наполняешь сундук с сокровищами. Когда время выходит, он взрывается и обрушивает всё обратно дождём. Улучшай войско в огромном древе навыков и иди за ещё большим уловом.",
-   "genres": [
-    "Казуальные игры",
-    "Инди",
-    "Стратегии"
-   ],
-   "platforms": [
-    "PC",
-    "Mac",
-    "Linux"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "LeenGameDev",
-   "price": "288 руб.",
-   "url": "https://store.steampowered.com/app/5057800/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/5057800/"
-   }
+   "reviews": 2941
   },
   {
    "appid": "x-a-bird-story",
