@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T02:46:46+03:00",
+  "updatedAt": "2026-11-27T07:20:15+03:00",
   "source": "steam-store-appdetails",
   "count": 37,
   "apps": [
@@ -488,22 +488,6 @@
       "short_description": "Обретите сверхчеловеческую мощь космодесантника. Пустите в ход смертоносные навыки и разрушительное оружие, чтобы истребить безжалостных тиранидов. Защитите Империум в ярких одиночных боях или многопользовательских режимах с видом от третьего лица."
     },
     {
-      "appid": "1603731",
-      "name": "Steam App 1603731",
-      "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1603731/header.jpg",
-      "genres": [],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "",
-      "catalogId": null,
-      "curated": true
-    },
-    {
       "appid": "72176",
       "name": "Steam App 72176",
       "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/72176/header.jpg",
@@ -536,6 +520,59 @@
       "short_description": "ARC Raiders — многопользовательская игра жанра extraction adventure, действие которой разворачивается в суровом будущем на Земле, атакованной загадочными механическими захватчиками ARC."
     },
     {
+      "appid": "1332010",
+      "name": "Stray",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/71daca1910d664d31240b9623a495e0c0828807f/header.jpg?t=1785424330",
+      "genres": [
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": 82,
+      "short_description": "Потерявшемуся, одинокому, оторванному от семьи бродячему коту предстоит разгадать древнюю тайну, вырваться из давно заброшенного кибергорода и найти дорогу домой."
+    },
+    {
+      "appid": "3636060",
+      "name": "RogueDiceR",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3636060/ffe90f2037c885fe1a2754ed9bc7d90ba4dc5d39/header.jpg?t=1795729223",
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "RogueDiceR is a Roguelite Dice-builder. Buy randomly generated dice and modify their values. Attach stickers to grant special effects or strengthen your dice deck with powerful artifacts. Fight your way through randomly generated dungeons filled with monsters, events and bosses."
+    },
+    {
+      "appid": "3571940",
+      "name": "Demon of the time",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3571940/2e45f4466f7346891ea3d54c51bc34090c141986/header.jpg?t=1795727343",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Сражайтесь с культистами, вооружёнными оружием будущего, в мире древней Японии, где само время вышло из-под контроля. Уничтожайте орды врагов, собирайте священные артефакты и остановите Демона Времени, пока реальность не рухнула."
+    },
+    {
       "appid": "5497300",
       "name": "Fruit Frenzy Clicker",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5497300/3f57ecd42246b46a69b79547a5d95e6517ac5a94/header.jpg?t=1795716949",
@@ -552,24 +589,6 @@
       },
       "metacritic": null,
       "short_description": "Выжимайте сок из фруктов, копите монеты и превратите маленькую лавку в огромную соковую империю! Покупайте улучшения, автоматизируйте производство, собирайте редкие фрукты, исследуйте сады и получайте постоянные бонусы за престиж."
-    },
-    {
-      "appid": "5446340",
-      "name": "Hentai Goth Raven",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5446340/e4b81c76788bd07c086f075f2e2148edfbd9abdf/header.jpg?t=1795715434",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Стратегии"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Hentai Goth Raven — игра для взрослых, сочетающая увлекательные пазлы, откровенные аниме-иллюстрации и атмосферу готической романтики. Познакомьтесь с загадочной готкой Raven, проходите уровни, открывайте её самые смелые образы и пополняйте свою галерею. 🖤🥀"
     },
     {
       "appid": "4255780",
@@ -606,6 +625,24 @@
       "short_description": "Откройте для себя очередную главу легендарной хоррор-саги в совершенно новом формате. Clive Barker’s Hellraiser: Revival выводит хоррор-выживание от первого лица на новый уровень."
     },
     {
+      "appid": "2214824",
+      "name": "Atomic Heart - Blood On Crystal",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2214824/a195abffd4c7dea1bf0521931f41c8364abbd4f8/header.jpg?t=1785772311",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Ролевые игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "DLC#4 «Кровь на Хрустале» входит в Atomic Pass, а также издания Gold и Ultimate Edition. Для запуска требуется основная игра Atomic Heart. Узнайте захватывающую развязку истории Atomic Heart в DLC#4 «Кровь на Хрустале». Ставки высоки как никогда."
+    },
+    {
       "appid": "4773720",
       "name": "A Real Life Party",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4773720/96ce1b1c0fec392d69634e2a3546ab077f692261/header.jpg?t=1795716047",
@@ -621,40 +658,6 @@
       },
       "metacritic": null,
       "short_description": "A 30 minute photographed social disaster. And you're invited!"
-    },
-    {
-      "appid": "3321460",
-      "name": "Crimson Desert Enhanced",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/236f3814be7a97d86831800691b6096d449222a8/header.jpg?t=1794478066",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Crimson Desert – это action adventure игра с открытым миром, действие которой разворачивается на континенте Пайвел. Присоединяйтесь к Клиффу, чтобы вернуть потерянное и спасти мир от надвигающейся угрозы. Исследуйте бескрайние просторы и тайны Бездны, прокладывая свой путь через сражения и открытия."
-    },
-    {
-      "appid": "5463290",
-      "name": "Train Station Staff Simulator",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5463290/d54736e46217aff418f72b7d558e435fbae197cc/header.jpg?t=1795712129",
-      "genres": [
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Симулятор от первого лица: работа на маленькой новой станции в Японии с одной линией. Откройте станцию утром, помогите у турникетов, объявите о задержке, нажмите аварийную кнопку, если кто-то упал на пути: 60+ видов настоящей станционной работы. Даже с метро рук у вас всего две, и работу вы делите."
     }
   ]
 }

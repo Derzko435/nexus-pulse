@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T02:46:51+03:00",
+  "updatedAt": "2026-11-27T07:20:20+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -73,24 +73,14 @@
       "steamAppId": "3636060"
     },
     {
-      "id": "steam-3571940",
-      "title": "Demon of the time",
+      "id": "steam-4308270",
+      "title": "Hunter Road",
       "store": "Steam",
-      "old": 275,
-      "neu": 165,
-      "pct": 40,
-      "url": "https://store.steampowered.com/app/3571940/",
-      "steamAppId": "3571940"
-    },
-    {
-      "id": "steam-5497300",
-      "title": "Fruit Frenzy Clicker",
-      "store": "Steam",
-      "old": 245,
-      "neu": 159,
-      "pct": 35,
-      "url": "https://store.steampowered.com/app/5497300/",
-      "steamAppId": "5497300"
+      "old": 500,
+      "neu": 315,
+      "pct": 37,
+      "url": "https://store.steampowered.com/app/4308270/",
+      "steamAppId": "4308270"
     },
     {
       "id": "steam-1086940",
@@ -103,44 +93,54 @@
       "steamAppId": "1086940"
     },
     {
-      "id": "steam-4255780",
-      "title": "No Mercy",
+      "id": "steam-5417420",
+      "title": "やさ死くシて",
       "store": "Steam",
-      "old": 450,
-      "neu": 315,
-      "pct": 30,
-      "url": "https://store.steampowered.com/app/4255780/",
-      "steamAppId": "4255780"
+      "old": 245,
+      "neu": 173,
+      "pct": 29,
+      "url": "https://store.steampowered.com/app/5417420/",
+      "steamAppId": "5417420"
     },
     {
-      "id": "steam-1551980",
-      "title": "Clive Barker's Hellraiser: Revival",
+      "id": "steam-5230320",
+      "title": "The Legend of Legendaria: Where Legends are Born",
       "store": "Steam",
-      "old": 2399,
-      "neu": 1799,
+      "old": 245,
+      "neu": 183,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/1551980/",
-      "steamAppId": "1551980"
+      "url": "https://store.steampowered.com/app/5230320/",
+      "steamAppId": "5230320"
     },
     {
-      "id": "steam-2214824",
-      "title": "Atomic Heart - Blood On Crystal",
+      "id": "steam-3321460",
+      "title": "Crimson Desert Enhanced",
       "store": "Steam",
-      "old": 399,
-      "neu": 299,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/2214824/",
-      "steamAppId": "2214824"
+      "old": 4299,
+      "neu": 3439,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/3321460/",
+      "steamAppId": "3321460"
     },
     {
-      "id": "steam-4773720",
-      "title": "A Real Life Party",
+      "id": "steam-4013270",
+      "title": "The False Alice -Retold Tale-",
       "store": "Steam",
-      "old": 299,
-      "neu": 224,
-      "pct": 25,
-      "url": "https://store.steampowered.com/app/4773720/",
-      "steamAppId": "4773720"
+      "old": 1150,
+      "neu": 920,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/4013270/",
+      "steamAppId": "4013270"
+    },
+    {
+      "id": "steam-4019220",
+      "title": "Dressmaker",
+      "store": "Steam",
+      "old": 666,
+      "neu": 532,
+      "pct": 20,
+      "url": "https://store.steampowered.com/app/4019220/",
+      "steamAppId": "4019220"
     }
   ]
 }
