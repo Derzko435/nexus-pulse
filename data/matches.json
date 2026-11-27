@@ -1,22 +1,392 @@
 {
- "updatedAt": "2026-11-27T16:11:27+03:00",
+ "updatedAt": "2026-11-28T02:45:33+03:00",
  "source": "bo3.gg",
  "matches": [
   {
-   "id": "bo3-134345",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "PARIVISION",
-   "teamB": "Team Liquid",
-   "logoA": "https://files.bo3.gg/uploads/team/18604/image/webp-6ff7974f420e977381734ce06515692b.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16721/image/webp-dad0330773871073290e08d7d5baa9dc.webp",
-   "scoreA": 1,
-   "scoreB": 1,
+   "id": "bo3-134934",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "2GAME Esports",
+   "teamB": "Mafiosos",
+   "logoA": "https://files.bo3.gg/uploads/team/10171/image/webp-b915fcb9b6df5eef0e7e35c31d0c645a.webp",
+   "logoB": "",
+   "scoreA": 0,
+   "scoreB": 0,
    "bo": 3,
    "status": "live",
+   "event": "VCT 2027: Americas Kickoff: Brazil - Qualifier Playoffs",
+   "tier": "A",
+   "startsAt": "2026-11-28T02:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    },
+    {
+     "type": "kick",
+     "channel": "valorant_br",
+     "lang": "pt",
+     "official": true,
+     "label": "valorant_br"
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/2game-esports-vs-mafiosos-27-11-2026"
+  },
+  {
+   "id": "bo3-134399",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "FUT",
+   "teamB": "FlyQuest",
+   "logoA": "https://files.bo3.gg/uploads/team/20832/image/webp-3c31da5dd03e58f5041420c56c14ed52.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/10398/image/webp-107b435e36c92fdda2ade7d3a01046ae.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 1,
+   "status": "upcoming",
+   "event": "PGL Major Singapore 2026 Stage 2",
+   "tier": "S",
+   "startsAt": "2026-11-28T07:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl"
+    },
+    {
+     "type": "twitch",
+     "channel": "trottah",
+     "lang": "en",
+     "official": true,
+     "label": "trottah"
+    },
+    {
+     "type": "kick",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl"
+    },
+    {
+     "type": "twitch",
+     "channel": "officialhyper",
+     "lang": "pl",
+     "official": true,
+     "label": "officialhyper"
+    }
+   ],
+   "url": "https://bo3.gg/matches/fut-cs2-vs-flyquest-28-11-2026"
+  },
+  {
+   "id": "bo3-134405",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "The MongolZ",
+   "teamB": "Lynn Vision",
+   "logoA": "https://files.bo3.gg/uploads/team/736/image/webp-499cad826b4cd83ce22f8bd2b13261d6.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/476/image/webp-dc07b6696fe9fa7c009eea7649fe1985.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 1,
+   "status": "upcoming",
+   "event": "PGL Major Singapore 2026 Stage 2",
+   "tier": "S",
+   "startsAt": "2026-11-28T07:00:00+03:00",
+   "streams": [
+    {
+     "type": "kick",
+     "channel": "watchfultvb",
+     "lang": "ru",
+     "official": true,
+     "label": "watchfultvb"
+    },
+    {
+     "type": "twitch",
+     "channel": "pgl2",
+     "lang": "en",
+     "official": true,
+     "label": "pgl2"
+    },
+    {
+     "type": "kick",
+     "channel": "pglcs2",
+     "lang": "en",
+     "official": true,
+     "label": "pglcs2"
+    },
+    {
+     "type": "twitch",
+     "channel": "bysl4m",
+     "lang": "ru",
+     "official": false,
+     "label": "bysl4m"
+    }
+   ],
+   "url": "https://bo3.gg/matches/the-mongolz-vs-lynn-vision-28-11-2026"
+  },
+  {
+   "id": "bo3-134400",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Nemiga",
+   "teamB": "Ninjas in Pyjamas",
+   "logoA": "https://files.bo3.gg/uploads/team/655/image/webp-998a59d1bbae3fd5e32b1e46a3f6204e.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/785/image/webp-d03dcb2f765afe8ad74a619984e5adcd.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 1,
+   "status": "upcoming",
+   "event": "PGL Major Singapore 2026 Stage 2",
+   "tier": "S",
+   "startsAt": "2026-11-28T08:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "trottah",
+     "lang": "en",
+     "official": true,
+     "label": "trottah"
+    },
+    {
+     "type": "twitch",
+     "channel": "cosiq",
+     "lang": "pt",
+     "official": true,
+     "label": "cosiq"
+    },
+    {
+     "type": "twitch",
+     "channel": "bysl4m",
+     "lang": "ru",
+     "official": false,
+     "label": "bysl4m"
+    },
+    {
+     "type": "kick",
+     "channel": "heaton",
+     "lang": "en",
+     "official": false,
+     "label": "heaton"
+    }
+   ],
+   "url": "https://bo3.gg/matches/nemiga-vs-nip-28-11-2026"
+  },
+  {
+   "id": "bo3-134403",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Astralis",
+   "teamB": "Imperial",
+   "logoA": "https://files.bo3.gg/uploads/team/794/image/webp-3c221c1ccd05db6a010e09d9f9f0e367.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/1430/image/webp-c1f2d155d75d6d7f397fb61abb1ce1ad.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 1,
+   "status": "upcoming",
+   "event": "PGL Major Singapore 2026 Stage 2",
+   "tier": "S",
+   "startsAt": "2026-11-28T08:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl"
+    },
+    {
+     "type": "kick",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl"
+    },
+    {
+     "type": "twitch",
+     "channel": "krl_stream",
+     "lang": "fr",
+     "official": true,
+     "label": "krl_stream"
+    },
+    {
+     "type": "twitch",
+     "channel": "esport1tv",
+     "lang": "hu",
+     "official": true,
+     "label": "esport1tv"
+    }
+   ],
+   "url": "https://bo3.gg/matches/astralis-vs-imperial-28-11-2026"
+  },
+  {
+   "id": "bo3-134401",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "G2",
+   "teamB": "Liquid",
+   "logoA": "https://files.bo3.gg/uploads/team/793/image/webp-8f844f6a25c797dfe74b411d147983ff.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/790/image/webp-01cca8d35079cb4b21bc25268ac75bae.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 1,
+   "status": "upcoming",
+   "event": "PGL Major Singapore 2026 Stage 2",
+   "tier": "S",
+   "startsAt": "2026-11-28T09:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl"
+    },
+    {
+     "type": "kick",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl"
+    },
+    {
+     "type": "twitch",
+     "channel": "officialhyper",
+     "lang": "pl",
+     "official": true,
+     "label": "officialhyper"
+    },
+    {
+     "type": "twitch",
+     "channel": "krl_stream",
+     "lang": "fr",
+     "official": true,
+     "label": "krl_stream"
+    }
+   ],
+   "url": "https://bo3.gg/matches/g2-vs-liquid-28-11-2026"
+  },
+  {
+   "id": "bo3-134402",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "1win",
+   "teamB": "Eternal Fire",
+   "logoA": "https://files.bo3.gg/uploads/team/238/image/webp-6095482923ef3047986cef1e26fe80fa.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/1527/image/webp-528d013ccb8d81fc2f4725b95ee04516.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 1,
+   "status": "upcoming",
+   "event": "PGL Major Singapore 2026 Stage 2",
+   "tier": "S",
+   "startsAt": "2026-11-28T09:00:00+03:00",
+   "streams": [
+    {
+     "type": "kick",
+     "channel": "watchfultvb",
+     "lang": "ru",
+     "official": true,
+     "label": "watchfultvb"
+    },
+    {
+     "type": "twitch",
+     "channel": "pgl2",
+     "lang": "en",
+     "official": true,
+     "label": "pgl2"
+    },
+    {
+     "type": "kick",
+     "channel": "pglcs2",
+     "lang": "en",
+     "official": true,
+     "label": "pglcs2"
+    },
+    {
+     "type": "twitch",
+     "channel": "vilacattv",
+     "lang": "pt",
+     "official": true,
+     "label": "vilacattv"
+    }
+   ],
+   "url": "https://bo3.gg/matches/1win-vs-eternal-fire-28-11-2026"
+  },
+  {
+   "id": "bo3-134404",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "Natus Vincere",
+   "teamB": "PARIVISION",
+   "logoA": "https://files.bo3.gg/uploads/team/787/image/webp-ea9885f81f1572c7a6c9fb6cbf747c99.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/8171/image/webp-735594256ca5670882480debe25ffb69.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 1,
+   "status": "upcoming",
+   "event": "PGL Major Singapore 2026 Stage 2",
+   "tier": "S",
+   "startsAt": "2026-11-28T10:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/natus-vincere-vs-parivision-28-11-2026"
+  },
+  {
+   "id": "bo3-134406",
+   "game": "CS2",
+   "gameKey": "cs2",
+   "teamA": "MIBR",
+   "teamB": "100 Thieves",
+   "logoA": "https://files.bo3.gg/uploads/team/755/image/webp-09b2efa76c36256f1084539ae6638f45.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/464/image/webp-bd818cfc7eab50ef00569e5874b817fe.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 1,
+   "status": "upcoming",
+   "event": "PGL Major Singapore 2026 Stage 2",
+   "tier": "S",
+   "startsAt": "2026-11-28T10:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "pgl",
+     "lang": "en",
+     "official": true,
+     "label": "pgl",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/matches/mibr-vs-100-thieves-28-11-2026"
+  },
+  {
+   "id": "bo3-134348",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Team Yandex",
+   "teamB": "Team Liquid",
+   "logoA": "https://files.bo3.gg/uploads/team/20951/image/webp-102aceac7404bd2093f9b559afcad7b6.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16721/image/webp-dad0330773871073290e08d7d5baa9dc.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
    "event": "BLAST Slam IX",
    "tier": "S",
-   "startsAt": "2026-11-27T13:00:00+03:00",
+   "startsAt": "2026-11-28T14:30:00+03:00",
    "streams": [
     {
      "type": "twitch",
@@ -27,7 +397,491 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/dota2/matches/parivision-dota2-vs-team-liquid-dota2-27-11-2026"
+   "url": "https://bo3.gg/dota2/matches/team-yandex-vs-team-liquid-dota2-28-11-2026"
+  },
+  {
+   "id": "bo3-134349",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "1w Team",
+   "teamB": "PARIVISION",
+   "logoA": "https://files.bo3.gg/uploads/team/15038/image/webp-9df00f89ea17c5d1512eff71fcbce70f.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/18604/image/webp-6ff7974f420e977381734ce06515692b.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "BLAST Slam IX",
+   "tier": "S",
+   "startsAt": "2026-11-28T18:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "blastpremier",
+     "lang": "en",
+     "official": true,
+     "label": "blastpremier",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/1win-dota2-vs-parivision-dota2-28-11-2026"
+  },
+  {
+   "id": "bo3-135194",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "UCAM Esports Club",
+   "teamB": "WIP Esports",
+   "logoA": "https://files.bo3.gg/uploads/team/7140/image/webp-fe14ab352ddcdecc993868c0803ca075.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/21040/image/webp-38ed72067b9733e0d1048dae8568ddd3.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VCT 2027: EMEA Kickoff: Europe - Qualifier Playoffs",
+   "tier": "A",
+   "startsAt": "2026-11-28T19:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/ucam-esports-club-vs-wip-esports-28-11-2026"
+  },
+  {
+   "id": "bo3-135196",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "CGN Esports",
+   "teamB": "F9 EICAR",
+   "logoA": "https://files.bo3.gg/uploads/team/6845/image/webp-67eb2ee048797b791684fc860913308f.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/20561/image/webp-54846af0debc33bcd2fc24d77fb4a8c4.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VCT 2027: EMEA Kickoff: Europe - Qualifier Playoffs",
+   "tier": "A",
+   "startsAt": "2026-11-28T19:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/cgn-esports-vs-f9-eicar-28-11-2026"
+  },
+  {
+   "id": "bo3-135195",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "Barça eSports",
+   "teamB": "Joblife",
+   "logoA": "https://files.bo3.gg/uploads/team/9819/image/webp-3edf38da737933fd935107fc1e7cb4e1.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/6501/image/webp-8e7f55a2f5106d00c0fc5aa4798b4709.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VCT 2027: EMEA Kickoff: Europe - Qualifier Playoffs",
+   "tier": "A",
+   "startsAt": "2026-11-28T19:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/barca-esports-vs-joblife-28-11-2026"
+  },
+  {
+   "id": "bo3-135198",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "Enterprise Esports",
+   "teamB": "GIANTX",
+   "logoA": "https://files.bo3.gg/uploads/team/6715/image/webp-04ee699bf3a387a1c2544cf1c8a2e9e7.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/9762/image/webp-07f03929742100476a85f8b9f41de272.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VCT 2027: EMEA Kickoff: Europe - Qualifier Playoffs",
+   "tier": "A",
+   "startsAt": "2026-11-28T21:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/enterprise-esports-1-vs-giantx-28-11-2026"
+  },
+  {
+   "id": "bo3-135199",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "MIR",
+   "teamB": "Pixel Lumina",
+   "logoA": "https://files.bo3.gg/uploads/team/20426/image/webp-c2ba83724a551e4455e244ec77cd879f.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/19034/image/webp-a5808c608e0065089fc5dac49f321f53.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VCT 2027: EMEA Kickoff: Europe - Qualifier Playoffs",
+   "tier": "A",
+   "startsAt": "2026-11-28T21:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/mir-vs-pixel-lumina-28-11-2026"
+  },
+  {
+   "id": "bo3-135197",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "Mandatory",
+   "teamB": "la Masia",
+   "logoA": "https://files.bo3.gg/uploads/team/6820/image/webp-57b8fb3d22793ace14c5c620e7730e35.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/20470/image/webp-24084e0c5c800bb99de011749b2dd0c8.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VCT 2027: EMEA Kickoff: Europe - Qualifier Playoffs",
+   "tier": "A",
+   "startsAt": "2026-11-28T21:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/mandatory-vs-la-masia-28-11-2026"
+  },
+  {
+   "id": "bo3-134935",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "SÓ TEM VELHO",
+   "teamB": "Fluxo W7M",
+   "logoA": "",
+   "logoB": "https://files.bo3.gg/uploads/team/25094/image/webp-cf709484a68dfcd9d53b4afb00b8beba.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VCT 2027: Americas Kickoff: Brazil - Qualifier Playoffs",
+   "tier": "A",
+   "startsAt": "2026-11-28T23:00:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    },
+    {
+     "type": "kick",
+     "channel": "valorant_br",
+     "lang": "pt",
+     "official": true,
+     "label": "valorant_br"
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/so-tem-velho--vs-fluxo-w7m-vlr-28-11-2026"
+  },
+  {
+   "id": "bo3-135068",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "Misa Esports",
+   "teamB": "Fire Flux Esports",
+   "logoA": "https://files.bo3.gg/uploads/team/9593/image/webp-f9da75a398b49739295cca8db27a732c.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/7097/image/webp-77b502c726ab03f92037ee9fa65be9f6.webp",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VCT 2027: EMEA Kickoff: Türkiye - Qualifier Playoffs",
+   "tier": "A",
+   "startsAt": "2026-11-29T17:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    },
+    {
+     "type": "kick",
+     "channel": "valorant_tur",
+     "lang": "tr",
+     "official": false,
+     "label": "valorant_tur"
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/misa-esports-vlr-vs-fire-flux-esports-29-11-2026"
+  },
+  {
+   "id": "bo3-135071",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "Apanthe",
+   "teamB": "Beşiktaş Esports",
+   "logoA": "https://files.bo3.gg/uploads/team/25853/image/webp-e27c3c2717a694ca97fdc139da607857.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/7274/image/5b4e38ebd002f138ec271b301d1f1427.png",
+   "scoreA": 0,
+   "scoreB": 0,
+   "bo": 3,
+   "status": "upcoming",
+   "event": "VCT 2027: EMEA Kickoff: Türkiye - Qualifier Playoffs",
+   "tier": "A",
+   "startsAt": "2026-11-29T20:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    },
+    {
+     "type": "kick",
+     "channel": "valorant_tur",
+     "lang": "tr",
+     "official": false,
+     "label": "valorant_tur"
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/apanthe-vs-besiktas-esports-29-11-2026"
+  },
+  {
+   "id": "bo3-134933",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "Team Solid",
+   "teamB": "BRASIL2002",
+   "logoA": "https://files.bo3.gg/uploads/team/20968/image/webp-11293756880c1c493738011ee2c491cf.webp",
+   "logoB": "",
+   "scoreA": 2,
+   "scoreB": 1,
+   "bo": 3,
+   "status": "finished",
+   "event": "VCT 2027: Americas Kickoff: Brazil - Qualifier Playoffs",
+   "tier": "A",
+   "startsAt": "2026-11-27T23:00:00+03:00",
+   "streams": [
+    {
+     "type": "kick",
+     "channel": "valorant_br",
+     "lang": "pt",
+     "official": true,
+     "label": "valorant_br"
+    },
+    {
+     "type": "youtube",
+     "id": "e_Aqe2buNY4",
+     "lang": "pt",
+     "official": false,
+     "label": "TSS 1x1 BRA | VCT Americas Kickoff 2027: Brazil Qualifiers | Playoffs | Dia 2"
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/team-solid-vlr-vs-brasil2002-27-11-2026"
+  },
+  {
+   "id": "bo3-135193",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "Joblife",
+   "teamB": "NAVI Junior",
+   "logoA": "https://files.bo3.gg/uploads/team/6501/image/webp-8e7f55a2f5106d00c0fc5aa4798b4709.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/23127/image/webp-df76b8068df346ed79b9dff923bb1135.webp",
+   "scoreA": 1,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "VCT 2027: EMEA Kickoff: Europe - Qualifier Playoffs",
+   "tier": "A",
+   "startsAt": "2026-11-27T22:50:00+03:00",
+   "streams": [
+    {
+     "type": "youtube",
+     "id": "pRnYe7JnE6w",
+     "lang": "en",
+     "official": false,
+     "label": "VCT EMEA Kickoff Europe Qualifier Playoffs - Swiss Round 3 - AURR vs MDR | JL vs"
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/joblife-vs-navi-junior-vlr-27-11-2026"
+  },
+  {
+   "id": "bo3-135191",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "GIANTX",
+   "teamB": "WIP Esports",
+   "logoA": "https://files.bo3.gg/uploads/team/9762/image/webp-07f03929742100476a85f8b9f41de272.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/21040/image/webp-38ed72067b9733e0d1048dae8568ddd3.webp",
+   "scoreA": 1,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "VCT 2027: EMEA Kickoff: Europe - Qualifier Playoffs",
+   "tier": "A",
+   "startsAt": "2026-11-27T22:05:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/giantx-vs-wip-esports-27-11-2026"
+  },
+  {
+   "id": "bo3-135192",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "Barça eSports",
+   "teamB": "la Masia",
+   "logoA": "https://files.bo3.gg/uploads/team/9819/image/webp-3edf38da737933fd935107fc1e7cb4e1.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/20470/image/webp-24084e0c5c800bb99de011749b2dd0c8.webp",
+   "scoreA": 2,
+   "scoreB": 1,
+   "bo": 3,
+   "status": "finished",
+   "event": "VCT 2027: EMEA Kickoff: Europe - Qualifier Playoffs",
+   "tier": "A",
+   "startsAt": "2026-11-27T21:50:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/barca-esports-vs-la-masia-27-11-2026"
+  },
+  {
+   "id": "bo3-135190",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "teamA": "xXxMasterProMegaTeamxXx",
+   "teamB": "Pixel Lumina",
+   "logoA": "",
+   "logoB": "https://files.bo3.gg/uploads/team/19034/image/webp-a5808c608e0065089fc5dac49f321f53.webp",
+   "scoreA": 0,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "VCT 2027: EMEA Kickoff: Europe - Qualifier Playoffs",
+   "tier": "A",
+   "startsAt": "2026-11-27T21:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "valorant",
+     "lang": "en",
+     "official": true,
+     "label": "valorant",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/valorant/matches/xxxmasterpromegateamxxx-vs-pixel-lumina-27-11-2026"
+  },
+  {
+   "id": "bo3-134347",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "Aurora Gaming",
+   "teamB": "PARIVISION",
+   "logoA": "https://files.bo3.gg/uploads/team/15143/image/webp-235f54dc6e1d478c8536240a49197cc4.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/18604/image/webp-6ff7974f420e977381734ce06515692b.webp",
+   "scoreA": 1,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "BLAST Slam IX",
+   "tier": "S",
+   "startsAt": "2026-11-27T19:00:00+03:00",
+   "streams": [
+    {
+     "type": "youtube",
+     "id": "LF4ZfZOlods",
+     "lang": "en",
+     "official": false,
+     "label": "BLAST SLAM IX, Playoffs, Day 2 - PARIVISION vs Liquid, 1win vs GamerLegion, Auro"
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/aurora-vs-parivision-dota2-27-11-2026"
+  },
+  {
+   "id": "bo3-134346",
+   "game": "Dota 2",
+   "gameKey": "dota2",
+   "teamA": "GamerLegion",
+   "teamB": "1w Team",
+   "logoA": "https://files.bo3.gg/uploads/team/22027/image/webp-ee0b8db9ff2c256d59eb11b6592e86f5.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/15038/image/webp-9df00f89ea17c5d1512eff71fcbce70f.webp",
+   "scoreA": 0,
+   "scoreB": 2,
+   "bo": 3,
+   "status": "finished",
+   "event": "BLAST Slam IX",
+   "tier": "S",
+   "startsAt": "2026-11-27T16:30:00+03:00",
+   "streams": [
+    {
+     "type": "twitch",
+     "channel": "blastpremier",
+     "lang": "en",
+     "official": true,
+     "label": "blastpremier",
+     "fallback": true
+    }
+   ],
+   "url": "https://bo3.gg/dota2/matches/gamerlegion-dota2-vs-1win-dota2-27-11-2026"
   },
   {
    "id": "bo3-134398",
@@ -37,10 +891,10 @@
    "teamB": "100 Thieves",
    "logoA": "https://files.bo3.gg/uploads/team/7430/image/webp-962834dcfa8bef22f2c4cbdbf777bfbf.webp",
    "logoB": "https://files.bo3.gg/uploads/team/464/image/webp-bd818cfc7eab50ef00569e5874b817fe.webp",
-   "scoreA": 0,
-   "scoreB": 1,
+   "scoreA": 1,
+   "scoreB": 2,
    "bo": 3,
-   "status": "live",
+   "status": "finished",
    "event": "PGL Major Singapore 2026 Stage 1",
    "tier": "S",
    "startsAt": "2026-11-27T15:10:00+03:00",
@@ -77,20 +931,20 @@
    "url": "https://bo3.gg/matches/m80-cs-go-vs-100-thieves-27-11-2026"
   },
   {
-   "id": "bo3-134346",
+   "id": "bo3-134345",
    "game": "Dota 2",
    "gameKey": "dota2",
-   "teamA": "GamerLegion",
-   "teamB": "1w Team",
-   "logoA": "https://files.bo3.gg/uploads/team/22027/image/webp-ee0b8db9ff2c256d59eb11b6592e86f5.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/15038/image/webp-9df00f89ea17c5d1512eff71fcbce70f.webp",
-   "scoreA": 0,
-   "scoreB": 0,
+   "teamA": "PARIVISION",
+   "teamB": "Team Liquid",
+   "logoA": "https://files.bo3.gg/uploads/team/18604/image/webp-6ff7974f420e977381734ce06515692b.webp",
+   "logoB": "https://files.bo3.gg/uploads/team/16721/image/webp-dad0330773871073290e08d7d5baa9dc.webp",
+   "scoreA": 1,
+   "scoreB": 2,
    "bo": 3,
-   "status": "upcoming",
+   "status": "finished",
    "event": "BLAST Slam IX",
    "tier": "S",
-   "startsAt": "2026-11-27T16:30:00+03:00",
+   "startsAt": "2026-11-27T13:00:00+03:00",
    "streams": [
     {
      "type": "twitch",
@@ -101,453 +955,7 @@
      "fallback": true
     }
    ],
-   "url": "https://bo3.gg/dota2/matches/gamerlegion-dota2-vs-1win-dota2-27-11-2026"
-  },
-  {
-   "id": "bo3-135187",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "MIR",
-   "teamB": "F9 EICAR",
-   "logoA": "https://files.bo3.gg/uploads/team/20426/image/webp-c2ba83724a551e4455e244ec77cd879f.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/20561/image/webp-54846af0debc33bcd2fc24d77fb4a8c4.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "VCT 2027: EMEA Kickoff: Europe - Qualifier Playoffs",
-   "tier": "A",
-   "startsAt": "2026-11-27T19:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/mir-vs-f9-eicar-27-11-2026"
-  },
-  {
-   "id": "bo3-135189",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Eintracht Frankfurt",
-   "teamB": "UCAM Esports Club",
-   "logoA": "https://files.bo3.gg/uploads/team/9870/image/webp-79c2789b81a43de90712cd658d105028.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/7140/image/webp-fe14ab352ddcdecc993868c0803ca075.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "VCT 2027: EMEA Kickoff: Europe - Qualifier Playoffs",
-   "tier": "A",
-   "startsAt": "2026-11-27T19:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/eintracht-frankfurt-vs-ucam-esports-club-27-11-2026"
-  },
-  {
-   "id": "bo3-135186",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Aurora Gaming",
-   "teamB": "Mandatory",
-   "logoA": "https://files.bo3.gg/uploads/team/25726/image/webp-8ae166f61beaedbdb4afd9fd27600b64.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/6820/image/webp-57b8fb3d22793ace14c5c620e7730e35.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "VCT 2027: EMEA Kickoff: Europe - Qualifier Playoffs",
-   "tier": "A",
-   "startsAt": "2026-11-27T19:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/aurora-gaming-vlr-vs-mandatory-27-11-2026"
-  },
-  {
-   "id": "bo3-135188",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Enterprise Esports",
-   "teamB": "CGN Esports",
-   "logoA": "https://files.bo3.gg/uploads/team/6715/image/webp-04ee699bf3a387a1c2544cf1c8a2e9e7.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/6845/image/webp-67eb2ee048797b791684fc860913308f.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "VCT 2027: EMEA Kickoff: Europe - Qualifier Playoffs",
-   "tier": "A",
-   "startsAt": "2026-11-27T19:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/enterprise-esports-1-vs-cgn-esports-27-11-2026"
-  },
-  {
-   "id": "bo3-135192",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Barça eSports",
-   "teamB": "la Masia",
-   "logoA": "https://files.bo3.gg/uploads/team/9819/image/webp-3edf38da737933fd935107fc1e7cb4e1.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/20470/image/webp-24084e0c5c800bb99de011749b2dd0c8.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "VCT 2027: EMEA Kickoff: Europe - Qualifier Playoffs",
-   "tier": "A",
-   "startsAt": "2026-11-27T21:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/barca-esports-vs-la-masia-27-11-2026"
-  },
-  {
-   "id": "bo3-135193",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Joblife",
-   "teamB": "NAVI Junior",
-   "logoA": "https://files.bo3.gg/uploads/team/6501/image/webp-8e7f55a2f5106d00c0fc5aa4798b4709.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/23127/image/webp-df76b8068df346ed79b9dff923bb1135.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "VCT 2027: EMEA Kickoff: Europe - Qualifier Playoffs",
-   "tier": "A",
-   "startsAt": "2026-11-27T21:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/joblife-vs-navi-junior-vlr-27-11-2026"
-  },
-  {
-   "id": "bo3-135190",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "xXxMasterProMegaTeamxXx",
-   "teamB": "Pixel Lumina",
-   "logoA": "",
-   "logoB": "https://files.bo3.gg/uploads/team/19034/image/webp-a5808c608e0065089fc5dac49f321f53.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "VCT 2027: EMEA Kickoff: Europe - Qualifier Playoffs",
-   "tier": "A",
-   "startsAt": "2026-11-27T21:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/xxxmasterpromegateamxxx-vs-pixel-lumina-27-11-2026"
-  },
-  {
-   "id": "bo3-135191",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "GIANTX",
-   "teamB": "WIP Esports",
-   "logoA": "https://files.bo3.gg/uploads/team/9762/image/webp-07f03929742100476a85f8b9f41de272.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/21040/image/webp-38ed72067b9733e0d1048dae8568ddd3.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "VCT 2027: EMEA Kickoff: Europe - Qualifier Playoffs",
-   "tier": "A",
-   "startsAt": "2026-11-27T21:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/giantx-vs-wip-esports-27-11-2026"
-  },
-  {
-   "id": "bo3-134933",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Team Solid",
-   "teamB": "BRASIL2002",
-   "logoA": "https://files.bo3.gg/uploads/team/20968/image/webp-11293756880c1c493738011ee2c491cf.webp",
-   "logoB": "",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "VCT 2027: Americas Kickoff: Brazil - Qualifier Playoffs",
-   "tier": "A",
-   "startsAt": "2026-11-27T23:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
-    },
-    {
-     "type": "kick",
-     "channel": "valorant_br",
-     "lang": "pt",
-     "official": true,
-     "label": "valorant_br"
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/team-solid-vlr-vs-brasil2002-27-11-2026"
-  },
-  {
-   "id": "bo3-134934",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "2GAME Esports",
-   "teamB": "Mafiosos",
-   "logoA": "https://files.bo3.gg/uploads/team/10171/image/webp-b915fcb9b6df5eef0e7e35c31d0c645a.webp",
-   "logoB": "",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "upcoming",
-   "event": "VCT 2027: Americas Kickoff: Brazil - Qualifier Playoffs",
-   "tier": "A",
-   "startsAt": "2026-11-28T02:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
-    },
-    {
-     "type": "kick",
-     "channel": "valorant_br",
-     "lang": "pt",
-     "official": true,
-     "label": "valorant_br"
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/2game-esports-vs-mafiosos-27-11-2026"
-  },
-  {
-   "id": "bo3-134400",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Nemiga",
-   "teamB": "Ninjas in Pyjamas",
-   "logoA": "https://files.bo3.gg/uploads/team/655/image/webp-998a59d1bbae3fd5e32b1e46a3f6204e.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/785/image/webp-d03dcb2f765afe8ad74a619984e5adcd.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 1,
-   "status": "upcoming",
-   "event": "PGL Major Singapore 2026 Stage 2",
-   "tier": "S",
-   "startsAt": "2026-11-28T07:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/nemiga-vs-nip-28-11-2026"
-  },
-  {
-   "id": "bo3-134399",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "FUT",
-   "teamB": "FlyQuest",
-   "logoA": "https://files.bo3.gg/uploads/team/20832/image/webp-3c31da5dd03e58f5041420c56c14ed52.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/10398/image/webp-107b435e36c92fdda2ade7d3a01046ae.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 1,
-   "status": "upcoming",
-   "event": "PGL Major Singapore 2026 Stage 2",
-   "tier": "S",
-   "startsAt": "2026-11-28T07:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/fut-cs2-vs-flyquest-28-11-2026"
-  },
-  {
-   "id": "bo3-134401",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "G2",
-   "teamB": "Liquid",
-   "logoA": "https://files.bo3.gg/uploads/team/793/image/webp-8f844f6a25c797dfe74b411d147983ff.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/790/image/webp-01cca8d35079cb4b21bc25268ac75bae.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 1,
-   "status": "upcoming",
-   "event": "PGL Major Singapore 2026 Stage 2",
-   "tier": "S",
-   "startsAt": "2026-11-28T08:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/g2-vs-liquid-28-11-2026"
-  },
-  {
-   "id": "bo3-134402",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "1win",
-   "teamB": "Eternal Fire",
-   "logoA": "https://files.bo3.gg/uploads/team/238/image/webp-6095482923ef3047986cef1e26fe80fa.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/1527/image/webp-528d013ccb8d81fc2f4725b95ee04516.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 1,
-   "status": "upcoming",
-   "event": "PGL Major Singapore 2026 Stage 2",
-   "tier": "S",
-   "startsAt": "2026-11-28T08:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/1win-vs-eternal-fire-28-11-2026"
-  },
-  {
-   "id": "bo3-134404",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Natus Vincere",
-   "teamB": "PARIVISION",
-   "logoA": "https://files.bo3.gg/uploads/team/787/image/webp-ea9885f81f1572c7a6c9fb6cbf747c99.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/8171/image/webp-735594256ca5670882480debe25ffb69.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 1,
-   "status": "upcoming",
-   "event": "PGL Major Singapore 2026 Stage 2",
-   "tier": "S",
-   "startsAt": "2026-11-28T09:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/natus-vincere-vs-parivision-28-11-2026"
-  },
-  {
-   "id": "bo3-134403",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "Astralis",
-   "teamB": "Imperial",
-   "logoA": "https://files.bo3.gg/uploads/team/794/image/webp-3c221c1ccd05db6a010e09d9f9f0e367.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/1430/image/webp-c1f2d155d75d6d7f397fb61abb1ce1ad.webp",
-   "scoreA": 0,
-   "scoreB": 0,
-   "bo": 1,
-   "status": "upcoming",
-   "event": "PGL Major Singapore 2026 Stage 2",
-   "tier": "S",
-   "startsAt": "2026-11-28T09:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "pgl",
-     "lang": "en",
-     "official": true,
-     "label": "pgl",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/matches/astralis-vs-imperial-28-11-2026"
+   "url": "https://bo3.gg/dota2/matches/parivision-dota2-vs-team-liquid-dota2-27-11-2026"
   },
   {
    "id": "bo3-134397",
@@ -642,153 +1050,6 @@
     }
    ],
    "url": "https://bo3.gg/matches/lynn-vision-vs-heroic-27-11-2026"
-  },
-  {
-   "id": "bo3-134932",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Fluxo W7M",
-   "teamB": "Elevate",
-   "logoA": "https://files.bo3.gg/uploads/team/25094/image/webp-cf709484a68dfcd9d53b4afb00b8beba.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/7764/image/webp-06d1b300aad7bcdcb0aa2dc1a8754816.webp",
-   "scoreA": 0,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "VCT 2027: Americas Kickoff: Brazil - Qualifier Playoffs",
-   "tier": "A",
-   "startsAt": "2026-11-27T02:20:00+03:00",
-   "streams": [
-    {
-     "type": "kick",
-     "channel": "valorant_br",
-     "lang": "pt",
-     "official": true,
-     "label": "valorant_br"
-    },
-    {
-     "type": "youtube",
-     "id": "hX3cpS3DvpE",
-     "lang": "pt",
-     "official": false,
-     "label": "VCT Americas Kickoff 2027: Brazil Qualifiers | Playoffs | Dia 1"
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/fluxo-w7m-vlr-vs-elevate-vlr-26-11-2026"
-  },
-  {
-   "id": "bo3-134931",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "SÓ TEM VELHO",
-   "teamB": "Next",
-   "logoA": "",
-   "logoB": "https://files.bo3.gg/uploads/team/22224/image/webp-d8876974303a817967090e59e2fe544b.webp",
-   "scoreA": 1,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "VCT 2027: Americas Kickoff: Brazil - Qualifier Playoffs",
-   "tier": "A",
-   "startsAt": "2026-11-26T23:00:00+03:00",
-   "streams": [
-    {
-     "type": "kick",
-     "channel": "valorant_br",
-     "lang": "pt",
-     "official": true,
-     "label": "valorant_br"
-    },
-    {
-     "type": "youtube",
-     "id": "hX3cpS3DvpE",
-     "lang": "pt",
-     "official": false,
-     "label": "VCT Americas Kickoff 2027: Brazil Qualifiers | Playoffs | Dia 1"
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/so-tem-velho--vs-next-brazil-26-11-2026"
-  },
-  {
-   "id": "bo3-135160",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Mandatory",
-   "teamB": "MIR",
-   "logoA": "https://files.bo3.gg/uploads/team/6820/image/webp-57b8fb3d22793ace14c5c620e7730e35.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/20426/image/webp-c2ba83724a551e4455e244ec77cd879f.webp",
-   "scoreA": 0,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "VCT 2027: EMEA Kickoff: Europe - Qualifier Playoffs",
-   "tier": "A",
-   "startsAt": "2026-11-26T22:45:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/mandatory-vs-mir-26-11-2026"
-  },
-  {
-   "id": "bo3-135156",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Joblife",
-   "teamB": "la Masia",
-   "logoA": "https://files.bo3.gg/uploads/team/6501/image/webp-8e7f55a2f5106d00c0fc5aa4798b4709.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/20470/image/webp-24084e0c5c800bb99de011749b2dd0c8.webp",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "VCT 2027: EMEA Kickoff: Europe - Qualifier Playoffs",
-   "tier": "A",
-   "startsAt": "2026-11-26T22:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/joblife-vs-la-masia-26-11-2026"
-  },
-  {
-   "id": "bo3-135157",
-   "game": "Valorant",
-   "gameKey": "valorant",
-   "teamA": "Eintracht Frankfurt",
-   "teamB": "GIANTX",
-   "logoA": "https://files.bo3.gg/uploads/team/9870/image/webp-79c2789b81a43de90712cd658d105028.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/9762/image/webp-07f03929742100476a85f8b9f41de272.webp",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "VCT 2027: EMEA Kickoff: Europe - Qualifier Playoffs",
-   "tier": "A",
-   "startsAt": "2026-11-26T21:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "valorant",
-     "lang": "en",
-     "official": true,
-     "label": "valorant",
-     "fallback": true
-    }
-   ],
-   "url": "https://bo3.gg/valorant/matches/eintracht-frankfurt-vs-giantx-26-11-2026"
   },
   {
    "id": "bo3-134344",
@@ -957,194 +1218,6 @@
     }
    ],
    "url": "https://bo3.gg/matches/imperial-vs-liquid-26-11-2026"
-  },
-  {
-   "id": "bo3-134342",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "GamerLegion",
-   "teamB": "Aurora Gaming",
-   "logoA": "https://files.bo3.gg/uploads/team/22027/image/webp-ee0b8db9ff2c256d59eb11b6592e86f5.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/15143/image/webp-235f54dc6e1d478c8536240a49197cc4.webp",
-   "scoreA": 2,
-   "scoreB": 0,
-   "bo": 3,
-   "status": "finished",
-   "event": "BLAST Slam IX",
-   "tier": "S",
-   "startsAt": "2026-11-26T13:00:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "blastdota",
-     "lang": "en",
-     "official": true,
-     "label": "blastdota"
-    },
-    {
-     "type": "twitch",
-     "channel": "dota2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "dota2_maincast"
-    },
-    {
-     "type": "twitch",
-     "channel": "betboom_dota_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "betboom_dota_ru"
-    },
-    {
-     "type": "twitch",
-     "channel": "solo",
-     "lang": "ru",
-     "official": false,
-     "label": "solo"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/gamerlegion-dota2-vs-aurora-26-11-2026"
-  },
-  {
-   "id": "bo3-134392",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "teamA": "100 Thieves",
-   "teamB": "9z",
-   "logoA": "https://files.bo3.gg/uploads/team/464/image/webp-bd818cfc7eab50ef00569e5874b817fe.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/324/image/webp-0c639374c5bbd039126737081088a5fc.webp",
-   "scoreA": 2,
-   "scoreB": 1,
-   "bo": 3,
-   "status": "finished",
-   "event": "PGL Major Singapore 2026 Stage 1",
-   "tier": "S",
-   "startsAt": "2026-11-26T12:10:00+03:00",
-   "streams": [
-    {
-     "type": "kick",
-     "channel": "watchfultvb",
-     "lang": "ru",
-     "official": true,
-     "label": "watchfultvb"
-    },
-    {
-     "type": "twitch",
-     "channel": "pgl_cs2",
-     "lang": "en",
-     "official": true,
-     "label": "pgl_cs2"
-    },
-    {
-     "type": "twitch",
-     "channel": "trottah",
-     "lang": "en",
-     "official": true,
-     "label": "trottah"
-    },
-    {
-     "type": "kick",
-     "channel": "pglcs2",
-     "lang": "en",
-     "official": true,
-     "label": "pglcs2"
-    }
-   ],
-   "url": "https://bo3.gg/matches/100-thieves-vs-9z-26-11-2026"
-  },
-  {
-   "id": "bo3-134341",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "OG",
-   "teamB": "Aurora Gaming",
-   "logoA": "https://files.bo3.gg/uploads/team/16714/image/webp-cd2e61b09557041544426a7b536a0856.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/15143/image/webp-235f54dc6e1d478c8536240a49197cc4.webp",
-   "scoreA": 1,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "BLAST Slam IX",
-   "tier": "S",
-   "startsAt": "2026-11-24T20:30:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "blastdota",
-     "lang": "en",
-     "official": true,
-     "label": "blastdota"
-    },
-    {
-     "type": "kick",
-     "channel": "blastdota",
-     "lang": "en",
-     "official": true,
-     "label": "blastdota"
-    },
-    {
-     "type": "twitch",
-     "channel": "dota2_maincast",
-     "lang": "uk",
-     "official": true,
-     "label": "dota2_maincast"
-    },
-    {
-     "type": "twitch",
-     "channel": "betboom_dota_ru",
-     "lang": "ru",
-     "official": false,
-     "label": "betboom_dota_ru"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/og-dota2-vs-aurora-24-11-2026"
-  },
-  {
-   "id": "bo3-134340",
-   "game": "Dota 2",
-   "gameKey": "dota2",
-   "teamA": "Xtreme Gaming",
-   "teamB": "Team Liquid",
-   "logoA": "https://files.bo3.gg/uploads/team/15776/image/webp-10e9cfcdcbb4a0192c4b328975ad6292.webp",
-   "logoB": "https://files.bo3.gg/uploads/team/16721/image/webp-dad0330773871073290e08d7d5baa9dc.webp",
-   "scoreA": 1,
-   "scoreB": 2,
-   "bo": 3,
-   "status": "finished",
-   "event": "BLAST Slam IX",
-   "tier": "S",
-   "startsAt": "2026-11-24T19:20:00+03:00",
-   "streams": [
-    {
-     "type": "twitch",
-     "channel": "betboom_dota_ru2",
-     "lang": "ru",
-     "official": true,
-     "label": "betboom_dota_ru2"
-    },
-    {
-     "type": "twitch",
-     "channel": "blastdotab",
-     "lang": "en",
-     "official": true,
-     "label": "blastdotab"
-    },
-    {
-     "type": "kick",
-     "channel": "blastdotab",
-     "lang": "en",
-     "official": true,
-     "label": "blastdotab"
-    },
-    {
-     "type": "twitch",
-     "channel": "dota2_maincast2",
-     "lang": "uk",
-     "official": true,
-     "label": "dota2_maincast2"
-    }
-   ],
-   "url": "https://bo3.gg/dota2/matches/xtreme-gaming-dota2-vs-team-liquid-dota2-24-11-2026"
   }
  ],
  "tournaments": [
@@ -1171,15 +1244,15 @@
    "url": "https://bo3.gg/valorant/tournaments/vct-2027-americas-kickoff-brazil-qualifier-playoffs"
   },
   {
-   "name": "PGL Major Singapore 2026 Stage 1",
-   "game": "CS2",
-   "gameKey": "cs2",
-   "tier": "S",
+   "name": "VCT 2027: EMEA Kickoff: Türkiye - Qualifier Playoffs",
+   "game": "Valorant",
+   "gameKey": "valorant",
+   "tier": "A",
    "prize": null,
    "start": "2026-11-24",
-   "end": "2026-11-27",
+   "end": "2026-12-06",
    "status": "current",
-   "url": "https://bo3.gg/tournaments/pgl-major-singapore-2026-stage-1"
+   "url": "https://bo3.gg/valorant/tournaments/vct-2027-emea-kickoff-turkiye-qualifier-playoffs"
   },
   {
    "name": "VCT 2027: EMEA Kickoff: Europe - Qualifier Playoffs",
@@ -1200,7 +1273,7 @@
    "prize": 80000,
    "start": "2026-11-28",
    "end": "2026-12-01",
-   "status": "upcoming",
+   "status": "current",
    "url": "https://bo3.gg/tournaments/pgl-major-singapore-2026-stage-2"
   },
   {
