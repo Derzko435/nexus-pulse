@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T07:20:15+03:00",
+  "updatedAt": "2026-11-27T17:00:58+03:00",
   "source": "steam-store-appdetails",
   "count": 37,
   "apps": [
@@ -437,7 +437,7 @@
     {
       "appid": "281990",
       "name": "Stellaris",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/fe615e9253a276211212ce6398199c68455850c9/header_alt_assets_15_russian.jpg?t=1795442199",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/fe615e9253a276211212ce6398199c68455850c9/header_alt_assets_15_russian.jpg?t=1795768358",
       "genres": [
         "Симуляторы",
         "Стратегии"
@@ -555,11 +555,29 @@
       "short_description": "RogueDiceR is a Roguelite Dice-builder. Buy randomly generated dice and modify their values. Attach stickers to grant special effects or strengthen your dice deck with powerful artifacts. Fight your way through randomly generated dungeons filled with monsters, events and bosses."
     },
     {
-      "appid": "3571940",
-      "name": "Demon of the time",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3571940/2e45f4466f7346891ea3d54c51bc34090c141986/header.jpg?t=1795727343",
+      "appid": "4308270",
+      "name": "Hunter Road",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4308270/761fd6f3a376d909b7f761f7055ba6491c3fc9f8/header.jpg?t=1795745179",
       "genres": [
-        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Earn gold by capturing and dismantling monsters? Buy rifles at the shop? Defeated allies vanish forever? Welcome to the new standard of permadeath monster RPGs. Experience a retro, yet refreshingly addictive gaming adventure."
+    },
+    {
+      "appid": "5417420",
+      "name": "やさ死くシて",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5417420/1ec723f9433dd263642d540aa55d02e85e4238a1/header.jpg?t=1795737610",
+      "genres": [
         "Приключенческие игры",
         "Инди"
       ],
@@ -570,94 +588,75 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Сражайтесь с культистами, вооружёнными оружием будущего, в мире древней Японии, где само время вышло из-под контроля. Уничтожайте орды врагов, собирайте священные артефакты и остановите Демона Времени, пока реальность не рухнула."
+      "short_description": "Welcome, Subject 03. It's time for your psychological experiments. Four experiments. 56 endings. Save others, abandon them, or put yourself first. Every choice is yours. A simple game, really. Just decide how to use your kindness. Heh. Can you be kind? To yourself—and to others."
     },
     {
-      "appid": "5497300",
-      "name": "Fruit Frenzy Clicker",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5497300/3f57ecd42246b46a69b79547a5d95e6517ac5a94/header.jpg?t=1795716949",
-      "genres": [
-        "Приключенческие игры",
-        "Казуальные игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Выжимайте сок из фруктов, копите монеты и превратите маленькую лавку в огромную соковую империю! Покупайте улучшения, автоматизируйте производство, собирайте редкие фрукты, исследуйте сады и получайте постоянные бонусы за престиж."
-    },
-    {
-      "appid": "4255780",
-      "name": "No Mercy",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4255780/8c161bc7abe5f64deb3aeea0f4a48d5bccdc9475/header.jpg?t=1795722534",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Инди"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Мрачный шутер от первого лица в стиле Bodycam, в котором неудачная попытка переворота погружает город в хаос. Пробивайтесь через улицы, захваченные бандами, раскройте правду об исчезновении жены и верните то, что у вас отняли, — по одной пуле за раз."
-    },
-    {
-      "appid": "1551980",
-      "name": "Clive Barker's Hellraiser: Revival",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551980/d1e7111b93b6a8b3eb029908887648348c2c55e6/header.jpg?t=1795519744",
-      "genres": [
-        "Экшены"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Откройте для себя очередную главу легендарной хоррор-саги в совершенно новом формате. Clive Barker’s Hellraiser: Revival выводит хоррор-выживание от первого лица на новый уровень."
-    },
-    {
-      "appid": "2214824",
-      "name": "Atomic Heart - Blood On Crystal",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2214824/a195abffd4c7dea1bf0521931f41c8364abbd4f8/header.jpg?t=1785772311",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры",
-        "Ролевые игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "DLC#4 «Кровь на Хрустале» входит в Atomic Pass, а также издания Gold и Ultimate Edition. Для запуска требуется основная игра Atomic Heart. Узнайте захватывающую развязку истории Atomic Heart в DLC#4 «Кровь на Хрустале». Ставки высоки как никогда."
-    },
-    {
-      "appid": "4773720",
-      "name": "A Real Life Party",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4773720/96ce1b1c0fec392d69634e2a3546ab077f692261/header.jpg?t=1795716047",
+      "appid": "5230320",
+      "name": "The Legend of Legendaria: Where Legends are Born",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5230320/37d323fd23d1fbffc5e5d77046783d5d4c3a1afd/header.jpg?t=1795751620",
       "genres": [
         "Инди",
+        "Ролевые игры",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Four hundred years ago the sky broke. Now three townsfolk refuse a warlord his star-tithe, and the long road east begins. A hex-grid tactics RPG in the spirit of an eighties fantasy film: forty heroes to recruit, dragons to raise, and death that sticks."
+    },
+    {
+      "appid": "3321460",
+      "name": "Crimson Desert Enhanced",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/236f3814be7a97d86831800691b6096d449222a8/header.jpg?t=1795743151",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Crimson Desert – это action adventure игра с открытым миром, действие которой разворачивается на континенте Пайвел. Присоединяйтесь к Клиффу, чтобы вернуть потерянное и спасти мир от надвигающейся угрозы. Исследуйте бескрайние просторы и тайны Бездны, прокладывая свой путь через сражения и открытия."
+    },
+    {
+      "appid": "4013270",
+      "name": "The False Alice -Retold Tale-",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4013270/e02e7ef017aa8a9efbb9554ad9acb2ecdeb1a3cb/header.jpg?t=1795742617",
+      "genres": [
+        "Приключенческие игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "This is the trash can where all failed works gather. When you awaken, you come across three false Alices. In order to become the one true Alice, they attempt to kill each other. Who will become the real Alice? This is a visual novel where your decisions, will change the ending of the story."
+    },
+    {
+      "appid": "4019220",
+      "name": "Dressmaker",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/f1cd08127872e60e4c47a4bc3e40d682d94741bf/header.jpg?t=1794041965",
+      "genres": [
+        "Казуальные игры",
         "Симуляторы"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": false,
+        "mac": true,
         "linux": false
       },
       "metacritic": null,
-      "short_description": "A 30 minute photographed social disaster. And you're invited!"
+      "short_description": "Создавайте собственную одежду в милой игре, вдохновлённой работой настоящих портных. Подбирайте ткани, вырезайте детали по выкройкам и шейте из них восхитительные наряды."
     }
   ]
 }

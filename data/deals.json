@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T07:20:20+03:00",
+  "updatedAt": "2026-11-27T17:01:03+03:00",
   "source": "steam-specials-ru",
   "deals": [
     {
@@ -63,24 +63,44 @@
       "steamAppId": "1332010"
     },
     {
-      "id": "steam-3636060",
-      "title": "RogueDiceR",
+      "id": "steam-4000",
+      "title": "Garry's Mod",
       "store": "Steam",
-      "old": 550,
-      "neu": 319,
-      "pct": 42,
-      "url": "https://store.steampowered.com/app/3636060/",
-      "steamAppId": "3636060"
+      "old": 750,
+      "neu": 375,
+      "pct": 50,
+      "url": "https://store.steampowered.com/app/4000/",
+      "steamAppId": "4000"
     },
     {
-      "id": "steam-4308270",
-      "title": "Hunter Road",
+      "id": "steam-5489580",
+      "title": "Everlusting Life - Mascot Calliope",
       "store": "Steam",
-      "old": 500,
-      "neu": 315,
-      "pct": 37,
-      "url": "https://store.steampowered.com/app/4308270/",
-      "steamAppId": "4308270"
+      "old": 2300,
+      "neu": 1380,
+      "pct": 40,
+      "url": "https://store.steampowered.com/app/5489580/",
+      "steamAppId": "5489580"
+    },
+    {
+      "id": "steam-5329820",
+      "title": "Island Sort",
+      "store": "Steam",
+      "old": 280,
+      "neu": 182,
+      "pct": 35,
+      "url": "https://store.steampowered.com/app/5329820/",
+      "steamAppId": "5329820"
+    },
+    {
+      "id": "steam-5484900",
+      "title": "Sinful States of America",
+      "store": "Steam",
+      "old": 490,
+      "neu": 333,
+      "pct": 32,
+      "url": "https://store.steampowered.com/app/5484900/",
+      "steamAppId": "5484900"
     },
     {
       "id": "steam-1086940",
@@ -93,24 +113,24 @@
       "steamAppId": "1086940"
     },
     {
-      "id": "steam-5417420",
-      "title": "やさ死くシて",
+      "id": "steam-5592630",
+      "title": "Visual Novel: 3:17 PM",
       "store": "Steam",
-      "old": 245,
-      "neu": 173,
-      "pct": 29,
-      "url": "https://store.steampowered.com/app/5417420/",
-      "steamAppId": "5417420"
+      "old": 70,
+      "neu": 49,
+      "pct": 30,
+      "url": "https://store.steampowered.com/app/5592630/",
+      "steamAppId": "5592630"
     },
     {
-      "id": "steam-5230320",
-      "title": "The Legend of Legendaria: Where Legends are Born",
+      "id": "steam-5494160",
+      "title": "Taccy: TacFPS Aim Trainer",
       "store": "Steam",
-      "old": 245,
-      "neu": 183,
+      "old": 360,
+      "neu": 270,
       "pct": 25,
-      "url": "https://store.steampowered.com/app/5230320/",
-      "steamAppId": "5230320"
+      "url": "https://store.steampowered.com/app/5494160/",
+      "steamAppId": "5494160"
     },
     {
       "id": "steam-3321460",
@@ -121,26 +141,6 @@
       "pct": 20,
       "url": "https://store.steampowered.com/app/3321460/",
       "steamAppId": "3321460"
-    },
-    {
-      "id": "steam-4013270",
-      "title": "The False Alice -Retold Tale-",
-      "store": "Steam",
-      "old": 1150,
-      "neu": 920,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/4013270/",
-      "steamAppId": "4013270"
-    },
-    {
-      "id": "steam-4019220",
-      "title": "Dressmaker",
-      "store": "Steam",
-      "old": 666,
-      "neu": 532,
-      "pct": 20,
-      "url": "https://store.steampowered.com/app/4019220/",
-      "steamAppId": "4019220"
     }
   ]
 }
