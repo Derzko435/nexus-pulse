@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T01:47:16+03:00",
+  "updatedAt": "2026-11-28T11:05:39+03:00",
   "source": "steam-store-appdetails",
   "count": 37,
   "apps": [
@@ -470,6 +470,23 @@
       "short_description": "Погрузитесь в безумную и прекрасную техноутопию, где вас на каждом шагу поджидает смерть. Выполните порученное вам задание, подстраиваясь под необычных противников, используя элементы окружения и улучшая свой арсенал. Узнайте правду — любой ценой!"
     },
     {
+      "appid": "1850570",
+      "name": "DEATH STRANDING DIRECTOR'S CUT",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/header.jpg?t=1793287496",
+      "genres": [
+        "Экшены",
+        "Приключенческие игры"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": 85,
+      "short_description": "Легендарный творец Хидэо Кодзима представляет окончательную версию DIRECTOR’S CUT знаковой для жанра игры. Действуя от лица Сэма Бриджеса и объединяя последних выживших на территории Америки, вам предстоит возродить надежду человечества. Удастся ли вам шаг за шагом воссоединить разрушенный мир?"
+    },
+    {
       "appid": "2183900",
       "name": "Warhammer 40,000: Space Marine 2",
       "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/6d3f9b4e26774f18941ee447b9912310403f9d9f/header_alt_assets_15_russian.jpg?t=1795711428",
@@ -537,92 +554,108 @@
       "short_description": "Потерявшемуся, одинокому, оторванному от семьи бродячему коту предстоит разгадать древнюю тайну, вырваться из давно заброшенного кибергорода и найти дорогу домой."
     },
     {
-      "appid": "4000",
-      "name": "Garry's Mod",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4000/header.jpg?t=1776868682",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "metacritic": null,
-      "short_description": "Garry's Mod is a physics sandbox. There aren't any predefined aims or goals. We give you the tools and leave you to play."
-    },
-    {
-      "appid": "5489580",
-      "name": "Everlusting Life - Mascot Calliope",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5489580/d8f272853819b3a60f46c464576daf04fcaffd48/header.jpg?t=1795781738",
+      "appid": "5165650",
+      "name": "Mind the Clown: Reborn",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5165650/67543ef2f2552c0ee94b130e869d0a46d868dc56/header.jpg?t=1795822727",
       "genres": [
         "Экшены",
         "Приключенческие игры",
-        "Многопользовательские игры",
-        "Ролевые игры",
-        "Стратегии",
-        "Бесплатные"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Разблокируйте уникального маскота Каллиопу, чтобы видеть её на главном экране каждый раз, когда заходите в игру! Может, именно утонченной музыкантше предстоит стать вашей новой любимицей?"
-    },
-    {
-      "appid": "5329820",
-      "name": "Island Sort",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5329820/edbac6cc2788ab5ed1eed2cd420a6a4158f1e085/header.jpg?t=1795789385",
-      "genres": [
-        "Казуальные игры",
-        "Инди",
-        "Симуляторы"
+        "Инди"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
         "mac": false,
-        "linux": true
+        "linux": false
       },
       "metacritic": null,
-      "short_description": "Пираты разгромили остров! Собирай тысячи разбросанных товаров и раскладывай их по нужным ящикам и полкам в одиночку или в кооперативе на троих. Открывай порталы, раскрывай секреты и соревнуйся с другом в дуэлях по сортировке 1 на 1."
+      "short_description": "Survival horror от первого лица в проклятом цирке, созданном детскими воспоминаниями. Передвигайтесь осторожно и скрывайтесь от демонического клоуна. Исследуйте опасные аттракционы и сжигайте цирковые плакаты, чтобы снять проклятие."
     },
     {
-      "appid": "5484900",
-      "name": "Sinful States of America",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5484900/7f9d4fd019343da39bdef7d80a62a8aa8052b699/header.jpg?t=1795783922",
+      "appid": "5564710",
+      "name": "HOT HALLOWEEN",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5564710/242fc45b5c890e43c7d71a0889739612bc07d6a2/header.jpg?t=1795806556",
       "genres": [
+        "Экшены",
         "Приключенческие игры",
         "Казуальные игры",
         "Инди",
         "Ролевые игры",
-        "Симуляторы"
+        "Симуляторы",
+        "Спорт",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
         "windows": true,
-        "mac": true,
-        "linux": true
+        "mac": false,
+        "linux": false
       },
       "metacritic": null,
-      "short_description": "Одна длинная поездка по Америке — и на каждой остановке новое искушение."
+      "short_description": "HOT HALLOWEEN - это простейшая 2D игра для взрослых, в которой вам предстоит открывать горячие изображения красивых дамочек."
     },
     {
-      "appid": "5592630",
-      "name": "Visual Novel: 3:17 PM",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5592630/b4a08381930eee4576185b310704fee5a527356d/header.jpg?t=1795774468",
+      "appid": "4469040",
+      "name": "Catollector",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4469040/29b247db90c06fbe726ce11a29e77abf24d9b7e8/header.jpg?t=1795802536",
       "genres": [
-        "Экшены",
-        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Catollector - это инкрементальная игра, в который вы играете за котика застрявшего в космосе. Вам нужно, добывая ресурсы и прокачивая персонажа, добыть деталь космического корабля и вернуть котика домой на землю."
+    },
+    {
+      "appid": "4997480",
+      "name": "Mapping Creator",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4997480/5bbebc401f07caa452b1b90889f74e697c803f5d/header.jpg?t=1795802423",
+      "genres": [
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Draw maps, make nations fight and create historical or fantasy timelapses with Mapping Creator: a tool to unleash creativity!"
+    },
+    {
+      "appid": "4459990",
+      "name": "Screen Survivors",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4459990/c319b335377e4921763af03b01c61540e01e1a23/header.jpg?t=1795803862",
+      "genres": [
+        "Казуальные игры",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "metacritic": null,
+      "short_description": "Idle-игра про выживание, которая живёт в углу вашего экрана."
+    },
+    {
+      "appid": "5364230",
+      "name": "Winky!: Find the Golden Ticket",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5364230/2b2c431829b044b979e1342d23e63891b80dc0f4/header.jpg?t=1795801679",
+      "genres": [
         "Казуальные игры",
         "Инди",
-        "Ролевые игры"
+        "Симуляторы",
+        "Стратегии"
       ],
       "is_free": false,
       "platforms": {
@@ -631,40 +664,7 @@
         "linux": false
       },
       "metacritic": null,
-      "short_description": "Ася приезжает на каникулы к дедушке-часовщику в городок Часовец и обнаруживает, что время здесь остановилось ровно в 3:17. Вместе с говорящим котом и мальчиком, собирающим потерянные минутки в банку, вам предстоит подняться на старую башню, разгадать тайну города и вернуть людям их завтрашний день!"
-    },
-    {
-      "appid": "5494160",
-      "name": "Taccy: TacFPS Aim Trainer",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5494160/b5ee16cdf7cd6797b818ccb91e3560d3f6f2774c/header.jpg?t=1795787172",
-      "genres": [
-        "Экшены"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Taccy is a lightweight tactical FPS aim trainer built around actual in-game scenarios. Train corner clears, holds, counter-strafing and aim duels, then replay every rep to see what caused each miss."
-    },
-    {
-      "appid": "3321460",
-      "name": "Crimson Desert Enhanced",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/236f3814be7a97d86831800691b6096d449222a8/header.jpg?t=1795743151",
-      "genres": [
-        "Экшены",
-        "Приключенческие игры"
-      ],
-      "is_free": false,
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": false
-      },
-      "metacritic": null,
-      "short_description": "Crimson Desert – это action adventure игра с открытым миром, действие которой разворачивается на континенте Пайвел. Присоединяйтесь к Клиффу, чтобы вернуть потерянное и спасти мир от надвигающейся угрозы. Исследуйте бескрайние просторы и тайны Бездны, прокладывая свой путь через сражения и открытия."
+      "short_description": "1 Billion chocolate bars! One golden ticket is hidden in a mountain of Winky chocolate bars. Open them, rewrap the chocolate as your own knock-off brand, Wonko!, and sell it. Hire staff, build production lines and grow a factory big enough to find the ticket, alone or with up to three friends."
     }
   ]
 }
