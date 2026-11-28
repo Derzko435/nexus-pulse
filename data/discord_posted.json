@@ -1,18 +1,8 @@
 {
  "about": "Discord auto-feed dedupe state (ids only). Written by scripts/discord_feeds.py.",
- "updatedAt": "2026-11-28T11:30:53+03:00",
+ "updatedAt": "2026-11-28T14:59:28+03:00",
  "posted": {
   "news": [
-   "96e3fe4eafda",
-   "c492e6c980ba",
-   "5b02052895a1",
-   "6dff722ac7aa",
-   "e9db4e392afc",
-   "b7c826b94d63",
-   "6f915d5b7b3c",
-   "7981f81b08c5",
-   "d7e1f19bd9b7",
-   "ea6883878675",
    "63a1810b54e8",
    "a5d2afb112b1",
    "0a8697fb43a2",
@@ -502,7 +492,17 @@
    "a9d60e48324a",
    "a01b98387d18",
    "55356d45b2a7",
-   "ebda7778bec3"
+   "ebda7778bec3",
+   "7c2a82474df7",
+   "a324717d8f92",
+   "b98a024b79a1",
+   "a1ee219fec1f",
+   "847aff5458f1",
+   "50f97c98fbac",
+   "cd0aee8d0ba9",
+   "afe0eb41a590",
+   "6bbe187030f4",
+   "c3a340c3e762"
   ],
   "deals": [
    "steam-246420:90",
@@ -673,12 +673,6 @@
    "epic-0623017cf9f341efbe07557f46beb4e8:now"
   ],
   "esports": [
-   "result:bo3-130748",
-   "result:bo3-129626",
-   "result:bo3-130701",
-   "result:bo3-130749",
-   "digest:2026-10-10",
-   "result:bo3-130747",
    "result:bo3-130699",
    "result:bo3-129627",
    "result:bo3-130750",
@@ -1172,7 +1166,13 @@
    "result:bo3-134345",
    "result:bo3-134346",
    "result:bo3-134347",
-   "result:bo3-134403"
+   "result:bo3-134403",
+   "result:bo3-134407",
+   "result:bo3-134409",
+   "result:bo3-134410",
+   "live:bo3-134348",
+   "live:bo3-134412",
+   "result:bo3-134408"
   ],
   "patches": [
    "helldivers2:2026-09-24",
@@ -1239,9 +1239,6 @@
    "apex:2026-11-27"
   ],
   "videos": [
-   "YbnEyX1LfoU",
-   "c51uWCN-mGI",
-   "c0-SqRB6oL4",
    "Mwa_090fvWE",
    "L_8XJUrBe0I",
    "zkkUvH63nvw",
@@ -1738,7 +1735,10 @@
    "k6SGaeTUy5o",
    "DU8ODftMwoQ",
    "qqnhdo_7_x4",
-   "uY-6-pMJwLw"
+   "uY-6-pMJwLw",
+   "F6-8-Re1pCw",
+   "fULaWcaBZ6w",
+   "OCTCcl7Fj2Y"
   ],
   "releases": [
    "week:2026-W39",
@@ -1859,7 +1859,9 @@
   "2026-11-26T15:48+03:00",
   "2026-11-27T15:38+03:00",
   "2026-11-27T15:38+03:00",
-  "2026-11-28T11:30+03:00"
+  "2026-11-28T11:30+03:00",
+  "2026-11-28T14:59+03:00",
+  "2026-11-28T14:59+03:00"
  ],
  "weekly": {
   "gamenight": {
