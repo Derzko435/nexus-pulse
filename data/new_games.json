@@ -1,11 +1,11 @@
 {
- "updatedAt": "2026-11-27T15:35:24+03:00",
+ "updatedAt": "2026-11-28T14:56:45+03:00",
  "items": [
   {
    "appid": 5527800,
    "title": "No Asteroids",
    "date": "2026-11-24",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5527800/d62c870790fcce767edd856ce3e7e6df2a9b1395/header.jpg?t=1795542925",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5527800/d62c870790fcce767edd856ce3e7e6df2a9b1395/header.jpg?t=1795785016",
    "desc": "Через 90 дней астероид врежется в Землю. На тендер правительства пришёл один шахтёр со своей киркой. Денег не просит: астероид сам за себя заплатит. Разбирайте 5 000 000 м³ от первого лица, одни или в онлайн-кооперативе до 8 игроков. Продавайте руду и ставьте на корабль пушки: бьют, пока вы копаете.",
    "genres": [
     "Казуальные игры",
@@ -25,18 +25,17 @@
    "links": {
     "steam": "https://store.steampowered.com/app/5527800/"
    },
-   "reviews": 1005
+   "reviews": 1425
   },
   {
-   "appid": 4253570,
-   "title": "Reshine",
-   "date": "2026-11-26",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4253570/646bb149524f3e9fbe8e294fccf88c6d91247ac2/header_alt_assets_1.jpg?t=1795708896",
-   "desc": "Бережно восстанавливайте старые предметы, счищая с них слои пыли, ржавчины и времени. Reshine - это минималистичная расслабляющая игра: используйте ряд инструментов и наблюдайте, как годы въевшейся грязи исчезают на ваших глазах. Без лишних хлопот и давления.",
+   "appid": 3224600,
+   "title": "Am I Nima",
+   "date": "2026-11-27",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3224600/ec4c212665296bd88ee2cb506455d6b1ceeb2c30/header.jpg?t=1795801195",
+   "desc": "Am I Nima — психологический хоррор, в котором вам нужно убедить свою маму, что вы правда её дочь. Складывайте слова в голове и разговаривайте с их помощью. Заставьте её поверить.",
    "genres": [
-    "Казуальные игры",
-    "Инди",
-    "Симуляторы"
+    "Приключенческие игры",
+    "Инди"
    ],
    "platforms": [
     "PC"
@@ -44,13 +43,13 @@
    "stores": [
     "Steam"
    ],
-   "developer": "Quite OK Games",
-   "price": "319 руб.",
-   "url": "https://store.steampowered.com/app/4253570/",
+   "developer": "HO! Games",
+   "price": "720 руб.",
+   "url": "https://store.steampowered.com/app/3224600/",
    "links": {
-    "steam": "https://store.steampowered.com/app/4253570/"
+    "steam": "https://store.steampowered.com/app/3224600/"
    },
-   "reviews": 245
+   "reviews": 319
   },
   {
    "appid": 1799840,
@@ -75,7 +74,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/1799840/"
    },
-   "reviews": 12858
+   "reviews": 13330
   },
   {
    "appid": 4088520,
@@ -125,7 +124,57 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4348910/"
    },
-   "reviews": 40507
+   "reviews": 42081
+  },
+  {
+   "appid": 4115450,
+   "title": "Phantom Blade Zero",
+   "date": "2026-10-28",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/7f882f889630270d3d3fb93825ac6f55b55e7a6c/header.jpg?t=1793261976",
+   "desc": "Phantom Blade Zero от S-GAME – приключения в жанре уся плюс бодрый экшен на базе Unreal Engine 5. Главному герою по имени Соул осталось жить 66 дней. Отбивайтесь от убийц, раскройте мировой заговор и защищайте то, во что верите, ценой жизни.",
+   "genres": [
+    "Экшены",
+    "Ролевые игры"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "S-GAME Studio",
+   "price": "3999 руб.",
+   "url": "https://store.steampowered.com/app/4115450/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4115450/"
+   },
+   "reviews": 148479
+  },
+  {
+   "appid": 5185890,
+   "title": "Zombies Aren't Real",
+   "date": "2026-11-13",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5185890/cd54755b9d15a2cad33471464fb630d6a5363ff0/header.jpg?t=1795454637",
+   "desc": "Zombies Aren't Real — это стратегическая игра в жанре защиты орды, в которой вы развертываете военные силы, пытаясь подавить быстро распространяющуюся инфекцию зомби и спасти как можно больше мирных жителей!",
+   "genres": [
+    "Стратегии",
+    "Ранний доступ"
+   ],
+   "platforms": [
+    "PC",
+    "Mac"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Jogamedev",
+   "price": "245 руб.",
+   "url": "https://store.steampowered.com/app/5185890/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/5185890/"
+   },
+   "reviews": 3555
   },
   {
    "appid": 1203620,
@@ -151,81 +200,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/1203620/"
    },
-   "reviews": 105724
-  },
-  {
-   "appid": 4115450,
-   "title": "Phantom Blade Zero",
-   "date": "2026-10-28",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/7f882f889630270d3d3fb93825ac6f55b55e7a6c/header.jpg?t=1793261976",
-   "desc": "Phantom Blade Zero от S-GAME – приключения в жанре уся плюс бодрый экшен на базе Unreal Engine 5. Главному герою по имени Соул осталось жить 66 дней. Отбивайтесь от убийц, раскройте мировой заговор и защищайте то, во что верите, ценой жизни.",
-   "genres": [
-    "Экшены",
-    "Ролевые игры"
-   ],
-   "platforms": [
-    "PC",
-    "PlayStation"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "S-GAME Studio",
-   "price": "3999 руб.",
-   "url": "https://store.steampowered.com/app/4115450/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4115450/"
-   },
-   "reviews": 144809
-  },
-  {
-   "appid": 5185890,
-   "title": "Zombies Aren't Real",
-   "date": "2026-11-13",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5185890/cd54755b9d15a2cad33471464fb630d6a5363ff0/header.jpg?t=1795454637",
-   "desc": "Zombies Aren't Real — это стратегическая игра в жанре защиты орды, в которой вы развертываете военные силы, пытаясь подавить быстро распространяющуюся инфекцию зомби и спасти как можно больше мирных жителей!",
-   "genres": [
-    "Стратегии",
-    "Ранний доступ"
-   ],
-   "platforms": [
-    "PC",
-    "Mac"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Jogamedev",
-   "price": "245 руб.",
-   "url": "https://store.steampowered.com/app/5185890/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/5185890/"
-   },
-   "reviews": 3433
-  },
-  {
-   "appid": 4732690,
-   "title": "Arknights: Endfield",
-   "date": "2026-10-14",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4732690/28ddc0e937d3aeae5357541417d2c6af792a85f4/header.jpg?t=1795558796",
-   "desc": "Arknights: Endfield — это трехмерная RPG-стратегия в реальном времени от Gryphline. В ней вам предстоит стать Эндминистратором компании Endfield, исследовать Талос II, а также защитить и расширить границы человеческой цивилизации.",
-   "genres": [
-    "Экшены",
-    "Приключенческие игры",
-    "Ролевые игры"
-   ],
-   "platforms": [
-    "PC"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Hypergryph",
-   "price": "Бесплатно",
-   "url": "https://store.steampowered.com/app/4732690/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/4732690/"
-   }
+   "reviews": 106261
   },
   {
    "appid": 5472080,
@@ -250,7 +225,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/5472080/"
    },
-   "reviews": 1441
+   "reviews": 2028
   },
   {
    "appid": 4576490,
@@ -275,7 +250,32 @@
    "links": {
     "steam": "https://store.steampowered.com/app/4576490/"
    },
-   "reviews": 9753
+   "reviews": 10304
+  },
+  {
+   "appid": 4253570,
+   "title": "Reshine",
+   "date": "2026-11-26",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4253570/646bb149524f3e9fbe8e294fccf88c6d91247ac2/header_alt_assets_1.jpg?t=1795802478",
+   "desc": "Бережно восстанавливайте старые предметы, счищая с них слои пыли, ржавчины и времени. Reshine - это минималистичная расслабляющая игра: используйте ряд инструментов и наблюдайте, как годы въевшейся грязи исчезают на ваших глазах. Без лишних хлопот и давления.",
+   "genres": [
+    "Казуальные игры",
+    "Инди",
+    "Симуляторы"
+   ],
+   "platforms": [
+    "PC"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "Quite OK Games",
+   "price": "319 руб.",
+   "url": "https://store.steampowered.com/app/4253570/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/4253570/"
+   },
+   "reviews": 568
   },
   {
    "appid": 3629430,
@@ -300,7 +300,7 @@
    "links": {
     "steam": "https://store.steampowered.com/app/3629430/"
    },
-   "reviews": 2941
+   "reviews": 3035
   },
   {
    "appid": "x-a-bird-story",
@@ -375,6 +375,56 @@
    "source": "wiki"
   },
   {
+   "appid": "x-it-takes-two",
+   "title": "It Takes Two",
+   "date": "2026-10-15",
+   "image": "https://upload.wikimedia.org/wikipedia/en/a/aa/It_Takes_Two_cover_art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "desc": "It Takes Two — компьютерная игра в жанре action-adventure, разработанная Hazelight Studios и изданная Electronic Arts по программе EA Originals. Выпуск игры на Windows, PlayStation 4, PlayStation 5, Xbox One и Xbox Series X/S состоялся 26 марта 2021 года. Версия игры для Nintendo Switch была…",
+   "genres": [
+    "Экшен-приключение"
+   ],
+   "platforms": [
+    "Switch"
+   ],
+   "stores": [],
+   "developer": "Hazelight Studios",
+   "price": "",
+   "url": "https://ru.wikipedia.org/wiki/It_Takes_Two",
+   "links": {
+    "wiki": "https://ru.wikipedia.org/wiki/It_Takes_Two"
+   },
+   "source": "wiki"
+  },
+  {
+   "appid": 2949320,
+   "title": "Ratatan",
+   "date": "2026-10-15",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2949320/c9c9c3ca114d41226c6007e4ebf9c1f3256b4d78/header.jpg?t=1792489489",
+   "desc": "Ratatan — это ритм-игра, выпущенная 15 октября 2026 года. Название является духовным преемником серии Patapon.",
+   "genres": [
+    "Ритм-игра",
+    "Экшен",
+    "Рогалик"
+   ],
+   "platforms": [
+    "PC",
+    "PlayStation",
+    "Xbox",
+    "Switch"
+   ],
+   "stores": [
+    "Steam"
+   ],
+   "developer": "TVT, Ratata Arts",
+   "price": "1500 руб.",
+   "url": "https://store.steampowered.com/app/2949320/",
+   "links": {
+    "steam": "https://store.steampowered.com/app/2949320/",
+    "wiki": "https://en.wikipedia.org/wiki/Ratatan"
+   },
+   "source": "wiki"
+  },
+  {
    "appid": "x-kururin-paradise",
    "title": "Kururin Paradise",
    "date": "2026-10-14",
@@ -434,58 +484,6 @@
    "url": "https://en.wikipedia.org/wiki/Monster_Rancher_Advance",
    "links": {
     "wiki": "https://en.wikipedia.org/wiki/Monster_Rancher_Advance"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": 3219030,
-   "title": "Planet Zoo 2",
-   "date": "2026-10-13",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219030/a5131aa4b84d04a55e3b9c561d7c886cc22bbe1c/header.jpg?t=1793011606",
-   "desc": "Создайте собственный мир дикой природы в Planet Zoo 2. Стройте уникальные зоопарки по всему миру и заселяйте их удивительными животными, включая летающих птиц и подводных обитателей.",
-   "genres": [
-    "Строительство и менеджмент"
-   ],
-   "platforms": [
-    "PC",
-    "PlayStation",
-    "Xbox"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "Frontier Developments",
-   "price": "",
-   "url": "https://store.steampowered.com/app/3219030/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/3219030/",
-    "wiki": "https://en.wikipedia.org/wiki/Planet_Zoo_2"
-   },
-   "source": "wiki"
-  },
-  {
-   "appid": 2828710,
-   "title": "Valor Mortis",
-   "date": "2026-10-13",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2828710/e729c7f909db5c52ea780923d9b258517162866a/header.jpg?t=1793135279",
-   "desc": "Valor Mortis — компьютерная игра в жанре action RPG, разработанная польской студией One More Level и изданная компанией Lyrical Games. Релиз игры для Windows, PlayStation 5 и Xbox Series X/S состоялся 13 октября 2026 года.",
-   "genres": [
-    "Соулслайк"
-   ],
-   "platforms": [
-    "PC",
-    "PlayStation",
-    "Xbox"
-   ],
-   "stores": [
-    "Steam"
-   ],
-   "developer": "One More Level",
-   "price": "2099 руб.",
-   "url": "https://store.steampowered.com/app/2828710/",
-   "links": {
-    "steam": "https://store.steampowered.com/app/2828710/",
-    "wiki": "https://ru.wikipedia.org/wiki/Valor_Mortis"
    },
    "source": "wiki"
   }
